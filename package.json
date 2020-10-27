@@ -1,0 +1,23 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sellavi-front/Pages.git"
+  },
+  "author": "Zakir Gafiyatov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sellavi-front/Pages/issues"
+  },
+  "homepage": "https://github.com/sellavi-front/Pages#readme"
+}
