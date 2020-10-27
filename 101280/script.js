@@ -1,7 +1,6 @@
 /* eslint-disable operator-linebreak */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
-import 'https://cdn.jsdelivr.net/npm/vue/dist/vue';
 
 window.onload = () => {
   if (
