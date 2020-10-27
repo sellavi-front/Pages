@@ -93,14 +93,14 @@ window.onload = () => {
   /* ======== AUTO CHANGE COLOR CHOISE ======== */
 
   const colors = {
-    красный: 'red',
-    зеленый: 'green',
-    зелёный: 'green',
-    оранжевый: 'orange',
-    черный: 'black',
-    чёрный: 'black',
-    белый: 'white',
-    коричневый: '#964b00',
+    'красный': 'red',
+    'зеленый': 'green',
+    'зелёный': 'green',
+    'оранжевый': 'orange',
+    'черный': 'black',
+    'чёрный': 'black',
+    'белый': 'white',
+    'коричневый': '#964b00',
   };
 
   const rad = document.querySelectorAll('.selectpicker-wrapper>div');
