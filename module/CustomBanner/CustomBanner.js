@@ -1,4 +1,4 @@
-export default (doc, title, linkContent) => {
+const CustomBanner = (doc, title, linkContent) => {
   const banner = doc.querySelector('.custom_banner');
 
   banner.insertAdjacentHTML(
@@ -17,3 +17,5 @@ export default (doc, title, linkContent) => {
       </div>`,
   );
 };
+
+module.exports = CustomBanner;
