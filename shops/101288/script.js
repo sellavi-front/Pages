@@ -1,7 +1,6 @@
-import CustomBanner from '../../modules/CustomBanner.js';
+import CustomBanner from '../../modules/CustomBanner/CustomBanner';
 
 CustomBanner(document, 'NEW IN', 'Смотреть все');
-
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";
 // import "https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js";
 
