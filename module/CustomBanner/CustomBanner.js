@@ -17,4 +17,4 @@ const CustomBanner = (doc, obj) => {
   );
 };
 
-module.exports = CustomBanner;
+export default CustomBanner;

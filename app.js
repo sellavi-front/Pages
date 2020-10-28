@@ -1,3 +1,3 @@
-const CustomBanner = require('./module/CustomBanner/CustomBanner');
+import CustomBanner from './module/CustomBanner/CustomBanner';
 
 console.log(123, CustomBanner);
