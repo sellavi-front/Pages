@@ -1,4 +1,4 @@
-import CustomBanner from '/module/CustomBanner/CustomBanner.js');
+import CustomBanner from '/module/CustomBanner/CustomBanner.js';
 
 const obj = {
   title: 'Title',
