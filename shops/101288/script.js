@@ -1,4 +1,4 @@
-import CustomBanner from 'https://sellavi-front.github.io/Pages/module/CustomBanner/CustomBanner';
+import CustomBanner from 'https://sellavi-front.github.io/Pages/module/CustomBanner';
 
 CustomBanner(document, 'NEW IN', 'Смотреть все');
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";
