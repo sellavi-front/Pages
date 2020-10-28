@@ -4,7 +4,7 @@ const obj = {
   title: 'Title',
   link: 'Link',
   linkContent: 'LinkContent'
-}
+};
 
 CustomBanner(document, obj);
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";

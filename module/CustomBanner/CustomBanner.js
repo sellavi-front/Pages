@@ -15,6 +15,7 @@ const CustomBanner = (doc, obj) => {
         </div>
       </div>`,
   );
+  console.log('banner', banner);
 };
 
 export default CustomBanner;
