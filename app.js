@@ -1,3 +1,3 @@
-import './module/CustomBanner/CustomBanner.js';
+import CustomBanner from './module/CustomBanner/CustomBanner.js';
 
-console.log(123);
+console.log(123, CustomBanner);
