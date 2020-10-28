@@ -18,4 +18,4 @@ const CustomBanner = (doc, title, linkContent) => {
   );
 };
 
-module.exports = CustomBanner;
+export default CustomBanner;
