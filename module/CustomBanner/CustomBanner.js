@@ -17,5 +17,3 @@ const CustomBanner = (doc, title, linkContent) => {
       </div>`,
   );
 };
-
-export default CustomBanner;
