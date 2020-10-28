@@ -1,4 +1,4 @@
-const CustomBanner = require('../../module/CustomBanner/CustomBanner');
+const CustomBanner = require('https://sellavi-front.github.io/Pages/module/CustomBanner/CustomBanner');
 
 CustomBanner(document, 'NEW IN', 'Смотреть все');
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";
