@@ -6,7 +6,7 @@ const CustomBanner = (doc, obj) => {
     `
       <div class="outer-container">
         <div class="banner">
-          <div class="banner__image"></div>
+          <div class="banner__image" style="background: url(${obj.urlImg})"></div>
           <div class="banner__caption">
             <h1>${obj.title}</h1>
             <a href="${obj.link}">
@@ -16,6 +16,4 @@ const CustomBanner = (doc, obj) => {
         </div>
       </div>`,
   );
-
-  banner.style.background.cssText = `background: url(${obj.urlImg})`;
 };
