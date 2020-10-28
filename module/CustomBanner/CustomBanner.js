@@ -9,8 +9,8 @@ const CustomBanner = (doc, obj) => {
           <div class="banner__image"></div>
           <div class="banner__caption">
             <h1>${obj.title}</h1>
-            <a href="#">
-              ${obj.linkContent}
+            <a href="${obj.link}">
+              ${obj.subtitle}
             </a>
           </div>
         </div>
