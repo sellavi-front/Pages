@@ -1,3 +1,3 @@
-import CustomBanner from './module/CustomBanner/CustomBanner';
+const CustomBanner = require('./module/CustomBanner/CustomBanner');
 
-console.log(123);
+console.log(123, CustomBanner);
