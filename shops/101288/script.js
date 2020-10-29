@@ -12,7 +12,7 @@ const obj = {
 const customBanner = new CustomBanner();
 const changeArgree = new ChangeAgreement();
 
-customBanner(document, obj);
+CustomBanner(document, obj);
 
 if (location.href.includes('checkout')) {
   changeArgree(document);
