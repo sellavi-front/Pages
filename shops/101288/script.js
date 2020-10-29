@@ -3,10 +3,12 @@ import CustomBanner from '../../module/CustomBanner/CustomBanner.js';
 const obj = {
   title: 'Title',
   link: 'Link',
-  linkContent: 'LinkContent'
+  linkContent: 'LinkContent',
 };
 
-CustomBanner(document, obj);
+const customBanner = new CustomBanner(document, obj);
+console.log('in shop', customBanner);
+
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";
 // import "https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js";
 

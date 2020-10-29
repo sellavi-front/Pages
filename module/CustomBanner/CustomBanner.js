@@ -1,21 +1,28 @@
-const CustomBanner = (doc, obj) => {
-  const banner = doc.querySelector('.custom_banner');
-  banner.insertAdjacentHTML(
-    'afterbegin',
-    `
+import './CustomBanner.css';
+
+export default class CustomBanner {
+  constructor(doc, obj) {
+    this.doc = doc;
+    this.obj = obj;
+  }
+
+  setTemplate() {
+    return `
       <div class="outer-container">
         <div class="banner">
           <div class="banner__image" style="background: url(${obj.urlImg})"></div>
           <div class="banner__caption">
-            <h1>${obj.title}</h1>
-            <a href="${obj.link}">
-              ${obj.linkContent}
+            <h1>${this.obj.title}</h1>
+            <a href="${this.obj.link}">
+              ${this.obj.linkContent}
             </a>
           </div>
         </div>
-      </div>`,
-  );
-  console.log('banner', banner);
-};
+      </div>`;
+  }
 
-export default CustomBanner;
+  render() {
+    const banner = doc.querySelector('.custom_banner');
+    return banner.insertAdjacentHTML('afterbegin', this.setTemplate);
+  }
+}
