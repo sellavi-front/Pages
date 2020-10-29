@@ -1,4 +1,4 @@
-export default class CustomBanner {
+class CustomBanner {
   constructor(doc, obj) {
     this.doc = doc;
     this.obj = obj;
@@ -31,4 +31,5 @@ const obj = {
   linkContent: 'LinkContent',
 };
 
-new CustomBanner(document, obj);
+const banner = new CustomBanner(document, obj);
+console.log(banner);
