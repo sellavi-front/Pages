@@ -24,3 +24,11 @@ export default class CustomBanner {
     return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }
+
+const obj = {
+  title: 'NEW IN',
+  link: '#',
+  linkContent: 'LinkContent',
+};
+
+new CustomBanner(document, obj);

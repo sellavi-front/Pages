@@ -1,23 +1,23 @@
 // import '../../module/CustomBanner/CustomBanner.css';
 
-import CustomBanner from '../../module/CustomBanner/CustomBanner.js';
-import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
+// import CustomBanner from '../../module/CustomBanner/CustomBanner.js';
+// import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
 
-const obj = {
-  title: 'NEW IN',
-  link: '#',
-  linkContent: 'LinkContent',
-};
+// const obj = {
+  // title: 'NEW IN',
+  // link: '#',
+  // linkContent: 'LinkContent',
+// };
 
-// const customBanner = new CustomBanner();
-const changeArgree = new ChangeAgreement();
+// // const customBanner = new CustomBanner();
+// const changeArgree = new ChangeAgreement();
 
-new CustomBanner(document, obj);
+// new CustomBanner(document, obj);
 
-if (location.href.includes('checkout')) {
-  changeArgree(document);
-}
-console.log('in shop', customBanner, changeArgree);
+// if (location.href.includes('checkout')) {
+  // changeArgree(document);
+// }
+// console.log('in shop', customBanner, changeArgree);
 
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";
 // import "https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js";
