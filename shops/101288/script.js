@@ -1,5 +1,6 @@
 import CustomBanner from '../../module/CustomBanner/CustomBanner.js';
 import '../../module/CustomBanner/CustomBanner.css';
+import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
 
 const obj = {
   title: 'Title',
@@ -8,7 +9,14 @@ const obj = {
 };
 
 const customBanner = new CustomBanner(document, obj);
-console.log('in shop', customBanner);
+const changeArgree = new ChangeAgreement();
+
+customBanner();
+
+if (location.href.includes('checkout')) {
+  changeArgree(document);
+}
+console.log('in shop', customBanner, changeArgree);
 
 // import "https://cdn.jsdelivr.net/npm/vue/dist/vue.js";
 // import "https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js";
