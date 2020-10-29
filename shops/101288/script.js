@@ -9,10 +9,10 @@ const obj = {
   linkContent: 'LinkContent',
 };
 
-const customBanner = new CustomBanner(document, obj);
+const customBanner = new CustomBanner();
 const changeArgree = new ChangeAgreement();
 
-customBanner();
+customBanner(document, obj);
 
 if (location.href.includes('checkout')) {
   changeArgree(document);
