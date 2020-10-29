@@ -1,7 +1,6 @@
 const CustomBanner = (doc, obj) => {
   const banner = doc.querySelector('.custom_banner');
-  banner.insertAdjacentHTML(
-    'afterbegin',
+  banner.innerHTML(
     `
       <div class="outer-container">
         <div class="banner">
