@@ -1,10 +1,11 @@
+// import '../../module/CustomBanner/CustomBanner.css';
+
 import CustomBanner from '../../module/CustomBanner/CustomBanner.js';
-import '../../module/CustomBanner/CustomBanner.css';
 import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
 
 const obj = {
-  title: 'Title',
-  link: 'Link',
+  title: 'NEW IN',
+  link: '#',
   linkContent: 'LinkContent',
 };
 
