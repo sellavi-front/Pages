@@ -21,6 +21,6 @@ export default class CustomBanner {
 
   render() {
     const banner = this.doc.querySelector('.custom_banner');
-    return banner.insertAdjacentHTML('afterbegin', this.setTemplate);
+    return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }
