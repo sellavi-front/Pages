@@ -1,5 +1,3 @@
-import './CustomBanner.css';
-
 export default class CustomBanner {
   constructor(doc, obj) {
     this.doc = doc;
@@ -10,7 +8,7 @@ export default class CustomBanner {
     return `
       <div class="outer-container">
         <div class="banner">
-          <div class="banner__image" style="background: url(${obj.urlImg})"></div>
+          <div class="banner__image" style="background: url(${this.obj.urlImg})"></div>
           <div class="banner__caption">
             <h1>${this.obj.title}</h1>
             <a href="${this.obj.link}">
@@ -22,7 +20,7 @@ export default class CustomBanner {
   }
 
   render() {
-    const banner = doc.querySelector('.custom_banner');
+    const banner = this.doc.querySelector('.custom_banner');
     return banner.insertAdjacentHTML('afterbegin', this.setTemplate);
   }
 }
