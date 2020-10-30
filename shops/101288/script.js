@@ -26,8 +26,13 @@ const bigBanner = new BigBanner(document, obj);
 const fetchApi = new FetchApi(urlFetch, headers);
 
 bigBanner.render();
-const data = fetchApi.getData();
-console.log(data);
+
+fetchApi
+  .getData()
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((e) => console.log('Прозошла ошибка при загрузке данных в магазин --> ', e));
 
 // // const customBanner = new CustomBanner();
 // const changeArgree = new ChangeAgreement();

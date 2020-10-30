@@ -4,10 +4,10 @@ export default class FetchApi {
     this.headers = headers;
   }
 
-  getData() {
+  async getData() {
     fetch(this.url, this.headers)
       .then((res) => res.json())
-      .then((data) => console.log(data.response.data))
+      .then((data) => data.response.data)
       .catch((err) => {
         console.log('Произошла ошибка при подгрузке данных с API --> ', err);
       });
