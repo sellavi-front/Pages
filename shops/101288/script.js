@@ -1,4 +1,4 @@
-import '../../module/CustomBanner/CustomBanner.css';
+import '../../module/BigBanner/BigBanner.css';
 
 import BigBanner from '../../module/BigBanner/BigBanner.js';
 // import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
@@ -9,6 +9,9 @@ const obj = {
   linkContent: 'LinkContent',
 };
 
+const bigBanner = new BigBanner(document, obj);
+
+bigBanner.render();
 // // const customBanner = new CustomBanner();
 // const changeArgree = new ChangeAgreement();
 
