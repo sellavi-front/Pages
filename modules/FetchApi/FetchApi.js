@@ -5,10 +5,15 @@ export default class FetchApi {
   }
 
   async getData() {
-    const result = await fetch(this.url, this.headers);
+    try {
+      const result = await fetch(this.url, this.headers);
+      const data = await result.json();
 
-    const data = await result.json();
-    return data;
+      return data;
+    } catch (e) {
+      console.log('При загрузке данных произошла ошибка -->', e);
+      return e;
+    }
   }
 }
 
