@@ -19,8 +19,9 @@ const headers = {
     'x-token': '0fbdfb-5ceef5-84eac4-f6487c-ac7226',
   },
 };
+// https://cors-anywhere.herokuapp.com/
 
-const urlFetch = 'https://cors-anywhere.herokuapp.com/https://ru.sellavi.com/gateway/categories';
+const urlFetch = 'https://ru.sellavi.com/gateway/categories';
 
 const bigBanner = new BigBanner(document, obj);
 const fetchApi = new FetchApi(urlFetch, headers);
