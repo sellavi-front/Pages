@@ -1,6 +1,8 @@
 // import '../../module/BigBanner/BigBanner.css';
 
-import BigBanner from '../../module/BigBanner/BigBanner.js';
+import BigBanner from '../../modules/BigBanner/BigBanner.js';
+import FetchApi from '../../modules/FetchApi/FetchApi.js';
+
 // import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
 
 const obj = {
@@ -9,16 +11,31 @@ const obj = {
   linkContent: 'LinkContent',
 };
 
+const headers = {
+  method: 'GET',
+  mode: 'cors',
+  headers: {
+    Accept: 'application/json',
+    'x-token': '0fbdfb-5ceef5-84eac4-f6487c-ac7226',
+  },
+};
+
+const urlFetch = 'https://cors-anywhere.herokuapp.com/https://ru.sellavi.com/gateway/categories';
+
 const bigBanner = new BigBanner(document, obj);
+const fetchApi = new FetchApi(urlFetch, headers);
 
 bigBanner.render();
+const data = fetchApi.getData();
+console.log(data);
+
 // // const customBanner = new CustomBanner();
 // const changeArgree = new ChangeAgreement();
 
 // new CustomBanner(document, obj);
 
 // if (location.href.includes('checkout')) {
-  // changeArgree(document);
+// changeArgree(document);
 // }
 // console.log('in shop', customBanner, changeArgree);
 
