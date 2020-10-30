@@ -1,13 +1,13 @@
-// import '../../module/CustomBanner/CustomBanner.css';
+import '../../module/CustomBanner/CustomBanner.css';
 
-// import CustomBanner from '../../module/CustomBanner/CustomBanner.js';
+import BigBanner from '../../module/BigBanner/BigBanner.js';
 // import ChangeAgreement from '../../module/ChangeAgreement/ChangeAgreement.js';
 
-// const obj = {
-  // title: 'NEW IN',
-  // link: '#',
-  // linkContent: 'LinkContent',
-// };
+const obj = {
+  title: 'NEW IN',
+  link: '#',
+  linkContent: 'LinkContent',
+};
 
 // // const customBanner = new CustomBanner();
 // const changeArgree = new ChangeAgreement();

@@ -1,4 +1,4 @@
-class CustomBanner {
+export default class BigBanner {
   constructor(doc, obj) {
     this.doc = doc;
     this.obj = obj;
@@ -24,12 +24,3 @@ class CustomBanner {
     return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }
-
-const obj = {
-  title: 'NEW IN',
-  link: '#',
-  linkContent: 'LinkContent',
-};
-
-const banner = new CustomBanner(document, obj);
-banner.render();
