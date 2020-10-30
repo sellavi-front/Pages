@@ -1,13 +1,14 @@
 import template from './template';
 
 export default class GridBannerGalery {
-  constructor(doc) {
-    this.doc = doc;
+  constructor(elem) {
+    this.elem = elem;
     this.template = template;
   }
 
   render() {
-    const contentArea = this.doc.querySelector('.content-area');
-    contentArea.insertAdjacentHTML('afterbegin', this.template);
+    console.log('this.template ---- ', this.template);
+    console.log('Template ---- ', template);
+    this.elem.insertAdjacentHTML('afterbegin', this.template);
   }
 }
