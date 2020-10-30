@@ -32,4 +32,4 @@ const obj = {
 };
 
 const banner = new CustomBanner(document, obj);
-console.log(banner);
+banner.render();
