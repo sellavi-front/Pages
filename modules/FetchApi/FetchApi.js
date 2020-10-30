@@ -7,7 +7,7 @@ export default class FetchApi {
   async getData() {
     const result = await fetch(this.url, this.headers);
 
-    const data = await result.json;
+    const data = await result.json();
     return data;
   }
 }
