@@ -27,12 +27,7 @@ const fetchApi = new FetchApi(urlFetch, headers);
 
 bigBanner.render();
 
-fetchApi
-  .getData()
-  .then((data) => {
-    console.log(data);
-  })
-  .catch((e) => console.log('Прозошла ошибка при загрузке данных в магазин --> ', e));
+console.log(fetchApi.getData());
 
 // // const customBanner = new CustomBanner();
 // const changeArgree = new ChangeAgreement();
