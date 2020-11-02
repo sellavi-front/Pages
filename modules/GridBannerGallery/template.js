@@ -59,12 +59,7 @@ const template = `
       <div class="grid-banner__item">
         <div class="grid-banner__text-container">
           <img class="grid-banner__img-title" src="https://res.cloudinary.com/gz-company/image/upload/v1604306396/Interno/1280px-Barbie_Logo_1_jrr1g0.png" alt="Barbie">
-          <button class="grid-banner__text-container_discount">
-            <h3 class="grid-banner__text-container_discount_title">Скидка 30%</h3>
-            <span class="grid-banner__text-container_discount_subtitle"
-              >с 1 июля по 1 сентября 2020</span
-            >
-          </button>
+          <p class="grid-banner__text-container_subtitle">куклы для девочек</p>
         </div>
       </div>
     </div>
