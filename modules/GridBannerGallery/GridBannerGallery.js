@@ -6,8 +6,6 @@ export default class GridBannerGalery {
   }
 
   render() {
-    console.log('this.template ---- ', this.template);
-    console.log('Template ---- ', template);
     this.elem.insertAdjacentHTML('afterbegin', this.template);
   }
 }
