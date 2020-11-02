@@ -50,6 +50,7 @@ const template = `
     <div class="grid-banner__item">
       <div class="grid-banner__text-container">
         <h2 class="grid-banner__text-container_title">Электронные книги</h2>
+        <p class="grid-banner__text-container_subtitle">для детей</p>
       </div>
     </div>
   </div>
@@ -57,7 +58,7 @@ const template = `
     <div class="grid-banner grid-banner-6">
       <div class="grid-banner__item">
         <div class="grid-banner__text-container">
-          <h2 class="grid-banner__text-container_title">Barbie</h2>
+          <img class="grid-banner__img-title" src="https://res.cloudinary.com/gz-company/image/upload/v1604306396/Interno/1280px-Barbie_Logo_1_jrr1g0.png" alt="Barbie">
           <button class="grid-banner__text-container_discount">
             <h3 class="grid-banner__text-container_discount_title">Скидка 30%</h3>
             <span class="grid-banner__text-container_discount_subtitle"
