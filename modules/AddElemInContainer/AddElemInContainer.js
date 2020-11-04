@@ -29,7 +29,7 @@ class AddElemInContainer {
 
   delete(item) {
     console.log(item, typeof item);
-    if (typeof item === 'object') item.forEach((e) => e.remove());
+    // if (typeof item === 'object') item.forEach((e) => e.remove());
     item.remove();
   }
 
