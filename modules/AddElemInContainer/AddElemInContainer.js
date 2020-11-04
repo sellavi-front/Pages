@@ -33,8 +33,8 @@ class AddElemInContainer {
   }
 
   copyType(data) {
-    if (typeof data === 'object') return this.copyArr(data);
-    return this.copyEl(data);
+    if (typeof data === 'object') this.copyArr(data);
+    this.copyEl(data);
   }
 
   findElements() {
