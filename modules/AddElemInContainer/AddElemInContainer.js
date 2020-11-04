@@ -19,17 +19,11 @@ class AddElemInContainer {
     [this.el, this.cont] = this.findElements();
   }
 
-  errorHandler(msg) {
-    console.log(msg);
-  }
-
   copyArr(arr) {
-    if (!this.copyType(arr)) this.errorHandler('Элемент не найден или произошла неизвестная ошибка');
     return Array.from(arr);
   }
 
   copyEl(el) {
-    if (!this.copyType(el)) this.errorHandler('Элемент не найден или произошла неизвестная ошибка');
     return el.cloneNode(true);
   }
 
