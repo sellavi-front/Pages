@@ -33,11 +33,13 @@ class AddElemInContainer {
   }
 
   copyType(data) {
+    console.log('copyType =>', data.length);
     if (data.length) this.copyArr(data);
     this.copyEl(data);
   }
 
   findElements() {
+    console.log('findElements => ', this.addElem)
     const elem = this.copyType(this.addElem);
     const cont = this.container;
 
@@ -47,6 +49,7 @@ class AddElemInContainer {
 
   render() {
     console.log('this.cont: ', this.cont);
+    console.log('render this.elem', this.elem);
     //this.cont.forEach((elem, idx) => {
       //console.log('elem', elem);
       //console.log('idx', idx);
