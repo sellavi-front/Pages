@@ -12,7 +12,6 @@ const template = `
               >на всю одежду по промокоду SALE30</span
             >
           </button>
-        </a>
       </div>
     </div>
     </a>
@@ -39,7 +38,6 @@ const template = `
         <div class="grid-banner__item">
           <div class="grid-banner__text-container">
             <h2 class="grid-banner__text-container_title">Мягкие игрушки</h2>
-            <a href="детская-одежда/для-девчонок/">
             <button class="grid-banner__text-container_discount">
               <h3 class="grid-banner__text-container_discount_title">Скидка 30%</h3>
               <span class="grid-banner__text-container_discount_subtitle"
@@ -75,8 +73,8 @@ const template = `
             <p class="grid-banner__text-container_subtitle">куклы для девочек</p>
           </div>
         </div>
-      </div>
-    </a>
+      </a>
+    </div>
     <a href="детская-одежда/для-девчонок/">
       <div class="grid-banner grid-banner-7">
         <div class="grid-banner__item">
