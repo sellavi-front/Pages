@@ -52,6 +52,6 @@ class AddElemInContainer {
       //console.log('idx', idx);
 
       this.cont.insertAdjacentHTML('afterbegin', this.elem);
-    });
+    //});
   }
 }
