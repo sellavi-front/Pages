@@ -46,6 +46,7 @@ class AddElemInContainer {
   }
 
   render() {
+    console.log('this.cont: ', this.cont);
     this.cont.forEach((elem, idx) => {
       console.log('elem', elem);
       console.log('idx', idx);
