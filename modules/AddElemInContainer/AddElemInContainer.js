@@ -34,7 +34,7 @@ class AddElemInContainer {
   }
 
   copyType(data) {
-    console.log('copyType =>', data.length);
+    console.log('copyType =>', this.copyEl(data));
     if (data.length) this.copyArr(data);
     this.copyEl(data);
   }
