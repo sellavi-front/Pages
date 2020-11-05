@@ -51,12 +51,12 @@ class AddElemInContainer {
 
   render() {
     console.log('this.cont: ', this.cont);
-    console.log('render this.elem', this.el);
+    console.log('render this.elem', this.el.outterHTML);
     //this.cont.forEach((elem, idx) => {
       //console.log('elem', elem);
       //console.log('idx', idx);
 
-      this.cont.insertAdjacentHTML('afterbegin', this.el.outterHTML);
+      this.cont.insertAdjacentHTML('afterbegin', this.el);
     //});
   }
 }
