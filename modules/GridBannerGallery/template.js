@@ -75,8 +75,8 @@ const template = `
             <p class="grid-banner__text-container_subtitle">куклы для девочек</p>
           </div>
         </div>
-      </a>
-    </div>
+      </div>
+    </a>
     <a href="детская-одежда/для-девчонок/">
       <div class="grid-banner grid-banner-7">
         <div class="grid-banner__item">
