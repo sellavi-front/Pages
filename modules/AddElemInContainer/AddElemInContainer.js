@@ -16,6 +16,7 @@ class AddElemInContainer {
     this.addElem = addElem;
     this.d = d;
     [this.el, this.cont] = this.findElements();
+    console.log('constructor => ', this.findElements())
   }
 
   copyArr(arr) {
