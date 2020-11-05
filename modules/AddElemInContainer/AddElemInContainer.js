@@ -15,7 +15,7 @@ class AddElemInContainer {
     this.container = container;
     this.addElem = addElem;
     this.d = d;
-
+    console.log('constructor', addElem);
     [this.el, this.cont] = this.findElements();
   }
 
