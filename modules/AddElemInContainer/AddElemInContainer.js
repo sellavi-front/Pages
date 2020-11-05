@@ -28,13 +28,12 @@ class AddElemInContainer {
   }
 
   delete(item) {
-    console.log(item, typeof item);
-    // if (typeof item === 'object') item.forEach((e) => e.remove());
+    if (item.lenth) item.forEach((e) => e.remove());
     item.remove();
   }
 
   copyType(data) {
-    if (typeof data === 'object') this.copyArr(data);
+    if (data.length) this.copyArr(data);
     this.copyEl(data);
   }
 
@@ -47,9 +46,6 @@ class AddElemInContainer {
   }
 
   render() {
-    console.log(this.cont, this.elem);
-    console.log(typeof this.cont, this.elem);
-
     this.cont.forEach((elem, idx) => {
       elem.insertAdjacentHTML('afterbegin', this.el[idx]);
     });
