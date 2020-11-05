@@ -64,28 +64,27 @@ const template = `
       </div>
       </a>
       </div>
-  <div class="grid-banner__two-item">
+      <div class="grid-banner__two-item">
+  <div class="grid-banner grid-banner-6">
     <a href="детская-одежда/для-девчонок/">
-      <div class="grid-banner grid-banner-6">
-        <div class="grid-banner__item">
-          <div class="grid-banner__text-container">
-            <img class="grid-banner__img-title" src="https://res.cloudinary.com/gz-company/image/upload/v1604306396/Interno/1280px-Barbie_Logo_1_jrr1g0.png" alt="Barbie">
-            <p class="grid-banner__text-container_subtitle">куклы для девочек</p>
-          </div>
-        </div>
-      </a>
-    </div>
-      <div class="grid-banner grid-banner-7">
-    <a href="детская-одежда/для-девчонок/">
-
       <div class="grid-banner__item">
-          <div class="grid-banner__text-container">
-            <h2 class="grid-banner__text-container_title">Другие товары</h2>
-          </div>
+        <div class="grid-banner__text-container">
+          <img class="grid-banner__img-title" src="https://res.cloudinary.com/gz-company/image/upload/v1604306396/Interno/1280px-Barbie_Logo_1_jrr1g0.png" alt="Barbie">
+          <p class="grid-banner__text-container_subtitle">куклы для девочек</p>
         </div>
-        </a>
-        </div>
+      </div>
+    </a>
   </div>
+  <div class="grid-banner grid-banner-7">
+    <a href="детская-одежда/для-девчонок/">
+      <div class="grid-banner__item">
+        <div class="grid-banner__text-container">
+          <h2 class="grid-banner__text-container_title">Другие товары</h2>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
   </div>
 `;
 
