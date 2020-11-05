@@ -45,7 +45,7 @@ class AddElemInContainer {
     const elem = this.copyType(this.addElem);
     const cont = this.container;
 
-    this.delete(this.addElem);
+    //this.delete(this.addElem);
     return [elem, cont];
   }
 
