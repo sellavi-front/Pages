@@ -15,15 +15,16 @@ class AddElemInContainer {
     this.container = container;
     this.addElem = addElem;
     this.d = d;
-    console.log('constructor', addElem);
     [this.el, this.cont] = this.findElements();
   }
 
   copyArr(arr) {
+    console.log('copyArr =>', arr);
     return Array.from(arr);
   }
 
   copyEl(el) {
+    console.log('copyEl => ', el);
     return el.cloneNode(true);
   }
 
