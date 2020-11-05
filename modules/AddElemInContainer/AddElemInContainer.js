@@ -47,6 +47,9 @@ class AddElemInContainer {
 
   render() {
     this.cont.forEach((elem, idx) => {
+      console.log('elem', elem);
+      console.log('idx', idx);
+
       elem.insertAdjacentHTML('afterbegin', this.el[idx]);
     });
   }
