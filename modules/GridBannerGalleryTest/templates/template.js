@@ -1,6 +1,5 @@
 function template(c) {
-  return c.map(
-    (data) => `
+  return c.map((data) => `
       <div class="grid-banner ${data.class}">
         <a href="${data.link}">
           <div class="grid-banner__item">
@@ -16,8 +15,7 @@ function template(c) {
             </div>
           </div>
         </a>
-      </div>`,
-  );
+      </div>`);
 }
 
 export default function parentBanner(content) {

@@ -1,6 +1,20 @@
 {
   "extends": "airbnb-base",
   "rules": {
-    "no-underscore-dangle": "off"
- }
+    "no-underscore-dangle": "off",
+    "semi": "error"
+ },
+ "parserOptions": {
+  "ecmaVersion": 6,
+  "sourceType": "module",
+  "ecmaFeatures": {
+      "jsx": true
+  }
+ },
+ "env": {
+  "browser": true,
+  "node": true,
+  "es6": true
+},
+"import/extensions": "always"
 }
