@@ -2,13 +2,15 @@ import parentBanner from './templates/template.js';
 // import './styles/GridBannerGallery.css';
 
 export default class GridBannerGalleryTest {
-  constructor(elem) {
+  constructor(elem, content) {
     this.elem = elem;
-    this.template = parentBanner();
+    this.content = content;
+    console.log(parentBanner);
+    console.log(parentBanner());
   }
 
   render() {
-    console.log(this.template);
-    this.elem.insertAdjacentHTML('afterbegin', this.template);
+    console.log(parentBanner(this.content));
+    this.elem.insertAdjacentHTML('afterbegin', parentBanner(this.content));
   }
 }
