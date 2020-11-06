@@ -1,5 +1,4 @@
 import template from './templates/template.js';
-import './styles/GridBannerGallery.css';
 
 export default class GridBannerGalery {
   constructor(elem) {
