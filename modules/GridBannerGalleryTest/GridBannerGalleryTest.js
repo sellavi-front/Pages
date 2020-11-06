@@ -5,8 +5,6 @@ export default class GridBannerGalleryTest {
   constructor(elem, content) {
     this.elem = elem;
     this.content = content;
-    console.log(parentBanner);
-    console.log(parentBanner());
   }
 
   render() {
