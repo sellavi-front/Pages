@@ -1,5 +1,5 @@
 import template from './templates/template';
-import './styles/GridBannerGallery.css';
+// import './styles/GridBannerGallery.css';
 
 export default class GridBannerGallery {
   constructor(elem) {
