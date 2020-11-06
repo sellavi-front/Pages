@@ -5,7 +5,6 @@ export default class GridBannerGalleryTest {
   constructor(elem) {
     this.elem = elem;
     this.template = template;
-    this.render();
   }
 
   render() {
