@@ -21,5 +21,5 @@ function template(c) {
 }
 
 export default function parentBanner(content) {
-  return template(content);
+  return template(content).concat('');
 }
