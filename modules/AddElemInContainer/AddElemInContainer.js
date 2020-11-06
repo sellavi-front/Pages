@@ -10,7 +10,7 @@
 
 ================================================================================================= */
 
-class AddElemInContainer {
+export default class AddElemInContainer {
   constructor(d, addElem, container) {
     this.container = container;
     this.addElem = addElem;
