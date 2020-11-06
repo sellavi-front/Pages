@@ -2,7 +2,7 @@ import GridBannerGalleryTest from '../../modules/GridBannerGalleryTest/GridBanne
 
 const contentArea = document.querySelector('.titles');
 
-if (location.href === 'https://internokids.ru/sales') {
+if (location.href === 'https://internokids.ru/sales/') {
   const grid = new GridBannerGalleryTest(contentArea);
   grid.render();
 
