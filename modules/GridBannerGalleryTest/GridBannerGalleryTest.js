@@ -11,6 +11,7 @@ export default class GridBannerGalleryTest {
 
   render() {
     console.log(parentBanner(this.content));
-    this.elem.insertAdjacentHTML('afterbegin', parentBanner(this.content));
+    const res = parentBanner(this.content);
+    this.elem.insertAdjacentHTML('afterbegin', `<div class="banner-gallery">${res}</div>`);
   }
 }

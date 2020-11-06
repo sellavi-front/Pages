@@ -21,7 +21,7 @@ function template(c) {
 }
 
 export default function parentBanner(content) {
-  return `<div class="banner-gallery">${template(content)}</div>`;
+  return template(content);
 }
 // const template = `
 // <div class="banner-gallery">
