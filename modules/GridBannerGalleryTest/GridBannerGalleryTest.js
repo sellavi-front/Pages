@@ -4,11 +4,11 @@ import template from './templates/template.js';
 export default class GridBannerGalleryTest {
   constructor(elem) {
     this.elem = elem;
-    this.template = template;
+    this.template = template();
   }
 
   render() {
-    console.log('render');
-    this.elem.insertAdjacentHTML('afterbegin', this.template());
+    console.log(this.template);
+    this.elem.insertAdjacentHTML('afterbegin', this.template);
   }
 }
