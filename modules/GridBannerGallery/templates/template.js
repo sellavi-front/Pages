@@ -1,4 +1,3 @@
-
 function template(c) {
   return c.map((data) => `
       <div class="grid-banner ${data.class}">
@@ -19,6 +18,8 @@ function template(c) {
       </div>`);
 }
 
-export default function parentBanner(content) {
+function parentBanner(content) {
   return template(content).concat('');
 }
+
+export { template, parentBanner }
