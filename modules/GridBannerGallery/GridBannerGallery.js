@@ -1,13 +1,12 @@
-import template from './templates/template.js';
+import { parentBanner } from './templates/template.js';
 
-export default class GridBannerGalery {
-  constructor(elem) {
+export default class GridBannerGalleryTest {
+  constructor(elem, content) {
     this.elem = elem;
-    this.template = template;
-    this.render();
+    this.content = content;
   }
 
   render() {
-    this.elem.insertAdjacentHTML('afterbegin', this.template);
+    this.elem.insertAdjacentHTML('afterbegin', `<div class="banner-gallery">${parentBanner(this.content)}</div>`);
   }
 }
