@@ -19,7 +19,7 @@ function template(c) {
 }
 
 function parentBanner(content) {
-  return template(content).concat('');
+  return template(content).join('');
 }
 
 export { template, parentBanner }
