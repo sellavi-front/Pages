@@ -51,8 +51,8 @@ const bannerContent = [
   },
 ];
 
-function template() {
-  bannerContent.map(
+function template(content) {
+  content.map(
     (data) => `
       <div class="grid-banner ${data.class}">
         <a href="${data.link}">
@@ -74,7 +74,7 @@ function template() {
 }
 
 export default function parentBanner() {
-  return `<div class="banner-gallery">${template}</div>`;
+  return `<div class="banner-gallery">${template(bannerContent)}</div>`;
 }
 // const template = `
 // <div class="banner-gallery">
