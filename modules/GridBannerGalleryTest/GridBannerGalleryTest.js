@@ -9,6 +9,6 @@ export default class GridBannerGalleryTest {
 
   render() {
     console.log('render');
-    this.elem.insertAdjacentHTML('afterbegin', this.template);
+    this.elem.insertAdjacentHTML('afterbegin', this.template());
   }
 }
