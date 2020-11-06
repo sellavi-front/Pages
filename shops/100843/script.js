@@ -1,12 +1,14 @@
 import GridBannerGallery from '../../modules/GridBannerGallery/GridBannerGallery.js';
 import AddElemInContainer from '../../modules/AddElemInContainer/AddElemInContainer.js';
+import content from './content/content.js';
+
 const contentArea = document.querySelector('.common-home .content-area');
 
 if (
   location.href === 'https://internokids.ru/' ||
   location.href === 'https://internokids.ru/?from_admin'
 ) {
-  const gridBannerGallery = new GridBannerGallery(contentArea);
+  const gridBannerGallery = new GridBannerGallery(contentArea, content);
 
   gridBannerGallery.render();
 }
