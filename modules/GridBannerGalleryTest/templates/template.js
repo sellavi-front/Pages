@@ -1,58 +1,5 @@
-const bannerContent = [
-  {
-    class: 'grid-banner-2',
-    link: 'детская-одежда/для-девчонок/',
-    title: 'Детская одежда',
-    subtitle: 'Для девочек',
-    button: {
-      title: 'Скидка 30%',
-      text: 'на всю одежду по промокоду SALE30',
-    },
-  },
-  {
-    class: 'grid-banner-2',
-    link: 'детская-одежда/для-девчонок/',
-    title: 'Детская одежда',
-    subtitle: 'Для девочек',
-    button: {
-      title: 'Скидка 30%',
-      text: 'на всю одежду по промокоду SALE30',
-    },
-  },
-  {
-    class: 'grid-banner-2',
-    link: 'детская-одежда/для-девчонок/',
-    title: 'Детская одежда',
-    subtitle: 'Для девочек',
-    button: {
-      title: 'Скидка 30%',
-      text: 'на всю одежду по промокоду SALE30',
-    },
-  },
-  {
-    class: 'grid-banner-2',
-    link: 'детская-одежда/для-девчонок/',
-    title: 'Детская одежда',
-    subtitle: 'Для девочек',
-    button: {
-      title: 'Скидка 30%',
-      text: 'на всю одежду по промокоду SALE30',
-    },
-  },
-  {
-    class: 'grid-banner-2',
-    link: 'детская-одежда/для-девчонок/',
-    title: 'Детская одежда',
-    subtitle: 'Для девочек',
-    button: {
-      title: 'Скидка 30%',
-      text: 'на всю одежду по промокоду SALE30',
-    },
-  },
-];
-
-function template(content) {
-  content.map(
+function template(c) {
+  c.map(
     (data) => `
       <div class="grid-banner ${data.class}">
         <a href="${data.link}">
@@ -73,8 +20,8 @@ function template(content) {
   );
 }
 
-export default function parentBanner() {
-  return `<div class="banner-gallery">${template(bannerContent)}</div>`;
+export default function parentBanner(content) {
+  return `<div class="banner-gallery">${template(content)}</div>`;
 }
 // const template = `
 // <div class="banner-gallery">
