@@ -16,7 +16,6 @@ export default class AddElemInContainer {
     this.addElem = addElem;
     this.d = d;
     [this.el, this.cont] = this.findElements();
-    console.log('constructor ', this.findElements());
 
   }
 
@@ -42,17 +41,12 @@ export default class AddElemInContainer {
     const elem = this.copyType(this.addElem);
     const cont = this.container;
 
-    console.log('findElements => ', this.copyType(this.addElem));
-    console.log('findElements addElem ', this.addElem);
-    console.log('findElements container ', this.container);
-
     this.delete(this.addElem);
     return [elem, cont];
   }
 
   render() {
     //this.cont.forEach((elem, idx) => {
-      console.log(this.el);
       this.cont.insertAdjacentElement('afterbegin', this.el);
     //});
   }
