@@ -15,6 +15,7 @@ if (
 }
 
 if (document.querySelector('body').classList.contains('product-product')) {
+  const btnPrice = document.querySelector('.btn-price');
   const price = document.querySelector('.product-price');
   const buttonAddCart = document.querySelector('#button-cart');
 
