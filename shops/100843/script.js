@@ -1,5 +1,6 @@
 import GridBannerGallery from '../../modules/GridBannerGallery/GridBannerGallery.js';
 import AddElemInContainer from '../../modules/AddElemInContainer/AddElemInContainer.js';
+import ChangeAgreement from '../../modules/ChangeAgreement/ChangeAgreement.js'
 import content from './content/content.js';
 
 const contentArea = document.querySelector('.common-home .content-area');
@@ -19,4 +20,9 @@ if (document.querySelector('body').classList.contains('product-product')) {
 
   addBtn.render();
   addElem.render();
+}
+
+if (location.href.includes('checkout')) {
+  const changeAgree = new ChangeAgreement(document);
+  changeAgree.change();
 }
