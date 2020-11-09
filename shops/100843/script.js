@@ -46,12 +46,15 @@ if (document.querySelector('body').classList.contains('product-product')) {
 
   const changeError = new ChangeErrorMessage();
   const translateAbout = new TranslateAboutUs();
+  const deleteClassses = new DeleteClasses(productItem, bootstrapClasses);
 
   btnPrice.insertAdjacentElement('afterbegin', price);
   btnPrice.insertAdjacentElement('beforeend', buttonAddCart);
 
   changeError.change();
   translateAbout.translate();
+  deleteClassses.findAndDelete();
+
 }
 
 if (location.href.includes('checkout')) {
@@ -62,6 +65,7 @@ if (location.href.includes('checkout')) {
 if (document.querySelector('.product-item')) {
   const addToCart = document.querySelectorAll('.add_to_cart');
   const addToWishlist = document.querySelectorAll('.add_to_wishlist');
+
   const likeInCard = new LikeInCard(addToCart, addToWishlist);
 
   likeInCard.transport();
