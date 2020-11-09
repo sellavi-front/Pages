@@ -3,7 +3,7 @@ export default class ChangeErrorMessage {
     this.btn = document.querySelector('#button-cart');
   }
   setMessage(alerts) {
-    console.log(talerts);
+    console.log(alerts);
     alerts((alert) => {
       const nameBlock = alert.parentElement.firstElementChild;
       alert.innerHTML = `Поле ${nameBlock.textContent.toLowerCase()} обязательно!`;
