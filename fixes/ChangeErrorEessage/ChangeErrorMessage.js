@@ -9,6 +9,7 @@ export default class ChangeErrorMessage {
 
   change() {
     const btn = document.querySelector('#button-card');
+    console.log(btn)
     btn.addEventListener('click', this.setMessage(document.querySelectorAll('.text-danger')));
   }
 }
