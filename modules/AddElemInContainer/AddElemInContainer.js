@@ -16,38 +16,37 @@ export default class AddElemInContainer {
     this.elem = elem;
     this.d = d;
     //[this.el, this.cont] = this.findElements();
-
   }
 
   // copyArr(arr) {
-    // return Array.from(arr);
+  // return Array.from(arr);
   // }
 
   // copyEl(el) {
-    // return el.cloneNode(true);
+  // return el.cloneNode(true);
   // }
 
   // delete(item) {
-    // if (item.lenth) item.forEach((e) => e.remove());
-    // item.remove();
+  // if (item.lenth) item.forEach((e) => e.remove());
+  // item.remove();
   // }
 
   // copyType(data) {
-    // //if (data.length) this.copyArr(data);
-    // return this.copyEl(data);
+  // //if (data.length) this.copyArr(data);
+  // return this.copyEl(data);
   // }
 
   // findElements() {
-    // //const elem = this.copyType(this.addElem);
-    // const cont = this.container;
+  // //const elem = this.copyType(this.addElem);
+  // const cont = this.container;
 
-    // //this.delete(this.addElem);
-    // return [elem, cont];
+  // //this.delete(this.addElem);
+  // return [elem, cont];
   // }
 
   render() {
     //this.cont.forEach((elem, idx) => {
-      this.container.insertAdjacentElement('afterbegin', this.elem);
+    this.container.insertAdjacentElement('afterbegin', this.elem);
     //});
   }
 }
