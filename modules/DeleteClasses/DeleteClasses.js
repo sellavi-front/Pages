@@ -6,7 +6,7 @@ export default class DeleteClasses {
 
   findAndDelete() {
     Array.from(this.item).forEach(el => {
-      Array.from(el.classList).map((clss, i) => this.classes.includes(clss) ? el.classList.remove(clss) : false);
+      Array.from(el.classList).map((clss, i) => this.classes.includes(clss) ? el.classList.remove(clss) : console.log('При удалении классов произошла ошибка'));
     })
   }
 }
