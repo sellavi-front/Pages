@@ -20,6 +20,7 @@ const bootstrapClasses = [
   'col-12',
   'col-sm-6',
   'col-md-6',
+  'col-md-3',
   'col-lg-6',
   'col-xl-4',
   'mb-4',
@@ -27,7 +28,8 @@ const bootstrapClasses = [
 
 const translateAbout = new TranslateAboutUs();
 
-translateAbout.translate();
+
+/* ******* MAIN PAGE ******** */
 
 if (
   location.href === 'https://internokids.ru/' ||
@@ -42,6 +44,7 @@ if (
   deleteClasses.findAndDelete();
 }
 
+/* ******* PAGE PRODUCT CATEGORY ******** */
 if (document.querySelector('body').classList.contains('product-category')) {
   const productItem = document.querySelectorAll('.product-item');
   const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
@@ -49,6 +52,7 @@ if (document.querySelector('body').classList.contains('product-category')) {
   deleteClasses.findAndDelete();
 }
 
+/* ******* PAGE PRODUCT ******** */
 if (document.querySelector('body').classList.contains('product-product')) {
   const btnPrice = document.querySelector('.btn-price');
   const price = document.querySelector('.product-price');
@@ -65,11 +69,13 @@ if (document.querySelector('body').classList.contains('product-product')) {
   deleteClasses.findAndDelete();
 }
 
+/* ******* PAGE CHECKOUT ******** */
 if (location.href.includes('checkout')) {
   const changeAgree = new ChangeAgreement(document);
   changeAgree.change();
 }
 
+/* ******* ALL PAGE WITH .PRODUCT-ITEM ******** */
 if (document.querySelector('.product-item')) {
   const addToCart = document.querySelectorAll('.add_to_cart');
   const addToWishlist = document.querySelectorAll('.add_to_wishlist');
@@ -79,6 +85,16 @@ if (document.querySelector('.product-item')) {
   likeInCard.transport();
 }
 
-/* ******* REMOVE PLACEHOLDER ******* */
-document.querySelector('.search_field > input').removeAttribute('placeholder');
-/* ***************** */
+/* ******* ALL PAGES ******* */
+if (!location.href.includes('checkout')) {
+  const deleteColClass = document.querySelectorAll('.footer-widgets>.container>.row>.col-md-3');
+  const deleteColSm6 = document.querySelectorAll('.footer_content_text > div');
+  const translateAbout = new TranslateAboutUs();
+  const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
+
+  translateAbout.translate();
+  deleteClasses.findAndDelete();
+
+  /* ******* REMOVE PLACEHOLDER ******* */
+  document.querySelector('.search_field > input').removeAttribute('placeholder');
+}
