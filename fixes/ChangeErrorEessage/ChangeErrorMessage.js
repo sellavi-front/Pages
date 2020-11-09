@@ -11,6 +11,6 @@ export default class ChangeErrorMessage {
   }
 
   change() {
-    $('#button-cart').on('click', this.find());
+    $('#button-cart').on('click', this.setMessage());
   }
 }
