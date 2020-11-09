@@ -1,7 +1,4 @@
 export default class ChangeErrorMessage {
-  constructor() {
-    this.btn = document.querySelector('#button-card');
-  }
   setMessage() {
     console.log(this.alerts);
     this.alerts((alert) => {
@@ -11,6 +8,7 @@ export default class ChangeErrorMessage {
   }
 
   change() {
-    this.btn.addEventListener('click', this.setMessage(document.querySelectorAll('.text-danger')));
+    const btn = document.querySelector('#button-card');
+    btn.addEventListener('click', this.setMessage(document.querySelectorAll('.text-danger')));
   }
 }
