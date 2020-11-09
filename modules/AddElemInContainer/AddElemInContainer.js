@@ -11,10 +11,9 @@
 ================================================================================================= */
 
 export default class AddElemInContainer {
-  constructor(d, elem, container) {
+  constructor(elem, container) {
     this.container = container;
     this.elem = elem;
-    this.d = d;
     //[this.el, this.cont] = this.findElements();
   }
 
