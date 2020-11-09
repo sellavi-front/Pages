@@ -12,7 +12,6 @@ import content from './content/content.js';
 /* =============================== */
 
 const contentArea = document.querySelector('.common-home .content-area');
-const productItem = document.querySelectorAll('.product-item');
 const bootstrapClasses = [
   'col-lg-4',
   'col-xl-3',
@@ -34,10 +33,19 @@ if (
   location.href === 'https://internokids.ru/' ||
   location.href === 'https://internokids.ru/?from_admin'
 ) {
+  const productItem = document.querySelectorAll('.product-item');
+
   const gridBannerGallery = new GridBannerGallery(contentArea, content);
   const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
 
   gridBannerGallery.render();
+  deleteClasses.findAndDelete();
+}
+
+if (document.querySelector('body').classList.contains('product-category')) {
+  const productItem = document.querySelectorAll('.product-item');
+  const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
+
   deleteClasses.findAndDelete();
 }
 
