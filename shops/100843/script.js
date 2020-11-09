@@ -37,7 +37,7 @@ if (document.querySelector('body').classList.contains('product-product')) {
   const buttonAddCart = document.querySelector('#button-cart');
 
   btnPrice.insertAdjacentElement('afterbegin', price);
-  btnPrice.insertAdjacentElement('afterbegin', buttonAddCart);
+  btnPrice.insertAdjacentElement('beforeend', buttonAddCart);
 }
 
 if (location.href.includes('checkout')) {
