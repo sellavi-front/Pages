@@ -8,7 +8,7 @@ export default class LikeInCard {
 
   transport() {
     this.container.forEach((el, idx) => el.insertAdjacentHTML('afterbegin', this.btns[idx].outerHTML));
-    this.delete();
+    //this.delete();
   }
 
   delete() {
