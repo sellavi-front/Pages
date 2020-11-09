@@ -8,7 +8,7 @@ export default class TranslateAboutUs {
   }
 
   translate() {
-    if (this.widTitle.html() == this.textTrans || this.widCat.html() == this.textTrans) {
+    if (this.widTitle.textContetn == this.textTrans || this.widCat.textContent == this.textTrans) {
       this.widTitle.textContent = this.textRus;
       this.widCat.textContent = this.textRus;
     }
