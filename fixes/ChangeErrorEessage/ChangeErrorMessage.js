@@ -12,6 +12,9 @@ export default class ChangeErrorMessage {
 
   change() {
     console.log(this.btn)
-    this.btn.addEventListener('click', this.setMessage(document.querySelectorAll('.text-danger')));
+    this.btn.addEventListener('click', () => {
+      const alerts = document.querySelectorAll('.text-danger');
+      this.setMessage(alerts)
+    });
   }
 }
