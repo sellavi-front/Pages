@@ -1,18 +1,23 @@
+/* ========== MODULES ========== */
 import GridBannerGallery from '../../modules/GridBannerGallery/GridBannerGallery.js';
-import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import LikeInCard from '../../modules/LikeInCard/LikeInCard.js';
 
+/* ========== FIXED BUGS ========== */
 import { ChangeAgreement, ChangeErrorMessage, TranslateAboutUs } from '../../fixes/fixes.js';
+
+/* ========== CONSTANTS ========== */
 import content from './content/content.js';
 
 const contentArea = document.querySelector('.common-home .content-area');
+/* ******* REMOVE PLACEHOLDER ******* */
+document.querySelector('.search_field > input').removeAttribute('placeholder');
+/* ***************** */
 
 if (
   location.href === 'https://internokids.ru/' ||
   location.href === 'https://internokids.ru/?from_admin'
 ) {
-  const gridBannerGallery = new GridBannerGallery(contentArea, content);
-  gridBannerGallery.render();
-
   const productItem = document.querySelectorAll('.product-item');
   const bootstrapClasses = [
     'col-lg-4',
@@ -27,7 +32,10 @@ if (
     'mb-4',
   ];
 
+  const gridBannerGallery = new GridBannerGallery(contentArea, content);
   const deleteClassses = new DeleteClasses(productItem, bootstrapClasses);
+
+  gridBannerGallery.render();
   deleteClassses.findAndDelete();
 }
 
@@ -35,6 +43,7 @@ if (document.querySelector('body').classList.contains('product-product')) {
   const btnPrice = document.querySelector('.btn-price');
   const price = document.querySelector('.product-price');
   const buttonAddCart = document.querySelector('#button-cart');
+
   const changeError = new ChangeErrorMessage();
   const translateAbout = new TranslateAboutUs();
 
@@ -48,4 +57,12 @@ if (document.querySelector('body').classList.contains('product-product')) {
 if (location.href.includes('checkout')) {
   const changeAgree = new ChangeAgreement(document);
   changeAgree.change();
+}
+
+if (document.querySelector('.product-item')) {
+  const addToCart = document.querySelectorAll('.add_to_cart');
+  const addToWishlist = document.querySelectorAll('.add_to_wishlist');
+  const likeInCard = new LikeInCard(addToCart, addToWishlist);
+
+  likeInCard.transport();
 }
