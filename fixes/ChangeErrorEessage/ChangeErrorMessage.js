@@ -1,6 +1,6 @@
 export default class ChangeErrorMessage {
   constructor() {
-    this.btn = document.querySelector('#button-card');
+    this.btn = document.querySelector('#button-cart');
   }
   setMessage() {
     console.log(this.alerts);
