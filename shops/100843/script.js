@@ -1,7 +1,7 @@
 import GridBannerGallery from '../../modules/GridBannerGallery/GridBannerGallery.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
 
-// import { ChangeAgreement } from '../../fixes/fixes.js';
+import { ChangeAgreement } from '../../fixes/fixes.js';
 import content from './content/content.js';
 
 const contentArea = document.querySelector('.common-home .content-area');
