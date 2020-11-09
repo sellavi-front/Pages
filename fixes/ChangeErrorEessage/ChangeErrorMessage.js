@@ -2,9 +2,9 @@ export default class ChangeErrorMessage {
   constructor() {
     this.btn = document.querySelector('#button-cart');
   }
-  setMessage() {
-    console.log(this.alerts);
-    this.alerts((alert) => {
+  setMessage(alerts) {
+    console.log(talerts);
+    alerts((alert) => {
       const nameBlock = alert.parentElement.firstElementChild;
       alert.innerHTML = `Поле ${nameBlock.textContent.toLowerCase()} обязательно!`;
     });
