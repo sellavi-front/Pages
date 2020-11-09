@@ -4,7 +4,7 @@ export default class ChangeErrorMessage {
   }
   setMessage(alerts) {
     console.log(alerts);
-    alerts((alert) => {
+    alerts.forEach((alert) => {
       const nameBlock = alert.parentElement.firstElementChild;
       alert.innerHTML = `Поле ${nameBlock.textContent.toLowerCase()} обязательно!`;
     });
