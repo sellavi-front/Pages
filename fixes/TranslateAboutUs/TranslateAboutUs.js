@@ -1,6 +1,6 @@
 export default class TranslateAboutUs {
   constructor() {
-    this.widget = document.querySelector('.footer-widgets>.container>.row>div:first>.widget');
+    this.widget = document.querySelector("footer>.footer-widgets>container>.row>div:nth-child(1)>.widget");
     this.widTitle = widget.querySelector('.widget-title');
     this.widCat = widget.querySelector('.widget-categories>ul>li:first-child>a');
     this.textTrans = 'About us ';
