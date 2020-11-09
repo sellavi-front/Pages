@@ -2,6 +2,8 @@ export default class LikeInCard {
   constructor(container, btns) {
     this.container = container;
     this.btns = btns;
+    console.log(this.container);
+    console.log(this.btns);
   }
 
   transport() {
