@@ -10,6 +10,20 @@ import { ChangeAgreement, ChangeErrorMessage, TranslateAboutUs } from '../../fix
 import content from './content/content.js';
 
 const contentArea = document.querySelector('.common-home .content-area');
+const productItem = document.querySelectorAll('.product-item');
+const bootstrapClasses = [
+  'col-lg-4',
+  'col-xl-3',
+  'mb-0',
+  'mb-md-4',
+  'col-12',
+  'col-sm-6',
+  'col-md-6',
+  'col-lg-6',
+  'col-xl-4',
+  'mb-4',
+];
+
 /* ******* REMOVE PLACEHOLDER ******* */
 document.querySelector('.search_field > input').removeAttribute('placeholder');
 /* ***************** */
@@ -18,25 +32,11 @@ if (
   location.href === 'https://internokids.ru/' ||
   location.href === 'https://internokids.ru/?from_admin'
 ) {
-  const productItem = document.querySelectorAll('.product-item');
-  const bootstrapClasses = [
-    'col-lg-4',
-    'col-xl-3',
-    'mb-0',
-    'mb-md-4',
-    'col-12',
-    'col-sm-6',
-    'col-md-6',
-    'col-lg-6',
-    'col-xl-4',
-    'mb-4',
-  ];
-
   const gridBannerGallery = new GridBannerGallery(contentArea, content);
-  const deleteClassses = new DeleteClasses(productItem, bootstrapClasses);
+  const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
 
   gridBannerGallery.render();
-  deleteClassses.findAndDelete();
+  deleteClasses.findAndDelete();
 }
 
 if (document.querySelector('body').classList.contains('product-product')) {
@@ -46,15 +46,14 @@ if (document.querySelector('body').classList.contains('product-product')) {
 
   const changeError = new ChangeErrorMessage();
   const translateAbout = new TranslateAboutUs();
-  const deleteClassses = new DeleteClasses(productItem, bootstrapClasses);
+  const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
 
   btnPrice.insertAdjacentElement('afterbegin', price);
   btnPrice.insertAdjacentElement('beforeend', buttonAddCart);
 
   changeError.change();
   translateAbout.translate();
-  deleteClassses.findAndDelete();
-
+  deleteClasses.findAndDelete();
 }
 
 if (location.href.includes('checkout')) {
