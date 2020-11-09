@@ -1,7 +1,7 @@
 import GridBannerGallery from '../../modules/GridBannerGallery/GridBannerGallery.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
 
-import { ChangeAgreement } from '../../fixes/fixes.js';
+import { ChangeAgreement, ChangeErrorMessage } from '../../fixes/fixes.js';
 import content from './content/content.js';
 
 const contentArea = document.querySelector('.common-home .content-area');
@@ -35,9 +35,12 @@ if (document.querySelector('body').classList.contains('product-product')) {
   const btnPrice = document.querySelector('.btn-price');
   const price = document.querySelector('.product-price');
   const buttonAddCart = document.querySelector('#button-cart');
+  const changeError = new ChangeErrorMessage();
 
   btnPrice.insertAdjacentElement('afterbegin', price);
   btnPrice.insertAdjacentElement('beforeend', buttonAddCart);
+
+  changeError.setMessage();
 }
 
 if (location.href.includes('checkout')) {
