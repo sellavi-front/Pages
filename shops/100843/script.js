@@ -93,11 +93,11 @@ if (!location.href.includes('checkout')) {
 
   const translateAbout = new TranslateAboutUs();
   const deleteClasses = new DeleteClasses(deleteColSm6, bootstrapClasses);
-  const deleteClasses = new DeleteClasses(deleteColClass, bootstrapClasses);
+  const deleteColClass = new DeleteClasses(deleteColClass, bootstrapClasses);
 
   translateAbout.translate();
   deleteClasses.findAndDelete();
-  deleteClasses.findAndDelete();
+  deleteColClass.findAndDelete();
 
   /* ******* REMOVE PLACEHOLDER ******* */
   document.querySelector('.search_field > input').removeAttribute('placeholder');
