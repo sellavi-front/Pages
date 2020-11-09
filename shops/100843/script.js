@@ -40,7 +40,7 @@ if (document.querySelector('body').classList.contains('product-product')) {
   btnPrice.insertAdjacentElement('afterbegin', price);
   btnPrice.insertAdjacentElement('beforeend', buttonAddCart);
 
-  changeError.setMessage();
+  changeError.change();
 }
 
 if (location.href.includes('checkout')) {
