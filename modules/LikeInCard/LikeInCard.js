@@ -7,11 +7,15 @@ export default class LikeInCard {
   }
 
   transport() {
-    this.container.forEach((el, idx) => el.insertAdjacentHTML('afterbegin', this.btns[idx].outerHTML));
-    //this.delete();
+    this.container.forEach((el, idx) => el.insertAdjacentHTML('afterbegin', this.clone()[idx].outerHTML));
+    this.delete();
+  }
+
+  clone() {
+    return Array.from(this.btns);
   }
 
   delete() {
-    this.container.forEach((el) => el.remove());
+    this.btns.forEach((el) => el.remove());
   }
 }
