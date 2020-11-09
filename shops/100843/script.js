@@ -9,6 +9,8 @@ import { ChangeAgreement, ChangeErrorMessage, TranslateAboutUs } from '../../fix
 /* ========== CONSTANTS ========== */
 import content from './content/content.js';
 
+/* =============================== */
+
 const contentArea = document.querySelector('.common-home .content-area');
 const productItem = document.querySelectorAll('.product-item');
 const bootstrapClasses = [
@@ -24,9 +26,9 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
-/* ******* REMOVE PLACEHOLDER ******* */
-document.querySelector('.search_field > input').removeAttribute('placeholder');
-/* ***************** */
+const translateAbout = new TranslateAboutUs();
+
+translateAbout.translate();
 
 if (
   location.href === 'https://internokids.ru/' ||
@@ -45,14 +47,13 @@ if (document.querySelector('body').classList.contains('product-product')) {
   const buttonAddCart = document.querySelector('#button-cart');
 
   const changeError = new ChangeErrorMessage();
-  const translateAbout = new TranslateAboutUs();
+
   const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
 
   btnPrice.insertAdjacentElement('afterbegin', price);
   btnPrice.insertAdjacentElement('beforeend', buttonAddCart);
 
   changeError.change();
-  translateAbout.translate();
   deleteClasses.findAndDelete();
 }
 
@@ -69,3 +70,7 @@ if (document.querySelector('.product-item')) {
 
   likeInCard.transport();
 }
+
+/* ******* REMOVE PLACEHOLDER ******* */
+document.querySelector('.search_field > input').removeAttribute('placeholder');
+/* ***************** */
