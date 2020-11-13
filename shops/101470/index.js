@@ -2,6 +2,7 @@ import '../../fixes/fixes.js';
 
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
@@ -9,8 +10,10 @@ if (document.querySelector('.wrapper')) {
   const cartText = document.querySelector('#cart > span');
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
+  const footerContentText = document.querySelectorAll('.footer_content_text');
 
   const forDelete = [search, cartText, navigation];
+  const bootstrapClasses = ['col-sm-12'];
 
   const objBanner = {
     title: 'Коврики для ЙОГИ',
@@ -19,6 +22,7 @@ if (document.querySelector('.wrapper')) {
   };
 
   const deleteElements = new DeleteElements(forDelete);
+  const deleteClasses = new DeleteClasses(footerContentText, bootstrapClasses);
   const bigBanner = new BigBanner(document, objBanner);
 
   headerWrapper.classList.add('container-fluid');
