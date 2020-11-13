@@ -3,6 +3,7 @@
 @import './header/header.css';
 @import './banner/banner.css';
 @import './section-title/section-title.css';
+@import './footer//footer.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../fixes/FooterCopy/FooterCopy.css';
