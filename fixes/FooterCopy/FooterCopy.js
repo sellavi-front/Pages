@@ -1,9 +1,6 @@
 const container = document.querySelector('.footer_content_text');
 
-export default class FooterCopy {
-  constructor() {
-    this.render();
-  }
+export class FooterCopy {
 
   setTemplae() {
     return `
@@ -31,4 +28,4 @@ export default class FooterCopy {
 
 const footer = new FooterCopy();
 
-// footer.render();
+footer.render();
