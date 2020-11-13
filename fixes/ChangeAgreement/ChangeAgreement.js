@@ -8,3 +8,6 @@ export default class ChangeAgreement {
     checkbox.insertAdjacentHTML('beforeend', `Согласен (-а) с условиями <a href="/terms-of-use/" style="text-decoration: none !important;"><b>Публичной оферты</b></a>`);
   }
 }
+
+const newChange = new ChangeAgreement();
+newChange.change();

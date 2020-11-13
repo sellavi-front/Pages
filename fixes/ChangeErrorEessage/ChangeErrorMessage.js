@@ -2,6 +2,7 @@ export default class ChangeErrorMessage {
   constructor() {
     this.btn = document.querySelector('#button-cart');
   }
+
   setMessage(alerts) {
     console.log(alerts);
     alerts.forEach((alert) => {
@@ -18,3 +19,7 @@ export default class ChangeErrorMessage {
     });
   }
 }
+
+const newChangeError = new ChangeErrorMessage();
+
+newChangeError.change();

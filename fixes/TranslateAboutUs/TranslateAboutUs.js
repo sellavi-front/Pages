@@ -14,3 +14,7 @@ export default class TranslateAboutUs {
     }
   }
 }
+
+const Translate = new TranslateAboutUs();
+
+Translate.translate();
