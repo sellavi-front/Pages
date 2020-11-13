@@ -1,7 +1,7 @@
 @import './logo.css';
 @import './cart.css';
 
-.header-wrapper > div {
+.header-wrapper > .container-fluid {
   display: flex;
   justify-content: space-between;
   align-items: center;
