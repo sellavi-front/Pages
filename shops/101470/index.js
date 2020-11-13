@@ -12,10 +12,11 @@ if (document.querySelector('.wrapper')) {
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
-  const footerWidgetCol2 = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul");
+  const footerWidgetCol2 = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2)");
+  const footerWidgetCol2List = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul");
   const productItem = document.querySelectorAll('.product-item');
 
-  const forDelete = [search, cartText, navigation, footerWidgetCol2];
+  const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
   const bootstrapClasses = [
     'col-lg-4',
     'col-xl-3',
@@ -46,7 +47,7 @@ if (document.querySelector('.wrapper')) {
   headerWrapper.classList.remove('container');
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
-  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2.outerHTML);
+  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
   deleteElements.remove();
 
