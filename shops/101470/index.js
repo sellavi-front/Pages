@@ -5,12 +5,13 @@ if (document.querySelector('.wrapper')) {
   const search = document.querySelector('.header-search');
   const cartText = document.querySelector('#cart > span');
   const navigation = document.querySelector('.navigation');
+  const headerLogo = headerWrapper.querySelector('.logo');
 
   const forDelete  = [search, cartText];
   const deleteElements = new DeleteElements(forDelete);
 
   deleteElements.remove();
 
-  headerWrapper.querySelector('.logo').insertAdjacetnHTML('afterend', navigation);
+  headerLogo.insertAdjacetnHTML('afterend', navigation);
 
 }
