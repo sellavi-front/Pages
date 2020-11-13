@@ -55,7 +55,6 @@ if (document.querySelector('.common-home')) {
     linkContent: 'В КАТАЛОГЕ',
   };
 
-
   const bigBanner = new BigBanner(document, objBanner);
 
   bigBanner.render();
