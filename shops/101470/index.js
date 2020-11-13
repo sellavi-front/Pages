@@ -8,7 +8,7 @@ if (document.querySelector('.wrapper')) {
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
 
-  const forDelete = [search, cartText, headerWrapper];
+  const forDelete = [search, cartText, navigation];
 
   const objBanner = {
     title: 'Коврики для ЙОГИ',
