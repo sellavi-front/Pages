@@ -6,6 +6,12 @@
   justify-content: center;
 }
 
+.thumbnail .caption-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .products {
     justify-content: center;
