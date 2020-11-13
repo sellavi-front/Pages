@@ -13,9 +13,23 @@ if (document.querySelector('.wrapper')) {
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetCol2 = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul");
+  const productItem = document.querySelectorAll('.product-item');
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2];
-  const bootstrapClasses = ['col-sm-12'];
+  const bootstrapClasses = [
+    'col-lg-4',
+    'col-xl-3',
+    'mb-0',
+    'mb-md-4',
+    'col-12',
+    'col-sm-12',
+    'col-sm-6',
+    'col-md-6',
+    'col-md-3',
+    'col-lg-6',
+    'col-xl-4',
+    'mb-4',
+  ];
 
   const objBanner = {
     title: 'Коврики для ЙОГИ',
