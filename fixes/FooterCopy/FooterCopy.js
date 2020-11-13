@@ -1,7 +1,8 @@
-const container = document.querySelector('.footer_content_text');
-
 export class FooterCopy {
 
+  constructor() {
+    this.container = document.querySelector('.footer_content_text');
+  }
   setTemplae() {
     return `
     <div class="footer_content_container">
@@ -22,7 +23,7 @@ export class FooterCopy {
   }
 
   render() {
-    container.insertAdjacentHTML('afterbegin', this.setTemplae());
+    this.container.insertAdjacentHTML('afterbegin', this.setTemplae());
   }
 }
 
