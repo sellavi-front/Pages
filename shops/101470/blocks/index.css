@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 @import './header/header.css';
 @import './banner/banner.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
+
+body h1, body h1, body h1,
+body h1, body h1, body h1,
+body p, body a, body span, body b {
+  font-family: 'Noto Sans', sans-serif !important;
+}

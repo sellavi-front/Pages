@@ -1,5 +1,6 @@
 .banner__image {
   background: url('https://res.cloudinary.com/gz-company/image/upload/v1605265832/1985/dane-wetton-I7FsT6N94io-unsplash_udq9uu.jpg') !important;
+  background-size: cover !important;
 }
 
 .banner__caption {
