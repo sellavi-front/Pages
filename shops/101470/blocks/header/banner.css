@@ -1,3 +1,18 @@
 .banner {
   background: url('https://res.cloudinary.com/gz-company/image/upload/v1605265832/1985/dane-wetton-I7FsT6N94io-unsplash_udq9uu.jpg') !important;
 }
+
+.banner__caption {
+  height: auto;
+  z-index: 20;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  width: 195px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
