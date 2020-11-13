@@ -11,7 +11,10 @@ if (document.querySelector('.wrapper')) {
   const deleteElements = new DeleteElements(forDelete);
 
   deleteElements.remove();
+console.log(headerLogo);
+console.log(navigation);
+  headerWrapper.classList.add('.container-fluid');
+  headerWrapper.classList.remove('.container');
 
   headerLogo.insertAdjacetnHTML('afterend', navigation);
-
 }
