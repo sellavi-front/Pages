@@ -16,5 +16,5 @@ console.log(navigation);
   headerWrapper.classList.add('.container-fluid');
   headerWrapper.classList.remove('.container');
 
-  headerLogo.insertAdjacetnHTML('afterend', navigation);
+  headerLogo.insertAdjacentHTML('afterend', navigation);
 }
