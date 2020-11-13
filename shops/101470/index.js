@@ -15,6 +15,6 @@ if (document.querySelector('.wrapper')) {
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
-
+console.log(navigationCopy);
   headerLogo.insertAdjacentHTML('afterend', navigationCopy);
 }
