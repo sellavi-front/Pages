@@ -19,11 +19,6 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
-if (document.readyState == 'loading' || document.readyState == 'interactive') {
-  alert(document.readyState);
-  document.querySelector('body').style.display = 'none';
-}
-
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const search = document.querySelector('.header-search');
