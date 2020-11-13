@@ -38,7 +38,8 @@ if (document.querySelector('.wrapper')) {
   };
 
   const deleteElements = new DeleteElements(forDelete);
-  const deleteClasses = new DeleteClasses(footerContentText, bootstrapClasses);
+  const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
+  const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
   const bigBanner = new BigBanner(document, objBanner);
 
   headerWrapper.classList.add('container-fluid');
@@ -50,4 +51,8 @@ if (document.querySelector('.wrapper')) {
   deleteElements.remove();
 
   bigBanner.render();
+
+  deleteClassesProd.findAndDelete();
+  deleteClassesFooter.findAndDelete();
+
 }
