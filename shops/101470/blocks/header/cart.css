@@ -1,9 +1,14 @@
+.header .header-cart {
+  position: relative;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 41px;
+}
+
 .cart-wrapper {
   border: none !important;
   margin: 0 !important;
   position: relative;
   top: 0; left: 0; right: 0; bottom: 0;
-  width: 41px;
 }
 
 #card {
