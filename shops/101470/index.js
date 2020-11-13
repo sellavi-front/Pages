@@ -11,8 +11,10 @@ if (document.querySelector('.wrapper')) {
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
+  const footerWrapper = document.querySelector('.footer_content_wrapper');
+  const footerWidgetCol2 = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul");
 
-  const forDelete = [search, cartText, navigation];
+  const forDelete = [search, cartText, navigation, footerWidgetCol2];
   const bootstrapClasses = ['col-sm-12'];
 
   const objBanner = {
@@ -29,6 +31,8 @@ if (document.querySelector('.wrapper')) {
   headerWrapper.classList.remove('container');
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
+  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2);
+
   deleteElements.remove();
 
   bigBanner.render();

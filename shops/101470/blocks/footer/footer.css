@@ -10,3 +10,11 @@
 .footer_content_text {
   justify-content: flex-start !important;
 }
+
+.widget-categories ul li a:before {
+  display: none;
+}
+
+.widget-categories ul li a {
+  padding: 0;
+}
