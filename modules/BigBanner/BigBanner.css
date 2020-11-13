@@ -33,7 +33,6 @@
   position: absolute;
   bottom: 10%;
   width: 195px;
-  /*        left: calc(50% - 195px / 2); */
   align-items: center;
   display: flex;
   flex-direction: column;
