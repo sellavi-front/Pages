@@ -8,6 +8,7 @@
   margin: 0 !important;
   position: relative;
   top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+  height: auto !important;
 }
 
 #cart {
