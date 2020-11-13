@@ -1,5 +1,6 @@
 @import './logo.css';
 @import './cart.css';
+@import './navigation.css';
 
 .header-wrapper > .container-fluid {
   display: flex;

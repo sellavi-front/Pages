@@ -6,7 +6,7 @@ if (document.querySelector('.wrapper')) {
   const cartText = document.querySelector('#cart > span');
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
-  const forDelete = [search, cartTextheaderWrapper];
+  const forDelete = [search, cartText, headerWrapper];
 
   const deleteElements = new DeleteElements(forDelete);
 
