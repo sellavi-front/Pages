@@ -11,7 +11,7 @@ export default class DeleteElements {
 
   remove() {
     this.elements.forEach((el) => {
-      el === null ? console.log(`Элемент ${el} не найден`) : el.remove();
+      !el ? console.log(`Элемент ${el} не найден`) : el.remove();
     });
   }
 }
