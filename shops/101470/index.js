@@ -1,6 +1,7 @@
+import '../../fixes/fixes';
+
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
-import '../../fixes/FooterCopy/FooterCopy.js';
 
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
