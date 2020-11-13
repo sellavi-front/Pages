@@ -1,3 +1,12 @@
 .footer {
   border: none !important;
 }
+
+#sellavi_logo {
+  height: 25px !important;
+  width: auto !important;
+}
+
+.footer_content_text {
+  justify-content: flex-start !important;
+}
