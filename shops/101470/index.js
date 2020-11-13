@@ -1,7 +1,7 @@
 import  DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
 if (document.querySelector('.wrapper')) {
-  const headerWrapper = document.querySelector('.header-wrapper>div');
+  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const search = document.querySelector('.header-search');
   const cartText = document.querySelector('#cart > span');
   const navigation = document.querySelector('.navigation');
