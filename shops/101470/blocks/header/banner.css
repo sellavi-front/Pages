@@ -6,7 +6,6 @@
   height: auto;
   z-index: 20;
   text-align: center;
-  color: #fff;
   position: absolute;
   bottom: 10%;
   width: 195px;
@@ -15,4 +14,12 @@
   flex-direction: column;
   width: 100%;
   text-align: center;
+}
+
+.banner__caption a {
+  border-bottom: 1px solid white;
+}
+
+.banner__caption a, .banner__caption h1 {
+  color: #fff;
 }
