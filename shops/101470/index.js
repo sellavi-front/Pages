@@ -19,6 +19,13 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
+if (document.readyState == 'interactive' || document.readyState == 'loading') {
+  document.querySelector('html').style.opacity = '0';
+}
+window.onload = () => {
+  document.querySelector('html').style.opacity = '1';
+};
+
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const search = document.querySelector('.header-search');
@@ -27,8 +34,12 @@ if (document.querySelector('.wrapper')) {
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
-  const footerWidgetCol2 = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2)");
-  const footerWidgetCol2List = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul");
+  const footerWidgetCol2 = document.querySelector(
+    'footer > .footer-widgets > .container > div > div:nth-child(2)',
+  );
+  const footerWidgetCol2List = document.querySelector(
+    'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
+  );
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
 
@@ -44,11 +55,9 @@ if (document.querySelector('.wrapper')) {
   deleteElements.remove();
 
   deleteClassesFooter.findAndDelete();
-
 }
 
 if (document.querySelector('.common-home')) {
-
   const objBanner = {
     title: 'Коврики для ЙОГИ',
     link: '#',
