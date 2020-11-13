@@ -1,0 +1,12 @@
+.cart-wrapper {
+  border: none;
+  margin: 0;
+}
+
+#card {
+  padding: 0;
+}
+
+#card > i {
+  margin: 0;
+}
