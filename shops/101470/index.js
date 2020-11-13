@@ -41,7 +41,6 @@ if (document.querySelector('.wrapper')) {
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
-  const bigBanner = new BigBanner(document, objBanner);
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
@@ -51,9 +50,13 @@ if (document.querySelector('.wrapper')) {
 
   deleteElements.remove();
 
-  bigBanner.render();
 
   deleteClassesProd.findAndDelete();
   deleteClassesFooter.findAndDelete();
 
+}
+
+if (document.querySelector('.common-home')) {
+  const bigBanner = new BigBanner(document, objBanner);
+  bigBanner.render();
 }
