@@ -19,6 +19,10 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
+if (document.readyState == 'loading') {
+  console.log('Страница загружается');
+}
+
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const search = document.querySelector('.header-search');
