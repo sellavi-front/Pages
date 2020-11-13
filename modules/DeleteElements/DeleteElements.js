@@ -10,9 +10,7 @@ export default class DeleteElements {
   }
 
   remove() {
-    console.log(this.elements);
     this.elements.forEach((el) => {
-      console.log(el);
       !el ? console.log(`Элемент ${el} не найден`) : el.remove();
     });
   }
