@@ -4,6 +4,21 @@ import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
+const bootstrapClasses = [
+  'col-lg-4',
+  'col-xl-3',
+  'mb-0',
+  'mb-md-4',
+  'col-12',
+  'col-sm-12',
+  'col-sm-6',
+  'col-md-6',
+  'col-md-3',
+  'col-lg-6',
+  'col-xl-4',
+  'mb-4',
+];
+
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const search = document.querySelector('.header-search');
@@ -14,33 +29,11 @@ if (document.querySelector('.wrapper')) {
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetCol2 = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2)");
   const footerWidgetCol2List = document.querySelector("footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul");
-  const productItem = document.querySelectorAll('.product-item');
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
-  const bootstrapClasses = [
-    'col-lg-4',
-    'col-xl-3',
-    'mb-0',
-    'mb-md-4',
-    'col-12',
-    'col-sm-12',
-    'col-sm-6',
-    'col-md-6',
-    'col-md-3',
-    'col-lg-6',
-    'col-xl-4',
-    'mb-4',
-  ];
-
-  const objBanner = {
-    title: 'Коврики для ЙОГИ',
-    link: '#',
-    linkContent: 'В КАТАЛОГЕ',
-  };
 
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
-  const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
@@ -50,13 +43,28 @@ if (document.querySelector('.wrapper')) {
 
   deleteElements.remove();
 
-
-  deleteClassesProd.findAndDelete();
   deleteClassesFooter.findAndDelete();
 
 }
 
 if (document.querySelector('.common-home')) {
+
+  const objBanner = {
+    title: 'Коврики для ЙОГИ',
+    link: '#',
+    linkContent: 'В КАТАЛОГЕ',
+  };
+
+
   const bigBanner = new BigBanner(document, objBanner);
+
   bigBanner.render();
+}
+
+if (document.querySelector('.product-item')) {
+  const productItem = document.querySelectorAll('.product-item');
+
+  const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
+
+  deleteClassesProd.findAndDelete();
 }
