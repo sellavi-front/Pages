@@ -2,6 +2,10 @@
 @import './cart.css';
 @import './navigation.css';
 
+.header {
+  border: none !important;
+}
+
 .header-wrapper > .container-fluid {
   display: flex;
   justify-content: space-between;
