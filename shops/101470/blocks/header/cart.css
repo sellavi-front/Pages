@@ -1,12 +1,12 @@
 .cart-wrapper {
-  border: none;
-  margin: 0;
+  border: none !important;
+  margin: 0 !important;
 }
 
 #card {
   padding: 0;
 }
 
-#card > i {
-  margin: 0;
+#card i {
+  margin: 0 !important;
 }
