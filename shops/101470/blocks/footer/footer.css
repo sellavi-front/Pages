@@ -11,12 +11,19 @@
   justify-content: flex-start !important;
 }
 
-.widget-categories ul li a:before {
+.widget-categories ul li a:before,
+.footer-widgets .widget-title:before {
   display: none;
 }
 
-.widget-categories ul li a {
-  padding: 0;
+
+
+.widget-categories>ul>li>a {
+  padding: 0 !important;
+}
+
+.footer_content_wrapper {
+  justify-content: space-between !important;
 }
 
 .footer_content_wrapper ul {
