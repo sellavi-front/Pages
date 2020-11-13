@@ -12,14 +12,16 @@ export default class ChangeErrorMessage {
   }
 
   change() {
-    console.log(this.btn)
+    console.log(this.btn);
     this.btn.addEventListener('click', () => {
       const alerts = document.querySelectorAll('.text-danger');
-      this.setMessage(alerts)
+      this.setMessage(alerts);
     });
   }
 }
 
-const newChangeError = new ChangeErrorMessage();
+if (document.querySelector('.product-product')) {
+  const newChangeError = new ChangeErrorMessage();
 
-newChangeError.change();
+  newChangeError.change();
+}
