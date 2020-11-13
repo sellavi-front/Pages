@@ -1,4 +1,4 @@
-export class FooterCopy {
+export default class FooterCopy {
 
   constructor() {
     this.container = document.querySelector('.footer_content_text');
