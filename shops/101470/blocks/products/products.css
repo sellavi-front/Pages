@@ -5,3 +5,11 @@
   margin-top: 3%;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .products {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 284px) !important;
+    padding-top: 5%;
+  }
+}
