@@ -46,7 +46,7 @@ if (document.querySelector('.wrapper')) {
   headerWrapper.classList.remove('container');
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
-  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2);
+  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2.outerHTML);
 
   deleteElements.remove();
 
