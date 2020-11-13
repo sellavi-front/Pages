@@ -20,7 +20,7 @@ const bootstrapClasses = [
 ];
 
 if (document.readyState == 'loading') {
-  console.log(document.readyState);
+  document.querySelector('body').style.display = 'none';
 }
 
 if (document.querySelector('.wrapper')) {
