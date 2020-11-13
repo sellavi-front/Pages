@@ -7,5 +7,7 @@ if (document.querySelector('.wrapper')) {
   const forDelete  = [search, cartText];
   const deleteElements = new DeleteElements(forDelete);
 
+  console.log(forDelete);
+
   deleteElements.remove();
 }
