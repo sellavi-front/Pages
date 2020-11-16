@@ -45,6 +45,13 @@ body .content-area .page-section .product-layout {
   box-shadow: 1px 4px 25px -21px black;
 }
 
+.product-product .product-single .buttons .btn-cart,
+.product-product .product-single .buttons .btn-wish-list,
+.product-product .product-single .buttons .quantity .btn {
+  background-color: #00b16a;
+  color: white;
+}
+
 .product-product .product-single .buttons .btn-cart {
   border: 3px solid rgba(35,35,35,.1) !important;
   border-radius: 100px 50px 50px 100px;
@@ -53,8 +60,6 @@ body .content-area .page-section .product-layout {
 
 .product-product .product-single .buttons .btn-wish-list {
   border: 3px solid rgba(35,35,35,.1);
-  background-color: #00b16a;
-  color: white;
   margin-top: 0;
   border-radius: 10px;
 }
@@ -66,9 +71,7 @@ body .content-area .page-section .product-layout {
 }
 
 .product-product .product-single .buttons .quantity .btn {
-  background-color: #00b16a;
   border-radius: 100px;
-    color: white;
 }
 
 .product-product .product-single .buttons .quantity .btn i {
