@@ -17,7 +17,7 @@
   height: 800px;
   z-index: 10;
   overflow: hidden;
-  background-position: center;
+  background-position: center !important;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
