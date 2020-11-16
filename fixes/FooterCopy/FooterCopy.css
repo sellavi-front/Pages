@@ -1,5 +1,6 @@
 .footer .footer-meta {
   padding: 15px 0 !important;
+  border: none !important;
 }
 
 .footer_content_container {
@@ -18,7 +19,7 @@
 
 .footer_content_text {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: flex-start;
 }
