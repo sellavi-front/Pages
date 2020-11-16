@@ -22,7 +22,12 @@ body .footer .footer-widgets {
 
 .footer-widgets .widget-title {
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 0 .5em 0 !important;
+
+}
+
+.footer-widgets div .row {
+  justify-content: center;
 }
 
 .widget-categories>ul>li>a {
