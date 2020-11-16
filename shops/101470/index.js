@@ -4,7 +4,7 @@ import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription';
+import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
