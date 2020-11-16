@@ -25,3 +25,7 @@ body span,
 body b {
   font-family: 'Noto Sans', sans-serif !important;
 }
+
+body.ltr ul {
+  margin: 0 !important;
+}
