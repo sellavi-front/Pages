@@ -53,3 +53,10 @@ body .footer .footer-widgets {
 .widget-categories ul li+li {
   border: none !important;
 }
+
+
+@media (max-width: 768px) {
+  .footer-widgets div .row {
+    justify-content: space-between;
+  }
+}
