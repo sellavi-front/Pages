@@ -5,6 +5,7 @@ import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
+import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -38,6 +39,7 @@ if (document.querySelector('.wrapper')) {
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
+  const footerWidgetsRow = document.querySelector('footer > .footer-widgets > .container > .row');
   const footerWidgetCol2 = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2)',
   );
@@ -47,10 +49,17 @@ if (document.querySelector('.wrapper')) {
   const footerMetaContainer = document.querySelector('.footer-meta');
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
+  const contacts = {
+    title: 'Наши контакты',
+    phone: '+7(999)999-99-99',
+    email: '1981market@mail.ru'
+  }
+
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
+  const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
