@@ -64,4 +64,9 @@ body .footer .footer-widgets {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+
+  .footer_content_wrapper ul li {
+    margin-right: 2em;
+    margin-bottom: 1em;
+  }
 }
