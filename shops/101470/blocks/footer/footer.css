@@ -54,7 +54,7 @@ body .footer .footer-widgets {
   border: none !important;
 }
 
-#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) {
+#home > div > footer > div.footer-widgets > div.container > .row > div:nth-child(1) {
   display: none !important;
 }
 

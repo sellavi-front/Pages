@@ -6,7 +6,7 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
-import SenderTypeOne from '../../components/SenderTypeOne/SenderTypeOne.js'
+import SenderTypeOne from '../../components/SenderTypeOne/SenderTypeOne.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
