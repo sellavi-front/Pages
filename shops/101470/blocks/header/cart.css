@@ -25,7 +25,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .header-cart .cart-wrapper #cart {
     color: black !important;
   }
