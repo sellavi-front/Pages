@@ -74,6 +74,7 @@ if (document.querySelector('.wrapper')) {
 
   deleteClassesFooter.findAndDelete();
   buttonsInHeader.setTemplate(headerWrapper);
+  contactsSimple.render();
 }
 
 if (document.querySelector('.common-home')) {
