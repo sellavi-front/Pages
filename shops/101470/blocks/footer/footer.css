@@ -2,8 +2,8 @@
   border: none !important;
 }
 
-.footer-widgets {
-  background: #a4dec780;
+body .footer .footer-widgets {
+  background: #a4dec780 !important;
 }
 
 #sellavi_logo {
