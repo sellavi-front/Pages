@@ -10,6 +10,13 @@ body h5,
 body h6,
 body p,
 body a,
+body ul,
+body li,
+.product-availability,
+.product-price,
+#button-cart,
+.title,
+.price,
 input.form-control,
 input.form-control::placeholder {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -149,6 +156,167 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   border-bottom: 2px solid;
 }
 
+/* End */
+
+
+/* Content */
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards__item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+}
+.card__image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+@media (min-width: 40rem) {
+  .card__image::before {
+    padding-top: 66.6%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cards__item {
+    width: 50%;
+    height: auto;
+  }
+}
+@media (min-width: 56rem) {
+  .cards__item {
+    width: 50%;
+    height: auto;
+  }
+}
+
+.card__title {
+  color: #696969;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+#content > ul > li:nth-child(7) {
+  flex: 5;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.description__item {
+  flex-grow: 1;
+  height: auto;
+  padding: 15px;
+}
+
+.description__item + .description__item {
+  margin-left: 2%;
+}
+
+#content > div.description > div:nth-child(1) {
+  height: auto;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10%;
+}
+
+#content > div.description > div:nth-child(2) {
+  width: 100%;
+}
+
+#content > div.description > div:nth-child(2) > img {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.15);
+}
+
+.product-category-3425 > div.wrapper.wrapper-closed > div.content-area > section.page-section.titles {
+  background: url(https://altay-green.ru/wp-content/uploads/2015/10/priroda-olen-roga-maral.jpg) no-repeat center/cover !important;
+  text-align: center;
+  min-height: 300px;
+  border-top: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.product-category-3424 > div.wrapper.wrapper-closed > div.content-area > section.page-section.titles {
+  background: url(https://img5.goodfon.ru/wallpaper/nbig/9/61/iuzhnaia-koreia-priroda-peizazh-gory-kholmy-rododendrony-der.jpg) no-repeat center/cover !important;
+  text-align: center;
+  min-height: 300px;
+  border-top: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+
+.product-category-3424 > div.wrapper.wrapper-closed > div.content-area > section.page-section.titles > div > div > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 42px !important;
+  margin-top: 8%;
+}
+
+.product-category-3425 > div.wrapper.wrapper-closed > div.content-area > section.page-section.titles > div > div > h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 42px !important;
+  margin-top: 15%;
+}
+
+/* End */
+
 
 /* Categories Body */
 body .content-area .page-section.titles {
@@ -192,6 +360,8 @@ body.theme-green-2 .footer {
     border-radius: 0 !important;
   }
 
+
+
   .banner__main__description h1 {
     font-size: 62px !important;
     color: #333;
@@ -199,7 +369,7 @@ body.theme-green-2 .footer {
     justify-content: center !important;
     font-weight: 900;
     margin-top: 10%;
-    margin-right: 25px;
+    margin-right: 0;
     text-align: center;
   }
 
@@ -212,9 +382,47 @@ body.theme-green-2 .footer {
   .banner__main__description a {
     display: none;
   }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+  }
+
+  #content > div.description > div:nth-child(2) {
+    width: 100%;
+  }
+
+  .description__item {
+    height: auto;
+    padding: 0;
+  }
+
+  .description__item + .description__item {
+    margin-left: 0;
+  }
+
+  #content > div.description > div:nth-child(1) {
+    order: 1;
+  }
+
+  #content > div.description > div:nth-child(1) {
+    order: 2;
+  }
+
+  #home > div.wrapper.wrapper-closed > div.content-area > section.page-section.titles > div > div > h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 42px !important;
+    margin-top: 20%;
+  }
+
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
 
+  .banner__main__img + .banner__main__description {
+    margin-left: 2%;
+  }
 
 }
