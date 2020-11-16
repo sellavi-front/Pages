@@ -2,6 +2,10 @@
   font-size: 12px;
 }
 
+.sf-menu.nav>li>a {
+  padding: 8px !important;
+}
+
 .sf-menu > .flexy > a > span {
   display: none;
 }

@@ -53,8 +53,8 @@ if (document.querySelector('.wrapper')) {
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
 
-  footerMetaContainer.add('container-fluid');
-  footerMetaContainer.remove('container');
+  footerMetaContainer.classList.add('container-fluid');
+  footerMetaContainer.classList.remove('container');
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
