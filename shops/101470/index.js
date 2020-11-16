@@ -46,7 +46,7 @@ if (document.querySelector('.wrapper')) {
   const footerWidgetCol2List = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
-  const footerMetaContainer = document.querySelector('.footer-meta');
+  const footerMetaContainer = document.querySelector('.footer-meta>div');
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
   const contacts = {
