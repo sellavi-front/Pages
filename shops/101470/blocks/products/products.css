@@ -60,8 +60,8 @@ body .content-area .page-section .product-layout {
 
 .product-product .product-single .buttons .btn-wish-list {
   border: 3px solid rgba(35,35,35,.1);
-  margin-top: 0;
-  border-radius: 10px;
+  margin: 0;
+  border-radius: 0 10px 10px 0px;
 }
 
 .product-product .product-single .buttons .quantity {
@@ -81,6 +81,14 @@ body .content-area .page-section .product-layout {
 .product-product .product-single .buttons .quantity .qty {
   background: transparent;
   color: black !important;
+}
+
+.product-product .product-single {
+  padding-top: 5%;
+}
+
+body.theme-green-1 .social-icons li a {
+  border: none;
 }
 
 @media (max-width: 768px) {
