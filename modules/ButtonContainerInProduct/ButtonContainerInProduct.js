@@ -7,7 +7,7 @@ export default class ButtonContainerInProduct {
     this.addToWishList = addToWishList;
   }
 
-  delete() {
+  delete(element) {
     element.forEach(el => el.remove());
   }
 
