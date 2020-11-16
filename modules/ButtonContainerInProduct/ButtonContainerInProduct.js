@@ -11,7 +11,7 @@ export default class ButtonContainerInProduct {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
         'beforebegin',
-        `<div class="buttons__container">${this.addToWishList[i]}${this.addToCart[i]}</div>`,
+        `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
   }
