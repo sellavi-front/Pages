@@ -42,6 +42,7 @@ if (document.querySelector('.wrapper')) {
   const footerWidgetCol2List = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
+  const footerMetaContainer = document.querySelector('.footer-meta');
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
 
@@ -51,6 +52,9 @@ if (document.querySelector('.wrapper')) {
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
+
+  footerMetaContainer.add('container-fluid');
+  footerMetaContainer.remove('container');
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
