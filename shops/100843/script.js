@@ -89,7 +89,6 @@ if (document.querySelector('.product-item')) {
 if (!location.href.includes('checkout')) {
   const deleteColClass = document.querySelectorAll('.footer-widgets>.container>.row>.col-md-3');
   const deleteColSm6 = document.querySelectorAll('.footer_content_text > div');
-  const productItem = document.querySelectorAll('.product-item');
 
   const translateAbout = new TranslateAboutUs();
   const deleteClasses = new DeleteClasses(deleteColSm6, bootstrapClasses);

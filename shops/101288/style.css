@@ -639,9 +639,20 @@ body .section-title.section-title-lg {
   background: 0;
 }
 
+
+body.common-home .wrapper header.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .outer-container {
   width: 100%;
+  width: 100%;
   min-height: 800px;
+  min-height: 800px;
+}
 }
 
 .banner {
@@ -652,13 +663,6 @@ body .section-title.section-title-lg {
   background-color: #000;
   transform-style: preserve-3d;
   transform: translatez(0);
-}
-
-body.common-home .wrapper header.header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .banner__image {

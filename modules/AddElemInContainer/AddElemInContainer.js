@@ -17,31 +17,37 @@ export default class AddElemInContainer {
     //[this.el, this.cont] = this.findElements();
   }
 
-  // copyArr(arr) {
-  // return Array.from(arr);
-  // }
+  copyArr(arr) {
+    return Array.from(arr);
+  }
 
-  // copyEl(el) {
-  // return el.cloneNode(true);
-  // }
+  copyEl(el) {
+    return el.cloneNode(true);
+  }
 
-  // delete(item) {
-  // if (item.lenth) item.forEach((e) => e.remove());
-  // item.remove();
-  // }
+  delete(item) {
+    if (item.lenth) item.forEach((e) => e.remove());
+    item.remove();
+  }
 
-  // copyType(data) {
-  // //if (data.length) this.copyArr(data);
-  // return this.copyEl(data);
-  // }
+  copyType(data) {
+    if (data.length) this.copyArr(data);
+    return this.copyEl(data);
+  }
 
-  // findElements() {
-  // //const elem = this.copyType(this.addElem);
-  // const cont = this.container;
+  findElements() {
+    const elem = this.copyType(this.addElem);
+    const cont = this.container;
 
-  // //this.delete(this.addElem);
-  // return [elem, cont];
-  // }
+    this.delete(this.addElem);
+    return [elem, cont];
+  }
+
+  addElements() {
+    this.cont.forEach((cont, i) => {
+      cont.insertAdjacentHTML('afterbigin', [addToCart[i], addToWishList[i]]);
+    });
+  }
 
   render() {
     //this.cont.forEach((elem, idx) => {

@@ -8,9 +8,9 @@ export default class SenderTypeOne {
     return `
             <div class="footer-col-1">
               <div class="sender">
-                <h4 class="sender__title">У нас есть e-mail рассылка</h4>
+                <h4 class="sender__title">${this.content.title}</h4>
                 <p class="sender__description">
-                  Получайте письма с последними новинками, акциями и розыгрышами. Вы можете отписаться в любой момент
+                  ${this.content.text}
                 </p>
                 <form action="submit" class="sender__form">
                   <input
