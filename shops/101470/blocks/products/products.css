@@ -16,6 +16,12 @@
   display: none !important;
 }
 
+.buttons__container .add_to_wishlist, .buttons__container .remove_from_wishlist {
+  position: relative !important;
+  bottom: auto !important;
+}
+
+
 @media (max-width: 768px) {
   .products {
     justify-content: center;
