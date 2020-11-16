@@ -2,9 +2,12 @@
   font-size: 12px;
 }
 
-.commone-home .wrapper .header .header-wrapper div .navigation .nav li a {
+.commone-home .wrapper .header .header-wrapper div .navigation .nav .flexy a {
+  color: white !important;
+}
+
+.navigation .nav li a {
   padding: 8px !important;
-  color: white;
 }
 
 .sf-menu > .flexy > a > span {
