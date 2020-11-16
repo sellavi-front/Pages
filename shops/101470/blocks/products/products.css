@@ -56,7 +56,7 @@ body .content-area .page-section .product-layout {
 
 .product-product .product-single .buttons .btn-cart {
   border: 3px solid rgba(35, 35, 35, 0.1) !important;
-  border-radius: 100px 50px 50px 100px;
+  border-radius: 100px 0 0 100px;
   margin: 0;
 }
 
