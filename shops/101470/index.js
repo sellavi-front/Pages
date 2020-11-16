@@ -6,6 +6,7 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
+import SenderTypeOne from '../../components/SenderTypeOne/SenderTypeOne.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -55,11 +56,11 @@ if (document.querySelector('.wrapper')) {
     email: '1981market@mail.ru'
   }
 
-
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
+  const senderTypeOne = new SenderTypeOne(footerWidgetsRow);
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
@@ -75,6 +76,7 @@ if (document.querySelector('.wrapper')) {
   deleteClassesFooter.findAndDelete();
   buttonsInHeader.setTemplate(headerWrapper);
   contactsSimple.render();
+  senderTypeOne.render();
 }
 
 if (document.querySelector('.common-home')) {
