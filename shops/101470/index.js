@@ -3,6 +3,7 @@ import '../../fixes/fixes.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import ButtonContainerInProduct from '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const bootstrapClasses = [
   'col-lg-4',

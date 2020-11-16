@@ -7,9 +7,13 @@
 }
 
 .thumbnail .caption-title {
-  text-align: center;
+  text-align: center !important;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.add_to_cart button span {
+  display: none !important;
 }
 
 @media (max-width: 768px) {

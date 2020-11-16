@@ -1,0 +1,211 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>
+
+<script>
+  window.onload = () => {
+    const ORG_NAME = 'ИП Аношин Дмитрий Андреевич';
+    const ORG_ADRRESS = 'Москва 115093 Большая Серпуховская улица д.40 стр.1 кВ.27';
+    const MAIL_ADDRESS = 'Москва 115093 Большая Серпуховская улица д.40 стр.1 кВ.27';
+    const INN = '770508914167';
+    const OGRN = '319774600574174';
+    const BANKNAME = 'ТОЧКА ПАО БАНКА "ФК ОТКРЫТИЕ"';
+    const ACCOUT_NUMBER = '40802810901500065857';
+    const CORR_NUMBER = '30101810845250000999';
+    const BIK = '044525999';
+    const DIRECTOR = 'Аношин Дмитрий Андреевич';
+
+    if (location.href.includes('terms-of-use')) {
+      const root = document.querySelector('.requsitess');
+      let requsitesData = document.createElement('div');
+      requsitesData.classList.add('.requsites-data');
+      requsitesData.id = 'requisites';
+      if (root) {
+        root.append(requsitesData);
+        let Requisites = new Vue({
+          el: '#requisites',
+          data: {
+            requisites: [ORG_NAME, ORG_ADRRESS, INN, OGRN, BANKNAME, CORR_NUMBER, BIK],
+          },
+          template: `
+                <div class="requsites__data">
+                    <h4 class="requsites__title">Реквизиты продавца</h4>
+                    <p class="requsites__elem">Название: <span>${ORG_NAME}</span></p>
+                    <p class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></p>
+                    <p class="requsites__elem">Инн: <span>${INN}</span></p>
+                    <p class="requsites__elem">Банк: <span>${BANKNAME}</span></p>
+                    <p class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></p>
+                    <p class="requsites__elem">БИК: <span>${BIK}</span></p>
+                    <p class="requsites__elem">Ген.дир: <span>${DIRECTOR}</span></p>
+                </div>`,
+        });
+      } else console.log('No element with id:list');
+    }
+
+    if (location.href.includes('contact')) {
+      const root = document.querySelector('.contact-info');
+      const list = document.createElement('div');
+      list.id = 'requisites';
+      if (root) {
+        root.append(list);
+        let Requisites = new Vue({
+          el: '#requisites',
+          data: {
+            requisites: [ORG_NAME, ORG_ADRRESS, INN, BANKNAME, CORR_NUMBER, BIK, DIRECTOR],
+          },
+          template: `
+            <ul class="requisite">
+                <li class="requisite__title">
+                    Реквизиты
+                </li>
+                <li class="requsites__elem">Название: <span>${ORG_NAME}</span></li>
+                <li class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></li>
+                <li class="requsites__elem">Инн: <span>${INN}</span></li>
+                <li class="requsites__elem">Банк: <span>${BANKNAME}</span></li>
+                <li class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></li>
+                <li class="requsites__elem">БИК: <span>${BIK}</span></li>
+                <li class="requsites__elem">Ген.дир: <span>${DIRECTOR}</span></li>
+            </ul>
+        `,
+        });
+      } else console.log('No element with id:list');
+    }
+
+    const customSection = document.querySelector('.custom_section');
+
+    customSection.insertAdjacentHTML(
+      'afterbegin',
+      `<div id="kont" class="info">
+  <div class="info__container">
+    <img
+      src="лого-компании"
+      width="141"
+      alt=""
+      class="info__logo"
+      style="
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+          rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
+      "
+    />
+    <p class="info__ph">
+      Мы готовим кофе больше чем в 30 вариантах, включая самые экзотические
+      сорта.<br />География наших поставщиков насчитывает 12 стран.
+    </p>
+    <h3 class="info__title">магазины</h3>
+    <p class="info__ph">
+      Москва, ул. Весенняя, д. 11<br />Санкт-Петербург, ул. Вешних вод, д. 32
+    </p>
+    <h3 class="info__title">подписка на новости</h3>
+    <div class="form-block info__form">
+      <form
+        id="email-form"
+        name="email-form"
+        data-name="Email Form"
+        class="form"
+      >
+        <input
+          type="email"
+          class="info__form_input"
+          maxlength="256"
+          name="email-2"
+          data-name="Email 2"
+          placeholder="Ваш Email"
+          id="email-2"
+          required=""
+        />
+        <button
+          type="submit"
+          class="info__form_btn"
+        />
+        ОТПРАВИТЬ
+      </button>
+      </form>
+    </div>
+  </div>
+</div>
+`,
+    );
+  };
+</script>
+
+<script>
+  $(document).ready(function () {
+    const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget');
+    const widTitle = widget.find('.widget-title');
+    const widCat = widget.find('.widget-categories>ul>li:first-child>a');
+    let textTrans = 'About us ';
+    let textRus = 'О нас';
+
+    if (widTitle.html() == textTrans || widCat.html() == textTrans) {
+      widTitle.text(textRus);
+      widCat.text(textRus);
+    }
+
+    $('.custom_banner').html(`
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="carousel-caption d-none d-md-block">
+<h3 class="display-1">
+  1981 Кофейня</h3>
+  <small class="text-muted display-4">Особый кофе в особом месте</small>
+      </div>
+      <img src="https://avatars.mds.yandex.net/get-altay/2022045/2a0000016f1e56c372e55b325063e6cbf1cf/XXXL" class="d-block w-100">
+    </div>
+  </div>
+ <!-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+</div>
+`);
+    $('.custom_banner').append(`
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+    <img src="https://avatars.mds.yandex.net/get-altay/1871297/2a0000016f1e56d229da50a6bfed4853ccb3/XXXL"  class="img-fluid">
+    <img src="https://avatars.mds.yandex.net/get-altay/2755030/2a000001717a53bf6c2e5158b1122710f825/XXXL"  class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+    <img src="https://avatars.mds.yandex.net/get-altay/1592431/2a0000016f1e56be5a272eff5f4832669845/XXXL"  class="img-fluid">
+    <img src="https://avatars.mds.yandex.net/get-altay/1525683/2a0000016f1e56ccd25b11bd648e719ee678/XXXL"  class="img-fluid">
+    <img src="https://avatars.mds.yandex.net/get-altay/2755030/2a000001717a53eccfed8f574005f179a19f/XXXL"  class="img-fluid">
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+    <img src="https://avatars.mds.yandex.net/get-altay/2397657/2a000001717a53d0d618fe1980d04898124f/XXXL"  class="img-fluid">
+    <img src="https://avatars.mds.yandex.net/get-altay/2804357/2a0000017179a8f4e10d36b723223d365d99/XXXL"  class="img-fluid">
+
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+    <img src="https://avatars.mds.yandex.net/get-altay/2022045/2a0000016f1e56c372e55b325063e6cbf1cf/XXXL"  class="img-fluid">
+    <img src="https://avatars.mds.yandex.net/get-altay/2816622/2a0000017179aad2a256b959236991379d7d/XXXL"  class="img-fluid">
+  </div>
+</div>
+</div>
+`);
+  });
+</script>
+<script>
+  $(function () {
+    $('head').append(`<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />`);
+    document
+      .querySelector(
+        '#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul',
+      )
+      .insertAdjacentHTML(
+        'beforeEnd',
+        `<li><a href="https://www.instagram.com/1981.cafe/">Наш Instagram</a></li>`,
+      );
+  });
+</script>
