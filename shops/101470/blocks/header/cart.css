@@ -11,10 +11,15 @@
   height: auto !important;
 }
 
-#cart {
+.header-cart .cart-wrapper #cart {
   padding: 0;
+  color: black !important;
 }
 
 #cart i {
   margin: 0 !important;
+}
+
+.header-wrapper > .container-fluid > .header-cart {
+  display: none;
 }
