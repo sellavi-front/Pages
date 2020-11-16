@@ -26,3 +26,7 @@
   background: transparent;
 }
 
+.common-home .button__list_elem a {
+  color: white;
+}
+

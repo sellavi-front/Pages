@@ -80,7 +80,7 @@ if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section>.container');
 
   const objBanner = {
-    title: 'Коврики для ЙОГИ',
+    title: 'Полезные продукты',
     link: '#',
     linkContent: 'В КАТАЛОГЕ',
   };
