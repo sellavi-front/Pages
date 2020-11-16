@@ -41,6 +41,7 @@ if (document.querySelector('.wrapper')) {
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetsRow = document.querySelector('footer > .footer-widgets > .container > .row');
+  const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
   const footerWidgetCol2 = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2)',
   );
@@ -60,7 +61,7 @@ if (document.querySelector('.wrapper')) {
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
-  const senderTypeOne = new SenderTypeOne(footerWidgetsRow);
+  const senderTypeOne = new SenderTypeOne(footerWidgets);
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
