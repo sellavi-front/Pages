@@ -68,12 +68,19 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
+  const pageSection = document.querySelector('.page-section>.container');
+
   const objBanner = {
     title: 'Коврики для ЙОГИ',
     link: '#',
     linkContent: 'В КАТАЛОГЕ',
   };
 
+  const titleAbout = 'Zero Waste Shop';
+  const descpSubtitle =
+    'Десятилетия назад о "ноль отходов" задумывались только компании-производители. Сегодня "ноль отходов" - это стиль жизни, к которому присоединяются все больше и больше людей.';
+
+  const horizontTitleDecription = new HorizontTitleDecription(titleAbout, descpSubtitle, pageSection);
   const bigBanner = new BigBanner(document, objBanner);
 
   bigBanner.render();
