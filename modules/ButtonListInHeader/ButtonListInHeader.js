@@ -17,11 +17,11 @@ export default class ButtonListInHeader {
       <i class="far fa-user"></i>
     </a>
   </li>
-  <li class="button__list_elem icon-form">
+  <!-- <li class="button__list_elem icon-form">
     <a href="https://${this.host}/index.php?route=account/logout" role="link">
       <i class="far fa-sign-out-alt"></i>
     </a>
-  </li>
+  </li> -->
   <li class="button__list_elem header-cart sticky" data-product-added-text="Product added to cart">
     <div class="cart-wrapper">
       <div class="dropdown cart_drop_down">
