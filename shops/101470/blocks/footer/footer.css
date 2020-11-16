@@ -13,10 +13,13 @@
 
 .widget-categories ul li a:before,
 .footer-widgets .widget-title:before {
-  display: none;
+  display: none !important;
 }
 
-
+.footer-widgets .widget-title {
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 .widget-categories>ul>li>a {
   padding: 0 !important;
