@@ -5,6 +5,9 @@
 .header {
   border: none !important;
   position: absolute;
+  z-index: 999;
+  top: 0;
+  width: 100%;
 }
 
 .header .navigation-wrapper {
