@@ -26,6 +26,8 @@
 .buttons__container .add_to_wishlist, .buttons__container .remove_from_wishlist {
   position: relative !important;
   bottom: auto !important;
+  right: auto !important;
+  left: auto !important;
 }
 
 
