@@ -3,7 +3,8 @@ import '../../fixes/fixes.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import ButtonContainerInProduct from '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -44,6 +45,7 @@ if (document.querySelector('.wrapper')) {
 
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
 
+  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
 
@@ -56,6 +58,7 @@ if (document.querySelector('.wrapper')) {
   deleteElements.remove();
 
   deleteClassesFooter.findAndDelete();
+  buttonsInHeader.setTemplate(headerWrapper);
 }
 
 if (document.querySelector('.common-home')) {
