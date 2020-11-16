@@ -10,10 +10,10 @@ export default class ContactsSimple {
         <h2 class="contacts-simple__title"> ${this.contacts.title}</h2>
         <ul class="contacts-simple__list">
           <li class="contacts-simple__list_elem">
-            <a class="">${contacts.phone}</a>
+            <a href="phone:${this.contacts.phone}" class="">${this.contacts.phone}</a>
           </li>
           <li class="contacts-simple__list_elem">
-            <a class="">${contacts.email}</a>
+            <a href="${this.contacts.email}" class="">${this.contacts.email}</a>
           </li>
         </ul>
       </div>
