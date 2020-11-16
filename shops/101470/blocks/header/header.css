@@ -2,7 +2,7 @@
 @import './cart.css';
 @import './navigation.css';
 
-.header {
+.common-home .header {
   border: none !important;
   position: absolute;
   z-index: 999;
