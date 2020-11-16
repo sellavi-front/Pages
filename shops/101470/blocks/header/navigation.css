@@ -3,7 +3,7 @@
 }
 
 .common-home .wrapper .header .header-wrapper div .navigation .nav .flexy a {
-  color: white !important;
+  color: white ;
 }
 
 .navigation .nav li a {
@@ -25,6 +25,10 @@
   top: 29px !important;
   background: white !important;
   box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sf-menu li:hover>ul>li>a {
+  color: black !important;
 }
 
 .sf-menu .flexy:hover > ul > li > a {
