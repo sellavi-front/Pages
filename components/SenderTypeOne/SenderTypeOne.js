@@ -1,5 +1,10 @@
 export default class SenderTypeOne {
-  constructor(container, content) {
+  contentDefault = {
+    title: 'Подписка на новости',
+    text: 'Получайте письма с последними новинками, акциями и розыгрышами. Вы можете отписаться в любой момент',
+  }
+
+  constructor(container, content = this.contentDefault) {
     this.container = container;
     this.content = content;
   }
