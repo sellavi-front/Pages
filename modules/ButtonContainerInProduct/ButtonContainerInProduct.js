@@ -7,6 +7,11 @@ export default class ButtonContainerInProduct {
     this.addToWishList = addToWishList;
   }
 
+  delete() {
+    this.addToCart.remove()
+    this.addToWishList.remove()
+  }
+
   createContainer() {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
@@ -14,6 +19,8 @@ export default class ButtonContainerInProduct {
         `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
+
+    this.delete()
   }
 }
 
