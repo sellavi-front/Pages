@@ -5,16 +5,19 @@ export default class ButtonContainerInProduct {
   }
 
   createContainer() {
-    return this.addToCart.insertAdjacentHTML(
-      'beforebegin',
-      `<div class="buttons__container">${this.addToCart.outerHTML}${this.addToWishList.outerHTML}</div>`,
-    );
+    addToCart.forEach((btn) => {
+      btn.insertAdjacentHTML(
+        'beforebegin',
+        `<div class="buttons__container"></div>`,
+      );
+    });
   }
 }
 
-const addToCart = document.querySelector('.add_to_cart');
-const addToWishList = document.querySelector('.add_to_wishlist');
+const addToCart = document.querySelectorAll('.add_to_cart');
+const addToWishList = document.querySelectorAll('.add_to_wishlist');
 
 const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList);
 
 buttonContainerInProduct.createContainer();
+//${this.addToCart.outerHTML}${this.addToWishList.outerHTML}
