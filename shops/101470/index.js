@@ -85,7 +85,7 @@ if (document.querySelector('.common-home')) {
 
   const objBanner = {
     title: 'Полезные продукты',
-    link: '#',
+    link: 'https://store101470.sellavi.com/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B/',
     linkContent: 'В КАТАЛОГЕ',
   };
 
