@@ -7,6 +7,6 @@
   padding: 8px;
 }
 
-.button__list_elem {
+.button__list_elem a {
   color: white;
 }
