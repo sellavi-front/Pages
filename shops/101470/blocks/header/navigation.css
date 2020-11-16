@@ -21,8 +21,9 @@
 }
 
 .sf-menu>li>ul {
-  top: 66px !important;
+  top: 29px !important;
   background: white !important;
+  box-shadow: 2px 6px 5px 0 rgba(0,0,0,.1);
 }
 
 @media (max-width: 991px) {
