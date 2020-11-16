@@ -1,3 +1,4 @@
-.body .section-title {
+body .section-title,
+body .content-area .page-section.titles {
   display: none !important;
 }
