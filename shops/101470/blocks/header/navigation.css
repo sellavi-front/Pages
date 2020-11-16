@@ -5,3 +5,9 @@
 .sf-menu > .flexy > a > span {
   display: none;
 }
+
+.sf-menu li:hover,
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+  background: none !important;
+  color: #00b16a;
+}

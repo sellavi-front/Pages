@@ -30,6 +30,10 @@
   left: auto !important;
 }
 
+.thumbnail .price {
+  margin: 0 !important;
+}
+
 
 @media (max-width: 768px) {
   .products {
