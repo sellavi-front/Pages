@@ -100,10 +100,20 @@ body.theme-green-1 .social-icons li a {
   border-color: #22885e;
 }
 
+.table_holder  {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .products {
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 284px) !important;
     padding-top: 5%;
+  }
+}
+
+@media (max-width: 495px) {
+  .product-product .product-single .buttons .btn-cart {
+    border-radius: 100px;
   }
 }
