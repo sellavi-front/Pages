@@ -1,0 +1,47 @@
+.sender {
+  padding: 0 0 10px;
+  margin: 0 0 0 auto;
+  width: 540px;
+}
+
+.sender__title {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.sender__form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.sender__form_input {
+  width: 100%;
+  position: absolute;
+  border: 1px solid #807c7c;
+  border-radius: inherit;
+  background: 0;
+  height: 100%;
+  padding-left: 3%;
+}
+
+.sender__form_btn {
+  position: absolute;
+  background: linear-gradient(90deg, #41D381 4.19%, #36A4C7 100%);
+  border: none;
+  padding: 0;
+  width: 167px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-radius: inherit;
+  font-size: 16px;
+  color: white;
+}
