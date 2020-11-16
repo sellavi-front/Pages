@@ -15,6 +15,6 @@ export default class HorizontTitleDecription {
   }
 
   render() {
-    this.container.insertAdjacentHTML('beforeend', this.setTemplate());
+    this.container.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }
