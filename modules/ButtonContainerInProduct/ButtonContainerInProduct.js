@@ -8,8 +8,7 @@ export default class ButtonContainerInProduct {
   }
 
   delete() {
-    this.addToCart.remove()
-    this.addToWishList.remove()
+    element.forEach(el => el.remove());
   }
 
   createContainer() {
@@ -20,7 +19,8 @@ export default class ButtonContainerInProduct {
       );
     });
 
-    this.delete()
+    this.delete(addToCart);
+    this.delete(addToWishList);
   }
 }
 
