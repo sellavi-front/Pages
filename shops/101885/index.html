@@ -1,0 +1,55 @@
+<script>
+  window.onload = () => {
+
+    /* Trasnlation footer */
+    const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget')
+    const widTitle = widget.find('.widget-title');
+    const widCat = widget.find('.widget-categories>ul>li:first-child>a');
+    let textTrans = 'About us ';
+    let textRus = 'О нас';
+
+    if (widTitle.html() === textTrans || widCat.html() === textTrans) {
+      widTitle.text(textRus);
+      widCat.text(textRus);
+    }
+    /* End */
+
+    /* Custom Banner */
+    let bannerMainEl = document.querySelector(".custom_banner")
+    let bannerMainLayout = `
+        <div class="banner__main__block">
+            <div class="banner__main__img">
+
+            </div>
+            <div class="banner__main__description">
+                <h1>Ателье Красоты</h1>
+                <p>Безупречная эко-косметика</p>
+                <a href="https://store101885.sellavi.com/about-master/">Подробнее</a>
+            </div>
+        </div>
+        `
+
+    if(location.href === 'https://store101885.sellavi.com/' || location.href === 'https://store101885.sellavi.com/?from_admin') {
+      bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
+    }
+
+
+
+    let data = {
+      url: 'https://sellavi-api.000webhostapp.com/fetch.php',
+      key: '70b6b3-9cf11c-dc28c5-d9a3ed-3b5ea5',
+    }
+
+    fetch(data.url, {
+      method: 'post',
+      headers: {
+        'Content-Type': "application/json"
+      },
+      body: JSON.stringify(data)
+    }).then(data => {
+      console.log(data)
+    });
+
+
+  }
+</script>
