@@ -1,4 +1,4 @@
-.products {
+.products, .featured-products {
   display: grid;
   grid-template-columns: repeat(auto-fit, 270px);
   grid-column-gap: 20px;
