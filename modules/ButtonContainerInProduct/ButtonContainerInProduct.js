@@ -1,4 +1,4 @@
-import styles from './ButtonContainerInProduct.css'
+import styles from './ButtonContainerInProduct'
 
 export default class ButtonContainerInProduct {
   constructor(addToCart, addToWishList, container) {
