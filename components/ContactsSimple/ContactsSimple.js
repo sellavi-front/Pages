@@ -21,6 +21,6 @@ export default class ContactsSimple {
   }
 
   render() {
-    this.container.inserAdjacentHTML('beforeend', this.setTemplate());
+    this.container.insertAdjacentHTML('beforeend', this.setTemplate());
   }
 }
