@@ -15,18 +15,19 @@
 }
 
 .sf-menu li:hover,
-.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+.sf-menu.nav > li > a:focus,
+.sf-menu.nav > li > a:hover {
   background: none !important;
   color: #00b16a;
 }
 
-.sf-menu>li>ul {
+.sf-menu > li > ul {
   top: 29px !important;
   background: white !important;
-  box-shadow: 2px 6px 5px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.sf-menu li:hover>ul li a {
+.sf-menu li:hover > ul > li .megaline {
   color: black;
 }
 
