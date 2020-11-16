@@ -59,4 +59,8 @@ body .footer .footer-widgets {
   .footer-widgets div .row {
     justify-content: space-between;
   }
+
+  .footer_content_wrapper ul {
+    flex-wrap: wrap;
+  }
 }

@@ -30,6 +30,10 @@
   left: auto !important;
 }
 
+.buttons__container .add_to_wishlist {
+  text-align: initial !important;
+}
+
 .thumbnail .price {
   margin: 0 !important;
 }
