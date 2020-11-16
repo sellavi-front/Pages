@@ -59,6 +59,10 @@ body .footer .footer-widgets {
   display: none !important;
 }
 
+.footer-widgets > div > div > .col-md-3 {
+  margin: 0 0 30px;
+}
+
 @media (max-width: 768px) {
   .footer-widgets div .row {
     justify-content: space-between;
