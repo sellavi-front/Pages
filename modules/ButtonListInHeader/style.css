@@ -6,3 +6,7 @@
 .button__list_elem {
   padding: 8px;
 }
+
+.button__list_elem {
+  color: white;
+}
