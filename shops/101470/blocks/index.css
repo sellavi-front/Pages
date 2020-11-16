@@ -3,9 +3,11 @@
 @import './header/header.css';
 @import './banner/banner.css';
 @import './section-title/section-title.css';
-@import './footer//footer.css';
+@import './footer/footer.css';
 @import './other/bs-menu-toggle.css';
+@import './other/contacts.css';
 @import './products/products.css';
+
 
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../fixes/FooterCopy/FooterCopy.css';
