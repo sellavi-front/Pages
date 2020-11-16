@@ -27,8 +27,8 @@
   box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.sf-menu .flexy:hover a {
-  color: black;
+.sf-menu .flexy:hover > ul > li > a {
+  color: black !important;
 }
 
 @media (max-width: 991px) {
