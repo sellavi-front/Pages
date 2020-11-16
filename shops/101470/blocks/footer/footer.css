@@ -54,6 +54,9 @@ body .footer .footer-widgets {
   border: none !important;
 }
 
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
   .footer-widgets div .row {
