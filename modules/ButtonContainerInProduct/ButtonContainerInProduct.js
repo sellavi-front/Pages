@@ -5,7 +5,7 @@ export default class ButtonContainerInProduct {
   }
 
   createContainer() {
-    return this.cartCont.insertAdjacentHTML(
+    return this.addToCart.insertAdjacentHTML(
       'beforebegin',
       `<div class="buttons__container">${this.addToCart.outerHTML}${this.addToWishList.outerHTML}</div>`,
     );
