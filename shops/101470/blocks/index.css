@@ -10,6 +10,8 @@
 
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../fixes/FooterCopy/FooterCopy.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+@import '../../../modules/ButtonListInHeader/style.css';
 
 body h1,
 body h1,

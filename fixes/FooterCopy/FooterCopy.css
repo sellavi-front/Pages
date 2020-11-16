@@ -41,4 +41,7 @@
 body footer .footer-meta .footer_content_wrapper {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
 }
