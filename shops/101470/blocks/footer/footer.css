@@ -2,6 +2,10 @@
   border: none !important;
 }
 
+.footer-widgets {
+  background: #a4dec780;
+}
+
 #sellavi_logo {
   height: 25px !important;
   width: auto !important;
