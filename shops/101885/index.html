@@ -33,22 +33,14 @@
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
 
-
-
-    let data = {
-      url: 'https://sellavi-api.000webhostapp.com/fetch.php',
-      key: '70b6b3-9cf11c-dc28c5-d9a3ed-3b5ea5',
-    }
-
-    fetch(data.url, {
-      method: 'post',
-      headers: {
-        'Content-Type': "application/json"
-      },
-      body: JSON.stringify(data)
-    }).then(data => {
-      console.log(data)
-    });
+    fetch('https://sellavi-api.000webhostapp.com/101885/getProducts.php')
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(json) {
+        let categories = json.products
+        console.log(categories)
+      });
 
 
   }

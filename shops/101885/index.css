@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+html, body,
+body span,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+input.form-control,
+input.form-control::placeholder {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+::placeholder {
+  color: saddlebrown;
+}
+
+.h1, h1 {
+  font-size: 32px !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* Navbar */
+body.theme-green-2 .header {
+  border-bottom: 0;
+}
+
+body.theme-green-2 .header .navigation-wrapper {
+  background-color: #fff;
+  border-top: 0;
+}
+
+.header .header-wrapper {
+  padding: 1px 0;
+  background-color: #BBDBD1;
+  position: relative;
+}
+
+.header-cart .cart-wrapper {
+  height: 41px;
+  border-radius: 4px;
+  border: 0;
+  transition: border .3s;
+}
+
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  background: 0;
+  padding: 6px;
+  color: #333;
+  position: relative;
+  font-weight: 900;
+}
+
+.header-cart .cart-wrapper:hover {
+  border: 0
+}
+
+#cart > span.cart-norm-qty.d-none.d-lg-inline-block {
+  font-size: 12px;
+}
+
+.sf-menu a {
+  color: #333;
+}
+
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+  background-color: #bbdbd0;
+  color: #333;
+}
+
+.sf-menu li:hover {
+  background-color: #bbdbd0;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navigation .nav.sf-menu {
+  line-height: 3;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
+  position: relative;
+  padding-right: 0;
+  padding-left: 50px;
+  line-height: 64px;
+  font-size: 18px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #dfe3e8;
+}
+
+/* End */
+
+/* Banner Main */
+.banner__main__block {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 30px;
+}
+
+.banner__main__img {
+  background: url(https://images.unsplash.com/photo-1601561886350-ba2a776445ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2243&q=80) no-repeat center/cover;
+  width: 600px;
+  height: 600px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 55px
+}
+
+.banner__main__description h1 {
+  font-size: 82px !important;
+  color: #333;
+  display: flex;
+  justify-content: left;
+  font-weight: 900;
+  margin-top: 10%;
+  margin-right: 25px;
+}
+
+.banner__main__description p {
+  font-size: 52px;
+  justify-content: left;
+}
+
+.banner__main__description a {
+  font-size: 32px;
+  border-bottom: 2px solid;
+}
+
+
+/* Categories Body */
+body .content-area .page-section.titles {
+  text-align: center;
+  min-height: 80px;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #f8f8f8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+/* End */
+
+/* Footer */
+body.theme-green-2 .footer {
+  border-top: 10px solid #bbdbd0;
+  color: #333;
+  background-color: #f9fafb;
+}
+/* End */
+
+/* Mobile Version */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .banner__main__block {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center !important;
+    padding: 0;
+    margin: 0;
+  }
+
+  .banner__main__img {
+    background: url(https://images.unsplash.com/photo-1601561886350-ba2a776445ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2243&q=80) no-repeat center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 0 !important;
+  }
+
+  .banner__main__description h1 {
+    font-size: 62px !important;
+    color: #333;
+    display: flex;
+    justify-content: center !important;
+    font-weight: 900;
+    margin-top: 10%;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  .banner__main__description p {
+    font-size: 32px;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .banner__main__description a {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+
+}
