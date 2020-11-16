@@ -20,6 +20,11 @@
   color: #00b16a;
 }
 
+.sf-menu>li>ul {
+  top: 66px !important;
+  background: white !important;
+}
+
 @media (max-width: 991px) {
   .navigation {
     display: none;
