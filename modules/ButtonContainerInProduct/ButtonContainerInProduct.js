@@ -1,10 +1,11 @@
-import AddElemInContainer from '../AddElemInContainer/AddElemInContainer.js'
+import styles from './ButtonContainerInProduct.css'
 
 export default class ButtonContainerInProduct {
   constructor(addToCart, addToWishList, container) {
     this.container = container;
     this.addToCart = addToCart;
     this.addToWishList = addToWishList;
+    this.styles = styles;
   }
 
   delete(element) {
@@ -15,7 +16,7 @@ export default class ButtonContainerInProduct {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
         'beforeend',
-        `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
+        `<div class="this.styles.buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
 
