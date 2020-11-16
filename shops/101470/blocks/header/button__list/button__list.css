@@ -7,3 +7,9 @@
 .button__list_elem {
   padding: 8px;
 }
+
+@media (max-width: 768px) {
+  .button__list {
+    display: none;
+  }
+}
