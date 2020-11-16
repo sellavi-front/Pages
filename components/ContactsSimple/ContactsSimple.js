@@ -6,7 +6,7 @@ export default class ContactsSimple {
 
   setTemplate() {
     return `
-      <div class="contacts-simple container">
+      <div class="contacts-simple">
         <h2 class="contacts-simple__title"> ${this.contacts.title}</h2>
         <ul class="contacts-simple__list">
           <li class="contacts-simple__list_elem">
