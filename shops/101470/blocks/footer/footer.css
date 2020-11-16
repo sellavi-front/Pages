@@ -62,5 +62,6 @@ body .footer .footer-widgets {
 
   .footer_content_wrapper ul {
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
