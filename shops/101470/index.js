@@ -51,7 +51,7 @@ if (document.querySelector('.wrapper')) {
   const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
   const contacts = {
     title: 'Наши контакты',
-    phone: '+7(999)999-99-99',
+    phone: '+7(926)525-92-48',
     email: '1981market@mail.ru'
   }
 
