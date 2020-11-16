@@ -22,7 +22,7 @@ export default class ButtonListInHeader {
       <i class="far fa-sign-out-alt"></i>
     </a>
   </li>
-  <li class="header-cart sticky" data-product-added-text="Product added to cart">
+  <li class="button__list_elem header-cart sticky" data-product-added-text="Product added to cart">
     <div class="cart-wrapper">
       <!--            <a href="-->
       <!--" class="btn btn-theme-transparent hidden-xs hidden-sm"><i class="fa fa-heart"></i></a>-->
