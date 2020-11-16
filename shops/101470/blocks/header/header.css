@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.header-wrapper > .container-fluid > .header-cart {
+  display: none;
+}
+
 .header .header-wrapper {
   padding: 1em 0px !important;
 }
+

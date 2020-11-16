@@ -24,11 +24,6 @@ export default class ButtonListInHeader {
   </li>
   <li class="button__list_elem header-cart sticky" data-product-added-text="Product added to cart">
     <div class="cart-wrapper">
-      <!--            <a href="-->
-      <!--" class="btn btn-theme-transparent hidden-xs hidden-sm"><i class="fa fa-heart"></i></a>-->
-      <!--            <a href="-->
-      <!--" class="btn btn-theme-transparent hidden-xs hidden-sm"><i class="fa fa-exchange"></i></a>-->
-
       <div class="dropdown cart_drop_down">
         <a
           tabindex="0"

@@ -1,0 +1,8 @@
+.button__list {
+  display: flex;
+  align-items: center;
+}
+
+.button__list_elem {
+  padding: 8px;
+}
