@@ -84,6 +84,7 @@ if (document.querySelector('.common-home')) {
   const bigBanner = new BigBanner(document, objBanner);
 
   bigBanner.render();
+  horizontTitleDecription.render();
 }
 
 if (document.querySelector('.product-item')) {
