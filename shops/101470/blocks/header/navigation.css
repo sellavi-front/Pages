@@ -27,7 +27,7 @@
   box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.sf-menu li:hover > ul > li .megaline {
+.sf-menu .flexy:hover a {
   color: black;
 }
 
