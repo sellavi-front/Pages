@@ -16,6 +16,13 @@
   display: none !important;
 }
 
+.buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
 .buttons__container .add_to_wishlist, .buttons__container .remove_from_wishlist {
   position: relative !important;
   bottom: auto !important;

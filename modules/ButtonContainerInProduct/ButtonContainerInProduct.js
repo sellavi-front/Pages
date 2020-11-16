@@ -1,5 +1,3 @@
-import styles from './ButtonContainerInProduct'
-
 export default class ButtonContainerInProduct {
   constructor(addToCart, addToWishList, container) {
     this.container = container;
