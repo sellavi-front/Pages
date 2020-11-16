@@ -63,6 +63,10 @@ body .footer .footer-widgets {
   margin: 0 0 30px;
 }
 
+footer .footer-meta .footer_content_wrapper {
+  padding:
+}
+
 @media (max-width: 768px) {
   .footer-widgets div .row {
     justify-content: space-between;
@@ -76,5 +80,9 @@ body .footer .footer-widgets {
   .footer_content_wrapper ul li {
     margin-right: 2em;
     margin-bottom: 1em;
+  }
+
+  .footer_content_text {
+    justify-content: center !important;
   }
 }
