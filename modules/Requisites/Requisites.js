@@ -36,6 +36,7 @@ export default class Requisites {
   }
 
   setTemplate() {
+    console.log(this.setData());
     this.container.insertAdjacentHTML(
       'afterbegin',
       `
