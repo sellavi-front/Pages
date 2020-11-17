@@ -28,12 +28,10 @@ export default class Requisites {
   }
 
   setData() {
-    return Object.values(this.obj).forEach((item) => {
-      return `<p class="requsites__elem">
-                Название: <span>${item}</span>
-              </p>
-            `;
-    });
+    return Object.values(this.obj).forEach((item) => `
+      <p class="requsites__elem">
+        Название: <span>${item}</span>
+      </p>`);
   }
 
   setTemplate() {
