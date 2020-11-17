@@ -54,5 +54,7 @@ if (location.href.includes('term-of-use')) {
 
   const req = new Requisites(data);
 
+  console.log(data);
+
   req.setTemplate();
 }
