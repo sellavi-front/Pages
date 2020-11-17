@@ -1,3 +1,5 @@
+@import './header/cart.css';
+
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import './icons/icons.css';

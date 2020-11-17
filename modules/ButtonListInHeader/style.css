@@ -6,3 +6,7 @@
 .button__list_elem {
   padding: 8px;
 }
+
+.header-wrapper > .container > .header-cart {
+  display: none;
+}
