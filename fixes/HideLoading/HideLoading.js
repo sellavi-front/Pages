@@ -7,9 +7,9 @@ export default class HideLoading {
   setLoading() {
     this.loading
       ? (this.html.style.opacity = '0')
-      : (window.onload = () => {
-          this.html.style.opacity = '1';
-        });
+      : // (window.onload = () => {
+        (this.html.style.opacity = '1');
+    // });
   }
 }
 
