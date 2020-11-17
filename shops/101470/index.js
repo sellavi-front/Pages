@@ -89,7 +89,7 @@ if (document.querySelector('.common-home')) {
     linkContent: 'В КАТАЛОГЕ',
   };
 
-  const titleAbout = 'Zero Waste Shop';
+  const titleAbout = 'Eco - Маркет';
   const descpSubtitle =
     'Десятилетия назад о "ноль отходов" задумывались только компании-производители. Сегодня "ноль отходов" - это стиль жизни, к которому присоединяются все больше и больше людей.';
 
