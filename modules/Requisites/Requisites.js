@@ -17,15 +17,24 @@ export default class Requisites {
   constructor(obj) {
     this.obj = obj;
     this.container = document.querySelector('.requsitess');
+    this.arr = [];
+  }
+
+  getData() {
+    for (let key in this.obj) {
+      this.arr = this.obj[key];
+    }
+    return this.arr;
   }
 
   setData() {
-    for (let key in this.obj) {
-      `<p class="requsites__elem">
-        Название: <span>${this.obj[key]}</span>
-      </p>`;
-    };
+    this.getData().forEach((item) => {
+      return `<p class="requsites__elem">
+      Название: <span>${item}</span>
+    </p>`;
+    });
   }
+
   setTemplate() {
     this.container.insertAdjacentHTML(
       'afterbegin',
