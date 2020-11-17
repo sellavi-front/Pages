@@ -5,3 +5,7 @@
 .fa-user:before {
   content: "\f2f6";
 }
+
+.arrow {
+  height: 15px;
+}
