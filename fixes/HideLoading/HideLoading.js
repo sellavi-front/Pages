@@ -5,11 +5,12 @@ export default class HideLoading {
   }
 
   setLoading() {
-    document.readyState == 'interactive' || document.readyState == 'loading'
-      ? (this.html.style.opacity = '0')
-      : (window.onload = () => {
-          this.html.style.opacity = '1';
-        });
+    if (document.readyState == 'interactive' || document.readyState == 'loading') {
+      this.html.style.opacity = '0';
+    }
+    window.onload = () => {
+      this.html.style.opacity = '1';
+    };
   }
 }
 
