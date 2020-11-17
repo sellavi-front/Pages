@@ -24,6 +24,7 @@ export default class Requisites {
     for (let key in this.obj) {
       this.arr = this.obj[key];
     }
+    console.log(this.arr);
     return this.arr;
   }
 
@@ -63,7 +64,6 @@ if (location.href.includes('term-of-use')) {
 
   const req = new Requisites(data);
 
-  console.log(data);
 
   req.setTemplate();
 }
