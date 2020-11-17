@@ -19,3 +19,15 @@ header {
 .nav a {
   color: white;
 }
+
+.sf-menu>li {
+  border-left: 1px solid rgba(0, 150, 199, .3);
+}
+
+.sf-menu>li:last-child {
+  border-right: 1px solid rgba(0, 150, 199, .3);
+}
+
+.sf-menu>li>a {
+  padding: 15px 30px !important;
+}
