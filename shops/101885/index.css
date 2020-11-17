@@ -18,7 +18,10 @@ body li,
 .title,
 .price,
 input.form-control,
-input.form-control::placeholder {
+input.form-control::placeholder,
+.form_checkout,
+.order_list_section__total-lines,
+.checkout_table {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -329,6 +332,18 @@ body.bottom-nav-enabled nav.mobile_bottom_nav {
   overflow-y: auto;
 }
 
+/*#content > ul > li:nth-child(1) {
+  height: 350px;
+}
+
+#content > ul > li:nth-child(4) {
+  height: 850px;
+}
+
+#content > ul > li:nth-child(5) {
+  height: 700px;
+}*/
+
 /* End */
 
 
@@ -450,6 +465,18 @@ body.theme-green-2 .footer {
     font-weight: 700;
   }
 
+  .widget.shop-categories, .widget.side-categories {
+    border: 2px solid rgba(35,35,35,.1);
+    border-radius: 4px;
+    margin-bottom: 25px;
+  }
+
+  body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li a {
+    color: #454f5b;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
@@ -460,6 +487,12 @@ body.theme-green-2 .footer {
 
   .col-md-3 + .col-md-3 {
     margin-right: 5%;
+  }
+
+  .widget.shop-categories, .widget.side-categories {
+    border: 2px solid rgba(35,35,35,.1);
+    border-radius: 4px;
+    margin-bottom: 25px;
   }
 
 }
