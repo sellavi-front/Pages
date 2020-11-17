@@ -28,6 +28,7 @@ export default class Requisites {
   }
 
   setData() {
+    console.log(Object.values(this.obj))
     return Object.values(this.obj).forEach((item) => `
       <p class="requsites__elem">
         Название: <span>${item}</span>
