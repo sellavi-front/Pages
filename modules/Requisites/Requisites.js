@@ -50,7 +50,7 @@ if (location.href.includes('term-of-use')) {
     accountNumber: '40802810016540071804',
     corrNumber: '30101810500000000674',
     bik: '046577674',
-    director = 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
+    director: 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
   }
 
   const req = new Requisites(data);
