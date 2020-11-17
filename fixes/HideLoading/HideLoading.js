@@ -8,9 +8,9 @@ export default class HideLoading {
     if (document.readyState == 'interactive' || document.readyState == 'loading') {
       this.html.style.opacity = '0';
     }
-    window.onload = () => {
+    document.addEventListener('DOMContentLoaded', () => {
       this.html.style.opacity = '1';
-    };
+    });
   }
 }
 
