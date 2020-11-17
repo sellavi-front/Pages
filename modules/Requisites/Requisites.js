@@ -23,7 +23,7 @@ export default class Requisites {
     for (let key in this.obj) {
       return `
           <p class="requsites__elem">
-            Название: <span>${Object.values(key)}</span>
+            Название: <span>${key}</span>
           </p>`;
     };
   }
