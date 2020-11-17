@@ -21,7 +21,7 @@ export default class Requisites {
 
   setData() {
     for (let key in this.obj) {
-      return `<p class="requsites__elem">
+      `<p class="requsites__elem">
         Название: <span>${this.obj[key]}</span>
       </p>`;
     };
