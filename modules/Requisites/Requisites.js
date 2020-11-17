@@ -16,16 +16,16 @@
 export default class Requisites {
   constructor(obj) {
     this.obj = obj;
-    this.container = document.querySelector('.requsitess');;
+    this.container = document.querySelector('.requsitess');
   }
 
   setData() {
-    this.obj.forEach((item) => {
+    for (let key in this.obj) {
       return `
           <p class="requsites__elem">
-            Название: <span>${Object.values(item)}</span>
+            Название: <span>${Object.values(key)}</span>
           </p>`;
-    });
+    };
   }
   setTemplate() {
     this.container.insertAdjacentHTML(
@@ -51,7 +51,7 @@ if (location.href.includes('term-of-use')) {
     corrNumber: '30101810500000000674',
     bik: '046577674',
     director: 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
-  }
+  };
 
   const req = new Requisites(data);
 
