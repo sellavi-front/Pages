@@ -82,6 +82,7 @@ if (document.querySelector('.wrapper')) {
 
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section>.container');
+  const logo = document.querySelector('.logo > a > img');
 
   const objBanner = {
     title: 'Полезные продукты',
@@ -98,6 +99,8 @@ if (document.querySelector('.common-home')) {
 
   bigBanner.render();
   horizontTitleDecription.render();
+
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1605615890/1985/1_1_lgm6un.jpg');
 }
 
 if (document.querySelector('.product-item')) {
