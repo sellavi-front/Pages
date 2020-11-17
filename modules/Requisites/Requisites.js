@@ -32,8 +32,9 @@ export default class Requisites {
     const ar = this.getData();
     ar.forEach((item) => {
       return `<p class="requsites__elem">
-      Название: <span>${item}</span>
-    </p>`;
+                Название: <span>${item}</span>
+              </p>
+            `;
     });
   }
 
@@ -64,7 +65,6 @@ if (location.href.includes('term-of-use')) {
   };
 
   const req = new Requisites(data);
-
 
   req.setTemplate();
 }
