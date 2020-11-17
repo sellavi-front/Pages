@@ -24,13 +24,11 @@ export default class Requisites {
     for (let key in this.obj) {
       this.arr = this.obj[key];
     }
-    console.log(Object.values(this.obj));
     return this.arr;
   }
 
   setData() {
-    const ar = this.getData();
-    ar.forEach((item) => {
+    Object.values(this.obj).forEach((item) => {
       return `<p class="requsites__elem">
                 Название: <span>${item}</span>
               </p>
