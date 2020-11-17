@@ -24,7 +24,7 @@ export default class Requisites {
     for (let key in this.obj) {
       this.arr = this.obj[key];
     }
-    console.log(this.arr);
+    console.log(Object.values(this.obj));
     return this.arr;
   }
 
