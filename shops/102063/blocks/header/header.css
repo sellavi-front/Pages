@@ -2,6 +2,10 @@
 @import './logo.css';
 @import './search.css';
 
+header {
+  border: none !important;
+}
+
 .header .header-wrapper>.container {
   display: flex;
   align-items: center;
@@ -9,7 +13,7 @@
 }
 
 .header .navigation-wrapper {
-  background: #5687bf;
+  background: #0077b6 !important;
 }
 
 .nav a {
