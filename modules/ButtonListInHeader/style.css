@@ -7,6 +7,12 @@
   padding: 8px;
 }
 
-.header-wrapper > .container > .header-cart {
-  display: none;
+.button__list .header-cart {
+  display: block;
+}
+
+.cart-wrapper {
+  margin: 0 !important;
+  height: auto;
+  border: none;
 }
