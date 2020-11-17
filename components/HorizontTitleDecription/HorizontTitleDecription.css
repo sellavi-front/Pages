@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.about__title {
+  width: 30%;
+  margin: 0 5% 0 0;
+  font-size: 24px
+}
+
+.about__description {
+  margin: 0;
+}

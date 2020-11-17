@@ -1,0 +1,10 @@
+.section-title {
+  font-size: 14px !important;
+  font-weight: 400;
+  margin: 0 !important;
+  padding: .5em 0;
+}
+
+body .section-title span:after, body .section-title span:before {
+  display: none;
+}

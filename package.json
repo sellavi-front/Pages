@@ -1,0 +1,26 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sellavi-front/Pages.git"
+  },
+  "author": "Zakir Gafiyatov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sellavi-front/Pages/issues"
+  },
+  "homepage": "https://github.com/sellavi-front/Pages#readme"
+}

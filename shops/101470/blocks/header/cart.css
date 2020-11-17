@@ -1,0 +1,32 @@
+.header .header-cart {
+  position: relative;
+  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+}
+
+.cart-wrapper {
+  border: none !important;
+  margin: 0 !important;
+  position: relative;
+  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+  height: auto !important;
+}
+
+.header-cart .cart-wrapper #cart {
+  padding: 0;
+  color: white !important;
+}
+
+#cart i {
+  margin: 0 !important;
+  font-size: 14px !important;
+}
+
+.header-wrapper > .container-fluid > .header-cart {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .header-cart .cart-wrapper #cart {
+    color: black !important;
+  }
+}

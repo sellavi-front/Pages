@@ -1,0 +1,10 @@
+.sender {
+  margin: 0 auto 30px !important;
+  max-width: 540px;
+  width: 100% !important;
+}
+@media (max-width: 495px) {
+  .sender__form_btn {
+    width: 127px;
+  }
+}

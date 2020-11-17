@@ -1,0 +1,119 @@
+.products,
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.thumbnail .caption-title {
+  text-align: center !important;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.add_to_cart button span {
+  display: none !important;
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.buttons__container .add_to_wishlist,
+.buttons__container .remove_from_wishlist {
+  position: relative !important;
+  bottom: auto !important;
+  right: auto !important;
+  left: auto !important;
+}
+
+.buttons__container .add_to_wishlist {
+  text-align: initial !important;
+}
+
+.thumbnail .price {
+  margin: 0 !important;
+}
+
+body .content-area .page-section .product-layout {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 5%;
+  box-shadow: 1px 4px 25px -21px black;
+}
+
+.product-product .product-single .buttons .btn-cart,
+.product-product .product-single .buttons .btn-wish-list,
+.product-product .product-single .buttons .quantity .btn {
+  background-color: #00b16a;
+  color: white;
+}
+
+.product-product .product-single .buttons .btn-cart {
+  border: 3px solid rgba(35, 35, 35, 0.1) !important;
+  border-radius: 100px 0 0 100px;
+  margin: 0;
+}
+
+.product-product .product-single .buttons .btn-wish-list {
+  border: 3px solid rgba(35, 35, 35, 0.1);
+  margin: 0;
+  border-radius: 0 10px 10px 0px;
+}
+
+.product-product .product-single .buttons .quantity {
+  display: flex;
+  align-items: center;
+  margin: 0 5% 0 0;
+}
+
+.product-product .product-single .buttons .quantity .btn {
+  border-radius: 100px;
+}
+
+.product-product .product-single .buttons .quantity .btn i {
+  margin: 5px !important;
+}
+
+.product-product .product-single .buttons .quantity .qty {
+  background: transparent;
+  color: black !important;
+}
+
+.product-product .product-single {
+  padding-top: 5%;
+}
+
+body.theme-green-1 .social-icons li a {
+  border: none;
+}
+
+.product-product .product-single .buttons .btn-compare:hover,
+.product-product .product-single .buttons .btn-wish-list:hover,
+.product-product .product-single .buttons .btn-cart:hover {
+  background-color: #22885e;
+  border-color: #22885e;
+}
+
+.table_holder  {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .products {
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 284px) !important;
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 495px) {
+  .product-product .product-single .buttons .btn-cart {
+    border-radius: 100px;
+  }
+}

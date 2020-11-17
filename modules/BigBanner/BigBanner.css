@@ -1,0 +1,40 @@
+.outer-container {
+  width: 100%;
+  min-height: 800px;
+}
+
+.banner {
+  width: 100%;
+
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  transform-style: preserve-3d;
+  transform: translatez(0);
+}
+
+.banner__image {
+  height: 800px;
+  z-index: 10;
+  overflow: hidden;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  transform: translate(0);
+}
+
+.banner__caption {
+  height: auto;
+  z-index: 20;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  width: 195px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}

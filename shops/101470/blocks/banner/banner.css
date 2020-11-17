@@ -1,0 +1,26 @@
+.banner__image {
+  background: url('https://res.cloudinary.com/gz-company/image/upload/v1605598311/1985/%D0%9A%D0%90%D0%A0%D0%90%D0%9C%D0%95%D0%9B%D0%AC%D0%9D%D0%AB%D0%98%CC%86_4_w3u7up.jpg') !important;
+  background-size: cover !important;
+}
+
+.banner__caption {
+  position: absolute;
+  z-index: 20;
+
+  height: auto;
+  bottom: 10%;
+  width: 195px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.banner__caption a {
+  border-bottom: 1px solid white;
+}
+
+.banner__caption a, .banner__caption h1 {
+  color: #fff;
+}

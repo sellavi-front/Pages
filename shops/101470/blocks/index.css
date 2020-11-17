@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+@import './header/header.css';
+@import './banner/banner.css';
+@import './section-title/section-title.css';
+@import './footer/footer.css';
+@import './other/bs-menu-toggle.css';
+@import './other/contacts.css';
+@import './other/auth-title.css';
+@import './other/section-title.css';
+@import './other/sender.css';
+@import './other/side-categories.css';
+@import './products/products.css';
+
+
+@import '../../../modules/BigBanner/BigBanner.css';
+@import '../../../fixes/FooterCopy/FooterCopy.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../modules/ButtonListInHeader/style.css';
+@import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
+@import '../../../components/SenderTypeOne/SenderTypeOne.css';
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+body.ltr ul {
+  margin: 0 !important;
+}

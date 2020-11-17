@@ -1,0 +1,212 @@
+.grid-banner {
+  display: grid;
+}
+
+.grid-banner__item {
+  width: 100%;
+}
+
+.grid-banner {
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+
+  height: 430px;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position-x: 60% !important;
+  background-position-y: bottom !important;
+}
+
+.grid-banner__two-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-banner-1 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064953/Interno/%D0%9E%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%B5%D0%B2%D0%BE%D1%87%D0%B5%D0%BA_pv5yfl.png);
+  background-color: #e46c6c;
+}
+
+.grid-banner-1 .grid-banner__text-container_discount_subtitle {
+  color: #e98346;
+}
+
+.grid-banner-2 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064953/Interno/%D0%9E%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BC%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA%D0%BE%D0%B2_sucmye.png);
+  background-color: #e46c6c;
+  justify-content: flex-end;
+}
+
+.grid-banner-3 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064953/Interno/%D0%9C%D1%8F%D0%B3%D0%BA%D0%B8%D0%B5_%D0%B8%D0%B3%D1%80%D1%83%D1%88%D0%BA%D0%B8_u8bkxs.png);
+}
+
+.grid-banner-3 .grid-banner__text-container_discount {
+  color: #40b0d4;
+}
+
+.grid-banner-3 .grid-banner__item {
+  max-width: 335px;
+}
+
+.grid-banner-3 .grid-banner__text-container_title {
+  margin-bottom: 20px;
+}
+
+.grid-banner-4 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064953/Interno/%D0%9B%D0%B5%D0%B3%D0%BE_cfrdqo.png);
+}
+
+.grid-banner-6 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064953/Interno/%D0%91%D0%B0%D1%80%D0%B1%D0%B8_wb5kxm.png);
+}
+
+.grid-banner-7 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064953/Interno/%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5_%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_imtz0h.png);
+}
+
+.grid-banner-7 {
+  align-items: baseline;
+}
+
+.grid-banner-7 .grid-banner__item {
+  margin-top: 17%;
+  width: 100%;
+}
+
+.grid-banner-7 .grid-banner__item h2 {
+  text-align: center;
+}
+
+.grid-banner-2 .grid-banner__text-container_subtitle {
+  color: #f2c94c;
+}
+
+.grid-banner-2 .grid-banner__text-container_discount {
+  color: #24a75b;
+}
+
+.grid-banner-5 {
+  background: no-repeat
+    url(https://res.cloudinary.com/gz-company/image/upload/v1604064954/Interno/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8_roxb30.png);
+  background-color: #e46c6c;
+}
+
+.grid-banner__text-container {
+  color: white;
+}
+
+.banner-gallery .grid-banner__text-container_title {
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 1;
+}
+
+.grid-banner__text-container_subtitle {
+  font-size: 'Gilroy', sans-serif;
+  font-size: 50px;
+  line-height: 1;
+}
+
+.grid-banner__text-container_discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  border-radius: 15px;
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 25px 15px;
+  color: #e46c6c;
+}
+
+.grid-banner__text-container_discount_title {
+  font-size: 38px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.grid-banner__text-container_discount_subtitle {
+  font-size: 20px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  line-height: 1;
+}
+
+@media (max-width: 1024px) {
+  .grid-banner__two-item {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-banner-2 .grid-banner__item .grid-banner__text-container {
+    text-align: right;
+  }
+
+  .grid-banner-2 .grid-banner__text-container_discount {
+    margin-left: auto;
+  }
+
+  .grid-banner-1 {
+    background-position-x: 70% !important;
+  }
+
+  .grid-banner-2,
+  .grid-banner-4 {
+    background-position-x: 20% !important;
+  }
+}
+
+@media (max-width: 495px) {
+  .grid-banner {
+    padding: 0 3%;
+  }
+
+  .grid-banner__two-item .grid-banner-3 {
+    height: 280px !important;
+    background-position: left !important;
+  }
+
+  .grid-banner__text-container_title,
+  .grid-banner__text-container_subtitle {
+    font-size: 35px !important;
+  }
+
+  .grid-banner-6 .grid-banner__item .grid-banner__text-container .grid-banner__img-title {
+    width: 80%;
+  }
+
+  .grid-banner__two-item div,
+  .grid-banner-5 {
+    height: 180px !important;
+    padding: 10px;
+  }
+
+  .grid-banner-6 > .grid-banner__item > .grid-banner__text-container > .grid-banner__img-title {
+    width: 50% !important;
+  }
+
+  .grid-banner-7 {
+    padding: 0 !important;
+  }
+
+  .grid-banner__text-container_discount {
+    height: 100px;
+  }
+
+  .grid-banner-3 .grid-banner__item {
+    height: 100% !important;
+  }
+}

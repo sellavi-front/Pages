@@ -1,0 +1,10 @@
+.contacts-simple {
+  padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contacts-simple__title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

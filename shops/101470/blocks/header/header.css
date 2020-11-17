@@ -1,0 +1,32 @@
+@import './logo.css';
+@import './cart.css';
+@import './navigation.css';
+
+.common-home .header {
+  border: none !important;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+}
+
+.header .navigation-wrapper {
+  border: none !important;
+}
+
+.header-wrapper > .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header .header-wrapper {
+  padding: 1em 0px !important;
+  background: transparent;
+}
+
+.common-home .button__list_elem a {
+  color: white;
+}
+
