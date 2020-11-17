@@ -1,3 +1,9 @@
 @import './cart.css';
 @import './logo.css';
 @import './search.css';
+
+.header .header-wrapper>.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
