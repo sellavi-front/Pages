@@ -29,10 +29,11 @@ export default class Requisites {
 
   setData() {
     Object.values(this.obj).forEach((item) => {
-      return `<p class="requsites__elem">
-                Название: <span>${item}</span>
-              </p>
-            `;
+      console.log(item);
+      // return `<p class="requsites__elem">
+                // // // Название: <span>${item}</span>
+              // // // </p>
+            // `;
     });
   }
 
