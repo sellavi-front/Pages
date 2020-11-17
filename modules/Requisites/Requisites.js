@@ -30,7 +30,7 @@ export default class Requisites {
   setTemplate() {
     this.container.insertAdjacentHTML(
       'afterbegin',
-      t`
+      `
         <div class="requsites__data">
           <h4 class="requsites__title">Реквизиты продавца</h4>
           ${this.setData()}
