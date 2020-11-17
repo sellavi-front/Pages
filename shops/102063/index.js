@@ -4,7 +4,7 @@ import '../../fixes/fixes.js';
 
 
 if (document.querySelector('.wrapper')) {
-  const headerWrapper = document.querySelector('.navigation-wrapper>div:first-child');
+  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
