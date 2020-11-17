@@ -29,7 +29,8 @@ export default class Requisites {
   }
 
   setData() {
-    this.getData().forEach((item) => {
+    const ar = this.getData();
+    ar.forEach((item) => {
       return `<p class="requsites__elem">
       Название: <span>${item}</span>
     </p>`;
