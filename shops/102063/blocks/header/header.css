@@ -7,3 +7,11 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.header .navigation-wrapper {
+  background: #5687bf;
+}
+
+.nav a {
+  color: white;
+}
