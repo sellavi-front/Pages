@@ -26,6 +26,7 @@ if (document.querySelector('.wrapper')) {
   const pageSection = document.querySelector('.page-section');
   const pageSectionContainer = pageSection.querySelector('.container');
   const productItem =  document.querySelectorAll('.product-item');
+  const navigationWrapperContainer = document.querySelector('.navigation-wrapper>.container');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
@@ -34,6 +35,10 @@ if (document.querySelector('.wrapper')) {
   hideCart.remove();
 
   linkCatalog.insertAdjacentHTML('afterbegin', `<i class="fas fa-bars"></i>`);
+
+  navigationWrapperContainer.classList.add('container-fluid');
+  navigationWrapperContainer.classList.remove('container');
+
   pageSectionContainer.classList.add('container-fluid');
   pageSectionContainer.classList.remove('container');
 
