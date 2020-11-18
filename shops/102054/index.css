@@ -96,6 +96,15 @@ video {
   font-weight: 900;
 }
 
+.navbar__block {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar__item {
+  padding: 30px;
+}
+
 /* End */
 
 /* Categories */
