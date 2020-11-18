@@ -42,7 +42,8 @@
   font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 
