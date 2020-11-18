@@ -13,7 +13,7 @@ body .footer a,
 }
 
 .footer .footer-widgets .widget-title:before {
-  display: none;
+  display: none !important;
 }
 
 .widget-categories ul li+li {
