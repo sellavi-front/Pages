@@ -65,7 +65,7 @@ if (location.href.includes('term-of-use')) {
   req.setTemplate();
 }
 
-if (location.href.includes('contact-info')) {
+if (location.href.includes('contact')) {
   const root = document.querySelector('.contact-info > .media-list > .media:last-child');
   const req = new Requisites(data, 'afterend');
 }
