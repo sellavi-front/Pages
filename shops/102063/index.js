@@ -22,19 +22,20 @@ const bootstrapClasses = [
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>.container>.header-cart');
-  const linkcatalog = document.querySelector('.flexy.has_children:first-child');
+  const linkCatalog = document.querySelector('.flexy.has_children:first-child');
   const pageSection = document.querySelector('.page-section');
+  const pageSectionContainer = pageSection.querySelector('.container');
   const productItem =  document.querySelectorAll('.product-item');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-  const delClasses = new DeleteClasses(pageSection, bootstrapClasses)
+  const delClasses = new DeleteClasses(pageSectionContainer, bootstrapClasses)
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
 
   buttonsInHeader.setTemplate(headerWrapper);
   hideCart.remove();
 
-  linkcatalog.insertAdjacentHTML('afterbegin', `<i class="fas fa-bars"></i>`);
-  pageSection.classList.add('.container-fluid');
+  linkCatalog.insertAdjacentHTML('afterbegin', `<i class="fas fa-bars"></i>`);
+  pageSectionContainer.classList.add('container-fluid');
 
   delClasses.findAndDelete();
   delSelectorsProductItem.findAndDelete();

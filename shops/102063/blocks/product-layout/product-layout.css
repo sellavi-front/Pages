@@ -28,3 +28,9 @@ body .content-area .page-section .product-layout {
   margin-top: 3%;
   justify-content: center;
 }
+
+.products {
+  padding: 1% 5%;
+  background: #f9f9fa;
+}
+
