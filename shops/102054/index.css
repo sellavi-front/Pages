@@ -166,7 +166,7 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
 }
 
 body.theme-gray .header.bordered {
-  border-bottom: 0;
+  border-bottom: 0 !important;
 }
 
 
@@ -224,6 +224,7 @@ body.ltr .thumbnail .caption-title {
 
 .products__block {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -244,6 +245,11 @@ body.ltr .thumbnail .caption-title {
 
   .col-md-3 + .col-md-3 {
     margin-right: 5%;
+  }
+
+  .products__block {
+    display: flex;
+    flex-direction: column;
   }
 }
 
