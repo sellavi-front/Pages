@@ -23,3 +23,7 @@
   position: absolute;
   left: 8%;
 }
+
+.sf-menu li:hover {
+  background: rgb(2, 62, 138) !important;
+}
