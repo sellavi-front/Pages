@@ -20,9 +20,10 @@ window.onload = () => {
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
   let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
   leftMenu.remove()
+  logo.classList.add("navbar__block")
   let navbar = `
-    <a href="https://store102054.sellavi.com/man/">Мужчинам</a>
-    <a href="https://store102054.sellavi.com/woman/">Женщинам</a>
+    <a class="navbar_item" href="https://store102054.sellavi.com/man/">Мужчинам</a>
+    <a class="navbar_item" href="https://store102054.sellavi.com/woman/">Женщинам</a>
   `
   logo.insertAdjacentHTML("beforeend", navbar)
 
