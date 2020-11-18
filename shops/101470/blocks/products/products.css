@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+.products {
+  padding: 1% 5%;
+  background: #f9f9fa;
+}
+
 .thumbnail .caption-title {
   text-align: center !important;
   text-transform: uppercase;
