@@ -2,12 +2,28 @@
 @import url('../../fixes/fixes.css');
 @import url('../../modules/BigCategories/BigCategories.css');
 
-body,
-html,
-a,
-p,
-span,
-h1, h2, h3, h4, h5, h6, small {
+html, body,
+body span,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body ul,
+body li,
+.product-availability,
+.product-price,
+#button-cart,
+.title,
+.price,
+input.form-control,
+input.form-control::placeholder,
+.form_checkout,
+.order_list_section__total-lines,
+.checkout_table {
   font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -193,6 +209,11 @@ body .section-title span:after, body .section-title span:before {
 
 /* Content */
 
+body.ltr .thumbnail .caption-title {
+  text-align: center;
+}
+
+/* end */
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
