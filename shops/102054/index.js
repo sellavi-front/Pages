@@ -11,7 +11,7 @@ window.onload = () => {
     'mb-md-4',
   ];
   let productsClasses = document.querySelector(".product-item")
-  const deleteProductsClasses = new DeleteClasses(productsClasses, bootstrapClasses)
+  const deleteProductsClasses = new DeleteClasses(document, bootstrapClasses)
   deleteProductsClasses.findAndDelete()
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
