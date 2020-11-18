@@ -18,6 +18,7 @@ window.onload = () => {
     `)
 
   let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
+  mainContainer.setAttribute("class", "container-fluid")
   mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
   let cards = document.querySelector(".cards")
 
