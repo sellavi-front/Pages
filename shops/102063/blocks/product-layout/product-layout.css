@@ -13,3 +13,8 @@
 body .content-area .page-section .product-layout {
   border: .5px solid rgba(0,0,0,.3);
 }
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption,
+.thumbnail .price_actions.hide_cart_button {
+  padding: 0 5%;
+}
