@@ -6,6 +6,10 @@
   color: white;
 }
 
+.navigation .nav.sf-menu {
+  justify-self: start !important;
+}
+
 .sf-menu>li {
   border-left: 1px solid rgba(0, 150, 199, .3);
 }
@@ -16,6 +20,8 @@
 
 .sf-menu>li>a {
   padding: 15px !important;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sf-menu>.flexy.has_children {

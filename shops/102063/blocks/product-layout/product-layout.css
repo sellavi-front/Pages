@@ -34,3 +34,9 @@ body .content-area .page-section .product-layout {
   background: #f9f9fa;
 }
 
+.common-home .section-title {
+  display: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
