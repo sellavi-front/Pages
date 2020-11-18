@@ -3,7 +3,7 @@
   background: #f9f9fa;
 }
 
-.small__category_item {
+.small__category > div > div {
   margin: 0 0 30px;
 }
 
