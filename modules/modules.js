@@ -1,0 +1,11 @@
+import './AddElemInContainer/AddElemInContainer.js';
+import './BigBanner/BigBanner.js';
+import './ButtonContainerInProduct/ButtonContainerInProduct.js';
+import './ButtonListInHeader/ButtonListInHeader.js';
+import './CustomCategories/CustomCategories.js';
+import './DeleteClasses/DeleteClasses.js';
+import './DeleteElements/DeleteElements.js';
+import './FetchApi/FetchApi.js';
+import './GridBannerGallery/GridBannerGallery.js';
+import './LikeInCard/LikeInCard.js';
+import './Requisites/Requisites.js';
