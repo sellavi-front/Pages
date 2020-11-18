@@ -102,8 +102,27 @@ video {
 }
 
 .navbar_item {
-  padding: 30px;
+  padding: 32px;
 }
+
+.navbar_item_menu {
+  display: none;
+  min-width: 200px;
+}
+
+.navbar_item_menu li {
+  color: #333;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  background-color: #fff;
+}
+.navbar_item_menu:hover {
+  display: block;
+}
+
+
+
 
 /* End */
 

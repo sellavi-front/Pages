@@ -22,6 +22,12 @@ window.onload = () => {
   leftMenu.remove()
   logo.classList.add("navbar__block")
   let navbar = `
+    <a class="navbar_item">Меню</a>
+    <ul class="navbar_item_menu">
+        <li>О бренде</li>
+        <li>Контакты</li>
+        <li>Доставка</li>
+    </ul>
     <a class="navbar_item" href="https://store102054.sellavi.com/man/">Мужчинам</a>
     <a class="navbar_item" href="https://store102054.sellavi.com/woman/">Женщинам</a>
   `
