@@ -79,6 +79,9 @@ window.onload = () => {
     <div class="products__block">
     </div>
   `
-  titleNewCollection.insertAdjacentHTML("beforeend", productsBlock)
+  titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
   productRow.classList.add("collection__products")
+  let oldProductRow = productRow.cloneNode(true)
+  document.querySelector(".products__block").insertAdjacentElement("afterbegin", oldProductRow.outerHTML)
+  oldProductRow.remove()
 }
