@@ -1,32 +1,32 @@
 const data = [
   {
     href: '#',
-    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
     title: 'Очистка воды',
   },
 ];
