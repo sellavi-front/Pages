@@ -18,3 +18,13 @@ body .content-area .page-section .product-layout {
 .price_actions {
   padding: 0 5%;
 }
+
+.products,
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-top: 3%;
+  justify-content: center;
+}
