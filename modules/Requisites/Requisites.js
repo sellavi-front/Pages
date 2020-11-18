@@ -34,7 +34,18 @@ export default class Requisites {
   }
 
   setTemplate() {
-    console.log(this.setData());
+
+    if (this.container.classList.contains('media')) {
+      this.container.insertAdjacentHTML(
+        this.target,
+        `<div class="media">
+          <div class="meida-body requsites__data">
+            <i class="fas fa-info-circle"></i>
+            <h4 class="requsites__title">Реквизиты продавца</h4>
+            ${this.setData()}
+          </div>`,
+      );
+    }
     this.container.insertAdjacentHTML(
       this.target,
       `
