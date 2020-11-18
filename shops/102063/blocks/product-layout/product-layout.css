@@ -34,8 +34,11 @@ body .content-area .page-section .product-layout {
   background: #f9f9fa;
 }
 
-.common-home .section-title {
+body .section-title span:after, body .section-title span:before {
   display: none;
+}
+
+.common-home .section-title {
   padding: 0 !important;
   margin: 0 !important;
 }
