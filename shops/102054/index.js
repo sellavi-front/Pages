@@ -1,7 +1,18 @@
 import '../../fixes/fixes.js';
-import BigCategories from '../../modules/BigCategories/BigCategories.js';
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
 window.onload = () => {
+  const bootstrapClasses = [
+    'col-12',
+    'col-lg-4',
+    'col-xl-3',
+    'mb-0',
+    'col-12',
+    'mb-md-4',
+  ];
+  let productsClasses = document.querySelector(".product-item.product-layout")
+  const deleteProductsClasses = new DeleteClasses(productsClasses, bootstrapClasses)
+  deleteProductsClasses.findAndDelete()
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
   let bannerMain = document.querySelector(".custom_banner")

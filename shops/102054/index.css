@@ -170,7 +170,7 @@ body.theme-gray .header.bordered {
 
 .title__new__collection {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   padding: 15px;
 }
 
@@ -179,8 +179,13 @@ body .section-title span:after, body .section-title span:before {
 }
 
 .collection__products {
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 50%;
+}
+
+.thumbnail .media img {
+  max-width: 100%;
+  width: auto;
 }
 
 /* End */
