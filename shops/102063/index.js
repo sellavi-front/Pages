@@ -28,7 +28,6 @@ if (document.querySelector('.wrapper')) {
   const productItem =  document.querySelectorAll('.product-item');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-  const delClasses = new DeleteClasses(pageSectionContainer, bootstrapClasses)
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
 
   buttonsInHeader.setTemplate(headerWrapper);
@@ -36,8 +35,8 @@ if (document.querySelector('.wrapper')) {
 
   linkCatalog.insertAdjacentHTML('afterbegin', `<i class="fas fa-bars"></i>`);
   pageSectionContainer.classList.add('container-fluid');
+  pageSectionContainer.classList.remove('container');
 
-  delClasses.findAndDelete();
   delSelectorsProductItem.findAndDelete();
 }
 
