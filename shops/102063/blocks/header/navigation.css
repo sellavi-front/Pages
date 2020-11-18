@@ -18,10 +18,16 @@
   padding: 15px 30px !important;
 }
 
+.sf-menu>.flexy.has_children {
+    padding-left: 20px;
+
+}
+
 .sf-menu>.flexy.has_children > i {
   color: white;
   position: absolute;
   left: 8%;
+  top: 38%;
 }
 
 .sf-menu li:hover,
