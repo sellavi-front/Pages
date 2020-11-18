@@ -1,34 +1,35 @@
 const data = [
   {
-    href: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
-    src: '#',
+    href: '#',
+    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
   {
-    href: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
-    src: '#',
+    href: '#',
+    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
   {
-    href: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
-    src: '#',
+    href: '#',
+    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
   {
-    href: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
-    src: '#',
+    href: '#',
+    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
   {
-    href: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
-    src: '#',
+    href: '#',
+    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
   {
-    href: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
-    src: '#',
+    href: '#',
+    src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
+
 ];
 
 export default class SmallCategory {
