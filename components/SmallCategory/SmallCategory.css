@@ -1,3 +1,7 @@
+.small__category {
+  padding: 2%;
+  background: #f9f9fa;
+}
 
 .small__category_item {
   margin: 0 0 30px;
