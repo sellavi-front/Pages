@@ -47,6 +47,11 @@ body .section-title span:before {
   font-size: 28px;
 }
 
+.thumbnail .price_actions .add_to_cart button {
+  padding: 10px;
+  background: #fcbf49;
+}
+
 .add_to_wishlist,
 body.ltr .thumbnail .remove_from_wishlist {
   left: auto !important;
