@@ -3,9 +3,8 @@
 }
 
 .footer_content_text {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
 }
 
 .footer_content_text > p {
