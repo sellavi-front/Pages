@@ -21,16 +21,16 @@ export default class Requisites {
     this.arr = [];
   }
 
-  setItemtemplate(key, val) {
+  setItemtemplate(content) {
     return `
       <p class="requsites__elem">
-        ${key}: <span>${val}</span>
+        ${content[0]}: <span>${content[1]}</span>
       </p>`;
   }
 
   setData() {
     const arr = Object.entries(this.obj);
-    return arr.map((item) => console.log(item)); //this.setItemtemplate(item.key, item.value)
+    return arr.map((item) => this.setItemtemplate(item));
   }
 
   setTemplate() {
