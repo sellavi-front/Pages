@@ -1,3 +1,7 @@
+.footer {
+  background: #0077b6 !important;
+}
+
 body .footer a,
 .footer .footer-widgets .widget-title {
   color: white;
