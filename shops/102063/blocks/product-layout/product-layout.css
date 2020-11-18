@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+.content-area .page-section .product-layout {
+  background: #fff;
+}
+
 .product-item .thumbnail {
   border: 1px solid #eee;
   padding: 5%;
