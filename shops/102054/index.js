@@ -22,7 +22,7 @@ window.onload = () => {
   leftMenu.remove()
   logo.classList.add("navbar__block")
   let navbar = `
-    <a class="navbar_item">Меню</a>
+    <a class="navbar_item menu">Меню</a>
     <ul class="navbar_item_menu">
         <li>О бренде</li>
         <li>Контакты</li>

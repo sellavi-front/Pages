@@ -117,9 +117,10 @@ video {
   display: block;
   background-color: #fff;
 }
-.navbar_item_menu:hover {
-  display: block;
-}
+.navbar_item.menu:hover .navbar_item_menu {
+    display: block;
+  }
+
 
 
 
