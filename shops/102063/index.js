@@ -1,6 +1,6 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js'
 import SmallCategory from '../../components/SmallCategory/SmallCategory.js'
-import { DeleteClasses } from '../../modules/DeleteClasses/DeleteClasses.js';
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import '../../fixes/fixes.js';
 
 const bootstrapClasses = [
