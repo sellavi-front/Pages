@@ -40,8 +40,12 @@ body .section-title span:after, body .section-title span:before {
 
 .common-home .section-title {
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 0 -50px 20px !important;
   text-align: left;
   font-size: 28px;
+}
+
+.add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
+
 }
 
