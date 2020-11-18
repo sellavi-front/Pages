@@ -1,4 +1,5 @@
 import '../../fixes/fixes.js';
+import BigCategories from '../../modules/BigCategories/BigCategories.js';
 
 window.onload = () => {
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
@@ -17,6 +18,8 @@ window.onload = () => {
     `)
 
   let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
+  mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
+  let cards = document.querySelector(".cards")
 
 
   fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
@@ -26,17 +29,14 @@ window.onload = () => {
     .then(function(json) {
       let categories = json.response.data
       categories.map(category => {
-        mainContainer.insertAdjacentHTML("afterbegin", `
-            <div class="categories__group">
-                <div class="categories__group__item">
-                  <div class="categories__group__header">
-                      <h1 class="categories__group__header__text">${category.full_name}</h1>
-                  </div>
-                  <div class="categories__group__link">
-                      <a href="${category.url}">Перейти</a>
-                  </div>
+        cards.insertAdjacentHTML("afterbegin", `
+            <li class="cards__item">
+              <div class="card">
+                <div class="card__image">
+                  <div class="card__title"><a href="${category.url}">${category.full_name}</a></div>
                 </div>
-            </div>
+              </div>
+            </li>
           `)
       })
     })
