@@ -4,5 +4,18 @@
 
 body .footer a,
 .footer .footer-widgets .widget-title {
-  color: white;
+  color: white !important;
+}
+
+.footer .footer-widgets .widget-title {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer .footer-widgets .widget-title:before {
+  display: none;
+}
+
+.widget-categories ul li+li {
+  border: none !important;
 }
