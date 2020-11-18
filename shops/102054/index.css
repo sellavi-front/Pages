@@ -100,17 +100,10 @@ video {
 
 /* Categories */
 
-.categories__group {
-  display: flex;
-  overflow: hidden;
-}
 
-.categories__group__item {
-  flex: 1 1 0%;
-}
 
-.categories__group__header {
-  flex: 1 1 auto;
+#home > div.wrapper.wrapper-closed > div > section > div > ul > li:nth-child(1) > div > div {
+  background: url(https://downloader.disk.yandex.ru/preview/0f3e990…/5fb530f7/Rt3yEKGrXe3iLpnNVvR87wQnwnuCEr0_GOUSpwLQR5WSlIbkc-E0MSfwj_1KFOOEGqWbSo389p_OJA5PPLQPQA%3D%3D?uid=0&filename=IMG_0121.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=3584x2018) no-repeat top/cover;
 }
 
 /* End */
