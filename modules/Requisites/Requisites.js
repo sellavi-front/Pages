@@ -1,17 +1,15 @@
 // const data = {
-//   ogranization: '',
-//   orgAdress: '',
-//   mailAdress: '',
-//   regAdress: '',
-//   inn: '',
-//   kpp: '',
-//   ogrn: '',
-//   bankName: '',
-//   accountNumber: '',
-//   corrNumber: '',
-//   bik: '',
-//   director = '',
-// }
+//   'Организация' : '',
+//   'Юр. Адрес': '',
+//   'Почтовый адрес': '',
+//   'ИНН': '',
+//   'ОГРН': '',
+//   'Банк': '',
+//   'Рассчетный счет': '',
+//   'Корр. Счёт': '',
+//   'БИК': '',
+//   'Директор': '',
+// };
 
 export default class Requisites {
   constructor(obj, target, container = document.querySelector('.requsitess')) {
@@ -40,8 +38,8 @@ export default class Requisites {
         `<div class="media">
           <div class="meida-body requsites__data">
             <i class="fas fa-info-circle"></i>
-            <h4 class="requsites__title">Реквизиты продавца</h4>
             <div class="requsites__list">
+              <strong>Реквизиты продавца</strong>
               ${this.setData().join('')}
             </div>
           </div>`,
