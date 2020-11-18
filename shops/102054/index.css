@@ -195,7 +195,6 @@ body .section-title span:after, body .section-title span:before {
 }
 
 .collection__products {
-  justify-content: flex-start;
   width: 50%;
 }
 
@@ -221,6 +220,11 @@ body .section-title span:after, body .section-title span:before {
 
 body.ltr .thumbnail .caption-title {
   text-align: center;
+}
+
+.products__block {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* end */
