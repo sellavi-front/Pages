@@ -1,6 +1,7 @@
 @import './header/header.css';
 @import './page-section/page-section.css';
 @import './icons/icons.css';
+@import './product-layout/product-layout.css';
 
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
