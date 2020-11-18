@@ -179,7 +179,7 @@ body .section-title span:after, body .section-title span:before {
 }
 
 .collection__products {
-  justify-content: flex-start;
+  justify-content: flex-end;
   width: 50%;
 }
 
