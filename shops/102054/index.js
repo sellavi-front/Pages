@@ -59,4 +59,9 @@ window.onload = () => {
           `)
       })
     })
+
+  let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
+  let productRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
+  titleNewCollection.classList.add("title__new__collection")
+  productRow.classList.add("collection__products")
 }

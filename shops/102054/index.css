@@ -168,6 +168,21 @@ body.theme-gray .header.bordered {
   height: 100vh;
 }
 
+.title__new__collection {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+
+body .section-title span:after, body .section-title span:before {
+  display: none;
+}
+
+.collection__products {
+  justify-content: flex-start;
+  width: 50%;
+}
+
 /* End */
 
 
