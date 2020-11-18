@@ -34,7 +34,7 @@ const data = [
 export default class SmallCategory {
   constructor(obj) {
     this.obj = obj;
-    this.container = document.querySelector('.page-section')
+    this.container = document.querySelector('.page-section > div')
   }
 
   getDataImage() {
