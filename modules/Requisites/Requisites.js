@@ -20,19 +20,16 @@ export default class Requisites {
     this.arr = [];
   }
 
-  getData() {
-    for (let key in this.obj) {
-      this.arr = this.obj[key];
-    }
-    return this.arr;
+  setItemtemplate(content) {
+    return `
+      <p class="requsites__elem">
+        Название: <span>${content}</span>
+      </p>`
   }
 
   setData() {
-    console.log(Object.values(this.obj))
-    return Object.values(this.obj).forEach((item) => `
-      <p class="requsites__elem">
-        Название: <span>${item}</span>
-      </p>`);
+    const arr = Object.values(this.obj);
+    return arr.map((item) => this.setItemtemplate(item));
   }
 
   setTemplate() {
