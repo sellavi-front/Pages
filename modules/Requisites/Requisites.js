@@ -30,7 +30,7 @@ export default class Requisites {
 
   setData() {
     const arr = Object.values(this.obj);
-    return arr.map((item) => this.setItemtemplate(item).concat(''));
+    return arr.map((item) => this.setItemtemplate(item).split(''));
   }
 
   setTemplate() {
