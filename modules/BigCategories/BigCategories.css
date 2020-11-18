@@ -42,7 +42,7 @@
   font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
-  justify-content: center;
+  justify-content: flex-end;
   display: flex;
 }
 
