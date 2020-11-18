@@ -169,7 +169,9 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
 /* End */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .navbar__block {
+  #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div,
+  #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3),
+  #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4) {
     display: none;
   }
 }
