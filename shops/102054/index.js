@@ -75,5 +75,10 @@ window.onload = () => {
   let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
   let productRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
   titleNewCollection.classList.add("title__new__collection")
+  let productsBlock = `
+    <div class="products__block">
+    </div>
+  `
+  titleNewCollection.insertAdjacentHTML("beforeend", productsBlock)
   productRow.classList.add("collection__products")
 }

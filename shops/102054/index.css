@@ -204,6 +204,16 @@ body .section-title span:after, body .section-title span:before {
   width: auto;
 }
 
+.thumbnail .price {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #333;
+  float: right;
+  display: inline-block;
+}
+
 /* End */
 
 
