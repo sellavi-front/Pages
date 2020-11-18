@@ -41,7 +41,7 @@ if (document.querySelector('.wrapper')) {
   navigationWrapperContainer.classList.remove('container');
 
   footerWidContainer.classList.add('container-fluid');
-  footerWidContainer.classList.remove('container-fluid');
+  footerWidContainer.classList.remove('container');
 
   pageSectionContainer.classList.add('container-fluid');
   pageSectionContainer.classList.remove('container');
