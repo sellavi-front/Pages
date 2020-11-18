@@ -228,6 +228,24 @@ body.ltr .thumbnail .caption-title {
   justify-content: space-between;
 }
 
+body .section-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #232323;
+  overflow: hidden;
+}
+
+.product-item .thumbnail .media img {
+  min-height: 400px;
+  max-width: 500px;
+  max-height: 400px;
+}
+
 /* end */
 
 
@@ -251,6 +269,11 @@ body.ltr .thumbnail .caption-title {
     display: flex;
     flex-direction: column;
   }
+
+  .collection__img {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
