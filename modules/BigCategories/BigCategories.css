@@ -36,14 +36,19 @@
   padding-top: 56.25%;
 }
 
+.card__title {
+  width: 200px;
+  position: absolute;
+  bottom: 9rem;
+  left: 4rem;
+}
+
 .card__title a{
-  color: #fff;
-  font-size: 1.25rem;
+  color: #ab0740;
+  font-size: 0.8rem;
   font-weight: 900;
   letter-spacing: 2px;
   text-transform: uppercase;
-  justify-content: flex-end;
-  display: flex;
 }
 
 
