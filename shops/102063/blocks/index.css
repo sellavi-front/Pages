@@ -13,3 +13,7 @@
 #sellavi_logo {
   height: 25px !important;
 }
+
+.bs-menu-toggle {
+  display: none !important;
+}
