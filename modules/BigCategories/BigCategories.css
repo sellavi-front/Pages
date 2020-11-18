@@ -36,7 +36,7 @@
   padding-top: 56.25%;
 }
 
-.card__title {
+.card__title a{
   color: #fff;
   font-size: 1.25rem;
   font-weight: 900;
