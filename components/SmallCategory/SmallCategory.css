@@ -1,3 +1,15 @@
-.img_inner {
+
+.small__category_item {
+  margin: 0 0 30px;
+}
+
+.img-inner {
   height: 130px;
+}
+
+.img-inner__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }

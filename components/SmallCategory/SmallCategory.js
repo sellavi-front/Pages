@@ -29,7 +29,6 @@ const data = [
     src: 'https://www.ecovita.ru/upload/iblock/515/O4ISTKA_KVARTIRA.jpg',
     title: 'Очистка воды',
   },
-
 ];
 
 export default class SmallCategory {
