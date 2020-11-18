@@ -1,5 +1,6 @@
 @import './header/header.css';
+@import './icons/icons.css';
 
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
-@import './icons/icons.css';
+@import '../../../components/SmallCategory/SmallCategory.css';
