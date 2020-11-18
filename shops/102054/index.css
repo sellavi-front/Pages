@@ -149,12 +149,14 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   border-bottom: 1px solid #dfe3e8;
 }
 
+body.theme-gray .header.bordered {
+  border-bottom: 0;
+}
+
 
 /* End */
 
 /* Categories */
-
-
 
 #home > div.wrapper.wrapper-closed > div > section > div > ul > li:nth-child(1) > div > div {
   background: url(https://res.cloudinary.com/dd2edlvdy/image/upload/v1605698960/IMG_0250_xzsah1.webp) no-repeat top/cover;
@@ -168,14 +170,30 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
 
 /* End */
 
+
+/* Content */
+
+
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div,
   #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3),
   #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4) {
     display: none;
   }
+
+  .navbar__block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-md-3 + .col-md-3 {
+    margin-right: 5%;
+  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
-
+  .col-md-3 + .col-md-3 {
+    margin-right: 5%;
+  }
 }
