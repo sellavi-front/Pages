@@ -8,3 +8,7 @@
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../components/SmallCategory/SmallCategory.css';
+
+#sellavi_logo {
+  height: 25px !important;
+}
