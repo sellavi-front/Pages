@@ -53,3 +53,12 @@ body.ltr .thumbnail .remove_from_wishlist {
   top: 15px !important;
   right: 15px !important;
 }
+
+body .btn.btn-theme.btn-theme-transparent:hover {
+  background-color: #fcbf49;
+  border-color: #fcbf49;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: black !important;
+}
