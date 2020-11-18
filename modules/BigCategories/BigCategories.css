@@ -53,4 +53,11 @@
     margin: 0;
     padding: 0;
   }
+
+  .cards__item {
+    display: flex;
+    padding: 0.5rem;
+    width: 100%;
+    margin: auto;
+  }
 }
