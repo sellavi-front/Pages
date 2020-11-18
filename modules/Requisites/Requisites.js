@@ -21,16 +21,16 @@ export default class Requisites {
     this.arr = [];
   }
 
-  setItemtemplate(content) {
+  setItemtemplate(key, val) {
     return `
       <p class="requsites__elem">
-        Название: <span>${content}</span>
+        ${key}: <span>${val}</span>
       </p>`;
   }
 
   setData() {
-    const arr = Object.values(this.obj);
-    return arr.map((item) => this.setItemtemplate(item));
+    const arr = Object.entries(this.obj);
+    return arr.map((item) => this.setItemtemplate(item.key, item.value));
   }
 
   setTemplate() {
@@ -60,16 +60,16 @@ export default class Requisites {
 }
 
 const data = {
-  ogranization: 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
-  orgAdress: 'г. Екатеринбург, ул. Щербакова 4 офис 302',
-  mailAdress: 'г. Екатеринбург, ул. Щербакова 4 офис 302',
-  inn: '667105593531',
-  ogrn: '317665800123460',
-  bankName: 'УРАЛЬСКИЙ БАНК ПАО СБЕРБАНК',
-  accountNumber: '40802810016540071804',
-  corrNumber: '30101810500000000674',
-  bik: '046577674',
-  director: 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
+  'Организация' : 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
+  'Юр. Адрес': 'г. Екатеринбург, ул. Щербакова 4 офис 302',
+  'Почтовый адрес': 'г. Екатеринбург, ул. Щербакова 4 офис 302',
+  'ИНН': '667105593531',
+  'ОГРН': '317665800123460',
+  'Банк': 'УРАЛЬСКИЙ БАНК ПАО СБЕРБАНК',
+  'Рассчетный счет': '40802810016540071804',
+  'Корр. Счёт': '30101810500000000674',
+  'БИК': '046577674',
+  'Директор': 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
 };
 
 if (location.href.includes('term-of-use')) {
