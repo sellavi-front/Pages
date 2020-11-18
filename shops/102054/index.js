@@ -17,7 +17,7 @@ window.onload = () => {
       </div>
     `)
 
-  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo > a")
+  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo > a:nth-child(1) > img")
   let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
   leftMenu.remove()
   let navbar = `
