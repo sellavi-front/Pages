@@ -49,11 +49,16 @@ body .section-title span:before {
   margin: 0 0 -50px 20px !important;
   text-align: left;
   font-size: 28px;
+  overflow: visible;
 }
 
 .thumbnail .price_actions .add_to_cart button {
   padding: 10px;
   background: #fcbf49;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  max-height: auto !important;
 }
 
 .add_to_wishlist,
