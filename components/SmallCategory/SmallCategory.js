@@ -41,10 +41,10 @@ export default class SmallCategory {
     return this.obj.map(item => {
       return `
       <div class="col-md-4 col-sm-6">
-        <div id="" class="item">
-          <div class="img_inner">
-            <a href="${item.href}">
-              <h3 class="img_inner-title">${item.title}</h3>
+        <div id="" class="small__category_item">
+          <div class="small__category_img-inner">
+            <a href="${item.href}" class="img-inner__link">
+              <h3 class="img-inner_title">${item.title}</h3>
               <img
                 class="small-category__img"
                 src="${item.src}"
@@ -59,7 +59,7 @@ export default class SmallCategory {
 
   setTemplate() {
     return `
-      <div class="adv_list small_banners">
+      <div class="small__category">
         <div class="row">${this.getDataImage().join('')}</div>
       </div>
     `;
