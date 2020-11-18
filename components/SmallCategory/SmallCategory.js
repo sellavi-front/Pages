@@ -1,32 +1,32 @@
 const data = [
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
     title: 'Очистка воды',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605611404/Water%20Filter/10sl-gey_pjec4h.jpg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
     title: 'Очистка воды',
   },
 ];
