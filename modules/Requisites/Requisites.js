@@ -78,5 +78,5 @@ if (location.href.includes('term-of-use')) {
 
 if (location.href.includes('contact')) {
   const req = new Requisites(data, 'afterend');
-  req.setTemplate(data, )
+  req.setTemplate()
 }
