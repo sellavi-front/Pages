@@ -26,6 +26,7 @@ if (document.querySelector('.wrapper')) {
   const pageSection = document.querySelector('.page-section');
   const pageSectionContainer = pageSection.querySelector('.container');
   const productItem =  document.querySelectorAll('.product-item');
+  const footerWidContainer = document.querySelector('.footer-widgets>.container');
   const navigationWrapperContainer = document.querySelector('.navigation-wrapper>.container');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
@@ -38,6 +39,9 @@ if (document.querySelector('.wrapper')) {
 
   navigationWrapperContainer.classList.add('container-fluid');
   navigationWrapperContainer.classList.remove('container');
+
+  footerWidContainer.classList.add('container-fluid');
+  footerWidContainer.classList.remove('container-fluid');
 
   pageSectionContainer.classList.add('container-fluid');
   pageSectionContainer.classList.remove('container');
