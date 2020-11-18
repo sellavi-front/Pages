@@ -17,7 +17,7 @@ export default class Requisites {
   constructor(obj, target) {
     this.obj = obj;
     this.target = target;
-    this.container = document.querySelector('.requsitess');
+    this.container = document.querySelector('.requsitess') || document.querySelector('.contact-info > .media-list > .media:last-child');
     this.arr = [];
   }
 
@@ -66,6 +66,6 @@ if (location.href.includes('term-of-use')) {
 }
 
 if (location.href.includes('contact')) {
-  const root = document.querySelector('.contact-info > .media-list > .media:last-child');
   const req = new Requisites(data, 'afterend');
+  req.setTemplate(data, )
 }
