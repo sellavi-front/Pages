@@ -19,6 +19,10 @@
   font-size: 35px;
 }
 
+.small-category__img-inner {
+  width: 100%;
+}
+
 .img-inner__link {
   display: flex;
   align-items: center;
