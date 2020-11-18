@@ -19,7 +19,7 @@ window.onload = () => {
   let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
 
 
-  fetch(`https://sellavi-api.000webhostapp.com/fetch.php`)
+  /*fetch(`https://sellavi-api.000webhostapp.com/fetch.php`)
     .then(function(response) {
       return response.json();
     })
@@ -39,5 +39,5 @@ window.onload = () => {
             </div>
           `)
       })
-    });
+    })*/
 }
