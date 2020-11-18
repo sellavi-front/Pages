@@ -50,6 +50,7 @@ body .section-title span:before {
   text-align: left;
   font-size: 28px;
   overflow: visible;
+  line-height: 1.2;
 }
 
 .thumbnail .price_actions .add_to_cart button {
@@ -75,4 +76,16 @@ body .btn.btn-theme.btn-theme-transparent:hover {
 
 body .btn.btn-theme.btn-theme-transparent:hover i {
   color: black !important;
+}
+
+@media (max-width: 495px) {
+  .products {
+    padding-top: 150px;
+  }
+
+  .common-home .section-title {
+    margin-left: 0 !important;
+    text-align: center;
+    margin-bottom: -100px !important;
+  }
 }
