@@ -10,8 +10,8 @@ window.onload = () => {
     'col-12',
     'mb-md-4',
   ];
-  let productsClasses = document.querySelector(".product-item")
-  const deleteProductsClasses = new DeleteClasses(document, bootstrapClasses)
+  let productsClasses = document.querySelectorAll(".product-item.product-layout")
+  const deleteProductsClasses = new DeleteClasses(productsClasses, bootstrapClasses)
   deleteProductsClasses.findAndDelete()
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
