@@ -41,7 +41,9 @@ export default class Requisites {
           <div class="meida-body requsites__data">
             <i class="fas fa-info-circle"></i>
             <h4 class="requsites__title">Реквизиты продавца</h4>
-            ${this.setData().join('')}
+            <div class="requsites__list">
+              ${this.setData().join('')}
+            </div>
           </div>`,
       );
     } else if (this.container.classList.contains('requsitess')) {
