@@ -1,6 +1,7 @@
 .small__category {
   padding: 2% 2% 0;
   background: #f9f9fa;
+  margin-bottom: 30px;
 }
 
 .small__category > div > div {
