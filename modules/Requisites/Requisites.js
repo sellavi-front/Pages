@@ -25,7 +25,7 @@ export default class Requisites {
     return `
       <p class="requsites__elem">
         Название: <span>${content}</span>
-      </p>`
+      </p>`;
   }
 
   setData() {
@@ -34,7 +34,7 @@ export default class Requisites {
   }
 
   setTemplate() {
-    console.log(this.container.classList)
+    console.log(this.container.classList);
     if (this.container.classList.contains('media')) {
       this.container.insertAdjacentHTML(
         this.target,
@@ -45,15 +45,16 @@ export default class Requisites {
             ${this.setData()}
           </div>`,
       );
-    }
-    this.container.insertAdjacentHTML(
-      this.target,
-      `
+    } else if (this.container.classList.contains('requsitess')) {
+      this.container.insertAdjacentHTML(
+        this.target,
+        `
         <div class="requsites__data">
           <h4 class="requsites__title">Реквизиты продавца</h4>
           ${this.setData()}
         </div>`,
-    );
+      );
+    }
   }
 }
 
