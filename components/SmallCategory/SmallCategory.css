@@ -22,6 +22,7 @@
 .small-category__img {
   width: 100%;
   height: 180px;
+  object-fit: cover;
 }
 
 .img-inner__link {
