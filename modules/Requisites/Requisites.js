@@ -36,13 +36,14 @@ export default class Requisites {
       this.container.insertAdjacentHTML(
         this.target,
         `<div class="media">
+          <i class="fas fa-info-circle"></i>
           <div class="meida-body requsites__data">
-            <i class="fas fa-info-circle"></i>
             <div class="requsites__list">
               <strong>Реквизиты продавца</strong>
               ${this.setData().join('')}
             </div>
-          </div>`,
+          </div>
+        </div>`,
       );
     } else if (this.container.classList.contains('requsitess')) {
       this.container.insertAdjacentHTML(
