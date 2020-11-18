@@ -29,7 +29,7 @@ export default class Requisites {
 
   setData() {
     const arr = Object.values(this.obj);
-    return arr.map((item) => this.setItemtemplate(item));
+    return arr.map((item) => this.setItemtemplate(item).concat(''));
   }
 
   setTemplate() {
@@ -39,7 +39,7 @@ export default class Requisites {
       `
         <div class="requsites__data">
           <h4 class="requsites__title">Реквизиты продавца</h4>
-          ${this.setData().concat('')}
+          ${this.setData()}
         </div>`,
     );
   }
