@@ -7,6 +7,10 @@
   height: 130px;
 }
 
+.img_inner-title {
+  position: absolute;
+}
+
 .img-inner__link {
   display: flex;
   align-items: center;
