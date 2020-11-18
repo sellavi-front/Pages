@@ -38,8 +38,7 @@ export default class SmallCategory {
   }
 
   getDataImage() {
-    return Object.entries(this.obj).map(item => {
-      console.log(item);
+    return this.obj.map(item => {
       return `
       <div class="col-md-4 col-sm-6">
         <div id="" class="item">
