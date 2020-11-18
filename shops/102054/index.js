@@ -17,14 +17,14 @@ window.onload = () => {
       </div>
     `)
 
-  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
+  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo > a:nth-child(3)")
   let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
   leftMenu.remove()
   let navbar = `
     <a href="https://store102054.sellavi.com/man/">Мужчинам</a>
     <a href="https://store102054.sellavi.com/woman/">Женщинам</a>
   `
-  logo.insertAdjacentHTML("afterbegin", navbar)
+  logo.insertAdjacentHTML("afterend", navbar)
 
   let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
   mainContainer.setAttribute("class", "container-fluid")
