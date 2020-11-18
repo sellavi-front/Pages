@@ -9,6 +9,7 @@ window.onload = () => {
     'mb-0',
     'col-12',
     'mb-md-4',
+    'col-sm-6'
   ];
   let productsClasses = document.querySelectorAll(".product-item.product-layout")
   const deleteProductsClasses = new DeleteClasses(productsClasses, bootstrapClasses)
