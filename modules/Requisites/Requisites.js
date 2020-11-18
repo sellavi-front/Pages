@@ -36,7 +36,7 @@ export default class Requisites {
       this.container.insertAdjacentHTML(
         this.target,
         `<div class="media">
-          <i class="fas fa-info-circle"></i>
+          <i class="float-right fa fa-info"></i>
           <div class="meida-body requsites__data">
             <div class="requsites__list">
               <strong>Реквизиты продавца</strong>
