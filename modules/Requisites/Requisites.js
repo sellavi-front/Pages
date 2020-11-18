@@ -51,7 +51,7 @@ export default class Requisites {
       `
         <div class="requsites__data">
           <h4 class="requsites__title">Реквизиты продавца</h4>
-          ${this.setData()}
+          ${this.setData().split('')}
         </div>`,
     );
   }
