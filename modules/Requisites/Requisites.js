@@ -34,7 +34,7 @@ export default class Requisites {
   }
 
   setTemplate() {
-
+    console.log(this.container.classList)
     if (this.container.classList.contains('media')) {
       this.container.insertAdjacentHTML(
         this.target,
