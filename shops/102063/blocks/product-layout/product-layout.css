@@ -9,3 +9,7 @@
   padding: 0;
   margin: 0;
 }
+
+body .content-area .page-section .product-layout {
+  border: .5px solid rgba(0,0,0,.3);
+}
