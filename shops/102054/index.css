@@ -139,7 +139,15 @@ video {
 .dropdown:hover .dropbtn {background-color: transparent;}
 
 
-
+body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
+  position: relative;
+  padding-right: 0;
+  padding-left: 50px;
+  line-height: 64px;
+  font-size: 18px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #dfe3e8;
+}
 
 
 /* End */
@@ -159,3 +167,13 @@ video {
 }
 
 /* End */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .navbar__block {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
+
+}
