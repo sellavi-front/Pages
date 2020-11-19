@@ -452,7 +452,7 @@ body .footer .footer-widgets .widget-title {
 }
 
 /* End */
-@media only screen and (max-device-width : 320px) {
+@media only screen and (max-device-width : 321px) {
   .thumbnail .media img {
     width: 320px !important;
   }
