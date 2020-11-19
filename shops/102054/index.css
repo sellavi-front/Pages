@@ -81,6 +81,25 @@ body.theme-gray .header {
   border-bottom: 0;
 }
 
+body.theme_10.common-home header.header .header-wrapper {
+  background-color: transparent !important;
+  transition: background-color .5s ease-in-out;
+  z-index: 999;
+}
+
+body.theme_10 .wrapper header.header, body.theme_10 .wrapper header.header.sticky_trigger {
+  z-index: 999;
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+}
+
+body.theme-gray .header .navigation-wrapper {
+  background-color: #f5f6f7;
+  border-top: 0;
+}
+
 /* End */
 
 /* Banner */
@@ -119,11 +138,12 @@ video {
 
 .navbar_item {
   padding: 32px;
+  color: #fff;
 }
 
 .dropbtn {
   background-color: transparent;
-  color: #333;
+  color: #fff;
   border: none;
 }
 
