@@ -286,8 +286,8 @@ body .section-title {
 }
 
 .product-item .thumbnail .media img {
-  min-height: 400px;
-  max-width: 500px;
+  min-height: 300px;
+  max-width: 300px;
   max-height: 400px;
 }
 
