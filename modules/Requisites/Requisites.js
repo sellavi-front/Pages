@@ -11,6 +11,7 @@
 //   'Директор': '',
 // };
 
+import termsOfUse from './docs/termsOfuse.js';
 export default class Requisites {
   constructor(obj, target, container = document.querySelector('.requsitess')) {
     this.obj = obj;
@@ -54,6 +55,8 @@ export default class Requisites {
           ${this.setData().join('')}
         </div>`,
       );
+
+      this.container.insertAdjacentHTML('beforeEnd', termsOfUse);
     }
   }
 }
