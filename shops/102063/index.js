@@ -41,7 +41,7 @@ if (document.querySelector('.wrapper')) {
 if (location.origin) {
   const customSection = document.querySelector('.custom_section');
 
-  const slider = new SmallImgSlider(data, customSection);
+  const slider = new SmallImgSlider(sliderData, customSection);
 
   slider.setTemplate();
   slider.setOptions();
