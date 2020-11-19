@@ -37,6 +37,7 @@ window.onload = () => {
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const cartText = document.querySelector('#cart > span');
+  const icoUser = document.querySelector('.icon-user');
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
@@ -51,7 +52,7 @@ if (document.querySelector('.wrapper')) {
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
 
-  const forDelete = [cartText, navigation, footerWidgetCol2, footerWidgetCol2];
+  const forDelete = [icoUser, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
