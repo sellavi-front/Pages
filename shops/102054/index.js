@@ -136,7 +136,7 @@ window.onload = () => {
   document.querySelector(".products__block").insertAdjacentElement("afterbegin", clone)
   productRow.remove()
   document.querySelector(".products__block").insertAdjacentHTML("afterbegin", collectionImg)
-  document.querySelectorAll("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
+  //document.querySelectorAll("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
 
   if(location.href === 'https://store102054.sellavi.com/man/' || 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
