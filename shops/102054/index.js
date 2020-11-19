@@ -131,5 +131,5 @@ window.onload = () => {
   `
   document.querySelector(".products__block").insertAdjacentElement("afterbegin", clone)
   productRow.remove()
-  document.querySelector(".products__block").insertAdjacentHTML("beforeend", collectionImg)
+  document.querySelector(".products__block").insertAdjacentHTML("afterbegin", collectionImg)
 }
