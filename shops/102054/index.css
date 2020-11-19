@@ -113,6 +113,10 @@ video {
   text-transform: capitalize;
 }
 
+.video__banner__text__content__header a {
+  color: #fff !important;
+}
+
 .navbar__block {
   display: flex;
   justify-content: flex-start;
