@@ -99,20 +99,18 @@ video {
 }
 
 .video__banner__text__content {
-  background: rgba(0,0,0,0);
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  bottom: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .video__banner__text__content__header {
-  color: #ab0540;
-  font-family: 'Nobile', sans-serif;
-  font-size: 9vw;
-  text-align: center;
-  font-weight: 900;
+  color: #fff !important;
+  font-size: 1.4rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
 }
 
 .navbar__block {
