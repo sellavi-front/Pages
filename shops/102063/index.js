@@ -6,6 +6,7 @@ import '../../fixes/fixes.js';
 
 import sliderData from './utils/sliderData.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
+import dataSmallCat from './utils/dataSmallCat.js'
 
 
 if (document.querySelector('.wrapper')) {
@@ -42,7 +43,9 @@ if (location.origin) {
   const customSection = document.querySelector('.custom_section');
 
   const slider = new SmallImgSlider(sliderData, customSection);
+  const smallCategory = new SmallCategory(dataSmallCat);
 
+  smallCategory.render();
   slider.setTemplate();
   slider.setOptions();
 
