@@ -21,6 +21,13 @@ window.onload = () => {
   function scrolled() {
     let threshold = doc.scrollTop() > 50;
     elem.toggleClass('scrolled', threshold);
+    if(elem.classList.contains("scrolled")) {
+      document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #333"
+      document.querySelector(".navbar_item").style.cssText = "color: #333"
+    } else {
+      document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #fff"
+      document.querySelector(".navbar_item").style.cssText = "color: #fff"
+    }
   }
   $(window).on({ scroll: scrolled });
 
