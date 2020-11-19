@@ -17,7 +17,7 @@
 .sf-menu li:hover,
 .sf-menu.nav > li > a:focus,
 .sf-menu.nav > li > a:hover {
-  background: none !important;
+  background: transparent !important;
   color: #00b16a;
 }
 
@@ -25,6 +25,10 @@
   top: 40px !important;
   background: rgba(0, 0, 0, 0.6) !important;
   box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sf-menu li:hover>ul {
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .sf-menu li:hover>ul>li>a {
