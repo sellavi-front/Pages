@@ -421,6 +421,12 @@ body .delivery__content-label {
   text-align: center;
 }
 
+#sellavi_logo {
+  display: inline-block;
+  width: 50px;
+  float: right;
+  height: 60px;
+}
 
 /* End */
 
