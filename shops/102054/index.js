@@ -132,4 +132,5 @@ window.onload = () => {
   document.querySelector(".products__block").insertAdjacentElement("afterbegin", clone)
   productRow.remove()
   document.querySelector(".products__block").insertAdjacentHTML("afterbegin", collectionImg)
+  document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
 }
