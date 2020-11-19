@@ -1,4 +1,4 @@
-const data = [
+export default sliderData = [
   {
     src: 'https://res.cloudinary.com/gz-company/image/upload/v1605777459/Water%20Filter/bwt_zciuz2.png',
     alt: 'BWT'
