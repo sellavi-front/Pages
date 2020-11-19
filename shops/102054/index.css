@@ -474,14 +474,25 @@ body .footer .footer-widgets .widget-title {
     display: flex;
     padding: 0.5rem;
     width: 100%;
-    margin: auto;
     margin-top: 25px;
+  }
+
+  .title__new__collection {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
   }
 
   .products__block {
     display: flex;
     flex-direction: column;
     padding: 0;
+  }
+
+  .product-item .thumbnail .media img {
+    min-height: 400px;
+    max-width: 450px;
+    max-height: 400px;
   }
 
   .collection__img {
