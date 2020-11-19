@@ -1,65 +1,85 @@
 // const data = {
-//   ogranization: '',
-//   orgAdress: '',
-//   mailAdress: '',
-//   regAdress: '',
-//   inn: '',
-//   kpp: '',
-//   ogrn: '',
-//   bankName: '',
-//   accountNumber: '',
-//   corrNumber: '',
-//   bik: '',
-//   director = '',
-// }
+//   'Организация' : '',
+//   'Юр. Адрес': '',
+//   'Почтовый адрес': '',
+//   'ИНН': '',
+//   'ОГРН': '',
+//   'Банк': '',
+//   'Рассчетный счет': '',
+//   'Корр. Счёт': '',
+//   'БИК': '',
+//   'Директор': '',
+// };
 
 export default class Requisites {
-  constructor(obj) {
+  constructor(obj, target, container = document.querySelector('.requsitess')) {
     this.obj = obj;
-    this.container = document.querySelector('.requsitess');
+    this.target = target;
+    this.container = container;
     this.arr = [];
   }
 
   setItemtemplate(content) {
     return `
       <p class="requsites__elem">
-        Название: <span>${content}</span>
-      </p>`
+        ${content[0]}: <span>${content[1]}</span>
+      </p>`;
   }
 
   setData() {
-    const arr = Object.values(this.obj);
-    return arr.map((item) => this.setItemtemplate(item).concat(''));
+    const arr = Object.entries(this.obj);
+    return arr.map((item) => this.setItemtemplate(item));
   }
 
   setTemplate() {
-    console.log(this.setData());
-    this.container.insertAdjacentHTML(
-      'afterbegin',
-      `
+    if (this.container.classList.contains('media')) {
+      this.container.insertAdjacentHTML(
+        this.target,
+        `<div class="media">
+          <i class="float-right fa fa-info"></i>
+          <div class="meida-body requsites__data">
+            <div class="requsites__list">
+              <strong>Реквизиты продавца</strong>
+              ${this.setData().join('')}
+            </div>
+          </div>
+        </div>`,
+      );
+    } else if (this.container.classList.contains('requsitess')) {
+      this.container.insertAdjacentHTML(
+        this.target,
+        `
         <div class="requsites__data">
           <h4 class="requsites__title">Реквизиты продавца</h4>
-          ${this.setData()}
+          ${this.setData().join('')}
         </div>`,
-    );
+      );
+    }
   }
 }
 
+const data = {
+  'Организация' : 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
+  'Юр. Адрес': 'г. Екатеринбург, ул. Щербакова 4 офис 302',
+  'Почтовый адрес': 'г. Екатеринбург, ул. Щербакова 4 офис 302',
+  'ИНН': '667105593531',
+  'ОГРН': '317665800123460',
+  'Банк': 'УРАЛЬСКИЙ БАНК ПАО СБЕРБАНК',
+  'Рассчетный счет': '40802810016540071804',
+  'Корр. Счёт': '30101810500000000674',
+  'БИК': '046577674',
+  'Директор': 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
+};
+
 if (location.href.includes('term-of-use')) {
-  const data = {
-    ogranization: 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
-    orgAdress: 'г. Екатеринбург, ул. Щербакова 4 офис 302',
-    mailAdress: 'г. Екатеринбург, ул. Щербакова 4 офис 302',
-    inn: '667105593531',
-    ogrn: '317665800123460',
-    bankName: 'УРАЛЬСКИЙ БАНК ПАО СБЕРБАНК',
-    accountNumber: '40802810016540071804',
-    corrNumber: '30101810500000000674',
-    bik: '046577674',
-    director: 'ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ',
-  };
+  const req = new Requisites(data, 'afterbegin');
 
-  const req = new Requisites(data);
+  req.setTemplate();
+}
 
+if (location.href.includes('contact')) {
+  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
+
+  const req = new Requisites(data, 'afterend', media);
   req.setTemplate();
 }
