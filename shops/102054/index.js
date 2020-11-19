@@ -48,10 +48,11 @@ window.onload = () => {
 
     }
   }
-  $(window).on({ scroll: scrolled });
+  $(window).on({ scroll: scrolled })
 
-  let bannerMain = document.querySelector(".custom_banner")
-  bannerMain.insertAdjacentHTML("afterbegin", `
+  if(location.href === 'https://store102054.sellavi.com/' || 'https://store102054.sellavi.com/?from_admin') {
+    let bannerMain = document.querySelector(".custom_banner")
+    bannerMain.insertAdjacentHTML("afterbegin", `
       <div class="video__banner">
           <video autoplay loop muted>
               <source src="https://video-public.canva.com/VAEFIQ7iFMI/v/a2ade3cf84.mp4" type="video/mp4">
@@ -63,11 +64,11 @@ window.onload = () => {
       </div>
     `)
 
-  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
-  let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
-  leftMenu.remove()
-  logo.classList.add("navbar__block")
-  let navbar = `
+    let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
+    let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
+    leftMenu.remove()
+    logo.classList.add("navbar__block")
+    let navbar = `
     <div class="navbar_item dropdown">
       <button class="dropbtn">Меню</button>
       <div class="dropdown-content">
@@ -79,14 +80,17 @@ window.onload = () => {
     <a class="navbar_item" href="https://store102054.sellavi.com/man/">Мужчинам</a>
     <a class="navbar_item" href="https://store102054.sellavi.com/woman/">Женщинам</a>
   `
-  logo.insertAdjacentHTML("beforeend", navbar)
-  document.querySelector(".search_field>input").placeholder = "";
-  document.querySelector(".fa.fa-search").addEventListener('click', function() {
-    document.querySelector(".header-search").classList.add("opened")
-    document.querySelector(".search_black_screen").classList.add("active")
-    document.querySelector("#search > div.search_field > input").focus();
-  })
-  document.querySelector("#cart > span.cart-norm-qty.d-none.d-lg-inline-block").remove()
+    logo.insertAdjacentHTML("beforeend", navbar)
+    document.querySelector(".search_field>input").placeholder = "";
+    document.querySelector(".fa.fa-search").addEventListener('click', function() {
+      document.querySelector(".header-search").classList.add("opened")
+      document.querySelector(".search_black_screen").classList.add("active")
+      document.querySelector("#search > div.search_field > input").focus();
+    })
+    document.querySelector("#cart > span.cart-norm-qty.d-none.d-lg-inline-block").remove()
+  }
+
+
 
   let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
   mainContainer.setAttribute("class", "container-fluid")
