@@ -10,7 +10,7 @@
 @import './other/section-title.css';
 @import './other/side-categories.css';
 @import './products/products.css';
-
+@import './other/pay-delivery.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../fixes/FooterCopy/FooterCopy.css';
