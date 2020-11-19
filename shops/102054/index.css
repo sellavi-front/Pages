@@ -458,6 +458,7 @@ body .delivery__content-label {
   .products__block {
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
 
   .collection__img {
