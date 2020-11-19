@@ -46,6 +46,13 @@ window.onload = () => {
     <a class="navbar_item" href="https://store102054.sellavi.com/woman/">Женщинам</a>
   `
   logo.insertAdjacentHTML("beforeend", navbar)
+  document.querySelector(".search_field>input").placeholder = "";
+  document.querySelector(".fa.fa-search").addEventListener('click', function() {
+    document.querySelector(".header-search").classList.add("opened")
+    document.querySelector(".search_black_screen").classList.add("active")
+    document.querySelector("#search > div.search_field > input").focus();
+  })
+  document.querySelector("#cart > span.cart-norm-qty.d-none.d-lg-inline-block").remove()
 
   let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
   mainContainer.setAttribute("class", "container-fluid")
