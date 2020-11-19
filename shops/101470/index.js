@@ -3,12 +3,15 @@ import '../../fixes/fixes.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import Requisites from '../../modules/Requisites/Requisites.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 import SenderTypeOne from '../../components/SenderTypeOne/SenderTypeOne.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+
+import requsites from './utils/requsites.js';
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -109,4 +112,19 @@ if (document.querySelector('.product-item')) {
   const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
 
   deleteClassesProd.findAndDelete();
+}
+
+/* Реквиизиты */
+
+if (location.href.includes('term-of-use')) {
+  const req = new Requisites(requsites, 'afterbegin');
+
+  req.setTemplate();
+}
+
+if (location.href.includes('contact')) {
+  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
+
+  const req = new Requisites(requsites, 'afterend', media);
+  req.setTemplate();
 }
