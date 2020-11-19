@@ -56,7 +56,7 @@ export default class Requisites {
         </div>`,
       );
 
-      this.container.insertAdjacentHTML('beforeEnd', termsOfUse);
+      this.container.insertAdjacentHTML('afterbegin', termsOfUse);
     }
   }
 }
