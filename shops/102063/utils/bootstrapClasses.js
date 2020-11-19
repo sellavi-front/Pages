@@ -1,4 +1,4 @@
-export default bootstrapClasses = [
+const bootstrapClasses = [
   'col-lg-4',
   'col-xl-3',
   'mb-0',
@@ -13,3 +13,5 @@ export default bootstrapClasses = [
   'mb-4',
   'container'
 ];
+
+export default bootstrapClasses;

@@ -7,6 +7,7 @@ import '../../fixes/fixes.js';
 import sliderData from './utils/sliderData.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
 
+
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>.container>.header-cart');
@@ -40,7 +41,7 @@ if (document.querySelector('.wrapper')) {
 if (location.origin) {
   const customSection = document.querySelector('.custom_section');
 
-  const slider = new SmallImgSlider(sliderData, customSection);
+  const slider = new SmallImgSlider(data, customSection);
 
   slider.setTemplate();
   slider.setOptions();
