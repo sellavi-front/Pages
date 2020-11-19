@@ -77,6 +77,11 @@ body.theme_10 .wrapper header.header, body.theme_10 .wrapper header.header.stick
   background-color: transparent;
   top: 0;
   right: 0;
+  transition: all 3s;
+}
+
+body.theme_10 .wrapper header.header, body.theme_10 .wrapper header.header.sticky_trigger.scrolled {
+  background-color: #fff;
 }
 
 body.theme-gray .header .navigation-wrapper {
@@ -106,7 +111,6 @@ video {
 }
 
 .video__banner__text__content__header {
-  color: #fff !important;
   font-size: 1.4rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.1rem;

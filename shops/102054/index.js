@@ -16,6 +16,14 @@ window.onload = () => {
   deleteProductsClasses.findAndDelete()
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
+  let elem = $('header.sticky_trigger');
+  let doc = $(document);
+  function scrolled() {
+    let threshold = doc.scrollTop() > 50;
+    elem.toggleClass('scrolled', threshold);
+  }
+  $(window).on({ scroll: scrolled });
+
   let bannerMain = document.querySelector(".custom_banner")
   bannerMain.insertAdjacentHTML("afterbegin", `
       <div class="video__banner">
