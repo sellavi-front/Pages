@@ -464,6 +464,12 @@ body .footer .footer-widgets .widget-title {
   }
 }
 
+@media only screen and (min-device-width : 414px) {
+  .thumbnail .media img {
+    width: 375px !important;
+  }
+}
+
 @media only screen and (min-device-width : 420px) {
   .thumbnail .media img {
     width: 375px !important;
