@@ -189,6 +189,41 @@ body.theme-gray .header.bordered {
   border-bottom: 0 !important;
 }
 
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  background: transparent;
+  padding: 6px;
+  color: #fff;
+  position: relative;
+}
+
+body.theme_10 .wrapper header.header .cart-wrapper {
+  background-color: transparent;
+}
+
+.header-cart .cart-wrapper {
+  height: 41px;
+  border-radius: 4px;
+  border: 0;
+  transition: border .3s;
+}
+
+.header-cart .cart-wrapper:hover {
+  border: 0;
+}
+
+body.theme_10 .wrapper header.header .header-search input {
+  background-color: transparent;
+}
+
+.header .header-search button i {
+  font-weight: 100;
+  color: #fff;
+}
+
+#search > div.search_field > input {
+  border: 0;
+}
+
 
 /* End */
 
