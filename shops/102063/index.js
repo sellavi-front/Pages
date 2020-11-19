@@ -39,7 +39,7 @@ if (document.querySelector('.wrapper')) {
   delSelectorsProductItem.findAndDelete();
 }
 
-if (location.origin) {
+if (document.querySelector('.commone-home')) {
   const customSection = document.querySelector('.custom_section');
 
   const slider = new SmallImgSlider(sliderData, customSection);
