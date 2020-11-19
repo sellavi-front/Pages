@@ -34,6 +34,10 @@ window.onload = () => {
       document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #fff"
       document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4)").style.cssText = "color: #fff"
       document.querySelector("#search > button > i").style.cssText = "color: #fff"
+      document.querySelector("#cart").style.cssText = "color: #fff"
+      document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").cssText = "#fff"
+
+
     }
   }
   $(window).on({ scroll: scrolled });
