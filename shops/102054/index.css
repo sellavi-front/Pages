@@ -502,9 +502,13 @@ body .footer .footer-widgets .widget-title {
   }
 
   .product-item .thumbnail .media img {
-    min-height: 400px;
-    max-width: 450px;
-    max-height: 400px;
+    min-height: 250px;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .thumbnail .media img {
+    width: 100% !important;
   }
 
   .collection__img {
