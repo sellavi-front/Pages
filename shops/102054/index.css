@@ -452,26 +452,26 @@ body .footer .footer-widgets .widget-title {
 }
 
 /* End */
-@media only screen and (max-device-width : 321px) {
+@media only screen and (min-device-width : 320px) {
   .thumbnail .media img {
     width: 320px !important;
   }
 }
 
-@media only screen and (max-device-width : 375px) {
+@media only screen and (min-device-width : 375px) {
   .thumbnail .media img {
     width: 375px !important;
   }
 }
 
-@media only screen and (max-device-width : 420px) {
+@media only screen and (min-device-width : 420px) {
   .thumbnail .media img {
     width: 375px !important;
   }
 }
 
 
-@media only screen and (max-device-width : 768px) {
+@media only screen and (min-device-width : 768px) {
   .thumbnail .media img {
     width: 768px !important;
   }
