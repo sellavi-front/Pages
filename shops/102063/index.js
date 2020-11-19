@@ -1,23 +1,11 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js'
 import SmallCategory from '../../components/SmallCategory/SmallCategory.js'
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import SmallImgSlider from '../../components/SmallImgSlider/SmallImgSlider.js';
 import '../../fixes/fixes.js';
 
-const bootstrapClasses = [
-  'col-lg-4',
-  'col-xl-3',
-  'mb-0',
-  'mb-md-4',
-  'col-12',
-  'col-sm-12',
-  'col-sm-6',
-  'col-md-6',
-  'col-md-3',
-  'col-lg-6',
-  'col-xl-4',
-  'mb-4',
-  'container'
-];
+import sliderData from './utils/sliderData.js';
+import bootstrapClasses from './utils/bootstrapClasses.js';
 
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
@@ -47,5 +35,15 @@ if (document.querySelector('.wrapper')) {
   pageSectionContainer.classList.remove('container');
 
   delSelectorsProductItem.findAndDelete();
+}
+
+if (location.origin) {
+  const customSection = document.querySelector('.custom_section');
+
+  const slider = new SmallImgSlider(sliderData, customSection);
+
+  slider.setTemplate();
+  slider.setOptions();
+
 }
 

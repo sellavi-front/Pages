@@ -10,6 +10,7 @@
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components/SmallCategory/SmallCategory.css';
+@import '../../../components/SmallImgSlider/SmallImgSlider.css';
 
 body h1,
 body h2,
