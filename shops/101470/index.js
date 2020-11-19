@@ -38,6 +38,8 @@ if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const cartText = document.querySelector('#cart > span');
   const icoUser = document.querySelector('.icon-user');
+  const headerSearch = document.querySelector('.header-search');
+  const buttonList = document.querySelector('.button__list');
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
@@ -74,6 +76,7 @@ if (document.querySelector('.wrapper')) {
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
+  buttonList.insertAdjacentHTML('afterbegin', headerSearch.outerHTML);
   deleteElements.remove();
 
   deleteClassesFooter.findAndDelete();
