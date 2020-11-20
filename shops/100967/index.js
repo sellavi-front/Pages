@@ -19,7 +19,7 @@ if (document.querySelector('.wrapper')) {
 
   hideCart.remove();
   icoUser.remove();
-  navWrapperCon.remove();
+  navWrapperCon.classList.remove('container');
 
   console.log(icoUser);
 }
