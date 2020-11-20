@@ -5,15 +5,12 @@
 
 header {
   border: none !important;
+  padding: 36px 0 !important;
 }
 
 .header .header-wrapper>.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header .header-wrapper {
-  padding: 36px 0 10px !important;
 }
 
