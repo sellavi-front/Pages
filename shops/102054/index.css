@@ -497,6 +497,14 @@ body .footer .footer-widgets .widget-title {
   position: relative;
 }
 
+.docs__meta {
+  margin-left: 10px;
+}
+
+.docs__meta a {
+  margin: 15px;
+}
+
 /* End */
 
 
