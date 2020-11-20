@@ -22,6 +22,10 @@
   padding: 0 !important;
 }
 
+#cart > span:first-child {
+  display: none;
+}
+
 .header-wrapper > .container-fluid > .header-cart {
   display: none;
 }
