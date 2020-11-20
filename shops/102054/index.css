@@ -517,6 +517,12 @@ body .footer .footer-widgets .widget-title {
 .widget-title::before {
   display: none;
 }
+
+.col-md-3 img {
+  width: 80%;
+  margin-left: 15px;
+}
+
 /* End */
 
 
