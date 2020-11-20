@@ -1,7 +1,7 @@
 import ButtonListInHeader from  '../../modules/ButtonListInHeader/ButtonListInHeader.js'
 
 const icons = {
-  cart: '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863312/Miru/assets/bag-white_uahy0s.svg">',
+  cart: '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863312/Miru/assets/bag-black_li2hqx.svg">',
   like: '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 }
 
