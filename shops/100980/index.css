@@ -36,8 +36,8 @@
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #000; color: #fff !important; }
+.dropdown-content a:hover {background-color: #fff; color: #000 !important; }
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: transparent;}
+.dropdown:hover .dropbtn {background-color: #fff;}
