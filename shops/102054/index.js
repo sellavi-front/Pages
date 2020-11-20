@@ -1,5 +1,6 @@
 import '../../fixes/fixes.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import SenderTypeOne from "../../components/SenderTypeOne/SenderTypeOne.js";
 
 window.onload = () => {
   const bootstrapClasses = [
@@ -133,6 +134,11 @@ window.onload = () => {
   })
 
   oldProductRow.remove()
+
+  let customSection = document.querySelector(".custom_section")
+  const Sender = new SenderTypeOne(customSection)
+  Sender.render()
+
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
