@@ -34,3 +34,7 @@
 .sf-menu .megamenu > ul .megaline {
   padding: 20px 10%;
 }
+
+.block-title span:after {
+  display: none;
+}
