@@ -261,6 +261,20 @@ body .section-title {
   overflow: hidden;
 }
 
+.products__block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.product__block__items {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 
 /* end */
 

@@ -116,10 +116,9 @@ window.onload = () => {
     })
 
   let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
-  let productRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
+  let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
   titleNewCollection.classList.add("title__new__collection")
-  let productRowItems = productRow.querySelectorAll(".product-item")
-  console.log(productRowItems)
+  let productRowItems = oldProductRow.querySelectorAll(".product-item")
 
   let productsBlock = `
     <div class="products__block">
@@ -134,7 +133,7 @@ window.onload = () => {
     productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
   })
 
-  productRow.remove()
+  oldProductRow.remove()
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
