@@ -272,7 +272,6 @@ body .section-title {
 .products__block__items {
   display: flex;
   width: 100%;
-  height: 300px;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -287,13 +286,13 @@ body .section-title {
 }
 
 .thumbnail .price {
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 1.2;
+  font-size: 10px;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #333;
   float: right;
   display: inline-block;
+  margin-top: -15px;
 }
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
