@@ -119,11 +119,12 @@ window.onload = () => {
   let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
   titleNewCollection.classList.add("title__new__collection")
   let productRowItems = oldProductRow.querySelectorAll(".product-item")
+  console.log(titleNewCollection)
 
   let productsBlock = `
     <div class="products__block">
         <div class="products__block__banner"><img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" /></div>
-        <div class="products__block__items"><h1>НОВАЯ КОЛЛЕКЦИЯ</h1></div>
+        <div class="products__block__items"></div>
     </div>
   `
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
