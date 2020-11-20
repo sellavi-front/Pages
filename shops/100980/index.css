@@ -1,3 +1,6 @@
+@import '../../modules/BigBanner/BigBanner.css';
+
+
 /* Header */
 .navbar__block {
   display: flex;
@@ -47,6 +50,10 @@
 .header .header-wrapper .mobile-navigation-wrapper a {
   font-size: 23px;
   color: #d8021a;
+}
+
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: #000;
 }
 
 /* end */

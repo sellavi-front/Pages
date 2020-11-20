@@ -1,4 +1,5 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import BigBanner from "../../modules/BigBanner/BigBanner";
 
 window.onload = () => {
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
@@ -16,4 +17,14 @@ window.onload = () => {
     <a class="navbar_item" href="https://store102054.sellavi.com/woman/">Преимущества</a>
   `
   logo.insertAdjacentHTML("beforeend", navbar)
+
+
+  const objBanner = {
+    title: 'Проектируем, оснащаем оборудованием и запускаем кулинарные пространства',
+    link: '#',
+    linkContent: 'Получить предложение',
+  }
+
+  const bigBanner = new BigBanner(document, objBanner);
+  bigBanner.render();
 }
