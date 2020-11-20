@@ -274,6 +274,7 @@ body .section-title {
   height: 300px;
   flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .products__block__banner img {
