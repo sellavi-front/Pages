@@ -33,5 +33,5 @@ const data = [
 ];
 
 // Это прописывается в основном файле со скриптами
-const smallCategory = new SmallCategory(data);
-smallCategory.render();
+// const smallCategory = new SmallCategory(data);
+// smallCategory.render();
