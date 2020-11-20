@@ -144,7 +144,7 @@ window.onload = () => {
   }
 
   /* Function on all pages */
-  document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
+  document.querySelector(".footer>.footer-widgets>.container").setAttribute("class", "container-fluid")
   let footer = document.querySelector(".footer>.footer-widgets>.container-fluid>.row")
   let footerLogoLayout = `
     <div class="col-md-3">
