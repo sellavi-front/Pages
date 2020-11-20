@@ -145,6 +145,16 @@ window.onload = () => {
 
   /* Function on all pages */
   document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
+  let footerMeta = document.querySelector(".footer_content_text")
+  let footerMetaDocs = `
+  <div class="docs__meta">
+  <a href="https://store102054.sellavi.com/terms-of-use/">Пользовательское соглашение</a>
+  <a href="https://store102054.sellavi.com/terms-of-return/">Условия возврата</a>
+  <a href="https://store102054.sellavi.com/delivery/">Доставка и оплата</a>
+  </div>
+  `
+  footerMeta.insertAdjacentHTML("beforeend", footerMetaDocs)
+
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
