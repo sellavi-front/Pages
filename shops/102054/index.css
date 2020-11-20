@@ -268,7 +268,7 @@ body .section-title {
   justify-content: space-between;
 }
 
-.product__block__items {
+.products__block__items {
   display: flex;
   width: 100%;
   flex-direction: row;
