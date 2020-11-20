@@ -286,7 +286,7 @@ body .section-title {
 }
 
 .thumbnail .price {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 500;
   margin-bottom: 15px;
   color: #333;
@@ -305,7 +305,7 @@ body .section-title {
 .caption-title a {
   color: #232323;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .footer-col-1 {
