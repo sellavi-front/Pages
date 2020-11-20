@@ -7,8 +7,9 @@ const icons = {
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>.container>.header-cart');
-
+const icoUser = document.querySelector('.icon-user');
 const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
 buttonsInHeader.setTemplate();
 hideCart.remove();
+icoUser.remove();
