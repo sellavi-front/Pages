@@ -129,7 +129,7 @@ window.onload = () => {
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
   let productRowBlock = document.querySelector(".products__block__items")
   let productBlockItems = document.querySelector(".products__block__items")
-  productBlockItems.insertAdjacentHTML("afterbegin", titleNewCollection.outerHTML)
+  productBlockItems.insertAdjacentHTML("afterbegin", titleNewCollection.textContent)
   productRowItems.forEach(item => {
     productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
   })
