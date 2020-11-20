@@ -123,13 +123,12 @@ window.onload = () => {
   let productsBlock = `
     <div class="products__block">
         <div class="products__block__banner"><img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" /></div>
-        <div class="products__block__items"></div>
+        <div class="products__block__items"><h1>НОВАЯ КОЛЛЕКЦИЯ</h1></div>
     </div>
   `
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
   let productRowBlock = document.querySelector(".products__block__items")
   let productBlockItems = document.querySelector(".products__block__items")
-  productBlockItems.insertAdjacentHTML("afterbegin", titleNewCollection.textContent)
   productRowItems.forEach(item => {
     productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
   })
