@@ -141,10 +141,10 @@ window.onload = () => {
     let customSection = document.querySelector(".custom_section")
     const Sender = new SenderTypeOne(customSection)
     Sender.render()
-
-
   }
 
+  /* Function on all pages */
+  document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
