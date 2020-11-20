@@ -273,12 +273,16 @@ body .section-title {
   width: 100%;
   height: 300px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .products__block__banner img {
-  width: 600px;
+  width: 800px;
+}
+
+.products__block__banner + .products__block__items {
+  margin-left: 5%;
 }
 
 
