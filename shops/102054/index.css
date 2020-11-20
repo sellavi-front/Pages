@@ -509,11 +509,6 @@ body .footer .footer-widgets .widget-title {
   display: none;
 }
 
-#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(1) img {
-  flex: 0 0 25%;
-  max-width: 25%;
-}
-
 .widget-title::before {
   display: none;
 }
