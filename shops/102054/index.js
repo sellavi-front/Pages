@@ -128,9 +128,12 @@ window.onload = () => {
     </div>
   `
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
-  let clone = productRow.cloneNode(true)
+  let productRowBlock = document.querySelector(".products__block__items")
 
-  document.querySelector(".products__block__items").insertAdjacentHTML("afterbegin", productRowItems.outerHTML)
+  productRowItems.forEach(item => {
+    productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
+  })
+
   productRow.remove()
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
