@@ -11,6 +11,7 @@ if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
+  const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
   buttonsInHeader.setTemplate();
@@ -22,4 +23,8 @@ if (document.querySelector('.wrapper')) {
   navWrapperCon.classList.remove('container');
 
   console.log(icoUser);
+
+  megalineLi.forEach((it) => {
+    it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
+  });
 }
