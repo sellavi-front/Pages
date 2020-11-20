@@ -13,3 +13,5 @@ const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 buttonsInHeader.setTemplate();
 hideCart.remove();
 icoUser.remove();
+
+console.log(icoUser);
