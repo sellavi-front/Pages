@@ -1,5 +1,6 @@
 .header .navigation-wrapper {
-  background: #0077b6 !important;
+  background: white !important;
+  border: none !important;
 }
 
 .nav a {
@@ -14,6 +15,7 @@
   padding: 15px !important;
   display: flex;
   justify-content: space-between;
+  color: #000;
 }
 
 .sf-menu>.flexy.has_children {
