@@ -37,7 +37,7 @@
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #fff; color: #000 !important; }
+.dropdown-content a:hover {background-color: #000; color: #fff !important; }
 
 .dropdown:hover .dropdown-content {display: block;}
 
