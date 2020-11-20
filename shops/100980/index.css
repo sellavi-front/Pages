@@ -1,3 +1,4 @@
+/* Header */
 .navbar__block {
   display: flex;
   justify-content: flex-start;
@@ -42,3 +43,11 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #fff;}
+
+.header .header-wrapper .mobile-navigation-wrapper a {
+  font-size: 23px;
+  color: #d8021a;
+}
+
+/* end */
+
