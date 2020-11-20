@@ -2,7 +2,7 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 
 const icons = {
   cart:
-    '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863312/Miru/assets/bag-black_li2hqx.svg">',
+    '<i class="far fa-shopping-bag"></i>',
   like:
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
