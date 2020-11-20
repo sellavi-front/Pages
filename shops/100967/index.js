@@ -13,8 +13,9 @@ if (document.querySelector('.wrapper')) {
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
-  const icoUser = document.querySelector('.icon-user');
   buttonsInHeader.setTemplate();
+
+  const icoUser = document.querySelector('.icon-user');
 
   hideCart.remove();
   icoUser.remove();
