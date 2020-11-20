@@ -13,3 +13,7 @@ header {
   justify-content: space-between;
 }
 
+.header .header-wrapper {
+  padding: 36px 0 10px !important;
+}
+

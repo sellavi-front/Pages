@@ -12,14 +12,10 @@
 }
 
 .sf-menu>li>a {
-  padding: 15px !important;
+  padding: 13px 25px !important;
   display: flex;
   justify-content: space-between;
   color: #000;
-}
-
-.sf-menu>.flexy.has_children {
-    padding-left: 20px;
 }
 
 .sf-menu li:hover,
