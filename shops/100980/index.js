@@ -1,5 +1,5 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import BigBanner from "../../modules/BigBanner/BigBanner";
+import BigBanner from "../../modules/BigBanner/BigBanner.js";
 
 window.onload = () => {
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
