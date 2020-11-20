@@ -151,4 +151,9 @@ window.onload = () => {
     document.querySelector("#cart").style.cssText = 'color: #333'
   }
 
+  if(location.href === 'https://store102054.sellavi.com/woman/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3490') {
+    document.querySelector("#search").remove()
+    document.querySelector("#cart").style.cssText = 'color: #333'
+  }
+
 }
