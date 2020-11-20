@@ -11,13 +11,16 @@
 //   'Директор': '',
 // };
 
+// <div class="requsitess"></dvi> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
+
 import termsOfUse from './docs/termsOfuse.js';
 export default class Requisites {
-  constructor(obj, target, container = document.querySelector('.requsitess')) {
+  constructor(obj, target, nameOrg = 'Общество с ограниченой ответственность Альтаир', container = document.querySelector('.requsitess')) {
     this.obj = obj;
     this.target = target;
     this.container = container;
     this.arr = [];
+    this.nameOrg = nameOrg;
   }
 
   setItemtemplate(content) {
@@ -56,7 +59,7 @@ export default class Requisites {
         </div>`,
       );
 
-      this.container.insertAdjacentHTML('afterbegin', termsOfUse);
+      this.container.insertAdjacentHTML('afterbegin', termsOfUse(this.nameOrg));
     }
   }
 }
