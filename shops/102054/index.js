@@ -129,7 +129,7 @@ window.onload = () => {
   productRow.classList.add("products__block__item")
   let clone = productRow.cloneNode(true)
 
-  document.querySelector(".products__block").insertAdjacentHTML("afterbegin", clone)
+  document.querySelector(".products__block").insertAdjacentElement("afterbegin", clone)
   productRow.remove()
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
