@@ -166,11 +166,13 @@ window.onload = () => {
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
     document.querySelector("#cart").style.cssText = 'color: #333'
+    document.querySelector("#content > div").setAttribute("class", "container-fluid")
   }
 
   if(location.href === 'https://store102054.sellavi.com/woman/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3490') {
     document.querySelector("#search").remove()
     document.querySelector("#cart").style.cssText = 'color: #333'
+    document.querySelector("#content > div").setAttribute("class", "container-fluid")
   }
 
 }
