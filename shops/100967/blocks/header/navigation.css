@@ -31,8 +31,8 @@
   left: 5%;
 }
 
-.sf-menu .megamenu > ul .megaline {
-  padding: 20px 10%;
+.sf-menu .megamenu > ul > .megaline {
+  padding: 20px 20%;
 }
 
 .block-title span:after {
