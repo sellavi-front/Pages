@@ -9,7 +9,7 @@ const icons = {
 
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  const hideCart = document.querySelector('.header-wrapper>.container>.header-cart');
+  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
