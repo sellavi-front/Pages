@@ -145,7 +145,7 @@ window.onload = () => {
 
   /* Function on all pages */
   document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
-  let footer = document.querySelector(".footer>.footer-widgets>.container-fluid")
+  let footer = document.querySelector(".footer>.footer-widgets>.container-fluid>.row")
   let footerLogoLayout = `
     <div class="col-md-3">
         <img src="https://cdn.sellavi.com/image/upload/c_fit,g_center,h_176,q_100,w_430/c_pad,h_176,w_430/v1605781814/ru/clients/102054/31ea46dc2d96cc7e04bc414f8aab722d8b5bd1f1.png" title="whitemoon.store" alt="whitemoon.store">
