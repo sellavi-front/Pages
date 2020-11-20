@@ -118,6 +118,8 @@ window.onload = () => {
   let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
   let productRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
   titleNewCollection.classList.add("title__new__collection")
+  let productRowItems = productRow.querySelectorAll(".product-item")
+  console.log(productRowItems)
 
   let productsBlock = `
     <div class="products__block">
@@ -126,7 +128,6 @@ window.onload = () => {
     </div>
   `
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
-  productRow.classList.add("products__block__item")
   let clone = productRow.cloneNode(true)
 
   document.querySelector(".products__block__items").insertAdjacentElement("afterbegin", clone)
