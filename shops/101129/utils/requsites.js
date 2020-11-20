@@ -1,5 +1,5 @@
 
-const data = {
+const requsites = {
   'Организация' : 'ИП КИРПА ДЕНИС АЛЕКСЕЕВИЧ',
   'Юр. Адрес': 'Российская Федерация, 352430, КРАСНОДАРСКИЙ КРАЙ, КУРГАНИНСКИЙ Р-Н, Г КУРГАНИНСК, УЛ ЛАБИНСКАЯ, дом 203',
   'Почтовый адрес': 'Российская Федерация, 352430, КРАСНОДАРСКИЙ КРАЙ, КУРГАНИНСКИЙ Р-Н, Г КУРГАНИНСК, УЛ ЛАБИНСКАЯ, дом 203',
@@ -12,15 +12,6 @@ const data = {
   'Директор': 'КИРПА ДЕНИС АЛЕКСЕЕВИЧ',
 };
 
-if (location.href.includes('term-of-use')) {
-  const req = new Requisites(data, 'afterbegin');
+export default requsites;
 
-  req.setTemplate();
-}
 
-if (location.href.includes('contact')) {
-  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
-
-  const req = new Requisites(data, 'afterend', media);
-  req.setTemplate();
-}
