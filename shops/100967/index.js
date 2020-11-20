@@ -15,7 +15,7 @@ if (document.querySelector('.wrapper')) {
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
   buttonsInHeader.setTemplate();
 
-  const icoUser = document.querySelector('.button__list_elem.icon-user');
+  const icoUser = document.querySelector('.button__list > .icon-user');
 
   hideCart.remove();
   icoUser.remove();
