@@ -10,12 +10,15 @@ const icons = {
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>.container>.header-cart');
+  const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
   const icoUser = document.querySelector('.icon-user');
   buttonsInHeader.setTemplate();
+
   hideCart.remove();
   icoUser.remove();
+  navWrapperCon.remove();
 
   console.log(icoUser);
 }
