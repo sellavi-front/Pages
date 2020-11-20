@@ -308,6 +308,32 @@ body .section-title {
   font-weight: 900;
 }
 
+.footer-col-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.sender {
+  width: 800px;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.sender__title, .sender__description {
+  text-align: center;
+}
+
+.sender__description {
+  font-size: 14px;
+}
+
+.sender__form_btn {
+  background: linear-gradient(90deg, #64c3de 4.19%, #ab0740 100%);
+}
+
 /* end */
 
 /* Footer */
@@ -392,7 +418,7 @@ body .delivery__right-title {
   }
 }
 
-delivery__right-small {
+.delivery__right-small {
   color: rgb(112, 112, 112);
   font-size: 18px;
   line-height: 26px;
