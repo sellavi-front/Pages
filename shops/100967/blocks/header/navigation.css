@@ -10,14 +10,6 @@
   justify-self: start !important;
 }
 
-.sf-menu>li {
-  border-left: 1px solid rgba(0, 150, 199, .3);
-}
-
-.sf-menu>li:last-child {
-  border-right: 1px solid rgba(0, 150, 199, .3);
-}
-
 .sf-menu>li>a {
   padding: 15px !important;
   display: flex;
@@ -26,17 +18,9 @@
 
 .sf-menu>.flexy.has_children {
     padding-left: 20px;
-
-}
-
-.sf-menu>.flexy.has_children > i {
-  color: white;
-  position: absolute;
-  left: 8%;
-  top: 38%;
 }
 
 .sf-menu li:hover,
 .sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
-  background: rgb(0, 120, 200) !important;
+  background: rgba(0, 0, 0, .2) !important;
 }
