@@ -88,24 +88,21 @@ window.onload = () => {
       document.querySelector("#search > div.search_field > input").focus();
     })
     document.querySelector("#cart > span.cart-norm-qty.d-none.d-lg-inline-block").remove()
-  }
+
+    let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
+    mainContainer.setAttribute("class", "container-fluid")
+    mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
+    let cards = document.querySelector(".cards")
 
 
-
-  let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
-  mainContainer.setAttribute("class", "container-fluid")
-  mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
-  let cards = document.querySelector(".cards")
-
-
-  fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(json) {
-      let categories = json.response.data
-      categories.map(category => {
-        cards.insertAdjacentHTML("afterbegin", `
+    fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(json) {
+        let categories = json.response.data
+        categories.map(category => {
+          cards.insertAdjacentHTML("afterbegin", `
             <li class="cards__item">
               <div class="card">
                 <div class="card__image">
@@ -114,31 +111,34 @@ window.onload = () => {
               </div>
             </li>
           `)
+        })
       })
-    })
 
-  let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
-  let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
-  titleNewCollection.classList.add("title__new__collection")
-  let productRowItems = oldProductRow.querySelectorAll(".product-item")
+    let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
+    let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
+    titleNewCollection.classList.add("title__new__collection")
+    let productRowItems = oldProductRow.querySelectorAll(".product-item")
 
-  let productsBlock = `
+    let productsBlock = `
     <div class="products__block">
         <div class="products__block__banner"><img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" /></div>
         <div class="products__block__items"></div>
     </div>
   `
-  titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
-  let productRowBlock = document.querySelector(".products__block__items")
-  productRowItems.forEach(item => {
-    productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
-  })
+    titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
+    let productRowBlock = document.querySelector(".products__block__items")
+    productRowItems.forEach(item => {
+      productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
+    })
 
-  oldProductRow.remove()
+    oldProductRow.remove()
 
-  let customSection = document.querySelector(".custom_section")
-  const Sender = new SenderTypeOne(customSection)
-  Sender.render()
+    let customSection = document.querySelector(".custom_section")
+    const Sender = new SenderTypeOne(customSection)
+    Sender.render()
+
+
+  }
 
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
