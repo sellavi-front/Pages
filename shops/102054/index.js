@@ -43,11 +43,9 @@ window.onload = () => {
       document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #fff"
       document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #fff"
       document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: transparent"
-
-
-
     }
   }
+
   $(window).on({ scroll: scrolled })
 
   if(location.href === 'https://store102054.sellavi.com/' || 'https://store102054.sellavi.com/?from_admin') {
@@ -123,20 +121,16 @@ window.onload = () => {
 
   let productsBlock = `
     <div class="products__block">
+        <div class="products__block__banner"><img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" /></div>
+        <div class="products__block__items"></div>
     </div>
   `
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
-  productRow.classList.add("collection__products")
+  productRow.classList.add("products__block__item")
   let clone = productRow.cloneNode(true)
-  let collectionImg = `
-    <div class="collection__img">
-        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605698960/IMG_0250_xzsah1.webp"/>
-    </div>
-  `
-  document.querySelector(".products__block").insertAdjacentElement("afterbegin", clone)
+
+  document.querySelector(".products__block").insertAdjacentHTML("afterbegin", clone)
   productRow.remove()
-  document.querySelector(".products__block").insertAdjacentHTML("afterbegin", collectionImg)
-  //document.querySelectorAll("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container").setAttribute("class", "container-fluid")
 
   if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()

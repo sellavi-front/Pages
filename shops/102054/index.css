@@ -239,24 +239,6 @@ body .section-title span:after, body .section-title span:before {
   display: none;
 }
 
-.collection__products {
-  width: 50%;
-}
-
-.thumbnail .media img {
-  max-width: 100%;
-  width: auto;
-}
-
-.thumbnail .price {
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 1.2;
-  margin-bottom: 15px;
-  color: #333;
-  float: right;
-  display: inline-block;
-}
 
 /* End */
 
@@ -265,13 +247,6 @@ body .section-title span:after, body .section-title span:before {
 
 body.ltr .thumbnail .caption-title {
   text-align: center;
-}
-
-.products__block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
 }
 
 body .section-title {
@@ -286,11 +261,6 @@ body .section-title {
   overflow: hidden;
 }
 
-.product-item .thumbnail .media img {
-  min-height: 550px;
-  max-width: 550px;
-  max-height: 500px;
-}
 
 /* end */
 
@@ -452,37 +422,6 @@ body .footer .footer-widgets .widget-title {
 }
 
 /* End */
-@media only screen and (min-device-width : 320px) {
-  .thumbnail .media img {
-    width: 320px !important;
-  }
-}
-
-@media only screen and (min-device-width : 375px) {
-  .thumbnail .media img {
-    width: 375px !important;
-  }
-}
-
-@media only screen and (min-device-width : 414px) {
-  .thumbnail .media img {
-    width: 375px !important;
-  }
-}
-
-@media only screen and (min-device-width : 420px) {
-  .thumbnail .media img {
-    width: 375px !important;
-  }
-}
-
-
-@media only screen and (min-device-width : 768px) {
-  .thumbnail .media img {
-    width: 768px !important;
-  }
-}
-
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -514,12 +453,6 @@ body .footer .footer-widgets .widget-title {
     padding: 15px;
   }
 
-  .products__block {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-  }
-
   body .section-title {
     margin-top: 0;
     margin-bottom: 25px;
@@ -530,17 +463,6 @@ body .footer .footer-widgets .widget-title {
     text-align: center;
     color: #232323;
     overflow: hidden;
-  }
-
-  .product-item .thumbnail .media img {
-    min-height: 250px;
-    max-width: 500px;
-    max-height: 500px;
-  }
-
-
-  .collection__img {
-    display: none;
   }
 
   .video__banner__text__content {
@@ -559,9 +481,5 @@ body .footer .footer-widgets .widget-title {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
   .col-md-3 + .col-md-3 {
     margin-right: 5%;
-  }
-
-  .collection__img {
-    display: none;
   }
 }
