@@ -556,6 +556,12 @@ body .footer .footer-widgets .widget-title {
   .products__block__banner img {
     width: 100%;
   }
+
+  .products__block__items {
+    margin-top: 2%;
+    align-self: center;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
