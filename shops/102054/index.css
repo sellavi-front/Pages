@@ -212,7 +212,7 @@ body.theme_10 .wrapper header.header .header-search input {
 
 .header .header-search button i {
   font-weight: 100;
-  color: #fff;
+  color: #333;
 }
 
 #search > div.search_field > input {

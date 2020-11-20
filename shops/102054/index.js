@@ -18,7 +18,11 @@ window.onload = () => {
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
   if(location.href === 'https://store102054.sellavi.com/' || location.href === 'https://store102054.sellavi.com/?from_admin') {
+    /* Setting a color of cart and search button */
     document.querySelector("#cart").style.cssText = 'color: #fff'
+    document.querySelector("#search > button > i").style.cssText = 'color: #fff'
+
+    /*Sticky and colorable header */
     let elem = $('header.sticky_trigger');
     let doc = $(document);
     function scrolled() {
@@ -51,6 +55,7 @@ window.onload = () => {
 
     $(window).on({ scroll: scrolled })
 
+    /* Setting up banner */
     let bannerMain = document.querySelector(".custom_banner")
     bannerMain.insertAdjacentHTML("afterbegin", `
       <div class="video__banner">
