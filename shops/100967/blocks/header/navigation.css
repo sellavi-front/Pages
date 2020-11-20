@@ -11,7 +11,7 @@
   justify-self: start !important;
 }
 
-.sf-menu>li>a {
+.sf-menu > li > a {
   padding: 13px 25px !important;
   display: flex;
   justify-content: space-between;
@@ -19,17 +19,18 @@
 }
 
 .sf-menu li:hover,
-.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
-  background: rgba(0, 0, 0, .2) !important;
+.sf-menu.nav > li > a:focus,
+.sf-menu.nav > li > a:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
 }
 
-.sf-menu .megamenu ul {
+.sf-menu .megamenu > ul {
   border-top: 2px solid black;
-box-shadow: none;
+  box-shadow: none;
   margin: 50px 5% 0;
-left: 5%;
+  left: 5%;
 }
 
-.sf-menu .megamenu>ul .megaline {
+.sf-menu .megamenu > ul .megaline {
   padding: 20px 10%;
 }
