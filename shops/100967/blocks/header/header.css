@@ -1,0 +1,15 @@
+@import './cart.css';
+@import './logo.css';
+@import './search.css';
+@import './navigation.css';
+
+header {
+  border: none !important;
+}
+
+.header .header-wrapper>.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

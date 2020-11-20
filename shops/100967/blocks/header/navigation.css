@@ -1,0 +1,42 @@
+.header .navigation-wrapper {
+  background: #0077b6 !important;
+}
+
+.nav a {
+  color: white;
+}
+
+.navigation .nav.sf-menu {
+  justify-self: start !important;
+}
+
+.sf-menu>li {
+  border-left: 1px solid rgba(0, 150, 199, .3);
+}
+
+.sf-menu>li:last-child {
+  border-right: 1px solid rgba(0, 150, 199, .3);
+}
+
+.sf-menu>li>a {
+  padding: 15px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sf-menu>.flexy.has_children {
+    padding-left: 20px;
+
+}
+
+.sf-menu>.flexy.has_children > i {
+  color: white;
+  position: absolute;
+  left: 8%;
+  top: 38%;
+}
+
+.sf-menu li:hover,
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+  background: rgb(0, 120, 200) !important;
+}
