@@ -119,7 +119,6 @@ window.onload = () => {
   let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
   titleNewCollection.classList.add("title__new__collection")
   let productRowItems = oldProductRow.querySelectorAll(".product-item")
-  console.log(titleNewCollection)
 
   let productsBlock = `
     <div class="products__block">
@@ -129,7 +128,7 @@ window.onload = () => {
   `
   titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
   let productRowBlock = document.querySelector(".products__block__items")
-  let productBlockItems = document.querySelector(".products__block__items")
+  productRowBlock.insertAdjacentElement("beforebegin", titleNewCollection)
   productRowItems.forEach(item => {
     productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
   })
