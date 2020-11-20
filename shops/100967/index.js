@@ -18,7 +18,7 @@ if (document.querySelector('.wrapper')) {
   const icoUser = document.querySelector('.button__list > .icon-user');
 
   hideCart.remove();
-  icoUser.remove();
+  //icoUser.remove();
   navWrapperCon.classList.remove('container');
 
   console.log(icoUser);
