@@ -548,6 +548,14 @@ body .footer .footer-widgets .widget-title {
   .col-md-3 + .col-md-3 {
     margin-top: 5%;
   }
+
+  .products__block {
+    flex-direction: column;
+  }
+
+  .products__block__banner img {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
