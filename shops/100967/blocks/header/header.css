@@ -8,7 +8,7 @@ header {
   padding: 36px 0  25px!important;
 }
 
-.header .header-wrapper>.container {
+.header .header-wrapper>div {
   display: flex;
   align-items: center;
   justify-content: space-between;
