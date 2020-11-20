@@ -273,7 +273,7 @@ body .section-title {
   width: 100%;
   height: 300px;
   flex-direction: row;
-  justify-content: center;
+  justify-content: inherit;
   flex-wrap: wrap;
 }
 
@@ -285,6 +285,27 @@ body .section-title {
   margin-left: 5%;
 }
 
+.thumbnail .price {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  color: #333;
+  float: right;
+  display: inline-block;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  overflow: hidden;
+  max-height: 40px;
+  min-height: 40px;
+  margin: 2px;
+}
+
+.caption-title a {
+  color: #232323;
+  font-weight: 900;
+}
 
 /* end */
 
