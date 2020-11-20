@@ -22,6 +22,7 @@ window.onload = () => {
   const objBanner = {
     title: 'Проектируем, оснащаем оборудованием и запускаем кулинарные пространства',
     link: '#',
+    urlImg: 'https://tequip.ru/wp-content/uploads/2020/08/photo-min.jpg',
     linkContent: 'Получить предложение',
   }
 
