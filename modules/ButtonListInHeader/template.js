@@ -73,3 +73,5 @@ const template = (icons = defaultIcons, host) => {
   </li>
 </ul>`;
 };
+
+export default template;
