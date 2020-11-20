@@ -176,6 +176,10 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   border-bottom: 1px solid #dfe3e8;
 }
 
+.header-wrapper {
+
+}
+
 body.theme-gray .header.bordered {
   border-bottom: 0 !important;
 }

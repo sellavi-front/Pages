@@ -18,7 +18,7 @@ window.onload = () => {
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
   if(location.href === 'https://store102054.sellavi.com/' || 'https://store102054.sellavi.com/?from_admin') {
-
+    document.querySelector("#cart").style.cssText = 'color: #fff'
     let elem = $('header.sticky_trigger');
     let doc = $(document);
     function scrolled() {
