@@ -275,6 +275,10 @@ body .section-title {
   justify-content: flex-start;
 }
 
+.products__block__banner img {
+  width: 800px;
+}
+
 
 /* end */
 
