@@ -45,7 +45,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   margin-bottom: 30px;
 }
 
-.arrow {
+body.sidenav-enabled.ltr .flexy>.arrow {
   border: none;
   left: 15% !important;
 }
