@@ -47,6 +47,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
 
 .arrow {
   border: none;
+  left: 15% !important;
 }
 
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
