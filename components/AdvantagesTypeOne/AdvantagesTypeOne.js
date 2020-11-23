@@ -9,7 +9,7 @@ export default class AdvantagesTypeOne {
   setTemplate() {
     return `
     <div class="advantages">
-      ${this.setData()}
+      ${this.setData().join('')}
     </div>
     `;
   }
@@ -18,7 +18,7 @@ export default class AdvantagesTypeOne {
     return this.data.map(
       (item) => `
         <div class="advantages__container">
-          <img class="advatages__icon" src="${item.icon}>
+          <img class="advatages__icon" src="${item.icon}">
           <p class="advatages__text">
             ${item.text}
           </p>
