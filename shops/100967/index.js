@@ -1,6 +1,8 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
+import bootstrapClasses from './utils/bootstrapClasses.js';
+
 const icons = {
   cart:
     '<i class="far fa-shopping-bag"></i>',
