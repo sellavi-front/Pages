@@ -26,9 +26,9 @@ window.onload = () => {
                 <a class="text-center" href="https://${location.host}/about-master/">Подробнее</a>
             </div>
         </div>
-        `
+    `
 
-    if(`https://${location.origin}/` || `https://${location.origin}/?from_admin`) {
+    if(`https://atelye1.com/` || `https://atelye1.com/?from_admin`) {
       console.log(321)
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
