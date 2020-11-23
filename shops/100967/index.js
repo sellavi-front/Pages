@@ -2,12 +2,12 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
+import advantages from './utils/advantages.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
-  cart:
-    '<i class="far fa-shopping-bag"></i>',
+  cart: '<i class="far fa-shopping-bag"></i>',
   like:
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
@@ -17,9 +17,9 @@ if (document.querySelector('.wrapper')) {
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
-  const productItem =  document.querySelectorAll('.product-item');
+  const productItem = document.querySelectorAll('.product-item');
 
-  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
+  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
   buttonsInHeader.setTemplate();
@@ -36,6 +36,10 @@ if (document.querySelector('.wrapper')) {
   megalineLi.forEach((it) => {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
   });
+}
 
+if (document.querySelector('.common-home')) {
+  const AdvantagesTypeOne = new AdvantagesTypeOne(document.querySelector('.page-section'), advantages);
 
+  AdvantagesTypeOne.render();
 }
