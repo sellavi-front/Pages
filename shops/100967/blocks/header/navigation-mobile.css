@@ -11,9 +11,19 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: 0 !important;
   box-shadow: none !important;
   border: none !important;
+  top: 130px;
 }
 
 body.sidenav-enabled .mobile_side_nav>ul a {
   border: none;
   text-align: end;
+}
+
+body.sidenav-enabled .prevent_touch_banner,
+body.sidenav-enabled.ltr .mobile_side_nav ul {
+  height: 64vh !important;
+}
+
+body.sidenav-enabled .prevent_touch_banner {
+  width: 80vw !important;
 }
