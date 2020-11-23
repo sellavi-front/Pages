@@ -19,7 +19,7 @@ export default class AdvantagesTypeOne {
   setData() {
     return this.data.map(
       (item) => `
-        <div class="advantages__container">
+        <div class="advantages__elem">
           <img class="advatages__icon" src="${item.icon}">
           <p class="advatages__text">
             ${item.text}

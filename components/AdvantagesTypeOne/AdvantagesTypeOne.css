@@ -6,6 +6,12 @@
 .advantages__container {
   border-left: 2px solid;
   padding: 0 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advatages__icon {
+  width: 65px;
 }
 
 .advantages__text {
