@@ -28,7 +28,7 @@ window.onload = () => {
         </div>
     `
 
-    if(`https://atelye1.com/` || `https://atelye1.com/?from_admin`) {
+    if(location.href === 'https://atelye1.com/' || location.href === 'https://atelye1.com/?from_admin') {
       console.log(321)
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
