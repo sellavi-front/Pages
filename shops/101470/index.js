@@ -44,7 +44,7 @@ if (document.querySelector('.wrapper')) {
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
-  const footerWidgetsRow = document.querySelector('footer > .footer-widgets > .container > .row');
+  const footerWidgetsRow = document.querySelector('footer > .footer-widgets > div > .row');
   const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
   const footerWidgetCol1 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(1)');
   const footerWidgetCol2 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(2)');
