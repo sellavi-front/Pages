@@ -24,7 +24,8 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   text-transform: capitalize;
 }
 
-body.sidenav-enabled .prevent_touch_banner {
+body.sidenav-enabled .prevent_touch_banner,
+.mobile_side_nav > .mobile_side_nav_menu {
   height: 64vh !important;
 }
 
