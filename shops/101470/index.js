@@ -75,7 +75,6 @@ if (document.querySelector('.wrapper')) {
 
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
-  deleteElements.remove();
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
@@ -84,6 +83,8 @@ if (document.querySelector('.wrapper')) {
   deleteClassesFooter.findAndDelete();
   buttonsInHeader.setTemplate(headerWrapper);
   contactsSimple.render();
+  deleteElements.remove();
+
 }
 
 if (document.querySelector('.common-home')) {
