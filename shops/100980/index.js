@@ -1,5 +1,5 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import BigBanner from "../../modules/BigBanner/BigBanner.js";
+
 
 window.onload = () => {
   /* Deleting burger */
@@ -18,15 +18,26 @@ window.onload = () => {
     <a class="navbar_item" href="#">Контакты</a>
   `
   logo.insertAdjacentHTML("beforeend", navbar)
-
-
-  const objBanner = {
-    title: 'Проектируем, оснащаем оборудованием и запускаем кулинарные пространства',
-    link: '#',
-    urlImg: 'https://tequip.ru/wp-content/uploads/2020/08/photo-min.jpg',
-    linkContent: 'Получить предложение',
-  }
-
-  const bigBanner = new BigBanner(document, objBanner);
-  bigBanner.render();
+  let banner = `
+  <div class="banner__container">
+  <div class="banner__item">
+    <div class="banner__column">
+      <div class="banner__column__item">
+        <h4>Проектируем, оснащаем оборудованием и запускаем кулинарные пространства</h4>
+      </div>
+    </div>
+  </div>
+  <div class="banner__item">
+    <div class="banner__column">
+      <div class="banner__column__item">
+        <form class="banner__submit__form">
+          <h6>Оставьте заявку прямо сейчас</h6>
+          <input class="banner_submit__form__input" type="text" placeholder="Ваше имя">
+          <input class="banner_submit__form__input" type="text" placeholder="Ваш телефон">
+          <input class="banner_submit__form__input" type="text" placeholder="Ваш E-Mail">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>`
 }
