@@ -46,7 +46,7 @@ if (document.querySelector('.wrapper')) {
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetsRow = document.querySelector('footer > .footer-widgets > .container > .row');
   const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
-  const footerWidgetCol2 = document.querySelector('footer > .footer-widgets > .container > div > div:nth-child(2)');
+  const footerWidgetCol2 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(2)');
   const footerWidgetCol2List = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );

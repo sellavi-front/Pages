@@ -44,6 +44,10 @@
   color: black !important;
 }
 
+#search > button {
+  z-index: -1 !important;
+}
+
 
 @media (max-width: 991px) {
   .navigation {
