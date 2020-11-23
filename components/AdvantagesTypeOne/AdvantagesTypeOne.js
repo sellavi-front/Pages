@@ -4,7 +4,6 @@ export default class AdvantagesTypeOne {
   constructor(container, data) {
     this.container = container;
     this.data = data;
-
   }
 
   setTemplate() {
@@ -12,7 +11,7 @@ export default class AdvantagesTypeOne {
     <div class="advantages">
       ${this.setData()}
     </div>
-    `
+    `;
   }
 
   setData() {
@@ -23,7 +22,8 @@ export default class AdvantagesTypeOne {
           <p class="advatages__text">
             ${item.text}
           </p>
-        </div>`);
+        </div>`,
+    );
   }
 
   render() {
@@ -39,7 +39,8 @@ export default class AdvantagesTypeOne {
 
 const d = [
   {
-    icon: 'https://res.cloudinary.com/gz-company/image/upload/v1606138421/Miru/eye-scanner_1_mmtu8g.png',
+    icon:
+      'https://res.cloudinary.com/gz-company/image/upload/v1606138421/Miru/eye-scanner_1_mmtu8g.png',
     text: 'Качество оптики линзы – лидирующее в мире.',
   },
   {
@@ -49,8 +50,8 @@ const d = [
   {
     icon: 'https://res.cloudinary.com/gz-company/image/upload/v1606138421/Miru/eye_1_jo1grj.png',
     text: 'Пластичный материал обеспечивает сниженный коэффициент трения.',
-  }
-]
+  },
+];
 
 const clasess = new AdvantagesTypeOne(document.querySelector('.page-section'), d);
 
