@@ -28,8 +28,8 @@ window.onload = () => {
         </div>
         `
 
-    if(`https://${location.host}/` || `https://${location.host}/?from_admin`) {
-      console.log(location.host)
+    if(`https://${location.host}` || `https://${location.host}/?from_admin`) {
+      console.log(`https://${location.host}/`)
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
 
