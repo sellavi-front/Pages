@@ -3,6 +3,7 @@ import CreateAddCotainer from '../../modules/CreateAddCotainer/CreateAddCotainer
 export default class AdvantagesTypeOne {
   constructor(container, data) {
     this.container = container;
+    console.log(this.container);
     this.data = data;
     this.createAddCotainer = new CreateAddCotainer(
       this.container,
