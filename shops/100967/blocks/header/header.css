@@ -2,6 +2,7 @@
 @import './logo.css';
 @import './search.css';
 @import './navigation.css';
+@import './navigation-mobile.css';
 
 header {
   border: none !important;
