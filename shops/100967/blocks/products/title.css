@@ -4,10 +4,10 @@ body .section-title span:before {
 }
 
 .section-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
-  text-align: left;
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  line-height: 43px !important;
+  text-align: left !important;
 }
 
 .section-title span {
