@@ -75,11 +75,11 @@ if (document.querySelector('.wrapper')) {
 
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
+  deleteElements.remove();
 
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
-  deleteElements.remove();
 
   deleteClassesFooter.findAndDelete();
   buttonsInHeader.setTemplate(headerWrapper);
