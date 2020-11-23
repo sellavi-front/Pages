@@ -1,4 +1,5 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
 const icons = {
   cart:
@@ -12,9 +13,13 @@ if (document.querySelector('.wrapper')) {
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
+  const productItem =  document.querySelectorAll('.product-item');
 
+  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+
   buttonsInHeader.setTemplate();
+  delSelectorsProductItem.findAndDelete();
 
   const icoUser = document.querySelector('.button__list > .icon-user');
 
@@ -27,4 +32,6 @@ if (document.querySelector('.wrapper')) {
   megalineLi.forEach((it) => {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
   });
+
+
 }
