@@ -23,7 +23,7 @@ window.onload = () => {
             <div class="banner__main__description">
                 <h1>Ателье Красоты</h1>
                 <p>Безупречная эко-косметика</p>
-                <a class="text-center" href="https://${location.host}/about-master/">Подробнее</a>
+                <a class="text-center" href="https://atelye1.com/about-master/">Подробнее</a>
             </div>
         </div>
     `
@@ -35,7 +35,7 @@ window.onload = () => {
 
 
 
-    if(`https://${location.host}/about-master/`) {
+    if(`https://atelye1.com/about-master/`) {
       let aboutMasterLayout = `
         <div class="description">
           <div class="description__item">
