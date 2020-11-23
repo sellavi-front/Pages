@@ -3,7 +3,7 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
-import advantages from './utils/advatages.js';
+import advantages from './utils/advantages.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
