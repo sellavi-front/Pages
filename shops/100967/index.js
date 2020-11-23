@@ -1,5 +1,6 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
@@ -39,7 +40,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
-  const AdvantagesTypeOne = new AdvantagesTypeOne(document.querySelector('.page-section'), advantages);
+  const advantagesTypeOne = new AdvantagesTypeOne(document.querySelector('.page-section'), advantages);
 
-  AdvantagesTypeOne.render();
+  advantagesTypeOne.render();
 }
