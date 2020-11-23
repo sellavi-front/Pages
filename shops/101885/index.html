@@ -31,13 +31,13 @@
         </div>
         `
 
-    if(location.href === 'https://store101885.sellavi.com/' || location.href === 'https://store101885.sellavi.com/?from_admin') {
+    if(`${location.host}/` || `${location.host}/?from_admin`) {
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
 
 
 
-    if(location.href === 'https://store101885.sellavi.com/about-master/') {
+    if(`${location.host}/about-master/`) {
       let aboutMasterLayout = `
         <div class="description">
           <div class="description__item">
