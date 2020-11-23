@@ -33,6 +33,7 @@ export default class AdvantagesTypeOne {
       'beforebegin',
       this.setTemplate(),
     );
+    console.log(createAddContainer);
     createAddContainer.render();
   }
 }
