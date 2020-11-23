@@ -125,6 +125,6 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Аношин Дмитрий Андреевич', media);
   req.setTemplate();
 }
