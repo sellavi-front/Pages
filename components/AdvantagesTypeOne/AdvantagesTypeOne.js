@@ -4,11 +4,7 @@ export default class AdvantagesTypeOne {
   constructor(container, data) {
     this.container = container;
     this.data = data;
-    this.createAddContainer = new CreateAddContainer(
-      this.container,
-      'beforebegin',
-      this.setContainer(),
-    );
+
   }
 
   setContainer() {
@@ -31,7 +27,12 @@ export default class AdvantagesTypeOne {
   }
 
   render() {
-    this.createAddContainer.render();
+    const createAddContainer = new CreateAddContainer(
+      this.container,
+      'beforebegin',
+      this.setContainer(),
+    );
+    createAddContainer.render();
   }
 }
 
