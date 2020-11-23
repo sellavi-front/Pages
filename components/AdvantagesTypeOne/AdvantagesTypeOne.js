@@ -10,7 +10,6 @@ export default class AdvantagesTypeOne {
       'beforebegin',
       this.render(),
     );
-    this.createAddCotainer.render();
   }
 
   render() {
