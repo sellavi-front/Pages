@@ -46,15 +46,13 @@ if (document.querySelector('.wrapper')) {
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetsRow = document.querySelector('footer > .footer-widgets > .container > .row');
   const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
-  const footerWidgetCol2 = document.querySelector(
-    'footer > .footer-widgets > .container > div > div:nth-child(2)',
-  );
+  const footerWidgetCol2 = document.querySelector('footer > .footer-widgets > .container > div > div:nth-child(2)');
   const footerWidgetCol2List = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
 
-  const forDelete = [icoUser, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
+  const forDelete = [icoUser, cartText, navigation, footerWidgetCol2];
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
