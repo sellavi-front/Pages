@@ -1,11 +1,11 @@
-import CreateAddCotainer from '../../modules/CreateAddCotainer/CreateAddCotainer.js';
+import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddConainer.js';
 
 export default class AdvantagesTypeOne {
   constructor(container, data) {
     this.container = container;
     console.log(this.container);
     this.data = data;
-    this.createAddCotainer = new CreateAddCotainer(
+    this.createAddCotainer = new CreateAddContainer(
       this.container,
       'beforebegin',
       this.render(),
@@ -48,6 +48,6 @@ const d = [
   }
 ]
 
-const clasess = new AdvantagesTypeOne(document.querySelector('.page-section:first-child'), d);
+const clasess = new AdvantagesTypeOne(document.querySelector('.page-section'), d);
 
 clasess.render();
