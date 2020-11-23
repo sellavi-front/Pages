@@ -3,7 +3,7 @@
   margin: 30px 0;
 }
 
-.advantages__container {
+.advantages__elem {
   border-left: 2px solid;
   padding: 0 22px;
   display: flex;
@@ -12,6 +12,7 @@
 
 .advatages__icon {
   width: 65px;
+  margin-bottom: 28px;
 }
 
 .advantages__text {
