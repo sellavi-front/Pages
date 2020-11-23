@@ -8,8 +8,10 @@ export default class AdvantagesTypeOne {
 
   setTemplate() {
     return `
-    <div class="advantages">
-      ${this.setData().join('')}
+    <div class="container">
+      <div class="advantages">
+        ${this.setData().join('')}
+      </div>
     </div>
     `;
   }
