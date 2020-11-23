@@ -23,18 +23,18 @@ window.onload = () => {
             <div class="banner__main__description">
                 <h1>Ателье Красоты</h1>
                 <p>Безупречная эко-косметика</p>
-                <a class="text-center" href="${location.host}/about-master/">Подробнее</a>
+                <a class="text-center" href="https://${location.host}/about-master/">Подробнее</a>
             </div>
         </div>
         `
 
-    if(`${location.host}/` || `${location.host}/?from_admin`) {
+    if(`https://${location.host}/` || `https://${location.host}/?from_admin`) {
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
 
 
 
-    if(`${location.host}/about-master/`) {
+    if(`https://${location.host}/about-master/`) {
       let aboutMasterLayout = `
         <div class="description">
           <div class="description__item">
