@@ -3,6 +3,8 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+
 const icons = {
   cart:
     '<i class="far fa-shopping-bag"></i>',
