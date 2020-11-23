@@ -1,0 +1,15 @@
+.section-title span:after,
+body .section-title span:before {
+  display: none;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: left;
+}
+
+.section-title span {
+  border-bottom: 3px solid black;
+}

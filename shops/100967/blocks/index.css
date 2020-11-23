@@ -2,6 +2,7 @@
 @import '../../../modules/ButtonListInHeader/style.css';
 
 @import './header/header.css';
+@import './products/products.css';
 
 body h1,
 body h2,
