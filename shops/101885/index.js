@@ -23,7 +23,7 @@ window.onload = () => {
             <div class="banner__main__description">
                 <h1>Ателье Красоты</h1>
                 <p>Безупречная эко-косметика</p>
-                <a class="text-center" href="https://store101885.sellavi.com/about-master/">Подробнее</a>
+                <a class="text-center" href="${location.host}/about-master/">Подробнее</a>
             </div>
         </div>
         `
