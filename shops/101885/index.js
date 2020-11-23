@@ -1,7 +1,4 @@
-<script type="module" src="https://sellavi-front.github.io/Pages/app.js"></script>
-
-<script>
-  window.onload = () => {
+window.onload = () => {
 
     /* Trasnlation footer */
     const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget')
@@ -261,5 +258,4 @@
           `)
         });
     }
-  }
-</script>
+}
