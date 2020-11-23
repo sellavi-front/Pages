@@ -6,7 +6,7 @@ export default class CreateAddContainer {
   }
 
   render() {
-    console.log(this.container);
+    console.log(this.container, this.target, this.elem);
     this.container.inserAdjacentHTML(this.target, this.elem);
   }
 }
