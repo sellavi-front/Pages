@@ -1,0 +1,200 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="module" src="https://sellavi-front.github.io/Pages/shops/101058/index.js"></script>
+<script>
+
+  $(document).ready(function() {
+    const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget')
+    const widTitle = widget.find('.widget-title');
+    const widCat = widget.find('.widget-categories>ul>li:first-child>a');
+    const ORG_NAME = 'И.П. Когай Жанна Анатольевна';
+    const ORG_ADRRESS = 'г. Москва, Гипермолл "Горбушкин двор", Багратионовский проезд, д.7, к.3, 2 этаж,павильон Н2-004';
+    const MAIL_ADDRESS = '404026, Волгоградская обл., Николаевский р-н, с. Солодушино, ул. Гагарина, д. 5';
+    const REG_ADDRESS = '';
+    const INN = 'ИНН: 341811589174';
+    const KPP = '';
+    const OGRN = 'ОГРН: 317344300063830';
+    const BANKNAME = 'Банк: ПАО "СБЕРБАНК"';
+    const ACCOUT_NUMBER = '';
+    const CORR_NUMBER = '';
+    const BIK = '';
+    const DIRECTOR = 'Когай Жанна Анатольевна';
+
+    //if(location.href.includes('terms-of-use')) {
+      /*let requsitesData = $('<div class="requsites-data"></div>'),
+        requsitesText = $('<div class="requsites__data">' +
+          `<h4 class="requsites__title">12. РЕКВИЗИТЫ ПРОДАВЦА</h4>` +
+          `<p class="requsites__elem">Название: <span>${ORG_NAME}</span></p>` +
+          `<p class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></p>` +
+          `<p class="requsites__elem">Инн: <span>${INN}</span></p>` +
+          `<p class="requsites__elem">КПП: <span>${KPP}</span></p>` +
+          `<p class="requsites__elem">ОГРН: <span>${OGRN}</span></p>` +
+          `<p class="requsites__elem">Банк: <span>${BANKNAME}</span></p>` +
+          `<p class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></p>` +
+          `<p class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></p>` +
+          `<p class="requsites__elem">БИК: <span>${BIK}</span></p>` +
+          `<p class="requsites__elem">Ген.дир: <span>${DIRECTOR}</span></p>` +
+          '</div>');
+      $('.requsitess').append(requsitesData);
+      $('.requsites-data').append(requsitesText)*/
+    //}
+
+    //if (!location.href.includes('checkout')) {
+      /*const root = document.querySelector('.contact-info');
+      const list = document.createElement('div');
+      list.id = 'requisites';
+      if(root) {
+        root.append(list);
+        let Requisites = new Vue({
+          el: '#requisites',
+          data: {
+            requisites: [
+              ORG_NAME,
+              ORG_ADRRESS,
+              INN,
+              KPP,
+              OGRN,
+              BANKNAME,
+              ACCOUT_NUMBER,
+              CORR_NUMBER,
+              BIK,
+              DIRECTOR
+            ],
+          },
+          template: `
+            <ul class="requisite">
+                <li class="requisite__title">
+                    Реквизиты
+                </li>
+                <li v-for="requisite in requisites">{{ requisite }}</li>
+            </ul>
+        `
+        })
+      } else console.log('No element with id:list');*/
+    //}
+
+    let textTrans = 'About us ';
+    let textRus = 'О нас';
+
+    if (widTitle.html() === textTrans || widCat.html() === textTrans) {
+      widTitle.text(textRus);
+      widCat.text(textRus);
+    }
+
+
+
+
+
+    $('#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.message-section.mt-4 > div > div > div').append("<a href='https://artkogay.com/about/' class='btn btn-theme btn-call-checkout w-100' role='link'>Подробнее о нас</a>");
+    $('.product-product').ready(function() {
+      $('#button-cart').on('click', function() {
+        const alerts = document.querySelectorAll('.text-danger');
+        for (let alert of alerts) {
+          const alertParent = alert.parentElement;
+          const nameBlock = alertParent.firstElementChild;
+          const name = nameBlock.textContent.toLowerCase();
+          alert.innerHTML = `Поле ${name} обязательно!`
+        }
+      })
+    })
+
+    if (location.href.includes("checkout")) {
+      $('.form_checkout').ready( function() {
+        $('.checkbox>label').html('Согласен (-а) с условиями <a href="/terms-of-use/" " style="text-decoration: none !important; "><b>Публичной оферты</b></a>')
+      })
+    }
+  });
+
+
+</script>
+<script>
+  $(document).ready(function () {
+
+    const container = document.querySelector(".latest-section > .container");
+    if(container !== null) {
+      const preloader = document.createElement('div');
+      preloader.classList.add('loader');
+      container.prepend(preloader);
+
+
+      const categoriesArr = Array.from(document.querySelectorAll(".nav .sf-menu > li"));
+      const categoriesTrimmed = categoriesArr.slice(1, categoriesArr.length);
+
+      const categoriesLinks = categoriesTrimmed.map((li) => {
+        const link = li.firstElementChild.href;
+
+        return link;
+      });
+
+
+      const categories = [];
+
+      for (let link of categoriesLinks) {
+
+        const result = {};
+
+        $.ajax({
+          url: link,
+          type: "get",
+          async: true,
+          success: function (data) {
+            const doc = new DOMParser().parseFromString(data, "text/html");
+
+            const categoryTitle = doc.querySelector('.page-header h1').textContent;
+            const categoryLink = link;
+
+            let imgLink;
+
+            if (doc.querySelector('.main-slider .sub img')) {
+              imgLink = doc.querySelector('.main-slider .sub img').src;
+            } else {
+              imgLink = 'https://via.placeholder.com/870x350';
+            }
+
+            result.title = categoryTitle;
+            result.link = categoryLink;
+            result.img = imgLink;
+
+            categories.push(result);
+
+            if (categories.length === categoriesLinks.length && Object.keys(categories[ categoriesLinks.length - 1]).length) {
+              render(categories)
+            }
+          },
+        });
+      }
+    }
+
+
+    const render = (categories) => {
+      const categoriesContainer = document.querySelector(".latest-section > .container");
+
+      if (categoriesContainer !== null) {
+        categoriesContainer.firstElementChild.remove();
+
+        const listDiv = document.createElement('div');
+        listDiv.setAttribute('id', 'app');
+        categoriesContainer.prepend(listDiv);
+
+        const cat = [...categories];
+
+        const categoriesList = new Vue({
+          el: '#app',
+          data: {
+            categories: cat
+          },
+          template: `
+                 <div class="row">
+                   <div class="custom-categories__item" v-for="category of categories">
+                     <a :href="category.link">
+                       <span class="custom-categories__title-container"><h4 class="custom-categories__title">{{ category.title }}</h4></span>
+                       <img :src="category.img"></img>
+                     </a>
+                   </div>
+                 </div>
+               `,
+        });
+      }
+    };
+  });
+
+</script>
