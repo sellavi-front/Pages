@@ -41,7 +41,7 @@ body.sidenav-enabled.ltr .mobile_side_nav ul {
   display: block;
 }
 
-.mobile_side_nav_menu .flexy .panel-collapse .flexy a {
+.mobile_side_nav_menu > .flexy > .panel-collapse > .flexy > a {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
