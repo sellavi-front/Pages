@@ -1,5 +1,6 @@
 @import '../assets/fonts/fonts.css';
 @import '../../../modules/ButtonListInHeader/style.css';
+@import '../../../components/AdvantagesTypeOne/AdvantagesTypeOne.css';
 
 @import './header/header.css';
 @import './products/products.css';
