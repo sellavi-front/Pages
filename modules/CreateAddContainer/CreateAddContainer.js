@@ -1,4 +1,4 @@
-export default class CreateAddCotainer {
+export default class CreateAddContainer {
   constructor(container, target, elem) {
     this.target = target;
     this.container = container;

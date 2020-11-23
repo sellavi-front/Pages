@@ -1,11 +1,11 @@
-import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddConainer.js';
+import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class AdvantagesTypeOne {
   constructor(container, data) {
     this.container = container;
     console.log(this.container);
     this.data = data;
-    this.createAddCotainer = new CreateAddContainer(
+    this.createAddContainer = new CreateAddContainer(
       this.container,
       'beforebegin',
       this.render(),
