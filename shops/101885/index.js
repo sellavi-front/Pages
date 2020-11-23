@@ -35,7 +35,7 @@ window.onload = () => {
 
 
 
-    if(`https://atelye1.com/about-master/`) {
+    if(location.href === 'https://atelye1.com/about-master/') {
       let aboutMasterLayout = `
         <div class="description">
           <div class="description__item">
