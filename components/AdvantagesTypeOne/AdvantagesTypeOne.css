@@ -1,0 +1,13 @@
+.advantages {
+  display: flex;
+  margin: 30px 0;
+}
+
+.advantages__container {
+  border-left: 2px solid;
+  padding: 0 22px;
+}
+
+.advantages__text {
+  width: 80%;
+}
