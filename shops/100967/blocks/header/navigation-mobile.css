@@ -41,6 +41,14 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   display: block;
 }
 
+.mobile_side_nav_menu > .flexy > .panel-collapse > ul {
+  margin-bottom: 30px;
+}
+
+.arrow {
+  border: none;
+}
+
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
   font-style: normal;
   font-weight: 600;
@@ -48,4 +56,8 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   line-height: 19px;
   text-transform: uppercase;
   color: #8F8F8F;
+}
+
+.fa-caret-right:before {
+  content: "\f054" !important;
 }
