@@ -72,3 +72,9 @@
              padding-right: 2% !important;
       }
 }
+
+@media (max-width: 992px) {
+  .button__list {
+    display: none !important;
+  }
+}
