@@ -1,7 +1,7 @@
 export default class CreateAddContainer {
   constructor(container, target, elem) {
-    this.target = target;
     this.container = container;
+    this.target = target;
     this.elem = elem;
   }
 
