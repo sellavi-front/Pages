@@ -20,3 +20,9 @@
   font-size: 22px;
   line-height: 1.2;
 }
+
+@media (max-width: 992px) {
+  .advantages {
+    flex-wrap: wrap;
+  }
+}
