@@ -28,7 +28,7 @@ window.onload = () => {
         </div>
         `
 
-    if(`https://${location.origin}` || `https://${location.origin}/?from_admin`) {
+    if(`https://${location.origin}/` || `https://${location.origin}/?from_admin`) {
       console.log(321)
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
