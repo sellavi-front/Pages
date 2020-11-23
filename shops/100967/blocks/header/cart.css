@@ -22,7 +22,7 @@
   padding: 0 !important;
 }
 
-#cart > span:first-child {
+.header-cart:first-child {
   display: none;
 }
 

@@ -117,7 +117,7 @@ if (document.querySelector('.product-item')) {
 /* Реквиизиты */
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'afterbegin');
+  const req = new Requisites(requsites, 'afterbegin', 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ');
 
   req.setTemplate();
 }
@@ -125,6 +125,6 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ', media);
   req.setTemplate();
 }

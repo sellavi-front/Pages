@@ -1,44 +1,11 @@
-const data = [
-  {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
-    title: 'Очистка воды в квартиры',
-  },
-  {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/moritz-kindler-9vCCQ9h7OoY-unsplash_or115o.jpg',
-    title: 'Очистка воды в дом',
-  },
-  {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
-    title: 'Очистка воды в офис',
-  },
-  {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
-    title: 'Фильтры для кафе и ресторанов',
-  },
-  {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/moritz-kindler-9vCCQ9h7OoY-unsplash_or115o.jpg',
-    title: 'Обслуживание',
-  },
-  {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
-    title: 'Анализ воды',
-  },
-];
-
 export default class SmallCategory {
   constructor(obj) {
     this.obj = obj;
-    this.container = document.querySelector('.page-section > div')
+    this.container = document.querySelector('.page-section > div');
   }
 
   getDataImage() {
-    return this.obj.map(item => {
+    return this.obj.map((item) => {
       return `
       <div class="col-md-4 col-sm-6">
         <div id="" class="small__category_item">
@@ -53,8 +20,8 @@ export default class SmallCategory {
           </div>
         </div>
       </div>
-      `
-    })
+      `;
+    });
   }
 
   setTemplate() {
@@ -69,6 +36,3 @@ export default class SmallCategory {
     this.container.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }
-
-const nw = new SmallCategory(data);
-nw.render();
