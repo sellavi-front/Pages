@@ -117,7 +117,7 @@ if (document.querySelector('.product-item')) {
 /* Реквиизиты */
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'afterbegin', 'ИП ЩЕРБАКОВ АЛЕКСАНДР СЕРГЕЕВИЧ');
+  const req = new Requisites(requsites, 'afterbegin', 'ИП Аношин Дмитрий Андреевич');
 
   req.setTemplate();
 }
