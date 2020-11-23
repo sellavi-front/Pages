@@ -41,7 +41,7 @@ export default class Requisites {
         this.target,
         `<div class="media">
           <i class="float-right fa fa-info"></i>
-          <div class="meida-body requsites__data">
+          <div class="media-body requsites__data">
             <div class="requsites__list">
               <strong>Реквизиты продавца</strong>
               ${this.setData().join('')}
