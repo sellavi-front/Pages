@@ -67,6 +67,7 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   content: "\f054" !important;
   font-family: Font Awesome\ 5 Pro;
   font-weight: 300;
+  margin-left: 10px;
 }
 
 .fa-caret-right:before {
