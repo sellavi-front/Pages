@@ -7,7 +7,7 @@ export default class AdvantagesTypeOne {
 
   }
 
-  setContainer() {
+  setTemplate() {
     return `
     <div class="advantages">
       ${this.setData()}
@@ -27,10 +27,11 @@ export default class AdvantagesTypeOne {
   }
 
   render() {
+    console.log(this.container);
     const createAddContainer = new CreateAddContainer(
       this.container,
       'beforebegin',
-      this.setContainer(),
+      this.setTemplate(),
     );
     createAddContainer.render();
   }
