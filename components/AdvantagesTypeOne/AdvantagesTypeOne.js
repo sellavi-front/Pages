@@ -3,16 +3,15 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 export default class AdvantagesTypeOne {
   constructor(container, data) {
     this.container = container;
-    console.log(this.container);
     this.data = data;
     this.createAddContainer = new CreateAddContainer(
       this.container,
       'beforebegin',
-      this.render(),
+      this.setContainer(),
     );
   }
 
-  render() {
+  setContainer() {
     return `
     <div class="advantages">
       ${this.setData()}
@@ -29,6 +28,10 @@ export default class AdvantagesTypeOne {
             ${item.text}
           </p>
         </div>`);
+  }
+
+  render() {
+    this.createAddContainer.render();
   }
 }
 
