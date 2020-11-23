@@ -4,7 +4,7 @@
 }
 
 .advantages__elem {
-  border-left: 2px solid;
+  border-left: 3px solid;
   padding: 0 22px;
   display: flex;
   flex-direction: column;
