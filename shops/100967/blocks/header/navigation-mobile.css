@@ -37,3 +37,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   left: auto;
   right: 15px;
 }
+
+body.sidenav-enabled.ltr .mobile_side_nav ul {
+  display: block;
+}
