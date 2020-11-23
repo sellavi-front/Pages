@@ -46,7 +46,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
 }
 
 body.sidenav-enabled.ltr .flexy>.arrow {
-  border: none;
+  border: none !important;
   left: 15% !important;
 }
 
@@ -57,6 +57,14 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   line-height: 19px;
   text-transform: uppercase;
   color: #8F8F8F;
+}
+
+.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .arrow {
+  display: none !important;
+}
+
+.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > li:after {
+  content: "\f054" !important;
 }
 
 .fa-caret-right:before {
