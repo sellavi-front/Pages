@@ -63,8 +63,10 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   display: none !important;
 }
 
-.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > li:after {
+.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .panel-collapse > ul > li:after {
   content: "\f054" !important;
+  font-family: Font Awesome\ 5 Pro;
+  font-weight: 300;
 }
 
 .fa-caret-right:before {
