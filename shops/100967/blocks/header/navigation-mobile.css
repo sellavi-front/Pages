@@ -37,11 +37,11 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   right: 15px;
 }
 
-body.sidenav-enabled.ltr .mobile_side_nav ul {
+.collapse:not(.show) {
   display: block;
 }
 
-.mobile_side_nav_menu > .flexy > .panel-collapse > .flexy > a {
+.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
