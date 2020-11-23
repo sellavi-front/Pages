@@ -27,13 +27,11 @@ export default class AdvantagesTypeOne {
   }
 
   render() {
-    console.log(this.container);
     const createAddContainer = new CreateAddContainer(
       this.container,
       'beforebegin',
       this.setTemplate(),
     );
-    console.log(createAddContainer);
     createAddContainer.render();
   }
 }
