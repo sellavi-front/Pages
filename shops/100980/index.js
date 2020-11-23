@@ -3,7 +3,7 @@ import BigBanner from "../../modules/BigBanner/BigBanner.js";
 
 window.onload = () => {
   /* Deleting burger */
-  document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
+  //document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
 
   /* Setting logo */
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
