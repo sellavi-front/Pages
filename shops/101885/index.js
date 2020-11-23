@@ -29,7 +29,7 @@ window.onload = () => {
         `
 
     if(`https://${location.host}` || `https://${location.host}/?from_admin`) {
-      console.log(`https://${location.host}/`)
+      console.log(123)
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
 
