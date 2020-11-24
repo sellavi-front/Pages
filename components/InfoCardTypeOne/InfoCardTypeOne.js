@@ -9,8 +9,8 @@ export default class ContentBannerTypeOne {
 
   setTemplate() {
     return `
-      <div class="container">
         <div class="info-card">
+          <div class="container">
           <h2 class="info-card__title">Акции</h2>
           ${this.setData(this.data).join('')}
         </div>
