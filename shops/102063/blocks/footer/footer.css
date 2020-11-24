@@ -26,11 +26,7 @@ body .footer a,
 }
 
 
-/* @media (min-width: 768px) {
-  .col-md-3 {
-      max-width: 17%;
-  }
-} */
+
 
 .thumbnail.no-border, .thumbnail.no-border.hover, .thumbnail.no-border:hover {
   border: none !important;
