@@ -210,13 +210,17 @@ body.ltr ol, body.ltr ul {
   background: #F2F2F2;
 }
 
+.content__layout__container>.container {
+  display: flex;
+}
+
 .content__layout__container__item img {
   width: 300px;
-  margin: 10rem;
+  margin: 5rem;
 }
 
 .content__layout__container__item__description {
-  margin: 15rem;
+  margin: 6rem;
 }
 
 /* End */
