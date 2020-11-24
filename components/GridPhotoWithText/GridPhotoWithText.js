@@ -1,6 +1,6 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
-export default class HistoryLine {
+export default class GridPhotoWithText {
   constructor(container, target) {
     this.target = target;
     this.container = container;
