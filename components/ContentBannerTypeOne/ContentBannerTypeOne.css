@@ -15,7 +15,8 @@
   overflow: hidden;
   position: absolute;
   height: 400px;
-  left: -22px;
+  right: 0;
+  width: 800px;
 }
 
 .banner-content__container {

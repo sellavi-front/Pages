@@ -1,18 +1,21 @@
 .banner-content__item {
-  background: #1D5271;
+  background: #1d5271;
+  position: relative;
 }
 
 .banner-content__item_img {
-  position: absolute;
-  width: 1900px;
+  position: relative;
+  width: 1000px;
   object-fit: none;
-  left: 0;
+  left: -120px;
   top: -80px;
   height: 850px;
+  z-index: 1;
 }
 
 .img-1 {
   position: absolute;
-  right: 244px;
-  top: -212px;
+  right: 155px;
+  top: -215px;
+  z-index: 1111;
 }
