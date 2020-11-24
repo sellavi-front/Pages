@@ -4,6 +4,16 @@
   align-items: center;
 }
 
+.history__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+
 .history__item {
   height: 187px;
   display: flex;
