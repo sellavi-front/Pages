@@ -18,3 +18,7 @@
   margin: 20px 0 !important;
   overflow: hidden !important;
 }
+
+.thumbnail .caption-title {
+  max-height: inherit !important;
+}
