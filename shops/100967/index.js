@@ -49,12 +49,12 @@ if (document.querySelector('.common-home')) {
     document.querySelector('.page-section'),
     advantages,
   );
-  const contentBanner = new ContentBannerTypeOne(
+  const infoCardTypeOne = new ContentBannerTypeOne(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
     dataBannerContent,
   );
-  const contentBanner = new InfoCardTypeOne(
+  const infoCardTypeOne = new InfoCardTypeOne(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
     salesData,
@@ -62,7 +62,7 @@ if (document.querySelector('.common-home')) {
 
   advantagesTypeOne.render();
   contentBanner.render();
-  contentBanner.render();
+  infoCardTypeOne.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 
