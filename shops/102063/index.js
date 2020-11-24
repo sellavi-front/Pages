@@ -51,3 +51,6 @@ if (document.querySelector('.common-home')) {
 
 }
 
+/* description */
+const elem = document.querySelector('#tab-description');
+document.querySelector('#home > div > div > section:nth-child(1) > div > div').insertAdjacentHTML('afterend', elem.outerHTML);
