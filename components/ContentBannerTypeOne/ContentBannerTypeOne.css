@@ -19,10 +19,10 @@
 .banner-content__item_img {
   position: absolute;
   width: 100%;
-  height: 100%;
   background-size: cover;
   left: 0;
   top: -195px;
+  z-index: -1;
 }
 
 .banner-content__item_title {
