@@ -230,6 +230,33 @@ body.ltr ol, body.ltr ul {
 
 /* End */
 
+/* Footer */
+
+body .footer .footer-meta {
+  padding: 30px 0;
+  background-color: #1E1E1E;
+  border-top: 0;
+  position: relative;
+}
+
+body .footer .footer-widgets {
+  padding: 50px 0;
+  margin-top: 0;
+  background: #1E1E1E;
+}
+
+#home footer .footer-widgets a .fa {
+  font-size: 30px;
+  color: #fff;
+}
+
+.footer_content_text img {
+  margin: 0 5px !important;
+  height: 40%;
+}
+
+/* End */
+
 @media only screen and (max-device-width : 320px) {
 
   .banner__container {

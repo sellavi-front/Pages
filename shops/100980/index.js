@@ -76,6 +76,9 @@ window.onload = () => {
     </div>
   `
 
+  customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
+  customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+
   /* Delete footer content */
   document.querySelector(".footer>.footer-widgets>.container>.row").remove()
 
@@ -84,7 +87,27 @@ window.onload = () => {
   let newFooterMeta = oldFooterMeta.cloneNode(true)
   document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", newFooterMeta.outerHTML)
 
-  customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
-  customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+  let footerLayout = `
+    <div class="footer__container">
+        <div class="footer__container__data">
+            <div class="footer__container__data__column">
+                <div class="footer__container__data__column__item">
+                    zakaz@tradequip.ru
+                </div>
+                <div class="footer__container__data__column__item">
+                    +7 (495) 989-98-28
+                </div>
+            </div>
+            <div class="footer__container__data__column">
+                <div class="footer__container__data__column__item">
+                    Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00
+                </div>
+            </div>
+        </div>
+    </div>
+  `
   oldFooterMeta.remove()
+  document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("afterbegin", footerLayout)
+
+
 }
