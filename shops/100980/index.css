@@ -214,13 +214,19 @@ body.ltr ol, body.ltr ul {
   display: flex;
 }
 
+.content__layout__container>.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .content__layout__container__item img {
   width: 300px;
-  margin: 5rem;
+  margin-top: 10rem;
 }
 
 .content__layout__container__item__description {
-  margin: 6rem;
+  margin: 15rem;
+  width: 100%;
 }
 
 /* End */
@@ -329,6 +335,10 @@ body.ltr ol, body.ltr ul {
     width: 300px;
   }
 
+  .content__layout__container>.container {
+    display: flex;
+    flex-direction: column;
+  }
   /* End */
 
   /* Content Layout One */
