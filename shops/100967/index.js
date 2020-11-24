@@ -2,10 +2,12 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
+import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js'
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
 import dataBannerContent from './utils/dataBannerContent.js';
+import salesData from './utils/salesData.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -52,8 +54,14 @@ if (document.querySelector('.common-home')) {
     'beforeEnd',
     dataBannerContent,
   );
+  const contentBanner = new InfoCardTypeOne(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+    salesData,
+  );
 
   advantagesTypeOne.render();
+  contentBanner.render();
   contentBanner.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');

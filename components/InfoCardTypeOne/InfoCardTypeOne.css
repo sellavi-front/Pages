@@ -1,5 +1,6 @@
 .info-card {
   display: flex;
+  flex-flow: row nowrap;
 }
 
 .info-card__title {
