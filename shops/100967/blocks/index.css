@@ -5,6 +5,8 @@
 @import './header/header.css';
 @import './products/products.css';
 
+@import './container.css';
+
 body h1,
 body h2,
 body h3,
