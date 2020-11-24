@@ -42,9 +42,9 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
-  console.log(document.querySelector('.content-area>.container'));
+  console.log(document.querySelector('.wrapper.content-area>.container'));
   const advantagesTypeOne = new AdvantagesTypeOne(document.querySelector('.page-section'), advantages);
-  const contentBanner = new ContentBannerTypeOne(document.querySelector('.content-area>.container'), dataBannerContent)
+  const contentBanner = new ContentBannerTypeOne(document.querySelector('.wrapper.content-area>.container'), dataBannerContent)
 
   advantagesTypeOne.render();
   contentBanner.render();
