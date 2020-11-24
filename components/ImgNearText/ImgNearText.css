@@ -2,12 +2,12 @@
   padding: 80px 0;
 }
 
-.about__container {
+.about__item {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-
+  width: 100%;
 }
 
 .about__item_img {
