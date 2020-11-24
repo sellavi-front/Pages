@@ -55,8 +55,8 @@ window.onload = () => {
         </div>
     </div>`
   let contentLayoutOne = `
-    <div class="container">
-      <div class="content__layout__container">
+    <div class="content__layout__container">
+        <div class="container">
         <div class="content__layout__container__item">
           <img src="https://coospir.github.io/Pages/shops/100980/media/Group.png" />
         </div>
