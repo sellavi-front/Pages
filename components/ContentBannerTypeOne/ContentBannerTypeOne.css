@@ -14,15 +14,7 @@
 .banner-content__container {
   width: 100%;
   max-width: 465px;
-}
-
-.banner-content__item_img {
-  position: absolute;
-  width: 100%;
-  background-size: cover;
-  left: 0;
-  top: -195px;
-  z-index: -1;
+  color: white;
 }
 
 .banner-content__item_title {
