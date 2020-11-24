@@ -36,9 +36,12 @@
 }
 
 .info-card__bottom_text {
-  font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+}
+
+.info-card__bottom_text b {
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
