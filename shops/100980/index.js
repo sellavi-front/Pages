@@ -76,6 +76,9 @@ window.onload = () => {
     </div>
   `
 
+  /* Delete footer content */
+  document.querySelector(".footer>.footer-widgets>.container>.row").remove()
+
   customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
   customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
 }
