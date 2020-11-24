@@ -28,7 +28,7 @@ body .footer a,
 
 @media (min-width: 768px) {
   .col-md-3 {
-      max-width: 17%;
+      max-width: 17% !important;
   }
 }
 
@@ -59,4 +59,8 @@ body .footer a,
 h3.img-inner_title {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.search_field {
+  display: none;
 }
