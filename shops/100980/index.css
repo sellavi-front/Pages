@@ -201,6 +201,11 @@ body.ltr ol, body.ltr ul {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .banner__container {
+    width: 100%;
+    height: auto;
+  }
   .banner__item {
     display: flex;
     flex-direction: column;
@@ -215,6 +220,29 @@ body.ltr ol, body.ltr ul {
     display: none;
   }
 
+  .banner__submit__form {
+    margin-bottom: 10%;
+  }
+
+  .banner_submit__form__input[type=text] {
+    width: 300px;
+  }
+
+  .banner__submit__form>h6 {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+
+  .banner__submit__form>p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .banner__submit__form__btn {
+    width: 300px;
+  }
 
 }
 
