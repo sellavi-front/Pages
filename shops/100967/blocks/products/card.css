@@ -22,3 +22,10 @@
 .thumbnail .caption-title {
   max-height: inherit !important;
 }
+
+.product-item .thumbnail .media img {
+  min-height: inherit !important;
+  max-width: inherit !important;
+  max-height: inherit !important;
+
+}
