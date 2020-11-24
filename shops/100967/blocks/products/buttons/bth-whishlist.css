@@ -10,3 +10,7 @@
   width: 72px;
   height: 100%;
 }
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: black !important;
+}
