@@ -42,6 +42,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
+  console.log(document.querySelector('.content-area>.container'));
   const advantagesTypeOne = new AdvantagesTypeOne(document.querySelector('.page-section'), advantages);
   const contentBanner = new ContentBannerTypeOne(document.querySelector('.content-area>.container'), dataBannerContent)
 
