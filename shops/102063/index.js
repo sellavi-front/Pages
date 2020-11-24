@@ -52,5 +52,7 @@ if (document.querySelector('.common-home')) {
 }
 
 /* description */
-const elem = document.querySelector('#tab-description');
-document.querySelector('#home > div > div > section:nth-child(1) > div > div').insertAdjacentHTML('afterend', elem.outerHTML);
+const oldNode = document.querySelector('#tab-description');
+let newNode = oldNode.cloneNode(true)
+document.querySelector(".product-item").insertAdjacentHTML("afterend", newNode.outerHTML)
+oldNode.remove()
