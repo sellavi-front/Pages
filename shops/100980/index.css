@@ -222,6 +222,8 @@ body.ltr ol, body.ltr ul {
 
   .banner__submit__form {
     margin-bottom: 10%;
+    width: 100%;
+    height: 550px;
   }
 
   .banner_submit__form__input[type=text] {
@@ -230,7 +232,7 @@ body.ltr ol, body.ltr ul {
 
   .banner__submit__form>h6 {
     text-align: center;
-    margin: 0 0 20px;
+    margin: 0 0 30px;
   }
 
   .banner__submit__form>p {
