@@ -336,24 +336,19 @@ body.ltr ol, body.ltr ul {
     height: auto;
   }
 
-  .content__layout__container__item__description {
-    margin: 0;
+  .content__layout__container__item img {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
   }
 
 
   .content__layout__container__item__description {
     width: 100%;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 0;
     padding: 2rem;
   }
-
-  .content__layout__container__item img {
-    width: 100%;
-    margin: 0;
-  }
-
-
 
 
   /* End */
