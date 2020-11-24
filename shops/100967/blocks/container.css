@@ -1,4 +1,4 @@
-  body .container {
+  body .content-area .container {
     max-width: 75vh !important;
     display: flex;
     justify-content: center;
