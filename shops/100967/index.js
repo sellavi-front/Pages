@@ -4,7 +4,8 @@ import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesType
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js'
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
-import HistoryLine from '../../components/HistoryLine/HistoryLine.js'
+import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
+import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
@@ -78,12 +79,18 @@ if (document.querySelector('.common-home')) {
     'beforeEnd',
     historyData,
   );
+  const gridPhotoWithText = new GridPhotoWithText(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+
+  );
 
   advantagesTypeOne.render();
   contentBanner.render();
   infoCardTypeOne.render();
   imgNearText.render();
   historyLine.render();
+  gridPhotoWithText.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 

@@ -5,6 +5,7 @@
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
 @import '../../../components/ImgNearText/ImgNearText.css';
 @import '../../../components/HistoryLine/HistoryLine.css';
+@import '../../../components/GridPhotoWithText/GridPhotoWithText.css';
 
 @import './header/header.css';
 @import './products/products.css';
