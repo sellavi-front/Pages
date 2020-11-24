@@ -19,12 +19,14 @@ export default class ContentBannerTypeOne {
       (item) => `
         <div class="banner-content__item">
           <img class="banner-content__item_img" src="${item.banner}">
-          <div class="banner-content__container container">
-            <h3 class="banner-content__item_title">${item.title}</h3>
-            <p class="banner-content__item_text">${item.text}</p>
-            <a href="${item.linkSrc}" class="banner-content__item_button">
-              <span>${item.linkContent}</span>
-            </a>
+          <div class="container">
+            <div class="banner-content__container">
+              <h3 class="banner-content__item_title">${item.title}</h3>
+              <p class="banner-content__item_text">${item.text}</p>
+              <a href="${item.linkSrc}" class="banner-content__item_button">
+                <span>${item.linkContent}</span>
+              </a>
+            </div>
           </div>
         </div>
       `,

@@ -10,6 +10,11 @@
   max-width: 467px;
 }
 
+.banner-content__container {
+  width: 100%;
+  max-width: 465px;
+}
+
 .banner-content__item_img {
   position: absolute;
   width: 100%;
