@@ -38,17 +38,6 @@ body .footer a,
   flex-direction:row-reverse;
 }
 
-.add_to_wishlist {
-  position: relative !important;
-}
-
-
-
-.media {
-  display: flex;
-  flex-direction:row-reverse;
-}
-
 h3.img-inner_title {
   padding-left: 20px;
   padding-right: 20px;
