@@ -344,6 +344,11 @@ body.ltr ol, body.ltr ul {
     width: 300px;
   }
 
+  .banner__column__item h4 {
+    font-size: 36px;
+    padding: 1.5rem;
+  }
+
   .banner__submit__form>h6 {
     text-align: center;
     margin: 0 0 30px;
