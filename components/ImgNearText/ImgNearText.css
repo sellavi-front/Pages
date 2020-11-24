@@ -1,0 +1,26 @@
+.about__container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__item_img {
+  width: 580px;
+  height: 420px;
+}
+
+.about__item_title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.about__item_text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 30px;
+  max-width: 530px;
+  width: 100%;
+}

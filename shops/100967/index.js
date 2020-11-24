@@ -3,11 +3,13 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js'
+import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
 import dataBannerContent from './utils/dataBannerContent.js';
 import salesData from './utils/salesData.js';
+import aboutData from './utils/aboutData.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -60,9 +62,16 @@ if (document.querySelector('.common-home')) {
     salesData,
   );
 
+  const imgNearText = new ImgNearText(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+    aboutData,
+  );
+
   advantagesTypeOne.render();
   contentBanner.render();
   infoCardTypeOne.render();
+  imgNearText.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 
