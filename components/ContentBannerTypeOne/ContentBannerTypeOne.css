@@ -8,7 +8,14 @@
   width: 100%;
   display: flex;
   align-content: center;
-  height: 405px
+  height: 405px;
+}
+
+.banner-content__item_bg {
+  overflow: hidden;
+  position: absolute;
+  height: 400px;
+  left: -22px;
 }
 
 .banner-content__container {
