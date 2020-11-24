@@ -9,4 +9,5 @@ body .section-title span:before {
   line-height: 43px !important;
   text-align: left !important;
   border-bottom: 3px solid black;
+  text-align: left;
 }
