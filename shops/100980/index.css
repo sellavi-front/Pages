@@ -202,6 +202,24 @@ body.ltr ol, body.ltr ul {
 
 @media only screen and (max-device-width : 320px) {
 
+  .banner__container {
+    width: 100%;
+    height: auto;
+  }
+  .banner__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__container {
+    display: none;
+  }
+
   .banner__column__item h4 {
     font-size: 32px;
   }
