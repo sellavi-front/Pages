@@ -1,9 +1,11 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
+import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
+import dataBannerContent from './utils/dataBannerContent.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -41,6 +43,6 @@ if (document.querySelector('.wrapper')) {
 
 if (document.querySelector('.common-home')) {
   const advantagesTypeOne = new AdvantagesTypeOne(document.querySelector('.page-section'), advantages);
-
+  const contentBanner = new ContentBannerTypeOne(document.querySelector('.products'), dataBannerContent)
   advantagesTypeOne.render();
 }

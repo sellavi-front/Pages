@@ -1,7 +1,7 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class ContentBannerTypeOne {
-  constructor(container) {
+  constructor(container, data) {
     this.data = data;
     this.container = container;
   }
@@ -9,9 +9,7 @@ export default class ContentBannerTypeOne {
   setTemplate() {
     return `
       <div class="banner-content">
-        <div class="container">
-          ${this.setData(this.data).join('')}
-        </div>
+        ${this.setData(this.data).join('')}
       </div>
     `;
   }
@@ -20,9 +18,14 @@ export default class ContentBannerTypeOne {
     return this.data.map(
       (item) => `
         <div class="banner-content__item">
-          <h3 class="banner-content__item_title">${item.title}</h3>
-          <p class="banner-content__item_text">${item.text}</p>
-          <a href="${item.buttonLink}"c lass="banner-content__item_button">${item.linkContent}</a>
+          <img class="banner-content__item_img" src="${item.banner}">
+          <div class="banner-content__container container">
+            <h3 class="banner-content__item_title">${item.title}</h3>
+            <p class="banner-content__item_text">${item.text}</p>
+            <a href="${item.linkSrc}" class="banner-content__item_button">
+              <span>${item.linkContent}</span>
+            </a>
+          </div>
         </div>
       `,
     );
