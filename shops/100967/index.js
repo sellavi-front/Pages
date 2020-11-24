@@ -27,6 +27,7 @@ if (document.querySelector('.wrapper')) {
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
+  const footerRow = document.querySelector("#home > div > footer > div.footer-widgets > div.container > div");
 
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
@@ -45,6 +46,8 @@ if (document.querySelector('.wrapper')) {
   megalineLi.forEach((it) => {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
   });
+
+  footerRow.remove();
 }
 
 if (document.querySelector('.common-home')) {
