@@ -2,4 +2,5 @@
     max-width: 75vh !important;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
