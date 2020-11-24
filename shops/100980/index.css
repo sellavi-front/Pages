@@ -205,6 +205,17 @@ body.ltr ol, body.ltr ul {
     display: flex;
     flex-direction: column;
   }
+
+  .banner__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__container {
+    display: none;
+  }
+
+
 }
 
 /* end */
