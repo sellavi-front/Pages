@@ -255,6 +255,36 @@ body .footer .footer-widgets {
   height: 40%;
 }
 
+.footer__container {
+  display: flex;
+  width: 100%;
+}
+
+.footer__container__data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.footer__container__data__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footer__container__data__column__item {
+  display: flex;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  width: 100%;
+  color: #fff;
+}
+
+.footer__container__data__column + .footer__container__data__column {
+  margin-left: 5rem;
+}
+
 /* End */
 
 @media only screen and (max-device-width : 320px) {
