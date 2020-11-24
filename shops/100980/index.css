@@ -338,7 +338,7 @@ body.ltr ol, body.ltr ul {
 
   .content__layout__container__item img {
     width: 100%;
-    margin-top: 2rem;
+    margin: 2rem 0 0 0;
     padding: 2rem;
   }
 
@@ -346,7 +346,7 @@ body.ltr ol, body.ltr ul {
   .content__layout__container__item__description {
     width: 100%;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
     padding: 2rem;
   }
 
