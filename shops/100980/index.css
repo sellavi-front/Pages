@@ -13,14 +13,6 @@
   color: #000;
 }
 
-#home > div.wrapper.wrapper-closed > div.content-area > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
-  color: #fff;
-  font-size: 21px;
-  border: 1px solid red;
-  border-radius: 5px;
-  padding: 10px;
-}
-
 .banner__container {
   display: flex;
   width: 100%;
@@ -41,25 +33,32 @@
 }
 
 .banner__column__item {
-  width: 812px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner__item + .banner__item {
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .banner__column__item h4 {
-  font-size: 50px;
+  font-size: 42px;
   color: #fff;
   padding: 3rem;
+
 }
 
 .banner__submit__form {
   width: 590px;
   height: 667px;
-  left: 0px;
-  top: 0px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner__submit__form>h6  {
@@ -69,7 +68,7 @@
   color: #fff;
   font-size: 24px;
   font-weight: 100;
-  padding-top: 65px;
+  margin: 0 0 40px;
 }
 
 .banner_submit__form__input {
@@ -79,6 +78,97 @@
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 15px;
+}
+
+.banner_submit__form__input:not(:first-child) {
+  margin-top: 15px;
+}
+
+
+.banner_submit__form__input {
+  color: #fff;
+}
+
+.banner_submit__form__input::placeholder {
+  color: #fff;
+  font-weight: 100;
+}
+
+.banner_submit__form__input:focus {
+  outline: 0;
+}
+
+.banner_submit__form__input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.banner__submit__form>p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 428px;
+}
+
+.banner__submit__form__btn {
+  background: #BF3417;
+  border-radius: 15px;
+  color: #fff;
+  padding: 15px;
+  width: 374px;
+  border: 0;
+}
+
+.info__block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.info__block__item h6{
+  color: #fff;
+  font-size: 21px;
+}
+
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  width: 100%;
+}
+
+.contact__container__item {
+  display: flex;
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+}
+
+img + h6 {
+  margin-left: 2.5%;
+}
+
+.contact__container__item img {
+  width: 50px;
+}
+
+.contact__container__item h6{
+  font-size: 21px;
+  color: #fff;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .banner__item {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* end */
