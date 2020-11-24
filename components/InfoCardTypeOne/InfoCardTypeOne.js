@@ -28,7 +28,7 @@ export default class ContentBannerTypeOne {
           <img class="info-card__item_img" src="${item.img}">
           <div class="item-card__bottom">
             <p class="item-card__bottom_text">
-              <storng>${item.textTitle}</strong>${item.text}
+              <b>${item.textTitle}</b>${item.text}
             </p>
           </div>
         </div>

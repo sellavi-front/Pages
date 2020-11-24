@@ -1,6 +1,6 @@
 const dataBannerContent = [
   {
-    title: 'Cкидка на всю продукцию Miru <strong>15%</strong>',
+    title: 'Cкидка на всю продукцию Miru <b>15%</b>',
     text: 'с 1 по 15 декабря 2020',
     linkSrc: '#',
     linkContent: 'Подробнее',
