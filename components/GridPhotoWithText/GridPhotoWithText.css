@@ -1,0 +1,7 @@
+.grid-photo__container {
+  max-width: 1300px;
+  width: 100%;
+  height: 890px;
+  background: url(https://res.cloudinary.com/gz-company/image/upload/v1606232507/Miru/assets/Group_50_dzmnxz.png) no-repeat;
+  background-size: cover;
+}
