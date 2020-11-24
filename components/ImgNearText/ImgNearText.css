@@ -2,6 +2,14 @@
   padding: 80px 0;
 }
 
+.history__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+}
+
 .about__item {
   display: flex;
   flex-flow: row nowrap;
