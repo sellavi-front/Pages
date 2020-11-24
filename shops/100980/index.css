@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 html, body,
 body span,
@@ -21,7 +22,7 @@ input.form-control::placeholder,
 .form_checkout,
 .order_list_section__total-lines,
 .checkout_table {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 
