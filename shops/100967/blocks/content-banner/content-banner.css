@@ -1,8 +1,8 @@
 .banner-content__item_img {
   position: absolute;
-  width: 100%;
-  background-size: cover;
-  left: 0;
-  top: -195px;
-  z-index: -1;
+    width: 1900px;
+    object-fit: none;
+    left: 0;
+    top: -80px;
+    height: 850px;
 }
