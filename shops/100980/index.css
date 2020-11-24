@@ -290,6 +290,27 @@ body.ltr ol, body.ltr ul {
     flex-direction: column;
   }
 
+  .content__layout__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .content__layout__container__item img {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 2rem;
+  }
+
+
+  .content__layout__container__item__description {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -346,6 +367,11 @@ body.ltr ol, body.ltr ul {
   /* End */
 
   /* Content Layout One */
+
+  .content__layout__container>.container {
+    display: flex;
+    flex-direction: column;
+  }
 
   .content__layout__container {
     display: flex;
