@@ -38,11 +38,12 @@ export default class SmallImgSlider {
   getItem() {
     return this.data.map((item) => {
       try {
-      return `<div class="item" style="width:250px">
+      return `
+        <div class="item" style="width:250px">
           <img src="${item.src}" alt="${item.alt}">
         </div>`
       } catch (err) {
-        console.log(`При отрисовке баннера произошла ошибка: ${err}`);
+        console.log(`При отрисовке слайдера произошла ошибка: ${err}`);
       }
     });
   }
