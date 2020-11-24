@@ -4,6 +4,7 @@
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
 @import '../../../components/ImgNearText/ImgNearText.css';
+@import '../../../components/HistoryLine/HistoryLine.css';
 
 @import './header/header.css';
 @import './products/products.css';
