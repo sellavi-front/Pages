@@ -1,3 +1,7 @@
+.banner-content__item {
+  background: #1D5271;
+}
+
 .banner-content__item_img {
   position: absolute;
   width: 1900px;
