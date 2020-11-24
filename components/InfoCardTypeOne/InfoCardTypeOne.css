@@ -3,7 +3,7 @@
   background: #f4f4f4;
 }
 
-info-card__container {
+.info-card__container {
   display: flex;
   flex-flow: row nowrap;
 }
