@@ -10,7 +10,7 @@ window.onload = () => {
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
   logo.classList.add("navbar__block")
-  let navbar = `
+  /*let navbar = `
     <a class="navbar_item" href="#">Все товары</a>
     <a class="navbar_item" href="#">О компании</a>
     <a class="navbar_item" href="#">Доставка</a>
@@ -18,8 +18,8 @@ window.onload = () => {
     <a class="navbar_item" href="#">Комплексное оснащение</a>
     <a class="navbar_item" href="#">Готовые решения</a>
     <a class="navbar_item" href="#">Контакты</a>
-  `
-  logo.insertAdjacentHTML("beforeend", navbar)
+  `*/
+  //logo.insertAdjacentHTML("beforeend", navbar)
   let bannerLayout = `
     <div class="banner__container">
         <div class="banner__item">
