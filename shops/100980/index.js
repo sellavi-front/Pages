@@ -86,4 +86,5 @@ window.onload = () => {
 
   customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
   customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+  oldFooterMeta.remove()
 }
