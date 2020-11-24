@@ -24,3 +24,10 @@ body .footer a,
 .widget-categories ul li a {
   padding: 0 !important;
 }
+
+
+@media (min-width: 768px) {
+  .col-md-3 {
+      max-width: 17%;
+  }
+}
