@@ -1,4 +1,9 @@
 @import './title.css';
 @import './card.css';
 @import './buttons/bth-whishlist.css';
-@import './buttons/button-container.css'
+@import './buttons/button-container.css';
+
+.content-area .page-section .product-layout {
+  max-width: 400px;
+  width: 100%;
+}
