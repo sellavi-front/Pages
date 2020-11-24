@@ -79,6 +79,11 @@ window.onload = () => {
   /* Delete footer content */
   document.querySelector(".footer>.footer-widgets>.container>.row").remove()
 
+  /* Copy footer-meta */
+  let oldFooterMeta = document.querySelector(".footer>.footer-meta")
+  let newFooterMeta = oldFooterMeta.cloneNode(true)
+  document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", newFooterMeta.outerHTML)
+
   customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
   customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
 }
