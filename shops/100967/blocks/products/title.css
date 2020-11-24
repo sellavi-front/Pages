@@ -3,13 +3,10 @@ body .section-title span:before {
   display: none;
 }
 
-.section-title {
+.section-title span {
   font-weight: 600 !important;
   font-size: 36px !important;
   line-height: 43px !important;
   text-align: left !important;
-}
-
-.section-title span {
   border-bottom: 3px solid black;
 }
