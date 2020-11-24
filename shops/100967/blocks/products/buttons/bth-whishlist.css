@@ -1,0 +1,9 @@
+.thumbnail .add_to_wishlist {
+  position: initial !important;
+}
+
+.thumbnail .add_to_wishlist button {
+  border-radius: none !important;
+  border: 1px solid black !important;
+  background: transparent !important;
+}
