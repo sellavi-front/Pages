@@ -83,9 +83,9 @@ window.onload = () => {
   document.querySelector(".footer>.footer-widgets>.container>.row").remove()
 
   /* Copy footer-meta */
-  let oldFooterMeta = document.querySelector(".footer>.footer-meta")
-  let newFooterMeta = oldFooterMeta.cloneNode(true)
-  document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", newFooterMeta.outerHTML)
+  //let oldFooterMeta = document.querySelector(".footer>.footer-meta")
+  //let newFooterMeta = oldFooterMeta.cloneNode(true)
+  //document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", newFooterMeta.outerHTML)
 
   let footerLayout = `
     <div class="footer__container">
@@ -106,7 +106,7 @@ window.onload = () => {
         </div>
     </div>
   `
-  oldFooterMeta.remove()
+  //oldFooterMeta.remove()
   document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("afterbegin", footerLayout)
 
 
