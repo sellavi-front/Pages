@@ -14,6 +14,10 @@
   height: 120px;
 }
 
+.history__item_date {
+  margin: 0 10px 0 0;
+}
+
 .history__item_line {
   width: 44px;
   height: 100%;
