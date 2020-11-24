@@ -345,7 +345,7 @@ body.ltr ol, body.ltr ul {
     width: 100%;
     text-align: center;
     margin-top: 5rem;
-    padding: 0;
+    padding: 2rem;
   }
 
   .content__layout__container__item img {
