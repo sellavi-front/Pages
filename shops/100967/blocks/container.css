@@ -1,5 +1,6 @@
   body .content-area .container {
     max-width: 75vh !important;
+    min-width: inherit !important;
     display: flex;
     justify-content: center;
     flex-direction: column;
