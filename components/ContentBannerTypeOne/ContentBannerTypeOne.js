@@ -19,7 +19,6 @@ export default class ContentBannerTypeOne {
     return this.data.map(
       (item) => `
         <div class="banner-content__item">
-          <img class="img-1" src="${item.bannerAbs}">
           <div class="banner-content__item_bg">
             <img class="banner-content__item_img" src="${item.banner}">
           </div>

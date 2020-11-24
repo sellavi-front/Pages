@@ -58,6 +58,7 @@ if (document.querySelector('.common-home')) {
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 
+  // Коробка которая вылезает за баннер
   bannerContentItemImg.insertAdjacentHTML(
     'afterbegin',
     `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
