@@ -6,12 +6,14 @@
 @import './product-layout/product-layout.css';
 @import './footer-meta/footer-meta.css';
 @import './footer/footer.css';
-@import './banner/banner-style.css';
+
 
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components/SmallCategory/SmallCategory.css';
 @import '../../../components/SmallImgSlider/SmallImgSlider.css';
+
+@import './banner/banner-style.css';
 
 body h1,
 body h2,
