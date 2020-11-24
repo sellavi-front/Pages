@@ -28,9 +28,9 @@ export default class ContentBannerTypeOne {
           <a href="${item.link}">
             <img class="info-card__item_img" src="${item.img}">
           </a>
-          <div class="item-card__bottom">
+          <div class="info-card__bottom">
             <a href="${item.link}">
-              <p class="item-card__bottom_text">
+              <p class="info-card__bottom_text">
                 <b>${item.textTitle}</b>${item.text}
               </p>
             </a>

@@ -35,6 +35,12 @@
   margin-right: 0;
 }
 
+.info-card__bottom_text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 @media (max-width: 768px) {
   .info-card__item_img {
     margin-right: 0;
