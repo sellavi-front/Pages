@@ -25,11 +25,15 @@ export default class ContentBannerTypeOne {
     return this.data.map(
       (item) => `
         <div class="info-card__item">
-          <img class="info-card__item_img" src="${item.img}">
+          <a href="${item.link}">
+            <img class="info-card__item_img" src="${item.img}">
+          </a>
           <div class="item-card__bottom">
-            <p class="item-card__bottom_text">
-              <b>${item.textTitle}</b>${item.text}
-            </p>
+            <a href="${item.link}">
+              <p class="item-card__bottom_text">
+                <b>${item.textTitle}</b>${item.text}
+              </p>
+            </a>
           </div>
         </div>
       `,
