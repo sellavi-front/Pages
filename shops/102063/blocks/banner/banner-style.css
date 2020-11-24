@@ -1,4 +1,13 @@
-.item.cursor-pointer {
+.div-cell {
+    display: flex;
+    justify-content: left;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div {
     margin: 0px;
-    padding: 0px
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+    color: white;
+    text-shadow: 0 1 black;
 }
