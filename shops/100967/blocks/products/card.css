@@ -20,7 +20,7 @@
 }
 
 .thumbnail .caption-title {
-  max-height: inherit !important;
+  min-height: inherit !important;
 }
 
 .thumbnail .media-link,
