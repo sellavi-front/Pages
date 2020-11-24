@@ -1,3 +1,5 @@
   body .container {
     max-width: 80vh !important;
+    display: flex;
+    justify-content: center;
   }
