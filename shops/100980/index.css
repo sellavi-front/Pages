@@ -222,6 +222,7 @@ body.ltr ol, body.ltr ul {
 
   .banner__column__item h4 {
     font-size: 32px;
+    padding: 1.5rem;
   }
 
   .banner__submit__form {
@@ -235,6 +236,8 @@ body.ltr ol, body.ltr ul {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 21px;
+    text-align: center;
+    margin: 0 0 20px;
   }
 
   .banner__submit__form>p {
