@@ -118,7 +118,7 @@ input.form-control::placeholder,
 }
 
 .banner_submit__form__input::placeholder {
-  color: #fff;
+  color: #fff !important;
   font-weight: 100;
 }
 
@@ -149,6 +149,7 @@ input.form-control::placeholder,
   padding: 15px;
   width: 374px;
   border: 0;
+  font-weight: 900;
 }
 
 .info__block {
@@ -177,7 +178,9 @@ input.form-control::placeholder,
   color: #000;
   font-weight: bold;
   align-items: center;
+  margin-top: 2%;
 }
+
 
 img + h6 {
   margin-left: 2.5%;
