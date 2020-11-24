@@ -4,12 +4,14 @@ import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesType
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js'
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
+import HistoryLine from '../../components/HistoryLine/HistoryLine.js'
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
 import dataBannerContent from './utils/dataBannerContent.js';
 import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
+import historyData from './utils/historyData.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -68,10 +70,17 @@ if (document.querySelector('.common-home')) {
     aboutData,
   );
 
+  const historyLine = new HistoryLine(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+    historyData,
+  );
+
   advantagesTypeOne.render();
   contentBanner.render();
   infoCardTypeOne.render();
   imgNearText.render();
+  historyLine.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 
