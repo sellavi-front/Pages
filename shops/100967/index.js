@@ -49,7 +49,7 @@ if (document.querySelector('.common-home')) {
     document.querySelector('.page-section'),
     advantages,
   );
-  const infoCardTypeOne = new ContentBannerTypeOne(
+  const contentBanner = new ContentBannerTypeOne(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
     dataBannerContent,
