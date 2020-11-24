@@ -165,7 +165,8 @@ img + h6 {
 }
 
 body.ltr ol, body.ltr ul {
-  all: unset !important;
+  padding-left: none !important;
+  padding-right: unset;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
