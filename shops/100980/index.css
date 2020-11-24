@@ -339,11 +339,12 @@ body.ltr ol, body.ltr ul {
     width: 100%;
   }
 
+
   .content__layout__container__item__description {
     width: 100%;
     text-align: center;
-    margin-top: 10%;
-    padding: 5%;
+    margin: 0;
+    padding: 0;
   }
 
 
