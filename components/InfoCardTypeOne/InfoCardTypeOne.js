@@ -12,7 +12,10 @@ export default class ContentBannerTypeOne {
         <div class="info-card">
           <div class="container">
           <h2 class="info-card__title">Акции</h2>
+          <div class="info-card__container">
+
           ${this.setData(this.data).join('')}
+          </div>
         </div>
       </div>
     `;
@@ -21,7 +24,6 @@ export default class ContentBannerTypeOne {
   setData() {
     return this.data.map(
       (item) => `
-      <div class="info-card__container">
         <div class="info-card__item">
           <img class="info-card__item_img" src="${item.img}">
           <div class="item-card__bottom">
@@ -30,7 +32,6 @@ export default class ContentBannerTypeOne {
             </p>
           </div>
         </div>
-      </div>
       `,
     );
   }
