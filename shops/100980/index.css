@@ -279,6 +279,7 @@ body.ltr ol, body.ltr ul {
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
 
+  /* Banner Layout */
   .banner__container {
     width: 100%;
     height: auto;
@@ -322,6 +323,31 @@ body.ltr ol, body.ltr ul {
   .banner__submit__form__btn {
     width: 300px;
   }
+
+  /* End */
+
+  /* Content Layout One */
+
+  .content__layout__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .content__layout__container__item img {
+    width: 100%;
+  }
+
+  .content__layout__container__item__description {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+  }
+
+
+  /* End */
 
 }
 
