@@ -6,7 +6,7 @@
 @import './product-layout/product-layout.css';
 @import './footer-meta/footer-meta.css';
 @import './footer/footer.css';
-@import './banner/search.css';
+@import './banner/banner-style.css';
 
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
