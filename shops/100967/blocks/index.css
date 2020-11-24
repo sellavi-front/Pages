@@ -2,6 +2,7 @@
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components/AdvantagesTypeOne/AdvantagesTypeOne.css';
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+@import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
 
 @import './header/header.css';
 @import './products/products.css';
