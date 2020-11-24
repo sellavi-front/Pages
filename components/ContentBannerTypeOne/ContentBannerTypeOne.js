@@ -1,8 +1,9 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class ContentBannerTypeOne {
-  constructor(container, data) {
+  constructor(container, target, data) {
     this.data = data;
+    this.target = target;
     this.container = container;
   }
 
@@ -36,7 +37,7 @@ export default class ContentBannerTypeOne {
   render() {
     const createAddContainer = new CreateAddContainer(
       this.container,
-      'beforeEnd',
+      this.target,
       this.setTemplate(),
     );
     createAddContainer.render();
