@@ -4,7 +4,7 @@ const dataBannerContent = [
     text: 'с 1 по 15 декабря 2020',
     linkSrc: '#',
     linkContent: 'Подробнее',
-    banner: 'https://res.cloudinary.com/gz-company/image/upload/v1606217324/Miru/Group_86_u4wtxc.png'
+    banner: 'https://res.cloudinary.com/gz-company/image/upload/v1606219149/Miru/Group_86_1_gtbyfu.png'
   }
 ]
 
