@@ -4,6 +4,7 @@
 @import './buttons/button-container.css';
 
 .content-area .page-section .product-layout {
-  max-width: 400px;
-  width: 100%;
+  max-width: 400px !important;
+  width: 100% !important;
+  margin: 0 20px !important;
 }
