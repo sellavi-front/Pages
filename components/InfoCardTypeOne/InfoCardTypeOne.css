@@ -1,8 +1,11 @@
 .info-card {
-  display: flex;
-  flex-flow: row nowrap;
   padding: 80px 0;
   background: #f4f4f4;
+}
+
+info-card__container {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .info-card__title {
