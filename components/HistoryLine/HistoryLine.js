@@ -11,7 +11,7 @@ export default class HistoryLine {
     return `
         <div class="history">
           <div class="container">
-          <h2 class="history__title">Акции</h2>
+          <h2 class="history__title">История Miru</h2>
           <div class="history__container">
             ${this.setData(this.data).join('')}
           </div>
