@@ -27,6 +27,16 @@ input.form-control::placeholder,
 
 
 /* Header */
+.navbar__block {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar_item {
+  padding: 32px;
+  color: #000;
+}
+
 .header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
   color: #000;
 }
