@@ -200,6 +200,27 @@ body.ltr ol, body.ltr ul {
   padding-right: unset;
 }
 
+/* Content Layout One */
+.content__layout__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 734px;
+  background: #F2F2F2;
+}
+
+.content__layout__container__item img {
+  width: 300px;
+  margin: 10rem;
+}
+
+.content__layout__container__item__description {
+  margin: 15rem;
+}
+
+/* End */
+
 @media only screen and (max-device-width : 320px) {
 
   .banner__container {
