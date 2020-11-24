@@ -36,7 +36,7 @@ export default class ContentBannerTypeOne {
   render() {
     const createAddContainer = new CreateAddContainer(
       this.container,
-      'afterEnd',
+      'beforeEnd',
       this.setTemplate(),
     );
     createAddContainer.render();
