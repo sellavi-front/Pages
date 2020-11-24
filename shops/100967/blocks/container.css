@@ -1,5 +1,5 @@
   body .content-area .container {
-    max-width: 75vh !important;
+    max-width: 75% !important;
     min-width: inherit !important;
     display: flex;
     justify-content: center;
