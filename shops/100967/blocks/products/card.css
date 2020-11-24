@@ -23,6 +23,11 @@
   max-height: inherit !important;
 }
 
+.thumbnail .media-link,
+.latest-section .product-layout .thumbnail .media {
+  margin: 0 !important;
+}
+
 .product-item .thumbnail .media img {
   min-height: inherit !important;
   max-width: inherit !important;
