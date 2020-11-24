@@ -5,6 +5,10 @@
 
 .content-area .page-section .product-layout {
   max-width: 400px !important;
+  max-height: 750px;
   width: 100% !important;
-  margin: 0 20px !important;
+  margin: 0 20px 90px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

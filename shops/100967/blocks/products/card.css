@@ -11,3 +11,10 @@
   padding: 5% 25%;
   border-radius: 0;
 }
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  max-height: initial !important;
+  min-height: initial !important;
+  margin: 20px 0 !important;
+  overflow: hidden !important;
+}
