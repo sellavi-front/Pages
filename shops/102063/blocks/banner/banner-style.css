@@ -1,8 +1,4 @@
-.owl-carousel .item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
+.item.cursor-pointer {
     margin: 0px;
-    opacity: .8;
+    padding: 0px
 }
