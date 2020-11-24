@@ -3,7 +3,7 @@ body .section-title span:before {
   display: none;
 }
 
-.section-title span {
+.section-title span, .title {
   font-weight: 600 !important;
   font-size: 36px !important;
   line-height: 43px !important;
