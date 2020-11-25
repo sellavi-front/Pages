@@ -95,7 +95,7 @@ window.onload = () => {
                 <h4><a href="${category.link}">${category.name}</a></h4>
           </div>
       `
-      }))
+      }).outerHTML)
 
     /*${categories.forEach(
           category => {
