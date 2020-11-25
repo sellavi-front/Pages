@@ -118,13 +118,13 @@ window.onload = () => {
   document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("afterbegin", footerLayout)
   let footerMenuLayout = `
     <div class="menu__footer">
-        <a href="#">Test 1</a>
-        <a href="#">Test 1</a>
-        <a href="#">Test 1</a>
-        <a href="#">Test 1</a>
-        <a href="#">Test 1</a>
-        <a href="#">Test 1</a>
+        <a href="#">О компании</a>
+        <a href="#">Доставка</a>
+        <a href="#">Оплата и возврат</a>
+        <a href="#">Комплексное оснащение</a>
+        <a href="#">Готовые решения</a>
+        <a href="#">Контакты</a>
     </div>
   `
-  document.querySelector(".footer>.footer-meta>.container").insertAdjacentHTML("afterbegin", footerMenuLayout)
+  document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", footerMenuLayout)
 }
