@@ -19,7 +19,7 @@ body .section-title.section-title-lg {
 
 .content-tabs .tab-content {
   border: none;
-  padding: 0;
+  padding: 5px 10px !important;
   background: transparent;
 }
 
@@ -29,6 +29,7 @@ body .section-title.section-title-lg {
   font-weight: normal;
   text-transform: none;
   border: none;
+  padding: ;
 }
 
 .content-tabs .nav-tabs > li > a.active {
@@ -45,6 +46,8 @@ body .section-title.section-title-lg {
 .featured-products-carousel .bx-wrapper {
   margin: 0 auto;
 }
+
+
 
 @media (max-width: 768px) {
   .product-product .product-single {
