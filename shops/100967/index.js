@@ -120,6 +120,6 @@ if (document.querySelector('.product-product')) {
   const productContainer = document.querySelector('.product-single');
   const model = document.querySelector('.table_holder');
 
-  productContainer.insertAdjacentHTML('beforeend', description);
+  productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
   model.remove();
 }
