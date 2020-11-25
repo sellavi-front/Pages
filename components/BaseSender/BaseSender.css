@@ -11,6 +11,7 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
+  color: white;
 }
 
 .sender__form {
@@ -19,12 +20,16 @@
   align-items: center;
   height: 78px;
   border-radius: 64px;
+  margin-bottom: 90px;
 }
 
 .sender__form_input {
   max-width: 848px;
   width: 100%;
-
+  border: none;
+  border-radius: 64px;
+  padding-left: 5%;
+  height: 100%;
   background: #424242;
 }
 
@@ -47,4 +52,5 @@
   border-radius: inherit;
   font-size: 24px;
   color: black;
+  padding: 0 5%;
 }
