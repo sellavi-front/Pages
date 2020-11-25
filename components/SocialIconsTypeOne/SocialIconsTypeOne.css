@@ -1,16 +1,16 @@
-.social-icons {
+.soc-icons {
   max-width: 321px;
   width: 100%;
 }
 
-.social-icons__container {
+.soc-icons__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
-.social-icons__item_icon {
+.soc-icons__item_icon {
   width: 36px;
   height: auto;
 }
