@@ -20,7 +20,7 @@ window.onload = () => {
     <a class="navbar_item" href="#">Контакты</a>
   `*/
   //logo.insertAdjacentHTML("beforeend", navbar)
-  if(!(window.location.pathname === '/' || window.location.pathname === '/?from_admin')) {
+  if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
     let customBanner = document.querySelector(".custom_banner")
     let bannerLayout = `
     <div class="banner__container">
