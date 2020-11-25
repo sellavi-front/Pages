@@ -15,6 +15,7 @@
 
 @import './banner/banner-style.css';
 @import './menu/menu.css';
+@import './header/logo.css';
 
 body h1,
 body h2,
