@@ -2,19 +2,19 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 
 const defaultData = [
   {
-    src: '../icons/whatsapp.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-whatsapp_1_kh2mdl.svg',
     link: '#',
   },
   {
-    src: '../icons/instagram.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-instagram_1_rw7nv3.svg',
     link: '#',
   },
   {
-    src: '../icons/instagram.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-telegram-app_1_blrn1i.svg',
     link: '#',
   },
   {
-    src: '../icons/facebook.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-facebook-f_1_uusaiq.svg',
     link: '#',
   },
 ];
