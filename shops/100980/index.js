@@ -1,4 +1,5 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import getCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
 
 window.onload = () => {
@@ -82,23 +83,23 @@ window.onload = () => {
     document.querySelector(".section-title.mb-4.mt-4").remove()
     document.querySelector(".row.products.grid").remove()
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-    let categories = GetCategoriesFromNavbar()
-    console.log(categories)
+    let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
+    let categories = new GetCategoriesFromNavbar(nodeList)
+    categories.getCategoriesFromNavbar()
+
     let categoriesLayout = `
       <div class="categories__container">
-      </div>
-    `
-    document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
-    document.querySelector(".categories__container").innerHTML = JSON.stringify(categories)
-
-    /*${categories.forEach(
+        ${categories.forEach(
           category => {
             `<div class="categories__container__item">
                 <h4><a href="${category.link}">${category.name}</a></h4>
-    </div>
-      `
+             </div>
+            `
           })
-        }*/
+        }
+      </div>
+    `
+    document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
   }
 
 
