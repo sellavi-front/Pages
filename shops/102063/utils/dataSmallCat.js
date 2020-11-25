@@ -6,27 +6,27 @@ const dataSmallCat = [
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/moritz-kindler-9vCCQ9h7OoY-unsplash_or115o.jpg',
+    src: 'https://images.unsplash.com/photo-1580940040649-e3d55edb1e0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80',
     title: 'Очистка воды в дом',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
+    src: 'https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80',
     title: 'Очистка воды в офис',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
+    src: 'https://images.unsplash.com/photo-1569966459694-faf2bf4af6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
     title: 'Фильтры для кафе и ресторанов',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/moritz-kindler-9vCCQ9h7OoY-unsplash_or115o.jpg',
+    src: 'https://images.unsplash.com/photo-1594807928657-90490c2dae91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
     title: 'Обслуживание',
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
+    src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
     title: 'Анализ воды',
   },
 ];
