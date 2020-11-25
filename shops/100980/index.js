@@ -110,11 +110,7 @@ window.onload = () => {
                     <h6>Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00</h6>
                 </div>
             </div>
-            <div class="footer__container__data__column">
-                <div class="footer__container__data__column__item">
-                    <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/Groupfooter.png" alt="footer" />
-                </div>
-            </div>
+            <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/Groupfooter.png" alt="footer" />
         </div>
     </div>
   `
