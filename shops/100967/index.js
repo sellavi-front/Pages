@@ -8,7 +8,6 @@ import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
-import SmallImgSlider from '../../components/SmallImgSlider/SmallImgSlider.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
@@ -45,13 +44,6 @@ if (document.querySelector('.wrapper')) {
     document.querySelector('.footer-widgets>.container'),
     'beforeEnd',
   );
-
-  const customSection = document.querySelector('.custom_section');
-
-  const slider = new SmallImgSlider(data, customSection);
-
-  slider.setTemplate();
-  slider.setOptions(optionSlider);
 
   // FOOTER
   baseSender.render();
