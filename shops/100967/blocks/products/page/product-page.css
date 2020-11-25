@@ -41,3 +41,7 @@ body .section-title.section-title-lg {
 .content-tabs .nav-tabs>li>a.active:after, .content-tabs .nav-tabs>li>a.active:before {
   display: none;
 }
+
+.featured-products-carousel .bx-wrapper {
+  margin: 0 auto;
+}
