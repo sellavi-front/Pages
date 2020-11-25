@@ -285,6 +285,11 @@ body .footer .footer-widgets {
   margin-left: 5rem;
 }
 
+.footer_content_text img {
+  margin: 0 5px !important;
+  height: 40%;
+}
+
 /* End */
 
 @media only screen and (max-device-width : 320px) {
