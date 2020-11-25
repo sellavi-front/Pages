@@ -1,7 +1,7 @@
 .sender {
   padding: 0;
   margin: 50px 0 0;
-  max-width: 850px;
+  max-width: 990px;
   width: 100%;
 }
 
@@ -21,6 +21,7 @@
   height: 78px;
   border-radius: 64px;
   margin-bottom: 90px;
+  width: 90%;
 }
 
 .sender__form_input {
