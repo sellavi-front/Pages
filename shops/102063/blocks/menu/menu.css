@@ -48,3 +48,11 @@ span.arrow {
     top: 135px;
     left: 250px;
  }
+
+ #home > div > header > div.navigation-wrapper > div:nth-child(1) > a {
+     color: white;
+ }
+
+ #home > div > header > div.navigation-wrapper > div:nth-child(1) > a:hover {
+    color: white;
+}
