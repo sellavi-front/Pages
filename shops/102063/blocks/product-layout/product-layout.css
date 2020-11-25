@@ -98,3 +98,9 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 .caption.text-center {
   max-height: fit-content !important;
 }
+
+.thumbnail .price {
+  margin-bottom: 0px;
+  display: flex;
+  align-items:center;
+}
