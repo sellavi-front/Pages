@@ -56,6 +56,6 @@
 
 .banner-content__item_bg {
   z-index: 1;
-  position: relative;
+  position: absolute;
   opacity: .8;
 }
