@@ -21,3 +21,18 @@ body .section-title.section-title-lg {
   padding: 0;
   background: transparent;
 }
+
+.content-tabs .nav-tabs > li > a,
+.content-tabs .nav-tabs > li > a:focus {
+  background: transparent;
+  font-weight: normal;
+  text-transform: none;
+  border: none;
+}
+
+.content-tabs .nav-tabs > li > a.active {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  text-transform: none;
+}
