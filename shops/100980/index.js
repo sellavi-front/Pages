@@ -89,10 +89,6 @@ window.onload = () => {
         ${categories.forEach(
           category => {
             console.log(category)
-            `<div class="categories__container__item">
-                <h4><a href="${category.link}">${category.name}</a></h4>
-             </div>
-            `
           })
         }
       </div>
