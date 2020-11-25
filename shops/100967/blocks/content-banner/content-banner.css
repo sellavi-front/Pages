@@ -35,3 +35,9 @@
   width: 100%;
   transform: rotate(24deg);
 }
+
+@media (max-width: 971px) {
+  .banner-content__item_bg, .img-1 {
+    display: none;
+  }
+}
