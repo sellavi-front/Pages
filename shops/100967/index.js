@@ -125,6 +125,7 @@ if (document.querySelector('.product-product')) {
   const rating = document.querySelector('.rating');
   const reviews = document.querySelector('.reviews');
   const ratingArr = [rating, reviews];
+  const social = document.querySelector('.share_page_wrapper');
 
   productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
   productAvailability.insertAdjacentHTML('beforebegin', ratingArr.outerHTML);
@@ -135,5 +136,5 @@ if (document.querySelector('.product-product')) {
   rating.remove();
   reviews.remove();
   productRating.remove();
-  console.log(ratingArr);
+  social.remove();
 }
