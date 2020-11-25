@@ -87,12 +87,12 @@ window.onload = () => {
     let categoriesLayout = `
       <div class="categories__container">
         ${categories.forEach(
-          category => {
-            `<div class="categories__container__item">
-                <h4><a href="${category.link}">${category.name}</a></h4>
-             </div>
-            `
-          })
+        (category, index) => {
+              `<div class="categories__container__item">
+                  <h4><a href="${category[index].link}">${category[index].name}</a></h4>
+               </div>
+              `
+            })
         }
       </div>
     `
