@@ -42,3 +42,11 @@ h3.img-inner_title {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+#home > div > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#home > div > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(2) {
+  margin-bottom: 20px;
+}
