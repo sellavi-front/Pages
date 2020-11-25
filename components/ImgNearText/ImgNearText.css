@@ -60,4 +60,8 @@
     font-size: 22px;
     line-height: 1.2;
   }
+
+  .about__item_text {
+    font-size: 16px;
+  }
 }

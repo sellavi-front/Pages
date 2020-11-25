@@ -9,3 +9,9 @@
 
   margin: 0 auto;
 }
+
+@media (max-width: 460px) {
+  .footer-widgets {
+    padding-top: 0 !important;
+  }
+}
