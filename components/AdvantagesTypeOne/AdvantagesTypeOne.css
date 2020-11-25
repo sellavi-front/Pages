@@ -1,0 +1,28 @@
+.advantages {
+  display: flex;
+  margin: 90px 0;
+}
+
+.advantages__elem {
+  border-left: 3px solid;
+  padding: 0 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advatages__icon {
+  width: 65px;
+  margin-bottom: 28px;
+}
+
+.advantages__text {
+  width: 80%;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+@media (max-width: 992px) {
+  .advantages {
+    flex-wrap: wrap;
+  }
+}

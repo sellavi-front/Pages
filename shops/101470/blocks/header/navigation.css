@@ -17,24 +17,37 @@
 .sf-menu li:hover,
 .sf-menu.nav > li > a:focus,
 .sf-menu.nav > li > a:hover {
-  background: none !important;
+  background: transparent !important;
   color: #00b16a;
 }
 
 .sf-menu > li > ul {
-  top: 29px !important;
-  background: white !important;
+  top: 40px !important;
+  background: rgba(0, 0, 0, 0.6) !important;
   box-shadow: 2px 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sf-menu li:hover>ul, .sf-menu li.megamenu>ul li.megaline {
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 
 .sf-menu li:hover>ul>li>a {
   color: black !important;
 }
 
+.sf-menu ul a:hover {
+  background: none !important;
+}
+
 .sf-menu .flexy:hover > ul > li > a,
 .sf-menu .flexy:hover > ul > li > div> div > span > a {
   color: black !important;
 }
+
+#search > button {
+  z-index: -1 !important;
+}
+
 
 @media (max-width: 991px) {
   .navigation {

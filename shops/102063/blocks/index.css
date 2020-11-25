@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 @import './header/header.css';
+@import './page-section/page-section.css';
+@import './icons/icons.css';
+@import './product-layout/product-layout.css';
+@import './footer-meta/footer-meta.css';
+@import './footer/footer.css';
 
 @import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
-@import './icons/icons.css';
+@import '../../../components/SmallCategory/SmallCategory.css';
+@import '../../../components/SmallImgSlider/SmallImgSlider.css';
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#sellavi_logo {
+  height: 25px !important;
+}
+
+.bs-menu-toggle {
+  display: none !important;
+}

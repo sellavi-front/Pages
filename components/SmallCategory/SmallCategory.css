@@ -1,0 +1,33 @@
+.small__category {
+  padding: 2% 2% 0;
+  background: #f9f9fa;
+  margin-bottom: 30px;
+}
+
+.small__category > div > div {
+  margin: 0 0 30px;
+}
+
+.img-inner {
+  height: 130px;
+}
+
+.img-inner_title {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.small-category__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.img-inner__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.footer-meta .container {
+  max-width: 100% !important;
+}
+
+.footer_content_text {
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+}
+
+.footer_content_text > p {
+  display: none;
+}

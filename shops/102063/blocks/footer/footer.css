@@ -1,0 +1,26 @@
+.footer {
+  background: #0077b6 !important;
+}
+
+body .footer a,
+.footer .footer-widgets .widget-title {
+  color: white !important;
+}
+
+.footer .footer-widgets .widget-title {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.footer .footer-widgets .widget-title:before,
+.widget-categories ul li a:before {
+  display: none !important;
+}
+
+.widget-categories ul li+li {
+  border: none !important;
+}
+
+.widget-categories ul li a {
+  padding: 0 !important;
+}

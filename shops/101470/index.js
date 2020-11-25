@@ -3,12 +3,14 @@ import '../../fixes/fixes.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import Requisites from '../../modules/Requisites/Requisites.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
-import SenderTypeOne from '../../components/SenderTypeOne/SenderTypeOne.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+
+import requsites from './utils/requsites.js';
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -34,23 +36,25 @@ window.onload = () => {
 
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  const search = document.querySelector('.header-search');
   const cartText = document.querySelector('#cart > span');
+  const icoUser = document.querySelector('.icon-user');
+  const headerSearch = document.querySelector('.header-search');
+  //const buttonList = document.querySelector('.button__list');
   const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
-  const footerWidgetsRow = document.querySelector('footer > .footer-widgets > .container > .row');
+  const footerWidgetsRow = document.querySelector('footer > .footer-widgets > div > .row');
   const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
-  const footerWidgetCol2 = document.querySelector(
-    'footer > .footer-widgets > .container > div > div:nth-child(2)',
-  );
+  const footerWidgetCol1 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(1)');
+  const footerWidgetCol2 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(2)');
+  const footerWidgetCol3 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(3)');
   const footerWidgetCol2List = document.querySelector(
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
 
-  const forDelete = [search, cartText, navigation, footerWidgetCol2, footerWidgetCol2];
+  const forDelete = [icoUser, cartText, navigation, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
@@ -61,7 +65,7 @@ if (document.querySelector('.wrapper')) {
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
-  const senderTypeOne = new SenderTypeOne(footerWidgets);
+
 
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
@@ -72,12 +76,12 @@ if (document.querySelector('.wrapper')) {
   headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
-  deleteElements.remove();
 
   deleteClassesFooter.findAndDelete();
   buttonsInHeader.setTemplate(headerWrapper);
   contactsSimple.render();
-  senderTypeOne.render();
+  deleteElements.remove();
+
 }
 
 if (document.querySelector('.common-home')) {
@@ -109,4 +113,19 @@ if (document.querySelector('.product-item')) {
   const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
 
   deleteClassesProd.findAndDelete();
+}
+
+/* Реквиизиты */
+
+if (location.href.includes('term-of-use')) {
+  const req = new Requisites(requsites, 'afterbegin', 'ИП Аношин Дмитрий Андреевич');
+
+  req.setTemplate();
+}
+
+if (location.href.includes('contact')) {
+  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
+
+  const req = new Requisites(requsites, 'afterend', 'ИП Аношин Дмитрий Андреевич', media);
+  req.setTemplate();
 }

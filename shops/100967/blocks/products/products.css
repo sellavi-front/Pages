@@ -1,0 +1,14 @@
+@import './title.css';
+@import './card.css';
+@import './buttons/bth-whishlist.css';
+@import './buttons/button-container.css';
+
+.content-area .page-section .product-layout {
+  max-width: 412px !important;
+  max-height: 750px;
+  width: 100% !important;
+  margin: 0 20px 90px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

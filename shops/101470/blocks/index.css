@@ -8,17 +8,15 @@
 @import './other/contacts.css';
 @import './other/auth-title.css';
 @import './other/section-title.css';
-@import './other/sender.css';
 @import './other/side-categories.css';
 @import './products/products.css';
-
+@import './other/pay-delivery.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../fixes/FooterCopy/FooterCopy.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
-@import '../../../components/SenderTypeOne/SenderTypeOne.css';
 
 body h1,
 body h2,
