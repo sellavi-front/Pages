@@ -88,11 +88,10 @@ window.onload = () => {
       <div class="categories__container">
         ${categories.forEach(
           category => {
-            document.querySelector(".categories__container").insertAdjacentHTML("afterbegin", `
-              <div class="categories__container__item">
-              ${category.name}
-              </div>
-            `)
+            `<div class="categories__container__item">
+                <h4><a href="${category.link}">${category.name}</a></h4>
+             </div>
+            `
           })
         }
       </div>
