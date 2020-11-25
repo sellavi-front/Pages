@@ -10,3 +10,6 @@ span.arrow {
     display: none;
 }
 
+.sf-menu>.flexy.has_children {
+    padding-left: 0px;
+}
