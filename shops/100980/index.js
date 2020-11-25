@@ -108,6 +108,7 @@ window.onload = () => {
                 </div>
             </div>
         </div>
+        <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/Groupfooter.png" alt="footer" />
     </div>
   `
   //oldFooterMeta.remove()
