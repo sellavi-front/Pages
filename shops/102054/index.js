@@ -155,6 +155,7 @@ window.onload = () => {
   let footerMeta = document.querySelector(".footer_content_text")
   let footerMetaDocs = `
   <div class="docs__meta">
+  <a href="https://whitemoon.shop/policy/">Политика конфиденциальности</a>
   <a href="https://whitemoon.shop/terms-of-use/">Пользовательское соглашение</a>
   <a href="https://whitemoon.shop/terms-of-return/">Условия возврата</a>
   <a href="https://whitemoon.shop/delivery/">Доставка и оплата</a>
