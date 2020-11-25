@@ -126,7 +126,7 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
 
   productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('beforebegin', ratingArr.outerHTML === undefined ? ratingArr.map(el => el.outerHTML) : ratingArr.outerHTML);
+  productAvailability.insertAdjacentHTML('beforebegin', ratingArr.outerHTML);
 
   model.remove();
   description.remove();
