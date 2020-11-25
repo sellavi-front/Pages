@@ -5,7 +5,7 @@
 
 .info-card__container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .info-card__title {

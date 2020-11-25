@@ -45,3 +45,9 @@
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+@media (max-width: 1200px) {
+  .history__item_text_text {
+    display: none;
+  }
+}
