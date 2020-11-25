@@ -4,7 +4,7 @@
 @import './buttons/button-container.css';
 @import './page/product-page.css';
 
-.content-area .page-section .product-item,
+.content-area .products .product-item,
 .featured-products .product-item {
   max-width: 412px !important;
   max-height: 750px;
