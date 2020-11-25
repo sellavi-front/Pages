@@ -424,6 +424,10 @@ body .footer .footer-widgets {
     width: 100%;
   }
 
+  .footer__container__data__column + .footer__container__data__column {
+    margin-left: 0;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -528,6 +532,10 @@ body .footer .footer-widgets {
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+
+  .footer__container__data__column + .footer__container__data__column {
+    margin-left: 0;
   }
 
 
