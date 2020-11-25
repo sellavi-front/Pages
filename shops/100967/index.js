@@ -119,12 +119,14 @@ if (document.querySelector('.product-product')) {
   const description = document.querySelector('.tab-pane');
   const productContainer = document.querySelector('.product-single');
   const model = document.querySelector('.table_holder');
+  const productAvailability = document.querySelector('.product-availability');
   const addReview = document.querySelector('.add-review');
   const rating = document.querySelector('.rating');
   const reviews = document.querySelector('.reviews');
   const ratingArr = [rating, reviews];
 
   productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
+  productAvailability.insertAdjacentHTML('beforebegin', ratingArr.outerHTML === undefined ? ratingArr.map(el => el.outerHTML) : ratingArr.outerHTML);
 
   model.remove();
   description.remove();
