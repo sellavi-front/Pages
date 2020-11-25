@@ -131,4 +131,5 @@ if (document.querySelector('.product-product')) {
   addReview.remove();
   rating.remove();
   reviews.remove();
+  console.log(ratingArr);
 }
