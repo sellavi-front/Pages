@@ -89,13 +89,7 @@ window.onload = () => {
       </div>
     `
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
-    document.querySelector(".categories__container").insertAdjacentHTML("afterbegin", categories.forEach(
-      category => {
-        `<div class="categories__container__item">
-                <h4><a href="${category.link}">${category.name}</a></h4>
-          </div>
-      `
-      }).outerHTML)
+    document.querySelector(".categories__container").innerHTML(categories)
 
     /*${categories.forEach(
           category => {
