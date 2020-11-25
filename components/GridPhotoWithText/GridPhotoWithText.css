@@ -15,6 +15,7 @@
 @media (max-width: 500px) {
   .grid-photo {
     height: 400px;
+    display: none;
   }
 
   .grid-photo__container {
