@@ -13,3 +13,12 @@ span.arrow {
 .sf-menu>.flexy.has_children {
     padding-left: 0px;
 }
+
+.widget.shop-categories ul .arrow, .widget.side-categories ul .arrow {
+    margin-right: 10px;
+}
+
+.widget.shop-categories ul ul.children a, .widget.side-categories ul ul.children a {
+    margin-left: 30px;
+    font-weight: 500;
+}

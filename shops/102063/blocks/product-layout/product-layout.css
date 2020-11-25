@@ -89,3 +89,12 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     margin-bottom: -100px !important;
   }
 }
+
+.product-item {
+  border: 2px solid #d4d4d470;
+  margin: -1px;
+}
+
+.caption.text-center {
+  max-height: fit-content !important;
+}
