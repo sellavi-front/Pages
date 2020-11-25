@@ -34,3 +34,7 @@ span.arrow {
 #sidebar > div > div > ul > li:nth-child(7) {
     display: none;
 }
+
+.row.products.grid {
+    padding-top: 20px;
+}
