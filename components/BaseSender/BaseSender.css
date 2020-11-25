@@ -1,6 +1,6 @@
 .sender {
-  padding: 0 0 10px 47px;
-  margin: 0;
+  padding: 0;
+  margin: 50px 0 0;
   max-width: 850px;
   width: 100%;
 }
@@ -17,18 +17,15 @@
   position: relative;
   display: flex;
   align-items: center;
-  height: 40px;
-  border-radius: 30px;
+  height: 78px;
+  border-radius: 64px;
 }
 
 .sender__form_input {
+  max-width: 848px;
   width: 100%;
-  position: absolute;
-  border: 1px solid #807c7c;
-  border-radius: inherit;
-  background: 0;
-  height: 100%;
-  padding-left: 3%;
+
+  background: #424242;
 }
 
 .sender__form_input::placeholder {
@@ -40,7 +37,7 @@
 
 .sender__form_btn {
   position: absolute;
-  background: linear-gradient(90deg, #41d381 4.19%, #36a4c7 100%);
+  background: #fff;
   border: none;
   padding: 0;
   max-width: 240px;
@@ -48,6 +45,6 @@
   right: 0;
   top: 0;
   border-radius: inherit;
-  font-size: 16px;
-  color: white;
+  font-size: 24px;
+  color: black;
 }

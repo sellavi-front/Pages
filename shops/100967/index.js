@@ -7,6 +7,7 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import BaseSender from '../../components/BaseSender/BaseSender.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
@@ -33,6 +34,13 @@ if (document.querySelector('.wrapper')) {
 
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+
+  const baseSender = new BaseSender(
+    document.querySelector('.footer-widgets>.container'),
+    'afterbegin',
+  );
+
+  baseSender.render();
 
   buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
