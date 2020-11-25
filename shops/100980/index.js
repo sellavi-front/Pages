@@ -97,17 +97,17 @@ window.onload = () => {
             <div class="footer__container__data__column">
                 <div class="footer__container__data__column__item">
                 <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/Vectoremail.png" alt="email" />
-                    zakaz@tradequip.ru
+                    <h6>zakaz@tradequip.ru</h6>
                 </div>
                 <div class="footer__container__data__column__item">
                 <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/wa-footer.png" alt="phone" />
-                    +7 (495) 989-98-28
+                    <h6>+7 (495) 989-98-28</h6>
                 </div>
             </div>
             <div class="footer__container__data__column">
                 <div class="footer__container__data__column__item">
                 <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/VectorBW.png" alt="email" />
-                    Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00
+                    <h6>Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00</h6>
                 </div>
             </div>
         </div>
