@@ -30,7 +30,7 @@ if (document.querySelector('.wrapper')) {
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
-  const footerRow = document.querySelector("#home > div > footer > div.footer-widgets > div.container > div");
+  const footerRow = document.querySelector("footer > div.footer-widgets > div.container > div");
 
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
