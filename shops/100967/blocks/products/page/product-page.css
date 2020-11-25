@@ -1,3 +1,8 @@
 .tab-pane {
   margin-top: 95px;
 }
+
+.product-single > .col-lg-6 {
+  flex: 0 0 48% !important;
+  max-width: 48% !important;
+}
