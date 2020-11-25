@@ -16,7 +16,7 @@ const defaultOptions = {
       items:2
     },
     768:{
-      items:43
+      items:3
     },
     1180:{
       items:5
