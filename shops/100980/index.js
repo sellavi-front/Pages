@@ -21,6 +21,7 @@ window.onload = () => {
   `*/
   //logo.insertAdjacentHTML("beforeend", navbar)
   if(window.location.origin || window.location.origin + '?/from_admin') {
+    let customBanner = document.querySelector(".custom_banner")
     let bannerLayout = `
     <div class="banner__container">
         <div class="banner__item">
