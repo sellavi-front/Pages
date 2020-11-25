@@ -57,3 +57,16 @@
   color: black;
   padding: 0 5%;
 }
+
+
+@media (max-width: 768px) {
+  .sender__form {
+    height: 51px;
+    width: 100%;
+  }
+
+  .sender__form_input::placeholder,
+  .sender__form_btn {
+    font-size: 16px;
+  }
+}
