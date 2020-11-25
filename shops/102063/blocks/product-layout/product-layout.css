@@ -100,7 +100,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 }
 
 .thumbnail .price {
-  margin-bottom: 0px;
-  display: flex;
-  align-items:center;
+  margin-bottom: 0px !important;
+  display: flex !important;
+  align-items:center !important;
 }
