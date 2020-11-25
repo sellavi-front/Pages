@@ -40,8 +40,15 @@ if (document.querySelector('.wrapper')) {
     'afterbegin',
   );
 
-  baseSender.render();
+  const socialIconsTypeOne = new SocialIconsTypeOne(
+    document.querySelector('.footer-widgets>.container'),
+    'beforeEnd',
 
+  );
+
+  // FOOTER
+  baseSender.render();
+  socialIconsTypeOne.render();
   buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
 
@@ -94,11 +101,6 @@ if (document.querySelector('.common-home')) {
 
   );
 
-  const socialIconsTypeOne = new SocialIconsTypeOne(
-    document.querySelector('.footer-widgets>.container'),
-    'beforeEnd',
-
-  );
 
   advantagesTypeOne.render();
   contentBanner.render();
@@ -106,9 +108,6 @@ if (document.querySelector('.common-home')) {
   imgNearText.render();
   historyLine.render();
   gridPhotoWithText.render();
-
-  // FOOTER
-  socialIconsTypeOne.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 
