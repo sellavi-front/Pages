@@ -119,8 +119,16 @@ if (document.querySelector('.product-product')) {
   const description = document.querySelector('.tab-pane');
   const productContainer = document.querySelector('.product-single');
   const model = document.querySelector('.table_holder');
+  const addReview = document.querySelector('.add-review');
+  const rating = document.querySelector('.rating');
+  const reviews = document.querySelector('.reviews');
+  const ratingArr = [rating, reviews];
 
   productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
+
   model.remove();
   description.remove();
+  addReview.remove();
+  rating.remove();
+  reviews.remove();
 }
