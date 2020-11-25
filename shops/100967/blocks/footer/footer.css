@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+.footer-meta {
+  background: transparent !important;
+}
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
