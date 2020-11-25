@@ -17,7 +17,7 @@ window.onload = () => {
   deleteProductsClasses.findAndDelete()
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
-  if(location.href === 'https://store102054.sellavi.com/' || location.href === 'https://store102054.sellavi.com/?from_admin') {
+  if(location.href === 'https://whitemoon.shop/' || location.href === 'https://whitemoon.shop/?from_admin') {
     /* Setting a color of cart and search button */
     document.querySelector("#cart").style.cssText = 'color: #fff'
     document.querySelector("#search > button > i").style.cssText = 'color: #fff'
@@ -82,8 +82,8 @@ window.onload = () => {
         <a>Доставка</a>
       </div>
     </div>
-    <a class="navbar_item" href="https://store102054.sellavi.com/man/">Мужчинам</a>
-    <a class="navbar_item" href="https://store102054.sellavi.com/woman/">Женщинам</a>
+    <a class="navbar_item" href="https://whitemoon.shop/man/">Мужчинам</a>
+    <a class="navbar_item" href="https://whitemoon.shop/woman/">Женщинам</a>
   `
     logo.insertAdjacentHTML("beforeend", navbar)
     document.querySelector(".search_field>input").placeholder = "";
@@ -163,13 +163,13 @@ window.onload = () => {
   footerMeta.insertAdjacentHTML("beforeend", footerMetaDocs)
 
 
-  if(location.href === 'https://store102054.sellavi.com/man/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3489') {
+  if(location.href === 'https://whitemoon.shop/man/' || location.href === 'https://whitemoon.shop/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
     document.querySelector("#cart").style.cssText = 'color: #333'
     document.querySelector("#content > div").setAttribute("class", "container-fluid")
   }
 
-  if(location.href === 'https://store102054.sellavi.com/woman/' || location.href === 'https://store102054.sellavi.com/index.php?route=product/category&path=3490') {
+  if(location.href === 'https://whitemoon.shop/woman/' || location.href === 'https://whitemoon.shop/index.php?route=product/category&path=3490') {
     document.querySelector("#search").remove()
     document.querySelector("#cart").style.cssText = 'color: #333'
     document.querySelector("#content > div").setAttribute("class", "container-fluid")
