@@ -1,4 +1,3 @@
-
 .product-product .product-single {
   justify-content: space-between;
   padding-bottom: 100px !important;
@@ -26,7 +25,7 @@ body .section-title.section-title-lg {
   font-weight: normal;
   text-transform: none;
   border: none;
-  padding: ;
+  padding: 5px 10px;
 }
 
 .content-tabs .nav-tabs > li > a.active {
@@ -43,8 +42,6 @@ body .section-title.section-title-lg {
 .featured-products-carousel .bx-wrapper {
   margin: 0 auto;
 }
-
-
 
 @media (max-width: 768px) {
   .product-product .product-single {
