@@ -5,7 +5,8 @@
 @import './page/product-page.css';
 
 .content-area .products .product-item,
-.featured-products .product-item {
+.featured-products .product-item,
+.bx_product_featured .product-item {
   max-width: 412px !important;
   max-height: 750px;
   width: 100% !important;
