@@ -2,7 +2,7 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
-import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js'
+import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
@@ -31,7 +31,7 @@ if (document.querySelector('.wrapper')) {
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
-  const footerRow = document.querySelector("footer > div.footer-widgets > div.container > div");
+  const footerRow = document.querySelector('footer > div.footer-widgets > div.container > div');
 
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
@@ -44,8 +44,14 @@ if (document.querySelector('.wrapper')) {
   const socialIconsTypeOne = new SocialIconsTypeOne(
     document.querySelector('.footer-widgets>.container'),
     'beforeEnd',
-
   );
+
+  const customSection = document.querySelector('.custom_section');
+
+  const slider = new SmallImgSlider(data, customSection);
+
+  slider.setTemplate();
+  slider.setOptions(optionSlider);
 
   // FOOTER
   baseSender.render();
@@ -99,9 +105,7 @@ if (document.querySelector('.common-home')) {
   const gridPhotoWithText = new GridPhotoWithText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
-
   );
-
 
   advantagesTypeOne.render();
   contentBanner.render();
@@ -115,6 +119,14 @@ if (document.querySelector('.common-home')) {
   // Коробка которая вылезает за баннер
   bannerContentItemImg.insertAdjacentHTML(
     'afterbegin',
-        `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
+    `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
   );
+}
+
+if (document.querySelector('.product-product')) {
+  const description = document.querySelector('.tab-pane');
+  const productContainer = document.querySelector('.product-single');
+
+  productContainer.insertAdjacentHTML('beforeend', description);
+
 }
