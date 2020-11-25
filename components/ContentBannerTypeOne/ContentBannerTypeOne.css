@@ -23,6 +23,8 @@
   width: 100%;
   max-width: 465px;
   color: white;
+  position: relative;
+  z-index: 123;
 }
 
 .banner-content__item_title {
@@ -50,4 +52,10 @@
 
 .banner-content__item_button span {
   color: white;
+}
+
+.banner-content__item_bg {
+  z-index: 1;
+  position: relative;
+  opacity: .8;
 }
