@@ -105,7 +105,7 @@ window.onload = () => {
             </div>
             <div class="footer__container__data__column">
                 <div class="footer__container__data__column__item">
-                <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/icons8-whatsapp 1wafooter.png" alt="email" />
+                <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/wa-footer.png" alt="email" />
                     Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00
                 </div>
             </div>
