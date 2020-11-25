@@ -6,6 +6,7 @@
 .info-card__container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .info-card__title {
