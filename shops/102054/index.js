@@ -126,7 +126,7 @@ window.onload = () => {
 
     let productsBlock = `
     <div class="products__block">
-        <div class="products__block__banner"><img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" /></div>
+        <div class="products__block__banner"><img alt="photo" src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" /></div>
         <div class="products__block__items"></div>
     </div>
   `
@@ -155,9 +155,9 @@ window.onload = () => {
   let footerMeta = document.querySelector(".footer_content_text")
   let footerMetaDocs = `
   <div class="docs__meta">
-  <a href="https://store102054.sellavi.com/terms-of-use/">Пользовательское соглашение</a>
-  <a href="https://store102054.sellavi.com/terms-of-return/">Условия возврата</a>
-  <a href="https://store102054.sellavi.com/delivery/">Доставка и оплата</a>
+  <a href="https://whitemoon.shop/terms-of-use/">Пользовательское соглашение</a>
+  <a href="https://whitemoon.shop/terms-of-return/">Условия возврата</a>
+  <a href="https://whitemoon.shop/delivery/">Доставка и оплата</a>
   </div>
   `
   footerMeta.insertAdjacentHTML("beforeend", footerMetaDocs)
