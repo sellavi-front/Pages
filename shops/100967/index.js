@@ -115,6 +115,9 @@ if (document.querySelector('.common-home')) {
   // Коробка которая вылезает за баннер
   bannerContentItemImg.insertAdjacentHTML(
     'afterbegin',
-    `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
+    `<picture>
+        <source media="max-width: 768px" srcset="https://res.cloudinary.com/gz-company/image/upload/v1606305794/Miru/assets/Mock%D0%B0%D0%B2%D0%BF%D0%B2%D0%B0%D0%BFup_3_1_gllp5y.png">
+        <img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">
+      </picture>`,
   );
 }
