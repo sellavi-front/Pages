@@ -19,7 +19,7 @@ const defaultData = [
   },
 ];
 
-export default class SocialIconsTypeOne {
+export default class SocIconsTypeOne {
   constructor(container, target, data = null || undefined) {
     this.target = target;
     this.container = container;
@@ -28,9 +28,9 @@ export default class SocialIconsTypeOne {
 
   setTemplate() {
     return `
-        <div class="social-icons">
+        <div class="soc-icons">
           <div class="container">
-            <div class="social-icons__container">
+            <div class="soc-icons__container">
               ${this.setData(this.data).join('')}
             </div>
           </div>
@@ -41,9 +41,9 @@ export default class SocialIconsTypeOne {
   setData() {
     return this.data.map(
       (item) => `
-        <div class="social-icons__item">
+        <div class="soc-icons__item">
           <a href="${item.link}">
-            <img class="social-icons__item_icon" src="${item.src}">
+            <img class="soc-icons__item_icon" src="${item.src}">
           </a>
         </div>
       `,
