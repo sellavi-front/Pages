@@ -45,3 +45,9 @@ body .section-title.section-title-lg {
 .featured-products-carousel .bx-wrapper {
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .product-product .product-single {
+    flex-direction: column;
+  }
+}

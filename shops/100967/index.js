@@ -128,7 +128,7 @@ if (document.querySelector('.product-product')) {
   const social = document.querySelector('.share_page_wrapper');
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('afterend', ratingArr.map( item => item.outerHTML);
+  productAvailability.insertAdjacentHTML('afterend', ratingArr.map( item => item.outerHTML));
 
   model.remove();
   description.remove();
