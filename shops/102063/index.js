@@ -51,6 +51,7 @@ if (document.querySelector('.common-home')) {
 
 }
 
+document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div>Text</div>');
 
 
 /* description */
@@ -60,4 +61,3 @@ document.querySelector(".product-item").insertAdjacentHTML("afterend", newNode.o
 oldNode.remove()
 
 
-document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div>Text</div>');
