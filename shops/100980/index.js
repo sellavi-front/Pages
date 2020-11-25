@@ -1,6 +1,6 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import getCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
-import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
+//import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
 
 window.onload = () => {
   /* Deleting burger */
@@ -84,8 +84,8 @@ window.onload = () => {
     document.querySelector(".row.products.grid").remove()
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
     let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-    let categories = new GetCategoriesFromNavbar(nodeList)
-    categories.getCategoriesFromNavbar()
+    //let categories = new GetCategoriesFromNavbar(nodeList)
+    //categories.getCategoriesFromNavbar()
 
     let categoriesLayout = `
       <div class="categories__container">
