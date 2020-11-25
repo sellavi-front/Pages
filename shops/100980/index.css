@@ -311,6 +311,12 @@ body .footer .footer-widgets {
   z-index: 1;
 }
 
+.menu__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 
 /* End */
