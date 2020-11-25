@@ -299,6 +299,20 @@ body .footer .footer-widgets {
   height: 25px;
 }
 
+.footer__logo {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 70%;
+  height: 295px;
+}
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(2) {
+  z-index: 1;
+}
+
+
+
 /* End */
 
 @media only screen and (max-device-width : 320px) {
