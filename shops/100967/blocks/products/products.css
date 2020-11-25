@@ -16,3 +16,7 @@
 .products {
   justify-content: center !important;
 }
+
+.thumbnail .price {
+  font-size: 22px !important;
+}
