@@ -127,7 +127,7 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const social = document.querySelector('.share_page_wrapper');
 
-  productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
+  productContainer.insertAdjacentHTML('afterend', description.outerHTML);
   productAvailability.insertAdjacentHTML('afterend', ratingArr.map( item => item.outerHTML);
 
   model.remove();
