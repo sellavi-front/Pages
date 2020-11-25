@@ -3,8 +3,9 @@
 @import './buttons/bth-whishlist.css';
 @import './buttons/button-container.css';
 @import './page/product-page.css';
-/* .content-area  */
-.page-section .product-item {
+
+.content-area .page-section .product-item,
+.featured-products .product-item {
   max-width: 412px !important;
   max-height: 750px;
   width: 100% !important;
