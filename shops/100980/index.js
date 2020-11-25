@@ -89,7 +89,7 @@ window.onload = () => {
       </div>
     `
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
-    document.querySelector(".categories__container").innerHTML(categories)
+    document.querySelector(".categories__container").innerHTML = JSON.stringify(categories)
 
     /*${categories.forEach(
           category => {
