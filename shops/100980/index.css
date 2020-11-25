@@ -317,6 +317,10 @@ body .footer .footer-widgets {
   justify-content: space-between;
 }
 
+.menu__footer a {
+  color: #fff !important;
+}
+
 
 
 /* End */
