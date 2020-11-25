@@ -19,3 +19,8 @@
   top: -215px;
   z-index: 1111;
 }
+
+.banner-content__item_title > b {
+  font-size: 34px;
+  font-weight: bold;
+}
