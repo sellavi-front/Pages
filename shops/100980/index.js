@@ -116,6 +116,15 @@ window.onload = () => {
   `
   //oldFooterMeta.remove()
   document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("afterbegin", footerLayout)
-
-
+  let footerMenuLayout = `
+    <div class="menu__footer">
+        <a href="#">Test 1</a>
+        <a href="#">Test 1</a>
+        <a href="#">Test 1</a>
+        <a href="#">Test 1</a>
+        <a href="#">Test 1</a>
+        <a href="#">Test 1</a>
+    </div>
+  `
+  document.querySelector(".footer>.footer-meta>.container").insertAdjacentHTML("afterbegin", footerMenuLayout)
 }
