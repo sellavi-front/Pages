@@ -15,3 +15,9 @@ body .section-title.section-title-lg {
   border-bottom: none;
   height: auto !important;
 }
+
+.content-tabs .tab-content {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
