@@ -1,7 +1,7 @@
 const dataSmallCat = [
   {
     href: '#',
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606298077/ustanovka-filtra-vody_a0x5gn.jpg',
+    src: 'https://images.unsplash.com/photo-1526868452228-6590028c2fac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
     title: 'Очистка воды в квартиры',
   },
   {
