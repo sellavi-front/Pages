@@ -2,6 +2,10 @@
   margin-top: 95px;
 }
 
+.product-product .product-single {
+  justify-content: space-between;
+}
+
 .product-single > .col-lg-6 {
   flex: 0 0 48% !important;
   max-width: 48% !important;
