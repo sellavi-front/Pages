@@ -6,6 +6,7 @@ import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
@@ -85,12 +86,21 @@ if (document.querySelector('.common-home')) {
 
   );
 
+  const socialIconsTypeOne = new SocialIconsTypeOne(
+    document.querySelector('.footer-widgets>.container'),
+    'beforeEnd',
+
+  );
+
   advantagesTypeOne.render();
   contentBanner.render();
   infoCardTypeOne.render();
   imgNearText.render();
   historyLine.render();
   gridPhotoWithText.render();
+
+  // FOOTER
+  socialIconsTypeOne.render();
 
   const bannerContentItemImg = document.querySelector('.banner-content__item');
 
