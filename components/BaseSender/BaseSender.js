@@ -1,9 +1,10 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class BaseSender {
-  constructor(container, target, data = null || undefined) {
+  constructor(container, target, data = undefined) {
     this.target = target;
     this.container = container;
+    this.data = data;
   }
 
   setTemplate() {
@@ -36,26 +37,5 @@ export default class BaseSender {
       this.setTemplate(),
     );
     createAddContainer.render();
-  }
-}
-
-
-export default class SenderTypeOne {
-  contentDefault = {
-    title: 'Подписка на новости',
-    text: 'Получайте письма с последними новинками, акциями и розыгрышами. Вы можете отписаться в любой момент',
-  }
-
-  constructor(container, content = this.contentDefault) {
-    this.container = container;
-    this.content = content;
-  }
-
-  _template() {
-
-  }
-
-  render() {
-    this.container.insertAdjacentHTML('afterBegin', this._template());
   }
 }
