@@ -4,6 +4,7 @@
 
 .product-product .product-single {
   justify-content: space-between;
+  padding-bottom: 100px !important;
 }
 
 .product-single > .col-lg-6 {
