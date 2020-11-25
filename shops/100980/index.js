@@ -20,7 +20,8 @@ window.onload = () => {
     <a class="navbar_item" href="#">Контакты</a>
   `*/
   //logo.insertAdjacentHTML("beforeend", navbar)
-  let bannerLayout = `
+  if(window.location.origin || window.location.origin + '?/from_admin') {
+    let bannerLayout = `
     <div class="banner__container">
         <div class="banner__item">
           <div class="banner__column">
@@ -54,7 +55,7 @@ window.onload = () => {
           </div>
         </div>
     </div>`
-  let contentLayoutOne = `
+    let contentLayoutOne = `
     <div class="content__layout__container">
         <div class="container">
         <div class="content__layout__container__item">
@@ -76,8 +77,11 @@ window.onload = () => {
     </div>
   `
 
-  customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
-  customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+    customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
+    customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+  }
+
+
 
   /* Delete footer content */
   document.querySelector(".footer>.footer-widgets>.container>.row").remove()
