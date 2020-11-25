@@ -1,3 +1,11 @@
 span.arrow {
     padding-left: 10px;
 }
+
+#home > div > div > div.custom_section {
+    overflow: hidden;
+}
+
+#home > div > header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > i {
+    display: none;
+}
