@@ -122,4 +122,5 @@ if (document.querySelector('.product-product')) {
 
   productContainer.insertAdjacentHTML('beforeend', description.outerHTML);
   model.remove();
+  description.remove();
 }
