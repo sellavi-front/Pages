@@ -53,4 +53,8 @@
     max-height: 405px;
     height: auto;
   }
+
+  .info-card__item {
+    margin-right: 0;
+  }
 }
