@@ -126,7 +126,8 @@ if (document.querySelector('.common-home')) {
 if (document.querySelector('.product-product')) {
   const description = document.querySelector('.tab-pane');
   const productContainer = document.querySelector('.product-single');
+  const model = document.querySelector('.table_holder');
 
   productContainer.insertAdjacentHTML('beforeend', description);
-
+  model.remove();
 }
