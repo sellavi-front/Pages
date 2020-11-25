@@ -64,5 +64,13 @@
 
   .history__item_img {
     margin: 0 10px;
+    width: 70px;
+  }
+
+  .history__item_line {
+    width: 25px;
+  }
+  .history__item {
+    height: 97px;
   }
 }
