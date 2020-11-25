@@ -1,7 +1,7 @@
 const dataSmallCat = [
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606298077/ustanovka-filtra-vody_a0x5gn.jpg',
     title: 'Очистка воды в квартиры',
   },
   {
