@@ -4,7 +4,7 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 window.onload = () => {
   /* Deleting burger */
   //document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
-
+  const mainPage = 'https://store100980.sellavi.com/'
   /* Setting logo */
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
   let customBanner = document.querySelector(".custom_banner")
@@ -20,7 +20,7 @@ window.onload = () => {
     <a class="navbar_item" href="#">Контакты</a>
   `*/
   //logo.insertAdjacentHTML("beforeend", navbar)
-  if(window.location.origin || window.location.origin + '?/from_admin') {
+  if(!(window.location.href.length > window.location.origin)) {
     let customBanner = document.querySelector(".custom_banner")
     let bannerLayout = `
     <div class="banner__container">
