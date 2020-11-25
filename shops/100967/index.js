@@ -119,6 +119,7 @@ if (document.querySelector('.product-product')) {
   const description = document.querySelector('.tab-pane');
   const productContainer = document.querySelector('.product-single');
   const model = document.querySelector('.table_holder');
+  const productRating = document.querySelector('.product-rating');
   const productAvailability = document.querySelector('.product-availability');
   const addReview = document.querySelector('.add-review');
   const rating = document.querySelector('.rating');
@@ -133,5 +134,6 @@ if (document.querySelector('.product-product')) {
   addReview.remove();
   rating.remove();
   reviews.remove();
+  productRating.remove();
   console.log(ratingArr);
 }
