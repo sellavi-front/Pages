@@ -1,0 +1,47 @@
+.history__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+
+.history__item {
+  height: 187px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history__item_img {
+  margin: 0 55px;
+  width: 140px;
+  height: 120px;
+}
+
+.history__item_date {
+  margin: 0 10px 0 0;
+}
+
+.history__item_line {
+  width: 44px;
+  height: 100%;
+}
+
+.history__item_text {
+  max-width: 750px;
+}
+
+.history__item_text_title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
