@@ -79,6 +79,8 @@ window.onload = () => {
   `
     customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
     customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+    document.querySelector(".section-title.mb-4.mt-4").remove()
+    document.querySelector(".row.products.grid").remove()
   }
 
 
