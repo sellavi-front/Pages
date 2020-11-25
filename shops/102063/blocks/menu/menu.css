@@ -38,3 +38,13 @@ span.arrow {
 .row.products.grid {
     padding-top: 20px;
 }
+
+#home > div > header > div.navigation-wrapper > div:nth-child(1) {
+    color: white;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    top: 135px;
+    left: 250px;
+ }
