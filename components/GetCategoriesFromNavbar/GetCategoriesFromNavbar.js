@@ -12,7 +12,7 @@ export default class GetCategoriesFromNavbar {
   getCategoriesFromNavbar() {
     return this.list.map((item, index) => {
        return {
-            img: this.arr[index],
+            img: !this.arr[index] ? 'default' : this.arr[index],
             name: item.firstElementChild.outerHTML
        }
     })
