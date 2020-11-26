@@ -98,6 +98,7 @@ window.onload = () => {
     ]
     let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
     categories.render()
+    document.querySelector(".custom_section").classList.add("container")
     //let categoriesLayout = categories.render()
     //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
 
