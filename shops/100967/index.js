@@ -153,7 +153,7 @@ if (document.querySelector('.product-product')) {
   const priceCont = document.querySelector('.price-cont');
 
   priceCont.insertAdjacentHTML('afterbegin', getOuterHTML(titleCont).join(''));
-  commentMeta.insertAdjacentHTML('beforeend', date);
+  commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
 
   ratingArr.forEach(el => el.remove());
 
