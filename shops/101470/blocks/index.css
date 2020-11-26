@@ -19,6 +19,7 @@
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
 
 @import './footer/footer.css';
+@import './header/navigation.css';
 
 body h1,
 body h2,
