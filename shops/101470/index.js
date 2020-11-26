@@ -53,6 +53,7 @@ if (document.querySelector('.wrapper')) {
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
+  const cartLink = document.querySelector("#cart>i");
 
   const forDelete = [icoUser, cartText, navigation, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
@@ -66,7 +67,8 @@ if (document.querySelector('.wrapper')) {
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
 
-
+  cartLink.insertAdjacentHTML('beforebegin', '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">')
+  cartLink.remove();
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
 
