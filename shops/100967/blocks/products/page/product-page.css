@@ -55,6 +55,7 @@ body > div > div > section:nth-child(1) > div > div.row.product-single.product-i
 
 .product-title {
   margin-top: 0;
+  font-size: 22px;
 }
 
 @media (max-width: 768px) {
