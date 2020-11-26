@@ -13,12 +13,12 @@
   }
 
   #home > div > header > div.header-wrapper > div.container-fluid > div.logo {
-    height: 100px;
+    height: 100px !important;
 }
 
 #home > div > header > div.header-wrapper > div.container-fluid > div.logo > a > img {
-    width: 120px;
-    max-height: none;
+    width: 120px !important;
+    max-height: none !important;
 }
 
 
@@ -27,6 +27,6 @@
 }
 
 .fa-shopping-cart:before {
-    content: "\f07a";
-    font-size: 25px;
+    content: "\f07a" !important;
+    font-size: 25px !important;
 }
