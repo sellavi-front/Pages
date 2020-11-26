@@ -18,6 +18,7 @@ import dataBannerContent from './utils/dataBannerContent.js';
 import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
 import historyData from './utils/historyData.js';
+import defaultIcons from './utils/icons.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -37,7 +38,7 @@ if (document.querySelector('.wrapper')) {
   const notActiveLink = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a");
   const link = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a")
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+  const buttonsInHeader = new ButtonListInHeader(headerWrapper, defaultIcons);
 
   const baseSender = new BaseSender(
     document.querySelector('.footer-widgets>.container'),
