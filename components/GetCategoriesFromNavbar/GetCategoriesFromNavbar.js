@@ -16,8 +16,9 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 export default class GetCategoriesFromNavbar {
   constructor(list) {
     this.list = list;
-    /*this.target = target;
-    this.container = container;*/
+    this.data = data;
+    this.target = target;
+    this.container = container;
   }
 
   getCategoriesFromNavbar() {
@@ -31,11 +32,11 @@ export default class GetCategoriesFromNavbar {
   }
 
   setTemplate() {
-    /*return `
+    return `
         <div class="categories__container">
           ${this.setData(this.data).join('')}
         </div>
-    `*/
+    `
     console.log(this.getCategoriesFromNavbar())
   }
 
