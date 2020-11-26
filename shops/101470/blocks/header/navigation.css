@@ -59,3 +59,8 @@
 #search > div.search_close.d-block.d-lg-none > i {
   display: none;
 }
+
+.widget.side-categories ul ul.children {
+  display: flex;
+  flex-direction: column;
+}
