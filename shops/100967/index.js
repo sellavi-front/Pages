@@ -125,8 +125,8 @@ if (document.querySelector('.product-product')) {
   const productRating = document.querySelector('.product-rating');
   const productAvailability = document.querySelector('.product-availability');
   const addReview = document.querySelector('.add-review');
-  const rating = document.querySelector('.rating');
-  const reviews = document.querySelector('.reviews');
+  const rating = document.querySelector("body > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.rating.d-inline-block");
+  const reviews = document.querySelector('body > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > a');
   const ratingArr = [rating, reviews];
   const social = document.querySelector('.share_page_wrapper');
 
