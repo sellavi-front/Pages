@@ -40,7 +40,7 @@ export default class GetCategoriesFromNavbar {
     return this.getCategoriesFromNavbar().map(
       (item) => `
         <div class="categories__container__item">
-          ${item.name.setAttribute("class", "category__name")}
+          ${item.name}
         </div>
       `,
     );
