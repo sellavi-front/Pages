@@ -128,8 +128,7 @@ if (document.querySelector('.product-product')) {
   const rating = document.querySelector('.rating');
   const reviews = document.querySelector('.reviews');
   const title = document.querySelector('.product-title');
-  const date = document.querySelector('#review > div.comments > div > div > span');
-  const commentMeta = document.querySelector('#review > div.comments > div > div > p.comment-meta');
+
 
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
@@ -153,7 +152,6 @@ if (document.querySelector('.product-product')) {
   const priceCont = document.querySelector('.price-cont');
 
   priceCont.insertAdjacentHTML('afterbegin', getOuterHTML(titleCont).join(''));
-  commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
 
   ratingArr.forEach(el => el.remove());
 
@@ -161,4 +159,11 @@ if (document.querySelector('.product-product')) {
   document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)").childNodes[3].remove();
 
   document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a").text.substr(0,2);
+
+  if (document.querySelector('.comments')) {
+    const date = document.querySelector('#review > div.comments > div > div > span');
+    const commentMeta = document.querySelector('#review > div.comments > div > div > p.comment-meta');
+    commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
+
+  }
 }
