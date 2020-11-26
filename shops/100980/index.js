@@ -7,6 +7,7 @@ window.onload = () => {
   //document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
 
   /* Setting logo */
+  document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")

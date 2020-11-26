@@ -31,10 +31,12 @@ input.form-control::placeholder,
 .navbar__block {
   display: flex;
   justify-content: flex-start;
+  margin: 0;
+  width: 100%;
 }
 
 .navbar_item {
-  padding: 32px;
+  padding: 10%;
   color: #000;
 }
 
