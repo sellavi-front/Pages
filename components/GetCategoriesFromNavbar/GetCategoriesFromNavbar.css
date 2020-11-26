@@ -27,8 +27,9 @@
   padding: 25px;
 }
 
-.categories__container__item_column>img {
-  margin-top: 5%;
+.column__item_img {
+  display: flex;
+  width: 176px;
 }
 
 
