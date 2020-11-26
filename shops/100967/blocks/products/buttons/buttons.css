@@ -11,3 +11,7 @@ body .btn.btn-theme {
 .fa-stack {
   color: orange !important;
 }
+
+.product-product .product-single .buttons .quantity .qty {
+  margin: 0 3px;
+}
