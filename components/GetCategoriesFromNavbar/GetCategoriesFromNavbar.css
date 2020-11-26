@@ -44,8 +44,8 @@
   object-fit: contain;
 }
 
-.column__item_img h5 {
-
+.column__item_img h6 {
+  margin-top: 10%;
 }
 
 
