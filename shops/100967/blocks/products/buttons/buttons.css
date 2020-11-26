@@ -1,4 +1,5 @@
 .buttons .btn,
+.product-product .product-single .buttons .quantity .qty,
 body .btn.btn-theme {
   border-radius: 10px !important;
 }
