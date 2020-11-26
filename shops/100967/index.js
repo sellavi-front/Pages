@@ -141,5 +141,5 @@ if (document.querySelector('.product-product')) {
   productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr)}</div>`);
   createContainerForRaiting.render();
 
-  onDelete.remove();
+  deleteEl.remove();
 }
