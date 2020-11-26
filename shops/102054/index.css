@@ -275,14 +275,19 @@ body .section-title {
 
 .products__block__items {
   display: flex;
-  width: 100%;
+  width: 50%;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .products__block__banner img {
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.products__block__banner {
+  width: 50%;
 }
 
 .products__block__banner + .products__block__items {
