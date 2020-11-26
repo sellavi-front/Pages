@@ -23,13 +23,13 @@ export default class GetCategoriesFromNavbar {
 
   getCategoriesFromNavbar() {
     console.log(this.list)
-    return this.list.map((item, index) => {
+    return this.list.map(item => {
      this.object = {
-          name: item[index].firstElementChild.innerText,
-          link: item[index].firstElementChild.href
+          name: item.firstElementChild.innerText,
+          link: item.firstElementChild.href
       }
-      console.log(this.object)
     })
+
   }
 
   setTemplate() {
