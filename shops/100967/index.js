@@ -76,7 +76,7 @@ if (document.querySelector('.wrapper')) {
     el.removeAttribute('href');
   })
 
-  const qty = document.querySelector("#cart > span");
+  const qty = document.querySelector(".cart-qty-circle");
   const qtyNum = +qty.textContent.trim();
 console.log(qty);
   if (qtyNum > 0) {
