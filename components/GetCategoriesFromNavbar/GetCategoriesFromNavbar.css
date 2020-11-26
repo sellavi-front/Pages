@@ -27,6 +27,10 @@
   padding: 25px;
 }
 
+.categories__container__item_column>img {
+  margin-top: 5%;
+}
+
 
 .categories__container__item_column .arrow {
   display: none;
