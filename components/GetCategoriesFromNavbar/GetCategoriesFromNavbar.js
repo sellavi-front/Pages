@@ -36,7 +36,7 @@ export default class GetCategoriesFromNavbar {
             <img src="${item.img}" alt="img"/>
             <h5>${item.name}</h5>
         </div>
-      `,
+      `
     );
   }
 
