@@ -138,7 +138,7 @@ if (document.querySelector('.product-product')) {
   const deleteEl = new DeleteElements(onDelete);
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr)}</div>`);
+  productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr).join('')}</div>`);
   createContainerForRaiting.render();
 
   deleteEl.remove();
