@@ -142,6 +142,6 @@ if (document.querySelector('.product-product')) {
   createContainerForRaiting.render();
 
   console.log(rating.remove(), reviews.remove());
-  ratingArr.remove();
+  ratingArr.forEach(el => el.remove());
   deleteEl.remove();
 }
