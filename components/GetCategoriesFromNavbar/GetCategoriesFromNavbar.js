@@ -16,7 +16,6 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 export default class GetCategoriesFromNavbar {
   constructor(list) {
     this.list = list;
-    this.data = data;
     this.target = target;
     this.container = container;
   }
@@ -24,11 +23,9 @@ export default class GetCategoriesFromNavbar {
   getCategoriesFromNavbar() {
     return this.list.map(item => {
      return {
-          name: item.firstElementChild.innerText,
-          link: item.firstElementChild.href
+          name: item.firstElementChild.innerHTML
       }
     })
-
   }
 
   setTemplate() {
@@ -37,15 +34,13 @@ export default class GetCategoriesFromNavbar {
           ${this.setData(this.data).join('')}
         </div>
     `
-    console.log(this.getCategoriesFromNavbar())
   }
 
   setData() {
-    return this.data.map(
+    return this.getCategoriesFromNavbar().map(
       (item) => `
-        <div class="info-card__item">
-          <img src="${item.img}" alt="img" />
-          <h4><a href="${item.link}">${item.name}</a></h4>
+        <div class="categories__container__item">
+          ${item.name}
         </div>
       `,
     );
