@@ -75,6 +75,15 @@ if (document.querySelector('.wrapper')) {
   link.forEach(el => {
     el.removeAttribute('href');
   })
+
+  const qty = document.querySelector("#cart > span");
+  const qtyNum = +document.querySelector("#cart > span").textContent.trim();
+
+  if (qtyNum > 0) {
+    qty.style.background = 'rgba(240, 10, 10, .8);'
+  }
+
+
 }
 
 if (document.querySelector('.common-home')) {
