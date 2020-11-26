@@ -156,4 +156,7 @@ if (document.querySelector('.product-product')) {
 
   deleteEl.remove();
   document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)").childNodes[3].remove();
+
+  const textContReviews = document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a");
+  textContReviews.text.substr(0,2);
 }
