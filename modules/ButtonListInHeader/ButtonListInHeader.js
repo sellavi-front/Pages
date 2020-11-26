@@ -1,13 +1,13 @@
 import template from './template.js';
 
-const cart = document.querySelector('.header-cart')
+const cartt = document.querySelector('.header-cart')
 
 export default class ButtonListInHeader {
   constructor(container, icons) {
     this.container = container;
     this.host = location.host;
-    this.cart = cart;
-    this.template = template(icons, this.cart, this.host);
+    this.cartt = cartt;
+    this.template = template(icons, this.cartt, this.host);
   }
 
   setTemplate() {
