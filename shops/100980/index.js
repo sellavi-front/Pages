@@ -101,7 +101,7 @@ window.onload = () => {
         }
       </div>
     `*/
-    document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout.outerHTML)
+   // document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout.outerHTML)
   }
 
 
