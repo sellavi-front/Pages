@@ -12,3 +12,8 @@
     text-shadow: 0 1 black;
 }
 
+@media (max-device-width: 480px) {
+    div#banner0 {
+        display: none !important;
+    }
+}
