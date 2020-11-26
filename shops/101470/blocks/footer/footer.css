@@ -87,3 +87,26 @@ body .footer .footer-widgets {
 #home > div > div > section > div > div > div.col-lg-6.register_wrapper > form > div > div.col-md-12 {
   display: none;
 }
+
+@media (max-device-width: 480px) {
+  #home > div > footer > div.footer-widgets > div.container > div {
+      display: flex;
+      justify-content: center;
+  }
+
+  #home > div > footer > div.footer-meta {
+      display: flex;
+      justify-content: center !important;
+      align-items: center !important;
+      align-self: center;
+  }
+
+  #home > div > footer > div.footer-meta > div {
+      padding-left: 15px;
+  }
+
+  #home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > ul {
+      display: flex;
+      justify-content: center;
+  }
+}
