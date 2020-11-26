@@ -44,8 +44,8 @@
   object-fit: contain;
 }
 
-.column__item_img>h6 {
-  margin-top: 10%;
+.categories__container__item_column h6 {
+  margin-top: 10% !important;
   font-weight: 900;
 }
 
