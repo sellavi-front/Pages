@@ -84,6 +84,11 @@ if (document.querySelector('.wrapper')) {
 
 }
 
+const oldNode = document.querySelector('#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3) > a');
+let newNode = oldNode.cloneNode(true)
+document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div > ul").insertAdjacentHTML("beforeend", newNode.outerHTML)
+oldNode.remove()
+
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section>.container');
   const logo = document.querySelector('.logo > a > img');
@@ -130,7 +135,3 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
-const oldNode = document.querySelector('#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3) > a');
-let newNode = oldNode.cloneNode(true)
-document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div > ul").insertAdjacentHTML("beforeend", newNode.outerHTML)
-oldNode.remove()
