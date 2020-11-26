@@ -51,6 +51,9 @@ if (document.querySelector('.common-home')) {
 
 }
 
+document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div><a href="https://store102063.sellavi.com/">Главная</a></div>');
+
+
 /* description */
 const oldNode = document.querySelector('#tab-description');
 let newNode = oldNode.cloneNode(true)
