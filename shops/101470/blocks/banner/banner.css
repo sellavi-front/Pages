@@ -24,3 +24,8 @@
 .banner__caption a, .banner__caption h1 {
   color: #fff;
 }
+
+.main-slider .slide-img {
+  max-height: 850px;
+  object-fit: cover;
+}
