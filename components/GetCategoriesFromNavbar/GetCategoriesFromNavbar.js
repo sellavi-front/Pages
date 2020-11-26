@@ -21,7 +21,7 @@ export default class GetCategoriesFromNavbar {
   getCategoriesFromNavbar() {
     return this.list.map(item => {
      return {
-          name: item.firstElementChild
+          name: item.firstElementChild.outerHTML
       }
     })
   }
