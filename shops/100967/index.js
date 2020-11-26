@@ -128,8 +128,8 @@ if (document.querySelector('.product-product')) {
   const rating = document.querySelector('.rating');
   const reviews = document.querySelector('.reviews');
   const title = document.querySelector('.product-title');
-  const date = document.querySelector('#review>.comments>.comment>.comment-date');
-  const commentMeta = document.querySelector('#review>.comments>.comment>.comment-meta');
+  const date = document.querySelector('#review > div.comments > div > div > span');
+  const commentMeta = document.querySelector('#review > div.comments > div > div > p.comment-meta');
 
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
