@@ -155,4 +155,5 @@ if (document.querySelector('.product-product')) {
   ratingArr.forEach(el => el.remove());
 
   deleteEl.remove();
+  document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)").childNodes[3].remove();
 }
