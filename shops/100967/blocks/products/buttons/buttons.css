@@ -1,0 +1,8 @@
+.buttons .btn {
+  border-radius: 10px !important;
+}
+
+.buttons .quantity,
+.buttons .btn-cart {
+  margin-right: 10px !important;
+}
