@@ -84,10 +84,12 @@ window.onload = () => {
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
     let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
     let categories = new GetCategoriesFromNavbar(Array.from(nodeList))
-    categories.getCategoriesFromNavbar()
+    console.log(categories.getCategoriesFromNavbar())
 
-   let categoriesLayout = categories
-    console.log(categoriesLayout)/*`
+
+   //let categoriesLayout = categories
+    //console.log(categoriesLayout)
+    /*`
       <div class="categories__container">
         ${categories.forEach(
           category => {
