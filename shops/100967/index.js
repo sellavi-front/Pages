@@ -78,7 +78,7 @@ if (document.querySelector('.wrapper')) {
 
   const qty = document.querySelector(".cart-qty-circle");
   const qtyNum = +qty.textContent.trim();
-console.log(qty);
+console.log(qtyNum);
   if (qtyNum > 0) {
     qty.style.background = 'rgba(240, 10, 10, .8);'
   }
