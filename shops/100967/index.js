@@ -127,10 +127,14 @@ if (document.querySelector('.product-product')) {
   const addReview = document.querySelector('.add-review');
   const rating = document.querySelector('.rating');
   const reviews = document.querySelector('.reviews');
+  const title = document.querySelector('.product-title');
+
   const ratingArr = [rating, reviews];
+  const titleCont = [title, productAvailability];
+
   const social = document.querySelector('.share_page_wrapper');
 
-  const onDelete = [model, description, addReview, rating, reviews, productRating, social];
+  const onDelete = [model, description, addReview, rating, reviews, productRating, social, title, productAvailability];
 
   const getOuterHTML = (arr) => arr.map( item => item.outerHTML);
 
@@ -138,9 +142,16 @@ if (document.querySelector('.product-product')) {
   const deleteEl = new DeleteElements(onDelete);
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr).join('')}</div>`);
+  productAvailability.insertAdjacentHTML('afterend', `
+    <div class="price-cont">
+        ${getOuterHTML(titleCont).join('')}
+      <div class="rating-cont">${getOuterHTML(ratingArr).join('')}</div>
+    </div>`);
   createContainerForRaiting.render();
 
+  const priceCont = document.querySelector('.price-cont');
+
   ratingArr.forEach(el => el.remove());
+
   deleteEl.remove();
 }
