@@ -4,3 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.categories__container__item {
+  display: flex;
+  padding: 25px;
+}
