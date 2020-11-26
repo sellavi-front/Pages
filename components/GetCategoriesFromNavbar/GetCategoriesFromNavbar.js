@@ -18,16 +18,14 @@ export default class GetCategoriesFromNavbar {
     this.list = list;
     /*this.target = target;
     this.container = container;*/
-    this.object = {}
   }
 
   getCategoriesFromNavbar() {
     return this.list.map(item => {
-     this.object = {
+     return {
           name: item.firstElementChild.innerText,
           link: item.firstElementChild.href
       }
-      console.log(this.object)
     })
 
   }
