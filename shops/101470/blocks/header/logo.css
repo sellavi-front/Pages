@@ -11,3 +11,22 @@
       z-index: 999;
     }
   }
+
+  #home > div > header > div.header-wrapper > div.container-fluid > div.logo {
+    height: 100px;
+}
+
+#home > div > header > div.header-wrapper > div.container-fluid > div.logo > a > img {
+    width: 120px;
+    max-height: none;
+}
+
+
+#wishlist > i {
+    font-size: 30px !important;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+    font-size: 25px;
+}
