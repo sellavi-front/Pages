@@ -40,6 +40,11 @@
   display: none;
 }
 
+.header-cart .cart-wrapper .cart-qty-circle {
+  width: 22px;
+  border-radius: 10px;
+}
+
 @media (max-width: 991px) {
   .header-cart .cart-wrapper #cart {
     color: black !important;
