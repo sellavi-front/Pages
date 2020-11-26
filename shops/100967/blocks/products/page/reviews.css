@@ -1,0 +1,8 @@
+body.ltr #review .comments .comment .comment-meta:after,
+.comment-date {
+  display: none;
+}
+
+body#home .media.comment .media-body {
+  margin-left: 30px;
+}
