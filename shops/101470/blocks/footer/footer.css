@@ -83,3 +83,7 @@ body .footer .footer-widgets {
     justify-content: center !important;
   }
 }
+
+#home > div > div > section > div > div > div.col-lg-6.register_wrapper > form > div > div.col-md-12 {
+  display: none;
+}
