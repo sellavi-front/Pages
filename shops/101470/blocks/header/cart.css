@@ -25,6 +25,13 @@
   display: none;
 }
 
+.header-cart .cart-wrapper .cart-qty-circle {
+  right: -12px;
+  left: auto;
+  top: -9px;
+  color: white;
+}
+
 @media (max-width: 991px) {
   .header-cart .cart-wrapper #cart {
     color: black !important;
