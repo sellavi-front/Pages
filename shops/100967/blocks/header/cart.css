@@ -43,6 +43,7 @@
 .header-cart .cart-wrapper .cart-qty-circle {
   width: 22px;
   border-radius: 10px;
+  border: 2px solid white !important;
 }
 
 @media (max-width: 991px) {
