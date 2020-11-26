@@ -129,3 +129,8 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Аношин Дмитрий Андреевич', media);
   req.setTemplate();
 }
+
+const oldNode = document.querySelector('#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3) > a');
+let newNode = oldNode.cloneNode(true)
+document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div > ul").insertAdjacentHTML("beforeend", newNode.outerHTML)
+oldNode.remove()
