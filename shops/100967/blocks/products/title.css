@@ -15,3 +15,12 @@ body .section-title span:before {
 .section-title span {
   border: none !important;
 }
+
+body .content-area .page-section.titles {
+  border: none !important;
+  background: transparent !important;
+}
+
+body .content-area .page-section.titles h1 {
+  font-size: 46px !important;
+}
