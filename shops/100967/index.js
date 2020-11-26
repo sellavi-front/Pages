@@ -135,7 +135,7 @@ if (document.querySelector('.product-product')) {
   const getOuterHTML = (arr) => arr.map( item => item.outerHTML);
 
   const createContainerForRaiting = new CreateAddContainer(productAvailability, 'afterend', getOuterHTML(ratingArr));
-  const deleteEl = new DeleteElements(arr);
+  const deleteEl = new DeleteElements(onDelete);
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
   productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr)}</div>`);
