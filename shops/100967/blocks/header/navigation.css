@@ -73,6 +73,12 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
   color: black;
 }
 
+.sf-menu > li.megamenu > ul > li.megaline > div > div > span > a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8F8F8F;
+}
+
 @media (max-width: 1200px) {
       .sf-menu .megamenu > ul > .megaline {
              padding-left: 2% !important;
