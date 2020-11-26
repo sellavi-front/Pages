@@ -31,7 +31,7 @@ export default class GetCategoriesFromNavbar {
     return this.getCategoriesFromNavbar().map(
       (item) => `
         <div class="categories__container__item">
-        <p>${item.img}</p>
+        <img src="${item.img}" alt="img"/>
           ${item.name}
         </div>
       `,
