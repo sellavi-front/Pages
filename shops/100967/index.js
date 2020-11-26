@@ -78,7 +78,7 @@ if (document.querySelector('.wrapper')) {
 
   const qty = document.querySelector("#cart > span");
   const qtyNum = +qty.textContent.trim();
-
+console.log(qty);
   if (qtyNum > 0) {
     qty.style.background = 'rgba(240, 10, 10, .8);'
   }
