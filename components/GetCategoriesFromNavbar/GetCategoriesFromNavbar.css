@@ -38,6 +38,13 @@
 
 .column__item_img img {
   margin: 0 auto;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.column__item_img h5 {
+
 }
 
 
