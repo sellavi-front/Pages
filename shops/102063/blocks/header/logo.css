@@ -5,3 +5,11 @@
 /* #home > div > header > div.header-wrapper > div.container > div.logo > a > img {
   visibility: hidden;
 } */
+
+@media (max-device-width: 480px) {
+  #home > div > header > div.header-wrapper > div.container > div.logo {
+      position: relative;
+      left: 40px;
+      
+  }
+}
