@@ -32,7 +32,7 @@ export default class GetCategoriesFromNavbar {
   setTemplate() {
     return `
         <div class="categories__container">
-        <div class="categories__title">${this.title}</div>
+        <h2 class="categories__title">${this.title}</h2>
           ${this.setData().join('')}
         </div>
     `
