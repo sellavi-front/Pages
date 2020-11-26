@@ -6,3 +6,7 @@ body.ltr #review .comments .comment .comment-meta:after,
 body#home .media.comment .media-body {
   margin-left: 30px;
 }
+
+body .btn.btn-theme.btn-icon-left .fa {
+  display: none;
+}
