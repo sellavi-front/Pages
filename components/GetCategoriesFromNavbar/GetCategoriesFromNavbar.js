@@ -34,7 +34,7 @@ export default class GetCategoriesFromNavbar {
       (item) => `
         <div class="categories__container__item_column">
             <div class="column__item_img"><img src="${item.img}" alt="img"/></div>
-            <h5>${item.name}</h5>
+            <h6>${item.name}</h6>
         </div>
       `
     );
