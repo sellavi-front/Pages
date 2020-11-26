@@ -28,7 +28,7 @@ const template = (icons = defaultIcons, cart, host) => {
       ${icons.login}
     </a>
   </li> -->
-  ${car.outerHTML}
+  ${cart.outerHTML}
 </ul>`;
 };
 
