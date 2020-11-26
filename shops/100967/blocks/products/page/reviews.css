@@ -15,6 +15,10 @@ body .btn.btn-theme.btn-icon-left .fa {
   margin: 0;
 }
 
+#review .comments .comment {
+  padding: 20px 0 !important;
+}
+
 #review .comments .comment,
 .comments-form {
   border: none;
