@@ -83,7 +83,6 @@ window.onload = () => {
     document.querySelector(".row.products.grid").remove()
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
     let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-    console.log(nodeList)
     let categories = new GetCategoriesFromNavbar(Array.from(nodeList))
     console.log(categories.render())
 
