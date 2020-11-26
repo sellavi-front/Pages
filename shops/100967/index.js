@@ -1,5 +1,7 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
+
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
@@ -127,8 +129,13 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const social = document.querySelector('.share_page_wrapper');
 
+  const getOuterHTML = (arr) => arr.map( item => item.outerHTML);
+
+  const createContainerForRaiting = new CreateAddContainer(productAvailability, 'afterend', getOuterHTML(ratingArr));
+
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('afterend', ratingArr.map( item => item.outerHTML));
+  productAvailability.insertAdjacentHTML('afterend', getOuterHTML(ratingArr));
+  createContainerForRaiting.render();
 
   model.remove();
   description.remove();
