@@ -310,7 +310,8 @@ body .footer .footer-widgets {
 }
 
 #home > div.wrapper.wrapper-closed > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(2) {
-  z-index: 1;
+  z-index: 99;
+  position: relative;
 }
 
 .menu__footer {
@@ -598,6 +599,8 @@ body .footer .footer-widgets {
     height: 25px;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 99;
   }
 
   .copyright {
@@ -610,7 +613,6 @@ body .footer .footer-widgets {
     background-color: #1E1E1E;
     border-top: 1px solid #1e1e1e;
     position: relative;
-    z-index: 0;
   }
 
 }
