@@ -22,6 +22,7 @@ export default class GetCategoriesFromNavbar {
   }
 
   getCategoriesFromNavbar() {
+    console.log(this.list)
     return this.list.map(item => {
      this.object = {
           name: item.firstElementChild.innerText,
