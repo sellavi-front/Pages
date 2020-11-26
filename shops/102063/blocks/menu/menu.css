@@ -57,3 +57,8 @@ span.arrow {
  #home > div > header > div.navigation-wrapper > div:nth-child(1) > a:hover {
     color: white;
 }
+
+body.ltr .sf-menu ul {
+    overflow-y: overlay;
+    height: 400px;
+}
