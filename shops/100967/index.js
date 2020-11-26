@@ -1,6 +1,7 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
+import DeleteElements from '../../modules/DeleteElements/DeleteElements.js'
 
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
@@ -129,19 +130,16 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const social = document.querySelector('.share_page_wrapper');
 
+  const onDelete = [model, description, addReview, rating, reviews, productRating, social];
+
   const getOuterHTML = (arr) => arr.map( item => item.outerHTML);
 
   const createContainerForRaiting = new CreateAddContainer(productAvailability, 'afterend', getOuterHTML(ratingArr));
+  const deleteEl = new DeleteElements(arr);
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
   productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr)}</div>`);
   createContainerForRaiting.render();
 
-  model.remove();
-  description.remove();
-  addReview.remove();
-  rating.remove();
-  reviews.remove();
-  productRating.remove();
-  social.remove();
+  onDelete.remove();
 }
