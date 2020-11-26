@@ -28,6 +28,7 @@ export default class GetCategoriesFromNavbar {
           name: item[index].firstElementChild.innerText,
           link: item[index].firstElementChild.href
       }
+      console.log(this.object)
     })
   }
 
