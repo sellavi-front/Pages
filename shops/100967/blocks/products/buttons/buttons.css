@@ -6,3 +6,7 @@
 .buttons .btn-cart {
   margin-right: 10px !important;
 }
+
+.fa-stack {
+  color: orange !important;
+}
