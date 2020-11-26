@@ -1,10 +1,12 @@
 body.ltr #review .comments .comment .comment-meta:after,
-.comment-date {
+body.ltr #review .comments .comment .comment-date .fa {
   display: none;
 }
 
 body#home .media.comment .media-body {
   margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 body .btn.btn-theme.btn-icon-left .fa {
@@ -13,6 +15,12 @@ body .btn.btn-theme.btn-icon-left .fa {
 
 #review .comments .comment .comment-meta {
   margin: 0;
+  order: 1;
+  display: flex;
+}
+
+#review .comments .comment .comment-text {
+  order: 2;
 }
 
 #review .comments .comment {
@@ -27,4 +35,5 @@ body .btn.btn-theme.btn-icon-left .fa {
 #review .comments .comment .stars {
   position: relative;
   top: 0;
+  order: 3;
 }

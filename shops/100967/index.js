@@ -128,6 +128,8 @@ if (document.querySelector('.product-product')) {
   const rating = document.querySelector('.rating');
   const reviews = document.querySelector('.reviews');
   const title = document.querySelector('.product-title');
+  const date = document.querySelector('#review>.comments>.comment>.comment-date');
+  const commentMeta = document.querySelector('#review>.comments>.comment>.comment-meta');
 
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
@@ -151,6 +153,7 @@ if (document.querySelector('.product-product')) {
   const priceCont = document.querySelector('.price-cont');
 
   priceCont.insertAdjacentHTML('afterbegin', getOuterHTML(titleCont).join(''));
+  commentMeta.insertAdjacentHTML('beforeend', date);
 
   ratingArr.forEach(el => el.remove());
 
