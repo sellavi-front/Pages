@@ -134,7 +134,7 @@ if (document.querySelector('.product-product')) {
   const createContainerForRaiting = new CreateAddContainer(productAvailability, 'afterend', getOuterHTML(ratingArr));
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('afterend', getOuterHTML(ratingArr));
+  productAvailability.insertAdjacentHTML('afterend', `<div class="rating-cont">${getOuterHTML(ratingArr)}</div>`);
   createContainerForRaiting.render();
 
   model.remove();
