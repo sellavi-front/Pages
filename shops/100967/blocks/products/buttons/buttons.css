@@ -1,4 +1,5 @@
-.buttons .btn {
+.buttons .btn,
+body .btn.btn-theme {
   border-radius: 10px !important;
 }
 
