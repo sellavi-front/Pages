@@ -87,7 +87,7 @@ window.onload = () => {
     //let categories = new GetCategoriesFromNavbar(nodeList)
     //categories.getCategoriesFromNavbar()
 
-    let categoriesLayout = `
+   /* let categoriesLayout = `
       <div class="categories__container">
         ${categories.forEach(
           category => {
@@ -98,7 +98,7 @@ window.onload = () => {
           })
         }
       </div>
-    `
+    `*/
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
   }
 
