@@ -14,8 +14,10 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 
 
 export default class GetCategoriesFromNavbar {
-  constructor(list) {
+  constructor(list, container, target) {
     this.list = list;
+    this.container = container;
+    this.target = target;
   }
 
   getCategoriesFromNavbar() {
@@ -46,6 +48,11 @@ export default class GetCategoriesFromNavbar {
   }
 
   render() {
-    this.setTemplate()
+    const createAddContainer = new CreateAddContainer(
+      this.container,
+      this.target,
+      this.setTemplate(),
+    );
+    createAddContainer.render();
   }
 }

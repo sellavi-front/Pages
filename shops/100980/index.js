@@ -83,8 +83,9 @@ window.onload = () => {
     document.querySelector(".row.products.grid").remove()
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
     let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-    let categories = new GetCategoriesFromNavbar(Array.from(nodeList))
-    console.log(categories.render())
+    let categories = new GetCategoriesFromNavbar(Array.from(nodeList), customSection, "afterbegin")
+    //let categoriesLayout = categories.render()
+    //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
 
 
    //let categoriesLayout = categories
@@ -101,7 +102,6 @@ window.onload = () => {
         }
       </div>
     `*/
-   // document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout.outerHTML)
   }
 
 
