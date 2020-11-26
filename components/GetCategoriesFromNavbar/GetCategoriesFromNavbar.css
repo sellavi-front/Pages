@@ -18,6 +18,6 @@
   padding: 25px;
 }
 
-.categories__container__item>.arrow {
+.categories__container__item .arrow {
   display: none;
 }
