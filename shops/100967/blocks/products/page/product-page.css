@@ -33,6 +33,7 @@ body .section-title.section-title-lg {
   border: none;
   border-bottom: 1px solid black;
   text-transform: none;
+  padding: 5px 10px;
 }
 
 .content-tabs .nav-tabs>li>a.active:after, .content-tabs .nav-tabs>li>a.active:before {
