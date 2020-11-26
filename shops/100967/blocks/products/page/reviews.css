@@ -26,4 +26,5 @@ body .btn.btn-theme.btn-icon-left .fa {
 
 #review .comments .comment .stars {
   position: relative;
+  top: 0;
 }
