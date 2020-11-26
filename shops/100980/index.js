@@ -1,5 +1,6 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
+import imgArr from "./utils/images";
 
 window.onload = () => {
   /* Deleting burger */
@@ -83,19 +84,7 @@ window.onload = () => {
     document.querySelector(".row.products.grid").remove()
     document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
     let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-    let imgArr = [
-      'https://coospir.github.io/Pages/shops/100980/media/categories/dez_sredstv.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/line.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/meh_oborud.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/neutral.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/posud.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/prof-coffee.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/prof_inv.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/teplo.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/torg-oborud.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/pekar.png',
-      'https://coospir.github.io/Pages/shops/100980/media/categories/holod.png',
-    ]
+
     let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
     categories.render()
     //let categoriesLayout = categories.render()
