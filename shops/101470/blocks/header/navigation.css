@@ -60,7 +60,3 @@
   display: none;
 }
 
-.widget.side-categories ul ul.children {
-  display: flex;
-  flex-direction: column;
-}
