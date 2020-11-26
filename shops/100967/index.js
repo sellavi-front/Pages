@@ -144,12 +144,13 @@ if (document.querySelector('.product-product')) {
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
   productAvailability.insertAdjacentHTML('afterend', `
     <div class="price-cont">
-        ${getOuterHTML(titleCont).join('')}
       <div class="rating-cont">${getOuterHTML(ratingArr).join('')}</div>
     </div>`);
   createContainerForRaiting.render();
 
   const priceCont = document.querySelector('.price-cont');
+
+  priceCont.insertAdjacentHTML('afterbegin', getOuterHTML(titleCont).join(''));
 
   ratingArr.forEach(el => el.remove());
 
