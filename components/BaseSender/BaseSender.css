@@ -65,6 +65,10 @@
     width: 100%;
   }
 
+  .sender__form_btn {
+    width: 140px;
+  }
+
   .sender__form_input::placeholder,
   .sender__form_btn {
     font-size: 16px;
