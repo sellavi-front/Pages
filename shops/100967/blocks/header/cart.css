@@ -22,7 +22,7 @@
 #cart i {
   margin: 0 !important;
   font-size: 22px !important;
-  line-height: 1.2;
+  line-height: 1.2 !important;
   padding: 0 !important;
 }
 
