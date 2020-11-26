@@ -10,17 +10,16 @@ window.onload = () => {
   let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
-  //logo.classList.add("navbar__block")
-  /*let navbar = `
-    <a class="navbar_item" href="#">Все товары</a>
+  logo.classList.add("navbar__block")
+  let navbar = `
     <a class="navbar_item" href="#">О компании</a>
     <a class="navbar_item" href="#">Доставка</a>
     <a class="navbar_item" href="#">Оплата и возврат</a>
     <a class="navbar_item" href="#">Комплексное оснащение</a>
     <a class="navbar_item" href="#">Готовые решения</a>
     <a class="navbar_item" href="#">Контакты</a>
-  `*/
-  //logo.insertAdjacentHTML("beforeend", navbar)
+  `
+  logo.insertAdjacentHTML("beforeend", navbar)
   if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
     let customBanner = document.querySelector(".custom_banner")
     let bannerLayout = `
