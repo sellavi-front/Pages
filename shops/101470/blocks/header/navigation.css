@@ -60,3 +60,7 @@
   display: none;
 }
 
+.children.collapse.show {
+  display: flex;
+  flex-direction: column;
+}
