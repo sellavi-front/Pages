@@ -14,6 +14,6 @@
 .categories__title {
   display: flex;
   width: 100%;
-  justify-content: left;
+  justify-content: center;
   padding: 25px;
 }
