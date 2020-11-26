@@ -43,6 +43,10 @@ body .section-title.section-title-lg {
   margin: 0 auto;
 }
 
+#home > div > div > section:nth-child(2) {
+  margin-top: 80px;
+}
+
 @media (max-width: 768px) {
   .product-product .product-single {
     flex-direction: column;
