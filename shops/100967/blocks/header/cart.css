@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+.header-cart .cart-wrapper .cart-qty-circle {
+  display: block !important;
+}
+
 .fa-shopping-cart:before {
   content: "\f290";
 }
