@@ -53,6 +53,10 @@ body > div > div > section:nth-child(1) > div > div.row.product-single.product-i
   display: none !important;
 }
 
+.product-title {
+  margin-top: 0;
+}
+
 @media (max-width: 768px) {
   .product-product .product-single {
     flex-direction: column;
