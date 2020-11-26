@@ -34,8 +34,8 @@ if (document.querySelector('.wrapper')) {
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
   const footerRow = document.querySelector('footer > div.footer-widgets > div.container > div');
-  const notActiveLink = document.querySelectorAll("#home > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a");
-
+  const notActiveLink = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a");
+  const link = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a")
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
@@ -69,6 +69,10 @@ if (document.querySelector('.wrapper')) {
 
   footerRow.remove();
   notActiveLink.forEach(el => {
+    el.removeAttribute('href');
+  })
+
+  link.forEach(el => {
     el.removeAttribute('href');
   })
 }
