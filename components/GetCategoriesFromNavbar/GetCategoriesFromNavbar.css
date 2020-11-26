@@ -10,3 +10,10 @@
   display: flex;
   padding: 25px;
 }
+
+.categories__title {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  padding: 25px;
+}
