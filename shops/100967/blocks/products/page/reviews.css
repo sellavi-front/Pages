@@ -10,3 +10,7 @@ body#home .media.comment .media-body {
 body .btn.btn-theme.btn-icon-left .fa {
   display: none;
 }
+
+#review .comments .comment .comment-meta {
+  margin: 0;
+}
