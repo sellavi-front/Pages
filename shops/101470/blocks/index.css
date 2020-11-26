@@ -3,7 +3,7 @@
 @import './header/header.css';
 @import './banner/banner.css';
 @import './section-title/section-title.css';
-@import './footer/footer.css';
+
 @import './other/bs-menu-toggle.css';
 @import './other/contacts.css';
 @import './other/auth-title.css';
@@ -17,6 +17,8 @@
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
+
+@import './footer/footer.css';
 
 body h1,
 body h2,
