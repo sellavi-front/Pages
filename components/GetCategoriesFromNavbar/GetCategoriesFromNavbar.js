@@ -38,6 +38,7 @@ export default class GetCategoriesFromNavbar {
     return this.getCategoriesFromNavbar().map(
       (item) => `
         <div class="categories__container__item">
+          ${console.log(item)}
           ${item.name}
         </div>
       `,
