@@ -44,6 +44,10 @@
   width: 22px;
   border-radius: 10px;
   border: 2px solid white !important;
+  right: -12px !important;
+  left: auto !important;
+  top: -9px !important;
+  color: white !important;
 }
 
 @media (max-width: 991px) {
