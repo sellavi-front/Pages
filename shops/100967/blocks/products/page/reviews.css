@@ -23,3 +23,7 @@ body .btn.btn-theme.btn-icon-left .fa {
 .comments-form {
   border: none;
 }
+
+#review .comments .comment .stars {
+  position: relative;
+}
