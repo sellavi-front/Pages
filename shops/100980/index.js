@@ -85,7 +85,7 @@ window.onload = () => {
     let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
     console.log(nodeList)
     let categories = new GetCategoriesFromNavbar(Array.from(nodeList))
-    console.log(categories.getCategoriesFromNavbar())
+    console.log(categories.render())
 
 
    //let categoriesLayout = categories
