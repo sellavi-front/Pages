@@ -24,6 +24,8 @@
   font-size: 22px !important;
   line-height: 1.2 !important;
   padding: 0 !important;
+  color: black !important;
+  font-weight: 300 !important;
 }
 
 .header-cart:first-child {
