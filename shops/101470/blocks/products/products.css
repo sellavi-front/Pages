@@ -121,3 +121,13 @@ body.theme-green-1 .social-icons li a {
 .d-block {
   display: none!important;
 }
+
+@media (max-device-width: 480px) {
+  .add_to_wishlist > button > i::before {
+    font-size: 25px;
+  }
+
+  .add_to_cart > button > i::before {
+    font-size: 25px;
+  }
+}
