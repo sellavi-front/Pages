@@ -2,6 +2,7 @@ export default class BigBanner {
   constructor(obj = {}, link) {
     this.obj = obj;
     this.link = link;
+    console.log("Length: ", this.obj.length)
   }
 
   setCaption(o) {
@@ -24,7 +25,7 @@ export default class BigBanner {
           ${ this.obj.length > 0
               ? this.setCaption(this.obj)
               : `<div class="banner__caption"></div>`
-            }
+           }
         </div>
       </div>`;
   }
