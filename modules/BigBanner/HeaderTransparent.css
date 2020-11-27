@@ -1,5 +1,5 @@
 .common-home .header {
-  border-bottom: none;
+  border: none !important;
   position: absolute;
   z-index: 99;
   width: 100%;
