@@ -10,11 +10,9 @@ export default class ContactsTypeOne {
   setTemplate() {
     return `
         <div class="contacts">
-          <div class="container">
           <div class="contacts__container">
             ${this.setData(this.data).join('')}
           </div>
-        </div>
       </div>
     `;
   }
