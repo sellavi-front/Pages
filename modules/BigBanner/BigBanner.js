@@ -22,7 +22,7 @@ export default class BigBanner {
             ${this.link}
             )">
           </div>
-          ${ Object.keys(this.obj).length === 0
+          ${ Object.keys(this.obj).length > 0
               ? this.setCaption(this.obj)
               : `<div class="banner__caption"></div>`
            }
