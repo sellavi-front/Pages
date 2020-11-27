@@ -25,7 +25,7 @@ if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const footer = document.querySelector('.footer');
-  const footerWidgets = document.querySelector('.footer-widgets');
+  const footerWidgets = document.querySelector('.footer-widgets>.container');
   document.querySelector('.footer-widgets>.container>.row').remove();
 
 
