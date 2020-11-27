@@ -30,3 +30,6 @@
   color: white;
 }
 
+#home > div > header > div.header-wrapper > div.container-fluid > ul > li.button__list_elem.icon-user {
+  display: none;
+}
