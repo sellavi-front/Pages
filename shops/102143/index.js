@@ -25,10 +25,7 @@ if (document.querySelector('.wrapper')) {
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const footer = document.querySelector('.footer');
   const footerWidgets = document.querySelector('.footer-widgets');
-  const footerWidgetsCol = footerWidgets.childNodes;
-  footerWidgetsCol.forEach(col => {
-    col.remove()
-  });
+  footerWidgets.remove();
 
   footer.insertAdjacentHTML(
     'beforeend',
