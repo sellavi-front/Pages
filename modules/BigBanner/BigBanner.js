@@ -4,11 +4,11 @@ export default class BigBanner {
     this.link = link === undefined ? this.obj : link;
   }
 
-  setCaption() {
+  setCaption(o) {
       return `<div class="banner__caption">
-        <h1>${this.obj.title}</h1>
-        <a href="${this.obj.link}">
-          ${this.obj.linkContent}
+        <h1>${o.title}</h1>
+        <a href="${o.link}">
+          ${o.linkContent}
         </a>
       </div>`;
   }
@@ -21,8 +21,13 @@ export default class BigBanner {
             ${!this.obj.urlImg ? this.link : this.obj.urlImg }
             )">
           </div>
+<<<<<<< HEAD
           ${ this.obj.length > 0
               ? this.setCaption()
+=======
+          ${ this.obj.lenth > 0
+              ? this.setCaption(this.obj)
+>>>>>>> 1c31b474aa2766bc6c2af1855b668f6c511c35d7
               : `<div class="banner__caption"></div>`
             }
         </div>
