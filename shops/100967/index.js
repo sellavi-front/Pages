@@ -41,7 +41,7 @@ if (document.querySelector('.wrapper')) {
   const link = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a")
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
 
-  // Icons im header cont
+  // Icons in header cont
     const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
     const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
