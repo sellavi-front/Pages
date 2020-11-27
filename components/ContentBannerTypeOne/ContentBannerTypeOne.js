@@ -20,7 +20,9 @@ export default class ContentBannerTypeOne {
       (item) => `
         <div class="banner-content__item">
           <div class="banner-content__item_bg">
+          <picture>
             <img class="banner-content__item_img" src="${item.banner}">
+          </picture>
           </div>
           <div class="container">
             <div class="banner-content__container">

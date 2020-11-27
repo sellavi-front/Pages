@@ -14,6 +14,8 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   categories.render()
 }
 
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 

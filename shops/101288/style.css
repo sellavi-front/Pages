@@ -243,7 +243,7 @@ footer > div.footer-widgets > div.container > div > div:nth-child(3) {
 }
 /*
 #home
-  > div.wrapper.
+  > div.wrapper
   > div
   > section
   > div:nth-child(2)
@@ -413,7 +413,7 @@ body.theme-gray .social-icons li a span {
   }
 
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -422,7 +422,7 @@ body.theme-gray .social-icons li a span {
     > div
     > h4,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -431,7 +431,7 @@ body.theme-gray .social-icons li a span {
     > div
     > a,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -440,7 +440,7 @@ body.theme-gray .social-icons li a span {
     > div
     > h4,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -449,7 +449,7 @@ body.theme-gray .social-icons li a span {
     > div
     > a,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -458,7 +458,7 @@ body.theme-gray .social-icons li a span {
     > div
     > h4,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -470,7 +470,7 @@ body.theme-gray .social-icons li a span {
   }
 
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -479,7 +479,7 @@ body.theme-gray .social-icons li a span {
     > div
     > a,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -488,7 +488,7 @@ body.theme-gray .social-icons li a span {
     > div
     > a,
   body
-    > div.wrapper.
+    > div.wrapper
     > div
     > section
     > div:nth-child(2)
@@ -652,7 +652,6 @@ body.common-home .wrapper header.header {
   width: 100%;
   min-height: 800px;
   min-height: 800px;
-}
 }
 
 .banner {
@@ -903,8 +902,8 @@ body .content-delivery {
     flex-flow: column;
   }
 
-#home > div.wrapper. > footer > div.footer-widgets > div.container > div > div > div > div > ul > li a,
-#home > div.wrapper. > footer > div.footer-widgets > div.container > div > div > div > ul > li > a {
+#home > div.wrapper > footer > div.footer-widgets > div.container > div > div > div > div > ul > li a,
+#home > div.wrapper > footer > div.footer-widgets > div.container > div > div > div > ul > li > a {
     font-size: 10px;
 }
 
@@ -1276,7 +1275,7 @@ body.theme-black.theme_11
 
 
 
-#home > div.wrapper. > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul {
+#home > div.wrapper > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul {
      position: absolute;
       width: 140px;
       margin-top: 15px;
@@ -1815,7 +1814,7 @@ body .content-area .page-section.titles {
   padding: 20px 0;
 }
 
-#home > div.wrapper. > div > section > div.row {
+#home > div.wrapper > div > section > div.row {
   margin: 5px;
 }
 
@@ -1901,7 +1900,7 @@ body.ltr .widget-categories ul li a:before {
 }
 
 .error-not_found
-  > div.wrapper.
+  > div.wrapper
   > div
   > section
   > div:nth-child(2)
@@ -1928,7 +1927,7 @@ footer > div.footer-widgets > div.container {
     padding: 0;
   }
 
-#home > div.wrapper. > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul {
+#home > div.wrapper > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul {
      margin-top: 0;
 }
 
@@ -2047,7 +2046,7 @@ body.theme-gray .social-icons li a:hover {
     text-transform: uppercase;
   }
 
-#home > div.wrapper. > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) {
+#home > div.wrapper > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) {
     padding: 5px 0;
 }
 

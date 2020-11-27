@@ -1,4 +1,4 @@
-import '../../fixes/fixes.js';
+//import '../../fixes/fixes.js';
 
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
@@ -40,7 +40,7 @@ if (document.querySelector('.wrapper')) {
   const icoUser = document.querySelector('.icon-user');
   const headerSearch = document.querySelector('.header-search');
   //const buttonList = document.querySelector('.button__list');
-  const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
+  //const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
@@ -53,8 +53,9 @@ if (document.querySelector('.wrapper')) {
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
+  const cartLink = document.querySelector("#cart>i");
 
-  const forDelete = [icoUser, cartText, navigation, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
+  const forDelete = [icoUser, cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1]; //navigation
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
@@ -66,14 +67,15 @@ if (document.querySelector('.wrapper')) {
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
 
-
+  cartLink.insertAdjacentHTML('beforebegin', '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">')
+  cartLink.remove();
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
 
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
 
-  headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
+  //headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
 
@@ -104,7 +106,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1605624670/1985/Image-1_2_zvkexd.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1606396562/1985/Image-1_3_ubaczw.png');
 }
 
 if (document.querySelector('.product-item')) {

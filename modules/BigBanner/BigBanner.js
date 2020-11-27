@@ -1,26 +1,36 @@
 export default class BigBanner {
-  constructor(doc, obj) {
-    this.doc = doc;
+  constructor(obj = {}, link = undefined) {
     this.obj = obj;
+    this.link = link === undefined ? this.obj : link;
+  }
+
+  setCaption() {
+      return `<div class="banner__caption">
+        <h1>${this.obj.title}</h1>
+        <a href="${this.obj.link}">
+          ${this.obj.linkContent}
+        </a>
+      </div>`;
   }
 
   setTemplate() {
     return `
       <div class="outer-container">
         <div class="banner">
-          <div class="banner__image" style="background: url(${this.obj.urlImg})"></div>
-          <div class="banner__caption">
-            <h1>${this.obj.title}</h1>
-            <a href="${this.obj.link}">
-              ${this.obj.linkContent}
-            </a>
+          <div class="banner__image" style="background: url(
+            ${!this.obj.urlImg ? this.link : this.obj.urlImg }
+            )">
           </div>
+          ${ this.obj.lenth > 0
+              ? this.setCaption()
+              : `<div class="banner__caption"></div>`
+            }
         </div>
       </div>`;
   }
 
   render() {
-    const banner = this.doc.querySelector('.custom_banner');
+    const banner = document.querySelector('.custom_banner');
     return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }
