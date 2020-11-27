@@ -21,7 +21,7 @@ export default class BigBanner {
             ${!this.obj.urlImg ? this.link : this.obj.urlImg }
             )">
           </div>
-          ${ !this.obj.title
+          ${ this.obj.lenth > 0
               ? this.setCaption()
               : `<div class="banner__caption"></div>`
             }
