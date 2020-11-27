@@ -43,7 +43,7 @@ if (document.querySelector('.common-home')) {
 
   pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg img-bg_r" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png">`)
 
-pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg_l src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`)
+pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg_l" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`)
 
 }
 
