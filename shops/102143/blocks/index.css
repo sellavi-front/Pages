@@ -18,6 +18,7 @@
 @import './img-bg.css';
 @import './custom-banner/custom_banner.css';
 @import './footer/footer.css';
+@import './contacts/contacts.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
@@ -50,19 +51,4 @@ body span,
 body b,
 body strong {
   text-transform: none;
-}
-
-.message-box h2 {
-  color: black !important;
-  text-transform: none !important;
-  font-weight: 200 !important;
-  font-size: 18px !important;
-}
-
-.message-box .message-box-inner {
-  border: none !important;
-}
-
-body.theme-green-1 .message-box {
-  background: transparent !important;
 }
