@@ -37,3 +37,14 @@
 #home > div > header > div.header-wrapper > div.container-fluid > ul > li.button__list_elem.icon-user {
   display: none;
 }
+
+#search > button {
+  position: absolute;
+  z-index: 998 !important;
+}
+
+#search > div.search_field {
+  background: #f0000000;
+  position: relative;
+  z-index: 999 !important;
+}
