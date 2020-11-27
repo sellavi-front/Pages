@@ -110,3 +110,7 @@ body .footer .footer-widgets {
       justify-content: center;
   }
 }
+
+#home > div > footer > div.footer-meta > div {
+  padding-top: 20px;
+}
