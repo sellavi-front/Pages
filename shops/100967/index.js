@@ -81,6 +81,11 @@ if (document.querySelector('.wrapper')) {
 
   if (qtyNum > 0) {
     qty.style.background = 'rgba(240, 10, 10, .9)'
+  } else {
+    qty.style.cssText = `
+      color: black;
+      border-color: black;
+    `
   }
 
 
