@@ -66,7 +66,7 @@ body .footer .footer-widgets {
 
 @media (max-width: 768px) {
   .footer-widgets div .row {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .footer_content_wrapper ul {
