@@ -24,6 +24,25 @@ if (document.querySelector('.wrapper')) {
   bigBanner.render()
 }
 
+if (document.querySelector('.common-home')) {
+  const pageSection = document.querySelector('');
+
+  pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png" style="
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: .5;
+">`)
+
+pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png" style="
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: .5;
+">`)
+
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП ТЮМЕНЦЕВА МАРИЯ ВАЛЕРЬЕВНА');
 
