@@ -8,7 +8,7 @@ let customSection = document.querySelector(".custom_section")
 
 if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
+  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customBanner, "afterend")
   categories.render()
 }
 
