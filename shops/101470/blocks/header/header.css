@@ -48,3 +48,22 @@
   position: relative !important;
   z-index: 999 !important;
 }
+
+.fa-shopping-cart:before {
+  content: "\f07a";
+  font-size: 20px !important;
+}
+
+.fa-heart:before {
+  content: "\f004";
+  font-size: 20px !important;
+}
+
+.fa-search:before {
+  content: "\f002";
+  font-size: 20px !important;
+}
+
+i.fa.fa-heart {
+  margin: 0px !important;
+}
