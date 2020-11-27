@@ -6,5 +6,6 @@
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
+  buttonsInHeader.setTempate();
   hideCart.remove();
 // End

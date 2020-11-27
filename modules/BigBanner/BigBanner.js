@@ -6,7 +6,7 @@ export default class BigBanner {
   }
 
   setCaption(o) {
-      return `<div class="banner__caption">
+    return `<div class="banner__caption">
         <h1>${o.title}</h1>
         <a href="${o.link}">
           ${o.linkContent}
@@ -23,9 +23,9 @@ export default class BigBanner {
             )">
           </div>
           ${ Object.keys(this.obj).length > 0
-              ? this.setCaption(this.obj)
-              : `<div class="banner__caption"></div>`
-           }
+      ? this.setCaption(this.obj)
+      : `<div class="banner__caption"></div>`
+    }
         </div>
       </div>`;
   }
