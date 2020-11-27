@@ -7,7 +7,7 @@ import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentB
 import requsites from './utils/requsites.js'
 import dataBannerContent from './utils/dataBannerContent.js'
 import bootstrapClasses from './utils/bootstrapClasses.js';
-import dataabout from './utils/dataAbout.js';
+import dataAbout from './utils/dataAbout.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
@@ -33,7 +33,7 @@ if (document.querySelector('.common-home')) {
   const sectionCustom = document.querySelector('.custom_section');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
-  const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataabout)
+  const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout)
 
   saleBanner.render();
   imgNearText.render();
