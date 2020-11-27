@@ -14,6 +14,7 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   categories.render()
   const objBanner = {
     title: 'Wigstyle',
+    urlImg: 'https://images.unsplash.com/photo-1582461245067-d444cd654711?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
     link: window.location.hostname,
     linkContent: 'Подробнее',
   };
