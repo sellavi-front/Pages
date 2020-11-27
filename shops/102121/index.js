@@ -16,7 +16,7 @@ const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
 const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-
+buttonsInHeader.setTemplate();
 hideCart.remove();
 
 if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
