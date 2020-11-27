@@ -5,7 +5,6 @@ import imgArr from "./utils/images.js"
 import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js"
 import ChangeAgreement from "../../fixes/ChangeAgreement/ChangeAgreement.js"
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 
 
