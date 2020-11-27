@@ -14,3 +14,23 @@
 body .btn.btn-theme.btn-theme-transparent:hover i {
   color: black !important;
 }
+
+.thumbnail .caption-title {
+  min-height: inherit !important;
+  font-size: 20px;
+}
+
+
+.section-title span, .title {
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  line-height: 43px !important;
+  text-align: left !important;
+  border-bottom: 3px solid black;
+  text-align: left;
+  border-bottom: 5px solid linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
+}
+
+.thumbnail .price {
+  font-size: 22px !important;
+}
