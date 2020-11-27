@@ -29,6 +29,7 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section');
   const sectionCustom = document.querySelector('.custom_section');
+  const productItem = document.querySelectorAll('.product-item');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
