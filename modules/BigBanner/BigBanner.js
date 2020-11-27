@@ -2,7 +2,7 @@ export default class BigBanner {
   constructor(obj = {}, link) {
     this.obj = obj;
     this.link = link;
-    console.log("Length: ", this.obj)
+    console.log(this.obj, this.link)
   }
 
   setCaption(o) {
