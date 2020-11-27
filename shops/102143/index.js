@@ -2,10 +2,10 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import Requisites from '../../modules/Requisites/Requisites.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
-import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js'
+import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 
-import requsites from './utils/requsites.js'
-import dataBannerContent from './utils/dataBannerContent.js'
+import requsites from './utils/requsites.js';
+import dataBannerContent from './utils/dataBannerContent.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import dataAbout from './utils/dataAbout.js';
 import socIcons from './utils/socIcons.js';
@@ -14,20 +14,36 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import ContactsTypeOne from '../../components/ContactsTypeOne/ContactsTypeOne.js'
 
 if (document.querySelector('.wrapper')) {
-// Icons im header cont
+  // Icons im header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+  const footer = document.querySelector('.footer');
+  const footerWidgets = document.querySelector('.footer-widgets');
+  const footerWidgetsCol = footerWidgets.childNodes;
 
+  footerWidgetsCol.forEach((col) => col.remove());
+
+  footer.insertAdjacentHTML(
+    'beforeend',
+    `<img class="img-bg img-bg_footer" src"https://res.cloudinary.com/gz-company/image/upload/v1606489415/ThaiCosmetic/Group_56_jzrryx.png">`,
+  );
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
   buttonsInHeader.setTemplate();
   hideCart.remove();
-// End
+  // End
 
-  const bigBanner = new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png');
-  bigBanner.render()
+  const bigBanner = new BigBanner(
+    'https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png',
+  );
+  bigBanner.render();
+
+  const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);
+
+  contactsClass.render();
 }
 
 if (document.querySelector('.common-home')) {
@@ -36,20 +52,28 @@ if (document.querySelector('.common-home')) {
   const customBanner = document.querySelector('.custom_banner');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
-  const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout)
-  const social = new SocIconsTypeOne(customBanner, 'beforeend', socIcons)
+  const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout);
+  const social = new SocIconsTypeOne(customBanner, 'beforeend', socIcons);
 
   saleBanner.render();
   imgNearText.render();
-  social.render()
+  social.render();
 
   const bannerContentItemBg = document.querySelector('.banner-content__item_bg > picture');
-  bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
+  bannerContentItemBg.insertAdjacentHTML(
+    'afterbegin',
+    `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`,
+  );
 
-  pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg img-bg_r" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png">`)
+  pageSection.insertAdjacentHTML(
+    'beforeend',
+    `<img class="img-bg img-bg_r" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png">`,
+  );
 
-pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg img-bg_l" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`)
-
+  pageSection.insertAdjacentHTML(
+    'beforeend',
+    `<img class="img-bg img-bg_l" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`,
+  );
 }
 
 if (document.querySelector('.product-item')) {

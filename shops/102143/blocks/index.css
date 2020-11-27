@@ -8,6 +8,7 @@
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
 @import '../../../components/ImgNearText/ImgNearText.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../components/ContactsTypeOne/ContactsTypeOne.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import './products/products.css';
@@ -16,6 +17,7 @@
 @import './about/about.css';
 @import './img-bg.css';
 @import './custom-banner/custom_banner.css';
+@import './footer/footer.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
