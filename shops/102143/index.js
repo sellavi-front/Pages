@@ -12,6 +12,7 @@ import dataAbout from './utils/dataAbout.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
+import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 
 if (document.querySelector('.wrapper')) {
 // Icons im header cont
@@ -34,6 +35,7 @@ if (document.querySelector('.common-home')) {
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
   const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout)
+  const social = new SocIconsTypeOne(sectionCustom, 'beforeend')
 
   saleBanner.render();
   imgNearText.render();
