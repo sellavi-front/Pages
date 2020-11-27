@@ -39,12 +39,12 @@
 }
 
 #search > button {
-  position: absolute;
+  position: absolute !important;
   z-index: 998 !important;
 }
 
 #search > div.search_field {
-  background: #f0000000;
-  position: relative;
+  background: #f0000000 !important;
+  position: relative !important;
   z-index: 999 !important;
 }
