@@ -34,7 +34,8 @@
 }
 
 .banner-content__item_title span {
-
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .banner-content__item_text {
