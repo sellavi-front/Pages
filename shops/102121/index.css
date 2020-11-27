@@ -42,3 +42,25 @@ body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2
   border: 1px solid #fff;
   border-radius: 15px;
 }
+
+.banner__caption {
+  bottom: 50% !important;
+}
+
+#home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
+  color: #fff;
+  font-weight: 900;
+}
+
+.navigation-wrapper {
+  display: none;
+}
+
+/* Footer */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .col-md-3 + .col-md-3 {
+    margin-top: 5%
+  }
+}
+
