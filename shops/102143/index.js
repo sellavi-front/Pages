@@ -34,7 +34,7 @@ if (document.querySelector('.common-home')) {
 
   saleBanner.render();
 
-  const bannerContentItemBg = document.querySelector('.banner-content__item_bg');
+  const bannerContentItemBg = document.querySelector('.banner-content__item_bg > picture');
   bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
 
   pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png" style="
