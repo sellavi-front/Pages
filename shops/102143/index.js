@@ -1,3 +1,5 @@
+import '../../fixes/TranslateAboutUs/TranslateAboutUs.js'
+
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import Requisites from '../../modules/Requisites/Requisites.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
