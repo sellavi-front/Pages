@@ -4,6 +4,8 @@ import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/Ge
 import imgArr from "./utils/images.js"
 import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js"
 import ChangeAgreement from "../../fixes/ChangeAgreement/ChangeAgreement.js"
+import BigBanner from '../../modules/BigBanner/BigBanner.js'
+
 
 let customBanner = document.querySelector(".custom_banner")
 let customSection = document.querySelector(".custom_section")
