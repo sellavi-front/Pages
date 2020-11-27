@@ -1,0 +1,25 @@
+.img-bg {
+  z-index: -1;
+  opacity: 0.5;
+  position: absolute;
+}
+
+.img-bg_r {
+  right: 0;
+  top: 0;
+}
+
+.img-bg_l {
+  left: 0;
+  bottom: 0;
+}
+
+.img-bg_footer {
+  right: 0;
+}
+
+@media (max-width: 1024px) {
+  .img-bg {
+    opacity: .1;
+  }
+}
