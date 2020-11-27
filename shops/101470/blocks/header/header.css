@@ -69,6 +69,12 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
   font-size: 30px;
 }
 
+@media (max-width: 992px) {
+  #search > button {
+      left: none;
+  }
+}
+
 @media (max-device-width: 480px) {
   .cart_drop_down > a > i::before {
     font-size: 18px !important;
@@ -87,3 +93,4 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
     left: 115px !important;
   }
 }
+
