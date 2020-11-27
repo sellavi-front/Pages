@@ -21,6 +21,7 @@
 
 .header-cart .cart-wrapper {
   border: none;
+  height: auto;
 }
 
 .header-cart .cart-wrapper #cart i,
