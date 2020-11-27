@@ -18,6 +18,11 @@ const template = (icons = defaultIcons, cart, host) => {
       ${icons.like}
     </a>
   </li>
+  <!-- <li class="button__list_elem icon-user">
+    <a href="https://${host}/account/" role="link">
+      <i class="far fa-user"></i>
+    </a>
+  </li> -->
   <!-- <li class="button__list_elem icon-form">
     <a href="https://${host}/index.php?route=account/logout" role="link">
       ${icons.login}
