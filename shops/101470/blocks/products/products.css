@@ -117,3 +117,7 @@ body.theme-green-1 .social-icons li a {
     border-radius: 100px;
   }
 }
+
+.d-block {
+  display: none!important;
+}
