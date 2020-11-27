@@ -2,7 +2,7 @@
 body .section-title span:before {
   display: none;
 }
-
+/*
 .section-title span, .title {
   font-weight: 600 !important;
   font-size: 36px !important;
@@ -11,7 +11,7 @@ body .section-title span:before {
   border-bottom: 3px solid black;
   text-align: left;
   border-bottom: 5px solid linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
-}
+} */
 
 .section-title span {
   border: none !important;
