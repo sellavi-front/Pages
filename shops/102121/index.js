@@ -4,7 +4,7 @@ import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/Ge
 import imgArr from "./utils/images.js"
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import "../../fixes/fixes";
+import "../../fixes/fixes.js";
 
 let customBanner = document.querySelector(".custom_banner")
 let customSection = document.querySelector(".custom_section")
