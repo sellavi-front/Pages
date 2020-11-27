@@ -5,6 +5,7 @@ import imgArr from "./utils/images.js"
 import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js"
 import ChangeAgreement from "../../fixes/ChangeAgreement/ChangeAgreement.js"
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 
 let customBanner = document.querySelector(".custom_banner")
@@ -25,8 +26,7 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   bigBanner.render();
 }
 
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
-import BigBanner from "../../modules/BigBanner/BigBanner";
+
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
