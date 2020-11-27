@@ -21,6 +21,10 @@
   width: 100%;
 }
 
+.banner-content__item_bg img {
+  width: 1005;
+}
+
 .banner-content__container {
   width: 100%;
   max-width: 465px;
