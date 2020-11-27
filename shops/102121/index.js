@@ -6,7 +6,7 @@ import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js"
 import ChangeAgreement from "../../fixes/ChangeAgreement/ChangeAgreement.js"
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
-import ButtonContainerInProduct from "../../modules/ButtonContainerInProduct/ButtonContainerInProduct";
+import ButtonContainerInProduct from "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js";
 
 
 let customBanner = document.querySelector(".custom_banner")
