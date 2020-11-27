@@ -44,3 +44,10 @@ body .section-title {
   margin: 0 0 15px !important;
   width: 100%;
 }
+
+h2.section-title.mb-4.mt-4::after {
+  content: ' ';
+  height: 5px;
+  background: linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
+  width: 100%;
+}
