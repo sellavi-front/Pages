@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-@import './header/header.css';
 @import './banner/banner.css';
 @import './section-title/section-title.css';
 
@@ -21,6 +20,8 @@
 @import './footer/footer.css';
 @import './header/navigation.css';
 @import './header/logo.css';
+@import './header/header.css';
+
 
 
 body h1,
