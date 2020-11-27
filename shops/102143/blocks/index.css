@@ -1,4 +1,6 @@
 @import '../../../fixes/fixes.css';
 
+@import '../../../modules/BigBanner/BigBanner.css';
+
 @import './pay-delivery/pay-delivery.css';
 @import './products/products.css';
