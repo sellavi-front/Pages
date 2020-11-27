@@ -10,6 +10,10 @@
       position: relative;
       z-index: 999;
     }
+
+    #home > div > header > div.header-wrapper > div.container-fluid > div.logo > a > img {
+      object-fit: cover;
+  }
   }
 
   
