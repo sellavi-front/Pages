@@ -1,7 +1,7 @@
 export default class BigBanner {
-  constructor(obj = {}, link = undefined) {
+  constructor(obj = {}, link) {
     this.obj = obj;
-    this.link = link === undefined ? this.obj : link;
+    this.link = link;
   }
 
   setCaption(o) {
@@ -18,10 +18,11 @@ export default class BigBanner {
       <div class="outer-container">
         <div class="banner">
           <div class="banner__image" style="background: url(
-            ${!this.obj.urlImg ? this.link : this.obj.urlImg }
+            ${ this.link }
             )">
           </div>
-          ${ this.obj.lenth > 0
+          ${
+            this.obj.length > 0
               ? this.setCaption(this.obj)
               : `<div class="banner__caption"></div>`
             }
