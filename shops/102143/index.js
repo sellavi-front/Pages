@@ -9,6 +9,7 @@ import dataBannerContent from './utils/dataBannerContent.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import dataAbout from './utils/dataAbout.js';
 import socIcons from './utils/socIcons.js';
+import contactData from './utils/contacts.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
