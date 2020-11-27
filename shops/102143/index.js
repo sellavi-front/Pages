@@ -32,10 +32,11 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section');
   const sectionCustom = document.querySelector('.custom_section');
+  const customBanner = document.querySelector('.custom_banner');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
   const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout)
-  const social = new SocIconsTypeOne(sectionCustom, 'beforeend')
+  const social = new SocIconsTypeOne(customBanner, 'beforeend')
 
   saleBanner.render();
   imgNearText.render();
