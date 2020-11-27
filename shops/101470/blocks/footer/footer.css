@@ -119,3 +119,13 @@ body .footer .footer-widgets {
 #home > div > footer > div.footer-meta > div {
   padding-top: 20px;
 }
+
+.content-area {
+  padding-bottom: 0px !important;    
+
+}
+
+#home > div > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > ul {
+  padding-top: 25px !important;
+
+}
