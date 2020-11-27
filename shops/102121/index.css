@@ -3,6 +3,8 @@
 @import url('https://coospir.github.io/Pages/modules/BigBanner/BigBanner.css');
 @import url('https://coospir.github.io/Pages/components/css-comonents/HeaderTransparent.css');
 @import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
+@import url('https://coospir.github.io/Pages/modules/Requisites/Requisites.css');
+
 
 html, body,
 body span,
@@ -56,6 +58,11 @@ body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2
 
 .navigation-wrapper {
   display: none;
+}
+
+body.ltr .product-single table td {
+  padding: 0 10px 0 0;
+  font-size: 10px;
 }
 
 /* Footer */

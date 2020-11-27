@@ -2,11 +2,8 @@ import Requisites from '../../modules/Requisites/Requisites.js'
 import requsites from './utils/requsites.js'
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
 import imgArr from "./utils/images.js"
-import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js"
-import ChangeAgreement from "../../fixes/ChangeAgreement/ChangeAgreement.js"
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-
 
 let customBanner = document.querySelector(".custom_banner")
 let customSection = document.querySelector(".custom_section")
