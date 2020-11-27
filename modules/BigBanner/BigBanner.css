@@ -37,3 +37,14 @@
   width: 100%;
   text-align: center;
 }
+
+.header {
+  border-bottom: none;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+}
+
+.header .header-wrapper {
+  background: transparent;
+}
