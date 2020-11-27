@@ -38,3 +38,9 @@ body .section-title {
 .thumbnail .price {
   font-size: 22px !important;
 }
+
+.thumbnail .price {
+  align-self: center;
+  margin: 0 0 15px !important;
+  width: 100%;
+}
