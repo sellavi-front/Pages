@@ -1,8 +1,18 @@
 .banner-content__item {
   background: #0B272A;
+  height: 400px;
 }
 
 .banner-content__item > div {
   display: flex;
   align-items: center;
+}
+
+.banner-content__item_bg {
+  overflow: visible;
+}
+
+.banner-content__item_bg > picture {
+  position: absolute;
+  bottom: 0;
 }
