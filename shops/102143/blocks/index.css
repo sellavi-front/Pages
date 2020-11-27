@@ -15,6 +15,7 @@
 @import './container.css';
 @import './about/about.css';
 @import './img-bg.css';
+@import './custom-banner/custom_banner.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
