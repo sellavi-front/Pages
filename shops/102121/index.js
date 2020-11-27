@@ -12,9 +12,18 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customBanner, "afterend")
   categories.render()
+  const objBanner = {
+    title: 'Wigstyle',
+    link: window.location.hostname,
+    linkContent: 'Подробнее',
+  };
+  const bigBanner = new BigBanner(document, objBanner);
+
+  bigBanner.render();
 }
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import BigBanner from "../../modules/BigBanner/BigBanner";
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
