@@ -2,12 +2,16 @@
 @import './cart.css';
 @import './navigation.css';
 
-.common-home .header {
+/*.common-home .header {
   border: none !important;
   position: absolute;
   z-index: 999;
   top: 0;
   width: 100%;
+}*/
+
+.common-home .header {
+  position: absolute;
 }
 
 .header .navigation-wrapper {
