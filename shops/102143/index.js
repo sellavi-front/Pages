@@ -6,10 +6,12 @@ import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentB
 
 import requsites from './utils/requsites.js'
 import dataBannerContent from './utils/dataBannerContent.js'
-import bootstrapClasses from './utils/bootstrapClasses.js'
+import bootstrapClasses from './utils/bootstrapClasses.js';
+import dataabout from './utils/dataAbout.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
+import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 
 if (document.querySelector('.wrapper')) {
 // Icons im header cont
@@ -31,8 +33,10 @@ if (document.querySelector('.common-home')) {
   const sectionCustom = document.querySelector('.custom_section');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
+  const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataabout)
 
   saleBanner.render();
+  imgNearText.render();
 
   const bannerContentItemBg = document.querySelector('.banner-content__item_bg > picture');
   bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
