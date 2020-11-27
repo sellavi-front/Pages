@@ -38,11 +38,6 @@ if (document.querySelector('.wrapper')) {
   hideCart.remove();
   // End
 
-  const bigBanner = new BigBanner(
-    'https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png',
-  );
-  bigBanner.render();
-
   const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);
 
   contactsClass.render();
@@ -56,7 +51,11 @@ if (document.querySelector('.common-home')) {
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
   const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout);
   const social = new SocIconsTypeOne(customBanner, 'beforeend', socIcons);
+  const bigBanner = new BigBanner(
+    'https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png',
+  );
 
+  bigBanner.render();
   saleBanner.render();
   imgNearText.render();
   social.render();
