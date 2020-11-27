@@ -71,5 +71,9 @@ body.ltr .product-single table td {
   .col-md-3 + .col-md-3 {
     margin-top: 5%
   }
+
+  .page-header h1 {
+    font-size: 25px !important;
+  }
 }
 
