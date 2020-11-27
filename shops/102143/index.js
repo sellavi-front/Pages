@@ -6,7 +6,7 @@ import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentB
 
 import requsites from './utils/requsites.js'
 import dataBannerContent from './utils/dataBannerContent.js'
-//import fixes from '../../fixes/fixes.js'
+import bootstrapClasses from './utils/bootstrapClasses.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
