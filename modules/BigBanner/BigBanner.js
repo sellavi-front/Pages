@@ -1,6 +1,5 @@
 export default class BigBanner {
-  constructor(doc, obj) {
-    this.doc = doc;
+  constructor(obj = undefined) {
     this.obj = obj;
   }
 
@@ -20,7 +19,7 @@ export default class BigBanner {
   }
 
   render() {
-    const banner = this.doc.querySelector('.custom_banner');
+    const banner = document.querySelector('.custom_banner');
     return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }

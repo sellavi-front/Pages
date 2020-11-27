@@ -43,7 +43,7 @@ if (document.querySelector('.wrapper')) {
   //const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
-  //const footerWrapper = document.querySelector('.footer_content_wrapper');
+  const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetsRow = document.querySelector('footer > .footer-widgets > div > .row');
   const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
   const footerWidgetCol1 = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(1)');
@@ -76,7 +76,7 @@ if (document.querySelector('.wrapper')) {
   footerMetaContainer.classList.remove('container');
 
   //headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
-  //footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
+  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
 
   deleteClassesFooter.findAndDelete();
