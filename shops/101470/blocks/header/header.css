@@ -69,16 +69,16 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
   font-size: 30px;
 }
 
-@media (max-device-width: 480) {
+@media (max-device-width: 480px) {
   .cart_drop_down > a > i::before {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
   .button__list_elem > a > i::before {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 
   #search > button > i::before {
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }
