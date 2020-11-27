@@ -60,6 +60,13 @@
   border: none;
 }
 
+.header .header-search .form-control:focus {
+  background: transparent !important;
+  border: none;
+  border-bottom: 1px solid white !important;
+  color: white
+}
+
 .fa-shopping-cart:before {
   content: "\f290" !important;
 }
