@@ -71,7 +71,11 @@ body .footer .footer-widgets {
 
   .footer_content_wrapper ul {
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+  }
+
+  #home > div > div > footer > div.footer-meta > div {
+    margin-left: 15px;
   }
 
   .footer_content_wrapper ul li {
