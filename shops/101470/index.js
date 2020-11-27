@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // import '../../fixes/fixes.js';
-=======
-//import '../../fixes/fixes.js';
->>>>>>> 87fe28bd31fb08eb813b39d6f372a9be0328dbd4
 
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
@@ -59,11 +55,7 @@ if (document.querySelector('.wrapper')) {
   const footerMetaContainer = document.querySelector('.footer-meta>div');
   const cartLink = document.querySelector("#cart>i");
 
-<<<<<<< HEAD
   const forDelete = [icoUser, cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
-=======
-  const forDelete = [icoUser, cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1]; //navigation
->>>>>>> 87fe28bd31fb08eb813b39d6f372a9be0328dbd4
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
@@ -83,11 +75,7 @@ if (document.querySelector('.wrapper')) {
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
 
-<<<<<<< HEAD
   // headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
-=======
-  //headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
->>>>>>> 87fe28bd31fb08eb813b39d6f372a9be0328dbd4
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
 
