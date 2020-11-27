@@ -31,6 +31,10 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   border-bottom: 5px solid linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
 }
 
+body .section-title {
+  text-align: left !important;
+}
+
 .thumbnail .price {
   font-size: 22px !important;
 }
