@@ -1,10 +1,6 @@
 @import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
 
 /* Content */
-#undefined-sticky-wrapper > header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) {
-  display: none;
-}
-
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   display: none
 }
