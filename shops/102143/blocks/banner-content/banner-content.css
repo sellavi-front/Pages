@@ -1,3 +1,8 @@
 .banner-content__item {
   background: #0B272A;
 }
+
+.banner-content__item > div {
+  display: flex;
+  align-items: center;
+}
