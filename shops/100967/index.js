@@ -62,10 +62,7 @@ if (document.querySelector('.wrapper')) {
   buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
 
-  const icoUser = document.querySelector('.button__list > .icon-user');
-
   hideCart.remove();
-  icoUser.remove();
   navWrapperCon.classList.remove('container');
 
   console.log(icoUser);
