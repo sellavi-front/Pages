@@ -74,8 +74,9 @@ body .footer .footer-widgets {
     justify-content: center;
   }
 
+  
   #home > div > div > footer > div.footer-meta > div {
-    margin-left: 15px;
+    margin-left: 15px !important;
   }
 
   .footer_content_wrapper ul li {
