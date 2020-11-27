@@ -50,3 +50,7 @@
   font-size: 16px;
   color: white;
 }
+
+.fa-shopping-cart:before {
+  content: "\f290" !important;
+}
