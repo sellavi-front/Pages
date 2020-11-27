@@ -1,4 +1,4 @@
-import '../../fixes/fixes.js';
+//import '../../fixes/fixes.js';
 
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
