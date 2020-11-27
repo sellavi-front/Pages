@@ -5,6 +5,7 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 const buttonsInHeader = new ButtonListInHeader(headerWrapper);
+buttonsInHeader.setTemplate()
 hideCart.remove();
 
 if (location.href.includes('term-of-use')) {
