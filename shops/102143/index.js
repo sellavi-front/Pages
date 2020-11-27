@@ -1,5 +1,6 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import Requisites from '../../modules/Requisites/Requisites.js';
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js'
 
@@ -30,8 +31,10 @@ if (document.querySelector('.common-home')) {
   const sectionCustom = document.querySelector('.custom_section');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
+  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
 
   saleBanner.render();
+  delSelectorsProductItem.findAndDelete();
 
   const bannerContentItemBg = document.querySelector('.banner-content__item_bg');
   bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
@@ -47,6 +50,7 @@ pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.co
   left: 0;
   bottom: 0;
   opacity: .5;">`)
+
 
 }
 
