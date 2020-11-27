@@ -1,9 +1,10 @@
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import Requisites from '../../modules/Requisites/Requisites.js';
 
-import requsites from './utils/requsites.js'
-import icons from './utils/icons.js';
+import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js'
 
+import requsites from './utils/requsites.js'
+import dataBannerContent from './utils/dataBannerContent.js'
 //import fixes from '../../fixes/fixes.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
@@ -26,20 +27,26 @@ if (document.querySelector('.wrapper')) {
 
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section');
+  const sectionCustom = document.querySelector('.custom_section');
+
+  const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
+
+  saleBanner.render();
+
+  const bannerContentItemBg = document.querySelector('.banner-content__item_bg');
+  bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
 
   pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png" style="
-  position: absolute;
-  right: 0;
-  top: 0;
-  opacity: .5;
-">`)
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: .5;">`)
 
 pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png" style="
   position: absolute;
   left: 0;
   bottom: 0;
-  opacity: .5;
-">`)
+  opacity: .5;">`)
 
 }
 
