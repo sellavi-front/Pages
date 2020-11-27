@@ -46,8 +46,9 @@ body .section-title {
   width: 100%;
 }
 
-h2.section-title.mb-4.mt-4::after {
+h2.section-title > span::after {
   content: ' ';
+  display: flex;
   height: 5px;
   background: linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
   width: 100%;
