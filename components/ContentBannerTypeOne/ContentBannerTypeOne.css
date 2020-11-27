@@ -33,6 +33,10 @@
   margin-bottom: 20px;
 }
 
+.banner-content__item_title span {
+
+}
+
 .banner-content__item_text {
   font-size: 28px;
   margin: 0;
