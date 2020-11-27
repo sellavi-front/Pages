@@ -41,9 +41,9 @@ if (document.querySelector('.common-home')) {
   const bannerContentItemBg = document.querySelector('.banner-content__item_bg > picture');
   bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
 
-  pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png">`)
+  pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg img-bg_l" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png">`)
 
-pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`)
+pageSection.insertAdjacentHTML('beforeend', `<img class="img-bg_r" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`)
 
 }
 
