@@ -83,7 +83,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
   }
 
   #search > button {
-    position: relative;
+    position: relative !important;
     left: 115px !important;
   }
 }
