@@ -8,6 +8,7 @@ import requsites from './utils/requsites.js'
 import dataBannerContent from './utils/dataBannerContent.js'
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import dataAbout from './utils/dataAbout.js';
+import socIcons from './utils/socIcons.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
@@ -36,7 +37,7 @@ if (document.querySelector('.common-home')) {
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
   const imgNearText = new ImgNearText(sectionCustom, 'beforeend', dataAbout)
-  const social = new SocIconsTypeOne(customBanner, 'beforeend')
+  const social = new SocIconsTypeOne(customBanner, 'beforeend', socIcons)
 
   saleBanner.render();
   imgNearText.render();
