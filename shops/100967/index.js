@@ -28,8 +28,7 @@ const icons = {
 };
 
 if (document.querySelector('.wrapper')) {
-  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
@@ -37,7 +36,15 @@ if (document.querySelector('.wrapper')) {
   const notActiveLink = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a");
   const link = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a")
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+
+  // Icons im header cont
+    const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+    const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+
+    const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+
+    hideCart.remove();
+  // End
 
   const baseSender = new BaseSender(
     document.querySelector('.footer-widgets>.container'),

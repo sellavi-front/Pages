@@ -18,10 +18,16 @@ const obj = {
 };
 
 if (document.querySelector('.wrapper')) {
+// Icons im header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+
+  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+
+  hideCart.remove();
+// End
 
   const bigBanner = new BigBanner(obj);
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
   buttonsInHeader.setTemplate();
   bigBanner.render()
