@@ -6,6 +6,7 @@
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import '../../../components/css-comonents/HeaderTransparent.css';
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+@import '../../../components/ImgNearText/ImgNearText.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import './products/products.css';
