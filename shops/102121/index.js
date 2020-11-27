@@ -33,7 +33,7 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   bigBanner.render();
 }
 
-if(window.location.pathname === '/contanct/') {
+if(window.location.pathname === '/contact/') {
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div").setAttribute("class", "media-body")
 }
 
