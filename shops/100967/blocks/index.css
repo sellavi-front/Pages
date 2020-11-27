@@ -6,12 +6,15 @@
 @import '../../../components/ImgNearText/ImgNearText.css';
 @import '../../../components/HistoryLine/HistoryLine.css';
 @import '../../../components/GridPhotoWithText/GridPhotoWithText.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../components/BaseSender/BaseSender.css';
 
 @import './header/header.css';
 @import './products/products.css';
 @import './content-banner/content-banner.css';
 @import './history/history.css';
 @import './footer/footer.css';
+@import './side-categories/side-categories.css';
 
 @import './container.css';
 

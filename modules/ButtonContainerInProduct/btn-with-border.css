@@ -1,0 +1,15 @@
+.thumbnail .add_to_wishlist {
+  position: initial !important;
+}
+
+.thumbnail .add_to_wishlist button {
+  border-radius: 0 !important;
+  border: 1px solid black !important;
+  background: transparent !important;
+  width: 72px;
+  height: 100%;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: black !important;
+}

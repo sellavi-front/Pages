@@ -1,0 +1,37 @@
+.thumbnail .price_actions {
+  flex-direction: column !important;
+}
+
+.thumbnail .price_actions .add_to_cart {
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.thumbnail .price_actions .add_to_cart button {
+  border: 1px solid black;
+  padding: 5% 25%;
+  border-radius: 0;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  max-height: initial !important;
+  min-height: initial !important;
+  margin: 20px 0 !important;
+  overflow: hidden !important;
+}
+
+.thumbnail .caption-title {
+  min-height: inherit !important;
+}
+
+.thumbnail .media-link,
+.latest-section .product-layout .thumbnail .media {
+  margin: 0 !important;
+}
+
+.product-item .thumbnail .media img {
+  min-height: inherit !important;
+  max-width: inherit !important;
+  max-height: inherit !important;
+
+}

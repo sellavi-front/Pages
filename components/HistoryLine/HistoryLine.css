@@ -23,9 +23,10 @@
 }
 
 .history__item_img {
-  margin: 0 55px;
-  width: 140px;
-  height: 120px;
+  margin: 0 50px;
+  max-width: 140px;
+  height: auto;
+  width: 100%;
 }
 
 .history__item_date {
@@ -44,4 +45,32 @@
 .history__item_text_title {
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+@media (max-width: 870px) {
+  .history__item_text_text {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .history > .container {
+    padding: 0 !important;
+  }
+
+  .history__item_text_title {
+    font-style: 14px;
+  }
+
+  .history__item_img {
+    margin: 0 10px;
+    width: 70px;
+  }
+
+  .history__item_line {
+    width: 25px;
+  }
+  .history__item {
+    height: 97px;
+  }
 }

@@ -21,7 +21,7 @@ export default class FooterTypeOne {
   setData() {
     return this.data.map(
       (item) => `
-        <div class="footer-custom">
+        <div class="footer-custom__">
 
         </div>
       `,

@@ -1,0 +1,16 @@
+.soc-icons {
+  max-width: 321px;
+  width: 100%;
+}
+
+.soc-icons__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.soc-icons__item_icon {
+  width: 36px;
+  height: auto;
+}
