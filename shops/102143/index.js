@@ -26,9 +26,7 @@ if (document.querySelector('.wrapper')) {
   const footer = document.querySelector('.footer');
   const footerWidgets = document.querySelector('.footer-widgets');
   document.querySelector('.footer-widgets>.container').remove();
-  footerWidgetsCol.forEach(col => {
-    col.remove()
-  });
+
 
   footer.insertAdjacentHTML(
     'beforeend',
