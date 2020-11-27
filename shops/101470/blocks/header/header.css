@@ -57,5 +57,14 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
   padding: 0px !important;
 }
 
+.cart_drop_down > a > i::before {
+  font-size: 30px;
+}
 
+.button__list_elem > a > i::before {
+  font-size: 30px;
+}
 
+#search > button > i::before {
+  font-size: 30px;
+}
