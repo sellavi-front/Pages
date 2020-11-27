@@ -4,14 +4,12 @@ export default class BigBanner {
   }
 
   setCaption() {
-
-      return`<div class="banner__caption">
+      return `<div class="banner__caption">
         <h1>${this.obj.title}</h1>
         <a href="${this.obj.link}">
           ${this.obj.linkContent}
         </a>
       </div>`;
-    }
   }
 
   setTemplate() {
@@ -19,7 +17,7 @@ export default class BigBanner {
       <div class="outer-container">
         <div class="banner">
           <div class="banner__image" style="background: url(
-            ${!this.obj.urlImg ? this.link : this.obj.urlImg}
+            ${!this.obj.urlImg ? this.link : this.obj.urlImg }
             )">
           </div>
           ${ !this.obj.title
