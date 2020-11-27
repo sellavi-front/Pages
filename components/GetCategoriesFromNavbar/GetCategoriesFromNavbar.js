@@ -33,7 +33,7 @@ export default class GetCategoriesFromNavbar {
   setData() {
     return this.getCategoriesFromNavbar().map(
       (item) => `
-        <div class="categories__container__item_column" onclick="location.href=${item.link}">
+        <div class="categories__container__item_column" onclick="location.href='${item.link}'">
             <div class="column__item_img"><img src="${item.img}" alt="img"/></div>
             <h6>${item.name}</h6>
         </div>
