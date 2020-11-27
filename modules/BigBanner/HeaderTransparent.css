@@ -8,3 +8,22 @@
 .header .header-wrapper {
   background: transparent;
 }
+
+.header .header-search {
+  position: relative;
+}
+
+.header .header-cart {
+  position: relative;
+  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+}
+
+.header-cart .cart-wrapper {
+  border: none;
+}
+
+.header-cart .cart-wrapper #cart i,
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  margin: 0;
+  padding: 0;
+}
