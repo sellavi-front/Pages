@@ -29,13 +29,10 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section');
   const sectionCustom = document.querySelector('.custom_section');
-  const productItem = document.querySelectorAll('.product-item');
 
   const saleBanner = new ContentBannerTypeOne(sectionCustom, 'afterbegin', dataBannerContent);
-  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
 
   saleBanner.render();
-  delSelectorsProductItem.findAndDelete();
 
   const bannerContentItemBg = document.querySelector('.banner-content__item_bg');
   bannerContentItemBg.insertAdjacentHTML('afterbegin', `<source media="(max-width: 495px)" src="https://res.cloudinary.com/gz-company/image/upload/v1606481504/ThaiCosmetic/Group_75_lfbifj.png"> </source>`)
@@ -52,7 +49,12 @@ pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.co
   bottom: 0;
   opacity: .5;">`)
 
+}
 
+if (document.querySelector('.product-item')) {
+  const productItem = document.querySelectorAll('.product-item');
+  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
+  delSelectorsProductItem.findAndDelete();
 }
 
 if (location.href.includes('term-of-use')) {
