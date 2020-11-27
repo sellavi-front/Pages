@@ -9,10 +9,6 @@ import icons from './utils/icons.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 
-const obj = {
-  urlImg: 'https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png',
-};
-
 if (document.querySelector('.wrapper')) {
 // Icons im header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
@@ -23,7 +19,7 @@ if (document.querySelector('.wrapper')) {
   hideCart.remove();
 // End
 
-  const bigBanner = new BigBanner(obj);
+  const bigBanner = new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png');
 
   buttonsInHeader.setTemplate();
   bigBanner.render()

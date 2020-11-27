@@ -1,6 +1,7 @@
 export default class BigBanner {
-  constructor(obj, link = undefined) {
+  constructor(obj = {}, link = undefined) {
     this.obj = obj;
+    this.link = link;
   }
 
   setCaption() {
