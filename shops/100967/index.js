@@ -65,7 +65,6 @@ if (document.querySelector('.wrapper')) {
   hideCart.remove();
   navWrapperCon.classList.remove('container');
 
-  console.log(icoUser);
 
   megalineLi.forEach((it) => {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
