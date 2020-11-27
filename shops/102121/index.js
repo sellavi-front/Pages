@@ -19,10 +19,9 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
     title: 'Wigstyle',
     link: '#',
     linkContent: 'Подробнее',
-    urlImg: 'https://images.unsplash.com/photo-1582461245067-d444cd654711?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
   };
 
-  const bigBanner = new BigBanner(objBanner);
+  const bigBanner = new BigBanner(objBanner, 'https://images.unsplash.com/photo-1582461245067-d444cd654711?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   bigBanner.render();
 }
 
