@@ -43,7 +43,7 @@ body .footer .footer-widgets {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  padding: 5%;
+  /* padding: 5%; */
 }
 
 .footer_content_wrapper ul li {
