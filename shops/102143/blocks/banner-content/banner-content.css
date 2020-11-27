@@ -7,9 +7,10 @@
   height: 400px;
 }
 
-.banner-content__item > div {
-  display: flex;
-  align-items: center;
+.banner-content__item > .container {
+  display: flex !important;
+  align-items: baseline !important;
+  justify-content: center;
 }
 
 .banner-content__item_bg {
