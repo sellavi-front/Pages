@@ -40,7 +40,7 @@ if (document.querySelector('.wrapper')) {
   const icoUser = document.querySelector('.icon-user');
   const headerSearch = document.querySelector('.header-search');
   //const buttonList = document.querySelector('.button__list');
-  const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
+  //const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
@@ -54,7 +54,7 @@ if (document.querySelector('.wrapper')) {
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
 
-  const forDelete = [icoUser, cartText, navigation, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
+  const forDelete = [icoUser, cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
@@ -73,7 +73,7 @@ if (document.querySelector('.wrapper')) {
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
 
-  headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
+  // headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
 
