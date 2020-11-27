@@ -16,6 +16,7 @@
 
 .img-bg_footer {
   right: 0;
+  display: none ;
 }
 
 @media (max-width: 1024px) {
