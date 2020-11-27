@@ -15,6 +15,7 @@
 
 .banner-content__item_bg {
   overflow: visible;
+  overflow-y: hidden;
 }
 
 .banner-content__item_bg > picture {
