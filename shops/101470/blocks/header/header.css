@@ -81,4 +81,9 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
   #search > button > i::before {
     font-size: 18px !important;
   }
+
+  #search > button {
+    position: relative;
+    left: 115px !important;
+  }
 }
