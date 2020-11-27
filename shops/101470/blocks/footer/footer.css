@@ -76,7 +76,7 @@ body .footer .footer-widgets {
 
   
   #home > div > div > footer > div.footer-meta > div {
-    margin-left: 15px !important;
+    padding-left: 15px !important;
   }
 
   .footer_content_wrapper ul li {
