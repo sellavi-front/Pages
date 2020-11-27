@@ -74,7 +74,7 @@ if (document.querySelector('.wrapper')) {
   footerMetaContainer.classList.remove('container');
 
   // headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
-  footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
+  //footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
 
   deleteClassesFooter.findAndDelete();
