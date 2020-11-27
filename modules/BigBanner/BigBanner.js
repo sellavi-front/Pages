@@ -18,7 +18,7 @@ export default class BigBanner {
       <div class="outer-container">
         <div class="banner">
           <div class="banner__image" style="background: url(
-            ${!this.obj.urlImg ? this.link : this.obj.urlImg }
+            ${this.link !== undefined ? this.link : this.obj.urlImg }
             )">
           </div>
           ${ this.obj.length > 0
