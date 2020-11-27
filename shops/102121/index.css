@@ -47,7 +47,7 @@ body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2
 }
 
 .banner__caption {
-  bottom: 30% !important;
+  bottom: 10% !important;
 }
 
 #home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
