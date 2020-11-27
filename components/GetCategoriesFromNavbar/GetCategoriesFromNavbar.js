@@ -1,4 +1,5 @@
-import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
+import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js'
+import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js";
 
 export default class GetCategoriesFromNavbar {
   constructor(list, arr, title, container, target) {
