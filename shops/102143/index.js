@@ -31,7 +31,7 @@ if (document.querySelector('.wrapper')) {
 
   footer.insertAdjacentHTML(
     'beforeend',
-    `<img class="img-bg img-bg_footer" src"https://res.cloudinary.com/gz-company/image/upload/v1606489415/ThaiCosmetic/Group_56_jzrryx.png">`,
+    `<img class="img-bg img-bg_footer" src=https://res.cloudinary.com/gz-company/image/upload/v1606489415/ThaiCosmetic/Group_56_jzrryx.png">`,
   );
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
