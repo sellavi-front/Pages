@@ -3,7 +3,7 @@
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
-
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import '../../../components/css-comonents/HeaderTransparent.css';
 
 @import './pay-delivery/pay-delivery.css';
