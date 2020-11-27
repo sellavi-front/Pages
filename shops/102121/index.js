@@ -6,10 +6,17 @@ import TranslateAboutUs from "../../fixes/TranslateAboutUs/TranslateAboutUs.js"
 import ChangeAgreement from "../../fixes/ChangeAgreement/ChangeAgreement.js"
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import ButtonContainerInProduct from "../../modules/ButtonContainerInProduct/ButtonContainerInProduct";
 
 
 let customBanner = document.querySelector(".custom_banner")
 let customSection = document.querySelector(".custom_section")
+const priceActions = document.querySelectorAll('.price_actions')
+const addToCart = document.querySelectorAll('.add_to_cart')
+const addToWishList = document.querySelectorAll('.add_to_wishlist')
+
+const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, priceActions)
+buttonContainerInProduct.createContainer()
 
 if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
