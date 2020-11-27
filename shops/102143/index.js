@@ -25,7 +25,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
-  const pageSection = document.querySelector('');
+  const pageSection = document.querySelector('.page-section');
 
   pageSection.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_fe6p69.png" style="
   position: absolute;
