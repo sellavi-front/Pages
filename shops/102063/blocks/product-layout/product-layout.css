@@ -104,3 +104,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   display: flex !important;
   align-items:center !important;
 }
+
+body.ltr .thumbnail .caption-title {
+  text-align: center;
+}
