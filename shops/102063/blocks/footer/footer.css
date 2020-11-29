@@ -29,6 +29,9 @@ body .footer a,
   border: none !important;
 }
 
+.add_to_wishlist {
+  height: fit-content
+}
 
 .media {
   display: flex;
