@@ -1,6 +1,6 @@
 // import '../../fixes/fixes.js';
 
-import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
+//import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
