@@ -40,3 +40,8 @@
 .sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
   background: rgb(0, 120, 200) !important;
 }
+
+.sf-menu ul a:hover {
+  color: #ffffff;
+  background-color: #0078c8;
+}
