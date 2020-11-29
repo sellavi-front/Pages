@@ -50,3 +50,8 @@ h3.img-inner_title {
 #home > div > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(2) {
   margin-bottom: 20px;
 }
+
+h4.widget-title {
+  border-bottom: 2px solid white;
+  width: fit-content;
+}
