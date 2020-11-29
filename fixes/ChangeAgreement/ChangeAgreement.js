@@ -4,9 +4,10 @@ export default class ChangeAgreement {
   }
 
   change() {
+    this.checkbox.textContent = '';
     this.checkbox.insertAdjacentHTML(
       'beforeend',
-      `Согласен (-а) с условиями <a href="/terms-of-use/" style="text-decoration: none !important;"><b>Публичной оферты</b></a>`,
+      `Согласен (-а) с условиями <a href="/term-of-use/" style="text-decoration: none !important;"><b>Публичной оферты</b></a>`,
     );
   }
 }
