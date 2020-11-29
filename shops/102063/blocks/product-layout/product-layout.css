@@ -108,3 +108,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 body.ltr .thumbnail .caption-title {
   text-align: center;
 }
+
+body.theme-blue-1 .thumbnail .price_actions .add_to_cart button:hover, body.theme-blue-1 .thumbnail .price ins {
+  color: #000000;
+}
