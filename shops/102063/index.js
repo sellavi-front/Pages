@@ -55,9 +55,9 @@ document.querySelector('#home > div > header > div.navigation-wrapper').insertAd
 
 
 /* description */
-const oldNode = document.querySelector('#tab-description');
-let newNode = oldNode.cloneNode(true)
-document.querySelector(".product-item").insertAdjacentHTML("afterend", newNode.outerHTML)
-oldNode.remove()
+// const oldNode = document.querySelector('#tab-description');
+// let newNode = oldNode.cloneNode(true)
+// document.querySelector(".product-item").insertAdjacentHTML("afterend", newNode.outerHTML)
+// oldNode.remove()
 
 
