@@ -13,3 +13,6 @@ header {
   justify-content: space-between;
 }
 
+body .content-area {
+  padding-bottom: 0px;
+}
