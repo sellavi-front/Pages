@@ -26,7 +26,7 @@ const dataSmallCat = [
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606380941/%D0%91%D1%84%D1%8B%D0%B0%D1%8B%D0%B2%D0%B0%D1%8B%D0%B2%D0%B0%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-3_xtvubr.png',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606652783/photo-1578496481449-cf2e845cc00c_sbkxt4.png',
     title: 'Анализ воды',
   },
 ];
