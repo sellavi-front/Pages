@@ -32,3 +32,14 @@ body .content-area {
 .fa-shopping-cart:before {
   color: black;
 }
+
+@media (max-device-width: 480px) {
+  #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo > a > img {
+      position: relative;
+      right: 10%;
+  }
+
+  #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+      right: 70%;
+  }
+}
