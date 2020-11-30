@@ -5,9 +5,11 @@
 }
 
 .bread__crumbs_container a {
+  margin-right: 1%;
   display: flex;
 }
 
 .bread__crumbs_container .active__page {
   color: #c3c3c3;
+  margin-left: 1%;
 }
