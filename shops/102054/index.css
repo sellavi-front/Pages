@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('../../fixes/fixes.css');
-@import url('../../modules/BigCategories/BigCategories.css');
+@import url('../../components/BigCategories/BigCategories.css');
 @import url('../../components/SenderTypeOne/SenderTypeOne.css');
 
 html, body,
@@ -547,13 +547,6 @@ body .footer .footer-widgets .widget-title {
     padding: 0.5rem;
     width: 100%;
     margin-top: 25px;
-  }
-
-  .card__title {
-    width: auto;
-    position: absolute;
-    bottom: 50%;
-    left: 1 !important;
   }
 
   .title__new__collection {

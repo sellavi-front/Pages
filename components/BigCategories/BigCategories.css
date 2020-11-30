@@ -40,7 +40,6 @@
   width: 200px;
   position: absolute;
   bottom: 9rem;
-  left: 4rem;
 }
 
 .card__title a{
@@ -70,9 +69,8 @@
   }
 
   .card__title {
-    width: 180px;
+    width: auto;
     position: absolute;
-    bottom: 2rem;
-    left: 6rem;
+    bottom: 50%;
   }
 }
