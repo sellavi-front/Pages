@@ -41,4 +41,24 @@
   margin-top: 2%;
 }
 
+.requisites__block {
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+}
+
+.requisites__block_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.register_block_item {
+  display: flex;
+  width: 100%;
+}
+
 /* test */
