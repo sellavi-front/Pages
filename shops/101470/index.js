@@ -109,7 +109,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1605624670/1985/Image-1_2_zvkexd.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606729735/photo_2020-11-30_12-33-15_upfzhe.png');
 }
 
 if (document.querySelector('.product-item')) {
