@@ -1,0 +1,79 @@
+@import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://coospir.github.io/Pages/modules/BigBanner/BigBanner.css');
+@import url('https://coospir.github.io/Pages/components/css-comonents/HeaderTransparent.css');
+@import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
+@import url('https://coospir.github.io/Pages/modules/Requisites/Requisites.css');
+
+
+html, body,
+body span,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body ul,
+body li,
+.product-availability,
+.product-price,
+#button-cart,
+.title,
+.price,
+input.form-control,
+input.form-control::placeholder,
+.form_checkout,
+.order_list_section__total-lines,
+.checkout_table {
+  font-family: 'Comfortaa', cursive !important;
+}
+
+/* Content */
+body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
+  display: none
+}
+
+.column__item_img {
+  border: 0 !important;
+}
+
+.categories__container__item_column {
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  margin: 5px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+
+.banner__caption {
+  bottom: 10% !important;
+}
+
+#home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
+  color: #fff;
+  font-weight: 900;
+}
+
+.navigation-wrapper {
+  display: none;
+}
+
+body.ltr .product-single table td {
+  padding: 0 10px 0 0;
+  font-size: 10px;
+}
+
+/* Footer */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .col-md-3 + .col-md-3 {
+    margin-top: 5%
+  }
+
+  .page-header h1 {
+    font-size: 25px !important;
+  }
+}
+

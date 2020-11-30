@@ -14,7 +14,11 @@ import RatingWithImgText from "../../components/RatingWithImgText/RatingWithImgT
 =======
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
+<<<<<<< HEAD
 >>>>>>> 6f5e3bb1ba1e728e6d79c1d105ee055db6ad3b27
+=======
+>>>>>>> fb20d0b043c0f565c46c37065190c94798c110f3
+>>>>>>> ffe69d7318efd37732f9f2f206fddac992493ad1
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';

@@ -1,4 +1,4 @@
-import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
+import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js'
 
 export default class GetCategoriesFromNavbar {
   constructor(list, arr, title, container, target) {
@@ -13,7 +13,8 @@ export default class GetCategoriesFromNavbar {
     return this.list.map((item, index) => {
        return {
             img: !this.arr[index] ? 'default' : this.arr[index],
-            name: item.firstElementChild.outerHTML
+            name: item.firstElementChild.outerHTML,
+            link: item.firstElementChild.href
        }
     })
   }
@@ -32,7 +33,7 @@ export default class GetCategoriesFromNavbar {
   setData() {
     return this.getCategoriesFromNavbar().map(
       (item) => `
-        <div class="categories__container__item_column">
+        <div class="categories__container__item_column" onclick="location.href='${item.link}'">
             <div class="column__item_img"><img src="${item.img}" alt="img"/></div>
             <h6>${item.name}</h6>
         </div>

@@ -108,7 +108,7 @@ window.onload = () => {
         let categories = json.response.data
         categories.map(category => {
           cards.insertAdjacentHTML("afterbegin", `
-            <li class="cards__item">
+            <li class="cards__item" onclick="location.href=${category.url}">
               <div class="card">
                 <div class="card__image">
                   <div class="card__title"><a href="${category.url}">${category.full_name}</a></div>
