@@ -80,3 +80,12 @@ ul.closed {
 .panel-collapse.collapse > ul > li > a {
   color: white;
 }
+
+.banner-title-button {
+  position: absolute;
+  z-index: 999;
+  color: white;
+  left: 48%;
+  top: 2%;
+  font-size: 30px;
+}
