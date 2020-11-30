@@ -523,7 +523,8 @@ body .footer .footer-widgets .widget-title {
   margin-left: 15px;
 }
 
-#home > div.wrapper.wrapper-closed > div > section > div > div > div.products__block__banner:hover {
+#home > div.wrapper.wrapper-closed > div > section > div > div > div.products__block__banner:hover,
+.cards__item:hover {
   cursor: pointer;
 }
 
