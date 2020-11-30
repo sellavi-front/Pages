@@ -6,7 +6,7 @@ import objBanner from './utils/bannerText.js';
 
 console.log(objBanner);
 
-const bigBanner = new BigBanner(objBanner, 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png');
+const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
