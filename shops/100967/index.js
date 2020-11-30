@@ -90,7 +90,7 @@ if (document.querySelector('.wrapper')) {
   const qtyNum = +qty.textContent.trim();
 
   if (qtyNum > 0) {
-    qty.style.background = 'rgba(240, 10, 10, .9)'
+    qty.style.cssText = 'background: rgba(240, 10, 10, .9); color: white; border-color: white;'
   } else {
     qty.style.cssText = `
       color: black;
