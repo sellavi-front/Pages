@@ -4,6 +4,13 @@
 }
 
 .tab-content__content {
-  list-style: disc;
   width: 48%;
+}
+
+.tab-content__content > p {
+  margin: 0;
+}
+
+.tab-content__content > ul {
+  list-style: disc;
 }
