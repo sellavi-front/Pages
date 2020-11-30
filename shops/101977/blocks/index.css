@@ -3,3 +3,5 @@
 @import './pay-delivery/pay-delivery.css';
 
 @import '../../../modules/ButtonListInHeader/style.css';
+
+@import '../../../components/css-comonents/HeaderTransparent.css';
