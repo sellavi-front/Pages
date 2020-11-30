@@ -64,6 +64,6 @@ body > div > div > section:nth-child(1) > div > div.row.product-single.product-i
     flex-direction: column;
   }
   .product-single > .col-lg-6 {
-    width: 100%;
+    max-width: 100% !important;
   }
 }
