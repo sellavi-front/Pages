@@ -64,3 +64,19 @@
   display: flex;
   flex-direction: column;
 }
+
+ul.closed {
+  position: relative;
+  z-index: 1000 !important;
+}
+
+
+
+.panel-collapse.collapse {
+  position: absolute;
+  z-index: 999 !important;
+}
+
+.panel-collapse.collapse > ul > li > a {
+  color: white;
+}
