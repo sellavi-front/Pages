@@ -91,6 +91,8 @@ if (document.querySelector('.wrapper')) {
     `
   }
 
+  const buttonList = document.querySelector('.button__list');
+  buttonList.insertAdjacentHTML('beforeend', `<li class="button__list_elem custom__text"><p class="custom__text_ph"></p></li>`);
 
 }
 
