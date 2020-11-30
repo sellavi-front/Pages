@@ -9,7 +9,7 @@ import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+// import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
@@ -51,14 +51,14 @@ if (document.querySelector('.wrapper')) {
     'afterbegin',
   );
 
-  const socialIconsTypeOne = new SocialIconsTypeOne(
-    document.querySelector('.footer-widgets>.container'),
-    'beforeEnd',
-  );
+  // const socialIconsTypeOne = new SocialIconsTypeOne(
+  //   document.querySelector('.footer-widgets>.container'),
+  //   'beforeEnd',
+  // );
 
   // FOOTER
   baseSender.render();
-  socialIconsTypeOne.render();
+  // socialIconsTypeOne.render();
   buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
 
