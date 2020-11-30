@@ -37,9 +37,11 @@
 }
 
 .card__title {
-  width: 200px;
+  width: 100%;
   position: absolute;
-  bottom: 9rem;
+  bottom: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .card__title a{
@@ -61,11 +63,12 @@
     padding: 0;
   }
 
-  .cards__item {
-    display: flex;
-    padding: 0.5rem;
+  .card__title {
     width: 100%;
-    margin: auto;
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
   }
 
   .card__title {
