@@ -11,16 +11,14 @@ window.onload = () => {
   let containerNavbar = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container")
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
+  containerNavbar.classList.add("navbar__block")
   let navbar = `
-    <div class="navbar__block">
-        <a class="navbar_item" href="#">О компании</a>
-        <a class="navbar_item" href="#">Доставка</a>
-        <a class="navbar_item" href="#">Оплата и возврат</a>
-        <a class="navbar_item" href="#">Комплексное оснащение</a>
-        <a class="navbar_item" href="#">Готовые решения</a>
-        <a class="navbar_item" href="#">Контакты</a>
-    </div>
-
+        <a class="navbar_item" href="#"><p>О компании</p></a>
+        <a class="navbar_item" href="#"><p>Доставка</p></a>
+        <a class="navbar_item" href="#"><p>Оплата и возврат</p></a>
+        <a class="navbar_item" href="#"><p>Комплексное оснащение</p></a>
+        <a class="navbar_item" href="#"><p>Готовые решения</p></a>
+        <a class="navbar_item" href="#"><p>Контакты</p></a>
   `
 
   containerNavbar.insertAdjacentHTML("beforeend", navbar)
