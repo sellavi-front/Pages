@@ -38,6 +38,7 @@ if (document.querySelector('.wrapper')) {
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
+  const bsMenutoggle = document.querySelector('.bs-menu-toggle');
   const footerContainer = document.querySelector('footer>.footer-widgets>dvi');
   const footerRow = document.querySelector('footer > div.footer-widgets > div.container > div');
   const notActiveLink = document.querySelectorAll(
@@ -122,6 +123,7 @@ if (document.querySelector('.wrapper')) {
 
   const disLinkHeader = document.querySelectorAll('.megamenu > ul > .megaline > div > div > span > a');
   disLinkHeader.forEach(link => link.removeAttribute('href'));
+  bsMenutoggle.remove();
 }
 
 if (document.querySelector('.common-home')) {
