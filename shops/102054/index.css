@@ -526,6 +526,10 @@ body .footer .footer-widgets .widget-title {
   margin-left: 15px;
 }
 
+.footer-widgets>.container-fluid>.row>.col-md-3 {
+  margin-top: 5%;
+}
+
 #home > div.wrapper.wrapper-closed > div > section > div > div > div.products__block__banner > img:hover,
 .cards__item:hover {
   cursor: pointer;
