@@ -14,14 +14,14 @@ const historyData = [
     text: 'Под руководством изобретателя проводились исследования в области технологичных материалов и осуществлялся поиск оптимальных конструкций.',
   },
   {
-    date: '1967.',
+    date: '1967г.',
     line: 'https://res.cloudinary.com/gz-company/image/upload/v1606229725/Miru/assets/historyline/Group_91_xiarga.png',
     img: 'https://res.cloudinary.com/gz-company/image/upload/v1606230253/Miru/assets/miru_1month_astigmatism_sxx62o.png',
     title: 'Появление торговой марки Menicon',
     text: 'Под началом Коити Танака появилась легендарная торговая марка Menicon, знаменитая на весь мир.',
   },
   {
-    date: '1973.',
+    date: '1973г.',
     line: 'https://res.cloudinary.com/gz-company/image/upload/v1606229725/Miru/assets/historyline/Group_93_bfq5ee.png',
     img: 'https://res.cloudinary.com/gz-company/image/upload/v1606230253/Miru/assets/miru_1month_astigmatism_sxx62o.png',
     title: 'Появление Menicon Soft.',
@@ -35,7 +35,7 @@ const historyData = [
     text: 'Были созданы первые «дышащие» жёсткие контактные линзы, завоевавшие в своё время невероятную популярность.',
   },
   {
-    date: 'с 1979г.',
+    date: '1979г.',
     line: 'https://res.cloudinary.com/gz-company/image/upload/v1606229725/Miru/assets/historyline/Group_92_fea6oi.png',
     img: 'https://res.cloudinary.com/gz-company/image/upload/v1606230253/Miru/assets/miru_1month_astigmatism_sxx62o.png',
     title: 'Совершенствованию геометрий линз и открытием новых биосовместимых материалов.',
@@ -45,7 +45,7 @@ const historyData = [
     date: 'Сегодня',
     line: 'https://res.cloudinary.com/gz-company/image/upload/v1606229724/Miru/assets/historyline/Group_88_jmoj1n.png',
     img: 'https://res.cloudinary.com/gz-company/image/upload/v1606230253/Miru/assets/miru_1month_astigmatism_sxx62o.png',
-    title: '',
+    title: 'Menicon сегодня – один из признанных лидеров на мировом рынке.',
     text: 'Menicon сегодня – один из признанных лидеров на мировом рынке. Специалисты компании продолжают улучшать продукты, развивая технологии изготовления, ради удовлетворения всех потребностей современных пользователей линз.',
   },
 ]
