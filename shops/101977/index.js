@@ -2,8 +2,11 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
+import objBanner from './utils/bannerText.js';
 
-const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png');
+ 
+
+const bigBanner = new BigBanner(objBanner, 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png');
 bigBanner.render()
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
