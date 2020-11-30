@@ -549,6 +549,12 @@ body .footer .footer-widgets .widget-title {
     margin-top: 25px;
   }
 
+  .card__title {
+    width: auto;
+    position: absolute;
+    bottom: 50%;
+  }
+
   .title__new__collection {
     display: flex;
     justify-content: center;

@@ -13,13 +13,18 @@
   margin-bottom: 55px;
 }
 
+.history__column {
+  width: 100px;
+}
 
 .history__item {
   height: 187px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .history__item_img {
@@ -31,6 +36,8 @@
 
 .history__item_date {
   margin: 0 10px 0 0;
+  width: inherit;
+  text-align: center;
 }
 
 .history__item_line {
@@ -50,6 +57,18 @@
 @media (max-width: 870px) {
   .history__item_text_text {
     display: none;
+  }
+
+  .history__item_img {
+    margin: 0 20px;
+    max-width: 70px;
+    height: auto;
+    width: 100%;
+  }
+
+  .history__item_line {
+    width: 44px;
+    height: 100%;
   }
 }
 

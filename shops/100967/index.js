@@ -10,9 +10,13 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import RatingWithImgText from "../../components/RatingWithImgText/RatingWithImgText.js";
 =======
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+=======
+// import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+>>>>>>> 10f10b8e5452e71d1b9c54dabeb85bb6c495d459
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 <<<<<<< HEAD
 >>>>>>> 6f5e3bb1ba1e728e6d79c1d105ee055db6ad3b27
@@ -59,14 +63,14 @@ if (document.querySelector('.wrapper')) {
     'afterbegin',
   );
 
-  const socialIconsTypeOne = new SocialIconsTypeOne(
-    document.querySelector('.footer-widgets>.container'),
-    'beforeEnd',
-  );
+  // const socialIconsTypeOne = new SocialIconsTypeOne(
+  //   document.querySelector('.footer-widgets>.container'),
+  //   'beforeEnd',
+  // );
 
   // FOOTER
   baseSender.render();
-  socialIconsTypeOne.render();
+  // socialIconsTypeOne.render();
   buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
 
