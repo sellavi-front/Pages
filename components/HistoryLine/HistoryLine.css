@@ -86,7 +86,10 @@
     width: 70px;
   }
 
+  .history__item_line {
+    width: 34px;
+  }
   .history__item {
-    height: 97px;
+    height: 127px;
   }
 }
