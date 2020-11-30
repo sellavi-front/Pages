@@ -110,6 +110,9 @@ if (document.querySelector('.wrapper')) {
     'beforeend',
     `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`,
   );
+
+  const disLinkHeader = document.querySelectorAll('.megamenu > ul > .megaline > div > div > span > a');
+  disLinkHeader.forEach(link => link.removeAttribute('href'));
 }
 
 if (document.querySelector('.common-home')) {
