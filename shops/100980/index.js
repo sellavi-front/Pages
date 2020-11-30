@@ -8,10 +8,10 @@ window.onload = () => {
 
   /* Setting logo */
   document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
-  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
+  let containerNavbar = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container")
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
-  logo.classList.add("navbar__block")
+  containerNavbar.classList.add("navbar__block")
   let navbar = `
     <p><a class="navbar_item" href="#">О компании</a></p>
     <p><a class="navbar_item" href="#">Доставка</a></p>
@@ -21,7 +21,7 @@ window.onload = () => {
     <p><a class="navbar_item" href="#">Контакты</a></p>
   `
 
-  logo.insertAdjacentHTML("beforeend", navbar)
+  containerNavbar.insertAdjacentHTML("beforeend", navbar)
   if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
     let customBanner = document.querySelector(".custom_banner")
     let bannerLayout = `
