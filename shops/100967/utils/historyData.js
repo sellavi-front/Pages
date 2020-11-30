@@ -38,7 +38,7 @@ const historyData = [
     date: '1979г.',
     line: 'https://res.cloudinary.com/gz-company/image/upload/v1606229725/Miru/assets/historyline/Group_92_fea6oi.png',
     img: 'https://res.cloudinary.com/gz-company/image/upload/v1606230253/Miru/assets/miru_1month_astigmatism_sxx62o.png',
-    title: 'Совершенствованию геометрий линз и открытием новых биосовместимых материалов.',
+    title: 'Открытие новых биосовместимых материалов.',
     text: 'Особенное внимание уделялось совершенствованию геометрий линз и открытием новых биосовместимых материалов.',
   },
   {
