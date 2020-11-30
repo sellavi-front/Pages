@@ -7,7 +7,7 @@ const historyData = [
     text: ' Коити Танака, молодой и талантливый учёный, разработал и запустил производство первых контактных линз в Японии.',
   },
   {
-    date: 'по 1967г.',
+    date: '1967г.',
     line: 'https://res.cloudinary.com/gz-company/image/upload/v1606229725/Miru/assets/historyline/Group_90_rbbgtt.png',
     img: 'https://res.cloudinary.com/gz-company/image/upload/v1606230253/Miru/assets/miru_1month_astigmatism_sxx62o.png',
     title: 'Поиск оптимальных конструкций.',
