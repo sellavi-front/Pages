@@ -83,7 +83,7 @@ ul.closed {
 
 .banner-title-button {
   position: absolute;
-  z-index: 999;
+  z-index: 999 !important;
   color: white;
   left: 48%;
   top: 2%;
