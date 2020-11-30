@@ -1,9 +1,6 @@
 @import '../../../fixes/fixes.css';
-
 @import './pay-delivery/pay-delivery.css';
-
 @import '../../../modules/ButtonListInHeader/style.css';
-
 @import '../../../components/css-comonents/HeaderTransparent.css';
-
 @import '../../../modules/BigBanner/BigBanner.css';
+@import './menu/menu.css';
