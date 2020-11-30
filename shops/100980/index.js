@@ -1,6 +1,7 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
 import imgArr from "./utils/images.js";
+import renderAboutCompanyTemplate from "./pages/aboutCompany.js";
 
 window.onload = () => {
   /* Deleting burger */
@@ -108,6 +109,10 @@ window.onload = () => {
         }
       </div>
     `*/
+  }
+
+  if(location.pathname === '/about-company/') {
+    renderAboutCompanyTemplate()
   }
 
 
