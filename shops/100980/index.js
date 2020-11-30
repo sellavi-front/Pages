@@ -1,7 +1,7 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
 import imgArr from "./utils/images.js";
-import renderAboutCompanyTemplate from "./pages/aboutCompany.js";
+import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js";
 
 window.onload = () => {
   /* Deleting burger */

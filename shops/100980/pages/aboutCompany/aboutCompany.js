@@ -1,4 +1,4 @@
-import contentOptimizer from "./contentOptimizer.js";
+import contentOptimizer from "../contentOptimizer.js";
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
@@ -6,7 +6,7 @@ let information = document.querySelector(".page-section.color.information")
 const aboutCompanyTemplate = `
   <div class="container-fluid">
     <div class="bread__crumbs_container">
-        <a href="/">Главная</a>><a href="/about-company/" class="active__page">О компании</a></div>
+        <a href="/">Главная</a> > <a href="/about-company/" class="active__page">О компании</a></div>
         <div class="about__company_container">
             <h1>О компании</h1>
             <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3456&q=80" alt="about"/>
