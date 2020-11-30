@@ -129,3 +129,7 @@ body .footer .footer-widgets {
   padding-top: 25px !important;
 
 }
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div {
+  justify-content: center;
+}
