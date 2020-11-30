@@ -8,7 +8,7 @@ window.onload = () => {
 
   /* Setting logo */
   //document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
-  let containerNavbar = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container.navbar__block > div.logo")
+  let containerNavbar = document.querySelector(".logo")
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
   containerNavbar.classList.add("navbar__block")
