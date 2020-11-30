@@ -1,0 +1,7 @@
+.content-tabs .nav-tabs {
+  margin-bottom: 40px !important;
+}
+
+.content-tabs .nav-tabs > li > a {
+  color: grey !important;
+}
