@@ -135,3 +135,4 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
+document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="banner-title-button"><a>товары</a></div>');
