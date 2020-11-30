@@ -588,18 +588,31 @@ body .footer .footer-widgets .widget-title {
     flex-direction: column;
   }
 
+  .products__block__banner {
+    width: 100%;
+  }
+
   .products__block__banner img {
     width: 100%;
   }
 
   .products__block__items {
-    margin-top: 5%;
-    align-self: center;
+    display: flex;
+    width: 100%;
     flex-direction: column;
+    align-self: center;
+    margin-top: 5%;
   }
 
   #home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(1) {
     display: none;
+  }
+
+  .docs__meta {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
