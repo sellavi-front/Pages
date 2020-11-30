@@ -1,3 +1,6 @@
+import '../../fixes/FooterCopy/FooterCopy.js'
+import '../../fixes/TranslateAboutUs/TranslateAboutUs.js'
+
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
@@ -39,6 +42,8 @@ const icons = {
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
 
+const textInHeader = 'Бесплатная доставка'
+
 if (document.querySelector('.wrapper')) {
 
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
@@ -48,6 +53,11 @@ if (document.querySelector('.wrapper')) {
   const notActiveLink = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a");
   const link = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a")
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
+
+  const logo = document.querySelector('#cart');
+  const logoIco = document.querySelector('#cart > i');
+  logoIco.remove();
+  logo.insertAdjacentHTML('afterbegin', icons.cart);
 
   // Icons in header cont
     const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
@@ -95,7 +105,7 @@ if (document.querySelector('.wrapper')) {
   const qtyNum = +qty.textContent.trim();
 
   if (qtyNum > 0) {
-    qty.style.background = 'rgba(240, 10, 10, .9)'
+    qty.style.cssText = 'background: rgba(240, 10, 10, .9) !important; color: white !important; border-color: white !important;'
   } else {
     qty.style.cssText = `
       color: black;
@@ -103,6 +113,8 @@ if (document.querySelector('.wrapper')) {
     `
   }
 
+  const buttonList = document.querySelector('.button__list');
+  buttonList.insertAdjacentHTML('beforeend', `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`);
 
 }
 

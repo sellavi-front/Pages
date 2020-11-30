@@ -77,8 +77,12 @@
     padding: 0 !important;
   }
 
+  .history__column {
+    width: 70px;
+  }
+
   .history__item_text_title {
-    font-style: 14px;
+    font-size: 14px;
   }
 
   .history__item_img {
@@ -87,9 +91,9 @@
   }
 
   .history__item_line {
-    width: 25px;
+    width: 34px;
   }
   .history__item {
-    height: 97px;
+    height: 127px;
   }
 }
