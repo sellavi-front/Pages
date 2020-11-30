@@ -32,11 +32,13 @@ const icons = {
 };
 
 const textInHeader = 'Бесплатная доставка';
+const footerText = 'Имеются противопоказания. Проконсультируйтесь со специалистом';
 
 if (document.querySelector('.wrapper')) {
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
+  const footerContainer = document.querySelector('footer>.footer-widgets>dvi');
   const footerRow = document.querySelector('footer > div.footer-widgets > div.container > div');
   const notActiveLink = document.querySelectorAll(
     'body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a',
@@ -65,10 +67,17 @@ if (document.querySelector('.wrapper')) {
     'afterbegin',
   );
 
-  // const socialIconsTypeOne = new SocialIconsTypeOne(
-  //   document.querySelector('.footer-widgets>.container'),
-  //   'beforeEnd',
-  // );
+  footerContainer.insertAdjacentHTML('beforeend', `
+    <div class="phh">
+      <p style="
+        font-size: 24px;
+        text-transform: uppercase;
+        color: rgba(100,100,100,.5);
+        text-align: center;
+      ">${footerText}
+      </p>
+    </div>
+  `)
 
   // FOOTER
   baseSender.render();
