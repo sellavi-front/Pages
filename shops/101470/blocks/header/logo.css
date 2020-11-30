@@ -21,4 +21,9 @@
     } 
   }
 
+  #home > div > header > div.header-wrapper > div.container-fluid > div {
+    position: relative;
+    z-index: 999;
+}
+
   
