@@ -40,6 +40,13 @@ input.form-control::placeholder,
   color: #000;
 }
 
+.logo {
+  margin: 0 !important;
+  max-width: 255px;
+  height: auto;
+  text-align: left;
+}
+
 .header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
   color: #000;
 }
