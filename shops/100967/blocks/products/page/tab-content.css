@@ -1,3 +1,9 @@
 .tab-content__container {
   display: flex;
+  justify-content: space-between;
+}
+
+.tab-content__content {
+  list-style: disc;
+  width: 48%;
 }
