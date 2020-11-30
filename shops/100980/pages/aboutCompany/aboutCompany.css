@@ -62,4 +62,7 @@
   flex-direction: column;
 }
 
+.register_block_item p {
+  width: 80%;
+}
 /* test */
