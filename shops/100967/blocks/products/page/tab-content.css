@@ -13,7 +13,7 @@
 
 .tab-content__content > ul {
   list-style: disc;
-  padding-left: 5%;
+  padding-left: 5% !important;
 }
 
 .tab-content__content > ul > li {
