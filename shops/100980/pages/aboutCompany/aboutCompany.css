@@ -8,6 +8,6 @@
   display: flex;
 }
 
-.bread__crumbs_container.active__page {
+.bread__crumbs_container .active__page {
   color: #c3c3c3;
 }
