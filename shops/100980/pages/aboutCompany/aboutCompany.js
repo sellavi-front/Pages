@@ -4,7 +4,7 @@ let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
 /* test */
 const aboutCompanyTemplate = `
-  <div class="container__pages">
+  <div class="container-fluid">
     <div class="bread__crumbs_container">
         <a href="/">Главная</a> > <a href="/about-company/" class="active__page">О компании</a>
     </div>

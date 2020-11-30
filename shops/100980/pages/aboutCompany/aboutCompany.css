@@ -70,7 +70,7 @@
   width: 80%;
 }
 
-.container__pages {
+/*.container__pages {
   max-width: 75% !important;
   min-width: inherit !important;
   display: flex;
@@ -95,3 +95,4 @@
     max-width: 95% !important;
   }
 }
+ */
