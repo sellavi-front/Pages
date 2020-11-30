@@ -1,10 +1,10 @@
-import '../../fixes/FooterCopy/FooterCopy.js'
-import '../../fixes/TranslateAboutUs/TranslateAboutUs.js'
+//import '../../fixes/FooterCopy/FooterCopy.js';
+import '../../fixes/TranslateAboutUs/TranslateAboutUs.js';
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
-import DeleteElements from '../../modules/DeleteElements/DeleteElements.js'
+import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
@@ -25,21 +25,25 @@ import historyData from './utils/historyData.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
-  cart: '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
+  cart:
+    '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
   like:
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
 
-const textInHeader = 'Бесплатная доставка'
+const textInHeader = 'Бесплатная доставка';
 
 if (document.querySelector('.wrapper')) {
-
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
   const footerRow = document.querySelector('footer > div.footer-widgets > div.container > div');
-  const notActiveLink = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a");
-  const link = document.querySelectorAll("body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a")
+  const notActiveLink = document.querySelectorAll(
+    'body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a',
+  );
+  const link = document.querySelectorAll(
+    'body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a',
+  );
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
 
   const logo = document.querySelector('#cart');
@@ -48,12 +52,12 @@ if (document.querySelector('.wrapper')) {
   logo.insertAdjacentHTML('afterbegin', icons.cart);
 
   // Icons in header cont
-    const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-    const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
-    const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
-    hideCart.remove();
+  hideCart.remove();
   // End
 
   const baseSender = new BaseSender(
@@ -75,35 +79,37 @@ if (document.querySelector('.wrapper')) {
   hideCart.remove();
   navWrapperCon.classList.remove('container');
 
-
   megalineLi.forEach((it) => {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
   });
 
   footerRow.remove();
-  notActiveLink.forEach(el => {
+  notActiveLink.forEach((el) => {
     el.removeAttribute('href');
-  })
+  });
 
-  link.forEach(el => {
+  link.forEach((el) => {
     el.removeAttribute('href');
-  })
+  });
 
-  const qty = document.querySelector(".cart-qty-circle");
+  const qty = document.querySelector('.cart-qty-circle');
   const qtyNum = +qty.textContent.trim();
 
   if (qtyNum > 0) {
-    qty.style.cssText = 'background: rgba(240, 10, 10, .9) !important; color: white !important; border-color: white !important;'
+    qty.style.cssText =
+      'background: rgba(240, 10, 10, .9) !important; color: white !important; border-color: white !important;';
   } else {
     qty.style.cssText = `
       color: black;
       border-color: black;
-    `
+    `;
   }
 
   const buttonList = document.querySelector('.button__list');
-  buttonList.insertAdjacentHTML('beforeend', `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`);
-
+  buttonList.insertAdjacentHTML(
+    'beforeend',
+    `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`,
+  );
 }
 
 if (document.querySelector('.common-home')) {
@@ -166,41 +172,105 @@ if (document.querySelector('.product-product')) {
   const reviews = document.querySelector('.reviews');
   const title = document.querySelector('.product-title');
 
-
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
 
   const social = document.querySelector('.share_page_wrapper');
 
-  const onDelete = [model, description, addReview, rating, reviews, productRating, social, title, productAvailability];
+  const onDelete = [
+    model,
+    description,
+    addReview,
+    rating,
+    reviews,
+    productRating,
+    social,
+    title,
+    productAvailability,
+  ];
 
-  const getOuterHTML = (arr) => arr.map( item => item.outerHTML);
+  const getOuterHTML = (arr) => arr.map((item) => item.outerHTML);
 
-  const createContainerForRaiting = new CreateAddContainer(productAvailability, 'afterend', getOuterHTML(ratingArr));
+  const createContainerForRaiting = new CreateAddContainer(
+    productAvailability,
+    'afterend',
+    getOuterHTML(ratingArr),
+  );
   const deleteEl = new DeleteElements(onDelete);
 
   productContainer.insertAdjacentHTML('afterend', description.outerHTML);
-  productAvailability.insertAdjacentHTML('afterend', `
+  productAvailability.insertAdjacentHTML(
+    'afterend',
+    `
     <div class="price-cont">
       <div class="rating-cont">${getOuterHTML(ratingArr).join('')}</div>
-    </div>`);
+    </div>`,
+  );
   createContainerForRaiting.render();
 
   const priceCont = document.querySelector('.price-cont');
 
   priceCont.insertAdjacentHTML('afterbegin', getOuterHTML(titleCont).join(''));
 
-  ratingArr.forEach(el => el.remove());
+  ratingArr.forEach((el) => el.remove());
 
   deleteEl.remove();
-  document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)").childNodes[3].remove();
+  document
+    .querySelector(
+      '#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+    )
+    .childNodes[3].remove();
 
-  document.querySelector("#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a").text.substr(0,2);
+  document
+    .querySelector(
+      '#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a',
+    )
+    .text.substr(0, 2);
 
   if (document.querySelector('.comments')) {
     const date = document.querySelector('#review > div.comments > div > div > span');
-    const commentMeta = document.querySelector('#review > div.comments > div > div > p.comment-meta');
+    const commentMeta = document.querySelector(
+      '#review > div.comments > div > div > p.comment-meta',
+    );
     commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
-
   }
+}
+
+if (document.querySelector('.product-product')) {
+  const a = document.querySelector('#tab-description > span').childNodes;
+
+  for (let el of a) {
+    if (el.outerHTML.startsWith('<ul')) {
+      el.previousSibling.insertAdjacentHTML('afterend', `<div class="tab-descp__content"></div>`);
+      break;
+    }
+  }
+
+  const container = document.querySelector('.tab-descp__content');
+
+  for(let el of a) {
+    if (el.outerHTML.startsWith('<ul')) {
+      container.insertAdjacentHTML('beforeend', el.previousSibling.outerHTML);
+      container.insertAdjacentHTML('beforeend', el.outerHTML);
+      el.remove();
+      el.previousSibling.remove();
+    }
+  }
+}
+
+
+if (location.href === 'https://firstsight.ru/checkout') {
+
+  document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > label").addEventListener('click', function() {
+      document.querySelector("#agree-checkbox").checked = true;
+  });
+  let radioCustm = document.querySelectorAll('.shipping-method>.customized');
+
+  radioCustm[2].insertAdjacentHTML('beforeEnd', `
+<p class="delivery__description">Выберите удобный пункт выдачи заказов по ссылке <a href="https://www.dpd.ru/dpd/chooser.do2" target="_blank">https://www.dpd.ru/dpd/chooser.do2</a> и в поле "адрес" скопируйте адрес этого пункта выдачи заказов. Заказы, оформленные до 16:00 будут отправлены на следующий рабочий день. Заказы, оформленные после 16:00 будут отправлены через один рабочий день.  После отправки вам придёт СМС с кодом отслеживания и дата получения заказа в пункте выдачи.
+<span>
+<img src="https://res.cloudinary.com/gz-company/image/upload/v1601977874/WhatsApp_Image_2020-10-06_at_11.23.20_wn1zye.jpg" alt="">
+</span>
+</p>
+`)
 }
