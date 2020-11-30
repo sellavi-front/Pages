@@ -25,3 +25,7 @@ body .content-area .page-section.titles {
 body .content-area .page-section.titles h1 {
   font-size: 46px !important;
 }
+
+.table_holder {
+  display: none !important;
+}

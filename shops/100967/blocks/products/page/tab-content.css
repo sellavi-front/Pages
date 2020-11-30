@@ -1,0 +1,21 @@
+.tab-content__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-content__content {
+  width: 48%;
+}
+
+.tab-content__content > p {
+  margin: 0 !important;
+}
+
+.tab-content__content > ul {
+  list-style: disc;
+  padding-left: 5% !important;
+}
+
+.tab-content__content > ul > li {
+  margin-top: 20px;
+}

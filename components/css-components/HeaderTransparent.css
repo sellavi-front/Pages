@@ -52,7 +52,7 @@
   color: white !important;
 }
 
-.header .header-search .form-control {
+.common-home .header .header-search .form-control {
   border-radius: 0;
   border-bottom: 1px solid white !important;
   color: #737475;
@@ -60,7 +60,7 @@
   border: none;
 }
 
-.header .header-search .form-control:focus {
+.common-home  .header .header-search .form-control:focus {
   background: transparent !important;
   border: none;
   border-bottom: 1px solid white !important;
