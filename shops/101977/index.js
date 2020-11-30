@@ -1,6 +1,6 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
-import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader';
+import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 
 if (location.href.includes('/')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
