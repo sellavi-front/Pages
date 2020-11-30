@@ -22,7 +22,7 @@ if (document.querySelector('.wrapper')) {
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
 
   buttonsInHeader.setTemplate(headerWrapper);
-  hideCart.remove();
+  //hideCart.remove();
 
   linkCatalog.insertAdjacentHTML('afterbegin', `<i class="fas fa-bars"></i>`);
 
