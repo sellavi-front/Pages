@@ -24,7 +24,9 @@ export default class HistoryLine {
     return this.data.map(
       (item) => `
         <div class="history__item">
-          <p class="history__item_date">${item.date}</p>
+          <div class="history__column">
+            <p class="history__item_date">${item.date}</p>
+          </div>
           <img class="history__item_line" src="${item.line}">
           <img class="history__item_img" src="${item.img}">
           <div class="history__item_text">
