@@ -27,6 +27,8 @@ const icons = {
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
 
+const textInHeader = 'Бесплатная доставка'
+
 if (document.querySelector('.wrapper')) {
 
   const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
@@ -92,7 +94,7 @@ if (document.querySelector('.wrapper')) {
   }
 
   const buttonList = document.querySelector('.button__list');
-  buttonList.insertAdjacentHTML('beforeend', `<li class="button__list_elem custom__text"><p class="custom__text_ph"></p></li>`);
+  buttonList.insertAdjacentHTML('beforeend', `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`);
 
 }
 
