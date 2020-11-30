@@ -13,6 +13,10 @@
   margin-bottom: 55px;
 }
 
+.history__column {
+  width: 100px;
+}
+
 
 .history__item {
   height: 187px;
@@ -31,6 +35,7 @@
 
 .history__item_date {
   margin: 0 10px 0 0;
+  width: 100px;
 }
 
 .history__item_line {
