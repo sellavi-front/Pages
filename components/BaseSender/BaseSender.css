@@ -1,0 +1,76 @@
+.sender {
+  padding: 0;
+  margin: 50px 0 0;
+  max-width: 990px;
+  width: 100%;
+}
+
+.sender__title {
+  font-family: 'Rubic', 'Golos Text', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: white;
+  margin: 0 0 50px;
+}
+
+.sender__form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 78px;
+  border-radius: 64px;
+  margin-bottom: 90px;
+  width: 90%;
+  margin: 0 auto 90px;
+}
+
+.sender__form_input {
+  max-width: 848px;
+  width: 100%;
+  border: none;
+  border-radius: 64px;
+  padding-left: 5%;
+  height: 100%;
+  background: #424242;
+}
+
+.sender__form_input::placeholder {
+  color: white !important;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.sender__form_btn {
+  position: absolute;
+  background: #fff;
+  border: none;
+  padding: 0;
+  max-width: 240px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  border-radius: inherit;
+  font-size: 24px;
+  color: black;
+  padding: 0 5%;
+}
+
+
+@media (max-width: 768px) {
+  .sender__form {
+    height: 51px;
+    width: 100%;
+  }
+
+  .sender__form_btn {
+    width: 140px;
+  }
+
+  .sender__form_input::placeholder,
+  .sender__form_btn {
+    font-size: 16px;
+  }
+}

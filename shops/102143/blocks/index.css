@@ -1,3 +1,56 @@
 @import '../../../fixes/fixes.css';
 
+@import '../../../modules/BigBanner/BigBanner.css';
+@import '../../../modules/ButtonListInHeader/style.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../../components/css-comonents/HeaderTransparent.css';
+@import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+@import '../../../components/ImgNearText/ImgNearText.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../components/ContactsTypeOne/ContactsTypeOne.css';
+
 @import './pay-delivery/pay-delivery.css';
+@import './products/products.css';
+@import './header/header.css';
+@import './banner-content/banner-content.css';
+@import './container.css';
+@import './about/about.css';
+@import './img-bg.css';
+@import './custom-banner/custom_banner.css';
+@import './footer/footer.css';
+@import './contacts/contacts.css';
+@import './soc-icons/soc-icons.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  text-transform: none;
+}

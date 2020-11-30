@@ -1,19 +1,18 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
-export default class FooterTypeOne {
-  constructor(container, target) {
+export default class ContactsTypeOne {
+  constructor(container, target, data) {
+    this.data = data;
     this.target = target;
     this.container = container;
   }
 
   setTemplate() {
     return `
-        <div class="footer-custom">
-          <div class="container">
-          <div class="footer-custom__container">
+        <div class="contacts">
+          <div class="contacts__container">
             ${this.setData(this.data).join('')}
           </div>
-        </div>
       </div>
     `;
   }
@@ -21,8 +20,9 @@ export default class FooterTypeOne {
   setData() {
     return this.data.map(
       (item) => `
-        <div class="footer-custom">
-
+        <div class="contacts__item">
+          <img class="contacts__item_ico" src="${item.icon}">
+          <a href="${item.link}" class="contacts__item_text">${item.text}</a>
         </div>
       `,
     );

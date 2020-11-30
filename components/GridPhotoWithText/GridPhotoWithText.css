@@ -11,3 +11,16 @@
   margin: 0 auto;
 }
 
+
+@media (max-width: 500px) {
+  .grid-photo {
+    height: 400px;
+    display: none;
+  }
+
+  .grid-photo__container {
+    background: url(https://res.cloudinary.com/gz-company/image/upload/v1606304562/Miru/Group_72_swugft.png);
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}

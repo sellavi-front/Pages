@@ -66,6 +66,19 @@
     display: none;
 }
 
+.sf-menu li li.active, .sf-menu li li.sfHover, .sf-menu li li.sfHover>a, .sf-menu li li:hover {
+  background: white !important;
+}
+body.theme-black .sf-menu li.megamenu ul a:hover {
+  color: black;
+}
+
+.sf-menu > li.megamenu > ul > li.megaline > div > div > span > a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8F8F8F;
+}
+
 @media (max-width: 1200px) {
       .sf-menu .megamenu > ul > .megaline {
              padding-left: 2% !important;

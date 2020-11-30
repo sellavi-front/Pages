@@ -17,3 +17,7 @@
   height: auto;
   border: none;
 }
+
+.cart-norm-qty {
+  display: none !important;
+}

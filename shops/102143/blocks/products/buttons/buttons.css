@@ -1,0 +1,13 @@
+
+.buttons .quantity,
+.buttons .btn-cart {
+  margin-right: 10px !important;
+}
+
+.fa-stack {
+  color: orange !important;
+}
+
+.product-product .product-single .buttons .quantity .qty {
+  margin: 0 3px;
+}

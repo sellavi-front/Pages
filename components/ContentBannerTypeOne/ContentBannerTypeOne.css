@@ -16,19 +16,32 @@
   position: absolute;
   height: 400px;
   right: 0;
-  width: 800px;
+  z-index: 1;
+  max-width: 800px;
+  width: 100%;
+}
+
+.banner-content__item_bg img {
+  width: 1005;
 }
 
 .banner-content__container {
   width: 100%;
   max-width: 465px;
   color: white;
+  position: relative;
+  z-index: 123;
 }
 
 .banner-content__item_title {
   font-size: 36px;
   line-height: 43px;
   margin-bottom: 20px;
+}
+
+.banner-content__item_title span {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .banner-content__item_text {

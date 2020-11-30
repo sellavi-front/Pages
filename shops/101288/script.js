@@ -24,7 +24,7 @@ const urlFetch = 'https://cors-anywhere.herokuapp.com/https://ru.sellavi.com/gat
 
 const fetchApi = new FetchApi(urlFetch, headers);
 const customCategories = new CustomCategories(fetchApi.getData());
-const bigBanner = new BigBanner(document, obj);
+const bigBanner = new BigBanner(obj);
 
 //bigBanner.render();
 customCategories.getDataFromApi();

@@ -1,6 +1,8 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js'
 
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
