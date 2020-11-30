@@ -1,0 +1,23 @@
+/* .banner-content {
+  overflow-y: hidden;
+} */
+
+.banner-content__item {
+  background: #0B272A;
+  height: 400px;
+}
+
+.banner-content__item > .container {
+  display: flex !important;
+  align-items: baseline !important;
+  justify-content: center;
+}
+
+.banner-content__item_bg {
+  overflow: visible;
+}
+
+.banner-content__item_bg > picture {
+  position: absolute;
+  bottom: 0;
+}

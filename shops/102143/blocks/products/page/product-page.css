@@ -3,11 +3,6 @@
   padding-bottom: 100px !important;
 }
 
-.product-single > .col-lg-6 {
-  flex: 0 0 48% !important;
-  max-width: 48% !important;
-}
-
 
 body .section-title.section-title-lg {
   border-bottom: none;
