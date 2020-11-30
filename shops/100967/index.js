@@ -1,3 +1,5 @@
+import '../../fixes/FooterCopy/FooterCopy.js'
+
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
