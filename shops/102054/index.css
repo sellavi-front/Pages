@@ -504,6 +504,9 @@ body .footer .footer-widgets .widget-title {
 
 .docs__meta {
   margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .docs__meta a {
