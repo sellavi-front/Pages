@@ -546,10 +546,6 @@ body .footer .footer-widgets .widget-title {
     justify-content: center;
   }
 
-  .col-md-3 + .col-md-3 {
-    margin-right: 5%;
-  }
-
   .cards__item {
     display: flex;
     padding: 0.5rem;
@@ -581,10 +577,6 @@ body .footer .footer-widgets .widget-title {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-  }
-
-  .col-md-3 + .col-md-3 {
-    margin-top: 5%;
   }
 
   .products__block {
@@ -620,9 +612,7 @@ body .footer .footer-widgets .widget-title {
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
-  .col-md-3 + .col-md-3 {
-    margin-right: 5%;
-  }
+
 }
 
 @media (min-width: 768px) {
