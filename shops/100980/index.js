@@ -13,13 +13,14 @@ window.onload = () => {
   let customSection = document.querySelector(".custom_section")
   logo.classList.add("navbar__block")
   let navbar = `
-    <a class="navbar_item" href="#">О компании</a>
-    <a class="navbar_item" href="#">Доставка</a>
-    <a class="navbar_item" href="#">Оплата и возврат</a>
-    <a class="navbar_item" href="#">Комплексное оснащение</a>
-    <a class="navbar_item" href="#">Готовые решения</a>
-    <a class="navbar_item" href="#">Контакты</a>
+    <p><a class="navbar_item" href="#">О компании</a></p>
+    <p><a class="navbar_item" href="#">Доставка</a></p>
+    <p><a class="navbar_item" href="#">Оплата и возврат</a></p>
+    <p><a class="navbar_item" href="#">Комплексное оснащение</a></p>
+    <p><a class="navbar_item" href="#">Готовые решения</a></p>
+    <p><a class="navbar_item" href="#">Контакты</a></p>
   `
+
   logo.insertAdjacentHTML("beforeend", navbar)
   if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
     let customBanner = document.querySelector(".custom_banner")

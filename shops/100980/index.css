@@ -206,6 +206,10 @@ body.ltr ol, body.ltr ul {
   display: none;
 }
 
+body.theme-red-2 .header {
+  border-bottom: 0;
+}
+
 /* Content Layout One */
 .content__layout__container {
   display: flex;
