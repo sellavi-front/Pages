@@ -83,9 +83,13 @@ ul.closed {
 
 .banner-title-button {
   position: absolute;
-  z-index: 999 !important;
+  z-index: 1000 !important;
   color: white;
   left: 48%;
   top: 2%;
   font-size: 30px;
+}
+
+#home > div.banner-title-button > a {
+  color: white;
 }
