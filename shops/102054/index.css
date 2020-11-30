@@ -553,7 +553,7 @@ body .footer .footer-widgets .widget-title {
     width: auto;
     position: absolute;
     bottom: 50%;
-    left: 1;
+    left: 1 !important;
   }
 
   .title__new__collection {
