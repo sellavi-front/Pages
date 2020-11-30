@@ -57,6 +57,7 @@ window.onload = () => {
           </div>
         </div>
     </div>`
+
     let contentLayoutOne = `
     <div class="content__layout__container">
         <div class="container">
@@ -77,7 +78,8 @@ window.onload = () => {
         </div>
       </div>
     </div>
-  `
+    `
+
     customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
     customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
     document.querySelector(".section-title.mb-4.mt-4").remove()

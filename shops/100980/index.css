@@ -202,6 +202,10 @@ body.ltr ol, body.ltr ul {
   padding-right: unset;
 }
 
+.navigation-wrapper {
+  display: none;
+}
+
 /* Content Layout One */
 .content__layout__container {
   display: flex;
