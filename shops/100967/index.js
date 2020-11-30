@@ -1,5 +1,5 @@
 import '../../fixes/FooterCopy/FooterCopy.js'
-import '../../../fixes/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/TranslateAboutUs/TranslateAboutUs.js'
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
