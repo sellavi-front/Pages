@@ -70,8 +70,7 @@
   width: 80%;
 }
 
-body .content-area .container,
-body .page-section .container {
+.container__pages {
   max-width: 75% !important;
   min-width: inherit !important;
   display: flex;
@@ -80,19 +79,19 @@ body .page-section .container {
 }
 
 @media (max-width: 1810px) {
-  body .content-area .container {
+  .container__pages {
     max-width: 80% !important;
   }
 }
 
 @media (max-width: 1694px) {
-  body .content-area .container {
+  .container__pages {
     max-width: 85% !important;
   }
 }
 
 @media (max-width: 1595px) {
-  body .content-area .container {
+  .container__pages {
     max-width: 95% !important;
   }
 }
