@@ -66,4 +66,8 @@ body > div > div > section:nth-child(1) > div > div.row.product-single.product-i
   .product-single > .col-lg-6 {
     max-width: 100% !important;
   }
+
+  .product-product .product-single {
+    padding-bottom: 30px !important;
+  }
 }
