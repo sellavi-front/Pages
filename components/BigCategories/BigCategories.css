@@ -70,10 +70,4 @@
     display: flex;
     justify-content: center;
   }
-
-  .card__title {
-    width: auto;
-    position: absolute;
-    bottom: 50%;
-  }
 }
