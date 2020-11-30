@@ -1,7 +1,7 @@
 const objBanner = {
-    title: 'Что-то',
+    title: 'Автошампуни для бесконтактной мойки',
     link: '#',
-    linkContent: 'Что-то 2'
+    linkContent: 'Сделать заказ'
 };
 
 export default objBanner;
