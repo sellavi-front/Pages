@@ -6,6 +6,7 @@
 @import './buttons/shop-sorting.css';
 @import './page/product-page.css';
 @import './page/reviews.css';
+@import './page/tab-content.css';
 
 .content-area .products .product-item,
 .featured-products .product-item,
