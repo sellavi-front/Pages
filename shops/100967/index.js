@@ -236,3 +236,34 @@ if (document.querySelector('.product-product')) {
   }
 }
 
+if (document.querySelector('.product-product')) {
+  if (document.querySelector('.product-product')) {
+    const a = document.querySelectorAll('#tab-description > span > p');
+    document.querySelectorAll("#tab-description > span > ul").forEach((el) => {
+     el.insertAdjacentHTML('beforebegin', `<div class="tab-content__content">
+  ${el.previousSibling.outerHTML} ${el.outerHTML}
+  </div>`)
+  el.previousSibling.previousSibling.remove();
+  el.remove();
+  })
+
+  document.querySelectorAll("#tab-description > span > ul").forEach((el) => {
+     el.insertAdjacentHTML('beforebegin', `<div class="tab-content__content">
+  ${el.previousSibling.outerHTML} ${el.outerHTML}
+  </div>`)
+  el.previousSibling.remove();
+  el.remove();
+  })
+
+  const content = document.querySelector('.tab-content__content');
+  const contents = document.querySelectorAll('.tab-content__content');
+  content.insertAdjacentHTML('beforebegin', `<div class="tab-content__container"></div>`);
+
+  const container = document.querySelector('.tab-content__container');
+  contents.forEach(el => {
+      container.insertAdjacentHTML('beforeend', el.outerHTML);
+  el.remove();
+  })
+
+  }
+}
