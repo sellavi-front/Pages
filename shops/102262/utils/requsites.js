@@ -11,5 +11,4 @@ const requsites = {
   'Директор': 'Тихомиров Александр Игоревич',
 };
 
-
 export default requsites;
