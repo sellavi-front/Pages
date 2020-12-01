@@ -18,7 +18,7 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div');
-
+  const container = document.querySelectorAll('.container');
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
@@ -37,6 +37,11 @@ if (document.querySelector('.wrapper')) {
   navigation.remove();
   // end transfer navigation
 
+  // rename container to container-fluid
+  container.forEachc(selector => {
+    selector.classList.add('container-fluid');
+    selector.classList.remove('container');
+  })
 }
 
 // if (location.href.includes('term-of-use')) {
