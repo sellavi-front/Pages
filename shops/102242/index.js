@@ -1,7 +1,7 @@
-import Requisites from '../../modules/Requisites/Requisites.js';
-import requsites from './utils/requsites.js'
+// import Requisites from '../../modules/Requisites/Requisites.js';
+// import requsites from './utils/requsites.js'
 
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+// import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import constants from './constants/constants.js';
 
