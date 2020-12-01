@@ -72,10 +72,10 @@ ul.closed {
 
 
 
-.panel-collapse.collapse {
+/* .panel-collapse.collapse {
   position: absolute;
   z-index: 999 !important;
-}
+} */
 
 .panel-collapse.collapse > ul > li > a {
   color: white;
