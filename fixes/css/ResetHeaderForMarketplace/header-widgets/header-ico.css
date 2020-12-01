@@ -9,3 +9,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
   margin: 0;
   font-size: 23px;
 }
+
+.cart-wrapper .dropdown {
+  padding-left: 8% 0;
+}
