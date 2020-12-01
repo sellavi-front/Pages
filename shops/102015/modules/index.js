@@ -8,6 +8,6 @@ const Container = styled.div`
 `;
 
 document.querySelector('.custom_section').insertAdjacentElement('beforeend',
-    <Container>
-    </Container>
+    `${<Container>
+    </Container>}`
     );
