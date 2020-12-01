@@ -54,6 +54,10 @@
   position: static !important;
 }
 
+body.common-home .product-item .thumbnail {
+  margin: 0 !important;
+}
+
 .product-item .thumbnail .media img {
   min-height: inherit !important;
   max-width: inherit !important;
