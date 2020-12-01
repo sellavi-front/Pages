@@ -5,9 +5,15 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import constants from './constants/constants.js';
 
-
 if (document.querySelector('.common-home')) {
-  const videoBanner = new VideoBanner(constants.srcVideo);
+
+  /** VIDEO BANNER **/
+  const cstmBanner = document.querySelector('.custom_banner');
+
+  const videoBanner = new VideoBanner(constants.srcVideo, cstmBanner, 'beforeend');
+  videoBanner.render();
+  /** END VIDEO BANNER **/
+
 }
 
 // if (location.href.includes('term-of-use')) {
