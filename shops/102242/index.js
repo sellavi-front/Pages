@@ -3,14 +3,13 @@
 
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
-import {constants} from './constants/constants.js';
+import {srcVideo} from './constants/constants.js';
 
 if (document.querySelector('.common-home')) {
-console.log(123);
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
 
-  const videoBanner = new VideoBanner(constants.srcVideo, cstmBanner, 'beforeend');
+  const videoBanner = new VideoBanner(srcVideo, cstmBanner, 'beforeend');
   videoBanner.render();
   /** END VIDEO BANNER **/
 
