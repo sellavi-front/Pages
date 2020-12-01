@@ -27,3 +27,6 @@ body.theme-gray .header .navigation-wrapper {
     top: 38px !important;
 }
 
+.sf-menu a {
+    color: #ffffff;
+}
