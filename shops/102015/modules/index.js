@@ -9,4 +9,4 @@ const Container = styled.div`
 
 document
   .querySelector('.custom_section')
-  .insertAdjacentHTML('beforeend', `${(<Container></Container>)}`);
+  .insertAdjacentHTML('beforeend', `<Container></Container>`);
