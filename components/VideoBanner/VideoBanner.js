@@ -28,7 +28,7 @@ export default class VideoBanner {
   setTemplate() {
     return `
       <div class="video-banner">
-        ${this.setTemplate()}
+        ${this.setBanner()}
         ${this.setCaption()}
       </div>
       `
