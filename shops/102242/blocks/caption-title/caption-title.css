@@ -1,3 +1,5 @@
-body .wrapper .latest-section h2.section-title {
+body .wrapper .latest-section h2.section-title,
+body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   text-align: left !important;
 }
