@@ -12,7 +12,7 @@ export default class VideoBanner {
     return `
       <div class="video-banner">
         <video autoplay="" loop="" muted="">
-          <source src="${this.src}" type="video/mp4">
+          <source src="${this.obj.src}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
       </div>`
