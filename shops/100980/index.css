@@ -520,6 +520,53 @@ body .footer .footer-widgets {
     margin: 2%;
   }
 
+  .form__container_text h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    width: 70%;
+    margin-top: 5%;
+    font-size: 21px;
+  }
+
+  .form__container_text p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+
+  .complex__submit__form {
+    width: 312px;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    border-radius: 5px;
+  }
+
+  .complex_submit__form__input {
+    height: 58px;
+  }
+
+  .complex__submit__form__btn {
+    background: #BF3417;
+    border-radius: 15px;
+    color: #fff;
+    padding: 15px;
+    width: 264px;
+    border: 0;
+    font-weight: 900;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
 
 }
 
