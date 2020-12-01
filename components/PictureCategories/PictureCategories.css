@@ -1,5 +1,6 @@
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
-  max-width: 380px !important;
+  width: 380px !important;
+  max-width: 100%;
   margin: 0 !important;
 }
 
@@ -43,4 +44,11 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 body .content-area .page-section {
   margin: 72px 0 0 0;
+}
+
+@media only screen and (max-width: 992px) {
+  body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    flex: 0 0 auto;
+    border: none !important;
+  }
 }
