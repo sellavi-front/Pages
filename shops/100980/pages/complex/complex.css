@@ -28,7 +28,7 @@
 }
 
 .about__company_container h1,
-.about__company_requisites h1 {
+.complex__block h1 {
   margin-top: 1%;
   font-weight: 900;
   margin-bottom: 1%;
@@ -39,7 +39,7 @@
   margin-bottom: 1%;
 }
 
-.about__company_requisites {
+.complex__block {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -57,7 +57,7 @@
   font-weight: 900;
 }
 
-.about__company_requisites p {
+.complex__block p {
   margin-bottom: 5%;
 }
 
@@ -84,7 +84,7 @@
   padding: 2rem;
 }
 
-.requisites__block {
+.description__block {
   background: #F2F2F2;
   display: flex;
   flex-direction: column;
