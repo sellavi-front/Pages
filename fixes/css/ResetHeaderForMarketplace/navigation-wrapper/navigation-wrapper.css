@@ -12,5 +12,5 @@ body.theme_11.ltr
   ul.nav.sf-menu
   > li[data-nav-part='home']
   > a {
-    border: none;
+    border: none !important;
   }
