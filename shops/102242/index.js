@@ -2,14 +2,16 @@
 // import requsites from './utils/requsites.js'
 
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
-import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import {bannerContent} from './constants/constants.js';
 import '../../components/PictureCategories/PictureCategories.js'
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
+import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
+
+import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import {bannerContent} from './constants/constants.js';
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 
 import salesData from './utils/salesData.js';
+import advantagesData from './utils/advantagesData.js';
 
 if (document.querySelector('.common-home')) {
 
@@ -49,6 +51,13 @@ if (document.querySelector('.wrapper')) {
   );
   infoCardTypeOne.render();
   // End sales
+
+  const infoCardTypeOne = new InfoCardTypeOne(
+    document.querySelector('.custom_section'),
+    'beforeEnd',
+    advantagesData,
+  );
+  infoCardTypeOne.render();
 }
 
 // if (location.href.includes('term-of-use')) {
