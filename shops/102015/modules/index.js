@@ -6,14 +6,14 @@ const Container = styled.div`
 export default class StylesTest {
   constructor(params) {
     this.params = params;
+    this.cont = document.querySelector('.custom_section')
   }
 
   render() {
-    return `
+    this.cont.insertAdjacentHTML('beforeend', `
       <Container>
-
       </Container>
-      `;
+      `);
   }
 }
 
