@@ -58,7 +58,7 @@ let complexTemplate = `
                 <p>В ассортименте более 30 000 наименований товаров от 120 брендов Европы, США, России, Китая и стран СНГ.</p>
             </div>
         </div>
-        <div class="form__complex">
+        <div class="banner__container">
 
         </div>
     </div>
