@@ -6,6 +6,11 @@
   flex-wrap: nowrap !important;
 }
 
+.info-card:nth-child(2) .info-card__item .info-card__bottom_text span:first-child {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .info-card__container {
     flex-wrap: wrap !important;
