@@ -27,11 +27,17 @@
 .thumbnail .media-link,
 .latest-section .product-layout .thumbnail .media {
   margin: 0 !important;
+  height: 350px;
+}
+
+.thumbnail .media-link {
+  width: 100%;
 }
 
 .product-item .thumbnail .media img {
   min-height: inherit !important;
   max-width: inherit !important;
   max-height: inherit !important;
-
+  height: inherit;
+  object-fit: cover;
 }
