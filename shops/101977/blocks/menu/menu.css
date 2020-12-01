@@ -30,3 +30,7 @@ body.theme-gray .header .navigation-wrapper {
 .sf-menu a {
     color: #ffffff;
 }
+
+nav.navigation.closed.clearfix.nav.nav-closed {
+    right: 200px
+}
