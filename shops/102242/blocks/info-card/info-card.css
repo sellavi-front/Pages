@@ -11,6 +11,10 @@
   margin-left: 10px;
 }
 
+.info-card:nth-child(2) .info-card__item .info-card__item_img {
+  margin-bottom: 30px !important;
+}
+
 @media only screen and (max-width: 1200px) {
   .info-card__container {
     flex-wrap: wrap !important;
