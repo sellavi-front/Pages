@@ -18,9 +18,9 @@ if (document.querySelector('.common-home')) {
 if (document.querySelector('.wrapper')) {
 
   // Login Ico
-  const headerLoginIco = document.querySelector('.header_login>a');
-  headerLoginIco.textContent = '';
-  headerLoginIco.insertAdjacentHTML('afterbegin', `<i class="far fa-user"></i>`)
+  const headerLoginText = document.querySelector('.header_login>a');
+
+  headerLoginText.remove();
   // End login Ico
 
   // remove cart text
