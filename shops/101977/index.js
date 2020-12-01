@@ -26,3 +26,7 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
+const oldNavBar = document.querySelector('#home > div > header > div.navigation-wrapper > div > nav');
+const newNavBar = oldNavBar.cloneNode(true);
+document.querySelector('#search').insertAdjacentHTML('beforebegin', newNavBar.outerHTML);
+oldNavBar.remove();
