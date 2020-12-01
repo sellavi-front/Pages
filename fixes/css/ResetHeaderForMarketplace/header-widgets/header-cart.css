@@ -1,0 +1,9 @@
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
+  background: none !important;
+  max-width: 45px !important;
+  height: auto;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+  margin: 0;
+}

@@ -1,4 +1,6 @@
 @import './navigation-wrapper/navigation-wrapper.css';
+@import './header-widgets/header-cart.css';
+@import './navigation-wrapper/navigation-wrapper.css';
 
 .header {
   position: absolute !important;
