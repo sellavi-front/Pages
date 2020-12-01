@@ -47,6 +47,16 @@
   margin-top: 2%;
 }
 
+.step__item img {
+  position: absolute;
+  top: 30%;
+}
+
+.step__item h6 {
+  margin-top: 25%;
+  font-weight: 900;
+}
+
 .about__company_requisites p {
   margin-bottom: 5%;
 }
