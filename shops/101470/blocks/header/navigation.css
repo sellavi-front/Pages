@@ -78,7 +78,7 @@ ul.closed {
 } */
 
 .panel-collapse.collapse > ul > li > a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .banner-title-button {
