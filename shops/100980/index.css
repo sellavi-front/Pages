@@ -739,15 +739,6 @@ body .footer .footer-widgets {
     z-index: 99;
   }
 
-  .footer__logo {
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    height: auto;
-    width: 100%;
-  }
-
   .footer_content_container {
     height: 25px;
     display: flex;
@@ -786,6 +777,109 @@ body .footer .footer-widgets {
     justify-content: flex-start;
     border: 1px solid #c3c3c3;
     margin: 2%;
+  }
+
+  .footer__logo {
+    z-index: 1;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .form__container_text h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    width: 70%;
+    margin-top: 5%;
+    font-size: 21px;
+  }
+
+  .form__container_text p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+
+  .complex__submit__form {
+    width: 312px;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    border-radius: 5px;
+  }
+
+  .complex_submit__form__input {
+    width: 244px !important;
+    height: 58px;
+  }
+
+  .complex__submit__form__btn {
+    background: #BF3417;
+    border-radius: 15px;
+    color: #fff;
+    padding: 15px;
+    width: 264px;
+    border: 0;
+    font-weight: 900;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .about__company_container h1, .complex__block h1 {
+    margin-top: 1%;
+    font-weight: 900;
+    margin-bottom: 5%;
+    font-size: 21px;
+    padding: 5%;
+  }
+
+  .complex__block p {
+    margin-bottom: 5%;
+    padding: 5%;
+  }
+
+  .step__item p {
+    padding: 0;
+  }
+
+  .bread__crumbs_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .about__company_requisites {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 2%;
+    padding: 5%;
+  }
+
+  .about__company_container h1, .about__company_requisites h1 {
+    margin-top: 1%;
+    font-weight: 900;
+    font-size: 21px;
+    margin-bottom: 5%;
+  }
+
+  .requisites__block_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
   }
 
 }
