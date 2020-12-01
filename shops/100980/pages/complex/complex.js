@@ -3,6 +3,7 @@ import contentOptimizer from "../contentOptimizer.js";
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
 
+
 let complexTemplate = `
   <div class="container-fluid inner-page">
     <div class="bread__crumbs_container">
@@ -58,11 +59,13 @@ let complexTemplate = `
                 <p>В ассортименте более 30 000 наименований товаров от 120 брендов Европы, США, России, Китая и стран СНГ.</p>
             </div>
         </div>
-        <div class="banner__container">
+    </div>
+    <div class="banner__container">
 
-        </div>
     </div>
 `
+
+
 
 let renderComplexTemplate = () => {
   contentOptimizer(complexTemplate, sectionTitles, information)
