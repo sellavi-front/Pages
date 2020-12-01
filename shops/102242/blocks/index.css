@@ -9,6 +9,7 @@
 @import './caption-title/caption-title.css';
 @import './banner/banner-caption.css';
 @import './products/products.css';
+@import './info-card/info-card.css';
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
