@@ -38,10 +38,6 @@ if (document.querySelector('.wrapper')) {
   // end transfer navigation
 
   // rename container to container-fluid
-  container.forEach(selector => {
-    selector.classList.add('container-fluid');
-    selector.classList.remove('container');
-  })
 }
 
 // if (location.href.includes('term-of-use')) {
