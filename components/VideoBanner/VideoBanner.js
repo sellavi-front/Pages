@@ -9,7 +9,7 @@ export default class VideoBanner {
   }
 
   setBanner() {
-    this.obj.map(item => {`
+    return this.obj.map(item => {`
       <div class="video-banner">
         <video autoplay="" loop="" muted="">
           <source src="${item.src}" type="video/mp4">
