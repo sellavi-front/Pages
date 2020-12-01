@@ -6,7 +6,7 @@ body.theme-gray .header .navigation-wrapper {
 #search {
     position: absolute;
     left: 820px !important;
-    top: 25px !important;
+    top: 12px !important;
     z-index: 1000 !important;
 }
 
