@@ -5,6 +5,7 @@ export default class VideoBanner {
     this.obj = obj;
     this.container = container;
     this.target = target;
+    console.log(this.obj);
   }
 
   setBanner() {
