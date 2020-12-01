@@ -26,4 +26,3 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
-document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="loger">AL`DOMA</div>');
