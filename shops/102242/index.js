@@ -3,6 +3,7 @@
 
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
+import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {srcVideo} from './constants/constants.js';
 
 if (document.querySelector('.common-home')) {
