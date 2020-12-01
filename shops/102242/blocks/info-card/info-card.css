@@ -6,13 +6,13 @@
   flex-wrap: nowrap !important;
 }
 
+.info-card .info-card__item .info-card__item_img {
+  margin-bottom: 30px !important;
+}
+
 .info-card:nth-child(2) .info-card__item .info-card__bottom_text span:first-child {
   margin-right: 15px;
   margin-left: 10px;
-}
-
-.info-card:nth-child(2) .info-card__item .info-card__item_img {
-  margin-bottom: 30px !important;
 }
 
 @media only screen and (max-width: 1200px) {
