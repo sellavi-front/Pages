@@ -47,10 +47,10 @@
   margin-top: 2%;
 }
 
-.step__item img {
+/*.step__item img {
   position: absolute;
   top: 30%;
-}
+}*/
 
 .step__item h6 {
   margin-top: 25%;
@@ -90,6 +90,8 @@
   flex-direction: column;
   width: 100%;
   padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .form__container {
@@ -188,4 +190,5 @@
   width: 374px;
   border: 0;
   font-weight: 900;
+  margin-top: 2%;
 }
