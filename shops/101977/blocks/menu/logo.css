@@ -1,0 +1,9 @@
+.loger {
+    position: absolute;
+    z-index: 999;
+    color: white;
+    font-family: inter;
+    font-size: 3em;
+    left: 290px;
+    top: 55px;
+}
