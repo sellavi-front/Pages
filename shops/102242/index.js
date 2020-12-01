@@ -7,6 +7,8 @@ import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {srcVideo} from './constants/constants.js';
 
 if (document.querySelector('.common-home')) {
+
+  const headerWrapper = document.querySelector('.header-wrapper>div');
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
   const videoBanner = new VideoBanner(srcVideo, cstmBanner, 'beforeend');
@@ -25,7 +27,13 @@ if (document.querySelector('.wrapper')) {
   // remove cart text
   const cart = document.querySelector('#cart');
   cart.querySelector('span').remove()
-// end remove cart text
+  // end remove cart text
+
+  // transfer navigation
+  const navigation = document.querySelector('.navigation');
+  headerWrapper.insertAdjacentHTML('afterbegin', navigation.outerHTML);
+  navigation.remove();
+  // end transfer navigation
 
 }
 
