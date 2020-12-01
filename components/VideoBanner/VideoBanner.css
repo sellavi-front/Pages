@@ -1,0 +1,11 @@
+.custom_banner {
+  width: 100%;
+  max-height: 1000px;
+  overflow: hidden;
+}
+
+.custom_banner video {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
