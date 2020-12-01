@@ -3,7 +3,7 @@
 
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
-import constants from './constants/constants.js';
+import {constants} from './constants/constants.js';
 
 if (document.querySelector('.common-home')) {
 console.log(123);
