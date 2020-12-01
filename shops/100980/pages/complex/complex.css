@@ -81,3 +81,66 @@
   width: 100%;
   padding: 5%;
 }
+
+.form__container {
+  display: flex;
+  width: 100%;
+  height: 857px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3456&q=80") no-repeat center/cover;
+}
+
+.complex__submit__form {
+  width: 590px;
+  height: 667px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.complex_submit__form__input {
+  width: 462px;
+  height: 68px;
+  background: rgba(243, 243, 243, 0.2);
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.complex_submit__form__input:not(:first-child) {
+  margin-top: 15px;
+}
+
+.complex_submit__form__input {
+  color: #fff;
+}
+
+.complex_submit__form__input::placeholder {
+  color: #fff !important;
+  font-weight: 100;
+}
+
+.complex_submit__form__input:focus {
+  outline: 0;
+}
+
+.complex_submit__form__input[type=text],
+.complex_submit__form__input[type=number] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.complex__submit__form__btn {
+  background: #BF3417;
+  border-radius: 15px;
+  color: #fff;
+  padding: 15px;
+  width: 374px;
+  border: 0;
+  font-weight: 900;
+}

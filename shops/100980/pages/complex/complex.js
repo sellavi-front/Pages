@@ -60,8 +60,23 @@ let complexTemplate = `
             </div>
         </div>
     </div>
-    <div class="banner__container">
-
+    <div class="form__container">
+       <div class="form__container_body">
+            <div class="form__container_text">
+                <h1>При покупке комплексного оснащения
+                в подарок инвентарь на 10000 рублей</h1>
+                Заполните форму ниже и Вы получите
+                расчет стоимости коммерческого предложения бесплатно</p>
+            </div>
+            <form class="complex__submit__form">
+                <input class="complex_submit__form__input" type="text" placeholder="Ваше имя">
+                <input class="complex_submit__form__input" type="text" placeholder="Ваш телефон">
+                <input class="complex_submit__form__input" type="text" placeholder="Ваш E-Mail">
+                <input class="complex_submit__form__input" type="number" placeholder="Площадь помещения">
+                <input class="complex_submit__form__input" type="number" placeholder="Кол-во посадочных мест">
+                <button type="button" class="complex__submit__form__btn">Рассчитать бесплатно</button>
+            </form>
+       </div>
     </div>
 `
 
