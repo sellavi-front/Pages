@@ -39,7 +39,7 @@ if (document.querySelector('.wrapper')) {
   const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
   const productItem = document.querySelectorAll('.product-item');
   const bsMenutoggle = document.querySelector('.bs-menu-toggle');
-  const footerContainer = document.querySelector('footer>.footer-widgets>dvi');
+  const footerContainer = document.querySelector('footer>.footer-widgets>div');
   const footerRow = document.querySelector('footer > div.footer-widgets > div.container > div');
   const notActiveLink = document.querySelectorAll(
     'body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > a',
