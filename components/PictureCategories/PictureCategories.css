@@ -3,6 +3,15 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
   margin: 0 !important;
 }
 
+.thumbnail-banner .media-link .img-bg {
+  height: 450px !important;
+}
+
+body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+  height: inherit !important;
+  width: inherit !important;
+}
+
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail {
   border: none !important;
 }
