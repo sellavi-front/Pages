@@ -18,6 +18,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
   text-align: left;
   padding-left: 8%;
+  height: 50px !important;
 }
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
