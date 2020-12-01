@@ -38,6 +38,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
   font-size: 22px !important;
   padding: 0;
+  font-weight: bold;
 }
 
 body .content-area .page-section {
