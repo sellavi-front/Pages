@@ -39,7 +39,7 @@
   min-height: inherit !important;
 }
 
-.thumbnail .media-link,
+.product-item .thumbnail .media-link,
 .latest-section .product-layout .thumbnail .media {
   margin: 0 !important;
   height: 370px;
