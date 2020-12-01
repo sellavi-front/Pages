@@ -585,6 +585,12 @@ body .footer .footer-widgets {
     padding: 0;
   }
 
+  .bread__crumbs_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
