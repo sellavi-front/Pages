@@ -61,3 +61,7 @@ nav.navigation.closed.clearfix.nav.nav-closed {
     background-color: #23232300;
     color: #fff;
 }
+
+.sf-menu.nav>li>a {
+    font-weight: 100;
+}
