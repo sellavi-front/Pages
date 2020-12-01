@@ -8,7 +8,6 @@ import {srcVideo} from './constants/constants.js';
 
 if (document.querySelector('.common-home')) {
 
-  const headerWrapper = document.querySelector('.header-wrapper>div');
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
   const videoBanner = new VideoBanner(srcVideo, cstmBanner, 'beforeend');
@@ -17,6 +16,8 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
+  const headerWrapper = document.querySelector('.header-wrapper>div');
+
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
