@@ -136,5 +136,6 @@ if (location.href.includes('contact')) {
 }
 
 if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://store101470.sellavi.com/') {
+  console.log('test');
   document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="banner-title-button"><a href="https://store101470.sellavi.com/%D0%B4%D0%BB%D1%8F-%D0%B4%D0%BE%D0%BC%D0%B0/">товары</a></div>');
 }
