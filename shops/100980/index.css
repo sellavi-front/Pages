@@ -490,6 +490,12 @@ body .footer .footer-widgets {
     padding-right: unset;
   }
 
+  .inner-page {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -576,6 +582,12 @@ body .footer .footer-widgets {
     text-align: center;
     margin: 0;
     padding: 2rem;
+  }
+
+  .inner-page {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
 

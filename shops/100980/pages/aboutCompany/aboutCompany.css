@@ -70,6 +70,18 @@
   width: 80%;
 }
 
+.inner-page {
+  width: 100%;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.inner-page {
+  width: 100%;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
 /*.container__pages {
   max-width: 75% !important;
   min-width: inherit !important;
