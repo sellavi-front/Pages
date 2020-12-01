@@ -192,7 +192,7 @@ input.form-control::placeholder,
 }
 
 
-img + h6 {
+.contact__container__item img + h6 {
   margin-left: 2.5%;
 }
 
