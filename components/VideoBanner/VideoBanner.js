@@ -12,8 +12,7 @@ export default class VideoBanner {
     console.log(this.obj);
     return this.obj.map(item => {
       return `
-
-        <video autoplay="" loop="" muted="">
+        <video autoplay loop muted>
           <source src="${item.src}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
