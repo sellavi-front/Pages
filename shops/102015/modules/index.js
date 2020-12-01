@@ -7,7 +7,7 @@ const Container = styled.div`
   height: 300px;
 `;
 
-render(`
+render(
     <Container>
     </Container>
-    `);
+    );
