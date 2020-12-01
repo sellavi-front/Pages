@@ -23,9 +23,10 @@ if (document.querySelector('.wrapper')) {
   headerLoginIco.insertAdjacentHTML('afterbegin', `<i class="far fa-user"></i>`)
   // End login Ico
 
+  // remove cart text
   const cart = document.querySelector('#cart');
   cart.querySelector('span').remove()
-
+// end remove cart text
 
 }
 
