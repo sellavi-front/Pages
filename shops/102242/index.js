@@ -52,12 +52,12 @@ if (document.querySelector('.wrapper')) {
   infoCardTypeOne.render();
   // End sales
 
-  const infoCardTypeOne = new InfoCardTypeOne(
+  const advantagesCard = new InfoCardTypeOne(
     document.querySelector('.custom_section'),
     'beforeEnd',
     advantagesData,
   );
-  infoCardTypeOne.render();
+  advantagesCard.render();
 }
 
 // if (location.href.includes('term-of-use')) {
