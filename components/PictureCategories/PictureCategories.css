@@ -22,6 +22,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail {
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
   padding: 0 !important;
+  object-fit: cover !important;
 }
 
 .thumbnail.thumbnail-banner .media-link {
