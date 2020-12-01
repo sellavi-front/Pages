@@ -17,20 +17,6 @@
 }
 
 
-
-.content-area .products .product-item,
-.featured-products .product-item,
-.bx_product_featured .product-item {
-  max-width: 412px !important;
-  max-height: 750px;
-  width: 100% !important;
-  margin: 0 20px 90px !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: none !important;
-}
-
 .products {
   justify-content: center !important;
 }
