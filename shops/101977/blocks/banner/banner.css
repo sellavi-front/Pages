@@ -10,7 +10,7 @@
     position: absolute;
     display: flex;
     align-items: flex-start;
-    bottom: 320px;
+    bottom: 240px;
     left: 100px;
 }
 
@@ -40,4 +40,48 @@
 #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 > div {
     font-size: 20px;
     font-weight: 100;
+}
+
+.mini-flex {
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.second-mini-flex {
+    display: flex;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.second-mini-flex > div.flex-image.images {
+    width: 50px;
+    height: 38px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606831309/Vector_aj5iwn.png);
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.second-mini-flex > div.flex-image.texto {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.second-mini-flex > div.flex-image.texto {
+    width: 200px;
+    text-align: left;
+    line-height: 15px;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.flex-item-i.quality > div {
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.flex-item-i.quality > div > div.flex-image.images {
+    width: 46px;
+    height: 44px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606831309/Vector_1_vxcboe.png);
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div > div > div.flex-item-i.quality > div > div.flex-image.texto {
+    padding-left: 20px;
+    padding-top: 10px
 }
