@@ -37,6 +37,7 @@
 
 .thumbnail .price {
   font-size: 22px !important;
+  position: static;
 }
 
 .fa-stack {
