@@ -25,3 +25,5 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Гралько Людмила Викторовна', media);
   req.setTemplate();
 }
+
+document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="loger">AL`DOMA</div>');
