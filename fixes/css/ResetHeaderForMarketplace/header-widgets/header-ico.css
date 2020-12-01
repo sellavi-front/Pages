@@ -11,7 +11,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
 }
 
 .cart-wrapper .dropdown {
-  padding-left: 8% 0;
+  padding: 8% 0 !important;
 }
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
