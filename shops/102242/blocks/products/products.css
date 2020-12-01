@@ -16,6 +16,8 @@
   justify-content: center;
 }
 
+
+
 .content-area .products .product-item,
 .featured-products .product-item,
 .bx_product_featured .product-item {
@@ -26,6 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: none !important;
 }
 
 .products {
