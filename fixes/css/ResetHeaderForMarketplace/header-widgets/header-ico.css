@@ -1,7 +1,7 @@
 body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart,
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a {
   background: none !important;
-  max-width: 45px !important;
+  min-width: 45px !important;
   height: auto;
 }
 
