@@ -14,6 +14,7 @@ window.onload = () => {
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
   containerNavbar.classList.add("navbar__block")
+
   let navbar = `
         <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
         <a class="navbar_item" href="#"><p>Доставка</p></a>
