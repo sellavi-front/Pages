@@ -1,0 +1,8 @@
+body.theme_11 .wrapper footer.footer {
+  border: none !important;
+  background: transparent !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets {
+  background: transparent !important;
+}

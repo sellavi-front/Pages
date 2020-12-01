@@ -10,6 +10,7 @@
 @import './banner/banner-caption.css';
 @import './products/products.css';
 @import './info-card/info-card.css';
+@import './footer/footer.css';
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
