@@ -49,7 +49,7 @@ body .content-area .page-section {
 
 @media only screen and (max-width: 1373px) {
   body#home .homefeatured_category .row {
-    justify-content: center;
+    justify-content: center !important;
   }
 
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
