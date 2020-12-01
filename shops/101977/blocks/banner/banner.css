@@ -85,3 +85,15 @@
     padding-left: 20px;
     padding-top: 10px
 }
+
+body .section-title span:before {
+    display: none;
+}
+
+body .section-title span:after {
+    display: none;
+}
+
+#home > div > div > section > div > h2 {
+    display: flex;
+}
