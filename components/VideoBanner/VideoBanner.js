@@ -1,13 +1,13 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class VideoBanner {
-  constructor(src, container, target) {
-    this.src = src;
+  constructor(...obj, container, target) {
+    this.obj = obj;
     this.container = container;
     this.target = target;
   }
 
-  setTemplate() {
+  setBanner() {
     return `
       <div class="video-banner">
         <video autoplay="" loop="" muted="">
@@ -15,6 +15,23 @@ export default class VideoBanner {
             Your browser does not support the video tag.
         </video>
       </div>`
+  }
+
+  setCaption() {
+    return `
+      <div class="banner-caption">
+        <h1 class="banner-caption__title">${this.obj.caption}</h1>
+      </div>
+    `
+  }
+
+  setTemplate() {
+    return `
+      <div class="video-banner">
+        ${this.setTemplate()}
+        ${this.setCaption()}
+      </div>
+      `
   }
 
   render() {
