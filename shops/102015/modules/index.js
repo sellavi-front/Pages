@@ -1,4 +1,4 @@
-import styled from '../../../node_modules/styled-components/dist/styled-components.js';
+import styled from 'styled-components';
 
 console.log(styled);
 
