@@ -8,7 +8,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
 }
 
 body#home .homefeatured_category .row {
-  justify-self: space-between !important;
+  justify-content: space-between !important;
 }
 
 body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
