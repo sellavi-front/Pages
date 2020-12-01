@@ -2,3 +2,22 @@ body.theme-gray .header .navigation-wrapper {
     background-color: #f5f6f700;
     border-top: 0px solid #d3d5d7;
 }
+
+#search {
+    position: absolute;
+    left: 820px !important;
+    top: 25px !important;
+    z-index: 1000 !important;
+}
+
+#search > div.search_field {
+    width: 60%;
+    position: relative;
+    left: 100px;
+}
+
+#search > div.search_field > input {
+    border-bottom: 0px !important;
+    position: relative;
+    z-index: 1000 !important;
+}
