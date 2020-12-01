@@ -51,3 +51,8 @@ nav.navigation.closed.clearfix.nav.nav-closed {
     right: 200px;
     font-size: 2em;
 }
+
+.sf-menu li:hover {
+    background-color: #23232300;
+    color: #fff;
+}
