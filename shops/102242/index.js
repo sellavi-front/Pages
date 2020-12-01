@@ -6,6 +6,7 @@ import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
 import '../../components/PictureCategories/PictureCategories.js'
+import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 
 if (document.querySelector('.common-home')) {
 
