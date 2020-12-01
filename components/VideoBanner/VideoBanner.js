@@ -12,12 +12,12 @@ export default class VideoBanner {
     console.log(this.obj);
     return this.obj.map(item => {
       return `
-      <div class="video-banner">
+
         <video autoplay="" loop="" muted="">
           <source src="${item.src}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-      </div>`
+      `
   });
 }
 
