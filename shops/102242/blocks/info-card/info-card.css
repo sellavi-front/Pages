@@ -15,7 +15,7 @@
 }
 
 .info-card__bottom_text span {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .info-card:nth-child(2) .info-card__item .info-card__bottom_text span:first-child {
