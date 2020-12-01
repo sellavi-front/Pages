@@ -1,5 +1,4 @@
-  body .content-area .container-fuid,
-  body .page-section .container-fuid {
+  body .container-fuid {
     max-width: 75% !important;
     min-width: inherit !important;
     display: flex;
@@ -8,19 +7,19 @@
   }
 
   @media (max-width: 1810px) {
-    body .content-area .container-fuid {
+    body .container-fuid {
       max-width: 80% !important;
     }
   }
 
   @media (max-width: 1694px) {
-    body .content-area .container-fuid {
+    body .container-fuid {
       max-width: 85% !important;
     }
   }
 
   @media (max-width: 1595px) {
-    body .content-area .container-fuid {
+    body .container-fuid {
       max-width: 95% !important;
     }
   }
