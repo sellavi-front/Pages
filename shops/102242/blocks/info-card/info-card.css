@@ -1,13 +1,13 @@
 .info-card__item {
-  max-width: 370px;
+  max-width: 370px !important;
 }
 
 .info-card__container {
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
 }
 
 @media only screen and (max-width: 1200px) {
   .info-card__container {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 }
