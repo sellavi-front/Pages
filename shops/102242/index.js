@@ -10,7 +10,7 @@ if (document.querySelector('.common-home')) {
 
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
-  const videoBanner = new VideoBanner(bannerContent, cstmBanner, 'beforeend');
+  const videoBanner = new VideoBanner(cstmBanner, 'beforeend', bannerContent);
   videoBanner.render();
   /** END VIDEO BANNER **/
 }

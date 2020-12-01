@@ -1,7 +1,7 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class VideoBanner {
-  constructor(...obj, container, target) {
+  constructor(container, target, ...obj) {
     this.obj = obj;
     this.container = container;
     this.target = target;
