@@ -90,6 +90,14 @@ ul.closed {
   font-size: 30px;
 }
 
+ul.navigate-menu > .flexy > .panel-collapse {
+  z-index: 99;
+}
+
+.navigate-menu .panel-collapse.collapse > ul > li > a {
+  color: white;
+}
+
 #home > div.banner-title-button > a {
   color: white;
 }
