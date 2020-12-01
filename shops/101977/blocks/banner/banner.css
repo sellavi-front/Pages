@@ -10,7 +10,7 @@
     position: absolute;
     display: flex;
     align-items: flex-start;
-    bottom: 370px;
+    bottom: 320px;
     left: 100px;
 }
 
@@ -35,4 +35,9 @@
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 3%
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 > div {
+    font-size: 20px;
+    font-weight: 100;
 }
