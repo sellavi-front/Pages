@@ -21,7 +21,7 @@ let complexTemplate = `
             <div class="steps__block_container">
                 <div class="steps__block_item">
                     <div class="step__item">
-                        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606815821/Component_1_cotwlc.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606816604/WhatsApp_Image_2020-12-01_at_12.37.42_zbovqj.jpg" alt="img" />
                         <h6>Подбор и проектирование</h6>
                         <p>Опытные технологи подберут
                         необходимый комплект оборудования
@@ -33,7 +33,7 @@ let complexTemplate = `
 
                 <div class="steps__block_item">
                     <div class="step__item">
-                        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606815821/Component_2_lcjvqn.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606816598/WhatsApp_Image_2020-12-01_at_12.38.09_e1uylb.jpg" alt="img" />
                         <h6>Доставка и установка</h6>
                         <p>Доставка по всей России точно в срок</p>
                         <p>Монтаж и пуско-наладка оборудования</p>
@@ -42,7 +42,7 @@ let complexTemplate = `
 
                 <div class="steps__block_item">
                     <div class="step__item">
-                        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606815821/Component_3_ezjzya.png" alt="img" />
+                        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606816598/WhatsApp_Image_2020-12-01_at_12.38.35_ggnsrs.jpg" alt="img" />
                         <h6>Обслуживание</h6>
                         <p>Диагностика и ремонт</p>
                         <p>Техническое обслуживание</p>
