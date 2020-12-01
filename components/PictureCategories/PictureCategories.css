@@ -46,6 +46,16 @@ body .content-area .page-section {
   margin: 72px 0 0 0;
 }
 
+
+@media only screen and (max-width: 1373px) {
+  body#home .homefeatured_category .row {
+    justify-content: center;
+  }
+
+  body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    margin: 0 2% 60px !important;
+  }
+}
 @media only screen and (max-width: 992px) {
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
     flex: 0 0 auto;
