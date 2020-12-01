@@ -1,9 +1,6 @@
   body .container-fluid {
     max-width: 75% !important;
     min-width: inherit !important;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
   }
 
   @media (max-width: 1810px) {
