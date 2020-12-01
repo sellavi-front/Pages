@@ -7,7 +7,7 @@ const Container = styled.div`
   height: 300px;
 `;
 
-document.querySelector('.custom_section').insertAdjacentElement('beforeend',
+document.querySelector('.custom_section').insertAdjacentHTML('beforeend',
     `${<Container>
     </Container>}`
     );
