@@ -7,6 +7,10 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
   height: 450px !important;
 }
 
+body#home .homefeatured_category .row {
+  justify-self: space-between !important;
+}
+
 body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
   height: inherit !important;
   width: inherit !important;
