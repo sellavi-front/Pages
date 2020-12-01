@@ -10,7 +10,8 @@
 .thumbnail .price_actions .add_to_cart button {
   border: 1px solid black;
   padding: 5% 25%;
-  border-radius: 0;
+  border-radius: 0 !important;
+  width: 275px;
 }
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
