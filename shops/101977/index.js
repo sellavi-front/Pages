@@ -30,3 +30,5 @@ const oldNavBar = document.querySelector('#home > div > header > div.navigation-
 const newNavBar = oldNavBar.cloneNode(true);
 document.querySelector('#search').insertAdjacentHTML('beforebegin', newNavBar.outerHTML);
 oldNavBar.remove();
+
+document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
