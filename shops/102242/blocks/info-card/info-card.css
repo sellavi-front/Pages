@@ -1,3 +1,7 @@
+.info-card {
+  background: transparent !important;
+}
+
 .info-card__item {
   max-width: 370px !important;
 }
