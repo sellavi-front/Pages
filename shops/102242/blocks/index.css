@@ -8,6 +8,7 @@
 @import './container.css';
 @import './caption-title/caption-title.css';
 @import './banner/banner-caption.css';
+@import './products/products.css';
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 
