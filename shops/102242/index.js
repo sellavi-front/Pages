@@ -38,7 +38,7 @@ if (document.querySelector('.wrapper')) {
   // end transfer navigation
 
   // rename container to container-fluid
-  container.forEachc(selector => {
+  container.forEach(selector => {
     selector.classList.add('container-fluid');
     selector.classList.remove('container');
   })
