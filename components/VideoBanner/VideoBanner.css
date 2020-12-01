@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-.custom_banner video {
+.video-banner video {
   height: auto;
   width: 100%;
   object-fit: cover;

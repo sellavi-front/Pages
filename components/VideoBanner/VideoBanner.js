@@ -9,10 +9,12 @@ export default class VideoBanner {
 
   setTemplate() {
     return `
+      <div class="video-banner">
         <video autoplay="" loop="" muted="">
           <source src="${this.src}" type="video/mp4">
             Your browser does not support the video tag.
-        </video>`
+        </video>
+      </div>`
   }
 
   render() {
