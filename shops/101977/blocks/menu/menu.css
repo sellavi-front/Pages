@@ -21,3 +21,8 @@ body.theme-gray .header .navigation-wrapper {
     position: relative;
     z-index: 1000 !important;
 }
+
+#home > div > header > div.header-wrapper {
+    position: absolute;
+    top: 38px !important;
+}
