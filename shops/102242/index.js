@@ -13,6 +13,15 @@ if (document.querySelector('.common-home')) {
   const videoBanner = new VideoBanner(srcVideo, cstmBanner, 'beforeend');
   videoBanner.render();
   /** END VIDEO BANNER **/
+}
+
+if (document.querySelector('.wrapper')) {
+
+  // Login Ico
+  const headerLoginIco = document.querySelector('.header_login>a');
+  headerLoginIco.textContent = '';
+  headerLoginIco.insertAdjacentElement('afterbegin', `<i class="far fa-user"></i>`)
+  // End login Ico
 
 }
 
