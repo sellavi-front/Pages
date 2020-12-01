@@ -24,5 +24,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.banner-caption h1 {
   font-size: 58px;
+  color: white;
 }
