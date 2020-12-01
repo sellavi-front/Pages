@@ -1,0 +1,11 @@
+body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+body.theme_11.ltr
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']
+  > a {
+    color: white !important;
+}
