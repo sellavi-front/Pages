@@ -9,6 +9,7 @@ export default class VideoBanner {
   }
 
   setBanner() {
+    console.log(this.obj);
     return this.obj.map(item => {
       return `
       <div class="video-banner">
@@ -21,6 +22,7 @@ export default class VideoBanner {
 }
 
   setCaption() {
+    console.log(this.obj);
     return this.obj.map((item) => {
       return `
       <div class="banner-caption">
