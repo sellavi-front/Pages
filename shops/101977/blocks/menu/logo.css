@@ -7,3 +7,8 @@
     left: 290px;
     top: 55px;
 }
+
+.logo img {
+    max-width: 200px;
+    max-height: 61px;
+}
