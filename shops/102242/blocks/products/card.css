@@ -49,6 +49,11 @@
   width: 100%;
 }
 
+.thumbnail .price {
+  font-size: 22px !important;
+  position: static !important;
+}
+
 .product-item .thumbnail .media img {
   min-height: inherit !important;
   max-width: inherit !important;

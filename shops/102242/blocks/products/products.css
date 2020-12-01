@@ -21,11 +21,6 @@
   justify-content: center !important;
 }
 
-.thumbnail .price {
-  font-size: 22px !important;
-  position: static;
-}
-
 .fa-stack {
   width: 20px !important;
 }
