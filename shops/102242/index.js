@@ -23,6 +23,9 @@ if (document.querySelector('.wrapper')) {
   headerLoginIco.insertAdjacentHTML('afterbegin', `<i class="far fa-user"></i>`)
   // End login Ico
 
+  const cart = document.querySelector('#cart');
+  cart.querySelector('span').remove()
+
 
 }
 
