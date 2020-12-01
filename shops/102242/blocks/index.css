@@ -6,6 +6,7 @@
 @import './pay-delivery/pay-delivery.css';
 @import './header/header.css';
 @import './container.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
