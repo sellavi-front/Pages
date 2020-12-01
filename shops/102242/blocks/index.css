@@ -7,6 +7,7 @@
 @import './header/header.css';
 @import './container.css';
 @import './caption-title/caption-title.css';
+@import './banner/banner-caption.css';
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 
