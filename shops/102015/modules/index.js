@@ -1,4 +1,4 @@
-const Container = styled.div`
+const Container = window.styled.div`
   width: 300px;
   height: 300px;
 `;
