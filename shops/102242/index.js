@@ -9,18 +9,17 @@ import {srcVideo} from './constants/constants.js';
 if (document.querySelector('.common-home')) {
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
-
   const videoBanner = new VideoBanner(srcVideo, cstmBanner, 'beforeend');
   videoBanner.render();
   /** END VIDEO BANNER **/
 }
 
 if (document.querySelector('.wrapper')) {
-
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
-
   headerLoginText.remove();
+  const headerLoginIco = document.querySelector('.header_login>a');
+  headerLoginIco.classList.remove('d-none');
   // End login Ico
 
   // remove cart text
