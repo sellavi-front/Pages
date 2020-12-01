@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.video-banner {
+  position: relative;
+}
+
 .video-banner video {
   height: auto;
   width: 100%;
@@ -21,5 +25,4 @@
   justify-content: center;
   align-items: center;
   font-size: 58px;
-  color: white !important;
 }
