@@ -21,7 +21,7 @@ if (document.querySelector('.wrapper')) {
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
   const headerLoginIco = document.querySelector('.header_login>a');
-  headerLoginIco.classList.remove('d-none');
+  headerLoginIco.classList.remove('d-none', 'd-lg-none');
   // End login Ico
 
   // remove cart text
