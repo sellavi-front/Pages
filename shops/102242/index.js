@@ -6,7 +6,10 @@ import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
 import '../../components/PictureCategories/PictureCategories.js'
+import '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
+
+import salesData from './utils/salesData.js';
 
 if (document.querySelector('.common-home')) {
 
@@ -38,7 +41,14 @@ if (document.querySelector('.wrapper')) {
   navigation.remove();
   // end transfer navigation
 
-  // rename container to container-fluid
+  // Sales
+  const infoCardTypeOne = new InfoCardTypeOne(
+    document.querySelector('.custom_section'),
+    'beforeEnd',
+    salesData,
+  );
+  infoCardTypeOne.render();
+  // End sales
 }
 
 // if (location.href.includes('term-of-use')) {
