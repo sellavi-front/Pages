@@ -1,0 +1,32 @@
+.custom_banner {
+  width: 100%;
+  max-height: 1000px;
+  overflow: hidden;
+}
+
+.video-banner {
+  position: relative;
+}
+
+.video-banner video {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-caption h1 {
+  font-size: 58px;
+  color: white;
+  font-weight: 300;
+}

@@ -1,6 +1,6 @@
-.product-product .buttons .btn,
+.buttons .btn,
 .product-product .product-single .buttons .quantity .qty,
-.product-product .btn.btn-theme {
+body .btn.btn-theme {
   border-radius: 10px !important;
 }
 

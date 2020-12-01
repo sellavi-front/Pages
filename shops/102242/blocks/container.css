@@ -1,0 +1,22 @@
+  body .container-fluid {
+    max-width: 75% !important;
+    min-width: inherit !important;
+  }
+
+  @media (max-width: 1810px) {
+    body .container-fluid {
+      max-width: 80% !important;
+    }
+  }
+
+  @media (max-width: 1694px) {
+    body .container-fluid {
+      max-width: 85% !important;
+    }
+  }
+
+  @media (max-width: 1595px) {
+    body .container-fluid {
+      max-width: 95% !important;
+    }
+  }

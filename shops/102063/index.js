@@ -2,7 +2,6 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import SmallCategory from '../../components/SmallCategory/SmallCategory.js'
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import SmallImgSlider from '../../components/SmallImgSlider/SmallImgSlider.js';
-import '../../fixes/fixes.js';
 
 import sliderData from './utils/sliderData.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
@@ -23,7 +22,7 @@ if (document.querySelector('.wrapper')) {
   const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses)
 
   buttonsInHeader.setTemplate(headerWrapper);
-  hideCart.remove();
+  //hideCart.remove();
 
   linkCatalog.insertAdjacentHTML('afterbegin', `<i class="fas fa-bars"></i>`);
 
