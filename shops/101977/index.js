@@ -32,3 +32,5 @@ document.querySelector('#search').insertAdjacentHTML('beforebegin', newNavBar.ou
 oldNavBar.remove();
 
 document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
+
+document.querySelector('#home > div > header > div.header-wrapper > div.container > nav').insertAdjacentHTML('beforebegin', '<span>AL`DOMA</span>');
