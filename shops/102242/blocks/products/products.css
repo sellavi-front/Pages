@@ -6,6 +6,16 @@
 @import './page/product-page.css';
 @import './page/reviews.css';
 
+.products,
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-top: 3%;
+  justify-content: center;
+}
+
 .content-area .products .product-item,
 .featured-products .product-item,
 .bx_product_featured .product-item {
