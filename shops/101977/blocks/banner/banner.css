@@ -1,3 +1,35 @@
 .banner__image {
     background-size: cover !important;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    bottom: 370px;
+    left: 100px;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 {
+    background: #0000008f;
+    width: 43%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 3.7em;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.6em;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 3%
+}
