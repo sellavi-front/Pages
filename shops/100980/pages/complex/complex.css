@@ -86,7 +86,7 @@
   display: flex;
   width: 100%;
   height: 857px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3456&q=80") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/rostislavsellavi/image/upload/v1606822722/clifford-VobvKmG-StA-unsplash_1_dv984j.png") no-repeat center/cover;
 }
 
 .form__container_body {
