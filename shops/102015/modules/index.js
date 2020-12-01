@@ -1,4 +1,4 @@
-import styled from '../../../node_modules/styled-components';
+import styled from '../../../node_modules/styled-components/dist/styled-components.js';
 
 console.log(styled);
 
@@ -9,4 +9,4 @@ const Container = styled.div`
 
 document
   .querySelector('.custom_section')
-  .insertAdjacentHTML('beforeend', `<Container></Container>`);
+  .insertAdjacentHTML('beforeend', `<${Container}></${Container}>`);
