@@ -247,6 +247,10 @@ body.theme-red-2 .header {
   width: 100%;
 }
 
+body .content-area {
+  padding-bottom: 0 !important;
+}
+
 /* End */
 
 /* Footer */
