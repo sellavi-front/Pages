@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 .banner__image {
     background-size: cover !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 
 #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
     position: absolute;
