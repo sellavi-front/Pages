@@ -34,3 +34,5 @@ oldNavBar.remove();
 document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
 
 document.querySelector('#home > div > header > div.header-wrapper > div.container > nav').insertAdjacentHTML('beforebegin', '<span>AL`DOMA</span>');
+
+document.querySelector('#home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a').insertAdjacentHTML('beforebegin', '<div>От производителя оптом и в розницу</div>');
