@@ -56,3 +56,8 @@ nav.navigation.closed.clearfix.nav.nav-closed {
     background-color: #23232300;
     color: #fff;
 }
+
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+    background-color: #23232300;
+    color: #fff;
+}
