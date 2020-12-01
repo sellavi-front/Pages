@@ -6,7 +6,7 @@ import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
 import '../../components/PictureCategories/PictureCategories.js'
-import '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
+import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 
 import salesData from './utils/salesData.js';
