@@ -9,7 +9,8 @@ export default class VideoBanner {
   }
 
   setBanner() {
-    this.obj.forEach(item => {`
+    return this.obj.map(item => {
+      return `
       <div class="video-banner">
         <video autoplay="" loop="" muted="">
           <source src="${item.src}" type="video/mp4">
@@ -20,7 +21,8 @@ export default class VideoBanner {
 }
 
   setCaption() {
-    this.obj.forEach((item) => {`
+    return this.obj.map((item) => {
+      return `
       <div class="banner-caption">
         <h1 class="banner-caption__title">${item.caption}</h1>
       </div>
