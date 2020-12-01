@@ -1,6 +1,8 @@
-console.log(window.styled);
+import styled from 'styled-components'
 
-const Container = window.styled.div`
+console.log(styled);
+
+const Container = styled.div`
   width: 300px;
   height: 300px;
 `;
