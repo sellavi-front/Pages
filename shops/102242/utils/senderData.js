@@ -4,3 +4,5 @@ const senderData = [
     content: 'Для подробной консультации по подбору идеального для Вас корсета оставьте заявку.',
   }
 ]
+
+export default senderData;

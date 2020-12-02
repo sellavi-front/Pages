@@ -12,7 +12,7 @@ import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 
 import salesData from './utils/salesData.js';
 import advantagesData from './utils/advantagesData.js';
-import {senderData} from './utils/senderData.js';
+import senderData from './utils/senderData.js';
 
 if (document.querySelector('.common-home')) {
 
