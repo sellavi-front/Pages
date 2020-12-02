@@ -90,3 +90,7 @@ button.be-leader {
     left: 90px;
     top: 60px;
 }
+
+h2.about__item_title {
+    height: 70px;
+}
