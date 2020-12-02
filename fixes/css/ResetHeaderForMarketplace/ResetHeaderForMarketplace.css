@@ -6,6 +6,10 @@
 
 .common-home .header {
   position: absolute !important;
+
+}
+
+.header {
   border: none !important;
 }
 
