@@ -147,7 +147,7 @@ window.onload = () => {
   document.querySelector(".footer>.footer-widgets>.container").setAttribute("class", "container-fluid")
   setTimeout(function () {
     document.querySelector(".footer-widgets>.container-fluid>.row>.col-md-3:nth-child(3)>.widget.widget-categories>ul>li:nth-child(3)").remove()
-  }, 1000)
+  }, 800)
   let footer = document.querySelector(".footer>.footer-widgets>.container-fluid>.row")
   let footerLogoLayout = `
     <div class="col-md-3">
