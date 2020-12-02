@@ -20,8 +20,10 @@ const tags = {
 };
 
 export default class SubmitFormWithoutLabel {
-  constructor(...params) {
+  constructor(container, target, params) {
     this.params = params;
+    this.container = container;
+    this.target = target;
   }
 
   setAttributes(attrs) {
@@ -56,5 +58,6 @@ export default class SubmitFormWithoutLabel {
   }
 }
 
-const a = new SubmitFormWithoutLabel(tags)
+const cstm = document.querySelector('.custom_section');
+const a = new SubmitFormWithoutLabel(cstm, 'beforeend', tags);
 a.render();
