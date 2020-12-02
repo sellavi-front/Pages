@@ -17,6 +17,6 @@
 
   @media (max-width: 1595px) {
     body .container {
-      max-width: 83% !important;
+      max-width: 100% !important;
     }
   }
