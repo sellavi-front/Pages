@@ -1,0 +1,14 @@
+body.theme-gray.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
+  background: transparent !important;
+}
+
+body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: #C5A995 !important;
+  color: white !important;
+}
+
+
+body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a  {
+  background: #F5F3F3 !important;
+  color: black !important;
+}

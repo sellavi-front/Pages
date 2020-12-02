@@ -13,7 +13,7 @@
 @import './info-card/info-card.css';
 @import './footer/footer.css';
 @import './soc-icons/soc-icons.css';
-
+@import './drop-down-cart/dropdown-cart.css';
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
 @import '../../../components/FormBasic/FormBasic.css';
