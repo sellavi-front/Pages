@@ -53,4 +53,5 @@ document.querySelector('#home > div > div > div.main-slider.content_center > div
 document.querySelector('#home > div > div > section > div.about > div > div > div > div > h2').insertAdjacentHTML('beforeend', '<div class="flex-logo-text"><div class="thisLogo"></div><div class="thisLogoText">Al`DOMA</div></div>');
 
 document.querySelector('body>.wrapper>.content-area>.page-section').insertAdjacentHTML('beforeend', '<div class="leader"></div>');
-document.querySelector('#home > div > div > section > div.leader').insertAdjacentHTML('afterbegin', '<div class="leader-title">Станьте дилером и получите дополнительные преимущества</div>');
+document.querySelector('#home > div > div > section > div.leader').insertAdjacentHTML('afterbegin', '<div class="leader-title">Станьте дилером и получите<p>дополнительные преимущества</p></div>');
+document.querySelector('.leader').insertAdjacentHTML('beforeend', '<div class="three-flex-block"><div class="first-block"><div class="left-side block1"></div><div class="right-side block1">Выгодные цены</div></div><div class="second-block"><div class="left-side block2"></div><div class="right-side block2">Бесплатную доставку</div></div><div class="third-block"><div class="left-side block3"></div><div class="right-side block3">Бонусы по итогам года</div></div></div>');
