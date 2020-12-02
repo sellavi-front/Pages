@@ -65,10 +65,6 @@ if (document.querySelector('.wrapper')) {
   navigation.remove();
   // end transfer navigation
 
-
-  const sender = new FormBasic(sctmSection, 'beforeend', senderData)
-  sender.render();
-
   const footerCols = document.querySelectorAll('.footer-widgets > div > div > div');
   footerCols.forEach(col => {
     col.classList.add('col-md-2');
@@ -84,12 +80,8 @@ if (document.querySelector('.product-product')) {
 
   const lastSection = document.querySelector("body > div > div.content-area > section.page-section>div");
 
-  const infoCardTypeOne = new InfoCardTypeOne(
-    lastSection,
-    'beforeEnd',
-    salesData,
-  );
-  infoCardTypeOne.render();
+  const sender = new FormBasic(lastSection, 'beforeend', senderData)
+  sender.render();
 
 }
 
