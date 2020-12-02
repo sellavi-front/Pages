@@ -1,0 +1,5 @@
+.leader {
+    height: 400px;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 66%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606903507/matthew-t-rader-1shWwOrkxEM-unsplash_1_h9dfln.png);
+    background-size: cover;
+}
