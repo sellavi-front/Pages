@@ -23,7 +23,6 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
-  const headerWrapper = document.querySelector('.header-wrapper>div');
   const container = document.querySelectorAll('.container');
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
@@ -38,6 +37,7 @@ if (document.querySelector('.wrapper')) {
   // end remove cart text
 
   // transfer navigation
+  const headerWrapper = document.querySelector('.header-wrapper>div>.logo');
   const navigation = document.querySelector('.navigation');
   headerWrapper.insertAdjacentHTML('afterbegin', navigation.outerHTML);
   navigation.remove();
