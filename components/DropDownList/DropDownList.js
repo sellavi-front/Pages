@@ -11,6 +11,11 @@ export default class DropDownList {
   }
 
   setTemplate() {
+    return `
+      <div class="dropdown__list_container">
+        ${this.setData(this.data).join('')}
+      </div>
+    `
     console.log(this.data)/*`
       <div class="dropdown__list_container">
           ${this.setData(this.data).join('')}
@@ -19,7 +24,16 @@ export default class DropDownList {
   }
 
   setData() {
-    console.log(this.data)
+    return this.data.map(item => {
+      `
+        <div class="dropdown__list_item">
+            <button class="accordion">${item.buttonTitle}</button>
+            <div class="panel">
+              ${item.description}
+            </div>
+        </div>
+      `
+    })
   }
 
   render() {
