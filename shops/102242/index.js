@@ -27,6 +27,7 @@ if (document.querySelector('.common-home')) {
 if (document.querySelector('.wrapper')) {
   const container = document.querySelectorAll('.container');
   const sctmSection = document.querySelector('.page-section:last-of-type');
+
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
@@ -63,11 +64,14 @@ if (document.querySelector('.wrapper')) {
   );
   advantagesCard.render();
 
-
-
   const sender = new FormBasic(sctmSection, 'beforeend', senderData)
-
   sender.render();
+
+  const footerCols = document.querySelectorAll('.footer-widgets > div > div > div');
+  footerCols.forEach(col => {
+    col.classList.add('col-md-2');
+    col.classList.remove('col-md-3');
+  })
 }
 
 if (document.querySelector('.product-product')) {
