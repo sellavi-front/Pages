@@ -15,8 +15,7 @@ export default class DropDownList {
       <div class="dropdown__list_container">
         ${this.setData(this.data).join('')}
       </div>
-    `
-    console.log(this.data)/*`
+    `/*`
       <div class="dropdown__list_container">
           ${this.setData(this.data).join('')}
       </div>
