@@ -43,4 +43,4 @@ export default class FormBasic {
 
 const cont = document.querySelector('.custom_section')
 const el = new FormBasic(cont, 'afterbegin')
-el.render
+el.render()
