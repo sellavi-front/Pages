@@ -40,9 +40,10 @@ if (document.querySelector('.wrapper')) {
   // end remove cart text
 
   // transfer navigation
-  const headerWrapper = document.querySelector('.header-wrapper>div>.logo');
+  const headerWrapperLogo = document.querySelector('.header-wrapper>div>.logo');
   const navigation = document.querySelector('.navigation');
-  headerWrapper.insertAdjacentHTML('beforebegin', navigation.outerHTML);
+  console.log(navigation);
+  headerWrapperLogo.insertAdjacentHTML('beforebegin', navigation.outerHTML);
   navigation.remove();
   // end transfer navigation
 
@@ -64,9 +65,9 @@ if (document.querySelector('.wrapper')) {
 
 
 
-  const sender = new FormBasic(sctmSection, 'afterbegin', senderData)
+  const sender = new FormBasic(sctmSection, 'beforeend', senderData)
 
-  sender.render()
+  sender.render();
 }
 
 // if (location.href.includes('term-of-use')) {
