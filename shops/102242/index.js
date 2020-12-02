@@ -12,6 +12,7 @@ import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 
 import salesData from './utils/salesData.js';
 import advantagesData from './utils/advantagesData.js';
+import {senderData} from './utils/senderData.js';
 
 if (document.querySelector('.common-home')) {
 
@@ -24,6 +25,7 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.wrapper')) {
   const container = document.querySelectorAll('.container');
+  const sctmSection = document.querySelector('.custom_section');
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
@@ -45,7 +47,7 @@ if (document.querySelector('.wrapper')) {
 
   // Sales
   const infoCardTypeOne = new InfoCardTypeOne(
-    document.querySelector('.custom_section'),
+    sctmSection,
     'beforeEnd',
     salesData,
   );
@@ -53,11 +55,17 @@ if (document.querySelector('.wrapper')) {
   // End sales
 
   const advantagesCard = new InfoCardTypeOne(
-    document.querySelector('.custom_section'),
+    sctmSection,
     'beforeEnd',
     advantagesData,
   );
   advantagesCard.render();
+
+
+
+  const sender = new FormBasic(sctmSection, 'afterbegin', senderData)
+
+  sender.render()
 }
 
 // if (location.href.includes('term-of-use')) {
