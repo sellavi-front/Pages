@@ -7,8 +7,8 @@
 @import './page/reviews.css';
 @import './buttons/add-to-cart.css';
 
-.products,
-.featured-products {
+.products:not(.featured-products-carousel),
+.featured-products:not(.featured-products-carousel) {
   display: grid;
   grid-template-columns: repeat(auto-fit, 280px);
   grid-column-gap: 20px;
@@ -16,7 +16,6 @@
   margin-top: 3%;
   justify-content: center;
 }
-
 
 .products {
   justify-content: center !important;
