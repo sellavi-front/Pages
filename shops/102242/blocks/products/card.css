@@ -20,6 +20,8 @@
 .thumbnail .price_actions .add_to_cart {
   text-align: left !important;
   width: 100% !important;
+  display: none !important;
+
 }
 
 .thumbnail .price_actions .add_to_cart button {
