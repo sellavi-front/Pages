@@ -1,4 +1,4 @@
-import tags from './utils/tags.js'
+import {tags} from './utils/tags.js'
 export default class SubmitForm {
   constructor(selector = '', params = tags) {
     this.params = params;
