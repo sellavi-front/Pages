@@ -3,3 +3,14 @@
     background:linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 66%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606903507/matthew-t-rader-1shWwOrkxEM-unsplash_1_h9dfln.png);
     background-size: cover;
 }
+
+#home > div > div > section > div.leader > div {
+    color: white;
+    font-size: 3em;
+    width: 50%;
+    position: relative;
+    left: 90px;
+    top: 60px;
+    font-weight: 600;
+    line-height: 50px
+}

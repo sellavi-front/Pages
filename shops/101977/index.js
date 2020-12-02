@@ -53,3 +53,4 @@ document.querySelector('#home > div > div > div.main-slider.content_center > div
 document.querySelector('#home > div > div > section > div.about > div > div > div > div > h2').insertAdjacentHTML('beforeend', '<div class="flex-logo-text"><div class="thisLogo"></div><div class="thisLogoText">Al`DOMA</div></div>');
 
 document.querySelector('body>.wrapper>.content-area>.page-section').insertAdjacentHTML('beforeend', '<div class="leader"></div>');
+document.querySelector('#home > div > div > section > div.leader').insertAdjacentHTML('afterbegin', '<div class="leader-title">Станьте дилером и получите дополнительные преимущества</div>');
