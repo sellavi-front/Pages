@@ -12,6 +12,7 @@
 @import './products/products.css';
 @import './info-card/info-card.css';
 @import './footer/footer.css';
+@import './soc-icons/soc-icons.css';
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
