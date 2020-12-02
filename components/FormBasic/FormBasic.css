@@ -64,6 +64,16 @@
   .sender-basic form button {
     width: 100%;
   }
+
+  .sender-basic form input {
+    margin-bottom: 18px;
+    margin-right: 0;
+  }
+
+  .sender-basic form input:last-child {
+    margin-bottom: 40px;
+  }
+
 }
 
 @media (max-width: 541px) {
