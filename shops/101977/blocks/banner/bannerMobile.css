@@ -1,0 +1,88 @@
+@media(max-device-width: 480px) {
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 {
+        font-size: 20px;
+    }
+
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
+        left: 0px;
+    }
+
+    #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+        left: 0px;
+        top: -40px;
+        background: #0E0B07;
+        max-width: 1000px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+
+    #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > a {
+        position: relative;
+        left: 270px;
+    }
+
+    .fa-bars:before {
+        color: white;
+        font-weight: 100;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > nav {
+        display: none;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > ul {
+        display: none;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > span {
+        font-size: 20px;
+        position: absolute;
+        top: -28px;
+        left: 60px;
+        z-index: 999;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > div.logo {
+        position: absolute;
+        top: -32px;
+        left: -20px;
+        z-index: 999;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > div.logo > a > img {
+        width: 100px;
+    }
+
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__image {
+        background:linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 86%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png) !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        position: relative;
+        top: 50px !important;
+        width: 500px !important;
+        background-position-x: -100px !important;
+    }
+
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 {
+        background: transparent;
+        width: 100%;
+    }
+
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
+        bottom: 60%;
+    }
+
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
+        font-size: 15px;
+        position: relative;
+        left: 20px;
+    }
+
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > div {
+        top: 20px;
+    }
+
+    
+}
