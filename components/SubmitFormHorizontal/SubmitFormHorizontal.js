@@ -24,6 +24,7 @@ export default class SubmitFormWithoutLabel {
     this.params = params;
     this.container = container;
     this.target = target;
+    console.log(this.params);
   }
 
   setAttributes(attrs) {
