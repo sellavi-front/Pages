@@ -30,9 +30,9 @@ export default class DropDownList {
 
       `
         <div class="dropdown__list_item">
-            <button class="accordion">${item[index].buttonTitle}</button>
+            <button class="accordion">${item[index]}</button>
             <div class="panel">
-              ${item[index].description}
+              ${item[index]}
             </div>
         </div>
       `
