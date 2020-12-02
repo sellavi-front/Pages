@@ -140,4 +140,21 @@
     .outer-container {
         min-height: 330px;
     }
+
+    #home > div > div > section > div.map-flex > div {
+        padding-left: 20px;
+    }
+    
+    #home > div > div > section > div.about > div > div > div > div > h2 > div > div.thisLogo {
+        height: 30px;
+    }
+    
+    #home > div > div > section > div.about > div > div > div > div > h2 > div > div.thisLogoText {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .flex-logo-text {
+        width: 140px;
+    }
 }
