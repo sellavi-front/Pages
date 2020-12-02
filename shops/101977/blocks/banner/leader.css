@@ -19,3 +19,59 @@
     font-size: 1em;
     font-weight: 600
 }
+
+.three-flex-block {
+    display: flex;
+    font-size: 15px !important;
+    font-weight: 100 !important;
+}
+
+.first-block {
+    display: flex;
+}
+
+.left-side.block1 {
+    width: 40px;
+    height: 40px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606905952/Vector_2_xxu9kz.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right-side.block1 {
+    margin-right: 100px;
+    margin-left: 20px
+}
+
+.second-block {
+    display: flex;
+}
+
+.left-side.block2 {
+    width: 45px;
+    height: 45px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606905952/Vector_3_rk6ma3.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.right-side.block2 {
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.third-block {
+    display: flex;
+}
+
+.left-side.block3 {
+    width: 40px;
+    height: 40px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606905952/Vector_4_vgmtzi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right-side.block3 {
+    margin-left: 20px;
+}
