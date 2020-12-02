@@ -18,6 +18,7 @@ footer.footer .footer-widgets .widget-title {
 
 .footer-widgets .row {
   padding-left: 5% !important;
+  justify-content: center;
 }
 
 .coll {
