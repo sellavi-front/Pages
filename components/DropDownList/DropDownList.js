@@ -12,12 +12,11 @@ export default class DropDownList {
   }
 
   setTemplate() {
-    console.log("Set Template", this.data)
-    /*return `
+    return `
       <div class="dropdown__list_container">
         ${this.setData(this.data).join('')}
       </div>
-    `*/
+    `
     /*`
       <div class="dropdown__list_container">
           ${this.setData(this.data).join('')}
@@ -27,7 +26,7 @@ export default class DropDownList {
 
   setData() {
     console.log("Set Data: ", this.data)
-    /*return this.data.map((item, index) => {
+    return this.data.map((item, index) => {
       console.log("SetData: ", item[index])
       `
         <div class="dropdown__list_item">
@@ -37,7 +36,7 @@ export default class DropDownList {
             </div>
         </div>
       `
-    })*/
+    })
   }
 
   render() {
