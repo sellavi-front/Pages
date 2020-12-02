@@ -145,7 +145,8 @@ window.onload = () => {
 
   /* Function on all pages */
   document.querySelector(".footer>.footer-widgets>.container").setAttribute("class", "container-fluid")
-  document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(3) > div > ul > li:nth-child(3)").remove()
+
+  document.querySelector(".footer-widgets>.container-fluid>.row>.col-md-3:nth-child(3)>.widget.widget-categories>ul>li:nth-child(3)").remove()
   let footer = document.querySelector(".footer>.footer-widgets>.container-fluid>.row")
   let footerLogoLayout = `
     <div class="col-md-3">
