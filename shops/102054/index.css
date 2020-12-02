@@ -158,6 +158,14 @@ video {
   display: block;
 }
 
+body .content-area .page-section.error-page h3 {
+  margin: 0 0 15px;
+  color: #ea0000;
+  font-size: 52px;
+  line-height: 160px;
+  font-weight: 700;
+}
+
 .dropdown-content a:hover {background-color: #000; color: #fff !important; }
 
 .dropdown:hover .dropdown-content {display: block;}
