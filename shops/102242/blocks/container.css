@@ -15,7 +15,7 @@
     }
   }
 
-  @media (max-width: 1595px) {
+  @media (max-width: 595px) {
     body .container {
       max-width: 100% !important;
     }
