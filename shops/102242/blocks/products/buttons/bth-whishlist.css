@@ -17,7 +17,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 }
 
 .product-product .product-single.product-item .buttons .btn-wish-list {
-  color: #C5A995;
-  border: none;
-  background: #F5F3F3;
+  color: #C5A995 !important;
+  border: none !important;
+  background: #F5F3F3 !important;
 }
