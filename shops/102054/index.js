@@ -64,7 +64,7 @@ window.onload = () => {
               Your browser does not support the video tag.
           </video>
            <div class="video__banner__text__content">
-              <h1 class="video__banner__text__content__header"><a href="#">Новая коллекция</a></h1>
+              <h1 class="video__banner__text__content__header"><a href="/man/">Новая коллекция</a></h1>
            </div>
       </div>
     `)
