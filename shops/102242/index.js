@@ -67,7 +67,7 @@ if (document.querySelector('.wrapper')) {
 
   const footerCols = document.querySelectorAll('.footer-widgets > div > div > div');
   footerCols.forEach(col => {
-    col.classList.add('col-md-2');
+    col.classList.add('coll');
     col.classList.remove('col-md-3');
   })
 
