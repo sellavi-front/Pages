@@ -73,6 +73,16 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.product-product')) {
   document.querySelector('.table_holder').remove();
   document.querySelector('.share_page_wrapper').remove();
+
+  const lastSection = document.querySelector("body > div > div.content-area > section.page-section.overflow-hidden");
+
+  const infoCardTypeOne = new InfoCardTypeOne(
+    lastSection,
+    'beforeEnd',
+    salesData,
+  );
+  infoCardTypeOne.render();
+
 }
 
 // if (location.href.includes('term-of-use')) {
