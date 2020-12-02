@@ -16,12 +16,29 @@ import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
 
 if (document.querySelector('.common-home')) {
+  const sctmSection = document.querySelector('.custom_section');
 
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
   const videoBanner = new VideoBanner(cstmBanner, 'beforeend', bannerContent);
   videoBanner.render();
   /** END VIDEO BANNER **/
+
+  // Sales
+  const infoCardTypeOne = new InfoCardTypeOne(
+    sctmSection,
+    'beforeEnd',
+    salesData,
+  );
+  infoCardTypeOne.render();
+
+  const advantagesCard = new InfoCardTypeOne(
+    sctmSection,
+    'beforeEnd',
+    advantagesData,
+  );
+  advantagesCard.render();
+  // End sales
 }
 
 if (document.querySelector('.wrapper')) {
@@ -48,21 +65,6 @@ if (document.querySelector('.wrapper')) {
   navigation.remove();
   // end transfer navigation
 
-  // Sales
-  const infoCardTypeOne = new InfoCardTypeOne(
-    sctmSection,
-    'beforeEnd',
-    salesData,
-  );
-  infoCardTypeOne.render();
-  // End sales
-
-  const advantagesCard = new InfoCardTypeOne(
-    sctmSection,
-    'beforeEnd',
-    advantagesData,
-  );
-  advantagesCard.render();
 
   const sender = new FormBasic(sctmSection, 'beforeend', senderData)
   sender.render();
