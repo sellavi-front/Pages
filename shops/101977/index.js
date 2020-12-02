@@ -10,13 +10,13 @@ const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/uplo
 bigBanner.render()
 
 
-  const NearText = new ImgNearText(
+  const nearText = new ImgNearText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
     aboutData,
   );
   
-  NearText.render();
+  nearText.render();
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
