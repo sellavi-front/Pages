@@ -1,5 +1,5 @@
 .leader {
-    height: 400px;
+    height: 430px;
     background:linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 66%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606903507/matthew-t-rader-1shWwOrkxEM-unsplash_1_h9dfln.png);
     background-size: cover;
 }
@@ -18,7 +18,7 @@
 
 #home > div > div > section > div.leader > div.leader-title > p {
     font-size: 1em;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .three-flex-block {
@@ -75,4 +75,18 @@
 
 .right-side.block3 {
     margin-left: 20px;
+}
+
+button.be-leader {
+    border: 0px;
+    color: white;
+    background: #007735;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 90px;
+    top: 60px;
 }
