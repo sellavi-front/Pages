@@ -41,7 +41,7 @@ if (document.querySelector('.wrapper')) {
   // transfer navigation
   const headerWrapper = document.querySelector('.header-wrapper>div>.logo');
   const navigation = document.querySelector('.navigation');
-  headerWrapper.insertAdjacentHTML('afterbegin', navigation.outerHTML);
+  headerWrapper.insertAdjacentHTML('afterend', navigation.outerHTML);
   navigation.remove();
   // end transfer navigation
 
