@@ -535,6 +535,10 @@ body .footer .footer-widgets .widget-title {
   cursor: pointer;
 }
 
+body.ltr .float-left {
+  float: left!important;
+}
+
 /* End */
 
 
