@@ -2,7 +2,7 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 import SubmitForm from '../../modules/SubmitForm/SubmitForm.js';
 
 export default class FormBasic {
-  constructor(container, target, data = '') {
+  constructor(container, target, data = {}) {
     this.data = data;
     this.target = target;
     this.container = container;
@@ -41,6 +41,16 @@ export default class FormBasic {
   }
 }
 
+const dataAbout = [
+  {
+    img: 'https://res.cloudinary.com/gz-company/image/upload/v1606228219/Miru/Miru_1_day_Flat_Pack_pattern-01_1_cg520r.png',
+    title: 'О нас',
+    content: '«Miru» представляет широкий портфель продукции для профилактики и лечения офтальмологических заболеваний.',
+
+  }
+]
+
+
 const cont = document.querySelector('.custom_section')
-const el = new FormBasic(cont, 'afterbegin')
+const el = new FormBasic(cont, 'afterbegin', dataAbout)
 el.render()
