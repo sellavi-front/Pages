@@ -36,4 +36,5 @@ header.header {
 
 .banner-title-button > a:nth-child(1) {
   text-transform: uppercase;
+  display: none;
 }
