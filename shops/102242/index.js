@@ -72,6 +72,8 @@ if (document.querySelector('.wrapper')) {
     col.classList.add('col-md-2');
     col.classList.remove('col-md-3');
   })
+
+  document.querySelector('.bs-menu-toggle').remove();
 }
 
 if (document.querySelector('.product-product')) {
