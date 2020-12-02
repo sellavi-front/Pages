@@ -250,7 +250,6 @@ if (document.querySelector('.product-product')) {
   }
 }
 
-if (document.querySelector('.product-product')) {
   if (document.querySelector('.product-product')) {
     const a = document.querySelectorAll('#tab-description > span > p');
     document.querySelectorAll("#tab-description > span > ul").forEach((el) => {
@@ -279,5 +278,4 @@ if (document.querySelector('.product-product')) {
   el.remove();
   })
 
-  }
 }

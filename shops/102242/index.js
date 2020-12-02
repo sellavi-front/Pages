@@ -70,6 +70,11 @@ if (document.querySelector('.wrapper')) {
   sender.render();
 }
 
+if (document.querySelector('.product-product')) {
+  document.querySelector('.table_holder').remove();
+  document.querySelector('.share_page_wrapper').remove();
+}
+
 // if (location.href.includes('term-of-use')) {
 //   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 

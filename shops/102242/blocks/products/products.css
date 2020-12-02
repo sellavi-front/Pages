@@ -5,6 +5,7 @@
 @import './buttons/buttons.css';
 @import './page/product-page.css';
 @import './page/reviews.css';
+@import './buttons/add-to-cart.css';
 
 .products,
 .featured-products {
