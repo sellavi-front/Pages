@@ -3,9 +3,23 @@ import requsites from './utils/requsites.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import objBanner from './utils/bannerText.js';
+import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
+import imgNearText from './utils/imgNearText.js';
+import dataAbout from './utils/imgNearText.js';
+
 
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
+
+if (location.href === '/') {
+  const imgNearText = new ImgNearText(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+    aboutData,
+  );
+  
+  imgNearText.render();
+}
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
