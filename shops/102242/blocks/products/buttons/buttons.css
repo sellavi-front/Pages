@@ -16,3 +16,7 @@ body .btn.btn-theme {
 .product-product .product-single .buttons .quantity .qty {
   margin: 0 3px;
 }
+
+.product-product .product-single .buttons {
+  margin: 10px 0;
+}
