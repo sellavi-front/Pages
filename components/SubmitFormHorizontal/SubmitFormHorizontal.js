@@ -33,7 +33,7 @@ export default class SubmitFormWithoutLabel {
   }
 
   setFormDataInTemplate() {
-    for(let key of params) {
+    for(let key of this.params) {
       return `<${key.tag} ${this.setAttributes(key)}>`
     }
   }
