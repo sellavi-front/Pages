@@ -1,17 +1,17 @@
   body .container {
-    max-width: 63% !important;
+    max-width: 70% !important;
     min-width: inherit !important;
   }
 
   @media (max-width: 1810px) {
     body .container {
-      max-width: 68% !important;
+      max-width: 80% !important;
     }
   }
 
   @media (max-width: 1694px) {
     body .container {
-      max-width: 73% !important;
+      max-width: 85% !important;
     }
   }
 
