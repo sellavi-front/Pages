@@ -17,7 +17,7 @@ window.onload = () => {
   deleteProductsClasses.findAndDelete()
   document.querySelector("#home > div.wrapper.wrapper-closed > header > div").setAttribute("style", "background-color: #fff")
 
-  if(location.href === 'https://whitemoon.shop/' || location.href === 'https://whitemoon.shop/?from_admin') {
+  if(location.pathname === '/' || location.href === '/?from_admin') {
     /* Setting a color of cart and search button */
     document.querySelector("#cart").style.cssText = 'color: #fff'
     document.querySelector("#search > button > i").style.cssText = 'color: #fff'
