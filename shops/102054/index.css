@@ -624,6 +624,7 @@ body.ltr .float-left {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .video__banner__text__content__header {
@@ -631,6 +632,18 @@ body.ltr .float-left {
     font-weight: 400 !important;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
+  }
+
+  .footer_content_container {
+    height: 15px;
+    display: block;
+  }
+
+  .footer_content_text {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -640,6 +653,26 @@ body.ltr .float-left {
     font-weight: 400 !important;
     letter-spacing: 0.1rem;
     text-transform: capitalize;
+  }
+
+  .docs__meta {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer_content_container {
+    height: 15px;
+    display: block;
+  }
+
+  .footer_content_text {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
 
