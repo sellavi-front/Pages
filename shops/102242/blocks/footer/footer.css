@@ -30,3 +30,9 @@ footer.footer .footer-widgets .widget-title {
     width: 33%;
   }
 }
+
+@media (max-width: 576px) {
+  .footer-widgets .row {
+    flex-wrap: wrap !important;
+  }
+}
