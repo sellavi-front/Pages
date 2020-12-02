@@ -1,13 +1,11 @@
+import tags from './utils/tags.js'
 export default class SubmitForm {
-  constructor(selector, params) {
+  constructor(selector = '', params = tags) {
     this.params = params;
     this.selector = selector;
     this.tags = Object.entries(this.params);
     this.elements = [];
     this.parseElements();
-    // this.container = container;
-    // this.target = target;
-    // console.log(this.params);
   }
 
   getContent() {
@@ -37,7 +35,7 @@ export default class SubmitForm {
   }
 
   getElements() {
-    return this.elements;
+    console.log(this.parseElements);
   }
 
   getForm() {
@@ -47,9 +45,6 @@ export default class SubmitForm {
         ${this.elements.join(' ')}
       </div>
     </form>
-    `);
+    `;
   }
 }
-
-const a = new SubmitForm('form', tags);
-a.getForm();

@@ -1,5 +1,8 @@
 // import './utils/tags.js'
 import './SubmitForm.js'
+
+// в attributes прописываются аттрибуты для HTML тега
+
 const tags = [
   tag = {
     name: 'label',
