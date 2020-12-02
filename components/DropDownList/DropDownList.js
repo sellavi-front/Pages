@@ -24,12 +24,13 @@ export default class DropDownList {
   }
 
   setData() {
-    return this.data.map(item => {
+    return this.data.map((item, index) => {
+      console.log(item[index])
       `
         <div class="dropdown__list_item">
-            <button class="accordion">${item.buttonTitle}</button>
+            <button class="accordion">${item[index].buttonTitle}</button>
             <div class="panel">
-              ${item.description}
+              ${item[index].description}
             </div>
         </div>
       `
