@@ -9,6 +9,7 @@ export default class DropDownList {
     this.data = data
     /*this.target = target
     this.container = container*/
+
   }
 
   setTemplate() {
@@ -25,6 +26,7 @@ export default class DropDownList {
   }
 
   setData() {
+    console.log("Set Data: ", this.data)
     return this.data.map((item, index) => {
       console.log("SetData: ", item[index])
       `
