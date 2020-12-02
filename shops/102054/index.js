@@ -178,7 +178,7 @@ window.onload = () => {
   }
 
   if(location.pathname === '/index.php?route=account/register') {
-    document.querySelector("body.theme_10 .wrapper header.header, body.theme_10 .wrapper header.header.sticky_trigger").style.cssText = 'position: relative !important;'
+    document.querySelector("#home > div.wrapper.wrapper-closed > header").style.cssText = 'position: relative !important;'
   }
 
 }
