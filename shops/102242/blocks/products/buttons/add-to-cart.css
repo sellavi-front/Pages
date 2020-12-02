@@ -12,3 +12,9 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
 .thubnail .add_to_cart {
   display: none !important;
 }
+
+@media (max-width: 576px) {
+  body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+    max-width: 100%;
+  }
+}
