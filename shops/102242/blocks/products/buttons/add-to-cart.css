@@ -3,6 +3,7 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
   color: #fff;
   max-width: 240px;
   border: none;
+  display: block !important
 }
 
 .product-product .product-single .buttons .btn-cart i {
@@ -12,6 +13,7 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
 .thubnail .add_to_cart {
   display: none !important;
 }
+
 
 @media (max-width: 576px) {
   body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {

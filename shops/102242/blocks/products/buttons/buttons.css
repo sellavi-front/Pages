@@ -20,3 +20,7 @@ body .btn.btn-theme {
 .product-product .product-single .buttons {
   margin: 10px 0;
 }
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity {
+  border-color: #c5a995;
+}
