@@ -6,6 +6,7 @@ import '../../components/PictureCategories/PictureCategories.js'
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js'
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
@@ -43,7 +44,6 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.wrapper')) {
   const container = document.querySelectorAll('.container');
-  const sctmSection = document.querySelector('.page-section:last-of-type');
 
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
@@ -70,6 +70,10 @@ if (document.querySelector('.wrapper')) {
     col.classList.add('col-md-2');
     col.classList.remove('col-md-3');
   })
+
+  const footerWidgets = document.querySelector('.footer-widgets');
+  const social = new SocialIconsTypeOne(footerWidgets, 'beforeend');
+  social.render();
 
   document.querySelector('.bs-menu-toggle').remove();
 }
