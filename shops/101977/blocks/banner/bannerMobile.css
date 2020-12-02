@@ -71,7 +71,7 @@
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
-        bottom: 66%;
+        bottom: 20%;
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
@@ -86,5 +86,58 @@
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 > div {
         font-size: 15px;
+    }
+
+    .about__item {
+        flex-direction: column-reverse;
+        
+    }
+    
+    
+    
+    .about__item-container {
+        width: 100%;
+    }
+    
+    h2.about__item_title {
+        font-size: 20px !important;
+    }
+    
+    .flex-logo-text {
+        top: -30px;
+        left: 150px;
+        width: 200px;
+    }
+    
+    #home > div > div > section > div.about > div > div > div > div > h2 > div > div.thisLogo {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 40px;
+    }
+    
+    #home > div > div > section > div.about > div > div > div > div > h2 > div > div.thisLogoText {
+        position: relative;
+        top: 10px;
+        left: -40px;
+    }
+    
+    #home > div > div > section > div.leader {
+        display: none;
+    }
+    
+    #home > div > div > section > div.map-flex {
+        flex-direction: column;
+    }
+    
+    #home > div > div > section > div.map-flex > iframe {
+        width: 20px;
+    }
+    
+    .banner__image {
+        height: 330px;
+    }
+    
+    .outer-container {
+        min-height: 330px;
     }
 }
