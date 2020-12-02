@@ -1,6 +1,5 @@
 import '../../fixes/fixes.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import SenderTypeOne from "../../components/SenderTypeOne/SenderTypeOne.js";
 
 window.onload = () => {
   const bootstrapClasses = [
@@ -137,10 +136,6 @@ window.onload = () => {
     })
 
     oldProductRow.remove()
-
-    let customSection = document.querySelector(".custom_section")
-    const Sender = new SenderTypeOne(customSection)
-    Sender.render()
   }
 
   /* Function on all pages */
