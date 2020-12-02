@@ -223,6 +223,10 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
   color: #c9c9c9 !important;
 }
 
+.row.products.grid {
+  margin-top: 5%;
+}
+
 
 /* End */
 
