@@ -71,7 +71,7 @@
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
-        bottom: 60%;
+        bottom: 66%;
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
@@ -84,5 +84,7 @@
         top: 20px;
     }
 
-    
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 > div {
+        font-size: 15px;
+    }
 }
