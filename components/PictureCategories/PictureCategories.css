@@ -42,9 +42,9 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   font-weight: bold;
 }
 
-body .content-area .page-section {
+/* body .content-area .page-section {
   margin: 72px 0 0 0;
-}
+} */
 
 
 @media only screen and (max-width: 1373px) {
