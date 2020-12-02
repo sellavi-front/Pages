@@ -4,21 +4,19 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import objBanner from './utils/bannerText.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
-import imgNearText from './utils/imgNearText.js';
-import dataAbout from './utils/imgNearText.js';
-
+import aboutData from './utils/aboutData';
 
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
 
 
-  const imgNearText = new ImgNearText(
+  const NearText = new ImgNearText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
     aboutData,
   );
   
-  imgNearText.render();
+  NearText.render();
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
