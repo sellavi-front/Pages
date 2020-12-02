@@ -1,0 +1,33 @@
+.sender-basic {
+  width: 100%;
+  border: 10px solid #e1b97b;
+  padding: 65px 101px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sender-basic form input {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-left: 1%;
+  width: 319px;
+  height: 68px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.sender-basic form input:last-child {
+  margin-right: 0;
+}
+
+.sender-basic form button {
+  background: #e1b97b;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 340px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 24px;
+}
