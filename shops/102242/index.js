@@ -26,7 +26,7 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.wrapper')) {
   const container = document.querySelectorAll('.container');
-  const sctmSection = document.querySelector('.custom_section');
+  const sctmSection = document.querySelector('.page-section:last-of-type');
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
