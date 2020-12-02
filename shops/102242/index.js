@@ -78,7 +78,7 @@ if (document.querySelector('.product-product')) {
   document.querySelector('.table_holder').remove();
   document.querySelector('.share_page_wrapper').remove();
 
-  const lastSection = document.querySelector("body > div > div.content-area > section.page-section>div");
+  const lastSection = document.querySelector("#home > div > div.content-area > section.page-section.overflow-hidden");
 
   const sender = new FormBasic(lastSection, 'beforeend', senderData)
   sender.render();
