@@ -1,4 +1,4 @@
-import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer';
+import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 const tags = {
     tag: {
