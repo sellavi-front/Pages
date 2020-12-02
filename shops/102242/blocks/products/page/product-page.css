@@ -68,7 +68,7 @@ body.theme_11.product-product .product-single.product-item #tab-description, bod
     flex-direction: column;
   }
   .product-single > .col-lg-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 }
