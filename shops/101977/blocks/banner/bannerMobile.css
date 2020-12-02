@@ -130,7 +130,7 @@
     }
     
     #home > div > div > section > div.map-flex > iframe {
-        width: 20px;
+        width: 100%;
     }
     
     .banner__image {
