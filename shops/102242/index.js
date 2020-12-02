@@ -41,7 +41,7 @@ if (document.querySelector('.wrapper')) {
 
   // transfer navigation
   const headerWrapperLogo = document.querySelector('.header-wrapper>div>.logo');
-  const navigation = document.querySelector('.navigation');
+  const navigation = document.querySelector('.navigation-wrapper .navigation');
   console.log(headerWrapperLogo);
   headerWrapperLogo.insertAdjacentHTML('beforebegin', navigation.outerHTML);
   navigation.remove();
