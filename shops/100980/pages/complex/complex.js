@@ -18,7 +18,9 @@ let arr = [
 
 
 let test = new DropDownList(arr)
-document.querySelector('body').insertAdjacentHTML("afterbegin", test.outerHTML)
+let test2 = test.render()
+console.log(test2)
+//document.querySelector('body').insertAdjacentHTML("afterbegin", test.outerHTML)
 
 let complexTemplate = `
   <div class="container-fluid inner-page">
