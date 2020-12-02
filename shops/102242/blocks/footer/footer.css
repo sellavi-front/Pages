@@ -24,3 +24,9 @@ footer.footer .footer-widgets .widget-title {
 .coll {
   width: 20%;
 }
+
+@media (max-width: 921px) {
+  .coll {
+    width: 33%;
+  }
+}
