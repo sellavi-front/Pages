@@ -7,3 +7,10 @@ const dataAbout = [
   }
 ]
 
+const imgNearText = new ImgNearText(
+  document.querySelector('body>.wrapper>.content-area>.page-section'),
+  'beforeEnd',
+  aboutData,
+);
+
+imgNearText.render();
