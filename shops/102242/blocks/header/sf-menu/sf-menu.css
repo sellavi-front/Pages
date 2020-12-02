@@ -14,3 +14,9 @@
   color: white !important;
   font-size: 18px !important;
 }
+
+@media (max-width: 991px) {
+  .header-wrapper .navigation {
+    display: none;
+  }
+}
