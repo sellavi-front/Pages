@@ -5,6 +5,7 @@
 import '../../components/PictureCategories/PictureCategories.js'
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
+import FormBasic from '../../components/FormBasic/FormBasic.js'
 
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
