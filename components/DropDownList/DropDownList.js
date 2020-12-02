@@ -5,6 +5,7 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 export default class DropDownList {
 
   constructor(/*container, target, */data) {
+    console.log("Data constructor: ", data)
     this.data = data
     /*this.target = target
     this.container = container*/
@@ -25,7 +26,7 @@ export default class DropDownList {
 
   setData() {
     return this.data.map((item, index) => {
-      console.log(item[index])
+      console.log("SetData: ", item[index])
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item[index].buttonTitle}</button>
