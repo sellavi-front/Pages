@@ -65,3 +65,12 @@
     width: 100%;
   }
 }
+
+@media (max-width: 541px) {
+  .sender-basic__title {
+    font-size: 22px;
+  }
+  .sender-basic__text {
+    font-size: 16px;
+  }
+}
