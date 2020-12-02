@@ -177,7 +177,7 @@ window.onload = () => {
     document.querySelector("#content > div").setAttribute("class", "container-fluid")
   }
 
-  if(location.pathname === '/index.php?route=account/register') {
+  if(location.href === 'https://whitemoon.shop/index.php?route=account/register') {
     console.log(123)
     document.querySelector("#home > div.wrapper.wrapper-closed > header").style.position = 'relative !important'
   }
