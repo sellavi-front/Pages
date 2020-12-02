@@ -9,7 +9,7 @@ export default class FormBasic {
     this.form = new SubmitForm()
   }
 
-  setData (item) {
+  setData(item) {
     return `
       <div class="sender-basic__content">
         <h2 class="sender-basic__title">${item.title}</h2>
