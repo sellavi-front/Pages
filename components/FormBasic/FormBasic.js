@@ -13,7 +13,7 @@ export default class FormBasic {
     return `
       <div class="sender-basic__content">
         <h2 class="sender-basic__title">${item.title}</h2>
-        <p class="sender-basic__content">${item.content}</p>
+        <p class="sender-basic__text">${item.content}</p>
       </div>
       ${this.form.getForm()}
     `

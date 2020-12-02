@@ -7,9 +7,24 @@
   margin: 80px 0;
 }
 
+.sender-basic__title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #484848;
+}
+
+.sender-basic__text {
+  font-size: 22px;
+  color: #484848;
+}
+
 .sender-basic form > div {
   display: flex;
+  align-items: center;
+  height: 68px;
 }
+
+
 
 .sender-basic form input {
   border: 1px solid #000000;
@@ -17,7 +32,7 @@
   border-radius: 15px;
   padding-left: 1%;
   width: 319px;
-  height: 68px;
+  height: inherit;
   font-size: 18px;
   margin-right: 20px;
 }
@@ -32,7 +47,7 @@
   border: none;
   color: white;
   width: 340px;
-  height: 60px;
+  height: inherit;
   font-weight: bold;
   font-size: 24px;
 }
