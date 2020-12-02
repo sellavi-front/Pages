@@ -14,3 +14,8 @@
     font-weight: 600;
     line-height: 50px
 }
+
+#home > div > div > section > div.leader > div.leader-title > p {
+    font-size: 3em;
+    font-weight: 600;
+}
