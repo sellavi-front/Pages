@@ -7,6 +7,9 @@ export default class DropDownList {
   constructor(/*container, target, */data) {
     console.log("Data constructor: ", data)
     this.data = data
+    data.map(item => {
+      console.log("Item: ", item)
+    })
     /*this.target = target
     this.container = container*/
   }
@@ -25,9 +28,7 @@ export default class DropDownList {
   }
 
   setData() {
-    console.log("Set Data: ", this.data)
     return this.data.map((item, index) => {
-
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item[index]}</button>
