@@ -66,6 +66,7 @@ body.theme_11.product-product .product-single.product-item #tab-description, bod
 @media (max-width: 768px) {
   .product-product .product-single {
     flex-direction: column;
+    padding-bottom: 30px !important;
   }
   .product-single > .col-lg-6 {
     flex: 0 0 100% !important;
