@@ -43,3 +43,26 @@ body strong {
 .about__item-container {
     width: 45%;
 }
+
+.flex-logo-text {
+    display: flex;
+    position: relative;
+    bottom: 45px;
+    left: 220px;
+}
+
+.thisLogo {
+    width: 50px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606902190/%D0%9B%D0%9E%D0%93%D0%9E_2_akhp2f.png);
+    background-size: cover;
+}
+
+#home > div > div > section > div.about > div > div > div > div > h2 > div > div.thisLogoText {
+    font-family: inter;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+#home > div > div > section > div.about > div > div > div > div > h2 {
+    margin-bottom: 0px;
+}
