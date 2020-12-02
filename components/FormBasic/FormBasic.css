@@ -11,11 +11,13 @@
   font-size: 60px;
   font-weight: bold;
   color: #484848;
+  margin-bottom: 30px;
 }
 
 .sender-basic__text {
   font-size: 22px;
   color: #484848;
+  margin-bottom: 60px;
 }
 
 .sender-basic form > div {
