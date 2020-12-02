@@ -4,7 +4,7 @@
 @import './header-widgets/header-widgets.css';
 @import './header/logo.css';
 
-.header {
+.common-home .header {
   position: absolute !important;
   border: none !important;
 }
