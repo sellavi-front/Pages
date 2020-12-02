@@ -1,7 +1,6 @@
 
 .content-area .products .product-item,
-.featured-products .product-item:not(.featured-products-carousel),
-.bx_product_featured .product-item {
+.featured-products .product-item:not(.featured-products-carousel) {
   max-width: 412px !important;
   max-height: 750px;
   width: 100% !important;
