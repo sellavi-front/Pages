@@ -37,12 +37,10 @@
   height: 68px;
   font-size: 18px;
   margin-right: 20px;
-  margin-bottom: 18px;
 }
 
 .sender-basic form input:last-child {
   margin-right: 0;
-  margin-bottom: 40px;
 }
 
 .sender-basic form button {
