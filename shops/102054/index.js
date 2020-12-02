@@ -165,16 +165,20 @@ window.onload = () => {
   footerMeta.insertAdjacentHTML("beforeend", footerMetaDocs)
 
 
-  if(location.href === 'https://whitemoon.shop/man/' || location.href === 'https://whitemoon.shop/index.php?route=product/category&path=3489') {
+  if(location.pathname === '/man/' || location.pathname=== '/index.php?route=product/category&path=3489') {
     document.querySelector("#search").remove()
     document.querySelector("#cart").style.cssText = 'color: #333'
     document.querySelector("#content > div").setAttribute("class", "container-fluid")
   }
 
-  if(location.href === 'https://whitemoon.shop/woman/' || location.href === 'https://whitemoon.shop/index.php?route=product/category&path=3490') {
+  if(location.pathname === '/woman/' || location.pathname === '/index.php?route=product/category&path=3490') {
     document.querySelector("#search").remove()
     document.querySelector("#cart").style.cssText = 'color: #333'
     document.querySelector("#content > div").setAttribute("class", "container-fluid")
+  }
+
+  if(location.pathname === '/index.php?route=account/register') {
+    document.querySelector("body.theme_10 .wrapper header.header, body.theme_10 .wrapper header.header.sticky_trigger").style.cssText = 'position: relative !important;'
   }
 
 }

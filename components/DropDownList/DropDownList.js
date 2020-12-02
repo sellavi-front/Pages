@@ -7,7 +7,7 @@ export default class DropDownList {
   constructor(/*container, target, */data) {
     console.log("Data constructor: ", data)
     this.data = data.map(item => {
-      console.log("Item: ", item)
+
     })
     /*this.target = target
     this.container = container*/
