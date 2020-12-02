@@ -33,3 +33,7 @@
 header.header {
   border-bottom: 0px !important;
 }
+
+.banner-title-button > a:nth-child(1) {
+  text-transform: uppercase;
+}
