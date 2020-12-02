@@ -6,3 +6,12 @@ body.theme_11 .wrapper footer.footer {
 body.theme_11 .wrapper footer.footer .footer-widgets {
   background: transparent !important;
 }
+
+footer.footer .footer-widgets .widget-categories ul li a {
+  font-weight: 300 !important;
+}
+
+footer.footer .footer-widgets .widget-title {
+  font-weight: 500 !important;
+  margin-bottom: 10px !important;
+}
