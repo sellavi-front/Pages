@@ -178,8 +178,10 @@ window.onload = () => {
   }
 
   if(location.href === 'https://whitemoon.shop/index.php?route=account/register') {
-    console.log(321)
+    console.log(251)
     document.querySelector(".header.sticky_trigger").style.position = 'relative'
+    document.querySelector("#column-right").classList.remove("col-sm-4")
+    document.querySelector("#column-right").classList.remove("col-md-3")
   }
 
 }
