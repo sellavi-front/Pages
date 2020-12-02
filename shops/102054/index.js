@@ -78,8 +78,8 @@ window.onload = () => {
       <button class="dropbtn">Меню</button>
       <div class="dropdown-content">
         <a>О бренде</a>
-        <a>Контакты</a>
-        <a>Доставка</a>
+        <a href="https://whitemoon.shop/contact/">Контакты</a>
+        <a href="https://whitemoon.shop/delivery/">Доставка</a>
       </div>
     </div>
     <a class="navbar_item" href="https://whitemoon.shop/man/">Мужчинам</a>

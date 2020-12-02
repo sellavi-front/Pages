@@ -227,6 +227,25 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
   margin-top: 5%;
 }
 
+.sf-menu li.megamenu ul {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: none;
+  width: 100%;
+  margin: 50px;
+}
+
+.sf-menu li.megamenu>ul li.megaline {
+  color: #7f7f7f!important;
+  padding: 15px;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0 !important;
+}
+
+
 
 /* End */
 
