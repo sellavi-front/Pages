@@ -59,7 +59,7 @@ window.onload = () => {
           return response.json();
         })
         .then(function(json) {
-          console.log(json.products)
+          console.log(json.products.product_description)
           let categories = json.products
           console.log(categories)
           let services = document.querySelector("#content > div.text-center")
