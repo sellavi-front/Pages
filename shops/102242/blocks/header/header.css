@@ -15,8 +15,6 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 24% !important;
 }
 
-    padding: 2% 0;
-
 @media (max-width: 495px) {
   .logo img {
     max-width: 145px !important;
