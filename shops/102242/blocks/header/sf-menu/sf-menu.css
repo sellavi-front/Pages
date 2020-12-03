@@ -1,5 +1,5 @@
-body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
-body.theme_11.ltr
+.common-home .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+.common-home
   .wrapper
   .header
   .navigation-wrapper
@@ -10,7 +10,13 @@ body.theme_11.ltr
     color: white !important;
 }
 
-.sf-menu a {
+.common-home .sf-menu a {
   color: white !important;
   font-size: 18px !important;
+}
+
+@media (max-width: 991px) {
+  .header-wrapper .navigation {
+    display: none;
+  }
 }

@@ -1,0 +1,34 @@
+.info-card {
+  background: transparent !important;
+}
+
+.info-card__item {
+  max-width: 370px !important;
+}
+
+.info-card__container {
+  flex-wrap: nowrap !important;
+}
+
+.info-card .info-card__item .info-card__item_img {
+  margin-bottom: 30px !important;
+}
+
+.info-card__bottom_text span {
+  font-size: 16px;
+}
+
+.info-card__title {
+  border: none !important;
+}
+
+.info-card:nth-child(2) .info-card__item .info-card__bottom_text span:first-child {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .info-card__container {
+    flex-wrap: wrap !important;
+  }
+}

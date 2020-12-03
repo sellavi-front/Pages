@@ -26,15 +26,15 @@
   margin-right: 30px;
 }
 
+.info-card__item:last-child {
+  margin-right: 0;
+}
+
 .info-card__item_img {
   margin: 0 0 50px 0;
   width: 100%;
   height: auto;
   object-fit: cover;
-}
-
-.info-card__item_img:last-child {
-  margin-right: 0;
 }
 
 .info-card__bottom_text {

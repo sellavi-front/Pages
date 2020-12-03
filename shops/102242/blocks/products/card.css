@@ -1,10 +1,27 @@
+
+.content-area .products .product-item,
+.featured-products .product-item,
+.bx_product_featured .product-item {
+  max-width: 412px !important;
+  max-height: 750px;
+  width: 100% !important;
+  margin: 0 20px 90px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none !important;
+  padding: 0 !important;
+}
+
 .thumbnail .price_actions {
   flex-direction: column !important;
 }
 
-.thumbnail .price_actions .add_to_cart {
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
   text-align: left !important;
   width: 100% !important;
+  display: none !important;
+
 }
 
 .thumbnail .price_actions .add_to_cart button {
@@ -24,8 +41,22 @@
   min-height: inherit !important;
 }
 
-.thumbnail .media-link,
+.product-item .thumbnail .media-link,
 .latest-section .product-layout .thumbnail .media {
+  margin: 0 !important;
+  height: 370px;
+}
+
+.thumbnail .media-link {
+  width: 100%;
+}
+
+.thumbnail .price {
+  font-size: 22px !important;
+  position: static !important;
+}
+
+body.common-home .product-item .thumbnail {
   margin: 0 !important;
 }
 
@@ -33,5 +64,6 @@
   min-height: inherit !important;
   max-width: inherit !important;
   max-height: inherit !important;
-
+  height: inherit;
+  object-fit: cover;
 }

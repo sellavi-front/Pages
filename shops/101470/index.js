@@ -11,6 +11,7 @@ import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 import requsites from './utils/requsites.js';
+i
 
 const bootstrapClasses = [
   'col-lg-4',

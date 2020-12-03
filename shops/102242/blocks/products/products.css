@@ -5,25 +5,20 @@
 @import './buttons/buttons.css';
 @import './page/product-page.css';
 @import './page/reviews.css';
+@import './buttons/add-to-cart.css';
 
-.content-area .products .product-item,
-.featured-products .product-item,
-.bx_product_featured .product-item {
-  max-width: 412px !important;
-  max-height: 750px;
-  width: 100% !important;
-  margin: 0 20px 90px !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.products:not(.featured-products-carousel),
+.featured-products:not(.featured-products-carousel) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-top: 3%;
+  justify-content: center;
 }
 
 .products {
   justify-content: center !important;
-}
-
-.thumbnail .price {
-  font-size: 22px !important;
 }
 
 .fa-stack {

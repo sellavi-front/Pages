@@ -4,8 +4,12 @@
 @import './header-widgets/header-widgets.css';
 @import './header/logo.css';
 
-.header {
+.common-home .header {
   position: absolute !important;
+
+}
+
+.header {
   border: none !important;
 }
 

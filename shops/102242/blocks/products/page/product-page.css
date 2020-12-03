@@ -59,11 +59,17 @@ body > div > div > section:nth-child(1) > div > div.row.product-single.product-i
   font-size: 22px;
 }
 
+body.theme_11.product-product .product-single.product-item #tab-description, body.theme_11.product-product .product-single.product-item #tab-description~.table_holder{
+  border: none !important;
+}
+
 @media (max-width: 768px) {
   .product-product .product-single {
     flex-direction: column;
+    padding-bottom: 30px !important;
   }
   .product-single > .col-lg-6 {
-    width: 100%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 }
