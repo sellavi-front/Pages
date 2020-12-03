@@ -24,7 +24,7 @@ export default class DropDownList {
   }
 
   setData() {
-    return this.data.map(item => {
+    let test = this.data.map(item => {
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item.buttonTitle}</button>
@@ -33,6 +33,9 @@ export default class DropDownList {
             </div>
         </div>
       `
+
+      console.log("Test: ", test)
+    return test
     })
   }
 
