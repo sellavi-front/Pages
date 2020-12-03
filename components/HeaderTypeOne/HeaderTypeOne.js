@@ -24,7 +24,6 @@ cart.classList.remove('fal');
 new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
 headerWidgets.remove();
 
-const addWishList = new CreateAddContainer(headerWidgets, 'afterbegin', wishList);
-addWishList.render();
+headerWidgets.insertAdjacentHTML('afterbegin', wishList);
 
 new NavTranslateTo(headerLogo, 'afterend').translate();
