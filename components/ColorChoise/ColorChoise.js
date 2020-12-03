@@ -1,6 +1,7 @@
 const colors = [
   { color: 'Белый', hex: '#fff' },
   { color: 'Серый', hex: '#808080' },
+  { color: 'Чёрный', hex: '#000' },
   { color: 'Черный', hex: '#000' },
   { color: 'Коричныевый', hex: '#8B4513' },
   { color: 'Оранжевый', hex: '#FFA500' },
