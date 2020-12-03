@@ -10,12 +10,28 @@
     color: white !important;
 }
 
+.sf-menu>li {
+  position: relative;
+}
+
+.sf-menu>li:after {
+  content: '';
+  background: white;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
 .sf-menu li:hover,
 .sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
   background: none !important;
 }
 
-.sf-menu.nav>li:hover {
+.sf-menu.nav>li:hover:after {
+  display: block;
   border-bottom: 1px solid #887568;
 }
 
