@@ -29,13 +29,13 @@ const imgNearText = new ImgNearText(
 );
 
 const imgNearText2 = new ImgNearText(
-  document.querySelector('.map-flex'),
-  'beforebegin',
+  document.querySelector('#home > div > div > section > div.leader'),
+  'afterEnd',
   payDeliver,
 );
 
 imgNearText.render();
-// imgNearText2.render();
+imgNearText2.render();
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
