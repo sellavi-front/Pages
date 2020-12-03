@@ -6,6 +6,7 @@
 @import './page/product-page.css';
 @import './page/reviews.css';
 @import './buttons/add-to-cart.css';
+@import './page/registration.css'
 
 .products:not(.featured-products-carousel),
 .featured-products:not(.featured-products-carousel) {
