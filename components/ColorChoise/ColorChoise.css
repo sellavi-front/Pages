@@ -1,85 +1,88 @@
 /* RADIO CUSTOM */
 
 #product .form-group {
-  margin-bottom: 3rem !Important;
+  margin-bottom: 3rem !important;
 }
 
 .form-group .text-danger {
- position: absolute;
- top: 40px;
- left: 20px;
- margin: 0 !IMPORTANT;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  margin: 0 !important;
 }
 
 #product .form-group,
 .form-group > div {
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #product .form-group:first-child label {
-margin: 0 20px 0 0;
+  margin: 0 20px 0 0;
 }
 
 #product .form-group label {
- font-size: 16px;
- height: 28px;
- margin-bottom: 0;
+  font-size: 16px;
+  height: 28px;
+  margin-bottom: 0;
 }
 
 .form-group > div {
- margin-left: 45px;
+  margin-left: 45px;
 }
 
 .custom-control {
- padding: 0;
- margin-right: 20px;
- width: 28px;
- height: 28px;
+  padding: 0;
+  margin-right: 20px;
+  width: 28px;
+  height: 28px;
 }
 
 .product-product .product-single .custom-control-label {
- height: 28px;
- width: 28px;
- border-radius: 100px;
- display: flex;
- justify-content: center;
- font-size: 11px;
+  height: 28px;
+  width: 28px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
 }
 
-.custom-control-label:after, .custom-control-label:before {
- width: 28px;
- height: 28px;
- top: 0;
- left: 0;
- background: transparent;
+.custom-control-label:after,
+.custom-control-label:before {
+  width: 28px;
+  height: 28px;
+  top: 0;
+  left: 0;
+  background: transparent;
 }
 
-body.theme-red-2 .custom-control-input:checked~.custom-control-label:before {
- background: transparent !important;
+body.theme-red-2 .custom-control-input:checked ~ .custom-control-label:before {
+  background: transparent !important;
 }
 
-.custom-radio .custom-control-input:checked~.custom-control-label:after {
- background-repeat: no-repeat;
- background-position: center !important;
+.custom-radio .custom-control-input:checked ~ .custom-control-label:after {
+  background-repeat: no-repeat;
+  background-position: center !important;
 }
 
 #product .form-group:nth-child(2) > div > .custom-radio > .custom-control-label {
-  background: rgba(166,166,166, .4);
+  background: rgba(166, 166, 166, 0.4);
   font-weight: bold;
   font-size: 11px;
 }
 
-.custom-radio .custom-control-input:checked~.custom-control-label:after   {
- background: none;
- z-index: -1;
- border-radius: 100px;
- background-color: rgba(166,166,166, 1);
- border: none;
+.custom-radio .custom-control-input:checked ~ .custom-control-label:after {
+  background: none;
+  z-index: -1;
+  border-radius: 100px;
+  background-color: rgba(166, 166, 166, 1);
+  border: none;
 }
 
-.custom-radio .custom-control-input:checked~.custom-control-label:before {
-border: none;
+.custom-radio .custom-control-input:checked ~ .custom-control-label:before {
+  border: 3px solid burlywood;
+  color: #fff;
+  background: 0 !important;
 }
 
 #product .form-group:nth-child(3) > div {
