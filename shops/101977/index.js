@@ -11,7 +11,7 @@ import payDeliver from './utils/deliveryPay.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import senderData from './utils/senderData.js';
 
-
+if (location.pathname === '/') {
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
 
@@ -26,6 +26,7 @@ const newNavBar = oldNavBar.cloneNode(true);
 document.querySelector('#search').insertAdjacentHTML('beforebegin', newNavBar.outerHTML);
 oldNavBar.remove();
 
+}
 
 document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
 document.querySelector('#home > div > header > div.header-wrapper > div.container > nav').insertAdjacentHTML('beforebegin', '<span>AL`DOMA</span>');
