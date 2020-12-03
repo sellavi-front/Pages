@@ -7,7 +7,7 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import dataAbout from './utils/aboutData.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import salesData from './utils/salesData.js';
-import payDeliver from './utils/pay-deliver.js';
+import payDeliver from './utils/payDeliver.js';
 
 if (document.querySelector('.common-home')) {
   const infoCardTypeOne = new InfoCardTypeOne(
