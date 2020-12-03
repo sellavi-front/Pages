@@ -14,6 +14,10 @@
     font-family: "Open-sans", sans-serif;
 }
 
+.info-card__title {
+    border-bottom: 0px solid black;
+}
+
 .info-card {
     background: #f4f4f400;
 }
