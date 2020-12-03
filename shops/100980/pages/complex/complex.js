@@ -17,7 +17,7 @@ let arr = [
 
 
 
-let test = new DropDownList("body", "afterbegin", arr)
+let test = new DropDownList(document.querySelector("body"), "afterbegin", arr)
 test.render()
 
 
