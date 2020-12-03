@@ -83,13 +83,27 @@ window.onload = () => {
       <button class="dropbtn">Меню</button>
       <div class="dropdown-content">
         <a>О бренде</a>
-        <a href="https://whitemoon.shop/contact/">Контакты</a>
-        <a href="https://whitemoon.shop/delivery/">Доставка</a>
+        <a>Контакты</a>
+        <a>Доставка</a>
       </div>
     </div>
     <a class="navbar_item" href="https://whitemoon.shop/man/">Мужчинам</a>
     <a class="navbar_item" href="https://whitemoon.shop/woman/">Женщинам</a>
+
   `
+
+    document.querySelector(".dropdown-content>a:nth-child(1)").addEventListener('click', function () {
+      location.href = "https://whitemoon.shop/about/"
+    })
+
+    document.querySelector(".dropdown-content>a:nth-child(2)").addEventListener('click', function () {
+      location.href = "https://whitemoon.shop/contact/"
+    })
+
+    document.querySelector(".dropdown-content>a:nth-child(3)").addEventListener('click', function () {
+      location.href = "https://whitemoon.shop/delivery/"
+    })
+
     logo.insertAdjacentHTML("beforeend", navbar)
     document.querySelector(".search_field>input").placeholder = "";
     document.querySelector(".fa.fa-search").addEventListener('click', function() {
