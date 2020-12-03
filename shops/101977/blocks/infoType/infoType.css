@@ -17,3 +17,9 @@
 .info-card__item {
     width: 20%;
 }
+
+.info-card__container {
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+}
