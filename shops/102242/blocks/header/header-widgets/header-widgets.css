@@ -1,3 +1,4 @@
-.common-home .wrapper .header .header-wrapper .header_widgets .header_login>a {
+.common-home .wrapper .header .header-wrapper .header_widgets .header_login>a,
+.common-home .header-cart .cart-wrapper #cart {
   color: white !important;
 }

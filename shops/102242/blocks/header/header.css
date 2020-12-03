@@ -10,6 +10,10 @@ body.theme_11 .wrapper .header {
   z-index: 1111;
 }
 
+body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  margin: 0 auto 0 24% !important;
+}
+
 @media (max-width: 495px) {
   .logo img {
     max-width: 145px !important;
