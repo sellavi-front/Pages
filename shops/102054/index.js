@@ -38,9 +38,6 @@ window.onload = () => {
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #333"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #333"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: #fff"
-        document.querySelector(".dropdown-content>a:nth-child(1)").style.cssText = "color: #333 !important"
-        document.querySelector(".dropdown-content>a:nth-child(2)").style.cssText = "color: #333 !important"
-        document.querySelector(".dropdown-content>a:nth-child(3)").style.cssText = "color: #333 !important"
       } else {
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #fff"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #fff"
@@ -52,9 +49,6 @@ window.onload = () => {
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #fff"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #fff"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: transparent"
-        document.querySelector(".dropdown-content>a:nth-child(1)").style.cssText = "color: #fff !important"
-        document.querySelector(".dropdown-content>a:nth-child(2)").style.cssText = "color: #fff !important"
-        document.querySelector(".dropdown-content>a:nth-child(3)").style.cssText = "color: #fff !important"
       }
     }
 
@@ -90,17 +84,7 @@ window.onload = () => {
     <a class="navbar_item" href="https://whitemoon.shop/man/">Мужчинам</a>
     <a class="navbar_item" href="https://whitemoon.shop/woman/">Женщинам</a>
   `
-    /*document.querySelector(".dropdown-content>a:nth-child(1)").addEventListener('click', function () {
-      location.href = "https://whitemoon.shop/about/"
-    })
 
-    document.querySelector(".dropdown-content>a:nth-child(2)").addEventListener('click', function () {
-      location.href = "https://whitemoon.shop/contact/"
-    })
-
-    document.querySelector(".dropdown-content>a:nth-child(3)").addEventListener('click', function () {
-      location.href = "https://whitemoon.shop/delivery/"
-    })*/
 
     logo.insertAdjacentHTML("beforeend", navbar)
     document.querySelector(".search_field>input").placeholder = "";
@@ -110,6 +94,18 @@ window.onload = () => {
       document.querySelector("#search > div.search_field > input").focus();
     })
     document.querySelector("#cart > span.cart-norm-qty.d-none.d-lg-inline-block").remove()
+
+    document.querySelector(".dropdown-content>a:nth-child(1)").addEventListener('click', function () {
+      location.href = "https://whitemoon.shop/about/"
+    })
+
+    document.querySelector(".dropdown-content>a:nth-child(2)").addEventListener('click', function () {
+      location.href = "https://whitemoon.shop/contact/"
+    })
+
+    document.querySelector(".dropdown-content>a:nth-child(3)").addEventListener('click', function () {
+      location.href = "https://whitemoon.shop/delivery/"
+    })
 
     let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
     mainContainer.setAttribute("class", "container-fluid")
