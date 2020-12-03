@@ -15,7 +15,12 @@ const wishList = `
       <i class="far fa-heart"></i>
     </a>
   </div>
-`
+`;
+
+const cart = document.querySelector("#cart > i");
+cart.classList.add('far');
+cart.classList.remove('fal');
+
 new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
 headerWidgets.remove();
 
