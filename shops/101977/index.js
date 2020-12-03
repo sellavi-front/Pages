@@ -30,7 +30,7 @@ const imgNearText = new ImgNearText(
 
 const imgNearText2 = new ImgNearText(
   document.querySelector('.map-flex'),
-  'beforeEnd',
+  'beforebegin',
   payDeliver,
 );
 
