@@ -34,7 +34,9 @@ export default class DropDownList {
         </div>
       `
 
-      console.log("Test: ", test)
+      setTimeout(function () {
+        console.log("Test: ", test)
+      }, 1000)
     return test
     })
   }
