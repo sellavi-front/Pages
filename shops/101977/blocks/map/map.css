@@ -44,3 +44,49 @@
     color: #007735;
     text-decoration: underline;
 } */
+
+#home > div > div > section > div.map-flex > div {
+    display: flex;
+    justify-content: space-between
+}
+
+#home > div > div > section > div.map-flex > div > div > div:nth-child(1) {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.adress {
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.adress > div:nth-child(1) {
+    font-weight: 900;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone {
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone > div:nth-child(1) {
+    font-weight: 900;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone > div:nth-child(2) {
+    color: #007735;
+    text-decoration: underline;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone > div:nth-child(3) {
+    color: #007735;
+    text-decoration: underline;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.emails > div:nth-child(1) {
+    font-weight: 900;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.emails > div:nth-child(2) {
+    color: #007735;
+}
