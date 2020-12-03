@@ -20,7 +20,7 @@ const wishList = `
 const cart = document.querySelector("#cart > i");
 cart.classList.add('far');
 cart.classList.remove('fal');
-
+console.log(headerWidgets);
 new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
 headerWidgets.remove();
 
