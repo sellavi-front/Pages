@@ -96,15 +96,15 @@ window.onload = () => {
     categories.render()
   }
 
-  if(location.pathname === '/about-company/') {
+  if(window.location.pathname === '/about-company/') {
     renderAboutCompanyTemplate()
   }
 
-  if(location.pathname === '/complex/') {
+  if(window.location.pathname === '/complex/') {
     renderComplexTemplate()
   }
 
-  if(location.pathname === '/delivery/') {
+  if(window.location.pathname === '/delivery/') {
     renderDeliveryTemplate()
   }
 
