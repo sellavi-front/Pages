@@ -15,3 +15,13 @@ font-family: Hauss,sans-serif;
 #home > div > div > section > div:nth-child(4) > div > div > div > img {
     filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0%));
 }
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > ul li:before { 
+    content:"- ";
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > ul { 
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
