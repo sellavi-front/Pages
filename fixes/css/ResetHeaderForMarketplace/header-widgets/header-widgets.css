@@ -5,3 +5,11 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets {
   right: 0 !important;
   bottom: 0 !important;
 }
+
+body > div > header > div.header-wrapper > div.container-fluid > div.header_widgets > div.header_login > a.d-none.d-lg-block {
+  display: none !important;
+}
+
+body > div > header > div.header-wrapper > div.container-fluid > div.header_widgets > div.header_login > a.d-none.d-sm-block.d-lg-none {
+  display: block !important;
+}
