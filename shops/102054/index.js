@@ -89,10 +89,8 @@ window.onload = () => {
     </div>
     <a class="navbar_item" href="https://whitemoon.shop/man/">Мужчинам</a>
     <a class="navbar_item" href="https://whitemoon.shop/woman/">Женщинам</a>
-
   `
-
-    document.querySelector(".dropdown-content>a:nth-child(1)").addEventListener('click', function () {
+    /*document.querySelector(".dropdown-content>a:nth-child(1)").addEventListener('click', function () {
       location.href = "https://whitemoon.shop/about/"
     })
 
@@ -102,7 +100,7 @@ window.onload = () => {
 
     document.querySelector(".dropdown-content>a:nth-child(3)").addEventListener('click', function () {
       location.href = "https://whitemoon.shop/delivery/"
-    })
+    })*/
 
     logo.insertAdjacentHTML("beforeend", navbar)
     document.querySelector(".search_field>input").placeholder = "";
