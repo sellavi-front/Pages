@@ -5,3 +5,9 @@ body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
 }
+
+@media (max-width: 495px) {
+  .logo img {
+    max-width: 145px !important;
+  }
+}
