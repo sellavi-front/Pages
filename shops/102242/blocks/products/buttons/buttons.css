@@ -25,6 +25,10 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons .
   border-color: #c5a995;
 }
 
+.btn-primary {
+  background: #C5A995 !important;
+}
+
 body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block {
   border: none !important;
 }
