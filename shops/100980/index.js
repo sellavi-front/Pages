@@ -52,5 +52,6 @@ if(pages.delivery) {
   renderDeliveryTemplate()
 }
 
+/* ALL PAGES */
 /* Copy footer-meta */
 renderFooter()
