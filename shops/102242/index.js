@@ -7,6 +7,7 @@ import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js'
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
+import ColorChoise from '../../components/ColorChoise/ColorChoise.js'
 
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
