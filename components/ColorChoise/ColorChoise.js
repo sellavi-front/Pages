@@ -15,6 +15,10 @@ const colors = [
   { color: 'Бордовый', hex: '#800000' },
   { color: 'Бирюзовый', hex: '#40E0D0' },
   { color: 'Салатовый', hex: '#00FF7F' },
+  { color: 'Светло-телесный', hex: '#e6b8a2' },
+  { color: 'Темно-телесны', hex: '#c38e70' },
+  { color: 'Тёмно-телесны', hex: '#c38e70' },
+  { color: 'Пудровый', hex: '#ffddd2' },
 ];
 export default class ColorChoise {
   constructor(data = colors) {
