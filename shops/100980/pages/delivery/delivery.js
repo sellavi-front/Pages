@@ -23,11 +23,11 @@ let DropDown = [
 let mainTemplate = `
  <div class="container-fluid inner-page">
     <div class="bread__crumbs_container">
-        <a href="/">Главная</a> > <a href="/about-company/" class="active__page">О компании</a>
+        <a href="/">Главная</a> > <a href="/delivery/" class="active__page">Доставка и оплата</a>
     </div>
     <div class="about__company_container">
-        <h1>О компании</h1>
-        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606748087/WhatsApp_Image_2020-11-30_at_17.50.42_qqcz5l.jpg" alt="about"/>
+        <h1>Доставка, оплата и возврат</h1>
+        <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606999797/elevate-dI-aXC7DWpQ-unsplash_1_cycp3p.png" alt="img"/>
     </div>
  </div>
 `
