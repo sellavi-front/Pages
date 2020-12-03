@@ -23,13 +23,15 @@ let DropDown = [
 
 
 let test = new DropDownList(DropDown)
+let container = test.render()
+console.log(container)
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
 
 
 let renderDeliveryTemplate = () => {
-  contentOptimizer(test.render(), sectionTitles, information)
+  //contentOptimizer(test.render(), sectionTitles, information)
 }
 
 export default renderDeliveryTemplate
