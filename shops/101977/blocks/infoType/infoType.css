@@ -13,3 +13,7 @@
     font-weight: 800;
     font-family: "Open-sans", sans-serif;
 }
+
+.info-card__item {
+    width: 20%;
+}
