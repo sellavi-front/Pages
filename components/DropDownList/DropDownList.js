@@ -12,7 +12,7 @@ export default class DropDownList {
 
   setTemplate() {
     return `
-      <div class="container-fluid">
+      <div class="container-fluid inner-page">
          ${this.setData(this.data).join('')}
       </div>
     `
