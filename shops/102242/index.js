@@ -46,6 +46,7 @@ if (document.querySelector('.common-home')) {
     sctmSection,
     'beforeEnd',
     advantagesData,
+    'Преимущества'
   );
   advantagesCard.render();
   // End sales
