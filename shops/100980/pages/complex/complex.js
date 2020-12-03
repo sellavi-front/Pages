@@ -7,7 +7,15 @@ let information = document.querySelector(".page-section.color.information")
 let arr = [
   {
     buttonTitle: "Test 1",
-    description: "Hello"
+    description: `<div class="list">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                  </div>`
   },
   {
     buttonTitle: "Test 2",
