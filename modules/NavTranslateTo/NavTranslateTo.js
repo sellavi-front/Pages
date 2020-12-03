@@ -8,6 +8,6 @@ export default class NavTranslateTo {
   }
 
   translate() {
-    new CreateAddContainer(this.container, this.target, this.nav).render();
+    new CreateAddContainer(this.container, this.target, this.nav.outerHTML).render();
   }
 }
