@@ -9,18 +9,18 @@ import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js
 import salesData from './utils/salesData.js';
 import payDeliver from './utils/deliveryPay.js';
 
-if (document.querySelector('.common-home')) {
-  const infoCardTypeOne = new InfoCardTypeOne(
-    document.querySelector('#home > div > div > section > div.container'),
-    'beforeEnd',
-    salesData,
-  );
-
-  infoCardTypeOne.render();
-}
 
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
+
+
+
+
+const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+const buttonsInHeader = new ButtonListInHeader(headerWrapper);
+buttonsInHeader.setTemplate();
+hideCart.remove();
 
 const imgNearText = new ImgNearText(
   document.querySelector('body>.wrapper>.content-area>.page-section'),
@@ -36,12 +36,16 @@ const imgNearText2 = new ImgNearText(
 
 imgNearText.render();
 
+if (document.querySelector('.common-home')) {
+  const infoCardTypeOne = new InfoCardTypeOne(
+    document.querySelector('#home > div > div > section > div.container'),
+    'beforeEnd',
+    salesData,
+  );
 
-const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
-const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-buttonsInHeader.setTemplate();
-hideCart.remove();
+  infoCardTypeOne.render();
+}
+
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Гралько Людмила Викторовна');
