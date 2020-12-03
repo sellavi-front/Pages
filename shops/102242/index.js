@@ -19,7 +19,9 @@ import senderData from './utils/senderData.js';
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
+  const logo = document.querySelector('.logo img');
 
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1606990377/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/Group_1_5_yvhzbg.png');
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
   const videoBanner = new VideoBanner(cstmBanner, 'beforeend', bannerContent);
