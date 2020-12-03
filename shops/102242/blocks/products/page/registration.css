@@ -1,3 +1,7 @@
 body.theme-gray .information-title, body.theme-gray .widget.account-details .widget-title {
   background: none !important;
 }
+
+body.checkout-checkout input.form-control {
+  background-color: rgba(0, 0, 0, .6);
+}
