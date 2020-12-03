@@ -27,7 +27,7 @@ body.theme-gray .header .navigation-wrapper {
     top: 38px !important;
 }
 
-.sf-menu a {
+.common-home .sf-menu a {
     color: #ffffff;
 }
 
@@ -52,12 +52,12 @@ nav.navigation.closed.clearfix.nav.nav-closed {
     font-size: 2em;
 }
 
-.sf-menu li:hover {
+.common-home .sf-menu li:hover {
     background-color: #23232300;
     color: #fff;
 }
 
-.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+.common-home .sf-menu.nav>li>a:focus, .common-home .sf-menu.nav>li>a:hover {
     background-color: #23232300;
     color: #fff;
 }
