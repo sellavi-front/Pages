@@ -88,6 +88,8 @@ if (document.querySelector('.product-product')) {
   const sender = new FormBasic(lastSection, 'beforeend', senderData)
   sender.render();
 
+  const colorChoise = new ColorChoise();
+  colorChoise.render()
 }
 
 // if (location.href.includes('term-of-use')) {
