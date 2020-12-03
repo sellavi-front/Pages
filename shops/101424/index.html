@@ -316,18 +316,9 @@
 
                 </div>
         `
-    let form = `<div class="about-massage-wrap">
-                    <div class="about-massage-item">
-                        <div class="about-massage-item_text">
-                        <h3>Узнайте подробнее</h3>
-                        <input id="msg" type="text" placeholder="Ваше имя" style="text-align:center">
-                        <button class="sendWA">Отправить</button>
-                        </div>
-                    </div>
-                </div>`
 
     if(location.href === 'https://decor161.com/' || location.href === 'https://decor161.com/?from_admin') {
-      let form = `<div class="about-massage-wrap">
+      /*let form = `<div class="about-massage-wrap">
                     <div class="about-massage-item">
                         <div class="about-massage-item_text">
                         <h3>Узнайте подробнее</h3>
@@ -364,7 +355,7 @@
       function sendWA() {
         let msg = document.getElementById("msg").value;
         window.open('https://wa.me/79094187082?text=Здравствуйте!%20Меня%20зовут%20${msg}.%20Заинтересовали%20Ваши%20услуги.%20Расскажите,%20пожалуйста,%20поподробнее?', '_blank');
-      }
+      }*/
 
       /* Category. Delete button */
       document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div > a > div > div > div > span").remove()
