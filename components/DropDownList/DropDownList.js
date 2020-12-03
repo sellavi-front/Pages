@@ -24,8 +24,7 @@ export default class DropDownList {
   }
 
   setData() {
-    return this.data.map((item, index) => {
-      console.log("Item Set: ", item)
+    return this.data.map(item => {
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item.buttonTitle}</button>
