@@ -38,7 +38,9 @@ window.onload = () => {
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #333"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #333"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: #fff"
-        document.querySelectorAll(".dropdown-content a").style.cssText = "color: #333"
+        document.querySelector(".dropdown-content>a:nth-child(1)").style.cssText = "color: #333"
+        document.querySelector(".dropdown-content>a:nth-child(2)").style.cssText = "color: #333"
+        document.querySelector(".dropdown-content>a:nth-child(3)").style.cssText = "color: #333"
       } else {
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #fff"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #fff"
@@ -50,7 +52,9 @@ window.onload = () => {
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #fff"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #fff"
         document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: transparent"
-        document.querySelectorAll(".dropdown-content a").style.cssText = "color: #fff"
+        document.querySelector(".dropdown-content>a:nth-child(1)").style.cssText = "color: #fff"
+        document.querySelector(".dropdown-content>a:nth-child(2)").style.cssText = "color: #fff"
+        document.querySelector(".dropdown-content>a:nth-child(3)").style.cssText = "color: #fff"
       }
     }
 
