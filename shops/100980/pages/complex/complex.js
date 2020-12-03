@@ -20,9 +20,6 @@ let arr = [
 let test = new DropDownList(document.querySelector("body"), "afterbegin", arr)
 test.render()
 
-
-//document.querySelector('body').insertAdjacentHTML("afterbegin", test.outerHTML)
-
 let complexTemplate = `
   <div class="container-fluid inner-page">
     <div class="bread__crumbs_container">
