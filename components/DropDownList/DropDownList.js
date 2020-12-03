@@ -12,6 +12,7 @@ export default class DropDownList {
 
   setTemplate() {
     this.setData()
+    console.log("After Set Data: ", this.data)
     /*return `
       <div class="dropdown__list_container">
         ${this.setData(this.data)}
