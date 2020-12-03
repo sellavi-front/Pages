@@ -31,7 +31,7 @@ export default class ContentBannerTypeOne {
           <div class="info-card__bottom">
             <a href="${item.link}">
               <p class="info-card__bottom_text">
-                <span>${item.textTitle}</span>${item.text}
+                <span>${item.textTitle}</span><p>${item.text}</p>
               </p>
             </a>
           </div>
