@@ -5,8 +5,6 @@ import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import objBanner from './utils/bannerText.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import dataAbout from './utils/aboutData.js';
-import ContentBannerTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
-
 
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
