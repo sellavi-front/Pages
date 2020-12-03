@@ -38,7 +38,6 @@ export default class DropDownList {
       this.setTemplate(),
     )
     createAddContainer.render()
-    this.setTemplate()
   }
 
 }
