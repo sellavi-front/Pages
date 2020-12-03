@@ -26,7 +26,7 @@ const newNavBar = oldNavBar.cloneNode(true);
 document.querySelector('#search').insertAdjacentHTML('beforebegin', newNavBar.outerHTML);
 oldNavBar.remove();
 
-}
+
 
 document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
 document.querySelector('#home > div > header > div.header-wrapper > div.container > nav').insertAdjacentHTML('beforebegin', '<span>AL`DOMA</span>');
@@ -75,6 +75,8 @@ document.querySelector('body>.wrapper>.content-area>.page-section').insertAdjace
 const lastSection = document.querySelector("#home > div > div > section > div.map-flex");
 const sender = new FormBasic(lastSection, 'beforebegin', senderData)
 sender.render();
+
+}
 
 document.querySelector('.footer').remove();
 
