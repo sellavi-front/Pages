@@ -1,5 +1,5 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
-import NavTranslateTo from '../../modules/NavTranslateTo/NavTranslateTo.js';
+import NavTransferTo from '../../modules/NavTransferTo/NavTransferTo.js';
 
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
