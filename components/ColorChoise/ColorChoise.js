@@ -18,7 +18,6 @@ const colors = [
 export default class ColorChoise {
   constructor(data = colors) {
     this.data = data;
-    this.render();
   }
 
   setColors(colorLabel) {
