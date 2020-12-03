@@ -1,4 +1,6 @@
 <script type="text/javascript" src="https://feldhaus.ru/js/catalog/remote.catalog.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="https://res.cloudinary.com/dtqqfmyqb/raw/upload/v1606133275/jquery.cookie_la018b.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script>
@@ -20,7 +22,9 @@
       let Requisites = new Vue({
         el: '#requisites',
         data: {
-          requisites: ['Наименование: ИП Потапова Оксана Петровна',"ИНН: 614405732997","ОГРНИП: 311618121000011","Юридический адрес: 346884 г. Батайск, Ростовской обл., ул Воровского, д.23 ","Телефон: 7 909 418 70 82 "]
+          requisites: ['Наименование: ИП Потапова Оксана Петровна',"ИНН: 614405732997","ОГРНИП: 311618121000011","Юридический адрес: 346884 г. Батайск, Ростовской обл., ул Воровского, д.23 ","Телефон: 7 909 418 70 82 ", "БИК: 046015602",
+            "к/с: 30101810600000000602",
+            "р/с: 40802810352280000588"]
         },
         template: `
                   <ul class="requisite">
@@ -53,6 +57,9 @@
         .then(data => console.log(data));*/
 
 
+    document.querySelector('#content > div > div > h5:nth-child(2)').insertAdjacentHTML('afterend', '<div class="rScore"><span>Р/с:</span> 40802810352280000588</div><div class="kScore"><span>К/с:</span> 30101810600000000602</div><div class="bik"><span>БИК:</span> 046015602</div>');
+
+
   });
 </script>
 
@@ -67,6 +74,11 @@
         alert.innerHTML = `Поле ${name} обязательно!`
       }
     })
+
+
+    if (location.href.includes('about')) {
+      document.querySelector('#content > div > div > div:nth-child(1)').insertAdjacentHTML('afterend', '<div class="img-flex"><img class="flex-item color1" src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606131083/WhatsApp_Image_2020-11-18_at_15.30.20_cfzz3o_a1fqej.jpg"/><img class="flex-item color2" src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606131083/WhatsApp_Image_2020-11-18_at_15.30.19_zp79f5_fbwsk0.jpg"/><img class="flex-item color3" src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606131083/WhatsApp_Image_2020-11-18_at_15.30.19_1_zfj0tl_k1raxs.jpg"/></div>');
+    }
   });
 </script>
 
@@ -315,51 +327,63 @@
                 </div>`
 
     if(location.href === 'https://decor161.com/' || location.href === 'https://decor161.com/?from_admin') {
-
-      /*document.querySelector('body').insertAdjacentHTML("afterbegin", `
+      let form = `<div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                        <h3>Узнайте подробнее</h3>
+                        <input id="msg" type="text" placeholder="Ваше имя" style="text-align:center">
+                        <button class="sendWA">Отправить</button>
+                        </div>
+                    </div>
+                </div>`
+      document.querySelector('body').insertAdjacentHTML("afterbegin", `
                 <div class="modal fade" id="myModal" role="dialog">
                     <div class="modal-dialog">
                       <!-- Modal content-->
-                      <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title">Скидка на первое посещение -10%!</h4>
-                        </div>
-                        <div class="modal-body">
-                          ${form}
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-      `)*/
+    <div class="modal-content">
+    <div class="modal-header">
+    <h4 class="modal-title">Скидка на первое посещение -10%!</h4>
+    </div>
+    <div class="modal-body">
+      ${form}
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    `)
 
-            /*setTimeout(() => {
-                $('#myModal').modal('show')
-                document.querySelector(".sendWA").addEventListener('click', () => {
-                    sendWA()
-                })
-            }, 3000)*/
+      setTimeout(() => {
+        $('#myModal').modal('show')
+        document.querySelector(".sendWA").addEventListener('click', () => {
+          sendWA()
+        })
+      }, 1000)
+      function sendWA() {
+        let msg = document.getElementById("msg").value;
+        window.open('https://wa.me/79094187082?text=Здравствуйте!%20Меня%20зовут%20${msg}.%20Заинтересовали%20Ваши%20услуги.%20Расскажите,%20пожалуйста,%20поподробнее?', '_blank');
+      }
 
-            /* Category. Delete button */
-            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div > a > div > div > div > span").remove()
-            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div:nth-child(2) > div > div > a > div > div > div > span").remove()
-            /* Delete logo and cart text */
-            //document.querySelector(".logo").remove()
-            //document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-meta").remove()
-            //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div.title-demo").remove()
-            //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div.row.products.grid").remove()
-            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", `<div id='page__title' class='text-center'><h2>Детский фитнес центр с массажем от 0 до 10 лет</h2></div>`)
+      /* Category. Delete button */
+      document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div > a > div > div > div > span").remove()
+      document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div:nth-child(2) > div > div > a > div > div > div > span").remove()
+      /* Delete logo and cart text */
+      //document.querySelector(".logo").remove()
+      //document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-meta").remove()
+      //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div.title-demo").remove()
+      //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div.row.products.grid").remove()
+      document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", `<div id='page__title' class='text-center'><h2>Детский фитнес центр с массажем от 0 до 10 лет</h2></div>`)
 
-            /* Goods container */
-            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-        }
+      /* Goods container */
+      document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
+    }
 
-        function sendWA() {
-            let msg = document.getElementById("msg").value;
-            window.open(`https://wa.me/79094187082?text=Здравствуйте!%20Меня%20зовут%20${msg}.%20Заинтересовали%20Ваши%20услуги.%20Расскажите,%20пожалуйста,%20поподробнее?`, '_blank');
-        }
+    function sendWA() {
+      let msg = document.getElementById("msg").value;
+      window.open(`https://wa.me/79094187082?text=Здравствуйте!%20Меня%20зовут%20${msg}.%20Заинтересовали%20Ваши%20услуги.%20Расскажите,%20пожалуйста,%20поподробнее?`, '_blank');
+    }
 
     function send_handle() {
       let msg = document.getElementById("msg").value;
@@ -382,3 +406,7 @@
     }
   }
 </script>
+
+
+
+
