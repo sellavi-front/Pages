@@ -1,7 +1,7 @@
 
   const salesData = [
     {
-      img: 'https://res.cloudinary.com/gz-company/image/upload/v1606225301/Miru/Mockudfgp_1_dvoubj.png',
+      img: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606993848/unnamed_1_gekvma.png',
       textTitle: 'Акция. ',
       text: 'Продукция Miru 1 day Flat Pack  с 1 по 31 декабря со скидкой 15%',
       link: '#'
