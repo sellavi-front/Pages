@@ -20,7 +20,7 @@ export default class DropDownList {
 
   setData() {
     return this.data.map(item => {
-      `
+      return `
         <div class="dropdown__list_item">
             <button class="accordion">${item.buttonTitle}</button>
             <div class="panel">
