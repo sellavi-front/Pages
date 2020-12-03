@@ -42,3 +42,13 @@ p.st1 {
     top: -20px;
     font-size: 12px;
 }
+
+@media (max-device-width: 480) {
+    #home > div > div > section > div:nth-child(1) > div.info-card > div > div {
+        flex-direction: column;
+    }
+    
+    .info-card__item {
+        width: 100%;
+    }
+}
