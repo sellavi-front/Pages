@@ -1,0 +1,165 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  window.onload = () => {
+
+    /* Delete cart description */
+    document.querySelector("#cart > span.cart-norm-qty.d-none.d-lg-inline-block").remove()
+
+    /* Adding categories */
+    let categoryLayout = `
+        <div class="container-fluid">
+        <div class="flex-container">
+          <div class="column-container">
+            <div class="flex-item">
+              <h1>Аксессуары(ACCESORIES)</h1>
+              <img class="column__img" src="http://beauticurve.com/wp-content/uploads/2015/10/IMG_8033-683x1024.jpg"/>
+            </div>
+          </div>
+
+          <div class="column-container">
+              <div class="flex-item">
+                <h1>Одежда(CASUAL)</h1>
+            <img class="column__img" src="https://avatars.mds.yandex.net/get-zen_doc/95163/pub_5b8d38b043e52f00a937bbcc_5b8e287b08fc4100aaa49d7e/scale_2400"/>
+          </div>
+          </div>
+        </div>
+        </div>
+        `
+    document.querySelector(".custom_banner").insertAdjacentHTML("afterEnd", categoryLayout)
+
+    document.querySelector(".custom_banner").insertAdjacentHTML("afterbegin", `
+<div class="about-me">
+\t   <video autoplay loop muted>
+\t\t     <source src="https://video-public.canva.com/VAEMNNpb4W8/v/d40c92bbab.mp4" type="video/mp4">
+\t\t     Your browser does not support the video tag.
+\t   </video>
+     <div class="text-content">
+        <h1>Curvy Queen</h1>
+       <small>fashion</small>
+     </div>
+\t</div>
+`)
+    document.querySelector("#home > div.wrapper.wrapper-closed > div > div.main-slider.content_center > div.container-fluid > div > div:nth-child(1) > div").addEventListener('click', function() {
+      location.href = 'https://curvy-queen.store/%D0%B0%D0%BA%D1%81%D0%B5%D1%81%D1%81%D1%83%D0%B0%D1%80%D1%8B-accessories/'
+    })
+
+    document.querySelector("#home > div.wrapper.wrapper-closed > div > div.main-slider.content_center > div.container-fluid > div > div:nth-child(2) > div").addEventListener('click', function () {
+      location.href = 'https://curvy-queen.store/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-casual/'
+    })
+  }
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const ORG_NAME = 'ООО РЭГ';
+    const ORG_ADRRESS = 'Россия, г. Ульяновск, ул. Беляева д.19';
+    const MAIL_ADDRESS = 'Россия, г. Ульяновск, ул. Беляева д.19';
+    const REG_ADDRESS = 'Россия, г. Ульяновск, ул. Беляева д.19';
+    const INN = '7321011720';
+    const KPP = '732101001';
+    const OGRN = '1207300010587';
+    const BANKNAME = 'УЛЬЯНОВСКОЕ ОТДЕЛЕНИЕ N8588 ПАО СБЕРБАНК';
+    const ACCOUT_NUMBER = '40702810169000013514';
+    const CORR_NUMBER = '30101810000000000602';
+    const BIK = '047308602';
+    const DIRECTOR = 'Шангареева Джамиля Раисовна';
+
+    if (location.href.includes('term-of-use')) {
+      const root = document.querySelector('.requsitess');
+      let requsitesData = document.createElement('div');
+      requsitesData.classList.add('.requsites-data');
+      requsitesData.id = 'requisites';
+      if (root) {
+        root.append(requsitesData);
+        let Requisites = new Vue({
+          el: '#requisites',
+          data: {
+            requisites: [
+              ORG_NAME,
+              ORG_ADRRESS,
+              INN,
+              KPP,
+              OGRN,
+              BANKNAME,
+              ACCOUT_NUMBER,
+              CORR_NUMBER,
+              BIK,
+            ],
+          },
+          template: `
+                <div class="requsites__data">
+                    <h4 class="requsites__title">Реквизиты продавца</h4>
+                    <p class="requsites__elem">Название: <span>${ORG_NAME}</span></p>
+                    <p class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></p>
+                    <p class="requsites__elem">Инн: <span>${INN}</span></p>
+                    <p class="requsites__elem">КПП: <span>${KPP}</span></p>
+                    <p class="requsites__elem">ОГРН: <span>${OGRN}</span></p>
+                    <p class="requsites__elem">Банк: <span>${BANKNAME}</span></p>
+                    <p class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></p>
+                    <p class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></p>
+                    <p class="requsites__elem">БИК: <span>${BIK}</span></p>
+                    <p class="requsites__elem">Ген.дир: <span>${DIRECTOR}</span></p>
+                </div>`,
+        });
+      } else console.log('No element with id:list');
+    }
+
+    if (location.href.includes('contact')) {
+      const root = document.querySelector('.contact-info');
+      const list = document.createElement('div');
+      list.id = 'requisites';
+      if (root) {
+        root.append(list);
+        let Requisites = new Vue({
+          el: '#requisites',
+          data: {
+            requisites: [
+              ORG_NAME,
+              ORG_ADRRESS,
+              INN,
+              KPP,
+              OGRN,
+              BANKNAME,
+              ACCOUT_NUMBER,
+              CORR_NUMBER,
+              BIK,
+              DIRECTOR,
+            ],
+          },
+          template: `
+            <ul class="requisite">
+                <li class="requisite__title">
+                    Реквизиты
+                </li>
+                <li class="requsites__elem">Название: <span>${ORG_NAME}</span></li>
+                <li class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></li>
+                <li class="requsites__elem">Инн: <span>${INN}</span></li>
+                <li class="requsites__elem">КПП: <span>${KPP}</span></li>
+                <li class="requsites__elem">ОГРН: <span>${OGRN}</span></li>
+                <li class="requsites__elem">Банк: <span>${BANKNAME}</span></li>
+                <li class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></li>
+                <li class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></li>
+                <li class="requsites__elem">БИК: <span>${BIK}</span></li>
+                <li class="requsites__elem">Ген.дир: <span>${DIRECTOR}</span></li>
+            </ul>
+        `,
+        });
+      } else console.log('No element with id:list');
+    }
+
+    if (location.href.includes("checkout")) {
+      $('.form_checkout').ready(function () {
+        $('.checkbox>label').html('Согласен (-а) с условиями <a href="/term-of-use/" " style="text-decoration: none !important; "><b style="font-weight: bold !important;">Публичной оферты</b></a>');
+      })
+    }
+
+    const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget')
+    const widTitle = widget.find('.widget-title');
+    const widCat = widget.find('.widget-categories>ul>li:first-child>a');
+    let textTrans = 'About us ';
+    let textRus = 'О нас';
+    if (widTitle.html() === textTrans || widCat.html() === textTrans) {
+      widTitle.text(textRus);
+      widCat.text(textRus);
+    }
+  })
+</script>

@@ -1,0 +1,384 @@
+<script type="text/javascript" src="https://feldhaus.ru/js/catalog/remote.catalog.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+
+    if (location.href.includes('contact')) {
+      const header = document.querySelector('.page-header h1');
+      header.innerText = 'Контакты';
+
+      const pageTitle = document.querySelector('title');
+      const splitTitle = pageTitle.innerText.split('|');
+      splitTitle[0] = 'Контакты ';
+      pageTitle.innerText = splitTitle.join('|');
+
+      const root = document.querySelector('.contact-info');
+      const list = document.createElement('div');
+      list.id = 'requisites';
+      root.append(list);
+      let Requisites = new Vue({
+        el: '#requisites',
+        data: {
+          requisites: ['Наименование: ИП Потапова Оксана Петровна',"ИНН: 614405732997","ОГРНИП: 311618121000011","Юридический адрес: 346884 г. Батайск, Ростовской обл., ул Воровского, д.23 ","Телефон: 7 909 418 70 82 "]
+        },
+        template: `
+                  <ul class="requisite">
+                  <li class="requisite__title">
+                    Реквизиты
+                  </li>
+                  <li v-for="requisite in requisites">{{ requisite }}</li>
+                  </ul>
+                `
+      })
+    }
+
+    /*fetch('https://sellavi-api.000webhostapp.com/test.php',
+        {
+            mode: 'cors',
+
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data.response.data)
+            let arr = data.response.data
+            arr.map(a => {
+                document.querySelector(".footer-widgets").insertAdjacentHTML("afterbegin", a.name)
+            })
+
+        });*/
+
+    /*fetch('https://cors-anywhere.herokuapp.com/https://sellavi-api.000webhostapp.com/test.php', {mode: 'cors'})
+        .then(response => response.json())
+        .then(data => console.log(data));*/
+
+
+  });
+</script>
+
+<script>
+  $('.product-product').ready(function () {
+    $('#button-cart').on('click', function () {
+      const alerts = document.querySelectorAll('.text-danger');
+      for (let alert of alerts) {
+        const alertParent = alert.parentElement;
+        const nameBlock = alertParent.firstElementChild;
+        const name = nameBlock.textContent.toLowerCase();
+        alert.innerHTML = `Поле ${name} обязательно!`
+      }
+    })
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+
+    const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget')
+    const widTitle = widget.find('.widget-title');
+    const widCat = widget.find('.widget-categories>ul>li:first-child>a');
+    let textTrans = 'About us ';
+    let textRus = 'О нас';
+
+    if (widTitle.html() === textTrans || widCat.html() === textTrans) {
+      widTitle.text(textRus);
+      widCat.text(textRus);
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    Array.from(document.querySelectorAll('.footer-widgets a')).map(link => {
+      if (link.href.includes('contact')) {
+        link.innerText = 'Контакты';
+      }
+    });
+
+  });
+</script>
+
+<script>
+  window.onload = () => {
+    let banner = document.querySelector(".custom_banner")
+    let navbar = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.navigation-wrapper")
+
+
+
+
+    let aboutMassageLayout = `
+            <div class="about-massage-container">
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                            <h1>Для чего нужен массаж грудничку?</h1>
+                            <p>Детский массаж - это совсем не то, что мы привыкли видеть под словом «массаж», большую
+                            часть сеанса занимает гимнастика. В 3 месяца - это будут движения для освоения
+                            переворота на живот, в 6 - на ползание и в 9 - для ходьбы.</p>
+                            <p>Конечно, массаж делают не только для того, чтобы обучить ребёнка новому навыку,
+                            профессиональный массаж - это полноценная тренировка для грудничка, он улучшает
+                            кровообращение и обмен веществ, положительно влияет на ЦНС и на иммунную систему.
+                            Вы можете обойтись без курса массажа, если:</p>
+                            <ul>
+                                <li>- Беременность и роды прошли без осложнений</li>
+                                <li>- У ребёнка не было гипоксии</li>
+                                <li>- Гипертонус исчез к 3 месяцам</li>
+                                <li>- Ребёнок вовремя освоил переворот на живот (к 4 месяцам) и пополз на четвереньках
+                            (к 6-7 месяцам)</li>
+                            </ul>
+                            <p>Но, к сожалению, большинству детей все-таки требуется помощь массажиста для снятия
+                            гипертонуса.</p>
+                        </div>
+
+                        <div class="about-massage-item_img">
+                            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1604649568/tea/WhatsApp_Image_2020-11-05_at_17.19.15_wy33sv.jpg"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                            <h1>Для чего полезен массаж?</h1>
+                            <p>Массаж — незаменимый помощник мам и пап, которые хотят вырастить здорового ребенка.
+                            Маленькому ребенку он необходим для снятия гипертонуса мышц, который является
+                            физиологическим, ведь малыш в маминой утробе долгие месяцы находится не в самом
+                            удобном положении. Рождается ребенок с ручками и ножками, которые до конца не
+                            разгибаются, кулачки он почти не раскрывает. Новорожденному нужна помощь родителей в
+                            снятии мышечного тонуса, чтобы он мог расти и развиваться физически более гармонично.</p>
+                        </div>
+
+                        <div class="about-massage-item_img">
+                            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1604649568/tea/WhatsApp_Image_2020-11-05_at_17.19.15_2_ff0a9d.jpg" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                            <h1>Можно ли самому делать массаж ребенку?</h1>
+                            <p>Зачастую у родителей возникает вопрос, можно ли проводить сеансы самим, ведь кажется,
+                            что ничего сложного в этом нет.
+                            Вот, что на это отвечает Людмила Игнатьева, педиатр: </p>
+                            <p>– Если у родителей нет специального образования, навыков и ежедневной практики, то
+                            лечебный массаж своему ребёнку делать нельзя. Родители могут делать гимнастику и
+                            самые мягкие массажные движения, например, поглаживания. Они особенно актуальны до
+                            трёхмесячного возраста, когда активные движения у малыша практически отсутствуют, а
+                            мышцы должны развиваться. Плюс поглаживания улучшают циркуляцию крови, что
+                            благотворно влияет на весь организм ребёнка.
+                            Общий массаж нужно доверить профессионалам, так как они знают правильные техники,
+                            какую группу мышц необходимо «активизировать», а какую, наоборот, «расслабить».
+                            Проводить его можно с трёхмесячного возраста, когда к поглаживающим движениям
+                            прибавляются растирание, разминание и вибрационные движения.</p>
+                        </div>
+
+                        <div class="about-massage-item_img">
+                            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1604649568/tea/WhatsApp_Image_2020-11-05_at_17.19.16_1_pyzgcd.jpg" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                            <h1>Детская Лечебная Физическая Культура Адекватная физическая активность —</h1>
+                            <p>неотъемлемое условие, необходимое для правильного развития организма. ЛФК может
+                            использоваться как для коррекции уже проявившихся отклонений, так и для их
+                            профилактики. При многих заболеваниях комплекс, подобранный с учетом особенностей
+                            конкретного организма, при регулярном выполнении оказывает лечебный эффект, не
+                            уступающий результатам медикаментозного воздействия. А при проблемах с опорно-
+                            двигательным аппаратом порой является единственным средством, способным привести к
+                            полному восстановлению.</p>
+                        </div>
+
+                        <div class="about-massage-item_img">
+                            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1604649568/tea/WhatsApp_Image_2020-11-05_at_17.19.14_efqurb.jpg" />
+                        </div>
+                    </div>
+
+                    <div class="about-massage-wrap">
+                        <div class="about-massage-item">
+                            <div class="about-massage-item_text">
+                            <h3>Запись на массаж и ЛФК</h3>
+                            <input id="msg" type="text" placeholder="Ваше имя" style="text-align:center">
+                            <button class="sendWA">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        `
+    let aboutTapeLayout = `
+            <div class="about-massage-container">
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                            <h1>Что это такое?</h1>
+                            <p>Кинезиотейпирование – это безопасный метод физиотерапии с доказанной
+                            эффективностью, который может помочь вашему телу справиться с травмой, победить
+                            болезнь и восстановить правильную работу поврежденной мышцы.</p>
+
+                            <p>Тейпы активно используются в таких отраслях медицины как: </p>
+                            <ul>
+                                <li>- травматология;</li>
+                                <li>- лимфология;</li>
+                                <li>- педиатрия;</li>
+                                <li>- спортивная физиотерапия;</li>
+                                <li>- неврология;</li>
+                                <li>- гинекология.</li>
+                            </ul>
+                            <p>Чаще всего метод кинезиотейпирования применяют в следующих случаях: </p>
+                            <ul>
+                                <li>- артриты, остеохондрозы, артрозы;</li>
+                                <li>- сколиозы, грыжи, прочие болезни опорно-двигательного аппарата;</li>
+                                <li>- ушибы, гематомы, растяжения и другие виды травм.</li>
+                            </ul>
+                        </div>
+
+                        <div class="about-massage-item_img">
+                            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1604650742/tea/kartinka-tejp_ellnts.jpg"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                            <p>Основным достоинством данного метода является то, что процедура наложения кинезио
+                            тейпов достаточно проста, а сам по себе тейп никоим образом не ограничивает движения
+                            пациента.
+                            Самая известная функция кинезиотейпа – это быстро снять боль и отек, но
+                            кинезиологическая лента имеет множество других преимуществ, которые делают его
+                            идеальным для улучшения подвижности мышц и суставов у деток. В зависимости от метода
+                            кинезиотейпирования, кинезио тейп может активировать слабые или поврежденные
+                            мышцы, притормозить сверхактивные мышцы и помочь исправительными
+                            биомеханическими выравнивания.</p>
+
+                            <p>Кинезиотейпирование хорошо сочетается с другими методами терапии . В процессе
+                            тейпирования наблюдаются следующие эффекты: </p>
+                            <ul>
+                                <li>- регуляция мышечного тонуса;</li>
+                                <li>- улучшение мелкой и крупной моторики;</li>
+                                <li>- увеличение диапазона движения;</li>
+                                <li>- уменьшение отеков и застойных явлений;</li>
+                                <li>- развитие навыков самообслуживания;</li>
+                                <li>- снижение болезненности в поврежденных областях;</li>
+                                <li>- увеличение выносливости.</li>
+                            </ul>
+
+
+                            <h1>Кинезиотейпирование и лечение детей</h1>
+                            <p>Младенцы и дети с задержкой развития, центральной нервной дисфункции системы,
+                            черепно-мозговой травмой, двигательных расстройств и других проблем опорно-
+                            двигательного аппарата могут извлечь выгоду от кинезиотейпирования. Поэтому кинезио
+                            тейп становится новым видом лечения в неврологии и ДЦП.
+                            Кинезиотейпирование у детей обладает рядом преимуществ, которые и обуславливают
+                            популярность этого метода: </p>
+                            <ul>
+                                <li>- Тейпы не ограничивают свободу движения ребенка.</li>
+                                <li>- Малыши с удовольствием принимают участие в «красочном» лечении.</li>
+                                <li>- Наложенные тейпы работают 24 часа в сутки.</li>
+                                <li>- Тейпы состоят из натурального хлопка, поэтому вероятность развития раздражения
+                                     минимальна.</li>
+                            </ul>
+
+
+                        </div>
+
+                        <div class="about-massage-item_img">
+                            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1604650742/tea/d0a394ff2410534869010017398eb77e_bxecdv.jpg"/>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                        <h3>Запись на Кинезиотейпирование</h3>
+                        <input id="msg" type="text" placeholder="Ваше имя" style="text-align:center">
+                        <button class="sendWA">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                </div>
+        `
+    let form = `<div class="about-massage-wrap">
+                    <div class="about-massage-item">
+                        <div class="about-massage-item_text">
+                        <h3>Узнайте подробнее</h3>
+                        <input id="msg" type="text" placeholder="Ваше имя" style="text-align:center">
+                        <button class="sendWA">Отправить</button>
+                        </div>
+                    </div>
+                </div>`
+
+    if(location.href === 'https://decor161.com/' || location.href === 'https://decor161.com/?from_admin') {
+
+      /*document.querySelector('body').insertAdjacentHTML("afterbegin", `
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Скидка на первое посещение -10%!</h4>
+                        </div>
+                        <div class="modal-body">
+                          ${form}
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+      `)*/
+
+            /*setTimeout(() => {
+                $('#myModal').modal('show')
+                document.querySelector(".sendWA").addEventListener('click', () => {
+                    sendWA()
+                })
+            }, 3000)*/
+
+            /* Category. Delete button */
+            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div > a > div > div > div > span").remove()
+            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div:nth-child(2) > div > div > a > div > div > div > span").remove()
+            /* Delete logo and cart text */
+            //document.querySelector(".logo").remove()
+            //document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-meta").remove()
+            //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div.title-demo").remove()
+            //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div > div.row.products.grid").remove()
+            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", `<div id='page__title' class='text-center'><h2>Детский фитнес центр с массажем от 0 до 10 лет</h2></div>`)
+
+            /* Goods container */
+            document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
+        }
+
+        function sendWA() {
+            let msg = document.getElementById("msg").value;
+            window.open(`https://wa.me/79094187082?text=Здравствуйте!%20Меня%20зовут%20${msg}.%20Заинтересовали%20Ваши%20услуги.%20Расскажите,%20пожалуйста,%20поподробнее?`, '_blank');
+      }
+
+    function send_handle() {
+      let msg = document.getElementById("msg").value;
+      window.open(`https://wa.me/79094187082?text=Здравствуйте!%20Меня%20зовут%20${msg}.%20Я%20хочу%20записаться%20на%20сеанс%20массажа%20и%20ЛФК.`, '_blank');
+    }
+
+    if(location.href === 'https://decor161.com/massage/') {
+      document.querySelector("#content").insertAdjacentHTML("afterbegin", aboutMassageLayout)
+      document.querySelector(".sendWA").addEventListener('click', () => {
+        send_handle()
+      })
+
+    }
+
+    if(location.href === 'https://decor161.com/taping/') {
+      document.querySelector("#content").insertAdjacentHTML("afterbegin", aboutTapeLayout)
+      document.querySelector(".sendWA").addEventListener('click', () => {
+        send_handle()
+      })
+    }
+  }
+</script>

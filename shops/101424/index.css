@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body,
+html,
+a,
+p,
+span,
+h1, h2, h3, h4, h5, h6, small {
+  font-family: 'Nunito', sans-serif !important;
+}
+
+body .content-delivery {
+  margin-bottom: 80px;
+}
+
+@media(max-width: 768px) {
+  body .content-delivery {
+    flex-flow: column;
+  }
+}
+
+body .delivery__right {
+  max-width: 451px;
+  width: 100%;
+  padding-right: 20px;
+}
+
+body .delivery__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+
+body .delivery__right-title {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+@media(max-width: 375px) {
+  body .delivery__right-title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+delivery__right-small {
+  color: rgb(112, 112, 112);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+body .delivery__right-subtitle {
+  color: rgb(17, 17, 17);
+}
+
+body .delivery__content-title {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+body .delivery__content-label {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(130, 130, 130);
+}
+.pay__title {
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+
+.faq__content--images {
+  align-items: baseline;
+  display: flex;
+  margin: 32px auto;
+  overflow: auto;
+}
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul {
+  display: flex;
+  flex-direction: column;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(1) {
+  order: 6;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(2) {
+  order: 3;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(3) {
+  order: 4;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(4) {
+  order: 1;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(5) {
+  order: 2;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(6) {
+  order: 5;
+}
+
+footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child(7) {
+  order: 7;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .faq__content--images {
+    flex-wrap: wrap;
+  }
+}
+
+.faq__content--images figure {
+  margin-right: 50px;
+  text-align: center;
+}
+
+.footer .footer-meta {
+  padding: 15px 0 !important;
+}
+
+.footer_content_container {
+  height: 25px;
+  display: flex;
+
+}
+
+.footer_content_text::after {
+  display: none !important;
+}
+
+.footer .copyright_row {
+  display: none;
+}
+
+.footer_content_text {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  #sellavi_logo {
+    margin: 10px auto 0 auto;
+  }
+
+  footer>div.footer-meta>div {
+    padding-left: 0px;
+  }
+}
+
+.footer_content_text img {
+  margin: 0 5px !important;
+  height: 100%;
+}
+
+body footer .footer-meta .footer_content_wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+
+.requisites {
+  width: 80vw !important;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  list-style: none;
+}
+
+.requisites strong {
+  margin-right: 5px;
+}
+
+.requisite {
+  padding-top: 65px;
+  position: relative;
+  border-top: 1px solid #e9e9e9;
+}
+
+.requisite > li {
+  margin-left: 55px;
+}
+
+.requisite::after {
+  content: "i";
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d3d3d3;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0 0 10px 16px;
+  line-height: 40px;
+}
+
+.requisite__title {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-family: Hauss, san-serif;
+  font-weight: bolder;
+}
+
+body.ltr .homefeatured_category .thumbnail .caption-wrapper .caption-inner>span {
+  float: none;
+}
+
+
+/* Header */
+
+.sf-menu.nav>li>a {
+  padding: 10px 5px 10px 5px;
+  color: #333;
+  font-weight: 100;
+}
+
+.sf-menu a {
+  color: #333;
+  font-size: 12px;
+}
+
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+  background-color: transparent;
+  color: darkgreen;
+  font-weight: 900;
+}
+
+.sf-menu li:hover {
+  background-color: transparent;
+  color: darkgreen;
+}
+
+.navigation .nav.sf-menu {
+  line-height: 1.72;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.cart-items .cart-items-inner {
+  background-color: #fff;
+  padding: 5px;
+  min-height: 10px;
+}
+
+/* Content */
+
+body.theme-blue-2 .header {
+  border-bottom: 0;
+}
+
+#page__title{
+  padding: 25px;
+  font-weight: 900;
+}
+
+.header-cart .cart-wrapper {
+  height: 41px;
+  border-radius: 0;
+  border: 0;
+  transition: border .3s;
+}
+
+.header-cart .cart-wrapper:hover {
+  border: 0;
+}
+
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: #333;
+}
+
+.header-cart .cart-wrapper #cart i {
+  font-size: 15px;
+}
+
+.cart-norm-qty.d-none.d-lg-inline-block {
+  font-size: 13px;
+}
+
+body .header-cart .cart_drop_down .dropdown-menu.dropdown-menu-right {
+  left: 0;
+  right: auto;
+  top: 38px;
+  z-index: 99;
+  border: 0;
+}
+
+body.theme-green-2 .header {
+  border-bottom: 0;
+}
+
+body.theme-green-2 .header .navigation-wrapper {
+  background-color: #e2ffbe;
+  border-top: 0;
+}
+
+/* End */
+
+/* Categories */
+
+.thumbnail.thumbnail-banner .caption-inner {
+  border: 0;
+  padding: 15px;
+}
+
+body.ltr .thumbnail .caption-title {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* End */
+
+/* Content */
+
+.about-massage-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.about-massage-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-massage-item {
+  width: 100%;
+  display: flex;
+  margin: 15px;
+  padding: 20px;
+}
+
+.about-massage-item_text {
+  flex-grow: 1;
+}
+
+.about-massage-item_text h1 {
+  width: 90%;
+}
+
+.about-massage-item_text p {
+  width: 80%;
+}
+
+.about-massage-item_img {
+  flex-grow: 1;
+}
+
+.about-massage-item img {
+  max-width: 400px;
+  height: auto;
+}
+
+body .content-area .page-section.titles {
+  text-align: center;
+  min-height: 80px;
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #f8f8f8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.1;
+  text-transform: none;
+  margin: 0 0 1px;
+  color: #333;
+}
+
+#myModal {
+  display: none;
+}
+
+/* End */
+
+
+/* Footer */
+
+.widget-categories ul {
+  font-size: 12px;
+}
+.widget-categories ul li+li {
+  border-top: 0;
+}
+
+
+.dropdown, .dropleft, .dropright, .dropup {
+  z-index: 99;
+}
+
+body.theme-blue-2 .footer {
+  border-top: none;
+  color: #232323;
+  background-color: #f9fafb;
+}
+
+body.information-information .information img {
+  max-width: 400px;
+}
+
+/* End */
+
+/* Form */
+
+#msg {
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 2px;
+}
+
+.sendWA {
+  border: 0;
+  background: lightgreen;
+  border-radius: 2px;
+  color: #333;
+  padding: 4px;
+}
+
+/* End */
+
+
+@media (min-width: 300px) and (max-width: 1033px) {
+  .about-massage-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+  }
+
+  .h1, h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-massage-item_text h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-massage-item {
+    padding: 0;
+    display: block;
+  }
+
+  body.information-information .information img {
+    max-width: 90%;
+  }
+
+  body.bottom-nav-enabled div.mobile-bottom-nav>ul>li.mobile-bottom-tab>a.mobile-bottom-link {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 5px 0 5px 0;
+    text-indent: 0;
+    font-size: 10px;
+    flex-grow: 2;
+    margin: 0;
+    color: #333;
+  }
+
+  .home_link {
+    padding-right: 0;
+    padding-left: 50px;
+    line-height: 64px;
+    font-size: 18px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #dfe3e8;
+  }
+
+  body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li a {
+    color: #333;
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
