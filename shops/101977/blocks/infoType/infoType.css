@@ -1,0 +1,15 @@
+.info-card__bottom_text {
+    display: flex;
+    flex-direction: column
+}
+
+.info-card__item_img {
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+#home > div > div > section > div.container > div.info-card > div > div > div > div > a > p > span {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-family: "Open-sans", sans-serif;
+}
