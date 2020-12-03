@@ -1,32 +1,7 @@
 import contentOptimizer from "../contentOptimizer.js";
-import DropDownList from "../../../../components/DropDownList/DropDownList.js";
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
-
-let arr = [
-  {
-    buttonTitle: "Test 1",
-    description: `<div class="list">
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                  </div>`
-  },
-  {
-    buttonTitle: "Test 2",
-    description: "World"
-  },
-]
-
-
-
-let test = new DropDownList(document.querySelector("body"), "afterbegin", arr)
-test.render()
 
 let complexTemplate = `
   <div class="container-fluid inner-page">
