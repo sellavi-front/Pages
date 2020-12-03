@@ -29,3 +29,10 @@
 .shop-sorting {
   display: none !important;
 }
+
+@media (max-width: 995px) {
+  .products:not(.featured-products-carousel),
+  .featured-products:not(.featured-products-carousel) {
+    grid-template-columns: repeat(auto-fit, 400px);
+  }
+}

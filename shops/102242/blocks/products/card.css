@@ -67,3 +67,9 @@ body.common-home .product-item .thumbnail {
   height: inherit;
   object-fit: cover;
 }
+
+@media (max-width: 995px) {
+  .product-item .thumbnail .media-link, .latest-section .product-layout .thumbnail .media {
+    height: auto !important;
+  }
+}
