@@ -15,7 +15,7 @@
   background: none !important;
 }
 
-.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+.sf-menu.nav>li:hover {
   border-bottom: 1px solid #887568;
 }
 
