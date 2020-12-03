@@ -1,5 +1,3 @@
-import CreateAddContainer from "../CreateAddContainer/CreateAddContainer";
-
 import CreateAddContainer from '../CreateAddContainer/CreateAddContainer.js';
 
 export default class NavTranslateTo {
