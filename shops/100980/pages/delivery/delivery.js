@@ -20,18 +20,16 @@ let DropDown = [
   },
 ]
 
-console.log(DropDown)
-
-let test = new DropDownList(DropDown)
-let container = test.render()
-console.log(container)
-
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
+sectionTitles.remove()
+information.remove()
+let contentArea = document.querySelector(".content-area")
+let dropDownListContainer = new DropDownList(contentArea, "afterbegin", DropDown)
 
 
 let renderDeliveryTemplate = () => {
-  contentOptimizer(container, sectionTitles, information)
+  dropDownListContainer.render()
 }
 
 export default renderDeliveryTemplate
