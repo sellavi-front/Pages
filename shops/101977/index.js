@@ -9,7 +9,7 @@ import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js
 import salesData from './utils/salesData.js';
 import payDeliver from './utils/deliveryPay.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
-
+import senderData from './utils/senderData.js';
 
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
