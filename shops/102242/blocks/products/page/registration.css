@@ -5,5 +5,5 @@ body.theme-gray .information-title, body.theme-gray .widget.account-details .wid
 body.checkout-checkout input.form-control,
 body.checkout-checkout textarea.form-control,
 body span.select2-container--default .select2-selection--single {
-  background-color: rgba(0, 0, 0, .6);
+  border-color: rgba(0, 0, 0, .6);
 }
