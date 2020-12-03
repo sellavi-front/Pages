@@ -19,5 +19,5 @@ const wishList = `
 new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
 headerWidgets.remove();
 
-new CreateAddContainer(headerWidgets, 'afterbegin', wishList)
+new CreateAddContainer(headerWidgets, 'afterbegin', wishList).render();
 new NavTranslateTo(headerLogo, 'afterend').translate();
