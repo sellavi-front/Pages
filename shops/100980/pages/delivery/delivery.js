@@ -34,7 +34,7 @@ let mainTemplate = `
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
 
-let innerPage = document.querySelector("#home > div > div.content-area > div")
+let innerPage = document.querySelector("юcontent-area")
 contentOptimizer(mainTemplate, sectionTitles, information)
 
 
