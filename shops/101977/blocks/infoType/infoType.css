@@ -16,7 +16,7 @@
 
 .info-card__item {
     width: 24%;
-    margin-right: 0px;
+    margin-right: 0px !important;
 }
 
 .info-card__container {
