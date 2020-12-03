@@ -59,6 +59,10 @@ body.theme_10.common-home header.header .header-wrapper {
   transition: border .3s;
 }
 
+body.theme-gray .header {
+  border-bottom: 0;
+}
+
 /* End */
 
 /* Banner */

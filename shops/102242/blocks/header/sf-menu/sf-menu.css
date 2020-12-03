@@ -10,6 +10,15 @@
     color: white !important;
 }
 
+.sf-menu li:hover,
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+  background: none !important;
+}
+
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+  border-bottom: 1px solid #887568;
+}
+
 .common-home .sf-menu a {
   color: white !important;
   font-size: 18px !important;

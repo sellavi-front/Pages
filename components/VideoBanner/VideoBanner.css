@@ -30,3 +30,17 @@
   color: white;
   font-weight: 300;
 }
+
+
+@media (max-width: 500px) {
+  .video-banner video {
+    max-width: 500px;
+    object-fit: cover;
+    height: 500px;
+  }
+
+  .banner-caption h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+}
