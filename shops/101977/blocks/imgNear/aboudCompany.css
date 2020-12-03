@@ -66,3 +66,7 @@ body strong {
 #home > div > div > section > div.about > div > div > div > div > h2 {
     margin-bottom: 0px;
 }
+
+.about__item_img {
+    width: 60%;
+}
