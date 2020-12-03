@@ -1,5 +1,5 @@
 const rulesTemplate = `
-
+<h1>возврат</h1>
 
 `
 
