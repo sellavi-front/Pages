@@ -16,3 +16,9 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input {
 body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
   padding: 0 2% !important;
 }
+
+@media (max-width: 1230px) {
+  .header .header-search {
+    max-width: 207px !important;
+  }
+}
