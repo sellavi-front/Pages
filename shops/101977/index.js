@@ -35,7 +35,7 @@ const imgNearText2 = new ImgNearText(
 );
 
 imgNearText.render();
-// imgNearText2.render();
+
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
@@ -78,6 +78,10 @@ document.querySelector('.info-card__title').innerHTML = "Преимуществ�
 // document.querySelector('.leader').insertAdjacentHTML('beforeend', '<div class="three-flex-block"><div class="first-block"><div class="left-side block1"></div><div class="right-side block1">Выгодные цены</div></div><div class="second-block"><div class="left-side block2"></div><div class="right-side block2">Бесплатную доставку</div></div><div class="third-block"><div class="left-side block3"></div><div class="right-side block3">Бонусы по итогам года</div></div></div>');
 // document.querySelector('.leader').insertAdjacentHTML('beforeend', '<button type="button" class="be-leader">Стать лидером</button>');
 document.querySelector('.about').insertAdjacentHTML('afterend', '<div class="leader"><div class="container"><div class="leader-title">Станьте дилером и получите<p>дополнительные преимущества</p></div><div class="three-flex-block"><div class="first-block"><div class="left-side block1"></div><div class="right-side block1">Выгодные цены</div></div><div class="second-block"><div class="left-side block2"></div><div class="right-side block2">Бесплатную доставку</div></div><div class="third-block"><div class="left-side block3"></div><div class="right-side block3">Бонусы по итогам года</div></div></div><button type="button" class="be-leader">Стать лидером</button></div></div>');
+imgNearText2.render();
+
 document.querySelector('body>.wrapper>.content-area>.page-section').insertAdjacentHTML('beforeend', '<div class="map-flex"><div class="container"><div class="our-contacts"><div>Контакты</div><div class="adress"><div>Адрес: </div><div>г.Волгоград, ул.Бурейская, д.8</div></div><div class="phone"><div>Телефон: </div><div>Техническая служба</div><div>Отдел продаж</div></div><div class="emails"><div>E-mail: </div><div>Ссылка</div></div></div><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7efb2b1c48455fd2e1c95a8256260ab3e86490a95490800b620cd291dff510af&amp;source=constructor" width="600" height="400" frameborder="0"></iframe></div></div>');
+
+
 document.querySelector('.footer').remove();
 
