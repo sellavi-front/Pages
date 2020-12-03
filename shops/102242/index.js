@@ -12,7 +12,8 @@ import ColorChoise from '../../components/ColorChoise/ColorChoise.js'
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import {bannerContent} from './constants/constants.js';
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 
 import salesData from './utils/salesData.js';
 import advantagesData from './utils/advantagesData.js';
