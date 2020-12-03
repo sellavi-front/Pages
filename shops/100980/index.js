@@ -5,6 +5,14 @@ import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js"
 import renderComplexTemplate from "./pages/complex/complex.js"
 import renderDeliveryTemplate from "./pages/delivery/delivery.js"
 
+
+let pages = {
+  home: document.querySelector(".common-home"),
+  delivery: document.querySelector(".information-information-3585"),
+  complex: document.querySelector(".information-information-3586")
+  about: document.querySelector(".information-information-3588")
+}
+
 /* Deleting burger */
 //document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
 
@@ -25,7 +33,7 @@ let customSection = document.querySelector(".custom_section")
 `*/
 
 //containerNavbar.insertAdjacentHTML("beforeend", navbar)
-if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
+if(pages.home) {
   let customBanner = document.querySelector(".custom_banner")
   let bannerLayout = `
   <div class="banner__container">
@@ -95,15 +103,15 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   categories.render()
 }
 
-if(window.location.pathname === '/about-company/') {
+if(pages.about) {
   renderAboutCompanyTemplate()
 }
 
-if(window.location.pathname === '/complex/') {
+if(pages.complex) {
   renderComplexTemplate()
 }
 
-if(window.location.href === 'https://store100980.sellavi.com/delivery/') {
+if(pages.delivery) {
   renderDeliveryTemplate()
 }
 
