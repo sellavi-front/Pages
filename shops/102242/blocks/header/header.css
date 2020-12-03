@@ -16,6 +16,10 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 }
 
 @media (max-width: 495px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto 0 34% !important;
+  }
+
   .logo img {
     max-width: 145px !important;
   }
