@@ -1,0 +1,13 @@
+#home > div > div > section > div:nth-child(4) > div > div > div > div > h2 {
+    font-family: Hauss,sans-serif;
+
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(2) {
+width: 300px;
+font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(3) {
+font-family: Hauss,sans-serif;
+}
