@@ -7,15 +7,15 @@ import rulesTemplate from "./accordionTemplates/rulesOfReturn/rulesOfReturn.js";
 
 let DropDown = [
   {
-    buttonTitle: "Доставка",
+    buttonTitle: "1. Доставка",
     description: deliveryTemplate
   },
   {
-    buttonTitle: "Оплата",
+    buttonTitle: "2. Оплата",
     description: paymentTemplate
   },
   {
-    buttonTitle: "Оплата",
+    buttonTitle: "3. Правила обмена, возврата товара",
     description: rulesTemplate
   },
 ]
