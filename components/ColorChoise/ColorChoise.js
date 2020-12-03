@@ -1,4 +1,3 @@
-const colorChoiseLabel = document.querySelector('#product > div:nth-child(1) > label');
 const colors = [
   { color: 'Белый', hex: '#fff' },
   { color: 'Серый', hex: '#808080' },
@@ -16,25 +15,37 @@ const colors = [
   { color: 'Бирюзовый', hex: '#40E0D0' },
   { color: 'Салатовый', hex: '#00FF7F' },
 ];
+export default class ColorChoise {
+  constructor(data = colors) {
+    this.data = data;
+  }
 
-if (
-  document.querySelector('#product > .form-group') &&
-  colorChoiseLabel.textContent.toLowerCase() === 'цвет'
-) {
-  const colorChoiseContainer = document.querySelector('#product > div:nth-child(1)');
-  colorChoiseContainer.classList.add('color-choise');
-
-  const colorChoise = document.querySelector('.color-choise');
-  const colorLabel = colorChoise.querySelectorAll('.custom-control-label');
-
-  colors.forEach((el) => {
-    colorLabel.forEach((label) => {
-      if (el.color.toLowerCase() === label.textContent.toLowerCase()) {
-        label.style.backgroundColor = el.hex;
-      }
+  setColors(colorLabel) {
+    this.data.forEach((el) => {
+      colorLabel.forEach((label) => {
+        if (el.color.toLowerCase() === label.textContent.toLowerCase()) {
+          label.style.backgroundColor = el.hex;
+        }
+      });
     });
-  });
+  }
 
-  colorLabel.forEach((el) => (el.textContent = ''));
+  clearText(label) {
+    label.forEach((el) => (el.textContent = ''))
+  }
+
+  render() {
+    if (
+      document.querySelector('#product > .form-group') &&
+      colorChoiseLabel.textContent.toLowerCase() === 'цвет'
+    ) {
+      const colorChoiseContainer = document.querySelector('#product > div:nth-child(1)');
+      colorChoiseContainer.classList.add('color-choise');
+
+      const colorChoise = document.querySelector('.color-choise');
+      const colorLabel = colorChoise.querySelectorAll('.custom-control-label');
+      this.setColors(colorLabel);
+      this.clearText(colorLabel);
+    }
+  }
 }
-/* END RADIO CUSTOM */
