@@ -8,7 +8,7 @@ export default class NavTranslateTo {
     this.nav = document.querySelector('.navigation-wrapper .navigation');
   }
 
-  translate() {
+  transfer() {
     new CreateAddContainer(this.container, this.target, this.nav.outerHTML).render();
     this.wrapper.remove();
   }

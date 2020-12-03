@@ -27,5 +27,5 @@ if(document.querySelector('.wrapper')) {
 
   headerWidgets.insertAdjacentHTML('afterbegin', wishList);
 
-  new NavTransferTo(headerLogo, 'afterend').translate();
+  new NavTransferTo(headerLogo, 'afterend').transfer();
 }
