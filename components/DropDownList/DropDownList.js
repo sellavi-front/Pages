@@ -12,7 +12,7 @@ export default class DropDownList {
 
   setTemplate() {
     return `
-      <div class="accordion__container">
+      <div class="container-fluid">
          ${this.setData(this.data).join('')}
       </div>
     `
@@ -31,6 +31,20 @@ export default class DropDownList {
     })
   }
 
+  setClicker() {
+    document.querySelectorAll(".accordion").forEach(a => {
+      a.addEventListener("click", function() {
+        this.classList.toggle("active");
+        let panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    })
+  }
+
   render() {
     const createAddContainer = new CreateAddContainer(
       this.container,
@@ -38,6 +52,7 @@ export default class DropDownList {
       this.setTemplate(),
     )
     createAddContainer.render()
+    this.setClicker()
   }
 
 }
