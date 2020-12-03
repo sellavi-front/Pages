@@ -85,31 +85,3 @@ nav.navigation.closed.clearfix.nav.nav-closed {
 }
 
 
-
-/* fast fix */
-#home > div > header > div.header-wrapper > div.container > div.logo {
-    position: relative;
-    top: -40px;
-}
-
-#home > div > header > div.navigation-wrapper {
-    height: 60px;
-}
-
-#search {
-    position: absolute;
-    top: -30px !important;
-}
-
-#search > div.search_field > input {
-    border: 0px;
-}
-
-#home > div > div > section.page-section.titles {
-    background: #ff000000;
-    border: 0px
-}
-
-#home > div > header {
-    border-bottom: 0px;
-}
