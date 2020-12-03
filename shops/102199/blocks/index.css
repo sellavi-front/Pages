@@ -1,5 +1,4 @@
-@import '../../../fixes/fixes.css';
-@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
-@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../templates/TemplateTypeOne/style/index.css';
 
+@import '../../../fixes/fixes.css';
 @import './pay-delivery/pay-delivery.css';

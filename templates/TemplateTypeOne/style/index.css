@@ -1,0 +1,7 @@
+@import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
+
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import './banner/banner.css';
+@import './banner/caption.css';
