@@ -8,7 +8,15 @@ import dataAbout from './utils/aboutData.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import salesData from './utils/salesData.js';
 
+if (document.querySelector('.common-home')) {
+  const infoCardTypeOne = new InfoCardTypeOne(
+    document.querySelector('#home > div > div > section > div.container'),
+    'beforeEnd',
+    salesData,
+  );
 
+  infoCardTypeOne.render();
+}
 
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
 bigBanner.render()
@@ -39,18 +47,6 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Гралько Людмила Викторовна', media);
   req.setTemplate();
 }
-
-if (document.querySelector('.common-home')) {
-  const infoCardTypeOne = new InfoCardTypeOne(
-    document.querySelector('#home > div > div > section > div.container'),
-    'beforeEnd',
-    salesData,
-  );
-
-  infoCardTypeOne.render();
-}
-
-
 
 const oldNavBar = document.querySelector('#home > div > header > div.navigation-wrapper > div > nav');
 const newNavBar = oldNavBar.cloneNode(true);
