@@ -20,7 +20,7 @@ let DropDown = [
   },
 ]
 
-
+console.log(DropDown)
 
 let test = new DropDownList(DropDown)
 let container = test.render()
