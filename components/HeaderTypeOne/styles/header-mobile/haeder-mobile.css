@@ -74,3 +74,9 @@ body.sidenav-enabled.ltr .flexy>.arrow {
 .fa-caret-right:before {
   content: "\f054" !important;
 }
+
+@media (max-width: 991px) {
+  .header .header-search, .navigation, .header_widgets {
+    display: none !important;
+  }
+}
