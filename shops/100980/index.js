@@ -96,15 +96,15 @@ window.onload = () => {
     categories.render()
   }
 
-  if(window.location.pathname === /about-company/) {
+  if(window.location.pathname === '/about-company/') {
     renderAboutCompanyTemplate()
   }
 
-  if(window.location.pathname === /complex/) {
+  if(window.location.pathname === '/complex/') {
     renderComplexTemplate()
   }
 
-  if(window.location.pathname === /delivery/) {
+  if(window.location.href === 'https://store100980.sellavi.com/delivery/') {
     renderDeliveryTemplate()
   }
 
