@@ -73,3 +73,9 @@ body.common-home .product-item .thumbnail {
     height: auto !important;
   }
 }
+
+@media (min-width: 320px) {
+  .content-area .featured-products-carousel .product-item {
+    max-width: 350px !important;
+  }
+}
