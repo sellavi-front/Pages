@@ -18,7 +18,7 @@ let arr = [
 
 
 let test = new DropDownList(arr).render()
-console.log(test)
+console.log("Test: ", test)
 
 //document.querySelector('body').insertAdjacentHTML("afterbegin", test.outerHTML)
 
