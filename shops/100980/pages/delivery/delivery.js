@@ -22,8 +22,7 @@ let DropDown = [
 
 
 
-let test = new DropDownList(document.querySelector(".content-area"), "afterbegin", DropDown)
-test.render()
+let test = new DropDownList(DropDown)
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")

@@ -4,10 +4,10 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 
 export default class DropDownList {
 
-  constructor(container, target, data) {
+  constructor(/*container, target, */data) {
     this.data = data
-    this.target = target
-    this.container = container
+    /*this.target = target
+    this.container = container*/
   }
 
   setTemplate() {
@@ -46,12 +46,13 @@ export default class DropDownList {
   }
 
   render() {
-    const createAddContainer = new CreateAddContainer(
+    /*const createAddContainer = new CreateAddContainer(
       this.container,
       this.target,
       this.setTemplate(),
     )
-    createAddContainer.render()
+    createAddContainer.render()*/
+    this.setTemplate()
     this.setClicker()
   }
 
