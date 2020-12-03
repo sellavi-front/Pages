@@ -31,7 +31,7 @@ let information = document.querySelector(".page-section.color.information")
 
 
 let renderDeliveryTemplate = () => {
-  //contentOptimizer(test.render(), sectionTitles, information)
+  contentOptimizer(container, sectionTitles, information)
 }
 
 export default renderDeliveryTemplate
