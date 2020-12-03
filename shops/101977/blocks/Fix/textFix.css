@@ -35,3 +35,8 @@
     font-family: Hauss,sans-serif !important;
     font-weight: 900;
 }
+
+#home > div > div > section > div:nth-child(1) > h2 > span {
+    font-family: Hauss,sans-serif !important;
+    font-weight: 900;
+}
