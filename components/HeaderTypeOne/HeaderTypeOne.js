@@ -26,4 +26,4 @@ headerWidgets.remove();
 
 new CreateAddContainer(headerWidgets, 'beforeend', wishList).render();
 
-new NavTranslateTo(headerLogo, 'afterend').translate();
+new NavTransferTo(headerLogo, 'afterend').translate();
