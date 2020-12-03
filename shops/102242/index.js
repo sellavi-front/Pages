@@ -48,9 +48,9 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
-  const cart = document.querySelector('#cart > i');
-  cart.classList.add('far');
-  cart.classList.remove('fal');
+  const cartt = document.querySelector('#cart > i');
+  cartt.classList.add('far');
+  cartt.classList.remove('fal');
 
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
