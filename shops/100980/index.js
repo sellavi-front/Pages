@@ -150,8 +150,7 @@ document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML(
 let footerMenuLayout = `
   <div class="menu__footer">
       <a href="/about-company/">О компании</a>
-      <a href="/delivery/">Доставка</a>
-      <a href="#">Оплата и возврат</a>
+      <a href="/delivery/">Доставка, оплата и возврат</a>
       <a href="/complex/">Комплексное оснащение</a>
       <a href="#">Готовые решения</a>
       <a href="#">Контакты</a>
