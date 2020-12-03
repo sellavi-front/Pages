@@ -49,6 +49,9 @@
 .header-cart .cart-wrapper #cart,
 .header .header-search button {
   font-size: 16px;
+}
+
+.common-home .button__list_elem a, .common-home .header-cart .cart-wrapper #cart, .common-home .header .header-search button {
   color: white !important;
 }
 
