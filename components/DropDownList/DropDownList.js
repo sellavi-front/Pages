@@ -12,7 +12,6 @@ export default class DropDownList {
 
   setTemplate() {
     this.setData()
-    console.log("After Set Data: ", this.data)
     /*return `
       <div class="dropdown__list_container">
         ${this.setData(this.data)}
@@ -36,10 +35,10 @@ export default class DropDownList {
         </div>
       `
     })*/
-
+    console.log("Before set: ", this.data)
     return this.data.map(item => {
       `<div class="test">${item.buttonTitle}<br>${item.description}</div>`
-    })
+    }, console.log("After set: ", this.data))
   }
 
   render() {
