@@ -7,6 +7,7 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import dataAbout from './utils/aboutData.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import salesData from './utils/salesData.js';
+import payDeliver from './utils/pay-deliver.js';
 
 if (document.querySelector('.common-home')) {
   const infoCardTypeOne = new InfoCardTypeOne(
@@ -25,6 +26,12 @@ const imgNearText = new ImgNearText(
   document.querySelector('body>.wrapper>.content-area>.page-section'),
   'beforeEnd',
   dataAbout,
+);
+
+const imgNearText = new ImgNearText(
+  document.querySelector('.map-flex'),
+  'beforeEnd',
+  payDeliver,
 );
 
 imgNearText.render();
