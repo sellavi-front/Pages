@@ -31,3 +31,7 @@
 .info-card__container {
     justify-content: space-between;
 }
+
+.info-card__title {
+    width: 100%;
+}
