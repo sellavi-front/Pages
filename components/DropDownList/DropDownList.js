@@ -11,12 +11,12 @@ export default class DropDownList {
   }
 
   setTemplate() {
-
-    console.log(`
+    this.setData()
+    /*return `
       <div class="dropdown__list_container">
         ${this.setData(this.data)}
       </div>
-    `)
+    `*/
     /*`
       <div class="dropdown__list_container">
           ${this.setData(this.data).join('')}
@@ -25,7 +25,7 @@ export default class DropDownList {
   }
 
   setData() {
-    console.log(this.data.forEach(item => {
+    /*return this.data.forEach(item => {
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item.buttonTitle}</button>
@@ -34,8 +34,11 @@ export default class DropDownList {
             </div>
         </div>
       `
-    }))
+    })*/
 
+    return this.data.map(item => {
+      `<div class="test">${item.buttonTitle}<br>${item.description}</div>`
+    })
   }
 
   render() {
