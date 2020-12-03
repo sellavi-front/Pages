@@ -1,1 +1,3 @@
 @import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import './styles/cart/cart.css';
+@import './styles/search/search.css';
