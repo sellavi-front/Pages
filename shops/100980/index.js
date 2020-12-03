@@ -18,7 +18,7 @@ window.onload = () => {
 
   /*let navbar = `
         <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
-        <a class="navbar_item" href="#"><p>Доставка</p></a>
+        <a class="navbar_item" href="/delivery/"><p>Доставка</p></a>
         <a class="navbar_item" href="#"><p>Оплата и возврат</p></a>
         <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
         <a class="navbar_item" href="#"><p>Готовые решения</p></a>
@@ -143,7 +143,7 @@ window.onload = () => {
   let footerMenuLayout = `
     <div class="menu__footer">
         <a href="/about-company/">О компании</a>
-        <a href="#">Доставка</a>
+        <a href="/delivery/">Доставка</a>
         <a href="#">Оплата и возврат</a>
         <a href="/complex/">Комплексное оснащение</a>
         <a href="#">Готовые решения</a>
