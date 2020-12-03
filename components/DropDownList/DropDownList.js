@@ -11,9 +11,10 @@ export default class DropDownList {
   }
 
   setTemplate() {
+
     return `
       <div class="dropdown__list_container">
-        ${this.setData(this.data).join('')}
+        ${this.setData(this.data)}
       </div>
     `
     /*`
