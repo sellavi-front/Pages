@@ -2,32 +2,31 @@
 // import requsites from './utils/requsites.js'
 
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import '../../components/PictureCategories/PictureCategories.js'
+import '../../components/PictureCategories/PictureCategories.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
-import FormBasic from '../../components/FormBasic/FormBasic.js'
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
-import ColorChoise from '../../components/ColorChoise/ColorChoise.js'
+import FormBasic from '../../components/FormBasic/FormBasic.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import {bannerContent} from './constants/constants.js';
+import { bannerContent } from './constants/constants.js';
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import salesData from './utils/salesData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
 
-const cart = document.querySelector("#cart > i");
-cart.classList.add('far');
-cart.classList.remove('fal');
-
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
   const logo = document.querySelector('.logo img');
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1606990377/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/Group_1_5_yvhzbg.png');
+  logo.setAttribute(
+    'src',
+    'https://res.cloudinary.com/gz-company/image/upload/v1606990377/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/Group_1_5_yvhzbg.png',
+  );
   /** VIDEO BANNER **/
   const cstmBanner = document.querySelector('.custom_banner');
   const videoBanner = new VideoBanner(cstmBanner, 'beforeend', bannerContent);
@@ -35,25 +34,23 @@ if (document.querySelector('.common-home')) {
   /** END VIDEO BANNER **/
 
   // Sales
-  const infoCardTypeOne = new InfoCardTypeOne(
-    sctmSection,
-    'beforeEnd',
-    salesData,
-  );
+  const infoCardTypeOne = new InfoCardTypeOne(sctmSection, 'beforeEnd', salesData);
   infoCardTypeOne.render();
 
   const advantagesCard = new InfoCardTypeOne(
     sctmSection,
     'beforeEnd',
     advantagesData,
-    'Преимущества'
+    'Преимущества',
   );
   advantagesCard.render();
   // End sales
 }
 
 if (document.querySelector('.wrapper')) {
-  const container = document.querySelectorAll('.container');
+  const cart = document.querySelector('#cart > i');
+  cart.classList.add('far');
+  cart.classList.remove('fal');
 
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
@@ -64,7 +61,7 @@ if (document.querySelector('.wrapper')) {
 
   // remove cart text
   const cart = document.querySelector('#cart');
-  cart.querySelector('span').remove()
+  cart.querySelector('span').remove();
   // end remove cart text
 
   // transfer navigation
@@ -76,10 +73,10 @@ if (document.querySelector('.wrapper')) {
   // end transfer navigation
 
   const footerCols = document.querySelectorAll('.footer-widgets > div > div > div');
-  footerCols.forEach(col => {
+  footerCols.forEach((col) => {
     col.classList.add('coll');
     col.classList.remove('col-md-3');
-  })
+  });
 
   const footerWidgets = document.querySelector('.footer-widgets');
   const social = new SocialIconsTypeOne(footerWidgets, 'beforeend');
@@ -92,13 +89,15 @@ if (document.querySelector('.product-product')) {
   document.querySelector('.table_holder').remove();
   document.querySelector('.share_page_wrapper').remove();
 
-  const lastSection = document.querySelector("#home > div > div.content-area > section.page-section.overflow-hidden");
+  const lastSection = document.querySelector(
+    '#home > div > div.content-area > section.page-section.overflow-hidden',
+  );
 
-  const sender = new FormBasic(lastSection, 'beforeend', senderData)
+  const sender = new FormBasic(lastSection, 'beforeend', senderData);
   sender.render();
 
   const colorChoise = new ColorChoise();
-  colorChoise.render()
+  colorChoise.render();
 }
 
 // if (location.href.includes('term-of-use')) {
