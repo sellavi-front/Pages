@@ -172,4 +172,9 @@
         display: flex;
         flex-direction: column;
     }
+
+    #home > div > div > section > div.map-flex > div > iframe {
+        width: 100%;
+        height: 300px;
+    }
 }
