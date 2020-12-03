@@ -68,6 +68,11 @@ body.common-home .product-item .thumbnail {
   object-fit: cover;
 }
 
+.featured-products .thumbnail,
+.featured-products-carousel .thumbnail {
+  margin: 0 !important;
+}
+
 @media (max-width: 995px) {
   .product-item .thumbnail .media-link, .latest-section .product-layout .thumbnail .media {
     height: auto !important;
