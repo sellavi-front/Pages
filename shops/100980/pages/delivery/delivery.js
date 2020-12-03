@@ -34,15 +34,15 @@ let mainTemplate = `
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
 
-let innerPage = document.querySelector(".inner-page")
-let dropDownListContainer = new DropDownList(innerPage, "beforeend", DropDown)
+let innerPage = document.querySelector("#home > div > div.content-area > div")
+
 
 
 let renderDeliveryTemplate = () => {
   contentOptimizer(mainTemplate, sectionTitles, information)
-  setTimeout(function() {
-    dropDownListContainer.render()
-  }, 1000)
+
+  let dropDownListContainer = new DropDownList(innerPage, "beforeend", DropDown)
+  dropDownListContainer.render()
 }
 
 export default renderDeliveryTemplate
