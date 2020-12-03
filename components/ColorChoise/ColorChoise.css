@@ -23,7 +23,7 @@
   margin-bottom: 0;
 }
 
-#product .form-group:first-child label {
+#product > div.form-group.col-sm-6.selectpicker-wrapper.required.option-group.color-choise > label {
   display: none;
 }
 
