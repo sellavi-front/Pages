@@ -1,0 +1,194 @@
+.inner-page {
+  width: 100%;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.bread__crumbs_container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.bread__crumbs_container a {
+  margin-right: 1%;
+  display: flex;
+}
+
+.bread__crumbs_container .active__page {
+  color: #c3c3c3;
+  margin-left: 1%;
+}
+
+.about__company_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.about__company_container h1,
+.complex__block h1 {
+  margin-top: 1%;
+  font-weight: 900;
+  margin-bottom: 1%;
+}
+
+.about__company_container img {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.complex__block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-top: 2%;
+}
+
+/*.step__item img {
+  position: absolute;
+  top: 30%;
+}*/
+
+.step__item h6 {
+  margin-top: 25%;
+  font-weight: 900;
+}
+
+.complex__block p {
+  margin-bottom: 5%;
+}
+
+
+.steps__block_container {
+  display: flex;
+  width: 100%;
+}
+
+.steps__block_item {
+  display: flex;
+  width: 343px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #c3c3c3;
+  margin: 0 1% 1% 0;
+}
+
+.step__item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.description__block {
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.form__container {
+  display: flex;
+  width: 100%;
+  height: 857px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/rostislavsellavi/image/upload/v1606822722/clifford-VobvKmG-StA-unsplash_1_dv984j.png") no-repeat center/cover;
+}
+
+.form__container_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form__container_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+
+.form__container_text h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  width: 70%;
+  margin-top: 5%;
+}
+
+.form__container_text p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  width: 80%;
+}
+
+.complex__submit__form {
+  width: 590px;
+  height: 550px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+
+.complex_submit__form__input {
+  width: 462px;
+  height: 68px;
+  background: rgba(243, 243, 243, 0.2);
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.complex_submit__form__input:not(:first-child) {
+  margin-top: 15px;
+}
+
+.complex_submit__form__input {
+  color: #fff;
+}
+
+.complex_submit__form__input::placeholder {
+  color: #fff !important;
+  font-weight: 100;
+}
+
+.complex_submit__form__input:focus {
+  outline: 0;
+}
+
+.complex_submit__form__input[type=text],
+.complex_submit__form__input[type=number] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.complex__submit__form__btn {
+  background: #BF3417;
+  border-radius: 15px;
+  color: #fff;
+  padding: 15px;
+  width: 374px;
+  border: 0;
+  font-weight: 900;
+  margin-top: 2%;
+}

@@ -18,18 +18,18 @@ class Connection {
         echo $result;
     }
 
-  public static function getProducts($apiURL, $secret, $limit, $pageNumber){
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-      'accept: application/json',
-      'x-token: ' . $secret
-    ));
-    curl_setopt($ch, CURLOPT_URL, $apiURL . $limit . '/' . $pageNumber);
-    $result = curl_exec($ch);
-    curl_close($ch);
-    echo $result;
-  }
+    public static function getProducts($apiURL, $secret, $limit, $pageNumber){
+      $ch = curl_init();
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+      curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'accept: application/json',
+        'x-token: ' . $secret
+      ));
+      curl_setopt($ch, CURLOPT_URL, $apiURL . $limit . '/' . $pageNumber);
+      $result = curl_exec($ch);
+      curl_close($ch);
+      echo $result;
+    }
 }
 
 ?>
