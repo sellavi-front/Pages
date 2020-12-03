@@ -18,6 +18,7 @@ const colors = [
 export default class ColorChoise {
   constructor(data = colors) {
     this.data = data;
+    this.colorChoiseLabel = document.querySelector('#product > div:nth-child(1) > label');
   }
 
   setColors(colorLabel) {
@@ -37,7 +38,7 @@ export default class ColorChoise {
   render() {
     if (
       document.querySelector('#product > .form-group') &&
-      colorChoiseLabel.textContent.toLowerCase() === 'цвет'
+      this.colorChoiseLabel.textContent.toLowerCase() === 'цвет'
     ) {
       const colorChoiseContainer = document.querySelector('#product > div:nth-child(1)');
       colorChoiseContainer.classList.add('color-choise');
