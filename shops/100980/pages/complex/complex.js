@@ -17,9 +17,9 @@ let arr = [
 
 
 
-let test = new DropDownList(arr)
-let test2 = test.render()
-console.log(test2)
+let test = new DropDownList(arr).render()
+console.log(test)
+
 //document.querySelector('body').insertAdjacentHTML("afterbegin", test.outerHTML)
 
 let complexTemplate = `
