@@ -14,6 +14,10 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   top: 130px;
 }
 
+body.sidenav-enabled .mobile_side_nav {
+  width: 50% !important;
+}
+
 body.sidenav-enabled .mobile_side_nav > ul a {
   border: none;
   text-align: end;
