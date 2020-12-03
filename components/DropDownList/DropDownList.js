@@ -24,7 +24,7 @@ export default class DropDownList {
   }
 
   setData() {
-    let test = this.data.map(item => {
+    return this.data.forEach(item => {
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item.buttonTitle}</button>
@@ -33,11 +33,9 @@ export default class DropDownList {
             </div>
         </div>
       `
-
-      setTimeout(function () {
-        console.log("Test: ", test)
-      }, 1000)
+      console.log(this.data)
     })
+
   }
 
   render() {
