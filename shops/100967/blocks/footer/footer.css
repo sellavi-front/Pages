@@ -15,6 +15,13 @@
   background: transparent !important;
 }
 
+.phh p {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgba(100,100,100,.5);
+  text-align: center;
+}
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;

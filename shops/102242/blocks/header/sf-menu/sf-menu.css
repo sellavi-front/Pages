@@ -1,0 +1,22 @@
+.common-home .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+.common-home
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']
+  > a {
+    color: white !important;
+}
+
+.common-home .sf-menu a {
+  color: white !important;
+  font-size: 18px !important;
+}
+
+@media (max-width: 991px) {
+  .header-wrapper .navigation {
+    display: none;
+  }
+}

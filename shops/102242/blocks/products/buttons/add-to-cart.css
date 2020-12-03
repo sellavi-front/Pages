@@ -1,0 +1,22 @@
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  background-color: #c5a995;
+  color: #fff;
+  max-width: 240px;
+  border: none;
+  display: block !important
+}
+
+.product-product .product-single .buttons .btn-cart i {
+  display: none !important;
+}
+
+.thubnail .add_to_cart {
+  display: none !important;
+}
+
+
+@media (max-width: 576px) {
+  body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+@import './title.css';
+@import './card.css';
+@import './buttons/bth-whishlist.css';
+@import './buttons/button-container.css';
+@import './buttons/buttons.css';
+@import './page/product-page.css';
+@import './page/reviews.css';
+@import './buttons/add-to-cart.css';
+
+.products:not(.featured-products-carousel),
+.featured-products:not(.featured-products-carousel) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.products {
+  justify-content: center !important;
+}
+
+.fa-stack {
+  width: 20px !important;
+}

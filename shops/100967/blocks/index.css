@@ -1,3 +1,5 @@
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
 @import '../assets/fonts/fonts.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components/AdvantagesTypeOne/AdvantagesTypeOne.css';
@@ -15,7 +17,7 @@
 @import './history/history.css';
 @import './footer/footer.css';
 @import './side-categories/side-categories.css';
-
+@import './header/custom__text.css';
 @import './container.css';
 
 body h1,

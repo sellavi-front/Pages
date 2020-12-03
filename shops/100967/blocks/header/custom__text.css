@@ -1,0 +1,10 @@
+.custom__text {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.custom__text_ph {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+}

@@ -1,0 +1,16 @@
+.navigation-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+
+.navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+body.theme_11.ltr
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']
+  > a {
+    border: none !important;
+  }

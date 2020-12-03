@@ -1,0 +1,45 @@
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../fixes/fixes.css';
+
+@import '../../../components/VideoBanner/VideoBanner.css';
+
+@import './pay-delivery/pay-delivery.css';
+@import './header/header.css';
+@import './container.css';
+@import './caption-title/caption-title.css';
+@import './banner/banner-caption.css';
+@import './products/products.css';
+@import './info-card/info-card.css';
+@import './footer/footer.css';
+@import './soc-icons/soc-icons.css';
+@import './drop-down-cart/dropdown-cart.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
+@import '../../../components/FormBasic/FormBasic.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: #887568 !important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span, body b, body strong {
+  text-transform: none;
+}
