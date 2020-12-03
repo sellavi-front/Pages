@@ -1,6 +1,6 @@
 .info-card__bottom_text {
     display: flex;
-    flex-direction: column
+    flex-direction: column !important;
 }
 
 .info-card__item_img {
