@@ -1,14 +1,19 @@
 .main-slider .caption-content {
   text-align: left !important;
+  margin: 0 0 0 47% !important;
 }
 
 .main-slider .caption-subtitle {
   text-transform: none !important;
 }
 
+.caption-subtitle > span > span {
+  font-size: 78px;
+}
+
 .caption-text .btn-theme {
   background: linear-gradient(92.24deg, #7FADF4 -1.13%, #1271FD 99.7%) !important;
   border: none;
-  font-weight: 100;
-  text-transform: capitalize;
+  font-weight: 100 !important;
+  text-transform: capitalize !important;
 }
