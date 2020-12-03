@@ -17,13 +17,15 @@ const wishList = `
   </div>
 `;
 
-const cart = document.querySelector("#cart > i");
-cart.classList.add('far');
-cart.classList.remove('fal');
-console.log(headerWidgets);
-new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
-headerWidgets.remove();
+if(document.querySelector('.wrapper')) {
+  const cart = document.querySelector("#cart > i");
+  cart.classList.add('far');
+  cart.classList.remove('fal');
 
-headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+  new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
+  headerWidgets.remove();
 
-new NavTransferTo(headerLogo, 'afterend').translate();
+  headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+
+  new NavTransferTo(headerLogo, 'afterend').translate();
+}
