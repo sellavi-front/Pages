@@ -17,6 +17,10 @@ import salesData from './utils/salesData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
 
+const cart = document.querySelector("#cart > i");
+cart.classList.add('far');
+cart.classList.remove('fal');
+
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
   const logo = document.querySelector('.logo img');
