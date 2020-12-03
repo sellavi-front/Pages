@@ -40,7 +40,9 @@ let dropDownListContainer = new DropDownList(innerPage, "beforeend", DropDown)
 
 let renderDeliveryTemplate = () => {
   contentOptimizer(mainTemplate, sectionTitles, information)
-  dropDownListContainer.render()
+  setTimeout(function() {
+    dropDownListContainer.render()
+  }, 1000)
 }
 
 export default renderDeliveryTemplate
