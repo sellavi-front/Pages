@@ -16,6 +16,7 @@
 
 .info-card__title {
     border-bottom: 0px solid black;
+    font-weight: 900;
 }
 
 .info-card {
