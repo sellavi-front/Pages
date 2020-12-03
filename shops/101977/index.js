@@ -35,7 +35,7 @@ const imgNearText2 = new ImgNearText(
 );
 
 imgNearText.render();
-imgNearText2.render();
+// imgNearText2.render();
 
 const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
