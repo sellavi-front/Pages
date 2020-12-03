@@ -25,7 +25,7 @@ export default class DropDownList {
   }
 
   setData() {
-    return this.data.forEach(item => {
+    console.log(this.data.forEach(item => {
       `
         <div class="dropdown__list_item">
             <button class="accordion">${item.buttonTitle}</button>
@@ -34,8 +34,7 @@ export default class DropDownList {
             </div>
         </div>
       `
-      console.log(this.data)
-    })
+    }))
 
   }
 
