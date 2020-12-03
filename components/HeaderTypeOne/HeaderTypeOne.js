@@ -9,7 +9,7 @@ const wishList = `
     <a
       id="wishlist"
       class="position-relative"
-      href="https://${host}/index.php?route=account/wishlist"
+      href="https://${location.host}/index.php?route=account/wishlist"
       role="link"
     >
       <i class="far fa-heart"></i>
