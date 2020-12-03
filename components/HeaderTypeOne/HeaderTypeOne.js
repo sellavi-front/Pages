@@ -24,6 +24,6 @@ console.log(headerWidgets);
 new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
 headerWidgets.remove();
 
-new CreateAddContainer(headerWidgets, 'beforeend', wishList).render();
+headerWidgets.insertAdjacentHTML('afterbegin', wishList);
 
 new NavTransferTo(headerLogo, 'afterend').translate();
