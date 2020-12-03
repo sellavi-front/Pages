@@ -1,8 +1,9 @@
-import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
-import imgArr from "./utils/images.js";
-import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js";
-import renderComplexTemplate from "./pages/complex/complex.js";
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
+import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
+import imgArr from "./utils/images.js"
+import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js"
+import renderComplexTemplate from "./pages/complex/complex.js"
+import renderDeliveryTemplate from "./pages/delivery/delivery.js"
 
 window.onload = () => {
   /* Deleting burger */
@@ -93,24 +94,6 @@ window.onload = () => {
 
     let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
     categories.render()
-    //let categoriesLayout = categories.render()
-    //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
-
-
-   //let categoriesLayout = categories
-    //console.log(categoriesLayout)
-    /*`
-      <div class="categories__container">
-        ${categories.forEach(
-          category => {
-            `<div class="categories__container__item">
-                <h4><a href="${category.link}">${category.name}</a></h4>
-             </div>
-            `
-          })
-        }
-      </div>
-    `*/
   }
 
   if(location.pathname === '/about-company/') {
@@ -121,15 +104,16 @@ window.onload = () => {
     renderComplexTemplate()
   }
 
+  if(location.pathname === '/delivery/') {
+    renderDeliveryTemplate()
+  }
+
 
 
   /* Delete footer content */
   document.querySelector(".footer>.footer-widgets>.container>.row").remove()
 
   /* Copy footer-meta */
-  //let oldFooterMeta = document.querySelector(".footer>.footer-meta")
-  //let newFooterMeta = oldFooterMeta.cloneNode(true)
-  //document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", newFooterMeta.outerHTML)
 
   let footerLayout = `
     <div class="footer__container">
