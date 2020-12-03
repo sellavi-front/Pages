@@ -11,3 +11,10 @@
 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
   padding: 0 !important;
 }
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper,
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart,
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+  display: flex;
+  align-items: center;
+}
