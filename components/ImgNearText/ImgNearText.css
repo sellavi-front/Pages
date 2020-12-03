@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.about__item-container {
+  max-width: 40%;
+}
+
 .about__item_img {
   max-width: 580px;
   width: 100%;
