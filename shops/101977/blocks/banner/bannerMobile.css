@@ -55,7 +55,7 @@
         width: 100px;
     }
 
-    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__image {
+    /* #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__image {
         background:linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 86%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png) !important;
         background-size: contain !important;
         background-repeat: no-repeat !important;
@@ -63,7 +63,7 @@
         top: 50px !important;
         width: 500px !important;
         background-position-x: -100px !important;
-    }
+    } */
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 {
         background: transparent;
@@ -168,4 +168,8 @@
         background-position-x: -100px !important;
     }
 
+    #home > div > div > section > div.map-flex > div {
+        display: flex;
+        flex-direction: column;
+    }
 }
