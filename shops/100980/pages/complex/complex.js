@@ -7,18 +7,18 @@ let information = document.querySelector(".page-section.color.information")
 let arr = [
   {
     buttonTitle: "Test 1",
-    description: `<div class='description'>Hello</div>`
+    description: "Hello"
   },
   {
     buttonTitle: "Test 2",
-    description: `<div class='description'>World</div>`
+    description: "World"
   },
 ]
 
 
 
 let test = new DropDownList(arr).render()
-console.log("Test: ", test)
+
 
 //document.querySelector('body').insertAdjacentHTML("afterbegin", test.outerHTML)
 
