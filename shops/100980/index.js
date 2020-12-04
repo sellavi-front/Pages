@@ -32,11 +32,9 @@ hideCart.remove();
 let navbar = `
     <div class="navbar__block">
       <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
-      <a class="navbar_item" href="/delivery/"><p>Доставка</p></a>
-      <a class="navbar_item" href="#"><p>Оплата и возврат</p></a>
+      <a class="navbar_item" href="/delivery/"><p>Доставка, оплата и возврат</p></a>
       <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
       <a class="navbar_item" href="#"><p>Готовые решения</p></a>
-      <a class="navbar_item" href="#"><p>Контакты</p></a>
     </div>
 
 `
