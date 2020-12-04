@@ -13,7 +13,7 @@
     right: 5%;
   }
 
-  soc-icons__container {
+  .soc-icons__container {
     justify-content: flex-end !important;
   }
 }
