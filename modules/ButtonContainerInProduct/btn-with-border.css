@@ -52,6 +52,13 @@ body .section-title {
   height: 100% !important;
 }
 
+.thumbnail .price_actions .add_to_cart button {
+  height: 100%;
+  padding: 5% 25%;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
 /* h2.section-title > span::after {
   content: ' ';
   display: flex;
