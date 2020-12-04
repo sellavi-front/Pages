@@ -1,7 +1,7 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import NavTransferTo from '../../modules/NavTransferTo/NavTransferTo.js';
 
-const headerWidgets = document.querySelector('.header_widgets');
+const headerWidgets = !document.querySelector('.header_widgets') ? document.querySelector('.header_widgets') : null;
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLogo = document.querySelector('.header-wrapper .logo');
 const wishList = `
@@ -25,7 +25,7 @@ if(document.querySelector('.wrapper')) {
   new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
   headerWidgets.remove();
 
-  headerWidgets.insertAdjacentHTML('afterbegin', `wishList`);
+  headerWidgets.insertAdjacentHTML('afterbegin', wishList);
 
   new NavTransferTo(headerLogo, 'afterend').transfer();
 }
