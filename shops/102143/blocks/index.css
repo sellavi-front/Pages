@@ -61,11 +61,12 @@ body strong {
 
 
 .common-home .content-area .page-section {
-  margin-top: 5% !important;
+  margin-top: 50px !important;
 }
 
 .common-home .section-title {
   margin-bottom: 50px !important;
+  margin-top: 0 !important;
 }
 
 .custom_section {

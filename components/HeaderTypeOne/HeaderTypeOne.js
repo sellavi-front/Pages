@@ -18,9 +18,10 @@ const wishList = `
 `;
 
 if (document.querySelector('.wrapper')) {
-  const cart = document.querySelector('#cart > i');
-  cart.classList.add('far');
-  cart.classList.remove('fal');
+  const cart = document.querySelector('#cart');
+
+  cart.querySelector('i').classList.add('far');
+  cart.cart.querySelector('i').classList.remove('fal');
 
   if (headerWidgets) {
     new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
@@ -28,7 +29,9 @@ if (document.querySelector('.wrapper')) {
 
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
-    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}</div>`);
+
+    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart}</div>`);
+    cart.remove();
   }
 
   new NavTransferTo(headerLogo, 'afterend').transfer();
