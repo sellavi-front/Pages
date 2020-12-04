@@ -43,8 +43,8 @@ p.st1 {
     font-size: 12px;
 }
 
-@media (max-device-width: 480) {
-    #home > div > div > section > div:nth-child(1) > div.info-card > div > div {
+@media (max-device-width:480px) {
+    .info-card__container {
         flex-direction: column;
     }
     
