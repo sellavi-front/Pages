@@ -32,7 +32,8 @@
   border: none;
 }
 
-.header .header-search .form-control::placeholder {
+.header .header-search .form-control::placeholder,
+.sf-menu.nav>li>a {
   color: snow !important;
 }
 
