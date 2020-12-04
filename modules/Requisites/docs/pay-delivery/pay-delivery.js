@@ -128,4 +128,4 @@ const payDelivery = (obj) => `
   MasterCard Europe Sprl, JCB.
 </p>`;
 
-export default template;
+export default payDelivery;
