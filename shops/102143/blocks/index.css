@@ -59,7 +59,6 @@ body strong {
   display: none !important;
 }
 
-
 .common-home .content-area .page-section {
   margin-top: 50px !important;
 }
@@ -67,8 +66,6 @@ body strong {
 .common-home .section-title {
   margin-bottom: 50px !important;
   margin-top: 0 !important;
-  width: 800px;
-  margin: 0 auto;
 }
 
 .custom_section {
@@ -82,4 +79,12 @@ body strong {
 .header .header-search button,
 .header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
+}
+
+@media (max-width: 1595px) {
+  .common-home .section-title {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
