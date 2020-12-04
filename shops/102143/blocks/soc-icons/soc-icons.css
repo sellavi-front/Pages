@@ -3,3 +3,7 @@
   bottom: 10%;
   right: 5%;
 }
+
+.soc-icons__container {
+  justify-content: flex-end;
+}
