@@ -72,7 +72,7 @@ if (document.querySelector('.wrapper')) {
     email: '1981market@mail.ru',
   };
 
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
+  //const buttonsInHeader = new ButtonListInHeader(headerWrapper);
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
@@ -92,13 +92,13 @@ if (document.querySelector('.wrapper')) {
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
   deleteClassesFooter.findAndDelete();
-  buttonsInHeader.setTemplate(headerWrapper);
+  //buttonsInHeader.setTemplate(headerWrapper);
   contactsSimple.render();
   deleteElements.remove();
 
   //
 //  document.querySelector('.sidenav_search').remove();
-  document.querySelector('header .header-wrapper > div .header-cart').remove();
+  //document.querySelector('header .header-wrapper > div .header-cart').remove();
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
 
