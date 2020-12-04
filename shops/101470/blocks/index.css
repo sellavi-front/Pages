@@ -40,3 +40,7 @@ body b {
 body.ltr ul {
   margin: 0 !important;
 }
+
+#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper {
+  justify-content: center !important
+}
