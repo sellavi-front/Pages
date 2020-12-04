@@ -88,9 +88,9 @@ if (location.pathname !== '/') {
   document.querySelector('body .content-area .page-section.titles').style.cssText = 'background: #ff000000; border: 0px;';
   document.querySelector('#home > div > div > section.page-section.titles > div > div > h1').style.cssText = 'font-size: 25px; font-weight: 900;';
   document.querySelector('#search > div.search_field > input ').style.cssText = 'border: none; background: #ff000000;';
-  document.querySelector('.fa-search:before').style.cssText = 'color: black;';
+  document.querySelector('#search > button > i').style.cssText = 'color: black;';
   document.querySelector('#search > button').style.cssText = 'position: absolute; z-index: 999;';
-  document.querySelector('.fa-shopping-cart:before').style.cssText = 'color: black;';
+  document.querySelector('#cart > i').style.cssText = 'color: black;';
   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').style.cssText = 'display: flex; justify-content: center; align-self: center;';
 
 }
