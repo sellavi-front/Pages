@@ -1,6 +1,6 @@
 .footer {
   background: #204043 !important;
-  border: none;
+  border: none !important;
 }
 
 body .footer .footer-meta {
@@ -10,3 +10,4 @@ body .footer .footer-meta {
 body .footer .footer-widgets {
   padding: 20px 0 !important;
 }
+
