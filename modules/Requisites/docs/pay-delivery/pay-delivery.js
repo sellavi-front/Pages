@@ -1,4 +1,5 @@
-const payDelivery = (obj) => `
+const payDelivery = (obj) => {
+  return `
 <div class="d-flex content-delivery">
   <section class="delivery__right">
     <h2 class="delivery__right-title">Самовывоз</h2>
@@ -127,5 +128,6 @@ const payDelivery = (obj) => `
   картам осуществляется в строгом соответствии с требованиями платёжных систем МИР, Visa Int.,
   MasterCard Europe Sprl, JCB.
 </p>`;
+};
 
 export default payDelivery;
