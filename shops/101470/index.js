@@ -195,5 +195,3 @@ if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://
 }
 
 document.querySelector('a.btn').innerText = 'К ТОВАРАМ';
-
-document.querySelector('#home > div > header > div.header-wrapper > div.container-fluid > ul:nth-child(3)').remove();
