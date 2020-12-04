@@ -1,3 +1,45 @@
-.header .header-wrapper:not(.common-home .header .header-wrapper) {
-  background: #204043 !important;
+.common-home .header {
+  background: transparent !important;
+}
+
+.header {
+  background: url(https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 20px 0;
+}
+
+.button__list_elem a,
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: white !important;
+}
+
+.header .header-search {
+  left: -70px;
+}
+
+.header-cart .cart-wrapper #cart i {
+  font-size: 21px !important;
+}
+
+.header .header-search .form-control {
+  border-radius: 0;
+  border-bottom: 1px solid white !important;
+  color: #737475;
+  background: transparent;
+  border: none;
+}
+
+.header .header-search .form-control::placeholder {
+  color: snow !important;
+}
+
+.logo img {
+  width:  100% !important;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+  }
 }

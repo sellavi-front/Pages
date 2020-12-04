@@ -6,6 +6,7 @@
 @import './page/product-page.css';
 @import './page/reviews.css';
 @import './buttons/add-to-cart.css';
+@import './page/registration.css';
 
 .products:not(.featured-products-carousel),
 .featured-products:not(.featured-products-carousel) {
@@ -23,4 +24,15 @@
 
 .fa-stack {
   width: 20px !important;
+}
+
+.shop-sorting {
+  display: none !important;
+}
+
+@media (max-width: 995px) {
+  .products:not(.featured-products-carousel),
+  .featured-products:not(.featured-products-carousel) {
+    grid-template-columns: repeat(auto-fit, 400px);
+  }
 }

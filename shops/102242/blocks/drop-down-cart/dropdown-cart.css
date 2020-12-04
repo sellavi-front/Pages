@@ -5,6 +5,7 @@ body.theme-gray.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .ca
 body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
   background: #C5A995 !important;
   color: white !important;
+  border-color: #C5A995 !important;
 }
 
 
@@ -12,4 +13,8 @@ body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .c
   background: #F5F3F3 !important;
   color: black !important;
   border: none !important;
+}
+
+body.theme_11.checkout-cart .content-area .page-section .checkout_cart_inner .cart_product {
+  width:  100% !important;
 }

@@ -14,13 +14,23 @@
 // <div class="requsitess"></dvi> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
 
 import termsOfUse from './docs/termsOfuse.js';
+import policy from './docs/policy.js';
+import payDelivery from './docs/pay-delivery/pay-delivery.js'
+
 export default class Requisites {
-  constructor(obj, target, nameOrg = 'Общество с ограниченой ответственность Альтаир', container = document.querySelector('.requsitess')) {
+  constructor(
+    obj,
+    target,
+    nameOrg = 'Общество с ограниченой ответственность Альтаир',
+    container = document.querySelector('.requsitess'),
+    payDeliveryIfo = {},
+  ) {
     this.obj = obj;
     this.target = target;
     this.container = container;
     this.arr = [];
     this.nameOrg = nameOrg;
+    this.payDeliveryIfo = payDeliveryIfo;
   }
 
   setItemtemplate(content) {
@@ -60,6 +70,10 @@ export default class Requisites {
       );
 
       this.container.insertAdjacentHTML('afterbegin', termsOfUse(this.nameOrg));
+    } else if (this.container.classList.contains('col-md-12')) {
+      this.container.insertAdjacentHTML(this.target, policy);
+    } else if (this.container.classList.contains('col-md-12')) {
+      this.container.insertAdjacentHTML(this.target, payDelivery(this.payDeliveryIfo));
     }
   }
 }

@@ -1,6 +1,8 @@
 export default class TranslateAboutUs {
   constructor() {
-    this.widget = document.querySelector("footer>.footer-widgets>.container>.row>div:nth-child(1)>.widget");
+    this.widget = document.querySelector(
+      'footer>.footer-widgets>.container>.row>div:nth-child(1)>.widget',
+    );
     this.widTitle = this.widget.querySelector('.widget-title');
     this.widCat = this.widget.querySelector('.widget-categories>ul>li:first-child>a');
     this.textTrans = 'About us ';
@@ -15,6 +17,8 @@ export default class TranslateAboutUs {
   }
 }
 
-const Translate = new TranslateAboutUs();
+if (!location.href.includes('checkout')) {
+  const Translate = new TranslateAboutUs();
 
-Translate.translate();
+  Translate.translate();
+}

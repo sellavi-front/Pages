@@ -3,3 +3,7 @@ body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail
 body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   text-align: center !important;
 }
+
+.section-title span, .title {
+  border-color: lightgray !important;
+}

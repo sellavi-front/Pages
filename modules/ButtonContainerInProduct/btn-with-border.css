@@ -20,15 +20,15 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   font-size: 20px;
 }
 
-
-.section-title span, .title {
+.section-title span,
+.title {
   font-weight: 600 !important;
   font-size: 36px !important;
   line-height: 43px !important;
   text-align: left !important;
   border-bottom: 3px solid black;
   text-align: left;
-  border-bottom: 5px solid linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
+  border-bottom: 5px solid linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   text-transform: none;
 }
 
@@ -50,6 +50,13 @@ h2.section-title > span::after {
   content: ' ';
   display: flex;
   height: 5px;
-  background: linear-gradient(90.02deg, #90744C 0%, #D7BCA1 99.99%);
+  background: linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   width: 100%;
+}
+
+@media (max-width: 352px) {
+  .thumbnail .add_to_wishlist button {
+    padding: 12% 25% !important;
+    height: auto !important;
+  }
 }

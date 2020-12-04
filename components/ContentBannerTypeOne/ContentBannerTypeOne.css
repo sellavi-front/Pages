@@ -64,3 +64,10 @@
 .banner-content__item_button span {
   color: white;
 }
+
+
+@media (max-width: 495px) {
+  .banner-content__item_title {
+    font-size: 26px !important;
+  }
+}
