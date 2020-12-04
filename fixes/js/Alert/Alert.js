@@ -6,6 +6,7 @@ if (document.querySelector('.common-home')) {
   console.log(banner);
 
   btns.forEach((btn) => {
+    console.log(btn)
     btn.addEventListener('click', () => {
       console.log(document.querySelector('.alert'));
       banner.insertAdjacentHTML('afterend', document.querySelector('.alert'));
