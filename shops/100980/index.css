@@ -225,9 +225,9 @@ body.ltr ol, body.ltr ul {
   padding-right: unset;
 }
 
-.navigation-wrapper {
+/*.navigation-wrapper {
   display: none;
-}
+}*/
 
 body.theme-red-2 .header {
   border-bottom: 0;
