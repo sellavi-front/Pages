@@ -1,4 +1,5 @@
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 if (!location.href.includes('checkout')) {
   import '../../fixes/js/FooterCopy/FooterCopy.js';
