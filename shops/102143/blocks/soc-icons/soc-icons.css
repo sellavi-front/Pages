@@ -7,7 +7,7 @@
   justify-content: center !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 495px) {
   .soc-icons {
     bottom: 7%;
     right: 5%;
