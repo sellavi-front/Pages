@@ -1,4 +1,4 @@
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 // import '../../fixes/js/Alert/Alert.js'
 
@@ -13,13 +13,13 @@ import dataBannerContent from './utils/dataBannerContent.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import dataAbout from './utils/dataAbout.js';
 import socIcons from './utils/socIcons.js';
-import contactData from './utils/contacts.js'
+import contactData from './utils/contacts.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
-import ContactsTypeOne from '../../components/ContactsTypeOne/ContactsTypeOne.js'
+import ContactsTypeOne from '../../components/ContactsTypeOne/ContactsTypeOne.js';
 
 if (document.querySelector('.wrapper')) {
   // Icons im header cont
@@ -28,7 +28,6 @@ if (document.querySelector('.wrapper')) {
   const footer = document.querySelector('.footer');
   const footerWidgets = document.querySelector('.footer-widgets>.container');
   document.querySelector('.footer-widgets>.container>.row').remove();
-
 
   footer.insertAdjacentHTML(
     'beforeend',
@@ -87,15 +86,13 @@ if (document.querySelector('.common-home')) {
   btns.forEach((btn) => {
     console.log(btn);
     console.log(document.querySelector('.alert'));
-    btn.addEventListener('click', console.log(123))
     btn.addEventListener('click', (e) => {
       setTimeout(() => {
-        console.log(alert);
-        banner.insertAdjacentHTML('afterend', document.querySelector('.alert'));
+        const a = document.querySelector('.alert');
+        banner.insertAdjacentHTML('afterend', a);
       }, 2000);
     });
   });
-
 }
 
 if (document.querySelector('.product-item')) {
