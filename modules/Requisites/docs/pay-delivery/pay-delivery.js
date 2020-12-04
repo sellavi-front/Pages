@@ -54,6 +54,8 @@ const payDelivery = (obj) => {
   </section>
 </div>
 
+<div class="d-flex content-delivery">
+  <section class="delivery__right">
 <h2 class="pay__title">Способы оплаты заказа</h2>
 <h4>
   <span class="title-circle">•<span>&nbsp;Наличный рассчет: </span></span>
@@ -77,7 +79,7 @@ const payDelivery = (obj) => {
   оплаты "Онлайн оплата". Оплата происходит через ПАО СБЕРБАНК с использованием банковских карт
   следующих платёжных систем:
 </p>
-
+</section>
 <div class="faq__content--images" data-v-8d487c20="">
   <figure data-v-8d487c20="">
     <img
@@ -127,7 +129,8 @@ const payDelivery = (obj) => {
   за исключением случаев, предусмотренных законодательством РФ. Проведение платежей по банковским
   картам осуществляется в строгом соответствии с требованиями платёжных систем МИР, Visa Int.,
   MasterCard Europe Sprl, JCB.
-</p>`;
+</p>
+</div>`;
 };
 
 export default payDelivery;
