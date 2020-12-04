@@ -30,3 +30,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
     margin-bottom: 20px !important;
     margin-top: 18px !important;
 }
+
+#home > div > div > section > div:nth-child(1) > h2 > span {
+    border-bottom: 0px;
+}
