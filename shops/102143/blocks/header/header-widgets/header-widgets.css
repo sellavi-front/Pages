@@ -11,3 +11,8 @@
 .header_widgets .header_wishlist {
   margin-right: 15px;
 }
+
+.header-cart {
+  display: flex;
+  align-items: center;
+}
