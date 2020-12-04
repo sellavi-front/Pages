@@ -68,6 +68,8 @@ export const solutionObj = {
   },
 }
 
+console.log(Object.keys(solutionObj).length)
+
 export const solutionsRowLayout = `
 <div class="solutions__row">
       <div class="solutions__column">
