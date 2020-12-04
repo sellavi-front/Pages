@@ -15,11 +15,11 @@ if (location.href.includes('contact')) {
 }
 
 if (location.href.includes('policy')) {
-  const req = new Requisites(requsites, 'afterend', document.querySelector("#content > div > div"));
+  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', media, document.querySelector("#content > div > div"));
   req.setTemplate();
 }
 
 if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', document.querySelector("#content > div > div"), dataContact);
+  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', media, document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
