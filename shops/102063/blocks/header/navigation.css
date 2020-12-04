@@ -45,3 +45,7 @@
   color: #ffffff;
   background-color: #0078c8;
 }
+
+#home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+  font-family: 'Open Sans', sans-serif;
+}
