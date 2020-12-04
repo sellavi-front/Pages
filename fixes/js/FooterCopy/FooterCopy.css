@@ -21,7 +21,11 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.footer_content_text > p {
+  display: none !important;
 }
 
 @media (max-width: 450px) {
