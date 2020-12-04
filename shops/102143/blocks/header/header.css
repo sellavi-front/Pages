@@ -33,3 +33,13 @@
 .header .header-search .form-control::placeholder {
   color: snow !important;
 }
+
+.logo img {
+  width:  100% !important;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+  }
+}
