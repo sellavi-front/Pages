@@ -19,9 +19,9 @@ const wishList = `
 
 if (document.querySelector('.wrapper')) {
   const cart = document.querySelector('#cart');
-
-  cart.querySelector('i').classList.add('far');
-  cart.querySelector('i').classList.remove('fal');
+  const cartI = cart.querySelector('i');
+  cartI.classList.add('far');
+  cartI.classList.remove('fal');
 
   if (headerWidgets) {
     new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
