@@ -9,7 +9,7 @@ let solutionsPageLayout = `
         <a href="/">Главная</a> > <a href="/solutions/" class="active__page">Готовые решения</a>
     </div>
     <div class="about__company_container">
-        <h1>Комплексное оснащение</h1>
+        <h1>Готовые решения</h1>
         <p>Получите бесплатное коммерческое предложение подходящего заведения</p>
     </div>
   </div>

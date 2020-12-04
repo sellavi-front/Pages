@@ -8,21 +8,12 @@ import renderSolutionsTemplate from "./pages/solutionsPage/solutions.js"
 import renderBanner from "./blocks/banner/banner.js"
 import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany/aboutCompany.js"
 import renderFooter from "./blocks/footer/footer.js"
-import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js'
+import '../../components/HeaderTypeOne/HeaderTypeOne.js'
 
 /* Setting logo */
 document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
 let containerNavbar = document.querySelector(".logo")
 let customSection = document.querySelector(".custom_section")
-
-// Icons in header cont
-const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
-
-const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-
-buttonsInHeader.setTemplate();
-hideCart.remove();
 
 let navbar = `
     <div class="navbar__block">
