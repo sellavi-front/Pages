@@ -40,7 +40,6 @@
 
 .product-product .product-single .buttons .btn-cart:hover {
   border: 3px solid #3b6b58;
-
 }
 
 .product-product .product-single .buttons .btn-wish-list,
@@ -65,4 +64,10 @@
 
 .product-product .product-single .buttons .quantity .qty[value] {
   font-size: 28px;
+}
+
+@media (max-width: 1595px) {
+  body .section-title {
+    text-align: center !important;
+  }
 }

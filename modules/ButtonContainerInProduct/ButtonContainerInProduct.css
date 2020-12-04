@@ -16,3 +16,7 @@
   margin: 0 !important;
   width: 100%;
 }
+
+.price_actions .buttons__container {
+  height: 52px !important;
+}
