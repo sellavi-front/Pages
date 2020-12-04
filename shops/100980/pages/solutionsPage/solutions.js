@@ -1,6 +1,7 @@
 import contentOptimizer from "../contentOptimizer.js"
 import "./utils/solutionsObj.js"
-//import {solutionsRowLayout} from "./utils/solutionsObj.js";
+//import {solutionsRowLayout} from "./utils/solutionsObj.js"
+import renderSolutions from "./utils/solutionsObj.js"
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
@@ -29,6 +30,7 @@ let renderSolutionsTemplate = () => {
   contentOptimizer(solutionsPageLayout, sectionTitles, information)
   let solutionsContainer = document.querySelector(".solutions__container")
   //solutionsContainer.insertAdjacentHTML("afterbegin", solutionsRowLayout)
+  renderSolutions()
 }
 
 export default renderSolutionsTemplate

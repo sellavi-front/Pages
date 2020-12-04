@@ -108,7 +108,7 @@ let renderSolutions = () => {
   })
 }
 
-renderSolutions()
+export default renderSolutions
 
 
 
