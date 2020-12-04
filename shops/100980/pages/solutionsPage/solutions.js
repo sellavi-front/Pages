@@ -23,9 +23,6 @@ let solutionsPageLayout = `
   </div>
 `
 
-
-
-
 let renderSolutionsTemplate = () => {
   contentOptimizer(solutionsPageLayout, sectionTitles, information)
   let solutionsContainer = document.querySelector(".solutions__container")
