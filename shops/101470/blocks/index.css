@@ -67,3 +67,7 @@ body.ltr ul {
   display: flex;
   align-items: center;
 }
+
+.fa-heart:before {
+  font-size: 30px;
+}
