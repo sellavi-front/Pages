@@ -12,7 +12,7 @@ if (document.querySelector('.common-home')) {
       setTimeout(() => {
         console.log(document.querySelector('.alert'));
         banner.insertAdjacentHTML('afterend', document.querySelector('.alert'));
-      }, 1000);
+      }, 2000);
     });
   });
 }
