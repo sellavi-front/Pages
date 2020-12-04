@@ -63,7 +63,7 @@ if (document.querySelector('.wrapper')) {
   const footerMetaContainer = document.querySelector('.footer-meta>div');
   const cartLink = document.querySelector('#cart>i');
 
-  const forDelete = [icoUser, cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
+  const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
