@@ -9,8 +9,8 @@
 
 .banner-content__item > .container {
   display: flex !important;
-  align-items: center !important;
-  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
 }
 
 .banner-content__item_bg {
@@ -30,4 +30,10 @@
 
 .banner-content__item_button {
   display: none;
+}
+
+@media (max-width: 921px) {
+  .banner-content__item_bg {
+    opacity: .5;
+  }
 }
