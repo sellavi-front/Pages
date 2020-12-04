@@ -38,3 +38,12 @@ body b {
 .bs-menu-toggle {
   display: none !important;
 }
+
+#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.products_row > div > div > div {
+  margin-right: 40px;
+}
+
+
+h4.media-heading.item-title.summary {
+  margin-left: 20px;
+}
