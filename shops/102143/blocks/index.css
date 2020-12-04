@@ -54,3 +54,30 @@ body b,
 body strong {
   text-transform: none;
 }
+
+#home footer .footer-widgets .bs-menu-toggle {
+  display: none !important;
+}
+
+
+.common-home .content-area .page-section {
+  margin-top: 50px !important;
+}
+
+.common-home .section-title {
+  margin-bottom: 50px !important;
+  margin-top: 0 !important;
+}
+
+.custom_section {
+  margin-top: 7%;
+}
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  top: 4px !important;
+}
+
+.header .header-search button,
+.header .header-wrapper .mobile-navigation-wrapper a {
+  color: white !important;
+}

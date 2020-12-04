@@ -1,11 +1,11 @@
 .outer-container {
   width: 100%;
-  min-height: 800px;
+  height: 80vh;
 }
 
 .banner {
   width: 100%;
-
+  height: inherit;
   overflow: hidden;
   position: relative;
   /* background-color: #000; */
@@ -14,12 +14,12 @@
 }
 
 .banner__image {
-  height: 800px;
+  height: inherit;
   z-index: 10;
   overflow: hidden;
   background-position: center !important;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   transform: translate(0);
 }
 

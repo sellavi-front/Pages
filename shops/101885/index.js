@@ -1,7 +1,4 @@
-<script type="module" src="https://sellavi-front.github.io/Pages/app.js"></script>
-
-<script>
-  window.onload = () => {
+window.onload = () => {
 
     /* Trasnlation footer */
     const widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget')
@@ -26,18 +23,19 @@
             <div class="banner__main__description">
                 <h1>Ателье Красоты</h1>
                 <p>Безупречная эко-косметика</p>
-                <a class="text-center" href="https://store101885.sellavi.com/about-master/">Подробнее</a>
+                <a class="text-center" href="https://atelye1.com/about-master/">Подробнее</a>
             </div>
         </div>
-        `
+    `
 
-    if(location.href === 'https://store101885.sellavi.com/' || location.href === 'https://store101885.sellavi.com/?from_admin') {
+    if(location.href === 'https://atelye1.com/' || location.href === 'https://atelye1.com/?from_admin') {
+      console.log(321)
       bannerMainEl.insertAdjacentHTML("afterbegin", bannerMainLayout)
     }
 
 
 
-    if(location.href === 'https://store101885.sellavi.com/about-master/') {
+    if(location.href === 'https://atelye1.com/about-master/') {
       let aboutMasterLayout = `
         <div class="description">
           <div class="description__item">
@@ -55,28 +53,19 @@
       `
 
       document.querySelector("#content").insertAdjacentHTML("afterbegin", aboutMasterLayout)
-
-      fetch('https://sellavi-api.000webhostapp.com/101885/getProducts.php')
-        .then(function(response) {
-          return response.json();
-        })
-        .then(function(json) {
-          let categories = json.products
-          console.log(categories)
           let services = document.querySelector("#content > div.text-center")
           services.insertAdjacentHTML("afterend", `
             <ul class="cards">
               <li class="cards__item">
                 <div class="card">
                   <div class="card__content">
-                    <div class="card__title">${categories[7].product_description[5].name}</div>
+                    <div class="card__title">Ручная чистка кожи лица</div>
                     <p class="card__text">
                     <br>Ручная чистка кожи лица - очищение забитых пор - удаление камедонов угрей, профилактика и лечение акне.
                     Делается пальцами или специальной петлёй-после удаление, лечение дарсенвалем и противоспалительная успокаивающая маска.
                     Некоторое время после ручной чистки на коже могут быть покраснения и шелушение, которые исчезают за 1-2 дня.
                     В результате кожа становится здоровой и чистой. </p>
-                    <p>Цена: ${categories[7].price_formated}</p>
-                    <a href="${categories[7].product_url}"><b>Подробнее</b></a>
+                    <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-1/"><b>Подробнее</b></a>
                   </div>
                 </div>
               </li>
@@ -84,7 +73,7 @@
               <li class="cards__item">
                 <div class="card">
                   <div class="card__content">
-                    <div class="card__title">${categories[0].product_description[5].name}</div>
+                    <div class="card__title">Ультразвуковая чистка</div>
                     <p class="card__text">
                     <br>С помощью воздействия ультразвука можно получить отличный эффект совершенно безболезненно.
                     Процедуру проводят специальным прибором – ультразвуковым излучателем-скрабером. Прибор настраивают на необходимую частоту
@@ -105,8 +94,7 @@
                     <p>Испускаемые УЗ волны вызывают в поверхностных слоях, в свою очередь, высокочастотные колебания, которые способствуют механическому отделению ороговевших старых клеток и загрязнений от работающих живых клеток.
                     Мощность ультразвука настроена так, что никаких повреждений живым клеткам воздействие короткой волны нанести не может. Она проникает в глубину на 0,2 мм. Поэтому по сравнению с другими методами чистки лица (механической, вакуумной) пилинг ультразвуком нетравматичен
                     </p>
-                    <p>Цена: ${categories[0].price_formated}</p>
-                    <a href="${categories[0].product_url}"><b>Подробнее</b></a>
+                    <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-2/"><b>Подробнее</b></a>
                   </div>
                 </div>
               </li>
@@ -115,7 +103,7 @@
                 <li class="cards__item">
                   <div class="card">
                     <div class="card__content">
-                      <div class="card__title">${categories[8].product_description[5].name}</div>
+                      <div class="card__title">Карбокситерапиия</div>
                       <p class="card__text">
                         <br>Трехступенчатая неинвазивная процедура основана на дозированном введении углекислого газа поверхностно или подкожно в косметических и лечебных целях. Использование углекислого газа улучшает кровообращение, регенерирует ткани, стимулирует работу фибробластов, выводит из организма токсины и расщепляет жиры.
                         Рекомендуемый курс от 5 процедур.
@@ -143,8 +131,7 @@
                       Лимонная кислота — предотвращает появление пигментации; <br>
                       Экстракт портулака — антиоксидант, оказывает успокаивающее действие.
                       </p>
-                      <p>Цена: ${categories[8].price_formated}</p>
-                      <a href="${categories[8].product_url}"><b>Подробнее</b></a>
+                      <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-3/"><b>Подробнее</b></a>
                     </div>
                   </div>
                 </li>
@@ -152,7 +139,7 @@
                 <li class="cards__item">
                   <div class="card">
                     <div class="card__content">
-                      <div class="card__title">${categories[6].product_description[5].name}</div>
+                      <div class="card__title">Миндальный пилинг для лица</div>
                       <p class="card__text">
                         <br>Миндальная кислота относится к категории кислот AHA (Alpha-Hydroxy Acids), обладающая высокой эффективностью.
                         Это один из самых безопасных, но эффективных разновидностей химического пилинга, поскольку способен за короткие сроки и с минимальным риском вреда для кожи достигнуть желаемого результата.
@@ -175,8 +162,7 @@
                       - подходит в качестве подготовке к более агрессивным процедурам, например, лазерной шлифовке лица.<br>
                       Пилинг Южная Корея V45
                       </p>
-                      <p>Цена: ${categories[6].price_formated}</p>
-                      <a href="${categories[6].product_url}"><b>Подробнее</b></a>
+                      <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-4/"><b>Подробнее</b></a>
                     </div>
                   </div>
                 </li>
@@ -184,7 +170,7 @@
                 <li class="cards__item">
                   <div class="card">
                     <div class="card__content">
-                      <div class="card__title">${categories[5].product_description[5].name}</div>
+                      <div class="card__title">Отбеливающий пилинг лица</div>
                       <p class="card__text">
                         <br>Осветляет пигментные пятна, предупреждает их повторное появление, улучшает естественный баланс, уменьшает глубину морщин.
                         Рекомендуемый курс от 6-8 процедур с интервалом 10 дней. <br><br>
@@ -200,8 +186,7 @@
                       Пилинг отpбеливающий Peelling melaless V45 состав:
                       Молочная кислота (13%), Гликолевая кислота (3%), Миндальная кислота (4%), Транексамовая кислота (3%), Лимонная кислота, Винная кислота, Ниацинамид, Трипептид меди.
                       </p>
-                      <p>Цена: ${categories[5].price_formated}</p>
-                      <a href="${categories[5].product_url}"><b>Подробнее</b></a>
+                      <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-5/"><b>Подробнее</b></a>
                     </div>
                   </div>
                 </li>
@@ -209,7 +194,7 @@
                 <li class="cards__item">
                   <div class="card">
                     <div class="card__content">
-                      <div class="card__title">${categories[4].product_description[5].name}</div>
+                      <div class="card__title">Пилинг-гель с экстрактом Папайи</div>
                       <p class="card__text">
                         Осветляет пигментные пятна, предупреждает их повторное появление, улучшает естественный баланс, уменьшает глубину морщин.
                         Рекомендуемый курс от 6-8 процедур с интервалом 10 дней. </p>
@@ -229,8 +214,7 @@
                       Рекомендуемый курс от 2-3 процедуры в неделю. <br>
                       1 процедура - 500р (Лицо). <br>1 процедура - 700р (Лицо,шея). <br>1 процедура - 1000 (Лицо,шея,декольте)
                       </p>
-                      <p>Цена: ${categories[4].price_formated}</p>
-                      <a href="${categories[4].product_url}"><b>Подробнее</b></a>
+                      <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-6/"><b>Подробнее</b></a>
                     </div>
                   </div>
                 </li>
@@ -238,7 +222,7 @@
                 <li class="cards__item">
                   <div class="card">
                     <div class="card__content">
-                      <div class="card__title">${categories[3].product_description[5].name}</div>
+                      <div class="card__title">Талассотерапия для лица и зоны декольте</div>
                       <p class="card__text">Это высокоэффективное процедура 3 в 1.</p>
                       <p>Эффекты:
                       <ul>
@@ -252,14 +236,11 @@
                       Лицо и декольте - 1800р<br>
                       Рекомендуем сделать 3-5 процедур с интервалом 10 дней<br>
                       </p>
-                      <p>Цена: ${categories[3].price_formated}</p>
-                      <a href="${categories[3].product_url}"><b>Подробнее</b></a>
+                      <a href="https://atelye1.com/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0-7/"><b>Подробнее</b></a>
                     </div>
                   </div>
                 </li>
             </ul>
           `)
-        });
     }
-  }
-</script>
+}

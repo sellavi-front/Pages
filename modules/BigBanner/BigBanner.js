@@ -5,7 +5,7 @@ export default class BigBanner {
   }
 
   setCaption(o) {
-      return `<div class="banner__caption">
+    return `<div class="banner__caption">
         <h1>${o.title}</h1>
         <a href="${o.link}">
           ${o.linkContent}
@@ -18,20 +18,19 @@ export default class BigBanner {
       <div class="outer-container">
         <div class="banner">
           <div class="banner__image" style="background: url(
-            ${ this.link }
+            ${this.link}
             )">
           </div>
           ${
             Object.keys(this.obj).length > 0
               ? this.setCaption(this.obj)
               : `<div class="banner__caption"></div>`
-            }
+          }
         </div>
       </div>`;
   }
 
   render() {
-    const banner = document.querySelector('.custom_banner');
-    return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
+    return document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }

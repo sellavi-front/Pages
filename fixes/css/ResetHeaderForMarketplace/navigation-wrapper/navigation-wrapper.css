@@ -14,3 +14,7 @@ body.theme_11.ltr
   > a {
     border: none !important;
   }
+
+  body .arrow {
+    display: none !important;
+  }

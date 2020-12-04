@@ -16,7 +16,6 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
 
 .common-home .header-cart .cart-wrapper #cart {
   padding-left: 10px !important;
-  color: white !important;
 }
 
 body.theme_11 .header-cart .cart-wrapper .cart-qty-circle {
@@ -25,4 +24,8 @@ body.theme_11 .header-cart .cart-wrapper .cart-qty-circle {
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
   padding: 0 !important;
+}
+
+#cart > span {
+  display: none !important;
 }

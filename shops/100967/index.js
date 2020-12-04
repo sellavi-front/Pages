@@ -12,7 +12,7 @@ import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
-// import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import RatingWithImgText from "../../components/RatingWithImgText/RatingWithImgText.js";
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';

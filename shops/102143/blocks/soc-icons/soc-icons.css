@@ -1,5 +1,19 @@
 .soc-icons {
   position: absolute;
-  bottom: 10%;
-  right: 5%;
+  bottom: 2%;
+}
+
+.soc-icons__container {
+  justify-content: center !important;
+}
+
+@media (min-width: 495px) {
+  .soc-icons {
+    bottom: 7%;
+    right: 5%;
+  }
+
+  .soc-icons__container {
+    justify-content: flex-end !important;
+  }
 }

@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.about__item-container {
+  max-width: 40%;
+}
+
 .about__item_img {
   max-width: 580px;
   width: 100%;
@@ -27,7 +31,8 @@
   border-radius: 20px;
 }
 
-.about__item_title {
+.about__item_title,
+.about__item_title > a {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
@@ -55,8 +60,17 @@
   }
 }
 
+@media (max-width: 992px) {
+  .about__item-container {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 768px) {
-  .about__item_title {
+  .about__item_title,
+  .about__item_title > a {
     font-size: 22px;
     line-height: 1.2;
   }
@@ -64,4 +78,6 @@
   .about__item_text {
     font-size: 16px;
   }
+
+
 }

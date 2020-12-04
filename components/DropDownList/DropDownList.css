@@ -1,0 +1,32 @@
+.accordion {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+  transition: all 1s;
+  font-weight: 900;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: darkred;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}

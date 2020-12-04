@@ -34,5 +34,13 @@ footer.footer .footer-widgets .widget-title {
 @media (max-width: 576px) {
   .footer-widgets .row {
     flex-wrap: wrap !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coll {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
   }
 }

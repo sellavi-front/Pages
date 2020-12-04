@@ -1,0 +1,24 @@
+.rating__container {
+  display: flex;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5rem;
+  padding: 5rem;
+}
+
+.rating__container__item__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__item_title {
+  display: flex;
+  margin: 5px;
+}
+
+.rating__item_img,
+.rating__item_stars{
+  display: flex;
+  width: 20%;
+}

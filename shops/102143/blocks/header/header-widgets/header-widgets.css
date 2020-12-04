@@ -1,0 +1,13 @@
+.header_widgets {
+  display: flex;
+  align-self: center;
+}
+
+.header_widgets a {
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.header_widgets .header_wishlist {
+  margin-right: 15px;
+}

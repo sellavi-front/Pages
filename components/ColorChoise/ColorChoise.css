@@ -1,6 +1,6 @@
 /* RADIO CUSTOM */
 
-.form-group .text-danger {
+#product .form-group .text-danger {
   position: absolute;
   top: 60px;
   left: 20px;
@@ -27,12 +27,12 @@
   display: none;
 }
 
-.form-group > div {
+#product .form-group > div {
   margin-left: 0;
   margin-top: 30px;
 }
 
-.custom-control {
+#product .custom-control {
   padding: 0;
   margin-right: 20px;
   width: 28px;
@@ -48,8 +48,8 @@
   font-size: 11px;
 }
 
-.custom-control-label:after,
-.custom-control-label:before {
+#product .custom-control-label:after,
+#product .custom-control-label:before {
   width: 28px;
   height: 28px;
   top: 0;

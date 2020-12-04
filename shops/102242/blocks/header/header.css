@@ -1,7 +1,26 @@
 @import './sf-menu/sf-menu.css';
 @import './header-widgets/header-widgets.css';
 
+.common-home .header {
+  position: absolute !important;
+}
+
 body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
+  padding: 2% 0;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  margin: 0 auto 0 24% !important;
+}
+
+@media (max-width: 495px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto 0 34% !important;
+  }
+
+  .logo img {
+    max-width: 145px !important;
+  }
 }
