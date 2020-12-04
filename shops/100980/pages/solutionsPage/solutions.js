@@ -1,7 +1,7 @@
 import contentOptimizer from "../contentOptimizer.js"
 import InfoCardTypeOne from "../../../../components/InfoCardTypeOne/InfoCardTypeOne.js"
 import "./utils/solutionsObj.js"
-import {solutionsRowLayout} from "./utils/solutionsObj";
+import {solutionsRowLayout} from "./utils/solutionsObj.js";
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
