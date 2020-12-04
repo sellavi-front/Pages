@@ -1,3 +1,10 @@
 .header .header-wrapper:not(.common-home .header .header-wrapper) {
   background: #204043 !important;
 }
+
+.header:not(.common-home>.header) {
+  background: url(https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png);
+  background-size: cover;
+  background-position: bottom;
+  padding: 20px 0;
+}
