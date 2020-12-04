@@ -53,7 +53,8 @@
   border-width: 1px !important;
 }
 
-.product-product .product-single .buttons .quantity .btn {
+.product-product .product-single .buttons .quantity .btn,
+.product-product .product-single .buttons .quantity .qty {
   background: transparent !important;
 }
 
