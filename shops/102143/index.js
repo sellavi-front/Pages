@@ -24,8 +24,6 @@ import ContactsTypeOne from '../../components/ContactsTypeOne/ContactsTypeOne.js
 
 if (document.querySelector('.wrapper')) {
   // Icons im header cont
-  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const footer = document.querySelector('.footer');
   const footerWidgets = document.querySelector('.footer-widgets>.container');
   document.querySelector('.footer-widgets>.container>.row').remove();
@@ -34,11 +32,6 @@ if (document.querySelector('.wrapper')) {
     'beforeend',
     `<img class="img-bg img-bg_footer" src="https://res.cloudinary.com/gz-company/image/upload/v1606489415/ThaiCosmetic/Group_56_jzrryx.png">`,
   );
-  // const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-
-  // buttonsInHeader.setTemplate();
-  // hideCart.remove();
-  // End
 
   const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);
 
@@ -85,8 +78,6 @@ if (document.querySelector('.common-home')) {
   console.log(banner);
 
   btns.forEach((btn) => {
-    console.log(btn);
-    console.log(document.querySelector('.alert'));
     btn.addEventListener('click', (e) => {
       setTimeout(() => {
         const a = document.querySelector('.alert');

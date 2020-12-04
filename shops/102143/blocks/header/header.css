@@ -52,15 +52,13 @@
   width:  100% !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
   .navigation {
     display: none !important;
   }
-}
 
-@media (max-width: 768px) {
   .logo {
     width: 100px;
-    margin: 0 0 0 30%;
+    margin: 0 0 0 36%;
   }
 }
