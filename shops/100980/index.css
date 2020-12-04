@@ -31,16 +31,28 @@ input.form-control::placeholder,
 
 
 /* Header */
+
+.main__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
 .navbar__block {
   display: flex;
   justify-content: flex-start;
   margin: 0;
-  width: 100%;
+  width: 70%;
 }
 
 .navbar_item {
-  padding: 10%;
   color: #000;
+  margin-top: 2rem;
+}
+
+.navbar_item + .navbar_item {
+  margin-left: 2rem;
 }
 
 .logo {
