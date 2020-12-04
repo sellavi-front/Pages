@@ -71,9 +71,9 @@ export default class Requisites {
 
       this.container.insertAdjacentHTML('afterbegin', termsOfUse(this.nameOrg));
     } else if (this.container.classList.contains('col-md-12')) {
-      this.container.insertAdjacentElement(this.target, policy());
+      this.container.insertAdjacentHTML(this.target, policy);
     } else if (this.container.classList.contains('col-md-12')) {
-      this.container.insertAdjacentElement(this.target, payDelivery(this.payDeliveryIfo));
+      this.container.insertAdjacentHTML(this.target, payDelivery(this.payDeliveryIfo));
     }
   }
 }
