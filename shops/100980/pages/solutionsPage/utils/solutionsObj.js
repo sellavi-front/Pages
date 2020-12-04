@@ -106,7 +106,7 @@ let renderSolutions = () => {
     </div>
     `
   })
-  console.log(output)
+  console.log("output: ", output)
 }
 
 export default renderSolutions
