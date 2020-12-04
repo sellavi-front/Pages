@@ -53,3 +53,15 @@
 .d-none.d-lg-block.col-lg-4.text-right.p-0 {
   display: none !important;
 }
+
+#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > div {
+  display: none;
+}
+
+#cart > i {
+  font-size: 20px !important;
+}
+
+#wishlist > i {
+  font-size: 20px !important;
+}
