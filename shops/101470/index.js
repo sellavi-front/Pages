@@ -13,6 +13,8 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 import requsites from './utils/requsites.js';
 
+import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -103,12 +105,12 @@ if (document.querySelector('.wrapper')) {
   containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
   logo.remove();
 
-  const logo2 = document.querySelector('.logo');
-  const sideNavList = document.querySelectorAll('.mobile_side_nav_menu>li');
-  logo2.insertAdjacentHTML('afterend', `<ul class="navigate-menu"></ul>`);
+  // const logo2 = document.querySelector('.logo');
+  // const sideNavList = document.querySelectorAll('.mobile_side_nav_menu>li');
+  // logo2.insertAdjacentHTML('afterend', `<ul class="navigate-menu"></ul>`);
 
   const list = document.querySelector('.navigate-menu');
-  sideNavList.forEach((el) => list.insertAdjacentHTML('beforeend', el.outerHTML));
+  // sideNavList.forEach((el) => list.insertAdjacentHTML('beforeend', el.outerHTML));
   const arrow = document.querySelectorAll('.navigate-menu > li > .arrow');
 
   arrow.forEach((el) => el.remove());
