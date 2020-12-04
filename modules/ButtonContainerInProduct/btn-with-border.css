@@ -56,7 +56,7 @@ h2.section-title > span::after {
 
 @media (max-width: 352px) {
   .thumbnail .add_to_wishlist button {
-    padding: 12% 25%;
+    padding: 12% 25% !important;
     height: auto !important;
   }
 }
