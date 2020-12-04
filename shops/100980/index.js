@@ -8,20 +8,30 @@ import renderSolutionsTemplate from "./pages/solutionsPage/solutions.js"
 import renderBanner from "./blocks/banner/banner.js"
 import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany/aboutCompany.js"
 import renderFooter from "./blocks/footer/footer.js"
-import '../../components/HeaderTypeOne/HeaderTypeOne.js'
+
 
 /* Setting logo */
-//document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
+document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
 let containerNavbar = document.querySelector(".logo")
 let customSection = document.querySelector(".custom_section")
 
+let navbar = `
+    <div class="navbar__block">
+      <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
+      <a class="navbar_item" href="/delivery/"><p>Доставка, оплата и возврат</p></a>
+      <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
+      <a class="navbar_item" href="/solutions/"><p>Готовые решения</p></a>
+    </div>
+`
+
+containerNavbar.insertAdjacentHTML("afterend", navbar)
 if(pages.home) {
   renderBanner()
   renderCustomSectionAboutCompany()
 
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
-  //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
+  document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
 
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
