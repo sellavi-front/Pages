@@ -28,3 +28,7 @@
 .common-home .page-section > .products {
   margin-bottom: 180px;
 }
+
+.cart_product {
+  width: 100% !important;
+}
