@@ -107,6 +107,6 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
-if (location.href.includes('checkout-checkout')) {
+if (location.href.includes('checkout')) {
   document.querySelector('figure>.img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607104303/ThaiCosmetic/Group_1_1_1_wkhuus.png')
 }
