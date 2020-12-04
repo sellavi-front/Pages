@@ -22,14 +22,14 @@ if (document.querySelector('.wrapper')) {
   cart.classList.add('far');
   cart.classList.remove('fal');
 
-  if (!headerWidgets) {
-    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets"></div>`);
-
-    const headWidgets = headerContainer.querySelector('.header_widgets');
-    new CreateAddContainer(headerContainer, 'beforeend', headWidgets.outerHTML).render();
+  if (headerWidgets) {
+    new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
     headerWidgets.remove();
 
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+  } else {
+    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets"></div>`);
   }
+
   new NavTransferTo(headerLogo, 'afterend').transfer();
 }
