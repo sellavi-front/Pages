@@ -17,3 +17,5 @@
 @import '../../../components/FormBasic/FormBasic.css';
 @import './formBasic/formBasic.css';
 @import './Fix/textFix.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
