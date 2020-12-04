@@ -51,6 +51,7 @@
   flex-direction: column;
   width: 100%;
   padding: 5%;
+  margin-bottom: 5%;
 }
 
 .requisites__block_row {
