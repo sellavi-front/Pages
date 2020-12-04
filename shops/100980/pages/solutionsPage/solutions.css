@@ -23,5 +23,9 @@
   flex-direction: column;
   width: 100%;
   align-items: flex-start;
+  padding-top: 3rem;
 }
 
+.solutions__column_links a {
+  line-height: 3rem;
+}

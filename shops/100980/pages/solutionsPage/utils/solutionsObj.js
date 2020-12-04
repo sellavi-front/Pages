@@ -85,7 +85,6 @@ export const solutionsRowLayout = `
       </div>
 
       <div class="solutions__column_links">
-        <h1></h1>
         ${solutionObj.cafe.buttonGetSolution}
         ${solutionObj.cafe.buttonGetSolution}
       </div>
