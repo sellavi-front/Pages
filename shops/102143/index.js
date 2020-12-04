@@ -87,9 +87,11 @@ if (document.querySelector('.common-home')) {
     console.log(btn);
     console.log(document.querySelector('.alert'));
     btn.addEventListener('click', (e) => {
-      const a = document.querySelector('.alert');
-      banner.insertAdjacentHTML('afterend', a.outerHTML);
-      a.remove();
+      setTimeout(() => {
+        const a = document.querySelector('.alert');
+        banner.insertAdjacentHTML('afterend', a.outerHTML)
+        a.remove();
+      }, 1000);
     });
   });
 }
