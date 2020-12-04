@@ -1,4 +1,4 @@
-body .header .container
+body .header .container,
   body .content-area .container,
   body .page-section .container {
     max-width: 75% !important;
