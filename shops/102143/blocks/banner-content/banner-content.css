@@ -10,7 +10,7 @@
 .banner-content__item > .container {
   display: flex !important;
   align-items: center !important;
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 
 .banner-content__item_bg {
