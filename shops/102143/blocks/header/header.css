@@ -14,6 +14,10 @@
   color: white !important;
 }
 
+.header .header-search {
+  left: 70px;
+}
+
 .header .header-search .form-control {
   border-radius: 0;
   border-bottom: 1px solid white !important;
