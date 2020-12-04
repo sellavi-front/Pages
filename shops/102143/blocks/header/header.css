@@ -8,3 +8,8 @@
   background-position: bottom;
   padding: 20px 0;
 }
+
+.button__list_elem a,
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: white !important;
+}
