@@ -68,7 +68,11 @@ export const solutionObj = {
   },
 }
 
-console.log(Object.keys(solutionObj).length)
+let renderSolutions = () => {
+  for(let item in solutionObj) {
+    console.log(solutionObj[item])
+  }
+}
 
 export const solutionsRowLayout = `
 <div class="solutions__row">
