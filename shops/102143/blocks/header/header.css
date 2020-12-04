@@ -17,7 +17,10 @@
 }
 
 .header .header-search {
-  left: -70px;
+  left: auto;
+  right: -8%;
+  position: absolute;
+  width: 150px;
 }
 
 .header-cart .cart-wrapper #cart i {
@@ -30,6 +33,14 @@
   color: #737475;
   background: transparent;
   border: none;
+}
+
+.navigation {
+  left: -15%;
+}
+
+.navigation .nav.sf-menu {
+  align-items: center !important;
 }
 
 .header .header-search .form-control::placeholder,
