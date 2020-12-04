@@ -13,7 +13,7 @@ import renderFooter from "./blocks/footer/footer.js"
 //document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
 
 /* Setting logo */
-document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
+document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
 let containerNavbar = document.querySelector(".logo")
 
 let navbar = `
