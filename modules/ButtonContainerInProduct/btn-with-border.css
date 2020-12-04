@@ -46,13 +46,13 @@ body .section-title {
   width: 100%;
 }
 
-h2.section-title > span::after {
+/* h2.section-title > span::after {
   content: ' ';
   display: flex;
   height: 5px;
   background: linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   width: 100%;
-}
+} */
 
 @media (max-width: 352px) {
   .thumbnail .add_to_wishlist button {
