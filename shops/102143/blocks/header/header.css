@@ -13,3 +13,11 @@
 .header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
   color: white !important;
 }
+
+.header .header-search .form-control {
+  border-radius: 0;
+  border-bottom: 1px solid white !important;
+  color: #737475;
+  background: transparent;
+  border: none;
+}
