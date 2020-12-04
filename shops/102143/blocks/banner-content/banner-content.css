@@ -21,3 +21,11 @@
   position: absolute;
   bottom: 0;
 }
+
+.banner-content {
+  margin-top: 0 !important;
+}
+
+.banner-content__item_button {
+  display: none;
+}
