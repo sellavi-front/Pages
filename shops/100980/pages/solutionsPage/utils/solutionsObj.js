@@ -88,9 +88,8 @@ export const solutionObj = {
 
 let renderSolutions = () => {
   let solutionsArr = Object.values(solutionObj)
-  let output = solutionsArr.map(item => {
-    console.log(item)
-    `
+  solutionsArr.map(item => {
+    return `
     <div class="solutions__row">
       <div class="solutions__column">
         <h1>${item.title}</h1>
@@ -107,7 +106,6 @@ let renderSolutions = () => {
     </div>
     `
   })
-  console.log("output: ", output)
 }
 
 export default renderSolutions
