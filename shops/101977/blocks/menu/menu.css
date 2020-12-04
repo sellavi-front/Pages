@@ -41,7 +41,7 @@ nav.navigation.closed.clearfix.nav.nav-closed {
     justify-content: center;
 }
 
-.common-home > header > div.header-wrapper > div.container > span {
+header > div.header-wrapper > div.container > span {
     color: white;
     font-family: inter;
     display: flex;
