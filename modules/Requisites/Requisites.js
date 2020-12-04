@@ -15,7 +15,7 @@
 
 import termsOfUse from './docs/termsOfuse.js';
 export default class Requisites {
-  constructor(obj, target, nameOrg = 'Общество с ограниченой ответственность Альтаир', container = document.querySelector('.requsitess')) {
+  constructor(obj, target, nameOrg = 'Общество с ограниченой ответственность Альтаир', container = document.querySelector('.requsitess'), contacts = {}) {
     this.obj = obj;
     this.target = target;
     this.container = container;
@@ -31,7 +31,7 @@ export default class Requisites {
   }
 
   setData() {
-    const arr = Object.entries(this.obj);
+    const arr = Object.entries(this.obj.);
     return arr.map((item) => this.setItemtemplate(item));
   }
 

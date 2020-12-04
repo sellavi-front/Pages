@@ -1,5 +1,5 @@
 export default class BigBanner {
-  constructor(obj = {}, link) {
+  constructor(link, obj = {}) {
     this.obj = obj;
     this.link = link;
     console.log(this.obj, this.link);
