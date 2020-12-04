@@ -60,11 +60,11 @@ body strong {
 }
 
 
-body .content-area .page-section {
+.common-home .content-area .page-section {
   margin-top: 10% !important;
 }
 
-body .section-title {
+.common-home .section-title {
   margin-bottom: 50px !important;
 }
 
