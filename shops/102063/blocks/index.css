@@ -47,3 +47,7 @@ body b {
 h4.media-heading.item-title.summary {
   margin-left: 20px;
 }
+
+.media.d-flex {
+  flex-direction: row;
+}
