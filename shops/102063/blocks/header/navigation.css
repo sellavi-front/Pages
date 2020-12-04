@@ -49,3 +49,46 @@
 #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
   font-family: 'Open Sans', sans-serif;
 }
+
+
+#home > div.out-container > div.closer {
+  position: relative;
+  left: 0px;
+  color: white
+}
+
+.whats {
+  background: white;
+  border: 2px solid black;
+  width: 20%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+
+
+.out-container {
+  background: #00000063;
+  position: fixed;
+  width: 1226px;
+  left: 0px;
+  top: 0px;
+  height: 700px;
+}
+
+#home > div.out-container > div.whats > h3 {
+  color: #3b77b6;
+  margin-top: 20px
+}
+
+#home > div.out-container > div.whats > h6 {
+  display: none;
+}
+
+#home > div.out-container > div.whats > button {
+  margin-bottom: 10px;
+}
+
