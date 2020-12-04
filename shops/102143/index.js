@@ -37,7 +37,7 @@ if (document.querySelector('.wrapper')) {
   // const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
   // buttonsInHeader.setTemplate();
-  hideCart.remove();
+  // hideCart.remove();
   // End
 
   const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);

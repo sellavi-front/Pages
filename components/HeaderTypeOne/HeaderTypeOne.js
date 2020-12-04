@@ -28,7 +28,7 @@ if (document.querySelector('.wrapper')) {
 
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
-    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets"></div>`);
+    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}</div>`);
   }
 
   new NavTransferTo(headerLogo, 'afterend').transfer();
