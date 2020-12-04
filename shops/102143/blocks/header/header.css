@@ -41,5 +41,6 @@
 @media (max-width: 768px) {
   .logo {
     width: 100px;
+    margin: 0 0 0 30%;
   }
 }
