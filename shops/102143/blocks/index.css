@@ -71,3 +71,7 @@ body strong {
 .custom_section {
   margin-top: 7%;
 }
+
+.header .header-search button {
+  color: white !important;
+}
