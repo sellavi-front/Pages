@@ -16,7 +16,7 @@ let solutionsPageLayout = `
     </div>
 
     <div class="solutions__container">
-        ${document.querySelector(".solutions__container").insertAdjacentHTML("afterbegin", solutionsRowLayout)}
+
     </div>
 
   </div>
@@ -27,6 +27,8 @@ let solutionsPageLayout = `
 
 let renderSolutionsTemplate = () => {
   contentOptimizer(solutionsPageLayout, sectionTitles, information)
+  let solutionsContainer = document.querySelector(".solutions__container")
+  solutionsContainer.insertAdjacentHTML("afterbegin", solutionsRowLayout)
 }
 
 export default renderSolutionsTemplate
