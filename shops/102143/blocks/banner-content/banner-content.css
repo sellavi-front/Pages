@@ -16,6 +16,7 @@
 .banner-content__item_bg {
   overflow: visible;
   height: 300px;
+  max-width: 650px;
 }
 
 .banner-content__item_bg > picture {
