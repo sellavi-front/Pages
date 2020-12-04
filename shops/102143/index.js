@@ -106,3 +106,7 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ИП ТЮМЕНЦЕВА МАРИЯ ВАЛЕРЬЕВНА', media);
   req.setTemplate();
 }
+
+if (location.href.includes('checkout-checkout')) {
+  document.querySelector('figure>img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607104303/ThaiCosmetic/Group_1_1_1_wkhuus.png')
+}
