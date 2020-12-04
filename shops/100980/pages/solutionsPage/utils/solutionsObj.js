@@ -74,6 +74,8 @@ let renderSolutions = () => {
   }
 }
 
+renderSolutions()
+
 export const solutionsRowLayout = `
 <div class="solutions__row">
       <div class="solutions__column">
