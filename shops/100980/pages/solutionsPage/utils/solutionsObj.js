@@ -90,7 +90,7 @@ let renderSolutions = () => {
   let solutionsArr = Object.values(solutionObj)
 
   solutionsArr.map(item => {
-    console.log(item)
+    console.log("item: ", item)
     return `
     <div class="solutions__row">
       <div class="solutions__column">
