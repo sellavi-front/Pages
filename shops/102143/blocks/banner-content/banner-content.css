@@ -4,7 +4,7 @@
 
 .banner-content__item {
   background: #0B272A;
-  height: 400px;
+  height: 300px;
 }
 
 .banner-content__item > .container {
@@ -15,6 +15,7 @@
 
 .banner-content__item_bg {
   overflow: visible;
+  height: 300px;
 }
 
 .banner-content__item_bg > picture {
