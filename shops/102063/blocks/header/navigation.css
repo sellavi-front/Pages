@@ -50,5 +50,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-
-
+.d-none.d-lg-block.col-lg-4.text-right.p-0 {
+  display: none !important;
+}
