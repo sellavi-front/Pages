@@ -27,6 +27,6 @@ body .header .container {
 
 @media (max-width: 1595px) {
   body .content-area .container {
-    max-width: 95% !important;
+    max-width: 1300px !important;
   }
 }
