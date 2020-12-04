@@ -30,7 +30,7 @@ if (document.querySelector('.wrapper')) {
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
 
-    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart}</div>`);
+    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
   }
 
