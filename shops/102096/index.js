@@ -1,5 +1,5 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
-import { requsites, contact } from './utils/requsites.js';
+import { requsites, dataContact } from './utils/requsites.js';
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Ляховский Александр Владимирович');
@@ -15,5 +15,11 @@ if (location.href.includes('contact')) {
 }
 
 if (location.href.includes('policy')) {
+  const req = new Requisites(requsites, 'afterend', document.querySelector("#content > div > div"));
+  req.setTemplate();
+}
 
+if (location.href.includes('pay-delivery')) {
+  const req = new Requisites(requsites, 'afterend', document.querySelector("#content > div > div"), dataContact);
+  req.setTemplate();
 }
