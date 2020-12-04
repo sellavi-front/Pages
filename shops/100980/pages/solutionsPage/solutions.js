@@ -1,6 +1,6 @@
 import contentOptimizer from "../contentOptimizer.js"
 import "./utils/solutionsObj.js"
-import {solutionsRowLayout} from "./utils/solutionsObj.js";
+//import {solutionsRowLayout} from "./utils/solutionsObj.js";
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
