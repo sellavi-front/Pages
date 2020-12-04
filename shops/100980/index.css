@@ -640,6 +640,10 @@ body .footer .footer-widgets {
     width: 100%;
   }
 
+  .main__menu {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -907,6 +911,10 @@ body .footer .footer-widgets {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+  }
+
+  .main__menu {
+    display: none;
   }
 
 }
