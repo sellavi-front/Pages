@@ -3,7 +3,7 @@
 }
 
 .soc-icons__container {
-  justify-content: flex-end;
+  justify-content: center !important;
 }
 
 @media (max-width: 1024px) {

@@ -7,7 +7,8 @@
   border: 1px solid black !important;
   background: transparent !important;
   width: 72px;
-  padding: 5% 25%;
+  height: 52px;
+  padding: 0 !important;
 }
 
 body .btn.btn-theme.btn-theme-transparent:hover i {
