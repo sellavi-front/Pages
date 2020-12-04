@@ -89,7 +89,8 @@ if (document.querySelector('.common-home')) {
     btn.addEventListener('click', (e) => {
       setTimeout(() => {
         const a = document.querySelector('.alert');
-        banner.insertAdjacentHTML('afterend', a);
+        banner.insertAdjacentHTML('afterend', a.outerHTML)
+        a.remove();
       }, 2000);
     });
   });
