@@ -21,3 +21,7 @@
   background: transparent;
   border: none;
 }
+
+.header .header-search .form-control::placeholder {
+  color: snow !important;
+}
