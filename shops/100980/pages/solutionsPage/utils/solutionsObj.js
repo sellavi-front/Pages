@@ -82,7 +82,7 @@ export const solutionsRowLayout = `
       </div>
 
       <div class="solutions__column">
-        ${solutionObj.cafe.img}
+        <img src="${solutionObj.cafe.img}" alt="img" />
       </div>
 </div>
 `
