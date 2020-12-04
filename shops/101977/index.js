@@ -79,7 +79,10 @@ sender.render();
 }
 
 if (location.pathname !== '/') {
-  alert('test');
+  const oldMenu = document.querySelector('#home > div > header > div.navigation-wrapper > div > nav');
+  const newMenu = oldMenu.cloneNode(true);
+  document.querySelector('#search').insertAdjacentHTML('beforebegin', newMenu.outerHTML);
+  oldMenu.remove();
 }
 
 document.querySelector('.footer').remove();
