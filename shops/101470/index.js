@@ -95,7 +95,7 @@ if (document.querySelector('.wrapper')) {
   deleteElements.remove();
 
   //
-  document.querySelector('.sidenav_search').remove();
+//  document.querySelector('.sidenav_search').remove();
   document.querySelector('header .header-wrapper > div .header-cart').remove();
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
