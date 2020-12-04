@@ -19,3 +19,4 @@
 @import './Fix/textFix.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import './productCard/card.css';
