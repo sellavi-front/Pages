@@ -9,8 +9,8 @@
 
 .banner-content__item > .container {
   display: flex !important;
-  align-items: baseline !important;
-  justify-content: center;
+  align-items: center !important;
+  justify-content: flex-start;
 }
 
 .banner-content__item_bg {
