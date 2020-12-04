@@ -1,4 +1,7 @@
-import contentOptimizer from "../contentOptimizer.js";
+import contentOptimizer from "../contentOptimizer.js"
+import InfoCardTypeOne from "../../../../components/InfoCardTypeOne/InfoCardTypeOne.js"
+import "./utils/solutionsObj.js"
+import {solutionsRowLayout} from "./utils/solutionsObj";
 
 let sectionTitles = document.querySelector(".page-section.titles")
 let information = document.querySelector(".page-section.color.information")
@@ -12,8 +15,17 @@ let solutionsPageLayout = `
         <h1>Готовые решения</h1>
         <p>Получите бесплатное коммерческое предложение подходящего заведения</p>
     </div>
+
+    <div class="solutions__container">
+
+    </div>
+
   </div>
 `
+
+let solutionsContainer = document.querySelector(".solutions__container")
+solutionsContainer.insertAdjacentHTML("afterbegin", solutionsRowLayout)
+
 
 let renderSolutionsTemplate = () => {
   contentOptimizer(solutionsPageLayout, sectionTitles, information)
