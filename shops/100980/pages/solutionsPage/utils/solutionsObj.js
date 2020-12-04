@@ -70,7 +70,7 @@ export const solutionObj = {
 
 let renderSolutions = () => {
   for(let item in solutionObj) {
-    console.log(solutionObj[item])
+    return solutionObj[item]
   }
 }
 
