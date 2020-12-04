@@ -21,7 +21,7 @@ if (document.querySelector('.wrapper')) {
   const cart = document.querySelector('#cart');
 
   cart.querySelector('i').classList.add('far');
-  cart.cart.querySelector('i').classList.remove('fal');
+  cart.querySelector('i').classList.remove('fal');
 
   if (headerWidgets) {
     new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
