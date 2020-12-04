@@ -1,7 +1,5 @@
 if (document.querySelector('.common-home')) {
-  const btns = document.querySelectorAll(
-    '.add_to_wishlist > button',
-  );
+  const btns = document.querySelectorAll('.add_to_wishlist > button');
   const banner = document.querySelector('.main-slider');
 
   console.log(btns);
@@ -9,10 +7,8 @@ if (document.querySelector('.common-home')) {
 
   btns.forEach((btn) => {
     btn.addEventListener('click', () => {
-      setTimeout(() => {
-        console.log(document.querySelector('.alert'));
-        banner.insertAdjacentHTML('afterend', document.querySelector('.alert'));
-      }, 500);
+      console.log(document.querySelector('.alert'));
+      banner.insertAdjacentHTML('afterend', document.querySelector('.alert'));
     });
   });
 }
