@@ -67,3 +67,7 @@ body .content-area .page-section {
 body .section-title {
   margin-bottom: 50px !important;
 }
+
+.custom_section {
+  margin-top: 7%;
+}
