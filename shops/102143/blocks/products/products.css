@@ -47,6 +47,7 @@
 .product-product .product-single .buttons .btn-wish-list:hover {
   border-color: #509479 !important;
   color: #509479 !important;
+  background: transparent !important;
 }
 
 .product-product .product-single .buttons .btn-wish-list:hover {
