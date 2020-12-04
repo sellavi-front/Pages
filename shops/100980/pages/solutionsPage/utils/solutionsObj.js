@@ -106,7 +106,7 @@ let renderSolutions = () => {
       </div>
     </div>
     `
-  })
+  }).join('')
 }
 
 export default renderSolutions
