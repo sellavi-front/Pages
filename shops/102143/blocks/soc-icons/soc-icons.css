@@ -1,12 +1,13 @@
 .soc-icons {
   position: absolute;
+  bottom: 2%;
 }
 
 .soc-icons__container {
   justify-content: center !important;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .soc-icons {
     bottom: 10%;
     right: 5%;
