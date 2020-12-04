@@ -22,7 +22,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control
 }
 
 .search_black_screen {
-  display: none !important
+  display: none !important;
 }
 
 @media (max-width: 1230px) {
