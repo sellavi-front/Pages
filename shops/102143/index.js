@@ -1,5 +1,8 @@
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
-import '../../fixes/js/FooterCopy/FooterCopy.js';
+
+if (!location.href.includes('checkout')) {
+  import '../../fixes/js/FooterCopy/FooterCopy.js';
+}
 // import '../../fixes/js/Alert/Alert.js'
 
 // import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
