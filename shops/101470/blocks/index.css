@@ -48,3 +48,22 @@ body.ltr ul {
 #home > div > header > div.header-wrapper > div.container-fluid > ul:nth-child(3) {
   display: none;
 }
+
+.header_widgets {
+  display: flex;
+  align-self: center;
+}
+
+.header_widgets a {
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.header_widgets .header_wishlist {
+  margin-right: 15px;
+}
+
+.header-cart {
+  display: flex;
+  align-items: center;
+}
