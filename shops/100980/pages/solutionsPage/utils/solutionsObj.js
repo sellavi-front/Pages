@@ -89,7 +89,7 @@ export const solutionObj = {
 let renderSolutions = () => {
   let solutionsArr = Object.values(solutionObj)
 
-  solutionsArr.map(item => {
+  return solutionsArr.map(item => {
     console.log("item: ", item)
     console.log("title: ", item.title)
     return `
@@ -110,8 +110,6 @@ let renderSolutions = () => {
     `
   })
 }
-
-renderSolutions()
 
 export default renderSolutions
 
