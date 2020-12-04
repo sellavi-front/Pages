@@ -26,7 +26,7 @@ let navbar = `
       <a class="navbar_item" href="#"><p>Контакты</p></a>
 `
 
-containerNavbar.insertAdjacentHTML("beforeend", navbar)
+containerNavbar.insertAdjacentHTML("afterend", navbar)
 if(pages.home) {
   renderBanner()
   renderCustomSectionAboutCompany()
