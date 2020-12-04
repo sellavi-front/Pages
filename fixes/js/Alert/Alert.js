@@ -1,6 +1,6 @@
 if (document.querySelector('.common-home')) {
   const btns = document.querySelectorAll(
-    '.products > .product-item > div > .price_actions > .buttons__container > .add_to_wishlist > button',
+    '.products > .product-item > div > .price_actions > div > .add_to_wishlist > button',
   );
   const banner = document.querySelector('.main-slider');
 
