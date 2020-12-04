@@ -4,6 +4,7 @@ const banner = document.querySelector('.main-slider');
 btns.forEach((btn) => {
   btn.addEventListener('click', () => {
     setTimeout(() => {
+      console.log(document.querySelector('.alert'))
       banner.insertAdjacentHTML('afterend', document.querySelector('.alert'))
     }, 500)
   });
