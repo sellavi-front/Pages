@@ -97,8 +97,6 @@ if (location.pathname !== '/') {
     document.querySelector('#home > div > div').style.cssText = 'margin-top: 60px;';
     document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky > div > div.dropdown.cart_drop_down').style.cssText = 'display: none;';
     document.querySelector('#sidebar').style.cssText = 'margin-bottom: 20px;';
-    document.querySelector('.info-card__container').style.cssText = 'flex-direction: column;';
-    document.querySelector('#home > div > div > section > div:nth-child(1) > div.info-card > div > div > div').style.cssText = 'width: 100%;';
   }
 }
 
