@@ -1,6 +1,6 @@
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
-import '../../fixes/js/Alert/Alert.js'
+// import '../../fixes/js/Alert/Alert.js'
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import Requisites from '../../modules/Requisites/Requisites.js';
@@ -77,6 +77,27 @@ if (document.querySelector('.common-home')) {
     'beforeend',
     `<img class="img-bg img-bg_l" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`,
   );
+
+  const btns = document.querySelectorAll('.add_to_wishlist > button');
+  const banner = document.querySelector('.main-slider');
+
+  console.log(btns);
+  console.log(banner);
+
+  btns.forEach((btn) => {
+    console.log(btn);
+    console.log(document.querySelector('.alert'));
+    btn.addEventListener('click', console.log(123))
+    btn.addEventListener('click', (e) => {
+      const alert = document.querySelector('.alert');
+      console.log(e.target)
+      setTimeout(() => {
+        console.log(alert);
+        banner.insertAdjacentHTML('afterend', alert);
+      }, 2000);
+    });
+  });
+
 }
 
 if (document.querySelector('.product-item')) {
