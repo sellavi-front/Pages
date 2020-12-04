@@ -78,6 +78,10 @@ sender.render();
 
 }
 
+if (location.pathname !== '/') {
+  alert('test');
+}
+
 document.querySelector('.footer').remove();
 
 if (location.href.includes('term-of-use')) {
