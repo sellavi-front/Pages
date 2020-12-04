@@ -1,5 +1,4 @@
 import contentOptimizer from "../contentOptimizer.js"
-import InfoCardTypeOne from "../../../../components/InfoCardTypeOne/InfoCardTypeOne.js"
 import "./utils/solutionsObj.js"
 import {solutionsRowLayout} from "./utils/solutionsObj.js";
 
@@ -23,12 +22,13 @@ let solutionsPageLayout = `
   </div>
 `
 
-let solutionsContainer = document.querySelector(".solutions__container")
-solutionsContainer.insertAdjacentHTML("afterbegin", solutionsRowLayout)
+
 
 
 let renderSolutionsTemplate = () => {
   contentOptimizer(solutionsPageLayout, sectionTitles, information)
+  let solutionsContainer = document.querySelector(".solutions__container")
+  solutionsContainer.insertAdjacentHTML("afterbegin", solutionsRowLayout)
 }
 
 export default renderSolutionsTemplate
