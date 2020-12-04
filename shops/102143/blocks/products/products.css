@@ -65,9 +65,3 @@
 .product-product .product-single .buttons .quantity .qty[value] {
   font-size: 28px;
 }
-
-@media (max-width: 1595px) {
-  body .section-title {
-    text-align: center !important;
-  }
-}

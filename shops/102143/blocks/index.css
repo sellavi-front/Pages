@@ -67,6 +67,8 @@ body strong {
 .common-home .section-title {
   margin-bottom: 50px !important;
   margin-top: 0 !important;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .custom_section {
