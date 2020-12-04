@@ -55,3 +55,7 @@ h4.widget-title {
   border-bottom: 2px solid white;
   width: fit-content;
 }
+
+footer.footer {
+  margin-top: 20px;
+}
