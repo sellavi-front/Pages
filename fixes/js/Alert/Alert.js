@@ -8,6 +8,7 @@ if (document.querySelector('.common-home')) {
   btns.forEach((btn) => {
     console.log(btn);
     console.log(document.querySelector('.alert'));
+    btn.addEventListener('click', console.log(123))
     btn.addEventListener('click', (e) => {
       console.log(e.target)
       setTimeout(() => {
