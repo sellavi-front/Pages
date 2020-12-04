@@ -10,7 +10,7 @@ const contactData = [
     link: ''
   },
   {
-    icon: 'https://res.cloudinary.com/gz-company/image/upload/v1606488610/ThaiCosmetic/icons8-whatsapp_1_r1u6ry.png',
+    icon: 'https://res.cloudinary.com/gz-company/image/upload/v1607075173/ThaiCosmetic/icons8-whatsapp_1_byeep2.svg',
     text: '+7 (924) 313-3393',
     link: 'tel:79243133393'
   }
