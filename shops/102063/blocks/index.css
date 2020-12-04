@@ -49,5 +49,5 @@ h4.media-heading.item-title.summary {
 }
 
 .media.d-flex {
-  flex-direction: row;
+  flex-direction: row !important;
 }
