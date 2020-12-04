@@ -1,9 +1,10 @@
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
 import imgArr from "./utils/images.js"
 import pages from "./utils/pages.js"
-import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js"
-import renderComplexTemplate from "./pages/complex/complex.js"
-import renderDeliveryTemplate from "./pages/delivery/delivery.js"
+import renderAboutCompanyTemplate from "./pages/aboutPage/aboutCompany.js"
+import renderComplexTemplate from "./pages/complexPage/complex.js"
+import renderDeliveryTemplate from "./pages/deliveryPage/delivery.js"
+import renderSolutionsTemplate from "./pages/solutionsPage/solutions.js"
 import renderBanner from "./blocks/banner/banner.js"
 import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany/aboutCompany.js"
 import renderFooter from "./blocks/footer/footer.js"
@@ -56,6 +57,10 @@ if(pages.complex) {
 
 if(pages.delivery) {
   renderDeliveryTemplate()
+}
+
+if(pages.solutions) {
+  renderSolutionsTemplate()
 }
 
 /* ALL PAGES */
