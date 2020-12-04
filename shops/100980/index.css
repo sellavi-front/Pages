@@ -225,6 +225,17 @@ body.ltr ol, body.ltr ul {
   padding-right: unset;
 }
 
+.header-cart .cart-wrapper {
+  height: 41px;
+  border-radius: 4px;
+  border: 0 !important;
+  transition: border .3s;
+}
+
+.header-cart .cart-wrapper:hover {
+  border: 0;
+}
+
 .navigation-wrapper {
   display: none;
 }
