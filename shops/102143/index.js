@@ -34,9 +34,9 @@ if (document.querySelector('.wrapper')) {
     'beforeend',
     `<img class="img-bg img-bg_footer" src="https://res.cloudinary.com/gz-company/image/upload/v1606489415/ThaiCosmetic/Group_56_jzrryx.png">`,
   );
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
+  // const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
-  buttonsInHeader.setTemplate();
+  // buttonsInHeader.setTemplate();
   hideCart.remove();
   // End
 
