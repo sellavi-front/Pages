@@ -1,5 +1,6 @@
 .thumbnail .add_to_wishlist {
   position: initial !important;
+  height: 100%;
 }
 
 .thumbnail .add_to_wishlist button {
