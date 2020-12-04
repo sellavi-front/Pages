@@ -2,7 +2,8 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 // import '../../fixes/js/Alert/Alert.js'
 
-import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+// import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import '../../components/HeaderTypeOne/HeaderTypeOne.js'
 import Requisites from '../../modules/Requisites/Requisites.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
