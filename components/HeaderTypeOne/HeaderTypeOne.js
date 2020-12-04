@@ -22,8 +22,11 @@ if (document.querySelector('.wrapper')) {
   cart.classList.add('far');
   cart.classList.remove('fal');
 
-  if (headerWidgets) {
-    new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
+  if (!headerWidgets) {
+    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets"></div>`);
+
+    const headWidgets = headerContainer.querySelector('.header_widgets');
+    new CreateAddContainer(headerContainer, 'beforeend', headWidgets.outerHTML).render();
     headerWidgets.remove();
 
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
