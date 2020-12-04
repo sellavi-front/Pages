@@ -44,3 +44,7 @@ body.ltr ul {
 #home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper {
   justify-content: center !important
 }
+
+#home > div > header > div.header-wrapper > div.container-fluid > ul:nth-child(3) {
+  display: none;
+}
