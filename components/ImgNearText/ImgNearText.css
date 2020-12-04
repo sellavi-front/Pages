@@ -69,4 +69,9 @@
   .about__item_text {
     font-size: 16px;
   }
+
+  .about__item-container {
+    width: 100%;
+    max-width: 100%;
+  }
 }
