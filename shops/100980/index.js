@@ -15,15 +15,17 @@ import renderFooter from "./blocks/footer/footer.js"
 /* Setting logo */
 document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
 let containerNavbar = document.querySelector(".logo")
-containerNavbar.classList.add("navbar__block")
 
 let navbar = `
+    <div class="navbar__block">
       <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
       <a class="navbar_item" href="/delivery/"><p>Доставка</p></a>
       <a class="navbar_item" href="#"><p>Оплата и возврат</p></a>
       <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
       <a class="navbar_item" href="#"><p>Готовые решения</p></a>
       <a class="navbar_item" href="#"><p>Контакты</p></a>
+    </div>
+
 `
 
 containerNavbar.insertAdjacentHTML("afterend", navbar)
