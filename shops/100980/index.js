@@ -15,16 +15,6 @@ document.querySelector("header>.header-wrapper>.container").setAttribute("class"
 let containerNavbar = document.querySelector(".logo")
 let customSection = document.querySelector(".custom_section")
 
-let navbar = `
-    <div class="navbar__block">
-      <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
-      <a class="navbar_item" href="/delivery/"><p>Доставка, оплата и возврат</p></a>
-      <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
-      <a class="navbar_item" href="/solutions/"><p>Готовые решения</p></a>
-    </div>
-`
-
-containerNavbar.insertAdjacentHTML("afterend", navbar)
 if(pages.home) {
   renderBanner()
   renderCustomSectionAboutCompany()
