@@ -68,10 +68,3 @@ body .section-title {
   background: linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   width: 100%;
 } */
-
-@media (max-width: 352px) {
-  .thumbnail .add_to_wishlist button {
-    padding: 12% 25% !important;
-    height: auto !important;
-  }
-}
