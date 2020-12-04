@@ -1,7 +1,7 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import NavTransferTo from '../../modules/NavTransferTo/NavTransferTo.js';
 
-const headerWidgets = !document.querySelector('.header_widgets') ? document.querySelector('.header_widgets') : null;
+const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLogo = document.querySelector('.header-wrapper .logo');
 const wishList = `
@@ -17,15 +17,16 @@ const wishList = `
   </div>
 `;
 
-if(document.querySelector('.wrapper')) {
-  const cart = document.querySelector("#cart > i");
+if (document.querySelector('.wrapper')) {
+  const cart = document.querySelector('#cart > i');
   cart.classList.add('far');
   cart.classList.remove('fal');
 
-  new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
-  headerWidgets.remove();
+  if (headerWidgets) {
+    new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
+    headerWidgets.remove();
 
-  headerWidgets.insertAdjacentHTML('afterbegin', wishList);
-
+    headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+  }
   new NavTransferTo(headerLogo, 'afterend').transfer();
 }
