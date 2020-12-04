@@ -31,7 +31,8 @@
   border-radius: 20px;
 }
 
-.about__item_title {
+.about__item_title,
+.about__item_title > a {
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
