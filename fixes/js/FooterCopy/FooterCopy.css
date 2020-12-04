@@ -28,6 +28,10 @@
   display: none !important;
 }
 
+#sellavi_logo {
+  width: 70px !important;
+}
+
 @media (max-width: 450px) {
   #sellavi_logo {
     margin: 10px auto 0 auto;
