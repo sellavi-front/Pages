@@ -18,7 +18,7 @@
 
 .header .header-search {
   left: auto;
-  right: -8% !important;
+  right: 8% !important;
   position: absolute;
   width: 150px;
 }
