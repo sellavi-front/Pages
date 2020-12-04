@@ -54,3 +54,7 @@ body b,
 body strong {
   text-transform: none;
 }
+
+#home footer .footer-widgets .bs-menu-toggle {
+  display: none !important;
+}
