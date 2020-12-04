@@ -3,7 +3,7 @@
 @import url('https://coospir.github.io/Pages/components/DropDownList/DropDownList.css');
 @import url('https://coospir.github.io/Pages/shops/100980/pages/aboutPage/aboutCompany.css');
 @import url('https://coospir.github.io/Pages/shops/100980/pages/complexPage/complex.css');
-
+@import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
 
 html, body,
 body span,
@@ -32,6 +32,29 @@ input.form-control::placeholder,
 
 
 /* Header */
+
+.main__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navbar__block {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  width: 70%;
+}
+
+.navbar_item {
+  color: #000;
+  margin-top: 2rem;
+}
+
+.navbar_item + .navbar_item {
+  margin-left: 2rem;
+}
 
 .logo {
   margin: 0 !important;
