@@ -72,6 +72,11 @@ body strong {
   margin-top: 7%;
 }
 
-.header .header-search button {
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  top: 4px !important;
+}
+
+.header .header-search button,
+.header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
 }
