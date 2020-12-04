@@ -9,12 +9,6 @@ import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany
 import renderFooter from "./blocks/footer/footer.js"
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js'
 
-
-
-
-/* Deleting burger */
-//document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
-
 /* Setting logo */
 document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
 let containerNavbar = document.querySelector(".logo")
@@ -34,9 +28,8 @@ let navbar = `
       <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
       <a class="navbar_item" href="/delivery/"><p>Доставка, оплата и возврат</p></a>
       <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
-      <a class="navbar_item" href="#"><p>Готовые решения</p></a>
+      <a class="navbar_item" href="/solutions/"><p>Готовые решения</p></a>
     </div>
-
 `
 
 containerNavbar.insertAdjacentHTML("afterend", navbar)
