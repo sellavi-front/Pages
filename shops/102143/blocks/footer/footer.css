@@ -6,3 +6,7 @@
 body .footer .footer-meta {
   background: #204043 !important;
 }
+
+body .footer .footer-widgets {
+  padding: 20px 0 !important;
+}
