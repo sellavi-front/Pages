@@ -15,6 +15,7 @@ import renderFooter from "./blocks/footer/footer.js"
 /* Setting logo */
 document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
 let containerNavbar = document.querySelector(".logo")
+let customSection = document.querySelector(".custom_section")
 
 let navbar = `
     <div class="navbar__block">
