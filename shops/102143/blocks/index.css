@@ -58,3 +58,12 @@ body strong {
 #home footer .footer-widgets .bs-menu-toggle {
   display: none !important;
 }
+
+
+body .content-area .page-section {
+  margin-top: 10% !important;
+}
+
+body .section-title {
+  margin-bottom: 50px !important;
+}

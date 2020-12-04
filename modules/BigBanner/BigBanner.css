@@ -19,7 +19,7 @@
   overflow: hidden;
   background-position: center !important;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   transform: translate(0);
 }
 

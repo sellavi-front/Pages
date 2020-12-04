@@ -1,9 +1,14 @@
 .soc-icons {
   position: absolute;
-  bottom: 10%;
-  right: 5%;
 }
 
 .soc-icons__container {
   justify-content: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .soc-icons {
+    bottom: 10%;
+    right: 5%;
+  }
 }
