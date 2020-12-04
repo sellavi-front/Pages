@@ -27,6 +27,7 @@ export default class FooterCopy {
   }
 }
 
+if (!location.href.includes('checkout'))
 const footer = new FooterCopy();
 
 footer.render();
