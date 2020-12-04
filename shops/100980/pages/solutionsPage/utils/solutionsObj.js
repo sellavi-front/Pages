@@ -12,7 +12,7 @@ export const solutionObj = {
     countPlacesOne: 'Бар на 20 мест',
     countPlacesTwo: 'Бар на 40 мест',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/helena-yankovska-sJOy9pveFbU-unsplash_1_yxbj2t.png'
   },
 
   pizza: {
@@ -20,7 +20,7 @@ export const solutionObj = {
     countPlacesOne: 'Пиццерия на 20 мест',
     countPlacesTwo: 'Пиццерия на 40 мест',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/peter-bravo-de-los-rios-K70I7ecmXqg-unsplash_1_d3xkmq.png'
   },
 
   fastFood: {
@@ -29,7 +29,7 @@ export const solutionObj = {
     countPlacesTwo: 'Прилавок Шаурма',
     countPlacesThree: 'Кафе фаст-фуд на 40 мест',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092993/jonathan-borba-8l8Yl2ruUsg-unsplash_1_jz7bub.png'
   },
 
   diningHall: {
@@ -38,7 +38,7 @@ export const solutionObj = {
     countPlacesTwo: 'Столовая на 100 мест',
     countPlacesThree: 'Столовая на 200 мест',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/medina-catering-AdtqezIqv7c-unsplash_1_jrmlel.png'
   },
 
   restaurants: {
@@ -46,7 +46,7 @@ export const solutionObj = {
     countPlacesOne: 'Ресторан на 50 мест',
     countPlacesTwo: 'Ресторан на 100 мест',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/robert-mathews-xXaLfz6V9rQ-unsplash_1_1_zkvp0f.png'
   },
 
   lines: {
@@ -56,7 +56,7 @@ export const solutionObj = {
     countPlacesThree: 'Линия раздачи "Премьер"',
     countPlacesFour: 'Линия раздачи "Ривьера"',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093006/5_1_nnuxdd.png'
   },
 
   shops: {
@@ -64,14 +64,17 @@ export const solutionObj = {
     countPlacesOne: 'Магазин "Прилавок-продавец"',
     countPlacesTwo: 'Магазин "Мини-маркет"',
     buttonGetSolution: "<a>Получить готовое решение</a>",
-    img: ''
+    img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
   },
 }
 
+
+
 let renderSolutions = () => {
-  for(let item in solutionObj) {
-    return solutionObj[item]
-  }
+  let solutionsArr = Object.values(solutionObj)
+  solutionsArr.map(item => {
+    console.log(item)
+  })
 }
 
 renderSolutions()
