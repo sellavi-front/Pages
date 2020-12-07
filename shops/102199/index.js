@@ -6,9 +6,12 @@ import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js'
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 
-const customSection = document.querySelector('.custom_section');
+
 
 if (document.querySelector('.wrapper')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
 
