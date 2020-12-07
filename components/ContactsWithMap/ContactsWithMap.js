@@ -7,7 +7,8 @@ export default class ContactsWithMap {
     this.obj = obj;
     this.contacts = this.obj.contacts;
     this.yaMap = this.obj.yaMap;
-    console.log(this.obj);
+    console.log(this.yaMap);
+    console.log(this.contacts);
   }
 
   setTemplate() {
