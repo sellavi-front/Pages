@@ -12,7 +12,7 @@ export default class ButtonContainerInProduct {
   createContainer() {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
-        'beforeend',
+        'afterend',
         `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
@@ -23,10 +23,11 @@ export default class ButtonContainerInProduct {
 }
 
 const priceActions = document.querySelectorAll('.price_actions');
+const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 const addToWishList = document.querySelectorAll('.add_to_wishlist');
 
-const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, priceActions);
+const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, price);
 
 buttonContainerInProduct.createContainer();
 
