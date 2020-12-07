@@ -37,8 +37,6 @@ if(pages.home) {
   categories.render()
 
   // Custom section
-
-
   renderWhyChooseUsTemplate()
   renderCustomSectionAboutCompany()
 
