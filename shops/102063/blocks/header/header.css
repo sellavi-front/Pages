@@ -29,9 +29,9 @@ body .content-area {
   text-align: center;
 } 
 
-.fa-shopping-cart:before {
-  color: black;
-}
+/* .fa-shopping-cart:before {
+  color: rgb(255, 255, 255);
+} */
 
 @media (max-device-width: 480px) {
   #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo > a > img {
