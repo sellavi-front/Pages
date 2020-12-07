@@ -167,3 +167,9 @@ h3.img-inner_title {
 #home > div.out-container > div > div.inner-whats > div {
     cursor: pointer;
 }
+
+@media (max-device-width: 480px) {
+    label.placeholder {
+     font-size: 9px !important;  
+    }
+}
