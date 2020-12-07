@@ -16,3 +16,7 @@
   flex-direction: column;
   width: 100%;
 }
+
+.why__choose_us_column img {
+  width: 10%;
+}
