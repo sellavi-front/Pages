@@ -126,7 +126,7 @@ let renderSolutions = () => {
       </div>
 
       <div class="solutions__column_links">
-        ${item.buttonGetSolution}
+        ${item.buttonGetSolution.join('')}
       </div>
 
       <div class="solutions__column">
