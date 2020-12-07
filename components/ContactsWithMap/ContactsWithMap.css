@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.contact__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 50px !important;
+}
+
 .contact__list {
   width: 50%;
   display: flex;
@@ -31,6 +37,6 @@
   margin: 0 !important;
 }
 
-.contact__list-el .contact__title {
+.contact__list-el .contact__list-title {
   font-weight: bold;
 }

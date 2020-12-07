@@ -7,6 +7,7 @@ export default class ContactsWithMap {
     this.obj = obj;
     this.contacts = this.obj.contacts;
     this.yaMap = this.obj.map;
+    this.title = this.obj.title;
     console.log(this.yaMap);
     console.log(this.contacts);
   }
@@ -15,6 +16,7 @@ export default class ContactsWithMap {
     return `
       <div class="contact-with-map">
         <ul class="contact__list">
+          <li class="contact__title">${this.title}</li>
           ${this.setData().join('')}
         </ul>
         <div class="contact__map">
@@ -28,10 +30,10 @@ export default class ContactsWithMap {
     return this.contacts.map(
       (item) => `
         <li class="contact__list-el">
-          <p class="contact__title">
+          <p class="contact__list-title">
             ${item.title}
           </p>
-          <p class="contact__text">
+          <p class="contact__list-text">
             ${item.contact}
           </p>
         </li>
