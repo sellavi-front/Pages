@@ -25,9 +25,15 @@ export default class ButtonContainerInProduct {
 const priceActions = document.querySelectorAll('.price_actions');
 const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
-const addToWishList = document.querySelectorAll('.add_to_wishlist') ? document.querySelectorAll('.add_to_wishlist') : document.querySelectorAll('.remove_from_wishlist') ;
-console.log(addToWishList);
-const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, price);
+
+if (!document.querySelectorAll('.add_to_wishlist')) {
+ var wishList = document.querySelectorAll('.remove_from_wishlist');
+} else {
+  var wishList = document.querySelectorAll('.add_to_wishlist');
+}
+
+console.log(wishList);
+const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
 buttonContainerInProduct.createContainer();
 
