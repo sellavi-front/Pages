@@ -70,5 +70,24 @@
     padding-top: 0;
   }
 
+  .complex__block h1 {
+    margin-top: 1%;
+    font-weight: 900;
+    margin-bottom: 5%;
+    font-size: 21px;
+    padding: 0 !important;
+  }
+
+  .about__company_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 5% !important;
+  }
+
+  .about__company_container p {
+    padding: 5%;
+  }
 
 }
