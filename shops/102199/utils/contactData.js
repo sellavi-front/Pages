@@ -1,4 +1,5 @@
 const contactData = {
+  title: 'Контакты',
   contacts: [
     {
       title: 'Адрес',
