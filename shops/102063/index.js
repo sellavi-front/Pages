@@ -50,7 +50,7 @@ if (document.querySelector('.common-home')) {
 
 }
 
-document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div><a href="https://store102063.sellavi.com/"></a></div>');
+//document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div><a href="https://store102063.sellavi.com/"></a></div>');
 
 
 /* description */
