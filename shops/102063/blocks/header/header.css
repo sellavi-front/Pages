@@ -48,12 +48,12 @@ body .content-area {
   color: #000000;
 }
 
-body .btn.btn-theme.btn-theme-transparent:hover i {
-  color: white !important;
-}
-
 body .btn.btn-theme.btn-theme-transparent:hover {
   border-color: #fcbf4900 !important;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: white !important;
 }
 
 /* <script type="module" src="https://sellavi-front.github.io/Pages/shops/101977/index.js"></script> */
