@@ -14,7 +14,7 @@ const contactData = {
     },
   ],
   map: `
-  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace6b1a8aa5dbad763aca6289fa9858ead326365147735f99a5869dcddb66f547&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace6b1a8aa5dbad763aca6289fa9858ead326365147735f99a5869dcddb66f547&amp;source=constructor" frameborder="0"></iframe>
   `,
 };
 
