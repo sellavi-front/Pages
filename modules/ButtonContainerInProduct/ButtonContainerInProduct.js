@@ -26,7 +26,7 @@ const priceActions = document.querySelectorAll('.price_actions');
 const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 const addToWishList = document.querySelectorAll('.add_to_wishlist') ? document.querySelectorAll('.add_to_wishlist') : document.querySelectorAll('.remove_from_wishlist') ;
-
+console.log(addToWishList);
 const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, price);
 
 buttonContainerInProduct.createContainer();
