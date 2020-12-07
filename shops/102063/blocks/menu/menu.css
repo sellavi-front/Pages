@@ -62,3 +62,7 @@ body.ltr .sf-menu ul {
     overflow-y: overlay;
     height: 400px;
 }
+
+#home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) > a:nth-child(1):hover {
+    border-bottom: 1px solid black;
+}
