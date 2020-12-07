@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-@import './header/header.css';
+/*@import './header/header.css';*/
 @import './page-section/page-section.css';
 @import './icons/icons.css';
 @import './product-layout/product-layout.css';
@@ -8,7 +8,7 @@
 @import './footer/footer.css';
 
 
-/*@import '../../../fixes/fixes.css';*/
+@import '../../../fixes/fixes.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components/SmallCategory/SmallCategory.css';
 @import '../../../components/SmallImgSlider/SmallImgSlider.css';
