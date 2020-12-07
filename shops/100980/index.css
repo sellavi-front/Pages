@@ -622,7 +622,8 @@ body .footer .footer-widgets {
   .bread__crumbs_container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 5%;
   }
 
   .about__company_requisites {
@@ -911,7 +912,8 @@ body .footer .footer-widgets {
   .bread__crumbs_container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 5%;
   }
 
   .about__company_requisites {
