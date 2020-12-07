@@ -93,3 +93,11 @@ h3.img-inner_title {
 .sf-menu ul {
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 0%);
 }
+
+#home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) > a:nth-child(1):hover {
+    cursor: pointer;
+}
+
+#home > div.out-container > div > div {
+    cursor: pointer;
+}
