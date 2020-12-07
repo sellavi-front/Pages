@@ -147,3 +147,23 @@ h3.img-inner_title {
     width: 30%;
     height: 40px
 }
+
+#home > div.out-container > div > div.inner-whats > h3 {
+    cursor: text;
+}
+
+#home > div.out-container > div > div:nth-child(2) {
+    cursor: text;
+}
+
+#home > div.out-container > div > div:nth-child(4) {
+    cursor: text;
+}
+
+#home > div.out-container > div > div.inner-whats {
+    cursor: default;
+}
+
+#home > div.out-container > div > div.inner-whats > div {
+    cursor: pointer;
+}
