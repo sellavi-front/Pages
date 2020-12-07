@@ -1,0 +1,18 @@
+.why__choose__us {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.why__choose_us_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.why__choose_us_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

@@ -1,5 +1,6 @@
 let whyChooseUsTemplate = `
   <div class="container why__choose__us">
+    <h1>Что мы делаем</h1>
     <div class="why__choose_us_row">
         <div class="why__choose_us_column">
             <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342141/Component_4_wc6bm9.png" alt="img"/>
