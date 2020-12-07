@@ -76,6 +76,5 @@ body.ltr .sf-menu ul {
 }
 
 .out-container {
-    display: flex !important;
     justify-content: center;
 }
