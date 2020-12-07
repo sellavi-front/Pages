@@ -6,3 +6,9 @@
   padding: 0 !important;
   max-width: 340px !important;
 }
+
+/* Hide btn in category */
+
+.thumbnail .caption .btn {
+  display: none !important;
+}
