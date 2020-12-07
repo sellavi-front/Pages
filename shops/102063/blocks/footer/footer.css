@@ -67,3 +67,19 @@ footer.footer {
 #home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div > div > div > h4 {
   margin-bottom: 20px !important;
 }
+
+.footer_content_wrapper > div > div:nth-child(4) {
+  display: none !important;
+}
+
+.footer_content_wrapper > div > div:nth-child(1) {
+  display: none !important;
+}
+
+#sellavi_logo {
+  height: 39px !important;
+}
+
+#sellavi_logo {
+  width: 106px !important;
+}
