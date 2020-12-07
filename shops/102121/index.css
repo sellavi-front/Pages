@@ -29,8 +29,7 @@ input.form-control::placeholder,
 .checkout_table {
   font-family: 'Comfortaa', cursive !important;
 }
-
-/* Content */
+/*
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   display: none
 }
@@ -64,7 +63,6 @@ body.ltr .product-single table td {
   font-size: 10px;
 }
 
-/* Footer */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .col-md-3 + .col-md-3 {
@@ -75,4 +73,4 @@ body.ltr .product-single table td {
     font-size: 25px !important;
   }
 }
-
+ */
