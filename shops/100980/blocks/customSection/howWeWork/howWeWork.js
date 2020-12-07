@@ -1,6 +1,6 @@
 let howWeWorkLayout = `
 <div class="container how__we__work">
-  <h1>Почему нас выбирают</h1>
+  <h1>Как мы работаем</h1>
   <div class="steps__how_container">
 
       <div class="steps__how_item">
