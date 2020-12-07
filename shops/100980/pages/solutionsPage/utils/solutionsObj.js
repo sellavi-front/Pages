@@ -19,7 +19,7 @@ export const solutionObj = {
       '<p>Бар на 40 мест</p>'
     ],
     buttonGetSolution: [
-      "<a>Получить готовое решение</a>",
+      `<a>Получить готовое решение</a>`,
       "<a>Получить готовое решение</a>",
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/helena-yankovska-sJOy9pveFbU-unsplash_1_yxbj2t.png'
