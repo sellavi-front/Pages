@@ -172,4 +172,12 @@ h3.img-inner_title {
     label.placeholder {
      font-size: 9px !important;  
     }
+
+    #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo > a > img {
+        left: -20px;
+    }
+    
+    #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+        display: none;
+    }
 }
