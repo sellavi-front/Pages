@@ -2,6 +2,16 @@
   border: none !important;
 }
 
+.wrapper .homefeatured_category > div > div > div {
+  width: 100%;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+  object-fit: cover;
+}
+
 /* Hide btn in category */
 
 .thumbnail .caption .btn {
@@ -20,6 +30,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
   background: none;
-  color: #000;
+  color: #000 !important;
   font-size: 18px;
+  font-weight: 600;
 }

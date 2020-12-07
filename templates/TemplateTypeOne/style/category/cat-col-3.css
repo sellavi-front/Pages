@@ -1,13 +1,10 @@
 
+/* Width bg */
 .wrapper .homefeatured_category > div > div > div {
-  padding: 0 !important;
   max-width: 390px !important;
-  width: 100%;
-  border: none !important;
 }
 
 /* HEIGHT IMG */
 .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
   max-height: 280px !important;
-  object-fit: cover;
 }
