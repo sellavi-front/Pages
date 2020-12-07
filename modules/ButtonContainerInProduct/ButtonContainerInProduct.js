@@ -25,7 +25,7 @@ export default class ButtonContainerInProduct {
 const priceActions = document.querySelectorAll('.price_actions');
 const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
-const addToWishList = document.querySelectorAll('.add_to_wishlist');
+const addToWishList = document.querySelectorAll('.add_to_wishlist') ? document.querySelectorAll('.add_to_wishlist') : document.querySelectorAll('.remove_from_wishlist') ;
 
 const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, price);
 
