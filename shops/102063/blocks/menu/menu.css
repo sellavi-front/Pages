@@ -85,3 +85,7 @@ body.ltr .sf-menu ul {
 h3.img-inner_title {
     text-align: center;
 }
+
+.sf-menu li:hover, .sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
+    background: rgb(0 141 234) !important;
+}
