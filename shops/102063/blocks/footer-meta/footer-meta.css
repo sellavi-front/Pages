@@ -20,7 +20,7 @@
 }
 
 .footer_content_container {
-  height: 30px;
+  height: 30px !important;
 }
 
 #home > div.wrapper.wrapper-closed > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(2) {
