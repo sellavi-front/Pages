@@ -6,8 +6,8 @@ export const solutionObj = {
       '<p>Кафе на 30 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a>",
-      "<p><a>Получить готовое решение</a>"
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
   },
