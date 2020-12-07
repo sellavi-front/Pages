@@ -3,6 +3,10 @@ body .content-delivery {
   margin-bottom: 80px;
 }
 
+body .content-delivery:nth-child(3) {
+  flex-direction: column !important;
+}
+
 @media(max-width: 768px) {
  body .content-delivery {
     flex-flow: column;
