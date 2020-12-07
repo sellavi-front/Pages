@@ -1,0 +1,11 @@
+.steps__how_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.how__we__work h1 {
+  font-weight: 900;
+  margin-bottom: 5%;
+}

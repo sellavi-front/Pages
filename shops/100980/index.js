@@ -9,6 +9,7 @@ import renderBanner from "./blocks/banner/banner.js"
 import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany/aboutCompany.js"
 import renderWhatWeDo from "./blocks/customSection/whatWeDo/whatWeDo.js"
 import renderWhyChooseUs from "./blocks/customSection/whyChooseUs/whyChooseUs.js"
+import renderHowWeWork from "./blocks/customSection/howWeWork/howWeWork.js"
 import renderFooter from "./blocks/footer/footer.js"
 
 
@@ -41,6 +42,7 @@ if(pages.home) {
   renderCustomSectionAboutCompany()
   renderWhatWeDo()
   renderWhyChooseUs()
+  renderHowWeWork()
 
 
   document.querySelector(".section-title.mb-4.mt-4").remove()
