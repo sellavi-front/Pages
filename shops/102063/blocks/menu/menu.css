@@ -117,3 +117,33 @@ h3.img-inner_title {
 #sidebar > div > div > ul > li.active {
     display: none;
 }
+
+
+.inner-whats {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between
+}
+
+#home > div.out-container > div > div > div {
+    height: 26px;
+}
+
+#msg {
+    text-align: left !important;
+    border-bottom: 0px;
+    background: #ececec;
+    height: 50px;
+}
+
+#number {
+    text-align: left !important;
+    border-bottom: 0px;
+    background: #ececec;
+    height: 50px;
+}
+
+#home > div.out-container > div > button {
+    width: 30%;
+    height: 40px
+}
