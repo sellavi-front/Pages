@@ -6,7 +6,7 @@ export default class ContactsWithMap {
     this.container = container;
     this.obj = obj;
     this.contacts = this.obj.contacts;
-    this.yaMap = this.obj.yaMap;
+    this.yaMap = this.obj.map;
     console.log(this.yaMap);
     console.log(this.contacts);
   }
