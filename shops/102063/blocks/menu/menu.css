@@ -89,3 +89,7 @@ h3.img-inner_title {
 .sf-menu li:hover, .sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
     background: rgb(0 141 234) !important;
 }
+
+.sf-menu ul {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 0%);
+}
