@@ -1,10 +1,11 @@
-.homefeatured_category > div > div > div > .thumbnail {
+/* .homefeatured_category > div > div > div > .thumbnail {
   border: none !important;
-}
+} */
 
-.wrapper .homefeatured_category>div>div>div {
+.wrapper .homefeatured_category>div>div>div .thumbnail {
   padding: 0 !important;
   max-width: 340px !important;
+  border: none !important;
 }
 
 /* Hide btn in category */
@@ -12,3 +13,5 @@
 .thumbnail .caption .btn {
   display: none !important;
 }
+
+/* END Hide btn in category */
