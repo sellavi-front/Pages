@@ -15,7 +15,7 @@ export default class ContactsWithMap {
     return `
       <div class="contact-with-map">
       <ul class="contact__list">
-          ${this.setData()}
+          ${this.setData().join('')}
         </ul>
         <div class="contact__map">
         ${this.yaMap}
