@@ -57,11 +57,16 @@
     align-items: flex-start;
   }
 
+  .solutions__column img {
+    width: 100%;
+  }
+
   .solutions__column_links {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: flex-start;
+    padding-top: 0;
   }
 
 
