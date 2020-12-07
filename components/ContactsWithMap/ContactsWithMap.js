@@ -14,7 +14,7 @@ export default class ContactsWithMap {
   setTemplate() {
     return `
       <div class="contact-with-map">
-      <ul class="contact__list">
+        <ul class="contact__list">
           ${this.setData().join('')}
         </ul>
         <div class="contact__map">
@@ -28,8 +28,12 @@ export default class ContactsWithMap {
     return this.contacts.map(
       (item) => `
         <li class="contact__list-el">
-          ${item.title}
-          ${item.contact}
+          <p class="contact__title">
+            ${item.title}
+          </p>
+          <p class="contact__text">
+            ${item.contact}
+          </p>
         </li>
       `,
     );
