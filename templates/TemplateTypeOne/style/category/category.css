@@ -1,12 +1,11 @@
-/* .homefeatured_category > div > div > div > .thumbnail {
+.homefeatured_category > div > div > div  {
   border: none !important;
-} */
+}
 
 .wrapper .homefeatured_category>div>div>div .thumbnail {
   padding: 0 !important;
   max-width: 450px !important;
   max-height: 340px !important;
-  border: none !important;
 }
 
 /* Hide btn in category */
