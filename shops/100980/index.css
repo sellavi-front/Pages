@@ -602,6 +602,10 @@ body .footer .footer-widgets {
     font-size: 21px;
   }
 
+  .complex__block h1 {
+    padding: 5%;
+  }
+
   .complex__block p {
     margin-bottom: 5%;
     padding: 5%;
