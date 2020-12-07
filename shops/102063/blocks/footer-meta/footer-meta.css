@@ -10,3 +10,23 @@
 .footer_content_text > p {
   display: none;
 }
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(4) {
+  display: none;
+}
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(1) {
+  display: none;
+}
+
+.footer_content_container {
+  height: 30px;
+}
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(2) {
+  height: 30px !important;
+}
+
+#sellavi_logo {
+  width: 100px !important;
+}
