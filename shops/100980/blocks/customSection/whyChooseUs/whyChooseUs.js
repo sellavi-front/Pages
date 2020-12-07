@@ -1,7 +1,7 @@
 let whyChooseUsLayout = `
 <div class="container">
   <h1>Почему нас выбирают</h1>
-  <div class="steps__block_container">
+  <div class="steps__why_container">
       <div class="steps__block_item">
           <div class="step__item">
               <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342222/delivery_1_2_crdatu.png" alt="img" />
