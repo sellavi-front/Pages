@@ -17,8 +17,8 @@ export default class ButtonContainerInProduct {
       );
     });
 
-    this.delete(addToCart);
-    this.delete(addToWishList);
+    // this.delete(addToCart);
+    // this.delete(addToWishList);
   }
 }
 
@@ -37,6 +37,8 @@ console.log(wishList);
 const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
 buttonContainerInProduct.createContainer();
+buttonContainerInProduct.delete(addToCart)
+buttonContainerInProduct.delete(wishList)
 
 // const btnContainer = document.querySelectorAll('.buttons__container')
 
