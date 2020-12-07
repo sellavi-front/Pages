@@ -1,11 +1,17 @@
-.homefeatured_category > div > div > div  {
+.homefeatured_category > div > div > div .thumbnail {
   border: none !important;
 }
 
-.wrapper .homefeatured_category>div>div>div .thumbnail {
+.wrapper .homefeatured_category > div > div > div {
   padding: 0 !important;
   max-width: 450px !important;
   max-height: 340px !important;
+  border: none !important;
+}
+
+/* HEIGHT IMG */
+.homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+  height: 350px !important;
 }
 
 /* Hide btn in category */
