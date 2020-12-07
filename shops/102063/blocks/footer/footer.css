@@ -12,6 +12,10 @@ body .footer a,
   padding: 0 !important;
 }
 
+.footer .footer-widgets .widget-title {
+  margin-bottom: 20px !important
+}
+
 .footer .footer-widgets .widget-title:before,
 .widget-categories ul li a:before {
   display: none !important;
