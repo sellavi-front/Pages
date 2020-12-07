@@ -7,11 +7,11 @@ const contactData = {
     },
     {
       title: 'Телефон',
-      contact: '+7(926)367-97-77',
+      contact: '<a href="tel:+7(926)367-97-77">+7(926)367-97-77</a>',
     },
     {
       title: 'E-mail',
-      contact: 'magazin1170@mail.ru	',
+      contact: '<a href="mailto:magazin1170@mail.ru">magazin1170@mail.ru</a>',
     },
   ],
   map: `
