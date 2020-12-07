@@ -1,47 +1,63 @@
-let whyChooseUsTemplate = `
-  <div class="container why__choose__us">
-    <h1>Что мы делаем</h1>
-    <div class="why__choose_us_row">
-        <div class="why__choose_us_column">
-            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342141/Component_4_wc6bm9.png" alt="img"/>
-            <p>Разработка дизайн проекта
-            и проектной документации</p>
-        </div>
+let whyChooseUsLayout = `
+<div class="container">
+  <h1>Почему нас выбирают</h1>
+  <div class="steps__block_container">
+      <div class="steps__block_item">
+          <div class="step__item">
+              <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342222/delivery_1_2_crdatu.png" alt="img" />
+              <h6>Доставка за 1 день</h6>
+              <p>Благодаря большому количеству складов наших партнеров,
+                большое количество товаров есть в наличии.</p>
+          </div>
+      </div>
 
-        <div class="why__choose_us_column">
-            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342130/Component_5_vrrhtb.png" alt="img"/>
-            <p>Разработка меню
-            и фирменного стиля</p>
-        </div>
+      <div class="steps__block_item">
+          <div class="step__item">
+              <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342230/online-class_1_mdjgnd.png" alt="img" />
+              <h6>Ориентированность на клиента</h6>
+              <p>Мы вместе создаем идею и советуемся на каждом этапе реализации проекта.</p>
+          </div>
+      </div>
 
-        <div class="why__choose_us_column">
-            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342130/Component_6_bo2g4n.png" alt="img"/>
-            <p>Оснащение оборудованием</p>
-        </div>
-    </div>
+      <div class="steps__block_item">
+          <div class="step__item">
+              <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342261/achievement_1_ibie5h.png" alt="img" />
+              <h6>Лучшие бренды оборудования</h6>
+              <p>Мы сотрудничаем с такими производителями как Rational, Unox, Convotherm, Apach.</p>
+          </div>
+      </div>
 
-    <div class="why__choose_us_row">
-        <div class="why__choose_us_column">
-            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342130/Component_7_texdwd.png" alt="img"/>
-            <p>Строительно-монтажные
-            работы в помещении</p>
-        </div>
+      <div class="steps__block_item">
+          <div class="step__item">
+              <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342222/quality_1_gpgb0s.png" alt="img" />
+              <h6>Опыт работы более 5 лет</h6>
+              <p>Мы оснащаем рестораны с 2012 года.</p>
+          </div>
+      </div>
 
-        <div class="why__choose_us_column">
-            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342130/Component_8_rbqhcn.png" alt="img"/>
-            <p>Оформление прикассовой зоны</p>
-        </div>
 
-        <div class="why__choose_us_column">
-            <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342130/Component_9_fnomly.png" alt="img"/>
-            <p>Техническое обслуживание</p>
-        </div>
-    </div>
+      <div class="steps__block_item">
+          <div class="step__item">
+              <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342222/debit-cards_1_uefmfy.png" alt="img" />
+              <h6>Гибкие условия оплаты</h6>
+              <p>Предлагаем своим постоянным клиентам рассрочку за счет собственных средств,
+                    также есть возможность купить в кредит от Банка.</p>
+          </div>
+      </div>
+
+      <div class="steps__block_item">
+          <div class="step__item">
+              <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607342222/Group_25_t2lh8a.png" alt="img" />
+              <h6>Гарантия на работы</h6>
+              <p>Даем гарантию на каждые виды работ от 1-2 лет и бесплатное сопровождение по работе с оборудованием в течение 6 месяцев.</p>
+          </div>
+      </div>
   </div>
+</div>
 `
 
-let renderWhyChooseUsTemplate = () => {
-  document.querySelector(".custom_section").insertAdjacentHTML("beforeend", whyChooseUsTemplate)
+let renderWhyChooseUs = () => {
+  document.querySelector(".custom_section").insertAdjacentHTML("beforeend", whyChooseUsLayout)
 }
 
-export default renderWhyChooseUsTemplate
+export default renderWhyChooseUs

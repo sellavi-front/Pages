@@ -1,0 +1,32 @@
+.why__choose__us {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.why__choose__us h1 {
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.why__choose_us_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.why__choose_us_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.why__choose_us_column p {
+  margin-top: 10%;
+}
+
+.why__choose_us_column img {
+  width: 10%;
+}

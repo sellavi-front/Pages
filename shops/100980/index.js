@@ -7,7 +7,8 @@ import renderDeliveryTemplate from "./pages/deliveryPage/delivery.js"
 import renderSolutionsTemplate from "./pages/solutionsPage/solutions.js"
 import renderBanner from "./blocks/banner/banner.js"
 import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany/aboutCompany.js"
-import renderWhyChooseUsTemplate from "./blocks/customSection/whyChooseUs/whyChooseUs.js"
+import renderWhatWeDo from "./blocks/customSection/whatWeDo/whatWeDo.js"
+import renderWhyChooseUs from "./blocks/customSection/whyChooseUs/whyChooseUs.js"
 import renderFooter from "./blocks/footer/footer.js"
 
 
@@ -38,7 +39,8 @@ if(pages.home) {
 
   // Custom section
   renderCustomSectionAboutCompany()
-  renderWhyChooseUsTemplate()
+  renderWhatWeDo()
+
 
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
