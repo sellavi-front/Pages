@@ -2,7 +2,7 @@
 body.theme_11 .wrapper .page-section .products.grid .product-item {
   border: none !important;
   padding: 0 !important;
-  margin: 0 20px 50px 0;
+  margin: 0 20px 50px 0 !important;
 }
 
 /* Size product card */
