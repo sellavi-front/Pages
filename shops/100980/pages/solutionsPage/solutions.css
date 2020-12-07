@@ -41,3 +41,28 @@
 .solutions__column_links a {
   line-height: 2.8rem;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .solutions__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .solutions__row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .solutions__column_links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+
+}
