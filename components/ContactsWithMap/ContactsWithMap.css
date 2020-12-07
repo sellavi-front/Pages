@@ -17,3 +17,16 @@
   height: auto;
   max-height: 450px;
 }
+
+.contact__list-el {
+  margin-bottom: 30px;
+}
+
+.contact__list-el p {
+  font-size: 18px;
+  margin: 0 !important;
+}
+
+.contact__list-el .contact__title {
+  font-weight: bold;
+}
