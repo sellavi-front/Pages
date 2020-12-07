@@ -2,7 +2,7 @@
   border: none !important;
 }
 
-body.theme_11 .wrapper .homefeatured_category>div>div>div {
+.wrapper .homefeatured_category>div>div>div {
   padding: 0 !important;
   max-width: 340px !important;
 }
