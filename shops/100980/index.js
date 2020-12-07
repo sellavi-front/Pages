@@ -40,6 +40,7 @@ if(pages.home) {
   // Custom section
   renderCustomSectionAboutCompany()
   renderWhatWeDo()
+  renderWhyChooseUs()
 
 
   document.querySelector(".section-title.mb-4.mt-4").remove()
