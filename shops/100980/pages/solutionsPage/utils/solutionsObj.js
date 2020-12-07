@@ -6,8 +6,8 @@ export const solutionObj = {
       '<p>Кафе на 30 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>"
+      "<p><a>Получить готовое решение</a>",
+      "<p><a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
   },
@@ -19,8 +19,8 @@ export const solutionObj = {
       '<p>Бар на 40 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>",
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>",
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/helena-yankovska-sJOy9pveFbU-unsplash_1_yxbj2t.png'
   },
@@ -32,8 +32,8 @@ export const solutionObj = {
       '<p>Пиццерия на 40 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>",
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>",
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/peter-bravo-de-los-rios-K70I7ecmXqg-unsplash_1_d3xkmq.png'
   },
@@ -46,9 +46,9 @@ export const solutionObj = {
       '<p>Кафе фаст-фуд на 40 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>"
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092993/jonathan-borba-8l8Yl2ruUsg-unsplash_1_jz7bub.png'
   },
@@ -61,9 +61,9 @@ export const solutionObj = {
       '<p>Столовая на 200 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>"
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/medina-catering-AdtqezIqv7c-unsplash_1_jrmlel.png'
   },
@@ -75,8 +75,8 @@ export const solutionObj = {
       '<p>Ресторан на 100 мест</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>"
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/robert-mathews-xXaLfz6V9rQ-unsplash_1_1_zkvp0f.png'
   },
@@ -90,10 +90,10 @@ export const solutionObj = {
       '<p>Линия раздачи "Ривьера"</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>"
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093006/5_1_nnuxdd.png'
   },
@@ -105,8 +105,8 @@ export const solutionObj = {
       '<p>Магазин "Мини-маркет"</p>'
     ],
     buttonGetSolution: [
-      "<p><a>Получить готовое решение</a></p>",
-      "<p><a>Получить готовое решение</a></p>"
+      "<a>Получить готовое решение</a>",
+      "<a>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
   },
