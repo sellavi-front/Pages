@@ -8,7 +8,7 @@
 @import './footer/footer.css';
 
 
-@import '../../../fixes/fixes.css';
+/*@import '../../../fixes/fixes.css';*/
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components/SmallCategory/SmallCategory.css';
 @import '../../../components/SmallImgSlider/SmallImgSlider.css';
