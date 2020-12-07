@@ -37,7 +37,7 @@ if(pages.home) {
   categories.render()
 
   // Custom section
-  renderWhyChooseUsTemplate()
+  //renderWhyChooseUsTemplate()
   renderCustomSectionAboutCompany()
 
   document.querySelector(".section-title.mb-4.mt-4").remove()
