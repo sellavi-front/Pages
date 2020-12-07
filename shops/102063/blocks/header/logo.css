@@ -13,3 +13,8 @@
       
   }
 }
+
+#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo > a > img {
+  position: relative;
+  left: 30px;
+}
