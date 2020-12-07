@@ -17,6 +17,7 @@
 @import './menu/menu.css';
 @import './header/logo.css';
 @import './small-category/small-category.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 
 body h1,
 body h2,

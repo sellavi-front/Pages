@@ -6,6 +6,7 @@ import SmallImgSlider from '../../components/SmallImgSlider/SmallImgSlider.js';
 import sliderData from './utils/sliderData.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import dataSmallCat from './utils/dataSmallCat.js'
+import FooterCopy from '../../fixes/js/FooterCopy/FooterCopy.js';
 
 
 if (document.querySelector('.wrapper')) {
@@ -52,6 +53,9 @@ if (document.querySelector('.common-home')) {
 
 document.querySelector('.widget-title').innerHTML = 'О нас';
 document.querySelector('.widget-categories > ul > li > a').innerHTML = 'О нас';
+
+const footerCopy = new FooterCopy();
+footerCopy.render();
 
 //document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div><a href="https://store102063.sellavi.com/"></a></div>');
 
