@@ -94,7 +94,7 @@ let renderSolutions = () => {
     <div class="solutions__row">
       <div class="solutions__column">
         <h1>${item.title}</h1>
-        ${item.countPlaces}
+        ${item.countPlaces.join('')}
       </div>
 
       <div class="solutions__column_links">
