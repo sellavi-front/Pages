@@ -75,7 +75,7 @@
     font-weight: 900;
     margin-bottom: 5%;
     font-size: 21px;
-    padding: 0 !important;
+    padding: 2% !important;
   }
 
   .about__company_container {
@@ -87,7 +87,7 @@
   }
 
   .about__company_container p {
-    padding: 5%;
+    padding: 2%;
   }
 
 }

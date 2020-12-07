@@ -645,6 +645,11 @@ body .footer .footer-widgets {
     display: none;
   }
 
+  body .content-area {
+    padding-bottom: 0 !important;
+    margin-top: 25%;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -657,6 +662,11 @@ body .footer .footer-widgets {
   .banner__item {
     display: flex;
     flex-direction: column;
+  }
+
+  body .content-area {
+    padding-bottom: 0 !important;
+    margin-top: 25%;
   }
 
   .banner__container {
