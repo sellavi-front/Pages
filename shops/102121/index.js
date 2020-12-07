@@ -9,17 +9,17 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 let customBanner = document.querySelector(".custom_banner")
 let customSection = document.querySelector(".custom_section")
 
-const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+/*const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
 const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
 const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 buttonsInHeader.setTemplate();
-hideCart.remove();
+hideCart.remove();*/
 
 if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
-  let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
+  /*let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customBanner, "afterend")
-  categories.render()
+  categories.render()*/
 
   const objBanner = {
     title: 'Wigstyle',
