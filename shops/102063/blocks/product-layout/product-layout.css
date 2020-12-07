@@ -75,7 +75,7 @@ body .btn.btn-theme.btn-theme-transparent:hover {
 }
 
 body .btn.btn-theme.btn-theme-transparent:hover i {
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 @media (max-width: 495px) {
