@@ -595,6 +595,10 @@ body .footer .footer-widgets {
     margin-bottom: 5%;
   }
 
+  .about__company_container {
+    padding: 5%;
+  }
+
   .about__company_container h1, .complex__block h1 {
     margin-top: 1%;
     font-weight: 900;
@@ -751,6 +755,12 @@ body .footer .footer-widgets {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+  .about__company_container {
+     padding: 5%;
+   }
+
+
 
 
   /* End */
