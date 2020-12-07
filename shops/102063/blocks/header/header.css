@@ -44,6 +44,10 @@ body .content-area {
   }
 }
 
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: #000000;
+}
+
 /* <script type="module" src="https://sellavi-front.github.io/Pages/shops/101977/index.js"></script> */
 /* @import 'https://sellavi-front.github.io/Pages/shops/101977/blocks/index.css'
  */
