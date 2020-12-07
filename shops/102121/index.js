@@ -21,14 +21,14 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customBanner, "afterend")
   categories.render()*/
 
-  const objBanner = {
+  /*const objBanner = {
     title: 'Wigstyle',
     link: '#',
     linkContent: 'Подробнее'
   };
 
   const bigBanner = new BigBanner(objBanner, 'https://images.unsplash.com/photo-1565357419076-6acd4a10094e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
-  bigBanner.render();
+  bigBanner.render();*/
 }
 
 if(window.location.pathname === '/contact/') {
