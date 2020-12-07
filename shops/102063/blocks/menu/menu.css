@@ -113,3 +113,7 @@ h3.img-inner_title {
 #sidebar > div > div > ul > li:nth-child(5) {
     margin-left: 0px;
 }
+
+#sidebar > div > div > ul > li.active {
+    display: none;
+}
