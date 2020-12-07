@@ -37,9 +37,10 @@ if(pages.home) {
   categories.render()
 
   // Custom section
-  renderCustomSectionAboutCompany()
+
 
   renderWhyChooseUsTemplate()
+  renderCustomSectionAboutCompany()
 
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
