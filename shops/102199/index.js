@@ -9,7 +9,7 @@ import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js
 const customSection = document.querySelector('.custom_section');
 
 if (document.querySelector('.wrapper')) {
-  const map = new ContactsWithMap(contactData, 'beforeend', customSection);
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
 
 }
