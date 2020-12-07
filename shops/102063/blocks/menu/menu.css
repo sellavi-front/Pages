@@ -66,3 +66,17 @@ body.ltr .sf-menu ul {
 #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) > a:nth-child(1):hover {
     border-bottom: 1px solid black;
 }
+
+.closer {
+    color: white;
+    background: #ff00006e;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.whats {
+    position: relative;
+    left: 20%;
+    top: 5%;
+}
