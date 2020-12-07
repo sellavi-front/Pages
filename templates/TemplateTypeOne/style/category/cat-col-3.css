@@ -1,10 +1,10 @@
 
 /* Width bg */
 .wrapper .homefeatured_category > div > div > div {
-  max-width: 390px !important;
+  max-width: 370px !important;
 }
 
 /* HEIGHT IMG */
 .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
-  max-height: 280px !important;
+  max-height: 270px !important;
 }

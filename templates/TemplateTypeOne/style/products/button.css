@@ -16,3 +16,7 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
 .thumbnail .add_to_wishlist button {
   width: 60px !important;
 }
+
+.add_to_cart button {
+  padding: 0 !important;
+}
