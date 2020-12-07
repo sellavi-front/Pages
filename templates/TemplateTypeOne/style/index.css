@@ -13,3 +13,5 @@
 
 @import './products/product-card.css';
 @import './products/button.css';
+@import './products/price.css';
+@import './products/caption.css';
