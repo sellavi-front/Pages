@@ -1,10 +1,11 @@
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   background: none !important;
   color: #000 !important;
-  border: 1px solid black;
+  border: 1px solid;
 }
 
-.buttons__container button {
+.buttons__container button,
+.thumbnail .add_to_wishlist button {
   border-color: #d1d1d1 !important;
 }
 
