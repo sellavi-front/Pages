@@ -1,4 +1,5 @@
-// import '../../fixes/fixes.js';
+ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+ import '../../fixes/js/FooterCopy/FooterCopy.js'
 
 //import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
