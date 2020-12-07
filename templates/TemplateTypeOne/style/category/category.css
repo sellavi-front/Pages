@@ -17,8 +17,8 @@
 .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
   margin-right: 0 !important;
 }
-/* Hide btn in category */
 
+/* Hide btn in category */
 .thumbnail .caption .btn {
   display: none !important;
 }

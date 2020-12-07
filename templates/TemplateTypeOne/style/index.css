@@ -1,5 +1,6 @@
 @import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
-
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 
