@@ -101,3 +101,15 @@ h3.img-inner_title {
 #home > div.out-container > div > div {
     cursor: pointer;
 }
+
+#sidebar > div > div > ul > li:nth-child(12) {
+    display: none;
+}
+
+#sidebar > div > div > ul > li:nth-child(13) {
+    display: none;
+}
+
+#sidebar > div > div > ul > li:nth-child(5) {
+    margin-left: 0px;
+}
