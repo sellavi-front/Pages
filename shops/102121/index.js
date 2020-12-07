@@ -1,7 +1,7 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
 
-import '../../templates/TemplateTypeOne/TemplateTypeOne.js'
+import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
 // import imgArr from "./utils/images.js"
