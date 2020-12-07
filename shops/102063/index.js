@@ -50,6 +50,9 @@ if (document.querySelector('.common-home')) {
 
 }
 
+document.querySelector('.widget-title').innerHTML = 'О нас';
+document.querySelector('.widget-categories > ul > li > a').innerHTML = 'О нас';
+
 //document.querySelector('#home > div > header > div.navigation-wrapper').insertAdjacentHTML('afterbegin', '<div><a href="https://store102063.sellavi.com/"></a></div>');
 
 
