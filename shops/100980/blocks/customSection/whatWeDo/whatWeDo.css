@@ -2,7 +2,8 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .what__we__do h1 {
