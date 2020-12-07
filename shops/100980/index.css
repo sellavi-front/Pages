@@ -494,9 +494,9 @@ body .footer .footer-widgets {
   }
 
   .footer__logo {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
-    top: 38%;
+    top: 0;
     left: 0;
     height: auto;
     width: 100%;
@@ -834,9 +834,9 @@ body .footer .footer-widgets {
   }
 
   .footer__logo {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
-    top: 23%;
+    top: 0;
     left: 0;
     height: auto;
     width: 100%;
