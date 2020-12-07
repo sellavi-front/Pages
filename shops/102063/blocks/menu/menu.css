@@ -180,4 +180,8 @@ h3.img-inner_title {
     #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
         display: none;
     }
+
+    .small-category__img {
+        height: 113px;
+    }
 }
