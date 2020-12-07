@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-@import './header/header.css';
 @import './banner/banner.css';
 @import './section-title/section-title.css';
-@import './footer/footer.css';
+
 @import './other/bs-menu-toggle.css';
 @import './other/contacts.css';
 @import './other/auth-title.css';
@@ -13,10 +12,17 @@
 @import './other/pay-delivery.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
-@import '../../../fixes/FooterCopy/FooterCopy.css';
+/*@import '../../../fixes/FooterCopy/FooterCopy.css';*/
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
+
+@import './footer/footer.css';
+@import './header/navigation.css';
+@import './header/logo.css';
+@import './header/header.css';
+
+
 
 body h1,
 body h2,
@@ -34,3 +40,31 @@ body b {
 body.ltr ul {
   margin: 0 !important;
 }
+
+#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper {
+  justify-content: center !important
+}
+
+#home > div > header > div.header-wrapper > div.container-fluid > ul:nth-child(3) {
+  display: none;
+}
+
+.header_widgets {
+  display: flex;
+  align-self: center;
+}
+
+.header_widgets a {
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.header_widgets .header_wishlist {
+  margin-right: 15px;
+}
+
+.header-cart {
+  display: flex;
+  align-items: center;
+}
+

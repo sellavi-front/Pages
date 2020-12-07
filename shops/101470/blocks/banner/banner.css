@@ -24,3 +24,17 @@
 .banner__caption a, .banner__caption h1 {
   color: #fff;
 }
+
+.main-slider .slide-img {
+  max-height: 850px;
+  object-fit: cover;
+}
+
+header.header {
+  border-bottom: 0px !important;
+}
+
+.banner-title-button > a:nth-child(1) {
+  text-transform: uppercase;
+  display: none;
+}
