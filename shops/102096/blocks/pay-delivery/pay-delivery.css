@@ -3,7 +3,7 @@ body .content-delivery {
   margin-bottom: 80px;
 }
 
-body .content-delivery:nth-child(3) {
+body .content-delivery:last-child(3) {
   flex-direction: column !important;
 }
 
