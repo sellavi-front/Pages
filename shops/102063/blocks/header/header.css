@@ -1,6 +1,6 @@
-/*@import './cart.css';*/
+@import './cart.css';
 @import './logo.css';
-@import './search.css';
+/*@import './search.css';*/
 @import './navigation.css';
 
 header {
