@@ -2,8 +2,8 @@ export const solutionObj = {
   cafe: {
     title: 'Кафе',
     countPlaces: [
-      'Кафе на 10 мест',
-      'Кафе на 30 мест'
+      '<p>Кафе на 10 мест</p>',
+      '<p>Кафе на 30 мест</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
@@ -12,8 +12,8 @@ export const solutionObj = {
   bar: {
     title: 'Бары',
     countPlaces: [
-      'Бар на 20 мест',
-      'Бар на 40 мест'
+      '<p>Бар на 20 мест</p>',
+      '<p>Бар на 40 мест</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/helena-yankovska-sJOy9pveFbU-unsplash_1_yxbj2t.png'
@@ -22,8 +22,8 @@ export const solutionObj = {
   pizza: {
     title: 'Пиццерия',
     countPlaces: [
-      'Пиццерия на 20 мест',
-      'Пиццерия на 40 мест'
+      '<p>Пиццерия на 20 мест</p>',
+      '<p>Пиццерия на 40 мест</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/peter-bravo-de-los-rios-K70I7ecmXqg-unsplash_1_d3xkmq.png'
@@ -32,9 +32,9 @@ export const solutionObj = {
   fastFood: {
     title: 'Кафе фаст-фуд',
     countPlaces: [
-      'Кафе "Бургер" на 20 мест',
-      'Прилавок Шаурма',
-      'Кафе фаст-фуд на 40 мест'
+      '<p>Кафе "Бургер" на 20 мест</p>',
+      '<p>Прилавок Шаурма</p>',
+      '<p>Кафе фаст-фуд на 40 мест</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092993/jonathan-borba-8l8Yl2ruUsg-unsplash_1_jz7bub.png'
@@ -43,9 +43,9 @@ export const solutionObj = {
   diningHall: {
     title: 'Столовые',
     countPlaces: [
-      'Столовая на 50 мест',
-      'Столовая на 100 мест',
-      'Столовая на 200 мест'
+      '<p>Столовая на 50 мест</p>',
+      '<p>Столовая на 100 мест</p>',
+      '<p>Столовая на 200 мест</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/medina-catering-AdtqezIqv7c-unsplash_1_jrmlel.png'
@@ -54,8 +54,8 @@ export const solutionObj = {
   restaurants: {
     title: 'Рестораны',
     countPlaces: [
-      'Ресторан на 50 мест',
-      'Ресторан на 100 мест'
+      '<p>Ресторан на 50 мест</p>',
+      '<p>Ресторан на 100 мест</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/robert-mathews-xXaLfz6V9rQ-unsplash_1_1_zkvp0f.png'
@@ -64,10 +64,10 @@ export const solutionObj = {
   lines: {
     title: 'Линии раздач',
     countPlaces: [
-      'Линия раздачи "Патша"',
-      'Линия раздачи "Аста"',
-      'Линия раздачи "Премьер"',
-      'Линия раздачи "Ривьера"'
+      '<p>Линия раздачи "Патша"</p>',
+      '<p>Линия раздачи "Аста"</p>',
+      '<p>Линия раздачи "Премьер"</p>',
+      '<p>Линия раздачи "Ривьера"</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093006/5_1_nnuxdd.png'
@@ -76,8 +76,8 @@ export const solutionObj = {
   shops: {
     title: 'Магазины',
     countPlaces: [
-      'Магазин "Прилавок-продавец"',
-      'Магазин "Мини-маркет"'
+      '<p>Магазин "Прилавок-продавец"</p>',
+      '<p>Магазин "Мини-маркет"</p>'
     ],
     buttonGetSolution: "<a>Получить готовое решение</a>",
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
