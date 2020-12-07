@@ -68,3 +68,5 @@ const data = {
 const cont = document.querySelector('.custom_section')
 
 const map = new ContactsWithMap(cont, 'beforeend', data);
+
+map.render();
