@@ -4,3 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.why__choose__us h1 {
+  font-weight: 900;
+  margin-bottom: 5%;
+}

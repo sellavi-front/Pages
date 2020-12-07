@@ -1,5 +1,5 @@
 let whyChooseUsLayout = `
-<div class="container">
+<div class="container why__choose__us">
   <h1>Почему нас выбирают</h1>
   <div class="steps__why_container">
       <div class="steps__block_item">
