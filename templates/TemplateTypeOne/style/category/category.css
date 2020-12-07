@@ -6,6 +6,8 @@
   width: 100%;
   border: none !important;
   padding: 0 !important;
+  margin-top: 16px !important;
+  margin-right: 16px !important;
 }
 
 .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
