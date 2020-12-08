@@ -18,7 +18,8 @@
 
 .delivery__moscow>p,
 .delivery__mkad>p,
-.delivery__russia>p {
+.delivery__russia>p,
+.delivery__attention>p {
   font-weight: 900;
 }
 
