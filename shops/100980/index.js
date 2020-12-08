@@ -50,7 +50,11 @@ if(pages.home) {
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-  sendHomeForm().call()
+  let homeFormBtn = document.querySelector(".banner__submit__form__btn")
+  homeFormBtn.addEventListener("click", () => {
+    sendHomeForm().call()
+  })
+
 }
 
 if(pages.about) {
