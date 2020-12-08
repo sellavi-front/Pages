@@ -8,6 +8,8 @@
 
 @import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 
+@import './header/header.css';
+
 @import './banner/banner.css';
 @import './banner/caption.css';
 
@@ -40,4 +42,3 @@ body strong {
   font-weight: normal;
   font-style: normal;
 }
-
