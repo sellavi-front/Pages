@@ -1,9 +1,10 @@
-import '../../fixes/js/FooterCopy/FooterCopy.js'
+
+import Requisites from '../../modules/Requisites/Requisites.js';
+import { requsites, dataContact } from './utils/requsites.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
-import Requisites from '../../modules/Requisites/Requisites.js';
-import requsites from './utils/requsites.js';
 import contactData from './utils/contactData.js'
 
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
@@ -17,9 +18,8 @@ if (document.querySelector('.wrapper')) {
   map.render();
 }
 
-
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Ляховский Александр Владимирович');
 
   req.setTemplate();
 }
@@ -27,7 +27,17 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', media);
+  req.setTemplate();
+}
+
+if (location.href.includes('policy')) {
+  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', document.querySelector("#content > div > div"));
+  req.setTemplate();
+}
+
+if (location.href.includes('pay-delivery')) {
+  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
 
