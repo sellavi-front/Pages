@@ -4,5 +4,6 @@ footer {
 }
 
 footer .footer-widgets {
-  background: transparent;
+  background: transparent !important;
 }
+
