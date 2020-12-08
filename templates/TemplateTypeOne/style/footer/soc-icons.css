@@ -13,3 +13,9 @@ footer .soc-icons .container > .soc-icons__title {
   margin: 0 0 20px;
   line-height: 1;
 }
+
+@media (max-width: 495px) {
+  .soc-icons {
+    margin: 0 auto;
+  }
+}
