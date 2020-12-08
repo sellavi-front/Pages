@@ -11,6 +11,7 @@ import payDeliver from './utils/deliveryPay.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import senderData from './utils/senderData.js';
 import ButtonContainerInProduct from '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import sendFormHome from './utils/importWhats.js';
 
 if (location.pathname === '/') {
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
@@ -128,3 +129,8 @@ if (location.href.includes('contact')) {
 if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
+
+let sender = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button');
+sender.addEventListener('click', () => {
+  sender.call();
+});
