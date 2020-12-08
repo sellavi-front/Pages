@@ -11,6 +11,7 @@ import renderWhatWeDo from "./blocks/customSection/whatWeDo/whatWeDo.js"
 import renderWhyChooseUs from "./blocks/customSection/whyChooseUs/whyChooseUs.js"
 import renderHowWeWork from "./blocks/customSection/howWeWork/howWeWork.js"
 import renderFooter from "./blocks/footer/footer.js"
+import WhatsAppWidget from "../../components/WhatsAppWidget/wa-widget.js"
 
 
 /* Setting logo */
@@ -29,6 +30,13 @@ let navbar = `
 
 containerNavbar.insertAdjacentHTML("afterend", navbar)
 if(pages.home) {
+
+  let phoneNumber = "89778367351"
+  let titleMessage = "Hello World"
+  let arrInput = ["Evgenii", "89990009900", "test@mail.ru"]
+
+  let homeWidget = new WhatsAppWidget(phoneNumber, titleMessage, arrInput, "Хочу")
+  homeWidget.call()
 
   // Banner
   renderBanner()
