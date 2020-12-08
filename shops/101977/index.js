@@ -130,7 +130,8 @@ if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
 
-let sender = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button');
+let sender = document.querySelector('.form__button');
+console.log(sender);
 sender.addEventListener('click', () => {
   sendFormHome.call();
 });
