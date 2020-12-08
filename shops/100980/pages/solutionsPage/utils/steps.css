@@ -1,0 +1,16 @@
+.solutions__steps_container {
+  display: flex;
+  width: 100%;
+}
+
+.solutions__steps_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.solutions__steps_item {
+  border-left: 3px solid #C23315;
+  margin-right: 2%;
+}
