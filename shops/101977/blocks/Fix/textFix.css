@@ -57,3 +57,16 @@
 .header-cart.sticky {
     top: 12px !important;
 }
+
+#home > div > div > section {
+    position: relative;
+    top: 100px;
+}
+
+#search > div.search_field > input {
+    border: 0px;
+}
+
+.header-cart.sticky {
+    top: 12px !important;
+}
