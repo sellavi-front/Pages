@@ -12,6 +12,7 @@ import renderWhyChooseUs from "./blocks/customSection/whyChooseUs/whyChooseUs.js
 import renderHowWeWork from "./blocks/customSection/howWeWork/howWeWork.js"
 import renderFooter from "./blocks/footer/footer.js"
 import WhatsAppWidget from "../../components/WhatsAppWidget/wa-widget.js"
+import sendHomeForm from "./wa-forms/home-form.js"
 
 
 /* Setting logo */
@@ -56,14 +57,7 @@ if(pages.home) {
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-
-  let homeFormBtn = document.querySelector("#home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div > div:nth-child(2) > div > div > form > button")
-  homeFormBtn.addEventListener("click", () => {
-    let homeFormName = document.querySelector('[name="home__from_name"]').value;
-    let homeFormPhone = document.querySelector('[name="home__from_phone"]').value;
-    let homeFormEmail = document.querySelector('[name="home__from_email"]').value;
-    console.log(homeFormEmail, homeFormName, homeFormPhone)
-  })
+  sendHomeForm()
 }
 
 if(pages.about) {
