@@ -101,3 +101,17 @@ body .section-title span:after {
 .outer-container {
     height: 800px;
 }
+
+#search > button {
+    top: 3px;
+    right: 20px;
+}
+
+.header-cart .cart-wrapper #cart i {
+    font-size: 19px;
+    
+}
+
+.dropdown.cart_drop_down {
+    left: 15px;
+}
