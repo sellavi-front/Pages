@@ -80,6 +80,12 @@ const lastSection = document.querySelector("#home > div > div > section > div.ma
 const sender = new FormBasic(lastSection, 'beforebegin', senderData)
 sender.render();
 
+let button = document.querySelector('.form__button');
+console.log(button);
+button.addEventListener('click', () => {
+  sendFormHome.call();
+});
+
 }
 
 if (location.pathname !== '/') {
@@ -130,8 +136,3 @@ if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
 
-let button = document.querySelector('.form__button');
-console.log(button);
-button.addEventListener('click', () => {
-  sendFormHome.call();
-});
