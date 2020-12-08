@@ -59,9 +59,9 @@ if(pages.home) {
 
   let homeFormBtn = document.querySelector("#home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div > div:nth-child(2) > div > div > form > button")
   homeFormBtn.addEventListener("click", () => {
-    let homeFormName = document.getElementsByName("home__from_name")[0].value;
-    let homeFormPhone = document.getElementsByName("home__from_phone")[0].value;
-    let homeFormEmail = document.getElementsByName("home__from_email")[0].value;
+    let homeFormName = document.querySelector('[name="home__from_name"]').value;
+    let homeFormPhone = document.querySelector('[name="home__from_phone"]').value;
+    let homeFormEmail = document.querySelector('[name="home__from_email"]').value;
     console.log(homeFormEmail, homeFormName, homeFormPhone)
   })
 }
