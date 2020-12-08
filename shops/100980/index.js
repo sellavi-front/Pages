@@ -50,11 +50,7 @@ if(pages.home) {
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-  let homeFormBtn = document.querySelector(".banner__submit__form__btn")
-  homeFormBtn.addEventListener("click", () => {
-    sendHomeForm()
-  })
-
+  sendHomeForm()
 }
 
 if(pages.about) {
@@ -63,10 +59,7 @@ if(pages.about) {
 
 if(pages.complex) {
   renderComplexTemplate()
-  let complexFormBtn = document.querySelector(".complex__submit__form__btn")
-  complexFormBtn.addEventListener("click", () => {
-    sendComplexForm()
-  })
+  sendComplexForm()
 
 }
 
