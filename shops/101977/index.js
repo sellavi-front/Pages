@@ -130,11 +130,11 @@ if (location.pathname === '/login/') {
 }
 
 let senderer = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button');
-// function getLinkWhastapp() {
-//   let myName = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(1)');
-//   let myPhone = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(2)');
+function getLinkWhastapp() {
+  let myName = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(1)').value;
+  let myPhone = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(2)').value;
   
-//     var url = "https://wa.me/79178434344?text=" + myName + "%20" + myPhone;
-//     return url
-//   }
-  senderer.addEventListener("click", function() {alert('text')});
+    var url = "https://wa.me/79178434344?text=" + myName + "%20" + myPhone;
+    return url
+  }
+  senderer.addEventListener("click", getLinkWhastapp());
