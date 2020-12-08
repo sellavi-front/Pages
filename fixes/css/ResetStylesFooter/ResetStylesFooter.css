@@ -21,3 +21,7 @@ body:not(.common-home) footer.footer .footer-widgets>.container {
   border: none !important;
 }
 
+.bs-menu-toggle {
+  display: none !important;
+}
+
