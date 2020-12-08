@@ -1,4 +1,5 @@
-.wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+.wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   background-color: transparent !important;
   background: transparent !important;
   color: #000 !important;
