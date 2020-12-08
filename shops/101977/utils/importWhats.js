@@ -1,4 +1,4 @@
-import WhatsAppWidget from "https://coospir.github.io/Pages/components/WhatsAppWidget/wa-widget.js"
+import WhatsAppWidget from '../../../components/WhatsAppWidget/wa-widget.js';
 let sendHomeForm = () => {
     let sender = null
     let homeFormName = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(1)').value;
