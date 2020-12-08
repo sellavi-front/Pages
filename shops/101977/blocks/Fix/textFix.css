@@ -44,3 +44,16 @@
 #home > div > div > section > div.container > div.info-card > div > div > div > div > a > p > span {
     font-family: Hauss,sans-serif !important;
 }
+
+#home > div > div > section {
+    position: relative;
+    top: 100px;
+}
+
+#search > div.search_field > input {
+    border: 0px;
+}
+
+.header-cart.sticky {
+    top: 12px !important;
+}
