@@ -1,3 +1,7 @@
 footer .soc-icons {
-  max-width: 165px !important;
+  max-width: 201px !important;
+}
+
+footer .soc-icons .container {
+  padding: 0 !important;
 }
