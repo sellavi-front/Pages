@@ -132,5 +132,5 @@ if (location.pathname === '/login/') {
 
 let sender = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button');
 sender.addEventListener('click', () => {
-  sender.call();
+  sendFormHome.call();
 });
