@@ -12,9 +12,8 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   footerWidgetsCol.forEach(el => {
     el.classList.remove('col-md-3');
   })
-
   /* Add title for soc icons */
-  const socIcons = document.querySelector('.soc-icons > div');
+  const socIcons = document.querySelector('.soc-icons>.container');
   socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
 
 }
