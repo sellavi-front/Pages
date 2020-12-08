@@ -2,6 +2,7 @@
 
 @import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
@@ -18,6 +19,7 @@
 @import './products/price.css';
 @import './products/caption.css';
 @import './products/section-title.css';
+@import './products/product-layout.css';
 
 @import './footer/footer.css';
 @import './footer/color-text.css';
