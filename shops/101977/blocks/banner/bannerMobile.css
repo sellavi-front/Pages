@@ -71,7 +71,7 @@
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
-        bottom: 62%;
+        bottom: 36%;
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
@@ -194,5 +194,9 @@
     a.menu-toggle {
         left: 0px !important;
         margin-right: 10px;
+    }
+
+    .outer-container {
+        height: 450px !important;
     }
 }
