@@ -10,6 +10,8 @@
   width: 50%;
 }
 
-.payment__container>li>h5 {
+.payment__container>ul>li>h5,
+.payment__container>ul>li:nth-child(2)>h5,
+.payment__container>h5 {
   font-weight: 900;
 }
