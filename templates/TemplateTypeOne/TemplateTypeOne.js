@@ -16,4 +16,9 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   const socIcons = document.querySelector('.soc-icons>.container');
   socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
 
+  const catergoryBanners = document.querySelector('.homefeatured_category>div');
+
+  if (catergoryBanners) {
+    catergoryBanners.insertAdjacentElement('aftebegin', `<h2 class="section-title mb-4 mt-4"><span> Категории </span></h2>`)
+  }
 }
