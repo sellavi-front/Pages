@@ -93,3 +93,19 @@ header > div.header-wrapper > div.container > span {
     font-family: inter;
     top: 15px;
 }
+
+#home > div > header > div.header-wrapper > div.container {
+    z-index: 999;
+}
+
+#home > div > div > section.page-section.titles {
+    top: -15px
+}
+
+#content {
+    top: 20px;
+}
+
+#sidebar {
+    top: 20px;
+}
