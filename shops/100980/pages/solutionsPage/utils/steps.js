@@ -13,7 +13,7 @@ const solutionsStepsLayout = `
 
         <div class="solutions__steps_item">
             <img class="steps__img" src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1607415977/Vector_2_mbavi0.png" alt="img" />
-            <h6>Монтаж и запуск в эксплуатацию оборудования</h6>
+            <h6 class="steps__title">Монтаж и запуск в эксплуатацию оборудования</h6>
         </div>
 
         <div class="solutions__steps_item">
