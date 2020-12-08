@@ -37,7 +37,7 @@
 
 
 @media (max-width: 495px) {
-  .wrapper .header .header-wrapper .header-search {
+  body.theme_11 .wrapper .header .header-wrapper .header-search {
     display: none !important;
   }
 }
