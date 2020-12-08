@@ -129,7 +129,7 @@ if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
 
-// let senderer = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button');
+let senderer = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button');
 // function getLinkWhastapp() {
 //   let myName = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(1)');
 //   let myPhone = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(2)');
