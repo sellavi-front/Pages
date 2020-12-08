@@ -67,7 +67,8 @@ const imgNearText2 = new ImgNearText(
 
 imgNearText2.render();
 
-document.querySelector('#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(3)').insertAdjacentHTML('afterend', '<ul><li>Наличными при получении</li><li>Банковской картой</li><li>По выставлению счета</li></ul>');
+//document.querySelector('#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(3)').insertAdjacentHTML('afterend', '<ul><li>Наличными при получении</li><li>Банковской картой</li><li>По выставлению счета</li></ul>');
+document.querySelector('#home > div > div > section > div:nth-child(3) > div > div > div > div > p:nth-child(3)').insertAdjacentHTML('afterend', '<ul><li>Наличными при получении</li><li>Банковской картой</li><li>По выставлению счета</li></ul>');
 
   
 
