@@ -1,3 +1,7 @@
+import '../../fixes/js/FooterCopy/FooterCopy.js'
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
 import contactData from './utils/contactData.js'
