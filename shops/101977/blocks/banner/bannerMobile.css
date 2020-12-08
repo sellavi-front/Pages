@@ -183,4 +183,7 @@
         left: 20px;
     }
     
+    #home > div > header > div.header-wrapper > div.container > span {
+        display: none;
+    }
 }
