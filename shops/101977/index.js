@@ -81,7 +81,7 @@ sender.render();
 
 }
 
-if (location.pathname !== '/' || location.pathname !== 'https://aldoma.ru/login/') {
+if (location.pathname !== '/') {
   const oldMenu = document.querySelector('#home > div > header > div.navigation-wrapper > div > nav');
   const newMenu = oldMenu.cloneNode(true);
   document.querySelector('#search').insertAdjacentHTML('beforebegin', newMenu.outerHTML);
