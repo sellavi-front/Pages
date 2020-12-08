@@ -7,4 +7,10 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 
   new SocialIconsTypeOne(footerContainer, 'beforeend').render();
 
+  /* Remove bootstrap col width seclector */
+  const footerWidgetsCol = document.querySelectorAll('.footer-widgets > div > div > div');
+  footerWidgetsCol.forEach(el => {
+    el.classList.remove('col-md-3');
+  })
+
 }

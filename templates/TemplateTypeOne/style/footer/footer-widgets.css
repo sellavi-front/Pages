@@ -17,3 +17,11 @@
   font-size: 18px !important;
   color: #A1A1A1 !important;
 }
+
+.footer-widgets > div > div > div {
+  margin-right: 80px;
+}
+
+.footer-widgets > div > div > div:last-child {
+  margin-right: 0;
+}
