@@ -9,7 +9,7 @@ export default class WhatsAppWidget {
   }
 
   setTemplate = () => {
-    return 123
+    window.open(`https://wa.me/${this.phoneNumber}?text=${this.titleMessage}.%20Данные: ${this.dataFromInput}.%20${this.message}`, '_blank');
   }
 
   call = () => {
