@@ -1,6 +1,7 @@
 .footer .footer-widgets .widget-categories .widget-title {
   text-transform: none !important;
   margin-bottom: 40px !important;
+  font-size: 22px !important;
 }
 
 .footer-widgets .widget-categories ul li {
