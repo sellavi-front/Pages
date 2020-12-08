@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
 @import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
@@ -20,3 +22,22 @@
 @import './footer/color-text.css';
 @import './footer/footer-widgets.css';
 @import './footer/soc-icons.css';
+
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
