@@ -53,3 +53,11 @@ font-family: Hauss,sans-serif;
     left: -5px;
     content: "- ";
 }
+
+h2.sender-basic__title {
+    color: black;
+}
+
+p.sender-basic__text {
+    color: black;
+}
