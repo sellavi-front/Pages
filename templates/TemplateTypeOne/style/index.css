@@ -15,4 +15,5 @@
 @import './products/price.css';
 @import './products/caption.css';
 
-@import './footer/footer.css'
+@import './footer/footer.css';
+@import './footer/color-text.css';

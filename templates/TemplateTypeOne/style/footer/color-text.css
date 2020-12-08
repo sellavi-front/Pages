@@ -1,0 +1,4 @@
+.wrapper footer.footer .footer-widgets .widget-categories ul li a,
+.wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: black !important;
+}
