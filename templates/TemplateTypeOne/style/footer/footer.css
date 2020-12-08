@@ -1,6 +1,7 @@
 footer {
   background: transparent !important;
   border: none !important;
+  margin-top: 50px;
 }
 
 footer .footer-widgets {
