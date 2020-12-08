@@ -99,10 +99,12 @@ if (location.pathname !== '/') {
   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').style.cssText = 'display: flex; justify-content: center; align-self: center;';
   }
 
-  if (screen.width <= 480 ) {
+  if (screen.width <= 480) {
     document.querySelector('#home > div > div').style.cssText = 'margin-top: 60px;';
     document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky > div > div.dropdown.cart_drop_down').style.cssText = 'display: none;';
+    if (location.pathname !== '/cart/') {
     document.querySelector('#sidebar').style.cssText = 'margin-bottom: 20px;';
+    }
   }
 }
 
