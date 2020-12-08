@@ -14,3 +14,8 @@
   border-left: 3px solid #C23315;
   margin-right: 2%;
 }
+
+.steps__img,
+.steps__title {
+  margin-left: 2%;
+}
