@@ -9,7 +9,7 @@ import contactData from './utils/contactData.js'
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 
-if (document.querySelector('.wrapper')) {
+if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
   customSection.classList.add('container');
 
