@@ -51,7 +51,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 @media (max-width: 768px) {
   .wrapper .homefeatured_category>div>div>div {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 }
