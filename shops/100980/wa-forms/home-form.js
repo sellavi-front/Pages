@@ -8,6 +8,7 @@ let sendHomeForm = () => {
     let arrHome = [homeFormName, homeFormPhone, homeFormEmail]
     sender = new WhatsAppWidget("79324247663", "Детальный план реализации проекта", arrHome, "Расскажите подробнее, пожалуйста.")
     return sender
+
 }
 
 export default sendHomeForm
