@@ -91,6 +91,8 @@ body .delivery__content-label {
   border: 0px solid black !important;
 }
 
-.flex-logo-text {
-  left: 120px !important;
+@media (max-device-width: 480px) {
+  .flex-logo-text {
+    left: 120px !important;
+  }
 }
