@@ -85,6 +85,6 @@ div#search_results {
     
     #content {
         position: relative;
-        top: -40px !important;
+        top: -100px !important;
     }
 }
