@@ -96,3 +96,7 @@ body .delivery__content-label {
     left: 120px !important;
   }
 }
+
+.about {
+  padding-top: 0px !important;
+}

@@ -25,3 +25,31 @@ font-family: Hauss,sans-serif;
     left: 20px;
     top: -20px;
 }
+
+.about {
+    padding-top: 0px !important;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > p:nth-child(2) {
+    font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > p:nth-child(3) {
+    font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > ul {
+    font-family: Hauss,sans-serif;
+    position: relative;
+    top: -25px;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > ul {
+    margin-left: 15px;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > ul > li:before {
+    position: relative;
+    left: -5px;
+    content: "- ";
+}
