@@ -2,6 +2,30 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
 
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+
+if (document.querySelector('.wrapper')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
+  map.render();
+}
+
+
+if (location.href.includes('term-of-use')) {
+  const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
+
+  req.setTemplate();
+}
+
+if (location.href.includes('contact')) {
+  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
+
+  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', media);
+  req.setTemplate();
+}
+
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
 // import imgArr from "./utils/images.js"
@@ -38,16 +62,3 @@ import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 //   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div").setAttribute("class", "media-body")
 // }
 
-
-if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
-
-  req.setTemplate();
-}
-
-if (location.href.includes('contact')) {
-  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
-
-  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', media);
-  req.setTemplate();
-}
