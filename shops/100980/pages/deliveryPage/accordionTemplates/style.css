@@ -39,3 +39,7 @@
   width: 1em;
   margin-left: -1em;
 }
+
+.delivery__attention img {
+  width: 100%;
+}
