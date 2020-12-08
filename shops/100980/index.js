@@ -49,10 +49,16 @@ if(pages.home) {
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-  let homeFormBtn = document.querySelector(".banner__submit__form__btn")
-  homeFormBtn.addEventListener("click", () => {
+  let form = document.getElementById("home__form_submit");
+
+  document.getElementById("submit__home_form").addEventListener("click", function () {
+    let t = form.submit()
+    console.log(t)
+  });
+  //let homeFormBtn = document.querySelector(".banner__submit__form__btn")
+  /*homeFormBtn.addEventListener("click", () => {
     sendHomeForm()
-  })
+  })*/
 
 }
 
