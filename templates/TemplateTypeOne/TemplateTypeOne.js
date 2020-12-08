@@ -13,4 +13,8 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
     el.classList.remove('col-md-3');
   })
 
+  /* Add title for soc icons */
+  const socIcons = document.querySelector('.soc-icons > div');
+  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+
 }

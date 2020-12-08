@@ -5,3 +5,11 @@ footer .soc-icons {
 footer .soc-icons .container {
   padding: 0 !important;
 }
+
+footer .soc-icons .container > .soc-icons__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px;
+  line-height: 1;
+}
