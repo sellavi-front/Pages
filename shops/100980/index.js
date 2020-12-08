@@ -63,7 +63,10 @@ if(pages.about) {
 
 if(pages.complex) {
   renderComplexTemplate()
-  sendComplexForm()
+  let complexFormBtn = document.querySelector(".complex__submit__form__btn")
+  complexFormBtn.addEventListener("click", () => {
+    sendComplexForm()
+  })
 
 }
 
