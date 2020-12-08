@@ -137,4 +137,4 @@ function getLinkWhastapp() {
     var url = "https://wa.me/79178434344?text=" + myName + "%20" + myPhone;
     return url
   }
-  senderer.addEventListener("click", getLinkWhastapp());
+  senderer.addEventListener("click", getLinkWhastapp);
