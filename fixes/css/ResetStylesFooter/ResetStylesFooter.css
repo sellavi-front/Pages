@@ -15,7 +15,9 @@ body:not(.common-home) footer.footer .footer-widgets>.container {
   padding: auto !important;
   height: auto !important;
   width: auto !important;
+  overflow: visible !important;
 }
+
 
 .wrapper footer.footer .footer-widgets .widget-categories ul li+li {
   border: none !important;
