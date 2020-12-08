@@ -11,10 +11,12 @@ export default class WhatsAppWidget {
     setTemplate = () => {
         console.log(1);
         window.open(`https://wa.me/${this.phoneNumber}?text=Здравствуйте!%20${this.titleMessage}%20Данные: ${this.dataFromInput}.%20${this.message}, '_blank'`)
-    
+        
     }
-  
+    
+    
     call = () => {
+        console.log(2);
       this.setTemplate()
     }
     
