@@ -199,4 +199,56 @@
     .outer-container {
         height: 450px !important;
     }
+
+    h4.caption-title {
+        text-align: left !important;
+    }
+    
+    .price {
+        text-align: left !important;
+    }
+    
+    h2.info-card__title {
+        padding-right: 0px !important;
+        font-size: 20px;
+        line-height: 20px
+    }
+    
+    .info-card {
+        padding-bottom: 0px;
+    }
+    
+    .about__item-container {
+        margin: 0px !important;
+        max-width: 100%;
+    }
+    
+    #home > div > div > section > div:nth-child(1) > div.info-card > div {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    
+    img.about__item_img {
+        margin-top: 0px;
+    }
+    
+    .about__item_img {
+        width: 100%;
+    }
+    
+    #home > div > div > section > div:nth-child(3) > div > div > div > img {
+        filter: none;
+    }
+    
+    #home > div > div > section > div:nth-child(3) {
+        padding-bottom: 30px;
+    }
+    
+    #home > div > div > section > div:nth-child(4) > div > div > h2 {
+        text-align: left;
+    }
+    
+    #home > div > div > section > div:nth-child(4) > div > div > p {
+        text-align: left;
+    }
 }
