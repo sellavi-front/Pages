@@ -59,7 +59,8 @@ document.querySelector('#home > div > div > section > div.about > div > div > di
 //document.querySelector('.about').insertAdjacentHTML('afterend', '<div class="leader"><div class="container"><div class="leader-title">Станьте дилером и получите<p>дополнительные преимущества</p></div><div class="three-flex-block"><div class="first-block"><div class="left-side block1"></div><div class="right-side block1">Выгодные цены</div></div><div class="second-block"><div class="left-side block2"></div><div class="right-side block2">Бесплатную доставку</div></div><div class="third-block"><div class="left-side block3"></div><div class="right-side block3">Бонусы по итогам года</div></div></div><button type="button" class="be-leader">Стать лидером</button></div></div>');
 
 const imgNearText2 = new ImgNearText(
-  document.querySelector('#home > div > div > section > div.leader'),
+  // document.querySelector('#home > div > div > section > div.leader'),
+  document.querySelector('.about'),
   'afterEnd',
   payDeliver,
 );
