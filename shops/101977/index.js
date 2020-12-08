@@ -87,7 +87,7 @@ if (location.pathname !== '/' || location.pathname !== 'login') {
   document.querySelector('#search').insertAdjacentHTML('beforebegin', newMenu.outerHTML);
   oldMenu.remove();
 
-  if (location.pathname !== 'https://aldoma.ru/login/') {
+  if (location.pathname !== '/login/') {
   document.querySelector('section.page-section.titles').style.cssText = 'margin-top: 100px;';
 }
   document.querySelector('body .content-area .page-section.titles').style.cssText = 'background: #ff000000; border: 0px;';
