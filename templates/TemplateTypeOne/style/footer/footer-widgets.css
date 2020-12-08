@@ -1,14 +1,14 @@
-.footer .footer-widgets .widget-categories .widget-title {
+.footer .footer-widgets .widget .widget-title {
   text-transform: none !important;
   margin-bottom: 40px !important;
   font-size: 22px !important;
 }
 
-.footer-widgets .widget-categories ul li {
+.footer-widgets .widget ul li {
   margin-bottom: 20px !important;
 }
 
-.footer-widgets .widget-categories ul li a {
+.footer-widgets .widget ul li a {
   font-size: 18px !important;
   color: #A1A1A1 !important;
 }
