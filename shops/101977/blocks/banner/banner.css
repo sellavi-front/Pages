@@ -97,7 +97,3 @@ body .section-title span:after {
 #home > div > div > section > div > h2 {
     display: flex;
 }
-
-.outer-container {
-    height: 235vh;
-}
