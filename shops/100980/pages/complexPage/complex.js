@@ -67,11 +67,11 @@ let complexTemplate = `
                 расчет стоимости коммерческого предложения бесплатно</p>
             </div>
             <form class="complex__submit__form">
-                <input class="complex_submit__form__input" type="text" placeholder="Ваше имя">
-                <input class="complex_submit__form__input" type="text" placeholder="Ваш телефон">
-                <input class="complex_submit__form__input" type="text" placeholder="Ваш E-Mail">
-                <input class="complex_submit__form__input" type="number" placeholder="Площадь помещения">
-                <input class="complex_submit__form__input" type="number" placeholder="Кол-во посадочных мест">
+                <input class="complex_submit__form__input" name="complex__form_name" type="text" placeholder="Ваше имя">
+                <input class="complex_submit__form__input" name="complex__form_phone" type="text" placeholder="Ваш телефон">
+                <input class="complex_submit__form__input" name="complex__form_email" type="text" placeholder="Ваш E-Mail">
+                <input class="complex_submit__form__input" name="complex__form_square" type="number" placeholder="Площадь помещения">
+                <input class="complex_submit__form__input" name="complex__form_count_seats" type="number" placeholder="Кол-во посадочных мест">
                 <button type="button" class="complex__submit__form__btn">Рассчитать бесплатно</button>
             </form>
        </div>

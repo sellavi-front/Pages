@@ -12,6 +12,7 @@ import renderWhyChooseUs from "./blocks/customSection/whyChooseUs/whyChooseUs.js
 import renderHowWeWork from "./blocks/customSection/howWeWork/howWeWork.js"
 import renderFooter from "./blocks/footer/footer.js"
 import sendHomeForm from "./wa-forms/home-form.js"
+import sendComplexForm from "./wa-forms/сomplex-form.js"
 
 
 /* Setting logo */
@@ -62,6 +63,8 @@ if(pages.about) {
 
 if(pages.complex) {
   renderComplexTemplate()
+  sendComplexForm()
+
 }
 
 if(pages.delivery) {
