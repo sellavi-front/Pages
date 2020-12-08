@@ -25,6 +25,8 @@
 @import './footer/footer-widgets.css';
 @import './footer/soc-icons.css';
 
+@import './fix.css';
+
 
 
 body h1,
