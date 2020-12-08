@@ -8,6 +8,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  margin-bottom: 5%;
 }
 
 .solutions__steps_item {
@@ -17,9 +18,9 @@
 
 .steps__img,
 .steps__title {
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .steps__img {
-  width: 10%;
+  width: 25px !important;
 }
