@@ -78,3 +78,19 @@ body .delivery__content-label {
  margin-right: 50px;
  text-align: center;
 }
+
+.sender-basic {
+  border: 10px solid #000000;
+}
+
+#home > div > div > section > div:nth-child(4) > div > form > div > button {
+  background: #007735;
+}
+
+#home > div > div > section > div:nth-child(5) > div {
+  border: 0px solid black;
+}
+
+.flex-logo-text {
+  left: 120px;
+}
