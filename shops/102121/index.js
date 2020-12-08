@@ -1,5 +1,6 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
+import contactData from './utils/contactData.js'
 
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
