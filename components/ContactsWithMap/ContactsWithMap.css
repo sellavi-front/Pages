@@ -47,3 +47,12 @@
 .contact__list-el .contact__list-title {
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .contact-with-map {
+    flex-direction: column;
+  }
+  .contact__list{
+    width: 100%;
+  }
+}
