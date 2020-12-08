@@ -31,4 +31,7 @@
     flex-direction: column;
     justify-content: center;
   }
+  .footer-widgets > div > div > div {
+    margin: 0 auto 0 5%;
+  }
 }

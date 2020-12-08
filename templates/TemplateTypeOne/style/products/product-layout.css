@@ -5,3 +5,7 @@
 body .section-title span:after, body .section-title span:before {
   display: none !important;
 }
+
+.product-product .product-single.product-item #tab-description~.table_holder  {
+  display: none !important;
+}
