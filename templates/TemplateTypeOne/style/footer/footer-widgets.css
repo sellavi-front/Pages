@@ -6,3 +6,8 @@
 .footer-widgets .widget-categories ul li {
   margin-bottom: 20px !important;
 }
+
+.footer-widgets .widget-categories ul li a {
+  font-size: 18px !important;
+  color: #A1A1A1 !important;
+}
