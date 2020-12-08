@@ -17,3 +17,7 @@ body:not(.common-home) footer.footer .footer-widgets>.container {
   width: auto !important;
 }
 
+.wrapper footer.footer .footer-widgets .widget-categories ul li+li {
+  border: none !important;
+}
+
