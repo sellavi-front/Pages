@@ -128,3 +128,13 @@ if (location.href.includes('contact')) {
 if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
+
+function getLinkWhastapp() {
+  let myName = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(1)');
+  let myPhone = document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > input:nth-child(2)');
+  
+    var url = "https://wa.me/79178434344?text=" + myName + "%20" + myPhone;
+    return url
+  }
+  
+  document.querySelector('#home > div > div > section > div:nth-child(4) > div > form > div > button').setAttribute('onclick', 'getLinkWhastapp()');
