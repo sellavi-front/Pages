@@ -25,13 +25,19 @@
 
 .delivery__moscow>ul>li,
 .delivery__mkad>ul>li,
-.delivery__russia>ul>li {
+.delivery__russia>ul>li,
+.terms__items,
+.first__return_item,
+.second__return_item {
   list-style: none;
 }
 
 .delivery__russia>ul>li:before,
 .delivery__moscow>ul>li:before,
-.delivery__mkad>ul>li:before {
+.delivery__mkad>ul>li:before,
+.terms__items,
+.first__return_item,
+.second__return_item {
   content: "\2022";
   color: #BF3417;
   font-weight: bold;
