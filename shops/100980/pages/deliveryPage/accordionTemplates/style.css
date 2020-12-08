@@ -1,0 +1,15 @@
+.payment__block {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.payment__item img {
+  width: 50%;
+}
+
+.payment__container>li>h5 {
+  font-weight: 900;
+}
