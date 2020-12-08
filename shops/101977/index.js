@@ -98,7 +98,7 @@ if (location.pathname !== '/') {
   document.querySelector('#cart > i').style.cssText = 'color: black;';
   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').style.cssText = 'display: flex; justify-content: center; align-self: center;';
   }
-  
+
   if (screen.width <= 480 ) {
     document.querySelector('#home > div > div').style.cssText = 'margin-top: 60px;';
     document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky > div > div.dropdown.cart_drop_down').style.cssText = 'display: none;';
@@ -121,4 +121,8 @@ if (location.href.includes('contact')) {
 
   const req = new Requisites(requsites, 'afterend', 'ИП Гралько Людмила Викторовна', media);
   req.setTemplate();
+}
+
+if (location.pathname === '/login/') {
+  document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
