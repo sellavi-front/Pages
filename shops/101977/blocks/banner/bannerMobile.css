@@ -71,7 +71,7 @@
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption {
-        bottom: 44%;
+        bottom: 62%;
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
@@ -164,7 +164,7 @@
         background-repeat: no-repeat !important;
         position: relative;
         top: 50px !important;
-        height: 500px;
+        height: 459px;
         background-position-x: -100px !important;
     }
 
@@ -185,5 +185,14 @@
     
     #home > div > header > div.header-wrapper > div.container > span {
         display: none;
+    }
+
+    #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+        flex-direction: row-reverse !important;
+    }
+    
+    a.menu-toggle {
+        left: 0px !important;
+        margin-right: 10px;
     }
 }
