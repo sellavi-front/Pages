@@ -6,8 +6,8 @@ export const solutionObj = {
       '<p>Кафе на 30 мест</p>'
     ],
     buttonGetSolution: [
-      "<a>Получить готовое решение</a>",
-      "<a>Получить готовое решение</a>"
+      "<a onclick=`${window.open('https://wa.me/79324247663?text=Здравствуйте!%20Готовое%20решение%20Кафе%20на%2010%20мест%20Расскажите%20подробнее,%20пожалуйста.')}`>Получить готовое решение</a>",
+      "<a onclick=`${window.open('https://wa.me/79324247663?text=Здравствуйте!%20Готовое%20решение%20Кафе%20на%2030%20мест%20Расскажите%20подробнее,%20пожалуйста.')}`>Получить готовое решение</a>"
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607093005/daan-evers-tKN1WXrzQ3s-unsplash_1_qllwp1.png'
   },
@@ -32,7 +32,7 @@ export const solutionObj = {
       '<p>Пиццерия на 40 мест</p>'
     ],
     buttonGetSolution: [
-      "<a>Получить готовое решение</a>",
+      "<a onclick=''>Получить готовое решение</a>",
       "<a>Получить готовое решение</a>",
     ],
     img: 'https://res.cloudinary.com/dd2edlvdy/image/upload/v1607092992/peter-bravo-de-los-rios-K70I7ecmXqg-unsplash_1_d3xkmq.png'
