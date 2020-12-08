@@ -25,3 +25,10 @@
 .footer-widgets > div > div > div:last-child {
   margin-right: 0;
 }
+
+@media (max-width: 768px) {
+  .footer-widgets > div {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
