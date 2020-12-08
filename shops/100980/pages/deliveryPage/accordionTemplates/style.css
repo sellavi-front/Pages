@@ -36,8 +36,8 @@
 .delivery__moscow>ul>li:before,
 .delivery__mkad>ul>li:before,
 .terms__items,
-.first__return_item,
-.second__return_item {
+.first__return_item:before,
+.second__return_item:before {
   content: "\2022";
   color: #BF3417;
   font-weight: bold;
