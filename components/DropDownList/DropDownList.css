@@ -24,6 +24,10 @@
   background-color: #ccc;
 }
 
+.active:after {
+  content: "\2212";
+}
+
 .panel {
   padding: 0 18px;
   display: none;
