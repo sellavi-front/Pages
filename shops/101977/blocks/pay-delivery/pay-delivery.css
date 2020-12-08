@@ -80,17 +80,17 @@ body .delivery__content-label {
 }
 
 .sender-basic {
-  border: 10px solid #000000;
+  border: 10px solid #000000 !important;
 }
 
 #home > div > div > section > div:nth-child(4) > div > form > div > button {
-  background: #007735;
+  background: #007735 !important;
 }
 
 #home > div > div > section > div:nth-child(5) > div {
-  border: 0px solid black;
+  border: 0px solid black !important;
 }
 
 .flex-logo-text {
-  left: 120px;
+  left: 120px !important;
 }
