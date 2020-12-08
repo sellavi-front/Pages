@@ -51,8 +51,11 @@
 @media (max-width: 768px) {
   .contact-with-map {
     flex-direction: column;
+    margin-bottom: 40px;
   }
   .contact__list{
     width: 100%;
   }
+
+
 }
