@@ -15,3 +15,26 @@
 .payment__container>h5 {
   font-weight: 900;
 }
+
+.delivery__moscow>p,
+.delivery__mkad>p,
+.delivery__russia>p {
+  font-weight: 900;
+}
+
+.delivery__moscow>ul>li,
+.delivery__mkad>ul>li,
+.delivery__russia>ul>li {
+  list-style: none;
+}
+
+.delivery__russia>ul>li:before,
+.delivery__moscow>ul>li:before,
+.delivery__mkad>ul>li:before {
+  content: "\2022";
+  color: #BF3417;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
