@@ -2,17 +2,14 @@
 
 @import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
-@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
+
 @import './banner/banner.css';
 @import './banner/caption.css';
-
-@import './category/cat-img.css';
-@import './category/category.css';
-@import './category/cat-col-3.css';
 
 @import './products/product-card.css';
 @import './products/button.css';
