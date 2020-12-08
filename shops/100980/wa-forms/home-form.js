@@ -5,7 +5,7 @@ let sendHomeForm = () => {
     let homeFormPhone = document.querySelector('[name="home__from_phone"]').value;
     let homeFormEmail = document.querySelector('[name="home__from_email"]').value;
     let arrHome = [homeFormName, homeFormPhone, homeFormEmail]
-    let sender = new WhatsAppWidget("+7 999 875-43-75", "Детальный план реализации проекта:", arrHome, "Расскажите поподробнее, пожалуйста.")
+    let sender = new WhatsAppWidget("79998754375", "Детальный план реализации проекта:", arrHome, "Расскажите поподробнее, пожалуйста.")
     sender.call()
 }
 
