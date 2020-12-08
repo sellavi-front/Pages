@@ -7,6 +7,7 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
 }
 
 .buttons__container button,
+.wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
 .thumbnail .add_to_wishlist button {
   border-color: #d1d1d1 !important;
 }
