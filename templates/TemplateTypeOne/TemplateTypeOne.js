@@ -19,6 +19,6 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   const catergoryBanners = document.querySelector('.homefeatured_category>div');
 
   if (catergoryBanners) {
-    catergoryBanners.insertAdjacentHTML('aftebegin', `<h2 class="section-title mb-4 mt-4"><span> Категории </span></h2>`)
+    catergoryBanners.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4"><span> Категории </span></h2>`)
   }
 }
