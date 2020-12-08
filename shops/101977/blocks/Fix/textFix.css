@@ -65,3 +65,11 @@
     border: 0px;
 }
 
+.item_data {
+    padding: 10px !important ;
+}
+
+div#search_results {
+    position: relative;
+    left: -100px !important;
+}
