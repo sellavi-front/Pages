@@ -1,6 +1,6 @@
 export default class WhatsAppWidget {
 
-  constructor(event, phoneNumber, titleMessage, dataFromInput, message) {
+  constructor(phoneNumber, titleMessage, dataFromInput, message) {
     console.log(event, phoneNumber, titleMessage, dataFromInput, message)
     this.event = event
     this.phoneNumber = phoneNumber
@@ -10,9 +10,7 @@ export default class WhatsAppWidget {
   }
 
   setTemplate = () => {
-    this.event.addEventListener("click", () => {
-      window.open(`https://wa.me/${this.phoneNumber}?text=Здравствуйте!%20${this.titleMessage}%20Данные: ${this.dataFromInput}.%20${this.message}`, '_blank')
-    })
+    window.open(`https://wa.me/${this.phoneNumber}?text=Здравствуйте!%20${this.titleMessage}%20Данные: ${this.dataFromInput}.%20${this.message}`, '_blank')
   }
 
   call = () => {
