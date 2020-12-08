@@ -15,7 +15,7 @@ export default class WhatsAppWidget {
     }
     
     
-    call = () => {
+    sendWA = () => {
         console.log(2);
       this.setTemplate()
     }

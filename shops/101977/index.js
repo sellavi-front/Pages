@@ -83,7 +83,7 @@ sender.render();
 let button = document.querySelector('.form__button');
 console.log(button);
 button.addEventListener('click', () => {
-  sendFormHome.call();
+  sendFormHome.sendWA();
 });
 
 }
