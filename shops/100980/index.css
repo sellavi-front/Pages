@@ -282,6 +282,10 @@ body .content-area {
   padding-bottom: 0 !important;
 }
 
+.solutions__column_links>a:hover {
+  cursor: pointer;
+}
+
 /* End */
 
 /* Footer */
