@@ -1,6 +1,7 @@
 export default class WhatsAppWidget {
 
     constructor(phoneNumber, titleMessage, dataFromInput, message) {
+        console.log(phoneNumber, titleMessage, dataFromInput, message);
       this.phoneNumber = phoneNumber
       this.titleMessage = titleMessage
       this.dataFromInput = dataFromInput
