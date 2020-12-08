@@ -41,6 +41,7 @@ export default class DropDownList {
         } else {
           panel.style.display = "block";
         }
+
       });
     })
   }
