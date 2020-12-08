@@ -56,6 +56,11 @@ if(pages.home) {
   document.querySelector(".section-title.mb-4.mt-4").remove()
   document.querySelector(".row.products.grid").remove()
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
+
+  let homeFormBtn = document.querySelector("#home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div > div:nth-child(2) > div > div > form > button")
+  homeFormBtn.addEventListener("click", () => {
+    alert(1)
+  })
 }
 
 if(pages.about) {

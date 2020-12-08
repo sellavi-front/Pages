@@ -23,9 +23,9 @@ const bannerLayout = `
           <div class="banner__column__item">
             <form class="banner__submit__form">
               <h6>Оставьте заявку прямо сейчас</h6>
-              <input class="banner_submit__form__input" type="text" placeholder="Ваше имя">
-              <input class="banner_submit__form__input" type="text" placeholder="Ваш телефон">
-              <input class="banner_submit__form__input" type="text" placeholder="Ваш E-Mail">
+              <input class="banner_submit__form__input" name="home__from_name" type="text" placeholder="Ваше имя" required>
+              <input class="banner_submit__form__input" name="home__from_phone" type="text" placeholder="Ваш телефон" required>
+              <input class="banner_submit__form__input" name="home__from_email" type="text" placeholder="Ваш E-Mail" required>
               <p>Получите предложение и детальный план реализации проекта</p>
               <button type="button" class="banner__submit__form__btn">Получить предложение</button>
             </form>
