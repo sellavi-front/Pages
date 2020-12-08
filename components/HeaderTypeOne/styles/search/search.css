@@ -1,4 +1,4 @@
-body.theme_11 .wrapper .header .header-wrapper .header-search input {
+.wrapper .header .header-wrapper .header-search input {
   border: none !important;
   border-bottom: 2px solid black !important;
   border-radius: 0 !important;
@@ -13,11 +13,15 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input {
   left: 0 !important;
 }
 
-body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+.wrapper .header .header-wrapper .header-search {
+  margin: 0 0 0 auto !important;
+}
+
+.wrapper .header .header-wrapper .header-search input.form-control {
   padding: 0 2% !important;
 }
 
-body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
+.wrapper .header .header-wrapper .header-search input.form-control::placeholder {
   color: grey !important;
 }
 
