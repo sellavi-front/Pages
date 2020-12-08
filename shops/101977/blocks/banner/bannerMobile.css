@@ -252,3 +252,7 @@
         text-align: left;
     }
 }
+
+#home > div > div > section > div:nth-child(3) > div > div > div > img {
+    filter: none;
+}
