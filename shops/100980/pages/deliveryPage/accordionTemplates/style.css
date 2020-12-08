@@ -35,7 +35,7 @@
 .delivery__russia>ul>li:before,
 .delivery__moscow>ul>li:before,
 .delivery__mkad>ul>li:before,
-.terms__items,
+.terms__items:before,
 .first__return_item:before,
 .second__return_item:before {
   content: "\2022";
