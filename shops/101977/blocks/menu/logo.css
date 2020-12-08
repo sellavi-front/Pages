@@ -12,3 +12,8 @@
     max-width: 200px;
     max-height: 61px;
 }
+
+#home > div > header > div.header-wrapper > div.container > div.logo {
+    position: relative;
+    left: -50px;
+}
