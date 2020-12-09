@@ -88,7 +88,7 @@ if (location.pathname !== '/') {
   oldMenu.remove();
 
   if (location.pathname !== '/login/') {
-  document.querySelector('section.page-section.titles').style.cssText = 'margin-top: 100px;';
+  //document.querySelector('section.page-section.titles').style.cssText = 'margin-top: 100px;';
 
   document.querySelector('body .content-area .page-section.titles').style.cssText = 'background: #ff000000; border: 0px;';
   document.querySelector('#home > div > div > section.page-section.titles > div > div > h1').style.cssText = 'font-size: 25px; font-weight: 900;';
