@@ -1,8 +1,81 @@
-#home > div > div > section > div:nth-child(5) > div {
-    border: 6px solid black;
-
+#home > div > div > section > div.send-form > div > div {
+    display: flex;
 }
 
-#home > div > div > section > div:nth-child(5) > div > form > div > button {
+#home > div > div > section > div.send-form > div {
+    border: 8px solid black;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+#home > div > div > section > div.send-form > div > h3 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: Hauss,sans-serif;
+    font-weight: 900;
+}
+
+#home > div > div > section > div.send-form > div > h6 {
+    margin-bottom: 40px;
+    font-family: Hauss,sans-serif;
+}
+
+#name {
+    border-radius: 5px;
+    margin-right: 50px;
+    text-align: left !important;
+    padding-left: 20px;
+    height: 50px;
+    width: 260px;
+}
+
+#msg {
+    border-radius: 5px;
+    margin-right: 50px;
+    text-align: left !important;
+    padding-left: 20px;
+    height: 50px;
+    width: 260px;
+}
+
+#home > div > div > section > div.send-form > div > div > button {
+    width: 200px;
     background: #007735;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div.send-form {
+    margin-bottom: 50px
+}
+
+@media (max-device-width: 480px) {
+    #home > div > div > section > div.send-form > div {
+        padding-left: 20px;
+    }
+
+    #home > div > div > section > div.send-form > div > div {
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    #name {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    #msg {
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    #home > div > div > section > div.send-form > div > div > button {
+        height: 40px;
+        width: 100%;
+    }
 }
