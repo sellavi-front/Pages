@@ -8,8 +8,8 @@
   }
   .header_widgets .header-cart {
     display: block !important;
-    top: 30px;
-    left: 15px;
+    top: 30px !important;
+    left: 15px !important;
   }
 
   .header_widgets .header-cart a {
