@@ -31,4 +31,8 @@
   .main-slider .caption-content {
     display: block !important;
   }
+
+  .main-slider {
+    margin-top: 0 !important;
+  }
 }
