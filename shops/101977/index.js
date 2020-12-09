@@ -129,7 +129,7 @@ if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
 
-document.querySelector('.map-flex').insertAdjacentHTML('beforebegin', '<div class="send-form"><div class="container"><h3>Хочу красивый номер</h3><h6>Впишите желаемый номер</h6><div class="out-flex"><div class="in-flex"><input id="name" type="text" placeholder="Ваше имя" style="text-align:center"><input id="msg" type="text" placeholder="Телефон" style="text-align:center"></div><button class="sendWA">Отправить</button></div></div></div>');
+document.querySelector('.map-flex').insertAdjacentHTML('beforebegin', '<div class="send-form"><div class="container"><h3>Остались вопросы?</h3><h6>Оставьте заявку на консультацию и наши менеджеры свяжутся с Вами.</h6><div class="out-flex"><div class="in-flex"><input id="name" type="text" placeholder="Ваше имя" style="text-align:center"><input id="msg" type="text" placeholder="Телефон" style="text-align:center"></div><button class="sendWA">Отправить</button></div></div></div>');
 
 window.onload = () => {
   document.querySelector(".sendWA").addEventListener('click', () => {
