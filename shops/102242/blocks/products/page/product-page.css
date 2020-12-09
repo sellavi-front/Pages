@@ -9,6 +9,20 @@
 }
 
 
+.form-group label {
+  display: none !important;
+}
+
+/* Styled input choise */
+
+#product .form-group .form-control {
+  border: 1px solid #DBD7D2;
+  border-radius: 10px;
+}
+
+/* END Styled input choise */
+
+
 body .section-title.section-title-lg {
   border-bottom: none;
   height: auto !important;
