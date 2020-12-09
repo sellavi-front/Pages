@@ -11,8 +11,7 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
     el.classList.remove('col-md-3');
   })
   /* Add title for soc icons */
-  const socIcons = document.querySelector('.soc-icons>.container');
-  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+
 
   const catergoryBanners = document.querySelector('.homefeatured_category>div');
   if (catergoryBanners) {
@@ -20,10 +19,13 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   }
 }
 /** !!!
- *
+
  paste this component in your shop
                                      **/
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   new SocialIconsTypeOne(footerContainer, 'beforeend').render();
+
+  const socIcons = document.querySelector('.soc-icons>.container');
+  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
 }
