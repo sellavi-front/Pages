@@ -25,7 +25,8 @@
   margin-left: 5%;
 }
 
-.banner__column p {
+.banner__description,
+.banner__phone {
   margin-left: 5%;
 }
 
