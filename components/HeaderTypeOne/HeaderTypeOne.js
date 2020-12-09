@@ -28,7 +28,7 @@ const collapseShow = () => {
       const el = e.target.closest('.flexy')
       console.log(el);
 
-      el.querySelector('.pannel-collapse').classList.toggle('show');
+      el.querySelector('.panel-collapse').classList.toggle('show');
     })
   })
 }
