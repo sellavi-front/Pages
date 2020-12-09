@@ -2,6 +2,10 @@
   display: block !important;
 }
 
+.form-group label {
+  display: none !important;
+}
+
 /* RADIO CUSTOM */
 
 #product .form-group .text-danger {
