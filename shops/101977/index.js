@@ -129,3 +129,24 @@ if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
 
+document.querySelector('.map-flex').insertAdjacentHTML('beforebegin', '<div class="send-form"><div class="container"><h3>Хочу красивый номер</h3><h6>Впишите желаемый номер</strike></h6><input id="msg" type="text" placeholder="xx777x" style="text-align:center"><button class="sendWA">Отправить</button></div></div>');
+
+window.onload = () => {
+  document.querySelector(".sendWA").addEventListener('click', () => {
+      send_handle()
+  })
+  
+  function send_handle(){
+  
+    /*let num=document.getElementById("number").value;*/
+  
+    let msg= document.getElementById("msg").value;
+  
+      /*let name= document.getElementById("name").value;*/
+    
+    var win = window.open(`https://wa.me/79227888889?text=Здравствуйте,%20я%20хочу%20красивый%20номер%20${msg}`, '_blank');
+   // win.focus();
+  }
+  }
+
+  
