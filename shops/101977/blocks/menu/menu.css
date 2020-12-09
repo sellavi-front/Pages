@@ -130,3 +130,17 @@ body.theme-gray .header {
 .product-category section.page-section.titles > div > div > h1 {
     font-size: 25px; font-weight: 900;
 }
+
+.product-product section.page-section {
+    margin-top: 20px
+}
+
+
+.product-product .btn-wish-list {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+    color: #ffffff !important;
+}
