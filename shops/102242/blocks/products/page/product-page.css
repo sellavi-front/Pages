@@ -8,6 +8,9 @@
   max-width: 48% !important;
 }
 
+.form-control {
+  height: 50px !important;
+}
 
 .form-group label:not(.color-choise label) {
   display: none !important;
