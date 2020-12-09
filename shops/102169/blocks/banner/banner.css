@@ -42,6 +42,7 @@
   flex-wrap: nowrap;
   width: 100%;
   justify-content: flex-start;
+  margin-left: 5%;
 }
 
 .social__item {
@@ -49,5 +50,5 @@
 }
 
 .social__item img {
-  width: 10%;
+  width: 30%;
 }
