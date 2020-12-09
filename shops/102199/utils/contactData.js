@@ -3,7 +3,7 @@ const contactData = {
   contacts: [
     {
       title: 'Адрес',
-      contact: 'г. Москва',
+      contact: 'г. Москва ул. Маршала Катукова стр. 11',
     },
     {
       title: 'Телефон',
