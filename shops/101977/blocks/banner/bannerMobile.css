@@ -62,7 +62,7 @@
         position: relative;
         top: 50px !important;
         width: 500px !important;
-        background-position-x: -100px !important;
+        /* background-position-x: -100px !important; */
     }
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 {
