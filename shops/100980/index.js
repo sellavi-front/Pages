@@ -26,6 +26,7 @@ let navbar = `
       <a class="navbar_item" href="/delivery/"><p>Доставка, оплата и возврат</p></a>
       <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
       <a class="navbar_item" href="/solutions/"><p>Готовые решения</p></a>
+      <a class="navbar_item" href="/contact/"><p>Контакты</p></a>
     </div>
 `
 
