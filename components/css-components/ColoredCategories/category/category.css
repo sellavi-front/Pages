@@ -55,10 +55,4 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     max-width: 100% !important;
     margin: 0 !important;
   }
-
-  .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
-    padding: 0 5% !important;
-  }
-
-
 }

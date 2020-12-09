@@ -12,7 +12,19 @@ body.theme_11 .wrapper .header {
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-  margin: 0 auto 0 24% !important;
+  margin: 0 auto 0 17% !important;
+}
+
+@media (max-width: 1224px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto 0 8% !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto 0 0 !important;
+  }
 }
 
 @media (max-width: 495px) {

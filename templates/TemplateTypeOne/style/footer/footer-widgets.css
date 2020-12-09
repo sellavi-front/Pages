@@ -34,4 +34,12 @@
   .footer-widgets > div > div > div {
     margin: 0 auto 0 5%;
   }
+
+  #home footer .footer-widgets {
+    padding-top: 0 !important;
+  }
+
+  footer {
+    margin: 0 !important;
+  }
 }

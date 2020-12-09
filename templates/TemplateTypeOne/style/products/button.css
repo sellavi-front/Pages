@@ -1,4 +1,4 @@
-.wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
+body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   background-color: transparent !important;
   background: transparent !important;
@@ -6,7 +6,8 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
   border: 1px solid !important;
 }
 
-.buttons__container button,
+body .buttons__container button,
+body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
 body.theme-red-2.theme_11  .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
 .thumbnail .add_to_wishlist button {
   border-color: #d1d1d1 !important;
@@ -20,6 +21,6 @@ body.theme-red-2.theme_11  .wrapper .page-section .products.grid .product-item .
   width: 60px !important;
 }
 
-.add_to_cart button {
+.add_to_cart button:not(.search_results .add_to_cart button) {
   padding: 0 !important;
 }

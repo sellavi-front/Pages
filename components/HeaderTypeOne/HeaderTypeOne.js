@@ -17,6 +17,22 @@ const wishList = `
   </div>
 `;
 
+const collapseShow = () => {
+  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
+  //remove attr href
+  links.forEach(a => a.removeAttribute('href'));
+
+  //set listeners and show panel-collapse
+  links.forEach(a => {
+    a.addEventListener('click', (e) => {
+      const el = e.target.closest('.flexy')
+      console.log(el);
+
+      el.querySelector('.panel-collapse').classList.toggle('show');
+    })
+  })
+}
+
 if (document.querySelector('.wrapper')) {
   const cart = document.querySelector('.header-cart');
   const cartI = cart.querySelector('i');
@@ -24,12 +40,12 @@ if (document.querySelector('.wrapper')) {
   cartI.classList.remove('fal');
 
   if (headerWidgets) {
-    new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
+    const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
+    newCont.render();
     headerWidgets.remove();
-
+    collapseShow();
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
-
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
   }
