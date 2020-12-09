@@ -20,7 +20,11 @@ const wishList = `
 const collapseShow = () => {
   const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
   //remove attr href
-  links.forEach(a => a.removeAttribute('href'));
+  links.forEach(a => {
+    if (a.closest('li').querySelector('.panel-collapse')){
+      a.removeAttribute('href')
+    }
+  });
 
   //set listeners and show panel-collapse
   links.forEach(a => {
