@@ -1,3 +1,5 @@
 @import '../../../fixes/fixes.css';
 
 @import './pay-delivery/pay-delivery.css';
+
+@import '../../../templates/TemplateTypeOne/style/index.css';
