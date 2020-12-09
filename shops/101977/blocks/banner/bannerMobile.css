@@ -278,4 +278,8 @@
         position: relative;
         right: 20px;
     }
+
+    .about__item-container {
+        margin-top: 30px
+    }
 }
