@@ -4,6 +4,10 @@
     position: absolute !important;
   }
 
+  .header-widgets .header-search  {
+    display: none !important;
+  }
+
   .header-widgets .header_login {
     display: none !important;
   }
