@@ -5,12 +5,14 @@
 
 @import '../../../fixes/fixes.css';
 @import './pay-delivery/pay-delivery.css';
+@import './header.css';
+@import './banner.css';
 
 body h1 {
   font-size: 1.8 rem;
 }
 
-body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+.wrapper .header .header-wrapper .logo {
   z-index: 9999 !important;
 }
 
