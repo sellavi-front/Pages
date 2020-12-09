@@ -53,3 +53,9 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 .row.products.grid {
     justify-content: center;
 }
+
+.product-category .product-item .thumbnail .media img {
+    min-height: 200px !important;
+    max-width: 300px !important;
+    max-height: 900px !important;
+}
