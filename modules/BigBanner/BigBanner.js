@@ -2,7 +2,6 @@ export default class BigBanner {
   constructor(link, obj = {}) {
     this.obj = obj;
     this.link = link;
-    console.log(this.obj, this.link);
   }
 
   setCaption(o) {
@@ -32,7 +31,6 @@ export default class BigBanner {
   }
 
   render() {
-    const banner = document.querySelector('.custom_banner');
-    return banner.insertAdjacentHTML('afterbegin', this.setTemplate());
+    return document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', this.setTemplate());
   }
 }

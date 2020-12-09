@@ -1,3 +1,5 @@
+@import './header-widgets/header-widgets.css';
+
 .common-home .header {
   background: transparent !important;
 }
@@ -15,7 +17,10 @@
 }
 
 .header .header-search {
-  left: -70px;
+  left: auto;
+  right: 8% !important;
+  position: absolute;
+  width: 150px;
 }
 
 .header-cart .cart-wrapper #cart i {
@@ -30,7 +35,16 @@
   border: none;
 }
 
-.header .header-search .form-control::placeholder {
+.navigation {
+  left: -15%;
+}
+
+.navigation .nav.sf-menu {
+  align-items: center !important;
+}
+
+.header .header-search .form-control::placeholder,
+.sf-menu.nav>li>a {
   color: snow !important;
 }
 
@@ -38,8 +52,13 @@
   width:  100% !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+  .navigation {
+    display: none !important;
+  }
+
   .logo {
     width: 100px;
+    margin: 0 0 0 36%;
   }
 }

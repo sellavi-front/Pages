@@ -17,15 +17,22 @@ const wishList = `
   </div>
 `;
 
-if(document.querySelector('.wrapper')) {
-  const cart = document.querySelector("#cart > i");
-  cart.classList.add('far');
-  cart.classList.remove('fal');
+if (document.querySelector('.wrapper')) {
+  const cart = document.querySelector('.header-cart');
+  const cartI = cart.querySelector('i');
+  cartI.classList.add('far');
+  cartI.classList.remove('fal');
 
-  new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
-  headerWidgets.remove();
+  if (headerWidgets) {
+    new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
+    headerWidgets.remove();
 
-  headerWidgets.insertAdjacentHTML('afterbegin', `wishList`);
+    headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+  } else {
+
+    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
+    cart.remove();
+  }
 
   new NavTransferTo(headerLogo, 'afterend').transfer();
 }

@@ -1,7 +1,11 @@
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
-import '../../fixes/js/FooterCopy/FooterCopy.js';
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
-import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
+// import '../../fixes/js/Alert/Alert.js'
+
+// import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import '../../components/HeaderTypeOne/HeaderTypeOne.js'
 import Requisites from '../../modules/Requisites/Requisites.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 
@@ -12,32 +16,24 @@ import dataBannerContent from './utils/dataBannerContent.js';
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import dataAbout from './utils/dataAbout.js';
 import socIcons from './utils/socIcons.js';
-import contactData from './utils/contacts.js'
+import contactData from './utils/contacts.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
-import ContactsTypeOne from '../../components/ContactsTypeOne/ContactsTypeOne.js'
+import ContactsTypeOne from '../../components/ContactsTypeOne/ContactsTypeOne.js';
 
 if (document.querySelector('.wrapper')) {
   // Icons im header cont
-  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
   const footer = document.querySelector('.footer');
   const footerWidgets = document.querySelector('.footer-widgets>.container');
   document.querySelector('.footer-widgets>.container>.row').remove();
-
 
   footer.insertAdjacentHTML(
     'beforeend',
     `<img class="img-bg img-bg_footer" src="https://res.cloudinary.com/gz-company/image/upload/v1606489415/ThaiCosmetic/Group_56_jzrryx.png">`,
   );
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-
-  buttonsInHeader.setTemplate();
-  hideCart.remove();
-  // End
 
   const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);
 
@@ -76,6 +72,22 @@ if (document.querySelector('.common-home')) {
     'beforeend',
     `<img class="img-bg img-bg_l" src="https://res.cloudinary.com/gz-company/image/upload/v1606479718/ThaiCosmetic/image_3_1_cmzi4q.png">`,
   );
+
+  const btns = document.querySelectorAll('.add_to_wishlist > button');
+  const banner = document.querySelector('.main-slider');
+
+  console.log(btns);
+  console.log(banner);
+
+  btns.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      setTimeout(() => {
+        const a = document.querySelector('.alert');
+        banner.insertAdjacentHTML('afterend', a.outerHTML)
+        a.remove();
+      }, 1000);
+    });
+  });
 }
 
 if (document.querySelector('.product-item')) {
@@ -95,4 +107,8 @@ if (location.href.includes('contact')) {
 
   const req = new Requisites(requsites, 'afterend', 'ИП ТЮМЕНЦЕВА МАРИЯ ВАЛЕРЬЕВНА', media);
   req.setTemplate();
+}
+
+if (location.href.includes('checkout')) {
+  document.querySelector('.logo .img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607104303/ThaiCosmetic/Group_1_1_1_wkhuus.png')
 }

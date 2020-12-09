@@ -70,9 +70,9 @@ export default class Requisites {
       );
 
       this.container.insertAdjacentHTML('afterbegin', termsOfUse(this.nameOrg));
-    } else if (this.container.classList.contains('col-md-12')) {
+    } else if (location.href.includes('policy')) {
       this.container.insertAdjacentHTML(this.target, policy);
-    } else if (this.container.classList.contains('col-md-12')) {
+    } else if (location.href.includes('pay-delivery')) {
       this.container.insertAdjacentHTML(this.target, payDelivery(this.payDeliveryIfo));
     }
   }

@@ -1,0 +1,25 @@
+.wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #000 !important;
+  border: 1px solid !important;
+}
+
+.buttons__container button,
+body.theme-red-2.theme_11  .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
+.thumbnail .add_to_wishlist button {
+  border-color: #d1d1d1 !important;
+}
+
+.price_actions .buttons__container {
+  height: 36px !important;
+}
+
+.thumbnail .add_to_wishlist button {
+  width: 60px !important;
+}
+
+.add_to_cart button {
+  padding: 0 !important;
+}

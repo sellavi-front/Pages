@@ -1,7 +1,46 @@
-@import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
-@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
+
+@import './header/header.css';
 
 @import './banner/banner.css';
 @import './banner/caption.css';
+
+@import './products/product-card.css';
+@import './products/button.css';
+@import './products/price.css';
+@import './products/caption.css';
+@import './products/section-title.css';
+@import './products/product-layout.css';
+
+@import './footer/footer.css';
+@import './footer/color-text.css';
+@import './footer/footer-widgets.css';
+@import './footer/soc-icons.css';
+
+@import './fix.css';
+
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}

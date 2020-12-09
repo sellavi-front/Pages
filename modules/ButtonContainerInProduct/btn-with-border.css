@@ -1,5 +1,6 @@
 .thumbnail .add_to_wishlist {
   position: initial !important;
+  height: 100%;
 }
 
 .thumbnail .add_to_wishlist button {
@@ -7,7 +8,7 @@
   border: 1px solid black !important;
   background: transparent !important;
   width: 72px;
-  height: 52px;
+  height: 100%;
   padding: 0 !important;
 }
 
@@ -46,17 +47,24 @@ body .section-title {
   width: 100%;
 }
 
-h2.section-title > span::after {
+.thumbnail .price_actions .add_to_cart {
+  width: 276px !important;
+  height: 100% !important;
+  margin-right: 10px;
+}
+
+.thumbnail .price_actions .add_to_cart button {
+  height: 100%;
+  width: 100%;
+  padding: 5% 25%;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+/* h2.section-title > span::after {
   content: ' ';
   display: flex;
   height: 5px;
   background: linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   width: 100%;
-}
-
-@media (max-width: 352px) {
-  .thumbnail .add_to_wishlist button {
-    padding: 12% 25% !important;
-    height: auto !important;
-  }
-}
+} */

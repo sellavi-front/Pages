@@ -1,7 +1,0 @@
-.price_actions .buttons__container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-self: center;
-  width: 100%;
-}

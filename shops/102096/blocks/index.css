@@ -1,3 +1,4 @@
 @import '../../../fixes/fixes.css';
-
+@import '../../../modules/Requisites/Requisites.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';

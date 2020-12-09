@@ -1,5 +1,7 @@
-//import '../../fixes/fixes.js';
+ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+ import '../../fixes/js/FooterCopy/FooterCopy.js'
 
+//import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
@@ -11,7 +13,9 @@ import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 import requsites from './utils/requsites.js';
-i
+
+import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -62,52 +66,52 @@ if (document.querySelector('.wrapper')) {
   const footerMetaContainer = document.querySelector('.footer-meta>div');
   const cartLink = document.querySelector('#cart>i');
 
-  const forDelete = [icoUser, cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1]; //navigation
+  const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
     title: 'Наши контакты',
     phone: '+7(926)525-92-48',
     email: '1981market@mail.ru',
   };
 
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
+  //const buttonsInHeader = new ButtonListInHeader(headerWrapper);
   const deleteElements = new DeleteElements(forDelete);
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
 
-  cartLink.insertAdjacentHTML(
-    'beforebegin',
-    '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
-  );
-  cartLink.remove();
+  // cartLink.insertAdjacentHTML(
+  //   'beforebegin',
+  //   '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
+  // );
+  // cartLink.remove();
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
 
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
 
-  //headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
+  // headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
   deleteClassesFooter.findAndDelete();
-  buttonsInHeader.setTemplate(headerWrapper);
+  //buttonsInHeader.setTemplate(headerWrapper);
   contactsSimple.render();
   deleteElements.remove();
 
   //
-  document.querySelector('.sidenav_search').remove();
-  document.querySelector('header .header-wrapper > div .header-cart').remove();
+//  document.querySelector('.sidenav_search').remove();
+  //document.querySelector('header .header-wrapper > div .header-cart').remove();
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
 
   containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
   logo.remove();
 
-  const logo2 = document.querySelector('.logo');
-  const sideNavList = document.querySelectorAll('.mobile_side_nav_menu>li');
-  logo2.insertAdjacentHTML('afterend', `<ul class="navigate-menu"></ul>`);
+  // const logo2 = document.querySelector('.logo');
+  // const sideNavList = document.querySelectorAll('.mobile_side_nav_menu>li');
+  // logo2.insertAdjacentHTML('afterend', `<ul class="navigate-menu"></ul>`);
 
   const list = document.querySelector('.navigate-menu');
-  sideNavList.forEach((el) => list.insertAdjacentHTML('beforeend', el.outerHTML));
+  // sideNavList.forEach((el) => list.insertAdjacentHTML('beforeend', el.outerHTML));
   const arrow = document.querySelectorAll('.navigate-menu > li > .arrow');
 
   arrow.forEach((el) => el.remove());
@@ -136,6 +140,8 @@ if (document.querySelector('.wrapper')) {
   });
 }
 
+
+
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section>.container');
   const logo = document.querySelector('.logo > a > img');
@@ -160,10 +166,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute(
-    'src',
-    'https://res.cloudinary.com/gz-company/image/upload/v1606396562/1985/Image-1_3_ubaczw.png',
-  );
+  logo.setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606729735/photo_2020-11-30_12-33-15_upfzhe.png');
 }
 
 if (document.querySelector('.product-item')) {
@@ -188,3 +191,10 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Аношин Дмитрий Андреевич', media);
   req.setTemplate();
 }
+
+if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://store101470.sellavi.com/') {
+  console.log('test');
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="banner-title-button"><a href="https://store101470.sellavi.com/%D0%B4%D0%BB%D1%8F-%D0%B4%D0%BE%D0%BC%D0%B0/">товары</a></div>');
+}
+
+//document.querySelector('a.btn').innerText = 'К ТОВАРАМ';
