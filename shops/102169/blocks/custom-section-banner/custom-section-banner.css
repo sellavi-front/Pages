@@ -34,6 +34,10 @@
   width: 100%;
 }
 
+.disphoto__custom_banner {
+  width: 30%;
+}
+
 /*
 .section__banner_column {
   display: flex;
