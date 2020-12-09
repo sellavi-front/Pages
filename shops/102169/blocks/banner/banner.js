@@ -24,8 +24,6 @@ let bannerLayout = `
                 </div>
             </div>
         </div>
-        </div>
-
     </div>
   </div>
 `
