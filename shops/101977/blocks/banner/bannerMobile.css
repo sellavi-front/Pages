@@ -256,3 +256,21 @@
 #home > div > div > section > div:nth-child(3) > div > div > div > img {
     filter: none;
 }
+
+@media (min-width: 481px) and (max-width:930px) {
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > h1 {
+        font-size: 2em;
+    }
+
+    #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div {
+        display: none;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > nav {
+        left: -100px
+    }
+   
+   #home > div > header > div.header-wrapper > div.container > span {
+       left: -120px
+   }
+}
