@@ -1,3 +1,7 @@
+.main-slider  {
+  margin: 0 !important;
+}
+
 .main-slider .img-fluid {
   height: auto;
   object-fit: contain;
