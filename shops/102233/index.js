@@ -10,6 +10,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js'
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 
 
