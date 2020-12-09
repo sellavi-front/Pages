@@ -165,7 +165,7 @@
         position: relative;
         top: 50px !important;
         height: 459px;
-        background-position-x: -100px !important;
+        /* background-position-x: -100px !important; */
     }
 
     #home > div > div > section > div.map-flex > div {
