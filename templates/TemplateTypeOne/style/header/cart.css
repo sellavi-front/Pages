@@ -4,6 +4,7 @@
     display: none !important;
   }
   .header_widgets .header-cart {
+    position: absolute !important;
     display: block !important;
     top: 30px !important;
     left: 15px !important;
