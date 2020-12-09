@@ -68,9 +68,6 @@ if(pages.complex) {
   complexFormBtn.addEventListener("click", () => {
     sendComplexForm().call()
   })
-
-
-
 }
 
 if(pages.delivery) {
