@@ -129,7 +129,7 @@ if (location.pathname === '/login/') {
   document.querySelector('.header-cart.sticky').style.cssText = 'top: 12px !important;';
 }
 
-document.querySelector('.map-flex').insertAdjacentHTML('beforebegin', '<div class="send-form"><div class="container"><h3>Хочу красивый номер</h3><h6>Впишите желаемый номер</strike></h6><input id="msg" type="text" placeholder="xx777x" style="text-align:center"><button class="sendWA">Отправить</button></div></div>');
+document.querySelector('.map-flex').insertAdjacentHTML('beforebegin', '<div class="send-form"><div class="container"><h3>Хочу красивый номер</h3><h6>Впишите желаемый номер</h6><input id="name" type="text" placeholder="Ваше имя" style="text-align:center"><input id="msg" type="text" placeholder="Телефон" style="text-align:center"><button class="sendWA">Отправить</button></div></div>');
 
 window.onload = () => {
   document.querySelector(".sendWA").addEventListener('click', () => {
@@ -142,9 +142,9 @@ window.onload = () => {
   
     let msg= document.getElementById("msg").value;
   
-      /*let name= document.getElementById("name").value;*/
+    let name= document.getElementById("name").value;
     
-    var win = window.open(`https://wa.me/79227888889?text=Здравствуйте,%20я%20хочу%20красивый%20номер%20${msg}`, '_blank');
+    var win = window.open(`https://wa.me/79178434344?text=Здравствуйте,%20мне%20нужна%20консультация%20${name}%20${msg}`, '_blank');
    // win.focus();
   }
   }
