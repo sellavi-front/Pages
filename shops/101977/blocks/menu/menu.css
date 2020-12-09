@@ -22,7 +22,12 @@ body.theme-gray .header .navigation-wrapper {
     z-index: 1000 !important;
 }
 
-#home > div > header > div.header-wrapper {
+/* #home > div > header > div.header-wrapper {
+    position: absolute;
+    top: 38px !important;
+} */
+
+.common-home div > header > div.header-wrapper {
     position: absolute;
     top: 38px !important;
 }
