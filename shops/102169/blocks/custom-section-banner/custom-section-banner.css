@@ -21,6 +21,18 @@
   margin-right: 25%;
 }
 
+.section__banner_row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.section__banner_col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 /*
 .section__banner_column {
   display: flex;
