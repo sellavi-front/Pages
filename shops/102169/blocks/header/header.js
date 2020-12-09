@@ -1,2 +1,2 @@
-import '../../../../components/HeaderTypeOne/HeaderTypeOne.js'
+import '../../../../templates/TemplateTypeOne/TemplateTypeOne.js'
 
