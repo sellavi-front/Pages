@@ -31,7 +31,7 @@ body
 }
 
 @media (max-width: 991px) {
-  .header_widgets {
+  .wrapper .header .header-wrapper .header_widgets {
     position: absolute !important;
   }
 }
