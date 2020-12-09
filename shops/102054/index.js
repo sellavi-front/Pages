@@ -110,10 +110,10 @@ window.onload = () => {
     let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
     mainContainer.setAttribute("class", "container-fluid")
     mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
-    let cards = document.querySelector(".cards")
+    //let cards = document.querySelector(".cards")
 
 
-    fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
+    /*fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
       .then(function(response) {
         return response.json();
       })
@@ -130,7 +130,7 @@ window.onload = () => {
             </li>
           `)
         })
-      })
+      })*/
 
     let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
     let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")

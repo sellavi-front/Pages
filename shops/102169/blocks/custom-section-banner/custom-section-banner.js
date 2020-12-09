@@ -1,3 +1,4 @@
+import FormBasic from "../../../../components/FormBasic/FormBasic";
 let customSectionBannerLayout = `
   <div class="section__banner_container">
         <div class="section__banner_column">
