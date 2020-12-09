@@ -32,6 +32,10 @@
   width: 70px !important;
 }
 
+#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
+  display: none!important;
+}
+
 @media (max-width: 450px) {
   #sellavi_logo {
     margin: 10px auto 0 auto;
