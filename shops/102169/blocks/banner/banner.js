@@ -19,7 +19,7 @@ let bannerLayout = `
 `
 
 let renderHomeBanner = () => {
-  document.querySelector(".custom__banner").insertAdjacentHTML("afterbegin", bannerLayout)
+  document.querySelector(".custom_banner").insertAdjacentHTML("afterbegin", bannerLayout)
 }
 
 export default renderHomeBanner
