@@ -9,7 +9,7 @@
 }
 
 
-.form-group label {
+.form-group label:not(.color-choise label) {
   display: none !important;
 }
 
