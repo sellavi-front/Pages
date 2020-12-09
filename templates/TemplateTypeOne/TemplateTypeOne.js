@@ -5,6 +5,7 @@ import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsT
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 
   /* Remove bootstrap col width seclector */
+  const footerWidgetsCol = document.querySelectorAll('.footer-widgets > div > div > div');
   footerWidgetsCol.forEach(el => {
     el.classList.remove('col-md-3');
   })
@@ -22,7 +23,6 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
                                      **/
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-  const footerWidgetsCol = document.querySelectorAll('.footer-widgets > div > div > div');
   const footerContainer = document.querySelector('.footer-widgets>div');
 
   new SocialIconsTypeOne(footerContainer, 'beforeend').render();
