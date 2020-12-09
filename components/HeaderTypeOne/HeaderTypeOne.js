@@ -24,12 +24,12 @@ if (document.querySelector('.wrapper')) {
   cartI.classList.remove('fal');
 
   if (headerWidgets) {
-    new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML).render();
-    headerWidgets.remove();
+    const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
+    newCont.render();
+    //headerWidgets.remove();
 
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
-
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
   }
