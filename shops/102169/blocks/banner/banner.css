@@ -19,3 +19,13 @@
   flex-wrap: nowrap;
   align-items: flex-start;
 }
+
+.banner__column h1 {
+  margin-top: 50%;
+  margin-left: 5%;
+}
+
+.banner__column p {
+  margin-left: 5%;
+}
+

@@ -9,9 +9,9 @@ let bannerLayout = `
     </div>
     <div class="banner__row">
         <div class="banner__column">
-            <p class="banner__phone"></p>
+            <p class="banner__phone">+7(915) 094-06-19</p>
             <div class="banner__social">
-
+                
             </div>
         </div>
     </div>
