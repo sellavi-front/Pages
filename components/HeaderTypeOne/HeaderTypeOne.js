@@ -26,7 +26,7 @@ if (document.querySelector('.wrapper')) {
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
-    //headerWidgets.remove();
+    headerWidgets.remove();
 
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
