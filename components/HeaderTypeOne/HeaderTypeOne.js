@@ -25,8 +25,10 @@ const collapseShow = () => {
   //set listeners and show panel-collapse
   links.forEach(a => {
     a.addEventListener('click', (e) => {
-      console.log(e.target);
-      e.target.closest('.flexy').querySelector('.pannel-collapse').classList.toggle('show');
+      const el = e.target.closest('.flexy')
+      console.log(el);
+
+      el.querySelector('.pannel-collapse').classList.toggle('show');
     })
   })
 }
