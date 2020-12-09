@@ -10,6 +10,7 @@
 
 .section__banner_column {
   display: flex;
+  flex: 1;
   flex-direction: column;
   width: 50%;
   align-items: center;
