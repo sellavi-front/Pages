@@ -1,3 +1,7 @@
+#product {
+  display: block !important;
+}
+
 /* RADIO CUSTOM */
 
 #product .form-group .text-danger {
