@@ -6,13 +6,9 @@
   .header_widgets .header-search  {
     display: none !important;
   }
-  .header_widgets .heaer_cart {
+  .header_widgets .header_cart {
     display: block !important;
     top: 30px;
     left: 15px;
-  }
-
-  body.theme_11.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
-    left: 10px !important;
   }
 }
