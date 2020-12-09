@@ -20,3 +20,7 @@ body h1 {
 .logo img {
   max-width: 315px !important;
 }
+
+body.theme-red-2.theme_11 .wrapper .header .header-wrapper .header-search button {
+  color: black !important;
+}
