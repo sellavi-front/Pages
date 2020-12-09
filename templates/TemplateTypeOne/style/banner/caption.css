@@ -26,3 +26,9 @@
   justify-content: center;
   font-size: 18px;
 }
+
+@media (max-width: 480px) {
+  .main-slider .caption-content {
+    display: block !important;
+  }
+}
