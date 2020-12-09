@@ -6,13 +6,13 @@
   .header_widgets .header-search  {
     display: none !important;
   }
-  .header_widgets .header_cart {
+  .header_widgets .header-cart {
     display: block !important;
     top: 30px;
     left: 15px;
   }
 
-  .header_widgets .header_cart a {
+  .header_widgets .header-cart a {
     color: black !important;
   }
 }
