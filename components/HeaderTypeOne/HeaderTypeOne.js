@@ -17,6 +17,19 @@ const wishList = `
   </div>
 `;
 
+const collapseShow = () => {
+  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a').forEach(a => a.removeAttribute('href'));
+  //remove attr href
+  links.forEach(a => a.removeAttribute('href'));
+
+  //set listeners and show panel-collapse
+  links.forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.target.querySelector('.pannel-collapse').classList.toggle('show');
+    })
+  })
+}
+
 if (document.querySelector('.wrapper')) {
   const cart = document.querySelector('.header-cart');
   const cartI = cart.querySelector('i');
@@ -27,7 +40,7 @@ if (document.querySelector('.wrapper')) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
     headerWidgets.remove();
-
+    collapseShow();
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
