@@ -20,6 +20,16 @@ if (document.querySelector('.common-home')) {
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
 
+  /* set banner img */
+  const setBanner = () => {
+    const img = document.querySelector('.owl-item picture img');
+    const srcSet = document.querySelector('.owl-item picture source')
+
+    img.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607526921/festive-christmas-cozy-atmosphere-with-home-decor_1_qs8lmf.png');
+    srcSet.setAttribute('srcset', 'https://res.cloudinary.com/gz-company/image/upload/v1607526921/festive-christmas-cozy-atmosphere-with-home-decor_1_qs8lmf.png');
+  }
+
+  setBanner();
 }
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
