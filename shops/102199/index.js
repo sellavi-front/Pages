@@ -1,6 +1,7 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js'
 import contactData from './utils/contactData.js'
+import socIconsData from './utils/socIconsData.js';
 
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
@@ -22,12 +23,7 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-
-  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
-
-  if (catergoryBanners) {
-    catergoryBanners.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4"><span> Категории </span></h2>`)
-  }
+  new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 }
 
 

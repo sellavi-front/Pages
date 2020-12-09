@@ -1,7 +1,4 @@
 @media (max-width: 991px) {
-  .header_widgets {
-    position: absolute !important;
-  }
 
   .header_widgets .header-search  {
     display: none !important;
