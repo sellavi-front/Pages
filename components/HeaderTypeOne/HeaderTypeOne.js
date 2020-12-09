@@ -18,14 +18,15 @@ const wishList = `
 `;
 
 const collapseShow = () => {
-  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a')
+  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
   //remove attr href
   links.forEach(a => a.removeAttribute('href'));
 
   //set listeners and show panel-collapse
   links.forEach(a => {
     a.addEventListener('click', (e) => {
-      e.target.querySelector('.pannel-collapse').classList.toggle('show');
+      console.log(e.target);
+      e.target.closest('.flexy').querySelector('.pannel-collapse').classList.toggle('show');
     })
   })
 }
