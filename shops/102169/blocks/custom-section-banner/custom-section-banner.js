@@ -2,10 +2,10 @@ let customSectionBannerLayout = `
   <div class="section__banner_container">
     <div class="section__banner_layout">
         <div class="section__banner_row">
-            <div class="section__banner_row">
+            <div class="section__banner_column">
                 <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607518422/sellavi/102169/Component_2_1_svffuu.png" alt="img" />
             </div>
-            <div class="section__banner_row">
+            <div class="section__banner_column">
                 <p class="section__banner_title">Нашу косметику можно приобрести, как в нашем интернет магазине, так и в других городах России.</p>
                 <p class="distributors">Представляем наших дистрибьюторов.</p>
                 <ul class="distributors__list">
