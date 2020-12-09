@@ -22,16 +22,16 @@
 
 .banner__title {
   margin-top: 50%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .banner__description,
 .banner__phone {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .banner__phone {
-  margin-top: 20%;
+  margin-top: 70%;
   font-weight: 900;
   font-size: 21px;
 }
@@ -42,7 +42,7 @@
   flex-wrap: nowrap;
   width: 100%;
   justify-content: flex-start;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .social__item {
