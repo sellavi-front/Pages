@@ -139,7 +139,7 @@ window.onload = () => {
 
     let productsBlock = `
     <div class="products__block">
-        <div class="products__block__banner"><img alt="photo" src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" onclick="location.href='https://whitemoon.shop/1/'" /></div>
+        <div class="products__block__banner"><img alt="photo" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607527479/sellavi/102054/5T3A9736-min_bmsxax.jpg" onclick="location.href='https://whitemoon.shop/1/'" /></div>
         <div class="products__block__items"></div>
     </div>
   `
