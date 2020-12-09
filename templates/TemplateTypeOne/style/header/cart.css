@@ -1,0 +1,20 @@
+@media (max-width: 991px) {
+  .header-widgets {
+    display: block !important;
+    position: absolute !important;
+  }
+
+  .header-widgets .header_login {
+    display: none !important;
+  }
+
+  .header-widgets .heaer_cart {
+    display: block !important;
+    top: 30px;
+    left: 15px;
+  }
+
+  body.theme_11.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+    left: 10px !important;
+  }
+}

@@ -9,6 +9,7 @@
 @import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 
 @import './header/header.css';
+@import './header/cart.css';
 
 @import './banner/banner.css';
 @import './banner/caption.css';
