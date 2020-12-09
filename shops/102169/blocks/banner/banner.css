@@ -47,8 +47,9 @@
 
 .social__item {
   display: flex;
+  margin: 4%;
 }
 
 .social__item img {
-  width: 30%;
+  width: 70%;
 }
