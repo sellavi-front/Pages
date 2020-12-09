@@ -45,6 +45,10 @@ if (document.querySelector('.common-home')) {
   );
   advantagesCard.render();
   // End sales
+
+  //rm attr fron advantages
+
+  document.querySelectorAll('.info-card__item>a').forEach(a => a.removeAttribute('href'));
 }
 
 if (document.querySelector('.wrapper')) {
