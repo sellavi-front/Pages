@@ -21,6 +21,16 @@ if (document.querySelector('.common-home')) {
 
 }
 
+if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+
+  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
+
+  if (catergoryBanners) {
+    catergoryBanners.insertAdjacentHTML('afterbegin', `<h2 class="section-title mb-4 mt-4"><span> Категории </span></h2>`)
+  }
+}
+
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Абдинов Эльдар Гейдар Оглы');
   req.setTemplate();
