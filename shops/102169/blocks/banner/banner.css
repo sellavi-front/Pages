@@ -1,7 +1,8 @@
 .banner__layout_container {
   display: flex;
   width: 100%;
-  background: url("https://res.cloudinary.com/dd2edlvdy/image/upload/v1607501011/Component_1_h0m7fb.jpg") no-repeat center/contain;
+  background: url("https://res.cloudinary.com/dd2edlvdy/image/upload/v1607501011/Component_1_h0m7fb.jpg") no-repeat center/cover;
+  height: 1200px;
 }
 
 .banner__row {
