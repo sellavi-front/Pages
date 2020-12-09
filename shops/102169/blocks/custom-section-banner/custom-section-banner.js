@@ -1,6 +1,5 @@
 let customSectionBannerLayout = `
   <div class="section__banner_container">
-    <div class="section__banner_layout">
         <div class="section__banner_row">
             <div class="section__banner_column">
                 <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607518422/sellavi/102169/Component_2_1_svffuu.png" alt="img" />
@@ -20,7 +19,6 @@ let customSectionBannerLayout = `
                 <p class="wanna__be__distributor">Отправляйте запрос на почту zakaz@organic-stories.ru</p>
             </div>
         </div>
-    </div>
   </div>
 `
 

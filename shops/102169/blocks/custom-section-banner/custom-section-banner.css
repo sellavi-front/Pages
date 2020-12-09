@@ -4,18 +4,13 @@
   height: 600px;
 }
 
-.section__banner_layout {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background: #F7F7F7;
-}
 
 .section__banner_row {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
+  background: #F7F7F7;
 }
 
 .section__banner_column {
