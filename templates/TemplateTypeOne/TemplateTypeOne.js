@@ -22,11 +22,11 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
  paste this component in your shop
                                      **/
 
-if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-  const footerContainer = document.querySelector('.footer-widgets>div');
+// if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+//   const footerContainer = document.querySelector('.footer-widgets>div');
 
-  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
+//   new SocialIconsTypeOne(footerContainer, 'beforeend').render();
 
-  const socIcons = document.querySelector('.soc-icons>.container');
-  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
-}
+//   const socIcons = document.querySelector('.soc-icons>.container');
+//   socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+// }

@@ -23,7 +23,12 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+  const footerContainer = document.querySelector('.footer-widgets>div');
+
   new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+
+  const socIcons = document.querySelector('.soc-icons>.container');
+  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
 }
 
 
