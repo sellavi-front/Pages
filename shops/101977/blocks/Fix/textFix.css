@@ -45,10 +45,10 @@
     font-family: Hauss,sans-serif !important;
 }
 
-#home > div > div > section {
+/* #home > div > div > section {
     position: relative;
     top: 100px;
-}
+} */
 
 #search > div.search_field > input {
     border: 0px;
