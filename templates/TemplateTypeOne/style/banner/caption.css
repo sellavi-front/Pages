@@ -5,7 +5,7 @@
 
 .main-slider .caption-subtitle {
   text-transform: none !important;
-  line-height: 0.6 !important;
+  line-height: 1 !important;
 }
 
 .caption-subtitle > span > span {
