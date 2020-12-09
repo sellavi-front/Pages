@@ -1,2 +1,2 @@
-import HeaderTypeOne from '../../../../components/HeaderTypeOne/HeaderTypeOne.js'
+import '../../../../components/HeaderTypeOne/HeaderTypeOne.js'
 
