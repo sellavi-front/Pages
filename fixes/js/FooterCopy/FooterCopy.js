@@ -1,5 +1,4 @@
 export default class FooterCopy {
-
   constructor() {
     this.container = document.querySelector('.footer_content_text');
   }
@@ -27,6 +26,8 @@ export default class FooterCopy {
   }
 }
 
-const footer = new FooterCopy();
+if (!location.href.includes('checkout')) {
+  const footer = new FooterCopy();
 
-footer.render();
+  footer.render();
+}

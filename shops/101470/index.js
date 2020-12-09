@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 // import '../../fixes/fixes.js';
+=======
+ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+ import '../../fixes/js/FooterCopy/FooterCopy.js'
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 
 //import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';

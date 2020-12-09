@@ -20,7 +20,7 @@
 
 .buttons__container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start !important;
   align-items: center;
   width: 50%;
 }
@@ -41,7 +41,7 @@
   margin: 0 !important;
 }
 
-body .content-area .page-section .product-layout {
+body .content-area .page-section .product-item {
   border: 1px solid rgba(0, 0, 0, 0.05);
   padding: 5%;
   box-shadow: 1px 4px 25px -21px black;
@@ -122,7 +122,11 @@ body.theme-green-1 .social-icons li a {
   display: none!important;
 }
 
+<<<<<<< HEAD
 @media (max-device-width: 480px) {
+=======
+@media (max-device-width: 768px) {
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
   .add_to_wishlist > button > i::before {
     font-size: 25px;
   }

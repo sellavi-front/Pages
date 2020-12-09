@@ -1,0 +1,58 @@
+.homefeatured_category > div > div > div .thumbnail {
+  border: none !important;
+}
+
+.wrapper .homefeatured_category > div > div > div {
+  width: 100%;
+  border: none !important;
+  padding: 0 !important;
+  margin-top: 16px !important;
+  margin-right: 16px !important;
+}
+
+.homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+  object-fit: cover;
+}
+
+.wrapper .homefeatured_category > div > div > div:nth-child(3n) {
+  margin-right: 0 !important;
+}
+
+/* Hide btn in category */
+.thumbnail .caption .btn {
+  display: none !important;
+}
+/* END Hide btn in category */
+
+/* CAPTION */
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+  position: absolute !important;
+}
+
+.wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+   text-align: left !important;
+   padding: 5% !important;
+}
+
+.wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+  background: none;
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .wrapper .homefeatured_category>div>div>div {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .wrapper .homefeatured_category>div>div>div {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}

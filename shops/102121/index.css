@@ -1,37 +1,11 @@
-@import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://coospir.github.io/Pages/modules/BigBanner/BigBanner.css');
-@import url('https://coospir.github.io/Pages/components/css-comonents/HeaderTransparent.css');
-@import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
-@import url('https://coospir.github.io/Pages/modules/Requisites/Requisites.css');
+@import url('../../templates/TemplateTypeOne/style/index.css');
+@import './blocks/pay-delivery/pay-delivery.css';
+@import url('../../components/ContactsWithMap/ContactsWithMap.css');
+@import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css';
+@import url('../../fixes/js/FooterCopy/FooterCopy.css');
 
-
-html, body,
-body span,
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6,
-body p,
-body a,
-body ul,
-body li,
-.product-availability,
-.product-price,
-#button-cart,
-.title,
-.price,
-input.form-control,
-input.form-control::placeholder,
-.form_checkout,
-.order_list_section__total-lines,
-.checkout_table {
-  font-family: 'Comfortaa', cursive !important;
-}
-
-/* Content */
+/*
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   display: none
 }
@@ -65,7 +39,6 @@ body.ltr .product-single table td {
   font-size: 10px;
 }
 
-/* Footer */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .col-md-3 + .col-md-3 {
@@ -76,4 +49,4 @@ body.ltr .product-single table td {
     font-size: 25px !important;
   }
 }
-
+ */

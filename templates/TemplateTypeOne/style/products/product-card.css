@@ -1,0 +1,21 @@
+
+body.theme_11 .wrapper .page-section .products.grid .product-item {
+  border: none !important;
+  padding: 10px !important;
+  /* margin: 0 20px 50px 0 !important; */
+  max-width: 270px;
+  width: 100%;
+}
+
+/* Size product card */
+.product-item .thumbnail .media img {
+  min-height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.thumbnail .media-link {
+  width: 100%;
+  margin: 0 !important;
+}
+/* */

@@ -1,0 +1,9 @@
+.homefeatured_category .section-title {
+  margin-left: 7% !important;
+}
+
+@media (max-width: 495px) {
+  .homefeatured_category .section-title {
+    margin-left: 0 !important;
+  }
+}

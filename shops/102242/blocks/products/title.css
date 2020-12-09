@@ -24,3 +24,11 @@ body .content-area .page-section.titles {
 body .content-area .page-section.titles h1 {
   font-size: 46px !important;
 }
+
+.product-product .page-section .section-title span {
+  font-size: 22px !important;
+}
+
+.product-product .page-section .section-title {
+  text-align: left;
+}

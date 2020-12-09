@@ -3,11 +3,17 @@
   align-self: center;
 }
 
-.header_widgets a {
+.header_widgets #cart,
+.header_widgets #wishlist {
   color: white !important;
   font-size: 20px !important;
 }
 
 .header_widgets .header_wishlist {
   margin-right: 15px;
+}
+
+.header-cart {
+  display: flex;
+  align-items: center;
 }

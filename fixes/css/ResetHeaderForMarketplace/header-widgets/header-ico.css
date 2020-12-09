@@ -1,11 +1,11 @@
-body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart,
-body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a {
+.wrapper .header .header-wrapper .header_widgets .header-cart,
+.wrapper .header .header-wrapper .header_widgets .header_login>a {
   background: none !important;
   min-width: 45px !important;
   height: auto;
 }
 
-body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+.wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
   margin: 0;
   font-size: 23px;
 }
@@ -18,11 +18,11 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
   padding-left: 10px !important;
 }
 
-body.theme_11 .header-cart .cart-wrapper .cart-qty-circle {
+.header-cart .cart-wrapper .cart-qty-circle {
   line-height: 20px !important;
 }
 
-body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+.wrapper .header .header-wrapper .header_widgets .header_login {
   padding: 0 !important;
 }
 

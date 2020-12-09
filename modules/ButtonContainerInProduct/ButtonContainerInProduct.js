@@ -12,23 +12,33 @@ export default class ButtonContainerInProduct {
   createContainer() {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
-        'beforeend',
+        'afterend',
         `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
 
-    this.delete(addToCart);
-    this.delete(addToWishList);
+    // this.delete(addToCart);
+    // this.delete(addToWishList);
   }
 }
 
 const priceActions = document.querySelectorAll('.price_actions');
+const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
-const addToWishList = document.querySelectorAll('.add_to_wishlist');
 
-const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, priceActions);
+if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+ var wishList = document.querySelectorAll('.remove_from_wishlist');
+} else {
+  var wishList = document.querySelectorAll('.add_to_wishlist');
+}
+
+console.log(wishList);
+
+const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
 buttonContainerInProduct.createContainer();
+buttonContainerInProduct.delete(addToCart)
+buttonContainerInProduct.delete(wishList)
 
 // const btnContainer = document.querySelectorAll('.buttons__container')
 

@@ -74,7 +74,11 @@ body .footer .footer-widgets {
     justify-content: center;
   }
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
   #home > div > div > footer > div.footer-meta > div {
     padding-left: 15px !important;
   }
@@ -85,6 +89,7 @@ body .footer .footer-widgets {
   }
 
   .footer_content_text {
+    margin-top: 20px;
     justify-content: center !important;
   }
 }
@@ -121,7 +126,11 @@ body .footer .footer-widgets {
 }
 
 .content-area {
+<<<<<<< HEAD
   padding-bottom: 0px !important;    
+=======
+  padding-bottom: 0px !important;
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 
 }
 
@@ -132,4 +141,8 @@ body .footer .footer-widgets {
 
 #home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div {
   justify-content: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f

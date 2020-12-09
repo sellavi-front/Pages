@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+<<<<<<< HEAD
+=======
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 @import './banner/banner.css';
 @import './section-title/section-title.css';
 
@@ -12,7 +17,10 @@
 @import './other/pay-delivery.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
+<<<<<<< HEAD
 /*@import '../../../fixes/FooterCopy/FooterCopy.css';*/
+=======
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';

@@ -1,0 +1,18 @@
+footer {
+  background: transparent !important;
+  border: none !important;
+  margin-top: 50px;
+}
+
+footer .footer-widgets {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 7% !important;
+  }
+  .footer-widgets > div > div > div {
+    margin-bottom: 50px !important;
+  }
+}

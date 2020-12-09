@@ -21,6 +21,7 @@
 @import './footer/footer.css';
 @import './contacts/contacts.css';
 @import './soc-icons/soc-icons.css';
+@import './header-mobile/header-mobile.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
@@ -59,7 +60,6 @@ body strong {
   display: none !important;
 }
 
-
 .common-home .content-area .page-section {
   margin-top: 50px !important;
 }
@@ -80,4 +80,12 @@ body strong {
 .header .header-search button,
 .header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
+}
+
+@media (max-width: 1595px) {
+  .common-home .section-title {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
