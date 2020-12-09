@@ -30,9 +30,12 @@
 @media (max-width: 480px) {
   .main-slider .caption-content {
     display: block !important;
+    margin-left: 27% !important;
   }
 
   .main-slider {
     margin-top: 0 !important;
   }
+
+
 }
