@@ -1,17 +1,11 @@
 @media (max-width: 991px) {
   .header_widgets {
-    display: block !important;
     position: absolute !important;
   }
 
   .header_widgets .header-search  {
     display: none !important;
   }
-
-  .header_widgets .header_login {
-    display: none !important;
-  }
-
   .header_widgets .heaer_cart {
     display: block !important;
     top: 30px;
