@@ -43,7 +43,6 @@
 }
 
 
-
 .contact__list-el .contact__list-title {
   font-weight: bold;
 }
@@ -51,7 +50,7 @@
 @media (max-width: 768px) {
   .contact-with-map {
     flex-direction: column;
-    margin-bottom: 40px;
+    margin: 40px 0 !important;
   }
   .contact__list{
     width: 100%;
