@@ -671,6 +671,11 @@ body.ltr .float-left {
     align-items: center;
     justify-content: center;
   }
+
+  .logo img {
+    max-width: 100px !important;
+    max-height: 88px;
+  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
