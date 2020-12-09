@@ -2,8 +2,10 @@ let bannerLayout = `
   <div class="banner__layout_container">
     <div class="banner__row">
         <div class="banner__column">
-            <h1>Натуральная косметика</h1>
-            <h1>"ORGANIC STORIES"</h1>
+            <div class="banner__title">
+                <h1>Натуральная косметика</h1>
+                <h1>"ORGANIC STORIES"</h1>
+            </div>
             <p class="banner__description">Коллекция средств по уходу за волосами, телом и лицом без силиконов, сульфатов и парабенов</p>
             <p class="banner__phone">+7(915) 094-06-19</p>
             <div class="banner__social">
