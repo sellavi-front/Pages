@@ -25,19 +25,10 @@ let customSectionBannerLayout = `
   </div>
 `
 
-const senderData = [
-  {
-    title: 'Станьте дилером в своем городе',
-    content: 'Оставьте контакты и получите лучшие оптовые условия',
-  }
-]
-
 
 
 let renderSectionBanner = () => {
   document.querySelector(".custom_section").insertAdjacentHTML("afterbegin", customSectionBannerLayout)
-  let form = new FormBasic(".custom_section", "beforeend", senderData)
-  form.render()
 }
 
 export default renderSectionBanner
