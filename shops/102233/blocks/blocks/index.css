@@ -10,7 +10,7 @@ body h1 {
   font-size: 1.8 rem;
 }
 
-.wrapper .header .header-wrapper .logo {
+body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   z-index: 9999 !important;
 }
 
