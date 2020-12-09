@@ -1,1 +1,7 @@
+import pages from './pages/pages.js'
 import './blocks/header/header.js'
+import renderHomeBanner from "./blocks/banner/banner";
+
+if(pages.home) {
+  renderHomeBanner()
+}

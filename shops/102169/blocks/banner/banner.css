@@ -1,0 +1,20 @@
+.banner__layout_container {
+  display: flex;
+  width: 100%;
+  background: url("https://res.cloudinary.com/dd2edlvdy/image/upload/v1607501011/Component_1_h0m7fb.jpg") no-repeat center/contain;
+}
+
+.banner__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.banner__column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
