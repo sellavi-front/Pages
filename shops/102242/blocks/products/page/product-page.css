@@ -12,7 +12,7 @@
   height: 50px !important;
 }
 
-.form-group label:not(.color-choise label) {
+.form-group:not(.color-choise) label {
   display: none !important;
 }
 
