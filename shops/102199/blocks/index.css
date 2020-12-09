@@ -5,3 +5,7 @@
 
 @import '../../../fixes/fixes.css';
 @import './pay-delivery/pay-delivery.css';
+
+body h1 {
+  font-size: 1.8 rem;
+}
