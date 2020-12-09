@@ -8,7 +8,7 @@
 .banner__row {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;
 }
