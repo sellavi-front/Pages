@@ -35,3 +35,19 @@
   font-weight: 900;
   font-size: 21px;
 }
+
+.banner__social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.social__item {
+  display: flex;
+}
+
+.social__item img {
+  width: 10%;
+}
