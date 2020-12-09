@@ -126,3 +126,7 @@ body.theme-gray .header {
 .product-category section.page-section.titles {
     background: #ff000000; border: 0px;
 }
+
+.product-category section.page-section.titles > div > div > h1 {
+    font-size: 25px; font-weight: 900;
+}
