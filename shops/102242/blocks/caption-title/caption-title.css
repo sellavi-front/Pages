@@ -2,6 +2,7 @@ body .wrapper .latest-section h2.section-title,
 body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
 body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   text-align: center !important;
+  color: #887568 !important;
 }
 
 .section-title span, .title {
