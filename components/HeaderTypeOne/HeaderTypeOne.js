@@ -18,7 +18,7 @@ const wishList = `
 `;
 
 const collapseShow = () => {
-  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a').forEach(a => a.removeAttribute('href'));
+  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a')
   //remove attr href
   links.forEach(a => a.removeAttribute('href'));
 
