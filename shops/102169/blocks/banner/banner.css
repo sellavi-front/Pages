@@ -53,3 +53,7 @@
 .social__item img {
   width: 50%;
 }
+
+.main-slider {
+  margin-top: 0 !important;
+}
