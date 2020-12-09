@@ -9,11 +9,11 @@
 }
 
 .add_to_cart {
-    border: 1px solid black;
+
     width: 80%;
     height: 40px;
     text-align: center !important;
-    padding-top: 10px
+    
 }
 
 button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
