@@ -273,4 +273,9 @@
    #home > div > header > div.header-wrapper > div.container > span {
        left: -120px
    }
+
+   #home > div > header > div.header-wrapper > div.container > ul {
+        position: relative;
+        right: 20px;
+    }
 }
