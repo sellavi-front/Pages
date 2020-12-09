@@ -11,7 +11,6 @@ import payDeliver from './utils/deliveryPay.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import senderData from './utils/senderData.js';
 import ButtonContainerInProduct from '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import sendFormHome from './utils/importWhats.js';
 
 if (location.pathname === '/') {
 const bigBanner = new BigBanner('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png', objBanner);
@@ -79,12 +78,6 @@ document.querySelector('body>.wrapper>.content-area>.page-section').insertAdjace
 const lastSection = document.querySelector("#home > div > div > section > div.map-flex");
 const sender = new FormBasic(lastSection, 'beforebegin', senderData)
 sender.render();
-
-let button = document.querySelector('.form__button');
-console.log(button);
-button.addEventListener('click', () => {
-  sendFormHome.sendWA();
-});
 
 }
 
