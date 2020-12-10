@@ -60,12 +60,12 @@
   display: block !important;
 }
 
-body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
   left: 0 !important;
   right: auto !important;
 }
 
-body.sidenav-enabled.ltr .mobile_side_nav ul a {
+body.sidenav-enabled.ltr nav.navigation > ul.mobile_side_nav ul a {
   direction: rtl !important;
 }
 
