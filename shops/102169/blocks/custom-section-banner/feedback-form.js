@@ -12,7 +12,7 @@ let sendHomeForm = () => {
 let sender = () => {
   let homeFormBtn = document.querySelector(".form__button")
   homeFormBtn.addEventListener("click", () => {
-    console.log(sendHomeForm())
+    console.log(sendHomeForm.sendWA())
   })
 }
 
