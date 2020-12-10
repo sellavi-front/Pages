@@ -77,3 +77,8 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
     top: 1px;
     right: 20px;
 }
+
+.product-product i.fa.fa-heart {
+    position: relative;
+    left: -3px
+}
