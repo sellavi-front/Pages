@@ -1,25 +1,25 @@
 // import Requisites from '../../modules/Requisites/Requisites.js';
 // import requsites from './utils/requsites.js'
 
-// import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+
+
+import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+
 import '../../components/PictureCategories/PictureCategories.js';
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
-
+import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import { bannerContent } from './constants/constants.js';
-import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
+import { bannerContent } from './constants/constants.js';
 import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
-import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
-import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
