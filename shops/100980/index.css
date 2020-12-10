@@ -259,7 +259,7 @@ body .content-area {
   padding-bottom: 5% !important;
 }
 
-#search_results {
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
   left: auto;
   right: 0 !important;
 }
