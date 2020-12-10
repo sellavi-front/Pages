@@ -96,4 +96,9 @@ body.sidenav-enabled.ltr .flexy > .arrow {
   body.sidenav-enabled .prevent_touch_banner {
     width: 80vw !important;
   }
+
+  body.sidenav-enabled .mobile_side_nav {
+    width: 80% !important;
+  }
+
 }
