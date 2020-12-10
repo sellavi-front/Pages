@@ -60,6 +60,15 @@
   display: block !important;
 }
 
+body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+  left: 0 !important;
+  right: auto !important;
+}
+
+body.sidenav-enabled.ltr .mobile_side_nav ul a {
+  direction: rtl !important;
+}
+
 @media (max-width: 991px) {
   .logo {
     width: 100px;
