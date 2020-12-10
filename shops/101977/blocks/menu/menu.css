@@ -144,3 +144,8 @@ body.theme-gray .header {
 body .btn.btn-theme.btn-theme-transparent:hover i {
     color: #ffffff !important;
 }
+
+.checkout-cart .page-section.titles{
+    background: #ff000000 !important;
+    border: 0px !important;
+}
