@@ -151,4 +151,6 @@ window.onload = () => {
   }
   }
 }
+
+document.querySelector('.table_holder > table').remove();
   
