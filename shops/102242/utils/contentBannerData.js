@@ -1,6 +1,6 @@
 const contentBannerData = [
   {
-    title: 'Акция до <span>31 декабря</span>',
+    title: 'Акция <span>до 31 декабря</span>',
     text: '<span class="bold">550р</span> скидка на все',
     linkSrc: '#',
     linkContent: 'подарок шелковая резинка',
