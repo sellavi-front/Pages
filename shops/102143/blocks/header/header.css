@@ -69,6 +69,11 @@ body.sidenav-enabled.ltr .mobile_side_nav ul a {
   direction: rtl !important;
 }
 
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  left: 25px !important;
+  right: auto !important;
+}
+
 @media (max-width: 991px) {
   .logo {
     width: 100px;
