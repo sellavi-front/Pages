@@ -77,3 +77,8 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control
   border-bottom: 0 !important;
   border-radius: 0 !important;
 }
+
+body.theme_11 .wrapper .header .header-wrapper .header-search button i {
+  font-size: 18px;
+  margin-left: 25px !important;
+}
