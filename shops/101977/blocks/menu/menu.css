@@ -160,3 +160,9 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 #search > div.search_field > input {
     background: #ff000000;
 }
+
+
+section.page-section.titles {
+    background: #ff000000 !important;
+    border: 0px !important;
+}
