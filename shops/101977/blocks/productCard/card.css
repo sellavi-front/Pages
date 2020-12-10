@@ -113,3 +113,26 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 .with-sidebar > div.map-flex {
     margin-top: 50px;
 }
+
+.checkout-cart #wishlist {
+    top: 5px;
+    left: -11px;
+}
+
+.checkout-cart .fa-heart:before {
+    font-size: 20px;
+}
+
+.checkout-cart #cart {
+    left: -5px;
+}
+
+.checkout-cart #search > button {
+    top: 1px;
+    right: 20px;
+}
+
+.checkout-cart i.fa.fa-heart {
+    position: relative;
+    left: -3px
+}
