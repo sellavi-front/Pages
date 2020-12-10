@@ -4,6 +4,10 @@
   padding: 2%;
 }
 
+.banner-content__item {
+  height: auto !important;
+}
+
 .banner-content__item_bg {
   left: 55%;
   right: auto;
