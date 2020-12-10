@@ -62,3 +62,12 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i
   font-size: 23px;
   color: #fff !important;
 }
+
+ody.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+  height: 50px;
+  line-height: normal;
+  font-size: 18px!important;
+  padding: 6px 30px;
+  width: 100px !important;
+  margin-left: 70% !important;
+}
