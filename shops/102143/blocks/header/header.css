@@ -74,6 +74,10 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   right: auto !important;
 }
 
+body.sidenav-enabled.ltr  nav.navigation > ul.mobile_side_nav ul .flexy>.arrow {
+  left: 1% !important;
+}
+
 @media (max-width: 991px) {
   .logo {
     width: 100px;
