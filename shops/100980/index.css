@@ -47,6 +47,15 @@ input.form-control::placeholder,
   right: 8% !important;
 }
 
+.header_wishlist {
+  position: absolute;
+  top: 31%;
+  left: auto;
+  transition: transform .7s ease-in-out;
+  right: 4%;
+  font-size: 18px;
+}
+
 .header .header-cart {
   position: absolute;
   top: 23px;
