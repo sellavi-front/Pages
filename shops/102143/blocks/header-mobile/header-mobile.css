@@ -52,7 +52,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
 
 body.sidenav-enabled.ltr .flexy>.arrow {
   border: none !important;
-  left: 15% !important;
+  left: 1% !important;
 }
 
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
