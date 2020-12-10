@@ -255,6 +255,10 @@ body.ltr ol, body.ltr ul {
   padding-right: unset;
 }
 
+body .content-area {
+  padding-bottom: 5% !important;
+}
+
 .header-cart .cart-wrapper {
   height: 41px;
   border-radius: 4px;
@@ -303,9 +307,6 @@ body.theme-red-2 .header {
   width: 100%;
 }
 
-body .content-area {
-  padding-bottom: 0 !important;
-}
 
 .solutions__column_links>a:hover {
   cursor: pointer;
@@ -686,9 +687,6 @@ body .footer .footer-widgets {
     display: none;
   }
 
-  body .content-area {
-    padding-bottom: 0 !important;
-  }
 
   .steps__how_container {
     display: flex;
@@ -742,9 +740,6 @@ body .footer .footer-widgets {
     flex-direction: column;
   }
 
-  body .content-area {
-    padding-bottom: 0 !important;
-  }
 
   .banner__container {
     display: flex;
