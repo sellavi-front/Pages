@@ -21,6 +21,7 @@ body strong {
     flex-direction: row-reverse;
 }
 
+
 #home > div > div > section > div.about > div > div > div > img {
     border-radius: 0px;
 }
@@ -69,4 +70,10 @@ body strong {
 
 .about__item_img {
     width: 60%;
+}
+
+.about__item {
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px
 }
