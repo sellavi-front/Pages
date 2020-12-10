@@ -52,11 +52,15 @@
   width:  100% !important;
 }
 
-@media (max-width: 991px) {
-  .navigation {
-    display: none !important;
-  }
+.header-wrapper > div > .navigation {
+  display: none !important;
+}
 
+.mobile_side_nav {
+  display: block !important;
+}
+
+@media (max-width: 991px) {
   .logo {
     width: 100px;
     margin: 0 0 0 36%;
