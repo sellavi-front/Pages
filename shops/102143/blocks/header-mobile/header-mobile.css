@@ -31,7 +31,12 @@ body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
   background: transparent !important;
 }
 
-body.sidenav-enabled.ltr .mobile_side_nav ul {
+body.sidenav-enabled.ltr .wrapper-opened {
+  position: static !important;
+}
+
+
+body.sidenav-enabled.ltr .mobile_side_nav .mobile_side_nav_menu {
   top: 130px;
   position: relative;
   background: white !important;

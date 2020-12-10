@@ -78,9 +78,6 @@ body strong {
 .header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
 }
-body.sidenav-enabled.ltr .wrapper-opened {
-  position: static !important;
-}
 
 @media (max-width: 1595px) {
   .common-home .section-title {
