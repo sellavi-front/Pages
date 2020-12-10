@@ -1,4 +1,4 @@
-import WhatsAppWidget from "../../../../components/WhatsAppWidget/wa-widget";
+import WhatsAppWidget from "../../../../components/WhatsAppWidget/wa-widget.js";
 
 let sendHomeForm = () => {
   let sender = null
