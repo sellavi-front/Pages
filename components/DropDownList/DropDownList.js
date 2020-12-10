@@ -34,7 +34,7 @@ export default class DropDownList {
   setClicker() {
     document.querySelectorAll(".accordion").forEach(a => {
       a.addEventListener("click", function() {
-        this.classList.toggle("active");
+        this.classList.toggle("active_panel");
         let panel = this.nextElementSibling;
         if (panel.style.display === "block") {
           panel.style.display = "none";

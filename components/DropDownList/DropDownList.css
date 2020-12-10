@@ -20,11 +20,11 @@
   margin-left: 5px;
 }
 
-.active, .accordion:hover {
+.active_panel, .accordion:hover {
   background-color: transparent;
 }
 
-.active:after {
+.active_panel:after {
   content: "\2212";
 }
 
