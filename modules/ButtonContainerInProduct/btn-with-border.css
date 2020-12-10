@@ -49,6 +49,7 @@ body .section-title {
 
 .thumbnail .price_actions .add_to_cart {
   max-width: 276px !important;
+  width: 100%;
   height: 100% !important;
   margin-right: 10px;
 }
