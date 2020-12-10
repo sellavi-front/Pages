@@ -149,5 +149,5 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 }
 
 .account-login #cart {
-    color: black;
+    color: black !important;
 }
