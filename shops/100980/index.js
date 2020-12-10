@@ -46,7 +46,6 @@ let wishlist = `
 
 let search = document.querySelector("#search")
 search.insertAdjacentHTML("afterend", wishlist)
-
 if(pages.home) {
 
   // Banner
