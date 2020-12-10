@@ -1,6 +1,7 @@
 .soc-icons {
   position: absolute;
   bottom: 10%;
+  max-width: 100%;
 }
 
 .soc-icons__container {
