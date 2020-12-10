@@ -2,7 +2,7 @@
   background: url('https://res.cloudinary.com/gz-company/image/upload/v1607591760/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/Group_13_se4xam.png')
     no-repeat;
   background-size: cover;
-  padding: 2%;
+  padding: 3%;
 }
 
 .banner-content__item {
@@ -47,6 +47,8 @@
   font-weight: 700;
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 768px) {
+  .banner-content__item_bg {
+    display: none;
+  }
 }
