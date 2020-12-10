@@ -17,3 +17,7 @@
   margin: 0 !important;
   padding: 3%;
 }
+
+.banner-content__item_button {
+  border-style: dashed !important;
+}
