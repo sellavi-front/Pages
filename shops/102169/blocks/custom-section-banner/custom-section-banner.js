@@ -1,5 +1,5 @@
 import FormBasic from "../../../../components/FormBasic/FormBasic.js"
-import WhatsAppWidget from "../../../../components/WhatsAppWidget/wa-widget.js"
+import sender from "./feedback-form.js"
 
 let customSectionBannerLayout = `
   <div class="section__banner_container">
@@ -27,14 +27,7 @@ let customSectionBannerLayout = `
   </div>
 `
 
-let sendHomeForm = () => {
-  let sender = null
-  let homeFormName = document.querySelector(".__container>.form__input:nth-child(1)").value;
-  let homeFormPhone = document.querySelector(".__container>.form__input:nth-child(2)").value;
-  let arrHome = [homeFormName, homeFormPhone]
-  sender = new WhatsAppWidget("79150940619", "Хочу стать дилером!", arrHome, "Расскажите подробнее, пожалуйста.")
-  return sender
-}
+
 
 const senderData = [
   {
@@ -49,7 +42,7 @@ let renderSectionBanner = () => {
   document.querySelector(".custom_section").insertAdjacentHTML("afterbegin", customSectionBannerLayout)
   let form = new FormBasic(document.querySelector(".custom_section"), "beforeend", senderData)
   form.render()
-  sendHomeForm()
+  sender()
 }
 
 export default renderSectionBanner
