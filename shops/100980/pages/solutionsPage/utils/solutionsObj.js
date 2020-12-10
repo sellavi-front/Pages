@@ -39,7 +39,7 @@ export const solutionObj = {
   },
 
   fastFood: {
-    title: 'Кафе фаст-фуд',
+    title: 'Фаст-фуд',
     countPlaces: [
       '<p>Кафе "Бургер" на 20 мест</p>',
       '<p>Прилавок Шаурма</p>',
