@@ -28,11 +28,13 @@
   border-style: dashed !important;
   max-width: 276px !important;
   padding: 2% !important;
+  margin-top: 20px !important;
 }
 
 .banner-content__container h3,
 .banner-content__container p {
   color: white !important;
+  margin: 0 !important;
 }
 
 .banner-content__item_title span {
