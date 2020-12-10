@@ -57,3 +57,8 @@
 .main-slider {
   margin-top: 0 !important;
 }
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i {
+  font-size: 23px;
+  color: #fff !important;
+}
