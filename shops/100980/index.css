@@ -38,6 +38,22 @@ input.form-control::placeholder,
 
 /* Header */
 
+.header .header-search {
+  position: absolute;
+  top: 23px;
+  width: 100%;
+  max-width: 270px;
+  left: auto;
+  right: 4% !important;
+}
+
+.header .header-cart {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  transition: transform .7s ease-in-out;
+}
+
 .main__menu {
   display: flex;
   flex-direction: row;
