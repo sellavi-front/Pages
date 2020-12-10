@@ -5,7 +5,7 @@
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
   max-height: initial !important;
-  min-height: 60px !important;
+  min-height: 70px !important;
   margin: 20px 0 !important;
   overflow: hidden !important;
 }
