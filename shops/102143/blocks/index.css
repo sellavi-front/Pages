@@ -89,6 +89,9 @@ body strong {
     margin: 0 5%;
   }
 
+}
+
+@media (max-width: 495px) {
   .wrapper .header .header-wrapper .mobile-navigation-wrapper {
     top: 0 !important;
   }
