@@ -26,6 +26,11 @@
 /* END Styled input choise */
 
 
+#product .form-group input {
+  flex: 0 0 100% !important;
+  width: 100% !important;
+}
+
 body .section-title.section-title-lg {
   border-bottom: none;
   height: auto !important;
