@@ -29,8 +29,8 @@ let customSectionBannerLayout = `
 
 let sendHomeForm = () => {
   let sender = null
-  let homeFormName = document.querySelector('[name="home__form_name"]').value;
-  let homeFormPhone = document.querySelector('[name="home__form_phone"]').value;
+  let homeFormName = document.querySelector(".__container>.form__input:nth-child(1)").value;
+  let homeFormPhone = document.querySelector(".__container>.form__input:nth-child(2)").value;
   let arrHome = [homeFormName, homeFormPhone]
   sender = new WhatsAppWidget("79150940619", "Хочу стать дилером!", arrHome, "Расскажите подробнее, пожалуйста.")
   return sender
