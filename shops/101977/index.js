@@ -171,3 +171,7 @@ if (document.querySelector('.product-category')) {
 if (document.querySelector('.checkout-cart')) {
   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').insertAdjacentHTML('afterbegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
 }
+
+if (document.querySelector('.account-login')) {
+  document.querySelector('.account-login #search > button').insertAdjacentHTML('afterend', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
+}
