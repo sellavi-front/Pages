@@ -62,15 +62,12 @@ body strong {
 
 .common-home .content-area .page-section {
   margin-top: 50px !important;
+  padding-bottom: 7%;
 }
 
 .common-home .section-title {
   margin-bottom: 50px !important;
   margin-top: 0 !important;
-}
-
-.custom_section {
-  margin-top: 7%;
 }
 
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
