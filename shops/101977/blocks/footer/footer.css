@@ -1,0 +1,34 @@
+#home > div > footer > div.footer-widgets > div.container > div {
+    display: flex;
+    justify-content: center;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4 {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+    display: flex;
+
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(3) {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li > a {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+body.ltr .widget-categories ul li a:before {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li {
+    border: 0px;
+}
