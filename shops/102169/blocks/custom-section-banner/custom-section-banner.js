@@ -36,7 +36,7 @@ const senderData = [
 
 let renderSectionBanner = () => {
   document.querySelector(".custom_section").insertAdjacentHTML("afterbegin", customSectionBannerLayout)
-  let form = new FormBasic(".custom_section", "beforeend", senderData)
+  let form = new FormBasic(document.querySelector(".custom_section"), "beforeend", senderData)
   form.render()
 }
 
