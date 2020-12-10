@@ -26,7 +26,7 @@
 /* END Styled input choise */
 
 
-#product .form-group input {
+#product .form-group {
   flex: 0 0 100% !important;
   width: 100% !important;
 }
