@@ -15,7 +15,7 @@ import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
-import salesData from './utils/salesData.js';
+import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
 import ContentBannerTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
@@ -40,7 +40,7 @@ if (document.querySelector('.common-home')) {
   // infoCardTypeOne.render();
 
   //Content banner
-  const contentBanner = new ContentBannerTypeOne(sctmSection, 'beforeEnd', dataBannerContent);
+  const contentBanner = new ContentBannerTypeOne(sctmSection, 'beforeEnd', contentBannerData);
   contentBanner.render();
 
   const advantagesCard = new InfoCardTypeOne(
