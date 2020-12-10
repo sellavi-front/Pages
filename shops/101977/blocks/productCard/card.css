@@ -82,3 +82,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
     position: relative;
     left: -3px
 }
+
+.with-sidebar > div.map-flex {
+    margin-top: 50px;
+}
