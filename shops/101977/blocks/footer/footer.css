@@ -46,3 +46,37 @@ body .footer .footer-widgets {
 #home > div > footer {
     border-top: 2px solid black;
 }
+
+/* other pages */
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(1) {
+    display: none;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(3) {
+    display: none;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4 {
+    display: none;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li {
+    border: 0px;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+    display: flex;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li > a {
+    font-size: 13px;
+}
+
+#home > footer > div.footer-widgets {
+    padding: 10px;
+}
+
+#home > footer > div.footer-meta {
+    padding: 0px !important;
+}
