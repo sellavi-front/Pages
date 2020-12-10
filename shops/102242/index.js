@@ -18,8 +18,8 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
-import ContentBannerTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
-import dataBannerContent from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
+import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
+import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
