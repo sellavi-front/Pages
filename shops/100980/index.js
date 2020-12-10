@@ -31,6 +31,22 @@ let navbar = `
 `
 
 containerNavbar.insertAdjacentHTML("afterend", navbar)
+let wishlist = `
+  <div class="header_wishlist">
+    <a
+      id="wishlist"
+      class="position-relative"
+      href="https://${location.host}/index.php?route=account/wishlist"
+      role="link"
+    >
+      <i class="far fa-heart"></i>
+    </a>
+  </div>
+`;
+
+let search = document.querySelector("#search")
+search.insertAdjacentHTML("afterend", wishlist)
+
 if(pages.home) {
 
   // Banner

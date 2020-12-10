@@ -41,10 +41,10 @@ input.form-control::placeholder,
 .header .header-search {
   position: absolute;
   top: 23px;
-  width: 100%;
+  width: 150px !important;
   max-width: 270px;
   left: auto;
-  right: 4% !important;
+  right: 8% !important;
 }
 
 .header .header-cart {
