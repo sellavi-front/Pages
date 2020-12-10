@@ -2,6 +2,7 @@ import FormBasic from "../../../../components/FormBasic/FormBasic.js"
 import sender from "./feedback-form.js"
 
 let customSectionBannerLayout = `
+  <img class="img__on__banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607518292/sellavi/102169/Component_1_1_pdu4be.png" alt="img"/>
   <div class="section__banner_container">
         <div class="section__banner_column">
             <div class="section__banner_row">
