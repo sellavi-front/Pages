@@ -149,3 +149,14 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     background: #ff000000 !important;
     border: 0px !important;
 }
+
+
+.account-login #search > button {
+    position: relative;
+    left: 210px;
+    top: -38px
+}
+
+#search > div.search_field > input {
+    background: #ff000000;
+}
