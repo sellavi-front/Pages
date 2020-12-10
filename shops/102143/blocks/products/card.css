@@ -26,3 +26,6 @@
   max-height: inherit !important;
 
 }
+.product-product .product-single .buttons .quantity .btn:hover {
+  color: black !important;
+}
