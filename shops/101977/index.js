@@ -160,14 +160,11 @@ if (document.querySelector('.product-product')) {
   document.querySelector('.table_holder > table').remove();
 }
 
-// if (document.querySelector('.product-product')) {
-//   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').insertAdjacentHTML('afterbegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
-// }
-
-// if (document.querySelector('.product-category')) {
-//   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').insertAdjacentHTML('afterbegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
-// }
-
-if (location.pathname !== '/') {
+if (document.querySelector('.product-product')) {
   document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').insertAdjacentHTML('afterbegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
 }
+
+if (document.querySelector('.product-category')) {
+  document.querySelector('#home > div > header > div.header-wrapper > div.container > div.header-cart.sticky').insertAdjacentHTML('afterbegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
+}
+
