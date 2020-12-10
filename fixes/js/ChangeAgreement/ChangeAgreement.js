@@ -12,7 +12,7 @@ export default class ChangeAgreement {
   }
 }
 
-if (location.href.includes('checkout')) {
+if (location.href.includes('/checkout')) {
   const newChange = new ChangeAgreement();
   newChange.change();
 }
