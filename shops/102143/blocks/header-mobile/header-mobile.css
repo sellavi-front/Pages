@@ -17,6 +17,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
   height: 82vh !important;
+}
 
 body.sidenav-enabled .mobile_side_nav > ul a {
   border: none;
