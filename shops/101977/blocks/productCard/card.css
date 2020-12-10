@@ -72,3 +72,8 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 .product-product #cart {
     left: -5px;
 }
+
+.product-product #search > button {
+    top: 1px;
+    right: 20px;
+}
