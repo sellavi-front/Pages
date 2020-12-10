@@ -12,8 +12,8 @@
 .banner-content__item_bg {
   left: 55%;
   right: auto;
-  max-width: 430px !important;
-  margin-top: -9px;
+  max-width: 32vw !important;
+  margin-top: -25px;
   border: 15px solid white;
   height: auto !important;
 }
@@ -45,4 +45,8 @@
   font-size: 3rem;
   margin: 0;
   font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+
 }
