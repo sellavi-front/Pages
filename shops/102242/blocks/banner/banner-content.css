@@ -28,3 +28,12 @@
   max-width: 276px !important;
   padding: 2% !important;
 }
+
+.banner-content__container h3,
+.banner-content__container p {
+  color: white !;
+}
+
+.banner-content__item_title span {
+  font-size: 1.5rem !important;
+}
