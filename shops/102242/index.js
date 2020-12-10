@@ -43,6 +43,8 @@ if (document.querySelector('.common-home')) {
   const contentBanner = new ContentBannerTypeOne(sctmSection, 'beforeEnd', contentBannerData);
   contentBanner.render();
 
+  document.querySelector('.banner-content').classList.add('container');
+
   const advantagesCard = new InfoCardTypeOne(
     sctmSection,
     'beforeEnd',
