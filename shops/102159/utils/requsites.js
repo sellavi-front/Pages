@@ -11,7 +11,7 @@ const requsites = {
 };
 
 const dataContact = {
-  adress: 'г. Екатеринбург ул счастливая 8 офис 2',
+  adress: 'г. Екатеринбург ул Cчастливая 8 офис 2',
   phone: '89126834503',
   city: 'г. Екатеринбург',
   timeWork: 'с 10 до 15',
