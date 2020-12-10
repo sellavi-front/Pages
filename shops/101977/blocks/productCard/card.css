@@ -59,3 +59,16 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
     max-width: 300px !important;
     max-height: 900px !important;
 }
+
+.product-product #wishlist {
+    top: 5px;
+    left: -10px;
+}
+
+.product-product .fa-heart:before {
+    font-size: 20px;
+}
+
+.product-product #cart {
+    left: -5px;
+}
