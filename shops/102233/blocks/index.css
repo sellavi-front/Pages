@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 @import '../../../templates/TemplateTypeOne/style/index.css';
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 @import '../../../components/css-components/ColoredCategories/category/size/cat-col-3.css';
