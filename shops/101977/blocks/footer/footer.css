@@ -32,3 +32,17 @@ body.ltr .widget-categories ul li a:before {
 #home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li {
     border: 0px;
 }
+
+body .footer .footer-widgets {
+    padding: 10px 0;
+    margin-top: 0;
+    background-color: white;
+}
+
+#home > div > footer > div.footer-meta {
+    padding: 0px !important ;
+}
+
+#home > div > footer {
+    border-top: 2px solid black;
+}
