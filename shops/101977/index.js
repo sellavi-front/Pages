@@ -114,7 +114,7 @@ if (location.pathname !== '/') {
 
 document.querySelector('#home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky').insertAdjacentHTML('afterbegin', '<div>AL`DOMA</div>');
 
-document.querySelector('.footer').remove();
+//document.querySelector('.footer').remove();
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Гралько Людмила Викторовна');
