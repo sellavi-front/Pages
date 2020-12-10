@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
 @import url('https://coospir.github.io/Pages/components/DropDownList/DropDownList.css');
 @import url('https://coospir.github.io/Pages/shops/100980/pages/aboutPage/aboutCompany.css');
@@ -312,6 +312,9 @@ body.theme-red-2 .header {
   width: 100%;
 }
 
+.content__layout__container__item__description h1 {
+  font-weight: 900;
+}
 
 .solutions__column_links>a:hover {
   cursor: pointer;
