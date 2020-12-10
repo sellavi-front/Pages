@@ -8,3 +8,7 @@ body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail
 .section-title span, .title {
   border-color: lightgray !important;
 }
+
+body.theme_11 .wrapper .latest-section h2.section-title {
+  padding-left: 6% !important;
+}
