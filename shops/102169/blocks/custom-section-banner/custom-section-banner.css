@@ -36,6 +36,12 @@
 
 .description__section {
   padding: 5%;
+  margin-top: 5%;
+}
+
+.img__on__banner {
+  position: absolute;
+  left: 55%;
 }
 
 .disphoto__custom_banner {
