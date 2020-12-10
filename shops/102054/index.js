@@ -1,5 +1,7 @@
 import '../../fixes/fixes.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import addScrolledHeader from "./blocks/header/header.js";
+import renderBanner from "./blocks/banner/banner.js";
 
 window.onload = () => {
   const bootstrapClasses = [
@@ -21,52 +23,9 @@ window.onload = () => {
     document.querySelector("#cart").style.cssText = 'color: #fff'
     document.querySelector("#search > button > i").style.cssText = 'color: #fff'
 
-    /*Sticky and colorable header */
-    let elem = $('header.sticky_trigger');
-    let doc = $(document);
-    function scrolled() {
-      let threshold = doc.scrollTop() > 50;
-      elem.toggleClass('scrolled', threshold);
-      if(document.querySelector("header").classList.contains("scrolled")) {
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4)").style.cssText = "color: #333"
-        document.querySelector("#search > button > i").style.cssText = "color: #333"
-        document.querySelector("#cart").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(1)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: #fff"
-      } else {
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4)").style.cssText = "color: #fff"
-        document.querySelector("#search > button > i").style.cssText = "color: #fff"
-        document.querySelector("#cart").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(1)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: transparent"
-      }
-    }
+    addScrolledHeader()
+    renderBanner()
 
-    $(window).on({ scroll: scrolled })
-
-    /* Setting up banner */
-    let bannerMain = document.querySelector(".custom_banner")
-    bannerMain.insertAdjacentHTML("afterbegin", `
-      <div class="video__banner">
-          <video autoplay loop muted>
-              <source src="https://video-public.canva.com/VAEFIQ7iFMI/v/a2ade3cf84.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-           <div class="video__banner__text__content">
-              <h1 class="video__banner__text__content__header"><a href="/man/">Новая коллекция</a></h1>
-           </div>
-      </div>
-    `)
 
     let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
     let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
