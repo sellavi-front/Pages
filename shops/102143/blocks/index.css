@@ -88,4 +88,8 @@ body strong {
     width: 100%;
     margin: 0 auto;
   }
+
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 0 !important;
+  }
 }
