@@ -6,7 +6,7 @@
 
 .header {
   background: url(https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png);
-  background-size: 200%;
+  background-size: 100%;
   background-position: top;
   padding: 20px 0;
 }
@@ -78,5 +78,13 @@ body.sidenav-enabled.ltr nav.navigation > ul.mobile_side_nav ul .flexy>.arrow {
   .logo {
     width: 100px;
     margin: 0 0 0 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    background-size: 200%;
+    background-position: top;
+    padding: 20px 0;
   }
 }
