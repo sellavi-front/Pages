@@ -83,6 +83,33 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
     left: -3px
 }
 
+
+
+
+
+.product-category #wishlist {
+    top: 5px;
+    left: -11px;
+}
+
+.product-category .fa-heart:before {
+    font-size: 20px;
+}
+
+.product-category #cart {
+    left: -5px;
+}
+
+.product-category #search > button {
+    top: 1px;
+    right: 20px;
+}
+
+.product-category i.fa.fa-heart {
+    position: relative;
+    left: -3px
+}
+
 .with-sidebar > div.map-flex {
     margin-top: 50px;
 }
