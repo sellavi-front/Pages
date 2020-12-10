@@ -20,9 +20,9 @@
 @import '../../../components/FormBasic/FormBasic.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import '../../../components/ColorChoise/ColorChoise.css';
+@import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-
 
 body h1,
 body h2,

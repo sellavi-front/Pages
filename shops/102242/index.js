@@ -18,6 +18,8 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import salesData from './utils/salesData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
+import ContentBannerTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
+import dataBannerContent from '../../components/ContentBannerTypeOne/exampleUse.js';
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
@@ -34,8 +36,12 @@ if (document.querySelector('.common-home')) {
   /** END VIDEO BANNER **/
 
   // Sales
-  const infoCardTypeOne = new InfoCardTypeOne(sctmSection, 'beforeEnd', salesData);
-  infoCardTypeOne.render();
+  // const infoCardTypeOne = new InfoCardTypeOne(sctmSection, 'beforeEnd', salesData);
+  // infoCardTypeOne.render();
+
+  //Content banner
+  const contentBanner = new ContentBannerTypeOne(sctmSection, 'beforeEnd', dataBannerContent);
+  contentBanner.render();
 
   const advantagesCard = new InfoCardTypeOne(
     sctmSection,
