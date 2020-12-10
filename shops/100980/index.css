@@ -259,6 +259,11 @@ body .content-area {
   padding-bottom: 5% !important;
 }
 
+#search_results {
+  left: auto;
+  right: 0 !important;
+}
+
 .header-cart .cart-wrapper {
   height: 41px;
   border-radius: 4px;
