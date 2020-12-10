@@ -45,6 +45,7 @@
   font-size: 3rem;
   margin: 0;
   font-weight: 700;
+  color: #DA6F37 !important;
 }
 
 @media (max-width: 768px) {
