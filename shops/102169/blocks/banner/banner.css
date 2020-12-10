@@ -71,3 +71,9 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control
   width: 100px !important;
   margin-left: 70% !important;
 }
+
+.wrapper .header .header-wrapper .header-search input {
+  border: none !important;
+  border-bottom: 0 !important;
+  border-radius: 0 !important;
+}
