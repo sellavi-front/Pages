@@ -6,7 +6,7 @@
 .banner-content__item_bg {
   left: 55%;
   right: auto;
-  max-width: 430px;
+  max-width: 430px !important;
   margin-top: -9px;
   border: 15px solid white;
 }
