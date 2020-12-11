@@ -422,10 +422,13 @@ body .footer .footer-widgets {
   color: #fff !important;
 }
 
-.step__item img {
-  width: 50%;
+.steps__block_item:nth-child(2)>.steps__item>img {
+  width: 90px !important;
 }
 
+.steps__block_item>.steps__item>img {
+  width: 80px;
+}
 
 
 
