@@ -9,7 +9,7 @@ body#home .mobile_side_nav .sidenav_search {
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   left: auto !important;
   right: 0 !important;
-  box-shadow: none !important;
+  /* box-shadow: none !important; */
   border: none !important;
 }
 
