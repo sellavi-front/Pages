@@ -149,3 +149,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 .account-login #cart {
     color: black !important;
 }
+
+.product-product #bx-pager > div > a > img {
+    width: 30%;
+}
