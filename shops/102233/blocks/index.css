@@ -45,10 +45,11 @@ body .main-slider .caption-content .caption-subtitle > span {
 
 body .main-slider .caption-content .caption-subtitle > span > span:first-child {
   margin-bottom: 20px !important;
+  font-size: 6vw;
 }
 
 body .main-slider .caption-content .caption-subtitle > span > span:last-child {
-  font-size: 2rem;
+  font-size: 5vw;
 }
 
 body .main-slider .caption-content .caption-subtitle span {
