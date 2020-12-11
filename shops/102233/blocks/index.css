@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&display=swap');
 
 @import '../../../templates/TemplateTypeOne/style/index.css';
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
@@ -25,4 +25,15 @@ body h1 {
 
 body.theme-red-2.theme_11 .wrapper .header .header-wrapper .header-search button {
   color: black !important;
+}
+
+body .main-slider .caption-content .caption-subtitle {
+  font-family: 'Playfair Display', serif !important;
+  color: #2a1f1d;
+  font-weight: 700;
+}
+
+body .main-slider .caption-content .caption-subtitle span {
+  font-family: inherit;
+  font-weight: inherit;
 }
