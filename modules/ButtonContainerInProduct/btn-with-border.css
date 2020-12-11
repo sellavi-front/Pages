@@ -64,6 +64,7 @@ body .section-title {
 
 body.theme-cumin.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   background: transparent !important;
+  color: black !important;
 }
 
 /* h2.section-title > span::after {
