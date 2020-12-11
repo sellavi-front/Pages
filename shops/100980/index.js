@@ -13,6 +13,7 @@ import renderHowWeWork from "./blocks/customSection/howWeWork/howWeWork.js"
 import renderFooter from "./blocks/footer/footer.js"
 import sendHomeForm from "./wa-forms/home-form.js"
 import sendComplexForm from "./wa-forms/сomplex-form.js"
+import renderContactsLayout from "./pages/contactsPage/contactsPage.js"
 
 
 /* Setting logo */
@@ -92,6 +93,10 @@ if(pages.delivery) {
 
 if(pages.solutions) {
   renderSolutionsTemplate()
+}
+
+if(pages.contacts) {
+  renderContactsLayout()
 }
 
 /* ALL PAGES */
