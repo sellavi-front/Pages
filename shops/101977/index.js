@@ -67,23 +67,14 @@ const imgNearText2 = new ImgNearText(
 
 imgNearText2.render();
 
-//document.querySelector('#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(3)').insertAdjacentHTML('afterend', '<ul><li>Наличными при получении</li><li>Банковской картой</li><li>По выставлению счета</li></ul>');
 document.querySelector('#home > div > div > section > div:nth-child(3) > div > div > div > div > p:nth-child(3)').insertAdjacentHTML('afterend', '<ul><li>Наличными при получении</li><li>Банковской картой</li><li>По выставлению счета</li></ul>');
 
-  
-
-
-document.querySelector('body>.wrapper>.content-area>.page-section').insertAdjacentHTML('beforeend', '<div class="map-flex"><div class="container"><div class="our-contacts"><div>Контакты</div><div class="adress"><div>Адрес: </div><div>г.Волгоград, ул.Бурейская, д.8</div></div><div class="phone"><div>Телефон: </div><div>8-800-707-24-24</div></div><div class="emails"><div>E-mail: </div><div><a style="color: #377736;" href="mailto:sgmaier@yandex.ru">sgmaier@yandex.ru</a></div></div></div><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7efb2b1c48455fd2e1c95a8256260ab3e86490a95490800b620cd291dff510af&amp;source=constructor" width="600" height="400" frameborder="0"></iframe></div></div>');
-
-// const lastSection = document.querySelector("#home > div > div > section > div.map-flex");
-// const sender = new FormBasic(lastSection, 'beforebegin', senderData)
-// sender.render();
 
 }
 
-if (location.pathname !== '/') {
+// if (location.pathname !== '/') {
   document.querySelector('.content-area').insertAdjacentHTML('beforeend', '<div class="map-flex"><div class="container"><div class="our-contacts"><div>Контакты</div><div class="adress"><div>Адрес: </div><div>г.Волгоград, ул.Бурейская, д.8</div></div><div class="phone"><div>Телефон: </div><div>8-800-707-24-24</div></div><div class="emails"><div>E-mail: </div><div><a style="color: #377736;" href="mailto:sgmaier@yandex.ru">sgmaier@yandex.ru</a></div></div></div><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7efb2b1c48455fd2e1c95a8256260ab3e86490a95490800b620cd291dff510af&amp;source=constructor" width="600" height="400" frameborder="0"></iframe></div></div>');
-}
+// }
 
 if (location.pathname !== '/') {
   const oldMenu = document.querySelector('#home > div > header > div.navigation-wrapper > div > nav');
