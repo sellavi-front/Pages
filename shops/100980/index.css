@@ -445,7 +445,8 @@ body .footer .footer-widgets {
   padding: 25px;
 }
 
-#home > div > div.content-area > div.custom_section > div.container.how__we__work > div > div:nth-child(8) > div > h6 {
+#home > div > div.content-area > div.custom_section > div.container.how__we__work > div > div:nth-child(8) > div > h6,
+#home > div > div.content-area > div.custom_section > div.container.how__we__work > div > div:nth-child(9) > div > h6{
   margin-top: 2%;
 }
 
