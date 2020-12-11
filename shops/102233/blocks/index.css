@@ -34,6 +34,7 @@ body .main-slider .caption-content .caption-subtitle {
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .header-search button,
+body.theme_11 .wrapper .latest-section h2.section-title span,
 body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
   color: #2a1f1d !important;
 }
@@ -61,4 +62,19 @@ body .main-slider .caption-content .caption-subtitle > span > span:last-child {
 body .main-slider .caption-content .caption-subtitle span {
   font-family: inherit;
   font-weight: inherit;
+}
+
+body.theme_11.checkout-checkout .logo {
+  border: none !important;
+}
+
+
+@media (max-width: 768px ) {
+  body .main-slider .caption-content .caption-subtitle > span > span:first-child {
+    font-size: 75px;
+  }
+
+  body .main-slider .caption-content .caption-subtitle > span > span:last-child {
+    font-size: 32px;
+  }
 }
