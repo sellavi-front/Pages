@@ -178,4 +178,7 @@ if (location.pathname !== '/' && screen.width <= 480) {
   document.querySelector('header.header').style.cssText ='position: relative; top: -23px;';
 }
 
-document.querySelector('.cart-wrapper').insertAdjacentHTML('beforebegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
+if (location.pathname !== '/') {
+  document.querySelector('.cart-wrapper').insertAdjacentHTML('beforebegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
+}
+  
