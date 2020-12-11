@@ -92,3 +92,7 @@
 .map-flex .container .our-contacts > div.emails > div:nth-child(1) {
     font-weight: 900;
 }
+
+.checkout-checkout .content-area > div > div {
+    flex-direction: column;
+}
