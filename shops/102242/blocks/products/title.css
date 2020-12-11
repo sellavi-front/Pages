@@ -5,7 +5,7 @@ body .section-title span:before {
 
 .section-title span, .title {
   font-weight: 600 !important;
-  font-size: 36px !important;
+  font-size: 22px !important;
   line-height: 43px !important;
   text-align: left !important;
   border-bottom: 3px solid black;
@@ -23,10 +23,6 @@ body .content-area .page-section.titles {
 
 body .content-area .page-section.titles h1 {
   font-size: 46px !important;
-}
-
-.product-product .page-section .section-title span {
-  font-size: 22px !important;
 }
 
 .product-product .page-section .section-title {

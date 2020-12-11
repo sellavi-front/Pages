@@ -76,16 +76,13 @@ if (document.querySelector('.common-home')) {
   const btns = document.querySelectorAll('.add_to_wishlist > button');
   const banner = document.querySelector('.main-slider');
 
-  console.log(btns);
-  console.log(banner);
-
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-      setTimeout(() => {
+      // setTimeout(() => {
         const a = document.querySelector('.alert');
         banner.insertAdjacentHTML('afterend', a.outerHTML)
         a.remove();
-      }, 1000);
+      // }, 1000);
     });
   });
 }
@@ -109,6 +106,7 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
-if (location.href.includes('checkout')) {
-  document.querySelector('.logo .img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607104303/ThaiCosmetic/Group_1_1_1_wkhuus.png')
+if (location.href.includes('/checkout')) {
+  document.querySelector('.logo .img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607676832/ThaiCosmetic/Group_1_1_1_sfsezg.png');
+  document.querySelector('.logo_mobile_checkout img').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607676832/ThaiCosmetic/Group_1_1_1_sfsezg.png');
 }

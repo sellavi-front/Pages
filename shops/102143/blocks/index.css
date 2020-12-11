@@ -62,6 +62,7 @@ body strong {
 
 .common-home .content-area .page-section {
   margin-top: 50px !important;
+  padding-bottom: 7%;
 }
 
 .common-home .section-title {
@@ -69,12 +70,8 @@ body strong {
   margin-top: 0 !important;
 }
 
-.custom_section {
-  margin-top: 7%;
-}
-
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
-  top: 4px !important;
+  top: 25px !important;
 }
 
 .header .header-search button,
@@ -86,6 +83,17 @@ body strong {
   .common-home .section-title {
     max-width: 800px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 5%;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 0 !important;
+  }
+
+  .common-home .section-title {
+    text-align: center !important;
   }
 }

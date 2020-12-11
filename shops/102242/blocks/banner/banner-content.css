@@ -1,0 +1,55 @@
+.banner-content {
+  background: url('https://res.cloudinary.com/gz-company/image/upload/v1607591760/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/Group_13_se4xam.png')
+    no-repeat;
+  background-size: cover;
+  padding: 3%;
+}
+
+.banner-content__item {
+  height: auto !important;
+}
+
+.banner-content__item_bg {
+  left: 55%;
+  right: auto;
+  max-width: 32vw !important;
+  margin-top: -25px;
+  border: 15px solid white;
+  height: auto !important;
+}
+
+.banner-content__item .container {
+  border: 4px solid white;
+  margin: 0 !important;
+  padding: 3%;
+}
+
+.banner-content__item_button {
+  border-style: dashed !important;
+  max-width: 276px !important;
+  padding: 2% !important;
+  margin-top: 20px !important;
+}
+
+.banner-content__container h3,
+.banner-content__container p {
+  color: white !important;
+  margin: 0 !important;
+}
+
+.banner-content__item_title span {
+  font-size: 1.5rem !important;
+}
+
+.banner-content__item_text span {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  color: #DA6F37 !important;
+}
+
+@media (max-width: 768px) {
+  .banner-content__item_bg {
+    display: none;
+  }
+}
