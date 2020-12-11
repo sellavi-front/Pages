@@ -97,4 +97,8 @@ body .footer .footer-widgets {
     #home > div > div > div > div > iframe {
         width: 100%;
     }
+
+    #home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+        flex-direction: column;
+    }
 }
