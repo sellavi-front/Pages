@@ -127,3 +127,9 @@ body.sidenav-enabled.ltr .flexy > .arrow {
     top: auto !important;
   }
 }
+
+@media (max-width: 375px) {
+  body.ltr .header-cart .cart_drop_down .dropdown-menu.dropdown-menu-right {
+    right: 15px !important;
+  }
+}
