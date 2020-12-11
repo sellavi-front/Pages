@@ -77,8 +77,5 @@ div#search_results {
         display: none !important;
     }
     
-    #content {
-        position: relative;
-        top: -100px !important;
-    }
+    
 }
