@@ -9,7 +9,7 @@ body#home .mobile_side_nav .sidenav_search {
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   left: auto !important;
   right: 0 !important;
-  /* box-shadow: none !important; */
+  box-shadow: none !important;
   border: none !important;
 }
 
@@ -19,6 +19,11 @@ body.sidenav-enabled .mobile_side_nav {
 
 body.sidenav-enabled .mobile_side_nav>ul {
   height: 800px !important;
+}
+
+body.sidenav-enabled .mobile_side_nav>ul {
+  box-shadow: inset -16px -1px 8px -18px #bfbfbf;
+  -webkit-box-shadow: inset -16px -1px 8px -18px #bfbfbf;
 }
 
 body.sidenav-enabled .mobile_side_nav > ul a {
