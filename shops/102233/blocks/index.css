@@ -34,7 +34,7 @@ body .main-slider .caption-content .caption-subtitle {
 }
 
 body .main-slider .caption-content {
-  margin: 0;
+  margin: 0 !important;
   max-width: 100%;
 }
 
