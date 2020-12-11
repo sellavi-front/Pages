@@ -185,3 +185,14 @@ section.page-section.titles {
         top: -23px;
     } */
 }
+
+.account-login .cart-wrapper {
+    position: relative;
+    left: 25px;
+    top: -34px
+}
+
+.account-login .header-cart.sticky {
+    position: relative;
+    left: -30px !important;
+}
