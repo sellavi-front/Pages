@@ -422,6 +422,10 @@ body .footer .footer-widgets {
   color: #fff !important;
 }
 
+.step__item img {
+  width: 30%;
+}
+
 
 
 /* End */
@@ -741,6 +745,11 @@ body .footer .footer-widgets {
     transition: transform .7s ease-in-out;
     right: 20%;
     font-size: 18px;
+  }
+
+
+  .step__item img {
+    width: 70%;
   }
 
 }
@@ -1069,6 +1078,10 @@ body .footer .footer-widgets {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .step__item img {
+    width: 70%;
   }
 
 }
