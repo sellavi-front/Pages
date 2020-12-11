@@ -173,3 +173,7 @@ if (document.querySelector('.product-product')) {
   document.querySelector('body').insertAdjacentHTML('beforeend', newFooter.outerHTML);
   oldFooter.remove();
 }
+
+if (location.pathname !== '/') {
+  document.querySelector('header.header').style.cssText ='position: relative; top: -23px;';
+}
