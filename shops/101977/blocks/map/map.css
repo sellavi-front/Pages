@@ -97,4 +97,8 @@
     .checkout-checkout .content-area > div > div {
         flex-direction: column;
     }
+
+    .checkout-checkout .content-area > div > div > iframe {
+        width: 100%;
+    }
 }
