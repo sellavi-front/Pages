@@ -3,6 +3,7 @@
   width: 100%;
   height: 630px;
   background: #BFDCAE;
+  z-index: -1;
 }
 
 
@@ -41,10 +42,3 @@
   width: 30%;
 }
 
-/*
-.section__banner_column {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: flex-start;
-}*/
