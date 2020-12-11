@@ -80,6 +80,14 @@ body strong {
   color: white !important;
 }
 
+body .content-area .page-section.titles h1 {
+  font-size: 26px !important;
+}
+
+.logo img {
+  max-height: initial !important;
+}
+
 @media (max-width: 1595px) {
   .common-home .section-title {
     max-width: 800px;
