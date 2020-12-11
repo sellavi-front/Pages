@@ -756,6 +756,10 @@ body .footer .footer-widgets {
     width: 70%;
   }
 
+  .desc {
+    padding: 0 !important;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -1086,6 +1090,10 @@ body .footer .footer-widgets {
 
   .step__item img {
     width: 70%;
+  }
+
+  .desc {
+    padding: 0 !important;
   }
 
 }
