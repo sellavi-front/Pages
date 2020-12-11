@@ -9,13 +9,14 @@
 
 
 .section__banner_column {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   max-width: 1200px;
   background: #F7F7F7;
   height: 850px;
-  margin: 5% auto 0 auto;
+  margin: 1% auto 10% auto;
+  position: relative;
+  top: 50px;
+  z-index: -1;
 }
 
 .section__banner_row {
