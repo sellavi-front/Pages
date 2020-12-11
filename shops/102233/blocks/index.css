@@ -33,6 +33,24 @@ body .main-slider .caption-content .caption-subtitle {
   font-weight: 700;
 }
 
+body .main-slider .caption-content {
+  margin: 0;
+  max-width: 100%;
+}
+
+body .main-slider .caption-content .caption-subtitle > span {
+  display: flex;
+  flex-direction: column;
+}
+
+body .main-slider .caption-content .caption-subtitle > span > span:first-child {
+  margin-bottom: 20px !important;
+}
+
+body .main-slider .caption-content .caption-subtitle > span > span:last-child {
+  font-size: 2rem;
+}
+
 body .main-slider .caption-content .caption-subtitle span {
   font-family: inherit;
   font-weight: inherit;
