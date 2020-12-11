@@ -430,11 +430,13 @@ body .footer .footer-widgets {
   width: 80px;
 }
 
-.whyDesc {
+.whyDesc,
+.howDesc {
   padding: 25px;
 }
 
-.whyDesc h6 {
+.whyDesc h6,
+.howDesc h6 {
   margin-top: 5%;
 }
 
