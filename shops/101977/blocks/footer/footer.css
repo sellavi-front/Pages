@@ -105,4 +105,10 @@ body .footer .footer-widgets {
     #home > div > div > div > div > iframe {
         width: 100%;
     }
+
+    .map-flex {
+        margin-top: 0px;
+        position: relative;
+        top: -100px
+    }
 }
