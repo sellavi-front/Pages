@@ -426,6 +426,10 @@ body .footer .footer-widgets {
   width: 50%;
 }
 
+.steps__block_item:nth-child(2)>.steps__item>img {
+  margin-top: 5%;
+}
+
 
 
 /* End */

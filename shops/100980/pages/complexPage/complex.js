@@ -20,7 +20,7 @@ let complexTemplate = `
             Доставим бесплатно по Москве.</p>
             <div class="steps__block_container">
                 <div class="steps__block_item">
-                    <div class="step__item">
+                    <div class="steps__item">
                         <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606815821/Component_1_cotwlc.png" alt="img" />
                         <h6>Подбор и проектирование</h6>
                         <p>Опытные технологи подберут
@@ -32,7 +32,7 @@ let complexTemplate = `
                 </div>
 
                 <div class="steps__block_item">
-                    <div class="step__item">
+                    <div class="steps__item">
                         <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606815821/Component_2_lcjvqn.png" alt="img" />
                         <h6>Доставка и установка</h6>
                         <p>Доставка по всей России точно в срок</p>
@@ -41,7 +41,7 @@ let complexTemplate = `
                 </div>
 
                 <div class="steps__block_item">
-                    <div class="step__item">
+                    <div class="steps__item">
                         <img src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1606815821/Component_3_ezjzya.png" alt="img" />
                         <h6>Обслуживание</h6>
                         <p>Диагностика и ремонт</p>
