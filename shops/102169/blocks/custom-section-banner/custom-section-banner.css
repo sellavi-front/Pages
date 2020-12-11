@@ -27,7 +27,6 @@
 .section__banner_col {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .description__section {
