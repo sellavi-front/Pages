@@ -757,7 +757,7 @@ body .footer .footer-widgets {
   }
 
   .desc {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .step__item p {
