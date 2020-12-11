@@ -45,7 +45,7 @@
 
     #home > div > header > div.header-wrapper > div.container > div.logo {
         position: absolute;
-        top: -32px;
+        top: 30px;
         left: -20px;
         z-index: 999;
     }
