@@ -7,14 +7,15 @@
 }
 
 
+
 .section__banner_column {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1200px;
   background: #F7F7F7;
-  height: auto;
-  margin: 0 auto;
+  height: 850px;
+  margin: 5% auto 0 auto;
 }
 
 .section__banner_row {
@@ -31,7 +32,7 @@
 
 .description__section {
   padding: 5%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .img__on__banner {
@@ -43,3 +44,7 @@
   width: 30%;
 }
 
+.photo__custom_banner {
+  margin-left: -100px;
+  margin-top: 50px;
+}
