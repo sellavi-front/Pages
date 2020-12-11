@@ -124,3 +124,7 @@
         width: 100%;
     }
 }
+
+.wrapper.wrapper-closed {
+    top: 40px;
+}
