@@ -174,6 +174,6 @@ if (document.querySelector('.product-product')) {
   oldFooter.remove();
 }
 
-if (location.pathname !== '/') {
+if (location.pathname !== '/' && screen.width <= 480) {
   document.querySelector('header.header').style.cssText ='position: relative; top: -23px;';
 }
