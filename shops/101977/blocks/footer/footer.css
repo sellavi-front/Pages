@@ -85,4 +85,8 @@ body .footer .footer-widgets {
     #home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
         flex-direction: column !important;
     }
+
+    .about__item {
+        padding: 0px;
+    }
 }
