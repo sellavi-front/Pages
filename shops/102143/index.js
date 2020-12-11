@@ -76,16 +76,13 @@ if (document.querySelector('.common-home')) {
   const btns = document.querySelectorAll('.add_to_wishlist > button');
   const banner = document.querySelector('.main-slider');
 
-  console.log(btns);
-  console.log(banner);
-
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-      setTimeout(() => {
+      // setTimeout(() => {
         const a = document.querySelector('.alert');
         banner.insertAdjacentHTML('afterend', a.outerHTML)
         a.remove();
-      }, 1000);
+      // }, 1000);
     });
   });
 }
