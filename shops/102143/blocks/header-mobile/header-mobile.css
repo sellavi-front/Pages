@@ -22,8 +22,8 @@ body.sidenav-enabled .mobile_side_nav>ul {
 }
 
 body.sidenav-enabled .mobile_side_nav>ul {
-  box-shadow: inset -16px -1px 8px -18px #bfbfbf;
-  -webkit-box-shadow: inset -16px -1px 8px -18px #bfbfbf;
+
+  border-right: 1px solid lightgray;
 }
 
 body.sidenav-enabled .mobile_side_nav > ul a {
