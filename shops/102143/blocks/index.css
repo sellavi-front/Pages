@@ -92,4 +92,8 @@ body strong {
   .wrapper .header .header-wrapper .mobile-navigation-wrapper {
     top: 0 !important;
   }
+
+  .common-home .section-title {
+    text-align: center !important;
+  }
 }
