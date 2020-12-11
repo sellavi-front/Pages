@@ -96,5 +96,6 @@ body strong {
 
   .common-home .section-title {
     text-align: center !important;
+    margin: 0 auto !important;
   }
 }
