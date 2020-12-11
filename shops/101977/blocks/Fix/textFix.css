@@ -69,13 +69,7 @@ div#search_results {
 }
 
 @media (max-device-width: 480px) {
-    #home > div > div > section.page-section.titles > div > div > h1 {
-        display: none;
-    }
-    
     #home > div > header > div.header-wrapper > div.container > div.header-cart.sticky {
         display: none !important;
-    }
-    
-    
+    } 
 }
