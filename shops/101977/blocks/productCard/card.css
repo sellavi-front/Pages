@@ -149,3 +149,8 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 .account-login #cart {
     color: black !important;
 }
+
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
+    background: #ff000000;
+}
