@@ -167,9 +167,9 @@ if (document.querySelector('.account-login')) {
   document.querySelector('.account-login #search > button').insertAdjacentHTML('afterend', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
 }
 
-// if (document.querySelector('.product-product')) {
-//   const oldFooter = document.querySelector('.footer');
-//   const newFooter = oldFooter.cloneNode(true);
-//   document.querySelector('body').insertAdjacentHTML('beforeend', newFooter.outerHTML);
-//   oldFooter.remove();
-// }
+if (document.querySelector('.product-product')) {
+  const oldFooter = document.querySelector('.footer');
+  const newFooter = oldFooter.cloneNode(true);
+  document.querySelector('body').insertAdjacentHTML('beforeend', newFooter.outerHTML);
+  oldFooter.remove();
+}
