@@ -89,4 +89,20 @@ body .footer .footer-widgets {
     .about__item {
         padding: 0px;
     }
+
+    
+
+
+
+    body.sidenav-enabled.ltr .wrapper-closed {
+        top: 40px;
+    }
+    
+    #home > div > div > div > div {
+        flex-direction: column;
+    }
+    
+    #home > div > div > div > div > iframe {
+        width: 100%;
+    }
 }
