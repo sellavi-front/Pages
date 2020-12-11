@@ -26,10 +26,10 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   line-height: 19px;
   text-transform: capitalize;
 }
-
+/*
 body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
   background: transparent !important;
-}
+} */
 
 body.sidenav-enabled.ltr .wrapper-opened {
   position: static !important;

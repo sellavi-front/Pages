@@ -9,6 +9,7 @@
   background-size: 100%;
   background-position: top;
   padding: 20px 0;
+  border: none !important;
 }
 
 .button__list_elem a,
