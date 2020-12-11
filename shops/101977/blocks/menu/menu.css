@@ -178,8 +178,13 @@ section.page-section.titles {
         top: 30px;
     }
 
-    .product-category header.header {
+    header.header {
         position: relative;
         top: -23px;
     }
+
+    /* .product-category header.header {
+        position: relative;
+        top: -23px;
+    } */
 }
