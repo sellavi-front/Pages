@@ -55,10 +55,6 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   right: 15px;
 }
 
-/* .collapse:not(.show) {
-  display: block;
-} */
-
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul {
   margin-bottom: 30px;
 }
