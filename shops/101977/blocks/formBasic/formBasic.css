@@ -79,3 +79,36 @@
         width: 100%;
     }
 }
+
+
+.send-form {
+    margin: 10px;
+    border: 5px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.send-form > div > h3 {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Hauss,sans-serif;
+}
+
+.send-form > div > h6 {
+    font-size: 1.4em;
+    margin-top: 30px;
+    font-family: Hauss,sans-serif;
+    margin-bottom: 30px;
+}
+
+.send-form > div > div {
+    display: flex;
+}
+
+.send-form > div > div > button {
+    width: 200px;
+    background: #007735;
+    color: white;
+    border: 0px;
+    border-radius: 5px
+}
