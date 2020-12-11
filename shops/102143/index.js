@@ -81,11 +81,11 @@ if (document.querySelector('.common-home')) {
 
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-      // setTimeout(() => {
+      setTimeout(() => {
         const a = document.querySelector('.alert');
         banner.insertAdjacentHTML('afterend', a.outerHTML)
         a.remove();
-      // }, 1000);
+      }, 1500);
     });
   });
 }
