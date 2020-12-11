@@ -94,9 +94,6 @@ body .footer .footer-widgets {
 
 
 
-    body.sidenav-enabled.ltr .wrapper-closed {
-        top: 40px;
-    }
     
     #home > div > div > div > div {
         flex-direction: column;
