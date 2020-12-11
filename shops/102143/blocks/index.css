@@ -88,6 +88,11 @@ body .content-area .page-section.titles h1 {
   max-height: initial !important;
 }
 
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  right: 0 !important;
+  left: auto !important;
+}
+
 @media (max-width: 1595px) {
   .common-home .section-title {
     max-width: 800px;
