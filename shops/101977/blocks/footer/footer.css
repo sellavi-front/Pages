@@ -80,3 +80,9 @@ body .footer .footer-widgets {
 #home > footer > div.footer-meta {
     padding: 0px !important;
 }
+
+@media (max-device-width: 480) {
+    #home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+        flex-direction: column
+    }
+}
