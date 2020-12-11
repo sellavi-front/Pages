@@ -68,6 +68,18 @@ body.theme_11.checkout-checkout .logo {
   border: none !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .search_black_screen {
+  opacity: .2 !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search button {
+  right: 19px;
+  left: auto;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search.opened button {
+  display: none !important;
+}
 
 @media (max-width: 768px ) {
   body .main-slider .caption-content .caption-subtitle > span > span:first-child {
