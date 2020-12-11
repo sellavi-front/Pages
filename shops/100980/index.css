@@ -429,6 +429,11 @@ body .footer .footer-widgets {
 .steps__block_item>.steps__item>img {
   width: 80px;
 }
+.complex__block p {
+  margin-bottom: 5%;
+  padding: 5%;
+}
+
 
 
 
