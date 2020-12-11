@@ -166,3 +166,15 @@ section.page-section.titles {
     background: #ff000000 !important;
     border: 0px !important;
 }
+
+@media (max-device-width: 480px) {
+    .common-home div > header > div.header-wrapper {
+        position: relative !important;
+        top: -23px !important;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > div.logo {
+        position: absolute;
+        top: 30px;
+    }
+}
