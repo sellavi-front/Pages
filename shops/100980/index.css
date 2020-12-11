@@ -434,6 +434,10 @@ body .footer .footer-widgets {
   padding: 25px;
 }
 
+.step-item h6 {
+  margin-top: 5%;
+}
+
 
 /* End */
 
@@ -765,6 +769,10 @@ body .footer .footer-widgets {
 
   .step__item p {
     padding: 5%;
+  }
+
+  .step__item {
+    padding: 0;
   }
 }
 
