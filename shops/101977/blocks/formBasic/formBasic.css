@@ -112,3 +112,15 @@
     border: 0px;
     border-radius: 5px
 }
+
+@media (max-device-width: 480px) {
+    .out-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .send-form > div > div > button {
+        height: 40px;
+        width: 100%;
+    }
+}
