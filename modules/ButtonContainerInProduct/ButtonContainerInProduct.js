@@ -11,6 +11,8 @@ export default class ButtonContainerInProduct {
 
   createContainer() {
     this.container.forEach((btn, i) => {
+      console.log('button', btn);
+      console.log('index', i);
       btn.insertAdjacentHTML(
         'afterend',
         `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
