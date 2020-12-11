@@ -17,3 +17,8 @@
   font-size: 14px;
   color: white;
 }
+
+.footer__docs ul li a:hover {
+  color: white !important;
+  border-bottom: 1px solid white !important;
+}
