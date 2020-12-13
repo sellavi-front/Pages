@@ -3,6 +3,7 @@ import { requsites, dataContact } from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 import contactData from './utils/contactData.js'
 
