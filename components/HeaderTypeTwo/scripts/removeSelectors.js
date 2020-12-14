@@ -1,3 +1,3 @@
 export const removeSelectors = (element) => {
-  element.classList.splice(1, 3)
+  element.classList.forEach((selector, i, arr) => arr.splice(1, arr.length))
 }
