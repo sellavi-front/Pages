@@ -1,5 +1,15 @@
-.header-cart .cart-wrapper #cart i {
+.header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
  line-height: 1.2;
+ margin: 0 !important;
+}
+
+.wrapper .header .header-wrapper .header_widgets .header-cart,
+.wrapper .header .header-wrapper .header_widgets .header_login>a {
+  min-width: 24px !important;
+}
+
+.wrapper .header .header-wrapper .header_widgets .header-cart {
+  top: 2px !important;
 }
 
 .common-home .header-cart .cart-wrapper #cart {
@@ -18,3 +28,4 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
   display: flex;
   align-items: center;
 }
+
