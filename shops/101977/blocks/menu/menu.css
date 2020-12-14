@@ -236,3 +236,24 @@ section.page-section.titles {
     position: relative;
     z-index: 1000;
 }
+
+
+
+
+@media (max-device-width: 480px) {
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+        top: 0px;
+    }
+
+    .logo {
+        top: 8px !important;
+    }
+
+    .product-category .category_content_wrapper {
+        margin-top: 0px;
+    }
+
+    #home > div > div > section.page-section.titles {
+        top: 27px;
+    }
+}
