@@ -28,6 +28,7 @@ if (document.querySelector('.wrapper')) {
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
+
     headerWidgets.remove();
     collapseShow(links);
     document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
