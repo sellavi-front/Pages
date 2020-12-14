@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.sf-menu.nav>li>a {
+  font-size: 12px !important;
+}
+
 .banner__column {
   display: flex;
   flex-direction: column;
