@@ -53,9 +53,9 @@ if (document.querySelector('.wrapper')) {
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
-    headerWidgets.remove();
     collapseShow();
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+    headerWidgets.remove();
   } else {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
