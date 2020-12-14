@@ -2,3 +2,10 @@
     height: 830px;
 }
 
+.container {
+    max-width: 1400px;
+}
+
+.main-slider.content_center > .custom_banner > div > img {
+    width: 100%;
+}
