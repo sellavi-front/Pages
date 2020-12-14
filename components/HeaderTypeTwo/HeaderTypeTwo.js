@@ -29,7 +29,6 @@ const collapseShow = () => {
   links.forEach(a => {
     a.addEventListener('click', (e) => {
       const el = e.target.closest('.flexy')
-      console.log(el);
 
       el.querySelector('.panel-collapse').classList.toggle('show');
     })
@@ -49,11 +48,12 @@ if (document.querySelector('.wrapper')) {
 
   headerLoginText.remove();
 
-  console.log(headerWidgets);
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
     collapseShow();
+    console.log(headerWidgets);
+    console.log(wishList);
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
     headerWidgets.remove();
   } else {
