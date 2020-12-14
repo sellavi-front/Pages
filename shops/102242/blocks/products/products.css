@@ -12,7 +12,7 @@
 .featured-products:not(.featured-products-carousel) {
   display: grid;
   grid-template-columns: repeat(auto-fit, 280px);
-  grid-column-gap: 20px;
+  grid-column-gap: 5%;
   grid-row-gap: 50px;
   margin-top: 3%;
   justify-content: center;

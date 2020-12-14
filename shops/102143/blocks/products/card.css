@@ -5,7 +5,7 @@
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
   max-height: initial !important;
-  min-height: initial !important;
+  min-height: 70px !important;
   margin: 20px 0 !important;
   overflow: hidden !important;
 }
@@ -25,4 +25,7 @@
   max-width: inherit !important;
   max-height: inherit !important;
 
+}
+.product-product .product-single .buttons .quantity .btn:hover {
+  color: black !important;
 }

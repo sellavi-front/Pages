@@ -22,6 +22,7 @@
 @import './contacts/contacts.css';
 @import './soc-icons/soc-icons.css';
 @import './header-mobile/header-mobile.css';
+@import './footer-docs/footer-docs.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
@@ -62,6 +63,7 @@ body strong {
 
 .common-home .content-area .page-section {
   margin-top: 50px !important;
+  padding-bottom: 7%;
 }
 
 .common-home .section-title {
@@ -69,12 +71,8 @@ body strong {
   margin-top: 0 !important;
 }
 
-.custom_section {
-  margin-top: 7%;
-}
-
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
-  top: 4px !important;
+  top: 25px !important;
 }
 
 .header .header-search button,
@@ -82,10 +80,39 @@ body strong {
   color: white !important;
 }
 
+body .content-area .page-section.titles h1 {
+  font-size: 26px !important;
+}
+
+.logo img {
+  max-height: initial !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  right: 0 !important;
+  left: auto !important;
+}
+
+body .md-style-active label.placeholder {
+  opacity: .1;
+}
+
 @media (max-width: 1595px) {
   .common-home .section-title {
     max-width: 800px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 5% ;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 0 !important;
+  }
+
+  .common-home .section-title {
+    text-align: center !important;
+    margin: 0 auto 50px !important;
   }
 }

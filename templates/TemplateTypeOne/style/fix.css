@@ -3,3 +3,14 @@
 .information-sitemap #content ul {
   list-style: none;
 }
+
+/*  */
+.shop-sorting {
+  margin-top: 20px !important;
+}
+
+
+/* */
+.widget-title {
+  line-height: 1.2;
+}

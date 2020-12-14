@@ -6,9 +6,10 @@
 
 .header {
   background: url(https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png);
-  background-size: cover;
-  background-position: bottom;
+  background-size: 100%;
+  background-position: top;
   padding: 20px 0;
+  border: none !important;
 }
 
 .button__list_elem a,
@@ -18,7 +19,7 @@
 
 .header .header-search {
   left: auto;
-  right: 8% !important;
+  right: 75px !important;
   position: absolute;
   width: 150px;
 }
@@ -52,13 +53,47 @@
   width:  100% !important;
 }
 
-@media (max-width: 991px) {
-  .navigation {
-    display: none !important;
-  }
+.header-wrapper > div > .navigation {
+  display: none !important;
+}
 
+.mobile-navigation-wrapper  {
+  display: block !important;
+}
+
+body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
+  left: 0 !important;
+  right: auto !important;
+}
+
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  left: 25px !important;
+  right: auto !important;
+}
+
+body.sidenav-enabled.ltr nav.navigation > ul.mobile_side_nav ul .flexy>.arrow {
+  left: 1% !important;
+}
+
+@media (max-width: 991px) {
   .logo {
     width: 100px;
     margin: 0 0 0 36%;
+  }
+}
+
+
+@media (max-width: 495px) {
+  .logo {
+    width: 100px;
+    margin: 0 0 0 34%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    background-size: 200%;
+    background-position: top;
+    padding: 20px 0;
   }
 }

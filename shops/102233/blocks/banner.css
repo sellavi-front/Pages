@@ -1,0 +1,15 @@
+.main-slider  {
+  margin: 0 !important;
+}
+
+.main-slider .img-fluid {
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .main-slider .img-fluid {
+    height: 80vh;
+    object-fit: cover;
+  }
+}

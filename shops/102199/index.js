@@ -1,6 +1,7 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js'
 import contactData from './utils/contactData.js'
+import socIconsData from './utils/socIconsData.js';
 
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
@@ -9,7 +10,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js'
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
-
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 
 if (document.querySelector('.common-home')) {
@@ -20,6 +21,16 @@ if (document.querySelector('.common-home')) {
   map.render();
 
 }
+
+if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+  const footerContainer = document.querySelector('.footer-widgets>div');
+
+  new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+
+  const socIcons = document.querySelector('.soc-icons>.container');
+  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+}
+
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Абдинов Эльдар Гейдар Оглы');
