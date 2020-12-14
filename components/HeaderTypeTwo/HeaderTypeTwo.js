@@ -1,5 +1,6 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import { collapseShow } from './scripts/collapseShow.js';
+import { removeSelectors } from './scripts/removeSelectors.js';
 
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
