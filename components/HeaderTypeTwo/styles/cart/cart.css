@@ -8,6 +8,10 @@
   min-width: 24px !important;
 }
 
+.wrapper .header .header-wrapper .header_widgets .header-cart {
+  top: 2px !important;
+}
+
 .common-home .header-cart .cart-wrapper #cart {
   color: black !important;
 }
@@ -24,3 +28,4 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
   display: flex;
   align-items: center;
 }
+
