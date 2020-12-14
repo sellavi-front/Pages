@@ -62,6 +62,11 @@ body .section-title {
   border-radius: 0;
 }
 
+body.theme-cumin.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  background: transparent !important;
+  color: black !important;
+}
+
 /* h2.section-title > span::after {
   content: ' ';
   display: flex;
@@ -75,5 +80,4 @@ body .section-title {
   .thumbnail .price_actions .add_to_cart {
     max-width: 276px !important;
   }
-
 }
