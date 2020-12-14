@@ -18,9 +18,9 @@ if (document.querySelector('.common-home')) {
   map.render();
 }
 
-if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
-}
+// if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+//   new SocialIconsTypeOne(footerContainer, 'beforeend').render();
+// }
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Ляховский Александр Владимирович');
