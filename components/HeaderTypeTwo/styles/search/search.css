@@ -5,7 +5,7 @@
 }
 
 .header .header-search {
-  max-width: 410px !important;
+  max-width: 210px !important;
   position: relative;
   top: 0 !important;
   bottom: 0 !important;
@@ -19,10 +19,12 @@
 
 .wrapper .header .header-wrapper .header-search input.form-control {
   padding: 0 2% !important;
+  font-size: 16px !important;
 }
 
 .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
-  color: grey !important;
+  color: rgba(0,0,0,.5) !important;
+  font-size: 16px !important;
 }
 
 .search_black_screen {
