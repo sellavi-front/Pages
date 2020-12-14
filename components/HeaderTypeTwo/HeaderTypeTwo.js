@@ -1,7 +1,6 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import { collapseShow } from './scripts/collapseShow.js';
-import { removeSelectors } from './scripts/removeSelectors.js';
 
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
@@ -20,16 +19,16 @@ const wishList = `
     </a>
 `;
 
-const selectors = []
-
-headerLoginIco.classList.forEach(selector => selectors.push(selector))
-
-const deleteSelectors = new DeleteClasses(headerLoginIco, selectors)
-deleteSelectors.findAndDelete()
 
 if (document.querySelector('.wrapper')) {
-  headerContainer.classList.add('container')
-  headerContainer.classList.remove('container-fluid')
+  const selectors = [];
+  headerLoginIco.classList.forEach((selector) => selectors.push(selector));
+
+  const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
+  deleteSelectors.findAndDelete();
+
+  headerContainer.classList.add('container');
+  headerContainer.classList.remove('container-fluid');
 
   headerLoginText.remove();
   if (headerWidgets) {
@@ -38,10 +37,14 @@ if (document.querySelector('.wrapper')) {
 
     headerWidgets.remove();
     collapseShow(links);
-    document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
-
+    document
+      .querySelector('.header_widgets')
+      .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
   } else {
-    headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
+    headerContainer.insertAdjacentHTML(
+      'beforeend',
+      `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`,
+    );
     cart.remove();
   }
 }
