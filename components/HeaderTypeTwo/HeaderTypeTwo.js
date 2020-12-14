@@ -5,7 +5,7 @@ import { collapseShow } from './scripts/collapseShow.js';
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
-const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
+
 const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
 
 const wishList = `
@@ -35,6 +35,8 @@ if (document.querySelector('.wrapper')) {
     document
       .querySelector('.header_widgets')
       .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
+
+      const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
       console.log(headerLoginIco);
       console.log(headerLoginIco[0]);
 
