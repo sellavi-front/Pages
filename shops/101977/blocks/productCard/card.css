@@ -154,3 +154,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 button.btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
     background: #ff000000;
 }
+
+.product-layout .price {
+    padding-bottom: 20px;
+}
