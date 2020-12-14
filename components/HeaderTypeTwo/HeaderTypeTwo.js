@@ -39,8 +39,13 @@ const collapseShow = () => {
 if (document.querySelector('.wrapper')) {
   const cart = document.querySelector('.header-cart');
   const cartI = cart.querySelector('i');
+
   cartI.classList.add('far');
   cartI.classList.remove('fal');
+
+  headerContainer.classList.add('container')
+  headerContainer.classList.remove('container-fluid')
+
   console.log(headerWidgets);
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
