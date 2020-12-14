@@ -5,7 +5,7 @@ import renderSectionBanner from './blocks/custom-section-banner/custom-section-b
 import './../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import './../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 import './blocks/footer/footer.js'
-import renderSocialLayoutFooter from "./blocks/footer/footer";
+import renderSocialLayoutFooter from "./blocks/footer/footer.js";
 
 if(pages.home) {
   renderHomeBanner()
