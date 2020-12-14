@@ -52,6 +52,4 @@ if (document.querySelector('.wrapper')) {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
   }
-
-  new NavTransferTo(headerLogo, 'afterend').transfer();
 }
