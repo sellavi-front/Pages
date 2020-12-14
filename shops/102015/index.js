@@ -22,6 +22,8 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 }
 
 
+document.querySelector('.container-fluid').setAttribute('class', 'container');
+
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Окутина Марина Юрьевна');
