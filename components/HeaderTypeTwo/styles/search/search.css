@@ -31,13 +31,6 @@
   display: none !important;
 }
 
-@media (max-width: 1230px) {
-  .header .header-search {
-    max-width: 207px !important;
-  }
-}
-
-
 @media (max-width: 495px) {
   body.theme_11 .wrapper .header .header-wrapper .header-search {
     display: none !important;

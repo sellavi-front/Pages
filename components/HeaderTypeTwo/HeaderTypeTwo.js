@@ -34,13 +34,6 @@ const collapseShow = () => {
 }
 
 if (document.querySelector('.wrapper')) {
-  // const cart = document.querySelector('.header-cart');
-  // const cartI = cart.querySelector('i');
-
-
-  // cartI.classList.add('far');
-  // cartI.classList.remove('fal');
-
   headerContainer.classList.add('container')
   headerContainer.classList.remove('container-fluid')
 
@@ -50,9 +43,7 @@ if (document.querySelector('.wrapper')) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
     collapseShow();
-    console.log(headerWidgets);
-    console.log(wishList);
-    headerWidgets.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
+    headerWidgets.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList.outerHTML}</div>`);
     headerWidgets.remove();
   } else {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
