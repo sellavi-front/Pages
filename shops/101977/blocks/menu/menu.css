@@ -242,7 +242,7 @@ section.page-section.titles {
 
 @media (max-device-width: 480px) {
     .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
-        top: 0px;
+        top: 23px;
     }
 
     .logo {
