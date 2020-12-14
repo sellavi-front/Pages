@@ -81,6 +81,11 @@ body.theme_11 .wrapper .header .header-wrapper .header-search.opened button {
   display: none !important;
 }
 
+body .content-area .page-section.titles {
+  background: transparent !important;
+  border-bottom: none !important;
+}
+
 @media (max-width: 768px ) {
   body .main-slider .caption-content .caption-subtitle > span > span:first-child {
     font-size: 75px;
