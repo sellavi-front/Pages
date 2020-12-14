@@ -35,7 +35,7 @@ const collapseShow = () => {
 }
 
 const removeSelectors = (element) => {
-  element.classList.forEach(selector => delete selector)
+  element.classList.forEach((selector, i) => selector.shift(i, 1))
 }
 
 if (document.querySelector('.wrapper')) {
