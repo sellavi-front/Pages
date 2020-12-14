@@ -34,12 +34,12 @@ const collapseShow = () => {
 }
 
 if (document.querySelector('.wrapper')) {
-  const cart = document.querySelector('.header-cart');
-  const cartI = cart.querySelector('i');
+  // const cart = document.querySelector('.header-cart');
+  // const cartI = cart.querySelector('i');
 
 
-  cartI.classList.add('far');
-  cartI.classList.remove('fal');
+  // cartI.classList.add('far');
+  // cartI.classList.remove('fal');
 
   headerContainer.classList.add('container')
   headerContainer.classList.remove('container-fluid')
