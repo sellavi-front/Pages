@@ -5,3 +5,5 @@
 @import '../../../templates/TemplateTypeOne/style/index.css';
 
 @import './banner/banner.css';
+
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
