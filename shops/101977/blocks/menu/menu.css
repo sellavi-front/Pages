@@ -223,3 +223,11 @@ section.page-section.titles {
 .common-home i.far.fa-shopping-cart {
     color: white;
 }
+
+.common-home .btn-theme-transparent i.far.fa-heart {
+    color: black;
+}
+
+.common-home .btn-theme-transparent i.far.fa-shopping-cart {
+    color: black;
+}
