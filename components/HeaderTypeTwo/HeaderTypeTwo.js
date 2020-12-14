@@ -2,7 +2,7 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
-const headerLogo = document.querySelector('.header-wrapper .logo');
+const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
 const wishList = `
   <div class="header_wishlist">
     <a
@@ -40,11 +40,14 @@ if (document.querySelector('.wrapper')) {
   const cart = document.querySelector('.header-cart');
   const cartI = cart.querySelector('i');
 
+
   cartI.classList.add('far');
   cartI.classList.remove('fal');
 
   headerContainer.classList.add('container')
   headerContainer.classList.remove('container-fluid')
+
+  headerLoginText.remove();
 
   console.log(headerWidgets);
   if (headerWidgets) {
