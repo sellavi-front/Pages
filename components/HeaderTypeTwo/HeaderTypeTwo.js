@@ -30,7 +30,7 @@ if (document.querySelector('.wrapper')) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
 
-    headerLoginIco.classList.forEach((selector) => selectors.push(selector));
+    headerLoginIco[0].classList.forEach((selector) => selectors.push(selector));
 
     const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
     deleteSelectors.findAndDelete();
