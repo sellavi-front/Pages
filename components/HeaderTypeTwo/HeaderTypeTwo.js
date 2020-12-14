@@ -4,7 +4,6 @@ const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
 const wishList = `
-  <div class="header_wishlist">
     <a
       id="wishlist"
       class="position-relative"
@@ -13,7 +12,6 @@ const wishList = `
     >
       <i class="far fa-heart"></i>
     </a>
-  </div>
 `;
 
 const collapseShow = () => {
@@ -54,7 +52,7 @@ if (document.querySelector('.wrapper')) {
     collapseShow();
     console.log(headerWidgets);
     console.log(wishList);
-    headerWidgets.insertAdjacentHTML('afterbegin', wishList);
+    headerWidgets.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
     headerWidgets.remove();
   } else {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
