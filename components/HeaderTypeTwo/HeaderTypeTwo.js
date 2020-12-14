@@ -44,7 +44,7 @@ if (document.querySelector('.wrapper')) {
     newCont.render();
     headerWidgets.remove();
     collapseShow();
-    document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList.outerHTML}</div>`);
+    document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
 
   } else {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
