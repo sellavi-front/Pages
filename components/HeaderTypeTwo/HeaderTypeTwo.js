@@ -1,9 +1,12 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
+import { collapseShow } from './scripts/collapseShow.js';
 
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
 const headerLoginIco = document.querySelector('.header_login>.d-none.d-sm-block.d-lg-none');
+const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
+
 const wishList = `
     <a
       id="wishlist"
@@ -15,29 +18,6 @@ const wishList = `
     </a>
 `;
 
-const collapseShow = () => {
-  const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
-  //remove attr href
-  links.forEach(a => {
-    if (a.closest('li').querySelector('.panel-collapse')){
-      a.removeAttribute('href')
-    }
-  });
-
-  //set listeners and show panel-collapse
-  links.forEach(a => {
-    a.addEventListener('click', (e) => {
-      const el = e.target.closest('.flexy')
-
-      el.querySelector('.panel-collapse').classList.toggle('show');
-    })
-  })
-}
-
-const removeSelectors = (element) => {
-  element.classList.forEach((selector, i) => selector.shift(i, 1))
-}
-
 if (document.querySelector('.wrapper')) {
   headerContainer.classList.add('container')
   headerContainer.classList.remove('container-fluid')
@@ -48,7 +28,7 @@ if (document.querySelector('.wrapper')) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
     headerWidgets.remove();
-    collapseShow();
+    collapseShow(links);
     document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
 
   } else {
