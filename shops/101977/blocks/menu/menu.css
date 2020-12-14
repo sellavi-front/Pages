@@ -211,3 +211,15 @@ section.page-section.titles {
     font-size: 20px;
     right: 6px;
 }
+
+.common-home i.fa.fa-search {
+    color: white;
+}
+
+.common-home i.far.fa-heart {
+    color: white;
+}
+
+.common-home i.far.fa-shopping-cart {
+    color: white;
+}
