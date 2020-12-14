@@ -231,3 +231,8 @@ section.page-section.titles {
 .common-home .btn-theme-transparent i.far.fa-shopping-cart {
     color: black;
 }
+
+.position-relative i.far.fa-heart {
+    position: relative;
+    z-index: 1000;
+}
