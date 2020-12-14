@@ -9,18 +9,21 @@
 @import './container.css';
 @import './caption-title/caption-title.css';
 @import './banner/banner-caption.css';
+@import './banner/banner-content.css';
 @import './products/products.css';
 @import './info-card/info-card.css';
 @import './footer/footer.css';
 @import './soc-icons/soc-icons.css';
 @import './drop-down-cart/dropdown-cart.css';
+
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
 @import '../../../components/FormBasic/FormBasic.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import '../../../components/ColorChoise/ColorChoise.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 body h1,
 body h2,

@@ -32,7 +32,8 @@ body .section-title.section-title-lg {
   padding: 5px 10px;
 }
 
-.content-tabs .nav-tabs>li>a.active:after, .content-tabs .nav-tabs>li>a.active:before {
+.content-tabs .nav-tabs>li>a.active:after, .content-tabs .nav-tabs>li>a.active:before,
+#content > div.row.mb-0.mb-md-3 {
   display: none;
 }
 

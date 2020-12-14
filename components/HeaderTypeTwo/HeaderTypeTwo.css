@@ -1,0 +1,5 @@
+@import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import './styles/cart/cart.css';
+@import './styles/sf-menu/sf-menu.css';
+@import './styles/search/search.css';
+@import './styles/header-mobile/header-mobile.css';

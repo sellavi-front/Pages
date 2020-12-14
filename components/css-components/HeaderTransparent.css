@@ -51,9 +51,9 @@
   font-size: 21px;
 }
 
-.common-home .button__list_elem a, .common-home .header-cart .cart-wrapper #cart, .common-home .header .header-search button {
+/* .common-home .button__list_elem a, .common-home .header-cart .cart-wrapper #cart, .common-home .header .header-search button {
   color: white !important;
-}
+} */
 
 .common-home .header .header-search .form-control {
   border-radius: 0;

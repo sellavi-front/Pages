@@ -3,6 +3,7 @@ import { requsites, dataContact } from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 import contactData from './utils/contactData.js'
 
@@ -15,6 +16,10 @@ if (document.querySelector('.common-home')) {
 
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
+}
+
+if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
 }
 
 if (location.href.includes('term-of-use')) {

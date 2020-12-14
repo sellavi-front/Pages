@@ -28,6 +28,9 @@ if (document.querySelector('.wrapper')) {
   // Icons im header cont
   const footer = document.querySelector('.footer');
   const footerWidgets = document.querySelector('.footer-widgets>.container');
+  const footerDocs = document.querySelector('.footer-widgets > div > div > div:nth-child(2) .widget-categories ul');
+
+  document.querySelector('.footer_content_wrapper').insertAdjacentHTML('afterbegin', `<div class="footer__docs">${footerDocs.outerHTML}</div>`);
   document.querySelector('.footer-widgets>.container>.row').remove();
 
   footer.insertAdjacentHTML(
@@ -76,16 +79,13 @@ if (document.querySelector('.common-home')) {
   const btns = document.querySelectorAll('.add_to_wishlist > button');
   const banner = document.querySelector('.main-slider');
 
-  console.log(btns);
-  console.log(banner);
-
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       setTimeout(() => {
         const a = document.querySelector('.alert');
         banner.insertAdjacentHTML('afterend', a.outerHTML)
         a.remove();
-      }, 1000);
+      }, 1500);
     });
   });
 }
@@ -109,6 +109,7 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
-if (location.href.includes('checkout')) {
-  document.querySelector('.logo .img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607104303/ThaiCosmetic/Group_1_1_1_wkhuus.png')
+if (location.href.includes('/checkout')) {
+  document.querySelector('.logo .img-fluid').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607678967/ThaiCosmetic/Group_1_6_y68nmf.png');
+  document.querySelector('.logo_mobile_checkout img').setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1607678967/ThaiCosmetic/Group_1_6_y68nmf.png');
 }
