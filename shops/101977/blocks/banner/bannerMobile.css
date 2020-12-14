@@ -282,3 +282,10 @@
         margin-top: 30px
     }
 }
+
+@media (max-device-width: 480px) {
+    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__caption > a {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
