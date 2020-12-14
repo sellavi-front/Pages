@@ -42,10 +42,10 @@ if (document.querySelector('.wrapper')) {
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
-    collapseShow();
-    console.log(newCont);
-    headerWidgets.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList.outerHTML}</div>`);
     headerWidgets.remove();
+    collapseShow();
+    document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList.outerHTML}</div>`);
+
   } else {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
