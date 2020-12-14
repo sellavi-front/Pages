@@ -1,4 +1,5 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
+import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import { collapseShow } from './scripts/collapseShow.js';
 import { removeSelectors } from './scripts/removeSelectors.js';
 
@@ -19,12 +20,17 @@ const wishList = `
     </a>
 `;
 
+const selectors = []
+
+headerLoginIco.classList.forEach(selector => selectors.push(selector))
+
+new DeleteClasses(headerLoginIco, selectors).findAndDelete();
+
 if (document.querySelector('.wrapper')) {
   headerContainer.classList.add('container')
   headerContainer.classList.remove('container-fluid')
 
   headerLoginText.remove();
-  removeSelectors(headerLoginIco);
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
