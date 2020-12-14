@@ -19,14 +19,8 @@ const wishList = `
     </a>
 `;
 
-
 if (document.querySelector('.wrapper')) {
   const selectors = [];
-  headerLoginIco.classList.forEach((selector) => selectors.push(selector));
-
-  console.log(headerLoginIco);
-  const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
-  deleteSelectors.findAndDelete();
 
   headerContainer.classList.add('container');
   headerContainer.classList.remove('container-fluid');
@@ -35,6 +29,11 @@ if (document.querySelector('.wrapper')) {
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
+
+    headerLoginIco.classList.forEach((selector) => selectors.push(selector));
+
+    const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
+    deleteSelectors.findAndDelete();
 
     headerWidgets.remove();
     collapseShow(links);
