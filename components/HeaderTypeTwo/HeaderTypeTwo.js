@@ -3,6 +3,7 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
+const headerLoginIco = document.querySelector('.header_login>.d-none.d-sm-block.d-lg-none');
 const wishList = `
     <a
       id="wishlist"
@@ -33,12 +34,16 @@ const collapseShow = () => {
   })
 }
 
+const removeSelectors = (element) => {
+  element.classList.forEach(selector => delete selector)
+}
+
 if (document.querySelector('.wrapper')) {
   headerContainer.classList.add('container')
   headerContainer.classList.remove('container-fluid')
 
   headerLoginText.remove();
-
+  removeSelectors(headerLoginIco);
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
