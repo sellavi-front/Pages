@@ -43,6 +43,7 @@ if (document.querySelector('.wrapper')) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
     collapseShow();
+    console.log(newCont);
     headerWidgets.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList.outerHTML}</div>`);
     headerWidgets.remove();
   } else {
