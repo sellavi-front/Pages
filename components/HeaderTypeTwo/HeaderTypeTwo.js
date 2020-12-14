@@ -24,6 +24,7 @@ if (document.querySelector('.wrapper')) {
   const selectors = [];
   headerLoginIco.classList.forEach((selector) => selectors.push(selector));
 
+  console.log(headerLoginIco);
   const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
   deleteSelectors.findAndDelete();
 
