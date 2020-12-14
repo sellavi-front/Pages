@@ -17,6 +17,19 @@
   font-size: 12px !important;
 }
 
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  color: #000!important;
+  background-color: transparent !important;
+}
+
+body .buttons__container button, body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+  border-color: #000 !important;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: #c3c3c3!important;
+}
+
 .banner__column {
   display: flex;
   flex-direction: column;
