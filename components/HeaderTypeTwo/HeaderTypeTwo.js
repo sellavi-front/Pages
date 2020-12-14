@@ -52,4 +52,8 @@ if (document.querySelector('.wrapper')) {
     headerContainer.insertAdjacentHTML('beforeend', `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`);
     cart.remove();
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d2fddd28de1fc8cd0e800be36574ee4819058db8
 }

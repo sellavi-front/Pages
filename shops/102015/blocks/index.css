@@ -3,3 +3,9 @@
 @import './pay-delivery/pay-delivery.css';
 
 @import '../../../templates/TemplateTypeOne/style/index.css';
+
+@import './banner/banner.css';
+
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+
+@import '../blocks/header/header.css';

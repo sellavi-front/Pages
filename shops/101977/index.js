@@ -184,3 +184,4 @@ if (location.pathname !== '/') {
   
 
 import ButtonContainerInProduct from '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+//test
