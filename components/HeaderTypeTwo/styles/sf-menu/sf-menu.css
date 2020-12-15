@@ -8,8 +8,8 @@
 
 .sf-menu.nav>li>a {
   font-size: 18px !important;
-  margin: 0;
-  padding: 5px 0;
+  margin: 0 !important;
+  padding: 5px 0 !important;
 }
 
 /* reset container size for .navigation-wrapper*/
