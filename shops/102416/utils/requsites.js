@@ -24,18 +24,18 @@ const dataContact = {
 };
 
 const options = [
-  (payment = {
+  {
     bool: true,
     func: setPayment(),
-  }),
-  (delivery = {
+  },
+  {
     bool: true,
     func: setDelivery(dataContact),
-  }),
-  (pickup = {
+  },
+  {
     bool: true,
     func: setPickup(dataContact),
-  }),
+  },
 ];
 
 export { requsites, dataContact, options };
