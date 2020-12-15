@@ -33,12 +33,13 @@ if (document.querySelector('.wrapper')) {
   headerLoginText.remove();
 
   // Add underline to nav elem for open page
-
   navigationElements.forEach(elem => {
     if (elem.getAttribute('href') == location.href) {
       elem.style.borderBottom = '2px solid'
     }
   })
+
+  // END add underline to nav elem for open page
 
   if (headerWidgets) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);

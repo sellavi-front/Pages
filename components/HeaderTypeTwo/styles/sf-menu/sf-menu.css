@@ -1,5 +1,15 @@
+.navigation-wrapper {
+  margin-bottom: 30px !important;
+}
+
+.sf-menu.nav>li {
+  margin: 5px 16px;
+}
+
 .sf-menu.nav>li>a {
   font-size: 18px !important;
+  margin: 0;
+  padding: 5px 0;
 }
 
 /* reset container size for .navigation-wrapper*/
