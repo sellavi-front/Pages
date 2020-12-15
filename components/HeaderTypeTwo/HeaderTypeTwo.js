@@ -21,7 +21,7 @@ const wishList = `
 
 if (document.querySelector('.wrapper')) {
   const selectors = [];
-  const cartI = cart.querySelector('i');
+  const cartI = document.querySelector('body .header-cart i');
 
   headerContainer.classList.add('container');
   headerContainer.classList.remove('container-fluid');
