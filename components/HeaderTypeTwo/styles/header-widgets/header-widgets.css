@@ -3,3 +3,10 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 991px) {
+  body.ltr .wrapper .header .header-wrapper .header_widgets {
+    justify-content: flex-start !important;
+    padding-left: 2%;
+  }
+}

@@ -31,6 +31,12 @@
   display: none !important;
 }
 
+@media (max-width: 991px) {
+  body.ltr .wrapper .header .header-wrapper .header-search {
+    display: none !important;
+  }
+}
+
 @media (max-width: 495px) {
   body.theme_11 .wrapper .header .header-wrapper .header-search {
     display: none !important;
