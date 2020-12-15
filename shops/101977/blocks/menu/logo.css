@@ -45,4 +45,17 @@
     .logoName {
         display: none
     }
+
+    .container .logo {
+        display: flex;
+    }
+    
+    .container .logo .logoName {
+        color: white;
+        margin-top: 4px;
+        font-size: 20px;
+        font-family: intent;
+        position: relative;
+        right: 20px;
+    }
 }
