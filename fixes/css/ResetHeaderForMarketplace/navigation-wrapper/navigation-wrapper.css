@@ -18,3 +18,7 @@
   body .arrow {
     display: none !important;
   }
+
+  body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul div, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul li {
+    background: white !important;
+  }
