@@ -84,7 +84,7 @@ body.theme_11
 }
 
 @media (max-width: 992px) {
-  body .wrapper .homefeatured_category > div > div > div {
+  body.ltr .wrapper .homefeatured_category > div > div > div {
     flex: 0 0 100%;
     max-width: 100%;
     width: 100%;
