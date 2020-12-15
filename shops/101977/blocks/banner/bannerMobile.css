@@ -172,9 +172,9 @@
         left: 20px;
     }
     
-    #home > div > header > div.header-wrapper > div.container > span {
+    /* #home > div > header > div.header-wrapper > div.container > span {
         display: none;
-    }
+    } */
 
     #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
         flex-direction: row !important;
