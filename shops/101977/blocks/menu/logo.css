@@ -68,3 +68,25 @@
         top: 50px;
     }
 }
+
+@media (min-device-width: 480px) and (max-device-width: 821px) {
+    .header-wrapper > .container > span {
+        display: none !important;
+    }
+}
+
+@media (min-device-width: 480px) and (max-device-width: 821px) {
+    .header-wrapper > .container > span {
+        display: none !important;
+    }
+}
+
+@media (min-device-width: 931px) and (max-device-width: 1200px) {
+    nav.navigation.closed.clearfix.nav.nav-closed {
+        right: 180px !important;
+    }
+
+    .header-wrapper > .container > span {
+        left: -150px !important;
+    }
+}
