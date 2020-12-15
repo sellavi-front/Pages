@@ -43,7 +43,7 @@
 
 #home > div > div > section > div.container > div.info-card > div > div > div > div > a > p > span {
     font-family: Hauss,sans-serif !important;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* #home > div > div > section {
@@ -73,4 +73,9 @@ div#search_results {
     #home > div > header > div.header-wrapper > div.container > div.header-cart.sticky {
         display: none !important;
     } 
+
+    #home > div > div > section > div.container > div.info-card > div > div > div > div > a > p > span {
+        font-family: Hauss,sans-serif !important;
+        font-size: 25px;
+    }
 }

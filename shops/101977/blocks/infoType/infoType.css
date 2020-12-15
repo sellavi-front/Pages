@@ -40,7 +40,7 @@ p.st1 {
     line-height: 14px;
     position: relative;
     top: -20px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 @media (max-device-width:480px) {
@@ -50,5 +50,12 @@ p.st1 {
     
     .info-card__item {
         width: 100%;
+    }
+
+    p.st1 {
+        line-height: 14px;
+        position: relative;
+        top: -20px;
+        font-size: 16px;
     }
 }
