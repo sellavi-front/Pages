@@ -1,4 +1,4 @@
-export const setPayment = (obj) => {
+export const setPayment = () => {
   return `
 <div class="d-flex content-delivery">
   <section class="delivery__right">
