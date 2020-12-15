@@ -1,0 +1,11 @@
+@media (max-width: 375px) {
+  body.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 15% 0 auto;
+    z-index: 999;
+  }
+
+  .logo img {
+    max-width: 155px !important;
+    max-height: inherit !important;
+}
+}
