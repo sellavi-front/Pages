@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 991px) {
-  body .wrapper .header .header-wrapper .header-search {
+  body.ru.ltr .wrapper .header .header-wrapper .header-search {
     display: none !important;
   }
 }
