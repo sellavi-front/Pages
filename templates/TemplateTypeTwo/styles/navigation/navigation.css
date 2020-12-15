@@ -6,12 +6,11 @@
 .sf-menu li:hover,
 .sf-menu.nav > li > a:focus,
 .sf-menu.nav > li > a:hover {
-  background: rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0) !important;
   color: black;
 }
 
 .sf-menu .flexy.has_children > ul {
-  border-top: 2px solid black;
   box-shadow: none;
   margin: 50px 5% 0;
   left: 5%;
