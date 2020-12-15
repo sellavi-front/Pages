@@ -41,6 +41,17 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   font-weight: 600;
 }
 
+@media (max-width: 1199px) {
+
+  .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
+    margin-right: 0 !important;
+  }
+
+  .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
+    margin-right: 16px !important;
+  }
+}
+
 @media (max-width: 992px) {
   .wrapper .homefeatured_category>div>div>div {
     flex: 0 0 50%;
