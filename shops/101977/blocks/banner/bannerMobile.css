@@ -43,12 +43,12 @@
         z-index: 999;
     }
 
-    #home > div > header > div.header-wrapper > div.container > div.logo {
+    /* #home > div > header > div.header-wrapper > div.container > div.logo {
         position: absolute;
         top: 30px;
         left: -20px;
         z-index: 999;
-    }
+    } */
 
     #home > div > header > div.header-wrapper > div.container > div.logo > a > img {
         width: 100px;
