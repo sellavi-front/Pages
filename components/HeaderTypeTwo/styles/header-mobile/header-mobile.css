@@ -65,10 +65,6 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   color: #8F8F8F;
 }
 
-.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .arrow {
-  display: none !important;
-}
-
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .panel-collapse > ul > li > a:after {
   content: "\f054" !important;
   font-family: Font Awesome\ 5 Pro;
