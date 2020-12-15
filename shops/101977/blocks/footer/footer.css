@@ -186,3 +186,17 @@ body .footer .footer-widgets {
         height: 40px
     }
 }
+
+@media (max-device-width: 480px) {
+    .col-sm-6.footer_content_container {
+        width: fit-content;
+    }
+    
+    .col-sm-6 {
+        width: fit-content;
+    }
+    
+    .col-12.footer_content_text {
+        justify-content: center;
+    }
+}
