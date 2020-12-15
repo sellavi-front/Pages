@@ -101,4 +101,12 @@
     .checkout-checkout .content-area > div > div > iframe {
         width: 100%;
     }
+
+    #home > div > div > div.map-flex > div > iframe {
+        margin-top: 40px
+    }
+
+    .map-flex > div > iframe {
+        margin-top: 40px
+    }
 }
