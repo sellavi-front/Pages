@@ -21,6 +21,10 @@
   border: none !important;
 }
 
+body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>a:before {
+  display: none !important;
+}
+
 /* reset container size for .navigation-wrapper*/
 
 body.theme_11 .wrapper .header .navigation-wrapper>div.container {
