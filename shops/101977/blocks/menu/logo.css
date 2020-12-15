@@ -90,3 +90,16 @@
         left: -150px !important;
     }
 }
+
+@media (max-device-width: 480px) {
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky .dropdown.cart_drop_down {
+        visibility: visible !important;
+        left: 0px !important;
+        margin-right: 20px;
+        top: 0px !important;
+    }
+    
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+        height: 60px !important;
+    }
+}
