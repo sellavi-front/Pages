@@ -40,7 +40,7 @@ p.st1 {
     line-height: 14px;
     position: relative;
     top: -20px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 @media (max-device-width:480px) {
