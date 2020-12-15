@@ -1,24 +1,23 @@
 import termsOfUse from './docs/termsOfuse.js';
 import policy from './docs/policy.js';
 import setTemplate from './docs/pay-delivery/pay-delivery-test.js';
-import {setDelivery, setPickup, setPayment} from './docs/pay-delivery/templates/templates.js';
+import { setDelivery, setPickup, setPayment } from './docs/pay-delivery/templates/templates.js';
 
+const defaultOptions = [
+  {
+    bool: true,
+    func: setPayment(),
+  },
+  {
+    bool: true,
+    func: setDelivery(),
+  },
+  {
+    bool: true,
+    func: setPickup(),
+  },
+];
 export default class Requisites {
-  defaultOptions = [
-    {
-      bool: true,
-      func: setPayment(),
-    },
-    {
-      bool: true,
-      func: setDelivery(),
-    },
-    {
-      bool: true,
-      func: setPickup(),
-    },
-  ];
-
   constructor(
     obj,
     target,
