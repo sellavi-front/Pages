@@ -12,6 +12,15 @@
   padding: 5px 0 !important;
 }
 
+.sf-menu.nav>li>a:hover,
+.sf-menu.nav>li:hover {
+  background: transparent !important;
+}
+
+.sf-menu.nav>li:hover {
+  border: none !important;
+}
+
 /* reset container size for .navigation-wrapper*/
 
 body.theme_11 .wrapper .header .navigation-wrapper>div.container {
