@@ -19,7 +19,8 @@ body:not(.common-home) footer.footer .footer-widgets>.container {
 }
 
 
-.wrapper footer.footer .footer-widgets .widget-categories ul li+li {
+.wrapper footer.footer .footer-widgets .widget-categories ul li+li,
+.footer-widgets .widget ul li {
   border: none !important;
 }
 
