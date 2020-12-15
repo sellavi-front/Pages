@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-device-width: 480px) {
+@media (min-device-width: 480px) {
     .logoName {
         display: none
     }
