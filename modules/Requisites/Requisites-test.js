@@ -1,6 +1,6 @@
 import termsOfUse from './docs/termsOfuse.js';
 import policy from './docs/policy.js';
-import payDelivery from './docs/pay-delivery/pay-delivery.js';
+import setTemplate from './docs/pay-delivery/pay-delivery-test.js';
 import {setDelivery, setPickup, setPayment} from './docs/pay-delivery/templates/templates.js';
 
 export default class Requisites {
@@ -74,7 +74,7 @@ export default class Requisites {
     } else if (location.href.includes('policy')) {
       this.container.insertAdjacentHTML(this.target, policy);
     } else if (location.href.includes('pay-delivery')) {
-      this.container.insertAdjacentHTML(this.target, this.setTemplate(this.options));
+      this.container.insertAdjacentHTML(this.target, setTemplate(this.options));
     }
   }
 }
