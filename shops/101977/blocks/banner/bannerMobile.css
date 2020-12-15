@@ -56,11 +56,12 @@
 
     #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__image {
         background:linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 86%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606724800/jan-kopriva-sh_7sFEFICI-unsplash_1_gc6uba.png) !important;
-        background-size: contain !important;
+        background-size: cover !important;
         background-repeat: no-repeat !important;
         position: relative;
         top: 50px !important;
-        width: 500px !important;
+        height: 353px;
+        width: 100% !important;
         /* background-position-x: -100px !important; */
     }
 
@@ -157,15 +158,14 @@
         width: 140px;
     }
 
-    #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__image {
+    /* #home > div > div > div.main-slider.content_center > div.custom_banner > div > div > div.banner__image {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgb(0 0 0 / 86%) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606988153/jan-kopriva-sh_7sFEFICI-unsplash_1_1_vr1eyr.png) !important;
         background-size: contain !important;
         background-repeat: no-repeat !important;
         position: relative;
         top: 50px !important;
         height: 459px;
-        /* background-position-x: -100px !important; */
-    }
+    } */
 
     #home > div > div > section > div.map-flex > div {
         display: flex;
