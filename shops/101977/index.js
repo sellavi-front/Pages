@@ -182,6 +182,9 @@ if (location.pathname !== '/') {
   document.querySelector('.cart-wrapper').insertAdjacentHTML('beforebegin', '<a id="wishlist" class="position-relative" href="https://aldoma.ru/index.php?route=account/wishlist" role="link"><i class="far fa-heart"></i></a>');
 }
   
+if (screen.width <= 480) {
+  document.querySelector('.logo').insertAdjacentHTML('beforeend', '<div class="logoName">AL`DOMA</div>');
+}
 
 import ButtonContainerInProduct from '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 //test
