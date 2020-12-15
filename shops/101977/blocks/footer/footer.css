@@ -165,17 +165,7 @@ body .footer .footer-widgets {
     }
 } 
 
-@media (min-device-width: 480px) and (max-device-width: 690px) {
-    #home > div > header > div.header-wrapper > div.container > span {
-        left: 100px;
-        top: -40px;
-    }
 
-    #home > div > header > div.header-wrapper > div.container > div.logo {
-        left: 150px;
-        top: -40px
-    }
-}
 
 @media (max-device-width: 480px) {
     input#msg {
