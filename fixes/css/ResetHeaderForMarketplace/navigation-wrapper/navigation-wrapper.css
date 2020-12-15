@@ -40,6 +40,9 @@ body.ru.ltr
   > ul
   li {
   background: white !important;
+  padding: 15px 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
 }
 
 body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover,
