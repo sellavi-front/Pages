@@ -177,7 +177,7 @@
     }
 
     #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
-        flex-direction: row-reverse !important;
+        flex-direction: row !important;
     }
     
     a.menu-toggle {
