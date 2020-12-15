@@ -10,14 +10,14 @@
   color: black;
 }
 
-.sf-menu .megamenu > ul {
+.sf-menu .flexy.has_children > ul {
   border-top: 2px solid black;
   box-shadow: none;
   margin: 50px 5% 0;
   left: 5%;
 }
 
-.sf-menu .megamenu > ul > .megaline {
+.sf-menu .flexy.has_children > ul > .megaline {
   padding: 20px 20%;
 }
 
@@ -33,15 +33,15 @@
   margin: 0 !important;
 }
 
-.sf-menu .megamenu ul li > a {
+.sf-menu .flexy.has_children ul li > a {
   padding: 0 10px;
 }
 
-.sf-menu li.megamenu ul {
+.sf-menu .flexy.has_children ul {
   margin: 48px 0 0;
 }
 
-.sf-menu .megamenu > ul li ul li {
+.sf-menu .flexy.has_children > ul li ul li {
   display: flex !important;
   color: black !important;
   align-items: flex-end;
