@@ -4,21 +4,73 @@
 }
 
 .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+.wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home'] > a {
+  border-right: none !important;
+  border-left: none !important;
+}
+
+body .arrow {
+  display: none !important;
+}
+
+body.ru.ltr
   .wrapper
   .header
   .navigation-wrapper
   nav.navigation
   ul.nav.sf-menu
-  > li[data-nav-part='home']
-  > a {
-    border-right: none !important;
-    border-left: none !important;
-  }
+  > li.flexy:hover
+  > ul,
+body.ru.ltr
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul
+  div,
+body.ru.ltr
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul
+  li {
+  background: white !important;
+}
 
-  body .arrow {
-    display: none !important;
-  }
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover,
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']:hover {
+    position: relative  !important;
+}
 
-  body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul div, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul li {
-    background: white !important;
-  }
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul,
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']:hover
+  > ul {
+  width: fit-content !important;
+  left: -100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
