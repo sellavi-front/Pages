@@ -39,4 +39,7 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
+if (screen.width <= '480px') {
+  document.querySelector('.logo').insertAdjacentHTML('beforeend', '<div class="logoName">AL`DOMA</div>');
+}
 //test

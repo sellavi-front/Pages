@@ -277,4 +277,10 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div {
+        visibility: hidden;
+    }
+    
+    
 }
