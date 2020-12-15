@@ -31,12 +31,21 @@
   display: none !important;
 }
 
+body.ltr .wrapper .header .header-wrapper .header-search button {
+  right: 13px;
+  left: auto;
+  top: 5px !important;
+}
+
 @media (max-width: 991px) {
   body.ltr .wrapper .header .header-wrapper .header-search {
     display: none !important;
   }
 }
 
+/* @media (max-width: 992px) and (min-width: 991px) {
+
+} */
 @media (max-width: 495px) {
   body.theme_11 .wrapper .header .header-wrapper .header-search {
     display: none !important;
