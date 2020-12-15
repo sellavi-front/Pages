@@ -106,4 +106,8 @@
     .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div:nth-child(1) {
         display: none;
     }
+
+    .d-block {
+        display: none;
+    }
 }
