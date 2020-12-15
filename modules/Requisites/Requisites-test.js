@@ -1,37 +1,37 @@
-// const data = {
-//   'Организация' : '',
-//   'Юр. Адрес': '',
-//   'Почтовый адрес': '',
-//   'ИНН': '',
-//   'ОГРН': '',
-//   'Банк': '',
-//   'Рассчетный счет': '',
-//   'Корр. Счёт': '',
-//   'БИК': '',
-//   'Директор': '',
-// };
-
-// <div class="requsitess"></dvi> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
-
 import termsOfUse from './docs/termsOfuse.js';
 import policy from './docs/policy.js';
-import payDelivery from './docs/pay-delivery/pay-delivery.js'
-
+import payDelivery from './docs/pay-delivery/pay-delivery.js';
+import {setDelivery, setPickup, setPayment} from './docs/pay-delivery/templates/templates.js';
 
 export default class Requisites {
+  defaultOptions = [
+    (payment = {
+      bool: true,
+      func: setPayment(),
+    }),
+    (delivery = {
+      bool: true,
+      func: setDelivery(),
+    }),
+    (pickup = {
+      bool: true,
+      func: setPickup(),
+    }),
+  ];
+
   constructor(
     obj,
     target,
     nameOrg = 'Общество с ограниченой ответственность Альтаир',
     container = document.querySelector('.requsitess'),
-    payDeliveryIfo = {},
+    options = defaultOptions,
   ) {
     this.obj = obj;
     this.target = target;
     this.container = container;
     this.arr = [];
     this.nameOrg = nameOrg;
-    this.payDeliveryIfo = payDeliveryIfo;
+    this.options = options;
   }
 
   setItemtemplate(content) {
@@ -74,7 +74,7 @@ export default class Requisites {
     } else if (location.href.includes('policy')) {
       this.container.insertAdjacentHTML(this.target, policy);
     } else if (location.href.includes('pay-delivery')) {
-      this.container.insertAdjacentHTML(this.target, payDelivery(this.payDeliveryIfo));
+      this.container.insertAdjacentHTML(this.target, this.setTemplate(this.options));
     }
   }
 }

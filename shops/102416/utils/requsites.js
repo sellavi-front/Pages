@@ -17,7 +17,23 @@ const dataContact = {
   timeWork: 'с 9 до 21',
 }
 
+const options = [
+  (payment = {
+    bool: true,
+    func: setPayment(),
+  }),
+  (delivery = {
+    bool: true,
+    func: setDelivery(dataContact),
+  }),
+  (pickup = {
+    bool: true,
+    func: setPickup(dataContact),
+  }),
+];
+
 export {
   requsites,
-  dataContact
+  dataContact,
+  options
 };
