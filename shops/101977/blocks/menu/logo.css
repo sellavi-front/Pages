@@ -108,6 +108,12 @@
     }
 
     .d-block {
-        display: none;
+        display: none !important;
+    }
+}
+
+@media (max-device-width: 480px) {
+    .header-wrapper .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky .dropdown.cart_drop_down i.far.fa-shopping-cart {
+        color: white;
     }
 }
