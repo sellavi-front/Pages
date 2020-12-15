@@ -25,7 +25,7 @@ if (location.href.includes('policy')) {
 }
 
 if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Орлова Елена Геннадьевна', document.querySelector("#content > div > div"), dataContact, options);
+  const req = new Requisites(requsites, 'afterend', 'ИП Орлова Елена Геннадьевна', document.querySelector("#content > div > div"), options);
   req.setTemplate();
 }
 
