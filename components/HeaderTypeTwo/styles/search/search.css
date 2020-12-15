@@ -37,6 +37,10 @@ body.ltr .wrapper .header .header-wrapper .header-search button {
   top: 5px !important;
 }
 
+body.ltr .wrapper .header .header-wrapper .header-search button i {
+  font-size: 23px !important;
+}
+
 @media (max-width: 991px) {
   body.ltr .wrapper .header .header-wrapper .header-search {
     display: none !important;
