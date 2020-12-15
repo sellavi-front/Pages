@@ -1,3 +1,7 @@
+.body.ltr .header-cart .cart-wrapper #cart {
+  color: black !important;
+}
+
 @media (max-width: 991px) {
 
   .header_widgets .header-search  {
