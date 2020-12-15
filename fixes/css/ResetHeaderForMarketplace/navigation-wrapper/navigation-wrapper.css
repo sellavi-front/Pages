@@ -11,7 +11,8 @@
   ul.nav.sf-menu
   > li[data-nav-part='home']
   > a {
-    border: none !important;
+    border-right: none !important;
+    border-left: none !important;
   }
 
   body .arrow {
