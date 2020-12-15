@@ -28,4 +28,15 @@
         position: relative;
         left: 0px;
     }
+    
+}
+
+@media (max-device-width: 480px) {
+    .header-wrapper .container {
+        justify-content: center !important;
+    }
+    
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div {
+        visibility: hidden;
+    }
 }
