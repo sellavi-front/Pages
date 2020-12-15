@@ -1,7 +1,7 @@
 const setTemplate = (options) => {
   return options.map((opt) => {
+    console.log('func', opt.func);
     if (opt.bool === true) {
-      console.log('func', opt.func);
       return opt.func;
     }
   });
