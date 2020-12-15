@@ -21,9 +21,13 @@ const wishList = `
 
 if (document.querySelector('.wrapper')) {
   const selectors = [];
+  const cartI = cart.querySelector('i');
 
   headerContainer.classList.add('container');
   headerContainer.classList.remove('container-fluid');
+
+  cartI.classList.add('far');
+  cartI.classList.remove('fal');
 
   headerLoginText.remove();
   if (headerWidgets) {
