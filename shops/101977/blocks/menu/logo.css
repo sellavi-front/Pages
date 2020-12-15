@@ -40,3 +40,9 @@
         visibility: hidden !important;
     }
 }
+
+@media (min-device-width: 480px) {
+    .logoName {
+        display: none
+    }
+}
