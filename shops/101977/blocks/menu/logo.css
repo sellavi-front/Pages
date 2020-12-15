@@ -23,7 +23,7 @@
     left: -50px;
 }
 
-@media (min-device-width: 480px) and (max-device-width: 930px) {
+@media (min-device-width: 480px) and (max-device-width: 993px) {
     #home > div > header > div.header-wrapper > div.container > div.logo {
         position: relative;
         left: 0px;
