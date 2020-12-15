@@ -37,6 +37,6 @@
     }
     
     .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div {
-        visibility: hidden;
+        visibility: hidden !important;
     }
 }
