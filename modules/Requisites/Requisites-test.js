@@ -5,18 +5,18 @@ import {setDelivery, setPickup, setPayment} from './docs/pay-delivery/templates/
 
 export default class Requisites {
   defaultOptions = [
-    (payment = {
+    {
       bool: true,
       func: setPayment(),
-    }),
-    (delivery = {
+    },
+    {
       bool: true,
       func: setDelivery(),
-    }),
-    (pickup = {
+    },
+    {
       bool: true,
       func: setPickup(),
-    }),
+    },
   ];
 
   constructor(
