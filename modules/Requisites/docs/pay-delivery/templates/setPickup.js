@@ -1,4 +1,4 @@
-const setPickup = (obj) => {
+export const setPickup = (obj) => {
   return `
   <div class="d-flex content-delivery">
     <section class="delivery__right">
