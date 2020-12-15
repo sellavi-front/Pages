@@ -32,10 +32,8 @@ if (document.querySelector('.wrapper')) {
 
   headerLoginText.remove();
 
-  console.log(navigationElements);
   // Add underline to nav elem for open page
   navigationElements.forEach(elem => {
-    console.log(elem.getAttribute('href'));
     if (elem.getAttribute('href') == location.href || location.pathname == elem.getAttribute('href')) {
       elem.style.borderBottom = '2px solid'
     }
