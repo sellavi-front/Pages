@@ -25,8 +25,8 @@ const dataContact = {
 
 const options = [
   {
-    bool: true,
-    func: setPayment(),
+    bool: false,
+    func: setPickup(dataContact),
   },
   {
     bool: true,
@@ -34,8 +34,9 @@ const options = [
   },
   {
     bool: true,
-    func: setPickup(dataContact),
+    func: setPayment(),
   },
+
 ];
 
 export { requsites, dataContact, options };
