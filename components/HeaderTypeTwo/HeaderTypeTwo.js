@@ -35,7 +35,7 @@ if (document.querySelector('.wrapper')) {
   // Add underline to nav elem for open page
   navigationElements.forEach(elem => {
     if (elem.getAttribute('href') == location.href || location.pathname == elem.getAttribute('href')) {
-      elem.style.borderBottom = '2px solid'
+      elem.style.cssText = 'border-bottom: 2px solid !important'
     }
   })
 
