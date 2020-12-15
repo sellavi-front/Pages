@@ -102,4 +102,8 @@
     .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
         height: 60px !important;
     }
+
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div:nth-child(1) {
+        display: none;
+    }
 }
