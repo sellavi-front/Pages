@@ -176,3 +176,23 @@ body .footer .footer-widgets {
         top: -40px
     }
 }
+
+@media (max-device-width: 480px) {
+    input#msg {
+        width: 100%;
+    }
+
+    input#name {
+        width: 100%;
+    }
+}
+
+@media (min-device-width: 480px) and (max-device-width: 992px) {
+    input#name {
+       margin-bottom: 20px;
+    }
+
+    #home > div > div > div.send-form > div > div > button {
+        height: 40px
+    }
+}
