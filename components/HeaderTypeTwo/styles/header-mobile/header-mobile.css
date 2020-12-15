@@ -11,6 +11,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: 0 !important;
   box-shadow: none !important;
   border: none !important;
+  border-left: 1px solid #e5e5e5;
   top: 100px;
 }
 /*
