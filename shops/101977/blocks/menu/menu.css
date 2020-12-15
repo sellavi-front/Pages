@@ -91,7 +91,6 @@ header > div.header-wrapper > div.container > span {
 
 
 #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div {
-    position: absolute;
     left: 60px;
     color: white;
     font-size: 20px;
