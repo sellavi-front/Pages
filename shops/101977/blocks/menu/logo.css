@@ -41,11 +41,8 @@
     }
 }
 
-@media (min-device-width: 480px) {
-    .logoName {
-        display: none
-    }
-
+@media (max-device-width: 480px) {
+    
     .container .logo {
         display: flex;
     }
@@ -57,5 +54,11 @@
         font-family: intent;
         position: relative;
         right: 20px;
+    }
+}
+
+@media (max-device-width: 480px) {
+    .logoName {
+        display: none
     }
 }
