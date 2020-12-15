@@ -57,3 +57,14 @@
     }
 }
 
+@media (min-device-width: 481px) and (max-device-width: 821px) {
+    .header-wrapper .container span {
+        top: 30px;
+    }
+}
+
+@media (min-device-width: 591px) and (max-device-width: 821px) {
+    .header-wrapper .container span {
+        top: 50px;
+    }
+}
