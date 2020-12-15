@@ -26,7 +26,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
 }
 
 .thumbnail .price {
-    font-size: 15px !important;
+    font-size: 18px !important;
     margin-bottom: 20px !important;
     margin-top: 18px !important;
 }
@@ -161,4 +161,8 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
 
 .row.products.grid .price {
     margin-bottom: 15px !important;
+}
+
+.price {
+    font-size: 18px !important;
 }
