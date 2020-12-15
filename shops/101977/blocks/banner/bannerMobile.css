@@ -19,6 +19,7 @@
 
     #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > a {
         position: relative;
+        left: 20px !important;
     }
 
     .fa-bars:before {
