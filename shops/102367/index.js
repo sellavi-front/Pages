@@ -3,7 +3,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 import FormBasic from '../../components/FormBasic/FormBasic.js';
-import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 
 import senderData from './utils/senderData.js';
 
