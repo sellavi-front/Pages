@@ -17,10 +17,13 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
-  const footerContainer = document.querySelector('.footer-widgets>div');
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
 
   new SocIconsTypeOne(footerContainer, 'beforeend').render();
 
-  const socIcons = document.querySelector('.soc-icons>.container');
-  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`);
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
 }
