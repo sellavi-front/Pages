@@ -27,6 +27,10 @@
   padding-left: 3% !important;
 }
 
+.sender-basic form .form__input:last-child {
+  margin-bottom: 0 !important;
+}
+
 .sender-basic form .form__button {
   margin-top: 40px !important;
   width: 100% !important;
