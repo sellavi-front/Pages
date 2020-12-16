@@ -64,7 +64,7 @@ if (document.querySelector('.wrapper')) {
   const footerMetaContainer = document.querySelector('.footer-meta>div');
 
 
-  const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
+  const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol1];
   const contacts = {
     title: 'Наши контакты',
     phone: localStorage.getItem('phone'),
