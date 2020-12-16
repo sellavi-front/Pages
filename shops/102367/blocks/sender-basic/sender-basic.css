@@ -38,4 +38,6 @@
 .sender-basic form .form__button {
   margin-top: 40px !important;
   width: 100% !important;
+  height: 50px !important;
+  font-size: 18px !important;
 }
