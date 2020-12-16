@@ -1,11 +1,11 @@
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
-  width: 380px !important;
+  width: 360px !important;
   max-width: 100%;
   margin: 0 !important;
 }
 
 .thumbnail-banner .media-link .img-bg {
-  height: 450px !important;
+  height: 430px !important;
 }
 
 body#home .homefeatured_category .row {
