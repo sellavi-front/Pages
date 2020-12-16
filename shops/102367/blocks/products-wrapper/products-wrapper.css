@@ -1,27 +1,7 @@
-body.ltr.ru
-  .wrapper
-  .page-section
-  .products.grid
-  .product-item
-  .thumbnail
-  .price_actions
-  .add_to_cart
-  > button {
-    color: #A68E7D !important;
-    background-color: transparent !important;
-    border: 1px solid #A68E7D;
+.caption-title a {
+  color: #A68E7D !important;
 }
 
-body.ltr.ru
-  .wrapper
-  .page-section
-  .products.grid
-  .product-item
-  .thumbnail
-  .price_actions
-  .add_to_cart
-  > button:hover {
-    color: #887568 !important;
-    background-color: #FFF1EA !important;
-    border: 1px solid #887568 !important;
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  color: #887568 !important;
 }
