@@ -1,5 +1,6 @@
 .sender-basic {
   flex-direction: row !important;
+  padding: 50px 80px !important;
 }
 
 .sender-basic form {
