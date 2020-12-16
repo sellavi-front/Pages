@@ -1,3 +1,7 @@
+.price_actions .buttons__container {
+  margin-top: 30px !important;
+}
+
 body.ltr.ru
   .wrapper
   .page-section
