@@ -171,4 +171,14 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
     h4.media-heading.item-title > a {
         font-size: 16px !important;
     }
+
+    .col-12.button-wrapper.checkout-button > a {
+        color: white;
+    }
+    
+    
+    
+    .col-12.button-wrapper.cart-button.mt-2 > a {
+        color: white;
+    }
 }
