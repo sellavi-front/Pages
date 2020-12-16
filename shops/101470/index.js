@@ -58,11 +58,13 @@ if (document.querySelector('.wrapper')) {
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
+  const tex = document.querySelector('body > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
+  localStorage.setItem('phone', tel);
 
   const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
     title: 'Наши контакты',
-    phone: '+7(926)525-92-48',
+    phone: localStorage.getItem('phone'),
     email: '1981market@mail.ru',
   };
 
