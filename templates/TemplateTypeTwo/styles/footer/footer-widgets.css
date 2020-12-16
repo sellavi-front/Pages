@@ -12,6 +12,10 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
 
 @media (max-width: 767px) {
 
+  .footer-widgets .row {
+    margin: 0 !important;
+  }
+
   body.ltr.ru .wrapper footer.footer .footer-widgets {
     border-top: 1px solid #C4C4C4 !important;
   }
