@@ -24,7 +24,7 @@
   height: 50px !important;
   width: 100% !important;
   font-size: 14px !important;
-  margin-left: 3% !important;
+  padding-left: 3% !important;
 }
 
 .sender-basic form .form__button {
