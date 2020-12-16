@@ -100,7 +100,7 @@ if (document.querySelector('.wrapper')) {
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
 
-  document.querySelector('.contacts-simple__list').insertAdjacentHTML('beforeEnd', `<li class="contacts-simple__list_elem"><a href="${location.origin}/about">О нас</a></li>`)
+  document.querySelector('.contacts-simple__list').insertAdjacentHTML('beforeEnd', `<li ><a href="${location.origin}/about">О нас</a></li>`)
   containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
   logo.remove();
 
