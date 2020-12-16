@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+@import '../../../templates/TemplateTypeTwo/styles/index.css';
+
+@import '../../../components/ColorChoise/ColorChoise.css';
+@import '../../../components/FormBasic/FormBasic.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+
+@import './sf-menu/sf-menu.css';
+@import './sub-categories/sub-categories.css';
+@import './categories/categories.css';
+@import './products-wrapper/products-wrapper.css';
+@import './products-wrapper/buttons.css';
+@import './section-title/section-title.css';
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body a {
+  color: black !important;
+}

@@ -69,19 +69,15 @@ window.onload = () => {
     let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
     mainContainer.setAttribute("class", "container-fluid")
     mainContainer.insertAdjacentHTML('afterbegin', `
-        <ul class="cards">
-            <li class="cards__item" onclick="location.href='https://whitemoon.shop/man/'">
-              <div class="card">
-                <div class="card__image">
-                    <div class="card__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
-                </div>
+        <ul class="categories__block">
+            <li class="category__block_item" onclick="location.href='https://whitemoon.shop/man/'">
+              <div class="category__item">
+                  <div class="category__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
               </div>
             </li>
-            <li class="cards__item" onclick="location.href='https://whitemoon.shop/woman/'">
-              <div class="card">
-                <div class="card__image">
-                  <div class="card__title"><a href="https://whitemoon.shop/woman/">Женская одежда</a></div>
-                </div>
+            <li class="category__block_item" onclick="location.href='https://whitemoon.shop/woman/'">
+              <div class="category__item">
+                  <div class="category__title"><a href="https://whitemoon.shop/woman/">Женская одежда</a></div>
               </div>
             </li>
         </ul>

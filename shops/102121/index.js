@@ -3,7 +3,6 @@ import { requsites, dataContact } from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 import contactData from './utils/contactData.js'
 
@@ -18,12 +17,8 @@ if (document.querySelector('.common-home')) {
   map.render();
 }
 
-if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
-}
-
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Ляховский Александр Владимирович');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
   req.setTemplate();
 }
@@ -31,19 +26,20 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', media);
   req.setTemplate();
 }
 
 if (location.href.includes('policy')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', document.querySelector("#content > div > div"));
+  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', document.querySelector("#content > div > div"));
   req.setTemplate();
 }
 
 if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', document.querySelector("#content > div > div"), dataContact);
+  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
+<<<<<<< HEAD
 
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
@@ -80,3 +76,5 @@ if (location.href.includes('pay-delivery')) {
 // if(window.location.pathname === '/contact/') {
 //   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div").setAttribute("class", "media-body")
 // }
+=======
+>>>>>>> ab40520123bd18440cbb4c119d6ddf4e0e18bbaa

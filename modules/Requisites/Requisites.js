@@ -17,6 +17,7 @@ import termsOfUse from './docs/termsOfuse.js';
 import policy from './docs/policy.js';
 import payDelivery from './docs/pay-delivery/pay-delivery.js'
 
+
 export default class Requisites {
   constructor(
     obj,

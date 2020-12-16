@@ -2,6 +2,12 @@
   margin-left: 9% !important;
 }
 
+@media (max-width: 1199px) {
+  body.ltr .wrapper .latest-section h2.section-title {
+    margin: 56px 0 26px 10%!important;
+  }
+}
+
 @media (max-width: 495px) {
   .homefeatured_category .section-title {
     margin-left: 0 !important;

@@ -1,9 +1,3 @@
-
-body .content-delivery:last-child {
-  flex-direction: column !important;
+.requsites__list span, .requsites__list p, .media-body a{
+  font-weight: 500;
 }
-
-body .content-delivery:last-child .delivery__right {
-  max-width: 100% !important;
-}
-

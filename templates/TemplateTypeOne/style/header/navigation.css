@@ -1,3 +1,9 @@
 body.sidenav-enabled .mobile_side_nav .flexy>.arrow {
   display: block !important;
 }
+
+@media (max-width: 991px) {
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    display: flex !important;
+  }
+}

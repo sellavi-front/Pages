@@ -9,7 +9,9 @@ export default class NavTranslateTo {
   }
 
   transfer() {
-    new CreateAddContainer(this.container, this.target, this.nav.outerHTML).render();
-    this.wrapper.remove();
+    if (this.nav) {
+      new CreateAddContainer(this.container, this.target, this.nav.outerHTML).render();
+      this.wrapper.remove();
+    }
   }
 }
