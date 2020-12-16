@@ -84,9 +84,6 @@ if (document.querySelector('.wrapper')) {
   deleteElements.remove();
 
 
-  const containerHeader = document.querySelector('.header-wrapper>div');
-  const logo = document.querySelector('.logo');
-
   const oldNode = document.querySelector('footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3)');
   document.querySelector(' footer > .footer-widgets > div> div > div > ul').insertAdjacentHTML('beforeend', oldNode.outerHTML);
     oldNode.remove();
