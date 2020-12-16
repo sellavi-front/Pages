@@ -52,8 +52,16 @@
 @media (max-width: 768px) {
   .sender-basic {
     flex-direction: column !important;
-    padding: 4% 6% !important;
+    padding: 6% !important;
     justify-content: center;
     align-items: center;
+  }
+
+  .sender-basic__title {
+    margin-bottom: 25px !important;
+  }
+
+  .sender-basic__text {
+    margin-bottom: 20px !important;
   }
 }
