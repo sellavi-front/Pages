@@ -129,3 +129,21 @@
     }
 }
 
+@media (min-device-width: 480px) and (max-device-width: 992px) {
+    input#name {
+        width: 100%;
+    }
+
+    input#msg {
+        width: 100%;
+    }
+
+    button.sendWA {
+        margin-top: 20px;
+        width: 100% !important;
+    }
+
+    .out-flex {
+        flex-direction: column;
+    }
+}
