@@ -525,7 +525,7 @@ body.theme-gray .footer {
   background-color: #f9fafb;
 }
 
-#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div {
+.footer-widgets>.container-fluid>.row {
   justify-content: space-around;
 }
 
