@@ -38,4 +38,5 @@ body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist 
 
 body.ltr .thumbnail .add_to_wishlist button {
   width: 60px !important;
+  margin-left: 10px !important;
 }
