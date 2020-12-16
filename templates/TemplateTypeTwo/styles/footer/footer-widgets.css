@@ -3,3 +3,9 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   font-size: 18px !important;
   margin-bottom: 5px !important;
 }
+
+@media (max-width: 991px) {
+  .footer-widgets .row {
+    justify-content: space-between !important;
+  }
+}
