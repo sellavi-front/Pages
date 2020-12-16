@@ -54,5 +54,5 @@ if (document.querySelector('.wrapper')) {
     cart.remove();
   }
 
-  new NavTransferTo(headerLogo, 'afterend').transfer();
+  //new NavTransferTo(headerLogo, 'afterend').transfer();
 }
