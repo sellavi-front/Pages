@@ -2,6 +2,10 @@
   margin-top: 30px !important;
 }
 
+body .hide_on_mobile {
+  display: block !important;
+}
+
 body.ltr.ru
   .wrapper
   .page-section
