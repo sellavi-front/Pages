@@ -80,6 +80,6 @@ body#home .homefeatured_category .row  {
   }
 
   body#home .homefeatured_category .row  {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 }
