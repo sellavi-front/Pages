@@ -2,13 +2,13 @@
 .sender-basic {
   flex-direction: row !important;
   padding: 4% 6% !important;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .sender-basic__content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 480px;
 }
 
@@ -47,4 +47,13 @@
   width: 100% !important;
   height: 50px !important;
   font-size: 18px !important;
+}
+
+@media (max-width: 768px) {
+  .sender-basic {
+    flex-direction: column !important;
+    padding: 4% 6% !important;
+    justify-content: center;
+    align-items: center;
+  }
 }
