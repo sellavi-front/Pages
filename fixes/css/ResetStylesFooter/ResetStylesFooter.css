@@ -1,6 +1,6 @@
 body.ltr.ru .wrapper footer.footer,
 body.ltr.ru .wrapper footer.footer .footer-widgets {
-  background-attachment: transparent !important;
+  background: transparent !important;
   border: none !important;
 }
 
