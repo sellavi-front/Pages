@@ -7,8 +7,8 @@ import FormBasic from '../../components/FormBasic/FormBasic.js';
 import senderData from './utils/senderData.js';
 
 if (document.querySelector('.common-home')) {
-  const cstmSection = document.querySelector('.custom_section');
+  const latestSection = document.querySelector('.page-section.latest-section');
 
-  const sender = new FormBasic(cstmSection, 'beforeend', senderData);
+  const sender = new FormBasic(latestSection, 'beforeend', senderData);
   sender.render();
 }
