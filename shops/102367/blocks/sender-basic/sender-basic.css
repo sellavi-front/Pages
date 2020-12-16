@@ -1,0 +1,15 @@
+.sender-basic {
+  flex-direction: row !important;
+}
+
+.sender-basic form > .__container {
+  flex-direction: column !important;
+}
+
+.sender-basic form .form__input {
+  margin: 0 0  20px !important;
+}
+
+.sender-basic form .form__button {
+  margin-top: 40px !important;
+}
