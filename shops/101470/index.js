@@ -198,4 +198,11 @@ if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://
   document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="banner-title-button"><a href="https://store101470.sellavi.com/%D0%B4%D0%BB%D1%8F-%D0%B4%D0%BE%D0%BC%D0%B0/">товары</a></div>');
 }
 
+if (location.href.includes('/checkout')) {
+  document.querySelectorAll('.register_block h2').forEach((h2,i) => {
+    h2.textContent = h2.textContent.replace(/\d/gi, '');
+    h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i}`);
+  })
+}
+
 //document.querySelector('a.btn').innerText = 'К ТОВАРАМ';
