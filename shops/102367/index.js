@@ -22,7 +22,7 @@ if (document.querySelector('.wrapper')) {
   new SocIconsTypeOne(footerContainer, 'beforeend').render();
 
   const socIconsContainer = document.querySelector('.soc-icons>.container');
-  socIconsContainer.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`);
+  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title oc-icons__title">Мы в соц.сетях</h4>`);
 
   const socIcons = document.querySelector('.soc-icons');
   socIcons.classList.add('col-md-3');
