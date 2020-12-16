@@ -4,4 +4,5 @@ body.ru.ltr .wrapper .homefeatured_category>div.container {
 
 body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
   color: #887568 !important;
+  text-transform: none !important;
 }
