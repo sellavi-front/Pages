@@ -7,6 +7,9 @@ body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media
   text-transform: none !important;
 }
 
-.thumbnail-banner .media-link .img-bg {
-  height: 150px !important;
+
+@media (max-width: 495px) {
+  .thumbnail-banner .media-link .img-bg {
+    height: 150px !important;
+  }
 }
