@@ -11,6 +11,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: 0 !important;
   box-shadow: none !important;
   border: none !important;
+  border-left: 1px solid #e5e5e5;
   top: 100px;
 }
 /*
@@ -62,10 +63,6 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   line-height: 19px;
   text-transform: uppercase;
   color: #8F8F8F;
-}
-
-.mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .arrow {
-  display: none !important;
 }
 
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .panel-collapse > ul > li > a:after {

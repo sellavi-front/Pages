@@ -1,3 +1,7 @@
+body.ltr .header-cart .cart-wrapper #cart {
+  color: black !important;
+}
+
 @media (max-width: 991px) {
 
   .header_widgets .header-search  {
@@ -12,6 +16,10 @@
 
   .header_widgets .header-cart a {
     color: black !important;
+  }
+
+  .cart-content .checkout-button a {
+    color: white !important;
   }
 
   .header-cart .cart_drop_down.dropdown .dropdown-menu {

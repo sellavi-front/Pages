@@ -1,5 +1,28 @@
+.navigation-wrapper {
+  margin-bottom: 30px !important;
+}
+
+.sf-menu.nav>li {
+  margin: 5px 16px;
+}
+
 .sf-menu.nav>li>a {
   font-size: 18px !important;
+  margin: 0 !important;
+  padding: 5px 0 !important;
+}
+
+.sf-menu.nav>li>a:hover,
+.sf-menu.nav>li:hover {
+  background: transparent !important;
+}
+
+.sf-menu.nav>li:hover {
+  border: none !important;
+}
+
+body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>a:before {
+  display: none !important;
 }
 
 /* reset container size for .navigation-wrapper*/

@@ -1,2 +1,5 @@
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import '../../../components/PictureCategories/PictureCategories.css';
+
+@import './navigation/navigation.css';
+@import './banner/banner.css';

@@ -1,5 +1,5 @@
 .common-home .latest-section {
-  margin-top: 100px !important;
+  margin-top: 0 !important;
 }
 
 body .section-title span:after, body .section-title span:before {
@@ -8,10 +8,4 @@ body .section-title span:after, body .section-title span:before {
 
 .product-product .product-single.product-item #tab-description~.table_holder  {
   display: none !important;
-}
-
-@media (max-width: 768px) {
-  .common-home .latest-section {
-    margin-top: 40px !important;
-  }
 }
