@@ -40,6 +40,10 @@ window.onload = () => {
 };
 
 if (document.querySelector('.wrapper')) {
+
+  const tex = document.querySelector('body > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
+  localStorage.setItem('phone', tex);
+
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const cartText = document.querySelector('#cart > span');
   const footerContentText = document.querySelectorAll('.footer_content_text');
@@ -58,7 +62,7 @@ if (document.querySelector('.wrapper')) {
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
-  // const tex = document.querySelector('body > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
+
 
   const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
