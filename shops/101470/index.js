@@ -89,8 +89,8 @@ if (document.querySelector('.wrapper')) {
   oldNode.remove();
 
   document.querySelector('.contacts-simple__list').insertAdjacentHTML('beforeEnd', `<li ><a href="${location.origin}/about">О нас</a></li>`)
-  containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
-  logo.remove();
+  // containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
+  // logo.remove();
 
 
   const arrow = document.querySelectorAll('.navigate-menu > li > .arrow');
