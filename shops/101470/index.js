@@ -99,7 +99,8 @@ if (document.querySelector('.wrapper')) {
   //document.querySelector('header .header-wrapper > div .header-cart').remove();
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
-  const footerContacts = document.querySelector('.contacts-simple').insertAdjacentHTML('beforeEnd', `<a href="${location.origin}/about">О нас</a>`)
+
+  document.querySelector('.contacts-simple').insertAdjacentHTML('beforeEnd', `<a href="${location.origin}/about">О нас</a>`)
   containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
   logo.remove();
 
