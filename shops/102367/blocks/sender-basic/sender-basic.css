@@ -1,3 +1,5 @@
+.page-section .products.grid ~ .container
+
 .sender-basic {
   flex-direction: row !important;
   padding: 50px 80px !important;
@@ -31,7 +33,7 @@
   padding-left: 3% !important;
 }
 
-.sender-basic form .form__input:last-child {
+.sender-basic form .form__input:last-of-type {
   margin-bottom: 0 !important;
 }
 
