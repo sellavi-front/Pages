@@ -20,7 +20,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
 body#home .homefeatured_category .row {
   justify-content: space-between !important;
   width: 100%;
-  margin-right: 0 !important;
+  margin: 0 !important;
   flex-wrap: nowrap !important;
 }
 
@@ -59,7 +59,6 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 @media only screen and (max-width: 1373px) {
   body#home .homefeatured_category .row {
     justify-content: center !important;
-
   }
 
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
