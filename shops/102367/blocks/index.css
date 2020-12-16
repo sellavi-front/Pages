@@ -2,6 +2,10 @@
 
 @import '../../../templates/TemplateTypeTwo/styles/index.css';
 
+@import '../../../components/ColorChoise/ColorChoise.css';
+@import '../../../components/FormBasic/FormBasic.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+
 @import './sf-menu/sf-menu.css';
 @import './sub-categories/sub-categories.css';
 @import './categories/categories.css';
