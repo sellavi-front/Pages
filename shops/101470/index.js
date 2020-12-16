@@ -42,10 +42,6 @@ window.onload = () => {
 if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const cartText = document.querySelector('#cart > span');
-  const icoUser = document.querySelector('.icon-user');
-  const headerSearch = document.querySelector('.header-search');
-  //const buttonList = document.querySelector('.button__list');
-  //const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetsRow = document.querySelector('footer > .footer-widgets > div > .row');
@@ -75,41 +71,32 @@ if (document.querySelector('.wrapper')) {
   const deleteClassesFooter = new DeleteClasses(footerContentText, bootstrapClasses);
   const contactsSimple = new ContactsSimple(contacts, footerWidgetsRow);
 
-  // cartLink.insertAdjacentHTML(
-  //   'beforebegin',
-  //   '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
-  // );
-  // cartLink.remove();
   headerWrapper.classList.add('container-fluid');
   headerWrapper.classList.remove('container');
 
   footerMetaContainer.classList.add('container-fluid');
   footerMetaContainer.classList.remove('container');
 
-  // headerLogo.insertAdjacentHTML('afterend', navigation.outerHTML);
   footerWrapper.insertAdjacentHTML('beforeend', footerWidgetCol2List.outerHTML);
 
   deleteClassesFooter.findAndDelete();
-  //buttonsInHeader.setTemplate(headerWrapper);
   contactsSimple.render();
   deleteElements.remove();
 
-  //
-//  document.querySelector('.sidenav_search').remove();
-  //document.querySelector('header .header-wrapper > div .header-cart').remove();
+
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
+
+  const oldNode = document.querySelector('footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3)');
+  document.querySelector(' footer > .footer-widgets > div> div > div > ul').insertAdjacentHTML('beforeend', oldNode.outerHTML);
+    oldNode.remove();
+  }
 
   document.querySelector('.contacts-simple__list').insertAdjacentHTML('beforeEnd', `<li ><a href="${location.origin}/about">О нас</a></li>`)
   containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
   logo.remove();
 
-  // const logo2 = document.querySelector('.logo');
-  // const sideNavList = document.querySelectorAll('.mobile_side_nav_menu>li');
-  // logo2.insertAdjacentHTML('afterend', `<ul class="navigate-menu"></ul>`);
 
-  const list = document.querySelector('.navigate-menu');
-  // sideNavList.forEach((el) => list.insertAdjacentHTML('beforeend', el.outerHTML));
   const arrow = document.querySelectorAll('.navigate-menu > li > .arrow');
 
   arrow.forEach((el) => el.remove());
@@ -202,5 +189,3 @@ if (location.href.includes('/checkout')) {
     h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i + 1}`);
   })
 }
-
-//document.querySelector('a.btn').innerText = 'К ТОВАРАМ';
