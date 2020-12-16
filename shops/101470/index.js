@@ -85,6 +85,13 @@ if (document.querySelector('.wrapper')) {
   contactsSimple.render();
   deleteElements.remove();
 
+  const termUse = document.querySelectorAll('.footer_content_wrapper >ul>li>a');
+
+  termUse.forEach(el => {
+       if(el.textContent.toLowerCase() === 'условия обслуживание') {
+            el.closest('li').remove();
+       }
+  })
 
   const oldNode = document.querySelector('footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3)');
   document.querySelector(' footer > .footer-widgets > div> div > div > ul').insertAdjacentHTML('beforeend', oldNode.outerHTML);
