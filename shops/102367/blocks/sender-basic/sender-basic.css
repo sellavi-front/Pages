@@ -3,6 +3,12 @@
   padding: 50px 80px !important;
 }
 
+.sender-basic__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .sender-basic form {
   width: 100%;
   max-width: 380px !important;
@@ -10,6 +16,7 @@
 
 .sender-basic form > .__container {
   flex-direction: column !important;
+  width: 100%;
 }
 
 .sender-basic form .form__input {
