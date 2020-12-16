@@ -110,3 +110,14 @@
         margin-top: 40px
     }
 }
+
+@media (max-device-width: 768px) {
+    .map-flex .container {
+        flex-direction: column;
+    }
+
+    .map-flex .container iframe {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
