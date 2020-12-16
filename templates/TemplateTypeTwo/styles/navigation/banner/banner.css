@@ -1,0 +1,16 @@
+body .main-slider {
+  height: 450px;
+}
+
+body .main-slider .owl-carousel,
+body .main-slider .owl-carousel .owl-wrapper-outer,
+body .main-slider .owl-carousel .owl-wrapper, body .main-slider .owl-carousel .owl-item,
+body .main-slider .owl-carousel .owl-item .cursor-pointer,
+body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg,
+body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg .img-fluid {
+  height: inherit !important;
+}
+
+body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg .img-fluid  {
+  object-fit: cover;
+}
