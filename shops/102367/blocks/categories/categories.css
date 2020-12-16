@@ -6,3 +6,7 @@ body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media
   color: #887568 !important;
   text-transform: none !important;
 }
+
+.thumbnail-banner .media-link .img-bg {
+  height: 150px !important;
+}
