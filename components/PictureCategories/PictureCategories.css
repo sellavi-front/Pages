@@ -81,5 +81,7 @@ body#home .homefeatured_category .row  {
 
   body#home .homefeatured_category .row  {
     flex-wrap: wrap !important;
+    margin: 0 !important;
+    width: 100%;
   }
 }
