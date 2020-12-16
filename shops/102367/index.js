@@ -3,7 +3,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 import FormBasic from '../../components/FormBasic/FormBasic.js';
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 
 import senderData from './utils/senderData.js';
 
@@ -19,7 +19,7 @@ if (document.querySelector('.common-home')) {
 if (document.querySelector('.wrapper')) {
   const footerContainer = document.querySelector('.footer-widgets>div');
 
-  new SocialIconsTypeOne(footerContainer, 'beforeend').render();
+  new SocIconsTypeOne(footerContainer, 'beforeend').render();
 
   const socIcons = document.querySelector('.soc-icons>.container');
   socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
