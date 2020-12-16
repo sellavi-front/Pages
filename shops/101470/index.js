@@ -46,11 +46,9 @@ if (document.querySelector('.wrapper')) {
   const headerSearch = document.querySelector('.header-search');
   //const buttonList = document.querySelector('.button__list');
   //const navigation = document.querySelector('.navigation-wrapper>div>.navigation');
-  const headerLogo = headerWrapper.querySelector('.logo');
   const footerContentText = document.querySelectorAll('.footer_content_text');
   const footerWrapper = document.querySelector('.footer_content_wrapper');
   const footerWidgetsRow = document.querySelector('footer > .footer-widgets > div > .row');
-  const footerWidgets = document.querySelector('footer > .footer-widgets > .container');
   const footerWidgetCol1 = document.querySelector(
     'footer > div.footer-widgets > div.container > div > div:nth-child(1)',
   );
@@ -64,7 +62,6 @@ if (document.querySelector('.wrapper')) {
     'footer > .footer-widgets > .container > div > div:nth-child(2) > div > ul',
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
-  const cartLink = document.querySelector('#cart>i');
 
   const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
@@ -102,7 +99,7 @@ if (document.querySelector('.wrapper')) {
   //document.querySelector('header .header-wrapper > div .header-cart').remove();
   const containerHeader = document.querySelector('.header-wrapper>div');
   const logo = document.querySelector('.logo');
-
+  const footerContacts = document.querySelector('.contacts-simple').insertAdjacentHTML('beforeEnd', `<a href="${location.origin}/about">О нас</a>`)
   containerHeader.insertAdjacentHTML('afterbegin', logo.outerHTML);
   logo.remove();
 
