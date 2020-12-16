@@ -12,7 +12,7 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
 
 @media (max-width: 767px) {
 
-  body.ltr.ru footer .footer-widgets {
+  body.ltr.ru .wrapper footer.footer .footer-widgets {
     border-top: 1px solid #C4C4C4 !important;
   }
 
