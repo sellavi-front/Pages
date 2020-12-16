@@ -35,6 +35,7 @@ body.ltr .wrapper .header .header-wrapper .header-search button {
   right: 23px !important;
   left: auto !important;
   top: 5px !important;
+  color: black !important;
 }
 
 body.ltr .wrapper .header .header-wrapper .header-search button i {
