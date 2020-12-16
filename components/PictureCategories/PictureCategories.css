@@ -1,3 +1,8 @@
+.main-slider ~ .page-section {
+  margin: 35px;
+}
+
+
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
   width: 360px !important;
   max-width: 100%;
