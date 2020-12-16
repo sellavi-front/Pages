@@ -132,12 +132,13 @@ if (document.querySelector('.wrapper')) {
 
   const listt = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
 
-  // listt.forEach((el) => {
-  //   const tr = el.textContent;
-  //   const a = tr.slice(2);
+  listt.forEach((el) => {
+    const tr = el.textContent;
 
-  //   el.textContent = a;
-  // });
+    if(tr.includes(' - ')) {
+      el.textContent = tr.slice(2);
+    }
+  });
 }
 
 
