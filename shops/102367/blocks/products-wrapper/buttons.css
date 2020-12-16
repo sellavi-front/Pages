@@ -1,0 +1,66 @@
+.price_actions .buttons__container {
+  margin-top: 30px !important;
+}
+
+body .hide_on_mobile {
+  display: block !important;
+}
+
+body.ltr.ru
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+.thumbnail .add_to_wishlist button {
+  color: #a68e7d !important;
+  background-color: transparent !important;
+  border: 1px solid #a68e7d;
+  border-radius: 5px !important;
+}
+
+body.ltr.ru
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button:hover,
+.thumbnail .add_to_wishlist button:hover {
+  color: #887568 !important;
+  background-color: #fff1ea !important;
+  border: 1px solid #887568 !important;
+}
+
+body.ltr.ru
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+body.ltr.ru
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart,
+body.ltr .thumbnail .add_to_wishlist button,
+body.ltr .thumbnail .add_to_wishlist,
+body.ltr .thumbnail .remove_from_wishlist {
+  height: inherit;
+}
+
+body.ltr .thumbnail .add_to_wishlist button {
+  width: 60px !important;
+  margin-left: 10px !important;
+}

@@ -2,9 +2,16 @@
 
 @import '../../../templates/TemplateTypeTwo/styles/index.css';
 
+@import '../../../components/ColorChoise/ColorChoise.css';
+@import '../../../components/FormBasic/FormBasic.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+
 @import './sf-menu/sf-menu.css';
 @import './sub-categories/sub-categories.css';
 @import './categories/categories.css';
+@import './products-wrapper/products-wrapper.css';
+@import './products-wrapper/buttons.css';
+@import './section-title/section-title.css';
 
 body h1,
 body h2,

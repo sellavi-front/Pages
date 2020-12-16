@@ -2,6 +2,10 @@
   margin: 35px;
 }
 
+body.ru.ltr .wrapper .homefeatured_category>div.container {
+  max-width: 1140px !important;
+}
+
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
   width: 360px !important;
@@ -76,6 +80,6 @@ body#home .homefeatured_category .row  {
   }
 
   body#home .homefeatured_category .row  {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 }
