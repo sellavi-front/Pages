@@ -68,28 +68,24 @@ window.onload = () => {
 
     let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
     mainContainer.setAttribute("class", "container-fluid")
-    mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
-    //let cards = document.querySelector(".cards")
-
-
-    /*fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(json) {
-        let categories = json.response.data
-        categories.map(category => {
-          cards.insertAdjacentHTML("afterbegin", `
-            <li class="cards__item" onclick="location.href='${category.url}'">
+    mainContainer.insertAdjacentHTML('afterbegin', `
+        <ul class="cards">
+            <li class="cards__item" onclick="location.href='https://whitemoon.shop/man/'">
               <div class="card">
                 <div class="card__image">
-                  <div class="card__title"><a href="${category.url}">${category.full_name}</a></div>
+                    <div class="card__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
                 </div>
               </div>
             </li>
-          `)
-        })
-      })*/
+            <li class="cards__item" onclick="location.href='https://whitemoon.shop/woman/'">
+              <div class="card">
+                <div class="card__image">
+                  <div class="card__title"><a href="https://whitemoon.shop/woman/">Женская одежда</a></div>
+                </div>
+              </div>
+            </li>
+        </ul>
+    `)
 
     let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
     let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
