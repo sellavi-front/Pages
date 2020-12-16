@@ -40,6 +40,8 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   font-size: 22px !important;
   padding: 0;
   font-weight: bold;
+  min-height: auto !important;
+  line-height: 1.2 !important;
 }
 
 body#home .homefeatured_category .row  {
