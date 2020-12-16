@@ -41,7 +41,7 @@ window.onload = () => {
 
 if (document.querySelector('.wrapper')) {
 
-  const tex = document.querySelector('body > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
+  const tex = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
   localStorage.setItem('phone', tex);
 
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
