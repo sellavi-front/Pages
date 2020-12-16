@@ -228,8 +228,12 @@ body.theme_10 .wrapper header.header .header-search input {
   border: 0;
 }
 
-body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored, body.theme-gray a:hover {
+body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored {
   color: #c9c9c9 !important;
+}
+
+body.theme-gray a:hover {
+  color: #000 !important;
 }
 
 .row.products.grid {
