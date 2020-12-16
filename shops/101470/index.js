@@ -59,7 +59,7 @@ if (document.querySelector('.wrapper')) {
   );
   const footerMetaContainer = document.querySelector('.footer-meta>div');
   const tex = document.querySelector('body > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
-  localStorage.setItem('phone', tel);
+  localStorage.setItem('phone', tex);
 
   const forDelete = [/*icoUser, */cartText, footerWidgetCol2, footerWidgetCol3, footerWidgetCol1];
   const contacts = {
