@@ -7,6 +7,7 @@
 @import './categories/categories.css';
 @import './products-wrapper/products-wrapper.css';
 @import './products-wrapper/buttons.css';
+@import './section-title/section-title.css';
 
 body h1,
 body h2,
