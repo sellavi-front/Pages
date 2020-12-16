@@ -2,7 +2,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
-import '../../components/FormBasic/FormBasic.js';
+import FormBasic from '../../components/FormBasic/FormBasic.js';
 
 import senderData from './utils/senderData.js';
 
