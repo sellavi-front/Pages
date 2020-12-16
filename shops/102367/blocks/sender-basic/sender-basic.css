@@ -2,14 +2,22 @@
   flex-direction: row !important;
 }
 
+.sender-basic form {
+  width: 100%;
+  max-width: 380px !important;
+}
+
 .sender-basic form > .__container {
   flex-direction: column !important;
 }
 
 .sender-basic form .form__input {
   margin: 0 0  20px !important;
+  height: 50px !important;
+  width: 100% !important;
 }
 
 .sender-basic form .form__button {
   margin-top: 40px !important;
+  width: 100% !important;
 }
