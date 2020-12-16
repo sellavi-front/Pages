@@ -284,6 +284,8 @@ body .section-title span:after, body .section-title span:before {
 .category__block_item {
   display: flex;
   width: 100%;
+  justify-content: center;
+  padding: 5%;
 }
 
 .category__title {
