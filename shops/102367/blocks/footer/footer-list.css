@@ -1,4 +1,4 @@
 body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title,
-.footer-widgets .widget ul li {
-  margin-bottom: 5px !important;
+.footer-widgets .widget ul li a {
+  color: #D0A995 !important;
 }
