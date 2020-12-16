@@ -585,6 +585,14 @@ body.ltr .float-left {
     display: none;
   }
 
+  .docs__meta {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
   .navbar__block {
     display: flex;
     justify-content: center;
