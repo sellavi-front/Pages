@@ -201,7 +201,7 @@ if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://
 if (location.href.includes('/checkout')) {
   document.querySelectorAll('.register_block h2').forEach((h2,i) => {
     h2.textContent = h2.textContent.replace(/\d/gi, '');
-    h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i}`);
+    h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i + 1}`);
   })
 }
 
