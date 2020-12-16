@@ -9,6 +9,10 @@
   justify-content: center;
 }
 
+.sender-basic__title {
+  margin-bottom: 45px !important;
+}
+
 .sender-basic form {
   width: 100%;
   max-width: 380px !important;
