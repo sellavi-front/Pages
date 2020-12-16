@@ -11,4 +11,6 @@ if (document.querySelector('.common-home')) {
 
   const sender = new FormBasic(latestSection, 'beforeend', senderData);
   sender.render();
+
+  latestSection.querySelector('.container').classList.remove('container')
 }
