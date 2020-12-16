@@ -4,6 +4,7 @@
 
 @import './sf-menu/sf-menu.css';
 @import './sub-categories/sub-categories.css';
+@import './categories/categories.css';
 
 body h1,
 body h2,
