@@ -23,7 +23,9 @@ input.form-control,
 input.form-control::placeholder,
 .form_checkout,
 .order_list_section__total-lines,
-.checkout_table {
+.checkout_table,
+.navbar_item a
+{
   font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -689,7 +691,7 @@ body.ltr .float-left {
   .docs__meta {
     margin-left: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
   }
