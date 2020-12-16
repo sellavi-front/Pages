@@ -264,16 +264,6 @@ body.theme-gray a:hover {
 
 /* Categories */
 
-#home > div.wrapper.wrapper-closed > div > section > div > ul > li:nth-child(1) > div > div {
-  background: url(https://res.cloudinary.com/dd2edlvdy/image/upload/v1605698960/IMG_0250_xzsah1.webp) no-repeat top/cover;
-  height: 100vh;
-}
-
-#home > div.wrapper.wrapper-closed > div > section > div > ul > li:nth-child(2) > div > div {
-  background: url(https://res.cloudinary.com/dd2edlvdy/image/upload/v1605698960/IMG_0515_gbrexh.webp) no-repeat top/cover;
-  height: 100vh;
-}
-
 .title__new__collection {
   display: flex;
   justify-content: flex-start;
