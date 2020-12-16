@@ -274,6 +274,24 @@ body .section-title span:after, body .section-title span:before {
   display: none;
 }
 
+.categories__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.category__block_item {
+  display: flex;
+  width: 100%;
+}
+
+.category__title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #333;
+}
+
 
 /* End */
 

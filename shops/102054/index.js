@@ -71,14 +71,10 @@ window.onload = () => {
     mainContainer.insertAdjacentHTML('afterbegin', `
         <ul class="categories__block">
             <li class="category__block_item" onclick="location.href='https://whitemoon.shop/man/'">
-              <div class="category__item">
-                  <div class="category__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
-              </div>
+                <div class="category__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
             </li>
             <li class="category__block_item" onclick="location.href='https://whitemoon.shop/woman/'">
-              <div class="category__item">
-                  <div class="category__title"><a href="https://whitemoon.shop/woman/">Женская одежда</a></div>
-              </div>
+                <div class="category__title"><a href="https://whitemoon.shop/woman/">Женская одежда</a></div>
             </li>
         </ul>
     `)
