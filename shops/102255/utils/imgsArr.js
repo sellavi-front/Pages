@@ -1,6 +1,3 @@
-let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
-  categories.render()
 const imgArr = [
   'https://coospir.github.io/Pages/shops/100980/media/categories/dez_sredstv.png',
   'https://coospir.github.io/Pages/shops/100980/media/categories/line.png',
