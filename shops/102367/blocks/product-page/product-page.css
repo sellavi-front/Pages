@@ -35,10 +35,6 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
   width: 255px;
 }
 
-body.ru.ltr .wrapper .page-section .products.grid .product-item {
-  padding-left: 0 !important;
-}
-
 body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
 body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder,
 body.ltr.ru .share_page_wrapper,
