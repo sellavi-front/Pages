@@ -1,11 +1,21 @@
 body .btn.dropdown-toggle,
 body.ru.ltr.product-product .product-single.product-item .buttons #button-cart {
-  border: 1px solid #D0A995 !important;
+  border: 1px solid #d0a995 !important;
   background: transparent !important;
-  color: #887568 !important;
 }
 
+.product-product .product-single #tab-description h3,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ru.ltr.product-product .tab-pane p {
+  color: #887568 !important;
+
+}
 
 body .btn.dropdown-toggle {
-  color: #D0A995 !important;
+  color: #d0a995 !important;
+}
+
+body.ltr.ru.product-product .product-single.product-item #tab-description,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
+  border: none;
 }
