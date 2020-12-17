@@ -20,8 +20,8 @@ if(pages.home) {
 
   
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-  const customSection = document.querySelector('.custom_section');
-  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
+  const customSection = document.querySelector('#home > div > div > section.page-section.latest-section > div');
+  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "beforebegin")
   categories.render()
 }
 
