@@ -18,7 +18,7 @@ body.ltr.ru
 .thumbnail .add_to_wishlist button {
   color: #a68e7d !important;
   background-color: transparent !important;
-  border: 1px solid #a68e7d;
+  border: 1px solid #a68e7d !important;
   border-radius: 5px !important;
 }
 
