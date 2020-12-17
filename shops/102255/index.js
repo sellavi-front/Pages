@@ -16,6 +16,14 @@ document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div
 
 // document.querySelector('#home > div > div > section.page-section.latest-section > div:nth-child(2)').insertAdjacentHTML('beforebegin', '<div class="container"><div class="productTitle">Новинки</div></div>');
 
+if (document.querySelector('.common-home')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
+  map.render();
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ООО"Санитары Столицы"');
 
