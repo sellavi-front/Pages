@@ -593,6 +593,11 @@ body.ltr .float-left {
   float: left!important;
 }
 
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 100%;
+}
+
 /* End */
 
 
