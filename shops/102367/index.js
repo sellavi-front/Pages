@@ -39,3 +39,8 @@ if (document.querySelector('.wrapper')) {
   const socIcons = document.querySelector('.soc-icons');
   socIcons.classList.add('col-md-3');
 }
+
+if (document.querySelector('.product-product')) {
+  const colorChoise = new ColorChoise();
+  colorChoise.render();
+}
