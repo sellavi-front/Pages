@@ -752,7 +752,7 @@ body.ltr .float-left {
 
   .col-6 {
     flex: 0 0 50%;
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .footer_content_container {
