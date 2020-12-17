@@ -1,12 +1,10 @@
-import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js'
+
 
 export default class GetCategoriesFromNavbar {
-  constructor(list, arr, title, container, target) {
+  constructor(list, arr, title) {
     this.list = list;
     this.arr = arr;
     this.title = title;
-    this.container = container;
-    this.target = target;
   }
 
   getCategoriesFromNavbar() {
@@ -21,7 +19,7 @@ export default class GetCategoriesFromNavbar {
 
   setTemplate() {
     return `
-        <div class="categories__container">
+        <div class="categories__container container">
             <h2 class="categories__title container">${this.title}</h2>
                 <div class="categories__row container">
                     ${this.setData().join('')}
@@ -42,11 +40,6 @@ export default class GetCategoriesFromNavbar {
   }
 
   render() {
-    const createAddContainer = new CreateAddContainer(
-      this.container,
-      this.target,
-      this.setTemplate(),
-    );
-    createAddContainer.render();
+    this.setTemplate()
   }
 }

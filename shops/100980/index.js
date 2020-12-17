@@ -54,8 +54,9 @@ if(pages.home) {
 
   // Categories
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
-  categories.render()
+  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров")
+  let categoriesLayout  = categories.render()
+  customSection.insertAdjacentHTML("afterbegin", categoriesLayout.outerHTML)
 
   // Custom section
   renderCustomSectionAboutCompany()
