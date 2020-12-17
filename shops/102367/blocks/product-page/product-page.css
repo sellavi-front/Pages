@@ -7,6 +7,10 @@ body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list
   border-radius: 5px;
 }
 
+.product-product .product-single .buttons .btn-cart {
+  margin-left: 0 !important;
+}
+
 .product-product .product-single #tab-description h3,
 body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
 body.ru.ltr.product-product .tab-pane p {
