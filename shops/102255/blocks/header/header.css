@@ -61,7 +61,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 }
 
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
-    top: 15px !important;
+    top: 22px !important;
 }
 
 /* выравнивание иконок */
@@ -80,4 +80,8 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 
 .cart-wrapper {
     padding-top: 5px;
+}
+
+.header_widgets {
+    padding-top: 10px;
 }
