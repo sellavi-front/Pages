@@ -2,6 +2,12 @@ body .footer .footer-widgets .widget-title.soc-icons__title {
   margin-bottom: 25px !important;
 }
 
+
+body .footer .footer-widgets .soc-icons__container {
+  justify-content: space-between;
+  width: 50%;
+}
+
 @media (max-width: 991px) {
   body .footer .footer-widgets .soc-icons.col-md-3 {
     max-width: 100% !important;
