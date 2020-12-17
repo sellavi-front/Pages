@@ -95,4 +95,8 @@ body.theme_11
   .wrapper .homefeatured_category > div > div > div {
     margin: 0 !important;
   }
+
+  body .wrapper .homefeatured_category > div > div > div {
+    margin-right: 0 !important;
+  }
 }
