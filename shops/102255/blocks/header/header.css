@@ -1,0 +1,42 @@
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    left: 15px;
+    right: 15px;
+}
+
+.header-wrapper .container-fluid {
+    display: flex;   
+}
+
+.logo {
+    order: 1;
+}
+
+div#search {
+    order: 2;
+    margin: 0px !important;
+    margin-right: 120px !important;
+}
+
+.header_widgets {
+    order: 3;
+}
+
+.header_widgets {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+
+
+.header-cart.sticky {
+    margin: 0px !important;
+    top: 0px;
+}
+
+.cart-wrapper {
+    border: 0px !important;
+}
+
+a#wishlist > i {
+    font-size: 25px;
+}
