@@ -2,8 +2,19 @@
   .photo__custom_banner {
     display: none;
   }
+
+  .section__banner_row {
+    padding-top: 15%;
+  }
+
+  .dropdown.cart_drop_down {
+    padding-top: 8% !important;
+    margin-left: 4%;
+  }
 }
 
 @media (min-width: 768px) {
-
+  .section__banner_row {
+    padding-top: 15%;
+  }
 }
