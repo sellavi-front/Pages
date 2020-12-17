@@ -5,6 +5,8 @@ import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import GetCategoriesFromNavbar from '../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js';
 import imgsArr from './utils/imgsArr.js';
 
+let customSection = document.querySelector('custom_section') 
+
 let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgsArr, "Каталог товаров", customSection, "afterbegin")
   categories.render()
