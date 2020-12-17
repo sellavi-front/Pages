@@ -1,7 +1,7 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
-//import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
+import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 //import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 //import contactData from './utils/contactData.js'
 
