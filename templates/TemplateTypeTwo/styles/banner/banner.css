@@ -14,6 +14,6 @@ body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
   width: inherit;
 }
 
-body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg .img-fluid  {
+body .main-slider .owl-carousel .owl-item .item.img-bg .img-fluid  {
   object-fit: cover;
 }
