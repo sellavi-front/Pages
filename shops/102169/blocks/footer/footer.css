@@ -1,0 +1,9 @@
+.social__li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.social__li a {
+  margin-right: 2%;
+}
