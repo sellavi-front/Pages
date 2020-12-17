@@ -12,6 +12,10 @@
 @import './products-wrapper/products-wrapper.css';
 @import './products-wrapper/buttons.css';
 @import './section-title/section-title.css';
+@import './sender-basic/sender-basic.css';
+@import './soc-icons/soc-icons.css';
+@import './footer/footer.css';
+@import './product-page/product-page.css';
 
 body h1,
 body h2,

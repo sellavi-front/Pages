@@ -15,6 +15,7 @@
 @import './other/side-categories.css';
 @import './products/products.css';
 @import './other/pay-delivery.css';
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
 <<<<<<< HEAD
@@ -29,7 +30,7 @@
 @import './header/navigation.css';
 @import './header/logo.css';
 @import './header/header.css';
-
+@import './product-page/product-page.css';
 
 
 body h1,

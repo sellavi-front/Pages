@@ -1,0 +1,23 @@
+body .btn.dropdown-toggle,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list {
+  border: 1px solid #d0a995 !important;
+  background: transparent !important;
+}
+
+.product-product .product-single #tab-description h3,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ru.ltr.product-product .tab-pane p {
+  color: #887568 !important;
+
+}
+
+body .btn.dropdown-toggle,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list i {
+  color: #d0a995 !important;
+}
+
+body.ltr.ru.product-product .product-single.product-item #tab-description,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
+  border: none;
+}

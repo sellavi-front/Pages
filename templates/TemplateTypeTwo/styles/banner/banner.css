@@ -1,19 +1,19 @@
 body .main-slider {
   height: 450px;
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1110px;
 }
 
 body .main-slider .owl-carousel,
 body .main-slider .owl-carousel .owl-wrapper-outer,
 body .main-slider .owl-carousel .owl-wrapper, body .main-slider .owl-carousel .owl-item,
-body .main-slider .owl-carousel .owl-item .cursor-pointer,
-body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg,
-body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg .img-fluid {
+body .main-slider .owl-carousel .owl-item .item,
+body .main-slider .owl-carousel .owl-item .item .img-bg,
+body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
   height: inherit !important;
   width: inherit;
 }
 
-body .main-slider .owl-carousel .owl-item .cursor-pointer .img-bg .img-fluid  {
+body .main-slider .owl-carousel .owl-item .item.img-bg .img-fluid  {
   object-fit: cover;
 }

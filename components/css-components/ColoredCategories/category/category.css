@@ -75,11 +75,7 @@ body.theme_11
 
 @media (max-width: 1199px) {
   .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
-    margin-right: 0 !important;
-  }
-
-  .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
-    margin-right: 16px !important;
+    margin-left: 0 !important;
   }
 }
 
@@ -94,5 +90,9 @@ body.theme_11
 @media (max-width: 768px) {
   .wrapper .homefeatured_category > div > div > div {
     margin: 0 !important;
+  }
+
+  body .wrapper .homefeatured_category > div > div > div {
+    margin-right: 0 !important;
   }
 }

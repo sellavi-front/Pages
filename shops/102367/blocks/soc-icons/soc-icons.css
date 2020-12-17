@@ -1,0 +1,19 @@
+body .footer .footer-widgets .widget-title.soc-icons__title {
+  margin-bottom: 25px !important;
+}
+
+@media (max-width: 991px) {
+  body .footer .footer-widgets .soc-icons.col-md-3 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  body .footer .footer-widgets .soc-icons.col-md-3 .container {
+    width: 240px !important;
+  }
+
+  body .footer .footer-widgets .widget-title.soc-icons__title {
+    text-align: center;
+    margin: 25px 0 !important;
+  }
+}

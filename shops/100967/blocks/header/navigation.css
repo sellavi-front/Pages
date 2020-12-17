@@ -22,6 +22,7 @@
 .sf-menu.nav > li > a:focus,
 .sf-menu.nav > li > a:hover {
   background: rgba(0, 0, 0, 0.2) !important;
+  color: black;
 }
 
 .sf-menu .megamenu > ul {
@@ -61,7 +62,6 @@
     align-items: flex-end;
     margin-bottom: 30px;
 }
-
 
 .arrow {
     display: none;
