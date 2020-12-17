@@ -12,6 +12,7 @@
 @import './other/side-categories.css';
 @import './products/products.css';
 @import './other/pay-delivery.css';
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
