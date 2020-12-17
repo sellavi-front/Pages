@@ -83,3 +83,8 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
   max-height: 100% !important;
   color: #887568 !important;
 }
+
+.product-product .product-single .buttons .btn-cart,
+.product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list {
+  margin-top: 0 !important;
+}
