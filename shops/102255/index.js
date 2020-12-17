@@ -6,9 +6,11 @@ import GetCategoriesFromNavbar from '../../components/GetCategoriesFromNavbar/Ge
 import imgsArr from './utils/imgsArr.js';
 
 let customSection = document.querySelector('custom_section') 
+let getAllCategories = document.querySelector('.nav.sf-menu > li')
+let writeNewCategories = [].slice.call(getAllCategories, 1)
 
-let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgsArr, "Каталог товаров", customSection, "afterbegin")
+//let nodeList = document.querySelectorAll(".sf-menu > li")
+  let categories = new GetCategoriesFromNavbar(Array.from(writeNewCategories), imgsArr, "Каталог товаров", customSection, "afterbegin")
   categories.render()
 
 // add user icon in header
