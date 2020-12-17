@@ -46,3 +46,20 @@ a#wishlist > i {
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     left: 0px !important;
 }
+
+.logo > a > img {
+    height: 40px;
+}
+
+.header-wrapper .container-fluid {
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.main-slider.content_center {
+    margin-top: 0px
+}
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 15px !important;
+}
