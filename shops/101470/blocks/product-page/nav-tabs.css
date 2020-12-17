@@ -4,6 +4,10 @@
   padding: 5%;
 }
 
+#review .comments .comment .stars .fa-stack {
+  color: orange !important;
+}
+
 .content-tabs .nav-tabs {
   margin-bottom: 40px !important;
 }
