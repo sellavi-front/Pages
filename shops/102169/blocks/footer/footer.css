@@ -4,6 +4,6 @@
   justify-content: flex-start;
 }
 
-.social__li a {
+.social__li a + .social__li a {
   margin-right: 2%;
 }
