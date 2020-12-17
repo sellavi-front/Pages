@@ -3,14 +3,14 @@ import requsites from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import GetCategoriesFromNavbar from '../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js';
-import imgsArr from './utils/imgsArr.js';
+import imgArr from './utils/imgsArr.js';
 
 let customSection = document.querySelector('custom_section') 
 let getAllCategories = document.querySelectorAll('.nav.sf-menu > li')
 let writeNewCategories = [].slice.call(getAllCategories, 1)
 
 //let nodeList = document.querySelectorAll(".sf-menu > li")
-  let categories = new GetCategoriesFromNavbar(Array.from(writeNewCategories), imgsArr, "Каталог товаров", customSection, "afterbegin")
+  let categories = new GetCategoriesFromNavbar(Array.from(writeNewCategories), imgArr, "Каталог товаров", customSection, "afterbegin")
   categories.render()
 
 // add user icon in header
