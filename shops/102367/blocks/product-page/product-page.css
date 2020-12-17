@@ -3,6 +3,7 @@ body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
 body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list {
   border: 1px solid #d0a995 !important;
   background: transparent !important;
+  border-radius: 5px;
 }
 
 .product-product .product-single #tab-description h3,
@@ -20,4 +21,8 @@ body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list
 body.ltr.ru.product-product .product-single.product-item #tab-description,
 body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
   border: none;
+}
+
+.product-product .product-single .buttons {
+  width: 255px;
 }
