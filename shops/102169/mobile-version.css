@@ -21,6 +21,16 @@
     position: absolute;
     left: 10%;
   }
+
+  .banner__social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+
 }
 
 @media (min-width: 768px) {

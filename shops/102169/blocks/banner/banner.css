@@ -42,7 +42,10 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
   margin-left: 10%;
 }
 
-.banner__description,
+.banner__description {
+  margin-left: 10%;
+}
+
 .banner__phone {
   margin-left: 10%;
 }
