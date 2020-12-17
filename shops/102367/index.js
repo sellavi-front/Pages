@@ -3,7 +3,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import '../../fixes/js/Alert/Alert.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js'
-import '../../fixes/js/FooterCopy/FooterCopy.js'
+// import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
