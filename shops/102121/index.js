@@ -6,7 +6,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import contactData from './utils/contactData.js'
 
-import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 
 if (document.querySelector('.common-home')) {
