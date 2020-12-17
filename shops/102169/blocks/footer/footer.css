@@ -5,5 +5,5 @@
 }
 
 .social__li a + .social__li a {
-  margin-right: 2%;
+  margin-right: 10% !important;
 }
