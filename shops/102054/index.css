@@ -739,6 +739,22 @@ body.ltr .float-left {
     width: 100%;
   }
 
+  .thumbnail .price {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #333;
+    float: right;
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
+
   .footer_content_container {
     height: 15px;
     display: block;
