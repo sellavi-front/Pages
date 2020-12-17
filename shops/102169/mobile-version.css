@@ -31,6 +31,13 @@
     margin-left: 0;
   }
 
+  .banner__column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
 }
 
 @media (min-width: 768px) {
