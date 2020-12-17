@@ -36,6 +36,7 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
 }
 
 body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
-body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder,
+body.ltr.ru .share_page_wrapper {
   display: none !important
 }
