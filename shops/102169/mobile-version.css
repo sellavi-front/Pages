@@ -38,6 +38,10 @@
     align-items: center;
   }
 
+  .banner__phone {
+    margin-left: 0;
+  }
+
 }
 
 @media (min-width: 768px) {
