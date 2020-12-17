@@ -63,3 +63,21 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
     top: 15px !important;
 }
+
+/* выравнивание иконок */
+.header_user {
+    margin-right: 20px;
+}
+
+.header_user > #user > i {
+    font-size: 25px;
+}
+
+.header_widgets {
+    display: flex;
+    align-items: center;
+}
+
+.cart-wrapper {
+    padding-top: 5px;
+}
