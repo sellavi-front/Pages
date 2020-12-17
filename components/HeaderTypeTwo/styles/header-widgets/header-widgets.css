@@ -10,3 +10,9 @@
     padding-left: 2%;
   }
 }
+
+@media (max-width: 396px) {
+  .header_widgets > div {
+    margin: 0 5px !important;
+  }
+}
