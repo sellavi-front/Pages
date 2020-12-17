@@ -99,6 +99,10 @@ if(pages.contacts) {
   renderContactsLayout()
 }
 
+if(pages.cart) {
+  document.querySelector(".panel-group").classList.remove("accordion")
+}
+
 /* ALL PAGES */
 /* Copy footer-meta */
 renderFooter()

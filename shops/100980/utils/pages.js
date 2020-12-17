@@ -4,7 +4,8 @@ const pages = {
   complex: document.querySelector(".information-information-3586"),
   about: document.querySelector(".information-information-3588"),
   solutions: document.querySelector(".information-information-3587"),
-  contacts: document.querySelector(".information-contact")
+  contacts: document.querySelector(".information-contact"),
+  cart: document.querySelector(".checkout-cart")
 }
 
 export default pages
