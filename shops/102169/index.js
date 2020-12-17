@@ -7,8 +7,9 @@ import './../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 import './blocks/footer/footer.js'
 import renderSocialLayoutFooter from "./blocks/footer/footer.js";
 
+renderSocialLayoutFooter()
+
 if(pages.home) {
   renderHomeBanner()
   renderSectionBanner()
-  renderSocialLayoutFooter()
 }
