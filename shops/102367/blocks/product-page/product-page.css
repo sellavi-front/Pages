@@ -15,7 +15,6 @@ body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list
 body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
 body.ru.ltr.product-product .tab-pane p {
   color: #887568 !important;
-
 }
 
 body.ltr.ru .dropdown-menu>.active>a {
@@ -36,6 +35,7 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
   width: 255px;
 }
 
-body.ltr.ru.product-product .product-single.product-item .buttons .quantity {
+body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
   display: none !important
 }

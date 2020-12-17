@@ -31,7 +31,9 @@ body.ltr.ru
   .price_actions
   .add_to_cart
   > button:hover,
-.thumbnail .add_to_wishlist button:hover {
+.thumbnail .add_to_wishlist button:hover,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart:hover,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list:hover {
   color: #887568 !important;
   background-color: #fff1ea !important;
   border: 1px solid #887568 !important;
