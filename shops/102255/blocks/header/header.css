@@ -40,3 +40,9 @@ div#search {
 a#wishlist > i {
     font-size: 25px;
 }
+
+/* выезжающее боковое меню */
+
+body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    left: 0px !important;
+}
