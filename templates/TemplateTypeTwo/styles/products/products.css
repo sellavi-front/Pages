@@ -33,7 +33,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item:nth-child(4n) {
   }
 }
 
-
 @media (max-width: 768px) {
   body.ru.ltr .wrapper .page-section .products.grid .product-item:nth-child(4n) {
     padding-right: 30px !important;
@@ -41,5 +40,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item:nth-child(4n) {
 
   body.ru.ltr .wrapper .page-section .products.grid .product-item:nth-child(3n) {
     padding-left: 30px !important;
+  }
+
+  body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    padding: 30px !important;
   }
 }
