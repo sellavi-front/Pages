@@ -5,3 +5,5 @@
 @import '../../../templates/TemplateTypeOne/style/index.css';
 
 @import '../blocks/header/header.css';
+
+@import '../../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css';
