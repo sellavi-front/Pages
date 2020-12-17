@@ -84,3 +84,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 .header_widgets {
     padding-top: 10px;
 }
+
+section.page-section.message-section.mt-4 {
+    display: none;
+}
