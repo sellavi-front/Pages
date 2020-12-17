@@ -14,7 +14,6 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
 div#search {
     order: 2;
     margin: 0px !important;
-    margin-right: 120px !important;
 }
 
 .header_widgets {
