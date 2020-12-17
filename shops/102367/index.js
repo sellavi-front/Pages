@@ -4,6 +4,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
 import senderData from './utils/senderData.js';
 
