@@ -39,3 +39,7 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
 body.ltr .wrapper .header .header-wrapper .header-search button {
   color: #8F8476 !important;
 }
+
+body.ru.ltr .checkout-progress-bar .step-number.active {
+  color: white !important;
+}
