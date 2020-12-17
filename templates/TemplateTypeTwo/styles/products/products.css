@@ -1,5 +1,16 @@
 @import './price-actions.css';
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
-  border: none !important
+  border: none !important;
+}
+
+body .content-area .page-section.titles {
+  border: none !important;
+  background: transparent !important;
+}
+
+.page-header h1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
 }
