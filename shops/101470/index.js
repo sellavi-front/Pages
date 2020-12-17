@@ -41,7 +41,7 @@ window.onload = () => {
 
 if (document.querySelector('.wrapper')) {
 
-  const cntctsSimple = document.querySelector('.widget-categories .contacts-simple');
+  const cntctsSimple = document.querySelector('.contacts-simple');
 
   cntctsSimple.classList.add('col-md-3');
   cntctsSimple.querySelector('.contacts-simple__title').classList.add('widget-title');
