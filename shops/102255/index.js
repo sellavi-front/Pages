@@ -17,14 +17,7 @@ import pages from "./utils/pages.js"
 document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div class="header_user"><a id="user" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-user"></i></a></div>');
 
 if(pages.home) {
-  renderBanner()
-  renderCustomSectionAboutCompany()
-
-  document.querySelector(".section-title.mb-4.mt-4").remove()
-  document.querySelector(".row.products.grid").remove()
-  document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
-
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
   categories.render()
 }
