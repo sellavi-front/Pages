@@ -78,9 +78,6 @@ body.theme_11
     margin-right: 0 !important;
   }
 
-  .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
-    margin-right: 16px !important;
-  }
 }
 
 @media (max-width: 992px) {
