@@ -67,3 +67,19 @@ body.ltr .thumbnail .add_to_wishlist button {
   margin-left: 10px !important;
 }
 
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  border: 1px solid #a68e7d !important;
+  height: 100% !important;
+  border-radius: 5px;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i {
+  display: flex;
+  align-items: center;
+  color: #887568 !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  max-height: 100% !important;
+  color: #887568 !important;
+}
