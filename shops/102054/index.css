@@ -611,6 +611,13 @@ body.ltr .float-left {
     width: 100%;
   }
 
+  .categories__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
   .navbar__block {
     display: flex;
     justify-content: center;
