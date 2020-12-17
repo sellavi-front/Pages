@@ -1,4 +1,4 @@
-body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+/* body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     left: 15px;
     right: 15px;
 }
@@ -40,7 +40,6 @@ a#wishlist > i {
     font-size: 25px;
 }
 
-/* выезжающее боковое меню */
 
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     left: 0px !important;
@@ -63,7 +62,6 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     top: 22px !important;
 }
 
-/* выравнивание иконок */
 .header_user {
     margin-right: 20px;
 }
@@ -87,4 +85,4 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 
 section.page-section.message-section.mt-4 {
     display: none;
-}
+} */
