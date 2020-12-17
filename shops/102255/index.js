@@ -3,7 +3,8 @@ import requsites from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 
-
+// add user icon in header
+document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div class="header_user"><a id="user" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-user"></i></a></div>');
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ООО"Санитары Столицы"');
