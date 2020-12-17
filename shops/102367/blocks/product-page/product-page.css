@@ -1,5 +1,6 @@
 body .btn.dropdown-toggle,
-body.ru.ltr.product-product .product-single.product-item .buttons #button-cart {
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list {
   border: 1px solid #d0a995 !important;
   background: transparent !important;
 }
@@ -11,7 +12,8 @@ body.ru.ltr.product-product .tab-pane p {
 
 }
 
-body .btn.dropdown-toggle {
+body .btn.dropdown-toggle,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list i {
   color: #d0a995 !important;
 }
 
