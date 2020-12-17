@@ -33,7 +33,7 @@
 
 .description__section {
   padding: 5%;
-  margin-top: 10%;
+  margin-top: 0;
 }
 
 .img__on__banner {
@@ -45,9 +45,10 @@
   width: 30%;
   margin-bottom: 2%;
 }
+
 .photo__custom_banner {
   margin-left: -100px;
-  margin-top: 50px;
+  margin-top: -50px;
 }
 
 .sender-basic {

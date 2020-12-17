@@ -21,8 +21,8 @@ let customSectionBannerLayout = `
             </ul>
             <p class="marketplaces__container">Наша продукция на маркет плейсах</p>
             <img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607518334/sellavi/102169/Component_1_2_wk6aux.png" alt="img" />
-            <b><p class="wanna__be__distributor">Хотите и вы стать нашим дистрибьютором? Присоединяйтесь!</p></b>
-            <b><p class="wanna__be__distributor">Отправляйте запрос на почту zakaz@organic-stories.ru</p></b>
+            <p class="wanna__be__distributor"><b>Хотите и вы стать нашим дистрибьютором? Присоединяйтесь!</b></p>
+            <p class="wanna__be__distributor"><b>Отправляйте запрос на почту zakaz@organic-stories.ru</b></p>
         </div>
       </div>
   </div>
