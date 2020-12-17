@@ -41,11 +41,6 @@ window.onload = () => {
 
 if (document.querySelector('.wrapper')) {
 
-  const cntctsSimple = document.querySelector('.contacts-simple');
-
-  cntctsSimple.classList.add('col-md-3');
-  cntctsSimple.querySelector('.contacts-simple__title').classList.add('widget-title');
-
   const tex = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
   localStorage.setItem('phone', tex);
 
@@ -127,6 +122,11 @@ if (document.querySelector('.wrapper')) {
     });
 
   });
+
+  const cntctsSimple = document.querySelector('.contacts-simple');
+
+  cntctsSimple.classList.add('col-md-3');
+  cntctsSimple.querySelector('.contacts-simple__title').classList.add('widget-title');
 
   const listt = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
 
