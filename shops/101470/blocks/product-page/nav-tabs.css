@@ -1,3 +1,10 @@
+tabs-wrapper .content-tabs {
+  background: white;
+  box-shadow: 1px 4px 25px -21px black;
+  margin-top: 30px;
+  padding: 5%;
+}
+
 .content-tabs .nav-tabs {
   margin-bottom: 40px !important;
 }
@@ -29,6 +36,7 @@
   padding: 5px 10px;
 }
 
-.content-tabs .nav-tabs>li>a.active:after, .content-tabs .nav-tabs>li>a.active:before {
+.content-tabs .nav-tabs > li > a.active:after,
+.content-tabs .nav-tabs > li > a.active:before {
   display: none;
 }
