@@ -1,6 +1,7 @@
 body .btn.dropdown-toggle,
 body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
-body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list {
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list,
+.product-product .product-single .bootstrap-select>.dropdown-menu .bs-searchbox .form-control {
   border: 1px solid #d0a995 !important;
   background: transparent !important;
   border-radius: 5px;
@@ -11,6 +12,10 @@ body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
 body.ru.ltr.product-product .tab-pane p {
   color: #887568 !important;
 
+}
+
+body.ltr.ru .dropdown-menu>.active>a {
+  background: #FFF1EA !important;
 }
 
 body .btn.dropdown-toggle,
