@@ -290,7 +290,9 @@ body .section-title span:after, body .section-title span:before {
 
 .category__title {
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
   color: #333;
 }
 
