@@ -2,6 +2,7 @@
 
 export default class GetCategoriesFromNavbar {
   constructor(list, arr, title) {
+    console.log(list, arr, title)
     this.list = list;
     this.arr = arr;
     this.title = title;
