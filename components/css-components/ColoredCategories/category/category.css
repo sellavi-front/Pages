@@ -75,7 +75,7 @@ body.theme_11
 
 @media (max-width: 1199px) {
   .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
-    margin: 0 !important;
+    margin-left: 0 !important;
   }
 }
 
