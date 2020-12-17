@@ -7,3 +7,5 @@
 @import '../blocks/header/header.css';
 
 @import './newNavBar/newNavBar.css';
+
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';

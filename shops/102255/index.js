@@ -2,8 +2,17 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import contactData from './utils/contactData.js'
 
+if (document.querySelector('.common-home')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
 
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
+  map.render();
+
+}
 
 // add user icon in header
 document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div class="header_user"><a id="user" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-user"></i></a></div>');
