@@ -1,4 +1,4 @@
-/* #home > div > div > section.page-section.latest-section > div:nth-child(1) > ul > li:nth-child(1) {
+#home > div > div > section.page-section.latest-section > div:nth-child(1) > ul > li:nth-child(1) {
     display: none;
 }
 
@@ -40,4 +40,4 @@ li.flexy.no_children:hover {
 
 #home > div > div > section.page-section.latest-section > div:nth-child(1) > ul > li:nth-child(4) {
     background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1608216334/Component_2_y7fjuz.png);
-} */
+}
