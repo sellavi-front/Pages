@@ -7,3 +7,9 @@
 @import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import './mobile-version.css';
+
+.distributors__list {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
