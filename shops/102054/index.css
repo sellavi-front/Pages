@@ -356,6 +356,7 @@ body .section-title {
   float: right;
   display: inline-block;
   margin-top: -15px;
+  text-align: center;
 }
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
