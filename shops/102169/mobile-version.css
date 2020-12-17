@@ -16,6 +16,11 @@
     padding: 5%;
     margin-top: 30%;
   }
+
+  .img__on__banner {
+    position: absolute;
+    left: 10%;
+  }
 }
 
 @media (min-width: 768px) {
