@@ -41,3 +41,7 @@ body.ltr.ru .share_page_wrapper,
 body.ltr.ru .shop-sorting {
   display: none !important
 }
+
+#product > div:nth-child(2) > div {
+  margin-top: 0 !important;
+}
