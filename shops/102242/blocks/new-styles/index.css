@@ -80,7 +80,7 @@ body strong {
 body.ru.ltr.common-home .wrapper .header .header-wrapper .header-search button,
 body.ru.ltr.common-home .wrapper .header .header-wrapper .header_widgets .header_login>a,
 body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent:focus,
-.header .header-wrapper .mobile-navigation-wrapper a {
+.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
 }
 
