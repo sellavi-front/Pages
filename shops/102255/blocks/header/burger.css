@@ -11,6 +11,15 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     right: 15px;
 }
 
+nav.navigation.clearfix.nav.opened.nav-opened {
+    position: absolute;
+    bottom: 80px !important;
+}
+
+nav.navigation.mobile_side_nav.opened.nav-opened {
+    top: 0px !important;
+}
+
 /* @media (min-width: 1200px) {
     .d-xl-none {
         display: block !important;
