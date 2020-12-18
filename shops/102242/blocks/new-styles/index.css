@@ -72,7 +72,8 @@ body p,
 body a,
 body span,
 body b,
-body strong {
+body strong,
+body label.placeholder {
   color: #8f8476 !important;
 }
 
