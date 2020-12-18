@@ -14,3 +14,7 @@
 #home > div > div.content-area > section.page-section.latest-section > div > h2 > span::first-letter {
     text-transform: uppercase !important;
 }
+
+#home > div > div.content-area > section.page-section.latest-section > div > div {
+    justify-content: space-between;
+}
