@@ -10,7 +10,6 @@ export default class Fixes {
   }
 
   updateImgCategories() {
-    document.querySelector(".content-area>.page-section>.container>.row").classList.add("categories__block")
     const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
     imgCat.forEach(cat => {
       const src = cat.getAttribute('src');
@@ -27,6 +26,7 @@ export default class Fixes {
     if(document.querySelector('.product-product')) {
       document.querySelector(".content-area>.page-section>.container>.row").classList.add("product__block")
     }
+
     document.querySelector(".footer>.footer-widgets>.container>.row").classList.add("footer__row")
   }
 
