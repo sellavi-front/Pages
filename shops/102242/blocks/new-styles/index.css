@@ -101,15 +101,15 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 0 !important;
+    margin: 0 auto !important;
   }
 }
 
 @media (max-width: 495px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 34% !important;
+    margin: 0 auto !important;
   }
 
   .logo img {
