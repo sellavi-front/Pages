@@ -12,11 +12,17 @@
 .banner-content__item_bg {
   left: 55%;
   right: auto;
-  max-width: 32vw !important;
+  width: 336px !important;
   margin-top: -25px;
   border: 15px solid white;
   height: auto !important;
 }
+
+.banner-content__item_bg span,
+banner-content__item_title span {
+  color: white !important;
+}
+
 
 .banner-content__item .container {
   border: 4px solid white;
