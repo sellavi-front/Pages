@@ -73,7 +73,8 @@ body a,
 body span,
 body b,
 body strong,
-body label.placeholder {
+body label.placeholder,
+body.checkout-checkout .radio.customized input[type=radio]:checked~label {
   color: #8f8476 !important;
 }
 
