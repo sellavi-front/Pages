@@ -39,6 +39,9 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
 .product-product .product-single .buttons {
   width: 255px;
 }
+.product-item .thumbnail .media img {
+  object-fit: cover !important;
+}
 
 body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
 body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder,
