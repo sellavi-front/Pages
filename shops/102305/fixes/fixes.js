@@ -23,6 +23,10 @@ export default class Fixes {
     if (document.querySelector('.common-home')) {
       document.querySelector(".content-area>.page-section>.container>.row").classList.add("categories__block")
     }
+
+    if(document.querySelector('.product-product')) {
+      document.querySelector(".content-area>.page-section>.container>.row").classList.add("product__block")
+    }
     document.querySelector(".footer>.footer-widgets>.container>.row").classList.add("footer__row")
   }
 

@@ -4,7 +4,6 @@ import "../../fixes/fixes.js"
 import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import contactData from "./utils/utils.js"
 import Fixes from "./fixes/fixes.js"
-import Requisites from '../../modules/Requisites/Requisites.js'
 
 let fixes = new Fixes()
 fixes.deleteUnnecessaryClasses()
