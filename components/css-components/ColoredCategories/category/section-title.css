@@ -29,12 +29,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .homefeatured_category .section-title {
-    margin-right: 0 !important;
-  }
-}
-
 @media (max-width: 495px) {
   .homefeatured_category .section-title {
     margin-left: 0 !important;
