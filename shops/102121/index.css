@@ -5,6 +5,24 @@
 @import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css';
 @import url('../../fixes/js/FooterCopy/FooterCopy.css');
 
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important;
+}
+
+.main-slider .img-fluid {
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important
+}
+
+body.ltr.ru > div > div.content-area > section.page-section.titles > div > div > h1 {
+  font-size: 22px !important;
+}
+
 /*
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   display: none

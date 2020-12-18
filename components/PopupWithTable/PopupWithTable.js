@@ -4,12 +4,14 @@ export default class PopupWithTable {
     this.container= container;
   }
 
+
+
   setTemplate() {
     return `
       <div class="popup">
         <div class="popup-wrapper"></div>
         <div class="popup__content">
-
+          ${data.template}
         </div>
         <div class="popup__close">
           <svg
