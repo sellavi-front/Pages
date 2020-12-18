@@ -52,6 +52,9 @@ if (document.querySelector('.common-home')) {
   advantagesCard.render();
   // End sales
 
+  const sender = new FormBasic(sctmSection, 'beforeend', senderData);
+  sender.render();
+
   //rm attr fron advantages
 
   document.querySelectorAll('.info-card__item>a').forEach(a => a.removeAttribute('href'));
@@ -100,7 +103,7 @@ if (document.querySelector('.product-product')) {
   document.querySelector('.share_page_wrapper').remove();
 
   const lastSection = document.querySelector(
-    '#home > div > div.content-area > section.page-section.overflow-hidden',
+    'body > div > div.content-area > section.page-section.overflow-hidden',
   );
 
   const sender = new FormBasic(lastSection, 'beforeend', senderData);
