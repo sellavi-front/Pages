@@ -6,13 +6,6 @@ import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js
 import contactData from './utils/contactData.js'
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 import socIconsData from './utils/socIconsData.js';
-import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
-import imgArr from "./utils/images.js"
-import pages from "./utils/pages.js"
-
-
-
-
 
 // document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div class="header_user"><a id="user" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-user"></i></a></div>');
 
