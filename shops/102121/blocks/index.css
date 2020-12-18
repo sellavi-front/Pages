@@ -12,6 +12,6 @@
   display: none !important
 }
 
-#home > div > div.content-area > section.page-section.titles > div > div > h1 {
+body.ltr.ru > div > div.content-area > section.page-section.titles > div > div > h1 {
   font-size: 22px !important;
 }
