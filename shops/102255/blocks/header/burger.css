@@ -1,0 +1,18 @@
+nav.navigation.closed.clearfix.nav.nav-closed {
+    display: none;
+}
+
+.d-xl-none {
+    display: block !important
+}
+
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    left: 10px;
+    right: 15px;
+}
+
+/* @media (min-width: 1200px) {
+    .d-xl-none {
+        display: block !important;
+    }   
+} */

@@ -18,6 +18,8 @@
 
 @import './header-mobile/header-mobile.css';
 
+@import './header/burger.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body h1,
