@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
   body.ltr.ru .wrapper .homefeatured_category > div.container {
-    max-width: 1140px;
+    max-width: 1140px !important;
   }
 }
 @media (max-width: 1199px) {
