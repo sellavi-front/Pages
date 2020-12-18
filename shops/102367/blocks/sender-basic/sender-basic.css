@@ -37,6 +37,11 @@
   width: 100% !important;
   font-size: 14px !important;
   padding-left: 3% !important;
+  border: 1px solid #a68e7d !important;
+}
+
+.sender-basic form .form__input::placeholder {
+  color: #a68e7d !important;
 }
 
 .sender-basic form .form__input:last-of-type {
