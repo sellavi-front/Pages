@@ -1,2 +1,6 @@
 @import './footer-list.css';
 @import './footer-widgets.css';
+
+body.ltr.ru .wrapper footer.footer, body.ltr.ru .wrapper footer.footer .footer-widgets {
+  margin-top: 30px !important;
+}
