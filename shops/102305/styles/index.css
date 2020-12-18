@@ -2,4 +2,5 @@
 @import './../styles/categories.css';
 @import './../styles/header.css';
 @import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import './../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import './../styles/fonts.css';
