@@ -26,3 +26,8 @@ document.querySelector(".content-area>.page-section>.container>.row>div:nth-chil
             <small class="count__products">Более 2000 товаров</small>
             <a href="#" class="more__category">Смотреть</a>
           </div>`)
+
+document.querySelector(".sf-menu>li[data-nav-part='home']").remove()
+document.querySelector(".sf-menu>li[data-nav-part='5764']").remove()
+document.querySelector(".sf-menu>li[data-nav-part='5763']").remove()
+document.querySelector(".sf-menu>li[data-nav-part='5762']").remove()
