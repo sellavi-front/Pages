@@ -12,13 +12,13 @@
 .banner-content__item_bg {
   left: 55%;
   right: auto;
-  width: 336px !important;
+  max-width: 32vw !important;
   margin-top: -25px;
   border: 15px solid white;
   height: auto !important;
 }
 
-.banner-content__item_bg span,
+.banner-content__item_button span,
 .banner-content__item_title span {
   color: white !important;
 }
@@ -32,7 +32,7 @@
 
 .banner-content__item_button {
   border-style: dashed !important;
-  max-width: 276px !important;
+  max-width: 336px !important;
   padding: 2% !important;
   margin-top: 20px !important;
 }
