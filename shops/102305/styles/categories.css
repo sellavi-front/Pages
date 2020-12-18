@@ -80,3 +80,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 .content-area>.page-section>.container>.row>div:nth-child(3) {
   order: 1;
 }
+
+.categories__block {
+  flex-direction: row !important;
+}
