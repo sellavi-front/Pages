@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 @import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import '../../../fixes/fixes.css';
@@ -30,8 +32,6 @@
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-
 body h1,
 body h2,
 body h3,
@@ -46,7 +46,7 @@ body strong {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 body h1,
