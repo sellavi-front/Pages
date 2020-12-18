@@ -24,6 +24,8 @@
 
 @import './map/map.css';
 
+@import './footer/footer.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body h1,
