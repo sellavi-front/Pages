@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
-@import '../../../templates/TemplateTypeTwo/styles/index.css';
+@import '../../../../templates/TemplateTypeTwo/styles/index.css';
 
-@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
-@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 
-@import '../../../components/ColorChoise/ColorChoise.css';
-@import '../../../components/FormBasic/FormBasic.css';
-@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
-@import '../../../components/VideoBanner/VideoBanner.css';
-@import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
-@import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
+@import '../../../../components/ColorChoise/ColorChoise.css';
+@import '../../../../components/FormBasic/FormBasic.css';
+@import '../../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../../components/VideoBanner/VideoBanner.css';
+@import '../../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+@import '../../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
 
 
-@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
-@import '../../../templates/TemplateTypeTwo/styles/products/products.css';
-@import '../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
-@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
-@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
-@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
-@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+@import '../../../../templates/TemplateTypeTwo/styles/products/products.css';
+@import '../../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
+@import '../../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import '../../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../../templates/TemplateTypeTwo/styles/footer/footer.css';
 
 
 @import './sf-menu/sf-menu.css';
