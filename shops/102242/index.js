@@ -22,6 +22,7 @@ import { bannerContent } from './constants/constants.js';
 import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
+import socIconsData from './utils/socIconsData.js'
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
@@ -98,7 +99,7 @@ if (document.querySelector('.wrapper')) {
 
   const footerContainer = document.querySelector('.footer-widgets>div>div');
 
-  new SocIconsTypeOne(footerContainer, 'beforeend', /* socialICons */).render();
+  new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 
   const socIconsContainer = document.querySelector('.soc-icons>.container');
   socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
