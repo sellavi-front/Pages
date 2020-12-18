@@ -47,6 +47,10 @@ body.ltr.ru .shop-sorting {
   display: none !important
 }
 
+.featured-products-carousel .bx-wrapper {
+  margin: auto !important;
+}
+
 #product > div:nth-child(2) > div {
   margin-top: 0 !important;
 }
