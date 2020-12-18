@@ -1,0 +1,4 @@
+body.theme_11 .wrapper .page-section .products.grid {
+  justify-content: center;
+  flex-direction: row-reverse;
+}

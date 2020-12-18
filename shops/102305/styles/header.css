@@ -22,3 +22,9 @@
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
   color: #000;
 }
+
+@media (max-width: 375px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: auto;
+  }
+}
