@@ -12,7 +12,7 @@
 }
 
 #product .color-choise,
-.form-group > div {
+#product .form-group > div {
   display: flex;
   align-items: center;
 }
@@ -61,11 +61,11 @@
   background: transparent;
 }
 
-body.theme-red-2 .custom-control-input:checked ~ .custom-control-label:before {
+body.ru.ltr .custom-control-input:checked ~ .custom-control-label:before {
   background: transparent !important;
 }
 
-.custom-radio .custom-control-input:checked ~ .custom-control-label:after {
+body.ltr.ru custom-radio .custom-control-input:checked ~ .custom-control-label:after {
   background-repeat: no-repeat;
   background-position: center !important;
 }
@@ -76,7 +76,7 @@ body.theme-red-2 .custom-control-input:checked ~ .custom-control-label:before {
   font-size: 11px;
 }
 
-.custom-radio .custom-control-input:checked ~ .custom-control-label:after {
+body.ltr.ru .custom-radio .custom-control-input:checked ~ .custom-control-label:after {
   background: none;
   z-index: -1;
   border-radius: 100px;
@@ -84,7 +84,7 @@ body.theme-red-2 .custom-control-input:checked ~ .custom-control-label:before {
   border: none;
 }
 
-.custom-radio .custom-control-input:checked ~ .custom-control-label:before {
+body.ltr.ru .custom-radio .custom-control-input:checked ~ .custom-control-label:before {
   border: 3px solid burlywood;
   color: #fff;
   background: 0 !important;
