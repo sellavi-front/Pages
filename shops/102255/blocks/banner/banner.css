@@ -28,3 +28,19 @@ span.position-relative {
   line-height: 36px;
   padding-left: 10px
 }
+
+span.second-title-text {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.button-in-banner {
+    margin-top: 70px;
+    color: #FA7167;
+    font-size: 26px;
+    font-weight: 500;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 30px 120px 30px 120px
+}
