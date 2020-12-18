@@ -20,6 +20,9 @@ nav.navigation.mobile_side_nav.opened.nav-opened {
     top: 0px !important;
 }
 
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 25px !important;
+}
 /* @media (min-width: 1200px) {
     .d-xl-none {
         display: block !important;
