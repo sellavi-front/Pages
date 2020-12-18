@@ -38,3 +38,15 @@ body .div-cell, body .div-table {
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
   color: #fff;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.more__category {
+  padding: 4%;
+  border: 1px solid #fff;
+}
