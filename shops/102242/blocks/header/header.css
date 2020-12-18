@@ -14,6 +14,10 @@ body.theme_11 .wrapper .header {
   padding: 2% 0;
 }
 
+.wrapper .header .header-wrapper .header_widgets {
+  top: 4px !important
+}
+
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 17% !important;
 }
