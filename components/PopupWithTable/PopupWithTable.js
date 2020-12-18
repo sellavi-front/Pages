@@ -1,17 +1,16 @@
 export default class PopupWithTable {
-  constructor(data, container) {
+  constructor(data, container, emplate) {
     this.data = data;
     this.container= container;
+    this.template = template;
   }
-
-
 
   setTemplate() {
     return `
       <div class="popup">
         <div class="popup-wrapper"></div>
         <div class="popup__content">
-          ${data.template}
+          ${this.template(data)}
         </div>
         <div class="popup__close">
           <svg
