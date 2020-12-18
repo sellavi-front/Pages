@@ -37,3 +37,8 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
 body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
     background-color: white !important;
 }
+
+.add_to_cart>button > span {
+    font-size: 14px !important;
+    font-weight: 400;
+}
