@@ -1,14 +1,11 @@
 // import Requisites from '../../modules/Requisites/Requisites.js';
 // import requsites from './utils/requsites.js'
 
-
-
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../components/PictureCategories/PictureCategories.js';
-
 
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
@@ -22,7 +19,7 @@ import { bannerContent } from './constants/constants.js';
 import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
-import socIconsData from './utils/socIconsData.js'
+import socIconsData from './utils/socIconsData.js';
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
@@ -58,18 +55,23 @@ if (document.querySelector('.common-home')) {
 
   //rm attr fron advantages
 
- // reset cut image in categories
- const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
- imgCat.forEach(cat => {
-   const src = cat.getAttribute('src');
+  // reset cut image in categories
+  const imgCat = document.querySelectorAll(
+    '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
+  );
+  imgCat.forEach((cat) => {
+    const src = cat.getAttribute('src');
 
-   let replacedSrc = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
+    let replacedSrc = src.replace(
+      /\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi,
+      '',
+    );
 
-   cat.setAttribute('src', replacedSrc);
- })
- // rend reset cit img
+    cat.setAttribute('src', replacedSrc);
+  });
+  // rend reset cit img
 
-  document.querySelectorAll('.info-card__item>a').forEach(a => a.removeAttribute('href'));
+  document.querySelectorAll('.info-card__item>a').forEach((a) => a.removeAttribute('href'));
 }
 
 if (document.querySelector('.wrapper')) {
@@ -102,7 +104,10 @@ if (document.querySelector('.wrapper')) {
   new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 
   const socIconsContainer = document.querySelector('.soc-icons>.container');
-  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+  socIconsContainer.insertAdjacentHTML(
+    'afterbegin',
+    `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`,
+  );
 
   const socIcons = document.querySelector('.soc-icons');
   socIcons.classList.add('col-md-3');
@@ -111,13 +116,22 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.product-item')) {
-  document.querySelectorAll('body.ltr.ru > div > div.content-area > section.page-section.latest-section > div > div > div > div > div.media > a > img').forEach(cat => {
-    const src = cat.getAttribute('src');
-    let replacedSrc = src.replace(/\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225/gi, '');
-    console.log(replacedSrc)
+  setTimeout(() => {
+    document
+      .querySelectorAll(
+        'body.ltr.ru > div > div.content-area > section.page-section.latest-section > div > div > div > div > div.media > a > img',
+      )
+      .forEach((cat) => {
+        const src = cat.getAttribute('src');
+        let replacedSrc = src.replace(
+          /\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225/gi,
+          '',
+        );
+        console.log(replacedSrc);
 
-    cat.setAttribute('src', replacedSrc);
-  })
+        cat.setAttribute('src', replacedSrc);
+      });
+  }, 1000);
 }
 
 if (document.querySelector('.product-product')) {
