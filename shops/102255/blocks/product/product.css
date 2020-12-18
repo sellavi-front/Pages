@@ -19,3 +19,21 @@
     justify-content: space-between;
     margin-top: 60px;
 }
+
+.product-item .caption a {
+    font-weight: 400;    
+}
+
+body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    color: black !important;
+    background-color: white !important;
+}
+
+body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+    background-color: white !important;
+}
