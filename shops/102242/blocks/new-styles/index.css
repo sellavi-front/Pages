@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
-/* @import '../../../templates/TemplateTypeTwo/styles/index.css'; */
+@import '../../../templates/TemplateTypeTwo/styles/index.css';
 
 @import '../../../components/ColorChoise/ColorChoise.css';
 @import '../../../components/FormBasic/FormBasic.css';
