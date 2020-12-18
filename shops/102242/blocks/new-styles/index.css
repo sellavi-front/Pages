@@ -53,8 +53,10 @@ body strong {
   font-style: normal;
 }
 
-body.theme_11 .wrapper .header {
+body.common-home .wrapper .header {
   position: absolute;
+}
+body.ru.ltr .wrapper .header {
   z-index: 99999;
   width: 100%;
   padding: 1.2em 0;
