@@ -14,7 +14,12 @@ body.ru.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .ca
 
 body.ru.ltr .header-cart .cart-wrapper .cart-qty-circle {
   font-size: 11px !important;
-  right: 0 !important;
-  left: auto !important;
+  left: -5px !important;
+  right: auto !important;
   display: block !important;
+  top: -14px !important;
+  color: white !important;
+  line-height: 1.2 !important;
+  width: 15px !important;
+  height: 15px !important;
 }
