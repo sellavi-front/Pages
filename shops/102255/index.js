@@ -22,13 +22,25 @@ if (document.querySelector('.common-home')) {
   map.render();
 }
 
-if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-  const footerContainer = document.querySelector('.footer-widgets>div');
+// if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+//   const footerContainer = document.querySelector('.footer-widgets>div');
 
-  new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+//   new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 
-  const socIcons = document.querySelector('.soc-icons>.container');
-  socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+//   const socIcons = document.querySelector('.soc-icons>.container');
+//   socIcons.insertAdjacentHTML('afterbegin', `<p class="soc-icons__title">Мы в соц.сетях</p>`)
+// }
+
+if (document.querySelector('.wrapper')) {
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
+
+  new SocIconsTypeOne(footerContainer, 'beforeend', /* socialICons */).render();
+
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML('afterbegin', <h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>);
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
 }
 
 if (location.href.includes('term-of-use')) {
