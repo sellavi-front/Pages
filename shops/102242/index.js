@@ -124,14 +124,14 @@ if (document.querySelector('.product-item')) {
       .forEach((cat) => {
         const src = cat.getAttribute('src');
         let replacedSrc = src.replace(
-          /\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225/gi,
+          /\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225\/if_end/gi,
           '',
         );
         console.log(replacedSrc);
 
         cat.setAttribute('src', replacedSrc);
       });
-  }, 1000);
+  }, 1500);
 }
 
 if (document.querySelector('.product-product')) {
