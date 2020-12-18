@@ -1,0 +1,12 @@
+.contact-with-map .contact__list .contact__title {
+    font-size: 30px;
+}
+
+.contact__list-el .contact__list-text {
+    font-weight: 200;
+}
+
+.contact__list-text > a {
+    color: black;
+    font-weight: 200;
+}
