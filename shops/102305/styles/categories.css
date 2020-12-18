@@ -31,12 +31,10 @@ body .div-cell, body .div-table {
 }
 
 .thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
-  text-align: right;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
+  text-align: center;
   text-transform: unset;
-  margin: 0 0 1px;
-  color: #232323;
 }
 
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+  color: #fff;
+}
