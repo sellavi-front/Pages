@@ -10,6 +10,7 @@ let fixes = new Fixes()
 fixes.deleteUnnecessaryClasses()
 fixes.updateImgCategories()
 fixes.insertTitleToCategories()
+fixes.updateClasses()
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
