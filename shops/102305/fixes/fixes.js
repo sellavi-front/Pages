@@ -19,6 +19,13 @@ export default class Fixes {
     })
   }
 
+  updateClasses() {
+    if (document.querySelector('.common-home')) {
+      document.querySelector(".content-area>.page-section>.container>.row").classList.add("categories__block")
+    }
+    document.querySelector(".footer>.footer-widgets>.container>.row").classList.add("footer__row")
+  }
+
   insertTitleToCategories() {
     if (document.querySelector('.common-home')) {
       document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(1)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")

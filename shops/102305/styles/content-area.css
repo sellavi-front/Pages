@@ -18,11 +18,3 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
   background-color: #c9c9c9 !important;
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  flex-direction: row-reverse;
-}
