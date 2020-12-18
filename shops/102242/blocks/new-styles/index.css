@@ -78,7 +78,8 @@ body strong {
 
 .common-home .header-cart .cart-wrapper #cart,
 body.ru.ltr.common-home .wrapper .header .header-wrapper .header-search button,
-body.ru.ltr.common-home .wrapper .header .header-wrapper .header_widgets .header_login>a {
+body.ru.ltr.common-home .wrapper .header .header-wrapper .header_widgets .header_login>a,
+body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent:focus {
   color: white !important;
 }
 
