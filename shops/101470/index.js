@@ -91,7 +91,7 @@ if (document.querySelector('.wrapper')) {
   const termUse = document.querySelectorAll('.footer_content_wrapper >ul>li>a');
 
   termUse.forEach(el => {
-       if(el.textContent.toLowerCase() === 'условия обслуживание') {
+       if(el.textContent.toLowerCase() === 'условия обслуживания') {
             el.closest('li').remove();
        }
   })
@@ -122,6 +122,11 @@ if (document.querySelector('.wrapper')) {
     });
 
   });
+
+  const cntctsSimple = document.querySelector('.contacts-simple');
+
+  cntctsSimple.classList.add('col-md-3');
+  cntctsSimple.querySelector('.contacts-simple__title').classList.add('widget-title');
 
   const listt = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
 
@@ -187,7 +192,7 @@ if (location.href.includes('contact')) {
 }
 
 if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://store101470.sellavi.com/') {
-  console.log('test');
+
   document.querySelector('body').insertAdjacentHTML('afterbegin', '<div class="banner-title-button"><a href="https://store101470.sellavi.com/%D0%B4%D0%BB%D1%8F-%D0%B4%D0%BE%D0%BC%D0%B0/">товары</a></div>');
 }
 

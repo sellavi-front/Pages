@@ -1,4 +1,4 @@
-import Requisites from '../../modules/Requisites/Requisites-test.js';
+import Requisites from '../../modules/Requisites/Requisites.js';
 import { requsites, dataContact, options } from './utils/requsites.js';
 
 import '../../fixes/js/FooterCopy/FooterCopy.js';
@@ -24,8 +24,8 @@ if (location.href.includes('policy')) {
   req.setTemplate();
 }
 
-if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Орлова Елена Геннадьевна', document.querySelector("#content > div > div"), options);
-  req.setTemplate();
-}
+// if (location.href.includes('pay-delivery')) {
+//   const req = new Requisites(requsites, 'afterend', 'ИП Орлова Елена Геннадьевна', document.querySelector("#content > div > div"), options);
+//   req.setTemplate();
+// }
 

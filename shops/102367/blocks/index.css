@@ -12,6 +12,11 @@
 @import './products-wrapper/products-wrapper.css';
 @import './products-wrapper/buttons.css';
 @import './section-title/section-title.css';
+@import './sender-basic/sender-basic.css';
+@import './soc-icons/soc-icons.css';
+@import './footer/footer.css';
+@import './product-page/product-page.css';
+@import './cart-wrapper/cart-wrapper.css';
 
 body h1,
 body h2,
@@ -27,9 +32,15 @@ body strong {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
 }
 
-body a {
-  color: black !important;
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span, body b, body strong,
+.common-home .header-cart .cart-wrapper #cart,
+body.ltr .wrapper .header .header-wrapper .header-search button {
+  color: #8F8476 !important;
+}
+
+body.ru.ltr .checkout-progress-bar .step-number.active,
+.checkout_form #cart_table .product-thumbnail__quantity {
+  color: white !important;
 }
