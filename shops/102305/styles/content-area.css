@@ -2,3 +2,27 @@ body.theme_11 .wrapper .page-section .products.grid {
   justify-content: center;
   flex-direction: row-reverse;
 }
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  color: #000!important;
+  background-color: transparent !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
+  width: 100%;
+  text-align: right;
+  display: inline-block!important;
+  border: 1px solid;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: #c9c9c9 !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-direction: row-reverse;
+}
