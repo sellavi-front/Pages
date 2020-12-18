@@ -8,6 +8,23 @@ body.ltr.ru .wrapper .homefeatured_category > div.container {
   }
 }
 
+@media (min-width: 992px) {
+  body.ltr.ru .wrapper .homefeatured_category > div.container {
+    max-width: 960px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body.ltr.ru .wrapper .homefeatured_category > div.container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  body.ltr.ru .wrapper .homefeatured_category > div.container {
+    max-width: 540px;
+  }
+}
 @media (max-width: 495px) {
   .homefeatured_category .section-title {
     margin-left: 0 !important;
