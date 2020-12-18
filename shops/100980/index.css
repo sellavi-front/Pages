@@ -782,6 +782,14 @@ body .footer .footer-widgets {
     padding: 0;
   }
 
+  body .content-area .page-section.error-page h3 {
+    margin: 0 0 15px;
+    color: #ea0000;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -800,6 +808,16 @@ body .footer .footer-widgets {
   .page-header h1 {
     font-size: 1.5rem !important;
   }
+
+
+  body .content-area .page-section.error-page h3 {
+    margin: 0 0 15px;
+    color: #ea0000;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
 
   .banner__container {
     width: 100%;
