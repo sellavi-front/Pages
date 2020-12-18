@@ -3,9 +3,9 @@
 }
 
 .sf-menu.nav>li>a {
-  border-color: #E1B97B !important;
+  border-color: white !important;
 }
 
 header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
-  border-top: 2px solid #E1B97B;
+  border-top: 2px solid white;
 }
