@@ -7,11 +7,11 @@ const contactData = {
     },
     {
       title: 'Телефон',
-      contact: '<a href="tel:+7(915)024-06-73">+7(915)024-06-73</a>',
+      contact: '<a href="tel:+7(910)127-21-79">+7(910)127-21-79</a>',
     },
     {
       title: 'E-mail',
-      contact: '<a href="mailto:denis@smktrade.ru">denis@smktrade.ru</a>',
+      contact: '<a href="mailto:denis@smktrade.ru">underwear.adm@gmail.com</a>',
     },
   ],
   map:
