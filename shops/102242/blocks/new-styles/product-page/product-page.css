@@ -32,6 +32,10 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
   border: none;
 }
 
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+  background: transparent !important;
+}
+
 .product-product .product-single .buttons {
   width: 255px;
 }
