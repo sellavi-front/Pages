@@ -3,6 +3,10 @@
 @import '../../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+
 @import '../../../../components/ColorChoise/ColorChoise.css';
 @import '../../../../components/FormBasic/FormBasic.css';
 @import '../../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
