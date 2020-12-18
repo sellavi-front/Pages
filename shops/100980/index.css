@@ -463,6 +463,10 @@ body .footer .footer-widgets {
     flex-direction: column;
   }
 
+  .page-header h1 {
+    font-size: 1.5rem !important;
+  }
+
   .banner__container {
     display: flex;
     flex-direction: column;
@@ -791,6 +795,10 @@ body .footer .footer-widgets {
     transition: transform .7s ease-in-out;
     right: 15%;
     font-size: 18px;
+  }
+
+  .page-header h1 {
+    font-size: 1.5rem !important;
   }
 
   .banner__container {

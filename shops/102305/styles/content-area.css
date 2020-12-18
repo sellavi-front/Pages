@@ -18,3 +18,15 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
   background-color: #c9c9c9 !important;
 }
+
+body .block-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #232323;
+  overflow: hidden;
+  text-align: center;
+}
