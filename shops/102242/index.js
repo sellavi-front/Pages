@@ -131,7 +131,7 @@ if (document.querySelector('.product-item')) {
 
         cat.setAttribute('src', replacedSrc);
       });
-  }, 1500);
+  }, 1000);
 }
 
 if (document.querySelector('.product-product')) {
