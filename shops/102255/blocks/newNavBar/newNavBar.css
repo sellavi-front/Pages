@@ -20,3 +20,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     padding-top: 10px !important;
     padding-left: 25px !important;
 }
+
+.wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+    padding: 0% !important;
+}
