@@ -1,0 +1,30 @@
+span.position-relative {
+    font-size: 30px;
+    color: white;
+    text-shadow: none;
+}
+
+.main-slider .caption-content {
+    text-align: left !important;
+    margin: 0 0 0 0 !important;
+}
+
+body .div-cell {
+    display: flex!important;
+    padding-top: 70px 
+}
+
+.main-slider .caption-content {
+    max-width: 714px;
+    margin: 0 0 0 auto;
+    text-align: right;
+}
+
+
+
+span.position-relative {
+  display: block;
+  border-left: 4px solid #E8605D;
+  line-height: 36px;
+  padding-left: 10px
+}

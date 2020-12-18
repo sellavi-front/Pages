@@ -13,3 +13,24 @@
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 
 @import './header/icons.css';
+
+@import './banner/banner.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif !important;
+
+}
