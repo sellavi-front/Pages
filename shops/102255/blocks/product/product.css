@@ -1,0 +1,16 @@
+.common-home section.page-section.message-section.mt-4 {
+    display: none;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div {
+    margin-top: 100px !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    font-size: 30px !important;
+    text-transform: lowercase !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 > span::first-letter {
+    text-transform: uppercase !important;
+}
