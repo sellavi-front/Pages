@@ -7,6 +7,7 @@ import contactData from './utils/contactData.js'
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 import socIconsData from './utils/socIconsData.js';
 
+document.querySelector('.header-cart.sticky').insertAdjacentHTML('beforebegin', '<div class="button__list_elem"><a id="wishlist" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-heart"></i></a></div>');
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
