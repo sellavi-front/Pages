@@ -67,31 +67,3 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
 body label.placeholder {
   color: lightgray;
 }
-
-
-
-body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-  margin: 0 auto 0 17% !important;
-}
-
-@media (max-width: 1224px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 8% !important;
-  }
-}
-
-@media (max-width: 1024px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 0 !important;
-  }
-}
-
-@media (max-width: 495px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 34% !important;
-  }
-
-  .logo img {
-    max-width: 145px !important;
-  }
-}
