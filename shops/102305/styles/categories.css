@@ -1,0 +1,42 @@
+.thumbnail-banner .media-link .img-bg {
+  height: 100% !important;
+}
+
+.thumbnail.thumbnail-banner .caption-inner {
+  border: 0;
+  padding: 15px;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+  text-align: center !important;
+  height: 50px !important;
+}
+
+body .div-cell, body .div-table {
+  height: 100%;
+  display: table!important;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title span, .thumbnail.thumbnail-banner .caption-title span {
+  background-color: transparent;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: unset;
+  margin: 0 0 1px;
+  color: #232323;
+}
+
