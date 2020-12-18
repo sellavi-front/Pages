@@ -39,7 +39,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   color: #fff;
 }
 
-.card {
+.category__card {
   display: flex;
   flex-direction: column;
   text-align: center;
