@@ -74,11 +74,11 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 }
 
 .content-area>.page-section>.container>.row>div:nth-child(2) {
-  order: 2;
+  order: 1;
 }
 
 .content-area>.page-section>.container>.row>div:nth-child(3) {
-  order: 1;
+  order: 2;
 }
 
 .categories__block {
