@@ -1,19 +1,15 @@
 const socIconsData = [
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-whatsapp_1_kh2mdl.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1608216460/102367/icons8-whatsapp_1_e3trkd.svg',
     link: 'https://wa.me/79518925622',
   },
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-instagram_1_rw7nv3.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1608216460/102367/icons8-instagram_1_poflgh.svg',
     link: 'https://www.instagram.com/miss_corset/',
   },
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-telegram-app_1_blrn1i.svg',
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1608216460/102367/icons8-telegram-app_1_aawuoi.svg',
     link: 'https://t.me/ValeriyaSadri',
-  },
-  {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-facebook-f_1_uusaiq.svg',
-    link: '#',
   },
 ];
 
