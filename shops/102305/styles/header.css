@@ -1,0 +1,11 @@
+.header_login {
+  order: 1;
+}
+
+.header_wishlist {
+  order: 2;
+}
+
+.header-cart {
+  order: 3;
+}
