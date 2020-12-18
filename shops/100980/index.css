@@ -790,6 +790,10 @@ body .footer .footer-widgets {
     font-weight: 700;
   }
 
+  .caption-title a {
+    color: #232323;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
@@ -1134,6 +1138,11 @@ body .footer .footer-widgets {
 
   .desc {
     padding: 0 !important;
+  }
+
+  .caption-title a {
+    color: #232323;
+    font-size: 12px;
   }
 
 }
