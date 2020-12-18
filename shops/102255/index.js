@@ -14,14 +14,14 @@ import pages from "./utils/pages.js"
 
 
 
-document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div class="header_user"><a id="user" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-user"></i></a></div>');
+// document.querySelector('.header_widgets').insertAdjacentHTML('afterbegin', '<div class="header_user"><a id="user" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-user"></i></a></div>');
 
 
-let newNav = document.querySelector('.nav.sf-menu')
-document.querySelector('section.page-section.latest-section').insertAdjacentHTML('afterbegin', `<div class="container"><div class="newNavTitle">Категории</div>${newNav.outerHTML}</div>`)
+// let newNav = document.querySelector('.nav.sf-menu')
+// document.querySelector('section.page-section.latest-section').insertAdjacentHTML('afterbegin', `<div class="container"><div class="newNavTitle">Категории</div>${newNav.outerHTML}</div>`)
 
 
-document.querySelector('#home > div > div > section.page-section.latest-section > div:nth-child(2)').insertAdjacentHTML('beforebegin', '<div class="container"><div class="productTitle">Новинки</div></div>');
+// document.querySelector('#home > div > div > section.page-section.latest-section > div:nth-child(2)').insertAdjacentHTML('beforebegin', '<div class="container"><div class="productTitle">Новинки</div></div>');
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
