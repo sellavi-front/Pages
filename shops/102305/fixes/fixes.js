@@ -1,6 +1,8 @@
 export default class Fixes {
   deleteUnnecessaryClasses() {
-    document.querySelector(".main-slider ").remove()
+    if (document.querySelector('.common-home')) {
+      document.querySelector(".main-slider ").remove()
+    }
     document.querySelector(".sf-menu>li[data-nav-part='home']").remove()
     document.querySelector(".sf-menu>li[data-nav-part='5764']").remove()
     document.querySelector(".sf-menu>li[data-nav-part='5763']").remove()
