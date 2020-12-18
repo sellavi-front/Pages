@@ -17,4 +17,5 @@
 
 #home > div > div.content-area > section.page-section.latest-section > div > div {
     justify-content: space-between;
+    margin-top: 60px;
 }
