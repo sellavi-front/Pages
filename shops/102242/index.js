@@ -37,10 +37,6 @@ if (document.querySelector('.common-home')) {
   videoBanner.render();
   /** END VIDEO BANNER **/
 
-  // Sales
-  // const infoCardTypeOne = new InfoCardTypeOne(sctmSection, 'beforeEnd', salesData);
-  // infoCardTypeOne.render();
-
   //Content banner
   const contentBanner = new ContentBannerTypeOne(sctmSection, 'beforeEnd', contentBannerData);
   contentBanner.render();
@@ -85,12 +81,6 @@ if (document.querySelector('.wrapper')) {
   headerWrapperLogo.insertAdjacentHTML('beforebegin', navigation.outerHTML);
   navigation.remove();
   // end transfer navigation
-
-  const footerCols = document.querySelectorAll('.footer-widgets > div > div > div');
-  footerCols.forEach((col) => {
-    col.classList.add('coll');
-    col.classList.remove('col-md-3');
-  });
 
   const footerContainer = document.querySelector('.footer-widgets>div>div');
 
