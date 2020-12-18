@@ -4,10 +4,10 @@
 
 
 .popup__content {
-  max-width: 430px;
+  max-width: 535px;
   width: 100%;
   background: #fff;
-  padding: 35px;
+  padding: 40px;
   border-radius: 16px;
   position: relative;
 }

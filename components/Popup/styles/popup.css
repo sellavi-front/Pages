@@ -1,4 +1,5 @@
 @import './__content/popup__content.css';
+@import './table/table.css';
 
 .popup {
   position: fixed;

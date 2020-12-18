@@ -7,3 +7,7 @@
   height: auto !important;
   object-fit: contain !important;
 }
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important
+}

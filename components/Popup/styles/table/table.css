@@ -1,0 +1,7 @@
+@import './row/row.css';
+
+.table-sizes {
+  width: 100%;
+  height: auto;
+  margin: 35px 0;
+}
