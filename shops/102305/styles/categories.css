@@ -10,7 +10,7 @@
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
   display: flex;
   position: absolute;
-  margin-top: 400px;
+  margin-top: 360px;
   flex-direction: column;
   text-align: center;
   background: rgba(0, 0, 0, 0.2);
@@ -54,6 +54,17 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 }
 
 .more__category {
-  padding: 4%;
+  padding: 2%;
   border: 1px solid #fff;
+  width: 200px;
+  margin-top: 5%;
+  color: #fff;
+}
+
+.more__category:hover {
+  color: #fff !important;
+}
+
+.caption-title span {
+  margin-top: 10%;
 }
