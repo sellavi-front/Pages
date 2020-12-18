@@ -74,6 +74,12 @@ body strong {
   color: #8f8476 !important;
 }
 
+.common-home .header-cart .cart-wrapper #cart,
+body.ltr .wrapper .header .header-wrapper .header-search button {
+  color: white !important;
+}
+
+
 body.ru.ltr .checkout-progress-bar .step-number.active,
 .checkout_form #cart_table .product-thumbnail__quantity {
   color: white !important;

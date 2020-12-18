@@ -2,7 +2,7 @@
   justify-content: flex-start !important;
 }
 
-.sf-menu.nav>li>a {
+header.header .sf-menu.nav>li>a {
   border-color: white !important;
 }
 
