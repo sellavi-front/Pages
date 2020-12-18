@@ -20,26 +20,29 @@ export default class Fixes {
   }
 
   insertTitleToCategories() {
-    document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(1)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")
-      .insertAdjacentHTML("afterend",
-        `<div class="category__card">
+    if (document.querySelector('.common-home')) {
+      document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(1)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")
+        .insertAdjacentHTML("afterend",
+          `<div class="category__card">
             <small class="count__products">Более 100 товаров</small>
             <a href="/kids/" class="more__category">Смотреть</a>
           </div>`)
 
-    document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(2)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")
-      .insertAdjacentHTML("afterend",
-        `<div class="category__card">
+      document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(2)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")
+        .insertAdjacentHTML("afterend",
+          `<div class="category__card">
             <small class="count__products">Более 6000 товаров</small>
             <a href="/men/" class="more__category">Смотреть</a>
           </div>`)
 
-    document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(3)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")
-      .insertAdjacentHTML("afterend",
-        `<div class="category__card">
+      document.querySelector(".content-area>.page-section>.container>.row>div:nth-child(3)>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title")
+        .insertAdjacentHTML("afterend",
+          `<div class="category__card">
             <small class="count__products">Более 2000 товаров</small>
             <a href="/women/" class="more__category">Смотреть</a>
           </div>`)
+    }
+
   }
 
 
