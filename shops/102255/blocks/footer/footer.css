@@ -7,15 +7,6 @@
     width: 20px;
 }
 
-#home > div > footer > div.footer-widgets > div.container > div {
-    display: flex;
-    justify-content: space-between
-}
-
-#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) {
-    width: 20px;
-}
-
 .footer .footer-widgets .widget .widget-title {
     font-size: 22px !important;
     font-weight: 500;
