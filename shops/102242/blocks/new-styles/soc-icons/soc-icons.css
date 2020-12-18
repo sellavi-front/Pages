@@ -5,6 +5,7 @@ body .footer .footer-widgets .widget-title.soc-icons__title {
 
 body .footer .footer-widgets .soc-icons__container {
   justify-content: space-between;
+  width: 70% ;
 }
 
 @media (max-width: 991px) {
