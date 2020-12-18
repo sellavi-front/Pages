@@ -114,7 +114,7 @@ if (document.querySelector('.product-item')) {
   document.querySelectorAll('body.ltr.ru > div > div.content-area > section.page-section.latest-section > div > div > div > div > div.media > a > img').forEach(cat => {
     const src = cat.getAttribute('src');
 
-    let replacedSrc = src.replace(/\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225\/if_end/gi, '');
+    let replacedSrc = src.replace(/\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225/gi, '');
 
     cat.setAttribute('src', replacedSrc);
   })
