@@ -110,6 +110,16 @@ if (document.querySelector('.wrapper')) {
   document.querySelector('.bs-menu-toggle').remove();
 }
 
+if (document.querySelector('.product-item')) {
+  document.querySelectorAll('.product-item .thumbnail .media img').imgCat.forEach(cat => {
+    const src = cat.getAttribute('src');
+
+    let replacedSrc = src.replace(/\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225\/if_end/gi, '');
+
+    cat.setAttribute('src', replacedSrc);
+  })
+}
+
 if (document.querySelector('.product-product')) {
   document.querySelector('.table_holder').remove();
   document.querySelector('.share_page_wrapper').remove();
