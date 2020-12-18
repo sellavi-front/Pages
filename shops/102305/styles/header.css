@@ -9,3 +9,12 @@
 .header-cart {
   order: 3;
 }
+
+.header .header-search {
+  max-width: 40% !important;
+  position: relative;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: -15% !important;
+}
