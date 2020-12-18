@@ -19,13 +19,13 @@
 
 @media (min-width: 768px) {
   body.ltr.ru .wrapper .homefeatured_category > div.container {
-    max-width: 720px;
+    max-width: 720px !important;
   }
 }
 
 @media (min-width: 576px) {
   body.ltr.ru .wrapper .homefeatured_category > div.container {
-    max-width: 540px;
+    max-width: 540px !important;
   }
 }
 @media (max-width: 495px) {
