@@ -1,4 +1,4 @@
-export default class Popup {
+export default class PopupWithTable {
   constructor(data, container) {
     this.data = data;
     this.container= container;

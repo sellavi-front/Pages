@@ -11,3 +11,7 @@
 #cart > span.d-none.d-lg-inline-block {
   display: none !important
 }
+
+#home > div > div.content-area > section.page-section.titles > div > div > h1 {
+  font-size: 22px !important;
+}
