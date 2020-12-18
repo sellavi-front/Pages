@@ -5,12 +5,15 @@
 @import '../../../components/VideoBanner/VideoBanner.css';
 
 @import './pay-delivery/pay-delivery.css';
-@import './header/header.css';
+@import './header/sf-menu/sf-menu.css';
+@import '../../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
+@import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
+@import '../../../components/HeaderTypeTwo/styles/cart/cart.css';
 @import './banner/banner-caption.css';
 @import './banner/banner-content.css';
 @import './info-card/info-card.css';
 @import './soc-icons/soc-icons.css';
-@import './drop-down-cart/dropdown-cart.css';
+/* @import './drop-down-cart/dropdown-cart.css'; */
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
