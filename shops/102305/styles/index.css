@@ -1,4 +1,4 @@
 @import '../../../templates/TemplateTypeTwo/styles/index.css';
 @import './../styles/categories.css';
 @import './../styles/header.css';
-@import './modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
