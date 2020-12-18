@@ -16,4 +16,5 @@ body.theme_11 .header-cart .cart-wrapper .cart-qty-circle {
   font-size: 11px !important;
   right: 0 !important;
   left: auto !important;
+  display: block !important;
 }
