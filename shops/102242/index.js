@@ -8,10 +8,12 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../components/PictureCategories/PictureCategories.js';
+
+
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
@@ -90,9 +92,15 @@ if (document.querySelector('.wrapper')) {
     col.classList.remove('col-md-3');
   });
 
-  const footerWidgets = document.querySelector('.footer-widgets');
-  const social = new SocialIconsTypeOne(footerWidgets, 'beforeend');
-  social.render();
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
+
+  new SocIconsTypeOne(footerContainer, 'beforeend', /* socialICons */).render();
+
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
 
   document.querySelector('.bs-menu-toggle').remove();
 }

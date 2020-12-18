@@ -6,13 +6,10 @@
 
 @import './pay-delivery/pay-delivery.css';
 @import './header/header.css';
-@import './container.css';
 @import './caption-title/caption-title.css';
 @import './banner/banner-caption.css';
 @import './banner/banner-content.css';
-@import './products/products.css';
 @import './info-card/info-card.css';
-@import './footer/footer.css';
 @import './soc-icons/soc-icons.css';
 @import './drop-down-cart/dropdown-cart.css';
 
@@ -22,6 +19,14 @@
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import '../../../components/ColorChoise/ColorChoise.css';
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+
+@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+@import '../../../templates/TemplateTypeTwo/styles/products/products.css';
+@import '../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
+@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
