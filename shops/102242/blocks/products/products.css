@@ -1,4 +1,4 @@
-@import './title.css';
+/* @import './title.css';
 @import './card.css';
 @import './buttons/bth-whishlist.css';
 @import './buttons/button-container.css';
@@ -16,6 +16,10 @@
   grid-row-gap: 50px;
   margin-top: 3%;
   justify-content: center;
+} */
+
+body.theme_11 .wrapper .page-section .products.grid {
+  justify-content: space-between;
 }
 
 .fa-stack {
