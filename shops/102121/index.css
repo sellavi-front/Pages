@@ -23,7 +23,7 @@ body.ltr.ru > div > div.content-area > section.page-section.titles > div > div >
   font-size: 22px !important;
 }
 
-#content > div {
+.information #content > div {
   margin: 0 !important;
 }
 
