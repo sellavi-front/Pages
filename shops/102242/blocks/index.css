@@ -6,6 +6,7 @@
 
 @import './pay-delivery/pay-delivery.css';
 @import './header/sf-menu/sf-menu.css';
+@import './header/header.css';
 @import '../../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
 @import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
 @import '../../../components/HeaderTypeTwo/styles/cart/cart.css';
