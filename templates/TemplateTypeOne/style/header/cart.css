@@ -12,10 +12,8 @@ body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart {
   }
 
   .header_widgets .header-cart {
-    position: absolute !important;
-    display: block !important;
-    top: 30px !important;
-    left: 15px !important;
+    display: flex !important;
+    align-items: center;
   }
 
   .header_widgets .header-cart a {
