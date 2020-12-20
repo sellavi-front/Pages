@@ -35,6 +35,6 @@ body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart {
     height: 15px;
     top: -16px;
     right: auto !important;
-    left: -5px;
+    left: -5px !important;
   }
 }
