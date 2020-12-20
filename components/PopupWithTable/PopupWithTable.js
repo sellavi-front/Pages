@@ -13,7 +13,7 @@ export default class PopupWithTable {
         </span>
           Таблица размеров
       </button>
-    `)
+    `);
   }
 
   setPopup() {
@@ -46,6 +46,6 @@ export default class PopupWithTable {
   }
 
   render(){
-    this.container.inserAdjacentHTMK('beforebegin', this.setPopup(this.data))
+    this.container.inserAdjacentHTMK('beforeend', this.setPopup(this.data))
   }
 }
