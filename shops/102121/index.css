@@ -5,6 +5,7 @@
 /* @import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css'; */
 @import '../../components/PictureCategories/PictureCategories.css';
 @import url('../../fixes/js/FooterCopy/FooterCopy.css');
+@import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 
 
 #cart > span.d-none.d-lg-inline-block {
