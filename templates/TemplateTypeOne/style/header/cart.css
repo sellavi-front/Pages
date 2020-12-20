@@ -3,6 +3,7 @@ body.ltr .header-cart .cart-wrapper #cart {
 }
 
 body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart {
+  padding: 0 !important;
 }
 
 @media (max-width: 991px) {
