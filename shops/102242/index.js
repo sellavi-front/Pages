@@ -20,6 +20,9 @@ import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
 import socIconsData from './utils/socIconsData.js';
+import tableData from './utils/tableData.js';
+import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
+import '../../components/PopupWithTable/template/tableTemplate.js'
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
@@ -147,6 +150,10 @@ if (document.querySelector('.product-product')) {
 
   const colorChoise = new ColorChoise();
   colorChoise.render();
+
+  const product = document.querySelector('#product');
+
+  new PopupWithTable(tableData, product, tableTemplate);
 }
 
 // if (location.href.includes('term-of-use')) {
