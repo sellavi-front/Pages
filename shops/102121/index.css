@@ -8,6 +8,7 @@
 @import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../templates/TemplateTypeTwo/styles/index.css';
 
 
 #cart > span.d-none.d-lg-inline-block {
