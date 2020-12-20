@@ -2,11 +2,15 @@ body.ltr .header-cart .cart-wrapper #cart {
   color: black !important;
 }
 
-@media (max-width: 991px) {
+body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart {
 
+}
+
+@media (max-width: 991px) {
   .header_widgets .header-search  {
     display: none !important;
   }
+
   .header_widgets .header-cart {
     position: absolute !important;
     display: block !important;
