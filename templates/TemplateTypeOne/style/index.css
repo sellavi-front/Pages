@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
-@import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
+/* @import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
+ */
+ @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
