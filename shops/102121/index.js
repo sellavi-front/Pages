@@ -6,7 +6,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import contactData from './utils/contactData.js'
 
-import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
+// import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
