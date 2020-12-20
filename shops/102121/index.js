@@ -9,6 +9,7 @@ import contactData from './utils/contactData.js'
 import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js'
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');

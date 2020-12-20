@@ -6,6 +6,8 @@
 @import '../../components/PictureCategories/PictureCategories.css';
 @import url('../../fixes/js/FooterCopy/FooterCopy.css');
 @import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../modules/ButtonContainerInProduct/btn-with-border.css';
 
 
 #cart > span.d-none.d-lg-inline-block {
