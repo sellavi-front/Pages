@@ -68,7 +68,7 @@ window.onload = () => {
 
     let mainContainer = document.querySelector(".custom_banner")
 /*    mainContainer.setAttribute("class", "container-fluid")*/
-    mainContainer.insertAdjacentHTML('afterbegin', `
+    mainContainer.insertAdjacentHTML('afterend', `
         <ul class="categories__block">
             <li class="category__block_item" onclick="location.href='https://whitemoon.shop/man/'">
                 <div class="category__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
