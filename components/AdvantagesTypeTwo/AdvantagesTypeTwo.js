@@ -19,7 +19,7 @@ export default class AdvantagesTypeTwo {
   setData() {
     return this.data.map(
       (item) => `
-        <div class="advantages__elem col">
+        <div class="advantages__elem">
           <img class="advantages__icon" src="${item.icon}">
           <p class="advantages__text">
             ${item.text}

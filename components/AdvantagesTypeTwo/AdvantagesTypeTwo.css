@@ -1,0 +1,19 @@
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.advantages__elem {
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media (max-width: 992px) {
+  .advantages {
+    flex-wrap: wrap;
+  }
+}
