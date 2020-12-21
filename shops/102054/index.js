@@ -66,8 +66,8 @@ window.onload = () => {
       location.href = "https://whitemoon.shop/delivery/"
     })
 
-    let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
-    mainContainer.setAttribute("class", "container-fluid")
+    let mainContainer = document.querySelector(".custom_banner")
+/*    mainContainer.setAttribute("class", "container-fluid")*/
     mainContainer.insertAdjacentHTML('afterbegin', `
         <ul class="categories__block">
             <li class="category__block_item" onclick="location.href='https://whitemoon.shop/man/'">
