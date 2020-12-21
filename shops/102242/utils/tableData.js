@@ -7,7 +7,7 @@ const dataDefault = {
       text: ['INT', 'Обхват <br />груди,см', 'Обхват <br />талии, см', 'Обхват <br />бедер, см'],
     },
     {
-      selector: 'table-sizes__row_item_title',
+      selector: 'table-sizes__row_item',
       text: ['XXS', '80', '60', '88'],
     },
     {
