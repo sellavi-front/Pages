@@ -13,7 +13,7 @@ import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsType
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
 import senderData from './utils/senderData.js';
-import socialICons from './utils/socialICons.js'
+import socialIcons from './utils/socialIcons.js'
 
 if (document.querySelector('.common-home')) {
 
@@ -39,7 +39,7 @@ if (document.querySelector('.common-home')) {
 if (document.querySelector('.wrapper')) {
   const footerContainer = document.querySelector('.footer-widgets>div>div');
 
-  new SocIconsTypeOne(footerContainer, 'beforeend', /* socialICons */).render();
+  new SocIconsTypeOne(footerContainer, 'beforeend', socialIcons).render();
 
   const socIconsContainer = document.querySelector('.soc-icons>.container');
   socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
