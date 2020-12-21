@@ -13,8 +13,12 @@
 }
 
 .advantages__elem img {
-  width: 40px;
-  height: auto;
+  width: 33px;
+  height: 33px;
+}
+
+.advantages__text {
+  margin: 2%;
 }
 
 @media (max-width: 992px) {
