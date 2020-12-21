@@ -5,3 +5,9 @@
 .table-sizes__row_item {
   color: #89776A;
 }
+
+@media (max-width: 395px) {
+  .table-sizes__row {
+    text-align: center;
+  }
+}
