@@ -49,6 +49,7 @@ export default class PopupWithTable {
   }
 
   eventHandler(e) {
+    console.log(e.target);
     if (e.target.closets('button').classList.contains('open-popup')) {
       this.container.querySelector('popup').classList.remove('d-none');
     }
@@ -63,7 +64,6 @@ export default class PopupWithTable {
 
   render() {
     this.createButton();
-    console.log(this.container);
     this.container.insertAdjacentHTML('beforeend', this.setPopup(this.data));
 
     this.container.addEventListener('click', (e) => this.eventHandler(e));
