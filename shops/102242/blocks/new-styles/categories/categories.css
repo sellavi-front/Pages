@@ -7,6 +7,12 @@ body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media
   text-transform: none !important;
 }
 
+@media (max-width: 1373px) {
+  body.ru.ltr .wrapper .homefeatured_category>div>div>div {
+    margin: 0 10px 60px 0 !important;
+  }
+}
+
 
 @media (max-width: 495px) {
   .thumbnail-banner .media-link .img-bg {
