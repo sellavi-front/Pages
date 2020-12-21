@@ -3,6 +3,7 @@
     no-repeat;
   background-size: cover;
   padding: 3%;
+  margin-top: 80px !important;
 }
 
 .banner-content__item {
