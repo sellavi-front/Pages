@@ -100,7 +100,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 }
 
 body.sidenav-enabled.ltr .wrapper-closed {
-  height: 55vh;
+  min-height: 55vh;
 }
 
 @media (max-width: 1224px) {
