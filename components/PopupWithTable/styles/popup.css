@@ -1,5 +1,5 @@
 @import './__content/popup__content.css';
-@import './table/table.css';
+
 
 .popup {
   position: fixed;
@@ -17,8 +17,6 @@
 ._is-opened {
   display: flex;
 }
-
-
 
 .popup__wrapper {
   position: absolute;

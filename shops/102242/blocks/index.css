@@ -23,6 +23,8 @@
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import '../../../components/ColorChoise/ColorChoise.css';
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+@import '../../../components/PopupWithTable/styles/popup.css';
+@import '../../../components/PopupWithTable/styles/table/table.css';
 
 @import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 @import '../../../templates/TemplateTypeTwo/styles/products/products.css';

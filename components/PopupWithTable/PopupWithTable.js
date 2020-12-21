@@ -1,19 +1,22 @@
 export default class PopupWithTable {
   constructor(data, container, template) {
     this.data = data;
-    this.container= container;
+    this.container = container;
     this.template = template;
   }
 
   createButton() {
-    this.container.insertAdjacentHTML('beforeend', `
+    this.container.insertAdjacentHTML(
+      'beforeend',
+      `
       <button class="table-sizes__btn">
         <span>
           <img src="https://res.cloudinary.com/gz-company/image/upload/v1608468514/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/icons8-%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0_1_f5txn3.svg">
         </span>
           Таблица размеров
       </button>
-    `);
+    `,
+    );
   }
 
   setPopup() {
@@ -42,11 +45,26 @@ export default class PopupWithTable {
           </svg>
         </div>
       </div>
-    `
+    `;
   }
 
-  render(){
+  eventHandler(e) {
+    if (e.target.closets('button').classList.contains('open-popup')) {
+      this.container.querySelector('popup').classList.remove('d-none');
+    }
+
+    if (
+      e.target.closest('div').classList.contains('popup__close') ||
+      e.target.closest('div').classList.contains('popup-wrapper')
+    ) {
+      this.container.querySelector('popup').classList.add('d-none');
+    }
+  }
+
+  render() {
     this.createButton();
-    this.container.inserAdjacentHTMK('beforeend', this.setPopup(this.data))
+    this.container.inserAdjacentHTMK('beforeend', this.setPopup(this.data));
+
+    this.container.addEventListener('click', (e) => this.eventHandler(e));
   }
 }
