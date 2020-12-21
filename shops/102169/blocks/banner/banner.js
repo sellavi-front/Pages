@@ -14,15 +14,7 @@ let bannerLayout = `
                 </div>
 
                 <div class="social__item">
-                    <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516752/sellavi/102169/Group_3_pgihcu.png" alt="social" />
-                </div>
-
-                <div class="social__item">
                     <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516743/sellavi/102169/Group_1_o2dhef.png" alt="social" />
-                </div>
-
-                <div class="social__item">
-                    <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516743/sellavi/102169/Group_2_dagjbp.png" alt="social" />
                 </div>
             </div>
         </div>
