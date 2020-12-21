@@ -23,6 +23,7 @@
 
 .advantages__text {
   margin: 2%;
+  font-size: 12px;
 }
 
 @media (max-width: 992px) {
