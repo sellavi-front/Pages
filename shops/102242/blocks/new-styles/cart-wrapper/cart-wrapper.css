@@ -23,3 +23,7 @@ body.ru.ltr .header-cart .cart-wrapper .cart-qty-circle {
   width: 15px !important;
   height: 15px !important;
 }
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+  margin-top: 3px;
+}
