@@ -5,7 +5,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Ляховский Александр Владимирович');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Скотарева Наталия Анатольевна');
 
   req.setTemplate();
 }
@@ -13,16 +13,16 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', media);
   req.setTemplate();
 }
 
 if (location.href.includes('policy')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', document.querySelector("#content > div > div"));
+  const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', document.querySelector("#content > div > div"));
   req.setTemplate();
 }
 
 if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Ляховский Александр Владимирович', document.querySelector("#content > div > div"), dataContact);
+  const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
