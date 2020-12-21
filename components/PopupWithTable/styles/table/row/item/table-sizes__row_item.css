@@ -3,3 +3,7 @@
   max-width: 130px;
   width: 100%;
 }
+
+.popup__description_text {
+  margin-bottom: 6px !important;
+}
