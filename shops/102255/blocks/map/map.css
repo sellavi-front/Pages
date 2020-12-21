@@ -10,3 +10,24 @@
     color: black;
     font-weight: 200;
 }
+
+ul.contact__list {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.contact__list-el .contact__list-title {
+    font-size: 21px;
+}
+
+.contact__list-el .contact__list-text {
+    font-size: 21px;
+}
+
+.contact__map {
+    position: relative;
+    top: -50px;
+}
+
+.contact__map iframe {
+    height: 410px;
+}
