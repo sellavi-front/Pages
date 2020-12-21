@@ -13,9 +13,7 @@
   justify-content: center;
   overflow-y: hidden;
   z-index: 999;
-  background: rgba(0,0,0,.3);
 }
-
 
 .popup__wrapper {
   position: absolute;

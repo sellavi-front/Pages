@@ -22,7 +22,7 @@ export default class PopupWithTable {
   setPopup() {
     return `
       <div class="popup d-none">
-        <div class="popup-wrapper"></div>
+        <div class="popup__wrapper"></div>
           <div class="popup__content">
             ${this.template(this.data)}
             <div class="popup__close">
