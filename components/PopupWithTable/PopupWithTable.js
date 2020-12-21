@@ -52,14 +52,14 @@ export default class PopupWithTable {
     console.log('1', e.target);
     if (e.target.classList.contains('table-sizes__btn')) {
       console.log(this.container);
-      this.container.querySelector('popup').classList.remove('d-none');
+      this.container.querySelector('.popup').classList.remove('d-none');
     }
 
     if (
       e.target.closest('div').classList.contains('popup__close') ||
       e.target.closest('div').classList.contains('popup-wrapper')
     ) {
-      this.container.querySelector('popup').classList.add('d-none');
+      this.container.querySelector('.popup').classList.add('d-none');
     }
   }
 
