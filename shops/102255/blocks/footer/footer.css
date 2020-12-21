@@ -11,3 +11,16 @@
     font-size: 22px !important;
     font-weight: 500 !important;
 }
+
+.wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-weight: 500;
+}
+
+h4.widget-title.soc-icons__title {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+
+.widget .widget-title {
+    font-weight: 500 !important;
+}
