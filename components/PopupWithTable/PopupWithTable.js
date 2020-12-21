@@ -21,7 +21,7 @@ export default class PopupWithTable {
 
   setPopup() {
     return `
-      <div class="popup">
+      <div class="popup d-none">
         <div class="popup-wrapper"></div>
         <div class="popup__content">
           ${this.template(this.data)}
