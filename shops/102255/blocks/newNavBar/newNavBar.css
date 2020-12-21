@@ -32,3 +32,8 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 .page-section.latest-section .container .section-title.mb-4.mt-4 span {
     color: black;
 }
+
+.page-section.homefeatured_category .container .section-title.mb-4.mt-4 {
+    margin-bottom: 0px !important;
+    margin-top: 40px !important;
+}
