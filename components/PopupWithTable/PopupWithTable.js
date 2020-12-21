@@ -50,7 +50,7 @@ export default class PopupWithTable {
 
   eventHandler(e) {
     console.log('1', e.target);
-    if (e.target.closets('table-sizes__btn')) {
+    if (e.target.classList.contains('table-sizes__btn')) {
       this.container.querySelector('popup').classList.remove('d-none');
     }
 
