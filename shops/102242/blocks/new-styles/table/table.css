@@ -2,7 +2,8 @@
   color: #C9AF9C;
 }
 
-.table-sizes__row_item {
+.table-sizes__row_item,
+.table-sizes__btn {
   color: #89776A;
 }
 
