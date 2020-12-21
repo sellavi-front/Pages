@@ -22,7 +22,8 @@ export default class ButtonContainerInProduct {
   }
 }
 
-const price = document.querySelectorAll('.product-item .price');
+window.onload = () => {
+  const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 
 if (document.querySelectorAll('.add_to_wishlist').length === 0) {
@@ -34,8 +35,10 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
 const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
 buttonContainerInProduct.createContainer();
-buttonContainerInProduct.delete(addToCart)
-buttonContainerInProduct.delete(wishList)
+buttonContainerInProduct.delete(addToCart);
+buttonContainerInProduct.delete(wishList);
+}
+
 
 // const btnContainer = document.querySelectorAll('.buttons__container')
 
