@@ -9,6 +9,7 @@
 .advantages__elem {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 
