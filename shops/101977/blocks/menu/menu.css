@@ -103,7 +103,7 @@ header > div.header-wrapper > div.container > span {
 }
 
 #home > div > div > section.page-section.titles {
-    top: -15px
+    top: 16px;
 }
 
 #content {
