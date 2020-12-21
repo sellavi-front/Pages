@@ -51,7 +51,7 @@ body.theme_11.ltr
   .cart-wrapper
   #cart
   i {
-  margin-top: 3px inherit;
+  margin-top: 3px !important;
 }
 
 body.ru.ltr.checkout-cart
