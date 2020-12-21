@@ -48,3 +48,20 @@ span.second-title-text {
 #banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span.position-relative {
     color: black;
 }
+
+span.second-title-text2 {
+    font-size: 22px;
+    text-shadow: none;
+}
+
+
+
+.button-in-banner2 {
+    margin-top: 70px;
+    color: #384DC6;
+    font-size: 26px;
+    font-weight: 500;
+    border: 2px solid #E8605D;
+    width: fit-content;
+    padding: 30px 120px 30px 120px;
+}
