@@ -7,16 +7,15 @@
   width: 100vw;
   height: 100vh;
   top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow-y: hidden;
   z-index: 999;
+  background: rgba(0,0,0,.3);
 }
 
-._is-opened {
-  display: flex;
-}
 
 .popup__wrapper {
   position: absolute;
