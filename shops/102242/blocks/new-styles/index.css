@@ -105,13 +105,13 @@ body.sidenav-enabled.ltr .wrapper-closed {
 
 @media (max-width: 1224px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 8% !important;
+    margin: -4px auto 0 8% !important;
   }
 }
 
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto !important;
+    margin: -4px auto !important;
   }
 }
 
