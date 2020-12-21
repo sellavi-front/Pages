@@ -1,7 +1,7 @@
-@import './logo/logo.css';
-@import './search/search.css';
-@import './header-wishlist/header-wishlist.css';
-@import './header-login/header-login.css';
-@import './cart/cart.css';
-@import './header-mobile/header-mobile.css';
-@import './burger/burger.css';
+@import './styles/logo/logo.css';
+@import './styles/search/search.css';
+@import './styles/header-wishlist/header-wishlist.css';
+@import './styles/header-login/header-login.css';
+@import './styles/cart/cart.css';
+@import './styles/header-mobile/header-mobile.css';
+@import './styles/burger/burger.css';
