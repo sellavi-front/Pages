@@ -74,7 +74,7 @@ const setDescription = (data) => {
 const tableSize = (data = dataDefault) => {
   return `
         <div class="popup__content_top">
-          <h2 class="popup__title">${data.text}</h2>
+          <h2 class="popup__title">${data.title}</h2>
           <p class="popup__text">
               ${data.subtitle}
           </p>
