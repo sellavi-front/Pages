@@ -38,7 +38,7 @@ const dataDefault = {
   },
 };
 
-setRowTables = (data) => {
+const setRowTables = (data) => {
   return data.map((elem) => {
     if (data.selector === 'table-sizes__row_item_title') {
       return `
