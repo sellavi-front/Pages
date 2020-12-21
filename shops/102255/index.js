@@ -15,6 +15,11 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.common-home')) {
+  document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<span class="second-title-text2">Заголовок 2 Заголовок 2 Заголовок 2</span>')
+  document.querySelector('.caption-subtitle .second-title-text2').insertAdjacentHTML('afterend', '<div class="button-in-banner">Подробнее</div>')
+}
+
+if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
   customSection.classList.add('container');
 
