@@ -22,7 +22,7 @@ import senderData from './utils/senderData.js';
 import socIconsData from './utils/socIconsData.js';
 import tableData from './utils/tableData.js';
 import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
-import '../../components/PopupWithTable/template/tableTemplate.js'
+import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js'
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
@@ -153,7 +153,7 @@ if (document.querySelector('.product-product')) {
 
   const product = document.querySelector('#product');
 
-  new PopupWithTable(tableData, product, tableTemplate);
+  new PopupWithTable(tableData, product, tableTemplate).render();
 }
 
 // if (location.href.includes('term-of-use')) {
