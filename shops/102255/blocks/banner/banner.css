@@ -44,3 +44,7 @@ span.second-title-text {
     width: fit-content;
     padding: 30px 120px 30px 120px
 }
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span.position-relative {
+    color: black;
+}
