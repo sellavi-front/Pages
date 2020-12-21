@@ -10,9 +10,9 @@ const requsites = {
 };
 
 const dataContact = {
-  adress: 'Москва, ул.Фомичёвой, д.3, стр.1',
+  adress: 'Иркутск, дальневосточная 110/1',
   phone: '8(903)628-70-17',
-  city: 'Москва',
+  city: 'Иркутск',
   timeWork: 'с 10 до 22',
 }
 
