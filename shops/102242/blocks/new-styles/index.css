@@ -99,10 +99,6 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: -4px auto 0 17% !important;
 }
 
-body.sidenav-enabled.ltr .wrapper-closed {
-  min-height: 55vh;
-}
-
 @media (max-width: 1224px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: -4px auto 0 8% !important;

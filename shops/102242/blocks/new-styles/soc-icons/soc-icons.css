@@ -12,6 +12,7 @@ body .footer .footer-widgets .soc-icons__container {
   body .footer .footer-widgets .soc-icons.col-md-3 {
     max-width: 100% !important;
     flex: 0 0 100% !important;
+    margin: 0 auto;
   }
 
   body .footer .footer-widgets .soc-icons.col-md-3 .container {
