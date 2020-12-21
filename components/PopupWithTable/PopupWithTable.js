@@ -63,7 +63,7 @@ export default class PopupWithTable {
 
   render() {
     this.createButton();
-    this.container.inserAdjacentHTMK('beforeend', this.setPopup(this.data));
+    this.container.inserAdjacentHTML('beforeend', this.setPopup(this.data));
 
     this.container.addEventListener('click', (e) => this.eventHandler(e));
   }
