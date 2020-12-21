@@ -21,7 +21,7 @@ export default class PopupWithTable {
       <div class="popup">
         <div class="popup-wrapper"></div>
         <div class="popup__content">
-          ${this.template(data)}
+          ${this.template(this.data)}
         </div>
         <div class="popup__close">
           <svg
