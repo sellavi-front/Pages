@@ -181,4 +181,8 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
     .col-12.button-wrapper.cart-button.mt-2 > a {
         color: white;
     }
+  
+  .row.category_content_wrapper aside#sidebar {
+    margin-bottom: 20px;
+}
 }
