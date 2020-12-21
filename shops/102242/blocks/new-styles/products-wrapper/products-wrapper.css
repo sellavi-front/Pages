@@ -13,3 +13,8 @@ body.ltr.ru .wrapper .page-section .products.grid {
 body.ltr.ru .wrapper .page-section .featured-products {
   justify-content: center !important;
 }
+
+.thumbnail .media-link {
+  width: 100%;
+  margin: 0 !important;
+}
