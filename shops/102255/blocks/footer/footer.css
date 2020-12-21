@@ -28,3 +28,7 @@ h4.widget-title.soc-icons__title {
 .footer-meta .container {
     border-top: 1px solid #D3D3D3;
 }
+
+.soc-icons__container {
+    margin-top: 20px;
+}
