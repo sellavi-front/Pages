@@ -6,7 +6,7 @@ export default class PopupWithTable {
   }
 
   createButton() {
-    this.container.querySelector('#product').append(`
+    this.container.append(`
       <button class="table-sizes__btn">
         <span>
           <img src="https://res.cloudinary.com/gz-company/image/upload/v1608468514/%D0%9A%D0%BE%D1%80%D1%81%D0%B5%D1%82%D1%8B/icons8-%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0_1_f5txn3.svg">
