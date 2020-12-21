@@ -2,21 +2,23 @@ body .footer .footer-widgets .widget-title.soc-icons__title {
   margin-bottom: 25px !important;
 }
 
-
 body .footer .footer-widgets .soc-icons__container {
   justify-content: space-between;
-  width: 70% ;
+  width: 70%;
 }
 
 @media (max-width: 991px) {
   body .footer .footer-widgets .soc-icons.col-md-3 {
     max-width: 100% !important;
     flex: 0 0 100% !important;
-    margin: 0 auto;
   }
 
   body .footer .footer-widgets .soc-icons.col-md-3 .container {
     width: 240px !important;
+  }
+
+  body .footer .footer-widgets .soc-icons__container {
+    margin: 0 auto;
   }
 
   body .footer .footer-widgets .widget-title.soc-icons__title {
