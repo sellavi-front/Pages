@@ -14,6 +14,7 @@ if (document.querySelector('.common-home')) {
   document.querySelector('.caption-subtitle .second-title-text').insertAdjacentHTML('afterend', '<div class="button-in-banner">Подробнее</div>')
 }
 
+window.onload = () => {
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
   customSection.classList.add('container');
@@ -21,7 +22,7 @@ if (document.querySelector('.common-home')) {
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
 }
-
+}
 // if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 //   const footerContainer = document.querySelector('.footer-widgets>div');
 
