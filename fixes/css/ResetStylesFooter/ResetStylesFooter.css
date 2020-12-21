@@ -4,9 +4,9 @@ body.ltr.ru .wrapper footer.footer .footer-widgets {
   border: none !important;
 }
 
-body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+/* body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   color: #A1A1A1 !important;
-}
+} */
 
 body .footer .footer-widgets .widget-title,
 .widget-categories ul li a {
