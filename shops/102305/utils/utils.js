@@ -7,7 +7,7 @@ const contactData = {
     },
     {
       title: 'Телефон',
-      contact: '<a href="tel:+7(910)127-21-79">+7(910)127-21-79</a>',
+      contact: '<a href="tel:+7(964)992-99-97">+7(964)992-99-97</a>',
     },
     {
       title: 'E-mail',
