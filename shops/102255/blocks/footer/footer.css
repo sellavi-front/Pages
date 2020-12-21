@@ -24,3 +24,7 @@ h4.widget-title.soc-icons__title {
 .widget .widget-title {
     font-weight: 500 !important;
 }
+
+.footer-meta .container {
+    border-top: 1px solid #D3D3D3;
+}
