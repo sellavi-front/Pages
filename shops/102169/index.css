@@ -25,3 +25,16 @@
   border-bottom: 5px solid linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   text-transform: none;
 }
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap !important;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.sf-menu.nav>li>a {
+  padding: 5px !important;
+}
