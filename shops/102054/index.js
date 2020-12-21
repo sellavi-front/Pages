@@ -79,7 +79,7 @@ window.onload = () => {
         </ul>
     `)
 
-    /*let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
+    let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
     let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
     titleNewCollection.classList.add("title__new__collection")
     let productRowItems = oldProductRow.querySelectorAll(".product-item")
@@ -96,7 +96,7 @@ window.onload = () => {
       productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
     })
 
-    oldProductRow.remove()*/
+    oldProductRow.remove()
   }
 
   /* Function on all pages */
