@@ -37,6 +37,10 @@ body.ru.ltr.product-product .product-single.product-item .buttons #button-cart:h
   border: 1px solid #887568 !important;
 
 }
+
+.thumbnail .add_to_wishlist button {
+    margin-left: 15px !important;
+}
 /*
 body.ltr.ru
   .wrapper
