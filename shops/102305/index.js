@@ -20,9 +20,8 @@ if (document.querySelector('.common-home')) {
   const map = new ContactsWithMap(customSection, 'beforeend', contactData)
   map.render()
 
-  let advantages = new AdvantagesTypeTwo(document.querySelector(".page-section"), adv)
+  let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div"), adv)
   advantages.render()
-
 }
 
 
