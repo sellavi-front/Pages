@@ -91,12 +91,12 @@ window.onload = () => {
     // </div>
     // `
     // titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
-    let productRowBlock = document.querySelector(".products__block__items")
+    /*let productRowBlock = document.querySelector(".products__block__items")
     productRowItems.forEach(item => {
       productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
     })
 
-    oldProductRow.remove()
+    oldProductRow.remove()*/
   }
 
   /* Function on all pages */
