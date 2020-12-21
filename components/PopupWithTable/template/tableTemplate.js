@@ -54,7 +54,7 @@ const setRowTables = (data) => {
   }).join('');
 };
 
-setDescription = (data) => {
+const setDescription = (data) => {
   return (`
     <h2 class="popup__description_title">${data.title}</h2>
     <div class="popup__description_content">
