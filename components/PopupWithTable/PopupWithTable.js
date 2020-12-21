@@ -58,7 +58,7 @@ export default class PopupWithTable {
 
     if (
       e.target.closest('div').classList.contains('popup__close') ||
-      e.target.closest('div').classList.contains('popup-wrapper')
+      e.target.closest('div').classList.contains('popup__wrapper')
     ) {
       this.container.querySelector('.popup').classList.add('d-none');
     }
