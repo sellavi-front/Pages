@@ -46,6 +46,18 @@
     font-size: 1.5rem !important;
   }
 
+  body#home .mobile_side_nav .sidenav_search {
+    display: block !important;
+  }
+
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    left: auto !important;
+    right: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    top: 80px;
+  }
+
 }
 
 @media (min-width: 768px) {
