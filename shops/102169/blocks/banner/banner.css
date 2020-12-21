@@ -103,6 +103,11 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control
   margin-left: 75% !important;
 }
 
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+  border-color: #3c3c3c !important;
+  border-bottom: 1px solid #333 !important;
+}
+
 .wrapper .header .header-wrapper .header-search input {
   border: none !important;
   border-bottom: 0 !important;
