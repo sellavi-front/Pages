@@ -32,3 +32,19 @@ h4.widget-title.soc-icons__title {
 .soc-icons__container {
     margin-top: 20px;
 }
+
+h4.widget-title.soc-icons__title {
+    text-transform: lowercase !important
+}
+
+h4.widget-title.soc-icons__title::first-letter {
+    text-transform: uppercase;
+}
+
+.footer-widgets .container .row {
+    flex-wrap: nowrap;
+}
+
+footer .soc-icons {
+    max-width: 203px !important;
+}
