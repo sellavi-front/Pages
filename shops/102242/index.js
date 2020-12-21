@@ -117,6 +117,22 @@ if (document.querySelector('.wrapper')) {
   socIcons.classList.add('col-md-3');
 
   document.querySelector('.bs-menu-toggle').remove();
+
+
+const wishList = `
+  <a
+    id="wishlist"
+    class="position-relative"
+    href="https://${location.host}/index.php?route=account/wishlist"
+    role="link"
+   >
+   <i class="far fa-heart"></i>
+  </a>`;
+
+  document
+      .querySelector('.header_widgets')
+      .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
+
 }
 
 // if (document.querySelector('.product-item')) {
