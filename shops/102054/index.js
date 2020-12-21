@@ -79,7 +79,7 @@ window.onload = () => {
         </ul>
     `)
 
-    let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
+    /*let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
     let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
     titleNewCollection.classList.add("title__new__collection")
     let productRowItems = oldProductRow.querySelectorAll(".product-item")
@@ -89,14 +89,14 @@ window.onload = () => {
         <div class="products__block__banner"><img alt="photo" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607527479/sellavi/102054/5T3A9736-min_bmsxax.jpg" onclick="location.href='https://whitemoon.shop/1/'" /></div>
         <div class="products__block__items"></div>
     </div>
-  `
+    `
     titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
     let productRowBlock = document.querySelector(".products__block__items")
     productRowItems.forEach(item => {
       productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
     })
 
-    oldProductRow.remove()
+    oldProductRow.remove()*/
   }
 
   /* Function on all pages */
