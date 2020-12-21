@@ -24,3 +24,11 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
     padding: 0% !important;
 }
+
+.page-section.homefeatured_category .container .section-title.mb-4.mt-4 span{
+    font-size: 30px !important;
+}
+
+.page-section.latest-section .container .section-title.mb-4.mt-4 span {
+    color: black;
+}
