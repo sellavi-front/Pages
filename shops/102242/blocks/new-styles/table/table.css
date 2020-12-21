@@ -11,6 +11,11 @@
   fill: #89776A;
 }
 
+.popup__close {
+  top: 15px;
+  right: 10px;
+}
+
 @media (max-width: 395px) {
   .table-sizes__row {
     text-align: center;
