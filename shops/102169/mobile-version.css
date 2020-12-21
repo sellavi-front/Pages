@@ -59,6 +59,16 @@
     width: 100%;
   }
 
+  .banner__description {
+    text-align: center;
+    margin: 5%;
+  }
+
+  .banner__title {
+    margin-top: 60%;
+    text-align: center;
+  }
+
 }
 
 @media (min-width: 768px) {
