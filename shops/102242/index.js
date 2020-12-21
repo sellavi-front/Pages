@@ -13,7 +13,7 @@ import FormBasic from '../../components/FormBasic/FormBasic.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
-import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
+// import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 
 import { bannerContent } from './constants/constants.js';
