@@ -5,6 +5,7 @@
   padding: 40px;
   border-radius: 16px;
   position: relative;
+  overflow-y: scroll;
 }
 
 .popup__close {
@@ -16,7 +17,8 @@
 @media (max-width: 505px) {
   .popup__content {
     height: 90%;
-    top: 60px;
+    top: 20px;
+    padding: 20px;
   }
 
   .popup__close {
