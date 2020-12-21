@@ -1,5 +1,6 @@
 @import './item/table-sizes__row_item.css';
 @import './title/table-sizes__row_item_title.css';
+@import './description/popup__description.css';
 
 .table-sizes__row {
   border-bottom: 1px solid #e0dfdd;
