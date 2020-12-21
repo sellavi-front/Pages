@@ -55,7 +55,8 @@
     right: 0 !important;
     box-shadow: none !important;
     border: none !important;
-    top: 80px;
+    top: 100px;
+    width: 100%;
   }
 
 }
