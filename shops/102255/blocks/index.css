@@ -44,3 +44,7 @@ body strong {
   font-family: 'Montserrat', sans-serif !important;
 
 }
+
+span.total_title.position-relative {
+    color: black;
+}
