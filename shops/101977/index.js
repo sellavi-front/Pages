@@ -10,7 +10,7 @@ import salesData from './utils/salesData.js';
 import payDeliver from './utils/deliveryPay.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import senderData from './utils/senderData.js';
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+
 
 
 if (location.pathname === '/') {
