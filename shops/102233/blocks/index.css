@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 @import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
@@ -38,6 +38,22 @@
 
 body h1 {
   font-size: 1.8 rem;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .wrapper .header .header-wrapper .logo {
