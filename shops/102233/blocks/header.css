@@ -1,4 +1,4 @@
-body:not(.common-home) .wrapper .header {
+.wrapper .header {
   background: transparent !important;
   position: absolute !important;
 }
