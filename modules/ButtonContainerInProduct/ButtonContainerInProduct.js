@@ -32,11 +32,13 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   var wishList = document.querySelectorAll('.add_to_wishlist');
 }
 
-const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
+setTimeout(() => {
+  const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
-buttonContainerInProduct.createContainer();
-buttonContainerInProduct.delete(addToCart);
-buttonContainerInProduct.delete(wishList);
+  buttonContainerInProduct.createContainer();
+  buttonContainerInProduct.delete(addToCart);
+  buttonContainerInProduct.delete(wishList);
+}, 3000)
 
 
 
