@@ -7,6 +7,7 @@ import AdvantagesTypeTwo from "../../components/AdvantagesTypeTwo/AdvantagesType
 import {adv} from "./utils/utils.js"
 import {contactData} from "./utils/utils.js"
 import Footer from "./blocks/footer.js"
+import ProductPage from "./blocks/product-page.js"
 
 
 let fixes = new Fixes()
@@ -28,6 +29,11 @@ if (document.querySelector('.common-home')) {
 
   let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div"), adv)
   advantages.render()
+}
+
+if(document.querySelector(".product-product")) {
+  let product = new ProductPage()
+  product.renderColor()
 }
 
 
