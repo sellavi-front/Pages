@@ -93,10 +93,6 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
   left: auto !important;
 }
 
-body .md-style-active label.placeholder {
-  opacity: .1;
-}
-
 @media (max-width: 1595px) {
   .common-home .section-title {
     max-width: 800px;
