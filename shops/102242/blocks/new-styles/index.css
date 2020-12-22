@@ -94,6 +94,19 @@ body.ru.ltr .checkout-progress-bar .step-number.active,
   color: white !important;
 }
 
+#product .form-group .text-danger {
+  position: relative !important;
+}
+
+#product .form-group {
+  align-items: flex-start;
+  flex-direction: column !important;
+}
+
+#product .form-group > div {
+  margin: 10px 0;
+}
+
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: -4px auto 0 17% !important;

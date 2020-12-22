@@ -29,19 +29,6 @@ body.theme_11 .wrapper .page-section .products.grid {
 .shop-sorting {
   display: none !important;
 }
-
-#product .form-group .text-danger {
-  position: relative !important;
-}
-
-#product .form-group {
-  align-items: flex-start;
-  flex-direction: column !important;
-}
-
-#product .form-group > div {
-  margin: 10px 0;
-}
 /*
 @media (max-width: 995px) {
   .products:not(.featured-products-carousel),
