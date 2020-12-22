@@ -47,6 +47,8 @@ if (document.querySelector('.wrapper')) {
   socIcons.classList.add('col-md-3');
 }
 
+document.querySelector('#content').insertAdjacentHTML('beforebegin', '<div class="pre-product-title"><div class="container">Новинки</div></div>');
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ООО"Санитары Столицы"');
 
