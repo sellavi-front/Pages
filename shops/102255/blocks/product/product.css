@@ -147,6 +147,10 @@ div#tab-description {
   #home > div > div.content-area > section.page-section.latest-section > div > h2 {
     margin-left: 0px !important;
 }
+  
+  #home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    font-size: 22px !important;
+}
 }
 
 
