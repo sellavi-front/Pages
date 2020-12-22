@@ -11,7 +11,13 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons .
 body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity {
   background-color: transparent;
   color: #000;
+  border: 1px solid #000;
   flex: inherit;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart:hover {
+  color: #333;
+  background-color: transparent;
 }
 
 .table_holder {
