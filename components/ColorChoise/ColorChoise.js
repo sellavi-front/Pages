@@ -52,7 +52,7 @@ export default class ColorChoise {
         const colorChoise = document.querySelector('.color-choise');
         const colorLabel = colorChoise.querySelectorAll('.custom-control-label');
         this.setColors(colorLabel);
-        this.clearText(colorLabel);
+        //this.clearText(colorLabel);
       }
     })
   }
