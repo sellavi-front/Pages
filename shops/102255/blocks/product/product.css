@@ -118,3 +118,6 @@ div#tab-description {
     visibility: hidden
 }
 
+.buttons.d-flex.flex-wrap.fixed_mobile_button .btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
+    background: #ff000000;
+}
