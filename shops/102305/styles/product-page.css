@@ -4,16 +4,21 @@ body .social-icons {
   display: none;
 }
 
-.quantity {
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity {
   display: none;
 }
 
-.product-product .product-single.product-item .buttons #button-cart {
-  background-color: #3c3c3c;
-  color: #fff;
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity {
+  background-color: transparent;
+  color: #000;
   flex: inherit;
 }
 
 .table_holder {
   display: none;
+}
+
+body.theme_11.product-product .product-single.product-item #tab-description, body.theme_11.product-product .product-single.product-item #tab-description~.table_holder {
+  border-top: 0;
+  padding: 20px 0;
 }
