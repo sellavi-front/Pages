@@ -20,6 +20,20 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
   background-color: transparent;
 }
 
+body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  max-height: 48px;
+  max-width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
+  background-color: transparent;
+  color: #333;
+}
+
 .table_holder {
   display: none;
 }
