@@ -42,3 +42,21 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
     font-size: 14px !important;
     font-weight: 400 !important;
 }
+
+.product-category .shop-sorting.mt-3.mt-lg-0.col-md-12 {
+    display: none;
+}
+
+.product-category .content-area > section.page-section.titles {
+    border: 0px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1608628768/man-virus-protective-suit-mask-disinfecting-buildings-coronavirus-with-sprayer-infection-prevention-control-epidemic-world-pandemic_1_1_h7mfsd.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 300px;
+    display: flex;
+}
+
+.product-category .content-area > section.page-section.titles > div > div > h1 {
+    color: white;
+    position: relative;
+}
