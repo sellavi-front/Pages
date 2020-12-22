@@ -1,18 +1,17 @@
-import socIconsData from "../utils/socIconsData.js"
-import SocialIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js"
-
 export default class Footer {
   addIcons() {
     if (document.querySelector('.wrapper')) {
-      const footerContainer = document.querySelector('.footer-widgets>div>div');
-
-      new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
-
-      const socIconsContainer = document.querySelector('.soc-icons>.container');
-      socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
-
-      const socIcons = document.querySelector('.soc-icons');
-      socIcons.classList.add('col-md-3');
+      document.querySelector(".footer-widgets>.container>.footer-row").insertAdjacentHTML("beforeend", `
+      <div class="col-md-3">
+          <div class="widget widget-categories">
+              <h4 class="widget-title">Мы в социальных сетях</h4>
+              <ul>
+                  <li><a href="https://wa.me/79649929997" role="link" target="_blank"><img src="https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-whatsapp_1_kh2mdl.svg" alt="img"/></a></li>
+                  <li><a href="#" role="link" target="_blank"><img src="https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-instagram_1_rw7nv3.svg" alt="img"/></a></li>
+              </ul>
+          </div>
+      </div>
+      `)
     }
   }
 }
