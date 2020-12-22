@@ -30,7 +30,7 @@ export default class ButtonContainerInProduct {
   } else {
     var wishList = document.querySelectorAll('.add_to_wishlist');
   }
-  console.log(document.querySelectorAll('.add_to_wishlist'));
+
 
   const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
