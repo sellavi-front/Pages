@@ -233,7 +233,7 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
 }
 
 body.theme-gray a:hover {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .row.products.grid {
