@@ -1,0 +1,13 @@
+body.ltr.ru .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
+  background: #FFF1EA !important;
+}
+
+body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: #CCA364 !important;
+  border: none !important;
+  color: white !important;
+}
+
+body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a {
+  border: 1px solid #D0A995 !important;
+}

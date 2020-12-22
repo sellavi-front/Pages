@@ -19,12 +19,21 @@
 /* @import '../../../components/css-components/HeaderTransparent.css'; */
 
 @import '../../../fixes/fixes.css';
+
 @import './pay-delivery/pay-delivery.css';
 @import './header.css';
 @import './banner.css';
 @import './product-page/product-page.css';
 @import './products-wrapper/buttons.css';
 @import './products-wrapper/products-wrapper.css';
+@import './section-title/section-title.css';
+@import './sf-menu/sf-menu.css';
+@import './soc-icons/soc-icons.css';
+@import './sub-categories/sub-categories.css';
+@import './cart-wrapper/cart-wrapper.css';
+@import './footer/footer.css';
+@import './footer/footer-widgets.css';
+@import './footer/footer-list.css';
 
 body h1 {
   font-size: 1.8 rem;
