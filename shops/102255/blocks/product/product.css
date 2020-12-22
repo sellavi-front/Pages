@@ -131,7 +131,7 @@ div#tab-description {
 
 @media (max-device-width: 480px) {
     .product-item.product-layout.col-12.col-sm-6.col-lg-4.col-xl-3.mb-0.mb-md-4 {
-        max-width: 100%
+        max-width: 50%
     }
   
   .page-section.homefeatured_category .img-bg img {
