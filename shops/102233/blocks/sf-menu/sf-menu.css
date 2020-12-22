@@ -1,7 +1,3 @@
-.navigation .nav.sf-menu {
-  justify-content: flex-start !important;
-}
-
 .sf-menu.nav>li>a {
   border-color: #E1B97B !important;
 }
