@@ -139,3 +139,29 @@ body.sidenav-enabled.ltr .flexy > .arrow {
     right: -15px !important;
   }
 }
+
+
+
+
+
+@media (max-device-width: 480px) {
+    .mobile-navigation-wrapper {
+        left: auto !important;
+    }
+
+    body.theme_11 .wrapper .header .header-wrapper .logo {
+        height: auto;
+    }
+
+    .button__list_elem {
+        display: none !important;
+    }
+
+    .dropdown.cart_drop_down {
+        display: none !important;
+    }
+
+    .logo {
+        left: 0;
+    }
+}
