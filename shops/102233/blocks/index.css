@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&display=swap');
 
-@import '../../../templates/TemplateTypeOne/style/index.css';
+@import '../../../templates/TemplateTypeTwo/styles/index.css';
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 @import '../../../components/css-components/ColoredCategories/category/size/cat-col-3.css';
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
-@import '../../../components/css-components/HeaderTransparent.css';
+/* @import '../../../components/css-components/HeaderTransparent.css'; */
 
 @import '../../../fixes/fixes.css';
 @import './pay-delivery/pay-delivery.css';

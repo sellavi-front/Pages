@@ -8,7 +8,7 @@ import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
-import '../../templates/TemplateTypeOne/TemplateTypeOne.js'
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
