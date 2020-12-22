@@ -1,3 +1,8 @@
 body.ltr.ru .wrapper .latest-section h2.section-title {
   color: #887568 !important;
 }
+
+body .content-area .page-section.titles {
+  border: none !important;
+  background: transparent !important;
+}
