@@ -151,6 +151,18 @@ div#tab-description {
   #home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
     font-size: 22px !important;
 }
+  
+  .thumbnail .price_actions .add_to_cart {
+    height: 70% !important;
+}
+
+.thumbnail .add_to_wishlist {
+    height: 70%;
+}
+
+.thumbnail .add_to_wishlist button {
+    width: 35px !important;
+}
 }
 
 
