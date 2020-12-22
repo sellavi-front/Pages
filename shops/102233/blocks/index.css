@@ -27,26 +27,26 @@ body h1 {
 .wrapper .header .header-wrapper .logo {
   z-index: 9999 !important;
 }
-
+/*
 .logo img {
   max-width: 315px !important;
 }
 
 body.theme-red-2.theme_11 .wrapper .header .header-wrapper .header-search button {
   color: black !important;
-}
+} */
 
 body .main-slider .caption-content .caption-subtitle {
   font-family: 'Playfair Display', serif !important;
   color: #2a1f1d;
   font-weight: 700;
 }
-
+/*
 body.theme_11.ltr .wrapper .header .header-wrapper .header-search button,
 body.theme_11 .wrapper .latest-section h2.section-title span,
 body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
   color: #2a1f1d !important;
-}
+} */
 
 body .main-slider .caption-content {
   margin: 0 !important;
@@ -80,7 +80,7 @@ body.theme_11.checkout-checkout .logo {
 body.theme_11 .wrapper .header .header-wrapper .search_black_screen {
   opacity: .2 !important;
 }
-
+/*
 body.theme_11 .wrapper .header .header-wrapper .header-search button {
   right: 19px;
   left: auto;
@@ -93,7 +93,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search.opened button {
 body .content-area .page-section.titles {
   background: transparent !important;
   border-bottom: none !important;
-}
+} */
 
 @media (max-width: 768px ) {
   body .main-slider .caption-content .caption-subtitle > span > span:first-child {
