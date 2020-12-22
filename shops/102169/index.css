@@ -74,3 +74,7 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search
   background: #fff;
   border: 1px solid;
 }
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button:hover {
+  background-color: #c9c9c9;
+}
