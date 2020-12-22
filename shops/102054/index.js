@@ -79,10 +79,10 @@ window.onload = () => {
         </ul>
     `)
 
-    let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
-    let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
-    titleNewCollection.classList.add("title__new__collection")
-    let productRowItems = oldProductRow.querySelectorAll(".product-item")
+    //let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
+    //let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
+    //titleNewCollection.classList.add("title__new__collection")
+    //let productRowItems = oldProductRow.querySelectorAll(".product-item")
 
     // let productsBlock = `
     // <div class="products__block">
