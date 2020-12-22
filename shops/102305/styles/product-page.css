@@ -80,7 +80,7 @@ body .section-title span:after {
     flex: 1;
   }
 
-  .page-section.container.advantages {
+  .advantages {
     display: none;
   }
 }
