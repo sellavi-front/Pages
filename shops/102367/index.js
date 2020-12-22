@@ -49,6 +49,6 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.product-product')) {
-  const colorChoise = new ColorChoise();
+  const colorChoise = new ColorChoise()
   colorChoise.render();
 }
