@@ -121,3 +121,8 @@ div#tab-description {
 .buttons.d-flex.flex-wrap.fixed_mobile_button .btn.btn-theme.btn-theme-transparent.btn-wish-list:hover {
     background: #ff000000;
 }
+
+.buttons__container .add_to_wishlist .btn.btn-theme.btn-theme-transparent.btn-wish-list {
+    border: 1px solid #d1d1d1 !important;
+    
+}
