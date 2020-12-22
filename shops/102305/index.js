@@ -1,5 +1,5 @@
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
-import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
+//import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 import "../../fixes/fixes.js"
 //import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from "./fixes/fixes.js"
@@ -26,7 +26,6 @@ if (document.querySelector('.common-home')) {
   //customSection.classList.add('container')
   //const map = new ContactsWithMap(customSection, 'beforeend', contactData)
   //map.render()
-
   let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div"), adv)
   advantages.render()
 }
