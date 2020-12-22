@@ -78,3 +78,43 @@ body .section-title.section-title-lg {
     font-size: 30px;
     font-weight: 600;
 }
+
+
+
+button#button-cart {
+    background: #ff000000 !important;
+    color: black !important;
+    border: 1px solid #606060;
+}
+
+
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
+    border: 1px solid #606060 !important;
+}
+
+.product-availability {
+    color: #A0A0A0 !important;
+    font-size: 18px !important;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.product-price {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+}
+
+div#tab-description {
+    border-top: 0px !important;
+}
+
+#tab-description > h3 {
+    font-size: 22px !important;
+    font-weight: 700;
+}
+
+#home > div > div.content-area > section:nth-child(1) > div > div > div:nth-child(2) > div.share_page_wrapper > ul {
+    visibility: hidden
+}
+
