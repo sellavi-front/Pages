@@ -13,7 +13,7 @@ export default class VideoBanner {
     return this.obj.map(item => {
       return `
         <video preload="yes" autoplay loop muted playsinline>
-          <source src="${item.src}">
+          <source src="${item.src}"/>
             Your browser does not support the video tag.
         </video>
       `
