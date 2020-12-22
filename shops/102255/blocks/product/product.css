@@ -163,6 +163,10 @@ div#tab-description {
 .thumbnail .add_to_wishlist button {
     width: 35px !important;
 }
+  
+  .product-item .price {
+    margin: 10px 0 15px !important;
+}
 }
 
 
