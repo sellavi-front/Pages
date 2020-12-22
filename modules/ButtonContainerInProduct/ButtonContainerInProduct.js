@@ -22,7 +22,7 @@ export default class ButtonContainerInProduct {
   }
 }
 
-window.onload = () => {
+
   const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 
@@ -37,7 +37,7 @@ const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishLis
 buttonContainerInProduct.createContainer();
 buttonContainerInProduct.delete(addToCart);
 buttonContainerInProduct.delete(wishList);
-}
+
 
 
 // const btnContainer = document.querySelectorAll('.buttons__container')
