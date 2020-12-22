@@ -3,3 +3,13 @@
 body .social-icons {
   display: none;
 }
+
+.quantity {
+  display: none;
+}
+
+.product-product .product-single.product-item .buttons #button-cart {
+  background-color: #3c3c3c;
+  color: #fff;
+  flex: inherit;
+}
