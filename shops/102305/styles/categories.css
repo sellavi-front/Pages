@@ -69,15 +69,15 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   margin: 5%;
 }
 
-.content-area>.page-section>.container>.row>div:nth-child(1) {
+.common-home .content-area>.page-section>.container>.row>div:nth-child(1) {
   order: 3;
 }
 
-.content-area>.page-section>.container>.row>div:nth-child(2) {
+.common-home .content-area>.page-section>.container>.row>div:nth-child(2) {
   order: 1;
 }
 
-.content-area>.page-section>.container>.row>div:nth-child(3) {
+.common-home .content-area>.page-section>.container>.row>div:nth-child(3) {
   order: 2;
 }
 
