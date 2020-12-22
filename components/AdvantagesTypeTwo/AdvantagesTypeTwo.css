@@ -26,6 +26,10 @@
   font-size: 12px;
 }
 
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1142px !important;
+}
+
 @media (max-width: 992px) {
   .advantages {
     flex-wrap: wrap;
