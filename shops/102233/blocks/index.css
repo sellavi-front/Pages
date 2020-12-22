@@ -16,7 +16,8 @@
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
-/* @import '../../../components/css-components/HeaderTransparent.css'; */
+
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
 @import '../../../fixes/fixes.css';
 
