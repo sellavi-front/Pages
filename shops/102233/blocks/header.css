@@ -1,4 +1,4 @@
-.wrapper .header {
+body.theme_11:not(.common-home) .wrapper .header {
   background: transparent !important;
   position: absolute !important;
 }
