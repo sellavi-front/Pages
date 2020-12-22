@@ -144,6 +144,9 @@ div#tab-description {
     padding-top: 30px !important;
     padding-left: 50px !important;
 }
+  #home > div > div.content-area > section.page-section.latest-section > div > h2 {
+    margin-left: 0px !important;
+}
 }
 
 
