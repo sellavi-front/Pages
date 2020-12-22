@@ -21,19 +21,19 @@ export const contactData = {
 export const adv = [
   {
     icon:
-      'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608557908/sellavi/102305/Vector_4_spr3zx.png',
+      'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Coat.svg',
     text: 'Более 10000 товаров',
   },
   {
-    icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608557907/sellavi/102305/Vector_5_wjpae0.png',
+    icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Car.svg',
     text: 'Бесплатная доставка от 2500р',
   },
   {
-    icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608557906/sellavi/102305/Vector_6_ytwl3p.png',
+    icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Smile.svg',
     text: 'Приятное обслуживание',
   },
   {
-    icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608557906/sellavi/102305/Vector_7_zix4ou.png',
+    icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Sale.svg',
     text: 'Постоянные акции',
   }
 ];
