@@ -1,6 +1,3 @@
-body.ltr.ru .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
-  background: #FFF1EA !important;
-}
 
 body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
   background: #CCA364 !important;
@@ -19,3 +16,4 @@ body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .c
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
 }
+
