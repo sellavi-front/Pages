@@ -41,7 +41,7 @@ if (document.querySelector('.common-home')) {
         const a = document.querySelector('.alert');
         banner.insertAdjacentHTML('afterend', a.outerHTML)
         a.remove();
-      }, 1500);
+      }, 1700);
     });
   });
 }
