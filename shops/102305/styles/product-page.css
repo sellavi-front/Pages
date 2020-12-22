@@ -15,6 +15,12 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons .
   flex: inherit;
 }
 
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  color: #333;
+  border: 1px solid;
+  background-color: transparent;
+}
+
 body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart:hover {
   color: #333;
   background-color: transparent;
