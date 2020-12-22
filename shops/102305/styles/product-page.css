@@ -49,3 +49,16 @@ body.theme_11.product-product .product-single.product-item #tab-description, bod
   border-top: 0;
   padding: 20px 0;
 }
+
+.section-title span, .title {
+  font-weight: 600 !important;
+  font-size: 21px !important;
+  line-height: 5%!important;
+  text-align: left !important;
+  border-bottom: 0 !important;
+  text-transform: none;
+}
+
+body .section-title span:before {
+  display: none;
+}
