@@ -31,6 +31,19 @@ if (document.querySelector('.common-home')) {
   }
 
   setBanner();
+
+  const btns = document.querySelectorAll('.add_to_wishlist > button');
+  const banner = document.querySelector('.main-slider');
+
+  btns.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      setTimeout(() => {
+        const a = document.querySelector('.alert');
+        banner.insertAdjacentHTML('afterend', a.outerHTML)
+        a.remove();
+      }, 1500);
+    });
+  });
 }
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
