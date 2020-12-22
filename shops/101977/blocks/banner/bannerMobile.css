@@ -287,3 +287,10 @@
     z-index: 999;
 }   
 }
+
+@media (max-device-width: 480px) {
+    #home > div > div > section > div > h3 {
+            font-size: 29px;
+            color: black;
+    }
+}
