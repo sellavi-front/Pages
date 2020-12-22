@@ -1,1 +1,5 @@
-@import '/../../../components/ColorChoise/ColorChoise.css';
+@import '/components/ColorChoise/ColorChoise.css';
+
+body .social-icons {
+  display: none;
+}
