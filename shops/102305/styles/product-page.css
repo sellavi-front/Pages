@@ -63,6 +63,10 @@ body .section-title span:before {
   display: none;
 }
 
+body .section-title span:after {
+  display: none;
+}
+
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
     bottom: 69px;
