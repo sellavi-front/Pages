@@ -28,7 +28,7 @@
 }
 
 .search_black_screen {
-  display: none !important;
+  opacity: .2 !important;
 }
 
 body.ltr .wrapper .header .header-wrapper .header-search button {
