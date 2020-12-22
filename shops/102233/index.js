@@ -1,7 +1,6 @@
 // import Requisites from '../../modules/Requisites/Requisites.js';
 // import requsites from './utils/requsites.js'
 import contactData from './utils/contactData.js'
-import socIconsData from './utils/socIconsData.js';
 
 import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 // import '../../fixes/js/FooterCopy/FooterCopy.js';
@@ -10,7 +9,6 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
-import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 
@@ -46,17 +44,17 @@ if (document.querySelector('.common-home')) {
   });
 }
 
-if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
-  const footerContainer = document.querySelector('.footer-widgets>div>div');
+// if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
+//   const footerContainer = document.querySelector('.footer-widgets>div>div');
 
-  new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+//   new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 
-  const socIconsContainer = document.querySelector('.soc-icons>.container');
-  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+//   const socIconsContainer = document.querySelector('.soc-icons>.container');
+//   socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
 
-  const socIcons = document.querySelector('.soc-icons');
-  socIcons.classList.add('col-md-3');
-}
+//   const socIcons = document.querySelector('.soc-icons');
+//   socIcons.classList.add('col-md-3');
+// }
 
 
 // if (location.href.includes('term-of-use')) {
