@@ -13,7 +13,7 @@ import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsType
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
 import senderData from './utils/senderData.js';
-import socialIcons from './utils/socialIcons.js';
+import socialIcons from './utils/social-icons.js';
 
 if (document.querySelector('.common-home')) {
 
