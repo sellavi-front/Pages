@@ -9,3 +9,7 @@
 header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
   border-bottom: 2px solid #E1B97B;
 }
+
+body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy>a {
+  color: black !important;
+}
