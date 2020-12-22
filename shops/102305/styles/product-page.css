@@ -62,3 +62,17 @@ body.theme_11.product-product .product-single.product-item #tab-description, bod
 body .section-title span:before {
   display: none;
 }
+
+@media only screen and (max-width: 576px) {
+  body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+    bottom: 69px;
+    z-index: 1;
+  }
+
+  body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+    color: #333;
+    border: 1px solid #000 !important;
+    background-color: transparent;
+    flex: 1;
+  }
+}
