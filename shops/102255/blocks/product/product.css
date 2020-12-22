@@ -196,4 +196,38 @@ body.theme_11 .wrapper .page-section .products.grid .product-item {
 #home > div > div.content-area > div {
     margin-top: 30px
 }
+  
+  
+  
+  
+  
+  
+  .mobile_wishlist button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
+    display: none;
+}
+
+body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+    position: static;
+    width: 100%;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    margin: auto;
+    bottom: 0;
+    z-index: 9999;
+    padding: 18px 15px;
+    background-color: #fff;
+}
+
+#home > div > div.content-area > section.page-section.overflow-hidden > div > h2 > span {
+    font-size: 20px !important;
+}
+
+#tab-description > span > p:nth-child(18) > span {
+    width: 20px !important;
+}
+
+.MsoNormal span {
+    font-weight: 400 !important;
+}
 }
