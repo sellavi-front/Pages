@@ -37,7 +37,7 @@ body.theme_11.product-product .product-single.product-item .buttons .btn-wish-li
 }
 
 body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
-  background-color: transparent;
+  background-color: #333;
   color: #333;
 }
 
