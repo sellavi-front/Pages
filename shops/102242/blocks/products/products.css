@@ -30,6 +30,10 @@ body.theme_11 .wrapper .page-section .products.grid {
   display: none !important;
 }
 
+#product .form-group .text-danger {
+  position: relative !important;
+}
+
 #product .form-group {
   align-items: flex-start;
   flex-direction: column !important;
