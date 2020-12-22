@@ -30,3 +30,14 @@ body .block-title {
   overflow: hidden;
   text-align: center;
 }
+
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: relative;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  border: 1px solid;
+  padding: 3px;
+  margin: 4px;
+}
