@@ -66,3 +66,22 @@ body.ru.ltr.checkout-cart
   .cart_product:last-child {
   width: 100%;
 }
+
+
+@media (max-width: 991px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+    margin-top: 0 !important;
+  }
+
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    top: 0 !important;
+    right: 25px !important;
+  }
+
+  .header-wrapper > div {
+    height: 100px !important;
+  }
+  body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header_login {
+    display: flex !important;
+  }
+}
