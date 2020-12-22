@@ -22,6 +22,9 @@
 @import './pay-delivery/pay-delivery.css';
 @import './header.css';
 @import './banner.css';
+@import './product-page/product-page.css';
+@import './products-wrapper/buttons.css';
+@import './products-wrapper/products-wrapper.css';
 
 body h1 {
   font-size: 1.8 rem;
