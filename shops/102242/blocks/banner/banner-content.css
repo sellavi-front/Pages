@@ -33,7 +33,7 @@
 
 .banner-content__item_button {
   border-style: dashed !important;
-  width: 336px !important;
+  max-width: 336px !important;
   padding: 2% !important;
   margin-top: 20px !important;
 }
