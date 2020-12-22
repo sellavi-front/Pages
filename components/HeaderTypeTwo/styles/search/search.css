@@ -42,6 +42,11 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
   font-size: 23px !important;
 }
 
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  min-width: 450px !important;
+  width: inherit !important;
+}
+
 @media (max-width: 991px) {
   body.ltr .wrapper .header .header-wrapper .header-search {
     display: none !important;
