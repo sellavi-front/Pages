@@ -69,3 +69,12 @@ span#preTitle {
 #home > div > div.content-area > div {
     margin-top: 100px
 }
+
+body .section-title.section-title-lg {
+    height: fit-content;
+}
+
+#home > div > div.content-area > section.page-section.overflow-hidden > div > h2 > span {
+    font-size: 30px;
+    font-weight: 600;
+}
