@@ -41,6 +41,12 @@ if (document.querySelector('.wrapper')) {
   const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);
 
   contactsClass.render();
+
+  termUse.forEach(el => {
+    if(el.textContent.toLowerCase() === 'условия обслуживания') {
+         el.closest('li').remove();
+    }
+})
 }
 
 if (document.querySelector('.common-home')) {
