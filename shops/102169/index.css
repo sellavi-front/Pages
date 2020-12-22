@@ -69,6 +69,8 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   max-width: 250px;
 }
 
-.fa-shopping-cart {
-  color: #fff !important;
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button {
+  color: #333;
+  background: #fff;
+  border: 1px solid;
 }
