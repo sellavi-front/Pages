@@ -28,3 +28,7 @@ nav.navigation.mobile_side_nav.opened.nav-opened {
         display: block !important;
     }   
 } */
+
+body.sidenav-enabled.ltr .mobile_side_nav ul {
+    direction: ltr;
+}
