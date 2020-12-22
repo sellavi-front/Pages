@@ -1,4 +1,5 @@
 @import './header-icons/header-icons.css';
+@import './navigation/navigation.css';
 
 body .header {
   background: #FBFBFB !important;
