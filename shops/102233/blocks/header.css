@@ -1,3 +1,9 @@
-.wrapper .header {
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) !important;
+body:not(.common-home) .wrapper .header {
+  background: transparent !important;
+  position: absolute !important;
 }
+
+body.theme-cumin.theme_11 .wrapper .header .navigation-wrapper {
+  background: transparent !important;
+}
+
