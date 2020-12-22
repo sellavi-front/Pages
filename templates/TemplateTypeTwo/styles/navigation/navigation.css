@@ -71,6 +71,10 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
   color: #8f8f8f;
 }
 
+body.theme-gray.theme_11 .wrapper .header .navigation-wrapper {
+  background: transparent !important;
+}
+
 @media (max-width: 1200px) {
   .sf-menu .megamenu > ul > .megaline {
     padding-left: 2% !important;
