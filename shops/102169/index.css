@@ -54,3 +54,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
 body.sidenav-enabled.ltr .wrapper-opened {
   position: relative !important;
 }
+
+body.sidenav-enabled.ltr .mobile_side_nav ul {
+  direction: ltr !important;
+}
