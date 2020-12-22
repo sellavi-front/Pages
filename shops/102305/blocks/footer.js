@@ -1,4 +1,4 @@
-import socIconsData from "../utils/socIconsData";
+import socIconsData from "../utils/socIconsData.js"
 import SocialIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js"
 
 export default class Footer {
