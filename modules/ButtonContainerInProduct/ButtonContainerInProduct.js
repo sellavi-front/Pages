@@ -22,7 +22,7 @@ export default class ButtonContainerInProduct {
   }
 }
 
-
+setTimeout(() => {
   const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 
@@ -32,7 +32,7 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   var wishList = document.querySelectorAll('.add_to_wishlist');
 }
 
-setTimeout(() => {
+
   const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
   buttonContainerInProduct.createContainer();
