@@ -38,7 +38,7 @@ setTimeout(() => {
   buttonContainerInProduct.createContainer();
   buttonContainerInProduct.delete(addToCart);
   buttonContainerInProduct.delete(wishList);
-}, 3000)
+}, 4000)
 
 
 
