@@ -1,7 +1,7 @@
 export default class Footer {
   addIcons() {
     if (document.querySelector('.wrapper')) {
-      document.querySelector(".footer-widgets>.container>.footer-row").insertAdjacentHTML("beforeend", `
+      document.querySelector(".wrapper>.footer>.footer-widgets>.container>.row").insertAdjacentHTML("beforeend", `
       <div class="col-md-3">
           <div class="widget widget-categories">
               <h4 class="widget-title">Мы в социальных сетях</h4>
