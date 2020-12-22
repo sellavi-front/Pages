@@ -172,4 +172,20 @@ div#tab-description {
 
 
 
+/* product category */
+@media (max-device-width: 480px) {
+section.page-section.titles {
+    height: 110px !important;
+    background-size: cover !important;
+}
 
+section.page-section.titles > div > div > h1 {
+    font-size: 22px;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item {
+
+    margin: 0 0px 50px 0 !important;
+    max-width: 50%;
+}
+}
