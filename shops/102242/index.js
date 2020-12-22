@@ -174,6 +174,10 @@ if (document.querySelector('.product-product')) {
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
 
+if (location.href.includes('/checkout')) {
+  document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'Перевод на Сбербанк'
+}
+
 // if (location.href.includes('term-of-use')) {
 //   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
