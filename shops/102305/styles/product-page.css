@@ -13,3 +13,7 @@ body .social-icons {
   color: #fff;
   flex: inherit;
 }
+
+.table_holder {
+  display: none;
+}
