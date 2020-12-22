@@ -10,7 +10,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
+import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 
 if (document.querySelector('.common-home')) {
