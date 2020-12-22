@@ -4,7 +4,7 @@
 @import './../styles/footer.css';
 @import './../styles/product-page.css';
 @import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
-@import './../../../modules/ButtonContainerInProduct/btn-with-border.css';
+/*@import './../../../modules/ButtonContainerInProduct/btn-with-border.css';*/
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 /*@import './../../../components/ContactsWithMap/ContactsWithMap.css';*/
 @import './../../../fixes/fixes.css';
