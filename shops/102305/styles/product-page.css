@@ -1,6 +1,6 @@
 @import './../../../components/ColorChoise/ColorChoise.css';
 
-/*body .social-icons {
+body .social-icons {
   display: none;
 }
 
@@ -83,4 +83,4 @@ body .section-title span:after {
   .page-section>.container>.advantages {
     display: none;
   }
-}*/
+}
