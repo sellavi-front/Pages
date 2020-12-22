@@ -66,9 +66,9 @@ span#preTitle {
     font-weight: 600;
 }
 
-#home > div > div.content-area > div {
+/* #home > div > div.content-area > div {
     margin-top: 100px
-}
+} */
 
 body .section-title.section-title-lg {
     height: fit-content;
