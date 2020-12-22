@@ -79,4 +79,8 @@ body .section-title span:after {
     background-color: transparent;
     flex: 1;
   }
+
+  .page-section>.container>.advantages {
+    display: none;
+  }
 }
