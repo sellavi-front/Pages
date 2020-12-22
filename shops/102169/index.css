@@ -78,3 +78,10 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search
 body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button:hover {
   background-color: #c9c9c9;
 }
+
+body.theme_11 .wrapper .header .header-wrapper .header-search #search_results {
+  top: 60px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.5);
+  max-width: 450px !important;
+  width: inherit;
+}
