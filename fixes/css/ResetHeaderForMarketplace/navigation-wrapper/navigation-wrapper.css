@@ -77,7 +77,7 @@ body.theme_11
   > li[data-nav-part='home']:hover
   > ul {
   width: fit-content !important;
-  left: -100% !important;
+  /* left: -100% !important; */
   display: flex !important;
   flex-direction: column !important;
 }
