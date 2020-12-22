@@ -12,3 +12,15 @@
 @import './../styles/fonts.css';
 @import './../styles/content-area.css';
 
+
+
+@media only screen and (max-width: 320px) {
+  body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
