@@ -27,7 +27,7 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
   background-color: transparent;
 }
 
-body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+/*body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
   max-height: 48px;
   max-width: 46px;
   display: flex;
@@ -39,7 +39,7 @@ body.theme_11.product-product .product-single.product-item .buttons .btn-wish-li
 body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
   background-color: #333;
   color: #333;
-}
+}*/
 
 .table_holder {
   display: none;
