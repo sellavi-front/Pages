@@ -60,3 +60,12 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
     color: white;
     position: relative;
 }
+
+span#preTitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#home > div > div.content-area > div {
+    margin-top: 100px
+}
