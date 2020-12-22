@@ -129,8 +129,12 @@ div#tab-description {
 
 
 
-
-.page-section.homefeatured_category .img-bg img {
+@media (max-device-width: 480px) {
+    .product-item.product-layout.col-12.col-sm-6.col-lg-4.col-xl-3.mb-0.mb-md-4 {
+        max-width: 100%
+    }
+  
+  .page-section.homefeatured_category .img-bg img {
     padding: 14px !important;
     height: 200px !important 
 }
@@ -140,6 +144,9 @@ div#tab-description {
     padding-top: 30px !important;
     padding-left: 50px !important;
 }
+}
+
+
 
 
 
