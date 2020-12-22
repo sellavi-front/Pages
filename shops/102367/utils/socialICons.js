@@ -1,4 +1,4 @@
-const socialICons = [
+const socialIcons = [
   {
     src: 'https://res.cloudinary.com/gz-company/image/upload/v1608216460/102367/icons8-instagram_1_poflgh.svg',
     link: 'https://www.instagram.com/bambino_doro/',
@@ -9,4 +9,4 @@ const socialICons = [
   },
 ];
 
-export default socialICons;
+export default socialIcons;
