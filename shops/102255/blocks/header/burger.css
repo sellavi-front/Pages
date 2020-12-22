@@ -36,3 +36,19 @@ body.sidenav-enabled.ltr .mobile_side_nav ul {
 li.sidenav_search {
     direction: ltr;
 }
+
+.logo {
+    position: relative;
+    left: 50px;
+}
+
+
+
+.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+    margin-left: 40px;
+}
+
+.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky .menu-toggle i.fas.fa-bars {
+    font-weight: 100;
+    color: grey;
+}
