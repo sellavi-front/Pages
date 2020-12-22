@@ -44,9 +44,9 @@ export default class ColorChoise {
     this.colorChoiseLabels.forEach(label => {
       if (
         document.querySelector('#product > .form-group') &&
-        this.colorChoiseLabel.textContent.toLowerCase() === 'цвет'
+        label.textContent.toLowerCase() === 'цвет'
       ) {
-        const colorChoiseContainer = document.querySelector('#product > div:nth-child(1)');
+        const colorChoiseContainer = label.closest('div');
         colorChoiseContainer.classList.add('color-choise');
 
         const colorChoise = document.querySelector('.color-choise');
