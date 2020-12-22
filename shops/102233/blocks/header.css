@@ -7,7 +7,6 @@ body.common-home .wrapper .header {
   z-index: 9999;
 }
 
-body.theme-cumin.theme_11 .wrapper .header .navigation-wrapper {
+body.ry.ltr .wrapper .header .navigation-wrapper {
   background: transparent !important;
 }
-
