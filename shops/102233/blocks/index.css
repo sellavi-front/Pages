@@ -12,7 +12,10 @@
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 @import '../../../components/css-components/ColoredCategories/category/size/cat-col-3.css';
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 /* @import '../../../components/css-components/HeaderTransparent.css'; */
 
 @import '../../../fixes/fixes.css';
