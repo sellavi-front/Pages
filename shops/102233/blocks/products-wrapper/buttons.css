@@ -21,6 +21,10 @@ body.ltr.ru
   border: 1px solid #a68e7d !important;
   border-radius: 5px !important;
 }
+
+body .btn.btn-theme.btn-theme-transparent:hover {
+  color: black !important;
+}
 /*
 body.ltr.ru
   .wrapper
