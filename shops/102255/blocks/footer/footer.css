@@ -48,3 +48,21 @@ h4.widget-title.soc-icons__title::first-letter {
 footer .soc-icons {
     max-width: 203px !important;
 }
+
+@media (max-device-width: 480px) {
+    .footer-widgets .container .row {
+        flex-direction: column
+    }
+
+    .footer-widgets .container .row div:nth-child(3) {
+        display: none;
+    }
+
+    .footer-widgets > div.container > div > div:nth-child(2) {
+        display: none;
+    }
+
+    .footer-meta .container {
+        padding-top: 40px;
+    }
+}
