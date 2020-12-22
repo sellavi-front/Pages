@@ -290,15 +290,16 @@ body .section-title span:after, body .section-title span:before {
 
 .category__title {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #333;
-  padding: 5%;
-  border-bottom: 1px solid #c9c9c9;
-  border-radius: 0;
+  color: #fff !important;
+  padding: 8%;
+  border: 0;
+  border-radius: 5px;
+  background: #333;
 }
 
-.category__title a:hover {
+.category__title a {
   color: #c9c9c9 !important;
 }
 
