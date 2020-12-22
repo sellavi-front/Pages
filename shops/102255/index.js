@@ -48,8 +48,10 @@ if (document.querySelector('.wrapper')) {
   socIcons.classList.add('col-md-3');
 }
 
-//document.querySelector('#content').insertAdjacentHTML('beforebegin', '<div class="pre-product-title"><div class="container"><span id="preTitle">Новинки</span></div></div>');
-
+if (document.querySelector('product-category')) {
+  document.querySelector('#content').insertAdjacentHTML('beforebegin', '<div class="pre-product-title"><div class="container"><span id="preTitle">Новинки</span></div></div>');
+}
+  
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ООО"Санитары Столицы"');
 
