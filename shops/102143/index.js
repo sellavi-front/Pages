@@ -41,6 +41,7 @@ if (document.querySelector('.wrapper')) {
   const contactsClass = new ContactsTypeOne(footerWidgets, 'afterbegin', contactData);
 
   contactsClass.render();
+  const termUse = document.querySelectorAll('.footer_content_wrapper >ul>li>a');
 
   termUse.forEach(el => {
     if(el.textContent.toLowerCase() === 'условия обслуживания') {
