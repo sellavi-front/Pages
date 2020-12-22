@@ -48,7 +48,7 @@ if (document.querySelector('.wrapper')) {
   socIcons.classList.add('col-md-3');
 }
 
-if (document.querySelector('product-category')) {
+if (document.querySelector('.product-category')) {
   document.querySelector('#content').insertAdjacentHTML('beforebegin', '<div class="pre-product-title"><div class="container"><span id="preTitle">Новинки</span></div></div>');
 }
   
