@@ -65,3 +65,41 @@ span.second-title-text2 {
     width: fit-content;
     padding: 30px 120px 30px 120px;
 }
+
+
+
+
+@media (max-device-width: 480px) {
+    span.position-relative {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    span.second-title-text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    span.second-title-text2 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .button-in-banner {
+        font-size: 16px;
+        padding: 0px;
+        padding-top: 15px;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 15px;
+    }
+
+    .button-in-banner2 {
+        font-size: 16px;
+        padding: 0px;
+        padding-top: 15px;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 15px;
+    }
+}
