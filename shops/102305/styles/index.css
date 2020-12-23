@@ -37,4 +37,9 @@
     position: static !important;
     margin-top: 0 !important;
   }
+
+  body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: left !important;
+    margin-bottom: 15px !important;
+  }
 }
