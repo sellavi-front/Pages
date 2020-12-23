@@ -34,6 +34,12 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   display: inherit !important;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  line-height: 20px;
+  min-height: unset;
+  text-align: right!important;
+  margin-top: 10px;
+}
 
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
