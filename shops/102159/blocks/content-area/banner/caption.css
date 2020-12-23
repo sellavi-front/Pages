@@ -9,8 +9,8 @@
   text-shadow: none !important;
 }
 
-.caption-subtitle > span {
-  font-size: 3.5vw;
+.caption-subtitle {
+  font-size: 3.5vw !important;
 }
 
 body.common-home .main-slider .caption-content .caption-text .btn-theme {
