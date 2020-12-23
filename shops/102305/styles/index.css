@@ -14,8 +14,14 @@
 
 
 .mobile_one_column .products .thumbnail .caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
   justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 15px 0;
 }
@@ -53,9 +59,14 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
     margin-top: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
     background: rgba(0, 0, 0, 0.2);
@@ -64,8 +75,14 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 
 @media only screen and (max-width: 768px) {
   .mobile_one_column .products .thumbnail .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
     justify-content: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 15px 0;
   }

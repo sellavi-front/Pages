@@ -13,12 +13,16 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
   color: #333;
   border: 1px solid #000 !important;
   background-color: transparent;
+  -webkit-box-flex: inherit;
+  -ms-flex: inherit;
   flex: inherit;
 }
 
 body.theme_11.product-product .product-single.product-item .buttons #button-cart {
   max-height: 48px;
   max-width: 250px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
 }
 
@@ -30,8 +34,14 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
 body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
   max-height: 48px;
   max-width: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   border: 1px solid;
 }
@@ -77,6 +87,8 @@ body .section-title span:after {
     color: #333;
     border: 1px solid #000 !important;
     background-color: transparent;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
   }
 
