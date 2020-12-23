@@ -1,4 +1,4 @@
-@import '../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
+@import '../../templates/TemplateTypeOne/style/index.css';
 @import './blocks/banner/banner.css';
 @import './blocks/footer/footer.css';
 @import './blocks/custom-section-banner/custom-section-banner.css';
