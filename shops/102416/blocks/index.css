@@ -5,3 +5,5 @@
 @import '../../../templates/TemplateTypeTwo/styles/index-withoutnav.css';
 
 @import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
+
+@import '../../../components/HeaderTypeOne/HeaderTypeOne.css';
