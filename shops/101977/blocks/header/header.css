@@ -1,0 +1,13 @@
+.sf-menu.nav>li>a {
+    font-size: 16px !important;
+    font-weight: 500;
+    border-bottom: 0px !important
+}
+
+.wrapper .header .header-wrapper .header-search input {
+    border-bottom: 0px !important;
+}
+
+.header_login {
+    display: none !important;
+}
