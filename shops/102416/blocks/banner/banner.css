@@ -37,3 +37,9 @@
     background: transparent;
     padding: 10px 50px 10px 50px;
 }
+
+.main-slider .caption-content {
+    max-width: 500px;
+    /* margin: 0 0 0 auto; */
+    text-align: right;
+}
