@@ -1,0 +1,39 @@
+
+
+#banner0 > div > div > div > div > div > div > div > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00000059;
+    padding: 20px;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > div {
+    text-align: center;
+}
+
+#banner0 > div > div > div > div > div > div > div > div {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+    color: white;
+    text-shadow: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > div {
+    color: white;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    border: 1px solid white !important;
+    background: transparent;
+    padding: 10px 50px 10px 50px;
+}
