@@ -52,7 +52,6 @@ if (location.href.includes('pay-delivery')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
-<<<<<<< HEAD
 
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
@@ -89,5 +88,3 @@ if (location.href.includes('pay-delivery')) {
 // if(window.location.pathname === '/contact/') {
 //   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div").setAttribute("class", "media-body")
 // }
-=======
->>>>>>> ab40520123bd18440cbb4c119d6ddf4e0e18bbaa
