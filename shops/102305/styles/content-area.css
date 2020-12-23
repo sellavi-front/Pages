@@ -1,0 +1,43 @@
+body.theme_11 .wrapper .page-section .products.grid {
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  color: #000!important;
+  background-color: transparent !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
+  width: 100%;
+  text-align: right;
+  display: inline-block!important;
+  border: 1px solid;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: #c9c9c9 !important;
+}
+
+body .block-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #232323;
+  overflow: hidden;
+  text-align: center;
+}
+
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: relative;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  border: 1px solid;
+  padding: 3px;
+  margin: 4px;
+}

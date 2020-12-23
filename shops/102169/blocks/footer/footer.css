@@ -1,0 +1,9 @@
+.social__li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.social__li a:nth-child(1) {
+  margin-right: 10% !important;
+}

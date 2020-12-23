@@ -1,0 +1,72 @@
+.section__banner_container {
+  position: absolute;
+  width: 100%;
+  height: 630px;
+  background: #BFDCAE;
+  z-index: -1;
+}
+
+
+
+.section__banner_column {
+  width: 100%;
+  max-width: 1200px;
+  background: #F7F7F7;
+  height: 850px;
+  margin: 1% auto 10% auto;
+  position: relative;
+  top: 50px;
+  z-index: -1;
+}
+
+.section__banner_row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section__banner_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__section {
+  padding: 5%;
+  margin-top: 0;
+}
+
+.img__on__banner {
+  position: absolute;
+  left: 55%;
+}
+
+.disphoto__custom_banner {
+  width: 30%;
+  margin-bottom: 2%;
+}
+
+.photo__custom_banner {
+  margin-left: -100px;
+  margin-top: -50px;
+}
+
+.sender-basic {
+  width: 100%;
+  border: 10px solid #455C6B !important;
+  padding: 6% 8%;
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0;
+}
+
+.sender-basic form button {
+  background: #455C6B !important;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 340px;
+  height: 68px;
+  font-weight: bold;
+  font-size: 24px;
+}

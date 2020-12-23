@@ -34,6 +34,23 @@ if (document.querySelector('.common-home')) {
   sender.render();
 
   latestSection.querySelector('.container').classList.remove('container')
+
+  const senderForm = document.querySelector('.sender-basic form');
+  const dataForm = {};
+  senderForm.addEventListener('input', (e) => {
+    if (e.target.getAttribute('name') === 'userName') {
+      dataForm.name = e.target.value;
+    }
+
+    if (e.target.getAttribute('name') === 'phone') {
+      dataForm.phone = e.target.value;
+    }
+  })
+
+  senderForm.querySelector('button').addEventListener('click', () => {
+    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут.%0D%0A${dataForm.name}%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
+  });
+
 }
 
 if (document.querySelector('.wrapper')) {

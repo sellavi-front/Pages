@@ -2,7 +2,6 @@ body .footer .footer-widgets .widget-title.soc-icons__title {
   margin-bottom: 25px !important;
 }
 
-
 body .footer .footer-widgets .soc-icons__container {
   justify-content: space-between;
   width: 50%;
@@ -22,4 +21,11 @@ body .footer .footer-widgets .soc-icons__container {
     text-align: center;
     margin: 25px 0 !important;
   }
+}
+
+p {
+  display: flex;
+  flex-direction: column; 
+  align-self: start;
+  display: grid;
 }

@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
 @import url('https://coospir.github.io/Pages/components/DropDownList/DropDownList.css');
-@import url('https://coospir.github.io/Pages/shops/100980/pages/aboutCompany/aboutCompany.css');
-@import url('https://coospir.github.io/Pages/shops/100980/pages/complex/complex.css');
+@import url('https://coospir.github.io/Pages/shops/100980/pages/aboutPage/aboutCompany.css');
+@import url('https://coospir.github.io/Pages/shops/100980/pages/complexPage/complex.css');
+@import url('https://coospir.github.io/Pages/shops/100980/pages/solutionsPage/solutions.css');
+@import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
+@import url('https://coospir.github.io/Pages/shops/100980/blocks/customSection/whatWeDo/whatWeDo.css');
+@import url('https://coospir.github.io/Pages/shops/100980/blocks/customSection/whyChooseUs/whyChooseUs.css');
+@import url('https://coospir.github.io/Pages/shops/100980/blocks/customSection/howWeWork/howWeWork.css');
+@import url('https://coospir.github.io/Pages/shops/100980/pages/deliveryPage/accordionTemplates/style.css');
 
 html, body,
 body span,
@@ -31,16 +37,53 @@ input.form-control::placeholder,
 
 
 /* Header */
+
+.header .header-search {
+  position: absolute;
+  top: 23px;
+  width: 150px !important;
+  max-width: 270px;
+  left: auto;
+  right: 8% !important;
+}
+
+.header_wishlist {
+  position: absolute;
+  top: 31%;
+  left: auto;
+  transition: transform .7s ease-in-out;
+  right: 4%;
+  font-size: 18px;
+}
+
+.header .header-cart {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  transition: transform .7s ease-in-out;
+}
+
+.main__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
 .navbar__block {
   display: flex;
   justify-content: flex-start;
   margin: 0;
-  width: 100%;
+  width: 70%;
 }
 
 .navbar_item {
-  padding: 10%;
   color: #000;
+  margin-top: 2rem;
+}
+
+.navbar_item + .navbar_item {
+  margin-left: 2rem;
 }
 
 .logo {
@@ -212,6 +255,26 @@ body.ltr ol, body.ltr ul {
   padding-right: unset;
 }
 
+body .content-area {
+  padding-bottom: 5% !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  left: auto;
+  right: 0 !important;
+}
+
+.header-cart .cart-wrapper {
+  height: 41px;
+  border-radius: 4px;
+  border: 0 !important;
+  transition: border .3s;
+}
+
+.header-cart .cart-wrapper:hover {
+  border: 0;
+}
+
 .navigation-wrapper {
   display: none;
 }
@@ -249,8 +312,12 @@ body.theme-red-2 .header {
   width: 100%;
 }
 
-body .content-area {
-  padding-bottom: 0 !important;
+.content__layout__container__item__description h1 {
+  font-weight: 900;
+}
+
+.solutions__column_links>a:hover {
+  cursor: pointer;
 }
 
 /* End */
@@ -355,7 +422,33 @@ body .footer .footer-widgets {
   color: #fff !important;
 }
 
+.steps__block_item:nth-child(2)>.steps__item>img {
+  width: 90px !important;
+}
 
+.steps__block_item>.steps__item>img {
+  width: 80px;
+}
+
+.whyDesc,
+.howDesc {
+  padding: 25px;
+}
+
+.whyDesc h6,
+.howDesc h6 {
+  margin-top: 5%;
+}
+
+.step__item img,
+.step__item h6 {
+  padding: 25px;
+}
+
+#home > div > div.content-area > div.custom_section > div.container.how__we__work > div > div:nth-child(8) > div > h6,
+#home > div > div.content-area > div.custom_section > div.container.how__we__work > div > div:nth-child(9) > div > h6{
+  margin-top: 2%;
+}
 
 /* End */
 
@@ -368,6 +461,10 @@ body .footer .footer-widgets {
   .banner__item {
     display: flex;
     flex-direction: column;
+  }
+
+  .page-header h1 {
+    font-size: 1.5rem !important;
   }
 
   .banner__container {
@@ -469,9 +566,9 @@ body .footer .footer-widgets {
   }
 
   .footer__logo {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
-    top: 38%;
+    top: 0;
     left: 0;
     height: auto;
     width: 100%;
@@ -570,11 +667,18 @@ body .footer .footer-widgets {
     margin-bottom: 5%;
   }
 
+  .about__company_container {
+    padding: 5%;
+  }
+
   .about__company_container h1, .complex__block h1 {
     margin-top: 1%;
     font-weight: 900;
     margin-bottom: 5%;
     font-size: 21px;
+  }
+
+  .complex__block h1 {
     padding: 5%;
   }
 
@@ -583,14 +687,11 @@ body .footer .footer-widgets {
     padding: 5%;
   }
 
-  .step__item p {
-    padding: 0;
-  }
-
   .bread__crumbs_container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 5%;
   }
 
   .about__company_requisites {
@@ -616,11 +717,112 @@ body .footer .footer-widgets {
     width: 100%;
   }
 
+  .navbar__block {
+    display: none;
+  }
+
+
+  .steps__how_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+  .steps__how_item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0;
+    margin: 0;
+  }
+
+  .what__we__do {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .what__we__do_row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .what__we__do_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header_wishlist {
+    position: absolute;
+    top: 31%;
+    left: auto;
+    transition: transform .7s ease-in-out;
+    right: 20%;
+    font-size: 18px;
+  }
+
+
+  .step__item img {
+    width: 40%;
+  }
+
+  .desc {
+    padding: 0;
+  }
+
+  .step__item {
+    padding: 0;
+  }
+
+  body .content-area .page-section.error-page h3 {
+    margin: 0 0 15px;
+    color: #ea0000;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .caption-title a {
+    color: #232323;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
 
   /* Banner Layout */
+
+  .header_wishlist {
+    position: absolute;
+    top: 31%;
+    left: auto;
+    transition: transform .7s ease-in-out;
+    right: 15%;
+    font-size: 18px;
+  }
+
+  .page-header h1 {
+    font-size: 1.5rem !important;
+  }
+
+
+  body .content-area .page-section.error-page h3 {
+    margin: 0 0 15px;
+    color: #ea0000;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+
   .banner__container {
     width: 100%;
     height: auto;
@@ -629,6 +831,7 @@ body .footer .footer-widgets {
     display: flex;
     flex-direction: column;
   }
+
 
   .banner__container {
     display: flex;
@@ -710,6 +913,12 @@ body .footer .footer-widgets {
     padding-right: 0 !important;
   }
 
+  .about__company_container {
+     padding: 5%;
+   }
+
+
+
 
   /* End */
 
@@ -783,9 +992,9 @@ body .footer .footer-widgets {
   }
 
   .footer__logo {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
-    top: 23%;
+    top: 0;
     left: 0;
     height: auto;
     width: 100%;
@@ -844,7 +1053,6 @@ body .footer .footer-widgets {
     font-weight: 900;
     margin-bottom: 5%;
     font-size: 21px;
-    padding: 5%;
   }
 
   .complex__block p {
@@ -852,14 +1060,11 @@ body .footer .footer-widgets {
     padding: 5%;
   }
 
-  .step__item p {
-    padding: 0;
-  }
-
   .bread__crumbs_container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 5%;
   }
 
   .about__company_requisites {
@@ -883,6 +1088,61 @@ body .footer .footer-widgets {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+  }
+
+  .navbar__block {
+    display: none;
+  }
+
+  .steps__how_container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+  .steps__how_item {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 0;
+    margin: 0;
+  }
+
+  .what__we__do {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .what__we__do_row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .what__we__do_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .step__item img {
+    width: 40%;
+  }
+
+  .desc {
+    padding: 0 !important;
+  }
+
+  .caption-title a {
+    color: #232323;
+    font-size: 12px;
   }
 
 }
