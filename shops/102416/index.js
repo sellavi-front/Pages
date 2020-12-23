@@ -8,7 +8,9 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import {navToHeader} from './utils/navToHeader.js';
 
-navToHeader();
+if (document.querySelector('.header-wrapper')) {
+  navToHeader();
+}
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Орлова Елена Геннадьевна');
