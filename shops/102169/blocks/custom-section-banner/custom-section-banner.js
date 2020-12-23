@@ -8,7 +8,7 @@ let customSectionBannerLayout = `
   <div class="section__banner_column">
       <div class="section__banner_row">
         <div class="section__banner_col">
-            <img class="photo__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607670448/sellavi/102169/Component_2_2_fz7n1z.png" alt="img" />
+            <img class="photo__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608726207/sellavi/102169/Component_1_3_mxi5fo.png" alt="img" />
         </div>
         <div class="section__banner_col description__section">
             <p class="section__banner_title">Нашу косметику можно приобрести, как в нашем интернет магазине, так и в других городах России.</p>
