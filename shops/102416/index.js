@@ -5,7 +5,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
-import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 
 
 if (location.href.includes('term-of-use')) {
