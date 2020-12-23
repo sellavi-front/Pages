@@ -35,6 +35,6 @@
 
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     position: static !important;
-    margin-top: 0px !important;
+    margin-top: 0 !important;
   }
 }
