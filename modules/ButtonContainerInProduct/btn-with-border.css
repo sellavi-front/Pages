@@ -27,9 +27,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   font-size: 36px !important;
   line-height: 43px !important;
   text-align: left !important;
-  border-bottom: 3px solid black;
   text-align: left;
-  border-bottom: 5px solid linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
   text-transform: none;
 }
 
@@ -42,7 +40,8 @@ body .section-title {
 }
 
 .thumbnail .price {
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   margin: 0 0 15px !important;
   width: 100%;
 }
