@@ -117,4 +117,8 @@ body .section-title span:after {
 }
 
 
-
+.header-wrapper .container span a {
+    color: white !important;
+    font-family: insert !important;
+    font-size: 30px !important;
+}
