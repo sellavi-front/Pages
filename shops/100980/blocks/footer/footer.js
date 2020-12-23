@@ -26,7 +26,7 @@ const footerMenuLayout = `
       <a href="/about-company/">О компании</a>
       <a href="/delivery/">Доставка, оплата и возврат</a>
       <a href="/complex/">Комплексное оснащение</a>
-      <a href="#">Готовые решения</a>
+      <a href="/solutions/">Готовые решения</a>
   </div>
 `
 

@@ -22,7 +22,7 @@ const contentLayoutOne = `
   `
 
 let renderCustomSectionAboutCompany = () => {
-  customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
+  customSection.insertAdjacentHTML("beforeend", contentLayoutOne)
 }
 
 export default renderCustomSectionAboutCompany

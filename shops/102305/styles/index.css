@@ -1,0 +1,95 @@
+@import '../../../templates/TemplateTypeTwo/styles/index.css';
+@import './../styles/categories.css';
+@import './../styles/header.css';
+@import './../styles/footer.css';
+@import './../styles/product-page.css';
+@import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+/*@import './../../../modules/ButtonContainerInProduct/btn-with-border.css';*/
+@import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
+/*@import './../../../components/ContactsWithMap/ContactsWithMap.css';*/
+@import './../../../fixes/fixes.css';
+
+@import './../styles/fonts.css';
+@import './../styles/content-area.css';
+
+
+.mobile_one_column .products .thumbnail .caption {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 15px 0;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  position: static !important;
+  margin-top: 0 !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: left !important;
+  margin-bottom: 15px !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+  display: inherit !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  line-height: 14px;
+  min-height: unset;
+  text-align: right!important;
+  margin-top: 18px;
+  font-size: 12px;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  font-size: 15px !important;
+}
+
+@media only screen and (max-width: 320px) {
+  body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile_one_column .products .thumbnail .caption {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+  body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    position: static !important;
+    margin-top: 0 !important;
+  }
+
+  body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: left !important;
+    margin-bottom: 15px !important;
+  }
+
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+    display: inherit !important;
+  }
+
+  #home > div > div.content-area > section.page-section.latest-section > div:nth-child(1) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .advantages {
+    margin-top: -45px !important;
+  }
+}
+
+.advantages {
+  margin-top: 15px;
+}

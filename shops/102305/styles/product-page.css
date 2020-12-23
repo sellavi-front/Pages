@@ -1,0 +1,86 @@
+@import './../../../components/ColorChoise/ColorChoise.css';
+
+body .social-icons {
+  display: none;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity {
+  display: none;
+}
+
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  color: #333;
+  border: 1px solid #000 !important;
+  background-color: transparent;
+  flex: inherit;
+}
+
+body.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  max-height: 48px;
+  max-width: 250px;
+  flex: 1;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart:hover {
+  color: #333;
+  background-color: transparent;
+}
+
+body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  max-height: 48px;
+  max-width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
+  background-color: #333;
+  color: #333;
+}
+
+.table_holder {
+  display: none;
+}
+
+body.theme_11.product-product .product-single.product-item #tab-description, body.theme_11.product-product .product-single.product-item #tab-description~.table_holder {
+  border-top: 0;
+  padding: 20px 0;
+}
+
+.section-title span, .title {
+  font-weight: 600 !important;
+  font-size: 21px !important;
+  line-height: 5%!important;
+  text-align: left !important;
+  border-bottom: 0 !important;
+  text-transform: none;
+}
+
+body .section-title span:before {
+  display: none;
+}
+
+body .section-title span:after {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+    bottom: 69px;
+    z-index: 1;
+  }
+
+  body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+    color: #333;
+    border: 1px solid #000 !important;
+    background-color: transparent;
+    flex: 1;
+  }
+
+  .advantages {
+    display: none;
+  }
+}

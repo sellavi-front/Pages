@@ -1,0 +1,86 @@
+.thumbnail-banner .media-link .img-bg {
+  height: 100% !important;
+}
+
+.thumbnail.thumbnail-banner .caption-inner {
+  border: 0;
+  padding: 15px;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+  display: flex;
+  position: absolute;
+  margin-top: 360px;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+  text-align: center !important;
+  height: 50px !important;
+}
+
+body .div-cell, body .div-table {
+  height: 100%;
+  display: table!important;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title span, .thumbnail.thumbnail-banner .caption-title span {
+  background-color: transparent;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
+  text-align: center;
+  text-transform: unset;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+  color: #fff;
+}
+
+.category__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.count__products {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-weight: 100;
+}
+
+.more__category {
+  padding: 2%;
+  border: 1px solid #fff;
+  width: 200px;
+  margin-top: 5%;
+  color: #fff;
+}
+
+.more__category:hover {
+  color: #fff !important;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+  margin: 5%;
+}
+
+.common-home .content-area>.page-section>.container>.row>div:nth-child(1) {
+  order: 3;
+}
+
+.common-home .content-area>.page-section>.container>.row>div:nth-child(2) {
+  order: 1;
+}
+
+.common-home .content-area>.page-section>.container>.row>div:nth-child(3) {
+  order: 2;
+}
+
+.categories__block {
+  flex-direction: row !important;
+}

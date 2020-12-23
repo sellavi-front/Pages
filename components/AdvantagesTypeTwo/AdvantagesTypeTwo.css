@@ -1,0 +1,37 @@
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.advantages__elem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  margin: 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.advantages__elem img {
+  width: 33px;
+  height: 33px;
+}
+
+.advantages__text {
+  margin: 3%;
+  font-size: 12px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1142px !important;
+}
+
+@media (max-width: 992px) {
+  .advantages {
+    flex-wrap: wrap;
+  }
+}

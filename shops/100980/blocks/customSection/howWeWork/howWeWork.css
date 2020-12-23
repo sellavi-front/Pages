@@ -1,0 +1,22 @@
+.steps__how_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.how__we__work h1 {
+  font-weight: 900;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.steps__how_item {
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 0;
+  margin: 0 1% 1% 0;
+}
+

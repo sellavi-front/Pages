@@ -23,7 +23,9 @@ input.form-control,
 input.form-control::placeholder,
 .form_checkout,
 .order_list_section__total-lines,
-.checkout_table {
+.checkout_table,
+.navbar_item a
+{
   font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -226,8 +228,12 @@ body.theme_10 .wrapper header.header .header-search input {
   border: 0;
 }
 
-body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored, body.theme-gray a:hover {
+body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored {
   color: #c9c9c9 !important;
+}
+
+body.theme-gray a:hover {
+  color: #fff !important;
 }
 
 .row.products.grid {
@@ -258,16 +264,6 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
 
 /* Categories */
 
-#home > div.wrapper.wrapper-closed > div > section > div > ul > li:nth-child(1) > div > div {
-  background: url(https://res.cloudinary.com/dd2edlvdy/image/upload/v1605698960/IMG_0250_xzsah1.webp) no-repeat top/cover;
-  height: 100vh;
-}
-
-#home > div.wrapper.wrapper-closed > div > section > div > ul > li:nth-child(2) > div > div {
-  background: url(https://res.cloudinary.com/dd2edlvdy/image/upload/v1605698960/IMG_0515_gbrexh.webp) no-repeat top/cover;
-  height: 100vh;
-}
-
 .title__new__collection {
   display: flex;
   justify-content: flex-start;
@@ -276,6 +272,35 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
 
 body .section-title span:after, body .section-title span:before {
   display: none;
+}
+
+.categories__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.category__block_item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 5%;
+}
+
+.category__title {
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff !important;
+  padding: 8%;
+  border: 0;
+  border-radius: 5px;
+  background: #333;
+}
+
+.category__title a {
+  color: #e9e9e9 !important;
 }
 
 
@@ -336,6 +361,7 @@ body .section-title {
   float: right;
   display: inline-block;
   margin-top: -15px;
+  text-align: center;
 }
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
@@ -514,12 +540,12 @@ body .delivery__content-label {
 }
 
 body.theme-gray .footer {
-  border-top: 5px solid #3c3c3c;
+  border-top: 0px solid #3c3c3c !important;
   color: #232323;
   background-color: #f9fafb;
 }
 
-#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div {
+.footer-widgets>.container-fluid>.row {
   justify-content: space-around;
 }
 
@@ -573,6 +599,11 @@ body.ltr .float-left {
   float: left!important;
 }
 
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 100%;
+}
+
 /* End */
 
 
@@ -581,6 +612,31 @@ body.ltr .float-left {
   #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3),
   #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4) {
     display: none;
+  }
+
+  .category__title {
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #333;
+    padding: 5%;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+  }
+
+  .docs__meta {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .categories__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
 
   .navbar__block {
@@ -671,6 +727,11 @@ body.ltr .float-left {
     align-items: center;
     justify-content: center;
   }
+
+  .logo img {
+    max-width: 100px !important;
+    max-height: 88px;
+  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
@@ -684,9 +745,25 @@ body.ltr .float-left {
   .docs__meta {
     margin-left: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
+  }
+
+  .thumbnail .price {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #333;
+    float: right;
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 100% !important;
   }
 
   .footer_content_container {

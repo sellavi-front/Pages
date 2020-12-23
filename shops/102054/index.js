@@ -1,5 +1,7 @@
 import '../../fixes/fixes.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
+import addScrolledHeader from "./blocks/header/header.js";
+import renderBanner from "./blocks/banner/banner.js";
 
 window.onload = () => {
   const bootstrapClasses = [
@@ -21,52 +23,9 @@ window.onload = () => {
     document.querySelector("#cart").style.cssText = 'color: #fff'
     document.querySelector("#search > button > i").style.cssText = 'color: #fff'
 
-    /*Sticky and colorable header */
-    let elem = $('header.sticky_trigger');
-    let doc = $(document);
-    function scrolled() {
-      let threshold = doc.scrollTop() > 50;
-      elem.toggleClass('scrolled', threshold);
-      if(document.querySelector("header").classList.contains("scrolled")) {
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4)").style.cssText = "color: #333"
-        document.querySelector("#search > button > i").style.cssText = "color: #333"
-        document.querySelector("#cart").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(1)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #333"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: #fff"
-      } else {
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > button").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(3)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > a:nth-child(4)").style.cssText = "color: #fff"
-        document.querySelector("#search > button > i").style.cssText = "color: #fff"
-        document.querySelector("#cart").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(1)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(2)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div > a:nth-child(3)").style.cssText = "color: #fff"
-        document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo.navbar__block > div > div").style.cssText = "background-color: transparent"
-      }
-    }
+    addScrolledHeader()
+    renderBanner()
 
-    $(window).on({ scroll: scrolled })
-
-    /* Setting up banner */
-    let bannerMain = document.querySelector(".custom_banner")
-    bannerMain.insertAdjacentHTML("afterbegin", `
-      <div class="video__banner">
-          <video autoplay loop muted>
-              <source src="https://video-public.canva.com/VAEFIQ7iFMI/v/a2ade3cf84.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-           <div class="video__banner__text__content">
-              <h1 class="video__banner__text__content__header"><a href="/man/">Новая коллекция</a></h1>
-           </div>
-      </div>
-    `)
 
     let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
     let leftMenu = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky")
@@ -107,49 +66,37 @@ window.onload = () => {
       location.href = "https://whitemoon.shop/delivery/"
     })
 
-    let mainContainer = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div")
-    mainContainer.setAttribute("class", "container-fluid")
-    mainContainer.insertAdjacentHTML('afterbegin', `<ul class="cards"></ul>`)
-    let cards = document.querySelector(".cards")
-
-
-    fetch(`https://sellavi-api.000webhostapp.com/102054/getCategories.php`)
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(json) {
-        let categories = json.response.data
-        categories.map(category => {
-          cards.insertAdjacentHTML("afterbegin", `
-            <li class="cards__item" onclick="location.href='${category.url}'">
-              <div class="card">
-                <div class="card__image">
-                  <div class="card__title"><a href="${category.url}">${category.full_name}</a></div>
-                </div>
-              </div>
+    let mainContainer = document.querySelector(".custom_banner")
+/*    mainContainer.setAttribute("class", "container-fluid")*/
+    mainContainer.insertAdjacentHTML('afterend', `
+        <ul class="categories__block">
+            <li class="category__block_item" onclick="location.href='https://whitemoon.shop/man/'">
+                <div class="category__title"><a href="https://whitemoon.shop/man/">Мужская одежда</a></div>
             </li>
-          `)
-        })
-      })
+            <li class="category__block_item" onclick="location.href='https://whitemoon.shop/woman/'">
+                <div class="category__title"><a href="https://whitemoon.shop/woman/">Женская одежда</a></div>
+            </li>
+        </ul>
+    `)
 
-    let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
-    let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
-    titleNewCollection.classList.add("title__new__collection")
-    let productRowItems = oldProductRow.querySelectorAll(".product-item")
+    //let titleNewCollection = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > h2")
+    //let oldProductRow = document.querySelector("#home > div.wrapper.wrapper-closed > div > section > div > div")
+    //titleNewCollection.classList.add("title__new__collection")
+    //let productRowItems = oldProductRow.querySelectorAll(".product-item")
 
-    let productsBlock = `
-    <div class="products__block">
-        <div class="products__block__banner"><img alt="photo" src="https://res.cloudinary.com/dd2edlvdy/image/upload/v1605799557/7E5A1549_kwgjzi.jpg" onclick="location.href='https://whitemoon.shop/1/'" /></div>
-        <div class="products__block__items"></div>
-    </div>
-  `
-    titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
-    let productRowBlock = document.querySelector(".products__block__items")
+    // let productsBlock = `
+    // <div class="products__block">
+    //     <div class="products__block__banner"><img alt="photo" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607527479/sellavi/102054/5T3A9736-min_bmsxax.jpg" onclick="location.href='https://whitemoon.shop/1/'" /></div>
+    //     <div class="products__block__items"></div>
+    // </div>
+    // `
+    // titleNewCollection.insertAdjacentHTML("afterend", productsBlock)
+    /*let productRowBlock = document.querySelector(".products__block__items")
     productRowItems.forEach(item => {
       productRowBlock.insertAdjacentHTML("afterbegin", item.outerHTML)
     })
 
-    oldProductRow.remove()
+    oldProductRow.remove()*/
   }
 
   /* Function on all pages */

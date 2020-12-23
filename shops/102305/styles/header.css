@@ -1,0 +1,30 @@
+.header_login {
+  order: 1;
+}
+
+.header_wishlist {
+  order: 2;
+}
+
+.header-cart {
+  order: 3;
+}
+
+.header .header-search {
+  max-width: 40% !important;
+  position: relative;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: -15% !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
+  color: #000;
+}
+
+@media (max-width: 375px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: auto;
+  }
+}
