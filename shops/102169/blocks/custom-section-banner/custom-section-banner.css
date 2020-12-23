@@ -16,7 +16,6 @@
   margin: 1% auto 10% auto;
   position: relative;
   top: 50px;
-  z-index: -1;
 }
 
 .section__banner_row {
@@ -39,6 +38,7 @@
 .img__on__banner {
   position: absolute;
   left: 55%;
+  z-index: 99;
 }
 
 .disphoto__custom_banner {
