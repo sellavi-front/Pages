@@ -1,0 +1,16 @@
+
+
+
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+
+@import './navigation/navigation.css';
+@import './banner/banner.css';
+@import './products/products.css';
+@import './section-title/section-title.css';
+@import './footer/footer.css';
+@import './footer/footer-widgets.css';
+@import './footer/footer-list.css';
+@import './logo/logo.css';
+@import './cart-wrapper/cart-wrapper.css';
