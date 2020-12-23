@@ -48,7 +48,7 @@ if (document.querySelector('.common-home')) {
   })
 
   senderForm.querySelector('button').addEventListener('click', () => {
-    window.open(`https://wa.me/79267979561?text=Новая заявка${dataForm.name}%20${dataForm.phone}`, '_blank');
+    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0AМеня%20зовут.%0A${dataForm.name}%20Я%20заинтереосваляс%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
   });
 
 }
