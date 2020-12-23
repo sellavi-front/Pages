@@ -1,7 +1,7 @@
 
 /* BANNER */
 @import './banner/banner.css';
-@import './banner/banner.css';
+@import './banner/caption.css';
 
 body .content-area {
   position: relative;
