@@ -5,8 +5,8 @@ import Banner from "./blocks/banner.js"
 import pages from "./utils/pages/pages.js"
 
 if(pages.home) {
-  let Banner = new Banner()
-  Banner.updateImgCategories()
+  let banner = new Banner()
+  banner.updateImgCategories()
 }
 
 
