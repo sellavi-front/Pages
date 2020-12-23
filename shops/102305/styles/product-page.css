@@ -77,6 +77,20 @@ body .section-title span:after {
   display: none;
 }
 
+.clr__picker {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin: 0 !important;
+}
+
+.size__picker {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  margin: 0 !important;
+}
+
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
     bottom: 69px;
