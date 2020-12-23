@@ -57,7 +57,7 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
 }, 4000)
 
 
-
+ 
 // const btnContainer = document.querySelectorAll('.buttons__container')
 
 // const addCartInProductCard = new AddElemInContainer(addToCart, btnContainer);
