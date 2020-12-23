@@ -1,9 +1,9 @@
 let socialLayout = `
     <li><h4 class="widget-title">Мы в соц. сетях</h4></li>
     <li class="social__li">
-        <a href="https://www.instagram.com/_organic_stories_/" target="_blank"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516742/sellavi/102169/Group_t9ghfm.png" alt="instagram"></a>
-        <a target="_blank" href="https://wa.me/79150940619?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516743/sellavi/102169/Group_1_o2dhef.png" alt="wa"></a>
-        <a target="_blank" href=""><img src="" alt="vk"/></a>
+        <a href="https://www.instagram.com/_organic_stories_/" target="_blank"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727375/sellavi/102169/instt.svg" alt="instagram"></a>
+        <a target="_blank" href="https://wa.me/79150940619?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727336/sellavi/102169/wwa.svg" alt="wa"></a>
+        <a target="_blank" href=""><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727297/sellavi/102169/vk.svg" alt="vk"/></a>
     </li>
 `
 
