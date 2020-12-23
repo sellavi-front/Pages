@@ -20,9 +20,9 @@ let customSectionBannerLayout = `
                 <li class="distributor">г. Иваново, ул. Калинина 17, Тел. 89106679837. <a href="https://www.instagram.com/nota37/"><b>Instagram</b></a></li>
             </ul>
             <p class="marketplaces__container">Наша продукция на маркет плейсах</p>
-            <p class="distributor"><a href="https://www.wildberries.ru/brands/os"><img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608724531/sellavi/102169/wildberries-logo_1_kuxhxs.svg" alt="img" /></a></p>
-            <p class="distributor"><a href="https://www.ozon.ru/search/?from_global=true&text=organic+stories"><img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608724566/sellavi/102169/ozon.svg" alt="img" /></a></p>
-            <p class="distributor"><a href="https://saterno.ru/organic-stories"><img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608724696/sellavi/102169/unnamed_1_k0ni2l.svg" alt="img" /></a></p>
+            <p class="distributor"><a href="https://www.wildberries.ru/brands/os"><img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608724531/sellavi/102169/wild.svg" alt="img"/></a></p>
+            <p class="distributor"><a href="https://www.ozon.ru/search/?from_global=true&text=organic+stories"><img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608724566/sellavi/102169/ozon.svg" alt="img"/></a></p>
+            <p class="distributor"><a href="https://saterno.ru/organic-stories"><img class="disphoto__custom_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608724696/sellavi/102169/unnamed_1_k0ni2l.svg" alt="img"/></a></p>
             <p class="wanna__be__distributor"><b>Хотите и вы стать нашим дистрибьютором? Присоединяйтесь!</b></p>
             <p class="wanna__be__distributor"><b>Отправляйте запрос на почту zakaz@organic-stories.ru</b></p>
         </div>
