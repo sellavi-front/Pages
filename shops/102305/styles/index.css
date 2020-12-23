@@ -42,6 +42,10 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .ca
   font-size: 12px;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  font-size: 15px !important;
+}
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: flex;
