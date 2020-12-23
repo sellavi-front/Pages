@@ -52,6 +52,10 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
           flex-direction: column-reverse;
 }
 
+body.theme_11 .wrapper .homefeatured_category>div>div>div:last-child {
+  margin-right: 0 !important;
+}
+
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
   text-align: left;
 }
