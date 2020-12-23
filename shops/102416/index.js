@@ -6,7 +6,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
-
+import {navToHeader} from './utils/navToHeader.js';
 
 
 if (location.href.includes('term-of-use')) {
