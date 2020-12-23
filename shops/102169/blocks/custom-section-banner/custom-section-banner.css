@@ -7,7 +7,6 @@
 }
 
 
-
 .section__banner_column {
   width: 100%;
   max-width: 1200px;
@@ -39,6 +38,10 @@
   position: absolute;
   left: 55%;
   z-index: 99;
+}
+
+.distributor {
+  font-size: 12px;
 }
 
 .disphoto__custom_banner {
