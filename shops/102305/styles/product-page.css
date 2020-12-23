@@ -77,17 +77,16 @@ body .section-title span:after {
   display: none;
 }
 
-.clr__picker {
-  position: absolute;
-  top: 0;
-  left: 15px;
-  margin: 0 !important;
+#product .color-choise, .form-group > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap !important;
 }
 
-.size__picker {
-  position: absolute;
-  top: 30px;
-  left: 15px;
+#product .form-group .text-danger {
+  position: unset;
+  top: 60px;
+  left: 20px;
   margin: 0 !important;
 }
 
