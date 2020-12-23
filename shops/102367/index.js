@@ -47,7 +47,9 @@ if (document.querySelector('.common-home')) {
     }
   })
 
-  senderForm.querySelector('button').addEventListener('click', window.open(`https://wa.me/${dataForm.phone}?text=${dataForm.name}_blank`));
+  senderForm.querySelector('button').addEventListener('click', () => {
+    window.open(`https://wa.me/79267979561?text=Новая заявка${dataForm.name}%20${dataForm.phone}`, '_blank');
+  });
 
 }
 
