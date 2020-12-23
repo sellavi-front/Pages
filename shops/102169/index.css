@@ -90,3 +90,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
   align-items: center;
   margin-right: 20% !important;
 }
+
+.cart_drop_down #cart > span:first-child {
+  display: none !Important;
+}
