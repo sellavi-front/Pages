@@ -34,6 +34,21 @@ if (document.querySelector('.common-home')) {
   sender.render();
 
   latestSection.querySelector('.container').classList.remove('container')
+
+  const senderForm = document.querySelector('.sender-basic form');
+  const dataForm = {};
+  senderForm.addEventListener('input', (e) => {
+    if (e.target.getAttribute('name') === 'userName') {
+      dataForm.name = e.target.value;
+    }
+
+    if (e.target.getAttribute('name') === 'phone') {
+      dataForm.phone = e.target.value;
+    }
+  })
+
+  senderForm.querySelector('button').addEventListener('click', window.open(`https://wa.me/${dataForm.phone}?text=${dataForm.name}_blank`));
+
 }
 
 if (document.querySelector('.wrapper')) {
