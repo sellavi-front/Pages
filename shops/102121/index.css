@@ -3,7 +3,7 @@
 @import url('https://coospir.github.io/Pages/modules/BigBanner/BigBanner.css');
 @import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
 @import url('https://coospir.github.io/Pages/modules/Requisites/Requisites.css');
-@import url('../../templates/TemplateTypeOne/style/index.css');
+/* @import url('../../templates/TemplateTypeTwo/style/index.css'); */
 @import './blocks/pay-delivery/pay-delivery.css';
 @import url('../../components/ContactsWithMap/ContactsWithMap.css');
 /* @import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css'; */
@@ -29,7 +29,8 @@
 
 .main-slider .img-fluid {
   height: auto !important;
-  object-fit: contain !important;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
 }
 
 #cart > span.d-none.d-lg-inline-block {
