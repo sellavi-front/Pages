@@ -85,3 +85,10 @@
   margin-top: 1px;
   margin-left: 5px;
 }
+
+@media (max-width: 541px) {
+  .sender-basic {
+    border-width: 5px;
+    margin: 25% 0 !important;
+  }
+}
