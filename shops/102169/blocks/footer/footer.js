@@ -3,6 +3,7 @@ let socialLayout = `
     <li class="social__li">
         <a href="https://www.instagram.com/_organic_stories_/" target="_blank"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516742/sellavi/102169/Group_t9ghfm.png" alt="instagram"></a>
         <a target="_blank" href="https://wa.me/79150940619?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516743/sellavi/102169/Group_1_o2dhef.png" alt="wa"></a>
+        <a target="_blank" href=""><img src="" alt="vk"/></a>
     </li>
 `
 
