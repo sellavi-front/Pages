@@ -4,7 +4,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Гралько Людмила Викторовна');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Северинов Алексей Вальерьевич');
 
   req.setTemplate();
 }
