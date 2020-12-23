@@ -46,6 +46,11 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-size: 15px !important;
 }
 
+#home footer .footer-widgets {
+  position: relative;
+  padding-bottom: 25px !important;
+}
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: flex;
