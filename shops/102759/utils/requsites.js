@@ -10,9 +10,9 @@ const requsites = {
 };
 
 const dataContact = {
-  adress: 'Иркутск, Дальневосточная 110/1',
+  adress: 'г. Иркутск, Дальневосточная 110/1',
   phone: '8(950)126-01-46',
-  city: 'Иркутск',
+  city: 'г. Иркутск',
   timeWork: 'с 10 до 22',
 }
 
