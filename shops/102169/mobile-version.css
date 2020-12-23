@@ -7,6 +7,17 @@
     padding-top: 15%;
   }
 
+  body .btn.btn-theme {
+    color: #fff;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
   .dropdown.cart_drop_down {
     padding-top: 8% !important;
     margin-left: 4%;
