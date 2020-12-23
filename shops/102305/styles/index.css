@@ -70,6 +70,10 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
     margin: 15px 0;
   }
 
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+    margin-top: 0;
+  }
+
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     position: static !important;
     margin-top: 0 !important;

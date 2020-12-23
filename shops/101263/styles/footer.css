@@ -1,0 +1,11 @@
+#sellavi_logo {
+  display: inline-block;
+  width: 50px;
+  float: right;
+  height: 60px;
+}
+
+.footer_content_container {
+  height: 15px;
+  display: flex;
+}
