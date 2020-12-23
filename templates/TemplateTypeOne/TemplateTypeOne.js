@@ -1,5 +1,5 @@
 // import '../../components/HeaderTypeOne/HeaderTypeOne.js';
-import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
+import '../../components/HeaderTypeOne/HeaderTypeOne.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
