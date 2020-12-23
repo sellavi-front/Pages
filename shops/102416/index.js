@@ -4,6 +4,7 @@ import { requsites, dataContact, options } from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 
 
 if (location.href.includes('term-of-use')) {
@@ -28,4 +29,3 @@ if (location.href.includes('policy')) {
 //   const req = new Requisites(requsites, 'afterend', 'ИП Орлова Елена Геннадьевна', document.querySelector("#content > div > div"), options);
 //   req.setTemplate();
 // }
-
