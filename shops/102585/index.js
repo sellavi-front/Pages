@@ -12,7 +12,6 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Гралько Людмила Викторовна', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Северинов Алексей Вальерьевич', media);
   req.setTemplate();
 }
-
