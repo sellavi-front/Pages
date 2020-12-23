@@ -24,3 +24,17 @@
     background: rgba(0, 0, 0, 0.2);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .mobile_one_column .products .thumbnail .caption {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 15px 0;
+  }
+
+  body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    position: static !important;
+    margin-top: 0px !important;
+  }
+}
