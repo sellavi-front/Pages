@@ -1,13 +1,14 @@
-import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+// import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 
   /* Remove bootstrap col width seclector */
-  const footerWidgetsCol = document.querySelectorAll('.footer-widgets > div > div > div');
-  footerWidgetsCol.forEach(el => {
-    el.classList.remove('col-md-3');
-  })
+  // const footerWidgetsCol = document.querySelectorAll('.footer-widgets > div > div > div');
+  // footerWidgetsCol.forEach(el => {
+  //   el.classList.remove('col-md-3');
+  // })
   /* Add title for soc icons */
 
 

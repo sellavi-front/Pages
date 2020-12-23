@@ -6,8 +6,10 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import contactData from './utils/contactData.js'
 
-import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
+// import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import '../../components/HeaderTypeTwo/HeaderTypeTwo.js'
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
@@ -15,6 +17,17 @@ if (document.querySelector('.common-home')) {
 
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
+
+  // reset cut image in categories
+  const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
+  imgCat.forEach(cat => {
+    const src = cat.getAttribute('src');
+
+    let replacedSrc = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
+
+    cat.setAttribute('src', replacedSrc);
+  })
+  // rend reset cit img
 }
 
 if (location.href.includes('term-of-use')) {
@@ -39,7 +52,6 @@ if (location.href.includes('pay-delivery')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
-<<<<<<< HEAD
 
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
@@ -76,5 +88,3 @@ if (location.href.includes('pay-delivery')) {
 // if(window.location.pathname === '/contact/') {
 //   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div").setAttribute("class", "media-body")
 // }
-=======
->>>>>>> ab40520123bd18440cbb4c119d6ddf4e0e18bbaa

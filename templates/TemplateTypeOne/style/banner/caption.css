@@ -13,6 +13,7 @@
 }
 
 .caption-text .btn-theme {
+  background: -o-linear-gradient(357.76deg, #7fadf4 -1.13%, #1271fd 99.7%) !important;
   background: linear-gradient(92.24deg, #7fadf4 -1.13%, #1271fd 99.7%) !important;
   border: none;
   font-weight: 500 !important;
@@ -20,9 +21,15 @@
   max-width: 280px;
   width: 100%;
   height: 60px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 18px;
 }
 
@@ -35,6 +42,4 @@
   .main-slider {
     margin-top: 0 !important;
   }
-
-
 }

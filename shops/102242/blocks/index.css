@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
 @import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import '../../../fixes/fixes.css';
@@ -5,16 +7,15 @@
 @import '../../../components/VideoBanner/VideoBanner.css';
 
 @import './pay-delivery/pay-delivery.css';
+@import './header/sf-menu/sf-menu.css';
 @import './header/header.css';
-@import './container.css';
-@import './caption-title/caption-title.css';
+@import '../../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
+@import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
+@import '../../../components/HeaderTypeTwo/styles/cart/cart.css';
 @import './banner/banner-caption.css';
 @import './banner/banner-content.css';
-@import './products/products.css';
 @import './info-card/info-card.css';
-@import './footer/footer.css';
-@import './soc-icons/soc-icons.css';
-@import './drop-down-cart/dropdown-cart.css';
+/* @import './drop-down-cart/dropdown-cart.css'; */
 
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
@@ -23,7 +24,15 @@
 @import '../../../components/ColorChoise/ColorChoise.css';
 @import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+@import '../../../templates/TemplateTypeTwo/styles/products/products.css';
+@import '../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
+@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
 
 body h1,
 body h2,
@@ -39,7 +48,7 @@ body strong {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 body h1,
@@ -60,3 +69,5 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
 body label.placeholder {
   color: lightgray;
 }
+
+

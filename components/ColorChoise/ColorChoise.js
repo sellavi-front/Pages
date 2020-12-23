@@ -23,7 +23,7 @@ const colors = [
 export default class ColorChoise {
   constructor(data = colors) {
     this.data = data;
-    this.colorChoiseLabel = document.querySelector('#product > div:nth-child(1) > label');
+    this.colorChoiseLabels = document.querySelectorAll('#product > div > label');
   }
 
   setColors(colorLabel) {
@@ -41,17 +41,19 @@ export default class ColorChoise {
   }
 
   render() {
-    if (
-      document.querySelector('#product > .form-group') &&
-      this.colorChoiseLabel.textContent.toLowerCase() === 'цвет'
-    ) {
-      const colorChoiseContainer = document.querySelector('#product > div:nth-child(1)');
-      colorChoiseContainer.classList.add('color-choise');
+    this.colorChoiseLabels.forEach(label => {
+      if (
+        document.querySelector('#product > .form-group') &&
+        label.textContent.toLowerCase() === 'цвет'
+      ) {
+        const colorChoiseContainer = label.closest('div');
+        colorChoiseContainer.classList.add('color-choise');
 
-      const colorChoise = document.querySelector('.color-choise');
-      const colorLabel = colorChoise.querySelectorAll('.custom-control-label');
-      this.setColors(colorLabel);
-      this.clearText(colorLabel);
-    }
+        const colorChoise = document.querySelector('.color-choise');
+        const colorLabel = colorChoise.querySelectorAll('.custom-control-label');
+        this.setColors(colorLabel);
+        this.clearText(colorLabel);
+      }
+    })
   }
 }

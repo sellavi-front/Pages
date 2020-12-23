@@ -9,8 +9,20 @@
   max-height: 280px !important;
 }
 
+
+@media (max-width: 1199px) {
+  .wrapper .homefeatured_category > div > div > div:nth-child(3n) {
+    margin-right: 16px !important;
+  }
+
+  .wrapper .homefeatured_category > div > div > div:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+}
+
 @media (max-width: 768px) {
   .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
     padding: 0 5% !important;
   }
 }
+

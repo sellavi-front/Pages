@@ -1,10 +1,31 @@
-body.ltr.ru .wrapper .homefeatured_category > div.container {
-  max-width: 1140px !important;
+@media (min-width: 1200px) {
+  body.ltr.ru .wrapper section.homefeatured_category > div.container {
+    max-width: 1140px !important;
+  }
 }
 
 @media (max-width: 1199px) {
-  body.ltr .wrapper .latest-section h2.section-title {
+  body .section-title,
+  body.ltr.ru .wrapper .latest-section h2.section-title {
     margin: 56px 0 26px 10% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  body.ltr.ru .wrapper section.homefeatured_category > div.container {
+    max-width: 960px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body.ltr.ru .wrapper section.homefeatured_category > div.container {
+    max-width: 720px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  body.ltr.ru .wrapper .homefeatured_category > div.container {
+    max-width: 540px !important;
   }
 }
 

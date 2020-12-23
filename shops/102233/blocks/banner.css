@@ -7,6 +7,10 @@
   object-fit: contain;
 }
 
+body .main-slider .caption-content .caption-subtitle > span {
+  text-align: center !important;
+}
+
 @media (max-width: 768px) {
   .main-slider .img-fluid {
     height: 80vh;

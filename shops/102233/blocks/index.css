@@ -1,43 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
-@import '../../../templates/TemplateTypeOne/style/index.css';
+@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../../templates/TemplateTypeTwo/styles/logo/logo.css';
+@import '../../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import '../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
+@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 @import '../../../components/css-components/ColoredCategories/category/size/cat-col-3.css';
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
-@import '../../../components/css-components/HeaderTransparent.css';
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
 @import '../../../fixes/fixes.css';
+
 @import './pay-delivery/pay-delivery.css';
 @import './header.css';
 @import './banner.css';
+@import './product-page/product-page.css';
+@import './products-wrapper/buttons.css';
+@import './products-wrapper/products-wrapper.css';
+@import './section-title/section-title.css';
+@import './sf-menu/sf-menu.css';
+@import './soc-icons/soc-icons.css';
+@import './sub-categories/sub-categories.css';
+@import './cart-wrapper/cart-wrapper.css';
+@import './footer/footer.css';
+@import './footer/footer-widgets.css';
+@import './footer/footer-list.css';
 
 body h1 {
   font-size: 1.8 rem;
 }
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .wrapper .header .header-wrapper .logo {
   z-index: 9999 !important;
 }
-
+/*
 .logo img {
   max-width: 315px !important;
 }
 
 body.theme-red-2.theme_11 .wrapper .header .header-wrapper .header-search button {
   color: black !important;
-}
+} */
 
 body .main-slider .caption-content .caption-subtitle {
   font-family: 'Playfair Display', serif !important;
   color: #2a1f1d;
   font-weight: 700;
 }
-
+/*
 body.theme_11.ltr .wrapper .header .header-wrapper .header-search button,
 body.theme_11 .wrapper .latest-section h2.section-title span,
 body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control::placeholder {
   color: #2a1f1d !important;
-}
+} */
 
 body .main-slider .caption-content {
   margin: 0 !important;
@@ -71,7 +113,7 @@ body.theme_11.checkout-checkout .logo {
 body.theme_11 .wrapper .header .header-wrapper .search_black_screen {
   opacity: .2 !important;
 }
-
+/*
 body.theme_11 .wrapper .header .header-wrapper .header-search button {
   right: 19px;
   left: auto;
@@ -84,7 +126,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search.opened button {
 body .content-area .page-section.titles {
   background: transparent !important;
   border-bottom: none !important;
-}
+} */
 
 @media (max-width: 768px ) {
   body .main-slider .caption-content .caption-subtitle > span > span:first-child {

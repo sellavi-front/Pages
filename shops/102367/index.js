@@ -13,7 +13,7 @@ import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsType
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
 import senderData from './utils/senderData.js';
-import socialICons from './utils/socialICons.js'
+import socialIcons from './utils/social-icons.js';
 
 if (document.querySelector('.common-home')) {
 
@@ -34,12 +34,29 @@ if (document.querySelector('.common-home')) {
   sender.render();
 
   latestSection.querySelector('.container').classList.remove('container')
+
+  const senderForm = document.querySelector('.sender-basic form');
+  const dataForm = {};
+  senderForm.addEventListener('input', (e) => {
+    if (e.target.getAttribute('name') === 'userName') {
+      dataForm.name = e.target.value;
+    }
+
+    if (e.target.getAttribute('name') === 'phone') {
+      dataForm.phone = e.target.value;
+    }
+  })
+
+  senderForm.querySelector('button').addEventListener('click', () => {
+    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут%20${dataForm.name}.%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
+  });
+
 }
 
 if (document.querySelector('.wrapper')) {
   const footerContainer = document.querySelector('.footer-widgets>div>div');
 
-  new SocIconsTypeOne(footerContainer, 'beforeend', socialICons).render();
+  new SocIconsTypeOne(footerContainer, 'beforeend', socialIcons).render();
 
   const socIconsContainer = document.querySelector('.soc-icons>.container');
   socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
@@ -49,6 +66,6 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.product-product')) {
-  const colorChoise = new ColorChoise();
+  const colorChoise = new ColorChoise()
   colorChoise.render();
 }
