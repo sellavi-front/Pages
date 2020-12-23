@@ -4,6 +4,15 @@
   border-radius: 0 !important;
 }
 
+ .p {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+ }
+
 .header .header-search {
   max-width: 210px !important;
   position: relative;

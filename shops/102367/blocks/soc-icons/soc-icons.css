@@ -3,14 +3,18 @@ body .footer .footer-widgets .widget-title.soc-icons__title {
 }
 
 body .footer .footer-widgets .soc-icons__container {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 50%;
 }
 
 @media (max-width: 991px) {
   body .footer .footer-widgets .soc-icons.col-md-3 {
     max-width: 100% !important;
-    flex: 0 0 100% !important;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
   }
 
   body .footer .footer-widgets .soc-icons.col-md-3 .container {
@@ -24,8 +28,14 @@ body .footer .footer-widgets .soc-icons__container {
 }
 
 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column; 
-  align-self: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; 
+  -ms-flex-item-align: start; 
+      align-self: start;
   display: grid;
 }

@@ -1,7 +1,13 @@
 .contact-with-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 100px 0 80px;
 }
 
@@ -13,16 +19,23 @@
 
 .contact__list {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 20px !important;
 }
 
 .contact__map {
-  max-width: 750px;
+  max-width: 600px;
   width: 100%;
-  height: 350px;
+  height: 400px;
 }
 
 .contact__map iframe {
@@ -50,7 +63,10 @@
 
 @media (max-width: 768px) {
   .contact-with-map {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 40px 0 !important;
   }
   .contact__list{
