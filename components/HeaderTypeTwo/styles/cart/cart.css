@@ -40,6 +40,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
 body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
   width: 18px !important;
   height: 18px !important;
+  font-size: 14px !important;
   line-height: 1.2 !important;
 }
 
