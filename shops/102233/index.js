@@ -9,7 +9,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+// import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 
 if (document.querySelector('.common-home')) {
