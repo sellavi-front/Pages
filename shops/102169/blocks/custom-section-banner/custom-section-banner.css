@@ -72,5 +72,13 @@
 }
 
 .cstm_photo {
-  width: 20px !important;
+  width: 20px;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+
+.cstm_photo_site {
+  width: 20px;
+  margin-top: 1px;
+  margin-left: 5px;
 }
