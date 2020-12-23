@@ -14,6 +14,8 @@
 
 
 
+
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: flex;
@@ -46,4 +48,18 @@
   body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
     display: inherit !important;
   }
+
+  #home > div > div.content-area > section.page-section.latest-section > div:nth-child(1) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .advantages {
+    margin-top: -45px !important;
+  }
+}
+
+.advantages {
+  margin-top: 15px !important;
 }
