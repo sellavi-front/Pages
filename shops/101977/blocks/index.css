@@ -21,3 +21,7 @@
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import './productCard/card.css';
 @import './footer/footer.css';
+
+input.quantity_input.form-control.d-inline-block {
+    padding: 0px !important;
+}
