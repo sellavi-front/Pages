@@ -7,9 +7,14 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import {navToHeader} from './utils/navToHeader.js';
+import {displaySecondInfo} from './utils/bannerSecondInfo.js';
 
 if (document.querySelector('.header-wrapper')) {
   navToHeader();
+}
+
+if (document.querySelector('.main-slider.content_center')) {
+  displaySecondInfo();
 }
 
 if (location.href.includes('term-of-use')) {
