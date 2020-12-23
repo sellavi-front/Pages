@@ -9,3 +9,5 @@
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 
 @import '../../../templates/TemplateTypeTwo/styles/withoutBanner.css';
+
+@import './header/header.css';
