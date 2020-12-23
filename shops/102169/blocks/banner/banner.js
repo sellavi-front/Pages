@@ -10,11 +10,15 @@ let bannerLayout = `
             <p class="banner__phone">+7(915) 094-06-19</p>
             <div class="banner__social">
                 <div class="social__item">
-                    <a href="https://www.instagram.com/_organic_stories_/" target="_blank"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516742/sellavi/102169/Group_t9ghfm.png" alt="social" /></a>
+                    <a href="https://www.instagram.com/_organic_stories_/" target="_blank"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727375/sellavi/102169/instt.svg" alt="social" /></a>
                 </div>
 
                 <div class="social__item">
-                    <a target="_blank" href="https://wa.me/79150940619?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1607516743/sellavi/102169/Group_1_o2dhef.png" alt="social" /></a>
+                    <a target="_blank" href="https://wa.me/79150940619?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727336/sellavi/102169/wwa.svg" alt="social" /></a>
+                </div>
+
+                <div class="social__item">
+                    <a target="_blank" href="https://vk.com/organicstories"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727297/sellavi/102169/vk.svg" alt="social" /></a>
                 </div>
             </div>
         </div>
