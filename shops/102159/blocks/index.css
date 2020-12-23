@@ -3,5 +3,7 @@
 @import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+
 @import './pay-delivery/pay-delivery.css';
 @import './header/header.css';
+@import './content-area/content-area.css';
