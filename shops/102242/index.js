@@ -1,25 +1,30 @@
 // import Requisites from '../../modules/Requisites/Requisites.js';
 // import requsites from './utils/requsites.js'
 
-
-
-import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
+// import '../../fixes/js/DeleteSelectorProductItem/DeleteSelectorProductItem.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
+// import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../components/PictureCategories/PictureCategories.js';
+
 import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import VideoBanner from '../../components/VideoBanner/VideoBanner.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
-import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
+// import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 
 import { bannerContent } from './constants/constants.js';
 import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
+import socIconsData from './utils/socIconsData.js';
+import tableData from './utils/tableData.js';
+import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
+import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js'
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
@@ -34,10 +39,6 @@ if (document.querySelector('.common-home')) {
   const videoBanner = new VideoBanner(cstmBanner, 'beforeend', bannerContent);
   videoBanner.render();
   /** END VIDEO BANNER **/
-
-  // Sales
-  // const infoCardTypeOne = new InfoCardTypeOne(sctmSection, 'beforeEnd', salesData);
-  // infoCardTypeOne.render();
 
   //Content banner
   const contentBanner = new ContentBannerTypeOne(sctmSection, 'beforeEnd', contentBannerData);
@@ -54,9 +55,28 @@ if (document.querySelector('.common-home')) {
   advantagesCard.render();
   // End sales
 
+  const sender = new FormBasic(sctmSection, 'beforeend', senderData);
+  sender.render();
+
   //rm attr fron advantages
 
-  document.querySelectorAll('.info-card__item>a').forEach(a => a.removeAttribute('href'));
+  // reset cut image in categories
+  const imgCat = document.querySelectorAll(
+    '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
+  );
+  imgCat.forEach((cat) => {
+    const src = cat.getAttribute('src');
+
+    let replacedSrc = src.replace(
+      /\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi,
+      '',
+    );
+
+    cat.setAttribute('src', replacedSrc);
+  });
+  // rend reset cit img
+
+  document.querySelectorAll('.info-card__item>a').forEach((a) => a.removeAttribute('href'));
 }
 
 if (document.querySelector('.wrapper')) {
@@ -84,25 +104,63 @@ if (document.querySelector('.wrapper')) {
   navigation.remove();
   // end transfer navigation
 
-  const footerCols = document.querySelectorAll('.footer-widgets > div > div > div');
-  footerCols.forEach((col) => {
-    col.classList.add('coll');
-    col.classList.remove('col-md-3');
-  });
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
 
-  const footerWidgets = document.querySelector('.footer-widgets');
-  const social = new SocialIconsTypeOne(footerWidgets, 'beforeend');
-  social.render();
+  new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML(
+    'afterbegin',
+    `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`,
+  );
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
 
   document.querySelector('.bs-menu-toggle').remove();
+
+
+const wishList = `
+  <a
+    id="wishlist"
+    class="position-relative"
+    href="https://${location.host}/index.php?route=account/wishlist"
+    role="link"
+   >
+   <i class="far fa-heart"></i>
+  </a>`;
+
+  document
+      .querySelector('.header_widgets')
+      .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
+
 }
+
+// if (document.querySelector('.product-item')) {
+//   setTimeout(() => {
+//     document
+//       .querySelectorAll(
+//         'body.ltr.ru > div > div.content-area > section.page-section.latest-section > div > div > div > div > div.media > a > img',
+//       )
+//       .forEach((cat) => {
+//         const src = cat.getAttribute('src');
+//         let replacedSrc = src.replace(
+//           /\/if_ar_gt_2:1\/c_fill,h_252,w_225,q_100\/c_fill,h_252,w_525\/if_else\/c_pad,h_252,q_100,w_225\/if_end/gi,
+//           '',
+//         );
+//         console.log(replacedSrc);
+
+//         cat.setAttribute('src', replacedSrc);
+//       });
+//   }, 1000);
+// }
 
 if (document.querySelector('.product-product')) {
   document.querySelector('.table_holder').remove();
   document.querySelector('.share_page_wrapper').remove();
 
   const lastSection = document.querySelector(
-    '#home > div > div.content-area > section.page-section.overflow-hidden',
+    'body > div > div.content-area > section.page-section.overflow-hidden',
   );
 
   const sender = new FormBasic(lastSection, 'beforeend', senderData);
@@ -110,6 +168,14 @@ if (document.querySelector('.product-product')) {
 
   const colorChoise = new ColorChoise();
   colorChoise.render();
+
+  const product = document.querySelector('#product');
+
+  new PopupWithTable(tableData, product, tableTemplate).render();
+}
+
+if (location.href.includes('/checkout')) {
+  document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'Перевод на Сбербанк'
 }
 
 // if (location.href.includes('term-of-use')) {

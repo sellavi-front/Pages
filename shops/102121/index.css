@@ -1,9 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('../../templates/TemplateTypeOne/style/index.css');
+
 @import './blocks/pay-delivery/pay-delivery.css';
 @import url('../../components/ContactsWithMap/ContactsWithMap.css');
-@import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css';
+/* @import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css'; */
+@import '../../components/PictureCategories/PictureCategories.css';
 @import url('../../fixes/js/FooterCopy/FooterCopy.css');
+@import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+@import '../../templates/TemplateTypeTwo/styles/logo/logo.css';
+@import '../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import '../../templates/TemplateTypeTwo/styles/products/products.css';
+@import '../../templates/TemplateTypeTwo/styles/products/price-actions.css';
+@import '../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important;
+}
+
+.main-slider .img-fluid {
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important
+}
+
+body.ltr.ru > div > div.content-area > section.page-section.titles > div > div > h1 {
+  font-size: 22px !important;
+}
+
+.information #content > div {
+  margin: 0 !important;
+}
 
 /*
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {

@@ -5,7 +5,8 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
-
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Зюзина Оксана Викторовна');

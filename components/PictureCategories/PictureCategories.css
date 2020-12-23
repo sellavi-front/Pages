@@ -62,7 +62,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   }
 
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
-    margin: 0 2% 60px !important;
+    margin: 0 2% 60px 0 !important;
   }
 }
 

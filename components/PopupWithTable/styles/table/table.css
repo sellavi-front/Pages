@@ -1,0 +1,14 @@
+@import './row/row.css';
+
+.table-sizes {
+  width: 100%;
+  height: auto;
+  margin: 0 0 35px;
+}
+
+.table-sizes__btn {
+  padding-left: 15px;
+  border: none;
+  outline: none !important;
+  background: none;
+}

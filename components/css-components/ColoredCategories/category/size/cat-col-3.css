@@ -1,10 +1,15 @@
 
 /* Width bg */
 .wrapper .homefeatured_category > div > div > div {
-  max-width: 370px !important;
+  max-width: 350px !important;
 }
 
 /* HEIGHT IMG */
 .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
   max-height: 270px !important;
+}
+
+
+.wrapper .homefeatured_category > div > div > div:nth-child(3n) {
+  margin-right: 0 !important;
 }

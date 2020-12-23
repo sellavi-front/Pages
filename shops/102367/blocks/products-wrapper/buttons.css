@@ -18,7 +18,7 @@ body.ltr.ru
 .thumbnail .add_to_wishlist button {
   color: #a68e7d !important;
   background-color: transparent !important;
-  border: 1px solid #a68e7d;
+  border: 1px solid #a68e7d !important;
   border-radius: 5px !important;
 }
 
@@ -31,7 +31,9 @@ body.ltr.ru
   .price_actions
   .add_to_cart
   > button:hover,
-.thumbnail .add_to_wishlist button:hover {
+.thumbnail .add_to_wishlist button:hover,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart:hover,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list:hover {
   color: #887568 !important;
   background-color: #fff1ea !important;
   border: 1px solid #887568 !important;
@@ -63,4 +65,26 @@ body.ltr .thumbnail .remove_from_wishlist {
 body.ltr .thumbnail .add_to_wishlist button {
   width: 60px !important;
   margin-left: 10px !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  border: 1px solid #a68e7d !important;
+  height: 100% !important;
+  border-radius: 5px;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i {
+  display: flex;
+  align-items: center;
+  color: #887568 !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  max-height: 100% !important;
+  color: #887568 !important;
+}
+
+.product-product .product-single .buttons .btn-cart,
+.product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list {
+  margin-top: 0 !important;
 }

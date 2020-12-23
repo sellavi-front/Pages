@@ -1,6 +1,9 @@
-@import './sf-menu/sf-menu.css';
-@import './header-widgets/header-widgets.css';
-
+/* @import './sf-menu/sf-menu.css';
+@import './header-widgets/header-widgets.css'; */
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
+.header_widgets a {
+  color: white !important;
+}
 .common-home .header {
   position: absolute !important;
 }
@@ -9,6 +12,10 @@ body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
+}
+
+.wrapper .header .header-wrapper .header_widgets {
+  top: 4px !important
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {

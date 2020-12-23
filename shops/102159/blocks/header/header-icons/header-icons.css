@@ -1,0 +1,7 @@
+body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
+  color: black !important;
+}
+
+.cart_drop_down span:first-child {
+  display: none !important;
+}

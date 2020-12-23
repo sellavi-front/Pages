@@ -6,7 +6,7 @@ export default class ButtonContainerInProduct {
   }
 
   delete(element) {
-    element.forEach(el => el.remove());
+    element.forEach((el) => el.remove());
   }
 
   createContainer() {
@@ -23,14 +23,37 @@ export default class ButtonContainerInProduct {
 }
 
   const price = document.querySelectorAll('.product-item .price');
+<<<<<<< HEAD
 const addToCart = document.querySelectorAll('.add_to_cart');
+=======
+  const addToCart = document.querySelectorAll('.add_to_cart');
 
-if (document.querySelectorAll('.add_to_wishlist').length === 0) {
- var wishList = document.querySelectorAll('.remove_from_wishlist');
-} else {
-  var wishList = document.querySelectorAll('.add_to_wishlist');
-}
+  if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+    var wishList = document.querySelectorAll('.remove_from_wishlist');
+  } else {
+    var wishList = document.querySelectorAll('.add_to_wishlist');
+  }
 
+
+  const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
+
+  buttonContainerInProduct.createContainer();
+  buttonContainerInProduct.delete(addToCart);
+  buttonContainerInProduct.delete(wishList);
+
+  setTimeout(() => {
+    const price = document.querySelectorAll('.product-item .price');
+    const addToCart = document.querySelectorAll('.add_to_cart');
+
+    if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+      var wishList = document.querySelectorAll('.remove_from_wishlist');
+    } else {
+      var wishList = document.querySelectorAll('.add_to_wishlist');
+    }
+>>>>>>> 773ed18f93ab2887a60dee649e74d606ffca40b7
+
+
+<<<<<<< HEAD
 
   const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
@@ -57,7 +80,15 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
 }, 4000)
 
 
+=======
+    const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
+    buttonContainerInProduct.createContainer();
+    buttonContainerInProduct.delete(addToCart);
+    buttonContainerInProduct.delete(wishList);
+>>>>>>> 773ed18f93ab2887a60dee649e74d606ffca40b7
+
+  }, 4000)
 // const btnContainer = document.querySelectorAll('.buttons__container')
 
 // const addCartInProductCard = new AddElemInContainer(addToCart, btnContainer);

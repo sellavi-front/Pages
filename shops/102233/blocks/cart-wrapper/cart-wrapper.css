@@ -1,0 +1,23 @@
+
+body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: #CCA364 !important;
+  border: none !important;
+  color: white !important;
+}
+
+body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a {
+  border: 1px solid #D0A995 !important;
+}
+
+.cart_drop_down span:first-child {
+  display: none !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
+  padding: 0 !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
+  color: #232323 !important;
+}
+
