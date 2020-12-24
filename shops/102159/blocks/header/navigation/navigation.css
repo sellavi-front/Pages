@@ -6,3 +6,7 @@ body.ltr.ru .wrapper .header .navigation-wrapper>div.container {
   padding-top: 20px;
   padding-bottom: 20px;
 } 
+
+.navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a {
+  font-size: 16px !important;
+}
