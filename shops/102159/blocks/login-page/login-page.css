@@ -1,3 +1,3 @@
-body.ru.ltr .content-area>section>div>div>div .button_holder > a {
+body.account-login .create-account .button_holder .btn.btn-block {
   border: 1px solid black !important;
 }
