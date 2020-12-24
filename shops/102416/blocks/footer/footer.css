@@ -28,3 +28,11 @@ h4.widget-title.soc-icons__title {
 h4.widget-title.soc-icons__title:first-letter {
     text-transform: uppercase !important;
 }
+
+.widget-categories ul {
+    margin-top: 30px;
+}
+
+.soc-icons__container {
+    margin-top: 20px;
+}
