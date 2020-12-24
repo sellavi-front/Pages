@@ -36,3 +36,7 @@ h4.widget-title.soc-icons__title:first-letter {
 .soc-icons__container {
     margin-top: 20px;
 }
+
+#sellavi_logo {
+    display: contents !important;
+}
