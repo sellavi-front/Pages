@@ -82,3 +82,14 @@
 .sender-basic form button {
   background: #3844FB;
 }
+
+h2.sender-basic__title {
+  font-size: 37px;
+  font-weight: 700;
+}
+
+p.sender-basic__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
