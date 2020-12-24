@@ -9,7 +9,6 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
 
 const bootstrapClasses = [
   'col-lg-4',
-  'col-xl-3',
   'mb-0',
   'mb-md-4',
   'col-12',
