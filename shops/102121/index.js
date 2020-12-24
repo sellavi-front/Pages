@@ -48,10 +48,6 @@ if (location.href.includes('policy')) {
   req.setTemplate();
 }
 
-if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', document.querySelector("#content > div > div"), dataContact);
-  req.setTemplate();
-}
 
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
