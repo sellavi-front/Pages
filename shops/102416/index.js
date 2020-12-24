@@ -8,6 +8,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import {navToHeader} from './utils/navToHeader.js';
 import {displaySecondInfo} from './utils/bannerSecondInfo.js';
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="pre-category-title"><div class="container"><span>Категории</span></div></div>');
