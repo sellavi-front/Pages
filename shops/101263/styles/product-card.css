@@ -37,7 +37,7 @@ body.ltr .thumbnail .price_actions .add_to_cart {
 /* Product card */
 
 .product-product .product-single .product-availability {
-  color: #adabab;
+  color: #adabab !important;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Ubuntu', sans-serif !important;
