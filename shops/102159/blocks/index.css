@@ -11,7 +11,7 @@
 @import './header/header.css';
 @import './content-area/content-area.css';
 @import './checkout-page/checkout-page.css';
-
+@import './login-page/login-page.css';
 
 body h1,
 body h2,
