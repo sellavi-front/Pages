@@ -8,4 +8,7 @@
 @import './body.css';
 @import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
+@import './../../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import './../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import './../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
 
