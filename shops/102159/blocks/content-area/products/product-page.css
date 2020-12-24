@@ -76,3 +76,7 @@ body .section-title {
   font-weight: 600;
   text-align: center !important;
 }
+
+body .btn.btn-theme {
+  text-transform: none !important;
+}
