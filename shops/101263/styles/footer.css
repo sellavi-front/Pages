@@ -6,6 +6,6 @@
 }
 
 .footer_content_container {
-  height: 15px;
+  height: 15px !important;
   display: flex;
 }
