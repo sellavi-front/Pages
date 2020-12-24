@@ -12,7 +12,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 if (document.querySelector('wrapper')) {
 
   // optimize logo quality
-  const logo = document.querySelector('.logo');
+  const logo = document.querySelector('.header-wrapper .logo');
   const src = logo.getAttribute('src');
 
   let replacedSrc = src.replace(/\/c_fit,g_center,h_176,q_100,w_430\/c_pad,h_176,w_430\/v1608639340/gi, '');
