@@ -2,6 +2,7 @@
 @import './header.css';
 @import './footer.css';
 @import './banner.css';
+@import './buttons.css';
 @import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 
