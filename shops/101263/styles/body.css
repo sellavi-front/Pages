@@ -9,3 +9,9 @@ body .section-title {
   color: #232323;
   overflow: hidden;
 }
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  line-height: 20px;
+  min-height: unset;
+  text-align: right!important;
+}
