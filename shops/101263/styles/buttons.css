@@ -21,6 +21,45 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-size: 18px;
 }
 
+body.theme-green-2.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: transparent !important;
+  border-color: #333 !important;
+}
+
+body.theme-green-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  border-color: #333 !important;
+  color: transparent !important;
+}
+
+.product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list {
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #6bc137;
+  background-color: transparent !important;
+  color: #232323;
+  border-radius: 5px !important;
+}
+
+body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  border: 1px solid #333 !important;
+}
+
+body.theme-green-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
+  background-color: #89c144;
+  color: #fff;
+  border: none !important;
+}
+
+
+
 @media only screen and (max-width: 400px) {
   body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
     display: inline-block;
