@@ -18,3 +18,7 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .product-item {
   border: none !important;
 }
+
+body.ltr .thumbnail .price_actions .add_to_cart {
+  padding: 0 15px 0 0 !important;
+}
