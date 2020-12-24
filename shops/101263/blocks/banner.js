@@ -11,7 +11,7 @@ export default class Banner {
     imgCat2.forEach(cat => {
       const src = cat.getAttribute('srcset');
       let replacedSrc = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
-      cat.setAttribute('src', replacedSrc);
+      cat.setAttribute('srcset', replacedSrc);
     })
   }
 }
