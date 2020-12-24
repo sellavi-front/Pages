@@ -1,7 +1,7 @@
 import Requisites from '../../../modules/Requisites/Requisites.js';
 import requisites from './../utils/requsites.js'
 
-if (location.href.includes('term-of-use')) {
+if (location.href.includes('terms-of-use')) {
   const req = new Requisites(requisites, 'beforeend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ');
 
   req.setTemplate();
