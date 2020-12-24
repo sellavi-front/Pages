@@ -53,7 +53,7 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
 @media (max-width: 480px) {
   .main-slider .caption-content {
     display: block !important;
-    margin-left: 27% !important;
+    margin: 0 auto !important;
   }
 
   .main-slider {
