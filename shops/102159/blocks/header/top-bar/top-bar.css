@@ -1,3 +1,7 @@
+body.ru.ltr .top-bar {
+    padding: 10px 0 !important;
+}
+
 body.ru.ltr .wrapper .top-bar {
   background: #fbfbfb;
   border-top: 1px solid #00000014;
