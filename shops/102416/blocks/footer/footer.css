@@ -40,3 +40,7 @@ h4.widget-title.soc-icons__title:first-letter {
 #sellavi_logo {
     display: contents !important;
 }
+
+img.img-fluid {
+    object-fit: contain
+}
