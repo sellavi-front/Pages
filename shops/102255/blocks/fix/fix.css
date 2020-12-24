@@ -7,7 +7,8 @@
 }
 
 div#search {
-    width: 100% !important;
+    width: 28% !important;
+    max-width: 100% !important;
 }
 
 .logo {
