@@ -20,6 +20,8 @@
 
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 
+@import './footer/footer.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
 
 body h1,
