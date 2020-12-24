@@ -93,4 +93,9 @@ body .section-title {
   .thumbnail .price_actions .add_to_cart {
     max-width: 276px !important;
   }
+
+  .thumbnail .add_to_wishlist button  {
+    display: block !important;
+    width: 42px !important;
+  }
 }
