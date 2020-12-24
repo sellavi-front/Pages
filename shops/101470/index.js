@@ -165,7 +165,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606729735/photo_2020-11-30_12-33-15_upfzhe.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1608793846/frame_1_sqaur2.png');
 }
 
 if (document.querySelector('.product-item')) {
