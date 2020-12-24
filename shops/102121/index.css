@@ -45,6 +45,11 @@ body.ltr.ru > div > div.content-area > section.page-section.titles > div > div >
   margin: 0 !important;
 }
 
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background: #D80021 !important;
+  color: white !important;
+}
+
 /*
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   display: none
