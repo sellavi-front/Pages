@@ -45,7 +45,7 @@ body.sidenav-enabled.ltr .wrapper-opened {
 }
 
 body.sidenav-enabled.ltr .mobile_side_nav .mobile_side_nav_menu {
-  top: 90px;
+  top: 85px;
   position: relative;
   background: white !important;
 }
