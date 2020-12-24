@@ -7,10 +7,7 @@
   text-transform: none !important;
   line-height: 1 !important;
   text-shadow: none !important;
-}
-
-.caption-subtitle {
-  font-size: 3.5vw !important;
+  font-size: 37px !important;
 }
 
 body.common-home .main-slider .caption-content .caption-text .btn-theme {
@@ -32,6 +29,12 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
           justify-content: center;
   font-size: 18px;
   text-transform: none !important;
+}
+
+@media (max-width: 991px){
+  .main-slider .caption-subtitle {
+    font-size: 24px !important;
+  }
 }
 
 @media (max-width: 480px) {
