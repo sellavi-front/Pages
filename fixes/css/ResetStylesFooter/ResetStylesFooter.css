@@ -8,7 +8,11 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   color: black !important;
 }
 
-body .footer .footer-widgets .widget-title,
+body.theme-gray .footer .footer-widgets .widget-title {
+  margin: 0 0 10px !important;
+  padding: 0 !important;
+}
+
 .widget-categories ul li a {
   padding: 0 !important;
   margin: 0 !important;
@@ -20,6 +24,8 @@ body.ltr .widget-categories ul li a:before {
 }
 
 body:not(.common-home) footer.footer .footer-widgets>.container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
   margin: auto !important;
   padding: auto !important;
