@@ -21,10 +21,10 @@ if (document.querySelector('wrapper')) {
   logo.setAttribute('src', replacedSrc);
   // end optimize logo quality
 
-  const socIcons = document.querySelector('.social-icons a');
+  const socIcons = document.querySelector('.social-icons > li > a');
 
-  socIcons.querySelector('i').remove();
-  socIcons.insertAdjacentHTML('beforeend', '<img src="https://res.cloudinary.com/gz-company/image/upload/v1608811788/icons8-instagram_1_vtwnvk.svg">')
+  socIcons.textContent = '';
+  socIcons.insertAdjacentHTML('beforeend', `<img src="https://res.cloudinary.com/gz-company/image/upload/v1608811788/icons8-instagram_1_vtwnvk.svg">`);
 
 }
 
