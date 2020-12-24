@@ -137,6 +137,8 @@ if (document.querySelector('.wrapper')) {
       el.textContent = tr.slice(2);
     }
   });
+
+  document.querySelector('.contacts-simple__list'),insertAdjacentHTML('beforeend', `<li><a href="https://www.instagram.com/1981.cafe/"><img src="https://res.cloudinary.com/gz-company/image/upload/v1608811788/icons8-instagram_1_vtwnvk.svg"></a></li>`)
 }
 
 
