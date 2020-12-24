@@ -8,6 +8,9 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js'
+
+import contactData from './utils/contactData.js'
 
 if (document.querySelector('.wrapper')) {
   // optimize logo quality
@@ -37,6 +40,14 @@ if (document.querySelector('.wrapper')) {
       el.closest('li').remove();
     }
   });
+}
+
+if (document.querySelector('.common-home')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
+  map.render();
 }
 
 if (document.querySelector('.product-product')) {
