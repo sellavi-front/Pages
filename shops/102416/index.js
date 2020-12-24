@@ -9,6 +9,10 @@ import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import {navToHeader} from './utils/navToHeader.js';
 import {displaySecondInfo} from './utils/bannerSecondInfo.js';
 
+if (document.querySelector('.common-home')) {
+  document.querySelector('.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="pre-category-title"><div class="container"><span>Категории</span></div></div>');
+}
+
 if (document.querySelector('.header-wrapper')) {
   navToHeader();
 }
