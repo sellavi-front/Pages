@@ -28,7 +28,8 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 18px;
-  text-transform: none !important;
+  text-transform: capitalize !important;
+  font-weight: 100;
 }
 
 @media (max-width: 991px){
