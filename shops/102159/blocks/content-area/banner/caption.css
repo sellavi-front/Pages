@@ -59,4 +59,8 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
   .main-slider {
     margin-top: 0 !important;
   }
+
+  body.common-home .main-slider .caption-content .caption-text .btn-theme {
+    max-width: 200px !important;
+  }
 }
