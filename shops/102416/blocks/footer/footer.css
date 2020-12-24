@@ -1,0 +1,11 @@
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div > div > div > div.caption.text-center > h4 > a {
+    font-weight: 600;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div > div.add_to_cart > button > span {
+    font-weight: 600
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+    color: black;
+}
