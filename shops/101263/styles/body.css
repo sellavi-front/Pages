@@ -1,0 +1,11 @@
+body .section-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #232323;
+  overflow: hidden;
+}
