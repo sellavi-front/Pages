@@ -17,4 +17,9 @@ if(pages.home) {
   Fixes.deleteSpanBuyBtn()
 }
 
+if(pages.productCategory) {
+  let Fixes = new Functions()
+  Fixes.deleteSpanBuyBtn()
+}
+
 
