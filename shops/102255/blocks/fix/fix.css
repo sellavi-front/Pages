@@ -19,3 +19,7 @@ div#search {
     width: 150px;
     padding: 20px;
 }
+
+.header .header-search {
+    max-width: 30% !important;
+}
