@@ -1,0 +1,12 @@
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 {
+    position: relative;
+    top: 100px;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    position: relative;
+    background: #0000007d;
+}
