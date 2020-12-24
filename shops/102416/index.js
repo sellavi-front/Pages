@@ -13,6 +13,8 @@ import FormBasic from '../../components/FormBasic/FormBasic.js';
 import senderData from './utils/senderData.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 import contactData from './utils/contactData.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
+import socIconsData from './utils/socIconsData.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="pre-category-title"><div class="container"><span>Категории</span></div></div>');
@@ -53,6 +55,18 @@ if (document.querySelector('.common-home')) {
 
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
+}
+
+if (document.querySelector('.wrapper')) {
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
+
+  new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
 }
 
 if (location.href.includes('term-of-use')) {
