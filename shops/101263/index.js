@@ -14,7 +14,6 @@ const bootstrapClasses = [
   'mb-md-4',
   'col-12',
   'col-sm-12',
-  'col-sm-6',
   'col-md-6',
   'col-md-3',
   'col-lg-6',
