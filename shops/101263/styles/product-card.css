@@ -14,3 +14,7 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .thumbnail .price {
   color: #000 !important;
 }
+
+.product-item {
+  border: none !important;
+}
