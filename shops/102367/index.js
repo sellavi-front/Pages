@@ -3,7 +3,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import '../../fixes/js/Alert/Alert.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js'
-// import '../../fixes/js/FooterCopy/FooterCopy.js'
+import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
@@ -48,7 +48,7 @@ if (document.querySelector('.common-home')) {
   })
 
   senderForm.querySelector('button').addEventListener('click', () => {
-    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут.%0D%0A${dataForm.name}%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
+    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут%20${dataForm.name}.%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
   });
 
 }

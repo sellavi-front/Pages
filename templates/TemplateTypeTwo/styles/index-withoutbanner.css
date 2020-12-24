@@ -1,8 +1,9 @@
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import '../../../components/PictureCategories/PictureCategories.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
-@import './banner/banner.css';
+@import './navigation/navigation.css';
 @import './products/products.css';
 @import './section-title/section-title.css';
 @import './footer/footer.css';

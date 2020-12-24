@@ -14,7 +14,7 @@ const requsites = {
 const dataContact = {
   adress: 'Москва, ул.Орджокинидзе, 11с8',
   phone: '89263405444',
-  city: 'Москва',
+  city: 'г. Москва',
   timeWork: 'с 10 до 22',
 }
 

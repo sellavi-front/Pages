@@ -25,12 +25,25 @@
 body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper,
 body.theme-gray.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart,
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cart_drop_down #cart > span:first-child {
   display: none !Important;
+}
+
+body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
+  width: 18px !important;
+  height: 18px !important;
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+  right: 14px;
+  top: -15px !important;
 }
 
 @media (max-width: 991px) {

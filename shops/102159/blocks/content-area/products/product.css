@@ -1,0 +1,8 @@
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  min-height: 50px !important;
+  max-height: 50px !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  line-height: 1.3;
+}

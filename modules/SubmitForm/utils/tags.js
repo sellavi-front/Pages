@@ -4,7 +4,7 @@ export const tags = [
     attributes: {
       selector: 'class="form__input"',
       type: 'type="name"',
-      name: 'name="phone"',
+      name: 'name="userName"',
       placeholder: 'placeholder="Ваше Имя"',
     },
   },
@@ -13,7 +13,7 @@ export const tags = [
     attributes: {
       selector: 'class="form__input"',
       type: 'type="number"',
-      name: 'name="userName"',
+      name: 'name="phone"',
       placeholder: 'placeholder="Ваш телефон"',
     },
   },

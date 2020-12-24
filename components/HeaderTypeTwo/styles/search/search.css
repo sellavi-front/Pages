@@ -4,6 +4,15 @@
   border-radius: 0 !important;
 }
 
+ .p {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+ }
+
 .header .header-search {
   max-width: 210px !important;
   position: relative;
@@ -19,6 +28,27 @@
 
 .wrapper .header .header-wrapper .header-search input.form-control {
   padding: 0 2% !important;
+  font-size: 16px !important;
+  background: transparent !important;
+}
+
+.wrapper .header .header-wrapper .header-search input.form-control::-webkit-input-placeholder {
+  color: rgba(0,0,0,.5) !important;
+  font-size: 16px !important;
+}
+
+.wrapper .header .header-wrapper .header-search input.form-control::-moz-placeholder {
+  color: rgba(0,0,0,.5) !important;
+  font-size: 16px !important;
+}
+
+.wrapper .header .header-wrapper .header-search input.form-control:-ms-input-placeholder {
+  color: rgba(0,0,0,.5) !important;
+  font-size: 16px !important;
+}
+
+.wrapper .header .header-wrapper .header-search input.form-control::-ms-input-placeholder {
+  color: rgba(0,0,0,.5) !important;
   font-size: 16px !important;
 }
 

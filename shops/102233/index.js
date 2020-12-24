@@ -11,7 +11,6 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
-
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
   customSection.classList.add('container');

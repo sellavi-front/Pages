@@ -1,0 +1,13 @@
+
+/* BANNER */
+@import './banner/banner.css';
+@import './banner/caption.css';
+
+/* PRODUCTS */
+@import './products/products.css';
+@import './products/product.css';
+
+body .content-area {
+  position: relative;
+  z-index: 1;
+}
