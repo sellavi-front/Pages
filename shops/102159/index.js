@@ -8,6 +8,16 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
+
+if (document.querySelector('wrapper')) {
+  const logo = document.querySelector('.logo');
+  const src = logo.getAttribute('src');
+
+  let replacedSrc = src.replace(/\/c_fit,g_center,h_176,q_100,w_430\/c_pad,h_176,w_430\/v1608639340/gi, '');
+
+  logo.setAttribute('src', replacedSrc);
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Зюзина Оксана Викторовна');
 
