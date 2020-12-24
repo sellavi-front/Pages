@@ -3,6 +3,12 @@
   width: 100% !important;
 }
 
+body.theme_11 .wrapper .page-section .products.grid {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding: 10px !important;
 }
