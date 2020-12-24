@@ -1,22 +1,22 @@
 li.contact__title {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 22px !important;
+    font-weight: 700 !important;
 }
 
 
 
 p.contact__list-title {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 16px !important;
+    font-weight: 400 !important;
 }
 
 
 
 p.contact__list-text {
-    font-weight: 500;
+    font-weight: 500 !important;
     color: black !important;
 }
 
 #home > div.wrapper.wrapper-closed > div.content-area > div.custom_section.container > div > ul > li > p.contact__list-text > a {
-    color: black;
-}
+    color: black !important;
+} 
