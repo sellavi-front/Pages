@@ -4,3 +4,13 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-weight: 900 !important;
   font-size: 14px !important;
 }
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  position: static !important;
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}
+
+.thumbnail .price {
+  color: #000 !important;
+}
