@@ -38,7 +38,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
   height: 100% !important;
-  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i {
