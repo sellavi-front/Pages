@@ -1,3 +1,7 @@
+.product-product header {
+  margin-bottom: 60px;
+}
+
 body .btn.dropdown-toggle,
 body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
 body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list,
