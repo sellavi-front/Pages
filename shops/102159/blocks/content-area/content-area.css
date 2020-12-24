@@ -5,6 +5,7 @@
 
 /* PRODUCTS */
 @import './products/products.css';
+@import './products/product.css';
 
 body .content-area {
   position: relative;
