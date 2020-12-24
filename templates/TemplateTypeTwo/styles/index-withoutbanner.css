@@ -4,7 +4,7 @@
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
 @import './navigation/navigation.css';
-@import './products/products.css';
+/* @import './products/products.css'; */
 @import './section-title/section-title.css';
 @import './footer/footer.css';
 @import './footer/footer-widgets.css';
