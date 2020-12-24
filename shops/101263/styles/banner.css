@@ -9,3 +9,11 @@
   -o-box-shadow: none !important;
   box-shadow: none !important;
 }
+
+@media (max-width: 375px) and (min-width: 320px) {
+  .logo img {
+    max-width: 120px;
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}
