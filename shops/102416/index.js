@@ -24,6 +24,8 @@ if (document.querySelector('.main-slider.content_center')) {
   displaySecondInfo();
 }
 
+const latestSection = document.querySelector('.page-section.latest-section > .container');
+
 const sender = new FormBasic(latestSection, 'beforeend', senderData);
 sender.render();
 
