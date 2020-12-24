@@ -9,6 +9,8 @@ import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import {navToHeader} from './utils/navToHeader.js';
 import {displaySecondInfo} from './utils/bannerSecondInfo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import FormBasic from '../../components/FormBasic/FormBasic.js';
+import senderData from './utils/senderData.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="pre-category-title"><div class="container"><span>Категории</span></div></div>');
@@ -21,6 +23,9 @@ if (document.querySelector('.header-wrapper')) {
 if (document.querySelector('.main-slider.content_center')) {
   displaySecondInfo();
 }
+
+const sender = new FormBasic(latestSection, 'beforeend', senderData);
+sender.render();
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Орлова Елена Геннадьевна');
