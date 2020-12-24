@@ -47,7 +47,12 @@ body.ltr.ru > div > div.content-area > section.page-section.titles > div > div >
 
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
   background: #D80021 !important;
+}
+
+body.theme-red-2.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i,
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
   color: white !important;
+
 }
 
 /*
