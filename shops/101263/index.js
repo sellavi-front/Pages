@@ -19,7 +19,7 @@ const bootstrapClasses = [
   'col-md-6',
   'col-lg-6',
   'col-xl-4',
-  'mb-4',
+/*  'mb-4',*/
   'container'
 ];
 
