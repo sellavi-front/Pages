@@ -77,6 +77,7 @@ body .section-title {
   text-align: center !important;
 }
 
-body .btn.btn-theme {
+body .btn.btn-theme,
+body .btn.btn-theme-default {
   text-transform: none !important;
 }
