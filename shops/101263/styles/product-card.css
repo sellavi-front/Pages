@@ -1,0 +1,6 @@
+/* Main page */
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  font-weight: 900 !important;
+  font-size: 14px !important;
+}
