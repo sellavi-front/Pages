@@ -9,7 +9,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
-if (document.querySelector('wrapper')) {
+if (document.querySelector('.wrapper')) {
   // optimize logo quality
   const logo = document.querySelector('.header-wrapper .logo img');
   const src = logo.getAttribute('src');
