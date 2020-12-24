@@ -18,6 +18,8 @@ body .content-area .page-section.titles {
 body .img-fluid, body .img-thumbnail {
   width: 100% !important;
   min-width: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
