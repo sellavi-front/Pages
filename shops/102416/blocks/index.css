@@ -28,6 +28,8 @@
 
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 
+@import './map/map.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
 
 body h1,
