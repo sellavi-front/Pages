@@ -15,7 +15,7 @@ body .content-area .page-section.titles {
   font-weight: bold;
 }
 
-body .img-fluid, body .img-thumbnail {
+body .thumbnail .img-fluid, body .img-thumbnail {
   width: 100% !important;
   min-width: 100% !important;
   -o-object-fit: cover;
