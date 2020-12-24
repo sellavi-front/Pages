@@ -6,6 +6,7 @@ import pages from "./utils/pages/pages.js"
 import Advantages from "./blocks/advantages.js"
 import Functions from "./utils/functions/functions.js"
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
+import CustomSection from "./blocks/custom-section.js"
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -34,6 +35,9 @@ if(pages.home) {
     const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
     deleteSelectors.findAndDelete();
   }
+
+  let customSection = new CustomSection()
+  customSection.render()
 }
 
 if(pages.productCategory) {
