@@ -11,19 +11,19 @@ if (location.href.includes('term-of-use')) {
   req.setTemplate();
 }
 
-if (location.href.includes('contact')) {
+if (location.href.includes('/contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
   const req = new Requisites(requsites, 'afterend', 'ИП Зобнина Вера Сергеевна', media);
   req.setTemplate();
 }
 
-if (location.href.includes('policy')) {
+if (location.href.includes('/policy')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Зобнина Вера Сергеевна', document.querySelector("#content > div > div"));
   req.setTemplate();
 }
 
-if (location.href.includes('pay-delivery')) {
+if (location.href.includes('/pay-delivery')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Зобнина Вера Сергеевна', document.querySelector("#content > div > div"), dataContact);
   req.setTemplate();
 }
