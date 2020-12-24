@@ -31,6 +31,7 @@ if (document.querySelector('.common-home')) {
 }
 
 if (location.href.includes('term-of-use')) {
+  console.log(location.href);
   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
   req.setTemplate();
