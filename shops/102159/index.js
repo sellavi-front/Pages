@@ -7,6 +7,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
 
 if (document.querySelector('wrapper')) {
@@ -21,6 +22,15 @@ if (document.querySelector('wrapper')) {
   // end optimize logo quality
 
 }
+
+
+if (document.querySelector('.product-product')) {
+  const colorChoise = new ColorChoise();
+  colorChoise.render();
+}
+
+
+
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Зюзина Оксана Викторовна');
