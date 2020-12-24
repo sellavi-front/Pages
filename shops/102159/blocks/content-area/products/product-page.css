@@ -17,7 +17,7 @@ body.ltr.ru.checkout-cart .content-area .page-section .checkout_cart_inner .cart
 }
 
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
-  background: rgba(100,100,100, .2);
+  background: rgba(100,100,100, .2) !important;
 }
 
 .product-product .product-single #tab-description h3,
