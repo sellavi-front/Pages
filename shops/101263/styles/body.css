@@ -34,3 +34,14 @@ body.theme-green-2.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items 
   background-color: #000;
   color: #fff;
 }
+
+body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media:not(.buttons) .media-body>h4 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media:not(.buttons) .media-body+p {
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
