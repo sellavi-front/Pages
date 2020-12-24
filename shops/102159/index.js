@@ -13,7 +13,7 @@ import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 if (document.querySelector('wrapper')) {
 
   // optimize logo quality
-  const logo = document.querySelector('.header-wrapper .logo');
+  const logo = document.querySelector('.header-wrapper .logo img');
   const src = logo.getAttribute('src');
 
   let replacedSrc = src.replace(/\/c_fit,g_center,h_176,q_100,w_430\/c_pad,h_176,w_430\/v1608639340/gi, '');
