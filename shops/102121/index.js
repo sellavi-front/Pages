@@ -31,7 +31,6 @@ if (document.querySelector('.common-home')) {
 }
 
 if (location.href.includes('term-of-use')) {
-  console.log(location.href);
   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
   req.setTemplate();
@@ -49,6 +48,10 @@ if (location.href.includes('policy')) {
   req.setTemplate();
 }
 
+if (location.href.includes('pay-delivery')) {
+  const req = new Requisites(requsites, 'afterend', 'ИП Харламова Зоя Николаевна', document.querySelector("#content > div > div"), dataContact);
+  req.setTemplate();
+}
 
 
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
