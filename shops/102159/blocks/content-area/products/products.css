@@ -3,6 +3,10 @@
   width: 100% !important;
 }
 
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
+  padding: 10px !important;
+}
+
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
   margin-top: 10px !important;
 }
