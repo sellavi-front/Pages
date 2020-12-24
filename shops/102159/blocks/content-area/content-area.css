@@ -11,6 +11,10 @@
 /* Section-title */
 @import './section-title/section-title.css';
 
+/* Social icons */
+@import './footer/social-icons.css';
+
+
 body .content-area {
   position: relative;
   z-index: 1;
