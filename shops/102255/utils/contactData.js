@@ -3,19 +3,19 @@ const contactData = {
   contacts: [
     {
       title: 'Адрес',
-      contact: 'г. Москва ул. Маршала Катукова стр. 11',
+      contact: 'Москва, ул. Белореченская, д. 22/66',
     },
     {
       title: 'Телефон',
-      contact: '<a href="tel:+7(926)367-97-77">+7(926)367-97-77</a>',
+      contact: '<a href="tel:+79251552557">+79251552557</a>',
     },
     {
       title: 'E-mail',
-      contact: '<a href="mailto:magazin1170@mail.ru">magazin1170@mail.ru</a>',
+      contact: '<a href="mailto:5178080@bk.ru">5178080@bk.ru</a>',
     },
   ],
   map: `
-  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace6b1a8aa5dbad763aca6289fa9858ead326365147735f99a5869dcddb66f547&amp;source=constructor" frameborder="0"></iframe>
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac3aa37f726fcc30a115c808ac4e7e037289c238be97d50c31646463c6bc5bc92&amp;source=constructor" frameborder="0"></iframe>
   `,
 };
 
