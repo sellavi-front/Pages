@@ -10,3 +10,12 @@
     position: relative;
     background: #0000007d;
 }
+
+#home > div.wrapper.wrapper-closed > div.content-area > div.pre-category-title > div > span {
+    font-size: 22px;
+    font-weight: 600;   
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div.pre-category-title {
+    margin-top: 100px 
+}
