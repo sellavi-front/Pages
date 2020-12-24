@@ -237,3 +237,14 @@ body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile
 .MsoNormal span {
     font-weight: 400
 }
+
+
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
+    border-radius: 0px !important;
+}
+
+body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    border-radius: 0px !important;
+    border-color: #d1d1d1 !important;
+}
