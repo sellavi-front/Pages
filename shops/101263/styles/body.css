@@ -29,3 +29,8 @@ body.theme-green-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu
   font-size: 10px;
   border: 2px solid #333;
 }
+
+body.theme-green-2.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
+  background-color: #000;
+  color: #fff;
+}
