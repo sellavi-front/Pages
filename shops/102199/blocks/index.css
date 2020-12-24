@@ -24,6 +24,10 @@ footer .soc-icons .container > .soc-icons__title {
   margin: 0 0 20px !important;
 }
 
+body .footer-widgets .social-icons {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .footer-widgets > div > div > div {
     margin: 0 auto 0 0 !important;
