@@ -10,6 +10,6 @@ if (location.href.includes('terms-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ', media);
+  const req = new Requisites(requisites, 'afterend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ', media);
   req.setTemplate();
 }
