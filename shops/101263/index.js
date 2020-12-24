@@ -7,6 +7,7 @@ import Advantages from "./blocks/advantages.js"
 import Functions from "./utils/functions/functions.js"
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js'
 import CustomSection from "./blocks/custom-section.js"
+import CustomBanner from "./blocks/custom-banner.js"
 
 const bootstrapClasses = [
   'col-lg-4',
@@ -27,21 +28,17 @@ const bootstrapClasses = [
 if(pages.home) {
   let banner = new Banner()
   banner.updateImgCategories()
+  let customBanner = new CustomBanner()
+  customBanner.render()
   let advantages = new Advantages()
   advantages.render()
-  let Fixes = new Functions()
   if (document.querySelector('.product-item')) {
     const productItems = document.querySelectorAll('.product-item');
     const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
     deleteSelectors.findAndDelete();
   }
-
   let customSection = new CustomSection()
   customSection.render()
-}
-
-if(pages.productCategory) {
-  let Fixes = new Functions()
 }
 
 
