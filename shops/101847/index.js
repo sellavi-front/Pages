@@ -6,7 +6,6 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 if (location.href.includes('term-of-use')) {
-  console.log(location.href);
   const req = new Requisites(requsites, 'beforeend', 'ИП Зобнина Вера Сергеевна');
   req.setTemplate();
 }
