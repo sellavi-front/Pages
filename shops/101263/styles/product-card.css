@@ -5,6 +5,17 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-size: 14px !important;
 }
 
+.thumbnail .caption-title {
+  font-size: 12px !important;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0;
+  min-height: 60px;
+  color: #232323;
+  text-align: right;
+  overflow: hidden;
+}
+
 body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   position: static !important;
   margin-top: 10px !important;
