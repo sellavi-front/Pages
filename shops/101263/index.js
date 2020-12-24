@@ -14,13 +14,10 @@ if(pages.home) {
   let advantages = new Advantages()
   advantages.render()
   let Fixes = new Functions()
-  Fixes.deleteSpanBuyBtn()
 }
 
 if(pages.productCategory) {
-  console.log(1)
   let Fixes = new Functions()
-  Fixes.deleteSpanBuyBtn()
 }
 
 
