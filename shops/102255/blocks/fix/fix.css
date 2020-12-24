@@ -1,0 +1,21 @@
+.header_wishlist {
+    display: none !important;
+}
+
+#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container {
+    max-width: 100% !important;
+}
+
+div#search {
+    width: 100% !important;
+}
+
+.logo {
+    width: 100%;
+    left: 0px;
+}
+
+.logo img {
+    width: 150px;
+    padding: 20px;
+}

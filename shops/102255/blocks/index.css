@@ -26,6 +26,8 @@
 
 @import './footer/footer.css';
 
+@import './fix/fix.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 body h1,
