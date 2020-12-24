@@ -38,6 +38,18 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
   }
 }
 
+@media (max-width: 595px) {
+  body .main-slider .div-cell {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15%;
+  }
+}
+
 @media (max-width: 480px) {
   .main-slider .caption-content {
     display: block !important;
