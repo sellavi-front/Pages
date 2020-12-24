@@ -1,3 +1,7 @@
+body.ltr.ru .wrapper .header .navigation-wrapper>div.container {
+  max-width: 1480px !important;
+}
+
 .navigation .nav.sf-menu {
   padding-top: 20px;
   padding-bottom: 20px;
