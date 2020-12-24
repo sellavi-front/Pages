@@ -15,6 +15,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   background: transparent !important;
   height: 100%;
   border: 1px solid lightgray !important;
+  color: black !important;
 }
 
 .thumbnail .price_actions .add_to_cart {
