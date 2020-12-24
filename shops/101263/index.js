@@ -1,4 +1,4 @@
-import "../../templates/TemplateTypeTwo/TemplateTypeTwo.js"
+import "../../components/HeaderTypeTwo/HeaderTypeTwo.js"
 import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 import "../../fixes/fixes.js"
 import Banner from "./blocks/banner.js"
