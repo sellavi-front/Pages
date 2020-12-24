@@ -1,0 +1,5 @@
+body.checkout-cart .product_row,
+body.ltr.ru.checkout-cart .order-summary,
+body.checkout-cart .accordion {
+  border: none !important;
+}
