@@ -52,12 +52,6 @@ body.theme_11.product-product .product-single.product-item .buttons .btn-wish-li
   border: 1px solid #333 !important;
 }
 
-body.theme-green-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
-  background-color: #89c144;
-  color: #fff;
-  border: none !important;
-}
-
 
 
 @media only screen and (max-width: 400px) {
