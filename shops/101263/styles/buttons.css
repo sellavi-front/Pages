@@ -25,6 +25,7 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 body.theme-green-2.theme_11.product-product .product-single.product-item .buttons #button-cart {
   background-color: transparent !important;
   color: #000 !important;
+  font-size: 12px;
 }
 
 body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
