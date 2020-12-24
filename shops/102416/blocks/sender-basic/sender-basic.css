@@ -4,6 +4,7 @@
   padding: 4% 6% !important;
   justify-content: space-between;
   margin-bottom: 0 !important;
+  border: 5px solid #3844FB;
 }
 
 .sender-basic__content {
@@ -37,11 +38,11 @@
   width: 100% !important;
   font-size: 14px !important;
   padding-left: 3% !important;
-  border: 1px solid #3844FB !important;
+  border: 1px solid #000000 !important;
 }
 
 .sender-basic form .form__input::placeholder {
-  color: #3844FB !important;
+  color: #000000 !important;
 }
 
 .sender-basic form .form__input:last-of-type {
@@ -76,4 +77,8 @@
   .sender-basic form .form__input {
     height: 60px !important;
   }
+}
+
+.sender-basic form button {
+  background: #3844FB;
 }
