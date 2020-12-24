@@ -1,3 +1,7 @@
+body.ltr.ru .wrapper .header .navigation-wrapper {
+  background: transparent !important;
+}
+
 body.ltr.ru .wrapper .header .navigation-wrapper>div.container {
   max-width: 1480px !important;
 }
