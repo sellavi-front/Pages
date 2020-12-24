@@ -9,3 +9,8 @@
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
     color: black !important;
 }
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container {
+    border-top: 1px solid #3844FB;
+    padding-top: 30px;
+}
