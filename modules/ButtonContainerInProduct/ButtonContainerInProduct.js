@@ -38,7 +38,6 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   buttonContainerInProduct.delete(addToCart);
   buttonContainerInProduct.delete(wishList);
 
-<<<<<<< HEAD
 setTimeout(() => {
   const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
@@ -59,26 +58,6 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
 
 
  
-=======
-  // setTimeout(() => {
-  //   const price = document.querySelectorAll('.product-item .price');
-  //   const addToCart = document.querySelectorAll('.add_to_cart');
-
-  //   if (document.querySelectorAll('.add_to_wishlist').length === 0) {
-  //     var wishList = document.querySelectorAll('.remove_from_wishlist');
-  //   } else {
-  //     var wishList = document.querySelectorAll('.add_to_wishlist');
-  //   }
-
-
-  //   const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
-
-  //   buttonContainerInProduct.createContainer();
-  //   buttonContainerInProduct.delete(addToCart);
-  //   buttonContainerInProduct.delete(wishList);
-
-  // }, 4000)
->>>>>>> 79d7f99676dac42241ce76a8bcd670c79a233303
 // const btnContainer = document.querySelectorAll('.buttons__container')
 
 // const addCartInProductCard = new AddElemInContainer(addToCart, btnContainer);
