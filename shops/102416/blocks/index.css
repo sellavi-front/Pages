@@ -5,11 +5,14 @@
 @import '../../../templates/TemplateTypeTwo/styles/withoutCat.css';
 
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+
 @import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 
 @import './header/header.css';
 
 @import './banner/banner.css';
+
+@import './secondMenu/secondMenu.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
 
