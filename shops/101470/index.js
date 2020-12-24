@@ -120,7 +120,6 @@ if (document.querySelector('.wrapper')) {
     el.addEventListener('mouseleave', (e) => {
       el.querySelector('.panel-collapse').style.cssText = 'display: none; background: black;';
     });
-
   });
 
   const cntctsSimple = document.querySelector('.contacts-simple');
@@ -167,7 +166,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1608793846/frame_1_sqaur2.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1608823988/frame_28618_oc1a9z.png');
 }
 
 if (document.querySelector('.product-item')) {
