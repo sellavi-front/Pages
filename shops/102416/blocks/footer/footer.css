@@ -7,7 +7,7 @@
 }
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
-    color: black !important;
+    color: black;
 }
 
 #home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container {
@@ -43,4 +43,8 @@ h4.widget-title.soc-icons__title:first-letter {
 
 img.img-fluid {
     object-fit: contain
+}
+
+body.ltr .widget-categories ul li a {
+    color: #878787 !important;
 }
