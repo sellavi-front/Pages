@@ -36,4 +36,23 @@
     font-size: 15px !important;
     color: #000;
   }
+
+  .nav.sf-menu {
+    display: none !important;
+  }
+
+  body.sidenav-enabled .mobile_side_nav {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(100,100,100,.2);
+  }
+
+
+  body.sidenav-enabled .mobile_side_nav>ul {
+    background: white;
+    max-width: 1140px;
+    width: 100%;
+    overflow: visible !important;
+    height: fit-content !important;
+  }
 }
