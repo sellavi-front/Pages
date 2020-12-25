@@ -51,5 +51,39 @@
     }
 }
 
+@media (max-width: 768px) {
+    body.ru.ltr .wrapper .page-section .products.grid .product-item {
+        padding: 10px !important;
+    }
+}
+
+@media (max-device-width: 480px) {
+    .header-wrapper {
+        display: flex;
+    }
+
+
+
+    .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+        top: 0px !important;
+    }
+
+    .product-category section.page-section.titles > div {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1608896565/white-bedroom-interior-mockup_1_vvpjzt.png);
+        height: 100px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-area > section.page-section.titles > div > div > h1 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+
+
 
 
