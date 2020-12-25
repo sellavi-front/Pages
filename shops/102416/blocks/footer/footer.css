@@ -48,3 +48,36 @@ img.img-fluid {
 body.ltr .widget-categories ul li a {
     color: #878787 !important;
 }
+
+@media (max-device-width: 480px) {
+    .nav.sf-menu {
+        display: none;
+    }
+
+
+    .header_wishlist {
+        display: none !important;
+    }
+
+    .header-cart.sticky {
+        display: none !important;
+    }
+    
+    .common-home header {
+        position: absolute !important;
+    }
+
+}
+
+@media (max-width: 375px) {
+    body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+        margin: 0 !important;
+    }
+}
+
+
+
+.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+    position: relative;
+    z-index: 999;
+}
