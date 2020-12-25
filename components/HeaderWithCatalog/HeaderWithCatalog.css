@@ -56,4 +56,13 @@
     height: fit-content !important;
     margin: 0 auto;
   }
+
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    left: auto !important;
+    right: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-left: 1px solid #e5e5e5;
+    top: 98px !important;
+  }
 }
