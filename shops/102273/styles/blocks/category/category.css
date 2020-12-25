@@ -1,3 +1,6 @@
+@import './caption/caption.css';
+
 body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
   padding: 0 !important;
 }
+

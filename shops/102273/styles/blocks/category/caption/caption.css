@@ -1,0 +1,10 @@
+@import './caption-button.css';
+
+body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+  position: absolute !important;
+}
+
+body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+  background: transparent !important;
+  color: black !important;
+}
