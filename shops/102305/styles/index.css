@@ -126,3 +126,8 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 .advantages {
   margin-top: 15px;
 }
+
+body.ltr .wrapper .header .header-wrapper .logo {
+  margin: 0 15% 0 auto;
+  z-index: 9999 !important;
+}
