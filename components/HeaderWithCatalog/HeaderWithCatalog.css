@@ -54,5 +54,6 @@
     width: 100%;
     overflow: visible !important;
     height: fit-content !important;
+    margin: 0 auto;
   }
 }
