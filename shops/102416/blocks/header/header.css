@@ -11,3 +11,7 @@
 .header_login {
     display: none !important;
 }
+
+i.fa-shopping-cart.far {
+    color: black;
+}
