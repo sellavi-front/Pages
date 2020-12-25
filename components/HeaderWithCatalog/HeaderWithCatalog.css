@@ -1,0 +1,12 @@
+@media (min-width: 992px) {
+  .catalog {
+    display: flex !important;
+    margin: 6px 0 0;
+  }
+
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    position: absolute;
+    left: 25%;
+    right: auto;
+  }
+}
