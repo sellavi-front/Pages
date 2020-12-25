@@ -88,6 +88,26 @@
     background: transparent;
     transition: all .5s linear;
   }
+
+  body.sidenav-enabled .mobile_side_nav > ul a {
+    border: none;
+    text-align: end;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: none;
+  }
+
+  body.sidenav-enabled .mobile_side_nav > ul a {
+    border: none;
+    text-align: end;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: none;
+  }
 }
 
 @media (max-width: 991px) {
