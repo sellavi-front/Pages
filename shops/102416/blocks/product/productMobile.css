@@ -59,7 +59,7 @@
 
 @media (max-device-width: 480px) {
     .header-wrapper {
-        display: flex;
+        display: flex !important;
     }
 
 
@@ -69,17 +69,12 @@
     }
 
     .product-category section.page-section.titles > div {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1608896565/white-bedroom-interior-mockup_1_vvpjzt.png);
-        height: 100px;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: 100px !important;
     }
 
     .content-area > section.page-section.titles > div > div > h1 {
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 22px !important;
+        font-weight: 600 !important;
     }
 }
 
