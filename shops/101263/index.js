@@ -45,6 +45,8 @@ if(pages.home) {
   let newCatalog = oldCatalog.cloneNode(true)
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
+  let headerCatalog = document.querySelector(".header-catalog")
+  headerCatalog.insertAdjacentHTML("beforeend", `<span class="catalog-title"></span>`)
 }
 
 
