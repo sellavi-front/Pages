@@ -28,26 +28,28 @@ if (document.querySelector('.main-slider.content_center')) {
   displaySecondInfo();
 }
 
-const latestSection = document.querySelector('.page-section.latest-section > .container');
+if (document.querySelector('.common-home')) {
+  const latestSection = document.querySelector('.page-section.latest-section > .container');
 
-const sender = new FormBasic(latestSection, 'beforeend', senderData);
-sender.render();
+  const sender = new FormBasic(latestSection, 'beforeend', senderData);
+  sender.render();
 
-const senderForm = document.querySelector('.sender-basic form');
-const dataForm = {};
-senderForm.addEventListener('input', (e) => {
-  if (e.target.getAttribute('name') === 'userName') {
-    dataForm.name = e.target.value;
-  }
+  const senderForm = document.querySelector('.sender-basic form');
+  const dataForm = {};
+  senderForm.addEventListener('input', (e) => {
+    if (e.target.getAttribute('name') === 'userName') {
+      dataForm.name = e.target.value;
+    }
 
-  if (e.target.getAttribute('name') === 'phone') {
-    dataForm.phone = e.target.value;
-  }
-})
+    if (e.target.getAttribute('name') === 'phone') {
+      dataForm.phone = e.target.value;
+    }
+  })
 
-senderForm.querySelector('button').addEventListener('click', () => {
-  window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут%20${dataForm.name}.%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
-});
+  senderForm.querySelector('button').addEventListener('click', () => {
+    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут%20${dataForm.name}.%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
+  });
+}
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
