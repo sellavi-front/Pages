@@ -15,6 +15,8 @@ import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js
 import contactData from './utils/contactData.js';
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 import socIconsData from './utils/socIconsData.js';
+import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
+
 
 if (document.querySelector('.common-home')) {
   document.querySelector('.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="pre-category-title"><div class="container"><span>Категории</span></div></div>');
@@ -73,6 +75,11 @@ if (document.querySelector('.wrapper')) {
 
 if (document.querySelector('.product-category')) {
   document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
+}
+
+if (document.querySelector('.product-product')) {
+  const colorChoise = new ColorChoise();
+  colorChoise.render();
 }
 
 if (location.href.includes('term-of-use')) {
