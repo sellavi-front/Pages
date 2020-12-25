@@ -1,5 +1,20 @@
 @import './caption/caption.css';
 
-body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+body.ru.ltr
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .img-bg
+  img {
   padding: 0 !important;
+}
+
+body.ru.ltr .wrapper .homefeatured_category > div > div > div {
+  max-width: 560px !important;
+  width: 100% !important;
 }
