@@ -26,6 +26,7 @@ body.ru.ltr
   .caption-wrapper
   .caption-inner {
   width: 40%;
+  border: none !important;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
