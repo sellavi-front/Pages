@@ -44,3 +44,7 @@
 .common-home .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
     top: 0px !important;
 }
+
+i.fas.fa-bars {
+    color: #3842FB;
+}
