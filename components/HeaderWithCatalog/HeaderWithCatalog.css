@@ -1,5 +1,5 @@
 @media (min-width: 992px) {
-  .catalog {
+  .header-catalog {
     display: flex !important;
     margin: 6px 0 0;
   }
