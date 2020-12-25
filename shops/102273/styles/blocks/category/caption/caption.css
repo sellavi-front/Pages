@@ -25,7 +25,7 @@ body.ru.ltr
   .caption
   .caption-wrapper
   .caption-inner {
-  width: 40%;
+  width: 60%;
   border: none !important;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -58,4 +58,9 @@ body.ru.ltr
   span {
   background: transparent !important;
   color: black !important;
+}
+
+body.ru.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(2) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
