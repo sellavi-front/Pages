@@ -20,4 +20,20 @@
     display: flex;
     justify-content: center;
   }
+
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    position: absolute;
+    right: 15px;
+    top: 23px;
+    max-width: 150px !important;
+  }
+
+  .catalog-title {
+    margin-left: 5px;
+  }
+
+  .header .header-wrapper .mobile-navigation-wrapper a {
+    font-size: 15px !important;
+    color: #000;
+  }
 }
