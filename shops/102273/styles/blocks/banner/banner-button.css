@@ -1,6 +1,6 @@
 body.ru.ltr .caption-text .btn.btn-theme:not(.btn-wish-list) {
-  margin: 0 auto 0 0 !important;
   background: transparent;
+  color: black !important;
   border: 2px solid !important;
   border-image-source: linear-gradient(
     92.85deg,
