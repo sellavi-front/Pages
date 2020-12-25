@@ -1,0 +1,55 @@
+@media (max-device-width: 480px) {
+    .product-item.product-layout.col-6.two_col_grid.col-sm-6.col-lg-4.col-xl-3.mb-0.mb-md-4 {
+        padding: 10px !important
+    }
+
+    button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    #home > div > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.caption.text-center > h4 > a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    #home > div > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.price_actions.d-flex.justify-content-between > div.price {
+        font-size: 14px !important;
+        font-weight: 600;
+        text-align: left !important;
+    }
+
+    #home > div > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.price_actions.d-flex.justify-content-between > div > div.add_to_cart > button > span {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #home > div > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.price_actions.d-flex.justify-content-between > div > div.add_to_wishlist > button > i {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    button.btn.btn-theme.btn-theme-transparent.btn-icon {
+        width: 100px !important;
+        height: 30px !important;
+        padding: 0px;
+    }
+
+    h2.sender-basic__title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    p.sender-basic__text {
+        font-size: 14px;
+        font-weight: 400
+    }
+
+    li.contact__title {
+        margin-bottom: 20px !important;
+    }
+}
+
+
+
