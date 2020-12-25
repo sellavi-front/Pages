@@ -71,7 +71,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 991px) {
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     left: auto;
     right: 15px;

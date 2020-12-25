@@ -48,6 +48,7 @@ if(pages.home) {
   let headerCatalog = document.querySelector(".header-catalog")
   let headerCatalogLink = document.querySelector(".header-catalog a")
   headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
+
 }
 
 
