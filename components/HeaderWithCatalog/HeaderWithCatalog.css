@@ -9,4 +9,15 @@
     left: 25%;
     right: auto;
   }
+
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    position: absolute;
+    left: 25%;
+    right: auto;
+    padding: 5px;
+    background: darkseagreen;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
 }
