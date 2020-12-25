@@ -1,0 +1,11 @@
+body.ru.ltr .caption-text .btn.btn-theme:not(.btn-wish-list) {
+  background: transparent;
+  border: 2x solid;
+  border-image-source: linear-gradient(
+    92.85deg,
+    #2e9cbf 0%,
+    #f05c5c 27.08%,
+    #1eab69 64.06%,
+    #f7ce51 100%
+  );
+}

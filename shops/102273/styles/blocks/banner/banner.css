@@ -1,4 +1,1 @@
-.main-slider .caption-content {
-  margin: 0 auto 0 0 !important;
-  text-align: left !important;
-}
+@import './banner-button.css';
