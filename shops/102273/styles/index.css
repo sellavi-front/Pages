@@ -3,20 +3,3 @@
 @import './components/fixes.css';
 @import './components/components.css';
 @import './blocks/index.css';
-
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6,
-body p,
-body a,
-body span,
-body b,
-body strong {
-  font-family: 'Golos Text', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  /* font-size: 16px; */
-}
