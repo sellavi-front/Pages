@@ -3,19 +3,19 @@ const contactData = {
   contacts: [
     {
       title: 'Адрес',
-      contact: 'г. Москва ул. Маршала Катукова стр. 11',
+      contact: 'Одинцовский р-н, Город ОДИНЦОВО, Чистяковой ул, 18',
     },
     {
       title: 'Телефон',
-      contact: '<a href="tel:+7(926)367-97-77">+7(926)367-97-77</a>',
+      contact: '<a href="tel:+79688228882">+79688228882</a>',
     },
     {
       title: 'E-mail',
-      contact: '<a href="mailto:magazin1170@mail.ru">magazin1170@mail.ru</a>',
+      contact: '<a href="mailto:studiyorlova@yandex.ru">studiyorlova@yandex.ru</a>',
     },
   ],
   map: `
-  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace6b1a8aa5dbad763aca6289fa9858ead326365147735f99a5869dcddb66f547&amp;source=constructor" frameborder="0"></iframe>
+  <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6de1e1b82b22646bf854cfcc1b03b039d5654c8ea020f125d73228d1df491f94&amp;source=constructor" frameborder="0"></iframe>
   `,
 };
 
