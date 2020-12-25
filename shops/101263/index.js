@@ -40,9 +40,11 @@ if(pages.home) {
   let customSection = new CustomSection()
   customSection.render()
   /* Catalog */
-  document.querySelector(".mobile-navigation-wrapper").classList.add("header-catalog")
-  let headerCatalog = document.querySelector(".header-catalog")
-  document.querySelector(".mobile-navigation-wrapper").insertAdjacentHTML("afterend", headerCatalog.outerHTML)
+  let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
+  oldCatalog.classList.add("header-catalog")
+  let newCatalog = oldCatalog.cloneNode(true)
+  document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
+  oldCatalog.remove()
 }
 
 
