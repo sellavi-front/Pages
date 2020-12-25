@@ -1,10 +1,60 @@
 @import './caption-button.css';
 
-body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+body.ru.ltr
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption {
   position: absolute !important;
 }
 
-body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+body.ru.ltr
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner {
+  width: 40%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body.ru.ltr
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  h2.caption-title
+  span {
   background: transparent !important;
   color: black !important;
 }
