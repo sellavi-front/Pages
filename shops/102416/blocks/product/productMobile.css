@@ -33,7 +33,7 @@
     button.btn.btn-theme.btn-theme-transparent.btn-icon {
         width: 100px !important;
         height: 30px !important;
-        padding: 0px;
+        padding: 0px !important;
     }
 
     h2.sender-basic__title {
