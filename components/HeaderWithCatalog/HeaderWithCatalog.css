@@ -108,6 +108,15 @@
     line-height: 19px;
     text-transform: none;
   }
+
+  .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: none;
+    color: #000;
+  }
 }
 
 @media (max-width: 991px) {
