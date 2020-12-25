@@ -79,6 +79,10 @@
     width: 100%;
     transition: all .2s linear;
   }
+
+  body .arrow {
+    display: flex !important;
+  }
 }
 
 @media (max-width: 991px) {
