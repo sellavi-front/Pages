@@ -65,4 +65,8 @@
     border-left: 1px solid #e5e5e5;
     top: 98px !important;
   }
+
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: rtl !important;
+  }
 }
