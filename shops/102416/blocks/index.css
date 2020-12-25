@@ -32,6 +32,8 @@
 
 @import './header/headerMobile.css';
 
+@import './product/productMobile.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
 
 body h1,
