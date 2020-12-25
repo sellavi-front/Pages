@@ -1,4 +1,16 @@
+body.ltr.ru .wrapper .header .navigation-wrapper {
+  background: transparent !important;
+}
+
+body.ltr.ru .wrapper .header .navigation-wrapper>div.container {
+  max-width: 1480px !important;
+}
+
 .navigation .nav.sf-menu {
   padding-top: 20px;
   padding-bottom: 20px;
 } 
+
+.navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a {
+  font-size: 16px !important;
+}

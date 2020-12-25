@@ -1,0 +1,9 @@
+body .social-icons a {
+  border: none !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: #8C8989 !important;
+}

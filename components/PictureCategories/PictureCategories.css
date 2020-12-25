@@ -18,10 +18,13 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
 }
 
 body#home .homefeatured_category .row {
-  justify-content: space-between !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
   width: 100%;
   margin: 0 !important;
-  flex-wrap: nowrap !important;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
 }
 
 body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
@@ -35,17 +38,26 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail {
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
   padding: 0 !important;
-  object-fit: cover !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
 
 .thumbnail.thumbnail-banner .media-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column-reverse;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div:last-child {
+  margin-right: 0 !important;
 }
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
   text-align: left;
-  height: 50px !important;
 }
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
@@ -58,7 +70,9 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 @media only screen and (max-width: 1373px) {
   body#home .homefeatured_category .row {
-    justify-content: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
@@ -69,12 +83,15 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 @media only screen and (max-width: 992px) {
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
-    flex: 0 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     border: none !important;
   }
 
   body#home .homefeatured_category .row  {
-    flex-wrap: wrap !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
     margin: 0 !important;
     width: 100%;
   }

@@ -1,7 +1,11 @@
+body.ltr .wrapper .header .header-wrapper .logo {
+  z-index: 999 !important;
+}
+
 @media (max-width: 375px) {
   body.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 15% 0 auto;
-    z-index: 999;
+    z-index: 999 !important;
   }
 
   .logo img {

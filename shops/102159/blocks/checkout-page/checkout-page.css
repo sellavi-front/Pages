@@ -1,0 +1,7 @@
+body.ru.checkout-checkout .logo {
+  position: static !important;
+}
+
+body.ru.checkout-checkout .checkout-progress-bar {
+  padding: 0 !important;
+}

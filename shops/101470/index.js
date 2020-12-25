@@ -120,7 +120,6 @@ if (document.querySelector('.wrapper')) {
     el.addEventListener('mouseleave', (e) => {
       el.querySelector('.panel-collapse').style.cssText = 'display: none; background: black;';
     });
-
   });
 
   const cntctsSimple = document.querySelector('.contacts-simple');
@@ -137,6 +136,8 @@ if (document.querySelector('.wrapper')) {
       el.textContent = tr.slice(2);
     }
   });
+
+  document.querySelector('.contacts-simple__list').insertAdjacentHTML('beforeend', `<li><a href="https://www.instagram.com/1981.cafe/"><img src="https://res.cloudinary.com/gz-company/image/upload/v1608811788/icons8-instagram_1_vtwnvk.svg"></a></li>`)
 }
 
 
@@ -165,7 +166,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606729735/photo_2020-11-30_12-33-15_upfzhe.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1608825366/frame_28620_rlxwsk.png');
 }
 
 if (document.querySelector('.product-item')) {
