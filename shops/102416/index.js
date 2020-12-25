@@ -71,6 +71,10 @@ if (document.querySelector('.wrapper')) {
   socIcons.classList.add('col-md-3');
 }
 
+if (document.querySelector('.product-category')) {
+  document.querySelector('#search > div.search_field > input').removeAttribute('placeholder');
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Орлова Елена Геннадьевна');
 
