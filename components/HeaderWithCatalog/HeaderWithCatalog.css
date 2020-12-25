@@ -83,6 +83,11 @@
   body .arrow {
     display: flex !important;
   }
+
+  body.sidenav-enabled .mobile_side_nav .flexy>.arrow.clicked {
+    background: transparent;
+    transition: all .5s linear;
+  }
 }
 
 @media (max-width: 991px) {
