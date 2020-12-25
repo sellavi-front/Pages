@@ -46,7 +46,7 @@ if(pages.home) {
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
   let headerCatalog = document.querySelector(".header-catalog")
-  headerCatalog.insertAdjacentHTML("beforeend", `<span class="catalog-title"></span>`)
+  headerCatalog.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
 }
 
 
