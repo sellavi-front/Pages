@@ -39,6 +39,7 @@ if(pages.home) {
   }
   let customSection = new CustomSection()
   customSection.render()
+  document.querySelector(".mobile-navigation-wrapper").classList.add("header-catalog")
 }
 
 
