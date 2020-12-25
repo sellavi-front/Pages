@@ -4,11 +4,11 @@
     }
 
 
-    .common-home .header_wishlist {
+    .header_wishlist {
         display: none !important;
     }
 
-    .common-home .header-cart.sticky {
+    .header-cart.sticky {
         display: none !important;
     }
     
@@ -19,14 +19,14 @@
 }
 
 @media (max-width: 375px) {
-    .common-home body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    body.theme_11.ltr .wrapper .header .header-wrapper .logo {
         margin: 0 !important;
     }
 }
 
 
 
-.common-home .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
     position: relative;
     z-index: 999;
 }
@@ -45,10 +45,10 @@
     top: 0px !important;
 }
 
-.common-home i.fas.fa-bars {
+i.fas.fa-bars {
     color: #3842FB;
 }
 
-.common-home h3.caption-subtitle {
+h3.caption-subtitle {
     text-align: center !important;
 }
