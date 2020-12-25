@@ -1,0 +1,29 @@
+.col-12.col-lg-6.single_image.bx-slider-wrapper.bx-off {
+    margin-top: 60px;
+}
+
+#home > div > div.content-area > section > div > div > div > h1 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#home > div > div.content-area > section > div > div > div > div.product-price {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.dropdown.bootstrap-select.input-price {
+    margin-top: 10px !important;
+}
+
+#product {
+    margin-top: 20px
+}
+
+.table_holder {
+    display: none;
+}
+
+.share_page_wrapper {
+    display: none;
+}
