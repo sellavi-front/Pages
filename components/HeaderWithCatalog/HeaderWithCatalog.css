@@ -118,6 +118,13 @@
     text-transform: none;
     color: #000;
   }
+
+  .panel-collapse {
+    position: relative;
+    top: -40px;
+    width: 100%;
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 991px) {
