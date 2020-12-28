@@ -11,7 +11,7 @@ const contactData = {
     },
     {
       title: 'E-mail',
-      contact: '<a href="mailto:5178080@bk.ru">5178080@bk.ru</a>',
+      contact: '<a href="mailto:5178080@mail.ru">5178080@mail.ru</a>',
     },
   ],
   map: `
