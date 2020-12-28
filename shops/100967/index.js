@@ -97,7 +97,7 @@ if (document.querySelector('.wrapper')) {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
   });
 
-  footerRow.remove();
+  // footerRow.remove();
   notActiveLink.forEach((el) => {
     el.removeAttribute('href');
   });
