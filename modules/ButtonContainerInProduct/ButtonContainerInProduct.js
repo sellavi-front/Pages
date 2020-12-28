@@ -38,7 +38,7 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   buttonContainerInProduct.delete(addToCart);
   buttonContainerInProduct.delete(wishList);
 
-setTimeout(() => {
+//setTimeout(() => {
   const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 
@@ -54,7 +54,7 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   buttonContainerInProduct.createContainer();
   buttonContainerInProduct.delete(addToCart);
   buttonContainerInProduct.delete(wishList);
-}, 4000)
+//}, 4000)
 
 
  
