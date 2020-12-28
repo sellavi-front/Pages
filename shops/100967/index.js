@@ -54,6 +54,9 @@ if (document.querySelector('.wrapper')) {
   logoIco.remove();
   logo.insertAdjacentHTML('afterbegin', icons.cart);
 
+  document.querySelector('.header-wrapper > .container').classList.add('container-fluid')
+  document.querySelector('.header-wrapper > .container').classList.remove('container')
+
   // Icons in header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
@@ -128,7 +131,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
-  console.log(document.querySelector('body>.wrapper>.content-area>.container'));
+
   const advantagesTypeOne = new AdvantagesTypeOne(
     document.querySelector('.page-section'),
     advantages,
