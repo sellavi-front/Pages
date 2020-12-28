@@ -5,10 +5,17 @@
 @import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 
+@import '../../../components/ColorChoise/ColorChoise.css';
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';
+
 @import './pay-delivery/pay-delivery.css';
 @import './header/header.css';
 @import './content-area/content-area.css';
 
+/* PAGES */
+@import './checkout-page/checkout-page.css';
+@import './login-page/login-page.css';
+@import './cart-page/cart-page.css';
 
 body h1,
 body h2,

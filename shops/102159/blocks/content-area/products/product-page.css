@@ -1,0 +1,83 @@
+.product-product header {
+  margin-bottom: 60px;
+}
+
+body .btn.dropdown-toggle,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list,
+.product-product .product-single .bootstrap-select > .dropdown-menu .bs-searchbox .form-control,
+body.ltr.ru.checkout-cart
+  .content-area
+  .page-section
+  .checkout_cart_inner
+  .cart_product
+  .product_row
+  .qty_column
+  .quantity {
+  border: 1px solid black !important;
+  background: transparent !important;
+}
+
+.product-product .product-single .buttons .btn-cart {
+  margin-left: 0 !important;
+}
+
+body.theme-gray.theme_11
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button:hover {
+  background: rgba(100, 100, 100, 0.2) !important;
+}
+
+.product-product .product-single #tab-description h3,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ru.ltr.product-product .tab-pane p {
+  color: black !important;
+}
+
+body.ltr.ru .dropdown-menu > .active > a {
+  background: black !important;
+}
+
+body .btn.dropdown-toggle,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list i {
+  color: black !important;
+}
+
+body.ltr.ru.product-product .product-single.product-item #tab-description,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
+  border: none;
+}
+
+.product-product .product-single .buttons {
+  width: 255px;
+}
+
+body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder,
+body.ltr.ru .share_page_wrapper,
+body.ltr.ru .shop-sorting,
+body .section-title span:after,
+body .section-title span:before {
+  display: none !important;
+}
+
+#product > div:nth-child(2) > div {
+  margin-top: 0 !important;
+}
+
+body .section-title {
+  text-transform: none !important;
+  font-weight: 600;
+  text-align: center !important;
+}
+
+body .btn.btn-theme,
+body .btn.btn-theme-default {
+  text-transform: none !important;
+}

@@ -1,0 +1,9 @@
+body.checkout-cart .product_row,
+body.ltr.ru.checkout-cart .order-summary,
+body.checkout-cart .accordion {
+  border: none !important;
+}
+
+body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a {
+  border-width: 1px !important;
+}

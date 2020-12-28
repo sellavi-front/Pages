@@ -6,6 +6,14 @@
 /* PRODUCTS */
 @import './products/products.css';
 @import './products/product.css';
+@import './products/product-page.css';
+
+/* Section-title */
+@import './section-title/section-title.css';
+
+/* Social icons */
+@import './footer/social-icons.css';
+
 
 body .content-area {
   position: relative;

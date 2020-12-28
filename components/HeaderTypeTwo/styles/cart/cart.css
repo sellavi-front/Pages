@@ -42,7 +42,7 @@ body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
   height: 18px !important;
   font-size: 14px !important;
   line-height: 1.2 !important;
-  right: 14px;
+  right: 14px !important;
   top: -15px !important;
 }
 

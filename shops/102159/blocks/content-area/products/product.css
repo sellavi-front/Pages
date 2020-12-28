@@ -4,5 +4,12 @@
 }
 
 body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
-  line-height: 1.3;
+  line-height: 1.5;
+  width: 100%;
+}
+
+@media (max-width: 495px) {
+  body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+    line-height: 1.3;
+  }
 }

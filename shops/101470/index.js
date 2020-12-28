@@ -115,8 +115,6 @@ if (document.querySelector('.wrapper')) {
   const elList = document.querySelectorAll('.navigate-menu>li');
   elList.forEach((el) => {
     el.addEventListener('mouseenter', (e) => {
-      console.log(e.target);
-      //              el.closest('header').style.cssText = 'background: rgba(0,0,0,.5); border-bottom: 5px solid white';
       el.querySelector('.panel-collapse').style.cssText =
         'display: block; background: rgba(0,0,0,.5);';
     });
@@ -124,7 +122,6 @@ if (document.querySelector('.wrapper')) {
     el.addEventListener('mouseleave', (e) => {
       el.querySelector('.panel-collapse').style.cssText = 'display: none; background: black;';
     });
-
   });
 
   const cntctsSimple = document.querySelector('.contacts-simple');
@@ -141,6 +138,8 @@ if (document.querySelector('.wrapper')) {
       el.textContent = tr.slice(2);
     }
   });
+
+  document.querySelector('.contacts-simple__list').insertAdjacentHTML('beforeend', `<li><a href="https://www.instagram.com/1981.cafe/"><img src="https://res.cloudinary.com/gz-company/image/upload/v1608811788/icons8-instagram_1_vtwnvk.svg"></a></li>`)
 }
 
 
@@ -169,7 +168,7 @@ if (document.querySelector('.common-home')) {
   bigBanner.render();
   horizontTitleDecription.render();
 
-  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1608793846/frame_1_sqaur2.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/gz-company/image/upload/v1608825366/frame_28620_rlxwsk.png');
 }
 
 if (document.querySelector('.product-item')) {
