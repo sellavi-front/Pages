@@ -1,4 +1,4 @@
-//import '../../fixes/FooterCopy/FooterCopy.js';
+import '../../fixes/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
