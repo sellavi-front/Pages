@@ -1,0 +1,29 @@
+.footer {
+  background-color: #1E1E1E !important;
+  margin-top: 80px;
+}
+
+.footer-widgets > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.footer-meta {
+  background: transparent !important;
+}
+
+.phh p {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgba(100,100,100,.5);
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  .footer-widgets {
+    padding-top: 0 !important;
+  }
+}

@@ -1,0 +1,34 @@
+@import './title.css';
+@import './card.css';
+@import './buttons/bth-whishlist.css';
+@import './buttons/button-container.css';
+@import './buttons/buttons.css';
+@import './buttons/shop-sorting.css';
+@import './page/product-page.css';
+@import './page/reviews.css';
+@import './page/tab-content.css';
+@import './page/nav-tabs.css';
+
+.content-area .products .product-item,
+.featured-products .product-item,
+.bx_product_featured .product-item {
+  max-width: 412px !important;
+  max-height: 750px;
+  width: 100% !important;
+  margin: 0 20px 90px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.products {
+  justify-content: center !important;
+}
+
+.thumbnail .price {
+  font-size: 22px !important;
+}
+
+.fa-stack {
+  width: 20px !important;
+}

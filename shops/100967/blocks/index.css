@@ -1,0 +1,42 @@
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+@import '../assets/fonts/fonts.css';
+@import '../../../modules/ButtonListInHeader/style.css';
+@import '../../../components/AdvantagesTypeOne/AdvantagesTypeOne.css';
+@import '../../../components/ContentBannerTypeOne/ContentBannerTypeOne.css';
+@import '../../../components/InfoCardTypeOne/InfoCardTypeOne.css';
+@import '../../../components/ImgNearText/ImgNearText.css';
+@import '../../../components/HistoryLine/HistoryLine.css';
+@import '../../../components/GridPhotoWithText/GridPhotoWithText.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../components/BaseSender/BaseSender.css';
+
+@import './header/header.css';
+@import './products/products.css';
+@import './content-banner/content-banner.css';
+@import './history/history.css';
+@import './footer/footer.css';
+@import './side-categories/side-categories.css';
+@import './header/custom__text.css';
+@import './container.css';
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Golos Text', sans-serif !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span, body b, body strong {
+  text-transform: none;
+}

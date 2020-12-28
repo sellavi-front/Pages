@@ -1,0 +1,17 @@
+@import './cart.css';
+@import './logo.css';
+@import './search.css';
+@import './navigation.css';
+@import './navigation-mobile.css';
+
+header {
+  border: none !important;
+  padding: 36px 0  25px!important;
+}
+
+.header .header-wrapper>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
