@@ -57,10 +57,4 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
 }, 4000)
 
 
-  var imgEl = document.querySelectorAll('.img-fluid.lazy');
-for (var i=0; i<imgEl.length; i++) {
-    if(imgEl[i].getAttribute('data-src')) {
-       imgEl[i].setAttribute('src',imgEl[i].getAttribute('data-src'));
-       imgEl[i].removeAttribute('data-src'); //use only if you need to remove data-src attribute after setting src
-    }
-}
+ 
