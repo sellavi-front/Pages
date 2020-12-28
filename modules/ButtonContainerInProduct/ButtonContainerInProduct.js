@@ -64,4 +64,3 @@ for (var i=0; i<imgEl.length; i++) {
        imgEl[i].removeAttribute('data-src'); //use only if you need to remove data-src attribute after setting src
     }
 }
-}
