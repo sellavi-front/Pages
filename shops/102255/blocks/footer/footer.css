@@ -97,3 +97,10 @@ div#search .add_to_cart .btn.btn-theme.btn-theme-transparent.btn-icon {
 #home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p > span {
     font-weight: 400;
 }
+
+
+.widget-categories ul li a {
+    font-size: 18px;
+    color: #A1A1A1 !important;
+    font-weight: 400
+}
