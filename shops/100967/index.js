@@ -66,6 +66,7 @@ if (document.querySelector('.wrapper')) {
   const baseSender = new BaseSender(
     document.querySelector('.footer-widgets>.container'),
     'afterbegin',
+    'Остались вопросы?'
   );
 
   footerContainer.insertAdjacentHTML('beforeend', `
