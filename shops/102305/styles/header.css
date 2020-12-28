@@ -25,6 +25,10 @@
   left: -15% !important;
 }
 
+body.sidenav-enabled.ltr .wrapper-opened {
+  position: relative !important;
+}
+
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
   color: #000;
 }
