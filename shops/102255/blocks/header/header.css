@@ -29,6 +29,7 @@ div#search {
     padding-left: 10px;
     position: relative;
     bottom: 10px;
+    text-shadow: none;
 }
 
 #banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span:nth-child(2) {
@@ -37,4 +38,5 @@ div#search {
     padding-left: 10px;
     position: relative;
     bottom: 10px;
+    text-shadow: none;
 }
