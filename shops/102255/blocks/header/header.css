@@ -19,3 +19,22 @@ div#search {
 .main-slider.content_center {
     margin-top: 0px; 
 }
+
+
+/* quick fix banner text */
+#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span:nth-child(2) {
+    color: white;
+    font-size: 30px;
+    border-left: 4px solid #E8605D;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span:nth-child(2) {
+    font-size: 30px;
+    border-left: 4px solid #E8605D;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
