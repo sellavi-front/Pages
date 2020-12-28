@@ -56,7 +56,7 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   buttonContainerInProduct.delete(wishList);
 }, 4000)
 
-function goToHell() {
+
   var imgEl = document.querySelectorAll('.img-fluid.lazy');
 for (var i=0; i<imgEl.length; i++) {
     if(imgEl[i].getAttribute('data-src')) {
@@ -65,5 +65,3 @@ for (var i=0; i<imgEl.length; i++) {
     }
 }
 }
-
-document.addEventListener("DOMContentLoaded", goToHell());
