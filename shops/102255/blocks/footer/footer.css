@@ -81,3 +81,19 @@ footer .soc-icons {
 div#search .add_to_cart .btn.btn-theme.btn-theme-transparent.btn-icon {
     color: white !important;    
 }
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div > p {
+    font-weight: 400;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) > div > a {
+    font-weight: 400;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p {
+    font-weight: 400;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p > span {
+    font-weight: 400;
+}
