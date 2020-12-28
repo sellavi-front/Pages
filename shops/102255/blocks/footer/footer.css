@@ -71,3 +71,9 @@ footer .soc-icons {
 .footer-widgets > div > div > div {
     margin-right: 40px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
