@@ -28,8 +28,8 @@ const bootstrapClasses = [
 if(pages.home) {
   //let banner = new Banner()
   //banner.updateImgCategories()
-  let customBanner = new CustomBanner()
-  customBanner.render()
+  /*let customBanner = new CustomBanner()
+  customBanner.render()*/
   let advantages = new Advantages()
   advantages.render()
   if (document.querySelector('.product-item')) {
