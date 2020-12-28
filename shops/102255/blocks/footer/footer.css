@@ -66,3 +66,8 @@ footer .soc-icons {
         padding-top: 40px;
     }
 }
+
+/* fix bug with footer width */
+.footer-widgets > div > div > div {
+    margin-right: 40px;
+}
