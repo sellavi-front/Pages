@@ -1,0 +1,7 @@
+body.ru .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
+  background: transparent !important;
+  text-transform: none !important;
+  border-radius: 0 !important;
+  color: black !important;
+  width: 150px !important;
+}

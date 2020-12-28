@@ -111,8 +111,6 @@ if (document.querySelector('.wrapper')) {
   const elList = document.querySelectorAll('.navigate-menu>li');
   elList.forEach((el) => {
     el.addEventListener('mouseenter', (e) => {
-      console.log(e.target);
-      //              el.closest('header').style.cssText = 'background: rgba(0,0,0,.5); border-bottom: 5px solid white';
       el.querySelector('.panel-collapse').style.cssText =
         'display: block; background: rgba(0,0,0,.5);';
     });
