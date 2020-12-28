@@ -164,8 +164,8 @@ if (document.querySelector('.common-home')) {
   );
 
   advantagesTypeOne.render();
-  contentBanner.render();
-  infoCardTypeOne.render();
+  // contentBanner.render();
+  // infoCardTypeOne.render();
   imgNearText.render();
   historyLine.render();
   gridPhotoWithText.render();
