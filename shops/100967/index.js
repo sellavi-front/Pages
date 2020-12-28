@@ -235,7 +235,7 @@ if (document.querySelector('.product-product')) {
   deleteEl.remove();
   document
     .querySelector(
-      '#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+      'body > div > div > section:nth-child(1) .product-single > div:nth-child(2)',
     )
     .childNodes[3].remove();
 
