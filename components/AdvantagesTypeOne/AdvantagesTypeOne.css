@@ -24,6 +24,7 @@
 
 .advantages__text {
   border-left: 3px solid;
+  padding-left: 5%;
   width: 80%;
   font-size: 22px;
   line-height: 1.2;
