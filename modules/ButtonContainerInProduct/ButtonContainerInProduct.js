@@ -56,5 +56,11 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   buttonContainerInProduct.delete(wishList);
 }, 4000)
 
-
- 
+setTimeout (() => {
+  let imgEl = document.querySelectorAll('.img-fluid.lazy');
+  for (let i = 0; i < imgEl.length; i++) {
+    if (imgEl[i].getAttribute('data-src')) {
+      imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
+    }
+  }
+}, 4000);
