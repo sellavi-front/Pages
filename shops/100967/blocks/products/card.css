@@ -1,10 +1,14 @@
 .thumbnail .price_actions {
-  flex-direction: column !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 .thumbnail .price_actions .add_to_cart {
   text-align: left !important;
-  width: 275px !important;
+  max-width: 325px !important;
+  width: 100%;
 }
 
 .thumbnail .price_actions .add_to_cart button {
