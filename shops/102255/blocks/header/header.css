@@ -44,3 +44,8 @@ div#search {
 body.ltr .wrapper .header .header-wrapper .logo {
     z-index: 0 !important;
 }
+
+.item_data {
+    width: 20px;
+    margin-right: 10px;
+}
