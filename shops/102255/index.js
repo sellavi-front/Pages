@@ -64,3 +64,4 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ООО"Санитары Столицы"', media);
   req.setTemplate();
 }
+
