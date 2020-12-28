@@ -23,8 +23,8 @@
 }
 
 .advantages__text {
-  border-left: 3px solid;
-  padding-left: 5%;
+  border-left: 3px solid !important;
+  padding-left: 5% !important;
   width: 80%;
   font-size: 22px;
   line-height: 1.2;
