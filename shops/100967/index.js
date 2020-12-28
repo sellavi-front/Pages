@@ -7,8 +7,8 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
-import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
-import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
+// import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
+// import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
@@ -17,8 +17,8 @@ import BaseSender from '../../components/BaseSender/BaseSender.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
-import dataBannerContent from './utils/dataBannerContent.js';
-import salesData from './utils/salesData.js';
+// import dataBannerContent from './utils/dataBannerContent.js';
+// import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
 import historyData from './utils/historyData.js';
 
@@ -170,13 +170,13 @@ if (document.querySelector('.common-home')) {
   historyLine.render();
   gridPhotoWithText.render();
 
-  const bannerContentItemImg = document.querySelector('.banner-content__item');
+  // const bannerContentItemImg = document.querySelector('.banner-content__item');
 
-  // Коробка которая вылезает за баннер
-  bannerContentItemImg.insertAdjacentHTML(
-    'afterbegin',
-    `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
-  );
+  // // Коробка которая вылезает за баннер
+  // bannerContentItemImg.insertAdjacentHTML(
+  //   'afterbegin',
+  //   `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
+  // );
 }
 
 if (document.querySelector('.product-product')) {
