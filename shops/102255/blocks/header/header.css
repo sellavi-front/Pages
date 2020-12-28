@@ -40,3 +40,7 @@ div#search {
     bottom: 10px;
     text-shadow: none;
 }
+
+body.ltr .wrapper .header .header-wrapper .logo {
+    z-index: 0 !important;
+}
