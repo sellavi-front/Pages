@@ -137,11 +137,11 @@ if (document.querySelector('.common-home')) {
   //   'beforeEnd',
   //   dataBannerContent,
   // );
-  const infoCardTypeOne = new InfoCardTypeOne(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    salesData,
-  );
+  // const infoCardTypeOne = new InfoCardTypeOne(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   salesData,
+  // );
 
   const imgNearText = new ImgNearText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
