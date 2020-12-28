@@ -132,11 +132,11 @@ if (document.querySelector('.common-home')) {
     document.querySelector('.page-section'),
     advantages,
   );
-  const contentBanner = new ContentBannerTypeOne(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    dataBannerContent,
-  );
+  // const contentBanner = new ContentBannerTypeOne(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   dataBannerContent,
+  // );
   const infoCardTypeOne = new InfoCardTypeOne(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
