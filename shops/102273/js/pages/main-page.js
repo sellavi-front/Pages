@@ -7,7 +7,7 @@ import DataImgNearText from '../constants/DataImgNearText.js';
 export default (function() {
   if (document.querySelector('.common-home')) {
 
-    new ImgNearText(docuemnt.querySelector('.main-slider'), 'afterend', DataImgNearText).render();
+    new ImgNearText(document.querySelector('.main-slider'), 'afterend', DataImgNearText).render();
 
     // reset cut image in categories
     const imgCat = document.querySelectorAll(
