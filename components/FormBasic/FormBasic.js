@@ -7,7 +7,6 @@ export default class FormBasic {
     this.target = target;
     this.container = container;
     this.tagsArr = tagsArr
-    this.form = new SubmitForm(this.tagsArr);
   }
 
   setData(item) {
@@ -16,7 +15,7 @@ export default class FormBasic {
         <h2 class="sender-basic__title">${item.title}</h2>
         <p class="sender-basic__text">${item.content}</p>
       </div>
-      ${this.form.getForm()}
+      ${new SubmitForm(this.tagsArr).getForm()}
     `
   }
 
