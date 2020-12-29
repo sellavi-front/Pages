@@ -8,4 +8,8 @@
     display: none !important;
     margin-top: 70px !important;
   }
+
+  .main-slider .container .div-cell {
+    display: block !important;
+  }
 }
