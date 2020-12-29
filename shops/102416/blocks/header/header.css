@@ -15,3 +15,8 @@
 i.fa-shopping-cart.far {
     color: black;
 }
+
+.header-wrapper input.form-control {
+    position: relative;
+    z-index: 999;
+}
