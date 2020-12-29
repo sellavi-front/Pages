@@ -10,7 +10,6 @@ export default class FormBasic {
   }
 
   setData(item) {
-    console.log(this.tagsArr);
     return `
       <div class="sender-basic__content">
         <h2 class="sender-basic__title">${item.title}</h2>
