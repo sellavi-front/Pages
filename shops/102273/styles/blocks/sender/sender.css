@@ -21,7 +21,6 @@
   grid-template-areas:
     'a b c'
     'f f d';
-  grid-template-columns: repeat(3, 320px) !important;
   grid-column-gap: 15px;
   grid-row-gap: 20px;
 }
@@ -29,7 +28,7 @@
 .sender-basic form button {
   background: #3ebab1 !important;
   grid-area: d;
-  width: 320px;
+  width: 290px;
 }
 
 .sender__basic .form__input[name='userName'] {
