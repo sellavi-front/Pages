@@ -63,6 +63,10 @@
   font-size: 18px;
 }
 
+.sender-basic form button:active {
+  opacity: .9;
+}
+
 @media (max-width: 991px) {
   .sender-basic form > div {
     -ms-flex-wrap: wrap;
