@@ -6,8 +6,8 @@
   grid-row-gap: 50px;
   margin-top: 3%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .thumbnail .caption-title {
@@ -25,11 +25,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start !important;
-      -ms-flex-pack: start !important;
-          justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 50%;
 }
 
@@ -49,11 +49,14 @@
   margin: 0 !important;
 }
 
-body .content-area .page-section .product-item.product-layout {
+body .content-area .page-section .product-item {
   border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 5%;
   -webkit-box-shadow: 1px 4px 25px -21px black;
-          box-shadow: 1px 4px 25px -21px black;
+  box-shadow: 1px 4px 25px -21px black;
+}
+
+body .content-area .page-section .product-item.product-layout {
+  padding: 5%;
 }
 
 .product-product .product-single .buttons .btn-cart,
@@ -80,8 +83,8 @@ body .content-area .page-section .product-item.product-layout {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 5% 0 0;
 }
 
@@ -113,15 +116,15 @@ body.theme-green-1 .social-icons li a {
   border-color: #22885e;
 }
 
-.table_holder  {
+.table_holder {
   display: none;
 }
 
 @media (max-width: 768px) {
   .products {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, 284px) !important;
     padding-top: 5%;
   }
@@ -134,7 +137,7 @@ body.theme-green-1 .social-icons li a {
 }
 
 .d-block {
-  display: none!important;
+  display: none !important;
 }
 
 @media (max-device-width: 768px) {
