@@ -1,5 +1,6 @@
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
+  margin-top: 28px !important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
