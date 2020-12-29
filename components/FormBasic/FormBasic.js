@@ -2,11 +2,11 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 import SubmitForm from '../../modules/SubmitForm/SubmitForm.js';
 
 export default class FormBasic {
-  constructor(container, target, data = {}) {
+  constructor(container, target, data = {}, form = new SubmitForm()) {
     this.data = data;
     this.target = target;
     this.container = container;
-    this.form = new SubmitForm()
+    this.form = form;
   }
 
   setData(item) {
