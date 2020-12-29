@@ -25,7 +25,7 @@
   grid-row-gap: 20px;
 }
 
-.sender-basic .form-button {
+.sender-basic form button {
   background: #3ebab1 !important;
   grid-area: d;
 }
