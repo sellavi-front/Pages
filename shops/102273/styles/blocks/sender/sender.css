@@ -8,11 +8,19 @@
   width: 100%;
 }
 
+.sender-basic__title {
+  margin-bottom: 10px !important;
+}
+
+.sender-basic__text {
+  margin-bottom: 30px !important;
+}
+
 .sender-basic .form-grp__container {
   display: grid;
   grid-template-areas:
     'a b c'
-    'd d d';
+    'f f d';
   grid-column-gap: 15px;
   grid-row-gap: 20px;
 }
