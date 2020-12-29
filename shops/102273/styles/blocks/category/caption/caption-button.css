@@ -20,5 +20,6 @@ body.ru .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-lin
             justify-content: center;
             font-weight: 400 !important;
             border-width: 1px !important;
+            height: 45px;
   }
 }
