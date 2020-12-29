@@ -28,6 +28,7 @@
 .sender-basic form button {
   background: #3ebab1 !important;
   grid-area: d;
+  width: 320px;
 }
 
 .sender__basic .form__input[name='userName'] {
