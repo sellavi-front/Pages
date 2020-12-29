@@ -52,4 +52,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  .sender-basic form input {
+    max-width: 100%;
+  }
 }
