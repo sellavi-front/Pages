@@ -4,7 +4,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Северинов Алексей Вальерьевич');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Карапетян Ирина Олеговна');
 
   req.setTemplate();
 }
@@ -12,6 +12,6 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Северинов Алексей Вальерьевич', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Карапетян Ирина Олеговна', media);
   req.setTemplate();
 }
