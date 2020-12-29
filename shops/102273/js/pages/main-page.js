@@ -5,8 +5,6 @@ import AdvantagesData from '../constants/AdvantagesData.js';
 
 export default (function() {
   if (document.querySelector('.common-home')) {
-
-
     // reset cut image in categories
     const imgCat = document.querySelectorAll(
       '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
@@ -27,7 +25,7 @@ export default (function() {
 
     btnCategory.forEach(btn => btn.textContent = 'Подробнее');
 
-    const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), 'afterend', AdvantagesData);
+    const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), AdvantagesData, 'afterend');
 
     advantages.render();
   }
