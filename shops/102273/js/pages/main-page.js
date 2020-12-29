@@ -10,7 +10,9 @@ import FormTags from '../constants/FormTags.js'
 export default (function() {
   if (document.querySelector('.common-home')) {
 
-    new FormBasic(document.querySelector('.homefeatured_category'), 'afterend', senderData, FormTags).render();
+    const formBasic = new FormBasic(document.querySelector('.homefeatured_category'), 'afterend', senderData, FormTags)
+    formBasic.render();
+
     new ImgNearText(document.querySelector('.main-slider'), 'afterend', DataImgNearText).render();
 
     // reset cut image in categories
