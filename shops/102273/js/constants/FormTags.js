@@ -24,7 +24,7 @@ const FormTags = [
     attributes: {
       selector: 'class="form__input"',
       type: 'type="tel"',
-      pattern: '^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$',
+      pattern: 'pattern="^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}$"',
       required: 'required',
       name: 'name="phone"',
       placeholder: 'placeholder="Ваш телефон"',
