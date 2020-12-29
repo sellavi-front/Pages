@@ -19,7 +19,8 @@ body.ru.ltr .wrapper .homefeatured_category > div > div > div {
   width: 100% !important;
 }
 
-body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail {
+body.ltr .wrapper .homefeatured_category > div > div > div > .thumbnail,
+body.ltr .wrapper .homefeatured_category>div>div>div {
   border: none !important;
 }
 
