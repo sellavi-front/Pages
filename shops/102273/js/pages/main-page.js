@@ -1,6 +1,7 @@
 import AdvantagesTypeOne from '../../../../components/AdvantagesTypeOne/AdvantagesTypeOne.js'
 import ImgNearText from '../../../../components/ImgNearText/ImgNearText.js';
 import FormBasic from '../../../../components/FormBasic/FormBasic.js'
+import senderData from '../constants/senderData.js'
 
 import AdvantagesData from '../constants/AdvantagesData.js';
 import DataImgNearText from '../constants/DataImgNearText.js';
