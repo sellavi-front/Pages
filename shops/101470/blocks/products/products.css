@@ -55,8 +55,8 @@ body .content-area .page-section .product-item {
   box-shadow: 1px 4px 25px -21px black;
 }
 
-body .content-area .page-section .product-item.product-layout {
-  padding: 5%;
+body .content-area .page-section .product-item > .thumbnail {
+  padding: 5% !important;
 }
 
 .product-product .product-single .buttons .btn-cart,
