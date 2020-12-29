@@ -58,3 +58,9 @@
     max-width: 100%;
   }
 }
+
+@media (max-width: 495px) {
+  .sender-basic form button {
+    width: 100% !important;
+  }
+}
