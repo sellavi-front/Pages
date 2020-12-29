@@ -2,12 +2,10 @@ import AdvantagesTypeOne from '../../../../components/AdvantagesTypeOne/Advantag
 import ImgNearText from '../../../../components/ImgNearText/ImgNearText.js';
 
 import AdvantagesData from '../constants/AdvantagesData.js';
-import DataImgNearText from '../constants/DataImgNearText.js';
 
 export default (function() {
   if (document.querySelector('.common-home')) {
 
-    new ImgNearText(document.querySelector('.main-slider'), 'afterend', DataImgNearText).render();
 
     // reset cut image in categories
     const imgCat = document.querySelectorAll(
@@ -29,7 +27,7 @@ export default (function() {
 
     btnCategory.forEach(btn => btn.textContent = 'Подробнее');
 
-    const advantages = new AdvantagesTypeOne(document.querySelector('.page-section>'), AdvantagesData);
+    const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), 'afterend', AdvantagesData);
 
     advantages.render();
   }
