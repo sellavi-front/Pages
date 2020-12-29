@@ -34,6 +34,7 @@
   .advantages {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        margin-bottom: 0;
   }
 
   .advantages__elem {
