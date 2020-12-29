@@ -6,5 +6,6 @@
 @media (max-width: 480px) {
   .main-slider .caption-content {
     display: none !important;
+    margin-top: 70px !important;
   }
 }
