@@ -67,7 +67,7 @@ body.ru.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(2) > .
 
 
 @media only screen and (max-width: 992px) {
-  body.ltr .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
+  body.ltr.common-home .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     position: relative !important;
   }
 
