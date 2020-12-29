@@ -1,11 +1,16 @@
 import AdvantagesTypeOne from '../../../../components/AdvantagesTypeOne/AdvantagesTypeOne.js'
 import ImgNearText from '../../../../components/ImgNearText/ImgNearText.js';
+import FormBasic from '../../../../components/FormBasic/FormBasic.js'
 
 import AdvantagesData from '../constants/AdvantagesData.js';
 import DataImgNearText from '../constants/DataImgNearText.js';
+import FormTags from '../constants/FormTags.js'
 
 export default (function() {
   if (document.querySelector('.common-home')) {
+
+    new FormBasic(sctmSection, 'beforeend', senderData, FormTags).render();
+
 
     new ImgNearText(document.querySelector('.main-slider'), 'afterend', DataImgNearText).render();
 
