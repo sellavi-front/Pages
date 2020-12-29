@@ -19,6 +19,14 @@ body.ru.ltr .wrapper .homefeatured_category > div > div > div {
   width: 100% !important;
 }
 
-body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail {
+body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail {
   border: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+  body.theme_11 .wrapper .homefeatured_category > div > div > div {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+  }
 }
