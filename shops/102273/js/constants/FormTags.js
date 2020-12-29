@@ -1,5 +1,5 @@
 const FormTags = [
-  tag = {
+  {
     name: 'label',
     content: 'Текст контент вашего тега',
     attributes: {
@@ -8,7 +8,7 @@ const FormTags = [
       placeholder: 'placeholder="Ваше Имя"',
     },
   },
-  tag = {
+  {
       name: 'input',
       attributes: {
         selector: 'class="sender-form__input"',
@@ -16,7 +16,7 @@ const FormTags = [
         placeholder: 'placeholder="Ваш e-mail"',
       },
     },
-  tag = {
+  {
     name: 'input',
     attributes: {
       selector: 'class="sender-form__input"',
