@@ -2,3 +2,7 @@
   width: 80px;
   height: 90px;
 }
+
+.advantages__text {
+  width: 100% !important;
+}
