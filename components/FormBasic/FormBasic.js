@@ -15,7 +15,7 @@ export default class FormBasic {
         <h2 class="sender-basic__title">${item.title}</h2>
         <p class="sender-basic__text">${item.content}</p>
       </div>
-      ${new SubmitForm('from-grp', this.tagsArr).getForm()}
+      ${new SubmitForm('form-grp', this.tagsArr).getForm()}
     `
   }
 
