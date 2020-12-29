@@ -4,8 +4,8 @@
 
 .about__title {
   font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 1.2;
   text-align: center;
   width: 100%;
   margin-bottom: 55px;
@@ -43,15 +43,14 @@
 .about__item_title,
 .about__item_title > a {
   font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 1.2;
   margin-bottom: 30px;
 }
 
 .about__item_text {
   font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
+  line-height: 1.2;
   margin-bottom: 30px;
   max-width: 530px;
   width: 100%;
