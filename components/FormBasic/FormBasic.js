@@ -1,12 +1,13 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import SubmitForm from '../../modules/SubmitForm/SubmitForm.js';
-
+import tags from '../../modules/SubmitForm/utils/tags.js';
 export default class FormBasic {
-  constructor(container, target, data = {}, form = new SubmitForm()) {
+  constructor(container, target, data = {}, tagsArr = tags) {
     this.data = data;
     this.target = target;
     this.container = container;
-    this.form = form;
+    this.tagsArr = tagsArr
+    this.form = new SubmitForm(this.tagsArr);
   }
 
   setData(item) {
