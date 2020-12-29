@@ -41,3 +41,15 @@
 .sender__basic .form__input[name='phone'] {
   grid-area: d;
 }
+
+@media (max-width: 991px) {
+  .sender-basic .form-grp__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
