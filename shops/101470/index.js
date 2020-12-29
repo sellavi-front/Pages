@@ -175,9 +175,9 @@ if (document.querySelector('.product-item')) {
   deleteClassesProd.findAndDelete();
 }
 
-if (document.querySelector('.product-product')) {
-  document.querySelector("#home > div > div > section.page-section.overflow-hidden>.container").classList.remove('container')
-}
+// if (document.querySelector('.product-product')) {
+//   document.querySelector("#home > div > div > section.page-section.overflow-hidden>.container").classList.remove('container')
+// }
 
 /* Реквиизиты */
 
