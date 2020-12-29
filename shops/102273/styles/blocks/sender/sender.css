@@ -21,6 +21,7 @@
   grid-template-areas:
     'a b c'
     'f f d';
+  grid-template-columns: repeat(3, 320px) !important;
   grid-column-gap: 15px;
   grid-row-gap: 20px;
 }
@@ -50,8 +51,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .sender-basic form input {
