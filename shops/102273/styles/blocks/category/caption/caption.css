@@ -163,6 +163,7 @@ body.ru.ltr
     h2.caption-title
     span {
     width: 100% !important;
+    text-align: left !important;
   }
 
   body.theme_11
