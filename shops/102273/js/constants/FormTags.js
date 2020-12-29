@@ -25,3 +25,5 @@ const FormTags = [
     },
   },
 ]
+
+export default FormTags;
