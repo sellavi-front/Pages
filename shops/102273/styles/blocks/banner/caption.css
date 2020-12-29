@@ -3,7 +3,7 @@
   text-align: left !important;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 570px) {
   .main-slider .caption-content {
     display: none !important;
     margin-top: 70px !important;
