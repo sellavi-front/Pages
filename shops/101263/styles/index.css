@@ -88,4 +88,10 @@ body .content-area .page-section.error-page h2 {
     line-height: 42px;
     margin-left: 10px;
   }
+
+  body .arrow {
+    display: block !important;
+    transform: rotate(180deg);
+    margin-left: -35px !important;
+  }
 }
