@@ -9,6 +9,22 @@ body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.bt
   background: black !important;
 }
 
+body.dark-mode.theme_11.ltr .form-control::-webkit-input-placeholder {
+  color: white !important;
+}
+
+body.dark-mode.theme_11.ltr .form-control::-moz-placeholder {
+  color: white !important;
+}
+
+body.dark-mode.theme_11.ltr .form-control:-ms-input-placeholder {
+  color: white !important;
+}
+
+body.dark-mode.theme_11.ltr .form-control::-ms-input-placeholder {
+  color: white !important;
+}
+
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,
@@ -71,6 +87,7 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity
   > input,
+  body.dark-mode.theme_11.ltr .form-control::placeholder,
   body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
   body.dark-mode.theme_11.ltr .form-login .forgot-password ,
   body.dark-mode.theme_11.ltr .cart-items .cart-items-inner {
