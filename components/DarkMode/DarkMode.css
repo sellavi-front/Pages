@@ -123,3 +123,7 @@ body.dark-mode.theme_11.ltr.checkout-cart
   body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block  {
   border-color: white !important;
 }
+
+body.dark-mode.theme_11.ltr .radio.customized input[type=radio]:checked~.check:before {
+
+}
