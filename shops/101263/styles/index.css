@@ -71,4 +71,21 @@ body .content-area .page-section.error-page h2 {
     padding: 10px !important;
   }
 
+  body.ltr .checkbox.customized label, body.ltr .radio.customized label {
+    padding: 0 0 0 32px;
+    line-height: 25px;
+  }
+
+  .payment .clearfix {
+    margin-top: 15px;
+  }
+
+  .read_doc {
+    margin-top: 10px;
+  }
+
+  body.checkout-checkout .payment>#button-payment~a {
+    line-height: 42px;
+    margin-left: 10px;
+  }
 }
