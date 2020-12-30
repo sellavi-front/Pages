@@ -48,12 +48,12 @@ body.dark-mode.theme_11.product-product .tab-pane p {
   color: white !important;
 }
 
-body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search input.form-control,
-body.dark-mode.theme_11 .btn.dropdown-toggle,
-body.dark-mode.theme_11.product-product .product-single.product-item .buttons #button-cart,
-body.dark-mode.theme_11.product-product .product-single.product-item .buttons .btn-wish-list,
-body.dark-mode.theme_11.product-product .product-single .bootstrap-select > .dropdown-menu .bs-searchbox .form-control,
-body.dark-mode.theme_11.checkout-cart
+body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search input.form-control,
+body.dark-mode.theme_11.ltr .btn.dropdown-toggle,
+body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons .btn-wish-list,
+body.dark-mode.theme_11.ltr.product-product .product-single .bootstrap-select > .dropdown-menu .bs-searchbox .form-control,
+body.dark-mode.theme_11.ltr.checkout-cart
   .content-area
   .page-section
   .checkout_cart_inner
