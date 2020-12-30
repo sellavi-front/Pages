@@ -1,9 +1,10 @@
-body.dark-mode,
-body.dark-mode header,
-body.dark-mode .footer .footer-meta,
-body.dark-mode .owl-carousel,
-body.dark-mode .cart-items .cart-items-inner
-body.dark-mode .form-control,
+body.dark-mode.theme_11.ltr,
+body.dark-mode.theme_11.ltr header,
+body.dark-mode.theme_11.ltr .footer .footer-meta,
+body.dark-mode.theme_11.ltr .owl-carousel,
+body.dark-mode.theme_11.ltr .cart-items .cart-items-inner
+body.dark-mode.theme_11.ltr .form-control,
+body.dark-mode.theme_11.ltr .form-control:focus,
 body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block {
   background: black !important;
 }
@@ -70,7 +71,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity
   > input,
-  body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block {
+  body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
+  body.dark-mode.theme_11.ltr .form-login .forgot-password {
   color: white !important;
 }
 
