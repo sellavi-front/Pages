@@ -13,3 +13,14 @@
 @import './../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
 @import './../../../components/HeaderWithCatalog/HeaderWithCatalog.css';
 
+body.account-login .alert-danger {
+  margin-bottom: 10px;
+}
+
+.alert-danger {
+  color: #666;
+  background-color: #efe6e6;
+  border-color: #e9e9e9;
+  text-align: left;
+  width: 100%;
+}
