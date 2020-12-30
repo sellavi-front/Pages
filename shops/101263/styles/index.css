@@ -44,3 +44,7 @@ body .content-area .page-section.error-page h2 {
   text-transform: uppercase;
   color: #232323;
 }
+
+.accordion .dot {
+  display: none !important;
+}
