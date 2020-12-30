@@ -117,7 +117,9 @@ body.dark-mode.theme_11.ltr
   .product_tr
   .single-price
   > div,
-  body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+  body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
+  body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
   color: white !important;
 }
 
