@@ -111,6 +111,7 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .cart_product
   .product_row
   .qty_column
-  .quantity {
+  .quantity,
+  body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block  {
   border-color: white !important;
 }
