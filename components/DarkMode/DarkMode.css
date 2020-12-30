@@ -1,6 +1,7 @@
 body.dark-mode,
 body.dark-mode header,
-body.dark-mode .footer .footer-meta {
+body.dark-mode .footer .footer-meta,
+body.dark-mode .owl-carousel{
   background: black !important;
 }
 
