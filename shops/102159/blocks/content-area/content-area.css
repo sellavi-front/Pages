@@ -18,4 +18,5 @@
 body .content-area {
   position: relative;
   z-index: 1;
+  padding-bottom: 0 !important;
 }
