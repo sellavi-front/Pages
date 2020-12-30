@@ -98,7 +98,8 @@ if(location.href === 'https://koshergurme.ru/index.php?route=account/register') 
 
 if (location.href.includes("checkout")) {
   $('.form_checkout').ready(function () {
-    $('.checkbox>label').html('Согласен (-а) с условиями <b>ПУБЛИЧНОЙ ОФЕРТЫ</b><small><a href="/terms-of-use/" " style="text-decoration: none !important; "><b style="font-weight: bold !important;">(ознакомиться)</b></a></small>');
+    $('.checkbox>label').html('Согласен (-а) с условиями <b>ПУБЛИЧНОЙ ОФЕРТЫ</b>');
+    $('.checkbox>label').insertAdjacentHTML("afterend", '<small><a href="/terms-of-use/" " style="text-decoration: none !important; "><b style="font-weight: bold !important;">Ознакомиться с публичной офертой</b></a></small>')
   })
 }
 
