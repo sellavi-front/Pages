@@ -22,6 +22,13 @@ body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.bt
   color: #000 !important;
 }
 
+body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: #fff !important;
+  border-color: #333 !important;
+  color: #000 !important;
+  font-size: 10px;
+}
+
 .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
   border-radius: 5px;
   height: 42px !important;
