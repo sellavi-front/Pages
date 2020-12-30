@@ -72,7 +72,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .quantity
   > input,
   body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-  body.dark-mode.theme_11.ltr .form-login .forgot-password {
+  body.dark-mode.theme_11.ltr .form-login .forgot-password ,
+  body.dark-mode.theme_11.ltr .cart-items .cart-items-inner {
   color: white !important;
 }
 
