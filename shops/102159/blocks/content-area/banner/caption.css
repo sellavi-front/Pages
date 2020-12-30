@@ -12,8 +12,7 @@
 
 body.common-home .main-slider .caption-content .caption-text .btn-theme {
   background: transparent !important;
-  border: 3px solid;
-  border-image-source: linear-gradient(268.49deg, #FF0000 6.71%, #FF9900 105.43%);
+  border: 3px solid white !important;
   border-radius: 0 !important;
   max-width: 280px;
   color: black !important;
