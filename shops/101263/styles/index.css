@@ -94,4 +94,14 @@ body .content-area .page-section.error-page h2 {
     transform: rotate(180deg);
     margin-left: -35px !important;
   }
+
+  .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: initial;
+    color: #000;
+  }
+
 }
