@@ -139,7 +139,6 @@ if (document.querySelector('.wrapper')) {
 }
 
 
-
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section>.container');
   const logo = document.querySelector('.logo > a > img');
