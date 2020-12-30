@@ -53,4 +53,9 @@ body .content-area .page-section.error-page h2 {
   .advantages {
     display: none;
   }
+
+  body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+    right: auto;
+    left: 0;
+  }
 }
