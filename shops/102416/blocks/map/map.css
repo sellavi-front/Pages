@@ -28,3 +28,9 @@ p.contact__list-text {
 p.contact__list-title {
     font-weight: 600 !important;
 }
+
+@media (max-device-width: 480px) {
+    section.page-section.latest-section > div > div.container {
+        padding: 0px;
+    }
+}
