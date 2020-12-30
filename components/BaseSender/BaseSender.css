@@ -17,12 +17,15 @@
 
 .sender__form {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 78px;
   border-radius: 64px;
   margin-bottom: 90px;
-  width: 90%;
   margin: 0 auto 90px;
 }
 
@@ -34,6 +37,34 @@
   padding-left: 5%;
   height: 100%;
   background: #424242;
+}
+
+.sender__form_input::-webkit-input-placeholder {
+  color: white !important;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.sender__form_input::-moz-placeholder {
+  color: white !important;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.sender__form_input:-ms-input-placeholder {
+  color: white !important;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.sender__form_input::-ms-input-placeholder {
+  color: white !important;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .sender__form_input::placeholder {
@@ -68,6 +99,22 @@
 
   .sender__form_btn {
     width: 140px;
+  }
+
+  .sender__form_input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .sender__form_input::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .sender__form_input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .sender__form_input::-ms-input-placeholder {
+    font-size: 16px;
   }
 
   .sender__form_input::placeholder,
