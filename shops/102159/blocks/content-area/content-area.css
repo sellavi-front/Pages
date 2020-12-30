@@ -29,3 +29,7 @@ body .content-area .page-section.latest-section {
 body .section-title.section-title-lg {
   height: auto !important;
 }
+
+.content-area .row {
+  margin: 0 !important;
+}
