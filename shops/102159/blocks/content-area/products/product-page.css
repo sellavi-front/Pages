@@ -35,6 +35,10 @@ body.theme-gray.theme_11
   border: 1px solid #ADC8FF;
 }
 
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: white !important;
+}
+
 .thumbnail .add_to_wishlist button:hover {
   background: #490000 !important;
   border: 1px solid #FFB1B1 !important;
