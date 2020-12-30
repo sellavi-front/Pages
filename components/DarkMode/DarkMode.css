@@ -147,7 +147,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .quantity,
 body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
 body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
-body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme {
+body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
+body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search #search_results>.results_text>a {
   border-color: white !important;
 }
 
