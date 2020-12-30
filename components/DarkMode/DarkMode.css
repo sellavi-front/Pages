@@ -1,7 +1,8 @@
 body.dark-mode,
 body.dark-mode header,
 body.dark-mode .footer .footer-meta,
-body.dark-mode .owl-carousel {
+body.dark-mode .owl-carousel,
+body.dark-mode .cart-items .cart-items-inner {
   background: black !important;
 }
 
