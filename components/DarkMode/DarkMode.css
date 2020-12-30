@@ -85,7 +85,7 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity
   > i,
-  body.dark-mode.theme_11.ltr.checkout-cart
+body.dark-mode.theme_11.ltr.checkout-cart
   .content-area
   .page-section
   .checkout_cart_inner
@@ -94,13 +94,29 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity
   > input,
-  body.dark-mode.theme_11.ltr .form-control::placeholder,
-  body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-  body.dark-mode.theme_11.ltr .form-login .forgot-password ,
-  body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
-  body.dark-mode.theme_11.ltr .information-title,
-  body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
-  body.dark-mode.theme_11.ltr .block-title.alt {
+body.dark-mode.theme_11.ltr .form-control::placeholder,
+body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
+body.dark-mode.theme_11.ltr .form-login .forgot-password,
+body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
+body.dark-mode.theme_11.ltr .information-title,
+body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
+body.dark-mode.theme_11.ltr .block-title.alt,
+body.dark-mode.theme_11.ltr
+  .checkout_form
+  #cart_table
+  .order_list_section
+  .order_list_section__product-list
+  .product_tr
+  .single-price
+  > a,
+body.dark-mode.theme_11.ltr
+  .checkout_form
+  #cart_table
+  .order_list_section
+  .order_list_section__product-list
+  .product_tr
+  .single-price
+  > div {
   color: white !important;
 }
 
@@ -122,10 +138,10 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .product_row
   .qty_column
   .quantity,
-  body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block  {
+body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block {
   border-color: white !important;
 }
 
-body.dark-mode.theme_11.ltr .radio.customized input[type=radio]:checked~.check:before {
+body.dark-mode.theme_11.ltr .radio.customized input[type='radio']:checked ~ .check:before {
   background: white !important;
 }
