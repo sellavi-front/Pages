@@ -21,7 +21,7 @@ body .content-area {
   padding-bottom: 0 !important;
 }
 
-body .content-area {
+body .content-area .page-section.latest-section {
   background: url(https://res.cloudinary.com/gz-company/image/upload/v1609330294/Miru/assets/Group_7423503_1_hutvtd.png) no-repeat !important;
     background-size: 101% !important;
 }
