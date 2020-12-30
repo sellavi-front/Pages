@@ -2,6 +2,12 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
 }
 
+.header .header-search .form-control {
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .catalog-title {
     display: none;
