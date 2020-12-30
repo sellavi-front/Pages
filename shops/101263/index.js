@@ -89,6 +89,12 @@ if(pages.home) {
     let replacedSrc2 = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
     cat.setAttribute('src', replacedSrc2);
   })
+
+  if(location.href === 'https://koshergurme.ru/index.php?route=account/register') {
+    document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.remove("btn-primary")
+    document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
+
+  }
 }
 
 
