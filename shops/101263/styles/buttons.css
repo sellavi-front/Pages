@@ -11,6 +11,17 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   transition: unset;
 }
 
+body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block {
+  background-color: #fff;
+  border-color: #000;
+  color: #000 !important;
+}
+
+body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
 .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
   border-radius: 5px;
   height: 42px !important;
