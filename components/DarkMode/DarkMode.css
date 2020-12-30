@@ -159,3 +159,7 @@ body.dark-mode.theme_11.ltr .radio.customized input[type='radio']:checked ~ .che
 body.dark-mode.theme_11.ltr .checkout-progress-bar .step-name, body.theme_11 .checkout-progress-bar .step-number {
   color: #9ca2a9 !important;
 }
+
+body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  border: 1px solid white !important;
+}
