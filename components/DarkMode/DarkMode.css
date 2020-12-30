@@ -9,7 +9,9 @@ body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.bt
 body.dark-mode.theme_11.ltr .information-title,
 body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
 body.dark-mode.theme_11.ltr .select2-container--default .select2-selection--single,
-body.dark-mode.theme_11.ltr.checkout-checkout .content-area .page-section {
+body.dark-mode.theme_11.ltr.checkout-checkout .content-area .page-section,
+body.dark-mode.theme_11.ltr .content-area .page-section.breadcrumbs,
+body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
   background: black !important;
 }
 
