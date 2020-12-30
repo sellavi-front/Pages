@@ -39,10 +39,27 @@ body.dark-mode.ltr
   #cart,
 body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search button,
 body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
-body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title,
+body.dark-mode.theme_11.product-product .product-single .product-availability,
+body.dark-mode.theme_11.product-product .product-single .product-price,
+body.dark-mode.theme_11.product-product .product-single #tab-description h3,
+body.dark-mode.theme_11.product-product .product-single.product-item .buttons #button-cart,
+body.dark-mode.theme_11.product-product .tab-pane p {
   color: white !important;
 }
 
-body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
-  border-bottom: 1px solid white !important;
+body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search input.form-control,
+body.dark-mode.theme_11 .btn.dropdown-toggle,
+body.dark-mode.theme_11.product-product .product-single.product-item .buttons #button-cart,
+body.dark-mode.theme_11.product-product .product-single.product-item .buttons .btn-wish-list,
+body.dark-mode.theme_11.product-product .product-single .bootstrap-select > .dropdown-menu .bs-searchbox .form-control,
+body.dark-mode.theme_11.checkout-cart
+  .content-area
+  .page-section
+  .checkout_cart_inner
+  .cart_product
+  .product_row
+  .qty_column
+  .quantity {
+  border-color: white !important;
 }
