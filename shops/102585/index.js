@@ -1,6 +1,7 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import requsites from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 
 if (location.href.includes('term-of-use')) {
