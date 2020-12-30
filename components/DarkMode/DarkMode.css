@@ -1,0 +1,29 @@
+body.dark-mode {
+  background: black !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode a,
+body.dark-mode span,
+body.dark-mode b,
+body.dark-mode strong,
+body.dark-mode .thumbnail .price,
+.thumbnail .add_to_cart .quantity,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+body.dark-mode .thumbnail .add_to_wishlist button {
+  color: white !important;
+}
