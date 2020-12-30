@@ -31,7 +31,7 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
   text-transform: capitalize !important;
   font-weight: 300;
 }
-.main-slider .caption-subtitle {
+.main-slider .caption-subtitle span {
   background: -o-radial-gradient(37.29% 50%, 41.25% 41.25%, #ffffff 0%, #00d1ff 100%);
   background: radial-gradient(41.25% 41.25% at 37.29% 50%, #ffffff 0%, #00d1ff 100%);
   -webkit-background-clip: text;
