@@ -131,49 +131,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
-
-  const advantagesTypeOne = new AdvantagesTypeOne(
-    document.querySelector('.page-section'),
-    advantages,
-  );
-  // const contentBanner = new ContentBannerTypeOne(
-  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
-  //   'beforeEnd',
-  //   dataBannerContent,
-  // );
-  // const infoCardTypeOne = new InfoCardTypeOne(
-  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
-  //   'beforeEnd',
-  //   salesData,
-  // );
-
-  const imgNearText = new ImgNearText(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    aboutData,
-  );
-
-  const historyLine = new HistoryLine(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    historyData,
-  );
-  const gridPhotoWithText = new GridPhotoWithText(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-  );
-
-  advantagesTypeOne.render();
-  // contentBanner.render();
-  // infoCardTypeOne.render();
-  imgNearText.render();
-  historyLine.render();
-  gridPhotoWithText.render();
   const pageSection = document.querySelector('.page-section');
-
-  const container = document.querySelector('.page-section>.container').cloneNode(true);
-
-  const products = document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > section > div:nth-child(1) > div')
 
   const product = document.querySelectorAll('.product-item');
 
@@ -225,6 +183,44 @@ if (document.querySelector('.common-home')) {
           weekRow.append(i);
       }
   });
+  const advantagesTypeOne = new AdvantagesTypeOne(
+    document.querySelector('.page-section'),
+    advantages,
+  );
+  // const contentBanner = new ContentBannerTypeOne(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   dataBannerContent,
+  // );
+  // const infoCardTypeOne = new InfoCardTypeOne(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   salesData,
+  // );
+
+  const imgNearText = new ImgNearText(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+    aboutData,
+  );
+
+  const historyLine = new HistoryLine(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+    historyData,
+  );
+  const gridPhotoWithText = new GridPhotoWithText(
+    document.querySelector('body>.wrapper>.content-area>.page-section'),
+    'beforeEnd',
+  );
+
+  advantagesTypeOne.render();
+  // contentBanner.render();
+  // infoCardTypeOne.render();
+  imgNearText.render();
+  historyLine.render();
+  gridPhotoWithText.render();
+
 
   // const bannerContentItemImg = document.querySelector('.banner-content__item');
 
