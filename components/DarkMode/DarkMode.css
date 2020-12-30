@@ -37,9 +37,9 @@ body.dark-mode.ltr
   .header-cart
   .cart-wrapper
   #cart,
-body.dark-mode.ltr .wrapper .header .header-wrapper .header-search button,
-body.dark-mode .wrapper footer.footer .footer-widgets .widget-categories ul li a,
-body.dark-mode .wrapper footer.footer .footer-widgets .widget .widget-title {
+body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search button,
+body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
+body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   color: white !important;
 }
 
