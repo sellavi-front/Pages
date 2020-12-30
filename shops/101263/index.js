@@ -54,8 +54,8 @@ if(pages.home) {
     const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
     deleteSelectors.findAndDelete();
   }
-  let customSection = new CustomSection()
-  customSection.render()
+  //let customSection = new CustomSection()
+  //customSection.render()
   /* Catalog */
   let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
   oldCatalog.classList.add("header-catalog")
