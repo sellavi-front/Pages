@@ -120,7 +120,8 @@ body.dark-mode.theme_11.ltr
   body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
   body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
   body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field,
-  body.dark-mode.theme_11.ltr .cart_block .text-right {
+  body.dark-mode.theme_11.ltr .cart_block .text-right,
+  body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme {
   color: white !important;
 }
 
@@ -143,7 +144,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity,
 body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme {
   border-color: white !important;
 }
 
