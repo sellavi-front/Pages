@@ -26,5 +26,21 @@ body.account-login .alert-danger {
 }
 
 body.ltr .float-left {
-  float: left!important;
+  float: left !important;
+}
+
+body .content-area .page-section.error-page h3 {
+  margin: 0 0 15px;
+  color: #ea0000;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 900;
+}
+
+body .content-area .page-section.error-page h2 {
+  margin: 0 0 30px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #232323;
 }
