@@ -12,3 +12,15 @@
 #home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div > div.add_to_cart > button > span {
     font-weight: 600
 }
+
+.pre-category-title {
+    display: none;
+}
+
+#home > div > div.content-area > section.page-section.homefeatured_category {
+    display: none;
+}
+
+section.page-section.latest-section .container .section-title.mb-4.mt-4 {
+    margin-left: 0px !important;
+}
