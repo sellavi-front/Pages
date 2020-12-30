@@ -94,7 +94,12 @@ if(pages.home) {
 if(location.href === 'https://koshergurme.ru/index.php?route=account/register') {
   document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.remove("btn-primary")
   document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
+}
 
+if (location.href.includes("checkout")) {
+  $('.form_checkout').ready(function () {
+    $('.checkbox>label').html('Согласен (-а) с условиями <a href="/terms-of-use/" " style="text-decoration: none !important; "><b style="font-weight: bold !important;">Публичной оферты</b></a>');
+  })
 }
 
 
