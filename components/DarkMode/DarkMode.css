@@ -2,7 +2,8 @@ body.dark-mode,
 body.dark-mode header,
 body.dark-mode .footer .footer-meta,
 body.dark-mode .owl-carousel,
-body.dark-mode .cart-items .cart-items-inner {
+body.dark-mode .cart-items .cart-items-inner
+body.dark-mode .form-control {
   background: black !important;
 }
 
@@ -19,6 +20,7 @@ body.dark-mode span,
 body.dark-mode b,
 body.dark-mode strong,
 body.dark-mode h1 font,
+body.dark-mode .form-control,
 body.dark-mode .thumbnail .price,
 .thumbnail .add_to_cart .quantity,
 body.dark-mode.ltr
