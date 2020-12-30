@@ -125,7 +125,8 @@ body.dark-mode.theme_11.ltr
   body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field,
   body.dark-mode.theme_11.ltr .cart_block .text-right,
   body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
-  body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name {
+  body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name,
+  body.dark-mode.theme_11.ltr .contact-info .media-body {
   color: white !important;
 }
 
