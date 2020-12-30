@@ -26,6 +26,6 @@ body.dark-mode.ltr
   .add_to_cart
   > button,
 body.dark-mode .thumbnail .add_to_wishlist button,
-body.dark-mode .header-cart .cart-wrapper #cart, body.dark-mode .header-cart .cart-wrapper #wishlist {
+body.dark-mode.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
   color: white !important;
 }
