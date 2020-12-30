@@ -7,7 +7,8 @@ body.dark-mode.theme_11.ltr .form-control,
 body.dark-mode.theme_11.ltr .form-control:focus,
 body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
 body.dark-mode.theme_11.ltr .information-title,
-body.dark-mode.theme_11.ltr .widget.account-details .widget-title {
+body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
+body.dark-mode.theme_11.ltr .select2-container--default .select2-selection--single {
   background: black !important;
 }
 
