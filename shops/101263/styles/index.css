@@ -24,3 +24,7 @@ body.account-login .alert-danger {
   text-align: left !important;
   width: 100%;
 }
+
+body.ltr .float-left {
+  float: left!important;
+}
