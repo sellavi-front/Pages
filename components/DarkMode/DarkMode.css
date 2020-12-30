@@ -1,4 +1,5 @@
-body.dark-mode {
+body.dark-mode,
+body.dark-mode header {
   background: black !important;
 }
 
