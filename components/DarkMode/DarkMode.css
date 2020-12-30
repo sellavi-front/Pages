@@ -45,7 +45,9 @@ body.dark-mode.theme_11.product-product .product-single .product-availability,
 body.dark-mode.theme_11.product-product .product-single .product-price,
 body.dark-mode.theme_11.ltr.product-product .product-single #tab-description h3,
 body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons #button-cart,
-body.dark-mode.theme_11.ltr.product-product .tab-pane p {
+body.dark-mode.theme_11.ltr.product-product .tab-pane p,
+body.dark-mode.theme_11.ltr .btn.dropdown-toggle,
+body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons .btn-wish-list i {
   color: white !important;
 }
 
