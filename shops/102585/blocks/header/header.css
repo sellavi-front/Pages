@@ -12,3 +12,13 @@ header.header {
     -moz-box-shadow: 0px 6px 5px 0px rgb(217 217 217);
     box-shadow: 0px 6px 5px 0px rgb(217 217 217);
 }
+
+h2.caption-title {
+    text-align: center !important;   
+}
+
+h2.caption-title span {
+    background: #2b2b2b78 !important;   
+    color: white; 
+    padding: 10px 30px 10px 30px !important;
+}
