@@ -48,7 +48,25 @@ body.dark-mode.theme_11.ltr.product-product .product-single #tab-description h3,
 body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons #button-cart,
 body.dark-mode.theme_11.ltr.product-product .tab-pane p,
 body.dark-mode.theme_11.ltr .btn.dropdown-toggle,
-body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons .btn-wish-list i {
+body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons .btn-wish-list i,
+body.dark-mode.theme_11.ltr.checkout-cart
+  .content-area
+  .page-section
+  .checkout_cart_inner
+  .cart_product
+  .product_row
+  .qty_column
+  .quantity
+  > i,
+  body.dark-mode.theme_11.ltr.checkout-cart
+  .content-area
+  .page-section
+  .checkout_cart_inner
+  .cart_product
+  .product_row
+  .qty_column
+  .quantity
+  > input {
   color: white !important;
 }
 
