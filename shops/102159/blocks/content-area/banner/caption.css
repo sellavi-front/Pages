@@ -36,6 +36,7 @@ body.common-home .main-slider .caption-content .caption-text .btn-theme {
   background: radial-gradient(41.25% 41.25% at 37.29% 50%, #ffffff 0%, #00d1ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 15px #0047FF;
 }
 @media (max-width: 991px) {
   .main-slider .caption-subtitle {
