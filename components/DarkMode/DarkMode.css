@@ -1,5 +1,6 @@
 body.dark-mode,
-body.dark-mode header {
+body.dark-mode header,
+body.dark-mode .footer .footer-meta {
   background: black !important;
 }
 
@@ -26,6 +27,11 @@ body.dark-mode.ltr
   .add_to_cart
   > button,
 body.dark-mode .thumbnail .add_to_wishlist button,
-body.dark-mode.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
+body.dark-mode.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
+body.dark-mode.ltr .wrapper .header .header-wrapper .header-search button {
   color: white !important;
+}
+
+body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+  border-bottom: 1px solid white !important;
 }
