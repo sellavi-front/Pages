@@ -29,6 +29,14 @@ body.ltr .float-left {
   float: left !important;
 }
 
+.panel-collapse {
+  position: relative;
+  top: 0 !important;
+  width: 100%;
+  max-width: 800px;
+  left: 50px !important;
+}
+
 body .content-area .page-section.error-page h3 {
   margin: 0 0 15px;
   color: #ea0000;
