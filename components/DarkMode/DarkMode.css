@@ -116,7 +116,8 @@ body.dark-mode.theme_11.ltr
   .order_list_section__product-list
   .product_tr
   .single-price
-  > div {
+  > div,
+  body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
   color: white !important;
 }
 
@@ -138,7 +139,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .product_row
   .qty_column
   .quantity,
-body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block {
+body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
+body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
   border-color: white !important;
 }
 
