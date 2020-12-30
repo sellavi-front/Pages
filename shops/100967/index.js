@@ -169,6 +169,62 @@ if (document.querySelector('.common-home')) {
   imgNearText.render();
   historyLine.render();
   gridPhotoWithText.render();
+  const pageSection = document.querySelector('.page-section');
+
+  const container = document.querySelector('.page-section>.container').cloneNode(true);
+
+  const products = document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > section > div:nth-child(1) > div')
+
+  const product = document.querySelectorAll('.product-item');
+
+  let twoWeek = document.createElement('div');
+  let oneMonth = document.createElement('div');
+  let row1 = document.createElement('div');
+  let row2 = document.createElement('div');
+  let titleWeek = document.createElement('h2');
+  let titleWeekSpan = document.createElement('span')
+  let titleMonth = document.createElement('h2');
+  let titleMonthSpan = document.createElement('span');
+
+  twoWeek.classList.add('container', 'twoWeek')
+  oneMonth.classList.add('container', 'oneMonth')
+  row1.classList.add('row', 'products', 'grid');
+  row2.classList.add('row', 'products', 'grid');
+  titleWeek.classList.add('section-title', 'mb-4', 'mt-4')
+  titleMonth.classList.add('section-title', 'mb-4', 'mt-4')
+
+  pageSection.append(twoWeek);
+  pageSection.append(oneMonth);
+
+  titleWeekSpan.textContent = 'Двухнедельные линзы';
+  titleMonthSpan.textContent = 'Линзы месячного ношения';
+
+  const monthCont = document.querySelector('.oneMonth');
+  const weekCont = document.querySelector('.twoWeek');
+
+  monthCont.append(row1);
+  weekCont.append(row2);
+
+  weekCont.prepend(titleWeek);
+  monthCont.prepend(titleMonth);
+  titleWeek.append(titleWeekSpan);
+  titleMonth.append(titleMonthSpan);
+
+  const monthRow = document.querySelector('.oneMonth>.products');
+  const weekRow = document.querySelector('.twoWeek>.products');
+  const monthArr = ['688', '687', '4441', '977']
+  const weekArr = ['668', '4426']
+
+  product.forEach(function (i) {
+      const attr = i.getAttribute('data-product_id')
+
+      if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
+          monthRow.append(i);
+      }
+      if (attr === '668' || attr === '4426') {
+          weekRow.append(i);
+      }
+  });
 
   // const bannerContentItemImg = document.querySelector('.banner-content__item');
 
