@@ -66,4 +66,8 @@ body .content-area .page-section.error-page h2 {
     margin-top: 90px !important;
   }
 
+  body label.placeholder {
+    position: relative;
+  }
+
 }
