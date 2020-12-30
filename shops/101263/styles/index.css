@@ -55,7 +55,14 @@ body .content-area .page-section.error-page h2 {
   }
 
   body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
-    right: auto;
-    left: 0;
+    right: auto !important;
+    left: 0 !important;
   }
+
+  .cart-items .cart-items-inner .buttons-wrapper a {
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 90px !important;
+  }
+
 }
