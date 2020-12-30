@@ -22,3 +22,16 @@ h2.caption-title span {
     color: white; 
     padding: 10px 30px 10px 30px !important;
 }
+
+body .section-title span:after {
+    display: none;
+}
+
+body .section-title span:before {
+    display: none;
+}
+
+h2.section-title.mb-4.mt-4 {
+    margin-top: 90px !important;
+    display: flex;
+}
