@@ -68,6 +68,7 @@ body .content-area .page-section.error-page h2 {
 
   body label.placeholder {
     position: relative;
+    padding: 10px !important;
   }
 
 }
