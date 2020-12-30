@@ -125,5 +125,5 @@ body.dark-mode.theme_11.ltr.checkout-cart
 }
 
 body.dark-mode.theme_11.ltr .radio.customized input[type=radio]:checked~.check:before {
-
+  background: white !important;
 }
