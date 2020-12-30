@@ -98,7 +98,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   body.dark-mode.theme_11.ltr .form-login .forgot-password ,
   body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
   body.dark-mode.theme_11.ltr .information-title,
-  body.dark-mode.theme_11.ltr .widget.account-details .widget-title {
+  body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
+  body.dark-mode.theme_11.ltr .block-title.alt {
   color: white !important;
 }
 
