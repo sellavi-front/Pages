@@ -31,7 +31,6 @@
     }
 
     button.btn.btn-theme.btn-theme-transparent.btn-icon {
-        width: 100px !important;
         height: 30px !important;
         padding: 0px !important;
     }
@@ -62,7 +61,9 @@
         display: flex !important;
     }
 
-
+    .buttons__container {
+        justify-content: center;
+    }
 
     .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
         top: 0px !important;
