@@ -6,7 +6,8 @@ body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
 body.dark-mode.theme_11.ltr .form-control,
 body.dark-mode.theme_11.ltr .form-control:focus,
 body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-body.dark-mode.theme_11.ltr .information-title {
+body.dark-mode.theme_11.ltr .information-title,
+body.dark-mode.theme_11.ltr .widget.account-details .widget-title {
   background: black !important;
 }
 
@@ -35,6 +36,8 @@ body.dark-mode h6,
 body.dark-mode p,
 body.dark-mode a,
 body.dark-mode li,
+body.dark-mode legend,
+body.dark-mode fieldset,
 body.dark-mode span,
 body.dark-mode b,
 body.dark-mode strong,
@@ -92,7 +95,8 @@ body.dark-mode.theme_11.ltr.checkout-cart
   body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
   body.dark-mode.theme_11.ltr .form-login .forgot-password ,
   body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
-  body.dark-mode.theme_11.ltr .information-title {
+  body.dark-mode.theme_11.ltr .information-title,
+  body.dark-mode.theme_11.ltr .widget.account-details .widget-title {
   color: white !important;
 }
 
