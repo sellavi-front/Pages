@@ -50,6 +50,7 @@ body .content-area .page-section.error-page h2 {
 }
 
 @media (min-width: 320px) and (max-width: 413px) {
+
   .advantages {
     display: none;
   }
