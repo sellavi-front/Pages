@@ -12,6 +12,10 @@ body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile
   background: black !important;
 }
 
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+  height: inherit !important;
+}
+
 @media (max-width: 495px) {
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
     line-height: 1.3;
