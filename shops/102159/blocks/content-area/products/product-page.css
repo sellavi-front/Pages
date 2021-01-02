@@ -35,6 +35,10 @@ body.theme-gray.theme_11
   border: 1px solid #ADC8FF;
 }
 
+body.product-product .product-title-text font {
+  background: transparent !important;
+}
+
 body .btn.btn-theme.btn-theme-transparent:hover i {
   color: white !important;
 }
