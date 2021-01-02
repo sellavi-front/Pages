@@ -15,3 +15,8 @@ body.checkout-checkout label.placeholder {
 body.checkout-checkout input.form-control {
   padding-top: 0 !important;
 }
+
+.media-links .row {
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+}
