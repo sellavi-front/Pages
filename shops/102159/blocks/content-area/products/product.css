@@ -8,7 +8,8 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .capt
   width: 100%;
 }
 
-body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button,
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
   background: black !important;
 }
 
