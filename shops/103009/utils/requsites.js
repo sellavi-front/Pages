@@ -9,4 +9,15 @@ const requsites = {
   'Директор': 'Балинец Наталья Александровна',
 };
 
-export default requsites;
+
+const dataContact = {
+  adress: '127282, город Москва, улица Полярная, дом 39, строение 2, этаж 5 оф. 1 ',
+  phone: '+7(968)820 52 10',
+  city: 'г. Москва',
+  timeWork: `Пн-Пт 9:00 - 18:00`,
+}
+
+export default {
+  dataContact,
+  requsites
+};
