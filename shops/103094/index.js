@@ -14,3 +14,24 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Кучма Виктория Геннадьевна', media);
   req.setTemplate();
 }
+
+if (location.href.includes('policy')) {
+  const req = new Requisites(
+    requsites,
+    'afterend',
+    'ИП Зюзина Оксана Викторовна',
+    document.querySelector('#content > div > div'),
+  );
+  req.setTemplate();
+}
+
+if (location.href.includes('pay-delivery')) {
+  const req = new Requisites(
+    requsites,
+    'afterend',
+    'ИП Зюзина Оксана Викторовна',
+    document.querySelector('#content > div > div'),
+    dataContact,
+  );
+  req.setTemplate();
+}
