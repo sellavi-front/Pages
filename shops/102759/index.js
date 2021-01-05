@@ -8,7 +8,7 @@ import BigBanner from '../../modules/BigBanner/BigBanner.js'
 
 
 if (document.querySelector('.common-home')) {
-  new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png').render()
+  new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
 }
 
 if (location.href.includes('term-of-use')) {
