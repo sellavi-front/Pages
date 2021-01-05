@@ -61,11 +61,12 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 }
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
-  font-size: 22px !important;
+  font-size: 18px !important;
   padding: 0;
   font-weight: bold;
   min-height: auto !important;
   line-height: 1.2 !important;
+  text-transform: none !important;
 }
 
 @media only screen and (max-width: 1373px) {
