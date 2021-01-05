@@ -1,6 +1,7 @@
 @import '../../../fixes/fixes.css';
 @import '../../../modules/Requisites/Requisites.css';
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
 @import './pay-delivery/pay-delivery.css';
 @import './footer/footer.css';
 @import './header/header.css';
