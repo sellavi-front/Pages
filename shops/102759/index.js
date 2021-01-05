@@ -28,8 +28,3 @@ if (location.href.includes('policy')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', document.querySelector("#content > div > div"));
   req.setTemplate();
 }
-
-if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', document.querySelector("#content > div > div"), dataContact);
-  req.setTemplate();
-}
