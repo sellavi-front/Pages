@@ -9,16 +9,7 @@ const requsites = {
   'Директор': 'Кучма Виктория Геннадьевна',
 };
 
-const dataContact = {
-  adress: 'г. Екатеринбург ул Cчастливая 8 офис 2',
-  phone: '89126834503',
-  city: 'г. Екатеринбург',
-  timeWork: `Пн-Пт 8:00 - 23:00
-  Сб-Вс 10:00 - 15:00`,
-}
-
 export default {
-  dataContact,
   requsites
 };
 
