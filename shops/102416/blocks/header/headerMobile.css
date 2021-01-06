@@ -73,3 +73,25 @@ h3.caption-subtitle {
         font-size: 30px;
     }
 }
+
+@media (max-device-width: 480px) {
+    p.p2 {
+        padding: 15px;
+    }
+
+    p.p4 {
+        padding: 15px;
+    }
+
+    span.s1 {
+        padding: 15px;
+    }
+
+    ul.ul1 {
+        padding: 15px !important;
+    }
+
+    ol.ol2 {
+        padding: 15px !important;
+    }
+}
