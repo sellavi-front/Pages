@@ -94,4 +94,9 @@ h3.caption-subtitle {
     ol.ol2 {
         padding: 15px !important;
     }
+
+    .dropdown-menu.show {
+        min-width: 0;
+        width: 100%;
+    }
 }
