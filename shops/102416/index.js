@@ -105,4 +105,3 @@ if (location.href.includes('policy')) {
 //   req.setTemplate();
 // }
   
-document.querySelector('.product-category .row.products.grid').insertAdjacentHTML('beforebegin', '<div>Товары</div>')
