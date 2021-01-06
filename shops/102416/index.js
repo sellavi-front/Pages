@@ -82,10 +82,6 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 }
 
-if (document.querySelector('.product-category #content > div > div.row.products.grid')) {
-  document.querySelector('.product-category #content > div > div.row.products.grid').insertAdjacentHTML('beforebegin', '<div>Товары</div>');
-}
-
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Орлова Елена Геннадьевна');
 
