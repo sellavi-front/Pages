@@ -22,3 +22,13 @@
 .shop-sorting.mt-3.mt-lg-0.col-md-12 {
     display: none;
 }
+
+.caption-title a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price_actions.d-flex.justify-content-between .price {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
