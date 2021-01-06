@@ -82,7 +82,7 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 }
 
-if (document.querySelector('.product-category')) {
+if (document.querySelector('.product-category #content > div > div.row.products.grid')) {
   document.querySelector('.product-category #content > div > div.row.products.grid').insertAdjacentHTML('beforebegin', '<div>Товары</div>');
 }
 
