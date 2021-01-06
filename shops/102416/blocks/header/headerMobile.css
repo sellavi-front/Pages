@@ -63,3 +63,13 @@ h3.caption-subtitle {
         position: absolute;
     }
 }
+
+@media (max-device-width: 480px) {
+    h2.pay__title {
+        font-size: 30px;
+    }
+
+    h2.delivery__right-title {
+        font-size: 30px;
+    }
+}
