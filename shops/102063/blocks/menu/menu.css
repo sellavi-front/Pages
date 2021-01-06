@@ -44,11 +44,16 @@ span.arrow {
     position: relative;
     font-size: 14px;
     font-weight: 600;
-    z-index: 996;
+    z-index: 1;
     font-family: 'Open Sans', sans-serif;
     top: 0px;
     left: 0px;
  }
+
+ .search_black_screen.active {
+    position: relative;
+    z-index: 999;
+}
 
  #home > div > header > div.navigation-wrapper > div:nth-child(1) > a {
      color: white;
