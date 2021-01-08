@@ -22,7 +22,7 @@ export default class AdvantagesTypeOne {
       (item) => `
         <div class="advantages__elem col-md-4">
           <img class="advatages__icon" src="${item.icon}">
-          <p class="advatages__text">
+          <p class="advantages__text">
             ${item.text}
           </p>
         </div>`,

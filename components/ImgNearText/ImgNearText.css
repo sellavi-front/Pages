@@ -4,18 +4,26 @@
 
 .about__title {
   font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 1.2;
   text-align: center;
   width: 100%;
   margin-bottom: 55px;
 }
 
 .about__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
 }
 
@@ -27,57 +35,51 @@
   max-width: 580px;
   width: 100%;
   height: auto;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
 }
 
 .about__item_title,
 .about__item_title > a {
   font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 1.2;
   margin-bottom: 30px;
 }
 
 .about__item_text {
   font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
+  line-height: 1.2;
   margin-bottom: 30px;
   max-width: 530px;
   width: 100%;
+  line-height: 1.5;
 }
 
 
 @media (max-width: 1200px) {
   .about__item {
-    justify-content: center;
-    flex-direction: column-reverse;
-  }
-
-  .about__item_img {
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 992px) {
-  .about__item-container {
-    width: 80%;
-    max-width: 80%;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .about__item_title,
-  .about__item_title > a {
-    font-size: 22px;
-    line-height: 1.2;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 
   .about__item_text {
-    font-size: 16px;
+    max-width: 100% !important;
   }
 
+  .about__item_img {
+    margin-bottom: 50px;
+  }
 
+  .about__item-container {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
 }

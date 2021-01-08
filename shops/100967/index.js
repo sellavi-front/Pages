@@ -1,4 +1,4 @@
-//import '../../fixes/FooterCopy/FooterCopy.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
@@ -7,8 +7,8 @@ import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContai
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
 import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
-import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
-import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
+// import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
+// import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
@@ -17,8 +17,8 @@ import BaseSender from '../../components/BaseSender/BaseSender.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
 import advantages from './utils/advantages.js';
-import dataBannerContent from './utils/dataBannerContent.js';
-import salesData from './utils/salesData.js';
+// import dataBannerContent from './utils/dataBannerContent.js';
+// import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
 import historyData from './utils/historyData.js';
 
@@ -54,6 +54,9 @@ if (document.querySelector('.wrapper')) {
   logoIco.remove();
   logo.insertAdjacentHTML('afterbegin', icons.cart);
 
+  document.querySelector('.header-wrapper > .container').classList.add('container-fluid')
+  document.querySelector('.header-wrapper > .container').classList.remove('container')
+
   // Icons in header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
@@ -66,6 +69,7 @@ if (document.querySelector('.wrapper')) {
   const baseSender = new BaseSender(
     document.querySelector('.footer-widgets>.container'),
     'afterbegin',
+    'Остались вопросы?'
   );
 
   footerContainer.insertAdjacentHTML('beforeend', `
@@ -93,7 +97,7 @@ if (document.querySelector('.wrapper')) {
     it.insertAdjacentHTML('beforeend', `<i class="fal fa-chevron-right"></i>`);
   });
 
-  footerRow.remove();
+  // footerRow.remove();
   notActiveLink.forEach((el) => {
     el.removeAttribute('href');
   });
@@ -127,21 +131,72 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.common-home')) {
-  console.log(document.querySelector('body>.wrapper>.content-area>.container'));
+  const pageSection = document.querySelector('.page-section');
+
+  const product = document.querySelectorAll('.product-item');
+
+  let twoWeek = document.createElement('div');
+  let oneMonth = document.createElement('div');
+  let row1 = document.createElement('div');
+  let row2 = document.createElement('div');
+  let titleWeek = document.createElement('h2');
+  let titleWeekSpan = document.createElement('span')
+  let titleMonth = document.createElement('h2');
+  let titleMonthSpan = document.createElement('span');
+
+  twoWeek.classList.add('container', 'twoWeek')
+  oneMonth.classList.add('container', 'oneMonth')
+  row1.classList.add('row', 'products', 'grid');
+  row2.classList.add('row', 'products', 'grid');
+  titleWeek.classList.add('section-title', 'mb-4', 'mt-4')
+  titleMonth.classList.add('section-title', 'mb-4', 'mt-4')
+
+  pageSection.append(twoWeek);
+  pageSection.append(oneMonth);
+
+  titleWeekSpan.textContent = 'Двухнедельные линзы';
+  titleMonthSpan.textContent = 'Линзы месячного ношения';
+
+  const monthCont = document.querySelector('.oneMonth');
+  const weekCont = document.querySelector('.twoWeek');
+
+  monthCont.append(row1);
+  weekCont.append(row2);
+
+  weekCont.prepend(titleWeek);
+  monthCont.prepend(titleMonth);
+  titleWeek.append(titleWeekSpan);
+  titleMonth.append(titleMonthSpan);
+
+  const monthRow = document.querySelector('.oneMonth>.products');
+  const weekRow = document.querySelector('.twoWeek>.products');
+  const monthArr = ['688', '687', '4441', '977']
+  const weekArr = ['668', '4426']
+
+  product.forEach(function (i) {
+      const attr = i.getAttribute('data-product_id')
+
+      if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
+          monthRow.append(i);
+      }
+      if (attr === '668' || attr === '4426') {
+          weekRow.append(i);
+      }
+  });
   const advantagesTypeOne = new AdvantagesTypeOne(
     document.querySelector('.page-section'),
     advantages,
   );
-  const contentBanner = new ContentBannerTypeOne(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    dataBannerContent,
-  );
-  const infoCardTypeOne = new InfoCardTypeOne(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    salesData,
-  );
+  // const contentBanner = new ContentBannerTypeOne(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   dataBannerContent,
+  // );
+  // const infoCardTypeOne = new InfoCardTypeOne(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   salesData,
+  // );
 
   const imgNearText = new ImgNearText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
@@ -160,19 +215,20 @@ if (document.querySelector('.common-home')) {
   );
 
   advantagesTypeOne.render();
-  contentBanner.render();
-  infoCardTypeOne.render();
+  // contentBanner.render();
+  // infoCardTypeOne.render();
   imgNearText.render();
   historyLine.render();
   gridPhotoWithText.render();
 
-  const bannerContentItemImg = document.querySelector('.banner-content__item');
 
-  // Коробка которая вылезает за баннер
-  bannerContentItemImg.insertAdjacentHTML(
-    'afterbegin',
-    `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
-  );
+  // const bannerContentItemImg = document.querySelector('.banner-content__item');
+
+  // // Коробка которая вылезает за баннер
+  // bannerContentItemImg.insertAdjacentHTML(
+  //   'afterbegin',
+  //   `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
+  // );
 }
 
 if (document.querySelector('.product-product')) {
@@ -231,7 +287,7 @@ if (document.querySelector('.product-product')) {
   deleteEl.remove();
   document
     .querySelector(
-      '#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+      'body > div > div > section:nth-child(1) .product-single > div:nth-child(2)',
     )
     .childNodes[3].remove();
 

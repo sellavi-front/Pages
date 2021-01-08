@@ -73,7 +73,7 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
 }
 
 body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
-  min-width: 450px !important;
+  max-width: 450px !important;
   width: inherit !important;
 }
 

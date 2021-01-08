@@ -41,6 +41,14 @@ window.onload = () => {
 
 if (document.querySelector('.wrapper')) {
 
+  document.querySelector('head').insertAdjacentHTML('afterbegin', `</script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B6VRHDSGRP');
+  </script>`);
+
   const tex = document.querySelector('footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a').textContent;
   localStorage.setItem('phone', tex);
 
@@ -139,7 +147,6 @@ if (document.querySelector('.wrapper')) {
 }
 
 
-
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section>.container');
   const logo = document.querySelector('.logo > a > img');
@@ -174,6 +181,10 @@ if (document.querySelector('.product-item')) {
 
   deleteClassesProd.findAndDelete();
 }
+
+// if (document.querySelector('.product-product')) {
+//   document.querySelector("#home > div > div > section.page-section.overflow-hidden>.container").classList.remove('container')
+// }
 
 /* Реквиизиты */
 
