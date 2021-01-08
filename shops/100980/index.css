@@ -454,6 +454,10 @@ body .footer .footer-widgets {
   border: 0 !important;
 }
 
+#home footer .footer-widgets .bs-menu-toggle a {
+  display: none !important;
+}
+
 /* End */
 
 @media only screen and (max-device-width : 320px) {
