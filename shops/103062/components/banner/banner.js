@@ -1,8 +1,8 @@
-import images from "../../images/images";
+import images from "../../images/images.js";
 let renderBanner = () => {
   let customBanner = document.querySelector(".custom_banner")
-  let imgDesktop = `<div class='container-fluid'><img src="${images.bannerDesktop}"</div>`
-  let imgMobile = `<div class='container-fluid'><img src="${images.bannerMobile}"</div>`
+  let imgDesktop = `<div class='container-fluid'><img src="${images.bannerDesktop}" alt="banner-desktop"/></div>`
+  let imgMobile = `<div class='container-fluid'><img src="${images.bannerMobile}" alt="banner-mobile"/></div>`
   if(screen.width <= 768) {
     customBanner.insertAdjacentHTML('afterbegin', imgMobile)
   } else {
