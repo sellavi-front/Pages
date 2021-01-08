@@ -1,1 +1,1 @@
-import "../../fixes/fixes.js"
+import './fixes/fixes.js'
