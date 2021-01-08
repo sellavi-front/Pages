@@ -3,6 +3,7 @@ import customSectionLayout from "../layouts/custom-section-layout.js";
 let renderCategories = () => {
   let layout = `
   <div class="container">
+    <h3 class="float-left">Категории</h3>
     <div class="categories__container">
         <div class="categories__item">
             <a href="${categories.water.link}"><img src="${categories.water.img}" alt="category"></a>
