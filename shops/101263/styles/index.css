@@ -105,6 +105,15 @@ body .content-area .page-section.error-page h2 {
     font-weight: 500 !important;
   }
 
+  .payment {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .payment a {
+    margin-right: 50px;
+  }
+
   body.checkout-checkout .payment>#button-payment~a {
     line-height: 42px;
     margin-left: 10px;
