@@ -1,4 +1,5 @@
-import images from "../../images/images.js";
+import images from "../../images/images.js"
+
 let renderBanner = () => {
   let customBanner = document.querySelector(".custom_banner")
   let imgDesktop = `<img class="banner__desktop" src="${images.bannerDesktop}" alt="banner-desktop"/>`
