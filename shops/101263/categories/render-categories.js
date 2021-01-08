@@ -1,4 +1,5 @@
 import categories from "./categories.js"
+import customSectionLayout from "../layouts/custom-section-layout";
 let renderCategories = () => {
   let layout = `
   <div class="container">
@@ -53,6 +54,8 @@ let renderCategories = () => {
     </div>
   </div>
   `
+
+  document.querySelector(".custom_section").insertAdjacentHTML("afterbegin", layout)
 }
 
 export default renderCategories
