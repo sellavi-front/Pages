@@ -94,8 +94,15 @@ body .content-area .page-section.error-page h2 {
     margin-top: 15px;
   }
 
+  .checkbox>label {
+    font-weight: 100;
+  }
+
   .read_doc {
     margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500 !important;
   }
 
   body.checkout-checkout .payment>#button-payment~a {
