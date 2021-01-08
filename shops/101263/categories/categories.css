@@ -8,5 +8,8 @@
 .categories__item {
   display: flex;
   width: 30%;
-  margin: 5px;
+}
+
+.categories__item img {
+  width: 250px;
 }
