@@ -6,7 +6,6 @@ export default class CustomSection {
 
     renderCategories()
 
-
     if(screen.width <= 768) {
       document.querySelector(".custom_section").insertAdjacentHTML("beforeend", customSectionLayout.mobile)
     } else if(screen.width > 768) {
