@@ -8,7 +8,7 @@
 
 .categories__item {
   display: flex;
-  width: 30%;
+  width: auto;
   margin: 2%;
 }
 
