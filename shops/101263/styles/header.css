@@ -31,6 +31,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
     transform: rotate(270deg) !important;
   }
 
+  .panel-collapse {
+    left: 0 !important;
+  }
+
   body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
     padding: 0 !important;
     margin-top: 28px !important;
