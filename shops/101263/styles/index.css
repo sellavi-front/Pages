@@ -12,6 +12,7 @@
 @import './../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
 @import './../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
 @import './../../../components/HeaderWithCatalog/HeaderWithCatalog.css';
+@import './../categories/categories.css';
 
 body.account-login .alert-danger {
   margin-bottom: 10px;
