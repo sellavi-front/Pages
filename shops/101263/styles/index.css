@@ -90,8 +90,8 @@ body .content-area .page-section.error-page h2 {
     line-height: 25px;
   }
 
-  .checkbox>label {
-    font-weight: 100;
+  /*.checkbox>label {
+    font-weight: 100 !important;
   }
 
   .read_doc {
@@ -114,7 +114,7 @@ body .content-area .page-section.error-page h2 {
   body.checkout-checkout .payment>#button-payment~a {
     line-height: 42px;
     margin-left: 10px;
-  }
+  }*/
 
   body .arrow {
     display: block !important;
