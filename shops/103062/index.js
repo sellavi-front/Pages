@@ -4,5 +4,5 @@ import renderBanner from "./components/banner/banner.js"
 import pages from "./pages/pages.js";
 
 if(pages.home) {
-  //renderBanner()
+  renderBanner()
 }
