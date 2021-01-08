@@ -1,5 +1,5 @@
 import categories from "./categories.js"
-import customSectionLayout from "../layouts/custom-section-layout";
+import customSectionLayout from "../layouts/custom-section-layout.js";
 let renderCategories = () => {
   let layout = `
   <div class="container">
