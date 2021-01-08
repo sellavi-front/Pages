@@ -3,13 +3,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 
 .categories__item {
   display: flex;
   width: 30%;
+  margin: 2%;
 }
 
 .categories__item img {
-  width: 250px;
+  width: 280px;
 }
