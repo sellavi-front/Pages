@@ -63,6 +63,32 @@ body .content-area .page-section.error-page h2 {
   display: none !important;
 }
 
+.checkbox>label {
+    font-weight: 100 !important;
+}
+
+.read_doc {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.payment a {
+    margin-right: 50px;
+}
+
+body.checkout-checkout .payment>#button-payment~a {
+    line-height: 42px;
+    margin-left: 10px;
+}
+
 @media (min-width: 320px) and (max-width: 413px) {
 
   .advantages {
@@ -89,32 +115,6 @@ body .content-area .page-section.error-page h2 {
     padding: 0 0 0 32px;
     line-height: 25px;
   }
-
-  /*.checkbox>label {
-    font-weight: 100 !important;
-  }
-
-  .read_doc {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-    font-size: 14px !important;
-    font-weight: 500 !important;
-  }
-
-  .payment {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-  }
-
-  .payment a {
-    margin-right: 50px;
-  }
-
-  body.checkout-checkout .payment>#button-payment~a {
-    line-height: 42px;
-    margin-left: 10px;
-  }*/
 
   body .arrow {
     display: block !important;
