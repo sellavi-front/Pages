@@ -57,6 +57,13 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   padding-bottom: 25px !important;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price del {
+  font-size: 14px !important;
+  line-height: 1 !important;
+  font-weight: 500;
+  color: #6d6d6d;
+}
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: -webkit-box;
