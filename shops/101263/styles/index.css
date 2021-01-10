@@ -160,4 +160,8 @@ body.checkout-checkout .payment>#button-payment~a {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .categories__item img {
+    width: auto;
+  }
 }
