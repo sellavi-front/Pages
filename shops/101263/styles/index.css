@@ -179,7 +179,7 @@ body.checkout-checkout .payment>#button-payment~a {
     width: 100%;
   }
 
-  .categories-item a {
+  .categories__item a {
     width: 100% !important;
   }
 }
