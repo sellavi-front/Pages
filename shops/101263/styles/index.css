@@ -152,7 +152,8 @@ body.checkout-checkout .payment>#button-payment~a {
   }
 
   #home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div,
-  #home > div > div.content-area > div.custom_section > div:nth-child(2){
+  #home > div > div.content-area > div.custom_section > div:nth-child(2),
+  #home > div > div.content-area > div.custom_section > div:nth-child(1) {
     width: 100%;
     padding-right: 0 !important;
     padding-left: 0 !important;
