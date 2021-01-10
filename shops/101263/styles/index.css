@@ -130,5 +130,19 @@ body.checkout-checkout .payment>#button-payment~a {
     text-transform: initial;
     color: #000;
   }
+}
 
+@media (min-width: 320px) and (max-width: 768px) {
+  body.theme_11 .wrapper .page-section .products.grid .product-item {
+    padding: 0 !important;
+    margin-top: 20px !important;
+  }
+
+  body.theme_11 .wrapper .latest-section h2.section-title {
+    margin: 25px 0 5px 0 !important;
+  }
+
+  body .section-title {
+    text-align: center !important;
+  }
 }
