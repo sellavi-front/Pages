@@ -162,6 +162,10 @@ body.checkout-checkout .payment>#button-payment~a {
   }
 
   .categories__item img {
-    width: auto;
+    width: 100%;
+  }
+
+  .categories-item a {
+    width: 100% !important;
   }
 }
