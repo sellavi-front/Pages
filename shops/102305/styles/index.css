@@ -52,6 +52,7 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-size: 15px !important;
 }
 
+
 #home footer .footer-widgets {
   position: relative;
   padding-bottom: 25px !important;
@@ -62,6 +63,10 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   line-height: 1 !important;
   font-weight: 500;
   color: #6d6d6d;
+}
+
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+  height: 450px!important;
 }
 
 @media only screen and (max-width: 320px) {
