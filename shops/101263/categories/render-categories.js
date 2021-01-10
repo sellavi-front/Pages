@@ -49,7 +49,7 @@ let renderCategories = () => {
         </div>
 
         <div class="categories__item">
-            <img src="${categories.logo.img}" alt="category">
+            <img src="${categories.logo.img}" alt="category" style="width: 100% !important;">
         </div>
     </div>
   </div>
