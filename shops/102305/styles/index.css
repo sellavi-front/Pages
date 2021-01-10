@@ -79,10 +79,6 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   border: 1px solid #000 !important;
 }
 
-.fa-shopping-cart {
-  font-size: 14px !important;
-}
-
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: -webkit-box;
