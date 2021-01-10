@@ -182,4 +182,10 @@ body.checkout-checkout .payment>#button-payment~a {
   .categories__item a {
     width: 100% !important;
   }
+
+  .logo img {
+    max-width: 120px;
+    margin-top: 5px;
+    margin-left: 0 !important;
+  }
 }
