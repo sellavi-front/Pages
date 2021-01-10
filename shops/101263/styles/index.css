@@ -161,6 +161,20 @@ body.checkout-checkout .payment>#button-payment~a {
     margin-left: auto;
   }
 
+  .categories__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+  }
+
+  .categories__item {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+  }
+
   .categories__item img {
     width: 100%;
   }
