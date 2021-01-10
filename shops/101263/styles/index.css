@@ -145,4 +145,9 @@ body.checkout-checkout .payment>#button-payment~a {
   body .section-title {
     text-align: center !important;
   }
+
+  .categories-title {
+    text-align: center;
+    margin: 25px 0 25px 0 !important;
+  }
 }
