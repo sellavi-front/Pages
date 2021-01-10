@@ -150,4 +150,12 @@ body.checkout-checkout .payment>#button-payment~a {
     text-align: center;
     margin: 25px 0 25px 0 !important;
   }
+
+  #home > div > div.content-area > div.main-slider.content_center > div.custom_banner > div {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
