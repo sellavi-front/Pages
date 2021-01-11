@@ -2,9 +2,9 @@ body.sidenav-enabled.ltr .wrapper-opened {
   left: 0 !important;
 }
 
-body#home .mobile_side_nav .sidenav_search {
-  display: block !important;
-} 
+/* body#home .mobile_side_nav .sidenav_search {
+  display: none !important;
+} */
 
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   left: auto !important;
