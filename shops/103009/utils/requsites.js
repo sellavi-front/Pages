@@ -17,7 +17,7 @@ const dataContact = {
   timeWork: `Пн-Пт 9:00 - 18:00`,
 }
 
-export default {
+export {
   dataContact,
   requsites
 };
