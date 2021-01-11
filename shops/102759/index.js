@@ -14,7 +14,7 @@ if (document.querySelector('.wrapper')) {
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
-  buttonsInHeader.setTempate();
+  buttonsInHeader.setTemplate();
   hideCart.remove();
 }
 
