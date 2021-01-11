@@ -6,7 +6,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 // import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import '../../components/HeaderTypeThree/HeaderTypeThree.js'
+import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 
 // if (document.querySelector('.wrapper')) {
 //   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
@@ -35,5 +35,16 @@ if (location.href.includes('contact')) {
 
 if (location.href.includes('policy')) {
   const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', document.querySelector("#content > div > div"));
+  req.setTemplate();
+}
+
+if (location.href.includes('pay-delivery')) {
+  const req = new Requisites(
+    requsites,
+    'afterend',
+    'ИП Скотарева Наталия Анатольевна',
+    document.querySelector('#content > div > div'),
+    dataContact,
+  );
   req.setTemplate();
 }
