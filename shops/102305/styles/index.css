@@ -93,6 +93,15 @@ body .content-area .page-section {
   margin-bottom: 25px !important;
 }
 
+.thumbnail .media-link {
+  padding: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: unset !important;
+}
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: -webkit-box;
