@@ -1,7 +1,7 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
 import { requsites, dataContact, options } from './utils/requsites.js';
 
-// import '../../fixes/js/FooterCopy/FooterCopy.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
  
