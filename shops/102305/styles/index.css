@@ -99,6 +99,11 @@ body .content-area .page-section {
   margin: unset !important;
 }
 
+body.theme_11 .wrapper .latest-section h2.section-title {
+  margin-top: 50px !important;
+  margin-bottom: 0 !important;
+}
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: -webkit-box;
