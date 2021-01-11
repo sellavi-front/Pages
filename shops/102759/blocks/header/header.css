@@ -13,6 +13,9 @@ body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.5)), to(transparent));
+  background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
+  background: linear-gradient(180deg, rgba(0,0,0,.5), transparent);
 }
 
 .wrapper .header .header-wrapper .header_widgets {
