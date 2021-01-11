@@ -33,23 +33,14 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 23.5% !important;
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 495px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 8% !important;
-  }
-}
-
-@media (max-width: 1024px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 0 !important;
+    margin: auto !important;
   }
 }
 
 @media (max-width: 495px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 34% !important;
-  }
-
+ 
   .logo img {
     max-width: 145px !important;
   }
