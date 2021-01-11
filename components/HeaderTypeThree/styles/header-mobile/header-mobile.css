@@ -39,6 +39,13 @@ body.sidenav-enabled .prevent_touch_banner {
   width: 80vw !important;
 }
 
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  display: block !important;
+}
+
+body.ltr:not(.common-home) .header .header-wrapper .mobile-navigation-wrapper {
+  color: black !important;
+}
 /* body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   left: auto;
   right: 15px;
