@@ -53,3 +53,7 @@ div#search_results {
 .bx-wrapper .bx-viewport {
     overflow: inherit !important;
 }
+
+.dropdown.bootstrap-select.input-price {
+    margin-top: 0px !important;
+}
