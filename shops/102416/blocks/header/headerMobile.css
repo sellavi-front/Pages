@@ -75,6 +75,11 @@ h3.caption-subtitle {
 }
 
 @media (max-device-width: 480px) {
+
+    body#home .mobile_side_nav .sidenav_search {
+        display: block !important;
+    }
+
     p.p2 {
         padding: 15px;
     }
