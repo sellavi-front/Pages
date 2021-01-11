@@ -15,7 +15,8 @@ body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search.open
 body.dark-mode.theme_11.ltr.sidenav-enabled .mobile_side_nav,
 body.dark-mode.theme_11.ltr .select2-container--open .select2-dropdown--above,
 body.dark-mode.theme_11.ltr .select2-container--default .select2-search--dropdown .select2-search__field,
-body.dark-mode.theme_11.ltr .details-box>ul {
+body.dark-mode.theme_11.ltr .details-box>ul,
+body.dark-mode.theme_11.ltr .select2-dropdown {
   background: black !important;
 }
 
@@ -129,7 +130,8 @@ body.dark-mode.theme_11.ltr
   body.dark-mode.theme_11.ltr .cart_block .text-right,
   body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
   body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name,
-  body.dark-mode.theme_11.ltr .contact-info .media-body {
+  body.dark-mode.theme_11.ltr .contact-info .media-body,
+  body.dark-mode.theme_11.ltr .select2-container--default .select2-search--dropdown {
   color: white !important;
 }
 
