@@ -8,6 +8,16 @@ import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 
 
+if (document.querySelector('.wrapper')) {
+  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+
+  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
+
+  buttonsInHeader.setTempate();
+  hideCart.remove();
+}
+
 if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
 }
