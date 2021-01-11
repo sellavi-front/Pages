@@ -37,3 +37,7 @@ i.fa-shopping-cart.far {
     align-self: center;
     align-items: center
 }
+
+div#search_results {
+    left: -300px !important;
+}
