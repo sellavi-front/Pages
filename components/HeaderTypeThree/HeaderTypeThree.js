@@ -23,7 +23,7 @@ const wishList = `
 
 if (document.querySelector('.wrapper')) {
   headerContainer.insertAdjacentHTML('afterbegin', navigate.outerHTML);
-
+  navigate.remove();
   const selectors = [];
   const cartI = document.querySelector('body .header-cart i');
 
