@@ -6,12 +6,6 @@
     margin: 6px 0 0;
   }
 
-  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
-    position: absolute;
-    left: 25%;
-    right: auto;
-  }
-
   .wrapper .header .header-wrapper .mobile-navigation-wrapper {
     position: absolute;
     right: 15px;
