@@ -80,6 +80,14 @@ h3.caption-subtitle {
         display: block !important;
     }
 
+    body .arrow {
+        display: block !important;
+    }
+    
+    body.sidenav-enabled.ltr .flexy>.arrow {
+        left: 5% !important;
+    }
+
     p.p2 {
         padding: 15px;
     }
