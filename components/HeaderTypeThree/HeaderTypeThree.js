@@ -27,7 +27,7 @@ if (document.querySelector('.wrapper')) {
   navigate.remove();
 
   const navList = document.querySelector('header .sf-menu');
-  navList.insertAdjacentHTML('afterbegin', `<li>${mobNavWrap}</li>`);
+  navList.insertAdjacentHTML('afterbegin', `<li>${mobNavWrap.outerHTML}</li>`);
   mobNavWrap.remove();
 
   const selectors = [];
