@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 30px !important;
+  }
+}

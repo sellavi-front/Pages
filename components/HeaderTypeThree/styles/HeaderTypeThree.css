@@ -1,0 +1,11 @@
+@import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import './styles/cart/cart.css';
+@import './styles/sf-menu/sf-menu.css';
+@import './styles/search/search.css';
+@import './styles/header-mobile/header-mobile.css';
+@import './styles/header-widgets/header-widgets.css';
+@import './styles/header-wishlist/header-wishlist.css';
+@import './styles/header-login/header-login.css';
+@import './styles/logo/logo.css';
+@import './styles/burger/burger.css';

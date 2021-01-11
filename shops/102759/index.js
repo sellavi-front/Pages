@@ -5,16 +5,16 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
-import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+// import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import '../../components/HeaderTypeThree/HeaderTypeThree.js'
 
+// if (document.querySelector('.wrapper')) {
+//   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
+//   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
-if (document.querySelector('.wrapper')) {
-  const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-
-  buttonsInHeader.setTemplate();
-  document.querySelector('.header-wrapper .header-cart').remove();
-}
+//   buttonsInHeader.setTemplate();
+//   document.querySelector('.header-wrapper .header-cart').remove();
+// }
 
 if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
