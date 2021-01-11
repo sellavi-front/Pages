@@ -1,3 +1,20 @@
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
   max-width: 450px !important;
 }
+
+.categories-title {
+  margin-top: 25px;
+  color: #113C59;
+}
+
+@media (min-width: 320px) and (max-width: 978px) {
+  #home > div > div.content-area > section > div > div > div:nth-child(1),
+  #home > div > div.content-area > section > div > div > div:nth-child(2) {
+    padding: 5px;
+  }
+
+  #home > div > div.content-area > section > div > div > div:nth-child(2) {
+    margin-top: 15px;
+  }
+
+}
