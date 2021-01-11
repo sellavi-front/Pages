@@ -15,7 +15,7 @@ if (document.querySelector('.wrapper')) {
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
   buttonsInHeader.setTemplate();
-  hideCart.remove();
+  // hideCart.remove();
 }
 
 if (document.querySelector('.common-home')) {
