@@ -2,7 +2,6 @@
 @import './icons/icons.css';
 @import './header-widgets/header-widgets.css';
 @import './catalog/catalog.css';
-@import './header-mobile/header-mobile.css';
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
 .header_widgets a {
