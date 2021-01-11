@@ -41,3 +41,11 @@ i.fa-shopping-cart.far {
 div#search_results {
     left: -300px !important;
 }
+
+#search_results .add_to_cart i.far.fa-shopping-cart {
+    color: white;
+}
+
+#search_results .add_to_cart span {
+    color: white;
+}
