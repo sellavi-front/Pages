@@ -49,3 +49,7 @@ div#search_results {
 #search_results .add_to_cart span {
     color: white;
 }
+
+.bx-wrapper .bx-viewport {
+    overflow: inherit;
+}
