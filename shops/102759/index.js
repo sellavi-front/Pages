@@ -5,7 +5,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
-import '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 
 
 if (document.querySelector('.wrapper')) {
