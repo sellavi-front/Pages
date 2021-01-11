@@ -15,6 +15,8 @@
 .sf-menu.nav>li>a:hover,
 .sf-menu.nav>li:hover {
   background: transparent !important;
+  color: initial;
+  background: rgba(0,0,0,.7);
 }
 
 .sf-menu.nav>li:hover {
