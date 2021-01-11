@@ -1,5 +1,6 @@
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
 @import './navigation/navigation.css';
