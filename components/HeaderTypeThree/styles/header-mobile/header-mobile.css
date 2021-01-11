@@ -9,7 +9,8 @@ body#home .mobile_side_nav .sidenav_search {
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   left: auto !important;
   right: 0 !important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
   border: none !important;
   border-left: 1px solid #e5e5e5;
   top: 100px;
@@ -38,10 +39,10 @@ body.sidenav-enabled .prevent_touch_banner {
   width: 80vw !important;
 }
 
-body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+/* body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   left: auto;
   right: 15px;
-}
+} */
 
 /* .collapse:not(.show) {
   display: block;

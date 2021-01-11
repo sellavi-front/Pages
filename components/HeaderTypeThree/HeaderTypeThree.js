@@ -5,8 +5,10 @@ import { collapseShow } from './scripts/collapseShow.js';
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
+const navList = document.querySelectorAll('.navigation .sf-menu');
 const navigationElements = document.querySelectorAll('.navigation .sf-menu li > a');
 const navigate = document.querySelector('.navigation-wrapper .navigation');
+const mobNavWrap = document.querySelector('.mobile-navigation-wrapper');
 
 const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
 
@@ -22,6 +24,9 @@ const wishList = `
 `;
 
 if (document.querySelector('.wrapper')) {
+  navList.insertAdjacentHTML('afterbegin', `<li>${mobNavWrap}</li>`);
+  mobNavWrap.remove();
+
   headerContainer.insertAdjacentHTML('afterbegin', navigate.outerHTML);
   navigate.remove();
   const selectors = [];
