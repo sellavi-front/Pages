@@ -20,6 +20,12 @@ body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
 } */
 
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  top: auto !important;
+  left: 0;
+  position: relative !important;
+}
+
 body.sidenav-enabled .mobile_side_nav > ul a {
   border: none;
   text-align: end;
