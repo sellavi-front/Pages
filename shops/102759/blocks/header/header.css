@@ -39,7 +39,6 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 }
 
 @media (max-width: 495px) {
- 
   .logo img {
     max-width: 145px !important;
   }
