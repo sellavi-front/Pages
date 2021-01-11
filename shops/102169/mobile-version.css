@@ -7,6 +7,22 @@
     padding-top: 15%;
   }
 
+  body.theme_11.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+    right: -49px !important;
+    left: auto !important;
+  }
+
+  body .btn.btn-theme {
+    color: #fff;
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
   .dropdown.cart_drop_down {
     padding-top: 8% !important;
     margin-left: 4%;
@@ -72,6 +88,19 @@
 
   .social__item img {
     width: 100%;
+  }
+
+  body .btn.btn-theme-default {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+    border-width: 3px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
   }
 
 }

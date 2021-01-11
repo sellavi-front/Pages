@@ -69,7 +69,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   text-transform: none !important;
 }
 
-@media only screen and (max-width: 1373px) {
+@media only screen and (max-width: 978px) {
   body#home .homefeatured_category .row {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;

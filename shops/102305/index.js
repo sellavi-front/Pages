@@ -33,6 +33,7 @@ if (document.querySelector('.common-home')) {
 if(document.querySelector(".product-product")) {
   let product = new ProductPage()
   product.renderColor()
+  product.errorMessage()
 }
 
 

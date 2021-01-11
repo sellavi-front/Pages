@@ -1,6 +1,11 @@
 body.theme_11 .wrapper .page-section .products.grid {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
@@ -40,4 +45,20 @@ body .block-title {
   border: 1px solid;
   padding: 3px;
   margin: 4px;
+}
+
+body .content-area .page-section.error-page h3 {
+  margin: 0 0 15px;
+  color: #ea0000;
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+body .content-area .page-section.error-page h2 {
+  margin: 0 0 30px;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #232323;
 }
