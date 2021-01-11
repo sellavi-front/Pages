@@ -1,5 +1,6 @@
 body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .header-search button,
 body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
-body.theme-gray.theme_11:not(.common-home) .header_widgets a {
+body.theme-gray.theme_11:not(.common-home) .header_widgets a,
+body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .header_widgets .header_login>a {
   color: black;
 }
