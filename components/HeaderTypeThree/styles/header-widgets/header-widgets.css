@@ -1,12 +1,18 @@
 .header_widgets > div {
   margin: 0 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 991px) {
   body.ltr .wrapper .header .header-wrapper .header_widgets {
-    justify-content: flex-start !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
     padding-left: 2%;
   }
 }
