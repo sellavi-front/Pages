@@ -5,12 +5,13 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
 .categories-title {
   margin-top: 25px;
   color: #113C59;
+  padding: 1%;
 }
 
 @media (min-width: 320px) and (max-width: 978px) {
   #home > div > div.content-area > section > div > div > div:nth-child(1),
   #home > div > div.content-area > section > div > div > div:nth-child(2) {
-    padding: 5px !important;
+    padding: 5% !important;
   }
 
   #home > div > div.content-area > section > div > div > div:nth-child(2) {
