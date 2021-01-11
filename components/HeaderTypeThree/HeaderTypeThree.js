@@ -1,6 +1,6 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import { collapseShow } from './scripts/collapseShow.js';
+// import { collapseShow } from './scripts/collapseShow.js';
 
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
@@ -55,7 +55,7 @@ if (document.querySelector('.wrapper')) {
     newCont.render();
 
     headerWidgets.remove();
-    collapseShow(links);
+    // collapseShow(links);
     document
       .querySelector('.header_widgets')
       .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
