@@ -87,6 +87,12 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-left: none !important;
 }
 
+body .content-area .page-section {
+  position: relative;
+  padding: 5px !important;
+  margin-bottom: 25px !important;
+}
+
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {
     display: -webkit-box;
