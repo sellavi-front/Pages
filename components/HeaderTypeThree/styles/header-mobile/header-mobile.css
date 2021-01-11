@@ -15,6 +15,9 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   border-left: 1px solid #e5e5e5;
   top: 100px;
 }
+body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
+  color: white !important;
+}
 /*
 body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
