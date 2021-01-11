@@ -1,5 +1,5 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
-import requsites from './utils/requsites.js'
+import {requsites} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import { dataContact } from '../102159/utils/requsites.js';
