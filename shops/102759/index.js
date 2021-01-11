@@ -5,7 +5,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 // import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
-// import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 
 // if (document.querySelector('.wrapper')) {
@@ -21,6 +21,8 @@ if (document.querySelector('.common-home')) {
 
   const logo = document.querySelector('header .logo img');
   logo.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1610377451/Group_1_ux60qc.png');
+
+
 }
 
 if (location.href.includes('term-of-use')) {
