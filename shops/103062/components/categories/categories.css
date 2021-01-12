@@ -8,6 +8,19 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
   padding: 1%;
 }
 
+#home > div > div.content-area > section.page-section.subcategories_top > div > img {
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  body.theme_11 .subcategories_top {
+    display: flex !important;
+    width: auto !important;
+  }
+}
+
+
 @media (min-width: 320px) and (max-width: 978px) {
   #home > div > div.content-area > section > div > div > div:nth-child(1),
   #home > div > div.content-area > section > div > div > div:nth-child(2) {
