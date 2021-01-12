@@ -1,6 +1,6 @@
 import pages from "../../pages/pages.js"
 
-let fixCategories = () => {
+let fixHomeCategories = () => {
   if(pages.home) {
     console.log(333)
     document.querySelector("#home > div > div.content-area > section > div > div > div:nth-child(1) > div > div > a > picture > img").setAttribute("src", "https://cdn.sellavi.com/image/upload/ru/clients/103062/c83ae92794c00af6d4103a65f731cb01381b6835.jpg")
@@ -9,8 +9,9 @@ let fixCategories = () => {
     document.querySelector("#home > div > div.content-area > section > div > div > div:nth-child(1) > div > div > a > div").remove()
     document.querySelector("#home > div > div.content-area > section > div").insertAdjacentHTML("afterbegin", "<h2 class='categories-title'>Категории</h2>")
   }
+}
 
-
+let fixCategory = () => {
   if(location.href === 'https://store103062.sellavi.com/available/') {
     console.log(222)
     document.querySelector("#home > div > div.content-area > section.page-section.titles").remove()
@@ -18,4 +19,5 @@ let fixCategories = () => {
   }
 }
 
-export default fixCategories
+
+export {fixHomeCategories, fixCategory}
