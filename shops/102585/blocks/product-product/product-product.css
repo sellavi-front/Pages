@@ -1,0 +1,30 @@
+.navigation-wrapper {
+    margin-bottom: 100px;
+}
+
+.product-availability {
+    margin-top: 10px;
+    color: #A0A0A0 !important;
+}
+
+.product-price {
+    margin-bottom: 10px;
+}
+
+.quantity {
+    display: none;
+}
+
+button#button-cart {
+    background: white;
+    border: 3px solid rgba(35,35,35,.1);
+    color: black;
+}
+
+.table_holder {
+    display: none;
+}
+
+.share_page_wrapper {
+    display: none;
+}
