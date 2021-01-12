@@ -63,7 +63,7 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
 body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li.megaline>div>ul>li>a, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li.megaline>div>ul>li>a {
   padding: 7px 0!important;
   font-size: 16px;
-  text-align: center !important;
+  text-align: left !important;
 }
 
 body .arrow {
