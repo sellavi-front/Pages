@@ -114,3 +114,24 @@ section.page-section.titles > div > div > h1 {
 .add_to_wishlist {
     width: 15%;
 }
+
+@media (max-device-width: 480px) {
+    .widget.side-categories {
+        margin-bottom: 20px;
+    }
+    
+    .add_to_cart {
+        margin: 10px;
+        height: 60%
+    }
+    
+    .add_to_wishlist {
+        height: 60%
+    }
+    
+    
+    
+    button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+        height: 100%
+    }
+}
