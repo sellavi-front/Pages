@@ -57,3 +57,11 @@ div#search_results {
 .dropdown.bootstrap-select.input-price {
     margin-top: 0px !important;
 }
+
+body.theme_11 .featured-products-carousel .bx-wrapper {
+    max-height: 465px !important;
+}
+
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+    height: 465px !important;
+}
