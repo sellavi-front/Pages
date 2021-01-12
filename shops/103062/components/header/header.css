@@ -2,9 +2,13 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
   color: #333 !important;
 }
 
+body .arrow {
+  display: block !important;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
   body .arrow {
-    display: flex !important;
+    display: block !important;
   }
 
   .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
