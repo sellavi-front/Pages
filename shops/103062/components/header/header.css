@@ -24,7 +24,7 @@ body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
 
 body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul div, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul li {
   background: white !important;
-  padding: 10px 0 !important;
+  padding: 5px !important;
   border-right: 0 !important;
   border-left: 0 !important;
 }
