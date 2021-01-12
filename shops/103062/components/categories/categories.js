@@ -16,7 +16,12 @@ let fixCategory = () => {
     console.log(222)
     document.querySelector("#home > div > div.content-area > section.page-section.titles").remove()
     document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div > div").remove()
-    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src=''")
+  }
+
+  if(location.pathname === "/available/") {
+    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610443474/sellavi/103062/Component_1_2_l9tfby.svg' />")
+  } else if(location.pathname === "/joint-procurement/") {
+    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610443623/sellavi/103062/Component_1_3_kfdq9e.svg' />")
   }
 }
 
