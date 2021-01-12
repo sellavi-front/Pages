@@ -37,7 +37,6 @@ export const data = [
       author: 'Коко Шанель',
     },
     row: [
-      [
         {
           src:
             'https://res.cloudinary.com/depgheppz/image/upload/v1610453170/02640A45-9C29-4E65-AA27-C02FB8A32FFC_jzbqw2.png',
@@ -51,8 +50,6 @@ export const data = [
           selectors: ['w-50'],
         },
       ],
-    ],
-
   },
 ];
 
