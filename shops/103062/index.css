@@ -1,7 +1,7 @@
-@import './template/template.css';
 @import './components/categories/categories.css';
 @import './components/header/header.css';
 @import './../../templates/TemplateTypeTwo/styles/products/price-actions.css';
 @import './../../templates/TemplateTypeTwo/styles/products/products.css';
 @import './../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import './../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import './../../templates/TemplateTypeTwo/styles/index-withoutcategories.css';
