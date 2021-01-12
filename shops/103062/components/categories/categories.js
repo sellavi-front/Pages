@@ -8,7 +8,7 @@ let fixCategories = () => {
 
   document.querySelector("#home > div > div.content-area > section > div").insertAdjacentHTML("afterbegin", "<h2 class='categories-title'>Категории</h2>")
 
-  if(location.pathname === '/available/' || location.pathname === '/joint-procurement/') {
+  if(window.location.pathname === '/available/' || window.location.pathname === '/joint-procurement/') {
     document.querySelector("#home > div > div.content-area > section.page-section.titles").remove()
     document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div > div").remove()
   }
