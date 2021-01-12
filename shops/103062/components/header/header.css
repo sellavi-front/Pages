@@ -3,7 +3,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 }
 
 body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 body .block-title {
@@ -15,6 +15,7 @@ body .block-title {
   text-transform: uppercase;
   color: #232323;
   overflow: hidden;
+  text-align: left !important;
 }
 
 .sf-menu ul a {
