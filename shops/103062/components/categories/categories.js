@@ -13,7 +13,7 @@ let fixHomeCategories = () => {
 let fixCategory = () => {
   if(pages.productCategory) {
     document.querySelector("#home > div > div.content-area > section.page-section.titles").remove()
-    /*document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div > div").remove()*/
+    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div > div").remove()
   }
 
   if(location.pathname === "/available/") {
