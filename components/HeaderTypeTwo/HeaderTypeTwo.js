@@ -6,7 +6,6 @@ const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
 const navigationElements = document.querySelectorAll('.navigation .sf-menu li > a');
-console.log(navigationElements)
 
 const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
 
