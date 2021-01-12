@@ -1,3 +1,22 @@
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
   color: #333 !important;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body .arrow {
+    display: flex !important;
+  }
+
+  .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize !important;
+    color: #333 !important;
+  }
+
+  body.sidenav-enabled .mobile_side_nav {
+    height: fit-content !important;
+  }
+}
