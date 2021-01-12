@@ -102,7 +102,7 @@ export class GridImgWithQuote {
   setImg(images) {
     return images
       .map((img) => {
-        return `<img class="${img.map(sel => sel).join(' ')}" src="${img.src}" alt="${img.alt}">`;
+        return `<img class="${img.selectors.map(sel => sel).join(' ')}" src="${img.src}" alt="${img.alt}">`;
       })
       .join('');
   }
