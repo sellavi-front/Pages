@@ -19,6 +19,30 @@ body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
   text-transform: capitalize;
   font-weight: 100 !important;
   color: #000;
+  line-height: 15px;
+}
+
+body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul div, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul li {
+  background: white !important;
+  padding: 10px 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.sf-menu .flexy.has_children ul {
+  margin: 0 !important;
+}
+
+.sf-menu .flexy.has_children > ul li ul li {
+  display: flex !important;
+  color: black !important;
+  align-items: flex-end;
+  margin-bottom: 0 !important;
+}
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li.megaline>div>ul>li>a, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li.megaline>div>ul>li>a {
+  padding: 7px 0!important;
+  font-size: 16px;
   text-align: center !important;
 }
 
