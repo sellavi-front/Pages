@@ -107,23 +107,29 @@ export class GridImgWithQuote {
       .join('');
   }
 
-  render() {
-    return `
-    <div class="gallery d-flex">
-      ${this.props
+  setTemplate() {
+    return this.props
         .map((row) => {
           return `
-          <div class="col">
-            <div class="photo-grid w-100 d-flex flex-column">
-              ${this.setRowImg(row.rows)}
+          <div class="d-flex">
+            <div class="col">
+              <div class="photo-grid w-100 d-flex flex-column">
+                ${this.setRowImg(row.rows)}
+              </div>
             </div>
-          </div>
-          <div class="col">
-            ${this.setQuote(row.quote)}
+            <div class="col">
+              ${this.setQuote(row.quote)}
+            </div>
           </div>
           `;
         })
-        .join('')}
+        .join('')
+  }
+
+  render() {
+    return `
+    <div class="gallery d-flex">
+      ${this.setTemplate()}
   </div>
     `;
   }
