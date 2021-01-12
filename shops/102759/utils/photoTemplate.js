@@ -102,7 +102,7 @@ export class GridImgWithQuote {
   setImg(images) {
     return images
       .map((img) => {
-        return `<img class="" src="${img.src}" alt="${img.alt}">`;
+        return `<img class="${img.map(sel => sel).join(' ')}" src="${img.src}" alt="${img.alt}">`;
       })
       .join('');
   }
@@ -113,12 +113,12 @@ export class GridImgWithQuote {
       ${this.props
         .map((row) => {
           return `
-          <div class="col p3">
+          <div class="col">
             <div class="photo-grid w-100 d-flex flex-column">
               ${this.setRowImg(row.rows)}
             </div>
           </div>
-          <div class="col p3">
+          <div class="col">
             ${this.setQuote(row.quote)}
           </div>
           `;
