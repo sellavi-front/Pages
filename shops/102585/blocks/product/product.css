@@ -27,3 +27,43 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile:hover {
 body .btn.btn-theme.btn-theme-transparent:hover i {
     color: black;
 }
+
+@media(max-device-width: 480px) {
+    .otherInfo {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 156px;
+    }
+
+    h4.caption-title {
+        text-align: left !important;
+    }
+
+    body .hide_on_mobile {
+        display: block;
+    }
+
+    .add_to_cart {
+        width: 100%;
+    }
+
+    .add_to_wishlist {
+        width: 20% !important;
+    }
+
+    body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+        padding: 0px;
+    }
+
+    .number {
+        margin-bottom: 50px;
+    }
+
+}
