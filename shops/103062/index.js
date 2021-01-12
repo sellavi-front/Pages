@@ -7,7 +7,7 @@ import pages from "./pages/pages.js";
 
 if(pages.home) {
   renderBanner()
-  //fixHomeCategories()
+  fixHomeCategories()
 }
 
 if(pages.productCategory) {
