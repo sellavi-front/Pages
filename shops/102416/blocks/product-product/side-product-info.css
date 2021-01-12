@@ -117,5 +117,7 @@
     color: #A0A0A0 !important;
 }
 
-
+.information-contact .form-button.form-button-submit.btn.btn-theme.btn-theme-dark {
+    color: white !important;    
+}
 
