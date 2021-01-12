@@ -6,6 +6,14 @@ body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
   text-align: center !important;
 }
 
+.sf-menu ul a {
+  text-transform: capitalize;
+  font-weight: 100 !important;
+  text-decoration: none;
+  color: #000;
+  line-height: 16px;
+}
+
 body .arrow {
   display: block !important;
 }
