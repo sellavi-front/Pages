@@ -28,3 +28,13 @@ button#button-cart {
 .share_page_wrapper {
     display: none;
 } 
+
+@media (max-device-width: 480px) {
+    .mobile_wishlist {
+        display: none !important;
+    }
+    
+    button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
+        display: block;
+    }
+}
