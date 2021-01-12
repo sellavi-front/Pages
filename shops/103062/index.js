@@ -24,3 +24,5 @@ list.forEach((el) => {
     el.textContent = tr.slice(2);
   }
 });
+
+document.querySelector("#home > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu").classList.remove("megamenu")
