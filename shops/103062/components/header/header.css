@@ -35,7 +35,7 @@ body .block-title {
 
 body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul div, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul li {
   background: white !important;
-  padding: 5px !important;
+  padding: 5px 5px !important;
   border-right: 0 !important;
   border-left: 0 !important;
 }
@@ -48,8 +48,6 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
   line-height: 16px;
   font-size: 15px !important;
 }
-
-
 
 .sf-menu .flexy.has_children ul {
   margin: 0 !important;
