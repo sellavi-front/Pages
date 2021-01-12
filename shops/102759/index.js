@@ -7,14 +7,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
-
-// if (document.querySelector('.wrapper')) {
-//   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-//   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
-
-//   buttonsInHeader.setTemplate();
-//   document.querySelector('.header-wrapper .header-cart').remove();
-// }
+import GridImgWithQuote from '../103009/utils/photoTemplate.js';
 
 if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
@@ -22,7 +15,8 @@ if (document.querySelector('.common-home')) {
   const logo = document.querySelector('header .logo img');
   logo.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1610377451/Group_1_ux60qc.png');
 
-
+  const cstmSection = document.querySelector('.custom_section');
+  cstmSection.insertAdjacentHTML('beforeend', new GridImgWithQuote().render());
 }
 
 if (location.href.includes('term-of-use')) {
