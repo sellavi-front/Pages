@@ -121,3 +121,6 @@
     color: white !important;    
 }
 
+body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+    background: white;
+}
