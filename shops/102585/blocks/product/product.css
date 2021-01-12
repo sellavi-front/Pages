@@ -85,7 +85,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     display: none !important;
 }
 
-section.page-section.titles > div {
+.product-category section.page-section.titles > div {
     background: url('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610458136/Component_1_1_sfbdif.png');
     height: 250px;
     display: flex;
