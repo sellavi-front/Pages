@@ -77,7 +77,6 @@ export class GridImgWithQuote {
 
   setImg(images) {
     return images.map((img) => {
-      console.log(img);
       return `<img class="" src="${img.src}" alt="${img.alt}">`;
     });
   }
@@ -90,7 +89,7 @@ export class GridImgWithQuote {
           return `
           <div class="col p3">
             <div class="photo-grid w-100 d-flex flex-column">
-              ${this.setRowImg(row.images)}
+              ${console.log(this.setRowImg(row.images))}
             </div>
           </div>
           <div class="col p3">
