@@ -2,6 +2,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
   color: #333 !important;
 }
 
+body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
+  text-align: center !important;
+}
+
 body .arrow {
   display: block !important;
 }
@@ -10,6 +14,7 @@ body .arrow {
   body .arrow {
     display: block !important;
   }
+
 
   .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
     font-style: normal;
