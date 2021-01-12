@@ -42,3 +42,7 @@
     display: flex;
     flex-direction: row;
 }
+
+.contacts-title {
+    margin-bottom: 50px;
+}
