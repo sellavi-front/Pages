@@ -1,5 +1,5 @@
 .photo-grid img {
-  margin: 0 6px 6px;
+  margin: 0 6px 6px 0;
   max-width: 49%;
   -o-object-fit: contain;
      object-fit: contain;
