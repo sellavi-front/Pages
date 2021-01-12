@@ -134,4 +134,9 @@ section.page-section.titles > div > div > h1 {
     button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
         height: 100%
     }
+
+    section.page-section.titles > div {
+        height: 100px;
+        background-size: cover;
+    }
 }
