@@ -78,7 +78,7 @@ export class GridImgWithQuote {
   setImg(images) {
     return images.map((img) => {
       console.log(img);
-      return `<img class="${this.setSelectors(img.selectors)}" src="${img.src}" alt="${img.alt}">`;
+      return `<img class="" src="${img.src}" alt="${img.alt}">`;
     });
   }
 
