@@ -93,7 +93,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     align-items: center;
 }
 
-body .content-area .page-section.titles {
+.product-category body .content-area .page-section.titles {
     background: white;
     border: 0px;
 }
