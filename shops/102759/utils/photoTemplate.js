@@ -95,8 +95,7 @@ export class GridImgWithQuote {
 
   setRowImg(rows) {
     return rows.map(row => {
-      console.log(row);
-      return `<div class="row d-flex flex-nowrap">${this.setImg(row.images)}</div>`
+      return `<div class="row d-flex flex-nowrap">${this.setImg(row)}</div>`
     }).join('');
   }
 
