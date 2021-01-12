@@ -6,11 +6,11 @@ export default class GridImgWithQuote {
     <div class="page-section d-flex">
     <div class="col p3">
       <div class="photo-grid w-100 d-flex flex-column">
-        <div class="row d-flex ">
+        <div class="row d-flex flex-nowrap">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1610453170/02640A45-9C29-4E65-AA27-C02FB8A32FFC_jzbqw2.png" alt="" class="w-50">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1610453170/02640A45-9C29-4E65-AA27-C02FB8A32FFC_jzbqw2.png" alt="" class="w-50">
         </div>
-        <div class="row d-flex ">
+        <div class="row d-flex flex-nowrap">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1610453170/02640A45-9C29-4E65-AA27-C02FB8A32FFC_jzbqw2.png" alt="" class="w-50">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1610453170/02640A45-9C29-4E65-AA27-C02FB8A32FFC_jzbqw2.png" alt="" class="w-50">
         </div>

@@ -3,3 +3,12 @@
   margin: auto;
   max-width: 635px !important;
 }
+
+.page-section .quote p,
+.page-section .quote cite {
+  color: black !important;
+}
+
+.page-section .quote cite {
+  font-size: 30px;
+}
