@@ -1,3 +1,4 @@
-/* .photo-grid img {
-  margin-right: 6px;
-} */
+.photo-grid img {
+  margin-bottom: 6px;
+  max-width: 49%;
+}
