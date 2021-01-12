@@ -14,3 +14,13 @@ if(pages.home) {
 if(pages.productCategory) {
   fixCategory()
 }
+
+const list = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
+
+list.forEach((el) => {
+  const tr = el.textContent;
+
+  if(tr.includes(' - ')) {
+    el.textContent = tr.slice(2);
+  }
+});
