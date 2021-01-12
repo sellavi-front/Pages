@@ -102,6 +102,10 @@
     .product-product .section-title.section-title-lg span {
         font-weight: 600;
     }
+
+    body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+        position: inherit;
+    }
 }
 
 .product-availability {
