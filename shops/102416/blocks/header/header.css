@@ -50,9 +50,9 @@ div#search_results {
     color: white;
 }
 
-.bx-wrapper .bx-viewport {
+/* .bx-wrapper .bx-viewport {
     overflow: inherit !important;
-}
+} */
 
 .dropdown.bootstrap-select.input-price {
     margin-top: 0px !important;
