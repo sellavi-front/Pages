@@ -18,6 +18,10 @@ body.account-login .alert-danger {
   margin-bottom: 10px;
 }
 
+body.theme_11 .wrapper .latest-section h2.section-title {
+  margin: 25px 0 0 0!important;
+}
+
 .alert-danger {
   color: #666;
   background-color: #efe6e6;
