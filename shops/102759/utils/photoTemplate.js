@@ -78,7 +78,7 @@ export class GridImgWithQuote {
   setImg(images) {
     return images.map((img) => {
       return `<img class="" src="${img.src}" alt="${img.alt}">`;
-    });
+    }).join('');
   }
 
   render() {
@@ -96,7 +96,7 @@ export class GridImgWithQuote {
             ${this.setQuote(row.quote)}
           </div>
           `
-        })
+        }).join('')
       }
   </div>
     `;
