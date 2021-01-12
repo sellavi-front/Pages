@@ -128,7 +128,7 @@ export class GridImgWithQuote {
 
   render() {
     return `
-    <div class="gallery d-flex">
+    <div class="gallery d-flex flex-column">
       ${this.setTemplate()}
   </div>
     `;
