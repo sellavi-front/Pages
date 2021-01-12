@@ -7,7 +7,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
-import GridImgWithQuote from '../103009/utils/photoTemplate.js';
+import GridImgWithQuote from './utils/photoTemplate.js';
 
 if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
@@ -16,7 +16,7 @@ if (document.querySelector('.common-home')) {
   logo.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1610377451/Group_1_ux60qc.png');
 
   const cstmSection = document.querySelector('.custom_section');
-  cstmSection.insertAdjacentElement('beforeend', new GridImgWithQuote().render());
+  cstmSection.insertAdjacentHTML('beforeend', new GridImgWithQuote().render());
 }
 
 if (location.href.includes('term-of-use')) {
