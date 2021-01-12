@@ -7,10 +7,10 @@ body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
 }
 
 .sf-menu ul a {
-  text-transform: capitalize;
+  text-transform: capitalize !important;
   font-weight: 100 !important;
   text-decoration: none;
-  color: #000;
+  color: #000 !important;
   line-height: 16px;
 }
 
