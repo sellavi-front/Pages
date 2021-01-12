@@ -16,7 +16,7 @@ if (document.querySelector('.common-home')) {
   logo.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1610377451/Group_1_ux60qc.png');
 
   const cstmSection = document.querySelector('.custom_section');
-  cstmSection.insertAdjacentHTML('beforeend', new GridImgWithQuote().render());
+  cstmSection.insertAdjacentElement('beforeend', new GridImgWithQuote().render());
 }
 
 if (location.href.includes('term-of-use')) {
