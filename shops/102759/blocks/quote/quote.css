@@ -1,0 +1,18 @@
+.page-section .quote {
+  background: transparent !important;
+  margin: auto;
+  max-width: 635px !important;
+}
+
+.page-section .quote p,
+.page-section .quote cite {
+  color: black !important;
+}
+
+.page-section .quote p {
+  font-size: 18px !important;
+}
+
+.page-section .quote cite {
+  font-weight: bold !important;
+}

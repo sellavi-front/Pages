@@ -9,7 +9,7 @@ const requsites = {
   'Директор': 'Кучма Виктория Геннадьевна',
 };
 
-export default {
+export {
   requsites
 };
 

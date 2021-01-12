@@ -1,11 +1,20 @@
 @import '../../../fixes/fixes.css';
-@import '../../../modules/Requisites/Requisites.css';
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
-@import '../../../components/PictureCategories/PictureCategories.css';
-@import '../../../modules/ButtonListInHeader/style.css';
-@import '../../../modules/BigBanner/BigBanner.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
-@import '../../../fixes//css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+
+@import '../../../modules/Requisites/Requisites.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../../modules/BigBanner/BigBanner.css';
+
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../components/HeaderTypeThree/styles/HeaderTypeThree.css';
+
 @import './pay-delivery/pay-delivery.css';
 @import './footer/footer.css';
 @import './header/header.css';
+@import './products/products.css';
+@import './banner/banner.css';
+@import './photo-grid/photo-grid.css';
+@import './quote/quote.css';
