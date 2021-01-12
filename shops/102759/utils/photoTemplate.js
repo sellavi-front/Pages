@@ -73,7 +73,7 @@ export class GridImgWithQuote {
     return `
     <div class="gallery d-flex">
       ${
-        this.props.forEach(row => {
+        this.props.map(row => {
           return `
           <div class="col p3">
             <div class="photo-grid w-100 d-flex flex-column">
