@@ -11,7 +11,7 @@ let fixCategories = () => {
   }
 
 
-  if(pages.productCategory) {
+  if(location.href === 'https://store103062.sellavi.com/available/') {
     console.log(222)
     document.querySelector("#home > div > div.content-area > section.page-section.titles").remove()
     document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div > div").remove()
