@@ -10,14 +10,8 @@ export default class TranslateAboutUs {
   }
 
   translate() {
-<<<<<<< HEAD
-    if (this.widTitle.textContent == this.textTrans || this.widCat.textContent == this.textTrans) {
-      this.widTitle.textContent = this.textRus.toLowerCase();
-=======
     if (this.widTitle.textContent === this.textTrans || this.widCat.textContent === this.textTrans) {
       this.widTitle.textContent = this.textRus;
->>>>>>> b01d026abd315b2476203c3b17ddb286fdae7322
-      this.widCat.textContent = this.textRus;
     }
   }
 }
