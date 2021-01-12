@@ -106,6 +106,14 @@
     body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
         position: inherit;
     }
+
+    body.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+        position: inherit;
+    }
+    
+    button.btn.btn-theme.btn-theme-transparent.btn-icon {
+        height: 100% !important;
+    }
 }
 
 .product-availability {
