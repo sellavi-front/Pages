@@ -30,7 +30,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 
 @media(max-device-width: 480px) {
     .otherInfo {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .logo img {
@@ -63,7 +63,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     }
 
     .number {
-        margin-bottom: 50px;
+        margin-bottom: 50px !important;
     }
 
 }
