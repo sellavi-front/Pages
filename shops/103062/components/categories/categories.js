@@ -17,9 +17,9 @@ let fixCategory = () => {
   }
 
   if(location.pathname === "/available/") {
-    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610443474/sellavi/103062/Component_1_2_l9tfby.svg' style='margin-bottom: 15px;'/>")
+    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610443474/sellavi/103062/Component_1_2_l9tfby.svg' style='margin-bottom: 25px;'/>")
   } else if(location.pathname === "/joint-procurement/") {
-    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610443623/sellavi/103062/Component_1_3_kfdq9e.svg' style='margin-bottom: 15px;'/>")
+    document.querySelector("#home > div > div.content-area > section.page-section.subcategories_top > div").insertAdjacentHTML("afterbegin", "<img alt='img' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610443623/sellavi/103062/Component_1_3_kfdq9e.svg' style='margin-bottom: 25px;'/>")
   }
 }
 
