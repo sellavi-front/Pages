@@ -11,5 +11,5 @@ if(pages.home) {
 }
 
 if(pages.productCategory) {
-  //fixCategory()
+  fixCategory()
 }
