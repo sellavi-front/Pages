@@ -1,4 +1,4 @@
-import ImgNearText from '../../../components/ImgNearText/ImgNearText.js'
+import ImgNearText from '../../../../components/ImgNearText/ImgNearText.js'
 
 const aboutData = [
   {
