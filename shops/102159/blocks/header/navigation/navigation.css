@@ -9,8 +9,12 @@ body.ltr.ru .wrapper .header .navigation-wrapper>div.container {
 .navigation .nav.sf-menu {
   padding-top: 20px;
   padding-bottom: 20px;
-} 
+}
 
 .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a {
   font-size: 16px !important;
+}
+
+body.theme-gray.theme_11 .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>a {
+  color: rgba(255, 255, 255, .9) !important;
 }

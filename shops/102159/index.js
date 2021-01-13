@@ -9,7 +9,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js'
-
+import '../../components/DarkMode/DarkMode.js';
 import contactData from './utils/contactData.js'
 
 if (document.querySelector('.wrapper')) {

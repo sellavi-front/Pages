@@ -1,0 +1,45 @@
+@import './sf-menu/sf-menu.css';
+@import './icons/icons.css';
+@import './header-widgets/header-widgets.css';
+@import './catalog/catalog.css';
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
+.header_widgets a {
+  color: white !important;
+}
+.common-home .header {
+  position: absolute !important;
+}
+
+body.theme_11 .wrapper .header {
+  width: 100% !important;
+  z-index: 1111;
+  padding: 2% 0;
+ 
+}
+
+body.theme_11.common-home .wrapper .header {
+  background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.5)), to(transparent));
+  background: linear-gradient(180deg, rgba(0,0,0,.5), transparent);
+}
+
+.wrapper .header .header-wrapper .header_widgets {
+  top: 4px !important
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  margin: 0 auto 0 23.5% !important;
+}
+
+@media (max-width: 991px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 495px) {
+  .logo img {
+    max-width: 145px !important;
+  }
+}

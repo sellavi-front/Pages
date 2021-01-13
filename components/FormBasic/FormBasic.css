@@ -2,8 +2,13 @@
   width: 100%;
   border: 5px solid #e1b97b;
   padding: 6% 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 80px 0;
 }
 
@@ -21,21 +26,29 @@
 }
 
 .sender-basic form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 
 
 .sender-basic form input {
   border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
   padding-left: 1%;
   width: 319px;
   height: 68px;
-  font-size: 18px;
   margin-right: 20px;
 }
 
@@ -51,12 +64,17 @@
   width: 340px;
   height: 68px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
+}
+
+.sender-basic form button:active {
+  opacity: .9;
 }
 
 @media (max-width: 991px) {
   .sender-basic form > div {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .sender-basic form input,
   .sender-basic form button {
@@ -64,7 +82,6 @@
   }
 
   .sender-basic form input {
-    margin-bottom: 18px;
     margin-right: 0;
   }
 
@@ -79,6 +96,7 @@
   .sender-basic {
     border-width: 5px;
     margin: 40px 0;
+    padding: 7% 4%;
   }
 
   .sender-basic__title {
@@ -89,7 +107,6 @@
   }
   .sender-basic__text {
     text-align: center;
-    font-size: 16px;
     margin-bottom: 30px;
   }
 

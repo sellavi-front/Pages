@@ -1,0 +1,13 @@
+@import './footer-list.css';
+@import './footer-widgets.css';
+
+body.ltr.ru .footer {
+  background: transparent;
+}
+
+.footer-widgets .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}

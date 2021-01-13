@@ -1,0 +1,34 @@
+.content-tabs .nav-tabs {
+  margin-bottom: 40px !important;
+}
+
+.content-tabs .nav-tabs > li > a {
+  color: grey !important;
+}
+
+.content-tabs .tab-content {
+  border: none;
+  padding: 0 !important;
+  background: transparent;
+}
+
+.content-tabs .nav-tabs > li > a,
+.content-tabs .nav-tabs > li > a:focus {
+  background: transparent;
+  font-weight: normal;
+  text-transform: none;
+  border: none;
+  padding: 5px 10px;
+}
+
+.content-tabs .nav-tabs > li > a.active {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  text-transform: none;
+  padding: 5px 10px;
+}
+
+.content-tabs .nav-tabs>li>a.active:after, .content-tabs .nav-tabs>li>a.active:before {
+  display: none;
+}

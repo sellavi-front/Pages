@@ -450,6 +450,14 @@ body .footer .footer-widgets {
   margin-top: 2%;
 }
 
+.column__item_img {
+  border: 0 !important;
+}
+
+#home footer .footer-widgets .bs-menu-toggle a {
+  display: none !important;
+}
+
 /* End */
 
 @media only screen and (max-device-width : 320px) {

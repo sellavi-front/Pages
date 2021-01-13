@@ -1,8 +1,20 @@
 import AdvantagesTypeOne from '../../../../components/AdvantagesTypeOne/AdvantagesTypeOne.js'
+import ImgNearText from '../../../../components/ImgNearText/ImgNearText.js';
+import FormBasic from '../../../../components/FormBasic/FormBasic.js'
+import senderData from '../constants/senderData.js'
+
 import AdvantagesData from '../constants/AdvantagesData.js';
+import DataImgNearText from '../constants/DataImgNearText.js';
+import FormTags from '../constants/FormTags.js'
 
 export default (function() {
   if (document.querySelector('.common-home')) {
+
+    const formBasic = new FormBasic(document.querySelector('.homefeatured_category'), 'afterend', senderData, FormTags)
+    formBasic.render();
+
+    new ImgNearText(document.querySelector('.main-slider'), 'afterend', DataImgNearText).render();
+
     // reset cut image in categories
     const imgCat = document.querySelectorAll(
       '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
@@ -23,7 +35,7 @@ export default (function() {
 
     btnCategory.forEach(btn => btn.textContent = 'Подробнее');
 
-    const advantages = new AdvantagesTypeOne(document.querySelector('.page-section>'), AdvantagesData);
+    const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), AdvantagesData, 'afterend');
 
     advantages.render();
   }

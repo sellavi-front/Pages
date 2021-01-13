@@ -1,0 +1,29 @@
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery .quote {
+  background: transparent !important;
+  margin: 100px auto auto;
+  max-width: 635px !important;
+}
+
+.gallery .quote p,
+.gallery .quote cite {
+  color: black !important;
+}
+
+.gallery .quote p {
+  font-size: 18px !important;
+}
+
+.gallery .quote cite {
+  font-weight: bold !important;
+}
+
+.gallery__elem:nth-of-type(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}

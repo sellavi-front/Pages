@@ -11,7 +11,7 @@
 //   'Директор': '',
 // };
 
-// <div class="requsitess"></dvi> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
+// <div class="requsitess"></div> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
 
 import termsOfUse from './docs/termsOfuse.js';
 import policy from './docs/policy.js';
