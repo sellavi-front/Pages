@@ -140,8 +140,8 @@ section.page-section.titles {
     }
 
     section.page-section.titles > div {
-        height: 100px;
-        background-size: cover;
+        height: 100px !important;
+        background-size: cover !important;
     }
 }
 
