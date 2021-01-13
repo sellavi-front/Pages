@@ -2,6 +2,10 @@
 @import '../../../../components/FormBasic/FormBasic.css';
 @import './components/InfoBlock.css';
 
+#content .container {
+  padding: 0 !important;
+}
+
 .sender-basic {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
