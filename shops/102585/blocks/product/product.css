@@ -153,4 +153,12 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
     h2.section-title.mb-4.mt-4 {
         margin-top: 50px !important;
     }
+
+    #home > div > div > section.page-section.latest-section > div > h2 > span {
+        text-transform: lowercase;
+    }
+    
+    #home > div > div > section.page-section.latest-section > div > h2 > span:first-letter {
+        text-transform: uppercase;
+    }
 }
