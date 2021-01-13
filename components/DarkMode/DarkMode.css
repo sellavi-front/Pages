@@ -16,7 +16,8 @@ body.dark-mode.theme_11.ltr.sidenav-enabled .mobile_side_nav,
 body.dark-mode.theme_11.ltr .select2-container--open .select2-dropdown--above,
 body.dark-mode.theme_11.ltr .select2-container--default .select2-search--dropdown .select2-search__field,
 body.dark-mode.theme_11.ltr .details-box>ul,
-body.dark-mode.theme_11.ltr .select2-dropdown {
+body.dark-mode.theme_11.ltr .select2-dropdown,
+body.dark-mode.theme_11.ltr.checkout-checkout .order-summary-toggle {
   background: black !important;
 }
 
