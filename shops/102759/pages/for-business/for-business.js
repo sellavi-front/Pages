@@ -1,5 +1,5 @@
 import InfoBlock from './components/InfoBlock.js';
-
+import '../../../../components/'
 const aboutData = [
   {
     image: 'https://res.cloudinary.com/depgheppz/image/upload/v1610545117/olesia-buyar-HCRYIjtGybs-unsplash_1_upetz1.png',
@@ -23,6 +23,17 @@ const aboutData = [
   }
 ]
 
+const senderData = [
+  {
+    title: 'Остались вопросы?',
+    content: 'Для подробной консультации по подбору идеального для Вас корсета оставьте заявку.',
+  }
+]
+
+
 if (location.href.includes('/for-business')) {
-  document.querySelector('#content > .row > div').insertAdjacentHTML('beforeEnd', new InfoBlock(aboutData).render());
+  const lastSection = document.querySelector('#content > .row > div');
+
+  lastSection.insertAdjacentHTML('beforeEnd', new InfoBlock(aboutData).render());
+  new FormBasic(lastSection, 'beforeend', senderData).render();
 }
