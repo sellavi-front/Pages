@@ -10,9 +10,9 @@ export default class InfoBlock {
   setContent(data) {
     return `
       <div class="info-block__content col">
-        ${data.image}
+        <img src="${data.image}">
       </div>
-      <div class="info-block__content tcol">
+      <div class="info-block__content col">
         <h5>${data.title}</h5>
         <div>${data.ph1}</div>
         ${
