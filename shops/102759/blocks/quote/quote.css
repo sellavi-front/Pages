@@ -16,3 +16,10 @@
 .gallery .quote cite {
   font-weight: bold !important;
 }
+
+.gallery__elem:nth-of-type(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
