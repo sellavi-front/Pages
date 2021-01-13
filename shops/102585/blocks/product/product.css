@@ -193,7 +193,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
     }
     
     body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 600 !important;
     }
     

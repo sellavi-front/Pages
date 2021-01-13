@@ -31,8 +31,8 @@ footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul 
 }
 
 body.theme-gray .footer .footer-widgets .widget-title {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 body.theme-gray .footer .footer-widgets .widget-title {
@@ -44,8 +44,8 @@ body.theme-gray .footer .footer-widgets .widget-title:first-letter {
 }
 
 body.ltr .widget-categories ul li a {
-    font-size: 16px !important;
-    font-weight: 400 !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
 }
 
 .footer .footer-widgets .widget-categories ul li a {
@@ -55,4 +55,25 @@ body.ltr .widget-categories ul li a {
 .footer-meta .row.footer_content_wrapper {
     border-top: 1px solid #A1A1A1;
     padding-top: 20px
+}
+
+@media (max-device-width: 480px) {
+    #home > div > div > div.contactsSection > div > div > div.contacts-title > span {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    
+    
+    #home > div > footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
+        padding: 0px;
+    }
+    
+    footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4, footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > h4 {
+        margin-top: 40px !important
+    }
+    
+    #home > div > footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > h4 {
+        margin-top: 40px !important;
+    }
 }
