@@ -9,3 +9,7 @@
 @import './new-contacts-element/new-contacts-element.css';
 @import './footer/footer.css';
 @import './product-product/product-product.css';
+
+.common-home .navigation-wrapper {
+    margin-bottom: 0px;
+}
