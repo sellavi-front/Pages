@@ -1,6 +1,10 @@
+.gallery {
+  margin-top: 50px;
+}
+
 .gallery .quote {
   background: transparent !important;
-  margin: auto;
+  margin: 100px auto auto;
   max-width: 635px !important;
 }
 
