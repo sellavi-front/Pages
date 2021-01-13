@@ -139,3 +139,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
         background-size: cover;
     }
 }
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+    padding: 8px;
+}
