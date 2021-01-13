@@ -23,8 +23,6 @@ const bootstrapClasses = [
   'container'
 ];
 
-
-
 if(pages.home) {
   /*let banner = new Banner()
   banner.updateImgCategories()
