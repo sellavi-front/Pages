@@ -67,6 +67,19 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-size: 15px !important;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item {
+  margin: 0 !important;
+  padding: 30px;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.thumbnail.no-padding {
+  padding: 0 5px 0 5px !important;
+}
+
 
 #home footer .footer-widgets {
   position: relative;
