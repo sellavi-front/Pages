@@ -67,7 +67,7 @@ body .section-title {
   font-size: 18px;
   font-weight: 900;
   line-height: 20px;
-  text-transform: inherit;
+  text-transform: none !important;
   text-align: left;
   color: #000 !important;
   overflow: hidden;
