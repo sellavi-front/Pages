@@ -14,7 +14,7 @@ let bannerLayout = `
                 </div>
 
                 <div class="social__item">
-                    <a target="_blank" href="https://wa.me/79150940619?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727336/sellavi/102169/wwa.svg" alt="social" /></a>
+                    <a target="_blank" href="https://wa.me/79262547856?text=Здравствуйте!%20Заинтересовала%20Ваша%20продукция."><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608727336/sellavi/102169/wwa.svg" alt="social" /></a>
                 </div>
 
                 <div class="social__item">
