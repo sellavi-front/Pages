@@ -240,5 +240,5 @@ body.ltr .thumbnail .caption-title {
 }
 
 .checkout_form .register_block .registered_text a {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
