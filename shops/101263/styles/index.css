@@ -26,6 +26,10 @@ body.theme_11 .wrapper .latest-section h2.section-title {
   padding: 10px !important;
 }
 
+body h1 .fa, body h1 .glyphicon, body h2 .fa, body h2 .glyphicon, body h3 .fa, body h3 .glyphicon, body h4 .fa, body h4 .glyphicon, body h5 .fa, body h5 .glyphicon, body h6 .fa, body h6 .glyphicon {
+  color: #83C452 !important;
+}
+
 .alert-danger {
   color: #666;
   background-color: #efe6e6;
