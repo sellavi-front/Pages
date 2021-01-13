@@ -32,7 +32,7 @@ export default class InfoBlock {
 
   render() {
     return `
-      <div class="info-block d-flex justify-content-between">
+      <div class="info-block d-flex justify-content-between flex-column">
          ${this.setRow(this.props)}
       </div>
     `
