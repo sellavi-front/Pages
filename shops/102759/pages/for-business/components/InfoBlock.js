@@ -25,7 +25,7 @@ export default class InfoBlock {
   setRow(data) {
     return data.map(row => {
       return `
-        <div class="row">${this.setContent(row)}</div>
+        <div class="row d-flex">${this.setContent(row)}</div>
       `
     }).join('');
   }
