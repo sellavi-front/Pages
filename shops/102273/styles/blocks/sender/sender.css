@@ -1,0 +1,66 @@
+.sender-basic {
+  border-color: #3ebab1 !important;
+  border-radius: 10px !important;
+}
+
+.sender-basic form input {
+  max-width: 290px;
+  width: 100%;
+}
+
+.sender-basic__title {
+  margin-bottom: 10px !important;
+}
+
+.sender-basic__text {
+  margin-bottom: 30px !important;
+}
+
+.sender-basic .form-grp__container {
+  display: grid;
+  grid-template-areas:
+    'a b c'
+    'f f d';
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+}
+
+.sender-basic form button {
+  background: #3ebab1 !important;
+  grid-area: d;
+  width: 290px;
+}
+
+.sender__basic .form__input[name='userName'] {
+  grid-area: a;
+}
+
+.sender__basic .form__input[name='email'] {
+  grid-area: b;
+}
+
+.sender__basic .form__input[name='phone'] {
+  grid-area: d;
+}
+
+@media (max-width: 991px) {
+  .sender-basic .form-grp__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .sender-basic form input {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 495px) {
+  .sender-basic form button {
+    width: 100% !important;
+  }
+}

@@ -7,7 +7,6 @@
 }
 
 
-
 .section__banner_column {
   width: 100%;
   max-width: 1200px;
@@ -16,7 +15,6 @@
   margin: 1% auto 10% auto;
   position: relative;
   top: 50px;
-  z-index: -1;
 }
 
 .section__banner_row {
@@ -39,6 +37,11 @@
 .img__on__banner {
   position: absolute;
   left: 55%;
+  z-index: 99;
+}
+
+.distributor {
+  font-size: 12px;
 }
 
 .disphoto__custom_banner {
@@ -69,4 +72,23 @@
   height: 68px;
   font-weight: bold;
   font-size: 24px;
+}
+
+.cstm_photo {
+  width: 20px;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+
+.cstm_photo_site {
+  width: 20px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+@media (max-width: 541px) {
+  .sender-basic {
+    border-width: 5px;
+    margin: 25% 0 !important;
+  }
 }

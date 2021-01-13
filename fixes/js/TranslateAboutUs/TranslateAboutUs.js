@@ -11,7 +11,7 @@ export default class TranslateAboutUs {
 
   translate() {
     if (this.widTitle.textContent == this.textTrans || this.widCat.textContent == this.textTrans) {
-      this.widTitle.textContent = this.textRus;
+      this.widTitle.textContent = this.textRus.toLowerCase();
       this.widCat.textContent = this.textRus;
     }
   }

@@ -1,0 +1,15 @@
+.header .header-search {
+  position: relative !important;
+  top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important;
+  width: 100%;
+  max-width: 560px;
+}
+
+.header .header-search .form-control {
+  border-radius: 20px !important;
+  background: #eee;
+}
+
+.header .header-search button {
+  right: 10px !important;
+}

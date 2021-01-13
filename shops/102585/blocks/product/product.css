@@ -144,3 +144,13 @@ section.page-section.titles {
         background-size: cover;
     }
 }
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+    padding: 8px;
+}
+
+@media (max-device-width: 480px) {
+    h2.section-title.mb-4.mt-4 {
+        margin-top: 50px !important;
+    }
+}

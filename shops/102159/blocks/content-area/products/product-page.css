@@ -31,7 +31,21 @@ body.theme-gray.theme_11
   .price_actions
   .add_to_cart
   > button:hover {
-  background: rgba(100, 100, 100, 0.2) !important;
+  background: #001C55 !important;
+  border: 1px solid #ADC8FF;
+}
+
+body.product-product .product-title-text font {
+  background: transparent !important;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: white !important;
+}
+
+.thumbnail .add_to_wishlist button:hover {
+  background: #490000 !important;
+  border: 1px solid #FFB1B1 !important;
 }
 
 .product-product .product-single #tab-description h3,
