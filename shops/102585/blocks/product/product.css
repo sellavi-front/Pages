@@ -102,6 +102,11 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     color: white;
 }
 
+section.page-section.titles {
+    background: white !important;
+    border: 0px !important;
+}
+
 .add_to_cart {
     width: 100%;
     margin-right: 20px;
