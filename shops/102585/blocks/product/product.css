@@ -139,3 +139,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
         background-size: cover;
     }
 }
+
+#home > div > div > section.page-section.latest-section > div > h2 > span {
+    display: none;
+}
