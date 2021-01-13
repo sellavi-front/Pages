@@ -1,4 +1,19 @@
-@import '../../../templates/TemplateTypeTwo/styles/index.css';
+/*@import '../../../templates/TemplateTypeTwo/styles/index.css';*/
+
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+
+@import '../../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import '../../../templates/TemplateTypeTwo/styles/banner/banner.css';
+@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../templates/TemplateTypeTwo/styles/logo/logo.css';
+@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+
 @import './../styles/categories.css';
 @import './../styles/header.css';
 @import './../styles/footer.css';
