@@ -1,5 +1,6 @@
 import InfoBlock from './components/InfoBlock.js';
-import '../../../../components/'
+import FormBasic from '../../../../components/FormBasic/FormBasic.js'
+
 const aboutData = [
   {
     image: 'https://res.cloudinary.com/depgheppz/image/upload/v1610545117/olesia-buyar-HCRYIjtGybs-unsplash_1_upetz1.png',
