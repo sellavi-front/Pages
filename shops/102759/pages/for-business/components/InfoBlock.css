@@ -31,7 +31,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 25px !important;
 }
+
+.info-block ol li:last-child {
+  margin-bottom: 0;
+}
+
 .info-block ol li:before {
   content: counter(num) '';
   counter-increment: num;
