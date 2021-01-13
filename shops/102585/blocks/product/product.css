@@ -207,4 +207,30 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
         font-weight: 600;
         margin-bottom: 10px;
     }
+
+    h1.product-title {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+    }
+    
+    .product-availability {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body.ltr .product-single .product-price {
+        font-size: 28px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .product-product .product-single .buttons .btn-cart {
+        margin-left: 0px;
+    }
+    
+    footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
+        padding: 0px;
+        margin-top: 40px;
+    }
 }
