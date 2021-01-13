@@ -234,3 +234,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
         margin-top: 40px;
     }
 }
+
+body.ltr .thumbnail .caption-title {
+    font-weight: 400;
+}
