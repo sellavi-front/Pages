@@ -13,11 +13,13 @@ export default class InfoBlock {
         <img src="${data.image}">
       </div>
       <div class="info-block__content col d-flex flex-column justify-content-center">
-        <h5>${data.title}</h5>
-        <div>${data.ph1}</div>
+        <div class="info-block__content-text">
+          <h5>${data.title}</h5>
+          <div>${data.ph1}</div>
         ${
           data.ph2 !== '' ? `<div>${data.ph2}</div>` : ''
         }
+        </div>
       </div>
     `;
   }
