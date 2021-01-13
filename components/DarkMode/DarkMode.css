@@ -173,3 +173,7 @@ body.ltr .alert-success a {
 body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
   border: 1px solid white !important;
 }
+
+body.dark-mode.theme_11.ltr .order-summary-toggle .order-summary-toggle__icon-wrapper {
+  fill: white !important;
+}
