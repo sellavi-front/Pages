@@ -238,3 +238,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
 body.ltr .thumbnail .caption-title {
     font-weight: 400;
 }
+
+.checkout_form .register_block .registered_text a {
+    font-weight: 400;
+}
