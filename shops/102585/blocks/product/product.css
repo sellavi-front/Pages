@@ -176,4 +176,31 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
     .mobile_two_columns .products .thumbnail .price_actions .price {
         text-align: left;
     }
+
+    #home > div > div > section.page-section.latest-section > div > h2 > span {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .caption-title a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .mobile_two_columns .products .thumbnail .price_actions .price {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent {
+        font-size: 12px;
+        font-weight: 600 !important;
+    }
+    
+    #home > div > div > div.contactsSection > div > div > div.contacts-title > span {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    
 }
