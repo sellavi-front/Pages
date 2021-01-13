@@ -34,6 +34,20 @@
   width: 100%;
 }
 
+.sender-basic form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+
 .sf-menu.nav>li>a {
   padding: 13px 15px !important;
 }
