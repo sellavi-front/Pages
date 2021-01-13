@@ -98,9 +98,8 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
     border: 0px;
 }
 
-section.page-section.titles > div > div > h1 {
+.product-category section.page-section.titles > div > div > h1 {
     color: white;
-
 }
 
 .add_to_cart {
