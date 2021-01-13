@@ -202,5 +202,9 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
         font-weight: 700;
     }
     
-    
+    .soms-title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
 }
