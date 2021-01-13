@@ -13,6 +13,7 @@
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
 @import '../../../templates/TemplateTypeTwo/styles/logo/logo.css';
 @import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+
 @import './../styles/categories.css';
 @import './../styles/header.css';
 @import './../styles/footer.css';
