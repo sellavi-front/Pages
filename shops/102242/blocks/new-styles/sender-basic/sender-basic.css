@@ -1,7 +1,17 @@
+
 .sender-basic {
-  width: 100%;
-  border: 5px solid #e1b97b;
-  padding: 6% 8%;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  padding: 4% 6% !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0 !important;
+}
+
+.sender-basic__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,111 +19,99 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 80px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 480px;
 }
 
 .sender-basic__title {
-  font-size: 37px;
-  font-weight: bold;
-  color: #484848;
-  margin-bottom: 30px;
+  margin-bottom: 45px !important;
 }
 
 .sender-basic__text {
-  font-size: 16px;
-  color: #484848;
-  margin-bottom: 60px;
+  margin-bottom: 0 !important;
 }
 
-.sender-basic form > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: auto;
+.sender-basic form {
+  width: 100%;
+  max-width: 380px !important;
 }
 
-
-
-.sender-basic form input {
-  border: 1px solid #000000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 10px;
-  padding-left: 1%;
-  width: 319px;
-  height: 68px;
-  margin-right: 20px;
+.sender-basic form > .__container {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  width: 100%;
 }
 
-.sender-basic form input:last-child {
-  margin-right: 0;
+.sender-basic form .form__input {
+  margin: 0 0  20px !important;
+  height: 50px !important;
+  width: 100% !important;
+  font-size: 14px !important;
+  padding-left: 3% !important;
+  border: 1px solid #a68e7d !important;
 }
 
-.sender-basic form button {
-  background: #e1b97b;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  width: 340px;
-  height: 68px;
-  font-weight: bold;
-  font-size: 18px;
+.sender-basic form .form__input::-webkit-input-placeholder {
+  color: #a68e7d !important;
 }
 
-.sender-basic form button:active {
-  opacity: .9;
+.sender-basic form .form__input::-moz-placeholder {
+  color: #a68e7d !important;
 }
 
-@media (max-width: 991px) {
-  .sender-basic form > div {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .sender-basic form input,
-  .sender-basic form button {
-    width: 100%;
-  }
-
-  .sender-basic form input {
-    margin-right: 0;
-  }
-
-  .sender-basic form input:last-child {
-    margin-bottom: 40px;
-  }
-
+.sender-basic form .form__input:-ms-input-placeholder {
+  color: #a68e7d !important;
 }
 
-@media (max-width: 541px) {
+.sender-basic form .form__input::-ms-input-placeholder {
+  color: #a68e7d !important;
+}
 
+.sender-basic form .form__input::placeholder {
+  color: #a68e7d !important;
+}
+
+.sender-basic form .form__input:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+.sender-basic form .form__button {
+  margin-top: 40px !important;
+  width: 100% !important;
+  height: 50px !important;
+  font-size: 18px !important;
+}
+
+@media (max-width: 768px) {
   .sender-basic {
-    border-width: 5px;
-    margin: 40px 0;
-    padding: 7% 4%;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    padding: 6% !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .sender-basic__title {
-    font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 25px !important;
     text-align: center;
-
   }
+
   .sender-basic__text {
+    margin-bottom: 20px !important;
     text-align: center;
-    margin-bottom: 30px;
   }
 
-  .sender-basic form input {
-    padding-left: 5%;
+  .sender-basic form .form__input {
+    height: 60px !important;
   }
-
-  .sender-basic form input,
-  .sender-basic form button {
-    height: 50px;
-    font-size: 16px;
-  }
-
 }
