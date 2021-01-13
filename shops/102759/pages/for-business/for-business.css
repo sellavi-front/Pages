@@ -118,28 +118,3 @@
     height: 60px !important;
   }
 }
-
-
-.sender-basic form .form__input::-webkit-input-placeholder {
-  color: #a68e7d !important;
-}
-
-.sender-basic form .form__input::-moz-placeholder {
-  color: #a68e7d !important;
-}
-
-.sender-basic form .form__input:-ms-input-placeholder {
-  color: #a68e7d !important;
-}
-
-.sender-basic form .form__input::-ms-input-placeholder {
-  color: #a68e7d !important;
-}
-
-.sender-basic form .form__input::placeholder {
-  color: #a68e7d !important;
-}
-
-.sender-basic form .form__input {
-  border-color: #a68e7d !important;
-}
