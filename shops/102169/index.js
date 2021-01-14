@@ -14,7 +14,7 @@ if(pages.home) {
   renderSectionBanner()
 }
 
-if(pages.checkout) {
+if(location.href === 'https://organic-stories.shop/checkout/') {
   let newElement = document.createElement('form')
   newElement.classList.add("form_checkout")
   let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
