@@ -39,7 +39,7 @@ button#button-cart {
     }
 }
 
-#content > div > div > div:nth-child(1) {
+.product-category #content > div > div > div:nth-child(1) {
     display: none !important;
 }
 
@@ -51,3 +51,4 @@ button#button-cart {
 .wrapper .header .header-wrapper .header-search.opened #search_results>a .item_data {
     padding: 10px;
 }
+
