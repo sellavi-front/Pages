@@ -42,7 +42,10 @@
   content: counter(num) '';
   counter-increment: num;
   display: inline-block;
+
   width: 32px;
+  height: 32px;
+
   border-radius: 20px;
   border: 1px solid;
   display: -webkit-box;
@@ -55,4 +58,18 @@
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 15px 0 0;
+  align-items: center;
+}
+
+.info-block .row.d-flex {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+@media (max-width: 991px) {
+  .info-block ol {
+    margin-left: 0 !important;
+  }
 }
