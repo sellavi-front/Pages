@@ -37,4 +37,9 @@ if (location.href.includes('/for-business')) {
 
   lastSection.insertAdjacentHTML('beforeEnd', new InfoBlock(aboutData).render());
   new FormBasic(lastSection, 'beforeend', senderData).render();
+
+  const pageHeader = document.querySelector(".page-header");
+
+  pageHeader.textContent = 'Дизайнерская одежда';
+  pageHeader.insertAdjacentHTML('afterend', `<p class="page-header__subtitle">Оптом от производителя</p>`)
 }
