@@ -62,17 +62,15 @@
   padding: 10px;
 }
 
-
 @media (max-width: 991px) {
   .info-block__content-text {
     margin-left: 0 !important;
   }
 
-
-.info-block .row.d-flex {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
-}
+  .info-block .row.d-flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
 }
