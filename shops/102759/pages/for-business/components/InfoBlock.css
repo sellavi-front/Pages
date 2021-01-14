@@ -11,6 +11,9 @@
 
 .info-block__content-text {
   width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #content > .row {

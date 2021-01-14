@@ -9,10 +9,10 @@ export default class InfoBlock {
 
   setContent(data) {
     return `
-      <div class="info-block__content d-flex flex-column justify-content-center">
+      <div class="info-block__content d-flex flex-column ">
         <img src="${data.image}">
       </div>
-      <div class="info-block__content d-flex flex-column justify-content-center">
+      <div class="info-block__content d-flex flex-column ">
         <div class="info-block__content-text">
           <h5>${data.title}</h5>
           <div>${data.ph1}</div>
