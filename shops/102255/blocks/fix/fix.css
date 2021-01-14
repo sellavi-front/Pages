@@ -23,3 +23,11 @@ div#search {
 .header .header-search {
     max-width: 30% !important;
 }
+
+.d-lg-inline-block {
+    display: none !important;
+}
+
+.dropdown.cart_drop_down {
+    margin-left: 10px ;
+}
