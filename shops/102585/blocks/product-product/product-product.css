@@ -59,3 +59,11 @@ button#button-cart {
 #content > div.row.mb-0.mb-md-3 {
     display: none;
 }
+
+.information-sitemap #content > div > div:nth-child(1) {
+    margin-left: 10px;
+}
+
+.information-sitemap #content > div > div:nth-child(2) {
+    margin-left: 10px;
+}
