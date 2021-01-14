@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 991px) {
-  .info-block ol {
+  .info-block__content-text {
     margin-left: 0 !important;
   }
 }
