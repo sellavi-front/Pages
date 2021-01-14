@@ -19,7 +19,7 @@
   padding: 0 !important;
 }
 
-.info-block .row {
+.info-block > .row {
   width: 50%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
