@@ -245,10 +245,6 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
   color: #c9c9c9 !important;
 }
 
-body.theme-gray a:hover {
-  color: #fff !important;
-}
-
 .row.products.grid {
   margin-top: 5%;
 }
