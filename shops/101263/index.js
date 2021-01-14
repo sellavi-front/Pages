@@ -91,9 +91,12 @@ if (pages.checkout) {
     document.querySelector(".checkbox").insertAdjacentHTML("afterend", '<div class="read_doc"><a href="/term-of-use/">Ознакомиться с публичной офертой</a></div>')
   })
 
-  let form = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
-  let result = form.outerHTML = "<form>" + form.innerHTML + "</form>"
-  console.log(result)
+  let newElement = document.createElement('form')
+  newElement.classList.add("form_checkout")
+  let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
+  newElement.innerHTML = oldElement.innerHTML
+  oldElement.parentNode.replaceChild(newElement, oldElement)
+
 }
 
 
