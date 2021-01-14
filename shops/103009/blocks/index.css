@@ -2,4 +2,5 @@
 
 @import './pay-delivery/pay-delivery.css';
 
+@import '../../../templates/TemplateTypeTwo/styles/index.css';
 @import '../../../templates/TemplateTypeTwo/styles/withoutBanner.css';
