@@ -2,6 +2,7 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import '../../components/PictureCategories/PictureCategories.js'
 import { requsites, dataContact } from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
+// import '../../fixes/js/TranslateFix/TranslateFix.js'
 // import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
@@ -9,6 +10,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import {GridImgWithQuote,data} from './utils/photoTemplate.js';
 
+import './pages/for-business/for-business.js'
 
 if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
