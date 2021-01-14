@@ -92,7 +92,7 @@ body.theme-gray .header .navigation-wrapper {
 }
 
 .scrolled_item {
-  color: #333;
+  color: #333 !important;
 }
 
 .scrolled_dropdown_item {
