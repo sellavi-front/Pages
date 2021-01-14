@@ -112,6 +112,14 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
   color: #fff;
 }
 
+.footer>.footer-widgets>.container-fluid>.row>.col-md-3:nth-child(2)>.widget>.widget-categories>ul>li>a:hover,
+.footer>.footer-widgets>.container-fluid>.row>.col-md-3:nth-child(3)>.widget-categories>ul>li>a:hover,
+.footer>.footer-widgets>.container-fluid>.row>.col-md-3:nth-child(4)>.widget-categories>ul>li>a:hover {
+  color: #333;
+}
+
+
+
 /* End */
 
 /* Banner */
