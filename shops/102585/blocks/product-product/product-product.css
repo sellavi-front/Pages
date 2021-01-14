@@ -52,3 +52,6 @@ button#button-cart {
     padding: 10px;
 }
 
+#content > div.row.mb-0.mb-md-3 {
+    display: none;
+}
