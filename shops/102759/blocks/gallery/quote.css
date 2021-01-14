@@ -36,4 +36,8 @@
     flex-direction: column !important;
     margin-bottom: 50px;
   }
+
+  .gallery .quote {
+    margin-top: 40px;
+  }
 }
