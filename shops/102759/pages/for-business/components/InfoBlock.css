@@ -85,6 +85,13 @@
 }
 
 @media (max-width: 991px) {
+
+  .info-block > .row {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  
   .info-block {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
