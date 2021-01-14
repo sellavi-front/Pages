@@ -19,7 +19,7 @@
   padding: 0 !important;
 }
 
-.info-block__content {
+.info-block .row {
   width: 50%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -93,6 +93,6 @@
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
   }
 }
