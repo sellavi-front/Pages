@@ -4,6 +4,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 import socIconsData from './utils/socIconsData.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 if (document.querySelector('.checkout-checkout')) {
   document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.shipment-reloader > div > h2').innerHTML = 'Шаг 2: Способ доставки';
