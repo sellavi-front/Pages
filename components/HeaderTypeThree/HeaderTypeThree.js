@@ -24,14 +24,6 @@ const wishList = `
 
 if (document.querySelector('.wrapper')) {
 
-  Array.from(
-    document.querySelector('body > div > header > div.header-wrapper > div > nav > ul').children,
-  ).forEach((li, i) => {
-    if (i > 2) {
-      li.remove();
-    }
-  });
-
   headerContainer.insertAdjacentHTML('afterbegin', navigate.outerHTML);
   navigate.remove();
 
@@ -85,5 +77,15 @@ if (document.querySelector('.wrapper')) {
     );
     cart.remove();
   }
+
+
+  Array.from(
+    document.querySelector('body > div > header > div.header-wrapper > div > nav > ul').children,
+  ).forEach((li, i) => {
+    if (i > 2) {
+      li.remove();
+    }
+  });
+
 }
 
