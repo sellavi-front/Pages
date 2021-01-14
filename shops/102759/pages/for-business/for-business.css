@@ -6,6 +6,10 @@
   padding: 0 !important;
 }
 
+#content > div > div > p {
+  display: none;
+}
+
 .sender-basic {
   -webkit-box-orient: horizontal !important;
   -webkit-box-direction: normal !important;
