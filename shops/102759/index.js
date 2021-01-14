@@ -24,8 +24,13 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.wrapper')) {
   document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").textContent = '';
-  const burger = document.createElement('img').setAttribute('src', './Pages/shops/102759/images/burger.svg');
-  document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").append(burger)
+  document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").append(`
+  <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="23" height="1" fill="black"/>
+    <rect y="7" width="23" height="1" fill="black"/>
+    <rect y="14" width="23" height="1" fill="black"/>
+  </svg>
+  `)
 }
 
 if (location.href.includes('term-of-use')) {
