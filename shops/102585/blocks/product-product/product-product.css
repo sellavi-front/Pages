@@ -38,3 +38,7 @@ button#button-cart {
         display: block;
     }
 }
+
+#content > div > div > div:nth-child(1) {
+    display: none !important;
+}
