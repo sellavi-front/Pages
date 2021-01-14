@@ -24,6 +24,7 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.wrapper')) {
   document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").textContent = '';
+  const burger = document.createElement('img').setAttribute('src', './images/burger.svg');
   document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").append(`<img src="./images/burger.svg">`)
 }
 
