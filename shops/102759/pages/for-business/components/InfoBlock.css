@@ -85,6 +85,13 @@
 }
 
 @media (max-width: 991px) {
+  .info-block {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  
   .info-block__content-text {
     margin-left: 0 !important;
   }
@@ -93,7 +100,7 @@
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
-    flex-direction: row !important;
+    flex-direction: column !important;
   }
 
   .info-block ol li {
