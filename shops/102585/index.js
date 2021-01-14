@@ -5,10 +5,6 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 import socIconsData from './utils/socIconsData.js';
 
-if (document.querySelector('.product-category')) {
-  document.querySelector('div#content').insertAdjacentHTML('beforebegin', '<div class="preprod-title"><div class="container"><div class="soms-title">Новинки</div></div></div>');
-}
-
 if (document.querySelector('.checkout-checkout')) {
   document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.shipment-reloader > div > h2').innerHTML = 'Шаг 2: Способ доставки';
   document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > h2').innerHTML = 'Шаг 3: Способ оплаты';
