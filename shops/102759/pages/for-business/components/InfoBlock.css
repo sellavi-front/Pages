@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-.info-block__content:first-of-type .info-block__content-text {
+.info-block .row:first-of-type .info-block__content-text {
   margin-left: 30px;
 }
 
