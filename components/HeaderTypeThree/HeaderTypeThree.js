@@ -24,11 +24,13 @@ const wishList = `
 
 if (document.querySelector('.wrapper')) {
 
-  Array.from(document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul").children).forEach((li, i) => {
-    if(i > 2) {
-        li.remove()
+  Array.from(
+    document.querySelector('body > div > header > div.header-wrapper > div > nav > ul').children,
+  ).forEach((li, i) => {
+    if (i > 2) {
+      li.remove();
     }
-})
+  });
 
   headerContainer.insertAdjacentHTML('afterbegin', navigate.outerHTML);
   navigate.remove();
@@ -49,11 +51,14 @@ if (document.querySelector('.wrapper')) {
   headerLoginText.remove();
 
   // Add underline to nav elem for open page
-  navigationElements.forEach(elem => {
-    if (elem.getAttribute('href') == decodeURI(location.href) || location.pathname == elem.getAttribute('href')) {
-      elem.style.cssText = 'border-bottom: 2px solid;'
+  navigationElements.forEach((elem) => {
+    if (
+      elem.getAttribute('href') == decodeURI(location.href) ||
+      location.pathname == elem.getAttribute('href')
+    ) {
+      elem.style.cssText = 'border-bottom: 2px solid;';
     }
-  })
+  });
 
   // END add underline to nav elem for open page
 
@@ -67,12 +72,12 @@ if (document.querySelector('.wrapper')) {
       .querySelector('.header_widgets')
       .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
 
-      const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
+    const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
 
-      headerLoginIco[0].classList.forEach((selector) => selectors.push(selector));
+    headerLoginIco[0].classList.forEach((selector) => selectors.push(selector));
 
-      const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
-      deleteSelectors.findAndDelete();
+    const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
+    deleteSelectors.findAndDelete();
   } else {
     headerContainer.insertAdjacentHTML(
       'beforeend',
@@ -81,3 +86,4 @@ if (document.querySelector('.wrapper')) {
     cart.remove();
   }
 }
+
