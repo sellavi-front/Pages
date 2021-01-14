@@ -1,5 +1,3 @@
-import InfoCard from './components/InfoCard.js';
-
 const data = [
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1610545117/olesia-buyar-HCRYIjtGybs-unsplash_1_upetz1.png',
@@ -18,13 +16,30 @@ const data = [
   }
 ]
 
+export default class InfoCardTypeTwo {
+  constructor(props) {
+    this.props = props;
+  }
 
-if (location.href.includes('/individual')) {
-  const lastSection = document.querySelector('#content > .row > div');
+  setCard() {
+    return this.props.map(card => {`
+    <div class="info-card__item">
+      <div class="info-card__elem">
+        <img src="${card.img}" alt="" />
+      </div>
+      <div class="info-card__elem">
+        <h5>${card.title}</h5>
+        <p>${card.text}</p>
+      </div>
+    </div>
+    `});
+  }
 
-  const pageHeader = document.querySelector(".page-header > h1");
-  pageHeader.textContent = 'Пошив одежды на заказ';
-  pageHeader.insertAdjacentHTML('afterend', `<p class="page-header__subtitle">Действительно качественный пошив вашей одежды</p>`)
+  render() {
+    return `
+      <div class="info-card">
 
-  lastSection.insertAdjacentHTML('beforeend', new InfoCard(data).render());
+      </div>
+    `
+  }
 }
