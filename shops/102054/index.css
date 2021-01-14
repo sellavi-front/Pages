@@ -104,6 +104,14 @@ body.theme-gray .header .navigation-wrapper {
   color: #333 !important;
 }
 
+body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored, body.theme-gray a:hover {
+  color: #fff;
+}
+
+.no_scrolled_item:hover {
+  color: #fff;
+}
+
 /* End */
 
 /* Banner */
