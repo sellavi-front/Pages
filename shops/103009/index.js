@@ -4,6 +4,12 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 
+if (document.querySelector('.logo')) {
+  const oldNavBar = document.querySelector('.nav.sf-menu');
+  const newNavBar = oldNavBar.cloneNode(true);
+  document.querySelector('.logo').insertAdjacentHTML('afterend', newNavBar.outerHTML);
+  oldNavBar.remove()
+}
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Балинец Наталья Александровна');
