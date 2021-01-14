@@ -9,6 +9,10 @@
   padding: 0 !important;
 }
 
+.info-block__content-text {
+  width: 50%;
+}
+
 #content > .row {
   padding: 0;
 }
