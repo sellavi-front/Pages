@@ -22,6 +22,11 @@ if (document.querySelector('.common-home')) {
   cstmSection.insertAdjacentHTML('beforeend', new GridImgWithQuote(data).render());
 }
 
+if (document.querySelector('.wrapper')) {
+  document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").textContent = '';
+  document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").append(`<img src="./images/burger.svg">`)
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Скотарева Наталия Анатольевна');
 
