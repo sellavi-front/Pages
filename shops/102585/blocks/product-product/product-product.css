@@ -67,3 +67,10 @@ button#button-cart {
 .information-sitemap #content > div > div:nth-child(2) {
     margin-left: 10px;
 }
+
+.common-home body.ltr .thumbnail .caption-title {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
