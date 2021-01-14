@@ -48,12 +48,11 @@
 
 .info-block ol li {
   position: relative;
-  margin: 0 0 0 0;
+  margin: 0 0 25px 0;
   padding: 0 0 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 25px !important;
 }
 
 .info-block ol li:last-child {
@@ -91,14 +90,14 @@
         -ms-flex-pack: start;
             justify-content: start;
   }
-  
+
   .info-block {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  
+
   .info-block__content-text {
     margin-left: 0 !important;
   }
