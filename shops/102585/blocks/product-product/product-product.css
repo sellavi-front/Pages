@@ -37,6 +37,10 @@ button#button-cart {
     button.btn.btn-theme.btn-theme-transparent.btn-wish-list {
         display: block;
     }
+
+    .col-12.col-sm.product-description {
+        text-align: center;
+    }
 }
 
 .product-category #content > div > div > div:nth-child(1) {
