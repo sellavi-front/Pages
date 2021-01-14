@@ -68,7 +68,7 @@ button#button-cart {
     margin-left: 10px;
 }
 
-.common-home body.ltr .thumbnail .caption-title {
+.common-home .thumbnail .caption-title {
     display: flex !important;
     flex-direction: column;
     justify-content: center;
