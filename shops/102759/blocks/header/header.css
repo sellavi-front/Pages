@@ -38,7 +38,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   }
 
   .header-wrapper > div {
-    max-width: 100 !important;
+    max-width: 100% !important;
   }
 }
 
