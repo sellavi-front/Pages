@@ -31,3 +31,7 @@ div#search {
 .dropdown.cart_drop_down {
     margin-left: 10px ;
 }
+
+#cart > span.cart-qty-circle.desktop.d-none.d-lg-block {
+    display: none !important;
+}
