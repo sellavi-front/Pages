@@ -9,7 +9,7 @@
   padding: 0 !important;
 }
 
-#content .row {
+#content > .row {
   padding: 0;
 }
 
@@ -59,6 +59,7 @@
   justify-content: center;
   margin: 0 15px 0 0;
   align-items: center;
+  padding: 10px;
 }
 
 .info-block .row.d-flex {
