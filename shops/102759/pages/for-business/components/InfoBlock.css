@@ -107,13 +107,27 @@
   }
 
   .info-block .row.d-flex {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-    -ms-flex-direction: column !important;
-    flex-direction: column !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column ;
+            flex-direction: column ;
   }
 
   .info-block ol li {
     margin-bottom: 10px ;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .info-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .info-block > .row {
+    width: 100%;
   }
 }
