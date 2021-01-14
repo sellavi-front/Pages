@@ -7,12 +7,10 @@ let socialLayout = `
     </li>
 `
 
-if(document.querySelector(".footer")) {
-  let renderSocialLayoutFooter = () => {
+let renderSocialLayoutFooter = () => {
+  if(document.querySelector(".footer")) {
     document.querySelector(".footer-widgets>.container>.row>div:nth-child(3)>.widget>ul>li:nth-child(3)").insertAdjacentHTML("afterend", socialLayout)
   }
 }
-
-
 
 export default renderSocialLayoutFooter
