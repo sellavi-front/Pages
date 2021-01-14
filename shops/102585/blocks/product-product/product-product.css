@@ -47,3 +47,7 @@ button#button-cart {
     background: white;
     border: 3px solid rgba(35,35,35,.1)
 }
+
+.wrapper .header .header-wrapper .header-search.opened #search_results>a .item_data {
+    padding: 10px;
+}
