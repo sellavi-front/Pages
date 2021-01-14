@@ -42,3 +42,8 @@ button#button-cart {
 #content > div > div > div:nth-child(1) {
     display: none !important;
 }
+
+.product-product .product-single .buttons .btn-compare:hover, .product-product .product-single .buttons .btn-wish-list:hover {
+    background: white;
+    border: 3px solid rgba(35,35,35,.1)
+}
