@@ -91,6 +91,19 @@ body.theme-gray .header .navigation-wrapper {
   border-top: 0;
 }
 
+.scrolled_item {
+  color: #333;
+}
+
+.scrolled_dropdown_item {
+  color: #333 !important;
+  background: #fff;
+}
+
+.scrolled_dropdown>a:hover {
+  color: #333 !important;
+}
+
 /* End */
 
 /* Banner */
