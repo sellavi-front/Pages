@@ -13,3 +13,11 @@ if(pages.home) {
   renderHomeBanner()
   renderSectionBanner()
 }
+
+if(pages.checkout) {
+  let newElement = document.createElement('form')
+  newElement.classList.add("form_checkout")
+  let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
+  newElement.innerHTML = oldElement.innerHTML
+  oldElement.parentNode.replaceChild(newElement, oldElement)
+}
