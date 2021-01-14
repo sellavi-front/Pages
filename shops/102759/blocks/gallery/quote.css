@@ -27,3 +27,12 @@
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
+
+@media (max-width: 575px) {
+  .gallery__elem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
