@@ -4,3 +4,7 @@ body.theme-gray.theme_11:not(.common-home) .header_widgets a,
 body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .header_widgets .header_login>a {
   color: black !important;
 }
+
+.common-home .menu-toggle svg {
+  stroke: white !important;
+}
