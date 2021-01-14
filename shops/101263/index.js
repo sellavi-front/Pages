@@ -85,7 +85,7 @@ if(location.href === 'https://koshergurme.ru/index.php?route=account/register') 
   document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
 }
 
-if (location.href === '/checkout/') {
+if (location.href === 'https://koshergurme.ru/checkout/') {
   $('.form_checkout').ready(function () {
     $('.checkbox>label').html('Согласен (-а) с условиями <b>ПУБЛИЧНОЙ ОФЕРТЫ</b>');
     document.querySelector(".checkbox").insertAdjacentHTML("afterend", '<div class="read_doc"><a href="/term-of-use/">Ознакомиться с публичной офертой</a></div>')
