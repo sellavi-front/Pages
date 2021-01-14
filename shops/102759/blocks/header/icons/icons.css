@@ -5,6 +5,6 @@ body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .hea
   color: black !important;
 }
 
-.common-home .menu-toggle svg {
+body.common-home .menu-toggle svg {
   stroke: white !important;
 }
