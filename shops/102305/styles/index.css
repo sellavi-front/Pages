@@ -41,6 +41,11 @@
 
 }
 
+.featured-products-carousel .bx-wrapper {
+  margin: auto !important;
+  max-height: 465px;
+}
+
 body .section-title {
   margin-top: 0;
   margin-bottom: 0 !important;
