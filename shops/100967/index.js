@@ -133,7 +133,7 @@ if (document.querySelector('.wrapper')) {
 
   document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone.outerHTML}</li>`)
 
-  const cty = document.querySelector("#cart > span.cart-qty-circle.mobile.d-block.d-lg-none").cloneNode(true);
+  const cty = document.querySelector("#cart > span.cart-qty-circle.d-block.d-lg-none").cloneNode(true);
 
   document.querySelector('.mobile-navigation-wrapper .menu-toggle').insertAdjacentHTML('beforeend', cty.outerHTML)
 }
