@@ -131,7 +131,7 @@ if (document.querySelector('.wrapper')) {
 
   const buttonListClone = buttonList;
 
-  document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone}</li>`)
+  document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone.outerHTML}</li>`)
 }
 
 if (document.querySelector('.common-home')) {
