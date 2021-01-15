@@ -9,7 +9,8 @@ body#home .mobile_side_nav .sidenav_search {
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   left: auto !important;
   right: 0 !important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
   border: none !important;
   top: 130px;
 }
@@ -74,3 +75,4 @@ body.sidenav-enabled.ltr .flexy>.arrow {
 .fa-caret-right:before {
   content: "\f054" !important;
 }
+
