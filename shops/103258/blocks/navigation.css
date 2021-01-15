@@ -1,3 +1,7 @@
 body.theme_11 .wrapper .header .navigation-wrapper nav.navigation > ul.nav.sf-menu>li.flexy:hover>ul, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul {
-  margin-top: 48px !important;
+  margin-top: 45px !important;
+}
+
+.caption-content {
+  display: none !important;
 }
