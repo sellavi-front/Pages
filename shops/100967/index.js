@@ -128,7 +128,9 @@ if (document.querySelector('.wrapper')) {
   disLinkHeader.forEach(link => link.removeAttribute('href'));
   bsMenutoggle.remove();
 
-  document.querySelector('.header-wrapper > .container-fluid').insertAdjacentHTML('beforebegin', document.querySelector('.mobile-navigation-wrapper').outerHTML);
+  const brg = document.querySelector('.mobile-navigation-wrapper');
+  document.querySelector('.header-wrapper > .container-fluid').insertAdjacentHTML('beforebegin', brg.outerHTML);
+  brg.remove();
 }
 
 if (document.querySelector('.common-home')) {
