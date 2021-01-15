@@ -21,7 +21,7 @@ export default class InfoCardTypeTwo {
   render() {
     return `
       <div class="info-card">
-
+        ${this.setCard()}
       </div>
     `
   }
