@@ -44,7 +44,7 @@ button#button-cart {
 }
 
 .product-category #content > div > div > div:nth-child(1) {
-    display: none !important;
+    display: block !important;
 }
 
 .product-product .product-single .buttons .btn-compare:hover, .product-product .product-single .buttons .btn-wish-list:hover {
