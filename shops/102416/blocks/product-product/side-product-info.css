@@ -130,3 +130,14 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
     color: black;
     border: 2px solid black !important;
 }
+
+#home > div > header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a {
+    border: 3px solid black !important;
+    color: black;
+}
+
+#home > div > header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a:hover {
+    background: black;
+    color: white;
+    border-radius: 0px;
+}
