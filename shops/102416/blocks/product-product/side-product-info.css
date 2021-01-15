@@ -141,3 +141,7 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
     color: white;
     border-radius: 0px;
 }
+
+body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block {
+    border: 2px solid black !important;
+}
