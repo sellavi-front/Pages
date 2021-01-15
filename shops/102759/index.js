@@ -12,6 +12,7 @@ import {GridImgWithQuote,data} from './utils/photoTemplate.js';
 
 import './pages/for-business/for-business.js'
 import './pages/individual/individual.js';
+
 if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
 
