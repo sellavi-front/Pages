@@ -129,7 +129,7 @@ if (document.querySelector('.wrapper')) {
   bsMenutoggle.remove();
 
   const brg = document.querySelector('.mobile-navigation-wrapper');
-  document.querySelector('.header-wrapper > .container-fluid').insertAdjacentHTML('beforebegin', brg.outerHTML);
+  document.querySelector('.header-wrapper > .container-fluid').insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
 }
 
