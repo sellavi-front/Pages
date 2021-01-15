@@ -132,6 +132,10 @@ if (document.querySelector('.wrapper')) {
   const buttonListClone = buttonList;
 
   document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone.outerHTML}</li>`)
+
+  const cty = document.querySelector("#cart > span.cart-qty-circle.mobile.d-block.d-lg-none").cloneNode(true);
+
+  document.querySelector('.mobile-navigation-wrapper .menu-toggle').insertAdjacentHTML('beforeend', cty.outerHTML)
 }
 
 if (document.querySelector('.common-home')) {
