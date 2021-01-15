@@ -17,6 +17,12 @@ import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsT
 import socIconsData from './utils/socIconsData.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
+if (document.querySelector('.product-search')) {
+  const oldDescr = document.querySelector('#content > div:nth-child(2) > div.col-sm-3 > label');
+  const newDescr = oldDescr.cloneNode(true);
+  document.querySelector('#content > div:nth-child(2) > div.col-sm-4.form-group.selectpicker-wrapper.mt-4.mt-sm-0').insertAdjacentHTML('afterbegin', newDescr.outerHTML);
+  oldDescr.remove();
+}
 
 if (document.querySelector('.common-home')) {
   document.querySelector('.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="pre-category-title"><div class="container"><span>Категории</span></div></div>');
