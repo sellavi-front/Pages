@@ -41,6 +41,18 @@
 
 }
 
+body .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #232323;
+  overflow: hidden;
+}
+
 .thumbnail .price {
   align-self: center;
   margin: 0 !important;
