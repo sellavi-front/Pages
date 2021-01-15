@@ -76,3 +76,15 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   content: "\f054" !important;
 }
 
+.flexy .button__list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.flexy .button__list .custom__text {
+  margin-left: 50px !important;
+  width: 110px !important;
+}
+
