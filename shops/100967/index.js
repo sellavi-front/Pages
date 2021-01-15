@@ -128,6 +128,10 @@ if (document.querySelector('.wrapper')) {
   const disLinkHeader = document.querySelectorAll('.megamenu > ul > .megaline > div > div > span > a');
   disLinkHeader.forEach(link => link.removeAttribute('href'));
   bsMenutoggle.remove();
+
+  const buttonListClone = buttonList;
+
+  document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone}</li>`)
 }
 
 if (document.querySelector('.common-home')) {
