@@ -31,7 +31,7 @@ footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul 
 }
 
 body.theme-gray .footer .footer-widgets .widget-title {
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 500;
 }
 
@@ -44,7 +44,7 @@ body.theme-gray .footer .footer-widgets .widget-title:first-letter {
 }
 
 body.ltr .widget-categories ul li a {
-    font-size: 18px !important;
+    font-size: 14px !important;
     font-weight: 500 !important;
 }
 
