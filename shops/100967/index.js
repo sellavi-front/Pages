@@ -129,13 +129,7 @@ if (document.querySelector('.wrapper')) {
   disLinkHeader.forEach(link => link.removeAttribute('href'));
   bsMenutoggle.remove();
 
-  // const buttonListClone = buttonList;
-
-  // document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone.outerHTML}</li>`)
-
-  // const cty = document.querySelector("#cart > span.cart-qty-circle.d-block.d-lg-none").cloneNode(true);
-
-  // document.querySelector('.mobile-navigation-wrapper .menu-toggle').insertAdjacentHTML('beforeend', cty.outerHTML)
+  document.querySelector('.header-wrapper > .container-fluid').insertAdjacentHTML('beforebegin', document.querySelector('.mobile-navigation-wrapper').outerHTML);
 }
 
 if (document.querySelector('.common-home')) {
