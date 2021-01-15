@@ -77,3 +77,7 @@ body.ltr .widget-categories ul li a {
         margin-top: 40px !important;
     }
 }
+
+.footer .footer-widgets .widget-categories ul li a {
+    line-height: 15px
+}
