@@ -93,6 +93,10 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
   color: #8F8F8F;
 }
 
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  position: static !important;
+}
+
 @media (max-width: 1200px) {
       .sf-menu .megamenu > ul > .megaline {
              padding-left: 2% !important;
@@ -104,7 +108,8 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
   .header .header-search, .header-wrapper .navigation > .nav > li.flexy,
   .header_widgets .header_login,
   .header .header-wrapper .header-search,
-  .button__list_elem #wishlist {
+  .button__list_elem #wishlist,
+  .button__list_elem.custom__text {
     display: none !important;
   }
 }
