@@ -219,6 +219,13 @@ body.theme_11 .wrapper .latest-section h2.section-title {
     margin-bottom: 0 !important;
   }
 
+  #product .custom-control {
+    padding: 0;
+    margin-right: 5px !important;
+    width: 28px;
+    height: 28px;
+  }
+
 }
 
 @media only screen and (max-width: 1372px) {
