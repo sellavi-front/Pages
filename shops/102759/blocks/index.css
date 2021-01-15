@@ -12,6 +12,7 @@
 @import '../../../components/HeaderTypeThree/styles/HeaderTypeThree.css';
 
 @import '../pages/for-business/for-business.css';
+@import '../pages/individual/individual.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import './footer/footer.css';
