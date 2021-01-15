@@ -124,3 +124,9 @@
 body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
     background: white;
 }
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+    background: white;
+    color: black;
+    border: 2px solid black !important;
+}
