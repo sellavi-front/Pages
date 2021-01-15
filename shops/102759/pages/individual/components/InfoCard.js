@@ -16,7 +16,7 @@ export default class InfoCardTypeTwo {
       </div>
     </div>
     `;
-    });
+    }).join('');
   }
 
   render() {
