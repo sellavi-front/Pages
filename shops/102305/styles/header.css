@@ -43,6 +43,11 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search
   background-color: #fff !important;
 }
 
+body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+  height: fit-content !important;
+}
+
+
 @media only screen and (max-width: 978px) {
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
     margin: 0 2% 60px 0 !important;
