@@ -129,13 +129,13 @@ if (document.querySelector('.wrapper')) {
   disLinkHeader.forEach(link => link.removeAttribute('href'));
   bsMenutoggle.remove();
 
-  const buttonListClone = buttonList;
+  // const buttonListClone = buttonList;
 
-  document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone.outerHTML}</li>`)
+  // document.querySelector('.mobile_side_nav_menu').insertAdjacentHTML('beforeend', `<li class="flexy">${buttonListClone.outerHTML}</li>`)
 
-  const cty = document.querySelector("#cart > span.cart-qty-circle.d-block.d-lg-none").cloneNode(true);
+  // const cty = document.querySelector("#cart > span.cart-qty-circle.d-block.d-lg-none").cloneNode(true);
 
-  document.querySelector('.mobile-navigation-wrapper .menu-toggle').insertAdjacentHTML('beforeend', cty.outerHTML)
+  // document.querySelector('.mobile-navigation-wrapper .menu-toggle').insertAdjacentHTML('beforeend', cty.outerHTML)
 }
 
 if (document.querySelector('.common-home')) {
