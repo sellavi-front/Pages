@@ -1,11 +1,11 @@
-
 export default class InfoCardTypeTwo {
   constructor(props) {
     this.props = props;
   }
 
   setCard() {
-    return this.props.map(card => {`
+    return this.props.map((card) => {
+      return `
     <div class="info-card__item">
       <div class="info-card__elem">
         <img src="${card.img}" alt="" />
@@ -15,7 +15,8 @@ export default class InfoCardTypeTwo {
         <p>${card.text}</p>
       </div>
     </div>
-    `});
+    `;
+    });
   }
 
   render() {
@@ -23,6 +24,6 @@ export default class InfoCardTypeTwo {
       <div class="info-card">
         ${this.setCard()}
       </div>
-    `
+    `;
   }
 }
