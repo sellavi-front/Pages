@@ -86,6 +86,10 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
   color: #fff !important;
 }
 
+.add_to_cart:hover {
+  border-radius: 5px !important;
+}
+
 
 #home footer .footer-widgets {
   position: relative;
