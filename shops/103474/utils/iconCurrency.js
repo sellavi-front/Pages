@@ -29,7 +29,9 @@
 `;
 
   const el = document.querySelector(
-    '#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div.price_actions.d-flex > div.price',
+    '.price',
+  ) || document.querySelector(
+    '.price_span',
   );
   const elStr = el.textContent.trim();
   const s = elStr.slice(0, -1);
