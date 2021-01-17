@@ -41,7 +41,7 @@
     '.total_text',
     '.shipping-method > .radio > label',
     '.product-price',
-    '.order_list_section__total-lines > div > div > .text-right',
+    '.order_list_section__total-lines > div > .text-right',
     '.item-price',
     '.cart_drop_down .cart-norm-qty',
     '.single-price > div',
