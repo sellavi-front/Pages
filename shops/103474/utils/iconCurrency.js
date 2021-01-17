@@ -32,6 +32,11 @@
     '.price',
   ) || document.querySelector(
     '.price_span',
+  ) || document.querySelector(
+    '.price_span',
+  ) ||
+  document.querySelector(
+    '.total_text',
   );
   const elStr = el.textContent.trim();
   const s = elStr.slice(0, -1);
