@@ -75,7 +75,7 @@
           icon,
         );
         changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
-      }, 500);
+      }, 0);
     });
   });
 })();
