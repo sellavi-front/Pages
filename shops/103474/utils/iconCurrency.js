@@ -41,6 +41,7 @@
   document.querySelectorAll('.shipping-method > .radio > label');
 
   el.forEach(price => {
+    console.log(price);
     const elStr = price.textContent.trim();
     const s = elStr.slice(0, -1);
 
