@@ -74,6 +74,7 @@
           document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
           icon,
         );
+        changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
       }, 500);
     });
   });
