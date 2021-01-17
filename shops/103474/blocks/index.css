@@ -1,1 +1,7 @@
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+
+/* icon MIR */
+footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div.footer_content_container > img:nth-child(3) {
+  display: none;
+}
