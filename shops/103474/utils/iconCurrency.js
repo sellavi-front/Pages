@@ -28,27 +28,25 @@
 </svg>
 `;
 
+  const changeIcon = (list, icon) => {
+    list.forEach((price) => {
+      price.textContent = price.textContent.trim().slice(0, -1);
+      price.insertAdjacentHTML('beforeend', icon);
+    });
+  }
+
   if (document.querySelector('.price')) {
-    var el = document.querySelectorAll('.price');
+    changeIcon(document.querySelectorAll('.price'), icon)
   }
   if (document.querySelector('.price_span')) {
-    var el = document.querySelectorAll('.price_span');
+    changeIcon(document.querySelectorAll('.price_span'), icon)
   }
   if (document.querySelector('.total_text')) {
-    var el = document.querySelectorAll('.total_text');
+    changeIcon(document.querySelectorAll('.total_text'), icon)
   }
   if (document.querySelector('.shipping-method > .radio > label')) {
-    var el = document.querySelectorAll('.shipping-method > .radio > label');
+    changeIcon(document.querySelectorAll('.shipping-method > .radio > label'), icon)
   }
-  if (document.querySelector('.shipping-method > .radio > label')) {
-    var el = document.querySelectorAll('.shipping-method > .radio > label');
-  }
-  el.forEach((price) => {
-    console.log(price);
-    const elStr = price.textContent.trim();
-    const s = elStr.slice(0, -1);
 
-    price.textContent = s;
-    price.insertAdjacentHTML('beforeend', icon);
-  });
+
 })();
