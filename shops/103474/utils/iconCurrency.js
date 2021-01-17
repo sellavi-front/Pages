@@ -33,17 +33,23 @@
       price.textContent = price.textContent.trim().slice(0, -1);
       price.insertAdjacentHTML('beforeend', icon);
     });
-  }
+  };
 
   const elemArr = [
-    '.price' , '.price_span', '.total_text', '.shipping-method > .radio > label', '.product-price' , '.order_list_section__total-lines .text-right',
-    '.item-price', '.cart_drop_down .cart-norm-qty'
-  ]
+    '.price',
+    '.price_span',
+    '.total_text',
+    '.shipping-method > .radio > label',
+    '.product-price',
+    '.order_list_section__total-lines .text-right',
+    '.item-price',
+    '.cart_drop_down .cart-norm-qty',
+    '.single-price > div'
+  ];
 
-  elemArr.forEach(el => {
+  elemArr.forEach((el) => {
     if (document.querySelector(el)) {
-      changeIcon(document.querySelectorAll(el), icon)
+      changeIcon(document.querySelectorAll(el), icon);
     }
-  })
-
+  });
 })();

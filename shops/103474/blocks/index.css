@@ -29,3 +29,8 @@ footer
       -ms-flex-align: center;
           align-items: center;
 }
+
+
+.product-price svg {
+  width: 20px;
+}
