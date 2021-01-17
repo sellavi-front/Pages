@@ -6,7 +6,7 @@ footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div.foot
   display: none;
 }
 
-.price {
+.price_actions .price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
