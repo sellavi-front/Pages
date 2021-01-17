@@ -63,4 +63,11 @@
 
     }, 500);
   }
+
+  document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach(el => {
+    el.addEventListener('click', () => {
+      changeIcon(document.querySelectorAll('.single-price > div'), icon);
+      changeIcon(document.querySelectorAll('.order_list_section__total-lines > div > .text-right'), icon);
+    })
+  })
 })();
