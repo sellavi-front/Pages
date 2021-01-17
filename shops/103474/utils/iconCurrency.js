@@ -44,7 +44,7 @@
     '.order_list_section__total-lines > div > div > .text-right',
     '.item-price',
     '.cart_drop_down .cart-norm-qty',
-    '.single-price > div'
+    '.single-price > div',
   ];
 
   elemArr.forEach((el) => {
@@ -54,8 +54,9 @@
   });
 
   if (location.href.includes('/checkout')) {
-    changeIcon(document.querySelectorAll('.single-price > div'), icon);
-    changeIcon(document.querySelectorAll('.cart_drop_down .cart-norm-qty'), icon);
-
+    setTimeout(() => {
+      changeIcon(document.querySelectorAll('.single-price > div'), icon);
+      changeIcon(document.querySelectorAll('.cart_drop_down .cart-norm-qty'), icon);
+    }, 600);
   }
 })();
