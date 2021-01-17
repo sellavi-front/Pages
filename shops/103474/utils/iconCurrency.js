@@ -28,20 +28,24 @@
 </svg>
 `;
 
-  const el = document.querySelector(
+  const el = document.querySelectorAll(
     '.price',
-  ) || document.querySelector(
+  ) || document.querySelectorAll(
     '.price_span',
-  ) || document.querySelector(
+  ) || document.querySelectorAll(
     '.price_span',
   ) ||
-  document.querySelector(
+  document.querySelectorAll(
     '.total_text',
   ) ||
-  document.querySelector('.shipping-method > .radio > label');
-  const elStr = el.textContent.trim();
-  const s = elStr.slice(0, -1);
+  document.querySelectorAll('.shipping-method > .radio > label');
 
-  el.textContent = s;
-  el.insertAdjacentHTML('beforeend', icon);
+  el.forEach(price => {
+    const elStr = price.textContent.trim();
+    const s = elStr.slice(0, -1);
+
+    price.textContent = s;
+    price.insertAdjacentHTML('beforeend', icon);
+  })
+
 })();
