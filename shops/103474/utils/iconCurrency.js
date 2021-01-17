@@ -37,7 +37,8 @@
   ) ||
   document.querySelector(
     '.total_text',
-  );
+  ) ||
+  document.querySelector('.shipping-method > .radio > label');
   const elStr = el.textContent.trim();
   const s = elStr.slice(0, -1);
 
