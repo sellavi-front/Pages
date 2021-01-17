@@ -50,6 +50,11 @@
   if (document.querySelector('.product-price')) {
     changeIcon(document.querySelectorAll('.product-price'), icon)
   }
-
+  if (document.querySelector('.order_list_section__total-lines .text-right')) {
+    changeIcon(document.querySelectorAll('.order_list_section__total-lines .text-right'), icon)
+  }
+  if (document.querySelector('.item-price')) {
+    changeIcon(document.querySelectorAll('.item-price'), icon)
+  }
 
 })();
