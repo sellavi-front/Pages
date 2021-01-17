@@ -52,4 +52,10 @@
       changeIcon(document.querySelectorAll(el), icon);
     }
   });
+
+  if (location.href.includes('/checkout')) {
+    changeIcon(document.querySelectorAll('.single-price > div'), icon);
+    changeIcon(document.querySelectorAll('.cart_drop_down .cart-norm-qty'), icon);
+
+  }
 })();
