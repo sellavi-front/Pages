@@ -66,17 +66,15 @@
   }
 
   document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach((el) => {
-    el.addEventListener(
-      'click',
-      () => {
-        setTimeout(() => {
-          console.log(123);
-          changeIcon(document.querySelectorAll('.single-price > div'), icon);
-          changeIcon(
-            document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
-            icon,
-          );
-        }, 1000);
+    el.addEventListener('click', () => {
+      setTimeout(() => {
+        console.log(123);
+        changeIcon(document.querySelectorAll('.single-price > div'), icon);
+        changeIcon(
+          document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
+          icon,
+        );
+      }, 500);
     });
   });
 })();
