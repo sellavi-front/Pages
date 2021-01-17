@@ -76,9 +76,7 @@
             document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
             icon,
           );
-        });
-      },
-      1000,
-    );
+        }, 1000);
+    });
   });
 })();
