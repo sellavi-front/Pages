@@ -40,10 +40,10 @@
     '.item-price', '.cart_drop_down .cart-norm-qty'
   ]
 
-  const findElems = elemArr.map(el => document.querySelectorAll(el));
-  console.log(findElems);
-  // if (document.querySelector()) {
-    // // changeIcon(document.querySelectorAll('.price'), icon)
-  // }
+  elemArr.forEach(el => {
+    if (document.querySelector(el)) {
+      changeIcon(document.querySelectorAll(el), icon)
+    }
+  })
 
 })();
