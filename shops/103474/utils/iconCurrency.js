@@ -47,6 +47,9 @@
   if (document.querySelector('.shipping-method > .radio > label')) {
     changeIcon(document.querySelectorAll('.shipping-method > .radio > label'), icon)
   }
+  if (document.querySelector('.product-price')) {
+    changeIcon(document.querySelectorAll('.product-price'), icon)
+  }
 
 
 })();
