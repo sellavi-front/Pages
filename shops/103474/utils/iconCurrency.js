@@ -55,19 +55,29 @@
 
   if (location.href.includes('/checkout')) {
     setTimeout(() => {
-      console.log('enter');
       changeIcon(document.querySelectorAll('.single-price > div'), icon);
       changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
       changeIcon(document.querySelectorAll('.cart_drop_down .cart-norm-qty'), icon);
-      changeIcon(document.querySelectorAll('.order_list_section__total-lines > div > .text-right'), icon);
-
+      changeIcon(
+        document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
+        icon,
+      );
     }, 500);
   }
 
-  document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach(el => {
-    el.addEventListener('click', () => {
-      changeIcon(document.querySelectorAll('.single-price > div'), icon);
-      changeIcon(document.querySelectorAll('.order_list_section__total-lines > div > .text-right'), icon);
-    })
-  })
+  document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach((el) => {
+    el.addEventListener(
+      'click',
+      () => {
+        setTimeout(() => {
+          changeIcon(document.querySelectorAll('.single-price > div'), icon);
+          changeIcon(
+            document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
+            icon,
+          );
+        });
+      },
+      500,
+    );
+  });
 })();
