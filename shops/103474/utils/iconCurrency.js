@@ -35,26 +35,15 @@
     });
   }
 
-  if (document.querySelector('.price')) {
-    changeIcon(document.querySelectorAll('.price'), icon)
-  }
-  if (document.querySelector('.price_span')) {
-    changeIcon(document.querySelectorAll('.price_span'), icon)
-  }
-  if (document.querySelector('.total_text')) {
-    changeIcon(document.querySelectorAll('.total_text'), icon)
-  }
-  if (document.querySelector('.shipping-method > .radio > label')) {
-    changeIcon(document.querySelectorAll('.shipping-method > .radio > label'), icon)
-  }
-  if (document.querySelector('.product-price')) {
-    changeIcon(document.querySelectorAll('.product-price'), icon)
-  }
-  if (document.querySelector('.order_list_section__total-lines .text-right')) {
-    changeIcon(document.querySelectorAll('.order_list_section__total-lines .text-right'), icon)
-  }
-  if (document.querySelector('.item-price')) {
-    changeIcon(document.querySelectorAll('.item-price'), icon)
-  }
+  const elemArr = [
+    '.price' , '.price_span', '.total_text', '.shipping-method > .radio > label', '.product-price' , '.order_list_section__total-lines .text-right',
+    '.item-price', '.cart_drop_down .cart-norm-qty'
+  ]
+
+  const findElems = elemArr.map(el => document.querySelectorAll(el));
+  console.log(findElems);
+  // if (document.querySelector()) {
+    // // changeIcon(document.querySelectorAll('.price'), icon)
+  // }
 
 })();
