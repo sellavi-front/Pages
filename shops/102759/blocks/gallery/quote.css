@@ -28,6 +28,11 @@
   flex-direction: row-reverse;
 }
 
+.quote-fixed {
+  position: fixed;
+  top: 0 !important;
+}
+
 @media (max-width: 575px) {
   .gallery__elem {
     -webkit-box-orient: vertical;

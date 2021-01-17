@@ -21,6 +21,13 @@ if (document.querySelector('.common-home')) {
 
   const cstmSection = document.querySelector('.wrapper > .content-area');
   cstmSection.insertAdjacentHTML('beforeend', new GridImgWithQuote(data).render());
+
+  // const quote = document.querySelector("#home > div > div.content-area > div.gallery.d-flex.flex-column > div:nth-child(1) > div:nth-child(2) > blockquote");
+  // if (document.querySelector("#home > div > div.content-area > div.gallery.d-flex.flex-column > div:nth-child(1) > div:nth-child(2) > blockquote").getBoundingClientRect().top + document.querySelector("#home > div > div.content-area > div.gallery.d-flex.flex-column > div:nth-child(1) > div:nth-child(2)").scrollTop) {
+  //   quote.classList.add('quote-fixed')
+  // }
+
+  // if ()
 }
 
 if (document.querySelector('.wrapper')) {
