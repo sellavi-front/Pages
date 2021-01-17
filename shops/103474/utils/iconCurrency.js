@@ -57,7 +57,9 @@
     setTimeout(() => {
       console.log('enter');
       changeIcon(document.querySelectorAll('.single-price > div'), icon);
+      changeIcon(document.querySelectorAll('.checkout_table .text-right'), icon);
       changeIcon(document.querySelectorAll('.cart_drop_down .cart-norm-qty'), icon);
+
     }, 1500);
   }
 })();
