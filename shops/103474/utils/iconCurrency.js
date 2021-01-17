@@ -68,14 +68,13 @@
   document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach((el) => {
     el.addEventListener('click', () => {
       setTimeout(() => {
-        console.log(123);
         changeIcon(document.querySelectorAll('.single-price > div'), icon);
         changeIcon(
           document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
           icon,
         );
         changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
-      }, 0);
+      }, 500);
     });
   });
 })();
