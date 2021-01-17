@@ -70,6 +70,7 @@
       'click',
       () => {
         setTimeout(() => {
+          console.log(123);
           changeIcon(document.querySelectorAll('.single-price > div'), icon);
           changeIcon(
             document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
