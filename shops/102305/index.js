@@ -8,7 +8,6 @@ import {adv} from "./utils/utils.js"
 import {contactData} from "./utils/utils.js"
 import Footer from "./blocks/footer.js"
 import ProductPage from "./blocks/product-page.js"
-import './bank-info/bank.js'
 
 
 let fixes = new Fixes()
