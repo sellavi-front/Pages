@@ -38,3 +38,7 @@ body span,
 body b {
   font-family: 'Open Sans', sans-serif;
 }
+
+body.sidenav-enabled.ltr .wrapper-opened {
+  position: static;
+}
