@@ -54,10 +54,7 @@ if (document.querySelector('.wrapper')) {
   `,
     );
 
-
-
-  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', () => {
-    document.querySelector('.prevent_touch_banner').insertAdjacentHTML(
+    document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
       'afterend',
       `
       <div class="mobile-navigation-close">
@@ -65,10 +62,15 @@ if (document.querySelector('.wrapper')) {
       </div>
     `,
     );
+
+  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+
+
     document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
       const nav = document.querySelector('.navigation');
       nav.classList.add('nav-closed');
       nav.classList.remove('nav-opened');
+      body.classList.remove('oveflow-hidden')
     });
   });
 }
