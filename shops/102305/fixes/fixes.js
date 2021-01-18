@@ -1,3 +1,10 @@
+import ChangeErrorMessage from './../../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
+import TranslateAboutUs from './../../../fixes/TranslateAboutUs/TranslateAboutUs.js';
+import FooterCopy from './../../../fixes/FooterCopy/FooterCopy.js';
+// import HideLoading from './HideLoading/HideLoading.js';
+
+export { ChangeErrorMessage, TranslateAboutUs, FooterCopy };
+
 export default class Fixes {
   deleteUnnecessaryClasses() {
     if (document.querySelector('.common-home')) {
