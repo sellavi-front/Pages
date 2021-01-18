@@ -168,9 +168,9 @@ body .content-area .page-section.error-page h2 {
 }
 
 .payment {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .payment a {
