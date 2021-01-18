@@ -5,3 +5,5 @@
 @import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 
 @import './header/header.css';
+
+@import './banner/banner.css';
