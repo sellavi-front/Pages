@@ -45,16 +45,9 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   bottom: 0;
   max-width: 100%;
   z-index: 1 !important;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .navigation {
