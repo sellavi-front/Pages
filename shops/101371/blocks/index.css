@@ -3,3 +3,8 @@
 .re {
   bottom: 0;
 }
+
+body.sidenav-enabled .mobile_side_nav>ul > li:not(.home_link) >a {
+  text-transform: lowercase !important;
+}
+
