@@ -134,6 +134,11 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
   border-radius: 0 !important;
 }
 
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: #c9c9c9 !important;
+  border-radius: 0 !important;
+}
+
 #home footer .footer-widgets {
   position: relative;
   padding-bottom: 25px !important;
