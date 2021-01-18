@@ -3,7 +3,6 @@ import TranslateAboutUs from './../../../fixes/TranslateAboutUs/TranslateAboutUs
 import FooterCopy from './../../../fixes/FooterCopy/FooterCopy.js';
 // import HideLoading from './HideLoading/HideLoading.js';
 
-export { ChangeErrorMessage, TranslateAboutUs, FooterCopy };
 
 export default class Fixes {
   deleteUnnecessaryClasses() {
@@ -62,7 +61,6 @@ export default class Fixes {
     }
 
   }
-
-
-
 }
+
+export { ChangeErrorMessage, TranslateAboutUs, FooterCopy };
