@@ -26,6 +26,24 @@ body.theme_11 .wrapper .latest-section h2.section-title {
   margin-left: 5px;
 }
 
+
+/* Search */
+body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .item_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 4 !important;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .add_to_cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2 !important;
+  padding: 0 15px;
+}
+/* end */
+
 #home > div > div.content-area > section > div:nth-child(2) > div {
   padding: 10px !important;
 }
