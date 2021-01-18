@@ -3,3 +3,5 @@
 @import './pay-delivery/pay-delivery.css';
 
 @import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
+
+@import './header/header.css';
