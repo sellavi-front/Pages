@@ -63,3 +63,7 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
  .header .header-search {
   top: 27px;
 }
+
+body .btn.btn-theme.btn-block {
+  margin-left: 0px;
+}
