@@ -8,3 +8,6 @@ body.sidenav-enabled .mobile_side_nav>ul > li:not(.home_link) >a {
   text-transform: lowercase !important;
 }
 
+.page-header h1 {
+  font-size: 36px !important;
+}
