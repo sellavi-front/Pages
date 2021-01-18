@@ -35,6 +35,13 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   flex: 4 !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name {
+  font-size: 12px !important;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #637381;
+}
+
 body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .add_to_cart {
   display: flex;
   flex-direction: column;
