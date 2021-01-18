@@ -1,6 +1,6 @@
 import ChangeErrorMessage from './../../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
-import TranslateAboutUs from './../../../fixes/TranslateAboutUs/TranslateAboutUs.js';
-import FooterCopy from './../../../fixes/FooterCopy/FooterCopy.js';
+import TranslateAboutUs from './../../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import FooterCopy from './../../../fixes/js/FooterCopy/FooterCopy.js';
 // import HideLoading from './HideLoading/HideLoading.js';
 
 
