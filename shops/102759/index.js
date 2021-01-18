@@ -17,7 +17,7 @@ if (document.querySelector('.common-home')) {
   new BigBanner('https://res.cloudinary.com/gz-company/image/upload/v1609859584/Group_276_2_otlany.png').render()
 
   const logo = document.querySelector('header .logo img');
-  logo.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1610377451/Group_1_ux60qc.png');
+  logo.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1610980958/Group_3_rqdumj.png');
 
   const cstmSection = document.querySelector('.wrapper > .content-area');
   cstmSection.insertAdjacentHTML('beforeend', new GridImgWithQuote(data).render());
