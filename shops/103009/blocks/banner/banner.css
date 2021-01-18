@@ -8,6 +8,8 @@
     font-weight: 700;
     text-shadow: none;
     color: black;
+    display: block;
+    width: 599px;
     text-transform: lowercase;
 }
 
