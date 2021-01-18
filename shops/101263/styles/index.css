@@ -55,15 +55,21 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   padding: 0 15px;
 }
 
+body.ltr .wrapper .header .header-wrapper .header-search button i {
+  font-size: 10px !important;
+}
+
 body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .add_to_cart>button {
   position: static;
   border-radius: 2px;
-  font-size: 12px !important;
+  font-size: 10px !important;
   font-weight: 600;
   line-height: 1;
   padding: 14px 0;
   max-width: 200px;
 }
+
+
 /* end */
 
 #home > div > div.content-area > section > div:nth-child(2) > div {
