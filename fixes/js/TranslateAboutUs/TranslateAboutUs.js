@@ -5,7 +5,7 @@ export default class TranslateAboutUs {
     );
     this.widTitle = this.widget.querySelector('.widget-title');
     this.widCat = this.widget.querySelector('.widget-categories>ul>li:first-child>a');
-    this.textTrans = 'О НАС ';
+    this.textTrans = 'О НАС';
     this.textRus = 'О нас';
   }
 
