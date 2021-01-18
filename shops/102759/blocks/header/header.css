@@ -59,7 +59,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     left: 0;
     right: 0;
     width: 100%;
-    max-width: 100%;
+    max-width: 145px;
   }
 }
 
