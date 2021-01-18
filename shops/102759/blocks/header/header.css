@@ -55,7 +55,11 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 
 @media (max-width: 591px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: 0 auto 0 15% !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
   }
 }
 
