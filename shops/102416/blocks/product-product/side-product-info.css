@@ -171,4 +171,8 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     .information-contact .form-button.form-button-submit.btn.btn-theme.btn-theme-dark {
         color: black !important;
     }
+
+    #content > div > div > div:nth-child(1) > section.delivery__content > p.delivery__content-title {
+        margin-top: 20px
+    }
 }
