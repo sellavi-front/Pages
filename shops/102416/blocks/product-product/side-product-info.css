@@ -159,4 +159,8 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     .product-product .product-single .bootstrap-select>.dropdown-menu {
         z-index: 999;
     }
+
+    .featured-products-carousel.products.grid {
+        display: flex;
+    }
 }
