@@ -71,3 +71,9 @@ body .btn.btn-theme.btn-block {
 #home > div.wrapper.wrapper-closed > div > section > div > div > div.col-lg-6.login_wrapper > form > div > div.col-md-12.col-lg-6.text-right-lg.forgot_password_holder {
   margin-top: 20px
 }
+
+@media (min-device-width: 480px) and (max-device-width: 993px) {
+  #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+      right: 150px
+  }
+}
