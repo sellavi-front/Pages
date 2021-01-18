@@ -70,6 +70,23 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
 
 /* end */
 
+/* categories in categories */
+.media_holder {
+  margin: 15px;
+}
+
+body.theme_11 .wrapper .subcategories_top>div>div>.media_holder>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+  font-size: 12px !important;
+  line-height: 24px;
+  display: block;
+  margin: 10px 0;
+  padding: 0 16px;
+  color: #637381;
+  font-weight: 400;
+}
+
+/* end */
+
 #home > div > div.content-area > section > div:nth-child(2) > div {
   padding: 10px !important;
 }
