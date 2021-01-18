@@ -95,9 +95,8 @@
 
 @media (max-width: 991px) {
 
-
-  .info-block__content-text {
-    margin-top: 40px;
+  .info-block__content {
+    width: 100%;
   }
 
   .info-block > .row {
@@ -121,6 +120,7 @@
 
   .info-block__content-text {
     margin-left: 0 !important;
+    margin-top: 40px;
   }
 
   .info-block .row.d-flex {
