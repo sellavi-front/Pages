@@ -62,9 +62,9 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 }
 
 @media (max-width: 1199px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
-  }
+  } */
 
   .header-wrapper > div {
     max-width: 100% !important;
