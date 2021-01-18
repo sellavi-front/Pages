@@ -5,11 +5,11 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 
 if (document.querySelector('.common-home')) {
-  document.querySelector('#home > div > div.content-area > div.info-info').insertAdjacentHTML('afterend', '<div class="container"><span>Каталог товаров</span></div>');
+  document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="info-info"><div class="container"><div class="chist"><span>У нас есть оборудование для прочистки :</span><div class="images-cat"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981545/Group_263_yqbfu2.png"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981548/Group_262_qvsvtl.png"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981550/Group_261_dcngmx.png"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981552/Group_264_obwqzn.png"></div></div></div></div>');
 }
 
 if (document.querySelector('.common-home')) {
-  document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="info-info"><div class="container"><div class="chist"><span>У нас есть оборудование для прочистки :</span><div class="images-cat"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981545/Group_263_yqbfu2.png"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981548/Group_262_qvsvtl.png"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981550/Group_261_dcngmx.png"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610981552/Group_264_obwqzn.png"></div></div></div></div>');
+  document.querySelector('#home > div > div.content-area > div.info-info').insertAdjacentHTML('afterend', '<div class="container"><span>Каталог товаров</span></div>');
 }
 
 if (document.querySelector('.logo')) {
