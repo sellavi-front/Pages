@@ -52,6 +52,11 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
 }
 
 
+#search_results > a > div.add_to_cart > button > i {
+  display: none !important;
+}
+
+
 body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a .add_to_cart>button {
   position: static;
   border-radius: 2px;
