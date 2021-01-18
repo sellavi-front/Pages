@@ -7,7 +7,7 @@ import '../../components/HeaderTypeTwo/HeaderTypeTwo.js'
 import '../../components/PictureCategories/PictureCategories.js'
 
 if(pages.home) {
-  renderBanner()
+  //renderBanner()
   fixHomeCategories()
 }
 
