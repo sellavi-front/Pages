@@ -2,11 +2,11 @@
 @import '../../../../components/FormBasic/FormBasic.css';
 @import './components/InfoBlock.css';
 
-#content .container {
+body.information-information-5752 #content .container {
   padding: 0 !important;
 }
 
-#content > div > div > p {
+body.information-information-5752 #content > div > div > p {
   display: none;
 }
 
