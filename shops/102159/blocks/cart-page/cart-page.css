@@ -20,3 +20,8 @@ body.checkout-checkout input.form-control {
   -ms-flex-wrap: nowrap !important;
       flex-wrap: nowrap !important;
 }
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+  left: 0 !important;
+  right: auto !important;
+}
