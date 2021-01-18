@@ -57,6 +57,10 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
           justify-content: center;
 }
 
+.navigation {
+  z-index: 999;
+}
+
 @media (max-width: 1199px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
