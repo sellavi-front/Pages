@@ -8,3 +8,7 @@ body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .hea
 body.common-home .menu-toggle svg {
   stroke: white !important;
 }
+
+.logo img {
+  max-width: 88px !important;
+}
