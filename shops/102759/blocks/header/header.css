@@ -28,6 +28,13 @@ body.theme_11.common-home .wrapper .header {
   top: 4px !important
 }
 
+.mobile-navigation-close {
+  width: 23px;
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+
 /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 21% !important;
 } */
@@ -35,6 +42,7 @@ body.theme_11.common-home .wrapper .header {
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: auto !important;
   left: 0 !important;
+  width: 100% !important;
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {

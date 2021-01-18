@@ -39,6 +39,18 @@ if (document.querySelector('.wrapper')) {
     <rect y="14" width="23" height="1" fill="black"/>
   </svg>
   `)
+
+  document.querySelector('.prevent_touch_banner').insertAdjacentHTML('afterend', `
+    <div class="mobile-navigation-close">
+      <i class="fal fa-times"></i>
+    </div>
+  `)
+
+  document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+    const nav = document.querySelector('.navigation');
+    nav.classList.add('nav-closed');
+    nav.classList.remove('nav-opened');
+  })
 }
 
 if (location.href.includes('term-of-use')) {
