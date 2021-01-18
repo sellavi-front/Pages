@@ -70,7 +70,7 @@ if (document.querySelector('.wrapper')) {
       const nav = document.querySelector('.navigation');
       nav.classList.add('nav-closed');
       nav.classList.remove('nav-opened');
-      body.classList.remove('oveflow-hidden')
+      document.querySelector('body').classList.remove('oveflow-hidden')
     });
   });
 }
