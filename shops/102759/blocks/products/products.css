@@ -30,7 +30,8 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
   padding-right: 0 !important;
 }
 
-body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button:hover {
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button:hover,
+body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   color: white !important;
 }
 
