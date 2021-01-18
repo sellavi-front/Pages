@@ -54,16 +54,17 @@ if (document.querySelector('.wrapper')) {
   `,
     );
 
-  document.querySelector('.prevent_touch_banner').insertAdjacentHTML(
-    'afterend',
-    `
-    <div class="mobile-navigation-close">
-      <i class="fal fa-times"></i>
-    </div>
-  `,
-  );
+
 
   document.querySelector('.mobile-navigation-wrapper').addEventListener('click', () => {
+    document.querySelector('.prevent_touch_banner').insertAdjacentHTML(
+      'afterend',
+      `
+      <div class="mobile-navigation-close">
+        <i class="fal fa-times"></i>
+      </div>
+    `,
+    );
     document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
       const nav = document.querySelector('.navigation');
       nav.classList.add('nav-closed');
