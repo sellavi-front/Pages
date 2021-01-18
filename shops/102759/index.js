@@ -3,7 +3,7 @@ import '../../components/PictureCategories/PictureCategories.js'
 import { requsites, dataContact } from './utils/requsites.js';
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 // import '../../fixes/js/TranslateFix/TranslateFix.js'
-// import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
