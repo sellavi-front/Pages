@@ -150,3 +150,13 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     position: relative;
     top: -30px;
 }
+
+@media (max-device-width: 480px) {
+    .buttons.d-flex.flex-wrap.fixed_mobile_button {
+        z-index: 1 !important;
+    }
+    
+    .product-product .product-single .bootstrap-select>.dropdown-menu {
+        z-index: 999;
+    }
+}
