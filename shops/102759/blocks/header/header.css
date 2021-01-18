@@ -53,6 +53,13 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   }
 }
 
+@media (max-width: 591px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto 0 15% !important;
+  }
+}
+
+
 @media (max-width: 495px) {
   .logo img {
     max-width: 145px !important;
