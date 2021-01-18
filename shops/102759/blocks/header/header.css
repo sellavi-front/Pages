@@ -28,13 +28,33 @@ body.theme_11.common-home .wrapper .header {
   top: 4px !important
 }
 
-body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+/* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 21% !important;
-}
+} */
 
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: auto !important;
   left: 0 !important;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  z-index: 1 !important;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 1199px) {
