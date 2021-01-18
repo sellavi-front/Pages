@@ -5,7 +5,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 
 if (document.querySelector('.common-home')) {
-  document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="container"><span>Каталог товаров</span></div>');
+  document.querySelector('#home > div > div.content-area > div.info-info').insertAdjacentHTML('afterend', '<div class="container"><span>Каталог товаров</span></div>');
 }
 
 if (document.querySelector('.common-home')) {
