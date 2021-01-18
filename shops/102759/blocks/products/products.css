@@ -30,6 +30,10 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
   padding-right: 0 !important;
 }
 
+.thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+  color: white !important;
+}
+
 @media (max-width: 1199px) {
   body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
     padding-right: 30px;
