@@ -1,5 +1,13 @@
 @import './pay-delivery/pay-delivery.css';
 @import './../../../fixes/js/FooterCopy/FooterCopy.css';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body,
+a, p, span, div, li, ul,
+h1, h2, h3, h4, h5, h6,
+.price, .section-title {
+  font-family: 'Comfortaa', cursive !important;
+}
 
 /* Footer */
 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
