@@ -5,3 +5,21 @@ body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
 body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block, body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a {
   color: black !important;
 }
+
+body .media-links .row {
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+}
+
+body .media-links .btn.btn-theme-default, body .media-links .btn.btn-theme {
+  font-size: 11px !important;
+}
+
+body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a:hover {
+  color: white !important;
+  border-width: 3px;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets {
+  z-index: 999;
+}
