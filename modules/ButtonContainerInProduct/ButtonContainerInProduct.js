@@ -25,7 +25,7 @@ export default class ButtonContainerInProduct {
 let oldHeight = document.querySelector(".row.products.grid").clientHeight
 document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
-  if(oldHeight < newHeight) {
+  if(oldHeight <= newHeight) {
     console.log("Listener of height row products is working!")
     const price = document.querySelectorAll('.product-item .price');
     const addToCart = document.querySelectorAll('.add_to_cart');
