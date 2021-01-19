@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Comfortaa', cursive !important;
 }
 
+body.ltr .thumbnail .caption-title {
+  text-align: center !important;
+}
+
 /* Footer */
 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 .wrapper footer.footer .footer-widgets .widget .widget-title {
