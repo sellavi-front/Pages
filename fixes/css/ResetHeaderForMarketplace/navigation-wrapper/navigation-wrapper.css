@@ -40,7 +40,7 @@ body.ru.ltr
   > ul
   li {
   background: white !important;
-  padding: 15px 0 !important;
+  padding: 5px 5px !important;
   border-right: 0 !important;
   border-left: 0 !important;
 }
@@ -57,7 +57,7 @@ body.theme_11
 }
 
 body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li>a, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li>a {
-  text-align: left !important;
+  text-align: center !important;
 }
 
 body.theme_11
