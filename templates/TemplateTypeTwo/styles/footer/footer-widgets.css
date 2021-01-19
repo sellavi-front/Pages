@@ -4,26 +4,34 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   margin-bottom: 5px !important;
 }
 
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
+body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: black !important;
+}
+
 .footer-widgets .row {
-  flex-wrap: nowrap !important;
-  width:  100% !important;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+  width: 100% !important;
 }
 
 @media (max-width: 991px) {
   .footer-widgets .row {
-    justify-content: space-between !important;
-    flex-wrap: wrap !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
   }
 }
 
 @media (max-width: 767px) {
-
   .footer-widgets .row {
     margin: 0 !important;
   }
 
   body.ltr.ru .wrapper footer.footer .footer-widgets {
-    border-top: 1px solid #C4C4C4 !important;
+    border-top: 1px solid #c4c4c4 !important;
   }
 
   .footer-widgets .row .col-md-3:nth-child(1),
@@ -33,7 +41,7 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
 
   .footer-widgets .row .col-md-3:nth-child(2),
   .footer-widgets .row .col-md-3:nth-child(3) {
-    border-top: 1px solid #C4C4C4 !important;
+    border-top: 1px solid #c4c4c4 !important;
     padding-top: 20px !important;
   }
 }
