@@ -17,4 +17,5 @@ body .media-links .btn.btn-theme-default, body .media-links .btn.btn-theme {
 
 body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a:hover {
   color: white !important;
+  border-width: 3px;
 }
