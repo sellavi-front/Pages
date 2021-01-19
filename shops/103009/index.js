@@ -65,4 +65,6 @@ if (location.href.includes('pay-delivery')) {
   req.setTemplate();
 }
 
+const footerContainer = document.querySelector('.footer-widgets>div>div');
+
 new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
