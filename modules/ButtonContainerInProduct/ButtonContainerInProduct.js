@@ -22,8 +22,8 @@ export default class ButtonContainerInProduct {
   }
 }
 
-let oldHeight = document.querySelector("#content > div > div.row.products.grid").clientHeight
-document.querySelector("#content > div > div.row.products.grid").addEventListener("transitionend", () => {
+let oldHeight = document.querySelector(".row.products.grid").clientHeight
+document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
   let newHeight = document.querySelector("#content > div > div.row.products.grid").clientHeight
   if(oldHeight < newHeight) {
     const price = document.querySelectorAll('.product-item .price');
