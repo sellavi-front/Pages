@@ -1,0 +1,9 @@
+.page-header > h1 {
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.page-header > p {
+  font-size: 16px;
+}

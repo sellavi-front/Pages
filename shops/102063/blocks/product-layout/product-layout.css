@@ -75,7 +75,7 @@ body .btn.btn-theme.btn-theme-transparent:hover {
 }
 
 body .btn.btn-theme.btn-theme-transparent:hover i {
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 @media (max-width: 495px) {
@@ -88,4 +88,27 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
 
     margin-bottom: -100px !important;
   }
+}
+
+.product-item {
+  border: 2px solid #d4d4d470;
+  margin: -1px;
+}
+
+.caption.text-center {
+  max-height: fit-content !important;
+}
+
+.thumbnail .price {
+  margin-bottom: 0px !important;
+  display: flex !important;
+  align-items:center !important;
+}
+
+body.ltr .thumbnail .caption-title {
+  text-align: center;
+}
+
+body.theme-blue-1 .thumbnail .price_actions .add_to_cart button:hover, body.theme-blue-1 .thumbnail .price ins {
+  color: #000000;
 }

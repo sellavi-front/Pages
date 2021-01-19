@@ -1,0 +1,202 @@
+#home > div > footer > div.footer-widgets > div.container > div {
+    display: flex;
+    justify-content: center;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4 {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+    display: flex;
+
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(3) {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li > a {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+body.ltr .widget-categories ul li a:before {
+    display: none;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li {
+    border: 0px;
+}
+
+body .footer .footer-widgets {
+    padding: 10px 0;
+    margin-top: 0;
+    background-color: white;
+}
+
+#home > div > footer > div.footer-meta {
+    padding: 0px !important ;
+}
+
+#home > div > footer {
+    border-top: 2px solid black;
+}
+
+/* other pages */
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(1) {
+    display: none;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(3) {
+    display: none;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4 {
+    display: none;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li {
+    border: 0px;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+    display: flex;
+}
+
+#home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li > a {
+    font-size: 13px;
+}
+
+#home > footer > div.footer-widgets {
+    padding: 10px;
+}
+
+#home > footer > div.footer-meta {
+    padding: 0px !important;
+}
+
+@media (max-device-width: 480px) {
+    #home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+        flex-direction: column !important;
+    }
+
+    .about__item {
+        padding: 0px;
+    }
+
+    #home > div > div > div > div {
+        flex-direction: column;
+    }
+    
+    #home > div > div > div > div > iframe {
+        width: 100%;
+    }
+
+    #home > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media (min-device-width: 480px) and (max-device-width: 1200px) {
+    .about__item {
+        justify-content:center;
+    }
+
+
+
+    h2.about__item_title {
+        font-size: 20px !important;
+    }
+
+    .flex-logo-text {
+        left: 140px;
+        top: -25px
+    }
+
+    .thisLogo {
+        background-size: contain;
+        background-repeat:no-repeat;
+
+    }
+
+    #home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-sm-6.footer_content_container {
+        width: 50%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .search_field {
+        left: -100px !important;
+    }
+
+    #search > button {
+        left: 30px;
+    }
+
+    div#search {
+        width: 50px;
+    }
+}
+
+@media (min-device-width: 930px) and (max-device-width: 1200px) {
+    nav.navigation.closed.clearfix.nav.nav-closed {
+        right: 300px;
+    }
+
+    #home > div > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > div {
+        visibility: hidden; 
+    }
+} 
+
+
+
+@media (max-device-width: 480px) {
+    input#msg {
+        width: 100%;
+    }
+
+    input#name {
+        width: 100%;
+    }
+}
+
+@media (min-device-width: 480px) and (max-device-width: 992px) {
+    input#name {
+       margin-bottom: 20px;
+    }
+
+    #home > div > div > div.send-form > div > div > button {
+        height: 40px
+    }
+}
+
+@media (max-device-width: 480px) {
+    .col-sm-6.footer_content_container {
+        width: fit-content;
+    }
+    
+    .col-sm-6 {
+        width: fit-content;
+    }
+    
+    .col-12.footer_content_text {
+        justify-content: center;
+    }
+}

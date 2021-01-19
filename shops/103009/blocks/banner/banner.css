@@ -1,0 +1,26 @@
+#banner0 > div > div > div > div > div > div > div > div > div {
+    margin: 0px;
+    text-align: left;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+    font-size: 37px;
+    font-weight: 700;
+    text-shadow: none;
+    color: black;
+    display: block;
+    width: 599px;
+    text-transform: lowercase;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > span:first-letter {
+    text-transform: uppercase !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    padding: 20px 50px;
+    margin-top: 20px;
+}

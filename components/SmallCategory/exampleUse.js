@@ -27,7 +27,7 @@ const data = [
   },
   {
     href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606652783/photo-1578496481449-cf2e845cc00c_sbkxt4.png',
     title: 'Анализ воды',
   },
 ];

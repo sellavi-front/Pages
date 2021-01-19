@@ -30,7 +30,7 @@ export default class ColorChoise {
     this.data.forEach((el) => {
       colorLabel.forEach((label) => {
         if (el.color.toLowerCase() === label.textContent.toLowerCase()) {
-          label.style.backgroundColor = el.hex;
+          label.style.background = el.hex;
         }
       });
     });
