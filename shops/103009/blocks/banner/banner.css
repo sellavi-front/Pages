@@ -24,3 +24,19 @@
     padding: 20px 50px;
     margin-top: 20px;
 }
+
+#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > div {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+    margin-top: 20px;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > div {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+    margin-top: 20px;
+}
