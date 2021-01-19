@@ -7,8 +7,6 @@ if (document.querySelector('.product-item')) {
     for (let mutation of mutationsList) {
       if (mutation.type === 'childList') {
         target.querySelectorAll('.product-item img').forEach((prod) => {
-          console.log(prod);
-
           prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
         });
       }
