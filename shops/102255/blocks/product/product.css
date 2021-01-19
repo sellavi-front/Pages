@@ -267,6 +267,11 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
     background-position-x: center !important;
 }
 
+.product-category-6457.product-category .content-area > section.page-section.titles {
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611062152/Component_1_5_ufv3rc.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+}
 
 @media (max-device-width: 480px) {
     .product-category-5710.product-category .content-area > section.page-section.titles {
@@ -278,6 +283,10 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
     }
 
     .product-category-6459.product-category .content-area > section.page-section.titles {
+        background-size: cover !important
+    }
+
+    .product-category-6457.product-category .content-area > section.page-section.titles {
         background-size: cover !important
     }
 }
