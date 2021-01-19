@@ -1,6 +1,6 @@
 const socIconsData = [
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1608216460/102367/icons8-whatsapp_1_e3trkd.svg',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611049851/icons8-whatsapp_1_cvi8yf.png',
     link: 'https://wa.me/79688205210',
   },
 ];
