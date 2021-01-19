@@ -10,14 +10,9 @@ export default class TranslateAboutUs {
   }
 
   translate() {
-<<<<<<< HEAD
     if (this.widTitle.textContent == this.textTrans || this.widCat.textContent == this.textTrans) {
       this.widTitle.textContent = this.textRus.toLowerCase();
       this.widCat.textContent = this.textRus;
-=======
-    if (this.widTitle.textContent === this.textTrans || this.widCat.textContent === this.textTrans) {
-      this.widTitle.textContent = this.textRus;
->>>>>>> eugene-dev/eugene-dev
     }
   }
 }
