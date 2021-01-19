@@ -13,3 +13,14 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requisites, 'afterend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ', media);
   req.setTemplate();
 }
+
+if (location.href.includes('pay-delivery')) {
+  const req = new Requisites(
+    requsites,
+    'afterend',
+    'ИП "Кучма Виктория Геннадьевна"',
+    document.querySelector('#content > div > div'),
+    dataContact,
+  );
+  req.setTemplate();
+}
