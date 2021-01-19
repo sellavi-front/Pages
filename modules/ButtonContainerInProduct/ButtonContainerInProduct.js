@@ -12,17 +12,32 @@ export default class ButtonContainerInProduct {
   createContainer() {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
-        'afterend',
+        'beforeend',
         `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
 
-    // this.delete(addToCart);
-    // this.delete(addToWishList);
+    this.delete(addToCart);
+    this.delete(addToWishList);
   }
 }
 
-let oldHeight = document.querySelector(".row.products.grid").clientHeight
+const priceActions = document.querySelectorAll('.price_actions');
+const addToCart = document.querySelectorAll('.add_to_cart');
+const addToWishList = document.querySelectorAll('.add_to_wishlist');
+
+const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, priceActions);
+
+buttonContainerInProduct.createContainer();
+
+// const btnContainer = document.querySelectorAll('.buttons__container')
+
+// const addCartInProductCard = new AddElemInContainer(addToCart, btnContainer);
+// const addLikeInProductCard = new AddElemInContainer(addToWishList, btnContainer);
+
+//${this.addToCart.outerHTML}${this.addToWishList.outerHTML}
+
+/*let oldHeight = document.querySelector(".row.products.grid").clientHeight
 document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
   if(oldHeight < newHeight && document.querySelector(".buttons__container")) {
@@ -50,6 +65,4 @@ document.querySelector(".row.products.grid").addEventListener("transitionend", (
         imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
       }
     }
-  } else console.log("Smth wrong with height")
-
-})
+  } else console.log("Smth wrong with height")*/
