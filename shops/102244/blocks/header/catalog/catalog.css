@@ -25,7 +25,7 @@
 
 
   body.sidenav-enabled .mobile_side_nav>ul {
-    background: white;
+    background: black;
     max-width: 1140px;
     width: 100%;
     overflow: visible !important;
