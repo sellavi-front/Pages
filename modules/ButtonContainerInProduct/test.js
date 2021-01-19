@@ -46,7 +46,7 @@ for (let i = 0; i < imgEl.length; i++) {
   }
 }
 
-const productWrapper = document.querySelector(".row.products.grid");
+const productWrapper = document.querySelector("#home > div > div.content-area > section.page-section.latest-section > div > div");
 let oldHeight = document.querySelector(".row.products.grid").clientHeight;
 const arrHeightFrame = [
   productWrapper.clientHeight,
