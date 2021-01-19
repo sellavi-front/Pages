@@ -1,6 +1,6 @@
 window.onload = () => {
-  if (document.querySelector('.product-item')) {
-    let target = document.querySelector('#content > div > div.row.products.grid');
+  if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
+    let target = document.querySelector('body div.products');
     const config = {
       childList: true,
     };
@@ -8,7 +8,9 @@ window.onload = () => {
       for (let mutation of mutationsList) {
         if (mutation.type === 'childList') {
           target.querySelectorAll('.product-item img').forEach((prod) => {
-            prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
+            if (prod.getAttribute('src').includes('e_blur:2000')) {
+              prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
+            }
           });
         }
       }
