@@ -11,7 +11,7 @@ export default class ButtonContainerInProduct {
 
   createContainer() {
     this.container.forEach((btn, i) => {
-      console.log(btn.nextSibling.previousElementSibling);
+      console.log(btn.closest('div'));
       // if (!btn.nextSibling.classList.contains('button__container')) {
       btn.insertAdjacentHTML(
         'afterend',
