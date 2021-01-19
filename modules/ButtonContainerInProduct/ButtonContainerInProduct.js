@@ -24,10 +24,10 @@ export default class ButtonContainerInProduct {
 
 let arrHeights = []
 let oldHeight = document.querySelector(".row.products.grid").clientHeight
-oldHeight.push(arrHeights)
+arrHeights.push(oldHeight)
 document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
-  newHeight.push(arrHeights)
+  arrHeights.push(newHeight)
   console.log(arrHeights)
   arrHeights.map((item, i) => {
     if(item[i] < item[i+1]) {
