@@ -22,29 +22,29 @@ export default class ButtonContainerInProduct {
   }
 }
 
-const price = document.querySelectorAll('.product-item .price');
-const addToCart = document.querySelectorAll('.add_to_cart');
+// const price = document.querySelectorAll('.product-item .price');
+// const addToCart = document.querySelectorAll('.add_to_cart');
 
-if (document.querySelectorAll('.add_to_wishlist').length === 0) {
-  var wishList = document.querySelectorAll('.remove_from_wishlist');
-} else {
-  var wishList = document.querySelectorAll('.add_to_wishlist');
-}
-
-
-const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
-
-buttonContainerInProduct.createContainer();
-buttonContainerInProduct.delete(addToCart);
-buttonContainerInProduct.delete(wishList);
+// if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+//   var wishList = document.querySelectorAll('.remove_from_wishlist');
+// } else {
+//   var wishList = document.querySelectorAll('.add_to_wishlist');
+// }
 
 
-let imgEl = document.querySelectorAll('.img-fluid.lazy');
-for (let i = 0; i < imgEl.length; i++) {
-  if (imgEl[i].getAttribute('data-src')) {
-    imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
-  }
-}
+// const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
+
+// buttonContainerInProduct.createContainer();
+// buttonContainerInProduct.delete(addToCart);
+// buttonContainerInProduct.delete(wishList);
+
+
+// let imgEl = document.querySelectorAll('.img-fluid.lazy');
+// for (let i = 0; i < imgEl.length; i++) {
+//   if (imgEl[i].getAttribute('data-src')) {
+//     imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
+//   }
+// }
 
 const productWrapper = document.querySelector("#home > div > div.content-area > section.page-section.latest-section > div > div");
 let oldHeight = document.querySelector(".row.products.grid").clientHeight;
@@ -53,7 +53,7 @@ const arrHeightFrame = [
 ]
 productWrapper.addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
-  if(oldHeight < newHeight) {
+  if(oldHeight <= newHeight) {
     console.log("Listener of height row products is working!")
     const price = document.querySelectorAll('.product-item .price');
     const addToCart = document.querySelectorAll('.add_to_cart');
