@@ -103,3 +103,8 @@ span.second-title-text2 {
         padding-bottom: 15px;
     }
 }
+
+
+#home > div > div.content-area > section.page-section.subcategories_top {
+    display: none;
+}
