@@ -7,10 +7,10 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
 }
 
 body .media-links .row {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
 }
 
-body .media-links .btn.btn-theme-default {
+body .media-links .btn.btn-theme-default, body .media-links .btn.btn-theme {
   font-size: 11px !important;
 }
