@@ -79,9 +79,7 @@ body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist 
         height: 70%;
     }
 
-    body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
-        
-    }
+   
 
     body.theme-orange-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-orange-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
         padding-top: 10px;
