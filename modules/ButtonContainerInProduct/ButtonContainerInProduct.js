@@ -29,7 +29,7 @@ document.querySelector(".row.products.grid").addEventListener("transitionend", (
   let newHeight = document.querySelector(".row.products.grid").clientHeight
   newHeight.push(arrHeights)
   arrHeights.map((item, i) => {
-    if(item[i] > item[i+1]) {
+    if(item[i] < item[i+1]) {
       console.log("Listener of height row products is working!")
       const price = document.querySelectorAll('.product-item .price');
       const addToCart = document.querySelectorAll('.add_to_cart');
