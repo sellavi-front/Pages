@@ -87,6 +87,3 @@ body .delivery__content-label {
  text-align: center;
 }
 
-div.d-flex:nth-child(2) {
-  display: none !important;
-}
