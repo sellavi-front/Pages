@@ -12,7 +12,9 @@ body .footer .footer-widgets {
 }
 
 .footer_content_text {
-  justify-content: flex-start !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
 }
 
 .widget-categories ul li a:before,
@@ -27,7 +29,9 @@ body .footer .footer-widgets {
 }
 
 .footer-widgets div .row {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .widget-categories>ul>li>a {
@@ -35,14 +39,23 @@ body .footer .footer-widgets {
 }
 
 .footer_content_wrapper {
-  justify-content: space-between !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
 }
 
 .footer_content_wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   /* padding: 5%; */
 }
 
@@ -66,19 +79,20 @@ body .footer .footer-widgets {
 
 @media (max-width: 768px) {
   .footer-widgets div .row {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .footer_content_wrapper ul {
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
   #home > div > div > footer > div.footer-meta > div {
     padding-left: 15px !important;
   }
@@ -90,7 +104,9 @@ body .footer .footer-widgets {
 
   .footer_content_text {
     margin-top: 20px;
-    justify-content: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 }
 
@@ -100,15 +116,26 @@ body .footer .footer-widgets {
 
 @media (max-device-width: 480px) {
   #home > div > footer > div.footer-widgets > div.container > div {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
   }
 
   #home > div > footer > div.footer-meta {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center !important;
-      align-items: center !important;
-      align-self: center;
+      -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+              justify-content: center !important;
+      -webkit-box-align: center !important;
+          -ms-flex-align: center !important;
+              align-items: center !important;
+      -ms-flex-item-align: center;
+          align-self: center;
   }
 
   #home > div > footer > div.footer-meta > div {
@@ -116,8 +143,12 @@ body .footer .footer-widgets {
   }
 
   #home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
   }
 }
 
@@ -126,11 +157,7 @@ body .footer .footer-widgets {
 }
 
 .content-area {
-<<<<<<< HEAD
-  padding-bottom: 0px !important;    
-=======
   padding-bottom: 0px !important;
->>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 
 }
 
@@ -140,9 +167,7 @@ body .footer .footer-widgets {
 }
 
 #home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div {
-  justify-content: center;
-<<<<<<< HEAD
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-=======
-}
->>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f

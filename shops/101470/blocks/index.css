@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
-<<<<<<< HEAD
-=======
-@import '../../../fixes/js/FooterCopy/FooterCopy.css';
-
->>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 @import './banner/banner.css';
 @import './section-title/section-title.css';
 
@@ -18,10 +13,7 @@
 @import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
 
 @import '../../../modules/BigBanner/BigBanner.css';
-<<<<<<< HEAD
 /*@import '../../../fixes/FooterCopy/FooterCopy.css';*/
-=======
->>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
@@ -51,7 +43,9 @@ body.ltr ul {
 }
 
 #home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper {
-  justify-content: center !important
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important
 }
 
 #home > div > header > div.header-wrapper > div.container-fluid > ul:nth-child(3) {
@@ -59,8 +53,11 @@ body.ltr ul {
 }
 
 .header_widgets {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .header_widgets a {
@@ -73,7 +70,11 @@ body.ltr ul {
 }
 
 .header-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
