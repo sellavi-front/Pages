@@ -54,6 +54,7 @@ document.querySelector(".row.products.grid").addEventListener("transitionend", (
           imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
         }
       }
+      arrHeights.pop()
     } else console.log("Smth wrong with height")
   })
 
