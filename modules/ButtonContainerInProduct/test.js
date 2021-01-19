@@ -11,12 +11,13 @@ export default class ButtonContainerInProduct {
 
   createContainer() {
     this.container.forEach((btn, i) => {
-      if (!btn.nextSibling.classList.contains('button__container')) {
+      console.log(btn.nextSibling);
+      // if (!btn.nextSibling.classList.contains('button__container')) {
         btn.insertAdjacentHTML(
           'afterend',
           `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
         );
-      }
+      // }
     });
   }
 }
