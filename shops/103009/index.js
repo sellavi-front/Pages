@@ -68,4 +68,4 @@ new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 
 if (document.querySelector('.footer-widgets')) {
   document.querySelector('#home > div > footer > div.footer-widgets > div.container > div > div.soc-icons > div > div').insertAdjacentHTML('beforebegin', '<div class="title-socIcon">Мы в соцсетях</div>');
-} 
+}  
