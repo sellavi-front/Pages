@@ -51,3 +51,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     font-weight: 800;
     color: black;
 }
+
+#home > div > div.content-area > section.page-section.homefeatured_category > div > div > div {
+    margin: 0px 10px 0px 10px !important;
+}
