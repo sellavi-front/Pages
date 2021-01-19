@@ -13,3 +13,5 @@
 @import './product-card/product-card.css';
 
 @import './footer/footer.css';
+
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
