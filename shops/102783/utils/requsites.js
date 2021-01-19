@@ -11,4 +11,14 @@ const requisites = {
 };
 
 
-export default requisites;
+const dataContact = {
+  adress: 'Ростовская область Каменский район х.лесной ул. Лермонтова 9 кв 7',
+  phone: '89064246888',
+  city: 'г. Москва',
+  timeWork: `Пн-Пт 9:00 - 18:00`,
+}
+
+export {
+  dataContact,
+  requisites
+};
