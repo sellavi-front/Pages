@@ -8,6 +8,7 @@ import {adv} from "./utils/utils.js"
 import {contactData} from "./utils/utils.js"
 import Footer from "./blocks/footer.js"
 import ProductPage from "./blocks/product-page.js"
+import "./../../fixes/js/RemoveBLur/RemoveBlur.js"
 
 
 let fixes = new Fixes()
