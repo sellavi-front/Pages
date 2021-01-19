@@ -76,7 +76,7 @@ productWrapper.addEventListener('transitionend', (e) => {
       }
     }
   } else console.log('Smth wrong with height');
-});
+}, false);
 
 //   const price = document.querySelectorAll('.product-item .price');
 // const addToCart = document.querySelectorAll('.add_to_cart');
