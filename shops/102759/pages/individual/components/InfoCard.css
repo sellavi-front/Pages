@@ -1,0 +1,33 @@
+.info-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.info-card__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.info-card__item:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.info-card__elem img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .info-card {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}

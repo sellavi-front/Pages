@@ -15,7 +15,7 @@ body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
- 
+
 }
 
 body.theme_11.common-home .wrapper .header {
@@ -28,8 +28,50 @@ body.theme_11.common-home .wrapper .header {
   top: 4px !important
 }
 
-body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+.mobile-navigation-close {
+  width: 23px;
+  position: absolute;
+  top: 30px;
+  left: 10%;
+}
+
+/* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 21% !important;
+} */
+
+body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+  right: auto !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  padding-top: 100px !important;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  z-index: 1 !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation {
+  z-index: 999;
+}
+
+@media (max-width: 1199px) {
+  /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto 0 10% !important;
+  } */
+
+  .header-wrapper > div {
+    max-width: 100% !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -38,8 +80,17 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   }
 }
 
-@media (max-width: 495px) {
-  .logo img {
-    max-width: 145px !important;
+@media (max-width: 591px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 145px;
+  }
+
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
+    margin-top: 5%;
   }
 }
+

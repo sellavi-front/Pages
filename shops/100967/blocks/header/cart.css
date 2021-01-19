@@ -40,14 +40,30 @@
   display: none;
 }
 
-.header-cart .cart-wrapper .cart-qty-circle {
+.header-cart .cart-wrapper .cart-qty-circle,
+.mobile-navigation-wrapper .cart-qty-circle {
   width: 22px;
   border-radius: 10px;
-  border: 2px solid black !important;
+  border: 2px solid white !important;
   right: -12px !important;
   left: auto !important;
   top: -9px !important;
-  color: black !important;
+  background: red !important;
+  color: white !important;
+}
+
+.mobile-navigation-wrapper .cart-qty-circle {
+    position: absolute;
+    height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 @media (max-width: 991px) {

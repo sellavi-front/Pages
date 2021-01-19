@@ -7,9 +7,10 @@ body#home .mobile_side_nav .sidenav_search {
 }
 
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
-  left: auto !important;
-  right: 0 !important;
-  box-shadow: none !important;
+  left: 0 !important;
+  right: auto !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
   border: none !important;
   top: 130px;
 }
@@ -74,3 +75,18 @@ body.sidenav-enabled.ltr .flexy>.arrow {
 .fa-caret-right:before {
   content: "\f054" !important;
 }
+
+.flexy .button__list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+          -webkit-box-pack: end;
+              -ms-flex-pack: end;
+                  justify-content: end;
+}
+
+.flexy .button__list .custom__text {
+  width: 110px !important;
+}
+

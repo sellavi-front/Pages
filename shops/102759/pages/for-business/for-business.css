@@ -2,8 +2,12 @@
 @import '../../../../components/FormBasic/FormBasic.css';
 @import './components/InfoBlock.css';
 
-#content .container {
+body.information-information-5752 #content .container {
   padding: 0 !important;
+}
+
+body.information-information-5752 #content > div > div > p {
+  display: none;
 }
 
 .sender-basic {
@@ -16,6 +20,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 0 !important;
+  border-color: black !important;
 }
 
 .sender-basic__content {
@@ -59,27 +64,27 @@
   width: 100% !important;
   font-size: 14px !important;
   padding-left: 3% !important;
-  border: 1px solid #a68e7d !important;
+  border: 1px solid #000 !important;
 }
 
 .sender-basic form .form__input::-webkit-input-placeholder {
-  color: #a68e7d !important;
+  color: #000 !important;
 }
 
 .sender-basic form .form__input::-moz-placeholder {
-  color: #a68e7d !important;
+  color: #000 !important;
 }
 
 .sender-basic form .form__input:-ms-input-placeholder {
-  color: #a68e7d !important;
+  color: #000 !important;
 }
 
 .sender-basic form .form__input::-ms-input-placeholder {
-  color: #a68e7d !important;
+  color: #000 !important;
 }
 
 .sender-basic form .form__input::placeholder {
-  color: #a68e7d !important;
+  color: #000 !important;
 }
 
 .sender-basic form .form__input:last-of-type {
@@ -91,6 +96,7 @@
   width: 100% !important;
   height: 50px !important;
   font-size: 18px !important;
+  background: #B98752 !important;
 }
 
 @media (max-width: 768px) {

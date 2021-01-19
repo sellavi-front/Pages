@@ -30,6 +30,11 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
   padding-right: 0 !important;
 }
 
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button:hover,
+body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
+  color: white !important;
+}
+
 @media (max-width: 1199px) {
   body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
     padding-right: 30px;
@@ -51,5 +56,11 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
 
   body.ru.ltr .wrapper .page-section .products.grid .product-item {
     padding: 30px !important;
+  }
+}
+
+@media (max-width: 495px) {
+  body.theme_11.ltr.common-home .wrapper .header .header-wrapper .logo img {
+    width: 60px !important;
   }
 }

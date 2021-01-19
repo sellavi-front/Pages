@@ -24,6 +24,25 @@
 .gallery__elem:nth-of-type(2n) {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.quote-fixed {
+  position: fixed;
+  top: 0 !important;
+}
+
+@media (max-width: 575px) {
+  .gallery__elem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column !important;
+    margin-bottom: 50px;
+  }
+
+  .gallery .quote {
+    margin-top: 40px;
+  }
 }

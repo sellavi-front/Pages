@@ -17,7 +17,8 @@ body.dark-mode.theme_11.ltr .select2-container--open .select2-dropdown--above,
 body.dark-mode.theme_11.ltr .select2-container--default .select2-search--dropdown .select2-search__field,
 body.dark-mode.theme_11.ltr .details-box>ul,
 body.dark-mode.theme_11.ltr .select2-dropdown,
-body.dark-mode.theme_11.ltr.checkout-checkout .order-summary-toggle {
+body.dark-mode.theme_11.ltr.checkout-checkout .order-summary-toggle,
+body.dark-mode.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
   background: black !important;
 }
 

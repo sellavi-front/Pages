@@ -1,0 +1,36 @@
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+/* icon MIR */
+footer
+  > div.footer-meta
+  > div
+  > div.row.footer_content_wrapper
+  > div
+  > div.footer_content_container
+  > img:nth-child(3) {
+  display: none;
+}
+
+.price_actions .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-price {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.product-price svg {
+  width: 20px;
+}
