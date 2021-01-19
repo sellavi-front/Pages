@@ -10,7 +10,7 @@ let fixHomeCategories = () => {
 */
     /*document.querySelector("#home > div > div.content-area > section > div > div > div:nth-child(2) > div > div > a > div").remove()
     document.querySelector("#home > div > div.content-area > section > div > div > div:nth-child(1) > div > div > a > div").remove()*/
-    document.querySelector("#home > div > div.content-area > section > div").insertAdjacentHTML("afterbegin", "<h2 class='categories-title'>Категории</h2>")
+    //document.querySelector("#home > div > div.content-area > section > div").insertAdjacentHTML("afterbegin", "<h2 class='categories-title'>Категории</h2>")
   }
 }
 
