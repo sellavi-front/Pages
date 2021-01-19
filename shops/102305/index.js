@@ -1,3 +1,4 @@
+import "./../../fixes/js/RemoveBLur/RemoveBlur.js"
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 /*import "./../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"*/
 //import "../../fixes/fixes.js"
@@ -8,7 +9,7 @@ import {adv} from "./utils/utils.js"
 import {contactData} from "./utils/utils.js"
 import Footer from "./blocks/footer.js"
 import ProductPage from "./blocks/product-page.js"
-import "./../../fixes/js/RemoveBLur/RemoveBlur.js"
+
 
 
 let fixes = new Fixes()
