@@ -13,36 +13,36 @@ export default class ButtonContainerInProduct {
     this.container.forEach((btn, i) => {
       console.log(btn.nextSibling);
       // if (!btn.nextSibling.classList.contains('button__container')) {
-        btn.insertAdjacentHTML(
-          'afterend',
-          `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
-        );
+      btn.insertAdjacentHTML(
+        'afterend',
+        `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
+      );
       // }
     });
   }
 }
 
 const price = document.querySelectorAll('.product-item .price');
-    const addToCart = document.querySelectorAll('.add_to_cart');
+const addToCart = document.querySelectorAll('.add_to_cart');
 
-    if (document.querySelectorAll('.add_to_wishlist').length === 0) {
-      var wishList = document.querySelectorAll('.remove_from_wishlist');
-    } else {
-      var wishList = document.querySelectorAll('.add_to_wishlist');
-    }
+if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+  var wishList = document.querySelectorAll('.remove_from_wishlist');
+} else {
+  var wishList = document.querySelectorAll('.add_to_wishlist');
+}
 
-    const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
+const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
-    buttonContainerInProduct.createContainer();
-    buttonContainerInProduct.delete(addToCart);
-    buttonContainerInProduct.delete(wishList);
+buttonContainerInProduct.createContainer();
+buttonContainerInProduct.delete(addToCart);
+buttonContainerInProduct.delete(wishList);
 
-    let imgEl = document.querySelectorAll('.img-fluid.lazy');
-    for (let i = 0; i < imgEl.length; i++) {
-      if (imgEl[i].getAttribute('data-src')) {
-        imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
-      }
-    }
+let imgEl = document.querySelectorAll('.img-fluid.lazy');
+for (let i = 0; i < imgEl.length; i++) {
+  if (imgEl[i].getAttribute('data-src')) {
+    imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
+  }
+}
 
 const productWrapper = document.querySelector(
   '#home > div > div.content-area > section.page-section.latest-section > div > div',
