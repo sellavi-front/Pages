@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@import '../../../fixes/fixes.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+
+@import '../../../modules/Requisites/Requisites.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../../modules/BigBanner/BigBanner.css';
+
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../components/HeaderTypeThree/styles/HeaderTypeThree.css';
+
+@import '../pages/for-business/for-business.css';
+@import '../pages/individual/individual.css';
+
+@import './pay-delivery/pay-delivery.css';
+@import './footer/footer.css';
+@import './header/header.css';
+@import './products/products.css';
+@import './banner/banner.css';
+@import './photo-grid/photo-grid.css';
+@import './gallery/quote.css';
+@import './page-header/page-header.css';
+@import './cart/cart-wrapper.css';
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body.sidenav-enabled.ltr .wrapper-opened {
+  position: static;
+}
