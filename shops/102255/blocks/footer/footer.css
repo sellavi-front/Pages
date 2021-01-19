@@ -1,0 +1,106 @@
+#home > div > footer > div.footer-widgets > div.container > div {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) {
+    width: 20px !important;
+}
+
+.footer .footer-widgets .widget .widget-title {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+
+.wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-weight: 500;
+}
+
+h4.widget-title.soc-icons__title {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+
+.widget .widget-title {
+    font-weight: 500 !important;
+}
+
+.footer-meta .container {
+    border-top: 1px solid #D3D3D3;
+}
+
+.soc-icons__container {
+    margin-top: 20px;
+}
+
+h4.widget-title.soc-icons__title {
+    text-transform: lowercase !important
+}
+
+h4.widget-title.soc-icons__title::first-letter {
+    text-transform: uppercase;
+}
+
+.footer-widgets .container .row {
+    flex-wrap: nowrap;
+}
+
+footer .soc-icons {
+    max-width: 203px !important;
+}
+
+@media (max-device-width: 480px) {
+    .footer-widgets .container .row {
+        flex-direction: column
+    }
+
+    .footer-widgets .container .row div:nth-child(3) {
+        display: none;
+    }
+
+    .footer-widgets > div.container > div > div:nth-child(2) {
+        display: none;
+    }
+
+    .footer-meta .container {
+        padding-top: 40px;
+    }
+}
+
+/* fix bug with footer width */
+.footer-widgets > div > div > div {
+    margin-right: 40px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+div#search .add_to_cart .btn.btn-theme.btn-theme-transparent.btn-icon {
+    color: white !important;    
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(3) > div > p {
+    font-weight: 400;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) > div > a {
+    font-weight: 400;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p {
+    font-weight: 400;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p > span {
+    font-weight: 400;
+}
+
+
+.widget-categories ul li a {
+    font-size: 18px;
+    color: #A1A1A1 !important;
+    font-weight: 400
+}

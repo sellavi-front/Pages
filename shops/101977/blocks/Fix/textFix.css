@@ -1,0 +1,85 @@
+#home > div > div > section > div:nth-child(1) > div.info-card > div {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div:nth-child(1) > div.info-card > div > h2 {
+    font-family: Hauss,sans-serif !important;
+}
+
+.info-card__bottom_text {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div:nth-child(2) > div > div > div > div > h2 {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div:nth-child(2) > div > div > div > div > p:nth-child(2) {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div:nth-child(2) > div > div > div > div > p:nth-child(3) {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div:nth-child(5) > div > div > h2 {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div:nth-child(5) > div > div > p {
+    font-family: Hauss,sans-serif !important;
+}
+
+#home > div > div > section > div.leader > div > div.leader-title > p {
+    font-size: 42px;
+    font-family: Hauss,sans-serif !important;
+    font-weight: 900;
+}
+
+#home > div > div > section > div:nth-child(1) > h2 > span {
+    font-family: Hauss,sans-serif !important;
+    font-weight: 900;
+}
+
+#home > div > div > section > div.container > div.info-card > div > div > div > div > a > p > span {
+    font-family: Hauss,sans-serif !important;
+    font-size: 20px;
+}
+
+/* #home > div > div > section {
+    position: relative;
+    top: 100px;
+} */
+
+#search > div.search_field > input {
+    border: 0px;
+}
+
+
+#search > div.search_field > input {
+    border: 0px;
+}
+
+.item_data {
+    padding: 10px !important ;
+}
+
+div#search_results {
+    position: relative;
+    left: -100px !important;
+}
+
+@media (max-device-width: 480px) {
+    #home > div > header > div.header-wrapper > div.container > div.header-cart.sticky {
+        display: none !important;
+    } 
+
+    #home > div > div > section > div.container > div.info-card > div > div > div > div > a > p > span {
+        font-family: Hauss,sans-serif !important;
+        font-size: 25px;
+    }
+}
+
+li.sidenav_search {
+    direction: ltr;
+}

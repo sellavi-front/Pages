@@ -1,0 +1,18 @@
+body.theme-orange-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-orange-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
+    background: transparent !important;
+    border: 1px solid black;
+    color: black !important;
+}
+
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+    width: 100%;
+    height: 100%;
+}
+
+body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
+    border: 1px solid black;
+    height: 90%;
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 10px;
+}

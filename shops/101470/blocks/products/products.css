@@ -140,7 +140,11 @@ body.theme-green-1 .social-icons li a {
   display: none !important;
 }
 
+<<<<<<< HEAD
+@media (max-device-width: 480px) {
+=======
 @media (max-device-width: 768px) {
+>>>>>>> ffb435838bcc42caf472fd704a05ee71c2a47c7f
   .add_to_wishlist > button > i::before {
     font-size: 25px;
   }

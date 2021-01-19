@@ -86,3 +86,12 @@ body .delivery__content-label {
  margin-right: 50px;
  text-align: center;
 }
+
+
+#home > div > div.content-area > section.page-section.titles > div > div > h1 {
+  text-align: center;
+}
+
+#content > div > div > div:nth-child(1) > section.delivery__right > h2 {
+  margin-bottom: 40px;
+}

@@ -12,6 +12,10 @@ body .footer a,
   padding: 0 !important;
 }
 
+.footer .footer-widgets .widget-title {
+  margin-bottom: 20px !important
+}
+
 .footer .footer-widgets .widget-title:before,
 .widget-categories ul li a:before {
   display: none !important;
@@ -23,4 +27,59 @@ body .footer a,
 
 .widget-categories ul li a {
   padding: 0 !important;
+}
+
+.thumbnail.no-border, .thumbnail.no-border.hover, .thumbnail.no-border:hover {
+  border: none !important;
+}
+
+.add_to_wishlist {
+  height: fit-content
+}
+
+.media {
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+h3.img-inner_title {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#home > div > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#home > div > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+h4.widget-title {
+  border-bottom: 2px solid white;
+  width: fit-content;
+}
+
+footer.footer {
+  margin-top: 20px;
+}
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div > div > div > h4 {
+  margin-bottom: 20px !important;
+}
+
+.footer_content_wrapper > div > div:nth-child(4) {
+  display: none !important;
+}
+
+.footer_content_wrapper > div > div:nth-child(1) {
+  display: none !important;
+}
+
+#sellavi_logo {
+  height: 39px !important;
+}
+
+#sellavi_logo {
+  width: 106px !important;
 }

@@ -1,0 +1,48 @@
+.contacts-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    display: flex;
+    margin-right: 100px;
+}
+
+.number-img {
+    margin-right: 20px;
+}
+
+
+
+.email {
+    display: flex;
+    
+}
+
+.email-img {
+    margin-right: 20px;
+}
+
+#home > div > div > div.contactsSection > div > div > div.contacts-title > span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.number-title, .email-title {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.real-number, .real-email {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.otherInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts-title {
+    margin-bottom: 50px;
+}

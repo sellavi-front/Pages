@@ -1,0 +1,56 @@
+div#search {
+    margin: 0px !important;
+}
+
+.logo {
+    margin: 0px !important
+}
+
+.header-wrapper .container-fluid {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-wrapper .container-fluid img {
+    height: 50px
+}
+
+.main-slider.content_center {
+    margin-top: 0px; 
+}
+
+
+/* quick fix banner text */
+#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span:nth-child(2) {
+    color: white;
+    font-size: 30px;
+    border-left: 4px solid #E8605D;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+    text-shadow: none;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span:nth-child(2) {
+    font-size: 30px;
+    border-left: 4px solid #E8605D;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+    text-shadow: none;
+}
+
+body.ltr .wrapper .header .header-wrapper .logo {
+    z-index: 0 !important;
+}
+
+.item_data {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+img.product_slide.img-fluid {
+    width: 50%;
+}

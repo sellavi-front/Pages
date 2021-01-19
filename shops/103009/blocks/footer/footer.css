@@ -1,0 +1,20 @@
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: center !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+    color: black;
+}
+
+.footer-widgets .row {
+    justify-content: flex-start;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    margin-bottom: 20px !important;
+}
+
+footer > div.footer-widgets > div.container {
+    padding-top: 50px;
+    border-top: 1px solid blue;
+}

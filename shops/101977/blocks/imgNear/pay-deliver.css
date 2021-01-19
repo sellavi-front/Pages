@@ -1,0 +1,63 @@
+#home > div > div > section > div:nth-child(4) > div > div > div > div > h2 {
+    font-family: Hauss,sans-serif;
+
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(2) {
+width: 300px;
+font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > p:nth-child(3) {
+font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > img {
+    filter: drop-shadow(0px 4px 4px rgb(0 0 0 / 0%));
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > ul li:before { 
+    content:"- ";
+}
+
+#home > div > div > section > div:nth-child(4) > div > div > div > div > ul { 
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+
+.about {
+    padding-top: 0px !important;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > p:nth-child(2) {
+    font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > p:nth-child(3) {
+    font-family: Hauss,sans-serif;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > ul {
+    font-family: Hauss,sans-serif;
+    position: relative;
+    top: -25px;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > ul {
+    margin-left: 15px;
+}
+
+#home > div > div > section > div:nth-child(3) > div > div > div > div > ul > li:before {
+    position: relative;
+    left: -5px;
+    content: "- ";
+}
+
+h2.sender-basic__title {
+    color: black;
+}
+
+p.sender-basic__text {
+    color: black;
+}

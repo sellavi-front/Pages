@@ -1,0 +1,10 @@
+.header_widgets .button__list_elem {
+    display: flex;
+    align-self: center;
+    padding-top: 5px;
+    margin-left: 10px
+}
+
+.header_widgets .button__list_elem .position-relative .far.fa-heart {
+    font-size: 25px;
+}

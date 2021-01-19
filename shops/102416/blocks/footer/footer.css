@@ -1,0 +1,83 @@
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div > div > div > div.caption.text-center > h4 > a {
+    font-weight: 600;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div > div.add_to_cart > button > span {
+    font-weight: 600
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+    color: black;
+}
+
+#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container {
+    border-top: 1px solid #3844FB;
+    padding-top: 30px;
+}
+
+
+h4.widget-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h4.widget-title.soc-icons__title {
+    text-transform: lowercase !important;
+}
+
+h4.widget-title.soc-icons__title:first-letter {
+    text-transform: uppercase !important;
+}
+
+.widget-categories ul {
+    margin-top: 30px;
+}
+
+.soc-icons__container {
+    margin-top: 20px;
+}
+
+#sellavi_logo {
+    display: contents !important;
+}
+
+img.img-fluid {
+    object-fit: contain
+}
+
+body.ltr .widget-categories ul li a {
+    color: #878787 !important;
+}
+
+@media (max-device-width: 480px) {
+    .nav.sf-menu {
+        display: none;
+    }
+
+
+    .header_wishlist {
+        display: none !important;
+    }
+
+    .header-cart.sticky {
+        display: none !important;
+    }
+    
+    .common-home header {
+        position: absolute !important;
+    }
+
+}
+
+@media (max-width: 375px) {
+    body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+        margin: 0 !important;
+    }
+}
+
+
+
+.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+    position: relative;
+    z-index: 999;
+}

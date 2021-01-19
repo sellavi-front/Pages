@@ -40,3 +40,28 @@
 .sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
   background: rgb(0, 120, 200) !important;
 }
+
+.sf-menu ul a:hover {
+  color: #ffffff;
+  background-color: #0078c8;
+}
+
+#home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.d-none.d-lg-block.col-lg-4.text-right.p-0 {
+  display: none !important;
+}
+
+#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > div {
+  display: none;
+}
+
+#cart > i {
+  font-size: 20px !important;
+}
+
+#wishlist > i {
+  font-size: 20px !important;
+}
