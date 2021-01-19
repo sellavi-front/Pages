@@ -51,7 +51,7 @@ let oldHeight = document.querySelector(".row.products.grid").clientHeight;
 const arrHeightFrame = [
   productWrapper.clientHeight,
 ]
-document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
+productWrapper.addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
   if(oldHeight < newHeight) {
     console.log("Listener of height row products is working!")
