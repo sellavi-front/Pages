@@ -91,6 +91,35 @@ body.theme-gray .header .navigation-wrapper {
   border-top: 0;
 }
 
+.scrolled_item {
+  color: #333 !important;
+}
+
+.scrolled_dropdown_item {
+  color: #333 !important;
+  background: #fff;
+}
+
+.scrolled_dropdown>a:hover {
+  color: #333 !important;
+}
+
+body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored, body.theme-gray a:hover {
+  color: #fff;
+}
+
+.no_scrolled_item:hover {
+  color: #fff;
+}
+
+.footer>.footer-widgets>.container-fluid>.row>.col-md-3:nth-child(2)>.widget>.widget-categories>ul>li>a:hover,
+.footer>.footer-widgets>.container-fluid>.row>.col-md-3:nth-child(3)>.widget-categories>ul>li>a:hover,
+.footer>.footer-widgets>.container-fluid>.row>.col-md-3:nth-child(4)>.widget-categories>ul>li>a:hover {
+  color: #333;
+}
+
+
+
 /* End */
 
 /* Banner */
@@ -230,10 +259,6 @@ body.theme_10 .wrapper header.header .header-search input {
 
 body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored {
   color: #c9c9c9 !important;
-}
-
-body.theme-gray a:hover {
-  color: #fff !important;
 }
 
 .row.products.grid {
@@ -768,7 +793,7 @@ body.ltr .float-left {
 
   .footer_content_container {
     height: 15px;
-    display: block;
+    display: flex;
   }
 
   .footer_content_text {

@@ -1,3 +1,8 @@
+import ChangeErrorMessage from './../../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
+import TranslateAboutUs from './../../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import FooterCopy from './../../../fixes/js/FooterCopy/FooterCopy.js';
+
+
 export default class Fixes {
   deleteUnnecessaryClasses() {
     if (document.querySelector('.common-home')) {
@@ -55,7 +60,6 @@ export default class Fixes {
     }
 
   }
-
-
-
 }
+
+export { ChangeErrorMessage, TranslateAboutUs, FooterCopy };

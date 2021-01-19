@@ -1,3 +1,92 @@
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
   color: #333 !important;
 }
+
+body.ltr .sf-menu li.megamenu>ul li.megaline div .block-title {
+  text-align: left !important;
+}
+
+body .block-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px !important;
+  font-weight: 900;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #232323;
+  overflow: hidden;
+  text-align: left !important;
+}
+
+.sf-menu ul a {
+  text-transform: capitalize !important;
+  font-weight: 100 !important;
+  text-decoration: none;
+  color: #000 !important;
+  line-height: 16px;
+}
+
+
+.sf-menu > li.megamenu > ul > li.megaline > div > div > span > a {
+  text-transform: capitalize;
+  font-weight: 100 !important;
+  color: #000;
+  line-height: 15px;
+}
+
+body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul div, body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul li {
+  background: white !important;
+  padding: 5px 5px !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.sf-menu ul a {
+  text-transform: capitalize !important;
+  font-weight: 100 !important;
+  text-decoration: none;
+  color: #000 !important;
+  line-height: 16px;
+  font-size: 15px !important;
+}
+
+.sf-menu .flexy.has_children ul {
+  margin: 0 !important;
+}
+
+.sf-menu .flexy.has_children > ul li ul li {
+  display: flex !important;
+  color: black !important;
+  align-items: flex-end;
+  margin-bottom: 0 !important;
+}
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li.megaline>div>ul>li>a, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li.megaline>div>ul>li>a {
+  padding: 7px 0!important;
+  font-size: 16px;
+  text-align: left !important;
+}
+
+body .arrow {
+  display: block !important;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body .arrow {
+    display: block !important;
+  }
+
+
+  .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize !important;
+    color: #333 !important;
+  }
+
+  body.sidenav-enabled .mobile_side_nav {
+    height: fit-content !important;
+  }
+}

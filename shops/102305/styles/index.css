@@ -1,9 +1,23 @@
-@import '../../../templates/TemplateTypeTwo/styles/index.css';
+/*@import '../../../templates/TemplateTypeTwo/styles/index.css';*/
+
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+
+@import '../../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import '../../../templates/TemplateTypeTwo/styles/banner/banner.css';
+@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../templates/TemplateTypeTwo/styles/logo/logo.css';
+@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+
 @import './../styles/categories.css';
 @import './../styles/header.css';
 @import './../styles/footer.css';
 @import './../styles/product-page.css';
-@import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 /*@import './../../../modules/ButtonContainerInProduct/btn-with-border.css';*/
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 /*@import './../../../components/ContactsWithMap/ContactsWithMap.css';*/
@@ -12,6 +26,51 @@
 @import './../styles/fonts.css';
 @import './../styles/content-area.css';
 
+
+.buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+}
+
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: relative;
+  left: 0 !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
+
+}
+
+.featured-products-carousel .bx-wrapper {
+  margin: auto !important;
+  max-height: 465px;
+}
+
+body .section-title {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #232323;
+  overflow: hidden;
+}
+
+.thumbnail .price {
+  align-self: center;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.price_actions .buttons__container {
+  height: 48px !important;
+}
+
+.price_actions .buttons__container {
+  height: 35px !important;
+}
 
 .mobile_one_column .products .thumbnail .caption {
   display: -webkit-box;
@@ -52,6 +111,33 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   font-size: 15px !important;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item {
+  margin: 0 !important;
+  padding: 30px;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.thumbnail.no-padding {
+  padding: 0 5px 0 5px !important;
+}
+
+body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block {
+  background-color: #3c3c3c;
+  border-color: #3c3c3c !important;
+  color: #fff !important;
+}
+
+.add_to_cart:hover {
+  border-radius: 0 !important;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: #c9c9c9 !important;
+  border-radius: 0 !important;
+}
 
 #home footer .footer-widgets {
   position: relative;
@@ -81,7 +167,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-right: 0 !important;
-  padding-left: 5px !important;
+  padding-left: 0 !important;
 }
 
 body .content-area .page-section {
@@ -96,7 +182,7 @@ body .content-area .page-section {
   position: relative;
   overflow: hidden;
   text-align: center;
-  margin: unset !important;
+  margin: auto !important;
 }
 
 body.theme_11 .wrapper .latest-section h2.section-title {
@@ -168,6 +254,24 @@ body.theme_11 .wrapper .latest-section h2.section-title {
     font-size: 30px;
     line-height: 50px;
     font-weight: 700;
+  }
+
+  body .content-area .page-section {
+    position: relative;
+    padding: 5px !important;
+    margin-bottom: 0;
+  }
+
+  body.theme_11 .wrapper .latest-section h2.section-title {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  #product .custom-control {
+    padding: 0;
+    margin-right: 5px !important;
+    width: 28px;
+    height: 28px;
   }
 
 }

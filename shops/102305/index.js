@@ -1,6 +1,6 @@
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
-import "../../fixes/fixes.js"
+//import "../../fixes/fixes.js"
 //import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from "./fixes/fixes.js"
 import AdvantagesTypeTwo from "../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.js"

@@ -43,6 +43,15 @@ body.ltr .thumbnail .price_actions .add_to_cart {
   border-radius: 5px;
 }
 
+.thumbnail.no-padding.no-border {
+  -webkit-box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  border: 0;
+  border-radius: 11.7564px;
+}
+
 body.theme_11 .wrapper .latest-section h2.section-title span {
   font-size: 24px;
   font-weight: 600;
@@ -58,7 +67,7 @@ body .section-title {
   font-size: 18px;
   font-weight: 900;
   line-height: 20px;
-  text-transform: inherit;
+  text-transform: none !important;
   text-align: left;
   color: #000 !important;
   overflow: hidden;
