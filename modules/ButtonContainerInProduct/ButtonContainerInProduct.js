@@ -27,9 +27,9 @@ let oldHeight = document.querySelector(".row.products.grid").clientHeight
 arrHeights.push(oldHeight)
 document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
-  arrHeights.push(newHeight)
-  console.log(arrHeights)
   arrHeights.map((item, i) => {
+    arrHeights.push(newHeight)
+    console.log(arrHeights)
     if(item[i] < item[i+1]) {
       console.log("Listener of height row products is working!")
       const price = document.querySelectorAll('.product-item .price');
