@@ -4,7 +4,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"');
+  const req = new Requisites(requsites, 'beforeend', 'ИП "Корсаков Эдуард Владимирович"');
 
   req.setTemplate();
 }
@@ -12,7 +12,7 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП "Кучма Виктория Геннадьевна"', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП "Корсаков Эдуард Владимирович"', media);
   req.setTemplate();
 }
 
@@ -21,7 +21,7 @@ if (location.href.includes('policy')) {
   const req = new Requisites(
     requsites,
     'afterend',
-    'ИП "Кучма Виктория Геннадьевна"',
+    'ИП "Корсаков Эдуард Владимирович"',
     document.querySelector('#content > div > div'),
   );
   req.setTemplate();
@@ -31,7 +31,7 @@ if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
     requsites,
     'afterend',
-    'ИП "Кучма Виктория Геннадьевна"',
+    'ИП "Корсаков Эдуард Владимирович"',
     document.querySelector('#content > div > div'),
     dataContact,
   );
