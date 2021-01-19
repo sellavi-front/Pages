@@ -40,3 +40,7 @@
     text-shadow: none;
     margin-top: 20px;
 }
+
+.sf-menu.nav>li>a {
+    border-bottom: 0px !important;
+}

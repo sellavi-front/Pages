@@ -4,6 +4,10 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+
+
+
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<div class="info-after">для прочистки любой степени сложности</div>');
@@ -59,3 +63,5 @@ if (location.href.includes('pay-delivery')) {
   );
   req.setTemplate();
 }
+
+new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
