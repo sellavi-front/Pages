@@ -1,5 +1,5 @@
 import Requisites from '../../../modules/Requisites/Requisites.js';
-import {requsites, dataContact } from './utils/requsites.js'
+import {requisites, dataContact } from './utils/requsites.js'
 
 if (location.href.includes('terms-of-use')) {
   const req = new Requisites(requisites, 'beforeend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ');
