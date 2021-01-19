@@ -1,6 +1,6 @@
 window.onload = () => {
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
-    let target = document.querySelector('#content > div > div.row.products.grid');
+    let target = document.querySelector('body div.products');
     const config = {
       childList: true,
     };
