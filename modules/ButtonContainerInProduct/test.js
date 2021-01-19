@@ -22,33 +22,14 @@ export default class ButtonContainerInProduct {
   }
 }
 
-export default class ButtonContainerInProduct {
-  constructor(addToCart, addToWishList, container) {
-    this.container = container;
-    this.addToCart = addToCart;
-    this.addToWishList = addToWishList;
-  }
-
-  delete(element) {
-    element.forEach(el => el.remove());
-  }
-
-  createContainer() {
-    this.container.forEach((btn, i) => {
-      btn.insertAdjacentHTML(
-        'beforeend',
-        `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
-      );
-    });
-
-    this.delete(addToCart);
-    this.delete(addToWishList);
-  }
-}
-let oldHeight = document.querySelector(".row.products.grid").clientHeight
+const productWrapper = document.querySelector(".row.products.grid");
+let oldHeight = document.querySelector(".row.products.grid").clientHeight;
+const arrHeightFrame = [
+  productWrapper.clientHeight,
+]
 document.querySelector(".row.products.grid").addEventListener("transitionend", () => {
   let newHeight = document.querySelector(".row.products.grid").clientHeight
-  if(oldHeight < newHeight && document.querySelector(".buttons__container")) {
+  if(oldHeight < newHeight) {
     console.log("Listener of height row products is working!")
     const price = document.querySelectorAll('.product-item .price');
     const addToCart = document.querySelectorAll('.add_to_cart');
