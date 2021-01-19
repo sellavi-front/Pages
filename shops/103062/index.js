@@ -6,6 +6,11 @@ import pages from "./pages/pages.js";
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js'
 import '../../components/PictureCategories/PictureCategories.js'
 
+
+document.body.addEventListener('DOMSubtreeModified', function () {
+  document.title = 'DOM Changed at ' + new Date();
+}, false);
+
 if(pages.home) {
   //renderBanner()
   fixHomeCategories()
