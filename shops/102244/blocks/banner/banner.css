@@ -9,6 +9,10 @@
   justify-content: center;
 }
 
+.banner__caption h1 {
+  color: #000;
+}
+
 @media (max-width: 768px) {
   .banner__image {
     background-position-x: 86% !important;
