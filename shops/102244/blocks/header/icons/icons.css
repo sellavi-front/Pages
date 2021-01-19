@@ -12,3 +12,7 @@ body.common-home .menu-toggle svg {
 .logo img {
   max-height: 88px !important;
 }
+
+body.ltr .wrapper .header .header-wrapper .header-search button {
+  color: black;
+}
