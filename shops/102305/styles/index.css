@@ -43,6 +43,7 @@
   position: absolute;
   bottom: 15px;
   z-index: 0 !important;
+
   right: 15px;
   cursor: pointer;
   outline: none;
