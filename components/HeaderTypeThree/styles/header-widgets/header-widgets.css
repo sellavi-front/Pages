@@ -17,6 +17,13 @@
   }
 }
 
+@media (max-width: 495px) {
+  body.ltr .wrapper .header .header-wrapper .header_widgets {
+    right: 16px !important;
+    left: auto !important;
+  }
+}
+
 @media (max-width: 396px) {
   .header_widgets > div {
     margin: 0 5px !important;
