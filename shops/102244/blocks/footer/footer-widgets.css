@@ -10,6 +10,10 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   width:  100% !important;
 }
 
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: black !important;
+}
+
 @media (max-width: 991px) {
   .footer-widgets .row {
     -webkit-box-pack: justify !important;
