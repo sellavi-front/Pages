@@ -54,13 +54,13 @@ footer .soc-icons {
         flex-direction: column
     }
 
-    .footer-widgets .container .row div:nth-child(3) {
+    /* .footer-widgets .container .row div:nth-child(3) {
         display: none;
     }
 
     .footer-widgets > div.container > div > div:nth-child(2) {
         display: none;
-    }
+    } */
 
     .footer-meta .container {
         padding-top: 40px;
