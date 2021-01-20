@@ -69,6 +69,12 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   display: none;
 }
 
+body.sidenav-enabled.ltr .navigation.mobile_side_nav {
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
 @media (max-width: 1199px) {
   /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
