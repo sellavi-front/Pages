@@ -108,6 +108,10 @@ body.sidenav-enabled.ltr .wrapper-opened {
   left: 10%;
 }
 
+.mobile-navigation-close i {
+  font-size: 25px;
+}
+
 /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 21% !important;
 } */
