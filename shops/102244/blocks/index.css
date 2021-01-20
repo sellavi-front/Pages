@@ -43,3 +43,8 @@ body.sidenav-enabled.ltr .wrapper-opened {
 body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block:hover {
   color: white !important;
 }
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  right: 0 !important;
+  left: auto !important;
+}
