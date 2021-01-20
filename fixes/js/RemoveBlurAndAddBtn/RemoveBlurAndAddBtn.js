@@ -26,7 +26,7 @@ export default class ButtonContainerInProductCard {
 
 
 
-window.onload = () => {
+/*window.onload = () => {*/
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
     let target = document.querySelector('body div.products');
     const config = {
@@ -54,4 +54,3 @@ window.onload = () => {
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
   }
-};
