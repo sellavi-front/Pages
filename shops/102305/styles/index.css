@@ -204,7 +204,7 @@ body .content-area .page-section {
   position: relative;
   overflow: hidden;
   text-align: center;
-  margin: auto !important;
+  margin: 0 !important;
 }
 
 body.theme_11 .wrapper .latest-section h2.section-title {
