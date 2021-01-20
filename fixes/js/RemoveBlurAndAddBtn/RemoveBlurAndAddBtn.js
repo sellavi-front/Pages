@@ -14,7 +14,6 @@ export default class ButtonContainerInProductCard {
       if (!priceCont.querySelector('.buttons__container')) {
         const wishlist = priceCont.closest('.thumbnail').querySelector('.add_to_wishlist');
         const cart = priceCont.closest('.thumbnail').querySelector('.add_to_cart');
-        console.log("PARAMS: ", wishlist, cart)
         priceCont.insertAdjacentHTML(
           'beforeend',
           `<div class="buttons__container">${wishlist.outerHTML}${cart.outerHTML}</div>`,
@@ -25,31 +24,29 @@ export default class ButtonContainerInProductCard {
   }
 }
 
+if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
+  let target = document.querySelector('body div.products');
+  const config = {
+    childList: true,
+  };
+  const callback = function (mutationsList, observer) {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'childList') {
+        target.querySelectorAll('.product-item img').forEach((prod) => {
+          if (prod.getAttribute('src').includes('e_blur:2000')) {
+            prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
+          }
+        });
 
-/*window.onload = () => {*/
-  if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
-    let target = document.querySelector('body div.products');
-    const config = {
-      childList: true,
-    };
-    const callback = function (mutationsList, observer) {
-      for (let mutation of mutationsList) {
-        if (mutation.type === 'childList') {
-          target.querySelectorAll('.product-item img').forEach((prod) => {
-            if (prod.getAttribute('src').includes('e_blur:2000')) {
-              prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
-            }
-          });
+        let priceActions = document.querySelectorAll('.price_actions');
+        let addToCart = document.querySelectorAll('.add_to_cart');
+        let addToWishList = document.querySelectorAll('.add_to_wishlist');
+        let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
+        buttonContainerInProductCard.createContainer();
 
-          let priceActions = document.querySelectorAll('.price_actions');
-          let addToCart = document.querySelectorAll('.add_to_cart');
-          let addToWishList = document.querySelectorAll('.add_to_wishlist');
-          let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
-          buttonContainerInProductCard.createContainer();
-
-        }
       }
-    };
-    const observer = new MutationObserver(callback);
-    observer.observe(target, config);
-  }
+    }
+  };
+  const observer = new MutationObserver(callback);
+  observer.observe(target, config);
+}
