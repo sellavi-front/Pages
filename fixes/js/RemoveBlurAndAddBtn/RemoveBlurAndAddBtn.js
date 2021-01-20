@@ -19,10 +19,9 @@ export default class ButtonContainerInProductCard {
           'beforeend',
           `<div class="buttons__container">${wishlist.outerHTML}${cart.outerHTML}</div>`,
         );
+        this.delete([wishlist, cart])
       }
     });
-   /* this.delete(addToCart);
-    this.delete(addToWishList);*/
   }
 }
 
