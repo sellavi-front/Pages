@@ -90,5 +90,5 @@ body .delivery__content-label {
 }
 
 #content > div > div:nth-child(3) {
-  display: none;
+  display: none !important;
 }
