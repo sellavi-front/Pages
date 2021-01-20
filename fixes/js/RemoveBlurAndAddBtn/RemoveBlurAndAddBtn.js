@@ -26,7 +26,7 @@ export default class ButtonContainerInProductCard {
 
 
 
-/*window.onload = () => {*/
+window.onload = () => {
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
     let target = document.querySelector('body div.products');
     const config = {
@@ -40,17 +40,17 @@ export default class ButtonContainerInProductCard {
               prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
             }
           });
-          const priceActions = document.querySelectorAll('.price_actions');
-          const addToCart = document.querySelectorAll('.add_to_cart');
-          const addToWishList = document.querySelectorAll('.add_to_wishlist');
 
-          const buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
-
+          let priceActions = document.querySelectorAll('.price_actions');
+          let addToCart = document.querySelectorAll('.add_to_cart');
+          let addToWishList = document.querySelectorAll('.add_to_wishlist');
+          let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
           buttonContainerInProductCard.createContainer();
+
         }
       }
     };
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
- /* }*/
-}
+  }
+};
