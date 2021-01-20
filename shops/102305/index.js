@@ -1,4 +1,6 @@
-import "./../../fixes/js/RemoveBLur/RemoveBlur.js"
+/*import "./../../fixes/js/RemoveBLur/RemoveBlur.js"*/
+import "./../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js"
+
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 /*import "./../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"*/
 //import "../../fixes/fixes.js"
