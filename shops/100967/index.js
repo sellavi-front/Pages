@@ -254,7 +254,7 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
 
-  const social = document.querySelector('.share_page_wrapper');
+  // const social = document.querySelector('.share_page_wrapper');
 
   const onDelete = [
     model,
@@ -263,7 +263,7 @@ if (document.querySelector('.product-product')) {
     rating,
     reviews,
     productRating,
-    social,
+    // social,
     title,
     productAvailability,
   ];
