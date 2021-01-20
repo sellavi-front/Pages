@@ -12,8 +12,8 @@ export default class ButtonContainerInProductCard {
   createContainer() {
     this.container.forEach((priceCont, i) => {
       if (!priceCont.querySelector('.buttons__container')) {
-        const wishlist = priceCont.closest('div').querySelector('.add_to_wishlist');
-        const cart = priceCont.closest('div').querySelector('.add_to_cart');
+        const wishlist = priceCont.closest('.thumbnail').querySelector('.add_to_wishlist');
+        const cart = priceCont.closest('.thumbnail').querySelector('.add_to_cart');
         console.log("New params: ", wishlist, cart)
         priceCont.insertAdjacentHTML(
           'beforeend',
@@ -21,6 +21,8 @@ export default class ButtonContainerInProductCard {
         );
       }
     });
+   /* this.delete(addToCart);
+    this.delete(addToWishList);*/
   }
 }
 
