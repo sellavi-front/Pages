@@ -32,6 +32,7 @@ body.theme_11.common-home .wrapper .header {
   position: absolute;
   top: 30px;
   left: 10%;
+  display: none;
 }
 
 .mobile-navigation-close i {
@@ -78,6 +79,10 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 }
 
 @media (max-width: 991px) {
+  .mobile-navigation-close {
+    display: inline;
+  }
+
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: auto !important;
   }
