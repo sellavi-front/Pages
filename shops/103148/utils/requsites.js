@@ -15,7 +15,7 @@ const requsites = {
 const dataContact = {
   adress: 'Доставка',
   phone: '+7 906 977-68-21',
-  city: 'г. Город',
+  city: 'г. Новокузнецк',
   timeWork: `Ежедневно, круглосуточно`,
 }
 
