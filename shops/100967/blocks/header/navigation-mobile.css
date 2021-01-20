@@ -28,9 +28,9 @@ body.sidenav-enabled .mobile_side_nav {
   position: relative !important;
 }
 
-body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+/* body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   display: block !important;
-}
+} */
 
 
 body.sidenav-enabled .mobile_side_nav > ul a {
