@@ -1,3 +1,5 @@
+import ButtonContainerInProductCard from "../ButtonContainerInProductCard/ButtonContainerInProductCard.js"
+
 window.onload = () => {
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
     let target = document.querySelector('body div.products');
@@ -12,6 +14,8 @@ window.onload = () => {
               prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
             }
           });
+          let btns = new ButtonContainerInProductCard()
+          btns.render()
         }
       }
     };
