@@ -108,3 +108,19 @@ span.second-title-text2 {
 #home > div > div.content-area > section.page-section.subcategories_top {
     display: none;
 }
+
+#banner0 > div > div > div > div > div > div {
+    margin-left: 80px;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+a.btn.btn-theme {
+    background: transparent !important;
+    border: 2px solid #E8605D !important;
+    padding: 40px 50px 40px 50px !important;
+}
