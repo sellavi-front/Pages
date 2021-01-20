@@ -22,6 +22,7 @@
 @import './gallery/quote.css';
 @import './page-header/page-header.css';
 @import './cart/cart-wrapper.css';
+@import './category/category.css';
 
 body h1,
 body h2,
