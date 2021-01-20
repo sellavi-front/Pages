@@ -14,6 +14,10 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
+
+  document.querySelector("#home > div > header > div.header-wrapper > div").classList.add('container-fluid')
+  document.querySelector("#home > div > header > div.header-wrapper > div").classList.remove('container')
+
   document.querySelector(
     '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
   ).textContent = '';
