@@ -78,14 +78,16 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     max-width: 100% !important;
   }
 
-  .mobile-navigation-close {
-    display: block;
-  }
+
 }
 
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: auto !important;
+  }
+
+  .mobile-navigation-close {
+    display: block;
   }
 }
 
