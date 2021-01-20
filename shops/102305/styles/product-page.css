@@ -95,9 +95,6 @@ body .section-title span:after {
   margin-top: 2% !important;
 }
 
-.thumbnail.no-padding.no-border {
-  padding: 0 !important;
-}
 
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
