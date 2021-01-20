@@ -124,3 +124,7 @@ body .btn.btn-theme.btn-theme-transparent:hover {
     background-color: #ababab;
     border: 0px !important;
 }
+
+.header_widgets .header-cart.sticky {
+    margin-left: 15px !important;
+}
