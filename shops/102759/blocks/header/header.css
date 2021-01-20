@@ -65,6 +65,10 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   z-index: 999;
 }
 
+.mobile-navigation-close {
+  display: none;
+}
+
 @media (max-width: 1199px) {
   /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
@@ -72,6 +76,10 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 
   .header-wrapper > div {
     max-width: 100% !important;
+  }
+
+  .mobile-navigation-close {
+    display: block;
   }
 }
 
