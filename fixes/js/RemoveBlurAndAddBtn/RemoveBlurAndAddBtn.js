@@ -40,13 +40,13 @@ window.onload = () => {
               prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
             }
           });
-
-          let priceActions = document.querySelectorAll('.price_actions');
-          let addToCart = document.querySelectorAll('.add_to_cart');
-          let addToWishList = document.querySelectorAll('.add_to_wishlist');
-          let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
-          buttonContainerInProductCard.createContainer();
-
+          if(!document.querySelector(".buttons__container")) {
+            let priceActions = document.querySelectorAll('.price_actions');
+            let addToCart = document.querySelectorAll('.add_to_cart');
+            let addToWishList = document.querySelectorAll('.add_to_wishlist');
+            let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
+            buttonContainerInProductCard.createContainer();
+          }
         }
       }
     };
