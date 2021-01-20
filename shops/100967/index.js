@@ -31,7 +31,7 @@ const icons = {
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
 
-const textInHeader = 'Бесплатная доставка';
+const textInHeader = 'Бесплатная доставка по России';
 const footerText = 'Имеются противопоказания. Проконсультируйтесь со специалистом';
 
 if (document.querySelector('.wrapper')) {
@@ -254,7 +254,7 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
 
-  const social = document.querySelector('.share_page_wrapper');
+  // const social = document.querySelector('.share_page_wrapper');
 
   const onDelete = [
     model,
@@ -263,7 +263,7 @@ if (document.querySelector('.product-product')) {
     rating,
     reviews,
     productRating,
-    social,
+    // social,
     title,
     productAvailability,
   ];
