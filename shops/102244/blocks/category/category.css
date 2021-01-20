@@ -1,3 +1,7 @@
+body.theme_11 .wrapper .homefeatured_category>div>div>div {
+  min-width: 25px !important;
+}
+
 body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail {
   border: none;
 }
