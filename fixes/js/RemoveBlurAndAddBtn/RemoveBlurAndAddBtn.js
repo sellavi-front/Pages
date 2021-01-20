@@ -41,6 +41,7 @@ window.onload = () => {
             }
           });
           if(!document.querySelector(".buttons__container")) {
+            console.log("here we goooo")
             let priceActions = document.querySelectorAll('.price_actions');
             let addToCart = document.querySelectorAll('.add_to_cart');
             let addToWishList = document.querySelectorAll('.add_to_wishlist');
