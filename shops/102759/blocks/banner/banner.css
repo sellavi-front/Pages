@@ -13,4 +13,8 @@
   .banner__image {
     background-position-x: 86% !important;
   }
+
+  .banner__caption h1 {
+    font-size: 22px;
+  }
 }
