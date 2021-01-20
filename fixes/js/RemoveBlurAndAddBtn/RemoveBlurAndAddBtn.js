@@ -14,6 +14,7 @@ export default class ButtonContainerInProductCard {
       if (!priceCont.querySelector('.buttons__container')) {
         const wishlist = priceCont.closest('div').querySelector('.add_to_wishlist');
         const cart = priceCont.closest('div').querySelector('.add_to_cart');
+        console.log("New params: ", wishlist, cart)
         priceCont.insertAdjacentHTML(
           'beforeend',
           `<div class="buttons__container">${wishlist.outerHTML}${cart.outerHTML}</div>`,
