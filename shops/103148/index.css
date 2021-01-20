@@ -88,3 +88,7 @@ body .delivery__content-label {
   margin-right: 50px;
   text-align: center;
 }
+
+#content > div > div:nth-child(3) {
+  display: none;
+}
