@@ -23,7 +23,11 @@ export default class ButtonContainerInProductCard {
 }
 
 
-
+let priceActions = document.querySelectorAll('.price_actions');
+let addToCart = document.querySelectorAll('.add_to_cart');
+let addToWishList = document.querySelectorAll('.add_to_wishlist');
+let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
+buttonContainerInProductCard.createContainer();
 
 
 /*window.onload = () => {*/
@@ -41,7 +45,6 @@ export default class ButtonContainerInProductCard {
             }
           });
           if(!document.querySelector(".buttons__container")) {
-            console.log("here we goooo")
             let priceActions = document.querySelectorAll('.price_actions');
             let addToCart = document.querySelectorAll('.add_to_cart');
             let addToWishList = document.querySelectorAll('.add_to_wishlist');
