@@ -29,10 +29,13 @@ body.theme_11.common-home .wrapper .header {
 }
 
 .mobile-navigation-close {
-  width: 23px;
   position: absolute;
   top: 30px;
   left: 10%;
+}
+
+.mobile-navigation-close i {
+  width: 23px;
 }
 
 /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
