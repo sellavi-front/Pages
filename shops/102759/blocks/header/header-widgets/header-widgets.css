@@ -20,3 +20,11 @@ body.sidenav-enabled .mobile_side_nav>ul {
 body.sidenav-enabled .mobile_side_nav>ul>.flexy>.collpase {
   display: block;
 }
+
+
+@media (max-width: 991px) {
+  body.sidenav-enabled.ltr .mobile_side_nav ul {
+    border: none;
+    display: block;
+  }
+}
