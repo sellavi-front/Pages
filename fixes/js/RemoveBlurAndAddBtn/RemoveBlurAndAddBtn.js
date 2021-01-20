@@ -10,27 +10,24 @@ export default class ButtonContainerInProductCard {
   }
 
   createContainer() {
-    this.container.forEach((btn, i) => {
-      btn.insertAdjacentHTML(
-        'beforeend',
-        `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
-      );
+    this.container.forEach((priceCont, i) => {
+      if (!priceCont.querySelector('.buttons__container')) {
+        const wishlist = priceCont.closest('div').querySelector('.add_to_wishlist');
+        const cart = priceCont.closest('div').querySelector('.add_to_cart');
+        priceCont.insertAdjacentHTML(
+          'beforeend',
+          `<div class="buttons__container">${wishlist.outerHTML}${cart.outerHTML}</div>`,
+        );
+      }
     });
-
-    this.delete(addToCart);
-    this.delete(addToWishList);
   }
 }
 
 
-let priceActions = document.querySelectorAll('.price_actions');
-let addToCart = document.querySelectorAll('.add_to_cart');
-let addToWishList = document.querySelectorAll('.add_to_wishlist');
-let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
-buttonContainerInProductCard.createContainer();
 
 
-/*window.onload = () => {*/
+
+window.onload = () => {
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
     let target = document.querySelector('body div.products');
     const config = {
@@ -44,16 +41,17 @@ buttonContainerInProductCard.createContainer();
               prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
             }
           });
-          if(!document.querySelector(".buttons__container")) {
-            let priceActions = document.querySelectorAll('.price_actions');
-            let addToCart = document.querySelectorAll('.add_to_cart');
-            let addToWishList = document.querySelectorAll('.add_to_wishlist');
-            let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
-            buttonContainerInProductCard.createContainer();
-          }
+
+          let priceActions = document.querySelectorAll('.price_actions');
+          let addToCart = document.querySelectorAll('.add_to_cart');
+          let addToWishList = document.querySelectorAll('.add_to_wishlist');
+          let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
+          buttonContainerInProductCard.createContainer();
+
         }
       }
     };
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
   }
+};
