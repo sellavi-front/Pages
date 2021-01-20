@@ -14,5 +14,5 @@ body.common-home .menu-toggle svg {
 }
 
 body.ltr .wrapper .header .header-wrapper .header-search button {
-  color: black;
+  color: black !important;
 }
