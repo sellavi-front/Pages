@@ -39,6 +39,15 @@
   left: 0 !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
 }
 
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: absolute;
+  bottom: 15px;
+  z-index: 0 !important;
+  right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
   color: #333 !important;
   background-color: transparent !important;
