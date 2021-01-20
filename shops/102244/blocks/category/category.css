@@ -1,5 +1,5 @@
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
-  min-width: 25px !important;
+  max-width: 250px !important;
 }
 
 body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail {
