@@ -1,5 +1,8 @@
+/*import "./../../fixes/js/RemoveBLur/RemoveBlur.js"*/
+import "./../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js"
+
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
-import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
+import "./../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 //import "../../fixes/fixes.js"
 //import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from "./fixes/fixes.js"
@@ -8,6 +11,7 @@ import {adv} from "./utils/utils.js"
 import {contactData} from "./utils/utils.js"
 import Footer from "./blocks/footer.js"
 import ProductPage from "./blocks/product-page.js"
+
 
 
 let fixes = new Fixes()
@@ -19,7 +23,6 @@ fixes.insertTitleToCategories()
 fixes.updateClasses()
 
 footer.addIcons()
-
 
 if (document.querySelector('.common-home')) {
   //const customSection = document.querySelector('.custom_section')

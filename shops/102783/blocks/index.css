@@ -1,1 +1,204 @@
 @import './pay-delivery/pay-delivery.css';
+@import './../../../fixes/js/FooterCopy/FooterCopy.css';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body,
+a, p, span, div, li, ul,
+h1, h2, h3, h4, h5, h6,
+.price, .section-title {
+  font-family: 'Comfortaa', cursive !important;
+}
+
+body.ltr .thumbnail .caption-title {
+  text-align: center !important;
+}
+
+/* Footer */
+.wrapper footer.footer .footer-widgets .widget-categories ul li a,
+.wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: black !important;
+}
+
+footer {
+  background: transparent !important;
+  border: none !important;
+  margin-top: 50px;
+}
+
+footer .footer-widgets {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 7% !important;
+  }
+  .footer-widgets > div > div > div {
+    margin-bottom: 50px !important;
+  }
+}
+
+.footer-widgets > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-widgets .widget .widget-title {
+  text-transform: none !important;
+  margin-bottom: 40px !important;
+  font-size: 22px !important;
+}
+
+.footer-widgets .widget ul li {
+  margin-bottom: 20px !important;
+}
+
+.wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  font-size: 18px !important;
+  color: #A1A1A1 !important;
+}
+
+.footer-widgets > div > div > div {
+  margin-right: 80px;
+}
+
+.footer-widgets > div > div > div:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-widgets > div {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-widgets > div > div > div {
+    margin: 0 auto 0 5%;
+  }
+
+  #home footer .footer-widgets {
+    padding-top: 0 !important;
+  }
+
+  footer {
+    margin: 0 !important;
+  }
+}
+
+footer .soc-icons {
+  max-width: 201px !important;
+}
+
+footer .soc-icons .container {
+  padding: 0 !important;
+}
+
+footer .soc-icons .container > .soc-icons__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px;
+  line-height: 1;
+}
+
+@media (max-width: 495px) {
+  .soc-icons {
+    margin: 0 auto;
+  }
+}
+
+/* footer end */
+
+/* Section title */
+body.ltr.ru .wrapper .latest-section h2.section-title {
+  text-transform: none !important;
+  text-align: left !important;
+}
+
+/* end */
+
+/* Logo */
+
+@media (max-width: 375px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 20% 0 auto !important;
+  }
+}
+
+/* end */
+
+/* Categories title */
+.thumbnail.thumbnail-banner .caption-sub-title span, .thumbnail.thumbnail-banner .caption-title span {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #414141 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0 0 1px;
+  color: #fff;
+}
+
+.thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0 0 1px;
+  color: #fff;
+}
+
+/* end */
+
+/* Product layout */
+.common-home .latest-section {
+  margin-top: 0 !important;
+}
+
+body .section-title span:after, body .section-title span:before {
+  display: none !important;
+}
+
+.product-product .product-single.product-item #tab-description~.table_holder  {
+  display: none !important;
+}
+
+
+body.theme_11 .wrapper .page-section .products.grid .product-item {
+  border: none !important;
+  padding: 10px !important;
+  /* margin: 0 20px 50px 0 !important; */
+  max-width: 270px;
+  width: 100%;
+}
+
+.wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  padding: 0 !important;
+}
+
+/* Size product card */
+.product-item .thumbnail .media img {
+  min-height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.thumbnail .media-link {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.product-item .caption {
+  margin-top: 20px !important;
+}
+
+.product-item .caption a {
+  font-size: 14px !important;
+}
+/* end */

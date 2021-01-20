@@ -29,6 +29,7 @@ if(pages.home) {
   let customBanner = new CustomBanner()
   customBanner.render()*/
   if(window.screen.width >= 575) {
+    document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
     document.querySelector(".custom_banner").insertAdjacentHTML("afterbegin", `<div class="container"><img class="bannerImg" src="https://cdn.sellavi.com/image/upload/v1608731970/ru/clients/101263/a6badf471eb3c898e4899515a3c0fda8d28aa081.jpg" alt="banner"/></div>`)
     let advantages = new Advantages()
     advantages.render()
@@ -38,10 +39,9 @@ if(pages.home) {
       deleteSelectors.findAndDelete();
     }
   } else {
+    document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
     document.querySelector(".custom_banner").insertAdjacentHTML("afterbegin", `<div class="container"><img class="bannerImg" src="https://cdn.sellavi.com/image/upload/q_auto:420/v1608731984/ru/clients/101263/5ab4a1a11b389c4dc868d48c69c86948e1ed0050.jpg" alt="banner"/></div>`)
-  }
-  document.querySelector("#home > div > div.content-area > section > div:nth-child(2) > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
-  let customSection = new CustomSection()
+  }let customSection = new CustomSection()
   customSection.render()
 
 

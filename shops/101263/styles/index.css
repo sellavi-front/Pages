@@ -160,6 +160,10 @@ body .content-area .page-section.error-page h2 {
     font-weight: 100 !important;
 }
 
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: #333 !important;
+}
+
 .read_doc {
     margin-top: 10px !important;
     margin-bottom: 10px !important;
