@@ -248,3 +248,7 @@ body.ltr .thumbnail .caption-title {
     justify-content: center !important;
     align-items: center;
 }
+
+.price_actions .buttons__container {
+    margin-top: 20px !important;
+}
