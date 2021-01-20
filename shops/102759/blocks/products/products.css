@@ -25,6 +25,7 @@ body .thumbnail .img-fluid, body .img-thumbnail {
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-left: 0 !important;
 }
+
 /*
 body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
   padding-right: 0 !important;
@@ -57,6 +58,10 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   body.ru.ltr .wrapper .page-section .products.grid .product-item {
     padding: 30px !important;
   } */
+
+  body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    padding: 0 15px ;
+  }
 }
 
 @media (max-width: 495px) {
