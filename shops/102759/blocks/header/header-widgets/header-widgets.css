@@ -6,3 +6,17 @@
 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
 }
+
+body.sidenav-enabled .mobile_side_nav>ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid lightgray;
+}
+
+body.sidenav-enabled .mobile_side_nav>ul>.flexy>.collpase {
+  display: block;
+}

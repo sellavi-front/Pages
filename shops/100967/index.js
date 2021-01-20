@@ -26,7 +26,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
   cart:
-    '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
+    '<img src="https://res.cloudinary.com/depgheppz/image/upload/v1611136009/Vector_opwga3.svg" alt="cart">',
   like:
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
@@ -138,6 +138,26 @@ if (document.querySelector('.wrapper')) {
     .querySelector('.header-wrapper > .container-fluid')
     .insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
+
+  setTimeout(() => {
+    document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
+      'afterend',
+      `
+        <div class="mobile-navigation-close">
+          <i class="fal fa-times"></i>
+        </div>
+      `,
+    );
+  }, 500);
+
+  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+    document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+      const nav = document.querySelector('.navigation');
+      nav.classList.add('nav-closed');
+      nav.classList.remove('nav-opened');
+      document.querySelector('body').classList.remove('overflow-hidden');
+    });
+  });
 }
 
 if (document.querySelector('.common-home')) {
