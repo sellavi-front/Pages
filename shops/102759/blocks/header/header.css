@@ -45,6 +45,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   top: 0 !important;
   width: 100% !important;
   padding-top: 108px !important;
+  background: transparent !important;
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
