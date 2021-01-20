@@ -92,6 +92,10 @@ body.sidenav-enabled.ltr .navigation.mobile_side_nav {
     margin: auto !important;
   }
 
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    background: white !important;
+  }
+
   .mobile-navigation-close {
     display: block;
   }
