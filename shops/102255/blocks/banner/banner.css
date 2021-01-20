@@ -124,3 +124,7 @@ a.btn.btn-theme {
     border: 2px solid #E8605D !important;
     padding: 40px 50px 40px 50px !important;
 }
+
+.main-slider .img-fluid {
+    height: auto;
+}
