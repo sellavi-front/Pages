@@ -42,7 +42,7 @@
 .thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
   position: absolute;
   bottom: 15px;
-  z-index: 0 !important;
+  z-index: 1 !important;
 
   right: 15px;
   cursor: pointer;
