@@ -138,6 +138,26 @@ if (document.querySelector('.wrapper')) {
     .querySelector('.header-wrapper > .container-fluid')
     .insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
+
+  setTimeout(() => {
+    document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
+      'afterend',
+      `
+        <div class="mobile-navigation-close">
+          <i class="fal fa-times"></i>
+        </div>
+      `,
+    );
+  }, 500);
+
+  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+    document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+      const nav = document.querySelector('.navigation');
+      nav.classList.add('nav-closed');
+      nav.classList.remove('nav-opened');
+      document.querySelector('body').classList.remove('overflow-hidden');
+    });
+  });
 }
 
 if (document.querySelector('.common-home')) {
