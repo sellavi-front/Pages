@@ -106,6 +106,6 @@ body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist 
 }
 
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
-    color: black;
-    background: white;
+    color: black !important;
+    background-color: white !important;
 }
