@@ -2,8 +2,9 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
   max-width: 250px !important;
 }
 
-body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail {
-  border: none;
+body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail,
+body.theme_11.ltr .wrapper .homefeatured_category>div>div>div:nth-of-type(odd) {
+  border: none !important;
 }
 
 body.theme_11
