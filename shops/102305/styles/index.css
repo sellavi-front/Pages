@@ -230,7 +230,7 @@ body .content-area .page-section {
   position: relative;
   overflow: hidden;
   text-align: center;
-  margin: 0 !important;
+  margin: auto !important;
 }
 
 body.theme_11 .wrapper .latest-section h2.section-title {
