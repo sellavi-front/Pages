@@ -133,11 +133,11 @@ if (document.querySelector('.wrapper')) {
   disLinkHeader.forEach((link) => link.removeAttribute('href'));
   bsMenutoggle.remove();
 
-  // const brg = document.querySelector('.mobile-navigation-wrapper');
-  // document
-  //   .querySelector('.header-wrapper > .container-fluid')
-  //   .insertAdjacentHTML('afterbegin', brg.outerHTML);
-  // brg.remove();
+  const brg = document.querySelector('.mobile-navigation-wrapper');
+  document
+    .querySelector('.header-wrapper > .container-fluid')
+    .insertAdjacentHTML('afterbegin', brg.outerHTML);
+  brg.remove();
 
   setTimeout(() => {
     document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
