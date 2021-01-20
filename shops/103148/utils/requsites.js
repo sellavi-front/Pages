@@ -13,10 +13,10 @@ const requsites = {
 
 // ТО что отображается на странице оплата и доставка
 const dataContact = {
-  adress: 'АААА',
-  phone: '2131424',
+  adress: 'Доставка',
+  phone: '+7 906 977-68-21',
   city: 'г. Город',
-  timeWork: `Пн-Пт 9:00 - 18:00`,
+  timeWork: `Ежедневно, круглосуточно`,
 }
 
 export {
