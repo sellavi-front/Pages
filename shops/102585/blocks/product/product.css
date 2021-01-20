@@ -252,3 +252,25 @@ body.ltr .thumbnail .caption-title {
 .price_actions .buttons__container {
     margin-top: 20px !important;
 }
+
+section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div > div.add_to_cart > button:hover {
+    background: black;
+    border-radius: 0px;
+    color: white;
+}
+
+.thumbnail .price_actions .add_to_cart button {
+    width: 100%;
+}
+
+.thumbnail .price_actions .add_to_cart button:hover i {
+    color: white !important;
+}
+
+#home > div > div > section.page-section.latest-section > div > div > div> div > div.price_actions.d-flex.justify-content-between > div > div.add_to_wishlist:hover {
+    background: black;
+}
+
+.add_to_wishlist:hover i {
+    color: white !important;
+}
