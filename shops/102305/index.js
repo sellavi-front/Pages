@@ -1,7 +1,7 @@
 import "../../fixes/js/RemoveBlur/RemoveBlur.js"
 
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
-/*import "./../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"*/
+import "./../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 //import "../../fixes/fixes.js"
 //import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from "./fixes/fixes.js"
