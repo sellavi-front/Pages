@@ -10,12 +10,12 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 
 document.querySelector('.header-cart.sticky').insertAdjacentHTML('beforebegin', '<div class="button__list_elem"><a id="wishlist" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-heart"></i></a></div>');
 
-if (document.querySelector('.common-home')) {
+// if (document.querySelector('.common-home')) {
   
-  document.querySelector('.caption-subtitle .position-relative').insertAdjacentHTML('afterend', '<span class="second-title-text"></span>')
-  document.querySelector('.caption-subtitle .second-title-text').insertAdjacentHTML('afterend', '<div class="button-in-banner">Подробнее</div>')
-  document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span.position-relative').insertAdjacentHTML('afterend', '<span>Продажа средств от насекомых</span><br>');
-}
+//   document.querySelector('.caption-subtitle .position-relative').insertAdjacentHTML('afterend', '<span class="second-title-text"></span>')
+//   document.querySelector('.caption-subtitle .second-title-text').insertAdjacentHTML('afterend', '<div class="button-in-banner">Подробнее</div>')
+//   document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span.position-relative').insertAdjacentHTML('afterend', '<span>Продажа средств от насекомых</span><br>');
+// }
 
 // if (document.querySelector('.common-home')) {
   
