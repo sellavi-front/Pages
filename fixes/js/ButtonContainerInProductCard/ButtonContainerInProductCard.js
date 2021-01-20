@@ -24,10 +24,12 @@ export default class ButtonContainerInProductCard {
   }
 
   render() {
-    let priceActions = document.querySelectorAll('.price_actions');
-    let addToCart = document.querySelectorAll('.add_to_cart');
-    let addToWishList = document.querySelectorAll('.add_to_wishlist');
-    let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
-    buttonContainerInProductCard.createContainer();
+    if(document.querySelector(".common-home") || document.querySelector(".product-product") || document.querySelector(".product-category")) {
+      let priceActions = document.querySelectorAll('.price_actions');
+      let addToCart = document.querySelectorAll('.add_to_cart');
+      let addToWishList = document.querySelectorAll('.add_to_wishlist');
+      let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
+      buttonContainerInProductCard.createContainer();
+    }
   }
 }
