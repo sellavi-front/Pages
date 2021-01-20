@@ -45,6 +45,13 @@ body.ltr .wrapper .header .header-wrapper .logo {
     z-index: 0 !important;
 }
 
+@media (max-device-width: 480px) {
+    body.ltr .wrapper .header .header-wrapper .logo {
+        z-index: 999 !important;
+    }
+    
+}
+
 .item_data {
     width: 20px;
     margin-right: 10px;
