@@ -128,3 +128,9 @@ a.btn.btn-theme {
 .main-slider .img-fluid {
     height: auto;
 }
+
+@media (max-device-width: 480px) {
+    #banner0 > div > div > div > div > div > div > div > div > div > p > a {
+        display: none;
+    }
+}
