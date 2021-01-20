@@ -78,3 +78,7 @@ button#button-cart {
 body .content-area .page-section.titles {
     padding-top: 0px
 }
+
+.checkout-cart #content > div > div > div:nth-child(1) {
+    display: block !important;
+}
