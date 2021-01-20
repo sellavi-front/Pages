@@ -16,9 +16,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   top: 100px;
 }
 
-body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
-  color: white !important;
-}
+
 /*
 body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
@@ -98,10 +96,6 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   content: "\f054" !important;
 }
 
-.mobile_side_nav_menu > .flexy > .panel-collapse {
-  display: block !important;
-}
-
 body.sidenav-enabled.ltr .wrapper-opened {
   display: block !important;
 }
@@ -133,4 +127,3 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     display: none !important;
   }
 }
-
