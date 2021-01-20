@@ -52,7 +52,10 @@ body.theme_11
   justify-content: center !important;
   color: white;
   font-weight: bold;
-  margin-bottom: 25px !important;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title{
+  margin-bottom: 30px !important;
 }
 
 body.theme_11
