@@ -35,21 +35,6 @@ let renderContactsInCustomSection = () => {
                   </div>
               </div>
             </div>
-
-            <div class="email">
-              <div class="email-img">
-                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
-              </div>
-              <div class="title-and-email"
-                  <div class="email-title">
-                      <span>Почтовый адрес</span>
-                  </div>
-                  <div class="real-email">
-                      <span>zali-shopping@mail.ru</span>
-                  </div>
-              </div>
-            </div>
-
             <!--<div class="address">
               <div class="address-img">
                   <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
