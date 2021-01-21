@@ -78,19 +78,17 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  setTimeout(() => {
-    console.log(document.querySelector('#product > div:nth-child(2)>div>div> button'));
-    document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-      const list = document.querySelectorAll("#bs-select-1 > ul > li");
-
-      list.forEach((li) => {
-        const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
-        const len = cut.length;
-
-        if (len === 20 || len === 21) {
-          cut.slice(0, -16);
+  let target = document.querySelector("#product > div:nth-child(2) > div");
+    const config = {
+      childList: true,
+    };
+    const callback = function (mutationsList, observer) {
+      for (let mutation of mutationsList) {
+        if (mutation.type === 'childList') {
+          target.querySelector("#bs-select-1-2 > span")
         }
-      });
-    });
-  }, 500);
+      }
+    };
+    const observer = new MutationObserver(callback);
+    observer.observe(target, config);
 }
