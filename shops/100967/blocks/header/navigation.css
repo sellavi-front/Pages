@@ -82,6 +82,12 @@
     display: none;
 }
 
+body > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .sf-menu li li.active, .sf-menu li li.sfHover, .sf-menu li li.sfHover>a, .sf-menu li li:hover {
   background: white !important;
 }

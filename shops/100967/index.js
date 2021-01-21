@@ -53,8 +53,8 @@ if (document.querySelector('.wrapper')) {
   logoIco.remove();
   logo.insertAdjacentHTML('afterbegin', icons.cart);
 
-  document.querySelector('.header-wrapper > .container').classList.add('container-fluid');
-  document.querySelector('.header-wrapper > .container').classList.remove('container');
+  // document.querySelector('.header-wrapper > .container').classList.add('container-fluid');
+  // document.querySelector('.header-wrapper > .container').classList.remove('container');
 
   // Icons in header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
