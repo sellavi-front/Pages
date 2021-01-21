@@ -68,10 +68,3 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', 'ООО"Санитары Столицы"', media);
   req.setTemplate();
 }
-
-if (document.querySelector('.header.header-wrapper')) {
-  const oldCart = document.querySelector('#home > div > header > div > div.container-fluid > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down')
-  const newCart = oldCart.cloneNode(true)
-  document.querySelector('#home > div > header > div > div.container-fluid > div.logo').insertAdjacentHTML('beforebegin', newCart.outerHTML)
-  oldCart.remove()
-}
