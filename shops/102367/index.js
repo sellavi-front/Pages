@@ -69,7 +69,7 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise()
   colorChoise.render();
 
-  const btnSelect = document.querySelectorAll("#product > div > div > button");
+  const btnSelect = document.querySelectorAll("#product > div > div");
 console.log(btnSelect);
   btnSelect.forEach(sel => {
     console.log(sel);
