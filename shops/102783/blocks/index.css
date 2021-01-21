@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
 
 
 body,
