@@ -163,7 +163,6 @@ body.theme_11 .wrapper .page-section .products.grid .product-item {
 .product-item .thumbnail .media img {
   min-height: auto;
   max-width: 100%;
-  max-height: 100%;
 }
 
 .thumbnail .media-link {
