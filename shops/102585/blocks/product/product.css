@@ -278,3 +278,12 @@ section.page-section.latest-section > div > div > div > div > div.price_actions.
 .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
     height: 46px !important;
 }
+
+.product-product .product-single .buttons .btn-cart:hover {
+    background: #909090 !important;
+    color: white !important;
+}
+
+.product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list:hover {
+    background: #909090;
+}
