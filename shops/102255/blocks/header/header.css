@@ -63,6 +63,6 @@ img.product_slide.img-fluid {
 }
 
 #home > div > header > div > div.container-fluid > div.logo > a {
-    display: flex;
+    display: flex !important;
     
 }
