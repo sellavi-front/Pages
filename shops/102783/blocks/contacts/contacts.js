@@ -22,6 +22,7 @@ let renderContactsInCustomSection = () => {
                 </div>
               </div>
             </div>
+
             <div class="email">
               <div class="email-img">
                   <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610451450/Group_209_ye2yi4.png" alt="">
@@ -35,6 +36,7 @@ let renderContactsInCustomSection = () => {
                   </div>
               </div>
             </div>
+
             <div class="address">
               <div class="address-img">
                   <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
