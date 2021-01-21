@@ -1,12 +1,12 @@
-import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 
 import '../../fixes/js/Alert/Alert.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
-import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js'
-import '../../fixes/js/FooterCopy/FooterCopy.js'
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
@@ -16,16 +16,20 @@ import senderData from './utils/senderData.js';
 import socialIcons from './utils/social-icons.js';
 
 if (document.querySelector('.common-home')) {
-
   // reset cut image in categories
-  const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
-  imgCat.forEach(cat => {
+  const imgCat = document.querySelectorAll(
+    '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
+  );
+  imgCat.forEach((cat) => {
     const src = cat.getAttribute('src');
 
-    let replacedSrc = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
+    let replacedSrc = src.replace(
+      /\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi,
+      '',
+    );
 
     cat.setAttribute('src', replacedSrc);
-  })
+  });
   // rend reset cit img
 
   const latestSection = document.querySelector('.page-section.latest-section > .container');
@@ -33,7 +37,7 @@ if (document.querySelector('.common-home')) {
   const sender = new FormBasic(latestSection, 'beforeend', senderData);
   sender.render();
 
-  latestSection.querySelector('.container').classList.remove('container')
+  latestSection.querySelector('.container').classList.remove('container');
 
   const senderForm = document.querySelector('.sender-basic form');
   const dataForm = {};
@@ -45,12 +49,14 @@ if (document.querySelector('.common-home')) {
     if (e.target.getAttribute('name') === 'phone') {
       dataForm.phone = e.target.value;
     }
-  })
-
-  senderForm.querySelector('button').addEventListener('click', () => {
-    window.open(`https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут%20${dataForm.name}.%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`, '_blank');
   });
 
+  senderForm.querySelector('button').addEventListener('click', () => {
+    window.open(
+      `https://wa.me/79267979561?text=Здравствуйте!%0D%0AМеня%20зовут%20${dataForm.name}.%20Я%20заинтересовался%20вашим%20товаром.%20Пожалуйста%20свяжитесь%20со%20мной%20${dataForm.phone}`,
+      '_blank',
+    );
+  });
 }
 
 if (document.querySelector('.wrapper')) {
@@ -59,29 +65,31 @@ if (document.querySelector('.wrapper')) {
   new SocIconsTypeOne(footerContainer, 'beforeend', socialIcons).render();
 
   const socIconsContainer = document.querySelector('.soc-icons>.container');
-  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+  socIconsContainer.insertAdjacentHTML(
+    'afterbegin',
+    `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`,
+  );
 
   const socIcons = document.querySelector('.soc-icons');
   socIcons.classList.add('col-md-3');
 }
 
 if (document.querySelector('.product-product')) {
-  const colorChoise = new ColorChoise()
+  const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  const btnSelect = document.querySelectorAll("#product > div:nth-child(2)");
-console.log(btnSelect);
-  btnSelect.forEach(sel => {
-    console.log(sel);
-    sel.addEventListener('click', () => {
-      sel.closest('div').querySelectorAll('.dropdown-menu.inner.show > li > a').forEach(li => {
-        const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
-        const len = cut.length;
+  const btnSelect = document.querySelectorAll('#product > div:nth-child(2)');
 
-        if (len === 20 || len === 21) {
-          cut.slice(0, -16);
-        }
-      })
-    })
-  })
+  btnSelect.addEventListener('click', () => {
+    const list = btnSelect.querySelectorAll('.dropdown-menu.inner.show > li > a');
+
+    list.forEach((li) => {
+      const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
+      const len = cut.length;
+
+      if (len === 20 || len === 21) {
+        cut.slice(0, -16);
+      }
+    });
+  });
 }
