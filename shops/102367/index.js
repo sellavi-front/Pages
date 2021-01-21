@@ -79,7 +79,7 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   setTimeout(() => {
-    let target = document.querySelector("#product > div:nth-child(2) > div");
+    let target = document.querySelector("#bs-select-1 > ul");
     console.log(target);
     const config = {
       childList: true,
