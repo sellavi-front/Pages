@@ -14,10 +14,6 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .capt
     margin-bottom: 20px !important;
 }
 
-footer > div.footer-widgets > div.container {
-    padding-top: 50px;
-    border-top: 1px solid blue;
-}
 
 .title-socIcon {
     font-size: 18px;
