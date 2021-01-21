@@ -285,5 +285,5 @@ section.page-section.latest-section > div > div > div > div > div.price_actions.
 }
 
 .product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list:hover {
-    background: #909090;
+    background: #909090 !important;
 }
