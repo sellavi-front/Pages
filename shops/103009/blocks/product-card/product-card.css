@@ -133,3 +133,12 @@ body .btn.btn-theme.btn-theme-transparent:hover {
 body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
     max-width: 400px !important;
 }
+
+.sf-menu .flexy.has_children ul {
+    margin: 0px;
+}
+
+.sf-menu ul li {
+    background: #fff;
+    padding: 10px;
+}
