@@ -78,7 +78,7 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  const btnSelect = document.querySelectorAll('#product > div:nth-child(2)');
+  const btnSelect = document.querySelector('#product > div:nth-child(2)');
 
   btnSelect.addEventListener('click', () => {
     const list = btnSelect.querySelectorAll('.dropdown-menu.inner.show > li > a');
