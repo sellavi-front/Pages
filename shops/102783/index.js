@@ -6,6 +6,7 @@ import Requisites from '../../modules/Requisites/Requisites.js'
 import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 /*import '../../fixes/js/FooterCopy/FooterCopy.js'*/
+import renderContactsInCustomSection from "./blocks/contacts/contacts.js"
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"')
@@ -43,3 +44,5 @@ if (location.href.includes('pay-delivery')) {
   )
   req.setTemplate()
 }
+
+renderContactsInCustomSection()
