@@ -130,8 +130,9 @@ body.ltr.ru .wrapper .latest-section h2.section-title {
 .thumbnail.thumbnail-banner .caption-sub-title span, .thumbnail.thumbnail-banner .caption-title span {
   display: inline-block;
   padding: 8px 12px;
-  background-color: #414141 !important;
+  background-color: #41414185 !important;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  text-transform: initial !important;
 }
 
 .thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
