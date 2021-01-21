@@ -158,6 +158,10 @@ if (document.querySelector('.wrapper')) {
       document.querySelector('body').classList.remove('overflow-hidden');
     });
   });
+
+  const footerDocs = document.querySelector("#home > div > footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
+  const phh = document.querySelector('.phh');
+  phh.insertAdjacentHTML('afterend', `<div class="docs">${footerDocs.outerHTML}</div>`);
 }
 
 if (document.querySelector('.common-home')) {
