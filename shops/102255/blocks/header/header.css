@@ -72,7 +72,7 @@ img.product_slide.img-fluid {
 
 
     .dropdown.cart_drop_down {
-        display: flex !important;
+        display: block !important;
     }
 
     .header_widgets {
