@@ -87,7 +87,7 @@ console.log(target);
       for (let mutation of mutationsList) {
         console.log(mutation);
         if (mutation.type === 'childList') {
-          console.log(document.querySelector("#bs-select-1 > ul > li:nth-child(2)"))
+          console.log(document.querySelectorAll("#bs-select-1 > ul > li"))
         }
       }
     };
