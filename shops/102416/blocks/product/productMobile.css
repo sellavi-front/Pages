@@ -82,3 +82,7 @@
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
     background: transparent !important;
 }
+
+#home > div > div.content-area > section > div > div > div.col-lg-6.login_wrapper > form > div > div.col-md-6.button_holder > input.btn.btn-theme.btn-block.btn-theme-dark {
+    background: black !important;
+}
