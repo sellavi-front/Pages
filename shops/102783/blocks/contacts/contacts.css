@@ -4,6 +4,10 @@
   margin-top: 50px;
 }
 
+.contacts-title {
+  margin-top: 10%;
+}
+
 .otherInfo {
   display: flex;
   flex-direction: row;
