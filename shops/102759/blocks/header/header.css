@@ -96,6 +96,11 @@ body.sidenav-enabled.ltr .navigation.mobile_side_nav {
   .mobile-navigation-close {
     display: block;
   }
+
+  .mobile-navigation-close i {
+    font-size: 23px ;
+  }
+
   body.sidenav-enabled .mobile_side_nav > ul a {
     text-align: start !important;
   }
