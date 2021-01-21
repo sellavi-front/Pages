@@ -78,7 +78,8 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  let target = document.querySelector("#product > div:nth-child(2) > div");
+  setTimeout(() => {
+    let target = document.querySelector("#product > div:nth-child(2) > div");
     const config = {
       childList: true,
     };
@@ -91,4 +92,6 @@ if (document.querySelector('.product-product')) {
     };
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
+  },500)
+
 }
