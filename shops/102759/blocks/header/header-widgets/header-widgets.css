@@ -8,12 +8,6 @@
 }
 
 body.sidenav-enabled .mobile_side_nav>ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border: 1px solid lightgray;
 }
 
