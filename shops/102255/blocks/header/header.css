@@ -61,3 +61,8 @@ body.ltr .wrapper .header .header-wrapper .logo {
 img.product_slide.img-fluid {
     width: 50%;
 }
+
+#home > div > header > div > div.container-fluid > div.logo > a {
+    display: flex;
+    
+}
