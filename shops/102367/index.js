@@ -68,4 +68,19 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise()
   colorChoise.render();
+
+  const btnSelect = document.querySelectorAll("#product > div > div > button");
+
+  btnSelect.forEach(select => {
+    select.addEventListener('click', () => {
+      select.closest('div').querySelectorAll('.dropdown-menu.inner.show > li').forEach(li => {
+        const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
+        const len = cut.length;
+
+        if (len === 20 || len === 21) {
+          cut.slice(0, -16);
+        }
+      })
+    })
+  })
 }
