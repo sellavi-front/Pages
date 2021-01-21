@@ -57,6 +57,7 @@
 
 .sf-menu li.megamenu>ul li.megaline div {
      margin: 0 !important;
+     max-width: 200px;
 }
 
 .sf-menu .megamenu ul li>a {
