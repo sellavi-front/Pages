@@ -81,7 +81,7 @@ if (document.querySelector('.product-product')) {
   const btnSelect = document.querySelector('#product > div:nth-child(2)');
 
   btnSelect.addEventListener('click', () => {
-    const list = btnSelect.querySelectorAll('.dropdown-menu.inner.show > li > a');
+    const list = document.querySelectorAll('.dropdown-menu.inner.show > li > a');
 
     list.forEach((li) => {
       const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
