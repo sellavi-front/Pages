@@ -6,7 +6,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 // import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 // import socIconsData from './utils/socIconsData.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<div class="info-after">для прочистки любой степени сложности</div>');
