@@ -274,3 +274,7 @@ section.page-section.latest-section > div > div > div > div > div.price_actions.
 .add_to_wishlist:hover i {
     color: white !important;
 }
+
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+    height: 46px !important;
+}
