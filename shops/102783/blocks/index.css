@@ -39,15 +39,6 @@ body.ltr .thumbnail .caption-title {
   text-transform: inherit;
 }
 
-.thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
-  border-radius: 0px !important;
-  background: transparent !important;
-  height: 100%;
-  border: 1px solid rgb(0, 0, 0) !important;
-  color: black !important;
-  font-weight: 100;
-  width: 200px;
-}
 
 body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   position: static !important;
@@ -70,6 +61,16 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 @media only screen and (max-width: 768px) {
   .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
     max-height: 80px !important;
+  }
+
+  .thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+    border-radius: 0px !important;
+    background: transparent !important;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0) !important;
+    color: black !important;
+    font-weight: 100;
+    width: 200px;
   }
 }
 
