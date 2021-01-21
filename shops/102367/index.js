@@ -79,9 +79,9 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   setTimeout(() => {
-    console.log(document.querySelectorAll('#product > div:nth-child(2)>div>div .dropdown-menu.inner.show > li > a'));
-    document.querySelector('#product > div:nth-child(2)>div>div').addEventListener('click', () => {
-      const list = document.querySelector('#product > div:nth-child(2)>div>div .dropdown-menu.inner.show > li > a');
+    console.log(document.querySelector('#product > div:nth-child(2)>div>div> button'));
+    document.querySelector('#product > div:nth-child(2)>div>div>button').addEventListener('click', () => {
+      const list = document.querySelectorAll("#bs-select-1 > ul > li");
 
       list.forEach((li) => {
         const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
