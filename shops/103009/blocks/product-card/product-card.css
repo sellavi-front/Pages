@@ -128,3 +128,7 @@ body .btn.btn-theme.btn-theme-transparent:hover {
 .header_widgets .header-cart.sticky {
     margin-left: 15px !important;
 }
+
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+    background: transparent !important;
+}

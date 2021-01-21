@@ -4,8 +4,8 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
-import socIconsData from './utils/socIconsData.js';
+// import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+// import socIconsData from './utils/socIconsData.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<div class="info-after">для прочистки любой степени сложности</div>');
@@ -62,10 +62,10 @@ if (location.href.includes('pay-delivery')) {
   req.setTemplate();
 }
 
-const footerContainer = document.querySelector('.footer-widgets>div>div');
+// const footerContainer = document.querySelector('.footer-widgets>div>div');
 
-new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+// new SocIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
 
-if (document.querySelector('.footer-widgets')) {
-  document.querySelector('#home > div > footer > div.footer-widgets > div.container > div > div.soc-icons > div > div').insertAdjacentHTML('beforebegin', '<div class="title-socIcon">Мы в соцсетях</div>');
-}   
+// if (document.querySelector('.footer-widgets')) {
+//   document.querySelector('#home > div > footer > div.footer-widgets > div.container > div > div.soc-icons > div > div').insertAdjacentHTML('beforebegin', '<div class="title-socIcon">Мы в соцсетях</div>');
+// }   
