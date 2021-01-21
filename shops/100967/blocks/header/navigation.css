@@ -42,7 +42,9 @@
 }
 
 .sf-menu .megamenu > ul > .megaline {
-  padding: 20px 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .block-title span:after {
