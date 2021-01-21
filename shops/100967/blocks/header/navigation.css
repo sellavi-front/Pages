@@ -68,6 +68,10 @@
     margin: 48px 0 0;
 }
 
+header .button__list {
+  width: 200px;
+}
+
 .sf-menu .megamenu>ul li ul li {
      display: -webkit-box !important;
      display: -ms-flexbox !important;
