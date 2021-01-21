@@ -42,6 +42,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .price_actions {
   flex-direction: column !important;
 }
+
+.price {
+  font-size: 18px !important;
+}
 /* end */
 
 /* Categories header */
