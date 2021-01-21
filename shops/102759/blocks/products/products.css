@@ -62,6 +62,12 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   body.ru.ltr .wrapper .page-section .products.grid .product-item {
     padding: 0 ;
   }
+
+  .buttons__container {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
 }
 
 @media (max-width: 495px) {
