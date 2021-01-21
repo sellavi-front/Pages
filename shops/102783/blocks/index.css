@@ -9,7 +9,6 @@
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
 
-@import '../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
 @import '../../../templates/TemplateTypeTwo/styles/products/products.css';
 
 
@@ -24,6 +23,23 @@ h1, h2, h3, h4, h5, h6,
 body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
+
+/* Buy button and wishlist */
+.add_to_cart button {
+  width: 190px;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  position: static !important;
+  margin-top: 10px !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: center !important;
+}
+
+/* end */
 
 /* Categories header */
 body.theme-gray .header .navigation-wrapper {
