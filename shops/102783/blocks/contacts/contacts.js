@@ -48,7 +48,7 @@ let renderContactsInCustomSection = () => {
                       <span>г. Екатеринбург ул Cчастливая 8 офис 2</span>
                   </div>
               </div>
-            </div>
+<!--            </div>-->
         </div>
       </div>
       </div>`);
