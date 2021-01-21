@@ -148,5 +148,5 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 }
 
 body .footer .footer-widgets .widget-title {
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
