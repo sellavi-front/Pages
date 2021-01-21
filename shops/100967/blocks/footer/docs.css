@@ -13,4 +13,5 @@
 
 .docs li a {
   color: white !important;
+  opacity: .6;
 }
