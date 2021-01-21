@@ -70,7 +70,7 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   const btnSelect = document.querySelectorAll("#product > div > div > button");
-console.log(bntSelect);
+console.log(123);
   btnSelect.forEach(sel => {
     console.log(sel);
     sel.addEventListener('click', () => {
