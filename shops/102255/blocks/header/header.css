@@ -63,6 +63,14 @@ img.product_slide.img-fluid {
 }
 
 @media (max-device-width: 480px) {
+.dropdown.cart_drop_down {
+    display: block !important;
+}
+}
+
+@media (max-device-width: 480px) {
+
+
     .dropdown.cart_drop_down {
         display: flex !important;
     }
