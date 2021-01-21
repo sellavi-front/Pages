@@ -80,6 +80,7 @@ if (document.querySelector('.product-product')) {
 
   setTimeout(() => {
     let target = document.querySelector("#product > div:nth-child(2) > div");
+    console.log(target);
     const config = {
       childList: true,
     };
