@@ -18,3 +18,10 @@ footer > div.footer-widgets > div.container {
     padding-top: 50px;
     border-top: 1px solid blue;
 }
+
+.title-socIcon {
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: -12px;
+}
