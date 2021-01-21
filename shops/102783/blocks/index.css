@@ -24,6 +24,12 @@ body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
 
+/* Subcategories */
+.sf-menu ul {
+  min-width: auto !important;
+}
+/* End */
+
 /* Buy button and wishlist */
 .add_to_cart button {
   width: 190px;
