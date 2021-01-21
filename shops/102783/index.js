@@ -1,10 +1,11 @@
-import './../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
-import './../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
-import './../../fixes/js/RemoveBlur/RemoveBlur.js'
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
+import '../../fixes/js/RemoveBlur/RemoveBlur.js'
+
 import Requisites from '../../modules/Requisites/Requisites.js';
 import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
-import './../../fixes/js/FooterCopy/FooterCopy.js'
+import '../../fixes/js/FooterCopy/FooterCopy.js'
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"');
