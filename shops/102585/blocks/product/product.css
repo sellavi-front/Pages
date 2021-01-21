@@ -24,9 +24,9 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile:hover {
     background: transparent;
 }
 
-body .btn.btn-theme.btn-theme-transparent:hover i {
+/* body .btn.btn-theme.btn-theme-transparent:hover i {
     color: black;
-}
+} */
 
 @media(max-device-width: 480px) {
     .otherInfo {
