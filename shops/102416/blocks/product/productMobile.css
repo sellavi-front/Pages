@@ -86,3 +86,7 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
 #home > div > div.content-area > section > div > div > div.col-lg-6.login_wrapper > form > div > div.col-md-6.button_holder > input.btn.btn-theme.btn-block.btn-theme-dark {
     background: black !important;
 }
+
+.buttons.d-flex.flex-wrap .btn.btn-theme.btn-cart.btn-icon-left.no_quantity {
+    color: black !important;
+}
