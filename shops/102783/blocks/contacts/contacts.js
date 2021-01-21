@@ -18,7 +18,7 @@ let renderContactsInCustomSection = () => {
                     <span>Номер телефона</span>
                 </div>
                 <div class="real-number">
-                  <span>8 (919) 721-55-83</span>
+                  <span>8 (912) 683-45-03</span>
                 </div>
               </div>
             </div>
@@ -31,7 +31,20 @@ let renderContactsInCustomSection = () => {
                       <span>Почтовый адрес</span>
                   </div>
                   <div class="real-email">
-                      <span>severinovsquash@gmail.com</span>
+                      <span>zali-shopping@mail.ru</span>
+                  </div>
+              </div>
+            </div>
+            <div class="address">
+              <div class="address-img">
+                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
+              </div>
+              <div class="title-and-address"
+                  <div class="address-title">
+                      <span>Адрес</span>
+                  </div>
+                  <div class="real-address">
+                      <span>г. Екатеринбург ул Cчастливая 8 офис 2</span>
                   </div>
               </div>
             </div>
