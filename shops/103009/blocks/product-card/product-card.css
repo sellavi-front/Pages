@@ -142,3 +142,7 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
     background: #fff;
     padding: 10px;
 }
+
+.sf-menu li:hover>a {
+    color: black;
+}
