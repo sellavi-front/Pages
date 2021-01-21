@@ -78,20 +78,19 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  const btnSelect = document.querySelector('#product > div:nth-child(2)');
   setTimeout(() => {
-    console.log(document.querySelector('#product > div:nth-child(2)>div>div'));
-  }, 500)
-  btnSelect.addEventListener('click', () => {
-    const list = document.querySelectorAll('.dropdown-menu.inner.show > li > a');
+    console.log(document.querySelector('#product > div:nth-child(2)>div>div .dropdown-menu.inner.show'));
+    document.querySelector('#product > div:nth-child(2)>div>div').addEventListener('click', () => {
+      const list = document.querySelectorAll('.dropdown-menu.inner.show > li > a');
 
-    list.forEach((li) => {
-      const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
-      const len = cut.length;
+      list.forEach((li) => {
+        const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
+        const len = cut.length;
 
-      if (len === 20 || len === 21) {
-        cut.slice(0, -16);
-      }
+        if (len === 20 || len === 21) {
+          cut.slice(0, -16);
+        }
+      });
     });
-  });
+  }, 500);
 }
