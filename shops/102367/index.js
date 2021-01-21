@@ -79,7 +79,9 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   const btnSelect = document.querySelector('#product > div:nth-child(2)');
-
+  setTimeout(() => {
+    console.log(document.querySelector('#product > div:nth-child(2)>div>div'));
+  }, 500)
   btnSelect.addEventListener('click', () => {
     const list = document.querySelectorAll('.dropdown-menu.inner.show > li > a');
 
