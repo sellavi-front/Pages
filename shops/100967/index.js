@@ -135,7 +135,7 @@ if (document.querySelector('.wrapper')) {
 
   const brg = document.querySelector('.mobile-navigation-wrapper');
   document
-    .querySelector('.header-wrapper > .container-fluid')
+    .querySelector('.header-wrapper > .container')
     .insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
 
