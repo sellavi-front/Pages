@@ -4,7 +4,6 @@ let renderContactsInCustomSection = () => {
     document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', `
   <div class="contactsSection">
     <div class="container">
-      <div class="contacts-flex">
         <div class="contacts-title">
           <span>Контакты</span>
         </div>
@@ -52,7 +51,6 @@ let renderContactsInCustomSection = () => {
             </div>
         </div>
       </div>
-    </div>
   </div>`);
   }
 }
