@@ -46,6 +46,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .price {
   font-size: 18px !important;
 }
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  max-height: 80px !important;
+}
 /* end */
 
 /* Categories header */
