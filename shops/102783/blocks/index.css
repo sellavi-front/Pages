@@ -13,6 +13,19 @@ body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
 
+/* Categories header */
+body.theme-gray .header .navigation-wrapper {
+  background-color: #fff !important;
+  border-top: 1px solid #d3d5d7;
+}
+
+body.theme-gray .header {
+  border-bottom: 0 !important;
+}
+
+
+/* end */
+
 /* Footer */
 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 .wrapper footer.footer .footer-widgets .widget .widget-title {
