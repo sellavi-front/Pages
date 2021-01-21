@@ -102,7 +102,7 @@ body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist 
 
 
 .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
-    border-radius: 0;
+    border-radius: 1;
 }
 
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
@@ -129,6 +129,3 @@ body .btn.btn-theme.btn-theme-transparent:hover {
     margin-left: 15px !important;
 }
 
-.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
-    background: transparent !important;
-}
