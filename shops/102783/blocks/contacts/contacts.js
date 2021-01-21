@@ -35,8 +35,8 @@ let renderContactsInCustomSection = () => {
                   </div>
               </div>
             </div>
-        </div>
-            <!--<div class="address">
+
+            <div class="address">
               <div class="address-img">
                   <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
               </div>
@@ -48,8 +48,9 @@ let renderContactsInCustomSection = () => {
                       <span>г. Екатеринбург ул Cчастливая 8 офис 2</span>
                   </div>
               </div>
-            </div>-->
+            </div>
         </div>
+      </div>
       </div>`);
   }
 }
