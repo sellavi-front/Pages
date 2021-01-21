@@ -1,6 +1,7 @@
 @import './pay-delivery/pay-delivery.css';
 @import './../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 body,
