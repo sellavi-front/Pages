@@ -80,7 +80,7 @@ if (document.querySelector('.product-product')) {
 
   setTimeout(() => {
     let target = document.querySelector("#bs-select-1 > ul");
-
+console.log(target);
     const config = {
       childList: true,
     };
