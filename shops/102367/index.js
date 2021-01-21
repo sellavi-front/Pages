@@ -78,7 +78,6 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  setTimeout(() => {
     let target = document.querySelector("#bs-select-1 > ul");
 console.log(target);
     const config = {
@@ -94,6 +93,5 @@ console.log(target);
     };
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
-  },500)
 
 }
