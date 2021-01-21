@@ -49,6 +49,7 @@ let renderContactsInCustomSection = () => {
                   </div>
               </div>
             </div>
+
         </div>
       </div>
   </div>`);
