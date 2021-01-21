@@ -129,3 +129,7 @@ body .btn.btn-theme.btn-theme-transparent:hover {
     margin-left: 15px !important;
 }
 
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+    max-width: 400px !important;
+}
