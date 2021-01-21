@@ -36,6 +36,10 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   color: white !important;
 }
 
+body.theme_11.product-product .product-single.product-item #tab-description~.table_holder {
+  display: none;
+}
+
 @media (max-width: 1199px) {
   /* body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
     padding-right: 30px;
