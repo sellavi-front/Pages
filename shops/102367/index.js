@@ -87,7 +87,7 @@ if (document.querySelector('.product-product')) {
     const callback = function (mutationsList, observer) {
       for (let mutation of mutationsList) {
         if (mutation.type === 'childList') {
-          console.log(target.querySelectorAll("#bs-select-1 > ul > li > a > span"))
+          console.log(target.querySelectorAll('li > a > span'))
         }
       }
     };
