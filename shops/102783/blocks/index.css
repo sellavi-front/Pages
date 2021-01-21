@@ -72,6 +72,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     font-weight: 100;
     width: 200px;
   }
+
+  body.ltr .thumbnail .price_actions .add_to_cart {
+    text-align: left !important;
+  }
 }
 
 
