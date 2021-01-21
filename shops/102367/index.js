@@ -71,10 +71,10 @@ if (document.querySelector('.product-product')) {
 
   const btnSelect = document.querySelectorAll("#product > div > div > button");
 
-  btnSelect.forEach(select => {
-    console.log(select);
-    select.addEventListener('click', () => {
-      select.closest('div').querySelectorAll('.dropdown-menu.inner.show > li > a').forEach(li => {
+  btnSelect.forEach(sel => {
+    console.log(sel);
+    sel.addEventListener('click', () => {
+      sel.closest('div').querySelectorAll('.dropdown-menu.inner.show > li > a').forEach(li => {
         const cut = li.textContent.trim().replace(/(^\s+|\s+$)|\s\s+/g, '');
         const len = cut.length;
 
