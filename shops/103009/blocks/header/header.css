@@ -13,3 +13,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 .header-search {
     padding-right: 50px !important;
 }
+
+.header .header-search {
+    max-width: 288px !important;
+}
