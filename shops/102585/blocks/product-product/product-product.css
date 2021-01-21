@@ -88,12 +88,12 @@ body .content-area .page-section.titles {
 }
 
 @media (max-device-width: 480px) {
-    #home > div > div > section.page-section.titles > div > div > h1 {
-        font-size: 20px !important;
-    }
-
     #home > div > div > section.page-section.color.information {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    
+    #home > div > div > section.page-section.titles > div > div > h1 {
+        font-size: 20px !important;
     }
 }
