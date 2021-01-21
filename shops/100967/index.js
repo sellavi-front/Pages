@@ -333,6 +333,11 @@ if (document.querySelector('.product-product')) {
   }
 }
 
+if (location.href.includes('/checkout')) {
+  const textDelivery = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label");
+  textDelivery.textContent = 'Оплата курьеру при получении'
+}
+
 if (document.querySelector('.product-product')) {
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
