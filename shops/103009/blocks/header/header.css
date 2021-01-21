@@ -9,3 +9,7 @@ header > div.header-wrapper > div.container {
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
     color: black;
 }
+
+.header-search {
+    padding-right: 50px !important;
+}
