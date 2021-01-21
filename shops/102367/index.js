@@ -80,7 +80,7 @@ if (document.querySelector('.product-product')) {
 
   setTimeout(() => {
     console.log(document.querySelector('#product > div:nth-child(2)>div>div> button'));
-    document.querySelector('#product > div:nth-child(2)>div>div>button').addEventListener('click', () => {
+    document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
       const list = document.querySelectorAll("#bs-select-1 > ul > li");
 
       list.forEach((li) => {
