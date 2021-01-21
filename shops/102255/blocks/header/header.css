@@ -62,3 +62,25 @@ img.product_slide.img-fluid {
     width: 50%;
 }
 
+@media (max-device-width: 480px) {
+    .dropdown.cart_drop_down {
+        display: flex !important;
+    }
+
+    .header_widgets {
+        display: flex !important;
+        flex-direction: column-reverse;
+        
+    }
+    
+    .header-cart.sticky {
+        height: 100% !important;
+    }
+
+    header > div > div.container-fluid > div.logo > a {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 25px
+    }
+}
+
