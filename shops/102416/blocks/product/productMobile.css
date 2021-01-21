@@ -102,3 +102,7 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons .
 .product-search #button-search {
     color: black !important;
 }
+
+.alert.alert-success {
+    z-index: 999;
+}
