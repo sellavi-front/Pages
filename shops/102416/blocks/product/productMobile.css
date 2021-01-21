@@ -98,3 +98,7 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
 body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
     color: white !important;
 }
+
+.product-search #button-search {
+    color: black !important;
+}
