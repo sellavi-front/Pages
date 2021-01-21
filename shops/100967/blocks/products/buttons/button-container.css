@@ -13,3 +13,7 @@
       align-self: center;
   width: 100%;
 }
+
+.thumbnail .add_to_wishlist {
+  display: none;
+}
