@@ -79,15 +79,16 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   setTimeout(() => {
-    let target = document.querySelector("#bs-select-1 > ul");
-    console.log(target);
+    let target = document.querySelector("#product > div:nth-child(2) > div > div");
+
     const config = {
       childList: true,
+      attributes: true
     };
     const callback = function (mutationsList, observer) {
       for (let mutation of mutationsList) {
-        if (mutation.type === 'childList') {
-          console.log(target.querySelectorAll('li > a > span'))
+        if (mutation.type === 'attributes') {
+          console.log(target.querySelectorAll('.dropdown-menu > li > a > span'))
         }
       }
     };
