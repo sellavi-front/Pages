@@ -6,28 +6,30 @@ export default class ButtonContainerInProductCard {
   }
 
   delete(element) {
-    element.forEach(el => el.remove());
+    element.forEach((el) => el.remove());
   }
 
   createContainer() {
-    this.container.forEach((btn, i) => {
-      btn.insertAdjacentHTML(
-        'beforeend',
-        `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
-      );
+    this.container.forEach((priceCont, i) => {
+      if (!priceCont.querySelector('.buttons__container')) {
+        const wishlist = priceCont.closest('.thumbnail').querySelector('.add_to_wishlist');
+        const cart = priceCont.closest('div').querySelector('.add_to_cart');
+        priceCont.insertAdjacentHTML(
+          'beforeend',
+          `<div class="buttons__container">${wishlist.outerHTML}${cart.outerHTML}</div>`,
+        );
+      }
     });
 
-    this.delete(addToCart);
-    this.delete(addToWishList);
+
   }
 }
 
-
-
-
-
 window.onload = () => {
-  if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
+  if (
+    document.querySelector('body.product-category') ||
+    document.querySelector('body.common-home .products')
+  ) {
     let target = document.querySelector('body div.products');
     const config = {
       childList: true,
@@ -44,9 +46,12 @@ window.onload = () => {
           let priceActions = document.querySelectorAll('.price_actions');
           let addToCart = document.querySelectorAll('.add_to_cart');
           let addToWishList = document.querySelectorAll('.add_to_wishlist');
-          let buttonContainerInProductCard = new ButtonContainerInProductCard(addToCart, addToWishList, priceActions);
+          let buttonContainerInProductCard = new ButtonContainerInProductCard(
+            addToCart,
+            addToWishList,
+            priceActions,
+          );
           buttonContainerInProductCard.createContainer();
-
         }
       }
     };
