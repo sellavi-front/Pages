@@ -1,3 +1,14 @@
+@import '../../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import '../../../../components/HeaderTypeThree/styles/cart/cart.css';
+@import '../../../../components/HeaderTypeThree/styles/header-login/header-login.css';
+@import '../../../../components/HeaderTypeThree/styles/header-widgets/header-widgets.css';
+@import '../../../../components/HeaderTypeThree/styles/header-wishlist/header-wishlist.css';
+@import '../../../../components/HeaderTypeThree/styles/logo/logo.css';
+@import '../../../../components/HeaderTypeThree/styles/search/search.css';
+@import '../../../../components/HeaderTypeThree/styles/sf-menu/sf-menu.css';
+
 @import './sf-menu/sf-menu.css';
 @import './icons/icons.css';
 @import './header-widgets/header-widgets.css';
