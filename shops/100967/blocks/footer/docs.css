@@ -1,0 +1,14 @@
+.docs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+.docs li {
+  margin-right: 25px;
+}
+
+.docs li a {
+  color: white !important;
+}
