@@ -4,6 +4,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import './../../fixes/js/FooterCopy/FooterCopy.js'
 import './../../fixes/js/RemoveBlur/RemoveBlur.js'
 import './../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
+import './../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"');
