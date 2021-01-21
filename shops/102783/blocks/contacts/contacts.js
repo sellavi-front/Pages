@@ -22,16 +22,16 @@ let renderContactsInCustomSection = () => {
               </div>
             </div>
 
-            <div class="number">
-              <div class="number-img">
-                  <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610451452/Group_208_ydygyb.png" alt="">
+            <div class="address">
+              <div class="address-img">
+                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
               </div>
-              <div class="title-and-number">
-                <div class="number-title">
-                    <span>Номер телефона</span>
+              <div class="title-and-address">
+                <div class="address-title">
+                      <span>Адрес</span>
                 </div>
-                <div class="real-number">
-                  <span>8 (912) 683-45-03</span>
+                <div class="real-address">
+                  <span>г. Екатеринбург ул Cчастливая 8 офис 2</span>
                 </div>
               </div>
             </div>
@@ -49,20 +49,6 @@ let renderContactsInCustomSection = () => {
                   </div>
               </div>
             </div>
-
-            <!--<div class="address">
-              <div class="address-img">
-                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
-              </div>
-              <div class="title-and-address"
-                  <div class="address-title">
-                      <span>Адрес</span>
-                  </div>
-                  <div class="real-address">
-                      <span>г. Екатеринбург ул Cчастливая 8 офис 2</span>
-                  </div>
-              </div>
-            </div>-->
         </div>
       </div>
       </div>`);
