@@ -72,6 +72,10 @@ header .button__list {
   width: 200px;
 }
 
+body.theme-red-2 .header .navigation-wrapper {
+  margin-top: 15px;
+}
+
 .sf-menu .megamenu>ul li ul li {
      display: -webkit-box !important;
      display: -ms-flexbox !important;
