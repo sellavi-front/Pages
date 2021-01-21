@@ -21,3 +21,12 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 #home > div > div.content-area > section > div > div > div.col-lg-6.register_wrapper > form > div > div.col-md-6.button_holder > a {
     border: 2px solid black !important;
 }
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+    position: relative;
+    top: -50px;
+}
+
+.thumbnail.thumbnail-banner .caption-inner {
+    border: 0px;
+}
