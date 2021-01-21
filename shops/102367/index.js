@@ -86,6 +86,7 @@ console.log(target);
     };
     const callback = function (mutationsList, observer) {
       for (let mutation of mutationsList) {
+        console.log(mutation);
         if (mutation.type === 'childList') {
           console.log(target.querySelectorAll('li > a > span'))
         }
