@@ -17,3 +17,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 .header .header-search {
     max-width: 288px !important;
 }
+
+#home > div > div.content-area > section > div > div > div.col-lg-6.register_wrapper > form > div > div.col-md-6.button_holder > a {
+    border: 2px solid black !important;
+}
