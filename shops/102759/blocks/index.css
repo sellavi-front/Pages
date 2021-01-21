@@ -46,3 +46,8 @@ body.sidenav-enabled.ltr .wrapper-opened {
 body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block:hover {
   color: white !important;
 }
+
+
+body.information-information .row {
+  margin: 0 !important;
+}
