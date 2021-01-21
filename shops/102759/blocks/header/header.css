@@ -74,6 +74,10 @@ body.sidenav-enabled.ltr .navigation.mobile_side_nav {
   transition: none !important;
 }
 
+body.theme_11 .wrapper .navigation_black_screen.active {
+  display: none;
+}
+
 @media (max-width: 1199px) {
   /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
