@@ -39,6 +39,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   text-align: center !important;
 }
 
+.price_actions {
+  flex-direction: column !important;
+}
 /* end */
 
 /* Categories header */
