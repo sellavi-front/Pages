@@ -352,6 +352,13 @@ if (location.href.includes('/checkout')) {
   textDelivery.textContent = 'Оплата курьеру при получении'
 }
 
+if (document.querySelector('.product-item')) {
+  document.querySelectorAll('.product-item .add_to_cart button').forEach(btn => {
+    btn.querySelector('i').remove();
+    btn.insertAdjacentHTML('beforebegin', icons.cart);
+  })
+}
+
 if (document.querySelector('.product-product')) {
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
