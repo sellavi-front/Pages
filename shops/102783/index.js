@@ -22,7 +22,7 @@ setTimeout(function() {
     const preloader = document.querySelector(".custom-preloader");
     preloader.className += " hidden";
   /*});*/
-}, 1500)
+}, 2000)
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"')
