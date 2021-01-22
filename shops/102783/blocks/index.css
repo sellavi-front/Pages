@@ -90,13 +90,13 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 
 .custom-preloader {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  /*position: absolute;*/
   color: green;
   background-color: #fff;
   z-index: 999;
