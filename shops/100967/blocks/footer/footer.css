@@ -46,6 +46,10 @@
   display: none !important;
 }
 
+.sender {
+  width: 70% !important;
+}
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
