@@ -282,9 +282,9 @@ body.theme-black .btn-theme {
   opacity: 0.9;
 }
 
-#home > footer > div.footer-widgets > div > div.docs > ul > li:nth-child(6),
-#home > footer > div.footer-widgets > div > div.docs > ul > li:nth-child(7),
-#home > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(3) {
+footer > div.footer-widgets > div > div.docs > ul > li:nth-child(6),
+footer > div.footer-widgets > div > div.docs > ul > li:nth-child(7),
+footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(3) {
   display: none !important;
 }
 
