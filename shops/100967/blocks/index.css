@@ -647,13 +647,14 @@ footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul 
   -webkit-box-ordinal-group: 6;
   -ms-flex-order: 5;
   order: 5;
+  display: none !important;
 }
 
 footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   -webkit-box-ordinal-group: 8;
   -ms-flex-order: 7;
   order: 7;
-  display: none;
+  display: none !important;
 }
 
 body .content-delivery {
