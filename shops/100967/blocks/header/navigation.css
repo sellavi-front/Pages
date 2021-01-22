@@ -69,7 +69,7 @@
 }
 
 header .button__list {
-  width: 200px;
+  max-width: 200px;
 }
 
 body.theme-red-2 .header .navigation-wrapper {
