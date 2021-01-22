@@ -178,7 +178,7 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   width: 100%;
 }
 
-.card {
+/*.card {
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.15);
@@ -186,7 +186,7 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   flex-direction: column;
   overflow: hidden;
   width: 100% !important;
-}
+}*/
 
 
 .card__content {
