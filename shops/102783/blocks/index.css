@@ -206,7 +206,7 @@ body.theme-gray .header {
 body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   text-transform: uppercase !important;
   font-size: 18px !important;
-  margin-bottom: 5px !important;
+  margin-bottom: 30px !important;
 }
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
@@ -220,9 +220,6 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   width: 100% !important;
 }
 
-.widget-categories {
-  margin-top: 30px !important;
-}
 
 @media (max-width: 991px) {
   .footer-widgets .row {
