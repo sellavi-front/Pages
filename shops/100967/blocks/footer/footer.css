@@ -42,6 +42,10 @@
   width: 50px !important;
 }
 
+#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(3) {
+  display: none !important;
+}
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
