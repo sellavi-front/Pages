@@ -474,3 +474,10 @@ a.btn.btn-theme.btn-call-checkout.w-100 {
     padding: 10px !important;
     border: 2px solid black !important;
 }
+
+
+.create-account .btn.btn-block.btn-theme.btn-theme-dark.btn-create {
+    border: 2px solid black !important;
+    padding: 10px !important;
+    
+}
