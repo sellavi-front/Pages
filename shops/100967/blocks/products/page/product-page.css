@@ -27,6 +27,10 @@
           align-items: center;
 }
 
+.warranty img {
+  width: 300px;
+}
+
 .product-product .product-single .reviews  {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
