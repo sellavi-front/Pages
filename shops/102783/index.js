@@ -9,17 +9,17 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 
 
-
+document.querySelector("body").insertAdjacentHTML("afterbegin", `
+  <div class="custom-preloader">
+      <span>
+        <img src="https://ru.sellavi.com/assets/images/logo.svg" alt="img" />
+    </span>
+  </div>
+`)
 
 setTimeout(function() {
   window.addEventListener("load", function () {
-    document.querySelector("body").insertAdjacentHTML("afterbegin", `
-      <div class="custom-preloader">
-          <span>
-            <img src="https://ru.sellavi.com/assets/images/logo.svg" alt="img" />
-        </span>
-      </div>
-    `)
+
     const preloader = document.querySelector(".custom-preloader");
     preloader.className += " hidden";
   });
