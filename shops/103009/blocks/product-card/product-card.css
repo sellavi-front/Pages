@@ -12,12 +12,21 @@ body.theme-orange-2.theme_11 .wrapper .page-section .products.grid .product-item
 body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
     border: 1px solid black;
     height: 90%;
-    width: 38%;
+    width: 20%;
     border-radius: 5px;
     margin-left: 10px;
 }
 
+
+
 @media (max-device-width: 480px) {
+
+    body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
+ 
+        width: 38%;
+ 
+    }
+
     .info-info {
         display: none;
     }
