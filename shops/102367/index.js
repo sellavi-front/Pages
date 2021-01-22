@@ -96,9 +96,7 @@ if (document.querySelector('.product-product')) {
 
 setTimeout(() => {
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-    setTimeout(() => {
       console.log(document.querySelectorAll('#product > div:nth-child(2) ul li > span'));
-    },500)
   })
 }, 1000)
 
