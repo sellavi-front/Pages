@@ -54,6 +54,15 @@
   height: 68px !important;
 }
 
+@media (max-width: 768px) {
+  .sender__title {
+    font-size: 33px;
+    width: 100%;
+  }
+
+}
+
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
