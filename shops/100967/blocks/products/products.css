@@ -55,3 +55,12 @@ body > div > div.content-area > section > div.container > div > div.col-xl-3 {
           flex: 0 0 33%;
   max-width: 33%;
 }
+
+@media (max-width: 495px) {
+  body > div > div.content-area > section > div.container > div > div.col-xl-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
