@@ -50,6 +50,10 @@ body > div > div > section:nth-child(1) > div > div.row.product-single.product-i
   font-size: 22px;
 }
 
+.product-product .product-single .buttons .quantity .btn {
+  color: white !important;
+}
+
 @media (max-width: 768px) {
   .product-product .product-single {
     -webkit-box-orient: vertical;
