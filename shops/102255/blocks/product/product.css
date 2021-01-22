@@ -423,3 +423,14 @@ body.sidenav-enabled .mobile_side_nav {
 body.theme-black.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
     color: white !important;
 }
+
+.dropdown-menu.dropdown-menu-right.show .btn.btn-theme.btn-call-checkout.w-100{
+    color: black;
+    border: 3px solid black !important;
+    padding: 0px !important;
+}
+
+.dropdown-menu.dropdown-menu-right.show .btn.btn-theme.btn-call-checkout.w-100:hover {
+    color: white !important;
+    background: black !important
+}
