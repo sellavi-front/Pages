@@ -279,6 +279,12 @@ section.page-section.latest-section > div > div > div > div > div.price_actions.
     height: 46px !important;
 }
 
+@media (max-device-width: 480px) {
+    .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+        height: 100% !important;
+    }
+}
+
 .product-product .product-single .buttons .btn-cart:hover {
     background: #909090 !important;
     color: white !important;
