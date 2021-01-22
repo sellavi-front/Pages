@@ -12,7 +12,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 document.querySelector("body").insertAdjacentHTML("afterbegin", `
   <div class="custom-preloader">
       <span>
-        <img src="https://ru.sellavi.com/assets/images/logo.svg" alt="img" />
+        <img src="https://cdn.sellavi.com/image/upload/c_fit,g_center,h_176,q_100,w_430/c_pad,h_176,w_430/v1611075507/ru/clients/102783/49ce36e60b3fe07908f5438d34abb68fd3b3458d.jpg" alt="img" />
     </span>
   </div>
 `)
