@@ -164,12 +164,13 @@ if (document.querySelector('.wrapper')) {
   //     brg.querySelector('i').classList.add('fa-bars')
   //     brg.querySelector('i').classList.remove('fa-times')
 
-
   //     document.querySelector('body').classList.remove('overflow-hidden');
   //   });
   // });
 
-  const footerDocs = document.querySelector("footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
+  const footerDocs = document.querySelector(
+    'footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul',
+  );
   const phh = document.querySelector('.phh');
   phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
 }
@@ -348,19 +349,25 @@ if (document.querySelector('.product-product')) {
 }
 
 if (location.href.includes('/checkout')) {
-  const textDelivery = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label");
-  textDelivery.textContent = 'Оплата курьеру при получении'
+  const textDelivery = document.querySelector(
+    '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label',
+  );
+  textDelivery.textContent = 'Оплата курьеру при получении';
 }
 
 if (document.querySelector('.product-item')) {
-  document.querySelectorAll('.product-item .add_to_cart button').forEach(btn => {
+  document.querySelectorAll('.product-item .add_to_cart button').forEach((btn) => {
     btn.querySelector('i').remove();
-    btn.textContent = 'В корзину'
+    btn.textContent = 'В корзину';
     btn.insertAdjacentHTML('afterbegin', icons.cart);
-  })
+  });
 }
 
 if (document.querySelector('.product-product')) {
+  const btnCart = document.querySelector('#button-cart');
+  btnCart.querySelector('i').remove();
+  btnCart.textContent = 'В корзину';
+  btnCart.insertAdjacentHTML('afterbegin', icons.cart);
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
   //     'beforebegin',
