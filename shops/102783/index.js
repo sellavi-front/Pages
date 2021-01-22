@@ -38,6 +38,7 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
+/*
 
 if (location.href.includes('policy')) {
   const req = new Requisites(
@@ -48,6 +49,7 @@ if (location.href.includes('policy')) {
   );
   req.setTemplate();
 }
+*/
 
 if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
