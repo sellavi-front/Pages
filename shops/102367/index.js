@@ -98,6 +98,6 @@ setTimeout(() => {
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
       console.log(document.querySelectorAll('#product > div:nth-child(2) ul li > span'));
   })
-}, 1000)
+}, 1500)
 
 }
