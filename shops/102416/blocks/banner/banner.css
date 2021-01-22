@@ -4,8 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #00000059;
+    background: #13679880 !important;
     padding: 20px;
+    border-radius: 10px !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > div {
+    display: none;
 }
 
 #banner0 > div > div > div > div > div > div > div > div > div > div {
