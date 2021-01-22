@@ -31,6 +31,10 @@
   width: 300px;
 }
 
+.share_page_wrapper {
+  margin-bottom: 50px ;
+}
+
 .product-product .product-single .reviews  {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
