@@ -169,7 +169,7 @@ if (document.querySelector('.wrapper')) {
   //   });
   // });
 
-  const footerDocs = document.querySelector("body > div > footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
+  const footerDocs = document.querySelector("footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
   const phh = document.querySelector('.phh');
   console.log(footerDocs);
   console.log(phh);
