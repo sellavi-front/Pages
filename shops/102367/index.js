@@ -99,6 +99,7 @@ setTimeout(() => {
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
       const selects = document.querySelectorAll(".dropdown-item > span");
       selects.forEach(sel => {
+        console.log(sel);
         if (sel.textContent.length >= 20) {
           sel.textContent = sel.textContent.slice(0, -16)
         }
