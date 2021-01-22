@@ -86,3 +86,7 @@ body .delivery__content-label {
  margin-right: 50px;
  text-align: center;
 }
+
+#content > div > div:nth-child(2) {
+  display: none !important;
+}
