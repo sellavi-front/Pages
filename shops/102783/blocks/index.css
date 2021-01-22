@@ -30,7 +30,7 @@ body.ltr .thumbnail .caption-title {
 
 .custom-preloader {
   width: 100%;
-  height: auto;
+  height: 100vh;
   top: 0;
   left: 0;
   display: flex;
