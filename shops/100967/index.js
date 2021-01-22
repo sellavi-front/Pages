@@ -58,11 +58,11 @@ if (document.querySelector('.wrapper')) {
 
   // Icons in header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
-  // const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
+  const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
-  // hideCart.remove();
+  hideCart.remove();
   // End
 
   const baseSender = new BaseSender(
