@@ -84,3 +84,20 @@ body .content-area .page-section.titles {
 .information-information #content > div > div > div:nth-child(1) {
     display: block !important;
 }
+
+body.theme-gray .thumbnail .price_actions .add_to_cart button:hover, body.theme-gray .thumbnail .price ins {
+    color: white;
+    background: #909090 !important;
+    border-radius: 0px;
+}
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile:hover {
+    background: #909090;
+    border-radius: 0px;
+}
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+    padding: 0px;
+    width: 100%;
+    border-radius: 0px;
+}
