@@ -369,12 +369,17 @@ if (document.querySelector('.product-product')) {
   btnCart.textContent = 'В корзину';
   btnCart.insertAdjacentHTML('afterbegin', cartWhite);
 
-  const colProdcut = document.querySelector("#home > div > div.content-area > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)");
-  colProdcut.insertAdjacentHTML('beforeend', `
+  const colProdcut = document.querySelector(
+    '#home > div > div.content-area > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+  );
+  colProdcut.insertAdjacentHTML(
+    'beforeend',
+    `
     <div class="warranty">
       <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
     </div>
-  `)
+  `,
+  );
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
   //     'beforebegin',
@@ -406,4 +411,19 @@ if (document.querySelector('.product-product')) {
   //   container.insertAdjacentHTML('beforeend', el.outerHTML);
   //   el.remove();
   // });
+}
+
+if (location.href.includes('/checkout')) {
+  document
+    .querySelector(
+      '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
+    )
+    .insertAdjacentHTML(
+      'beforeend',
+      `
+  <div class="warranty">
+    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
+  </div>
+`,
+    );
 }
