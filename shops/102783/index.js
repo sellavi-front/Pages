@@ -18,10 +18,10 @@ document.querySelector("body").insertAdjacentHTML("afterbegin", `
 `)
 
 setTimeout(function() {
-  window.addEventListener("load", function () {
+  /*window.addEventListener("load", function () {*/
     const preloader = document.querySelector(".custom-preloader");
     preloader.className += " hidden";
-  });
+  /*});*/
 }, 1500)
 
 if (location.href.includes('term-of-use')) {
