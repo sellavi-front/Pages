@@ -8,6 +8,22 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 /*import '../../fixes/js/FooterCopy/FooterCopy.js'*/
 import renderContactsInCustomSection from "./blocks/contacts/contacts.js"
 
+
+document.querySelector("body").insertAdjacentHTML("afterbegin", `
+  <div class="custom-preloader">
+      <span>
+        <img src="https://ru.sellavi.com/assets/images/logo.svg"/>
+    </span>
+  </div>
+`)
+
+setTimeout(function() {
+  window.addEventListener("load", function () {
+    const preloader = document.querySelector(".custom-preloader");
+    preloader.className += " hidden";
+  });
+}, 1500)
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"')
   req.setTemplate()

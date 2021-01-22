@@ -25,6 +25,49 @@ body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
 
+
+/* Preloader */
+
+.custom-preloader {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: green;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.custom-preloader span {
+  display: flex;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+}
+
+.preloader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* End */
+
+
 /* Subcategories */
 .sf-menu ul {
   min-width: auto !important;
