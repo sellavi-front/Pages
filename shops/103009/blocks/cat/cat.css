@@ -79,4 +79,8 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
         position: relative !important;
         top: 45px !important;
     }
+
+    .thumbnail-banner .media-link .img-bg {
+        height: 80px !important;
+    }
 }
