@@ -44,4 +44,10 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .number, .email, .address {
+    margin: 10px;
+  }
+}
+
 

@@ -19,7 +19,6 @@ document.querySelector("body").insertAdjacentHTML("afterbegin", `
 
 setTimeout(function() {
   window.addEventListener("load", function () {
-
     const preloader = document.querySelector(".custom-preloader");
     preloader.className += " hidden";
   });
