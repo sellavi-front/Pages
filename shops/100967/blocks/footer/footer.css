@@ -50,6 +50,10 @@
   width: 70% !important;
 }
 
+.sender__form {
+  height: 68px !important;
+}
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
