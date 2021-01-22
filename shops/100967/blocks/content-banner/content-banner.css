@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 768px) {
-  .owl-carousel .owl-item .item img {
+  body.common-home .owl-carousel .owl-item .item img {
     height: auto !important;
     -o-object-fit: contain !important;
        object-fit: contain !important;
