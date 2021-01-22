@@ -97,7 +97,7 @@ if (document.querySelector('.product-product')) {
 setTimeout(() => {
   console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-      console.log(document.querySelectorAll('#product > div:nth-child(2) ul li > span'));
+      console.log(document.querySelectorAll(".dropdown-item > span"));
   })
 }, 1500)
 
