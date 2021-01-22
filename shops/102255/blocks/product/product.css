@@ -418,6 +418,15 @@ body.sidenav-enabled .mobile_side_nav {
     .product-product body.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme_11.product-product .product-single.product-item .buttons #button-cart {
         max-width: 100% !important;
     }
+
+    body.theme-black.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a {
+        font-size: 10px;   
+    }
+    
+    .cart-content .checkout-button a {
+        color: black !important;
+        font-size: 10px
+    }
 }
 
 body.theme-black.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
@@ -461,3 +470,5 @@ footer > div.footer-widgets > div.container > div {
     display: flex;
     justify-content: center
 }
+
+
