@@ -82,7 +82,7 @@ body .content-area .page-section.titles {
 }
 
 .information-information #content > div > div > div:nth-child(1) {
-    display: block !important;
+    display: none !important;
 }
 
 body.theme-gray .thumbnail .price_actions .add_to_cart button:hover, body.theme-gray .thumbnail .price ins {
