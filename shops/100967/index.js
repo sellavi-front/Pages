@@ -179,56 +179,56 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.common-home')) {
   const pageSection = document.querySelector('.page-section');
 
-  const product = document.querySelectorAll('.product-item');
+  // const product = document.querySelectorAll('.product-item');
 
-  let twoWeek = document.createElement('div');
-  let oneMonth = document.createElement('div');
-  let row1 = document.createElement('div');
-  let row2 = document.createElement('div');
-  let titleWeek = document.createElement('h2');
-  let titleWeekSpan = document.createElement('span');
-  let titleMonth = document.createElement('h2');
-  let titleMonthSpan = document.createElement('span');
+  // let twoWeek = document.createElement('div');
+  // let oneMonth = document.createElement('div');
+  // let row1 = document.createElement('div');
+  // let row2 = document.createElement('div');
+  // let titleWeek = document.createElement('h2');
+  // let titleWeekSpan = document.createElement('span');
+  // let titleMonth = document.createElement('h2');
+  // let titleMonthSpan = document.createElement('span');
 
-  twoWeek.classList.add('container', 'twoWeek');
-  oneMonth.classList.add('container', 'oneMonth');
-  row1.classList.add('row', 'products', 'grid');
-  row2.classList.add('row', 'products', 'grid');
-  titleWeek.classList.add('section-title', 'mb-4', 'mt-4');
-  titleMonth.classList.add('section-title', 'mb-4', 'mt-4');
+  // twoWeek.classList.add('container', 'twoWeek');
+  // oneMonth.classList.add('container', 'oneMonth');
+  // row1.classList.add('row', 'products', 'grid');
+  // row2.classList.add('row', 'products', 'grid');
+  // titleWeek.classList.add('section-title', 'mb-4', 'mt-4');
+  // titleMonth.classList.add('section-title', 'mb-4', 'mt-4');
 
-  pageSection.append(twoWeek);
-  pageSection.append(oneMonth);
+  // pageSection.append(twoWeek);
+  // pageSection.append(oneMonth);
 
-  titleWeekSpan.textContent = 'Двухнедельные линзы';
-  titleMonthSpan.textContent = 'Линзы месячного ношения';
+  // titleWeekSpan.textContent = 'Двухнедельные линзы';
+  // titleMonthSpan.textContent = 'Линзы месячного ношения';
 
-  const monthCont = document.querySelector('.oneMonth');
-  const weekCont = document.querySelector('.twoWeek');
+  // const monthCont = document.querySelector('.oneMonth');
+  // const weekCont = document.querySelector('.twoWeek');
 
-  monthCont.append(row1);
-  weekCont.append(row2);
+  // monthCont.append(row1);
+  // weekCont.append(row2);
 
-  weekCont.prepend(titleWeek);
-  monthCont.prepend(titleMonth);
-  titleWeek.append(titleWeekSpan);
-  titleMonth.append(titleMonthSpan);
+  // weekCont.prepend(titleWeek);
+  // monthCont.prepend(titleMonth);
+  // titleWeek.append(titleWeekSpan);
+  // titleMonth.append(titleMonthSpan);
 
-  const monthRow = document.querySelector('.oneMonth>.products');
-  const weekRow = document.querySelector('.twoWeek>.products');
-  const monthArr = ['688', '687', '4441', '977'];
-  const weekArr = ['668', '4426'];
+  // const monthRow = document.querySelector('.oneMonth>.products');
+  // const weekRow = document.querySelector('.twoWeek>.products');
+  // const monthArr = ['688', '687', '4441', '977'];
+  // const weekArr = ['668', '4426'];
 
-  product.forEach(function (i) {
-    const attr = i.getAttribute('data-product_id');
+  // product.forEach(function (i) {
+  //   const attr = i.getAttribute('data-product_id');
 
-    if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
-      monthRow.append(i);
-    }
-    if (attr === '668' || attr === '4426') {
-      weekRow.append(i);
-    }
-  });
+  //   if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
+  //     monthRow.append(i);
+  //   }
+  //   if (attr === '668' || attr === '4426') {
+  //     weekRow.append(i);
+  //   }
+  // });
   // const advantagesTypeOne = new AdvantagesTypeOne(
   //   document.querySelector('.page-section'),
   //   advantages,
