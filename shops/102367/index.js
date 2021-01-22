@@ -101,6 +101,7 @@ setTimeout(() => {
       selects.forEach(sel => {
         console.log(sel);
         const cut = sel.trim().replace(/\s{2,}/g, '');
+        console.log(cut);
         if (cut.length >= 20) {
           sel.textContent = sel.textContent.slice(0, -16)
         }
