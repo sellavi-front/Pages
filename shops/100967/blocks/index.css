@@ -44,8 +44,6 @@ body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span,
 
 /* FROM PLATFORM */
 
-@import 'https://sellavi-front.github.io/Pages/shops/100967/blocks/index.css';
-
 footer > div.footer-widgets > div > div.row {
     overflow: hidden;
     height: 0;
@@ -54,6 +52,8 @@ footer > div.footer-widgets > div > div.row {
 #content > div > div > div.col-12.col-lg-8 > div > div.cart_product.product-item {
     width: 100%;
 }
+
+
 
 .radio.customized input[type='radio']:checked ~ .delivery__description {
   display: block !important;
@@ -238,9 +238,9 @@ label.custom-control-label:hover {
 }
 
 .owl-carousel .owl-item .item img {
-  -o-object-fit: contain !important;
-     object-fit: contain !important;
-  height: auto !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  height: 560px !important;
 }
 
 body h1,
