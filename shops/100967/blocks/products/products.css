@@ -48,19 +48,27 @@ body .btn.dropdown-toggle {
   border-radius: 10px;
 }
 
-
 body > div > div.content-area > section > div.container > div > div.col-xl-3 {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 33%;
-          flex: 0 0 33%;
+  -ms-flex: 0 0 33%;
+  flex: 0 0 33%;
   max-width: 33%;
+}
+
+@media (max-width: 768px) {
+  body > div > div.content-area > section > div.container > div > div.col-xl-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 495px) {
   body > div > div.content-area > section > div.container > div > div.col-xl-3 {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
   }
 }
