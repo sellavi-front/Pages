@@ -23,6 +23,12 @@ body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
 
+/* Docs */
+.col-md-12 p {
+  line-height: 1.5 !important
+}
+/* End */
+
 /* Products */
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
   border: none !important;
@@ -79,6 +85,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 }
 
 /* End */
+
 /* Preloader */
 
 .custom-preloader {
