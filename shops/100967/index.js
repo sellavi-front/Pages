@@ -60,7 +60,7 @@ if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   // const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
-  // const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
   // hideCart.remove();
   // End
@@ -89,7 +89,7 @@ if (document.querySelector('.wrapper')) {
   // FOOTER
   baseSender.render();
   // socialIconsTypeOne.render();
-  // buttonsInHeader.setTemplate();
+  buttonsInHeader.setTemplate();
   // delSelectorsProductItem.findAndDelete();
 
   // hideCart.remove();
