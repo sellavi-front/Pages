@@ -118,12 +118,12 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   animation-fill-mode: forwards;
 }*/
 
-@keyframes fadeOut {
+/*@keyframes fadeOut {
   100% {
     opacity: 0;
     visibility: hidden;
   }
-}
+}*/
 /* End */
 
 
