@@ -71,12 +71,12 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 @media (max-device-width: 480px) {
     body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
-        height: auto;
-        width: auto;
+        height: auto !important;
+        width: auto !important;
     }
 
     body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
-        position: relative;
-        top: 45px;
+        position: relative !important;
+        top: 45px !important;
     }
 }
