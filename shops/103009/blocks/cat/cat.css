@@ -68,3 +68,14 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     margin-left: 0px !important;
     padding-left: 10px !important;
 } 
+
+
+body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+    height: auto;
+    width: auto;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+    position: relative;
+    top: 45px;
+}
