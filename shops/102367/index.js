@@ -100,7 +100,8 @@ setTimeout(() => {
       const selects = document.querySelectorAll(".dropdown-item > span");
       selects.forEach(sel => {
         console.log(sel);
-        if (sel.textContent.length >= 20) {
+        const cut = sel.trim().replace(/\s{2,}/g, '');
+        if (cut.length >= 20) {
           sel.textContent = sel.textContent.slice(0, -16)
         }
       })
