@@ -100,6 +100,6 @@ setTimeout(() => {
       console.log(document.querySelectorAll('#product > div:nth-child(2) ul li > span'));
     },500)
   })
-}, 500)
+}, 1000)
 
 }
