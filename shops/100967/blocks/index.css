@@ -156,6 +156,7 @@ label.custom-control-label:hover {
 
 .product-product .section-title span {
   border: none !important;
+  margin: 0 15px !important;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
@@ -327,27 +328,12 @@ body h2 span {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-
-/* body .products .product-item {
-  -webkit-box-flex: 0 !important;
-      -ms-flex: 0 0 50% !important;
-          flex: 0 0 50% !important;
-  max-width: 50% !important;
-}
-@media (max-width: 576px) {
-  body .products .product-item {
-    -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 100% !important;
-            flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
-} */
 
 .product-item .thumbnail {
   text-align: center;
@@ -360,10 +346,6 @@ body.ltr .thumbnail .caption-title {
 body.theme_3.ltr .header .header-cart {
   right: 15px;
 }
-
-/* body .section-title {
-  text-align: center !important;
-} */
 
 .twoWeek .section-title span:before {
   content: '';
@@ -578,8 +560,8 @@ body.ltr .widget-categories ul li a:before {
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media (max-width: 450px) {
