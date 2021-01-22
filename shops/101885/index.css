@@ -187,6 +187,8 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   overflow: hidden;
   width: 100% !important;
 }
+
+
 .card__content {
   display: flex;
   flex: 1 1 auto;
