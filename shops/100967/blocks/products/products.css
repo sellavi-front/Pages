@@ -43,6 +43,7 @@
 
 .product-product .product-single .buttons .btn-cart,
 .product-product .product-single .buttons .quantity .btn,
-.product-product .product-single .buttons .quantity .qty {
+.product-product .product-single .buttons .quantity .qty,
+body .btn.dropdown-toggle {
   border-radius: 10px;
 }
