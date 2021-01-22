@@ -45,11 +45,17 @@
 
 
 @media screen and (max-width: 768px) {
-  .number, .email, .address {
+  .otherInfo {
     display: flex;
     flex-direction: column;
+  }
+
+  .number,
+  .email,
+  .address {
     margin: 10px;
   }
+
 }
 
 
