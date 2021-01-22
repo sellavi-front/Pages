@@ -15,7 +15,7 @@ import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithT
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 
-import bootstrapClasses from './utils/bootstrapClasses.js';
+// import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
 // import salesData from './utils/salesData.js';
@@ -46,7 +46,7 @@ if (document.querySelector('.wrapper')) {
   const link = document.querySelectorAll(
     'body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a',
   );
-  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
+  // const delSelectorsProductItem = new DeleteClasses(productItem);
 
   const logo = document.querySelector('#cart');
   const logoIco = document.querySelector('#cart > i');
@@ -90,7 +90,7 @@ if (document.querySelector('.wrapper')) {
   baseSender.render();
   // socialIconsTypeOne.render();
   // buttonsInHeader.setTemplate();
-  delSelectorsProductItem.findAndDelete();
+  // delSelectorsProductItem.findAndDelete();
 
   // hideCart.remove();
   navWrapperCon.classList.remove('container');
