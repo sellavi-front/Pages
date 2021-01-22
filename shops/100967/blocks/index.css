@@ -272,12 +272,7 @@ body button span {
   background-color: #0081bb;
   color: white;
 }
-/*
-body.theme-black .btn-theme {
-  background-color: #0081bb;
-  color: white;
-}
- */
+
 .product-product .product-single .buttons .btn-wish-list:hover {
   opacity: 0.9;
 }
