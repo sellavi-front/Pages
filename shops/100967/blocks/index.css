@@ -309,11 +309,7 @@ body h2 span {
   font-size: 18px;
 }
 
-.owl-carousel .owl-item .item img {
-  height: 560px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
+
 
 /* body .products .product-item {
   -webkit-box-flex: 0 !important;
