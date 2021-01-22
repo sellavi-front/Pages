@@ -153,9 +153,19 @@ if (document.querySelector('.wrapper')) {
   document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
     document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
       const nav = document.querySelector('.navigation');
+      const brg = document.querySelector('.mobile-navigation-wrapper');
+      const wrapper = document.querySelector("#home > div");
+      wrapper.classList.add('wrapper-closed')
+      wrapper.classList.remove('wrapper-opened')
+      wrapper.classList.remove('fixed')
       nav.classList.add('nav-closed');
       nav.classList.remove('nav-opened');
+      brg.querySelector('i').classList.add('fa-bars')
+      brg.querySelector('i').classList.remove('fa-times')
+
+
       document.querySelector('body').classList.remove('overflow-hidden');
+      'fas fa-bars'
     });
   });
 
