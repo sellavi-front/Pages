@@ -171,13 +171,11 @@ if (document.querySelector('.wrapper')) {
 
   const footerDocs = document.querySelector("footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
   const phh = document.querySelector('.phh');
-  console.log(footerDocs);
-  console.log(phh);
   phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
 }
 
 if (document.querySelector('.common-home')) {
-  const pageSection = document.querySelector('.page-section');
+  // const pageSection = document.querySelector('.page-section');
 
   // const product = document.querySelectorAll('.product-item');
 
