@@ -21,7 +21,7 @@ import cartWhite from './assets/svg/bag-white.js';
 // import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
-
+import {l1, l2} from './assets/svg/l1.js'
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
@@ -380,6 +380,10 @@ if (document.querySelector('.product-product')) {
     </div>
   `,
   );
+
+  const titleSect = document.querySelector("#home > div > section > div > h2 > span");
+  titleSect.insertAdjacentHTML('afterend', l1)
+  titleSect.insertAdjacentHTML('beforebegin', l2)
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
   //     'beforebegin',
