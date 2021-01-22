@@ -459,7 +459,7 @@ body.ltr .header-cart .cart-wrapper .cart-qty-circle {
 
 .section-title {
   margin: 75px 0 15px !important;
-  text-align: left !important;
+  /* text-align: left !important; */
 }
 
 .main-slider .caption-content .caption-subtitle {
