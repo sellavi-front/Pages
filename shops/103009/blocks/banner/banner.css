@@ -44,3 +44,7 @@
 .sf-menu.nav>li>a {
     border-bottom: 0px !important;
 }
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    border: 2px solid black !important;
+}
