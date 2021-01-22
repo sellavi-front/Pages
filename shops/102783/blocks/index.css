@@ -104,9 +104,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 .custom-preloader span {
   display: flex;
   animation: pulse 0.4s alternate infinite ease-in-out;
+  margin-bottom: 100%;
 }
 
-/*@keyframes pulse {
+@keyframes pulse {
   to {
     transform: scale(0.9);
     opacity: 0.5;
@@ -116,14 +117,14 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 .custom-preloader.hidden {
   animation: fadeOut 1s;
   animation-fill-mode: forwards;
-}*/
+}
 
-/*@keyframes fadeOut {
+@keyframes fadeOut {
   100% {
     opacity: 0;
     visibility: hidden;
   }
-}*/
+}
 /* End */
 
 
