@@ -92,7 +92,7 @@ if (document.querySelector('.wrapper')) {
   // buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
 
-  hideCart.remove();
+  // hideCart.remove();
   navWrapperCon.classList.remove('container');
 
   megalineLi.forEach((it) => {
