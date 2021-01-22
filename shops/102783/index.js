@@ -8,21 +8,35 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 /*import '../../fixes/js/FooterCopy/FooterCopy.js'*/
 import renderContactsInCustomSection from "./blocks/contacts/contacts.js"
 
+function onReady(callback) {
+  var intervalId = window.setInterval(function() {
+    if (document.getElementsByTagName('body')[0] !== undefined) {
+      window.clearInterval(intervalId);
+      callback.call(this);
+      document.querySelector("body").insertAdjacentHTML("afterbegin", `
+        <div class="custom-preloader">
+            <span>
+              <img src="https://ru.sellavi.com/assets/images/logo.svg"/>
+          </span>
+        </div>
+      `)
+    }
+  }, 1000);
+}
 
-document.querySelector("body").insertAdjacentHTML("afterbegin", `
-  <div class="custom-preloader">
-      <span>
-        <img src="https://ru.sellavi.com/assets/images/logo.svg"/>
-    </span>
-  </div>
-`)
+onReady(function() {
+  const preloader = document.querySelector(".custom-preloader");
+  preloader.className += " hidden";
+});
 
-setTimeout(function() {
-  /*window.addEventListener("load", function () {*/
+
+
+/*setTimeout(function() {
+  /!*window.addEventListener("load", function () {*!/
     const preloader = document.querySelector(".custom-preloader");
     preloader.className += " hidden";
-  /*});*/
-}, 2000)
+  /!*});*!/
+}, 2000)*/
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП "Кучма Виктория Геннадьевна"')
