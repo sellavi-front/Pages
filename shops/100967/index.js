@@ -22,7 +22,7 @@ import BaseSender from '../../components/BaseSender/BaseSender.js';
 import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
 
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+// import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
   cart:
