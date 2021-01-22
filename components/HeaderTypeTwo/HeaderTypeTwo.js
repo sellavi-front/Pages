@@ -52,8 +52,6 @@ if (document.querySelector('.wrapper')) {
       .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
 
       const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
-      console.log(headerLoginIco);
-      console.log(headerLoginIco[0]);
 
       headerLoginIco[0].classList.forEach((selector) => selectors.push(selector));
 

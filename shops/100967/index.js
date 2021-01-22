@@ -6,32 +6,32 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
-import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
+// import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 // import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 // import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
-import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
+// import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 
-import bootstrapClasses from './utils/bootstrapClasses.js';
-import advantages from './utils/advantages.js';
+// import bootstrapClasses from './utils/bootstrapClasses.js';
+// import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
 // import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
-import historyData from './utils/historyData.js';
+// import historyData from './utils/historyData.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
   cart:
-    '<img src="https://res.cloudinary.com/gz-company/image/upload/v1606402883/Miru/assets/icons/icons8-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0_1_1_gqdqiq.png" alt="cart">',
+    '<img src="https://res.cloudinary.com/depgheppz/image/upload/v1611136009/Vector_opwga3.svg" alt="cart">',
   like:
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
 
-const textInHeader = 'Бесплатная доставка';
+const textInHeader = 'Бесплатная доставка по России';
 const footerText = 'Имеются противопоказания. Проконсультируйтесь со специалистом';
 
 if (document.querySelector('.wrapper')) {
@@ -46,15 +46,15 @@ if (document.querySelector('.wrapper')) {
   const link = document.querySelectorAll(
     'body > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu.active > ul > li > div > div > span > a',
   );
-  const delSelectorsProductItem = new DeleteClasses(productItem, bootstrapClasses);
+  // const delSelectorsProductItem = new DeleteClasses(productItem);
 
   const logo = document.querySelector('#cart');
   const logoIco = document.querySelector('#cart > i');
   logoIco.remove();
   logo.insertAdjacentHTML('afterbegin', icons.cart);
 
-  document.querySelector('.header-wrapper > .container').classList.add('container-fluid');
-  document.querySelector('.header-wrapper > .container').classList.remove('container');
+  // document.querySelector('.header-wrapper > .container').classList.add('container-fluid');
+  // document.querySelector('.header-wrapper > .container').classList.remove('container');
 
   // Icons in header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
@@ -90,9 +90,9 @@ if (document.querySelector('.wrapper')) {
   baseSender.render();
   // socialIconsTypeOne.render();
   buttonsInHeader.setTemplate();
-  delSelectorsProductItem.findAndDelete();
+  // delSelectorsProductItem.findAndDelete();
 
-  hideCart.remove();
+  // hideCart.remove();
   navWrapperCon.classList.remove('container');
 
   megalineLi.forEach((it) => {
@@ -135,9 +135,45 @@ if (document.querySelector('.wrapper')) {
 
   const brg = document.querySelector('.mobile-navigation-wrapper');
   document
-    .querySelector('.header-wrapper > .container-fluid')
+    .querySelector('.header-wrapper > .container')
     .insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
+
+  // setTimeout(() => {
+  //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
+  //     'afterend',
+  //     `
+  //       <div class="mobile-navigation-close">
+  //         <i class="fal fa-times"></i>
+  //       </div>
+  //     `,
+  //   );
+  // }, 500);
+
+  // document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+  //   document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+  //     const nav = document.querySelector('.navigation');
+  //     const brg = document.querySelector('.mobile-navigation-wrapper');
+  //     const wrapper = document.querySelector("#home > div");
+  //     wrapper.classList.add('wrapper-closed')
+  //     wrapper.classList.remove('wrapper-opened')
+  //     wrapper.classList.remove('fixed')
+  //     nav.classList.add('nav-closed');
+  //     nav.classList.remove('nav-opened');
+  //     nav.classList.remove('opened');
+  //     brg.querySelector('i').classList.add('fa-bars')
+  //     brg.querySelector('i').classList.remove('fa-times')
+
+
+  //     document.querySelector('body').classList.remove('overflow-hidden');
+  //   });
+  // });
+
+  const footerDocs = document.querySelector("body > div > footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
+  const phh = document.querySelector('.phh');
+  console.log(footerDocs);
+  console.log(phh);
+  phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
 }
 
 if (document.querySelector('.common-home')) {
@@ -193,10 +229,10 @@ if (document.querySelector('.common-home')) {
       weekRow.append(i);
     }
   });
-  const advantagesTypeOne = new AdvantagesTypeOne(
-    document.querySelector('.page-section'),
-    advantages,
-  );
+  // const advantagesTypeOne = new AdvantagesTypeOne(
+  //   document.querySelector('.page-section'),
+  //   advantages,
+  // );
   // const contentBanner = new ContentBannerTypeOne(
   //   document.querySelector('body>.wrapper>.content-area>.page-section'),
   //   'beforeEnd',
@@ -208,27 +244,27 @@ if (document.querySelector('.common-home')) {
   //   salesData,
   // );
 
-  const imgNearText = new ImgNearText(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    aboutData,
-  );
+  // const imgNearText = new ImgNearText(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   aboutData,
+  // );
 
-  const historyLine = new HistoryLine(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    historyData,
-  );
+  // const historyLine = new HistoryLine(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   historyData,
+  // );
   const gridPhotoWithText = new GridPhotoWithText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
   );
 
-  advantagesTypeOne.render();
+  // advantagesTypeOne.render();
   // contentBanner.render();
   // infoCardTypeOne.render();
-  imgNearText.render();
-  historyLine.render();
+  // imgNearText.render();
+  // historyLine.render();
   gridPhotoWithText.render();
 
   // const bannerContentItemImg = document.querySelector('.banner-content__item');
@@ -254,7 +290,7 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
 
-  const social = document.querySelector('.share_page_wrapper');
+  // const social = document.querySelector('.share_page_wrapper');
 
   const onDelete = [
     model,
@@ -263,7 +299,7 @@ if (document.querySelector('.product-product')) {
     rating,
     reviews,
     productRating,
-    social,
+    // social,
     title,
     productAvailability,
   ];
@@ -311,6 +347,11 @@ if (document.querySelector('.product-product')) {
     );
     commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
   }
+}
+
+if (location.href.includes('/checkout')) {
+  const textDelivery = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label");
+  textDelivery.textContent = 'Оплата курьеру при получении'
 }
 
 if (document.querySelector('.product-product')) {

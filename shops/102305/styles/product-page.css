@@ -95,6 +95,7 @@ body .section-title span:after {
   margin-top: 2% !important;
 }
 
+
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
     bottom: 69px;

@@ -3,7 +3,6 @@ import requisites from './bank.js'
 
 if (location.href.includes('terms-of-use')) {
   const req = new Requisites(requisites, 'beforeend', 'ИП РОХАС НУНЭ СЕЙРАНОВНА');
-
   req.setTemplate();
 }
 

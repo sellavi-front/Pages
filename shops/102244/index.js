@@ -1,39 +1,58 @@
-import Requisites from '../../modules/Requisites/Requisites.js';
-import {requsites, dataContact } from './utils/requsites.js'
-import '../../fixes/js/FooterCopy/FooterCopy.js';
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import './utils/aqquring.js'
 
-if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Арутюнян Армен Вагаршакович');
+import BigBanner from '../../modules/BigBanner/BigBanner.js';
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import '../../components/HeaderTypeThree/HeaderTypeThree.js';
+import '../../components/PictureCategories/PictureCategories.js';
 
-  req.setTemplate();
+if (document.querySelector('.common-home')) {
+  new BigBanner(
+    'https://res.cloudinary.com/depgheppz/image/upload/v1611061769/Group_7423499_j54tte.png',
+  {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
+
+  const cstmSection = document.querySelector('.wrapper > .content-area');
 }
 
-if (location.href.includes('contact')) {
-  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
+if (document.querySelector('.wrapper')) {
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Арутюнян Армен Вагаршакович', media);
-  req.setTemplate();
-}
+  document.querySelector("#home > div > header > div.header-wrapper > div").classList.add('container-fluid')
+  document.querySelector("#home > div > header > div.header-wrapper > div").classList.remove('container')
 
+  document.querySelector(
+    '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
+  ).textContent = '';
+  document
+    .querySelector(
+      '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
+    )
+    .insertAdjacentHTML(
+      'beforeend',
+      `
+  <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="23" height="1" fill="black"/>
+    <rect y="7" width="23" height="1" fill="black"/>
+    <rect y="14" width="23" height="1" fill="black"/>
+  </svg>
+  `,
+    );
 
-if (location.href.includes('policy')) {
-  const req = new Requisites(
-    requsites,
-    'afterend',
-    'ИП Арутюнян Армен Вагаршакович',
-    document.querySelector('#content > div > div'),
-  );
-  req.setTemplate();
-}
+  setTimeout(() => {
+    document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
+      'afterend',
+      `
+        <div class="mobile-navigation-close">
+          <i class="fal fa-times"></i>
+        </div>
+      `,
+    );
+  }, 500);
 
-if (location.href.includes('pay-delivery')) {
-  const req = new Requisites(
-    requsites,
-    'afterend',
-    'ИП Арутюнян Армен Вагаршакович',
-    document.querySelector('#content > div > div'),
-    dataContact,
-  );
-  req.setTemplate();
+  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+    document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+      const nav = document.querySelector('.navigation');
+      nav.classList.add('nav-closed');
+      nav.classList.remove('nav-opened');
+      document.querySelector('body').classList.remove('overflow-hidden');
+    });
+  });
 }

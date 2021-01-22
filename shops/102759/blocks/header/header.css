@@ -15,17 +15,16 @@ body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
-
 }
 
 body.theme_11.common-home .wrapper .header {
-  background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.5)), to(transparent));
-  background: linear-gradient(180deg, rgba(0,0,0,.5), transparent);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
 }
 
 .wrapper .header .header-wrapper .header_widgets {
-  top: 4px !important
+  top: 4px !important;
 }
 
 .mobile-navigation-close {
@@ -44,7 +43,8 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   left: 0 !important;
   top: 0 !important;
   width: 100% !important;
-  padding-top: 100px !important;
+  padding-top: 108px !important;
+  background: transparent !important;
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
@@ -56,12 +56,26 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   max-width: 100%;
   z-index: 1 !important;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navigation {
   z-index: 999;
+}
+
+.mobile-navigation-close {
+  display: none;
+}
+
+body.sidenav-enabled.ltr .navigation.mobile_side_nav {
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+body.theme_11 .wrapper .navigation_black_screen.active {
+  display: none;
 }
 
 @media (max-width: 1199px) {
@@ -78,6 +92,22 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: auto !important;
   }
+
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    background: white !important;
+  }
+
+  .mobile-navigation-close {
+    display: block;
+  }
+
+  .mobile-navigation-close i {
+    font-size: 23px;
+  }
+
+  body.sidenav-enabled .mobile_side_nav > ul a {
+    text-align: start !important;
+  }
 }
 
 @media (max-width: 591px) {
@@ -92,5 +122,8 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
     margin-top: 5%;
   }
-}
 
+  body.theme_11 .wrapper .header {
+    padding: 6% 0;
+  }
+}

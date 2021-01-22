@@ -33,3 +33,9 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
   }
 
 }*/
+
+.wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+  text-align: left !important;
+  padding: 5% !important;
+  margin-top: 300px !important;
+}

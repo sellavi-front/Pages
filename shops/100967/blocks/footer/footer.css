@@ -30,6 +30,18 @@
   text-align: center;
 }
 
+.footer_content_text img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  width: 30px;
+}
+
+#sellavi_logo > img {
+  width: 50px !important;
+}
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;

@@ -17,14 +17,13 @@
 @import './../styles/categories.css';
 @import './../styles/header.css';
 @import './../styles/footer.css';
-@import './../styles/product-page.css';
-/*@import './../../../modules/ButtonContainerInProduct/btn-with-border.css';*/
+/*@import './../styles/product-page.css';*/
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 /*@import './../../../components/ContactsWithMap/ContactsWithMap.css';*/
 @import './../../../fixes/fixes.css';
 
 @import './../styles/fonts.css';
-@import './../styles/content-area.css';
+/*@import './../styles/content-area.css';*/
 
 
 .buttons__container {
@@ -35,10 +34,34 @@
   width: 100%;
 }
 
-.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
-  position: relative;
+/*.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: absolute;
   left: 0 !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
+}*/
 
+/*.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: absolute;
+  bottom: 15px;
+  z-index: 1 !important;
+
+  right: 15px;
+  cursor: pointer;
+  outline: none;
+}*/
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
+  color: #333 !important;
+  background-color: transparent !important;
+  border: 1px solid !important;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: #c9c9c9 !important;
+  border-radius: 5px !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: #333 !important;
 }
 
 .featured-products-carousel .bx-wrapper {
@@ -136,7 +159,6 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
 
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
   background-color: #c9c9c9 !important;
-  border-radius: 0 !important;
 }
 
 #home footer .footer-widgets {
@@ -189,6 +211,12 @@ body.theme_11 .wrapper .latest-section h2.section-title {
   margin-top: 50px !important;
   margin-bottom: 0 !important;
 }
+
+.page-header {
+  margin-top: 10px !important;
+}
+
+
 
 @media only screen and (max-width: 320px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption {

@@ -53,7 +53,9 @@ if (location.href.includes('pay-delivery')) {
   req.setTemplate();
 }
 
-
+if (location.href.includes('/checkout')) {
+  document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.shipment-reloader > div > div:nth-child(4) > label").textContent = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.shipment-reloader > div > div:nth-child(4) > label").textContent.trim().slice(0, -10)
+}
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
 // import imgArr from "./utils/images.js"
 // import BigBanner from '../../modules/BigBanner/BigBanner.js'

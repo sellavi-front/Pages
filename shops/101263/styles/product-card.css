@@ -47,7 +47,7 @@ body.ltr .thumbnail .price_actions .add_to_cart {
   -webkit-box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
-  padding: 15px;
+  padding: 0 !important;
   border: 0;
   border-radius: 11.7564px;
 }

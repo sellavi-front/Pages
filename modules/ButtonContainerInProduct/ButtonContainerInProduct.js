@@ -38,29 +38,29 @@ if (document.querySelectorAll('.add_to_wishlist').length === 0) {
   buttonContainerInProduct.delete(addToCart);
   buttonContainerInProduct.delete(wishList);
 
-setTimeout(() => {
-  const price = document.querySelectorAll('.product-item .price');
-const addToCart = document.querySelectorAll('.add_to_cart');
+// setTimeout(() => {
+//   const price = document.querySelectorAll('.product-item .price');
+// const addToCart = document.querySelectorAll('.add_to_cart');
 
-if (document.querySelectorAll('.add_to_wishlist').length === 0) {
- var wishList = document.querySelectorAll('.remove_from_wishlist');
-} else {
-  var wishList = document.querySelectorAll('.add_to_wishlist');
-}
+// if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+//  var wishList = document.querySelectorAll('.remove_from_wishlist');
+// } else {
+//   var wishList = document.querySelectorAll('.add_to_wishlist');
+// }
 
 
-  const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
+//   const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
-  buttonContainerInProduct.createContainer();
-  buttonContainerInProduct.delete(addToCart);
-  buttonContainerInProduct.delete(wishList);
-}, 4000)
+//   buttonContainerInProduct.createContainer();
+//   buttonContainerInProduct.delete(addToCart);
+//   buttonContainerInProduct.delete(wishList);
+// }, 4000)
 
-setTimeout (() => {
-  let imgEl = document.querySelectorAll('.img-fluid.lazy');
-  for (let i = 0; i < imgEl.length; i++) {
-    if (imgEl[i].getAttribute('data-src')) {
-      imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
-    }
-  }
-}, 4000);
+// setTimeout (() => {
+//   let imgEl = document.querySelectorAll('.img-fluid.lazy');
+//   for (let i = 0; i < imgEl.length; i++) {
+//     if (imgEl[i].getAttribute('data-src')) {
+//       imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
+//     }
+//   }
+// }, 4000);
