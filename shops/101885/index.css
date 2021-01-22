@@ -184,7 +184,7 @@ body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-
+  width: 100% !important;
 }
 .card__content {
   display: flex;
