@@ -90,7 +90,7 @@ body.theme-black .custom-control-input:checked ~ .custom-control-label:before {
 
 .product-product .flex-option > div > .checkbox,
 .product-product .flex-option > div > .custom-radio {
-  width: 130px;
+  width: 100px;
 }
 
 .table {
@@ -130,7 +130,7 @@ body.theme-blue-2 .custom-control-input:checked ~ .custom-control-label:before {
   justify-content: center;
   border: 1px solid !important;
   position: relative;
-  line-height: 40px;
+  line-height: 35px;
   font-size: 16px;
   margin: 5px;
 }
