@@ -237,7 +237,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   }
 
   body.ltr.ru .wrapper footer.footer .footer-widgets {
-    border-top: 1px solid #c4c4c4 !important;
+    border-top: 0 !important;
   }
 
   .footer-widgets .row .col-md-3:nth-child(1),
