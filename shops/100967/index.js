@@ -244,11 +244,11 @@ if (document.querySelector('.common-home')) {
   //   salesData,
   // );
 
-  const imgNearText = new ImgNearText(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    aboutData,
-  );
+  // const imgNearText = new ImgNearText(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   aboutData,
+  // );
 
   // const historyLine = new HistoryLine(
   //   document.querySelector('body>.wrapper>.content-area>.page-section'),
@@ -263,7 +263,7 @@ if (document.querySelector('.common-home')) {
   // advantagesTypeOne.render();
   // contentBanner.render();
   // infoCardTypeOne.render();
-  imgNearText.render();
+  // imgNearText.render();
   // historyLine.render();
   gridPhotoWithText.render();
 
