@@ -315,7 +315,7 @@ body h2 span {
      object-fit: cover;
 }
 
-body .products .product-item {
+/* body .products .product-item {
   -webkit-box-flex: 0 !important;
       -ms-flex: 0 0 50% !important;
           flex: 0 0 50% !important;
@@ -328,7 +328,7 @@ body .products .product-item {
             flex: 0 0 100% !important;
     max-width: 100% !important;
   }
-}
+} */
 
 .product-item .thumbnail {
   text-align: center;
