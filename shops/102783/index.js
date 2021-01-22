@@ -17,12 +17,12 @@ document.querySelector("body").insertAdjacentHTML("afterbegin", `
   </div>
 `)
 
-setTimeout(function() {
+/*setTimeout(function() {*/
   window.addEventListener("load", function () {
     const preloader = document.querySelector(".custom-preloader");
     preloader.className += " hidden";
   });
-}, 1500)
+/*}, 1500)*/
 
 
 if (location.href.includes('term-of-use')) {
