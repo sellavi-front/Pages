@@ -139,35 +139,35 @@ if (document.querySelector('.wrapper')) {
     .insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
 
-  setTimeout(() => {
-    document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
-      'afterend',
-      `
-        <div class="mobile-navigation-close">
-          <i class="fal fa-times"></i>
-        </div>
-      `,
-    );
-  }, 500);
+  // setTimeout(() => {
+  //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
+  //     'afterend',
+  //     `
+  //       <div class="mobile-navigation-close">
+  //         <i class="fal fa-times"></i>
+  //       </div>
+  //     `,
+  //   );
+  // }, 500);
 
-  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
-    document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
-      // const nav = document.querySelector('.navigation');
-      // const brg = document.querySelector('.mobile-navigation-wrapper');
-      // const wrapper = document.querySelector("#home > div");
-      // wrapper.classList.add('wrapper-closed')
-      // wrapper.classList.remove('wrapper-opened')
-      // wrapper.classList.remove('fixed')
-      // nav.classList.add('nav-closed');
-      // nav.classList.remove('nav-opened');
-      // nav.classList.remove('opened');
-      // brg.querySelector('i').classList.add('fa-bars')
-      // brg.querySelector('i').classList.remove('fa-times')
+  // document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+  //   document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+  //     const nav = document.querySelector('.navigation');
+  //     const brg = document.querySelector('.mobile-navigation-wrapper');
+  //     const wrapper = document.querySelector("#home > div");
+  //     wrapper.classList.add('wrapper-closed')
+  //     wrapper.classList.remove('wrapper-opened')
+  //     wrapper.classList.remove('fixed')
+  //     nav.classList.add('nav-closed');
+  //     nav.classList.remove('nav-opened');
+  //     nav.classList.remove('opened');
+  //     brg.querySelector('i').classList.add('fa-bars')
+  //     brg.querySelector('i').classList.remove('fa-times')
 
 
-      // document.querySelector('body').classList.remove('overflow-hidden');
-    });
-  });
+  //     document.querySelector('body').classList.remove('overflow-hidden');
+  //   });
+  // });
 
   const footerDocs = document.querySelector("body > div > footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
   const phh = document.querySelector('.phh');
