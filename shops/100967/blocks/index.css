@@ -274,6 +274,11 @@ body.theme-black .btn-theme {
   opacity: 0.9;
 }
 
+#home > footer > div.footer-widgets > div > div.docs > ul > li:nth-child(6),
+#home > footer > div.footer-widgets > div > div.docs > ul > li:nth-child(7) {
+display: none !important;
+}
+
 #home
   > div.wrapper.wrapper-closed
   > section
