@@ -14,7 +14,7 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
-
+import cartWhite from './assets/svg/bag-white.js';
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
@@ -367,7 +367,7 @@ if (document.querySelector('.product-product')) {
   const btnCart = document.querySelector('#button-cart');
   btnCart.querySelector('i').remove();
   btnCart.textContent = 'В корзину';
-  btnCart.insertAdjacentHTML('afterbegin', icons.cart);
+  btnCart.insertAdjacentHTML('afterbegin', cartWhite);
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
   //     'beforebegin',
