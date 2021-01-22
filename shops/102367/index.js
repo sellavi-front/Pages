@@ -97,7 +97,12 @@ if (document.querySelector('.product-product')) {
 setTimeout(() => {
   console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-      console.log(document.querySelectorAll(".dropdown-item > span"));
+      const selects = document.querySelectorAll(".dropdown-item > span");
+      selects.forEach(sel => {
+        if (sel.textContent.length >= 20) {
+          sel.textContent = sel.textContent.slice(0, -16)
+        }
+      })
   })
 }, 1500)
 
