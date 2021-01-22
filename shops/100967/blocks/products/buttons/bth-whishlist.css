@@ -14,3 +14,9 @@
 body .btn.btn-theme.btn-theme-transparent:hover i {
   color: black !important;
 }
+
+body.ltr .thumbnail .price_actions .add_to_cart {
+  text-align: center !important;;
+  padding: 5% 0;
+  border: 1px solid;
+}
