@@ -400,3 +400,22 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
 body.sidenav-enabled .mobile_side_nav {
     overflow-y: hidden;
 }
+
+.pz_zoomer_wrapper.zoomHolder {
+    display: flex;
+    justify-content: center
+}
+
+.product-product .product-single .product-title {
+    font-size: 22px;
+}
+
+.product-product body.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme_11.product-product .product-single.product-item .buttons #button-cart {
+    max-width: 40% !important;
+}
+
+@media (max-device-width: 480px) {
+    .product-product body.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme_11.product-product .product-single.product-item .buttons #button-cart {
+        max-width: 100% !important;
+    }
+}
