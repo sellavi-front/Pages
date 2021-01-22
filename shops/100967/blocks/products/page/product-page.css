@@ -35,6 +35,11 @@
   margin-bottom: 50px ;
 }
 
+.btn-cart:hover svg path {
+  stroke: black;
+  fill: black;
+}
+
 .product-product .product-single .reviews  {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
