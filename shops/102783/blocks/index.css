@@ -54,7 +54,7 @@ body.ltr .thumbnail .caption-title {
   }
 }
 
-.preloader.hidden {
+.custom-preloader.hidden {
   animation: fadeOut 1s;
   animation-fill-mode: forwards;
 }
