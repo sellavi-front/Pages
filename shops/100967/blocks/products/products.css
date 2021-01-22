@@ -8,7 +8,7 @@
 @import './page/reviews.css';
 @import './page/tab-content.css';
 @import './page/nav-tabs.css';
-
+/*
 .content-area .products .product-item,
 .featured-products .product-item,
 .bx_product_featured .product-item {
@@ -31,7 +31,7 @@
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
-}
+} */
 
 .thumbnail .price {
   font-size: 22px !important;
