@@ -477,3 +477,11 @@ footer > div.footer-widgets > div.container > div {
 }
 
 
+
+
+.common-home .btn.btn-theme.btn-theme-transparent:hover {
+    background-color: #ababab;
+    border: 0px !important;
+    border-radius: 4px !important;
+}
+
