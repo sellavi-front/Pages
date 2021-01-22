@@ -355,7 +355,7 @@ if (location.href.includes('/checkout')) {
 if (document.querySelector('.product-item')) {
   document.querySelectorAll('.product-item .add_to_cart button').forEach(btn => {
     btn.querySelector('i').remove();
-    btn.insertAdjacentHTML('beforebegin', icons.cart);
+    btn.insertAdjacentHTML('beforeend', icons.cart);
   })
 }
 
