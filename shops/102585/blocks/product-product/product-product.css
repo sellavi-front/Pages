@@ -101,3 +101,7 @@ button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
     width: 100%;
     border-radius: 0px;
 }
+
+.information-information-5005.information-information #content > div > div > div:nth-child(1) {
+    display: block !important;
+}
