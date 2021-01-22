@@ -215,6 +215,10 @@ label.custom-control-label:hover {
   margin-top: 25px;
 }
 
+body.common-home > div > div.content-area > section > div.container > h2 {
+  text-align: left !important;
+}
+
 #home
   > div.content-area
   > section
