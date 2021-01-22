@@ -9,7 +9,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import renderContactsInCustomSection from "./blocks/contacts/contacts.js"
 
 function onReady(callback) {
-  var intervalId = window.setInterval(function() {
+  let intervalId = window.setInterval(function() {
     if (document.getElementsByTagName('body')[0] !== undefined) {
       window.clearInterval(intervalId);
       callback.call(this);
