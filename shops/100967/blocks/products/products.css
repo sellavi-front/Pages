@@ -40,3 +40,9 @@
 .fa-stack {
   width: 20px !important;
 }
+
+.product-product .product-single .buttons .btn-cart,
+.product-product .product-single .buttons .quantity .btn,
+.product-product .product-single .buttons .quantity .qty {
+  border-radius: 10px;
+}
