@@ -48,3 +48,9 @@
 #banner0 > div > div > div > div > div > div > div > div > div > p > a {
     border: 2px solid black !important;
 }
+
+.common-home .btn.btn-theme.btn-theme-transparent:hover {
+    background-color: #ababab;
+    border: 0px !important;
+    border-radius: 4px !important;
+}
