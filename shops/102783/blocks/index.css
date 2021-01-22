@@ -98,7 +98,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   position: fixed;
   color: green;
   background-color: #fff;
-  z-index: 99999;
+  z-index: 1099;
 }
 
 .custom-preloader span {
