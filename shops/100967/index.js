@@ -160,6 +160,7 @@ if (document.querySelector('.wrapper')) {
       wrapper.classList.remove('fixed')
       nav.classList.add('nav-closed');
       nav.classList.remove('nav-opened');
+      nav.classList.remove('opened');
       brg.querySelector('i').classList.add('fa-bars')
       brg.querySelector('i').classList.remove('fa-times')
 
