@@ -121,11 +121,11 @@ if (document.querySelector('.wrapper')) {
     `;
   }
 
-  // const buttonList = document.querySelector('.button__list');
-  // buttonList.insertAdjacentHTML(
-  //   'beforeend',
-  //   `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`,
-  // );
+  const buttonList = document.querySelector('.button__list');
+  buttonList.insertAdjacentHTML(
+    'beforeend',
+    `<li class="button__list_elem custom__text"><p class="custom__text_ph">${textInHeader}</p></li>`,
+  );
 
   const disLinkHeader = document.querySelectorAll(
     '.megamenu > ul > .megaline > div > div > span > a',
