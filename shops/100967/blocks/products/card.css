@@ -11,7 +11,8 @@
   width: 100%;
 }
 
-.thumbnail .price_actions .add_to_cart button {
+.thumbnail .price_actions .add_to_cart button,
+.product-product .product-single .buttons .btn-cart {
   border: 1px solid black;
   padding: 5% 25%;
   border-radius: 10px !important;
