@@ -8,6 +8,8 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 // import socIconsData from './utils/socIconsData.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
+
+
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<div class="info-after">для прочистки любой степени сложности</div>');
   document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span ').insertAdjacentHTML('afterend', '<div class="info-after">для прочистки любой степени сложности</div>');
@@ -19,6 +21,11 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div.content-area > div.info-info').insertAdjacentHTML('afterend', '<div class="container"><span>Каталог товаров</span></div>');
+}
+
+if (document.querySelector('.common-home')) {
+  document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее';
+  document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее';
 }
 
 if (document.querySelector('.logo')) {
