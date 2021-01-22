@@ -647,7 +647,6 @@ footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul 
   -webkit-box-ordinal-group: 6;
   -ms-flex-order: 5;
   order: 5;
-  display: none !important;
 }
 
 footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
