@@ -6,21 +6,21 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
-import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
+// import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
 // import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
 // import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
-import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
+// import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 
 import bootstrapClasses from './utils/bootstrapClasses.js';
-import advantages from './utils/advantages.js';
+// import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
 // import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
-import historyData from './utils/historyData.js';
+// import historyData from './utils/historyData.js';
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
@@ -60,7 +60,7 @@ if (document.querySelector('.wrapper')) {
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
 
-  const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
+  // const buttonsInHeader = new ButtonListInHeader(headerWrapper, icons);
 
   hideCart.remove();
   // End
@@ -89,7 +89,7 @@ if (document.querySelector('.wrapper')) {
   // FOOTER
   baseSender.render();
   // socialIconsTypeOne.render();
-  buttonsInHeader.setTemplate();
+  // buttonsInHeader.setTemplate();
   delSelectorsProductItem.findAndDelete();
 
   hideCart.remove();
@@ -229,10 +229,10 @@ if (document.querySelector('.common-home')) {
       weekRow.append(i);
     }
   });
-  const advantagesTypeOne = new AdvantagesTypeOne(
-    document.querySelector('.page-section'),
-    advantages,
-  );
+  // const advantagesTypeOne = new AdvantagesTypeOne(
+  //   document.querySelector('.page-section'),
+  //   advantages,
+  // );
   // const contentBanner = new ContentBannerTypeOne(
   //   document.querySelector('body>.wrapper>.content-area>.page-section'),
   //   'beforeEnd',
@@ -250,21 +250,21 @@ if (document.querySelector('.common-home')) {
     aboutData,
   );
 
-  const historyLine = new HistoryLine(
-    document.querySelector('body>.wrapper>.content-area>.page-section'),
-    'beforeEnd',
-    historyData,
-  );
+  // const historyLine = new HistoryLine(
+  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
+  //   'beforeEnd',
+  //   historyData,
+  // );
   const gridPhotoWithText = new GridPhotoWithText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
   );
 
-  advantagesTypeOne.render();
+  // advantagesTypeOne.render();
   // contentBanner.render();
   // infoCardTypeOne.render();
   imgNearText.render();
-  historyLine.render();
+  // historyLine.render();
   gridPhotoWithText.render();
 
   // const bannerContentItemImg = document.querySelector('.banner-content__item');
