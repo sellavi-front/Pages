@@ -396,3 +396,7 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
         background-size: cover !important
     }
 } 
+
+body.sidenav-enabled .mobile_side_nav {
+    overflow-y: hidden;
+}
