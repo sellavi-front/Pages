@@ -458,13 +458,7 @@ header > div > div.container-fluid > div.logo > a {
     justify-content: center;
 }
 
-.footer .footer-widgets .widget .widget-title {
-    font-size: 18px !important;
-}
 
-.wrapper footer.footer .footer-widgets .widget-categories ul li a {
-    font-size: 16px !important;
-}
 
 footer > div.footer-widgets > div.container > div {
     display: flex;
@@ -475,3 +469,8 @@ footer > div.footer-widgets > div.container > div {
 
 
 
+a.btn.btn-theme.btn-call-checkout.w-100 {
+    color: black;
+    padding: 10px !important;
+    border: 2px solid black !important;
+}
