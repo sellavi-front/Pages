@@ -342,9 +342,9 @@ body.theme_3.ltr .header .header-cart {
   right: 15px;
 }
 
-body .section-title {
+/* body .section-title {
   text-align: center !important;
-}
+} */
 
 .twoWeek .section-title span:before {
   content: '';
