@@ -46,6 +46,8 @@
 
 @media screen and (max-width: 768px) {
   .number, .email, .address {
+    display: flex;
+    flex-direction: column;
     margin: 10px;
   }
 }
