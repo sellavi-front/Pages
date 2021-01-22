@@ -12,6 +12,21 @@
   max-width: 48% !important;
 } */
 
+.warranty {
+  padding: 10%;
+  border-radius: 50px;
+  border: 1px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .product-product .product-single .reviews  {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
