@@ -32,6 +32,12 @@ body.ltr .thumbnail .caption-title {
 /* End */
 
 /* Buy button and wishlist */
+
+body .section-title {
+  text-align: left !important;
+  margin-top: 10% !important;
+}
+
 .add_to_cart button {
   width: 190px;
 }
