@@ -95,7 +95,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*position: absolute;*/
+  position: absolute;
   color: green;
   background-color: #fff;
   z-index: 999;
@@ -106,7 +106,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   animation: pulse 0.4s alternate infinite ease-in-out;
 }
 
-@keyframes pulse {
+/*@keyframes pulse {
   to {
     transform: scale(0.9);
     opacity: 0.5;
@@ -116,7 +116,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 .custom-preloader.hidden {
   animation: fadeOut 1s;
   animation-fill-mode: forwards;
-}
+}*/
 
 @keyframes fadeOut {
   100% {
