@@ -434,3 +434,12 @@ body.theme-black.theme_11.product-product .product-single.product-item .buttons 
     color: white !important;
     background: black !important
 }
+
+.header > div > div.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+header > div > div.container-fluid > div.logo > a {
+    justify-content: center;
+}
