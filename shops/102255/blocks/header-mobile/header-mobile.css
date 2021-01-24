@@ -17,9 +17,9 @@ body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
 }
 
-body.sidenav-enabled .mobile_side_nav>ul {
+/* body.sidenav-enabled .mobile_side_nav>ul {
   height: 800px !important;
-}
+} */
 
 body.sidenav-enabled .mobile_side_nav>ul {
 
