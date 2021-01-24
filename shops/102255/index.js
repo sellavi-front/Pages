@@ -12,7 +12,6 @@ import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard
 import '../../fixes/js/RemoveBlur/RemoveBlur.js';
 
 document.querySelector('.header-cart.sticky').insertAdjacentHTML('beforebegin', '<div class="button__list_elem"><a id="wishlist" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-heart"></i></a></div>');
-
 // if (document.querySelector('.common-home')) {
   
 //   document.querySelector('.caption-subtitle .position-relative').insertAdjacentHTML('afterend', '<span class="second-title-text"></span>')
