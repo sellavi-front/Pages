@@ -17,6 +17,12 @@ import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsT
 import socIconsData from './utils/socIconsData.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
 
+if (document.querySelector('.common-home')) {
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611479555/90-903887_cloud-png-transparent-image-cloud-png-hd-download_1_lvpbcr.png"></div>');
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611479554/60a82c6cf7fda046b291e6b2c78ea531_1_rezr0o.png"></div>')
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611479556/White_Clouds_PNG_Clipart-882_1_tdtwzx.png"></div>')
+}
+
 if (document.querySelector('.product-search')) {
   const oldDescr = document.querySelector('#content > div:nth-child(2) > div.col-sm-3 > label');
   const newDescr = oldDescr.cloneNode(true);
