@@ -185,6 +185,18 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
         color: white !important;
     }
+
+    #home > div:nth-child(3) {
+        display: none;
+    }
+    
+    #home > div:nth-child(2) {
+        display: none;
+    }
+    
+    #home > div:nth-child(4) {
+        display: none;
+    }
 }
 
 #home > div:nth-child(3) {
