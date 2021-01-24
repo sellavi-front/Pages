@@ -186,32 +186,32 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
         color: white !important;
     }
 
-    #home > div:nth-child(3) {
+    .common-home > div:nth-child(3) {
         display: none !important;
     }
     
-    #home > div:nth-child(2) {
+    .common-home > div:nth-child(2) {
         display: none !important;
     }
     
-    #home > div:nth-child(4) {
+    .common-home > div:nth-child(4) {
         display: none !important;
     }
 }
 
-#home > div:nth-child(3) {
+.common-home > div:nth-child(3) {
     position: absolute;
     top: 600px;
     left: -200px;
 }
 
-#home > div:nth-child(2) {
+.common-home > div:nth-child(2) {
     position: absolute;
     top: 1300px;
     left: -390px
 }
 
-#home > div:nth-child(4) {
+.common-home > div:nth-child(4) {
     position: absolute;
     top: 900px;
     width: 100%;
