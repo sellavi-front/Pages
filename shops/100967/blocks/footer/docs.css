@@ -4,7 +4,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-
+  margin: 0;
 }
 
 .docs li {
@@ -14,4 +14,9 @@
 .docs li a {
   color: white !important;
   opacity: .6;
+}
+
+.phh p,
+.docs ul {
+  margin: 15px 0 !important;
 }

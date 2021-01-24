@@ -14,15 +14,15 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
-
+import cartWhite from './assets/svg/bag-white.js';
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
 // import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
-
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import {l1, l2} from './assets/svg/l1.js'
+// import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
   cart:
@@ -68,7 +68,7 @@ if (document.querySelector('.wrapper')) {
   const baseSender = new BaseSender(
     document.querySelector('.footer-widgets>.container'),
     'afterbegin',
-    'Остались вопросы?',
+    'Остались вопросы? Оставьте ваш телефон, наш специалист с вами свяжется.',
   );
 
   footerContainer.insertAdjacentHTML(
@@ -164,71 +164,70 @@ if (document.querySelector('.wrapper')) {
   //     brg.querySelector('i').classList.add('fa-bars')
   //     brg.querySelector('i').classList.remove('fa-times')
 
-
   //     document.querySelector('body').classList.remove('overflow-hidden');
   //   });
   // });
 
-  const footerDocs = document.querySelector("body > div > footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul");
+  const footerDocs = document.querySelector(
+    'footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul',
+  );
   const phh = document.querySelector('.phh');
-  console.log(footerDocs);
-  console.log(phh);
   phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
 }
 
 if (document.querySelector('.common-home')) {
-  const pageSection = document.querySelector('.page-section');
+  // const pageSection = document.querySelector('.page-section');
 
-  const product = document.querySelectorAll('.product-item');
+  // const product = document.querySelectorAll('.product-item');
 
-  let twoWeek = document.createElement('div');
-  let oneMonth = document.createElement('div');
-  let row1 = document.createElement('div');
-  let row2 = document.createElement('div');
-  let titleWeek = document.createElement('h2');
-  let titleWeekSpan = document.createElement('span');
-  let titleMonth = document.createElement('h2');
-  let titleMonthSpan = document.createElement('span');
+  // let twoWeek = document.createElement('div');
+  // let oneMonth = document.createElement('div');
+  // let row1 = document.createElement('div');
+  // let row2 = document.createElement('div');
+  // let titleWeek = document.createElement('h2');
+  // let titleWeekSpan = document.createElement('span');
+  // let titleMonth = document.createElement('h2');
+  // let titleMonthSpan = document.createElement('span');
 
-  twoWeek.classList.add('container', 'twoWeek');
-  oneMonth.classList.add('container', 'oneMonth');
-  row1.classList.add('row', 'products', 'grid');
-  row2.classList.add('row', 'products', 'grid');
-  titleWeek.classList.add('section-title', 'mb-4', 'mt-4');
-  titleMonth.classList.add('section-title', 'mb-4', 'mt-4');
+  // twoWeek.classList.add('container', 'twoWeek');
+  // oneMonth.classList.add('container', 'oneMonth');
+  // row1.classList.add('row', 'products', 'grid');
+  // row2.classList.add('row', 'products', 'grid');
+  // titleWeek.classList.add('section-title', 'mb-4', 'mt-4');
+  // titleMonth.classList.add('section-title', 'mb-4', 'mt-4');
 
-  pageSection.append(twoWeek);
-  pageSection.append(oneMonth);
+  // pageSection.append(twoWeek);
+  // pageSection.append(oneMonth);
 
-  titleWeekSpan.textContent = 'Двухнедельные линзы';
-  titleMonthSpan.textContent = 'Линзы месячного ношения';
+  // titleWeekSpan.textContent = 'Двухнедельные линзы';
+  // titleMonthSpan.textContent = 'Линзы месячного ношения';
 
-  const monthCont = document.querySelector('.oneMonth');
-  const weekCont = document.querySelector('.twoWeek');
+  // const monthCont = document.querySelector('.oneMonth');
+  // const weekCont = document.querySelector('.twoWeek');
 
-  monthCont.append(row1);
-  weekCont.append(row2);
+  // monthCont.append(row1);
+  // weekCont.append(row2);
 
-  weekCont.prepend(titleWeek);
-  monthCont.prepend(titleMonth);
-  titleWeek.append(titleWeekSpan);
-  titleMonth.append(titleMonthSpan);
+  // weekCont.prepend(titleWeek);
+  // monthCont.prepend(titleMonth);
+  // titleWeek.append(titleWeekSpan);
+  // titleMonth.append(titleMonthSpan);
 
-  const monthRow = document.querySelector('.oneMonth>.products');
-  const weekRow = document.querySelector('.twoWeek>.products');
-  const monthArr = ['688', '687', '4441', '977'];
-  const weekArr = ['668', '4426'];
+  // const monthRow = document.querySelector('.oneMonth>.products');
+  // const weekRow = document.querySelector('.twoWeek>.products');
+  // const monthArr = ['688', '687', '4441', '977'];
+  // const weekArr = ['668', '4426'];
 
-  product.forEach(function (i) {
-    const attr = i.getAttribute('data-product_id');
+  // product.forEach(function (i) {
+  //   const attr = i.getAttribute('data-product_id');
 
-    if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
-      monthRow.append(i);
-    }
-    if (attr === '668' || attr === '4426') {
-      weekRow.append(i);
-    }
-  });
+  //   if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
+  //     monthRow.append(i);
+  //   }
+  //   if (attr === '668' || attr === '4426') {
+  //     weekRow.append(i);
+  //   }
+  // });
   // const advantagesTypeOne = new AdvantagesTypeOne(
   //   document.querySelector('.page-section'),
   //   advantages,
@@ -350,11 +349,41 @@ if (document.querySelector('.product-product')) {
 }
 
 if (location.href.includes('/checkout')) {
-  const textDelivery = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label");
-  textDelivery.textContent = 'Оплата курьеру при получении'
+  const textDelivery = document.querySelector(
+    '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label',
+  );
+  textDelivery.textContent = 'Оплата курьеру при получении';
+}
+
+if (document.querySelector('.product-item')) {
+  document.querySelectorAll('.product-item .add_to_cart button').forEach((btn) => {
+    btn.querySelector('i').remove();
+    btn.textContent = 'В корзину';
+    btn.insertAdjacentHTML('afterbegin', icons.cart);
+  });
 }
 
 if (document.querySelector('.product-product')) {
+  const btnCart = document.querySelector('#button-cart');
+  btnCart.querySelector('i').remove();
+  btnCart.textContent = 'В корзину';
+  btnCart.insertAdjacentHTML('afterbegin', cartWhite);
+
+  const colProdcut = document.querySelector(
+    '#home > div > div.content-area > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+  );
+  colProdcut.insertAdjacentHTML(
+    'beforeend',
+    `
+    <div class="warranty">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
+    </div>
+  `,
+  );
+
+  const titleSect = document.querySelector("#home > div > section > div > h2 > span");
+  titleSect.insertAdjacentHTML('afterend', l1)
+  titleSect.insertAdjacentHTML('beforebegin', l2)
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
   //     'beforebegin',
@@ -386,4 +415,19 @@ if (document.querySelector('.product-product')) {
   //   container.insertAdjacentHTML('beforeend', el.outerHTML);
   //   el.remove();
   // });
+}
+
+if (location.href.includes('/checkout')) {
+  document
+    .querySelector(
+      '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
+    )
+    .insertAdjacentHTML(
+      'beforeend',
+      `
+  <div class="warranty">
+    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
+  </div>
+`,
+    );
 }

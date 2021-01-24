@@ -6,14 +6,16 @@
 .banner-content__item_img {
   position: relative;
   width: 1000px;
-  object-fit: none;
+  -o-object-fit: none;
+     object-fit: none;
   /* left: -120px;
   top: -80px; */
   left: -100px;
   top: -173px;
   height: 850px;
   z-index: 1;
-  object-position: left;
+  -o-object-position: left;
+     object-position: left;
 }
 
 .img-1 {
@@ -33,11 +35,23 @@
   /* right: 0; */
   height: 500px;
   width: 100%;
-  transform: rotate(24deg);
+  -webkit-transform: rotate(24deg);
+      -ms-transform: rotate(24deg);
+          transform: rotate(24deg);
 }
+
+
 
 @media (max-width: 971px) {
   .banner-content__item_bg, .img-1 {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  body.common-home .owl-carousel .owl-item .item img {
+    height: auto !important;
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
   }
 }

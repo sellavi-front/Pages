@@ -42,6 +42,27 @@
   width: 50px !important;
 }
 
+#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(3) {
+  display: none !important;
+}
+
+.sender {
+  width: 70% !important;
+}
+
+.sender__form {
+  height: 68px !important;
+}
+
+@media (max-width: 768px) {
+  .sender__title {
+    font-size: 33px;
+    width: 100%;
+  }
+
+}
+
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;

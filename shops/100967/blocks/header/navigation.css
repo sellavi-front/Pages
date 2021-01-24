@@ -64,8 +64,15 @@
     padding: 0 10px;
 }
 
+.sf-menu li:hover>a {
+  color: black !important;
+}
+
 .sf-menu li.megamenu ul {
     margin: 48px 0 0;
+}
+.sf-menu li.megamenu>ul > li > div > ul {
+  margin-top: 20px;
 }
 
 header .button__list {

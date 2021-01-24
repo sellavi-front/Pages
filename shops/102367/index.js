@@ -95,11 +95,18 @@ if (document.querySelector('.product-product')) {
 //     observer.observe(target, config);
 
 setTimeout(() => {
+  console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-    setTimeout(() => {
-      console.log(document.querySelectorAll('#product > div:nth-child(2) ul li > span'));
-    },500)
+      const selects = document.querySelectorAll(".dropdown-item > span");
+      selects.forEach(sel => {
+        console.log(sel);
+        const cut = sel.trim().replace(/\s{2,}/g, '');
+        console.log(cut);
+        if (cut.length >= 20) {
+          sel.textContent = sel.textContent.slice(0, -16)
+        }
+      })
   })
-}, 500)
+}, 1500)
 
 }
