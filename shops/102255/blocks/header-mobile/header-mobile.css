@@ -119,9 +119,9 @@ body.sidenav-enabled.ltr .flexy > .arrow {
     width: 80% !important;
   }
 
-  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+  /* body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     top: 80px !important;
-  }
+  } */
 
   body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
     background: white !important;
