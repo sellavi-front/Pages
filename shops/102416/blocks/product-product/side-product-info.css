@@ -232,3 +232,11 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
         margin-right: 50px;
     }
 }
+
+.buttons.d-flex.flex-wrap .btn.btn-theme.btn-cart.btn-icon-left.no_quantity:hover {
+    color: white !important;
+}
+
+.buttons.d-flex.flex-wrap .btn.btn-theme.btn-cart.btn-icon-left.no_quantity:hover i {
+    color: white !important;
+}
