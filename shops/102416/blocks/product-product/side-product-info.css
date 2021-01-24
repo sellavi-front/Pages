@@ -219,3 +219,16 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     justify-content: flex-end;
     left: 200px;
 }
+
+@media (max-device-width: 480px) {
+    .header-cart.sticky {
+        display: flex !important;
+        z-index: 999;
+    }
+
+    .header_widgets {
+        display: flex !important;
+        flex-direction: row-reverse;
+        margin-right: 50px;
+    }
+}
