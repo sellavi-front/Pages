@@ -36,4 +36,5 @@ if (location.href.includes('pay-delivery')) {
     dataContact,
   );
   req.setTemplate();
+  document.querySelector("#content > div > div:nth-child(2)").remove()
 }
