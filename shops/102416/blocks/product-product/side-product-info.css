@@ -187,15 +187,15 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     }
 
     #home > div:nth-child(3) {
-        display: none;
+        display: none !important;
     }
     
     #home > div:nth-child(2) {
-        display: none;
+        display: none !important;
     }
     
     #home > div:nth-child(4) {
-        display: none;
+        display: none !important;
     }
 }
 
