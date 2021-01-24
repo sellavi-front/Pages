@@ -483,5 +483,5 @@ a.btn.btn-theme.btn-call-checkout.w-100 {
 }
 
 #home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4:first-letter {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
