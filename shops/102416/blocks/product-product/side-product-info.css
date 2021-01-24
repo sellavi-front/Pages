@@ -186,3 +186,24 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
         color: white !important;
     }
 }
+
+#home > div:nth-child(3) {
+    position: absolute;
+    top: 600px;
+    left: -200px;
+}
+
+#home > div:nth-child(2) {
+    position: absolute;
+    top: 1300px;
+    left: -390px
+}
+
+#home > div:nth-child(4) {
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    left: 200px;
+}
