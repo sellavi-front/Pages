@@ -347,6 +347,8 @@ if (document.querySelector('.product-product')) {
       '#review > div.comments > div > div > p.comment-meta',
     );
     commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
+
+    document.querySelector("#form-review > div.comments-form > h2").textContent = 'Оставить отзыв'
   }
 }
 
