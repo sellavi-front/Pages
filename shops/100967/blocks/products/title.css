@@ -26,3 +26,9 @@ body .content-area .page-section.titles h1 {
     font-size: 26px !important;
   }
 }
+
+@media (max-width: 495px) {
+  body .content-area .page-section.titles h1 {
+    font-size: 24px !important;
+  }
+}
