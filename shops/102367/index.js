@@ -100,9 +100,7 @@ setTimeout(() => {
     setTimeout(() => {
       const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
       selects.forEach(sel => {
-        const cut = sel.textContent.replace(/\s+/gi, '').trim();
-        console.log('DO', sel.textContent);
-        console.log('Posle', sel.textContent.replace(/\s+/gi, ''));
+        const cut = sel.textContent.replace(/\s+/gi, '');
         if (cut.length >= 20) {
           let sell = cut.textContent.slice(0, -16);
           sel.textContent = sell;
