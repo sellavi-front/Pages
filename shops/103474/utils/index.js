@@ -33,7 +33,7 @@ if(pages.home) {
     advantages.render()
     if (document.querySelector('.product-item')) {
       const productItems = document.querySelectorAll('.product-item');
-      const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
+      const deleteSelectors = new DeleteClasses(productItems);
       deleteSelectors.findAndDelete();
     }
   } else {
