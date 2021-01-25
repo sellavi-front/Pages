@@ -2,7 +2,7 @@ import "../../../components/HeaderTypeTwo/HeaderTypeTwo.js"
 import "../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 import "../../../fixes/fixes.js"
 import Banner from "../blocks/banner.js"
-import pages from "./utils/pages/pages.js"
+import pages from "./pages/pages.js"
 import Advantages from "../blocks/advantages.js"
 import Functions from "./functions/functions.js"
 import DeleteClasses from '../../../modules/DeleteClasses/DeleteClasses.js'
