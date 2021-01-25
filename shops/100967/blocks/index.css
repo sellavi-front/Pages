@@ -663,6 +663,10 @@ body .content-delivery {
   border-radius: 50px;
 }
 
+body.ltr .social-icons li {
+  padding-top: 0 !important;
+}
+
 .checkout_form .logo {
   margin: 0 auto !important;
 }
