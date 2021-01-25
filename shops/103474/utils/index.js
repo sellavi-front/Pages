@@ -7,7 +7,6 @@ import Advantages from "../blocks/advantages.js"
 import Functions from "./functions/functions.js"
 import DeleteClasses from '../../../modules/DeleteClasses/DeleteClasses.js'
 import CustomSection from "../blocks/custom-section.js"
-import CustomBanner from "../blocks/custom-banner.js"
 
 const bootstrapClasses = [
   'col-lg-4',
