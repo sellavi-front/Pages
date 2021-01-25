@@ -346,8 +346,10 @@ body.theme_11 .wrapper .latest-section h2.section-title {
   #product .custom-control {
     padding: 0;
     margin-right: 5px !important;
-    width: 28px;
+    width: 100%;
     height: 28px;
+    display: flex;
+    justify-content: center;
   }
 
 }
