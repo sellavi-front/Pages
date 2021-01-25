@@ -182,9 +182,9 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
 }
 
 @media (max-device-width: 480px) {
-    body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+    /* body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
         color: white !important;
-    }
+    } */
 
     .common-home > div:nth-child(3) {
         display: none !important;
