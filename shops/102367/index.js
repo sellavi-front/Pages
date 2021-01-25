@@ -103,7 +103,9 @@ setTimeout(() => {
         const cut = sel.textContent.trim().replace(/\s{2,}/g, '');
         console.log(cut);
         if (cut.length >= 20) {
-          sel.textContent = sel.textContent.slice(0, -16)
+          let sell = sel.textContent.slice(0, -16);
+          sel.textContent = sell;
+          console.log(sell);
         }
       })
     }, 1000);
