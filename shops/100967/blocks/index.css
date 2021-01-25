@@ -667,6 +667,11 @@ body.ltr .social-icons li {
   padding-top: 0 !important;
 }
 
+.owl-wrapper-outer {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .checkout_form .logo {
   margin: 0 auto !important;
 }
