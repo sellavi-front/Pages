@@ -659,6 +659,10 @@ body .content-delivery {
   margin-bottom: 80px;
 }
 
+#review .comments .comment .comment-avatar img {
+  border-radius: 50px;
+}
+
 @media (max-width: 768px) {
   body .content-delivery {
     -webkit-box-orient: vertical;
