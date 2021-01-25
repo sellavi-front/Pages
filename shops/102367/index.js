@@ -98,8 +98,8 @@ setTimeout(() => {
   console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
     setTimeout(() => {
-
-      const selects = document.querySelectorAll(".dropdown-menu  .text");
+      const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
+      console.log(selects);
       selects.forEach(sel => {
         console.log(sel);
         const cut = sel.trim().replace(/\s{2,}/g, '');
