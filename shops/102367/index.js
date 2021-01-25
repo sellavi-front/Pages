@@ -99,7 +99,7 @@ setTimeout(() => {
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
     setTimeout(() => {
       const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
-      selects.forEach(sel => {
+      // selects.forEach(sel => {
         const cut = sel.textContent.replace(/\s+/gi, '');
         if (cut.length >= 15) {
           console.log(cut.length);
@@ -109,7 +109,7 @@ setTimeout(() => {
           sel.textContent = sell;
         }
       })
-    }, 1000);
+    // }, 1000);
   })
 }, 1500)
 
