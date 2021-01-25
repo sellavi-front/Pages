@@ -244,3 +244,22 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
 #content > div > div > div.col-12.col-lg-4 > div.row.mt-4 > div.col-12.button-checkout-wrapper > a {
     background: black;
 }
+
+@media (max-device-width: 480px) {
+    .dropdown-menu.dropdown-menu-right.show {
+        width: 300px;
+    }
+    
+    body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+        left: -200px !important;
+    }
+    
+    a.close_popup.btn.btn-theme-default.w-100 {
+        font-size: 10px;
+    }
+    
+    a.btn.btn-theme.btn-call-checkout.w-100 {
+        font-size: 10px !important;
+        color: black !important;
+    }
+}
