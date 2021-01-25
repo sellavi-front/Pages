@@ -109,7 +109,7 @@ setTimeout(() => {
           sel.textContent = sell;
         }
       })
-     }, 1000);
+     }, 400);
   })
 }, 1500)
 
