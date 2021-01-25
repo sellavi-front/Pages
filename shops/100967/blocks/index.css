@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 @import '../../../fixes/js/FooterCopy/FooterCopy.js';
 
 @import '../assets/fonts/fonts.css';
@@ -160,7 +162,6 @@ label.custom-control-label:hover {
   text-align: center !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 #home
   > div.content-area
