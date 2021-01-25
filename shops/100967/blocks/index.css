@@ -666,6 +666,10 @@ body .content-delivery {
     -ms-flex-flow: column;
     flex-flow: column;
   }
+
+  body.common-home > div > div.content-area > section > div.container > h2 {
+    text-align: center !important;
+  }
 }
 
 body .delivery__right {
