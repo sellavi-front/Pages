@@ -7,11 +7,11 @@ const contactData = {
     },
     {
       title: 'Телефон',
-      contact: '<a href="tel:79263405444">+7 (926) 340-54-44</a>',
+      contact: '<a href="tel:79263405444">+7 (926) 340-54-44</a> <br> <a href="tel:79032549988">+7 (903) 254-99-88</a>',
     },
     {
       title: 'E-mail',
-      contact: '<a href="mailto:emma8507@inbox.ru">emma8507@inbox.ru </a>',
+      contact: '<a href="mailto:emma8507@inbox.ru">emma8507@inbox.ru </a><br><a href="mailto:shopparik@yandex.ru">shopparik@yandex.ru</a>',
     },
   ],
   map: `
