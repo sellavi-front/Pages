@@ -102,7 +102,7 @@ setTimeout(() => {
       selects.forEach(sel => {
         const cut = sel.textContent.replace(/\s+/gi, '');
         if (cut.length >= 18) {
-          let sell = cut.textContent.slice(0, -16);
+          let sell = cut.slice(0, -16);
           sel.textContent = sell;
           console.log(sell);
         }
