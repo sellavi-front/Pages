@@ -103,9 +103,9 @@ setTimeout(() => {
         const cut = sel.textContent.replace(/\s+/gi, '');
         if (cut.length >= 15) {
           console.log(cut.length);
-          let sell = cut.slice(0, -12);
+          let cutNum = cut.length === 18 ? -13 : -12;
+          let sell = cut.slice(0, cutNum);
           sel.textContent = sell;
-          console.log(sell);
         }
       })
     }, 1000);
