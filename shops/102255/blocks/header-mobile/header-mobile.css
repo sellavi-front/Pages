@@ -178,4 +178,7 @@ body.sidenav-enabled.ltr .flexy > .arrow {
   }
 }
 
+body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_menu {
+  height: 100% !important;
+}
 
