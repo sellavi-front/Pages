@@ -97,7 +97,7 @@ if (document.querySelector('.product-product')) {
 setTimeout(() => {
   console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-      const selects = document.querySelectorAll(".dropdown-item > span");
+      const selects = document.querySelectorAll(".dropdown-menu > .text");
       selects.forEach(sel => {
         console.log(sel);
         const cut = sel.trim().replace(/\s{2,}/g, '');
