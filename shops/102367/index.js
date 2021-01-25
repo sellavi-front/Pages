@@ -97,6 +97,8 @@ if (document.querySelector('.product-product')) {
 setTimeout(() => {
   console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
+    setTimeout(() => {
+
       const selects = document.querySelectorAll(".dropdown-menu  .text");
       selects.forEach(sel => {
         console.log(sel);
@@ -106,6 +108,7 @@ setTimeout(() => {
           sel.textContent = sel.textContent.slice(0, -16)
         }
       })
+    }, 1000);
   })
 }, 1500)
 
