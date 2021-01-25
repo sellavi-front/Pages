@@ -106,14 +106,14 @@ body.sidenav-enabled.ltr .flexy > .arrow {
 }
 
 @media (max-width: 768px) {
-  body.sidenav-enabled .prevent_touch_banner,
+  /* body.sidenav-enabled .prevent_touch_banner,
   .mobile_side_nav > .mobile_side_nav_menu {
     height: 70vh !important;
   }
 
   body.sidenav-enabled .prevent_touch_banner {
     width: 80vw !important;
-  }
+  } */
 
   body.sidenav-enabled .mobile_side_nav {
     width: 80% !important;
