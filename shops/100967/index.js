@@ -175,6 +175,12 @@ if (document.querySelector('.wrapper')) {
   phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
 
   // document.querySelector("#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul").insertAdjacentHTML('afterend', `<p class="d-flex justify-content-center align-items-center custom__text_ph">Бесплатная доставка</p>`);
+
+  document.querySelectorAl(".panel-collapse > ul > li > a").forEach(el => {
+    if (el.textContent.includes(' - ')) {
+      el.textContent = el.textContent.slice(0, 3);
+    }
+  })
 }
 
 if (document.querySelector('.common-home')) {
