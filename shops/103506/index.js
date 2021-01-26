@@ -5,6 +5,6 @@ import Banner from "./blocks/banner/banner.js"
 
 
 if(Paths.home) {
-  let MainBanner = new Banner()
-  MainBanner.render()
+  /*let MainBanner = new Banner()
+  MainBanner.render()*/
 }
