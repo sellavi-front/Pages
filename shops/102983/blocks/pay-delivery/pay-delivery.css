@@ -14,7 +14,7 @@ body .content-delivery:last-child .delivery__right {
 @media(max-width: 768px) {
  body .content-delivery {
     flex-flow: column;
- }
+ } 
 }
 
 body .delivery__right {
