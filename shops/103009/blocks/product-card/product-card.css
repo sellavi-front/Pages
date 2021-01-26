@@ -165,7 +165,7 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 }
 
 @media (max-device-width: 480px) {
-    section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_wishlist > button {
-        display: block;
+    body .hide_on_mobile {
+        display: block !important;
     }
 }
