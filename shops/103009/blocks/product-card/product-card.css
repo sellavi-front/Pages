@@ -163,3 +163,9 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 #home > div > div.content-area > section.page-section.homefeatured_category {
     margin-top: 10px
 }
+
+@media (max-device-width: 480px) {
+    section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_wishlist > button {
+        display: block;
+    }
+}
