@@ -176,12 +176,13 @@ if (document.querySelector('.wrapper')) {
 
   // document.querySelector("#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul").insertAdjacentHTML('afterend', `<p class="d-flex justify-content-center align-items-center custom__text_ph">Бесплатная доставка</p>`);
 
-  document.querySelectorAll(".panel-collapse > ul > li > a").forEach(el => {
-    if (el.textContent.includes(' - ')) {
-      let arr = el.textContent.split();
-      console.log(arr.textContent.split());
+  document.querySelectorAll(".panel-collapse > ul > li > a").forEach((el) => {
+    const tr = el.textContent;
+
+    if(tr.includes(' - ')) {
+      el.textContent = tr.slice(2);
     }
-  })
+  });
 }
 
 if (document.querySelector('.common-home')) {
