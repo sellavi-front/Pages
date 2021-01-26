@@ -36,6 +36,10 @@ body .btn.btn-theme.btn-icon-left .fa {
 
 }
 
+.comments-form .col-sm-12 {
+  padding: 0;
+}
+
 .rating-cont {
   display: -webkit-box;
   display: -ms-flexbox;
