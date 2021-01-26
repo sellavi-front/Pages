@@ -1,0 +1,47 @@
+body .section-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #232323;
+  overflow: hidden;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  line-height: 20px;
+  min-height: unset;
+  text-align: right!important;
+}
+
+body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: transparent !important;
+  border-color: #333 !important;
+  color: #000;
+  font-size: 10px;
+}
+
+body.theme-green-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a {
+  background-color: transparent;
+  color: #000;
+  font-size: 10px;
+  border: 2px solid #333;
+}
+
+body.theme-green-2.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header {
+  background-color: #000;
+  color: #fff;
+}
+
+body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media:not(.buttons) .media-body>h4 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media:not(.buttons) .media-body+p {
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 700;
+}

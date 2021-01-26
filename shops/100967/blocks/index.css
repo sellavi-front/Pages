@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 @import '../../../fixes/js/FooterCopy/FooterCopy.js';
 
 @import '../assets/fonts/fonts.css';
@@ -157,9 +159,8 @@ label.custom-control-label:hover {
 .product-product .section-title span {
   border: none !important;
   margin: 0 15px !important;
+  text-align: center !important;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 #home
   > div.content-area
@@ -657,12 +658,37 @@ body .content-delivery {
   margin-bottom: 80px;
 }
 
+#review .comments .comment .comment-avatar img {
+  border-radius: 50px !important;
+}
+
+body.checkout-cart > div > div > section:nth-child(2) {
+  margin-top: 0 !important;
+}
+
+body.ltr .social-icons li {
+  padding-top: 0 !important;
+}
+
+.owl-wrapper-outer {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.checkout_form .logo {
+  margin: 0 auto !important;
+}
+
 @media (max-width: 768px) {
   body .content-delivery {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
+  }
+
+  body.common-home > div > div.content-area > section > div.container > h2 {
+    text-align: center !important;
   }
 }
 

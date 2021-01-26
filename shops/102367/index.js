@@ -97,15 +97,19 @@ if (document.querySelector('.product-product')) {
 setTimeout(() => {
   console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-      const selects = document.querySelectorAll(".dropdown-item > span");
-      selects.forEach(sel => {
-        console.log(sel);
-        const cut = sel.trim().replace(/\s{2,}/g, '');
-        console.log(cut);
-        if (cut.length >= 20) {
-          sel.textContent = sel.textContent.slice(0, -16)
+    setTimeout(() => {
+      const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
+       selects.forEach(sel => {
+        const cut = sel.textContent.replace(/\s+/gi, '');
+        if (cut.length >= 15) {
+          console.log(cut.length);
+          console.log(cut);
+          let cutNum = cut.length === 18 ? -13 : -12;
+          let sell = cut.slice(0, cutNum);
+          sel.textContent = sell;
         }
       })
+     }, 500);
   })
 }, 1500)
 

@@ -173,6 +173,16 @@ if (document.querySelector('.wrapper')) {
   );
   const phh = document.querySelector('.phh');
   phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
+
+  // document.querySelector("#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul").insertAdjacentHTML('afterend', `<p class="d-flex justify-content-center align-items-center custom__text_ph">Бесплатная доставка</p>`);
+
+  document.querySelectorAll(".panel-collapse > ul > li > a").forEach((el) => {
+    const tr = el.textContent;
+
+    if(tr.includes(' - ')) {
+      el.textContent = tr.slice(2);
+    }
+  });
 }
 
 if (document.querySelector('.common-home')) {
@@ -345,6 +355,8 @@ if (document.querySelector('.product-product')) {
       '#review > div.comments > div > div > p.comment-meta',
     );
     commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
+
+    document.querySelector("#form-review > div.comments-form > h2").textContent = 'Оставить отзыв'
   }
 }
 
