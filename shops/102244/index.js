@@ -4,6 +4,7 @@ import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
+import '../../fixes/js/Alert/Alert.js';
 
 if (document.querySelector('.common-home')) {
   new BigBanner(
