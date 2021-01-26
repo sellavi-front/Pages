@@ -1,4 +1,5 @@
 @import '../../modules/Requisites/Requisites.css';
+@import "./blocks/banner/banner.css"
 
 /* Pay Delivery */
 body .content-delivery {
