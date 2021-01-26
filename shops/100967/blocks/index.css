@@ -660,7 +660,11 @@ body .content-delivery {
 }
 
 #review .comments .comment .comment-avatar img {
-  border-radius: 50px;
+  border-radius: 50px !important;
+}
+
+#review .comments .comment .comment-meta span {
+  margin-left: 20px;
 }
 
 body.ltr .social-icons li {

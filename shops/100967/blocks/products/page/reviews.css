@@ -32,6 +32,8 @@ body .btn.btn-theme.btn-icon-left .fa {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  margin: 0 0 5px 20px;
+
 }
 
 .rating-cont {
