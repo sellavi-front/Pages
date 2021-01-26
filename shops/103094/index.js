@@ -4,8 +4,6 @@ import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import './blocks/header/header.js'
 
-
-
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Кучма Виктория Геннадьевна');
   req.setTemplate();
