@@ -8,6 +8,6 @@ if (pages.checkout) {
     // h2.textContent = h2.textContent.replace(/\d/gi, '');
     let str = h2.textContent;
 
-    h2.textContent = str.textContent.replace(/Шаг \d:/gi, '');;
+    h2.textContent = str.replace(/Шаг \d:/gi, '');;
   })
 }
