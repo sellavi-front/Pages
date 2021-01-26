@@ -3,6 +3,10 @@ import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 
+if (location.href.includes('contact')) {
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(1) > div > strong').insertAdjacentHTML('afterend', '<div>г. Н.Новгород, ул. Г.Лопатина,8, кв.68.</div>');
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Давыдов Олег Борисович');
 
