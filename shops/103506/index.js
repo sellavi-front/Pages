@@ -1,5 +1,5 @@
 import "./docs/requisites.js"
-import "../../components/HeaderTypeThree/HeaderTypeThree.js"
+import "../../components/HeaderTypeOne/HeaderTypeOne.js"
 import Paths from "./path/paths.js"
 import Banner from "./blocks/banner/banner.js"
 
