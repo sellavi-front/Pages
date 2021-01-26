@@ -168,6 +168,16 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
     body .hide_on_mobile {
         display: block !important;
     }
+
+    .thumbnail.thumbnail-banner .media-link {
+        height: 183px;
+    }
+    
+    h2.caption-title {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 10px !important;
+    }
 }
 
 /* Some text */
