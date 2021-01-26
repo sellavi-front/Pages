@@ -4,6 +4,12 @@ import requsites from './utils/requsites.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 
+if (document.querySelector('.header-wrapper')) {
+  const oldNav = document.querySelector('.navigation .nav.sf-menu');
+  const newNav = oldNav.cloneNode(true);
+  document.querySelector('#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo').insertAdjacentHTML('afterend', newNav.outerHTML);
+  oldNav.remove();
+}
 
 if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 
