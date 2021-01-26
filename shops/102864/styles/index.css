@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
 @import '../../../templates/TemplateTypeTwo/styles/withoutBanner.css';
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import './pay-delivery/pay-delivery.css';
 @import './banner/banner.css';
 @import './product/card.css';
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Comfortaa', cursive;
+  font-weight: normal;
+  font-style: normal;
+}
