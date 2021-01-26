@@ -1,3 +1,5 @@
+@import "../../../../components/HeaderTypeTwo/HeaderTypeTwoWithoutNav.css";
+
 .common-home .header {
   border: none !important;
   position: absolute;
