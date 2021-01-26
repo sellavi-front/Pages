@@ -1,1 +1,1 @@
-import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
+import '../../../fixes/js/RemoveBlur/RemoveBlur.js'
