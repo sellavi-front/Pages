@@ -162,7 +162,6 @@ label.custom-control-label:hover {
   text-align: center !important;
 }
 
-
 #home
   > div.content-area
   > section
@@ -663,8 +662,8 @@ body .content-delivery {
   border-radius: 50px !important;
 }
 
-#review .comments .comment .comment-meta span {
-  margin-left: 20px;
+body.checkout-cart > div > div > section:nth-child(2) {
+  margin-top: 0 !important;
 }
 
 body.ltr .social-icons li {
@@ -673,7 +672,7 @@ body.ltr .social-icons li {
 
 .owl-wrapper-outer {
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .checkout_form .logo {
