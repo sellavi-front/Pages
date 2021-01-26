@@ -1,24 +1,8 @@
 .common-home .wrapper .header .header-wrapper .header_widgets .header_login>a,
 .common-home .header-cart .cart-wrapper #cart {
-  color: white !important;
+  color: black !important;
 }
 
 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
-}
-
-body.sidenav-enabled .mobile_side_nav>ul {
-  border: 1px solid lightgray;
-}
-
-body.sidenav-enabled .mobile_side_nav>ul>.flexy>.collpase {
-  display: block;
-}
-
-
-@media (max-width: 991px) {
-  body.sidenav-enabled.ltr .mobile_side_nav ul {
-    border: none;
-    display: block;
-  }
 }
