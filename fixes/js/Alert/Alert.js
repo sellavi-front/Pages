@@ -5,8 +5,8 @@ if (document.querySelector('.common-home')) {
 
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-      const alert = document.querySelector('.alert');
       setTimeout(() => {
+        const alert = document.querySelector('.alert');
         banner.insertAdjacentHTML('afterend', alert.outerHTML);
         alert.remove();
       }, 2000);
