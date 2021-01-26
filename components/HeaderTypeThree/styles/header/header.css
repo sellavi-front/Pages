@@ -62,10 +62,11 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          z-index: 9999 !important;
 }
 
 .navigation {
-  z-index: 999;
+  z-index: 99999 !important;
 }
 
 @media (max-width: 1199px) {

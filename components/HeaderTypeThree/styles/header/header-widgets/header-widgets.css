@@ -6,3 +6,8 @@
 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
 }
+
+.wrapper .header .header-wrapper .header_widgets {
+  width: 150px !important;
+  left: auto !important;
+}
