@@ -1,0 +1,17 @@
+.categories__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.categories__item {
+  display: flex;
+  width: auto;
+  margin: 1%;
+}
+
+.categories__item img {
+  width: 320px;
+}

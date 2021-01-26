@@ -5,7 +5,12 @@ body.ltr #review .comments .comment .comment-date .fa {
 
 body#home .media.comment .media-body {
   margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -15,12 +20,34 @@ body .btn.btn-theme.btn-icon-left .fa {
 
 #review .comments .comment .comment-meta {
   margin: 0;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
   order: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 #review .comments .comment .comment-text {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
   order: 2;
+  margin: 0 0 5px 20px;
+}
+
+.comments-form .col-sm-12 {
+  padding: 0;
+}
+
+body.theme-black .content-tabs .nav-tabs > li > a.active {
+  font-weight: 600;
+  color: black !important;
+}
+
+.rating-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #review .comments .comment {
@@ -35,5 +62,12 @@ body .btn.btn-theme.btn-icon-left .fa {
 #review .comments .comment .stars {
   position: relative;
   top: 0;
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
   order: 3;
+  margin-left: 20px;
+}
+
+#review > div.comments > div > div > span:first-child {
+  display: none !important;
 }

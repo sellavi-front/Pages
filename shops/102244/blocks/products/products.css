@@ -15,6 +15,11 @@ body .content-area .page-section.titles {
   font-weight: bold;
 }
 
+body.theme-gray .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+.thumbnail .add_to_wishlist button, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  border-radius: 5px !important;
+}
+
 body .thumbnail .img-fluid, body .img-thumbnail {
   width: 100% !important;
   min-width: 100% !important;
@@ -61,6 +66,6 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
 @media (max-width: 495px) {
   body.theme_11.ltr.common-home .wrapper .header .header-wrapper .logo img {
-    width: 60px !important;
+    width: 100px !important;
   }
 }

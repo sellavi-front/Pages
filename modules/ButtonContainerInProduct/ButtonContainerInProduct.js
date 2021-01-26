@@ -12,27 +12,55 @@ export default class ButtonContainerInProduct {
   createContainer() {
     this.container.forEach((btn, i) => {
       btn.insertAdjacentHTML(
-        'beforeend',
+        'afterend',
         `<div class="buttons__container">${this.addToWishList[i].outerHTML}${this.addToCart[i].outerHTML}</div>`,
       );
     });
 
-    this.delete(addToCart);
-    this.delete(addToWishList);
+    // this.delete(addToCart);
+    // this.delete(addToWishList);
   }
 }
 
-const priceActions = document.querySelectorAll('.price_actions');
+  const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
-const addToWishList = document.querySelectorAll('.add_to_wishlist');
 
-const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, addToWishList, priceActions);
+if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+ var wishList = document.querySelectorAll('.remove_from_wishlist');
+} else {
+  var wishList = document.querySelectorAll('.add_to_wishlist');
+}
 
-buttonContainerInProduct.createContainer();
 
-// const btnContainer = document.querySelectorAll('.buttons__container')
+  const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
 
-// const addCartInProductCard = new AddElemInContainer(addToCart, btnContainer);
-// const addLikeInProductCard = new AddElemInContainer(addToWishList, btnContainer);
+  buttonContainerInProduct.createContainer();
+  buttonContainerInProduct.delete(addToCart);
+  buttonContainerInProduct.delete(wishList);
 
-//${this.addToCart.outerHTML}${this.addToWishList.outerHTML}
+// setTimeout(() => {
+//   const price = document.querySelectorAll('.product-item .price');
+// const addToCart = document.querySelectorAll('.add_to_cart');
+
+// if (document.querySelectorAll('.add_to_wishlist').length === 0) {
+//  var wishList = document.querySelectorAll('.remove_from_wishlist');
+// } else {
+//   var wishList = document.querySelectorAll('.add_to_wishlist');
+// }
+
+
+//   const buttonContainerInProduct = new ButtonContainerInProduct(addToCart, wishList, price);
+
+//   buttonContainerInProduct.createContainer();
+//   buttonContainerInProduct.delete(addToCart);
+//   buttonContainerInProduct.delete(wishList);
+// }, 4000)
+
+// setTimeout (() => {
+//   let imgEl = document.querySelectorAll('.img-fluid.lazy');
+//   for (let i = 0; i < imgEl.length; i++) {
+//     if (imgEl[i].getAttribute('data-src')) {
+//       imgEl[i].setAttribute('src', imgEl[i].getAttribute('data-src'));
+//     }
+//   }
+// }, 4000);

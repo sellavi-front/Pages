@@ -75,6 +75,12 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
 body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
   max-width: 450px !important;
   width: inherit !important;
+  right: 0 !important;
+  left: auto !important;
+}
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+  padding-right: 50px !important;
 }
 
 @media (max-width: 991px) {

@@ -30,6 +30,43 @@
   text-align: center;
 }
 
+.footer_content_text img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  width: 30px;
+}
+
+#sellavi_logo > img {
+  width: 50px !important;
+}
+
+#home > div > footer > div.footer-meta > div > div.row.footer_content_wrapper > div > div:nth-child(3) {
+  display: none !important;
+}
+
+.sender {
+  width: 70% !important;
+}
+
+.sender__form {
+  height: 68px !important;
+}
+
+@media (max-width: 768px) {
+  .sender__title {
+    font-size: 33px;
+    width: 100%;
+  }
+
+  .sender {
+    width: 100% !important;
+  }
+
+}
+
+
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
