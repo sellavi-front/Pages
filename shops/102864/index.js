@@ -1,1 +1,1 @@
-import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
+import './utils/components/components.js'
