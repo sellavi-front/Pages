@@ -67,3 +67,7 @@ body.theme-black .content-tabs .nav-tabs > li > a.active {
   order: 3;
   margin-left: 20px;
 }
+
+#review > div.comments > div > div > span:first-child {
+  display: none !important;
+}
