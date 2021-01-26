@@ -21,9 +21,6 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   }
 }
 
-
-document.querySelector('.container-fluid').setAttribute('class', 'container');
-
 document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', '<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1607946453/young-classical-ballet-girl-dance-class_1_pbnrid.png"></img></div>');
 
 if (location.href.includes('term-of-use')) {
