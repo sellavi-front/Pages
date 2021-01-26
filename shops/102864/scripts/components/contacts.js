@@ -1,4 +1,4 @@
-import {dataContact} '../../utils/accuring/requsites.js'
+import {dataContact} from '../../utils/accuring/requsites.js';
 
 let renderContactsInCustomSection = () => {
   document.querySelector('.page-section.latest-section').insertAdjacentHTML(
@@ -19,7 +19,7 @@ let renderContactsInCustomSection = () => {
                     <span>Номер телефона</span>
                 </div>
                 <div class="real-number">
-                  <span>+7 903 892-81-42</span>
+                  <span>${dataContact.phone}</span>
                 </div>
               </div>
             </div>
@@ -33,7 +33,7 @@ let renderContactsInCustomSection = () => {
                       <span>Почтовый адрес</span>
                 </div>
                 <div class="real-email">
-                  <span>korsakov-eduard@mail.ru</span>
+                  <span>${dataContact.email}</span>
                 </div>
               </div>
             </div>
