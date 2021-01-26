@@ -292,6 +292,7 @@ header > div.header-wrapper > div.container > div.header_widgets > div.header-ca
     color: white !important;
 }
 
-#search_results > a > div.add_to_cart > button:hover i{
+
+#search_results > a > div.add_to_cart > button:hover span{
     color: white !important;
 }
