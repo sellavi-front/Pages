@@ -275,3 +275,23 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
 header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a {
     color: black !important;
 }
+
+#search_results > a > div.add_to_cart > button > span {
+    color: black !important;
+}
+
+#search_results > a > div.add_to_cart > button > i {
+    color: black !important;
+}
+
+#search_results > a > div.add_to_cart > button {
+    border: 2px solid black !important;
+}
+
+#search_results > a > div.add_to_cart > button span:hover {
+    color: white !important;
+}
+
+#search_results > a > div.add_to_cart > button:hover i{
+    color: white !important;
+}
