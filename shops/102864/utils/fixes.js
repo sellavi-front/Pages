@@ -1,1 +1,0 @@
-import '../../../fixes/js/ChangeAgreement/ChangeAgreement.js';
