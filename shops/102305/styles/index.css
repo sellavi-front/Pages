@@ -3,7 +3,7 @@
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import '../../../components/PictureCategories/PictureCategories.css';
-@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+/*@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';*/
 
 @import '../../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
 @import '../../../templates/TemplateTypeTwo/styles/banner/banner.css';
@@ -25,11 +25,57 @@
 @import './../styles/fonts.css';
 /*@import './../styles/content-area.css';*/
 
+.buttons__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: relative;
+  left: 2px !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+
+}
+
+.thumbnail .price {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.price_actions .buttons__container {
+  height: 48px !important;
+}
 
 .buttons__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 100%;
 }
@@ -82,6 +128,8 @@ body .section-title {
 }
 
 .thumbnail .price {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
   margin: 0 !important;
   width: 100%;
@@ -295,11 +343,18 @@ body.theme_11 .wrapper .latest-section h2.section-title {
     margin-bottom: 0 !important;
   }
 
-  #product .custom-control {
+  /*#product .custom-control {
     padding: 0;
     margin-right: 5px !important;
-    width: 28px;
+    width: 100%;
     height: 28px;
+    display: flex;
+    justify-content: center;
+  }*/
+
+  body .section-title.section-title-lg {
+    font-size: 24px;
+    height: 50px;
   }
 
 }

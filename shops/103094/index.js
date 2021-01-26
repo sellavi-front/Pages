@@ -1,12 +1,11 @@
-import Requisites from '../../modules/Requisites/Requisites.js';
+import Requisites from '../../modules/Requisites/Requisites.js'
 import {requsites} from './utils/requsites.js'
-import '../../fixes/js/FooterCopy/FooterCopy.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
-import { dataContact } from '../102159/utils/requsites.js';
+import './blocks/header/header.js'
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Кучма Виктория Геннадьевна');
-
   req.setTemplate();
 }
 
@@ -26,14 +25,3 @@ if (location.href.includes('/policy')) {
   );
   req.setTemplate();
 }
-
-// if (location.href.includes('/pay-delivery')) {
-//   const req = new Requisites(
-//     requsites,
-//     'afterend',
-//     'ИП Кучма Виктория Геннадьевна',
-//     document.querySelector('#content > div > div'),
-//     dataContact,
-//   );
-//   req.setTemplate();
-// }
