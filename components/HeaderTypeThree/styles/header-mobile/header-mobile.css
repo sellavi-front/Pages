@@ -65,7 +65,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   right: 15px;
 }
 
- .collapse:not(.show) {
+.mobile_side_nav_menu .collapse:not(.show) {
   display: block;
 }
 
