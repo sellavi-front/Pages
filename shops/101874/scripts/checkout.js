@@ -6,6 +6,6 @@ if (pages.checkout) {
 
   document.querySelectorAll('.register_block h2').forEach((h2,i) => {
     h2.textContent = h2.textContent.replace(/\d/gi, '');
-    h2.textContent = h2.textContent.replace(/Шаг \w/gi, '');
+    h2.textContent = h2.textContent.replace(/Шаг \w:/gi, '');
   })
 }
