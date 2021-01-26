@@ -156,3 +156,6 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
     color: black;
 }
 
+#home > div > div.content-area > div.container {
+    margin-top: 50px;
+}
