@@ -40,6 +40,12 @@ body .btn.btn-theme.btn-icon-left .fa {
   padding: 0;
 }
 
+body.theme-black .content-tabs .nav-tabs>li>a.active {
+  font-weight: 600;
+  font-size: 22px;
+  color: black !important;
+}
+
 .rating-cont {
   display: -webkit-box;
   display: -ms-flexbox;
