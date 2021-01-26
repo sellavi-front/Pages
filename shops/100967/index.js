@@ -178,7 +178,9 @@ if (document.querySelector('.wrapper')) {
 
   document.querySelectorAll(".panel-collapse > ul > li > a").forEach(el => {
     if (el.textContent.includes(' - ')) {
-      el.textContent.slice(1, 3);
+      let arr = el.textContent.split();
+      console.log(arr.slice(1, 3));
+
     }
   })
 }
