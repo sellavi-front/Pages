@@ -1,0 +1,11 @@
+.navigation .nav.sf-menu {
+  justify-content: flex-start !important;
+}
+
+body.common-home header.header .sf-menu.nav>li>a {
+  color: white !important;
+}
+
+header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
+  border-top: 2px solid white;
+}
