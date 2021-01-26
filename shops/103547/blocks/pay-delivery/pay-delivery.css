@@ -87,6 +87,6 @@ body .delivery__content-label {
  text-align: center;
 }
 
-#content > div > div:nth-child(2) {
+.content-area .row.mt-4 div:nth-child(2) {
   display: none !important;
 }
