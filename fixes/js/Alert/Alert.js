@@ -6,10 +6,9 @@ if (document.querySelector('.common-home')) {
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       const alert = document.querySelector('.alert');
-      console.log(e.target)
       setTimeout(() => {
-        console.log(alert);
-        banner.insertAdjacentHTML('afterend', alert);
+        banner.insertAdjacentHTML('afterend', alert.outerHTML);
+        alert.remove();
       }, 2000);
     });
   });
