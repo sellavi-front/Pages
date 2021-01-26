@@ -9,3 +9,5 @@
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 
 @import '../blocks/header/header.css';
+
+@import './platform-cat/container.css';
