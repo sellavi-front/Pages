@@ -7,7 +7,7 @@ if (pages.checkout) {
   document.querySelectorAll('.register_block h2').forEach((h2,i) => {
     // h2.textContent = h2.textContent.replace(/\d/gi, '');
     let str = h2.textContent;
-    str.textContent.replace(/Шаг \d:/gi, '');
-    h2.textContent = str;
+
+    h2.textContent = str.textContent.replace(/Шаг \d:/gi, '');;
   })
 }
