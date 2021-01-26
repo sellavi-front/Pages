@@ -56,7 +56,7 @@ body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist 
     }
 
     body.theme_11 .wrapper .homefeatured_category>div>div>div {
-        width: 140px !important;
+        width: 48% !important;
     }
 
     body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
