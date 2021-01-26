@@ -1,2 +1,2 @@
-import '../../fixes/js/FooterCopy/FooterCopy.js';
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import './utils/fixes.js';
+import './utils/accuring/accuring.js';
