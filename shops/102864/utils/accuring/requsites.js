@@ -14,9 +14,9 @@ const requsites = {
 // ТО что отображается на странице оплата и доставка
 const dataContact = {
   adress: 'АААА',
-  phone: '2131424',
-  city: 'г. Город',
-  timeWork: `Пн-Пт 9:00 - 18:00`,
+  phone: '+79686660698',
+  city: 'г. Москва',
+  email: 'iradavydova@yandex.ru',
 }
 
 export {

@@ -1,3 +1,5 @@
+import {dataContact} '../../utils/accuring/requsites.js'
+
 let renderContactsInCustomSection = () => {
   document.querySelector('.page-section.latest-section').insertAdjacentHTML(
     'afterend',
