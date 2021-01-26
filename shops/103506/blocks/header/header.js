@@ -1,1 +1,1 @@
-import "../../../../components/HeaderTypeTwo/HeaderTypeTwoWithoutNav.js"
+import "../../../../components/HeaderTypeTwo/HeaderTypeTwo.js"
