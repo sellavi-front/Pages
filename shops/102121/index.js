@@ -59,7 +59,7 @@ if (location.href.includes('/checkout')) {
 
 if (document.querySelector('.information-contact')) {
   document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) > div > a").insertAdjacentHTML('afterend', `
-    <a href="mailto:shopparik@yandex.ru">shopparik@yandex.ru</a>
+    <br><a href="mailto:shopparik@yandex.ru">shopparik@yandex.ru</a>
   `)
 }
 // import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
