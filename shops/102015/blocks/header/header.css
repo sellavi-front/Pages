@@ -5,3 +5,7 @@
 .sf-menu li:hover>a {
     color: black !important;
 }
+
+header > div.header-wrapper > div.container > ul > li:nth-child(1) {
+    display: none;
+}
