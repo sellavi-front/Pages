@@ -41,13 +41,11 @@ export default class Steps extends BaseComponent {
 
 if (location.href.includes('/test')) {
   const props = {
-    container: document.querySelector('.page-section .container'),
+    container: document.querySelector("#content > div > div"),
     target: 'beforeend',
   };
 
   const data = [{ text: 'a' }, { text: 'a' }];
 
-  const steps = new Steps(props, data);
-
-  steps.setTemplate();
+  new Steps(props, data).setTemplate();
 }
