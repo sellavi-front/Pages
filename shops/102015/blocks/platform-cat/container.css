@@ -19,3 +19,11 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     margin-top: 50px !important;
     margin-bottom: 10px !important
 }
+
+#home > div > div > section.page-section.latest-section > div > h2 {
+    margin-top: 70px !important;
+}
+
+#neww {
+    color: black;
+}
