@@ -52,5 +52,6 @@ if (document.querySelector('.header-wrapper')) {
 }
 
 if (document.querySelector('.header-wrapper')) {
-  document.querySelector('#home > div > header > div.header-wrapper > div.container > ul > li.flexy.has_children').insertAdjacentHTML('afterend', '<a href="https://store102015.sellavi.com/#neww">Новинки</a>')
+  document.querySelector('#home > div > header > div.header-wrapper > div.container > ul > li.flexy.has_children').insertAdjacentHTML('afterend', '<a href="https://store102015.sellavi.com/#neww">Новинки</a>');
+  document.querySelector('#home > div > header > div.header-wrapper > div.container > ul > a').insertAdjacentHTML('afterend', '<a href="tel:123-456-7890">123-456-7890</a>');
 }
