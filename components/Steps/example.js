@@ -5,7 +5,10 @@ if (location.href.includes('/test')) {
     target: 'beforeend',
   };
 
-  const data = ['a','a','a'];
+  const data = {
+    title: '',
+    content: ['a','a','a'],
+  }
 
   new Steps(props, data).setTemplate();
 }

@@ -8,7 +8,7 @@ export default class Steps extends BaseComponent {
   }
 
   getData() {
-    return this.data
+    return this.data.content
       .map((elem, i) => {
         return `
         <article class="step">
@@ -29,7 +29,10 @@ export default class Steps extends BaseComponent {
   getTemplate() {
     return `
       <div class="steps">
-        ${this.getData()}
+        <h2>${this.data.title}</h2>
+        <div class="steps__container">
+          ${this.getData()}
+        </div>
       </div>
     `;
   }

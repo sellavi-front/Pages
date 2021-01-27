@@ -1,4 +1,4 @@
-.steps {
+.steps__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(311px, 347px));
   grid-column-gap: 30px;
@@ -7,6 +7,11 @@
 
 .step {
   width: 100%;
+}
+
+.steps__title {
+  font-size: 27px;
+  font-weight: bold;
 }
 
 .step-top {
