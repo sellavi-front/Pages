@@ -10,6 +10,7 @@
 
 .step {
   max-width: 367px;
+  min-width: 311px;
   width: 100%;
   margin: 0 35px 50px 0;
 }
