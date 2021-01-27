@@ -27,7 +27,9 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
   }
 }
 
-document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', '<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611666346/Component_1_lilp3a.png"></img></div>');
+if (document.querySelector('.common-home')) {
+  document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', '<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611666346/Component_1_lilp3a.png"></img></div>');
+}
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Окутина Марина Юрьевна');
