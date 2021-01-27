@@ -47,3 +47,8 @@ if (location.href.includes('contact')) {
 if (document.querySelector('.header-wrapper')) {
   document.querySelector('.navigation_black_screen').remove();
 }
+
+if (document.querySelector('.header-wrapper')) {
+  document.querySelector('#home > div > div > section.page-section.latest-section > div > h2 > span').setAttribute('id', 'neww')
+  document.querySelector('#home > div > header > div.header-wrapper > div.container > ul > li.flexy.has_children').insertAdjacentHTML('afterend', '<a href="#neww">Новинки</a>')
+}
