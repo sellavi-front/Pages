@@ -18,14 +18,18 @@
   height: 64px;
   background: #1D5271;
   margin: 0 0 12px 0;
+  position: relative;
 }
 
 .step-top .num {
   font-size: 58px;
   font-weight: bold;
   padding: 0;
-  margin: auto auto 0 26px;
+  margin: 0 0 0 26px;
   color: white;
+  line-height: .7;
+  position: absolute;
+  bottom: 0;
 }
 
 @media (max-width: 768px) {
