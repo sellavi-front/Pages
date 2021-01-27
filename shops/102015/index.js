@@ -3,6 +3,16 @@ import requsites from './utils/requsites.js';
 //import '../../templates/TemplateTypeOne/TemplateTypeOne.js';
 import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import contactData from './utils/contactData.js'
+
+if (document.querySelector('.common-home')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
+  map.render();
+}
 
 if (document.querySelector('.header-wrapper')) {
   const oldNav = document.querySelector('.navigation .nav.sf-menu');
