@@ -15,6 +15,7 @@
 @import './product/product.css';
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 @import './footer/footer.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 
 body h1,
 body h2,
