@@ -1,3 +1,16 @@
 body.ltr.ru .wrapper section.homefeatured_category > div.container {
     max-width: 1400px !important;
 }
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    max-width: 450px;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+    padding: 14px;
+    height: 231px;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+    font-weight: 700
+}
