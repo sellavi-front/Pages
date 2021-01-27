@@ -1,32 +1,32 @@
 const dataSmallCat = [
   {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
+    href: 'https://store102063.sellavi.com/filter-water-in-flat/',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606380941/water_filter_small_inmdvg.png',
     title: 'Очистка воды в квартиры',
   },
   {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/moritz-kindler-9vCCQ9h7OoY-unsplash_or115o.jpg',
+    href: 'https://store102063.sellavi.com/filter-water-in-house/',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606380941/photo-1580940040649-e3d55edb1e0c_xhycja.png',
     title: 'Очистка воды в дом',
   },
   {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
+    href: 'https://store102063.sellavi.com/filter-water-in-office/',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606380941/photo-1593642634443-44adaa06623a_uq3dyu.png',
     title: 'Очистка воды в офис',
   },
   {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711400/Water%20Filter/hans-reniers-lQGJCMY5qcM-unsplash_1_tgp0d6.jpg',
+    href: 'https://store102063.sellavi.com/filter-in-caffe-and-rest/',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606380941/photo-1569966459694-faf2bf4af6c6_ssouyg.png',
     title: 'Фильтры для кафе и ресторанов',
   },
   {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/moritz-kindler-9vCCQ9h7OoY-unsplash_or115o.jpg',
+    href: 'https://store102063.sellavi.com/service/',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606380941/photo-1594807928657-90490c2dae91_fpnfcx.png',
     title: 'Обслуживание',
   },
   {
-    href: '#',
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1605711895/Water%20Filter/ethan-sykes-TYxSsTtMYCQ-unsplash_jdsz3e.jpg',
+    href: 'https://store102063.sellavi.com/water-analysis/',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606652783/photo-1578496481449-cf2e845cc00c_sbkxt4.png',
     title: 'Анализ воды',
   },
 ];

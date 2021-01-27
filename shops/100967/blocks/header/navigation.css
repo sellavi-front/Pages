@@ -11,10 +11,18 @@
   justify-self: start !important;
 }
 
+#home > div > header > div.header-wrapper > div > ul > li:nth-child(1) {
+  display: none;
+}
+
 .sf-menu > li > a {
   padding: 13px 25px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #000;
 }
 
@@ -22,17 +30,21 @@
 .sf-menu.nav > li > a:focus,
 .sf-menu.nav > li > a:hover {
   background: rgba(0, 0, 0, 0.2) !important;
+  color: black;
 }
 
 .sf-menu .megamenu > ul {
   border-top: 2px solid black;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   margin: 50px 5% 0;
   left: 5%;
 }
 
 .sf-menu .megamenu > ul > .megaline {
-  padding: 20px 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center !important;
 }
 
 .block-title span:after {
@@ -45,26 +57,51 @@
 
 .sf-menu li.megamenu>ul li.megaline div {
      margin: 0 !important;
+     max-width: 200px;
 }
 
 .sf-menu .megamenu ul li>a {
     padding: 0 10px;
 }
 
+.sf-menu li:hover>a {
+  color: black !important;
+}
+
 .sf-menu li.megamenu ul {
     margin: 48px 0 0;
 }
+.sf-menu li.megamenu>ul > li > div > ul {
+  margin-top: 20px;
+}
+
+header .button__list {
+  max-width: 200px;
+}
+
+body.theme-red-2 .header .navigation-wrapper {
+  margin-top: 15px;
+}
 
 .sf-menu .megamenu>ul li ul li {
+     display: -webkit-box !important;
+     display: -ms-flexbox !important;
      display: flex !important;
      color: black !important;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     margin-bottom: 30px;
 }
 
-
 .arrow {
     display: none;
+}
+
+body > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between !important;
 }
 
 .sf-menu li li.active, .sf-menu li li.sfHover, .sf-menu li li.sfHover>a, .sf-menu li li:hover {
@@ -84,6 +121,10 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
   color: #8F8F8F;
 }
 
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  position: static !important;
+}
+
 @media (max-width: 1200px) {
       .sf-menu .megamenu > ul > .megaline {
              padding-left: 2% !important;
@@ -91,8 +132,12 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
       }
 }
 
-@media (max-width: 992px) {
-  .button__list {
+@media (max-width: 991px) {
+  .header .header-search, .header-wrapper .navigation > .nav > li.flexy,
+  .header_widgets .header_login,
+  .header .header-wrapper .header-search,
+  .button__list_elem #wishlist,
+  .button__list_elem.custom__text {
     display: none !important;
   }
 }

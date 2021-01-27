@@ -1,0 +1,12 @@
+@import './navigation-wrapper/navigation-wrapper.css';
+@import './header-widgets/header-ico.css';
+@import './header/header.css';
+@import './header-widgets/header-widgets.css';
+
+.header {
+  border: none !important;
+}
+
+.header .header-wrapper {
+  background: transparent;
+}

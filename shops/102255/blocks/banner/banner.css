@@ -1,0 +1,105 @@
+span.position-relative {
+    font-size: 30px;
+    color: white;
+    text-shadow: none;
+}
+
+.main-slider .caption-content {
+    text-align: left !important;
+    margin: 0 0 0 0 !important;
+}
+
+body .div-cell {
+    display: flex!important;
+    padding-top: 70px 
+}
+
+.main-slider .caption-content {
+    max-width: 714px;
+    margin: 0 0 0 auto;
+    text-align: right;
+}
+
+
+
+span.position-relative {
+  display: block;
+  border-left: 4px solid #E8605D;
+  line-height: 36px;
+  padding-left: 10px
+}
+
+span.second-title-text {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.button-in-banner {
+    margin-top: 70px;
+    color: #FA7167;
+    font-size: 26px;
+    font-weight: 500;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 30px 120px 30px 120px
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span.position-relative {
+    color: black;
+}
+
+span.second-title-text2 {
+    font-size: 22px;
+    text-shadow: none;
+}
+
+
+
+.button-in-banner2 {
+    margin-top: 70px;
+    color: #384DC6;
+    font-size: 26px;
+    font-weight: 500;
+    border: 2px solid #E8605D;
+    width: fit-content;
+    padding: 30px 120px 30px 120px;
+}
+
+
+
+
+@media (max-device-width: 480px) {
+    span.position-relative {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    span.second-title-text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    span.second-title-text2 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .button-in-banner {
+        font-size: 16px;
+        padding: 0px;
+        padding-top: 15px;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 15px;
+    }
+
+    .button-in-banner2 {
+        font-size: 16px;
+        padding: 0px;
+        padding-top: 15px;
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-bottom: 15px;
+    }
+}

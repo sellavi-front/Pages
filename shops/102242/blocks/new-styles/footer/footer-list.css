@@ -1,0 +1,7 @@
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  color: #d0a995 !important;
+}
+
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget-categories ul li:hover a {
+  color: #8F8476 !important;
+}

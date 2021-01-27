@@ -1,0 +1,7 @@
+.caption-title a {
+  color: #A68E7D !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  color: #887568 !important;
+}

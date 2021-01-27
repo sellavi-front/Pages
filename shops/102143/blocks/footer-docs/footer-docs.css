@@ -1,0 +1,24 @@
+.footer__docs {
+  width: 100%;
+}
+
+.footer__docs ul {
+  width: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.footer__docs ul li {
+  margin: 0 25px 10px 0;
+}
+
+.footer__docs ul li a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer__docs ul li a:hover {
+  color: white !important;
+  border-bottom: 1px solid white !important;
+}

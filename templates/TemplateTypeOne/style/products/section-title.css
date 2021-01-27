@@ -1,0 +1,6 @@
+body .section-title span {
+  border: none !important;
+  text-transform: none !important;
+  font-size: 36px;
+  font-weight: bold;
+}

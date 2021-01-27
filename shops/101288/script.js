@@ -215,7 +215,7 @@ customCategories.getDataFromApi();
 //       )
 //       .cloneNode(true);
 
-//     const delivery = document.querySelector(
+//     const deliveryPage = document.querySelector(
 //       "footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(3)"
 //     );
 
@@ -233,7 +233,7 @@ customCategories.getDataFromApi();
 //       "footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(4)"
 //     );
 
-//     helpCol.insertAdjacentElement("afterbegin", delivery);
+//     helpCol.insertAdjacentElement("afterbegin", deliveryPage);
 //     helpCol.insertAdjacentElement("afterbegin", contactLi);
 
 //     const contact = document.querySelector(
@@ -252,14 +252,14 @@ customCategories.getDataFromApi();
 //       "footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li"
 //     );
 //     const meta = document.querySelector(".footer-meta");
-//     const aboutCompany = document.querySelector(
+//     const aboutPage = document.querySelector(
 //       "footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1)"
 //     );
 //     const companyUl = document.querySelector(
 //       "footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul"
 //     );
 
-//     companyUl.insertAdjacentElement("afterbegin", aboutCompany);
+//     companyUl.insertAdjacentElement("afterbegin", aboutPage);
 //     aboutWidget.forEach((el, idx) => (idx > 2 ? el.remove() : el));
 
 //     meta.insertAdjacentHTML(

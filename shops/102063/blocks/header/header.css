@@ -1,6 +1,6 @@
 @import './cart.css';
 @import './logo.css';
-@import './search.css';
+/*@import './search.css';*/
 @import './navigation.css';
 
 header {
@@ -13,3 +13,74 @@ header {
   justify-content: space-between;
 }
 
+body .content-area {
+  padding-bottom: 0px;
+}
+
+.owl-prev {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.owl-next {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+} 
+
+/* .fa-shopping-cart:before {
+  color: rgb(255, 255, 255);
+} */
+
+@media (max-device-width: 480px) {
+  #home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo > a > img {
+      position: relative;
+      right: 10%;
+  }
+
+  #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+      right: 70% !important;
+  }
+}
+
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: #000000;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover {
+  border-color: #fcbf4900 !important;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: white !important;
+}
+
+/* <script type="module" src="https://sellavi-front.github.io/Pages/shops/101977/index.js"></script> */
+/* @import 'https://sellavi-front.github.io/Pages/shops/101977/blocks/index.css'
+ */
+
+ .header .header-search {
+  top: 27px;
+}
+
+body .btn.btn-theme.btn-block {
+  margin-left: 0px;
+}
+
+#home > div.wrapper.wrapper-closed > div > section > div > div > div.col-lg-6.login_wrapper > form > div > div.col-md-12.col-lg-6.text-right-lg.forgot_password_holder {
+  margin-top: 20px
+}
+
+@media (min-device-width: 480px) and (max-device-width: 993px) {
+  #home > div.wrapper.wrapper-closed > header > div.top-bar > div > div > div.col-8.col-lg-5.order-1 > div > ul > li:nth-child(1) {
+      right: 150px !important;
+  }
+}
+
+@media (min-device-width: 480px) and (max-device-width: 993px) {
+  #banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+      display: block;
+      width: 50px;
+  }
+}

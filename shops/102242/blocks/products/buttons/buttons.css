@@ -1,0 +1,34 @@
+.buttons .btn,
+.product-product .product-single .buttons .quantity .qty,
+body .btn.btn-theme {
+  border-radius: 10px !important;
+}
+
+.buttons .quantity,
+.buttons .btn-cart {
+  margin-right: 10px !important;
+}
+
+.fa-stack {
+  color: orange !important;
+}
+
+.product-product .product-single .buttons .quantity .qty {
+  margin: 0 3px;
+}
+
+.product-product .product-single .buttons {
+  margin: 10px 0;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity {
+  border-color: #c5a995;
+}
+
+.btn-primary {
+  background: #C5A995 !important;
+}
+
+body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block {
+  border: none !important;
+}

@@ -1,0 +1,39 @@
+body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    max-width: 361px;
+}
+
+.caption-inner.div-cell .caption-title > span {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.thumbnail.thumbnail-banner .caption-inner {
+    border: 0px solid #fff;
+    padding: 15px;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+    height: 265px;
+}
+
+.caption-title > span {
+    padding-top: 10px !important;
+    padding-left: 25px !important;
+}
+
+.wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+    padding: 0% !important;
+}
+
+.page-section.homefeatured_category .container .section-title.mb-4.mt-4 span{
+    font-size: 30px !important;
+}
+
+.page-section.latest-section .container .section-title.mb-4.mt-4 span {
+    color: black;
+}
+
+.page-section.homefeatured_category .container .section-title.mb-4.mt-4 {
+    margin-bottom: 0px !important;
+    margin-top: 40px !important;
+}

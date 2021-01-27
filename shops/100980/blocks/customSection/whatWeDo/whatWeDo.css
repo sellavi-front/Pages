@@ -1,0 +1,33 @@
+.what__we__do {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.what__we__do h1 {
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.what__we__do_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.what__we__do_column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.what__we__do_column p {
+  margin-top: 10%;
+}
+
+.what__we__do_column img {
+  width: 10%;
+}

@@ -27,3 +27,7 @@ if (location.href.includes('contact')) {
   const req = new Requisites(requsites, 'afterend', media);
   req.setTemplate();
 }
+
+if (location.href.includes('policy')) {
+
+}

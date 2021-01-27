@@ -1,0 +1,13 @@
+@import '../../../components/PictureCategories/PictureCategories.css';
+
+.re {
+  bottom: 0;
+}
+
+body.sidenav-enabled .mobile_side_nav>ul > li:not(.home_link) >a {
+  text-transform: none !important;
+}
+
+.page-header h1 {
+  font-size: 26px !important;
+}

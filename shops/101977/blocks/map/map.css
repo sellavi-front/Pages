@@ -1,0 +1,123 @@
+#home > div > div > section > div.map-flex > div {
+    display: flex;
+    justify-content: space-between
+}
+
+#home > div > div > section > div.map-flex > div > div > div:nth-child(1) {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.adress {
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.adress > div:nth-child(1) {
+    font-weight: 900;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone {
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone > div:nth-child(1) {
+    font-weight: 900;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone > div:nth-child(2) {
+    color: #007735;
+    text-decoration: underline;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.phone > div:nth-child(3) {
+    color: #007735;
+    text-decoration: underline;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.emails > div:nth-child(1) {
+    font-weight: 900;
+}
+
+#home > div > div > section > div.map-flex > div > div > div.emails > div:nth-child(2) {
+    color: #007735;
+}
+
+
+
+
+/*other pages map*/
+
+.map-flex {
+    margin-top: 70px;
+
+}
+
+.map-flex .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.map-flex .container .our-contacts > div:nth-child(1) {
+    font-family: Hauss,sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.map-flex .container .our-contacts > div.adress {
+    margin-bottom: 20px;
+}
+
+.map-flex .container .our-contacts > div.adress > div:nth-child(1) {
+    font-family: Hauss,sans-serif;
+    font-weight: 900;
+}
+
+.map-flex .container .our-contacts div.phone {
+    margin-bottom: 20px
+}
+
+.map-flex .container .our-contacts div.phone > div:nth-child(1) {
+    font-weight: 900;
+}
+
+.map-flex .container .our-contacts div.phone > div:nth-child(2) {
+    color: #377743;
+}
+
+.map-flex .container .our-contacts > div.emails > div:nth-child(1) {
+    font-weight: 900;
+}
+
+@media (max-device-width: 480px) {
+    .checkout-checkout .content-area > div > div {
+        flex-direction: column;
+    }
+
+    .checkout-checkout .content-area > div > div > iframe {
+        width: 100%;
+    }
+
+    #home > div > div > div.map-flex > div > iframe {
+        margin-top: 40px
+    }
+
+    .map-flex > div > iframe {
+        margin-top: 40px
+    }
+}
+
+@media (max-device-width: 768px) {
+    .map-flex .container {
+        flex-direction: column;
+    }
+
+    .map-flex .container iframe {
+        margin-top: 40px;
+        width: 100%;
+    }
+}

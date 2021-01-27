@@ -1,0 +1,14 @@
+.owl-wrapper-outer {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.main-slider {
+  margin-top: 30px;
+}
+
+.main-slider .img-fluid {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}

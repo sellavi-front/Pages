@@ -1,0 +1,11 @@
+.table-sizes__row_item_title {
+  text-align: left;
+  max-width: 130px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.table-sizes__row_item:first-child, .table-sizes__row_item_title:first-child {
+  width: 90px;
+}

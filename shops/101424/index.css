@@ -42,9 +42,22 @@ body .delivery__right-title {
     font-size: 48px;
     line-height: 48px;
   }
+
+  .col-md-3 + .col-md-3 {
+    margin-top: 5%;
+  }
+
+  body .content-area .page-section.error-page h3 {
+    margin: 0 0 15px;
+    color: #ea0000;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+
 }
 
-delivery__right-small {
+.delivery__right-small {
   color: rgb(112, 112, 112);
   font-size: 18px;
   line-height: 26px;
@@ -153,6 +166,18 @@ footer>div.footer-widgets>div.container>div>div:nth-child(2)>div>ul>li:nth-child
 
   footer>div.footer-meta>div {
     padding-left: 0px;
+  }
+
+  .col-md-3 + .col-md-3 {
+    margin-top: 5%;
+  }
+
+  body .content-area .page-section.error-page h3 {
+    margin: 0 0 15px;
+    color: #ea0000;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 700;
   }
 }
 
@@ -498,4 +523,5 @@ body.information-information .information img {
     font-weight: 500;
     font-size: 12px;
   }
+
 }

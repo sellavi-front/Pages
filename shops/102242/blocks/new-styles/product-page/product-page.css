@@ -1,0 +1,63 @@
+body .btn.dropdown-toggle,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list,
+.product-product .product-single .bootstrap-select>.dropdown-menu .bs-searchbox .form-control,
+body.ltr.ru.checkout-cart .content-area .page-section .checkout_cart_inner .cart_product .product_row .qty_column .quantity {
+  border: 1px solid #d0a995 !important;
+  background: transparent !important;
+  border-radius: 5px;
+}
+
+.product-product .product-single .buttons .btn-cart {
+  margin-left: 0 !important;
+}
+
+.product-product .product-single #tab-description h3,
+body.ru.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.ru.ltr.product-product .tab-pane p {
+  color: #887568 !important;
+}
+
+body.ltr.ru .dropdown-menu>.active>a {
+  background: #FFF1EA !important;
+}
+
+body .btn.dropdown-toggle,
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list i {
+  color: #d0a995 !important;
+}
+
+body.ltr.ru.product-product .product-single.product-item #tab-description,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder {
+  border: none;
+}
+
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+  background: transparent !important;
+}
+
+.product-product .product-single .buttons {
+  width: 255px;
+}
+.product-item .thumbnail .media img {
+  object-fit: cover !important;
+}
+
+body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
+body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder,
+body.ltr.ru .share_page_wrapper,
+body.ltr.ru .shop-sorting {
+  display: none !important
+}
+
+.featured-products-carousel .bx-wrapper {
+  margin: auto !important;
+}
+
+#product > div:nth-child(2) > div {
+  margin-top: 0 !important;
+}
+
+.product-single > div > #product {
+  margin-top: 30px !important;
+}

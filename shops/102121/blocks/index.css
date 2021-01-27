@@ -1,4 +1,21 @@
-@import '../../../fixes/fixes.css';
-
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import '../../../modules/Requisites/Requisites.css';
 @import './pay-delivery/pay-delivery.css';
-@import './products/products.css';
+
+
+.main-slider .img-fluid {
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important
+}
+
+body.ltr.ru > div > div.content-area > section.page-section.titles > div > div > h1 {
+  font-size: 22px !important;
+}
+
+body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart {
+  padding: 0 !important;
+}

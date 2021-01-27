@@ -1,0 +1,45 @@
+.main-slider .caption-content {
+  text-align: left !important;
+  margin: 0 0 0 47% !important;
+}
+
+.main-slider .caption-subtitle {
+  text-transform: none !important;
+  line-height: 1 !important;
+}
+
+.caption-subtitle > span > span {
+  font-size: 5vw;
+}
+
+.caption-text .btn-theme {
+  background: -o-linear-gradient(357.76deg, #7fadf4 -1.13%, #1271fd 99.7%) !important;
+  background: linear-gradient(92.24deg, #7fadf4 -1.13%, #1271fd 99.7%) !important;
+  border: none;
+  font-weight: 500 !important;
+  border-radius: 0 !important;
+  max-width: 280px;
+  width: 100%;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+}
+
+@media (max-width: 480px) {
+  .main-slider .caption-content {
+    display: block !important;
+    margin-left: 27% !important;
+  }
+
+  .main-slider {
+    margin-top: 0 !important;
+  }
+}

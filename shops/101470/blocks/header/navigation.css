@@ -54,3 +54,50 @@
     display: none;
   }
 }
+
+
+#search > div.search_close.d-block.d-lg-none > i {
+  display: none;
+}
+
+.children.collapse.show {
+  display: flex;
+  flex-direction: column;
+}
+
+ul.closed {
+  position: relative;
+  z-index: 1000 !important;
+}
+
+
+
+/* .panel-collapse.collapse {
+  position: absolute;
+  z-index: 999 !important;
+} */
+
+.panel-collapse.collapse > ul > li > a {
+  color: rgb(0, 0, 0);
+}
+
+.banner-title-button {
+  position: absolute;
+  z-index: 1000 !important;
+  color: white;
+  left: 46%;
+  top: 20%;
+  font-size: 30px;
+}
+
+ul.navigate-menu > .flexy > .panel-collapse {
+  z-index: 99;
+}
+
+.navigate-menu .panel-collapse.collapse > ul > li > a {
+  color: white;
+}
+
+#home > div.banner-title-button > a {
+  color: white;
+}

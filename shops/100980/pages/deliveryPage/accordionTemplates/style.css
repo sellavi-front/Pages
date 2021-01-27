@@ -1,0 +1,51 @@
+.payment__block {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.payment__item img {
+  width: 30%;
+}
+
+.payment__container>ul>li>h5,
+.payment__container>ul>li:nth-child(2)>h5,
+.payment__container>h5 {
+  font-weight: 900;
+}
+
+.delivery__moscow>p,
+.delivery__mkad>p,
+.delivery__russia>p,
+.delivery__attention>p:nth-child(1) {
+  font-weight: 900;
+}
+
+.delivery__moscow>ul>li,
+.delivery__mkad>ul>li,
+.delivery__russia>ul>li,
+.terms__items,
+.first__return_item,
+.second__return_item {
+  list-style: none;
+}
+
+.delivery__russia>ul>li:before,
+.delivery__moscow>ul>li:before,
+.delivery__mkad>ul>li:before,
+.terms__items:before,
+.first__return_item:before,
+.second__return_item:before {
+  content: "\2022";
+  color: #BF3417;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.delivery__img {
+  width: 100%;
+}

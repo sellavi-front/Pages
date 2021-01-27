@@ -1,0 +1,75 @@
+@import url('https://coospir.github.io/Pages/shops/100980/pages/solutionsPage/utils/steps.css');
+
+.solutions__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.solutions__row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.solutions__column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.solutions__column h1,
+.solutions__column p{
+  font-weight: 900;
+}
+
+.solutions__column_links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding-top: 3rem;
+}
+
+.solutions__column_links a {
+  font-weight: 900;
+  color: #C23315;
+}
+
+.solutions__column_links a {
+  line-height: 2.8rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .solutions__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .solutions__row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .solutions__column img {
+    width: 100%;
+  }
+
+  .solutions__column_links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+
+}

@@ -1,0 +1,28 @@
+.popup__content {
+  max-width: 555px;
+  width: 100%;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.popup__close {
+  position: absolute;
+  top: -30px;
+  right: -35px;
+}
+
+@media (max-width: 505px) {
+  .popup__content {
+    height: 90%;
+    top: 20px;
+    padding: 20px;
+  }
+
+  .popup__close {
+    top: -40px;
+    right: 10px;
+  }
+}

@@ -1,7 +1,19 @@
 .price_actions .buttons__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  -ms-flex-item-align: center;
   align-self: center;
   width: 100%;
+}
+
+.thumbnail .add_to_wishlist {
+  display: none;
 }

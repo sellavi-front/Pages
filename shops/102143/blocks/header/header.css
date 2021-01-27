@@ -1,3 +1,99 @@
-.header .header-wrapper:not(.common-home .header .header-wrapper) {
-  background: #204043 !important;
+@import './header-widgets/header-widgets.css';
+
+.common-home .header {
+  background: transparent !important;
+}
+
+.header {
+  background: url(https://res.cloudinary.com/gz-company/image/upload/v1606466129/ThaiCosmetic/Group_73_yqnh52.png);
+  background-size: 100%;
+  background-position: top;
+  padding: 20px 0;
+  border: none !important;
+}
+
+.button__list_elem a,
+.header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
+  color: white !important;
+}
+
+.header .header-search {
+  left: auto;
+  right: 75px !important;
+  position: absolute;
+  width: 150px;
+}
+
+.header-cart .cart-wrapper #cart i {
+  font-size: 21px !important;
+}
+
+.header .header-search .form-control {
+  border-radius: 0;
+  border-bottom: 1px solid white !important;
+  color: #737475;
+  background: transparent;
+  border: none;
+}
+
+.navigation {
+  left: -15%;
+}
+
+.navigation .nav.sf-menu {
+  align-items: center !important;
+}
+
+.header .header-search .form-control::placeholder,
+.sf-menu.nav>li>a {
+  color: snow !important;
+}
+
+.logo img {
+  width:  100% !important;
+}
+
+.header-wrapper > div > .navigation {
+  display: none !important;
+}
+
+.mobile-navigation-wrapper  {
+  display: block !important;
+}
+
+body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
+  left: 0 !important;
+  right: auto !important;
+}
+
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  left: 25px !important;
+  right: auto !important;
+}
+
+body.sidenav-enabled.ltr nav.navigation > ul.mobile_side_nav ul .flexy>.arrow {
+  left: 1% !important;
+}
+
+@media (max-width: 991px) {
+  .logo {
+    width: 100px;
+    margin: 0 0 0 36%;
+  }
+}
+
+
+@media (max-width: 495px) {
+  .logo {
+    width: 100px;
+    margin: 0 0 0 34%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    background-size: 200%;
+    background-position: top;
+    padding: 20px 0;
+  }
 }

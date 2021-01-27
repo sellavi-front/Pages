@@ -8,8 +8,9 @@
 .categories__title {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 25px;
+  font-weight: 900;
 }
 
 .categories__row {

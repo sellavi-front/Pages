@@ -21,6 +21,8 @@
 @import './footer/footer.css';
 @import './contacts/contacts.css';
 @import './soc-icons/soc-icons.css';
+@import './header-mobile/header-mobile.css';
+@import './footer-docs/footer-docs.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
@@ -53,4 +55,60 @@ body span,
 body b,
 body strong {
   text-transform: none;
+}
+
+#home footer .footer-widgets .bs-menu-toggle {
+  display: none !important;
+}
+
+.common-home .content-area .page-section {
+  margin-top: 50px !important;
+  padding-bottom: 7%;
+}
+
+.common-home .section-title {
+  margin-bottom: 50px !important;
+  margin-top: 0 !important;
+}
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  top: 25px !important;
+}
+
+.header .header-search button,
+.header .header-wrapper .mobile-navigation-wrapper a {
+  color: white !important;
+}
+
+body .content-area .page-section.titles h1 {
+  font-size: 26px !important;
+}
+
+.logo img {
+  max-height: initial !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+  right: 0 !important;
+  left: auto !important;
+}
+
+@media (max-width: 1595px) {
+  .common-home .section-title {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 5% ;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 0 !important;
+  }
+
+  .common-home .section-title {
+    text-align: center !important;
+    margin: 0 auto 50px !important;
+  }
 }

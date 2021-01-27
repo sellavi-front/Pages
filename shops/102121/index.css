@@ -1,37 +1,61 @@
-@import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 @import url('https://coospir.github.io/Pages/modules/BigBanner/BigBanner.css');
-@import url('https://coospir.github.io/Pages/components/css-comonents/HeaderTransparent.css');
 @import url('https://coospir.github.io/Pages/modules/ButtonListInHeader/style.css');
 @import url('https://coospir.github.io/Pages/modules/Requisites/Requisites.css');
+/* @import url('../../templates/TemplateTypeTwo/style/index.css'); */
+@import './blocks/pay-delivery/pay-delivery.css';
+@import url('../../components/ContactsWithMap/ContactsWithMap.css');
+/* @import '../../components/css-components/ColoredCategories/category/size/cat-col-2.css'; */
+@import '../../components/PictureCategories/PictureCategories.css';
+@import url('../../fixes/js/FooterCopy/FooterCopy.css');
+@import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+@import '../../templates/TemplateTypeTwo/styles/logo/logo.css';
+@import '../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import '../../templates/TemplateTypeTwo/styles/products/products.css';
+@import '../../templates/TemplateTypeTwo/styles/products/price-actions.css';
+@import '../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
 
 
-html, body,
-body span,
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6,
-body p,
-body a,
-body ul,
-body li,
-.product-availability,
-.product-price,
-#button-cart,
-.title,
-.price,
-input.form-control,
-input.form-control::placeholder,
-.form_checkout,
-.order_list_section__total-lines,
-.checkout_table {
-  font-family: 'Comfortaa', cursive !important;
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important;
 }
 
-/* Content */
+.main-slider .img-fluid {
+  height: auto !important;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+#cart > span.d-none.d-lg-inline-block {
+  display: none !important
+}
+
+body.ltr.ru > div > div.content-area > section.page-section.titles > div > div > h1 {
+  font-size: 22px !important;
+}
+
+.information #content > div {
+  margin: 0 !important;
+}
+
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background: #D80021 !important;
+}
+
+body.theme-red-2.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i,
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  color: white !important;
+
+}
+
+/*
 body > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
   display: none
 }
@@ -65,7 +89,6 @@ body.ltr .product-single table td {
   font-size: 10px;
 }
 
-/* Footer */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .col-md-3 + .col-md-3 {
@@ -76,4 +99,4 @@ body.ltr .product-single table td {
     font-size: 25px !important;
   }
 }
-
+ */

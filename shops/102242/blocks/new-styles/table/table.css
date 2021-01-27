@@ -1,0 +1,23 @@
+.table-sizes__row_item_title {
+  color: #C9AF9C;
+}
+
+.table-sizes__row_item,
+.table-sizes__btn {
+  color: #89776A;
+}
+
+.popup__close svg path {
+  fill: #89776A;
+}
+
+.popup__close {
+  top: 15px;
+  right: 10px;
+}
+
+@media (max-width: 395px) {
+  .table-sizes__row {
+    text-align: center;
+  }
+}

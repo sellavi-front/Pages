@@ -1,3 +1,46 @@
-@import '../../../fixes/fixes.css';
+@import '../../../templates/TemplateTypeOne/style/index.css';
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';
+@import '../../../components/css-components/ColoredCategories/category/size/cat-col-3.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import '../../../modules/Requisites/Requisites.css';
 
+@import '../../../fixes/fixes.css';
 @import './pay-delivery/pay-delivery.css';
+
+body h1 {
+  font-size: 1.8 rem;
+}
+
+.wrapper .header .header-wrapper .logo {
+  z-index: 9999 !important;
+}
+
+.logo img {
+  max-width: 155px !important;
+}
+
+footer .soc-icons .container > .soc-icons__title {
+  text-align: left !important;
+  margin: 0 0 20px !important;
+}
+
+body .footer-widgets .social-icons {
+  display: none !important;
+}
+
+.soc-icons__container {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+body.theme-red-2 .main-slider .caption-subtitle {
+  color: black !important;
+}
+
+@media (max-width: 768px) {
+  .footer-widgets > div > div > div {
+    margin: 0 auto 0 0 !important;
+    padding: 0 !important;
+  }
+}

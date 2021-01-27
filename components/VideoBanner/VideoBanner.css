@@ -1,0 +1,46 @@
+.custom_banner {
+  width: 100%;
+  max-height: 1000px;
+  overflow: hidden;
+}
+
+.video-banner {
+  position: relative;
+}
+
+.video-banner video {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-caption h1 {
+  font-size: 5vw;
+  color: white;
+  font-weight: 300;
+}
+
+
+@media (max-width: 500px) {
+  .video-banner video {
+    max-width: 500px;
+    object-fit: cover;
+    height: 500px;
+  }
+
+  .banner-caption h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+}

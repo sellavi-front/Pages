@@ -1,164 +1,108 @@
-import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
-import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
-import imgArr from "./utils/images.js";
-import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js";
+import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js"
+import imgArr from "./utils/images.js"
+import pages from "./utils/pages.js"
+import renderAboutCompanyTemplate from "./pages/aboutPage/aboutCompany.js"
+import renderComplexTemplate from "./pages/complexPage/complex.js"
+import renderDeliveryTemplate from "./pages/deliveryPage/delivery.js"
+import renderSolutionsTemplate from "./pages/solutionsPage/solutions.js"
+import renderBanner from "./blocks/banner/banner.js"
+import renderCustomSectionAboutCompany from "./blocks/customSection/aboutCompany/aboutCompany.js"
+import renderWhatWeDo from "./blocks/customSection/whatWeDo/whatWeDo.js"
+import renderWhyChooseUs from "./blocks/customSection/whyChooseUs/whyChooseUs.js"
+import renderHowWeWork from "./blocks/customSection/howWeWork/howWeWork.js"
+import renderFooter from "./blocks/footer/footer.js"
+import sendHomeForm from "./wa-forms/home-form.js"
+import sendComplexForm from "./wa-forms/сomplex-form.js"
+import renderContactsLayout from "./pages/contactsPage/contactsPage.js"
 
-window.onload = () => {
-  /* Deleting burger */
-  //document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.sticky").remove()
 
-  /* Setting logo */
-  document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
-  let containerNavbar = document.querySelector(".logo")
-  let customBanner = document.querySelector(".custom_banner")
-  let customSection = document.querySelector(".custom_section")
-  containerNavbar.classList.add("navbar__block")
-  let navbar = `
-        <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
-        <a class="navbar_item" href="#"><p>Доставка</p></a>
-        <a class="navbar_item" href="#"><p>Оплата и возврат</p></a>
-        <a class="navbar_item" href="#"><p>Комплексное оснащение</p></a>
-        <a class="navbar_item" href="#"><p>Готовые решения</p></a>
-        <a class="navbar_item" href="#"><p>Контакты</p></a>
-  `
+/* Setting logo */
+document.querySelector("header>.header-wrapper>.container").setAttribute("class", "main__menu")
+let containerNavbar = document.querySelector(".logo")
+let customSection = document.querySelector(".custom_section")
 
-  containerNavbar.insertAdjacentHTML("beforeend", navbar)
-  if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
-    let customBanner = document.querySelector(".custom_banner")
-    let bannerLayout = `
-    <div class="banner__container">
-        <div class="banner__item">
-          <div class="banner__column">
-            <div class="banner__column__item">
-              <h4>Проектируем, оснащаем оборудованием и запускаем кулинарные пространства</h4>
-            </div>
-            <ul class="contact__container">
-              <li class="contact__container__item">
-                <img src="https://coospir.github.io/Pages/shops/100980/media/icons8-whatsapp%201.png" />
-                <h6>+7(495) 989-98-28</h6>
-              </li>
-              <li class="contact__container__item">
-                <img src="https://coospir.github.io/Pages/shops/100980/media/Vector.png" />
-                <h6>Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00</h6>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="banner__item">
-          <div class="banner__column">
-            <div class="banner__column__item">
-              <form class="banner__submit__form">
-                <h6>Оставьте заявку прямо сейчас</h6>
-                <input class="banner_submit__form__input" type="text" placeholder="Ваше имя">
-                <input class="banner_submit__form__input" type="text" placeholder="Ваш телефон">
-                <input class="banner_submit__form__input" type="text" placeholder="Ваш E-Mail">
-                <p>Получите предложение и детальный план реализации проекта</p>
-                <button type="button" class="banner__submit__form__btn">Получить предложение</button>
-              </form>
-            </div>
-          </div>
-        </div>
-    </div>`
-
-    let contentLayoutOne = `
-    <div class="content__layout__container">
-        <div class="container">
-        <div class="content__layout__container__item">
-          <img src="https://coospir.github.io/Pages/shops/100980/media/Group.png" />
-        </div>
-        <div class="content__layout__container__item">
-          <div class="content__layout__container__item__description">
-          <h1>Компания Tradequip</h1>
-          <p>Эксперт по проектированию, оснащению оборудованием и запуску кулинарных пространств.</p>
-
-          <p>Уже более 3 лет мы помогаем открывать фудкорты, рестораны, кафе, бары, пекарни и пищевые производства.</p>
-
-          <p>В портфеле компании есть разработанные технологами готовые комплекты оборудования и профессионального инвентаря для любой кухни мира.</p>
-
-          <p>Наш продукт это созданные по всем стандартам и качествам кулинарные пространства с уникальным дизайном и собственным фирменным стилем.</p>
-          </div>
-        </div>
-      </div>
+let navbar = `
+    <div class="navbar__block">
+      <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
+      <a class="navbar_item" href="/delivery/"><p>Доставка, оплата и возврат</p></a>
+      <a class="navbar_item" href="/complex/"><p>Комплексное оснащение</p></a>
+      <a class="navbar_item" href="/solutions/"><p>Готовые решения</p></a>
+      <a class="navbar_item" href="/contact/"><p>Контакты</p></a>
     </div>
-    `
+`
 
-    customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
-    customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
-    document.querySelector(".section-title.mb-4.mt-4").remove()
-    document.querySelector(".row.products.grid").remove()
-    document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
-    let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
+containerNavbar.insertAdjacentHTML("afterend", navbar)
+let wishlist = `
+  <div class="header_wishlist">
+    <a
+      id="wishlist"
+      class="position-relative"
+      href="https://${location.host}/index.php?route=account/wishlist"
+      role="link"
+    >
+      <i class="far fa-heart"></i>
+    </a>
+  </div>
+`;
 
-    let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
-    categories.render()
-    //let categoriesLayout = categories.render()
-    //document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").insertAdjacentHTML("afterbegin", categoriesLayout)
+let search = document.querySelector("#search")
+search.insertAdjacentHTML("afterend", wishlist)
+if(pages.home) {
 
+  // Banner
+  renderBanner()
 
-   //let categoriesLayout = categories
-    //console.log(categoriesLayout)
-    /*`
-      <div class="categories__container">
-        ${categories.forEach(
-          category => {
-            `<div class="categories__container__item">
-                <h4><a href="${category.link}">${category.name}</a></h4>
-             </div>
-            `
-          })
-        }
-      </div>
-    `*/
-  }
+  // Categories
+  let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
+  let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customSection, "afterbegin")
+  categories.render()
 
-  if(location.pathname === '/about-company/') {
-    renderAboutCompanyTemplate()
-  }
-
+  // Custom section
+  renderCustomSectionAboutCompany()
+  renderWhatWeDo()
+  renderWhyChooseUs()
+  renderHowWeWork()
 
 
-  /* Delete footer content */
-  document.querySelector(".footer>.footer-widgets>.container>.row").remove()
+  document.querySelector(".section-title.mb-4.mt-4").remove()
+  document.querySelector(".row.products.grid").remove()
+  document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section > div").setAttribute("class", "container-fluid")
 
-  /* Copy footer-meta */
-  //let oldFooterMeta = document.querySelector(".footer>.footer-meta")
-  //let newFooterMeta = oldFooterMeta.cloneNode(true)
-  //document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", newFooterMeta.outerHTML)
+  let homeFormBtn = document.querySelector(".banner__submit__form__btn")
+  homeFormBtn.addEventListener("click", () => {
+    sendHomeForm().call()
+  })
 
-  let footerLayout = `
-    <div class="footer__container">
-        <div class="footer__container__data">
-            <div class="footer__container__data__column">
-                <div class="footer__container__data__column__item">
-                <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/Vectoremail.png" alt="email" />
-                    <h6>zakaz@tradequip.ru</h6>
-                </div>
-                <div class="footer__container__data__column__item">
-                <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/wa-footer.png" alt="phone" />
-                    <h6>+7 (495) 989-98-28</h6>
-                </div>
-            </div>
-            <div class="footer__container__data__column">
-                <div class="footer__container__data__column__item">
-                <img class="footer__img" src="https://coospir.github.io/Pages/shops/100980/media/VectorBW.png" alt="email" />
-                    <h6>Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00</h6>
-                </div>
-            </div>
-            <img class="footer__logo" src="https://coospir.github.io/Pages/shops/100980/media/Groupfooter.png" alt="footer" />
-        </div>
-    </div>
-  `
-  //oldFooterMeta.remove()
-  document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("afterbegin", footerLayout)
-  let footerMenuLayout = `
-    <div class="menu__footer">
-        <a href="/about-company/">О компании</a>
-        <a href="#">Доставка</a>
-        <a href="#">Оплата и возврат</a>
-        <a href="#">Комплексное оснащение</a>
-        <a href="#">Готовые решения</a>
-        <a href="#">Контакты</a>
-    </div>
-  `
-  document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("beforeend", footerMenuLayout)
 }
+
+if(pages.about) {
+  renderAboutCompanyTemplate()
+}
+
+if(pages.complex) {
+  renderComplexTemplate()
+  let complexFormBtn = document.querySelector(".complex__submit__form__btn")
+  complexFormBtn.addEventListener("click", () => {
+    sendComplexForm().call()
+  })
+}
+
+if(pages.delivery) {
+  renderDeliveryTemplate()
+}
+
+if(pages.solutions) {
+  renderSolutionsTemplate()
+}
+
+if(pages.contacts) {
+  renderContactsLayout()
+}
+
+if(pages.cart) {
+  document.querySelector(".panel-group").classList.remove("accordion")
+}
+
+/* ALL PAGES */
+/* Copy footer-meta */
+renderFooter()

@@ -9,12 +9,8 @@ body .section-title span:before {
   line-height: 43px !important;
   text-align: left !important;
   border-bottom: 3px solid black;
-  text-align: left;
 }
 
-.section-title span {
-  border: none !important;
-}
 
 body .content-area .page-section.titles {
   border: none !important;
@@ -23,4 +19,20 @@ body .content-area .page-section.titles {
 
 body .content-area .page-section.titles h1 {
   font-size: 46px !important;
+}
+
+@media (max-width: 991px) {
+  .section-title span, .title {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 495px) {
+  body .content-area .page-section.titles h1 {
+    font-size: 24px !important;
+  }
+
+  #home > div > section > div > h2 svg {
+    display: none !important;
+  }
 }

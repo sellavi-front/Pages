@@ -1,0 +1,61 @@
+@import '../../../fixes/fixes.css';
+
+@import './pay-delivery/pay-delivery.css';
+
+@import '../../../templates/TemplateTypeTwo/styles/withoutCat.css';
+
+@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+
+@import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
+
+@import './header/header.css';
+
+@import './banner/banner.css';
+
+@import './secondMenu/secondMenu.css';
+
+@import './newProd/newProd.css';
+
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+
+@import './footer/footer.css';
+
+@import '../../../components/FormBasic/FormBasic.css';
+
+@import './sender-basic/sender-basic.css';
+
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';
+
+@import './map/map.css';
+
+@import './header/headerMobile.css';
+
+@import './product/productMobile.css';
+
+@import './footer/footerMobile.css';
+
+@import './product-category/sectionBanner.css';
+
+@import '../../../components/ColorChoise/ColorChoise.css';
+
+@import './product-product/side-product-info.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}

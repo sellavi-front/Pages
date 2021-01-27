@@ -1,0 +1,22 @@
+.docs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+
+.docs li {
+  margin-right: 25px;
+}
+
+.docs li a {
+  color: white !important;
+  opacity: .6;
+}
+
+.phh p,
+.docs ul {
+  margin: 15px 0 !important;
+}

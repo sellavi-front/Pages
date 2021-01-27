@@ -1,0 +1,11 @@
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import './cart/cart.css';
+@import './sf-menu/sf-menu.css';
+@import './search/search.css';
+@import './header/header.css';
+@import './header-mobile/header-mobile.css';
+@import './header-widgets/header-widgets.css';
+@import './header-wishlist/header-wishlist.css';
+@import './header-login/header-login.css';
+@import './logo/logo.css';

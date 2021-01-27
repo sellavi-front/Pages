@@ -2,20 +2,10 @@
   flex-direction: column !important;
 }
 
-.thumbnail .price_actions .add_to_cart {
-  text-align: left !important;
-  width: 100% !important;
-}
-
-.thumbnail .price_actions .add_to_cart button {
-  border: 1px solid black;
-  padding: 5% 25%;
-  border-radius: 0;
-}
 
 .product-item .thumbnail .caption, .product-layout .thumbnail .caption {
   max-height: initial !important;
-  min-height: initial !important;
+  min-height: 70px !important;
   margin: 20px 0 !important;
   overflow: hidden !important;
 }
@@ -35,4 +25,7 @@
   max-width: inherit !important;
   max-height: inherit !important;
 
+}
+.product-product .product-single .buttons .quantity .btn:hover {
+  color: black !important;
 }

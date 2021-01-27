@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.about__item {
+    flex-direction: row-reverse;
+}
+
+
+#home > div > div > section > div.about > div > div > div > img {
+    border-radius: 0px;
+}
+
+#home > div > div > section > div.about > div > div > div > div > h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#home > div > div > section > div.about > div > div > div > div > p:nth-child(2) {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#home > div > div > section > div.about > div > div > div > div > p:nth-child(3) {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.about__item-container {
+    width: 45%;
+}
+
+.flex-logo-text {
+    display: flex;
+    position: relative;
+    bottom: 45px;
+    left: 220px;
+}
+
+.thisLogo {
+    width: 50px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1606902190/%D0%9B%D0%9E%D0%93%D0%9E_2_akhp2f.png);
+    background-size: cover;
+}
+
+#home > div > div > section > div.about > div > div > div > div > h2 > div > div.thisLogoText {
+    font-family: inter;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+#home > div > div > section > div.about > div > div > div > div > h2 {
+    margin-bottom: 0px;
+}
+
+.about__item_img {
+    width: 60%;
+}
+
+.about__item {
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px
+}
