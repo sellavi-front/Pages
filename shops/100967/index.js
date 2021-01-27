@@ -2,7 +2,6 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
@@ -14,6 +13,8 @@ import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
+import Steps from '../../components/Steps/Steps.js';
+
 import cartWhite from './assets/svg/bag-white.js';
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
