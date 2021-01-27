@@ -17,7 +17,7 @@ export default class Steps extends BaseComponent {
           </div>
           <div class="step-bottom">
             <p>
-              ${elem.text}
+              ${elem}
             </p>
           </div>
         <article>
@@ -39,13 +39,14 @@ export default class Steps extends BaseComponent {
   }
 }
 
+
 if (location.href.includes('/test')) {
   const props = {
     container: document.querySelector("#content > div > div"),
     target: 'beforeend',
   };
 
-  const data = [{ text: 'a' }, { text: 'a' }];
+  const data = ['a','a','a'];
 
   new Steps(props, data).setTemplate();
 }
