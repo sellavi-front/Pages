@@ -1,0 +1,35 @@
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+.step {
+  max-width: 367px;
+  widows: 100%;
+  margin: 0 35px 50px 0;
+}
+
+.step-top {
+  height: 64px;
+  background: #1D5271;
+  margin: 0 0 12px 0;
+}
+
+.step-top span {
+  font-size: 58px;
+  font-weight: bold;
+  padding: 0;
+  margin: auto auto 0 26px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .step {
+    margin-right: 0;
+  }
+}
