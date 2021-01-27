@@ -1,4 +1,4 @@
-import CreateAddContainer from '../../CreateAddContainer/CreateAddContainer.js';
+import BaseComponent from '../BaseComponent/BaseComponent.js';
 
 export default class Steps extends BaseComponent {
   // props = [container, target, template]
