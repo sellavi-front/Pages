@@ -9,3 +9,8 @@
 header > div.header-wrapper > div.container > ul > li:nth-child(1) {
     display: none;
 }
+
+.sf-menu>li>ul {
+    width: inherit !important;
+    z-index: 999 !important;
+}
