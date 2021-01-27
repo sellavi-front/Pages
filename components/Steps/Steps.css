@@ -1,25 +1,17 @@
 .steps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(311px, 367px));
+  grid-column-gap: 35px;
+  grid-row-gap: 50px;
 }
 
-
 .step {
-  max-width: 367px;
-  min-width: 311px;
   width: 100%;
-  margin: 0 35px 50px 0;
 }
 
 .step-top {
   height: 64px;
-  background: #1D5271;
+  background: #1d5271;
   margin: 0 0 12px 0;
   position: relative;
   border-radius: 10px;
@@ -31,7 +23,7 @@
   padding: 0;
   margin: 0 0 0 26px;
   color: white;
-  line-height: .7;
+  line-height: 0.7;
   position: absolute;
   bottom: 0;
   height: inherit;
