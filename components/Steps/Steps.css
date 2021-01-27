@@ -10,7 +10,7 @@
 
 .step {
   max-width: 367px;
-  widows: 100%;
+  width: 100%;
   margin: 0 35px 50px 0;
 }
 
@@ -20,7 +20,7 @@
   margin: 0 0 12px 0;
 }
 
-.step-top span {
+.step-top .num {
   font-size: 58px;
   font-weight: bold;
   padding: 0;
