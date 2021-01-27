@@ -25,3 +25,7 @@ header > div.header-wrapper > div.container > ul > a {
     margin-left: 15px;
     font-size: 18px !important;
 }
+
+.sf-menu.nav>li>a, a {
+    font-weight: 500 !important
+}
