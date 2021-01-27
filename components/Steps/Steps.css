@@ -1,7 +1,7 @@
 .steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(311px, 347px));
-  grid-column-gap: 35px;
+  grid-column-gap: 30px;
   grid-row-gap: 50px;
 }
 
