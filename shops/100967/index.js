@@ -21,7 +21,7 @@ import cartWhite from './assets/svg/bag-white.js';
 // import salesData from './utils/salesData.js';
 import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
-import {l1, l2} from './assets/svg/l1.js'
+import { l1, l2 } from './assets/svg/l1.js';
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
@@ -176,10 +176,10 @@ if (document.querySelector('.wrapper')) {
 
   // document.querySelector("#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul").insertAdjacentHTML('afterend', `<p class="d-flex justify-content-center align-items-center custom__text_ph">Бесплатная доставка</p>`);
 
-  document.querySelectorAll(".panel-collapse > ul > li > a").forEach((el) => {
+  document.querySelectorAll('.panel-collapse > ul > li > a').forEach((el) => {
     const tr = el.textContent;
 
-    if(tr.includes(' - ')) {
+    if (tr.includes(' - ')) {
       el.textContent = tr.slice(2);
     }
   });
@@ -356,7 +356,7 @@ if (document.querySelector('.product-product')) {
     );
     commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
 
-    document.querySelector("#form-review > div.comments-form > h2").textContent = 'Оставить отзыв'
+    document.querySelector('#form-review > div.comments-form > h2').textContent = 'Оставить отзыв';
   }
 }
 
@@ -365,6 +365,19 @@ if (location.href.includes('/checkout')) {
     '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label',
   );
   textDelivery.textContent = 'Оплата курьеру при получении';
+
+  document
+    .querySelector(
+      '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
+    )
+    .insertAdjacentHTML(
+      'beforeend',
+      `
+<div class="warranty">
+  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
+</div>
+`,
+    );
 }
 
 if (document.querySelector('.product-item')) {
@@ -393,9 +406,9 @@ if (document.querySelector('.product-product')) {
   `,
   );
 
-  const titleSect = document.querySelector("#home > div > section > div > h2 > span");
-  titleSect.insertAdjacentHTML('afterend', l1)
-  titleSect.insertAdjacentHTML('beforebegin', l2)
+  const titleSect = document.querySelector('#home > div > section > div > h2 > span');
+  titleSect.insertAdjacentHTML('afterend', l1);
+  titleSect.insertAdjacentHTML('beforebegin', l2);
   // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
   //   el.insertAdjacentHTML(
   //     'beforebegin',
@@ -429,17 +442,22 @@ if (document.querySelector('.product-product')) {
   // });
 }
 
-if (location.href.includes('/checkout')) {
-  document
-    .querySelector(
-      '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
-    )
-    .insertAdjacentHTML(
-      'beforeend',
-      `
-  <div class="warranty">
-    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
-  </div>
-`,
-    );
+if (location.href.includes('/test')) {
+  const mainContainer = document.querySelector('#content > div > div');
+
+  const props = {
+    container: mainContainer,
+    target: 'beforeend',
+  };
+
+  const dataSteps = [
+    'Скорректировать контактные данные и адрес доставки;',
+    'Посмотреть историю покупок;',
+    'Проконсультироваться с врачом-офтальмологом;',
+    'Получить напоминание пополнить Ваш запас линз, с нами вы всегда будете видеть!',
+    'Записаться на бесплатный прием к офтальмологу.',
+    'Получать подарки, бонусы, скидки и многое другое!',
+  ];
+
+  new Steps(props, dataSteps).setTemplate();
 }
