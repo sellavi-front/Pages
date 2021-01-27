@@ -20,3 +20,8 @@ header > div.header-wrapper > div.container > ul > a {
     display: flex;
     align-items: center;
 }
+
+#home > div > header > div.header-wrapper > div.container > ul > a:nth-child(4) {
+    margin-left: 15px;
+    font-size: 18px !important;
+}
