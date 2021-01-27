@@ -26,7 +26,6 @@
   line-height: 0.7;
   position: absolute;
   bottom: 0;
-  height: inherit;
 }
 
 @media (max-width: 768px) {
