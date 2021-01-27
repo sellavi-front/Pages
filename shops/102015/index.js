@@ -43,3 +43,7 @@ if (location.href.includes('contact')) {
 }
 
 //test
+
+if (document.querySelector('.header-wrapper')) {
+  document.querySelector('.navigation_black_screen').remove();
+}
