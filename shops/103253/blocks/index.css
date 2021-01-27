@@ -1,3 +1,21 @@
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
-
 @import './pay-delivery/pay-delivery.css';
+
+@import url("//db.onlinewebfonts.com/c/3dd6e9888191722420f62dd54664bc94?family=Myriad+Pro");
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  /* font-size: 16px; */
+}
