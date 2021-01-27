@@ -13,6 +13,7 @@
 @import './platform-cat/container.css';
 @import './header/search.css';
 @import './product/product.css';
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';
 
 body h1,
 body h2,
