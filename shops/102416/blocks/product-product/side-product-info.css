@@ -272,6 +272,11 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     }
 }
 
+.payment.clearfix #button-payment {
+    border: 2px solid black !important;
+    color: black;
+}
+
 /* header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a {
     color: black !important;
 } */
