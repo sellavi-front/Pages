@@ -189,3 +189,7 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 .thumbnail.thumbnail-banner .media-link {
     align-items: center !important;
 }
+
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+    border-radius: 10%;
+}
