@@ -20,7 +20,7 @@ export default class Steps extends BaseComponent {
               ${elem}
             </p>
           </div>
-        <article>
+        </article>
       `;
       })
       .join('');
