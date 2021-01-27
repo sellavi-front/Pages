@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('../../fixes/fixes.css');
-@import url('../../modules/BigCategories/BigCategories.css');
+@import url('../../components/BigCategories/BigCategories.css');
 @import url('../../components/SenderTypeOne/SenderTypeOne.css');
 
 html, body,
@@ -504,6 +504,9 @@ body .footer .footer-widgets .widget-title {
 
 .docs__meta {
   margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .docs__meta a {
@@ -523,6 +526,15 @@ body .footer .footer-widgets .widget-title {
   margin-left: 15px;
 }
 
+.footer-widgets>.container-fluid>.row>.col-md-3 {
+  margin-top: 5%;
+}
+
+#home > div.wrapper.wrapper-closed > div > section > div > div > div.products__block__banner > img:hover,
+.cards__item:hover {
+  cursor: pointer;
+}
+
 /* End */
 
 
@@ -536,10 +548,6 @@ body .footer .footer-widgets .widget-title {
   .navbar__block {
     display: flex;
     justify-content: center;
-  }
-
-  .col-md-3 + .col-md-3 {
-    margin-right: 5%;
   }
 
   .cards__item {
@@ -575,12 +583,12 @@ body .footer .footer-widgets .widget-title {
     text-align: center;
   }
 
-  .col-md-3 + .col-md-3 {
-    margin-top: 5%;
-  }
-
   .products__block {
     flex-direction: column;
+  }
+
+  .products__block__banner {
+    width: 100%;
   }
 
   .products__block__banner img {
@@ -588,20 +596,27 @@ body .footer .footer-widgets .widget-title {
   }
 
   .products__block__items {
-    margin-top: 5%;
-    align-self: center;
+    display: flex;
+    width: 100%;
     flex-direction: column;
+    align-self: center;
+    margin-top: 5%;
   }
 
   #home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container-fluid > div > div:nth-child(1) {
     display: none;
   }
+
+  .docs__meta {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1500px) {
-  .col-md-3 + .col-md-3 {
-    margin-right: 5%;
-  }
+
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://coospir.github.io/Pages/components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.css');
+@import url('https://coospir.github.io/Pages/shops/100980/pages/aboutCompany/aboutCompany.css');
 
 html, body,
 body span,
@@ -38,6 +39,13 @@ input.form-control::placeholder,
 .navbar_item {
   padding: 10%;
   color: #000;
+}
+
+.logo {
+  margin: 0 !important;
+  max-width: 255px;
+  height: auto;
+  text-align: left;
 }
 
 .header-cart .cart-wrapper #cart, .header-cart .cart-wrapper #wishlist {
@@ -200,6 +208,14 @@ img + h6 {
 body.ltr ol, body.ltr ul {
   padding-left: 5% !important;
   padding-right: unset;
+}
+
+.navigation-wrapper {
+  display: none;
+}
+
+body.theme-red-2 .header {
+  border-bottom: 0;
 }
 
 /* Content Layout One */

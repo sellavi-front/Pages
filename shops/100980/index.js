@@ -1,6 +1,7 @@
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import GetCategoriesFromNavbar from "../../components/GetCategoriesFromNavbar/GetCategoriesFromNavbar.js";
 import imgArr from "./utils/images.js";
+import renderAboutCompanyTemplate from "./pages/aboutCompany/aboutCompany.js";
 
 window.onload = () => {
   /* Deleting burger */
@@ -8,19 +9,20 @@ window.onload = () => {
 
   /* Setting logo */
   document.querySelector("header>.header-wrapper>.container").setAttribute("class", "container-fluid")
-  let logo = document.querySelector("#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div > div.logo")
+  let containerNavbar = document.querySelector(".logo")
   let customBanner = document.querySelector(".custom_banner")
   let customSection = document.querySelector(".custom_section")
-  logo.classList.add("navbar__block")
+  containerNavbar.classList.add("navbar__block")
   let navbar = `
-    <a class="navbar_item" href="#">О компании</a>
-    <a class="navbar_item" href="#">Доставка</a>
-    <a class="navbar_item" href="#">Оплата и возврат</a>
-    <a class="navbar_item" href="#">Комплексное оснащение</a>
-    <a class="navbar_item" href="#">Готовые решения</a>
-    <a class="navbar_item" href="#">Контакты</a>
+        <a class="navbar_item" href="/about-company/"><p>О компании</p></a>
+        <a class="navbar_item" href="#"><p>Доставка</p></a>
+        <a class="navbar_item" href="#"><p>Оплата и возврат</p></a>
+        <a class="navbar_item" href="#"><p>Комплексное оснащение</p></a>
+        <a class="navbar_item" href="#"><p>Готовые решения</p></a>
+        <a class="navbar_item" href="#"><p>Контакты</p></a>
   `
-  logo.insertAdjacentHTML("beforeend", navbar)
+
+  containerNavbar.insertAdjacentHTML("beforeend", navbar)
   if(window.location.pathname === '/' || window.location.pathname === '/?from_admin') {
     let customBanner = document.querySelector(".custom_banner")
     let bannerLayout = `
@@ -57,6 +59,7 @@ window.onload = () => {
           </div>
         </div>
     </div>`
+
     let contentLayoutOne = `
     <div class="content__layout__container">
         <div class="container">
@@ -77,7 +80,8 @@ window.onload = () => {
         </div>
       </div>
     </div>
-  `
+    `
+
     customBanner.insertAdjacentHTML("afterbegin", bannerLayout)
     customSection.insertAdjacentHTML("afterbegin", contentLayoutOne)
     document.querySelector(".section-title.mb-4.mt-4").remove()
@@ -105,6 +109,10 @@ window.onload = () => {
         }
       </div>
     `*/
+  }
+
+  if(location.pathname === '/about-company/') {
+    renderAboutCompanyTemplate()
   }
 
 
@@ -144,7 +152,7 @@ window.onload = () => {
   document.querySelector(".footer>.footer-widgets>.container").insertAdjacentHTML("afterbegin", footerLayout)
   let footerMenuLayout = `
     <div class="menu__footer">
-        <a href="#">О компании</a>
+        <a href="/about-company/">О компании</a>
         <a href="#">Доставка</a>
         <a href="#">Оплата и возврат</a>
         <a href="#">Комплексное оснащение</a>

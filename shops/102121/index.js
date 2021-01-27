@@ -20,10 +20,11 @@ if(window.location.pathname === '/' || window.location.pathname === '/?from_admi
   let nodeList = document.querySelectorAll("header>.navigation-wrapper>.container>.navigation>.nav.sf-menu>li")
   let categories = new GetCategoriesFromNavbar(Array.from(nodeList), imgArr, "Каталог товаров", customBanner, "afterend")
   categories.render()
+
   const objBanner = {
     title: 'Wigstyle',
     link: '#',
-    linkContent: 'Подробнее',
+    linkContent: 'Подробнее'
   };
 
   const bigBanner = new BigBanner(objBanner, 'https://images.unsplash.com/photo-1565357419076-6acd4a10094e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
