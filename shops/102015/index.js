@@ -28,6 +28,7 @@ if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
 }
 
 if (document.querySelector('.common-home')) {
+  document.querySelector('#home > div > div > section.page-section.latest-section > div > h2 > span').setAttribute('id', 'neww')
   document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', '<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611666346/Component_1_lilp3a.png"></img></div>');
 }
 
@@ -51,6 +52,5 @@ if (document.querySelector('.header-wrapper')) {
 }
 
 if (document.querySelector('.header-wrapper')) {
-  document.querySelector('#home > div > div > section.page-section.latest-section > div > h2 > span').setAttribute('id', 'neww')
   document.querySelector('#home > div > header > div.header-wrapper > div.container > ul > li.flexy.has_children').insertAdjacentHTML('afterend', '<a href="https://store102015.sellavi.com/#neww">Новинки</a>')
 }
