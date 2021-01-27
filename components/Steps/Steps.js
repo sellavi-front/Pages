@@ -30,7 +30,7 @@ export default class Steps extends BaseComponent {
     return `
       <div class="steps">
         ${this.getData()}
-      <div>
+      </div>
     `;
   }
 
