@@ -1,7 +1,5 @@
 import "./docs/requisites.js"
-import "../../components/HeaderTypeThree/HeaderTypeThree.js"
-import "../../components/HeaderTypeThree/scripts/collapseShow.js"
-import "../../components/HeaderTypeThree/scripts/removeSelectors.js"
+import "../../templates/TemplateTypeTwo/TemplateTypeTwo.js"
 import Paths from "./path/paths.js"
 
 
