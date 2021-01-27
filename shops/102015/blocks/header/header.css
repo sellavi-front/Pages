@@ -14,3 +14,9 @@ header > div.header-wrapper > div.container > ul > li:nth-child(1) {
     width: inherit !important;
     z-index: 999 !important;
 }
+
+header > div.header-wrapper > div.container > ul > a {
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+}
