@@ -4,6 +4,8 @@ export default class BaseComponent {
   }
 
   render(elem) {
+    console.log(this.props);
+
     this.props.container.insertAdjacentHTML(this.props.target, elem);
   }
 }
