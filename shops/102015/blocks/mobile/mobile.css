@@ -15,4 +15,79 @@
         color: #f26a99;
     }
 
+    body .section-title, body.ltr.ru .wrapper .latest-section h2.section-title {
+        margin: 0px !important;
+    }
+    
+    #home > div > div > section.page-section.latest-section > div > h2 {
+        margin-top: 30px !important;
+    }
+    
+    .product-item .caption a {
+        font-size: 14px !important;
+        height: 200px !important;
+    }
+    
+    body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+        font-size: 14px !important;
+    }
+    
+    .caption.text-center {
+        text-align: left !important;
+        display: flex;
+        justify-content: flex-start !important;
+    }
+    
+    .mobile_two_columns .products .thumbnail .caption {
+        max-height: 65px !important;
+    }
+    
+    #home > div > div > section.page-section.latest-section > div > div > div:nth-child(4) > div > div.caption.text-center {
+        height: 65px;
+    }
+    
+    .far.fa-shopping-cart {
+        display: block !important;
+    }
+    
+    section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between.hide_cart_button > div.buttons__container > div.add_to_cart > button > span {
+        font-size: 10px;
+    }
+    
+    .add_to_cart .btn.btn-theme.btn-theme-transparent.btn-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .add_to_wishlist .btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+        width: 34px !important;
+    }
+    
+    .fa-shopping-cart.far {
+        color: #000000;
+    }
+    
+    #home > div > div > section.page-section.homefeatured_category > div > h2 > span {
+        font-size: 24px;
+    }
+    
+    #home > div > div > section.page-section.homefeatured_category > div > div {
+        margin-top: 0px;
+    }
+    
+    body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+        height: 174px !important;
+        width: 91%;
+    }
+    
+    .media .media-link {
+        text-align: center !important;
+    }
+    
+    #home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+        padding-left: 15px;
+    }
+
 }
