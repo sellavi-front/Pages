@@ -27,3 +27,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover > i, .thumbnail .add_to_wishlist button:hover > i{
     color: white !important;
 }
+
+ @media (max-device-width: 480px) {
+    body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+        left: 0px !important;
+        top: 0px !important;
+    }
+ }
