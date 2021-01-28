@@ -193,3 +193,15 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
     border-radius: 10%;
 }
+
+@media (max-device-width: 480px) {
+    .header-cart.sticky {
+        right: 70px !important;
+        top: inherit
+    }
+
+    body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+        left: -190px !important
+    }
+}
+
