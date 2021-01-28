@@ -16,7 +16,7 @@ export default class Category extends BaseComponent {
             </a>
           </div>
       `
-    })
+    }).join('')
   }
 
   getTemplate() {
