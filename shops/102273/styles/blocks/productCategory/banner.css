@@ -31,6 +31,7 @@ body.product-category .content-area .page-section.titles {
   height: 460px;
   background-position: right;
   background-size: cover;
+  border: none !important;
 }
 
 body .content-area .page-section.titles .container {
