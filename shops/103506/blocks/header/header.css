@@ -13,3 +13,7 @@
     color: #D3865F !important;
   }
 }
+
+#home > div > header > div.header-wrapper > div.container > ul > li:nth-child(1) a {
+  border: 0 !important;
+}
