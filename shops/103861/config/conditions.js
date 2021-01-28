@@ -3,7 +3,7 @@ const pages = {
   category: document.querySelector('.product-category'),
   checkout: document.querySelector('.checkout-checkout'),
   cart: document.querySelector('.checkout-cart'),
-  prodcut: document.querySelector('.product-product'),
+  product: document.querySelector('.product-product'),
   information: document.querySelector('.information-information'),
   login: document.querySelector('.account-login'),
   register: document.querySelector('.account-register'),
