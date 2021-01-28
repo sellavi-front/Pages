@@ -203,5 +203,13 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
     body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
         left: -190px !important
     }
+
+    a.close_popup.btn.btn-theme-default.w-100 {
+        font-size: 10px;
+    }
+    
+    a.btn.btn-theme.btn-call-checkout.w-100 {
+        font-size: 10px;
+    }
 }
 
