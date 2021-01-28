@@ -27,10 +27,9 @@ export default (function () {
       if (document.querySelector(cat.class)) {
         pageHeader.insertAdjacentHTML(
           'beforeend',
-          `
-            <p class="page-header__descp">
+          `<p class="page-header__descp">
               ${cat.descp}
-            </p>`,
+          </p>`,
         );
       }
     });
