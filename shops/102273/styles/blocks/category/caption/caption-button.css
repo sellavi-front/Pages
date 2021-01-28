@@ -18,6 +18,11 @@ body.ru
   width: 150px !important;
 }
 
+
+body.common-home > div > div.content-area > section > div > div > div:nth-child(4) > div > div > a > div > div > div > span {
+  border-color: white !important;
+}
+
 @media (max-width: 992px) {
   body.ltr
     .wrapper
