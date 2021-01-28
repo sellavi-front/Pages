@@ -20,7 +20,7 @@ document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer
 
 /* Удаляем эффект затеменения при ховере на меню */
 document.querySelector("#home > div > header > div.header-wrapper > div.container > ul > li:nth-child(1)").addEventListener("mouseover", () => {
-  document.querySelector("#home > div > div.navigation_black_screen").classList.remove("active")
+  document.querySelector("#home > div > div.navigation_black_screen").setAttribute("class", "navigation_black_screen")
 })
 
 
