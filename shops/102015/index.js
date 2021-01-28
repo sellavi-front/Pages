@@ -58,7 +58,7 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.common-home')) {
   if (screen.width < 480) {
-    document.querySelector('#home > div > div > div.main-slider.content_center > div.custom_banner > div > img').setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611825235/Component_2_1_wi15wx.png')
+    document.querySelector('#home > div > div > div.main-slider.content_center > div.custom_banner > div > img').setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1611847670/Component_2_2_ifmjs3.png')
   }
 }
 
