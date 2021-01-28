@@ -2,3 +2,8 @@
   font-size: 14px !important;
   font-weight: 100;
 }
+
+.header .header-wrapper .mobile-navigation-wrapper a {
+  font-size: 23px;
+  color: #D3865F !important;
+}
