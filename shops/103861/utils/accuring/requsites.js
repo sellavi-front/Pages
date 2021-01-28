@@ -1,6 +1,6 @@
 // отображается на страницах Пользовательское соглашение и обратная связь
 
-const requsites = {
+export const requsites = {
   'ИП': 'ГЕВОРГЯН ОГАННЕС АРТАКОВИЧ',
   'ИНН': '391505428405',
   'ОГРНИП': '320774600302022',
@@ -12,14 +12,14 @@ const requsites = {
 };
 
 // ТО что отображается на странице оплата и доставка
-const dataContact = {
+export const dataContact = {
   adress: 'Москва, Солнечный бульвар, д. 2',
   phone: '+79773441344',
   city: 'г. Москва',
   timeWork: `10:00-22:00 каждый день`,
 }
 
-export {
+/*export default {
   dataContact,
   requsites
-};
+};*/
