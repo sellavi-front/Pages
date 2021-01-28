@@ -39,6 +39,6 @@ export default (function() {
 
     advantages.render();
 
-    document.querySelector('#banner0 > div > div > div > div > div > div').classList.remove('container')
+    document.querySelector('.main-slider > .owl-carousel > div > div > div > div > div > div').classList.remove('container')
   }
 })();
