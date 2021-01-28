@@ -21,7 +21,6 @@
 @import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
 @import '../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
-@import '../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
 @import '../../templates/TemplateTypeTwo/styles/footer/footer.css';
 @import '../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 
@@ -275,6 +274,11 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons .
   color: #000 !important;
   border: 1px solid !important;
   border-radius: 5px !important;
+}
+
+body.ltr.ru .wrapper .latest-section h2.section-title {
+  text-transform: none !important;
+  text-align: center !important;
 }
 
 /* End */
