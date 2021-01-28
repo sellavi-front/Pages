@@ -1,5 +1,22 @@
 body .content-area .page-section.titles {
   height: 460px;
-  background: url('https://cdn.sellavi.com/image/upload/v1608906652/ru/clients/102273/1b95f4297c67f6af7681d1385099e3011c30e1ab.webp') no-repeat;
+  background: url('https://cdn.sellavi.com/image/upload/v1608906652/ru/clients/102273/1b95f4297c67f6af7681d1385099e3011c30e1ab.webp')
+    no-repeat;
   background-position: right;
+  background-size: cover;
+}
+
+body .content-area .page-section.titles .container {
+  max-width: 100% !important;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body .content-area .page-section.titles .container h1 {
+  text-align: left;
 }
