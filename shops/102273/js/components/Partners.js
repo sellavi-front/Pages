@@ -11,8 +11,8 @@ export default class medSocProg extends BaseComponent {
       return `
         <div class="partner">
           <img src="${elem.src}" alt="" />
-          <h3 class="page-section__title">${elem.title}</h3>
-          <p class="page-section__ph">
+          <h3 class="partners__title">${elem.title}</h3>
+          <p class="partners__ph">
               ${elem.text}
           </p>
           <a href="${elem.link}">ссылка</a>
@@ -23,7 +23,7 @@ export default class medSocProg extends BaseComponent {
 
   getTemplate() {
     return `
-      <section class="page-section__content partners">
+      <section class="partners">
         ${this.getData()}
       </section>
     `

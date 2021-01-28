@@ -2,3 +2,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 540px));
 }
+
+.partner {
+  height: 380px;
+}
+
+.partners__title {
+  font-size: 22px;
+  font-weight: bold;
+}
