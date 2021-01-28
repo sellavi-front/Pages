@@ -62,8 +62,5 @@ export default (function () {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', charityPage());
     }
 
-    if (document.querySelector('.product-category-6976')) {
-      document.querySelector('.icon-category').insertAdjacentHTML('afterend', goodsPage());
-    }
   }
 })();
