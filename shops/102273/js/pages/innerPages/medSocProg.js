@@ -1,5 +1,4 @@
 export default function medSocProg() {
-  if (document.querySelector('.product-category-5988')) {
       return `
         <section class="page-section__content">
           <h3 class="page-section__title">Международный благотворительный фонд «Дети Солнца»</h3>
@@ -64,6 +63,5 @@ export default function medSocProg() {
             В целях выполнения указанных выше программ привлечены и работают с Фондом наши партнеры.
           </p>
         </section>
-      `
-  }
+      `;
 };

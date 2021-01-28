@@ -20,7 +20,6 @@ export default (function () {
         );
       }
     });
-
   }
 
   if (
@@ -43,7 +42,8 @@ export default (function () {
     new FormBasic(container, 'beforeend', senderData, FormTags).render();
     new Category(props, categoryData).setTemplate();
 
-    document.querySelector('.icon-category').insertAdjacentHTML('afterend', medSocProg());
-
+    if (document.querySelector('.product-category-5988')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', medSocProg());
+    }
   }
 })();
