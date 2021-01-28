@@ -8,3 +8,8 @@
   -o-object-position: right;
   object-position: right;
 }
+
+.owl-wrapper-outer {
+  -webkit-box-shadow:  none !important;
+          box-shadow:  none !important;
+}
