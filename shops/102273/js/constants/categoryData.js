@@ -7,39 +7,9 @@ const categoryData = {
       link: '/disinfecting-frames',
     },
     {
-      text: 'Дезинфекцирующие средства',
-      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-hand-wash_mm16oq.svg',
-      link: '/disinfectants',
-    },
-    {
-      text: 'Вода',
-      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-water_je5mez.svg',
-      link: '/water',
-    },
-    {
-      text: 'Кофе',
-      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-coffee-beans_dhgj4d.svg',
-      link: '/water',
-    },
-    {
       text: 'Косметика',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-makeup_orwxyw.svg',
       link: '/cosmetics',
-    },
-    {
-      text: 'Медицинские услуги',
-      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-medical-history_ushwwl.svg',
-      link: '/medical-service',
-    },
-    {
-      text: 'Мед. приборы и оборудование',
-      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-stethoscope_vxffbp.svg',
-      link: '/medical-tech',
-    },
-    {
-      text: 'Мед. одежда',
-      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-protection-mask_kclk2d.svg',
-      link: '/medical-clothing',
     },
     {
       text: 'Лечебное питание',
@@ -47,15 +17,46 @@ const categoryData = {
       link: '/health-food',
     },
     {
+      text: 'Дезинфекцирующие средства',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-hand-wash_mm16oq.svg',
+      link: '/disinfectants',
+    },
+    {
+      text: 'Медицинские услуги',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-medical-history_ushwwl.svg',
+      link: '/medical-service',
+    },
+    {
       text: 'Питомник растений',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832430/102273/icons8-potted-plant_rtncs6.svg',
       link: '/plant-nursery',
+    },
+    {
+      text: 'Вода',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-water_je5mez.svg',
+      link: '/water',
+    },
+    {
+      text: 'Мед. приборы и оборудование',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-stethoscope_vxffbp.svg',
+      link: '/medical-tech',
     },
     {
       text: 'Городское хозяйство',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832430/102273/icons8-city-buildings_yj5in0.svg',
       link: '/urban-economy',
     },
+    {
+      text: 'Кофе',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-coffee-beans_dhgj4d.svg',
+      link: '/water',
+    },
+    {
+      text: 'Мед. одежда',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-protection-mask_kclk2d.svg',
+      link: '/medical-clothing',
+    },
+
     {
       text: 'Туризм',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832430/102273/icons8-airport_gtx1o0.svg',
