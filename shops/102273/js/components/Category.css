@@ -1,6 +1,9 @@
 .icon-category {
   display: grid;
   grid-template-columns: repeat(auto-fit, 290px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .icon-category__elem {
