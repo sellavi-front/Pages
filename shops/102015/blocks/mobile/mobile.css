@@ -1,0 +1,18 @@
+@media (max-device-width: 480px) {
+    ul.nav.sf-menu {
+        display: none;
+    }
+
+    #home > div > header > div.header-wrapper > div.container > div.header_widgets > div.header_wishlist {
+        display: none;
+    }
+
+    .fas.fa-bars {
+        color: red !important;
+    }
+
+    .fa-shopping-cart.far {
+        color: #f26a99;
+    }
+
+}
