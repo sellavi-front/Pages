@@ -90,6 +90,10 @@
         padding-left: 15px;
     }
 
+    #content > div > div.row.products.grid > div > div > div.price_actions.d-flex.justify-content-between.hide_cart_button > div.buttons__container > div.add_to_cart > button > span {
+        font-size: 10px !important
+    }
+
 }
 
 .mobile_two_columns .products .thumbnail .caption {
