@@ -35,6 +35,12 @@ if (document.querySelector('.logo')) {
   oldNavBar.remove()
 }
 
+if (document.querySelector('.header-wrapper')) {
+  if (screen.width < 480) {
+    document.querySelector('#home > div > header > div.header-wrapper > div.container > div.logo').insertAdjacentHTML('beforebegin', '<div class="header-cart sticky" data-product-added-text="Product added to cart"><div class="cart-wrapper"><div class="fixed_logo" style="display: none"><a href="https://plumber-russia.ru/" role="link"><img src="https://cdn.sellavi.com/image/upload/c_fit,g_center,h_176,q_100,w_430/c_pad,h_176,w_430/v1610975455/ru/clients/103009/9efd6477632506587fe7e3674991edcc6e3a4873.webp" title="Plumber Russia" alt="Plumber Russia"></a></div><div class="dropdown cart_drop_down"><a tabindex="0" href="#" id="cart" data-toggle="dropdown" data-display="static" title="Перейти в корзину" aria-haspopup="true" aria-expanded="false" role="link"><span class="d-none d-lg-inline-block">Корзина</span><i class="fa-shopping-cart far"></i><span class="cart-qty-circle mobile d-block d-lg-none">0</span><span class="cart-qty-circle desktop d-none d-lg-block">0</span></a><div class="dropdown-menu dropdown-menu-right"><div class="cart-items"><div class="cart-items-inner overflow-hidden"><div class="col-12"><div class="cart-content"><div class="row cart-header"><div class="col-12"><p>Ваша корзина, 0 товар/ы</p></div></div><div class="row empty_cart"><div class="col-12"><p>Ваша корзина пуста</p></div></div></div></div></div></div></div></div></div></div>');
+  }
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Балинец Наталья Александровна');
 
