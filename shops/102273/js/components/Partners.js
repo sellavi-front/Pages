@@ -18,7 +18,7 @@ export default class medSocProg extends BaseComponent {
           </p>
         </div>
       `
-    })
+    }).join('')
   }
 
   getTemplate() {
