@@ -9,3 +9,7 @@
 .soc-icons {
     width: inherit;
 }
+
+#home > div > div > div.custom_section.container > div > ul > li > p.contact__list-text > a {
+    color: red !important;
+}
