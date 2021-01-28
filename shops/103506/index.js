@@ -18,11 +18,6 @@ if (document.querySelector('.header-wrapper')) {
 document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4").innerHTML = 'О нас'
 document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").innerHTML = 'О нас'
 
-/* Удаляем эффект затеменения при ховере на меню */
-document.querySelector("#home > div > header > div.header-wrapper > div.container > ul > li:nth-child(1)").addEventListener("mouseover", () => {
-  document.querySelector("#home > div > div.navigation_black_screen").setAttribute("class", "navigation_black_screen")
-})
-
 
 if(Paths.home) {
   document.querySelector("#banner0 > div > div > div > div > picture > source").setAttribute("srcset", "https://cdn.sellavi.com/image/upload/ru/clients/103506/26d063c3bf4bf691704286bebed1d6fb15dd1142.jpg")
