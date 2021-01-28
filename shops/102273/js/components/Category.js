@@ -7,7 +7,7 @@ export default class Category extends BaseComponent {
   }
 
   getData() {
-    return this.data.map(elem => {
+    return this.data.content.map(elem => {
       return `
           <div class="icon-category__elem">
             <img class="icon-category__elem_ico" src="${elem.src}" alt="иконка категории">

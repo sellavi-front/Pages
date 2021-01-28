@@ -1,6 +1,6 @@
 const categoryData = {
   title: 'Категории',
-  data: [
+  content: [
     {
       text: 'Дезинфекцирующие рамки',
       src: '../../assets/icons/red/icons8-metal-detector.png',
