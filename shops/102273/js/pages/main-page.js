@@ -38,5 +38,7 @@ export default (function() {
     const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), AdvantagesData, 'afterend');
 
     advantages.render();
+
+    document.querySelector('#banner0 > div > div > div > div > div > div').classList.remove('container')
   }
 })();
