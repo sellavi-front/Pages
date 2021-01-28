@@ -1,5 +1,6 @@
 import FormBasic from '../../../../../components/FormBasic/FormBasic.js';
 import Category from '../../components/Category.js';
+import Partners from '../../components/Partners.js';
 
 import senderData from '../../constants/senderData.js';
 import FormTags from '../../constants/FormTags.js';
@@ -53,6 +54,7 @@ export default (function () {
         target: 'afterend',
       }
       new Partners(props, partnersData).setTemplate();
+
     }
   }
 })();
