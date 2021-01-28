@@ -138,7 +138,7 @@ const partnersData = [
     link: '#'
   },
   {
-    src: '',
+    src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611845434/102273/partners/imgpsh_fullsize-1-e1527760781607_1_rpjw3f.png',
     title: 'Партнер – компания ООО «ГАММА-ПЛАСТ».',
     text: 'Участие в социальных программах и программах развития городского хозяйства. Производство полимерных и композиционных материалов.',
     link: '#'
