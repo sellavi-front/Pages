@@ -1,7 +1,34 @@
-body .content-area .page-section.titles {
-  height: 460px;
+/* products-service */
+
+body.product-category-6976 .content-area .page-section.titles {
   background: url('https://cdn.sellavi.com/image/upload/v1608906652/ru/clients/102273/1b95f4297c67f6af7681d1385099e3011c30e1ab.webp')
     no-repeat;
+}
+
+/* med-soc-programm */
+
+body.product-category-5988 .content-area .page-section.titles {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835176/102273/Group_7423514_ql9vmw.png')
+    no-repeat;
+}
+
+/* charity */
+
+body.product-category-6975 .content-area .page-section.titles {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835428/102273/Group_7423514_1_duojxs.png')
+    no-repeat;
+}
+
+/* cooperate */
+
+body.product-category-5981 .content-area .page-section.titles {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835659/102273/Group_7423514_2_bncwjs.png')
+    no-repeat;
+}
+
+
+body.product-category .content-area .page-section.titles {
+  height: 460px;
   background-position: right;
   background-size: cover;
 }
