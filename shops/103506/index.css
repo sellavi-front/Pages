@@ -150,3 +150,24 @@ body .delivery__content-label {
 #home>.wrapper>.footer>.footer-widgets>.container>.row>.col-md-3:nth-child(2)>.widget-categories>ul>li:last-child {
   display: none;
 }
+
+/* Product card */
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
+.add_to_cart {
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.add_to_wishlist {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/* End */
