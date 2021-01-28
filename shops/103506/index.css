@@ -23,7 +23,6 @@
 @import '../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
 @import '../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
 @import '../../templates/TemplateTypeTwo/styles/footer/footer.css';
-@import '../../templates/TemplateTypeTwo/styles/logo/logo.css';
 @import '../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 
 
@@ -81,6 +80,8 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
     display: none;
   }
 }
+
+
 /* reset container size for .navigation-wrapper*/
 
 body.theme_11 .wrapper .header .navigation-wrapper>div.container {
