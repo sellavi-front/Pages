@@ -2,3 +2,5 @@
 @import '../../../../components/AdvantagesTypeOne/AdvantagesTypeOne.css';
 @import '../../../../components/ImgNearText/ImgNearText.css';
 @import '../../../../components/FormBasic/FormBasic.css';
+
+@import '../../js/components/Category.css';
