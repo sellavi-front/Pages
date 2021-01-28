@@ -2,9 +2,10 @@
   margin-bottom: 60px;
 }
 
-/* .page-section__content_ph {
-
-} */
+.page-section__content_ph {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
 
 .page-section__content_ph_b {
   font-weight: bold;
