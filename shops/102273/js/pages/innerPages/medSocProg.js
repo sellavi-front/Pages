@@ -1,4 +1,4 @@
-export default (function medSocProg() {
+export default function medSocProg() {
   if (document.querySelector('.product-category-5988')) {
       return `
         <section class="page-section__content">
@@ -57,4 +57,4 @@ export default (function medSocProg() {
         </section>
       `
   }
-})();
+};
