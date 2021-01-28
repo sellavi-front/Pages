@@ -8,6 +8,8 @@ import categoryData from '../../constants/categoryData.js';
 import categoryList from '../../constants/categoryList.js';
 
 import medSocProg from './medSocProg.js'
+import charityPage from './charityPage.js';
+
 import partnersData from '../../utils/partnersData.js';
 
 export default (function () {
