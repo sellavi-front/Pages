@@ -19,7 +19,7 @@ document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer
 document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").innerHTML = 'О нас'
 
 /* Удаляем эффект затеменения при ховере на меню */
-document.querySelector("#home > div > header > div.header-wrapper > div.container > ul > li:nth-child(1) > a").addEventListener("mouseover", () => {
+document.querySelector("#home > div > header > div.header-wrapper > div.container > ul > li:nth-child(1)").addEventListener("mouseover", () => {
   document.querySelector("#home > div > div.navigation_black_screen").classList.remove("active")
 })
 
