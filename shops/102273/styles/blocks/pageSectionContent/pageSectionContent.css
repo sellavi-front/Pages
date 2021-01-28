@@ -18,7 +18,7 @@
   font-size: 22px;
 }
 
-.page-section__ul:before {
+.page-section__ul li:before {
   color: #DA423E; /* Цвет маркера */
   content: "•";
 }
