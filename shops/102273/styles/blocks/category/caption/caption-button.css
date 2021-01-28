@@ -19,7 +19,7 @@ body.ru
 }
 
 
-body.common-home > div > div.content-area > section > div > div > div:nth-child(4) > div > div > a > div > div > div > span {
+body.common-home .wrapper .homefeatured_category > div > div > div:nth-child(4) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
   border-color: white !important;
   color: white !important;
 }
