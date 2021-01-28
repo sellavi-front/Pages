@@ -120,6 +120,10 @@
     header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a {
         font-size: 10px !important;
     }
+
+    .dropdown-menu.dropdown-menu-right.show .close_popup.btn.btn-theme-default.w-100:hover {
+        color: white !important; 
+    }
 }
 
 .mobile_two_columns .products .thumbnail .caption {
