@@ -40,7 +40,8 @@ body b,
 body strong,
 .price,
 .product-price,
-.product-availability {
+.product-availability,
+.product-product .product-single table .title{
   font-family: 'Montserrat', sans-serif !important;
 }
 
