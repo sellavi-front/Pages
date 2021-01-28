@@ -1,5 +1,5 @@
 @import '../../modules/Requisites/Requisites.css';
-@import '../../templates/TemplateTypeTwo/styles/index.css';
+@import '../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 @import "./blocks/banner/banner.css";
 @import "./blocks/header/header.css";
 
