@@ -60,3 +60,6 @@ const categoryData = [
     link: '/tourism',
   },
 ];
+
+
+export default categoryData;
