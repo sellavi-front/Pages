@@ -14,8 +14,8 @@ export default class medSocProg extends BaseComponent {
           <h3 class="page-section__title">${elem.title}</h3>
           <p class="page-section__ph">
               ${elem.text}
-            <a href="${elem.link}">ссылка</a>
           </p>
+          <a href="${elem.link}">ссылка</a>
         </div>
       `
     }).join('')
