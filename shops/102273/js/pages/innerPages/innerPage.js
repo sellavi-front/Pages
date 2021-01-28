@@ -1,4 +1,4 @@
-import FormBasic from '../../../../../../components/FormBasic/FormBasic.js';
+import FormBasic from '../../../../../components/FormBasic/FormBasic.js';
 import Category from '../../components/Category.js';
 
 import senderData from '../../constants/senderData.js';
