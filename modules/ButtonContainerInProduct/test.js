@@ -11,7 +11,6 @@ export default class ButtonContainerInProduct {
 
   createContainer() {
     this.container.forEach((btn, i) => {
-      console.log(btn.closest('div'));
       // if (!btn.nextSibling.classList.contains('button__container')) {
       btn.insertAdjacentHTML(
         'afterend',
@@ -50,7 +49,6 @@ const productWrapper = document.querySelector(
 let oldHeight = document.querySelector('.row.products.grid').clientHeight;
 const arrHeightFrame = [productWrapper.clientHeight];
 productWrapper.addEventListener('transitionend', (e) => {
-  console.log('event', e.target);
   let newHeight = document.querySelector('.row.products.grid').clientHeight;
   if (oldHeight <= newHeight) {
     console.log('Listener of height row products is working!');

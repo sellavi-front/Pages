@@ -35,4 +35,4 @@ export default function goodsPage() {
       </ul>
     </section>
   `;
-};
+}
