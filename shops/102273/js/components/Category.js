@@ -25,7 +25,9 @@ export default class Category extends BaseComponent {
     return `
     <div class="icon-category">
       ${this.data.title ? `<h3 class="icon-category__title">${this.data.title}</h3>` : ''}
-      ${this.getData()}
+      <div class="icon-category__container">
+        ${this.getData()}
+      </div>
     </div>`;
   }
 
