@@ -19,7 +19,6 @@
 @import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
 @import '../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
-@import '../../templates/TemplateTypeTwo/styles/products/products.css';
 @import '../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
 @import '../../templates/TemplateTypeTwo/styles/footer/footer.css';
 @import '../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
@@ -170,4 +169,69 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
   margin-left: 5px;
 }
 
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  position: static !important;
+  margin-top: 10px !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: center !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
+  border: none !important;
+}
+
+body .content-area .page-section.titles {
+  border: none !important;
+  background: transparent !important;
+}
+
+.page-header h1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+body .thumbnail .img-fluid, body .img-thumbnail {
+  width: 100% !important;
+  min-width: 100% !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
+  padding-left: 0 !important;
+}
+
+body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+  padding-right: 0 !important;
+}
+
+@media (max-width: 1199px) {
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+    padding-right: 30px;
+  }
+
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(3n) {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+    padding-right: 30px !important;
+  }
+
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(3n) {
+    padding-left: 30px !important;
+  }
+
+  body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    padding: 30px !important;
+  }
+}
+
 /* End */
+
