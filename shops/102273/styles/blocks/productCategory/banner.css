@@ -19,4 +19,8 @@ body .content-area .page-section.titles .container {
 
 body .content-area .page-section.titles .container h1 {
   text-align: left;
+  font-size: 58px;
+  font-weight: bold;
+  margin-left: 5%;
+  max-width: 480px;
 }
