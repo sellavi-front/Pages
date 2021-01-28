@@ -43,6 +43,8 @@ export default (function () {
     new FormBasic(container, 'beforeend', senderData, FormTags).render();
     new Category(props, categoryData).setTemplate();
 
-    container.insertAdjacentHTML('beforeend', medSocProg());
+    document.querySelector('.icon-category').insertAdjacentHTML('afterend', medSocProg());
+
+
   }
 })();
