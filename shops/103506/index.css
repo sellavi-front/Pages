@@ -1,7 +1,68 @@
 @import '../../modules/Requisites/Requisites.css';
-@import '../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 @import "./blocks/banner/banner.css";
 @import "./blocks/header/header.css";
+
+@import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import '../../components/HeaderTypeTwo/styles/cart/cart.css';
+@import '../../components/HeaderTypeTwo/styles/search/search.css';
+@import '../../components/HeaderTypeTwo/styles/header-mobile/header-mobile.css';
+@import '../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
+@import '../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
+@import '../../components/HeaderTypeTwo/styles/header-login/header-login.css';
+@import '../../components/HeaderTypeTwo/styles/logo/logo.css';
+@import '../../components/HeaderTypeTwo/styles/burger/burger.css';
+
+@import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../components/PictureCategories/PictureCategories.css';
+@import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+
+@import './templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import './templates/TemplateTypeTwo/styles/products/products.css';
+@import './templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import './templates/TemplateTypeTwo/styles/footer/footer.css';
+@import './templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import './templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import './templates/TemplateTypeTwo/styles/logo/logo.css';
+@import './templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+
+
+/* sf-menu */
+
+
+.sf-menu.nav>li {
+  margin: 5px 16px;
+}
+
+.sf-menu.nav>li>a {
+  font-size: 12px !important;
+  margin: 0 !important;
+  padding: 5px 0 !important;
+}
+
+.sf-menu.nav>li>a:hover,
+.sf-menu.nav>li:hover {
+  background: transparent !important;
+}
+
+.sf-menu.nav>li:hover {
+  border: none !important;
+}
+
+body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>a:before {
+  display: none !important;
+}
+
+/* reset container size for .navigation-wrapper*/
+
+body.theme_11 .wrapper .header .navigation-wrapper>div.container {
+  max-width: 1140px !important;
+}
+
+/* end reset */
+/* end*/
+
 
 /* Pay Delivery */
 body .content-delivery {
