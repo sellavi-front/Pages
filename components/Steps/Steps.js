@@ -13,7 +13,7 @@ export default class Steps extends BaseComponent {
         return `
         <article class="step">
           <div class="step-top">
-            <div class="num">${i.toString()}</div>
+            <div class="num">${(i + 1).toString()}</div>
           </div>
           <div class="step-bottom">
             <p>
