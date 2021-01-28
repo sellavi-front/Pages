@@ -54,7 +54,10 @@ export default (function () {
         target: 'afterend',
       }
       new Partners(props, partnersData).setTemplate();
+    }
 
+    if (document.querySelector('.product-category-6975')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', charityPage());
     }
   }
 })();
