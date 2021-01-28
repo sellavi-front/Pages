@@ -7,10 +7,24 @@ import categoryData from '../constants/categoryData.js';
 import categoryList from '../constants/categoryList.js';
 
 export default (function () {
+  const fWhatCategory = (cont, arr) => {
+    arr.forEach((cat) => {
+      if (document.querySelector(cat.class)) {
+        cont.insertAdjacentHTML(
+          'beforeend',
+          `<p class="page-header__descp">
+              ${cat.descp}
+          </p>`,
+        );
+      }
+    });
+
+  }
   if (
     document.querySelector('.product-category') ||
     document.querySelector('.information-information')
   ) {
+
     const container = document.querySelector(
       '.content-area > #content > .container > div > #content',
     );
@@ -20,18 +34,12 @@ export default (function () {
       container: container,
       target: 'afterbegin',
     };
+
+    fWhatCategory(pageHeader, categoryList);
+
     new FormBasic(container, 'beforeend', senderData, FormTags).render();
     new Category(props, categoryData).setTemplate();
 
-    categoryList.forEach((cat) => {
-      if (document.querySelector(cat.class)) {
-        pageHeader.insertAdjacentHTML(
-          'beforeend',
-          `<p class="page-header__descp">
-              ${cat.descp}
-          </p>`,
-        );
-      }
-    });
+
   }
 })();
