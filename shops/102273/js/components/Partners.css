@@ -1,0 +1,4 @@
+.partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 540px));
+}
