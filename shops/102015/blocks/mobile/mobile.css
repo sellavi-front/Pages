@@ -42,7 +42,7 @@
         max-height: 65px !important;
     }
     
-    #home > div > div > section.page-section.latest-section > div > div > div > div > div.caption.text-center {
+    section.page-section.latest-section > div > div > div > div > div.caption.text-center {
         height: 65px;
     }
     
@@ -96,6 +96,6 @@
     max-height: 75px !important;
 }
 
-#home > div > div > section.page-section.latest-section > div > div > div > div > div.caption.text-center {
+section.page-section.latest-section > div > div > div > div > div.caption.text-center {
     height: 75px;
 }
