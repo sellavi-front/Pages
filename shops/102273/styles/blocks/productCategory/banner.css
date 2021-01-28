@@ -45,10 +45,19 @@ body .content-area .page-section.titles .container {
   align-items: center;
 }
 
+body .content-area .page-section.titles .container .page-header {
+  margin-left: 5%;
+  max-width: 480px;
+}
+
+body .content-area .page-section.titles .container .page-header__descp {
+  font-size: 18px;
+  text-align: left;
+}
+
 body .content-area .page-section.titles .container h1 {
   text-align: left;
   font-size: 38px;
   font-weight: bold;
-  margin-left: 5%;
-  max-width: 480px;
+
 }
