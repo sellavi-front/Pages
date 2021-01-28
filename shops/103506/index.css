@@ -41,7 +41,7 @@ body strong,
 .price,
 .product-price,
 .product-availability {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 
