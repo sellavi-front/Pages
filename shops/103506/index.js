@@ -1,5 +1,8 @@
 import "./docs/requisites.js"
+import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 import "../../templates/TemplateTypeTwo/TemplateTypeTwo.js"
+import "../../fixes/js/ButtonContainerInProductCard.js"
+import "../../fixes/js/RemoveBlur/RemoveBlur.js"
 import Paths from "./path/paths.js"
 
 if (document.querySelector('.header-wrapper')) {
