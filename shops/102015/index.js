@@ -62,6 +62,15 @@ if (document.querySelector('.common-home')) {
   }
 }
 
+if (document.querySelector('.common-home')) {
+  if (screen.width < 480) {
+    oldNews = document.querySelector('.page-section.homefeatured_category');
+    newNews = oldNews.cloneNode(true);
+    document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', newNews.outerHTML);
+    oldNews.remove();
+  }
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Окутина Марина Юрьевна');
 
