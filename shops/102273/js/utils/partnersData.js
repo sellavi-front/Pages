@@ -1,4 +1,4 @@
-export default partnersData = [
+const partnersData = [
   {
     src: '',
     title: 'Партнер – компания ООО «КитМед». ',
@@ -258,3 +258,5 @@ export default partnersData = [
   //   link: '#'
   // },
 ]
+
+export default partnersData;
