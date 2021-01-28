@@ -7,3 +7,9 @@
   font-size: 23px;
   color: #D3865F !important;
 }
+
+@media only screen and (max-width: 992px){
+  body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
+    color: #D3865F !important;
+  }
+}
