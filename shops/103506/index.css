@@ -254,3 +254,9 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
 
 /* End */
 
+/* Footer */
+.widget-title {
+  margin-bottom: 25px;
+}
+/* End */
+
