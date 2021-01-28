@@ -5,7 +5,7 @@
 .icon-category__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 290px);
-  grid-column-gap: 35px;
+  grid-row-gap: 35px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
