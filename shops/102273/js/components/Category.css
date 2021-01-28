@@ -29,6 +29,11 @@
   height: auto;
 }
 
+.icon-category__title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .icon-category__elem_link {
   width: 220px;
   text-decoration: underline;
