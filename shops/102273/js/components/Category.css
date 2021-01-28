@@ -25,4 +25,5 @@
 
 .icon-category__elem_link {
   width: 220px;
+  text-decoration: underline;
 }
