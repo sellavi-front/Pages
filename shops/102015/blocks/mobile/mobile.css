@@ -99,3 +99,15 @@
 section.page-section.latest-section > div > div > div > div > div.caption.text-center {
     height: 75px;
 }
+
+.mobile_two_columns .products .thumbnail .caption {
+    max-height: 75px !important;
+}
+    
+section.page-section.latest-section > div > div > div > div > div.caption.text-center {
+    height: 75px !important;
+}
+
+#content > div > div.row.products.grid > div > div > div.caption.text-center > h4 {
+    height: 75px !important
+}
