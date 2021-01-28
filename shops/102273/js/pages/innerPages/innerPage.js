@@ -9,7 +9,7 @@ import categoryList from '../../constants/categoryList.js';
 
 import medSocProg from './medSocProg.js'
 import charityPage from './charityPage.js';
-
+import goodsPage from './goodsPage.js'
 import partnersData from '../../utils/partnersData.js';
 
 export default (function () {
@@ -60,6 +60,10 @@ export default (function () {
 
     if (document.querySelector('.product-category-6975')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', charityPage());
+    }
+
+    if (document.querySelector('.product-category-6975')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', goodsPage());
     }
   }
 })();
