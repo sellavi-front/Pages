@@ -44,7 +44,5 @@ export default (function () {
     new Category(props, categoryData).setTemplate();
 
     document.querySelector('.icon-category').insertAdjacentHTML('afterend', medSocProg());
-
-
   }
 })();
