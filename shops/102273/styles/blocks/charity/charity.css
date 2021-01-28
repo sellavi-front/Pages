@@ -9,3 +9,12 @@
   -ms-flex-item-align: center;
       align-self: center;
 }
+
+.charity::before {
+  display: none;
+}
+
+.page-section__ul_charity {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 310px);
+}

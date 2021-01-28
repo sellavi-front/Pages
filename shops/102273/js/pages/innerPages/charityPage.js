@@ -2,7 +2,7 @@ export default function charityPage() {
   return `
     <section class="page-section__content">
       <h3 class="page-section__title">Благотворительная программа «Дари Добро»</h3>
-      <ul class="page-section__ul">
+     <ul class="page-section__ul page-section__ul_charity">
         <li class="charity">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611848467/102273/unnamed_1_1_o88epa.png">
           <p>
