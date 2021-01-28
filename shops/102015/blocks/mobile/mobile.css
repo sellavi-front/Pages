@@ -42,7 +42,7 @@
         max-height: 65px !important;
     }
     
-    #home > div > div > section.page-section.latest-section > div > div > div:nth-child(4) > div > div.caption.text-center {
+    #home > div > div > section.page-section.latest-section > div > div > div > div > div.caption.text-center {
         height: 65px;
     }
     
@@ -90,4 +90,12 @@
         padding-left: 15px;
     }
 
+}
+
+.mobile_two_columns .products .thumbnail .caption {
+    max-height: 75px !important;
+}
+
+#home > div > div > section.page-section.latest-section > div > div > div > div > div.caption.text-center {
+    height: 75px;
 }
