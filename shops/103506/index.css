@@ -252,6 +252,20 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
   }
 }
 
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: 1px solid !important;
+  border-radius: 5px !important;
+}
+
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  border-color: #000 !important;
+  color: #000 !important;
+  border: 1px solid !important;
+  border-radius: 5px !important;
+}
+
 /* End */
 
 /* Footer */
