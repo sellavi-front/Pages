@@ -6,6 +6,7 @@ import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import '../../fixes/js/Alert/Alert.js';
 
+
 if (document.querySelector('.common-home')) {
   new BigBanner(
     'https://res.cloudinary.com/depgheppz/image/upload/v1611061769/Group_7423499_j54tte.png',

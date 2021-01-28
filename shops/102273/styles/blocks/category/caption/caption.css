@@ -25,7 +25,7 @@ body.ru.ltr
   .caption
   .caption-wrapper
   .caption-inner {
-  width: 60%;
+  width: 47%;
   border: none !important;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -60,6 +60,15 @@ body.ru.ltr
   color: black !important;
 }
 
+body.common-home > div > div.content-area > section > div > div > div:nth-child(4) > div > div > a > div > div > div > h2 > span,
+body.common-home > div > div.content-area > section > div > div > div:nth-child(4) > div > div > a > div > div > div > span {
+  color: white !important;
+}
+
+body.common-home > div > div.content-area > section > div > div > div:nth-child(4) > div > div > a > div > div > div > span {
+  border-color: white !important;
+}
+/*
 body.ru.ltr
   .wrapper
   .homefeatured_category
@@ -74,7 +83,7 @@ body.ru.ltr
   .caption-inner {
   -webkit-filter: invert(1);
   filter: invert(1);
-}
+} */
 
 @media only screen and (max-width: 992px) {
   body.ltr.common-home
