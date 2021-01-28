@@ -1,10 +1,10 @@
 import FormBasic from '../../../../../../components/FormBasic/FormBasic.js';
-import Category from '../../../components/Category.js';
+import Category from '../../components/Category.js';
 
-import senderData from '../../../constants/senderData.js';
-import FormTags from '../../../constants/FormTags.js';
-import categoryData from '../../../constants/categoryData.js';
-import categoryList from '../../../constants/categoryList.js';
+import senderData from '../../constants/senderData.js';
+import FormTags from '../../constants/FormTags.js';
+import categoryData from '../../constants/categoryData.js';
+import categoryList from '../../constants/categoryList.js';
 
 import medSocProg from './medSocProg.js'
 
