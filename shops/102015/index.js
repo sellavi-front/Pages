@@ -64,8 +64,8 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.common-home')) {
   if (screen.width < 480) {
-    oldNews = document.querySelector('.page-section.homefeatured_category');
-    newNews = oldNews.cloneNode(true);
+    const oldNews = document.querySelector('.page-section.homefeatured_category');
+    const newNews = oldNews.cloneNode(true);
     document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', newNews.outerHTML);
     oldNews.remove();
   }
