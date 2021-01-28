@@ -6,7 +6,7 @@ import FormTags from '../constants/FormTags.js'
 import categoryData from '../constants/categoryData.js'
 
 export default (function () {
-  if (document.querySelector('.product-category')) {
+  if (document.querySelector('.product-category') || document.querySelector('.information-information')) {
     const container = document.querySelector('.content-area > #content > .container > div > #content');
     const props = {
       container: container,
