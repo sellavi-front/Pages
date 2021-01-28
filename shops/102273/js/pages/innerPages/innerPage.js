@@ -43,6 +43,6 @@ export default (function () {
     new FormBasic(container, 'beforeend', senderData, FormTags).render();
     new Category(props, categoryData).setTemplate();
 
-    pageHeader.insertAdjacentHTML('beforeend', medSocProg());
+    container.insertAdjacentHTML('beforeend', medSocProg());
   }
 })();
