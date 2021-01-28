@@ -72,7 +72,7 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
 }
 
 @media screen and (max-device-width: 480px) {
-  .nav .sf-menu {
+  .sf-menu {
     display: none !important;
   }
 
