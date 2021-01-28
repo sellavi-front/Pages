@@ -1,5 +1,6 @@
 import './utils/main.js';
 import './pages/main-page.js';
+import './pages/innerPage.js'
 
 if (document.querySelector('.wrapper')) {
   const logo = document.querySelector(
