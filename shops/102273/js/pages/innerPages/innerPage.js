@@ -7,6 +7,7 @@ import categoryData from '../../constants/categoryData.js';
 import categoryList from '../../constants/categoryList.js';
 
 import medSocProg from './medSocProg.js'
+import partnersData from '../../utils/partnersData.js';
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -44,6 +45,14 @@ export default (function () {
 
     if (document.querySelector('.product-category-5988')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', medSocProg());
+    }
+
+    if (document.querySelector('.product-category-5981')) {
+      const props = {
+        container: document.querySelector('.icon-category'),
+        target: 'afterend',
+      }
+      new Partners(props, partnersData).setTemplate();
     }
   }
 })();
