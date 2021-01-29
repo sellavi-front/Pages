@@ -9,7 +9,9 @@ import categoryList from '../../constants/categoryList.js';
 
 import medSocProg from './medSocProg.js'
 import charityPage from './charityPage.js';
+import desinfectedFrames from './desinfectedFrames.js'
 import partnersData from '../../utils/partnersData.js';
+
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -64,7 +66,7 @@ export default (function () {
     }
 
     if (document.querySelector('.information-information-6752')) {
-      document.querySelector('.icon-category').insertAdjacentHTML('afterend', charityPage());
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', desinfectedFrames());
     }
 
   }
