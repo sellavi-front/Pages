@@ -28,6 +28,7 @@ body#home .homefeatured_category .row {
     background: transparent;
     color: white;
     padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: 80px 
 }
 
@@ -39,5 +40,5 @@ body#home .homefeatured_category .row {
 
 
 #home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
-    font-size: 22px !important
+    font-size: 19px !important
 }
