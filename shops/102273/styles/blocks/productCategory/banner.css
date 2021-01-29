@@ -26,19 +26,22 @@ body.product-category-5981 .content-area .page-section.titles {
     no-repeat;
 }
 
-body.information-information-6752 .content-area .page-section.titles {
+body.information-information-6752 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835659/102273/Group_7423514_2_bncwjs.png')
   no-repeat;
 }
 
 
-body.product-category .content-area .page-section.titles,
-body.information-information .content-area .page-section.titles
- {
+body.product-category .content-area .page-section.titles {
   height: 460px;
   background-position: right;
   background-size: cover;
   border: none !important;
+}
+
+body.information-information .content-area .page-section.titles > div {
+  height: 400px;
+  background: #000;
 }
 
 body .content-area .page-section.titles .container {
@@ -50,6 +53,10 @@ body .content-area .page-section.titles .container {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+body.information-information .content-area .page-section.titles .container .page-header {
+
 }
 
 body .content-area .page-section.titles .container .page-header {
