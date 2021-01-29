@@ -1,27 +1,34 @@
 export default function desinfectedFrames() {
   return `
     <section class="page-section__content">
-      <h3 class="page-section__title">Благотворительная программа «Дари Добро»</h3>
-     <ul class="page-section__ul page-section__ul_charity">
-        <li class="charity">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611848467/102273/unnamed_1_1_o88epa.png">
+      <h3 class="page-section__title">Эффективная система профилактической дезинфекции для борьбы со всеми известными вирусами, включая Covid-19.</h3>
+      <p class="page-section__subtitle b">Согласно п. 4.4 и п. 6.2 постановления главного государственного санитарного врача РФ № 15 от 22 мая 2020
+      года, необходимо обеспечить профилактическую дезинфекцию для защиты людей в местах, куда может быть занесен вирус
+      </p>
+      <ol class="page-section__ol">
+        <li class="page-section__ol_elem">
+          <h4 class="page-section__ol_elem_title">1. Класс – «ЛЮКС»</h4>
           <p>
-            Благотворительная программа «Дари Добро»
+            Федеральный округ – Центральный Регион производства – г. Москва <br>
+            Дезинфицирующая арка – «Anti-Virus Gate»
           </p>
+          <div class="d-flex">
+            <div class="d-flex flex-column">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611908035/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-01-28_%D0%B2_15.56_1_iuzm7j.png">
+              <p class="">
+                Система “Эконом”
+              </p>
+            </div>
+            <div class="d-flex flex-column">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611908035/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-01-28_%D0%B2_15.56_2_mjhee7.png">
+              <p class="">
+                Система распыление
+              </p>
+            </div>
+          </div>
         </li>
-        <li class="charity">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611848467/102273/unnamed_2_1_mnkjdn.png">
-          <p>
-          Благотворительная акция, приуроченная к 75- летию годовщины Победы в Великой Отечественной войне и празднику 9 мая.
-          </p>
-        </li>
-        <li class="charity">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611848466/102273/P-75_style_billboard1-min_1_m7zn9g.png">
-          <p>
-            «ДЕТИ РОССИИ» - Всероссийский открытый фестиваль детского и юношеского творчества с обширной экскурсионно-познавательной программой патриотической направленности при поддержке Российского Государственного Военного Историко-культурного центра при правительстве Российской федерации (РОССВОЕНЦЕНТР).
-          </p>
-        </li>
-      </ul>
+      </ol>
+
     </section>
   `;
 };
