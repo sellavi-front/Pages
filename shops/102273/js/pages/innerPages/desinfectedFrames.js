@@ -173,15 +173,23 @@ export default function desinfectedFrames() {
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911273/102273/IMG-20201005-WA0010_lpdecz.png" alt="" >
                 </div>
               </li>
-              <li style="margin-bottom: 40px;>
-                <p>4.	ООО «ЦРПТ» г. Москва, ул. Рочдельская, д. 15, стр. 16А, БП «Трехгорная мануфактура».</p>
-                <div class="d-flex">
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0015_z1iedx.png" alt="" style="margin-right: 35px;">
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0013_syovyo.png" alt="" style="margin-right: 35px;">
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0014_omgzyw.png" alt="" style="margin-right: 35px;">
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0012_vshyky.png" alt="" >
-                </div>
-              </li>
+              <li class="page-section__ol_elem">
+          <h4 class="page-section__ol_elem_title"><b>2. Класс «ПРЕМИУМ»</b></h4>
+          <div>
+            <p>
+              Федеральный округ – Центральный Регион производства – Тульская область. Мобильный
+              дезинфицирующий пост «DI-Post».
+            </p>
+            <div class="d-flex">
+              <img src="" alt="" style="margin-right: 20px;">
+              <img src="" alt="" style="margin-right: 20px;">
+              <img src="" alt="" style="margin-right: 20px;">
+              <img src="" alt="" style="margin-right: 20px;">
+              <img src="" alt="" style="margin-right: 20px;">
+              <img src="" alt="" style="margin-right: 20px;">
+            </div>
+          </div>
+        </li>
             </ul>
           </div>
         </li>
