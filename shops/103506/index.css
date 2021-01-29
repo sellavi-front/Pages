@@ -419,3 +419,8 @@ body footer .footer-meta .footer_content_wrapper {
 
 /* End */
 
+body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block {
+  background-color: #3c3c3c !important;
+  border-color: #3c3c3c;
+  color: #fff !important;
+}
