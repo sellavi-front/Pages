@@ -2,6 +2,8 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 if (location.href.includes('contact')) {
   document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(1) > div > strong').insertAdjacentHTML('afterend', '<div>Нижегородская область, г.Кстово, ул.Шохина, 2а ;</div>');
