@@ -373,7 +373,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center !important;
 }
 
 .footer_content_text > p {
