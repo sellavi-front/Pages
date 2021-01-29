@@ -1,8 +1,8 @@
 export default function charityPage() {
   return `
   <section class="page-section__content">
-      <div>
-        <p class="text-align-center">
+      <div class="text-center">
+        <p >
           Поставки минеральной воды лечебных и лечебно-столовых свойств из Чехии и других стран
           восточной Европы в Россию. В ассортименте пять видов лечебных минеральных вод премиум-
           сегмента: Билинска Киселка, Зайечицкая горька, Рудольфов Прамен, Винцентка и Пролом вода.
@@ -13,7 +13,7 @@ export default function charityPage() {
           любят врачи. У каждого вида воды уникальный состав и широкий спектр действия, вода
           разливается непосредственно на источниках и искусственно не газируется.
         </p>
-        <p class="text-align-center">
+        <p >
           <b>
             Питьевой баланс важен для хорошего самочувствия!
             <br /><br />
@@ -129,13 +129,13 @@ export default function charityPage() {
         </p>
       </div>
       <div>
-        <p class="text-align-center">
+        <p class="text-center">
           <b
             >Ледниковая вода “АБАГО” завоевала золотую медаль в слепой дегустации “ВОДА ГОДА
             2019”.</b
           >
         </p>
-        <p class="text-align-center"><b>Где рождается наша вода...</b></p>
+        <p class="text-center"><b>Где рождается наша вода...</b></p>
         <div class="d-flex flex-wrap">
           <img
             style="margin-right: 15px"
