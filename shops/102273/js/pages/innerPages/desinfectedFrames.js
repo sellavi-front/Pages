@@ -556,7 +556,7 @@ export default function desinfectedFrames() {
           </div>
         </li>
         <li class="page-section__ol_elem">
-          <h4 class="page-section__ol_elem_title">1. Класс – «ЛЮКС»</h4>
+          <h4 class="page-section__ol_elem_title"><b>5.	Класс – «СТАНДАРТ»</b></h4>
           <div>
           <p>
           Федеральный округ Уральский     Регион производства – Екатеринбургская обл.<br>
