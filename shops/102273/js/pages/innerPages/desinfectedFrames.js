@@ -390,8 +390,11 @@ export default function desinfectedFrames() {
               <li style="margin-bottom: 40px;">
                 <p><b>6.	ВДНХ, «павильон № 58», «музей ВДНХ»</b></p>
                 <div class="d-flex flex-wrap"">
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/18_1x_c0zi0z.png" alt="" style="margin-right: 15px;">
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/19_1x_ta6e3v.png" alt="" >
+                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919667/102273/23_1x_bwh4ty.png" alt="" style="margin-right: 15px;">
+                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919667/102273/23_1x_bwh4ty.png" alt="" style="margin-right: 15px;">
+                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919667/102273/20_1x_uov1vf.png" alt="" style="margin-right: 15px;">
+                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919667/102273/21_1x_jwovm2.png" alt="" style="margin-right: 15px;">
+                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919667/102273/24_1x_h4i0po.png" alt="" >
                 </div>
               </li>
             </ul>
