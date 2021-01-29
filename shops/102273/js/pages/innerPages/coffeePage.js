@@ -15,7 +15,7 @@ export default function coffeePage() {
         </p>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%)">
           <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929030/102273/51295939_2172207686427280_1900919127543906304_o_fzep9z.png"
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"
             alt=""
           /><img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611929030/102273/51295939_2172207686427280_1900919127543906304_o_fzep9z.png"
