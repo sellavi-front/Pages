@@ -384,7 +384,7 @@ export default function charityPage() {
           alt=""
         />
       </div>
-      <div>
+      <div class="mb-50px">
         <p>
           Природная столовая минеральная питьевая вода «Устьфарсовская», выпускаемая под торговым
           знаком «Долина Яблонь», добывается в экологически чистом районе в предгорьях Кавказа
@@ -407,12 +407,12 @@ export default function charityPage() {
           alt=""
         />
       </div>
-      <div class="d-flex flex-wrap">
+      <div class="d-flex flex-wrap mb-50px" >
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611925997/102273/unnamed_1_goayd7.png"
           alt=""
         />
-        <div>
+        <div class="mb-50px">
           <p><b>Основные показатели химического состава питьевой воды «ДАРЗАХ» </b></p>
           <p>Кальций, мг/л: …………………………… 25-50</p>
           <p>Магний, мг/л: ………………………………. 5-20</p>
@@ -423,7 +423,7 @@ export default function charityPage() {
           <p>Общая мнерализация, мл/л: ….. 200-300</p>
           <p>Общая жёсткость, ммоль/л: ..….. 1,5-3,0</p>
         </div>
-        <div>
+        <div class="mb-50px">
           <p>
             <b
               >«Дарзах» – природная питьевая ледниковая вода высшей категории качества. Талая
