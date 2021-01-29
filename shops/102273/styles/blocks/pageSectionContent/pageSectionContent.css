@@ -48,6 +48,10 @@
   margin-top: 60px;
 }
 
+.mb-50px {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 495px) {
   body.information-information .content-area .page-section.titles .container .page-header h1 {
     font-size: 24px;
