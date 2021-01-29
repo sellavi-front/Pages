@@ -1,6 +1,6 @@
 export default function desinfectedFrames() {
   return `
-  <section class="page-section__content">
+  <section class="page-section__content ">
       <h3 class="page-section__title">
         Эффективная система профилактической дезинфекции для борьбы со всеми известными вирусами,
         включая Covid-19.
@@ -617,7 +617,7 @@ export default function desinfectedFrames() {
 
         <div>
         <ul>
-          <li><b>«1.	Класс – «ЛЮКС» -  Дезинфицирующая арка – «Anti-Virus Gate»
+          <li><b>1.	Класс – «ЛЮКС» -  Дезинфицирующая арка – «Anti-Virus Gate»
 </b></li>
           <li><b>2.	Класс «ПРЕМИУМ» - мобильнй дезинфицирующий пост DI-Post  https://genesistp.ru/wp-content/uploads/di-post_present_20.05_compres.pdf
           </b></li>
