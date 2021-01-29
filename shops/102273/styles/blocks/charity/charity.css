@@ -26,3 +26,7 @@
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
+
+.page-section__ul_charity li img {
+  margin-bottom: 25px;
+}
