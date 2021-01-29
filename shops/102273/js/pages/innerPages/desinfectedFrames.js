@@ -346,6 +346,56 @@ export default function desinfectedFrames() {
             </p>
             </div>
           </div>
+          <div style="margin: 0 0 40px 0">
+            <h5><b>Установленные посты дезинфекции DI-POST</b></h5>
+            <ul>
+              <li style="margin-bottom: 40px;">
+                <p>1.	Ленинградский пр-т д.68, стр.23 – павильон ОРТ, ток-шоу «Пусть говорят»</p>
+                <div class="d-flex">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/03_1x_b8ygnz.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/02_1x_hyyj2b.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/dlpost2005-1_og6dux.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/04_1x_ku6ss2.png" alt="" >
+                </div>
+              </li>
+              <li style="margin-bottom: 40px;">
+                <p>2. Остоженка 53/2с1, «МИД России», дипломатическая академия</p>
+                <div class="d-flex">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/06_1x_b5gca5.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/08_1x_flvn5t.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/05_1x_vodlf3.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/07_1x_fnxhxu.png" alt="">
+
+                </div>
+              </li>
+              <li style="margin-bottom: 40px;">
+                <p>3.	Потаповский пер. 16\5с1, общественная организация «Офицеры России»</p>
+                <div class="d-flex">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/11_1x_ourasl.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914301/102273/17_1x_pxuqnl.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/12_1x_k7giul.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/10_1x_e7wvw3.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/09_1x_1_bvjkxw.png" alt="" >
+                </div>
+              </li>
+              <li style="margin-bottom: 40px;">
+                <p>4.Ул. Новая Басманная д.10 «Академия Генеральной Прокуратуры»</p>
+                <div class="d-flex">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/15_1x_w2kvd6.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/14_1x_asajt8.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/16_1x_exwsyy.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/13_1x_hbkblm.png" alt="" >
+                </div>
+              </li>
+              <li style="margin-bottom: 40px;">
+                <p>5.	Ул. Народная, д.7, «Российский Футбольный Союз»</p>
+                <div class="d-flex">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/18_1x_c0zi0z.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/19_1x_ta6e3v.png" alt="" >
+                </div>
+              </li>
+            </ul>
+          </div>
         </li>
       </ol>
     </section>
