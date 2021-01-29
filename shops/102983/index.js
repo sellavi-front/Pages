@@ -6,6 +6,10 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
+if (document.querySelector('.common-home')) {
+  document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее';
+}
+
 if (document.querySelector('.header-wrapper')) {
   const oldNav = document.querySelector('.navigation .nav.sf-menu');
   const newNav = oldNav.cloneNode(true);
