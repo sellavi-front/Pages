@@ -32,4 +32,8 @@
     body.sidenav-enabled.ltr .flexy>.arrow {
         left: 0% !important;
     }
+
+    header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky > a > i {
+        color: #004A88;
+    }
 }
