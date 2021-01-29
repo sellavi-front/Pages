@@ -210,7 +210,7 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
 }
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
-  line-height: initial !important;
+  line-height: normal !important;
   min-height: unset;
   text-align: right!important;
 }
