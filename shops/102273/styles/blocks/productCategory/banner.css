@@ -61,6 +61,12 @@ body.product-category .content-area .page-section.titles .container {
 }
 
 body.information-information .content-area .page-section.titles .container .page-header {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 body.product-category .content-area .page-section.titles .container .page-header {
