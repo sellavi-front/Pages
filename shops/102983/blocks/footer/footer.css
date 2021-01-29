@@ -18,7 +18,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     color: #a5a5a5 !important;
 }
 
-#home > div > footer > div.footer-widgets > div.container > hr {
+footer > div.footer-widgets > div.container > hr {
     height: 8px;
     background: rgb(58,127,193);
     background: linear-gradient(90deg, rgba(58,127,193,1) 0%, rgba(249,199,4,1) 100%);

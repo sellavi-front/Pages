@@ -71,3 +71,7 @@ if (document.querySelector('.common-home')) {
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
 }
+
+if (document.querySelector('.footer')) {
+  document.querySelector('#home > div > footer > div.footer-widgets > div.container > div').insertAdjacentHTML('beforebegin', '<hr>');
+}
