@@ -12,6 +12,7 @@ import charityPage from './charityPage.js';
 import desinfectedFrames from './desinfectedFrames.js'
 import partnersData from '../../utils/partnersData.js';
 import waterPage from './waterPage.js'
+import coffeePage from './coffeePage.js'
 
 
 export default (function () {
@@ -72,6 +73,10 @@ export default (function () {
 
     if (document.querySelector('.information-information-6754')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', waterPage());
+    }
+
+    if (document.querySelector('.information-information-6755')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', coffeePage());
     }
 
   }
