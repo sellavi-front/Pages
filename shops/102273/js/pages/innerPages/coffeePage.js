@@ -121,7 +121,7 @@ export default function coffeePage() {
       </div>
       <div
         class="mb-50px w-100"
-        style="display: grid; grid-template-columns: repeat(auto-fit, 48%)"
+        style="display: grid; grid-template-columns: repeat(auto-fit, 48%); "
       >
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611929361/102273/founder_1_x37hjo.png"
@@ -164,6 +164,7 @@ export default function coffeePage() {
             display: grid;
             grid-template-columns: repeat(auto-fit, 300px);
             justify-content: space-between;
+            grid-gap: 30px;
           "
         >
           <div class="d-flex flex-column">
