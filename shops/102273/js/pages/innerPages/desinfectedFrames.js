@@ -79,7 +79,7 @@ export default function desinfectedFrames() {
             </p>
           </div>
 
-          <div class="d-flex" style="margin-right: 43px">
+          <div class="d-flex align-items-center" style="margin-right: 43px">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611909434/102273/image_22_qqnyq2.png"
               alt=""
