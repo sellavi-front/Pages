@@ -104,4 +104,8 @@
     .cart_drop_down .dropdown-menu {
         width: 94vw;
     }
+
+    #content > div > div {
+        padding: 15px;
+    }
 }
