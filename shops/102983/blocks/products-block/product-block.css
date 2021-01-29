@@ -72,5 +72,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 }
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover i {
-    color: white !important
+    color: white !important;
+    border-radius: 8px !important;
 }
