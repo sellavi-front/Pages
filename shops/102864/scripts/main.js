@@ -7,7 +7,7 @@ if (pages.main) {
 
   document.querySelector('.custom_section').insertAdjacentHTML('beforeend', `<div class="container">
     <div class="d-flex flex-wrap justify-content-between">
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611932692/102273/Frame_2_m4fgs8.png" style="margin-right: 100px; max-width: 450px; width: 100%;">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611932692/102273/Frame_2_m4fgs8.png" style="margin-right: 100px; max-width: 600px; width: 100%;">
       <div>
         <h4>О нас</h4>
         <p>
