@@ -328,42 +328,42 @@ export default function charityPage() {
         </div>
         <div class="d-flex flex-wrap">
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/8-1024x1024_pobffm.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/14-1024x1024_nzj9kw.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/12_nndkep.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/3-1024x1024_jpvwwc.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/5-1024x1024_a5eddj.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/4-1024x1024_qyvkyc.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925706/102273/13-1024x1024_iba5l7.png"
             alt=""
           />
           <img
-            style="margin-right: 15px"
+            style="margin: 0 15px 15px 0"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611925705/102273/2-1024x1024_lvyju0.png"
             alt=""
           />
