@@ -178,10 +178,10 @@ export default function desinfectedFrames() {
               <li>
                 <p>4.	ООО «ЦРПТ» г. Москва, ул. Рочдельская, д. 15, стр. 16А, БП «Трехгорная мануфактура».</p>
                 <div>
-                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0015_z1iedx.png" alt="" style="margin-right: 35px;">
-                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0013_syovyo.png" alt="" style="margin-right: 35px;">
-                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0014_omgzyw.png" alt="" style="margin-right: 35px;">
-                <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0012_vshyky.png" alt="" >
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0015_z1iedx.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0013_syovyo.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0014_omgzyw.png" alt="" style="margin-right: 35px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0012_vshyky.png" alt="" >
                 </div>
               </li>
             </ul>
