@@ -1,3 +1,7 @@
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions.hide_cart_button .add_to_cart {
     display: block !important;
 }
+
+#home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > span {
+    display: none;
+}
