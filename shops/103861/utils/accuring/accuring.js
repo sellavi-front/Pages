@@ -17,16 +17,6 @@ if (location.href.includes('contact')) {
 }
 
 
-if (location.href.includes('policy')) {
-  const req = new Requisites(
-    requsites,
-    'afterend',
-    orgName,
-    document.querySelector('#content > div > div'),
-  );
-  req.setTemplate();
-}
-
 if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
     requsites,
