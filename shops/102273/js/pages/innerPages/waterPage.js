@@ -136,7 +136,8 @@ export default function charityPage() {
           >
         </p>
         <p class="text-center"><b>Где рождается наша вода...</b></p>
-        <div style="
+
+        <div class="mb-50px" style="
         display: grid !important;
         grid-template-columns: repeat(auto-fit, 48%);
         justify-content: space-between;
