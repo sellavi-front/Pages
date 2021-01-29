@@ -8,7 +8,6 @@
 @import '../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import "../../fixes/js/FooterCopy/FooterCopy.css";
 
-@import '../../components/HeaderTypeTwo/styles/cart/cart.css';
 @import '../../components/HeaderTypeTwo/styles/search/search.css';
 @import '../../components/HeaderTypeTwo/styles/header-mobile/header-mobile.css';
 @import '../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
