@@ -401,7 +401,7 @@ export default function desinfectedFrames() {
           </div>
         </li>
         <li class="page-section__ol_elem">
-          <h4 class="page-section__ol_elem_title">3.	Класс – «VIP»</h4>
+          <h4 class="page-section__ol_elem_title"><b>3.	Класс – «VIP»</b></h4>
           <p><b>
             Федеральный округ Приволжский. Регион производства – Кировская область
             Система «Эко-Шлюз»</b>
