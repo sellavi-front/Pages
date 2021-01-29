@@ -63,7 +63,7 @@ body.product-category .content-area .page-section.titles .container {
 body.information-information .content-area .page-section.titles .container .page-header {
 }
 
-body .content-area .page-section.titles .container .page-header {
+body.product-category .content-area .page-section.titles .container .page-header {
   margin-left: 5%;
   max-width: 480px;
 }
