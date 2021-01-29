@@ -150,7 +150,7 @@ export default function desinfectedFrames() {
             <ul>
               <li style="margin-bottom: 40px;">
                 <p>1.	ООО «Честный чек» м. Краснопресненская, г. Москва, ул. Рочдельская, 15. ст.16 а, 4 этаж.</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611910612/102273/IMG_20200918_172312_gbsxes.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611910612/102273/IMG-20201005-WA0003_k64toq.png" alt="" >
 
@@ -158,7 +158,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>2.	  Стройтанснефтегаз</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911178/102273/IMG-20201005-WA0006_iipxug.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911178/102273/IMG-20201005-WA0007_clw8uz.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911177/102273/IMG-20201005-WA0004_xm62ds.png" alt="">
@@ -167,7 +167,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>3.	ООО «ЦРПТ» г. Москва, ул. Рочдельская, д. 15, стр. 16А, БП «Трехгорная мануфактура»</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911273/102273/IMG-20201005-WA0009_upniac.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911273/102273/IMG-20201005-WA0008_hdkizl.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911273/102273/IMG-20201005-WA0010_lpdecz.png" alt="" >
@@ -175,7 +175,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>4.	ООО «ЦРПТ» г. Москва, ул. Рочдельская, д. 15, стр. 16А, БП «Трехгорная мануфактура».</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0015_z1iedx.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0013_syovyo.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0014_omgzyw.png" alt="" style="margin-right: 35px;">
@@ -193,10 +193,7 @@ export default function desinfectedFrames() {
               Федеральный округ – Центральный Регион производства – Тульская область. Мобильный
               дезинфицирующий пост «DI-Post».
             </p>
-            <div style="display: grid;
-              grid-template-columns: repeat(auto-fit, 360px);
-               justify-content: space-between;
-               grid-gap: 15px;">
+            <div class="gridd">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-4_dyqyfj.png" alt="" style="margin-right: 20px;">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-2_wygjeg.png" alt="" style="margin-right: 20px;">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-8_iwm7q9.png" alt="" style="margin-right: 20px;">
@@ -205,11 +202,7 @@ export default function desinfectedFrames() {
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-3_jepbfy.png" alt="" style="margin-right: 20px;">
             </div>
 
-            <div style="display: grid;
-            grid-template-columns: repeat(auto-fit, 260px);
-             justify-content: space-between;
-             grid-gap: 15px;
-             margin: 25px 0;">
+            <div class="gridd">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0029_lizikz.png" alt="" style="margin-right: 20px;">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200601-WA0016_seylqa.png" alt="" style="margin-right: 20px;">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0028_v3pbpg.png" alt="" style="margin-right: 20px;">
@@ -351,7 +344,7 @@ export default function desinfectedFrames() {
             <ul>
               <li style="margin-bottom: 40px;">
                 <p>1.	Ленинградский пр-т д.68, стр.23 – павильон ОРТ, ток-шоу «Пусть говорят»</p>
-                <div class="d-flex">
+                <div class="gridd>
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/03_1x_b8ygnz.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/02_1x_hyyj2b.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/dlpost2005-1_og6dux.png" alt="" style="margin-right: 35px;">
@@ -360,7 +353,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>2. Остоженка 53/2с1, «МИД России», дипломатическая академия</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/06_1x_b5gca5.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/08_1x_flvn5t.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/05_1x_vodlf3.png" alt="" style="margin-right: 35px;">
@@ -370,7 +363,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>3.	Потаповский пер. 16/5с1, общественная организация «Офицеры России»</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/11_1x_ourasl.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914301/102273/17_1x_pxuqnl.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/12_1x_k7giul.png" alt="" style="margin-right: 35px;">
@@ -380,7 +373,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>4.Ул. Новая Басманная д.10 «Академия Генеральной Прокуратуры»</p>
-                <div class="d-flex">
+                <div class="gridd">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/15_1x_w2kvd6.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/14_1x_asajt8.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/16_1x_exwsyy.png" alt="" style="margin-right: 35px;">
@@ -389,7 +382,7 @@ export default function desinfectedFrames() {
               </li>
               <li style="margin-bottom: 40px;">
                 <p>5.	Ул. Народная, д.7, «Российский Футбольный Союз»</p>
-                <div class="d-flex">
+                <div class="gridd"">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/18_1x_c0zi0z.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/19_1x_ta6e3v.png" alt="" >
                 </div>

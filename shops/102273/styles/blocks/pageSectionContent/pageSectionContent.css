@@ -18,8 +18,8 @@
 }
 
 .page-section__ul li:before {
-  color: #DA423E;
-  content: "•";
+  color: #da423e;
+  content: '•';
 }
 
 .page-section__ul {
@@ -29,4 +29,13 @@
 .page-section__ul li {
   font-size: 16px;
   margin-bottom: 15px;
+}
+
+.gridd {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 360px));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 15px;
 }
