@@ -343,7 +343,7 @@ export default function desinfectedFrames() {
             <h5><b>Установленные посты дезинфекции DI-POST</b></h5>
             <ul>
               <li style="margin-bottom: 40px;">
-                <p>1.	Ленинградский пр-т д.68, стр.23 – павильон ОРТ, ток-шоу «Пусть говорят»</p>
+                <p><b>1.	Ленинградский пр-т д.68, стр.23 – павильон ОРТ, ток-шоу «Пусть говорят»</b></p>
                 <div class="d-flex flex-wrap">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/03_1x_b8ygnz.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/02_1x_hyyj2b.png" alt="" style="margin-right: 15px;">
@@ -352,7 +352,7 @@ export default function desinfectedFrames() {
                 </div>
               </li>
               <li style="margin-bottom: 40px;">
-                <p>2. Остоженка 53/2с1, «МИД России», дипломатическая академия</p>
+                <p><b>2. Остоженка 53/2с1, «МИД России», дипломатическая академия</b></p>
                 <div class="d-flex flex-wrap">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/06_1x_b5gca5.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914225/102273/08_1x_flvn5t.png" alt="" style="margin-right: 15px;">
@@ -362,7 +362,7 @@ export default function desinfectedFrames() {
                 </div>
               </li>
               <li style="margin-bottom: 40px;">
-                <p>3.	Потаповский пер. 16/5с1, общественная организация «Офицеры России»</p>
+                <p><b>3.	Потаповский пер. 16/5с1, общественная организация «Офицеры России»</b></p>
                 <div class="d-flex flex-wrap">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/11_1x_ourasl.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914301/102273/17_1x_pxuqnl.png" alt="" style="margin-right: 15px;">
@@ -372,7 +372,7 @@ export default function desinfectedFrames() {
                 </div>
               </li>
               <li style="margin-bottom: 40px;">
-                <p>4.Ул. Новая Басманная д.10 «Академия Генеральной Прокуратуры»</p>
+                <p><b>4.Ул. Новая Басманная д.10 «Академия Генеральной Прокуратуры»</b></p>
                 <div class="d-flex flex-wrap">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/15_1x_w2kvd6.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914389/102273/14_1x_asajt8.png" alt="" style="margin-right: 15px;">
@@ -381,7 +381,14 @@ export default function desinfectedFrames() {
                 </div>
               </li>
               <li style="margin-bottom: 40px;">
-                <p>5.	Ул. Народная, д.7, «Российский Футбольный Союз»</p>
+                <p><b>5.	Ул. Народная, д.7, «Российский Футбольный Союз»</b></p>
+                <div class="d-flex flex-wrap"">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/18_1x_c0zi0z.png" alt="" style="margin-right: 15px;">
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/19_1x_ta6e3v.png" alt="" >
+                </div>
+              </li>
+              <li style="margin-bottom: 40px;">
+                <p><b>6.	ВДНХ, «павильон № 58», «музей ВДНХ»</b></p>
                 <div class="d-flex flex-wrap"">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/18_1x_c0zi0z.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914453/102273/19_1x_ta6e3v.png" alt="" >
