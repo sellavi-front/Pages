@@ -99,8 +99,8 @@ export default function desinfectedFrames() {
         </div>
         <div>
             <h5>Дезинфицирующее средство:</h5>
-            <div class="d-flex align-items-center" style="margin-right: 43px">
-              <img
+            <div class="d-flex align-items-center" >
+              <img style="margin-right: 43px"
                 src="https://res.cloudinary.com/depgheppz/image/upload/v1611909434/102273/image_22_qqnyq2.png"
                 alt=""
               />
