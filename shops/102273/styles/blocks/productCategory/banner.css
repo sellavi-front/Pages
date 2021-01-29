@@ -61,13 +61,15 @@ body.product-category .content-area .page-section.titles .container {
 
 body.information-information .content-area .page-section.titles .container .page-header {
   height: 100%;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body.information-information .content-area .page-section.titles .container .page-header h1 {
   color: white !important;
   width: 100%;
-  text-align: center;
+  text-align: center !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
