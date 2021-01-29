@@ -426,3 +426,20 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
   border-color: #3c3c3c;
   color: #fff !important;
 }
+
+/* 404 */
+body .content-area .page-section.error-page h3 {
+  margin: 0 0 15px;
+  color: #ea0000;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+body .content-area .page-section.error-page h2 {
+  margin: 0 0 30px;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #232323;
+}
