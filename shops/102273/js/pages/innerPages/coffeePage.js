@@ -172,7 +172,7 @@ export default function coffeePage() {
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray1-e1510322042521_hdaetw.png"
               alt=""
               style="width: 50%;
-              margin: 0 auto;"
+              margin: 0 auto 25px auto;"
             />
             <div class="text-center">
               <p><b> Coffee Ray ESPRESSO</b></p>
