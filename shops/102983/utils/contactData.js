@@ -3,15 +3,15 @@ const contactData = {
   contacts: [
     {
       title: 'Адрес',
-      contact: 'Одинцовский р-н, Город ОДИНЦОВО, Чистяковой ул, 18',
+      contact: 'Нижегородская область, г.Кстово, ул.Шохина, 2а;',
     },
     {
       title: 'Телефон',
-      contact: '<a href="tel:+79688228882">+79688228882</a>',
+      contact: '<a href="tel:89519057541">89519057541</a>',
     },
     {
       title: 'E-mail',
-      contact: '<a href="mailto:studiyorlova@yandex.ru">studiyorlova@yandex.ru</a>',
+      contact: '<a href="mailto:info@ideco-nn.ru">info@ideco-nn.ru</a>',
     },
   ],
   map: `
