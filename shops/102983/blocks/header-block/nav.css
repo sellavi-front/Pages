@@ -5,3 +5,7 @@ header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
 #search > div.search_field > input {
     border-bottom: 0px !important;
 }
+
+.header_login {
+    display: none !important;
+}
