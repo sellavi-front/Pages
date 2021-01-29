@@ -11,6 +11,7 @@ import medSocProg from './medSocProg.js'
 import charityPage from './charityPage.js';
 import desinfectedFrames from './desinfectedFrames.js'
 import partnersData from '../../utils/partnersData.js';
+import waterPage from './waterPage.js'
 
 
 export default (function () {
@@ -67,6 +68,10 @@ export default (function () {
 
     if (document.querySelector('.information-information-6752')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', desinfectedFrames());
+    }
+
+    if (document.querySelector('.information-information-6754')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', waterPage());
     }
 
   }
