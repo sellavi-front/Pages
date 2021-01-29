@@ -158,7 +158,7 @@ export default function coffeePage() {
         </div>
       </div>
       <div class="mb-50px">
-        <h3 class="text-center"><b>Ассортимент Кофе Ray R.R</b></h3>
+        <h3 class="text-center" style="margin-bottom: 30px;"><b>Ассортимент Кофе Ray R.R</b></h3>
         <div
           style="
             display: grid;
