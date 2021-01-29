@@ -40,7 +40,16 @@ body strong,
 .price,
 .product-price,
 .product-availability,
-.product-product .product-single table .title{
+.product-product .product-single table .title,
+.text-right,
+.input-payment-firstname,
+.input-payment-lastname,
+.input-payment-email,
+.input-payment-telephone,
+.input-payment-address-1,
+.input-payment-postcode,
+label,
+.input-payment-firstname {
   font-family: 'Montserrat', sans-serif !important;
 }
 
