@@ -47,3 +47,12 @@
 .page-section__ol > li {
   margin-top: 60px;
 }
+
+@media (max-width: 495px) {
+  body.information-information .content-area .page-section.titles .container .page-header h1 {
+    font-size: 24px;
+  }
+  .page-section__title {
+    font-size: 18px;
+  }
+}
