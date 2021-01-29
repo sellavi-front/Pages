@@ -69,6 +69,10 @@ body.information-information .content-area .page-section.titles .container .page
       align-content: center;
 }
 
+body.information-information .content-area .page-section.titles .container .page-header h1 {
+  color: white !important;
+}
+
 body.product-category .content-area .page-section.titles .container .page-header {
   margin-left: 5%;
   max-width: 480px;
