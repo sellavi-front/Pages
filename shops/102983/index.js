@@ -5,6 +5,8 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import contactData from './utils/contactData.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее';
@@ -60,4 +62,12 @@ if (location.href.includes('pay-delivery')) {
 
 if (document.querySelector('.common-home')) {
   document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', '<div class="preCatTitle"><div class="container"><div class="row"><div class="col-sm"><div>Сегодня «COLOREX» это:</div><ul><li>- крупнейший производитель лакокрасочных материалов в Швеции;</li><li>- современный исследовательский центр и собственный банк рецептур ЛКМ, состоящий</li><li>- экспорт продукции в 15 стран Европы;</li></ul></div><div class="col-sm"></div><div class="col-sm"><ul><li>- более 3000 оптовых партнеров на международных рынках.</li><li>- полностью автоматизированное предприятие с объемом производства продукции более</li><li>- 13 миллионов литров в год;</li><li>- более чем из 10 000 наименований;</li></ul></div></div></div></div>');
+}
+
+if (document.querySelector('.common-home')) {
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
+  const map = new ContactsWithMap(customSection, 'beforeend', contactData);
+  map.render();
 }
