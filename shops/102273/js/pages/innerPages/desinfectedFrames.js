@@ -294,6 +294,7 @@ export default function desinfectedFrames() {
             Пропускная способность                      - 200 чел./час,
             Расход дез. раствора / час                         - 3 литра
             </p>
+            </div>
           </div>
         </li>
       </ol>
