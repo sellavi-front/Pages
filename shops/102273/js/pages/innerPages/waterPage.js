@@ -409,7 +409,11 @@ export default function charityPage() {
           alt=""
         />
       </div>
-      <div class="d-flex flex-wrap mb-50px" >
+      <div style="
+      display: grid !important;
+      grid-template-columns: repeat(auto-fit, 330px);
+      justify-content: space-between;
+  ">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611925997/102273/unnamed_1_goayd7.png"
           alt=""
@@ -425,6 +429,7 @@ export default function charityPage() {
           <p>Общая мнерализация, мл/л: ….. 200-300</p>
           <p>Общая жёсткость, ммоль/л: ..….. 1,5-3,0</p>
         </div>
+
         <div class="mb-50px">
           <p>
             <b
