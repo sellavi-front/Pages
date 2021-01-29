@@ -20,5 +20,5 @@ document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer
 
 
 if(Paths.home) {
-  document.querySelector("#banner0 > div > div > div > div > picture > source").setAttribute("srcset", "https://cdn.sellavi.com/image/upload/ru/clients/103506/26d063c3bf4bf691704286bebed1d6fb15dd1142.jpg")
+  //document.querySelector("#banner0 > div > div > div > div > picture > source").setAttribute("srcset", "https://cdn.sellavi.com/image/upload/ru/clients/103506/26d063c3bf4bf691704286bebed1d6fb15dd1142.jpg")
 }
