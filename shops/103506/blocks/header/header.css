@@ -26,7 +26,3 @@ body.theme_11 .wrapper .navigation_black_screen.active {
   background-color: transparent !important;
   left: 0;
 }
-
-body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
-  color: #000 !important;
-}
