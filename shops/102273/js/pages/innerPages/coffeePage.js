@@ -1,7 +1,7 @@
 export default function coffeePage() {
   return `
   <section class="page-section__content">
-      <div class="text-center">
+      <div class="text-center mb-50px">
         <p>Букет изысканного кофе в Вашей чашке, созданный нами с любовью к Вам.</p>
         <p>
           Ах, чашка кофе поутру!<br />
@@ -23,7 +23,7 @@ export default function coffeePage() {
           />
         </div>
       </div>
-      <div>
+      <div class="mb-50px">
         <div>
           <p><b>ВЫРАЩЕНО В БРАЗИЛИИ</b></p>
           <p>
@@ -230,7 +230,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column mb-50px">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
