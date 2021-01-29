@@ -8,6 +8,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее';
+  document.querySelector('#home > div > div > section.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="preCatTitle"><div class="container"><div class="row"><div class="col-sm">Категории</div></div></div></div>');
 }
 
 if (document.querySelector('.header-wrapper')) {
