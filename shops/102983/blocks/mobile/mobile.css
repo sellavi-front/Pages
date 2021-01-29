@@ -105,7 +105,23 @@
         width: 94vw;
     }
 
-    #content > div > div {
+    .information-information-6592 #content > div > div {
+        padding: 15px !important;
+    }
+
+    .information-information-6593 #content > div {
+        padding: 15px !important;
+    }
+
+    #home > div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) > div > a {
+        font-weight: 500;
+    }
+    
+    #home > div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p > span {
+        font-weight: 500;
+    }
+
+    .information-sitemap #content > div {
         padding: 15px;
     }
 }
