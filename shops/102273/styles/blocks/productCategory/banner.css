@@ -71,6 +71,8 @@ body.information-information .content-area .page-section.titles .container .page
 
 body.information-information .content-area .page-section.titles .container .page-header h1 {
   color: white !important;
+  width: 100%;
+  text-align: center;
 }
 
 body.product-category .content-area .page-section.titles .container .page-header {
