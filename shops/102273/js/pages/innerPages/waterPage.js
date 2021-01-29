@@ -417,7 +417,7 @@ export default function charityPage() {
       </div>
       <div style="
       display: grid !important;
-      grid-template-columns: repeat(auto-fit, 330px);
+      grid-template-columns: repeat(auto-fit, minmax(280px, 330px));
       justify-content: space-between;
   ">
         <img
