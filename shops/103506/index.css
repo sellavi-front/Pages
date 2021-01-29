@@ -6,6 +6,7 @@
 
 @import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import "../../fixes/js/FooterCopy/FooterCopy.css";
 
 @import '../../components/HeaderTypeTwo/styles/cart/cart.css';
 @import '../../components/HeaderTypeTwo/styles/search/search.css';
