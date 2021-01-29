@@ -16,6 +16,8 @@
 
 @import '../../../components/ContactsWithMap/ContactsWithMap.css';
 
+@import './footer/footer.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body h1,
