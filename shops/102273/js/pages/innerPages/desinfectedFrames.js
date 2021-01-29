@@ -477,6 +477,8 @@ export default function desinfectedFrames() {
 <b>Условия оплаты:</b> 1. Договорная в зависимости от комплектации 2. Предоплата 50%, на остальное возможна рассрочка на 6 месяцев.
 
             </p>
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611921085/102273/image_25_dq1spl.png">
+
           </div>
         </div>
         </li>
