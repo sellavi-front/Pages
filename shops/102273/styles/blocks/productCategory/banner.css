@@ -44,7 +44,7 @@ body.information-information .content-area .page-section.titles > div {
   background: #000;
 }
 
-body .content-area .page-section.titles .container {
+body.product-category .content-area .page-section.titles .container {
   max-width: 100% !important;
   height: 100%;
   display: -webkit-box;
