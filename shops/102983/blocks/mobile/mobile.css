@@ -89,5 +89,11 @@
         font-size: 16px;
     }
 
+    #home > div > div > section.page-section.homefeatured_category > div {
+        padding: 0px !important;
+    }
     
+    body.theme_11 .wrapper .homefeatured_category>div>div>div {
+        margin: 0px !important;
+    }
 }
