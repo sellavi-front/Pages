@@ -136,7 +136,12 @@ export default function charityPage() {
           >
         </p>
         <p class="text-center"><b>Где рождается наша вода...</b></p>
-        <div class="d-flex flex-wrap">
+        <div style="
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, 48%);
+        justify-content: space-between;
+        align-items: center;
+    ">
           <img
             style="margin-right: 15px"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
