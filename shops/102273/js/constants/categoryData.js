@@ -49,7 +49,7 @@ const categoryData = {
     {
       text: 'Кофе',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-coffee-beans_dhgj4d.svg',
-      link: '/water',
+      link: '/coffee',
     },
     {
       text: 'Мед. одежда',

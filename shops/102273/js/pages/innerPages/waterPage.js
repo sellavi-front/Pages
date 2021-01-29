@@ -1,4 +1,4 @@
-export default function charityPage() {
+export default function waterPage() {
   return `
   <section class="page-section__content">
       <div class="text-center" class="mb-50px">
