@@ -90,3 +90,7 @@ body .delivery__content-label {
 .content-area .row.mt-4 div:nth-child(2) {
   display: none !important;
 }
+
+.content-area .row.mt-4 div:nth-child(2) {
+  display: block !important;
+}
