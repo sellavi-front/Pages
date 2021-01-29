@@ -4,6 +4,8 @@
 
 @import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 
+@import './header-block/nav.css';
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body h1,
