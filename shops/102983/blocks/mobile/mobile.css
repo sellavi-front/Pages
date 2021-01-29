@@ -125,3 +125,7 @@
         padding: 15px;
     }
 }
+
+body#home .homefeatured_category .row {
+    flex-wrap: wrap !important;
+}
