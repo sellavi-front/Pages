@@ -208,7 +208,8 @@ export default function desinfectedFrames() {
             <div style="display: grid;
             grid-template-columns: repeat(auto-fit, 260px);
              justify-content: space-between;
-             grid-gap: 15px;">
+             grid-gap: 15px;
+             margin-bottom: 25px;">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0029_lizikz.png" alt="" style="margin-right: 20px;">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200601-WA0016_seylqa.png" alt="" style="margin-right: 20px;">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0028_v3pbpg.png" alt="" style="margin-right: 20px;">
