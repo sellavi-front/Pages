@@ -340,6 +340,13 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   }
 }
 
+body footer .footer-meta .footer_content_wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center !important;
+}
 
 
 /* End */
