@@ -400,6 +400,29 @@ export default function desinfectedFrames() {
             </ul>
           </div>
         </li>
+        <li class="page-section__ol_elem">
+          <h4 class="page-section__ol_elem_title">3.	Класс – «VIP»</h4>
+          <p><b>
+            Федеральный округ Приволжский. Регион производства – Кировская область
+            Система «Эко-Шлюз»</b>
+          </p>
+          <div class="d-flex flex-wrap"">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919958/102273/image_28_jisu16.png" alt="" style="margin-right: 15px;">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919958/102273/image_27_qpoaxf.png" alt="" style="margin-right: 15px;">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611919958/102273/image_26_snbtvn.png" alt="" >
+          </div>
+          <div>
+          <p>
+            <b>Медико-санитарное назначение</b>: Эффективные методы и средства профилактики в распространении вирусных заболеваний включая COVID- 19. Предназначен для профилактической дезинфекции, санитарной обработки и защиты граждан, их одежды и обуви от распространения вирусных инфекций. Применение: Места массового скопления народа – производственные предприятия, магазины и спортивные объекты, ж/д и авиа вокзалы, конференции, симпозиумы. А также медицинские объекты различной направленности.
+          </p>
+          <p>
+            <b>Применение:</b> Места массового скопления народа – производственные предприятия, магазины и спортивные объекты, ж/д и авиа вокзалы, конференции, симпозиумы. А также медицинские объекты различной направленности.
+          </p>
+        </div>
+
+        <img class="page-section__table" src="https://res.cloudinary.com/depgheppz/image/upload/v1611920219/102273/Group_7423516_1_j6leez.png">
+        <img class="page-section__table" src="https://res.cloudinary.com/depgheppz/image/upload/v1611920241/102273/Group_7423517_1_nzpajf.png">
+        </li>
       </ol>
     </section>
   `;

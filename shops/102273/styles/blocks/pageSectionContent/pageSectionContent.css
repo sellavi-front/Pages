@@ -31,6 +31,10 @@
   margin-bottom: 15px;
 }
 
+.page-section__table {
+  margin-bottom: 45px;
+}
+
 .gridd {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(205px, 360px));
