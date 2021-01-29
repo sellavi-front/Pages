@@ -56,7 +56,7 @@ body strong,
   font-size: 14px !important;
   margin: 0 !important;
   padding: 5px 0 !important;
-  transition: text-transform 1s !important;
+  transition: text-decoration 1s !important;
 }
 
 .sf-menu.nav>li>a:hover,
@@ -84,7 +84,7 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
 
 .sf-menu.nav>li:hover, .sf-menu.nav>li>a:hover  {
   text-decoration: underline !important;
-  transition: text-transform 1s !important;
+  transition: text-decoration 1s !important;
 }
 
 
