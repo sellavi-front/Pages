@@ -32,7 +32,9 @@ body.information-information-6752 .content-area .page-section.titles {
 }
 
 
-body.product-category .content-area .page-section.titles {
+body.product-category .content-area .page-section.titles,
+body.information-information .content-area .page-section.titles
+ {
   height: 460px;
   background-position: right;
   background-size: cover;
