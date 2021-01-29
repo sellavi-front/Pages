@@ -83,7 +83,7 @@ export default function desinfectedFrames() {
           <h5>Дезинфицирующее средство:</h5>
           <div class="d-flex align-items-center" >
             <img
-              style="margin-right: 43px"
+              style="margin: 0 43px 40px 0"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611909434/102273/image_22_qqnyq2.png"
               alt=""
             />
@@ -98,7 +98,7 @@ export default function desinfectedFrames() {
             </p>
           </div>
         </div>
-          <div>
+          <div style="margin: 0 0 40px 0">
             <h5>Дополнительное оборудование AV GATE:</h5>
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611909858/102273/image_23_euoqkd.png"
@@ -115,6 +115,10 @@ export default function desinfectedFrames() {
             />
             <p><b>Срок выполнения заказа:</b> от 15 до 40 дней в зависимости от количества.</p>
           </div>
+
+          <div style="margin: 0 0 40px 0">
+            <h5>Дополнительное оборудование AV GATE:</h5>
+            </div>
         </li>
       </ol>
     </section>
