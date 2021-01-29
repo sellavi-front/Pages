@@ -5,11 +5,13 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
+
 if (document.querySelector('.header-wrapper')) {
   const oldNav = document.querySelector('.navigation .nav.sf-menu');
   const newNav = oldNav.cloneNode(true);
   document.querySelector('#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > div.logo').insertAdjacentHTML('afterend', newNav.outerHTML);
   oldNav.remove();
+  document.querySelector('#home > div > div.navigation_black_screen').remove();
 }
 
 if (location.href.includes('contact')) {
