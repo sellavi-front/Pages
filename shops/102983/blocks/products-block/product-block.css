@@ -7,32 +7,37 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 }
 
 
-    #home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div {
-        position: absolute !important;
-    }
+#home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div {
+    position: absolute !important;
+}
 
 
-    .thumbnail-banner .media-link .img-bg {
-        height: 562px !important;
-    }
+.thumbnail-banner .media-link .img-bg {
+    height: 562px !important;
+}
 
-    body#home .homefeatured_category .row {
-        justify-content: center !important;
-    }
+body#home .homefeatured_category .row {
+    justify-content: center !important;
+}
 
-    .thumbnail.thumbnail-banner .caption-inner {
-        border: 0px !important;
-    }
+.thumbnail.thumbnail-banner .caption-inner {
+    border: 0px !important;
+}
 
-    #home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
-        background: transparent;
-        color: white;
-        padding-left: 50px;
-        margin-bottom: 80px 
-    }
+#home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+    background: transparent;
+    color: white;
+    padding-left: 50px;
+    margin-bottom: 80px 
+}
 
-    #home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div {
-        display: flex !important;
-        justify-content: flex-end !important;
-        align-items: flex-end;
-    }
+#home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: flex-end;
+}
+
+
+#home > div > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+    font-size: 22px !important
+}
