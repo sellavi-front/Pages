@@ -75,3 +75,8 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     color: white !important;
     border-radius: 8px !important;
 }
+
+
+.thumbnail .add_to_wishlist button {
+    border-radius: 8px !important;
+}
