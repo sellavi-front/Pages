@@ -17,7 +17,7 @@ export default function desinfectedFrames() {
         Федеральный округ – Центральный Регион производства – г. Москва <br />
         Дезинфицирующая арка – «Anti-Virus Gate»
       </p>
-      <div class="d-flex">
+      <div class="d-flex justify-content-between" style="max-width: 560px">
         <div class="d-flex flex-column">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611908035/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-01-28_%D0%B2_15.56_1_iuzm7j.png"
