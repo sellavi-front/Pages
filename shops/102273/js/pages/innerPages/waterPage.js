@@ -371,6 +371,7 @@ export default function charityPage() {
       </div>
 
       <div class="d-flex flex-wrap">
+       <div class="d-flex flex-wrap  w-100">
         <div>
           <p><b>Основные показатели химического состава воды «Долина Яблонь» </b></p>
           <p>Кальций, мг/л: ..…………………… не более 40</p>
@@ -383,6 +384,7 @@ export default function charityPage() {
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611925900/102273/Group_7423521_ekhosx.png"
           alt=""
         />
+        </div>
       </div>
       <div class="mb-50px">
         <p>
