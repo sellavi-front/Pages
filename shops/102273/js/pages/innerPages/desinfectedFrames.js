@@ -422,6 +422,33 @@ export default function desinfectedFrames() {
 
         <img class="page-section__table" src="https://res.cloudinary.com/depgheppz/image/upload/v1611920219/102273/Group_7423516_1_j6leez.png">
         <img class="page-section__table" src="https://res.cloudinary.com/depgheppz/image/upload/v1611920241/102273/Group_7423517_1_nzpajf.png">
+        <p>
+        Гарантия – 12 мес. Расширенная гарантия 24 мес. <br> *Полная комплектация Доступное послегарантийное обслуживание
+        </p>
+        <div class="d-flex flex-wrap" >
+          <ul style="max-width:300px; width: 100%">
+            <li><b>Полная комплектация:</b></li>
+            <li>
+              •	Шлюз выполненный из стали AISI304<br>
+              •	Коврик каучуковый<br>
+              •	Штора ПВХ (2мм)<br>
+              •	Пандусы 2шт.<br>
+              •	Диспенсер для обработки рук <br>
+              •	Бесконтактный ИК термометр<br>
+            </li>
+            </ul>
+            <ul style="max-width:300px; width: 100%">
+              <li><b>Базовая комплектация:</b></li>
+              <li>
+              •	Шлюз выполненный из стали AISI304<br>
+              •	Коврик каучуковый<br>
+              •	Штора ПВХ (2мм)<br>
+              •	Пандусы 2шт.<br>
+              •	Диспенсер для обработки рук <br>
+              •	Бесконтактный ИК термометр<br>
+            </li>
+          </ul>
+        </div>
         </li>
       </ol>
     </section>
