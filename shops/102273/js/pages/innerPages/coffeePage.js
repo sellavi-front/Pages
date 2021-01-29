@@ -170,6 +170,8 @@ export default function coffeePage() {
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray1-e1510322042521_hdaetw.png"
               alt=""
+              style="width: 50%;
+              margin: 0 auto;"
             />
             <div class="text-center">
               <p><b> Coffee Ray ESPRESSO</b></p>
@@ -183,6 +185,8 @@ export default function coffeePage() {
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray3_t4yvbz.png"
               alt=""
+              style="width: 50%;
+              margin: 0 auto;"
             />
             <div class="text-center">
               <p><b>Coffee Ray CLASSIC</b></p>
@@ -197,6 +201,8 @@ export default function coffeePage() {
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray4_dlxdbc.png"
               alt=""
+              style="width: 50%;
+              margin: 0 auto;"
             />
             <div class="text-center">
               <p><b>Coffee Ray CARDAMON</b></p>
@@ -211,6 +217,8 @@ export default function coffeePage() {
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
+              style="width: 50%;
+              margin: 0 auto;"
             />
             <div class="text-center">
               <p><b>Coffee Ray BLOND</b></p>
@@ -226,6 +234,8 @@ export default function coffeePage() {
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
+              style="width: 50%;
+              margin: 0 auto;"
             />
             <div class="text-center">
               <p><b>Coffee Ray BLOND CARDAMON</b></p>
