@@ -193,7 +193,10 @@ export default function desinfectedFrames() {
               Федеральный округ – Центральный Регион производства – Тульская область. Мобильный
               дезинфицирующий пост «DI-Post».
             </p>
-            <div class="d-flex">
+            <div style="display: grid;
+              grid-template-columns: repeat(auto-fit, 360px);
+               justify-content: space-between;
+               grid-gap: 15px;">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-4_dyqyfj.png" alt="" style="margin-right: 20px;">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-2_wygjeg.png" alt="" style="margin-right: 20px;">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-8_iwm7q9.png" alt="" style="margin-right: 20px;">
