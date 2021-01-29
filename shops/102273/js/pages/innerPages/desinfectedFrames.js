@@ -86,7 +86,7 @@ export default function desinfectedFrames() {
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611909434/102273/image_22_qqnyq2.png"
               alt=""
             />
-            <p>
+            <p style="width: 850px;">
               <b>«Anti-Virus Gate»</b> - для дезинфекции используется экологически чистое
               дезинфицирующее средство, не содержащая спирта и абсолютно безопасная для здоровья
               человека. Безспиртовая нанотехнология обеззараживающего средства надежно защищает от
