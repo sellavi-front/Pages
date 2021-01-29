@@ -194,12 +194,13 @@ export default function desinfectedFrames() {
               дезинфицирующий пост «DI-Post».
             </p>
             <div class="d-flex">
-              <img src="" alt="" style="margin-right: 20px;">
-              <img src="" alt="" style="margin-right: 20px;">
-              <img src="" alt="" style="margin-right: 20px;">
-              <img src="" alt="" style="margin-right: 20px;">
-              <img src="" alt="" style="margin-right: 20px;">
-              <img src="" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-4_dyqyfj.png" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-2_wygjeg.png" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-8_iwm7q9.png" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-8_iwm7q9.png" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-1_yorzf2.png" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-5_kihln5.png" alt="" style="margin-right: 20px;">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-3_jepbfy.png" alt="" style="margin-right: 20px;">
             </div>
           </div>
         </li>
