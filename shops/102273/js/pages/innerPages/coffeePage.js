@@ -120,8 +120,8 @@ export default function coffeePage() {
         </div>
       </div>
       <div
-        class="mb-50px w-100"
-        style="display: grid; grid-template-columns: repeat(auto-fit, 48%); "
+        class="mb-50px w-100 founder"
+        style=""
       >
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611929361/102273/founder_1_x37hjo.png"

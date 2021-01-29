@@ -39,8 +39,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(205px, 360px));
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   grid-gap: 15px;
 }
 
@@ -52,11 +52,24 @@
   margin-bottom: 50px;
 }
 
+.founder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 48%);
+}
+
 @media (max-width: 495px) {
   body.information-information .content-area .page-section.titles .container .page-header h1 {
     font-size: 24px;
   }
   .page-section__title {
     font-size: 18px;
+  }
+
+  .founder img {
+    margin-bottom: 30px;
+  }
+  .founder {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
