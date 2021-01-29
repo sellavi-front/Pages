@@ -90,7 +90,7 @@ export default function charityPage() {
         <div>
           <p><b>Какие воды стоит пить и в каком количестве — рассказывает врач</b></p>
           <iframe
-            style="width: 100%"
+            style="width: 100%; height: 500px;"
             src="https://www.youtube.com/embed/nITcuS1uSmE"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
