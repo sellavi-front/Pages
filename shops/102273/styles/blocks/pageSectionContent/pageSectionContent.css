@@ -43,3 +43,7 @@
           justify-content: space-between;
   grid-gap: 15px;
 }
+
+.page-section__ol > li {
+  margin-top: 60px;
+}
