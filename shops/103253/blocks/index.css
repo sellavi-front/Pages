@@ -1,6 +1,5 @@
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
-@font-face {font-family: "Myriad Pro"; src: url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot"); src: url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.woff") format("woff"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3dd6e9888191722420f62dd54664bc94.svg#Myriad Pro") format("svg"); }
 
 body h1,
 body h2,
@@ -12,9 +11,19 @@ body p,
 body a,
 body span,
 body b,
-body strong {
-  font-family: "Myriad Pro" !important;
-  font-weight: normal;
-  font-style: normal;
-  /* font-size: 16px; */
+body strong,
+.price,
+.product-price,
+.product-availability,
+.product-product .product-single table .title,
+.text-right,
+.input-payment-firstname,
+.input-payment-lastname,
+.input-payment-email,
+.input-payment-telephone,
+.input-payment-address-1,
+.input-payment-postcode,
+label,
+.input-payment-firstname {
+  font-family: 'Helvetica', sans-serif !important;
 }
