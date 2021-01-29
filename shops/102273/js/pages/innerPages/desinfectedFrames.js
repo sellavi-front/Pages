@@ -344,7 +344,7 @@ export default function desinfectedFrames() {
             <ul>
               <li style="margin-bottom: 40px;">
                 <p>1.	Ленинградский пр-т д.68, стр.23 – павильон ОРТ, ток-шоу «Пусть говорят»</p>
-                <div class="d-flex flex-wrap>
+                <div class="d-flex flex-wrap">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/03_1x_b8ygnz.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/02_1x_hyyj2b.png" alt="" style="margin-right: 15px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914128/102273/dlpost2005-1_og6dux.png" alt="" style="margin-right: 15px;">
