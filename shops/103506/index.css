@@ -80,9 +80,9 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
   }
 }
 
-.sf-menu.nav>li:hover  {
-  text-decoration: underline;
-  transition: text-transform .3s;
+.sf-menu.nav>li:hover, .sf-menu.nav>li>a:hover  {
+  text-decoration: underline !important;
+  transition: text-transform .5s !important;
 }
 
 
