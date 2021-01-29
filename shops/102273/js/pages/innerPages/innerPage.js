@@ -32,6 +32,8 @@ export default (function () {
 
     const container = document.querySelector(
       '.content-area > #content > .container > div > #content',
+    ) | document.querySelector(
+      '.content-area > .page-section.information > #content > div > div',
     );
     const pageHeader = document.querySelector('.page-header');
 
