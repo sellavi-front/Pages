@@ -17,7 +17,6 @@ if (location.href.includes('contact')) {
 }
 
 
-/*
 if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
     requsites,
@@ -27,4 +26,4 @@ if (location.href.includes('pay-delivery')) {
     dataContact,
   );
   req.setTemplate();
-}*/
+}
