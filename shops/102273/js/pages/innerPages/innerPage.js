@@ -32,7 +32,7 @@ export default (function () {
 
     const container = document.querySelector(
       '.content-area > #content > .container > div > #content',
-    ) | document.querySelector(
+    ) || document.querySelector(
       '.content-area > .page-section.information > #content > div > div',
     );
     const pageHeader = document.querySelector('.page-header');
@@ -60,6 +60,10 @@ export default (function () {
     }
 
     if (document.querySelector('.product-category-6975')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', charityPage());
+    }
+
+    if (document.querySelector('.information-information-6752')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', charityPage());
     }
 
