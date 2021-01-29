@@ -52,3 +52,25 @@ body#home .homefeatured_category .row {
     text-align: center;
     font-weight: 600
 }
+
+section.page-section.latest-section > div > div > div > div > div.caption.text-center > h4 > a {
+    color: #5a5a5a;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: center !important;
+}
+
+#home > div > div > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between.hide_cart_button > div.price {
+    font-size: 18px !important;
+    color: black;
+
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+    color: white !important
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover i {
+    color: white !important
+}
