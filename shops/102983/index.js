@@ -4,7 +4,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.header-wrapper')) {
   const oldNav = document.querySelector('.navigation .nav.sf-menu');
