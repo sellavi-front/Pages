@@ -76,6 +76,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     border-radius: 8px !important;
 }
 
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    border-radius: 8px !important;
+}
 
 .thumbnail .add_to_wishlist button {
     border-radius: 8px !important;
