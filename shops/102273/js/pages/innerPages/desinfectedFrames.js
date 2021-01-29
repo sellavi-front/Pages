@@ -369,7 +369,7 @@ export default function desinfectedFrames() {
                 </div>
               </li>
               <li style="margin-bottom: 40px;">
-                <p>3.	Потаповский пер. 16\5с1, общественная организация «Офицеры России»</p>
+                <p>3.	Потаповский пер. 16/5с1, общественная организация «Офицеры России»</p>
                 <div class="d-flex">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914300/102273/11_1x_ourasl.png" alt="" style="margin-right: 35px;">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611914301/102273/17_1x_pxuqnl.png" alt="" style="margin-right: 35px;">
