@@ -13,7 +13,6 @@
 @import '../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
 @import '../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
 @import '../../components/HeaderTypeTwo/styles/header-login/header-login.css';
-@import '../../components/HeaderTypeTwo/styles/logo/logo.css';
 @import '../../components/HeaderTypeTwo/styles/burger/burger.css';
 
 @import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
@@ -519,3 +518,32 @@ body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
 }
 
 /* end */
+
+/* logo */
+
+body.ltr .wrapper .header .header-wrapper .logo {
+  z-index: 999 !important;
+}
+
+@media (max-width: 375px) {
+  body.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 15% 0 auto;
+    z-index: 999 !important;
+  }
+
+  .logo img {
+    max-width: unset !important;
+    max-height: inherit !important;
+  }
+
+  body.theme_11.checkout-checkout .logo>a img {
+    max-height: 100%;
+    max-width: 250px;
+    padding: 10px !important;
+  }
+
+  body.theme_11.checkout-checkout .checkout-progress-bar {
+    padding-top: 160px;
+    border-bottom: 1px solid #dfe3e8;
+  }
+}
