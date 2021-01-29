@@ -204,6 +204,16 @@ export default function desinfectedFrames() {
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-5_kihln5.png" alt="" style="margin-right: 20px;">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-3_jepbfy.png" alt="" style="margin-right: 20px;">
             </div>
+
+            <div style="display: grid;
+            grid-template-columns: repeat(auto-fit, 260px);
+             justify-content: space-between;
+             grid-gap: 15px;">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0029_lizikz.png" alt="" style="margin-right: 20px;">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200601-WA0016_seylqa.png" alt="" style="margin-right: 20px;">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0028_v3pbpg.png" alt="" style="margin-right: 20px;">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200724-WA0001_ba566b.png" alt="" >
+            </div>
           </div>
         </li>
       </ol>
