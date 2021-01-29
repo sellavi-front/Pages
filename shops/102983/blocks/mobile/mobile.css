@@ -126,6 +126,14 @@
     }
 }
 
+#home > div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) > div > a {
+    font-weight: 500;
+}
+
+#home > div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(5) > div > div > p > span {
+    font-weight: 500;
+}
+
 body#home .homefeatured_category .row {
     flex-wrap: wrap !important;
 }
