@@ -58,6 +58,6 @@ if (location.href.includes('pay-delivery')) {
   req.setTemplate();
 }
 
-if (document.querySelector('.custom_section')) {
+if (document.querySelector('.common-home')) {
   document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', '<div class="preCatTitle"><div class="container"><div class="row"><div class="col-sm"><div>Сегодня «COLOREX» это:</div><ul><li>- крупнейший производитель лакокрасочных материалов в Швеции;</li><li>- современный исследовательский центр и собственный банк рецептур ЛКМ, состоящий</li><li>- экспорт продукции в 15 стран Европы;</li></ul></div><div class="col-sm"></div><div class="col-sm"><ul><li>- более 3000 оптовых партнеров на международных рынках.</li><li>- полностью автоматизированное предприятие с объемом производства продукции более</li><li>- 13 миллионов литров в год;</li><li>- более чем из 10 000 наименований;</li></ul></div></div></div></div>');
 }
