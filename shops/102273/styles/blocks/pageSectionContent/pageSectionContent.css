@@ -33,7 +33,7 @@
 
 .gridd {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(205px, 360px));
+  grid-template-columns: repeat(auto-fill, minmax(205px, 360px));
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
