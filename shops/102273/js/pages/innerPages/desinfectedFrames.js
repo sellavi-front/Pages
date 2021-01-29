@@ -148,7 +148,7 @@ export default function desinfectedFrames() {
           <div style="margin: 0 0 40px 0">
             <h5 style="margin-bottom: 30px;"><b>Установленные многофункциональные дезинфицирующие арки AV GATE:</b></h5>
             <ul>
-              <li style="margin-bottom: 40px;>
+              <li style="margin-bottom: 40px;">
                 <p>1.	ООО «Честный чек» м. Краснопресненская, г. Москва, ул. Рочдельская, 15. ст.16 а, 4 этаж.</p>
                 <div class="d-flex">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611910612/102273/IMG_20200918_172312_gbsxes.png" alt="" style="margin-right: 35px;">
@@ -156,7 +156,7 @@ export default function desinfectedFrames() {
 
                 </div>
               </li>
-              <li style="margin-bottom: 40px;>
+              <li style="margin-bottom: 40px;">
                 <p>2.	  Стройтанснефтегаз</p>
                 <div class="d-flex">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911178/102273/IMG-20201005-WA0006_iipxug.png" alt="" style="margin-right: 35px;">
@@ -165,7 +165,7 @@ export default function desinfectedFrames() {
 
                 </div>
               </li>
-              <li style="margin-bottom: 40px;>
+              <li style="margin-bottom: 40px;">
                 <p>3.	ООО «ЦРПТ» г. Москва, ул. Рочдельская, д. 15, стр. 16А, БП «Трехгорная мануфактура»</p>
                 <div class="d-flex">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911273/102273/IMG-20201005-WA0009_upniac.png" alt="" style="margin-right: 35px;">
@@ -173,7 +173,7 @@ export default function desinfectedFrames() {
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911273/102273/IMG-20201005-WA0010_lpdecz.png" alt="" >
                 </div>
               </li>
-              <li style="margin-bottom: 40px;>
+              <li style="margin-bottom: 40px;">
                 <p>4.	ООО «ЦРПТ» г. Москва, ул. Рочдельская, д. 15, стр. 16А, БП «Трехгорная мануфактура».</p>
                 <div class="d-flex">
                   <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611911344/102273/IMG-20201005-WA0015_z1iedx.png" alt="" style="margin-right: 35px;">
