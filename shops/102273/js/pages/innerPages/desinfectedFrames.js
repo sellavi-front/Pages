@@ -117,8 +117,9 @@ export default function desinfectedFrames() {
           </div>
 
           <div style="margin: 0 0 40px 0">
-            <h5>Дополнительное оборудование AV GATE:</h5>
-            </div>
+            <h5>Базовые комплектации:</h5>
+            <div> </div>
+          </div>
         </li>
       </ol>
     </section>
