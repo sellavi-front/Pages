@@ -57,19 +57,22 @@
   grid-template-columns: repeat(auto-fit, 48%);
 }
 
+@media (max-width: 768px) {
+  .founder img {
+    margin-bottom: 30px;
+  }
+
+  .founder {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 495px) {
   body.information-information .content-area .page-section.titles .container .page-header h1 {
     font-size: 24px;
   }
   .page-section__title {
     font-size: 18px;
-  }
-
-  .founder img {
-    margin-bottom: 30px;
-  }
-  .founder {
-    display: grid;
-    grid-template-columns: 1fr;
   }
 }
