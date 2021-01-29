@@ -17,4 +17,12 @@
 .page-section__ul_charity {
   display: grid;
   grid-template-columns: repeat(auto-fit, 310px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-section__ul_charity li {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
