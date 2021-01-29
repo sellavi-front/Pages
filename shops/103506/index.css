@@ -49,7 +49,7 @@ body strong,
 
 .sf-menu.nav>li {
   margin: 5px 16px;
-  transition: text-transform 1s !important;
+  transition: text-decoration 1s !important;
 }
 
 .sf-menu.nav>li>a {
