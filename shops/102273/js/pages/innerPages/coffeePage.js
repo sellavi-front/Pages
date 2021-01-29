@@ -13,7 +13,7 @@ export default function coffeePage() {
           Заставив бодро заспешить<br />
           Хлеб зарабатывать насущный?
         </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%)">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%); align-items: center; justify-content: space-between;">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"
             alt=""
@@ -128,7 +128,7 @@ export default function coffeePage() {
           alt=""
         />
         <div>
-          <p><b>ОСНОВАТЕЛЬ Coffee Ray</b></p>
+          <h4><b>ОСНОВАТЕЛЬ Coffee Ray</b></h4>
           <p>
             Друзья представляем Вашему вниманию по-настоящему солнечного человека — Роди Райдана.
             Успешный бизнесмен и разносторонний человек, создатель торговой марки Coffee Ray,
