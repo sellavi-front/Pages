@@ -27,6 +27,10 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
   display: none !important;
 }
 
+.navigation_black_screen {
+  display: none;
+}
+
 /* reset container size for .navigation-wrapper*/
 
 body.theme_11 .wrapper .header .navigation-wrapper>div.container {
