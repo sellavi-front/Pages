@@ -7,7 +7,7 @@ export default class medSocProg extends BaseComponent {
   }
 
   getData() {
-    return this.data.map(elem => {
+    return this.data.partners.map(elem => {
       return `
         <div class="partner">
           <img src="${elem.src}" alt="" />
@@ -23,6 +23,16 @@ export default class medSocProg extends BaseComponent {
 
   getTemplate() {
     return `
+      <section class="main-partner">
+        <div class="w-100">
+          <img src="${this.data.main.src}">
+          <h3 class="partners__title"><b>this.data.main</b></h3>
+          <p class="partners__ph">
+              ${this.data.main.text}
+          </p>
+          <a href="${this.data.main.link}">ссылка</a>
+        <div>
+      </section>
       <section class="partners">
         ${this.getData()}
       </section>
