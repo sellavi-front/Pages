@@ -49,19 +49,19 @@ export default function plantPage() {
   <div class="sect">
     <h4><b>Услуги</b></h4>
     <div class="d-flex flex-wrap">
-      <div class="col-md-5">
+      <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095137/102273/Ekonom_1_jhnspx.png" alt="">
         <p class="text-center"><b> Уход за садом</b></p>
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095138/102273/landshaftny-j-dizajn-1_1_tbvpys.png" alt="">
         <p class="text-center">Проектирование</b></p>
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095138/102273/unnamed_1_2_w6bkrf.png" alt="">
         <p class="text-center"><b> Благоустройство</b></p>
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095138/102273/meridian-garden-garden-maintenance_1_xbfs3w.png" alt="">
         <p class="text-center"><b> Озеленение</b></p>
       </div>
