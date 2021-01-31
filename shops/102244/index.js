@@ -2,7 +2,7 @@ import './utils/aqquring.js'
 
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import '../../components/HeaderTypeThree/HeaderTypeThree.js';
+import '../../components/HeaderTypeTwo/HeaderTypeTwo.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import '../../fixes/js/Alert/Alert.js';
 
