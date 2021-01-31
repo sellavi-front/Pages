@@ -18,6 +18,7 @@ import medColting from './medColting.js'
 import urbanEconomy from './urbanEconomy.js';
 import plantPage from './plantPage.js'
 import medicalFood from './medicalFood.js';
+import tourismPage from './tourismPage.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -99,9 +100,12 @@ export default (function () {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', plantPage());
     }
 
-    medicalFood
     if (document.querySelector('.information-information-6760')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', medicalFood());
+    }
+
+    if (document.querySelector('.information-information-6763')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', tourismPage());
     }
   }
 })();
