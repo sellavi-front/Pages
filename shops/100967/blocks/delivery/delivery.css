@@ -3,3 +3,7 @@
   border-left: 1px solid darkgray;
   padding-left: 3rem;
 }
+
+.delivery > div {
+  margin-bottom: 50px !important;
+}
