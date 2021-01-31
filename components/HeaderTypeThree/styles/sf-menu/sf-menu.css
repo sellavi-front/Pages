@@ -6,7 +6,8 @@
   margin: 5px 14px;
 }
 
-.sf-menu.nav>li>a {
+.sf-menu.nav>li>a,
+.sf-menu.nav>li>div>a {
   font-size: 18px !important;
   margin: 0 !important;
   padding: 5px 0 !important;
