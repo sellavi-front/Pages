@@ -16,6 +16,7 @@ import coffeePage from './coffeePage.js'
 import cosmeticsPage from './cosmeticsPage.js';
 import medColting from './medColting.js'
 import urbanEconomy from './urbanEconomy.js';
+import plantPage from './plantPage.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -93,5 +94,8 @@ export default (function () {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', urbanEconomy());
     }
 
+    if (document.querySelector('.information-information-6761')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', plantPage());
+    }
   }
 })();

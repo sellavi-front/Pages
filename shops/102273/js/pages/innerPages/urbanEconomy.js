@@ -1,4 +1,4 @@
-export default function medSocProg() {
+export default function urbanEconomy() {
   return `
   <section class="page-section__content">
       <div class="sect w-100 mb-7">
