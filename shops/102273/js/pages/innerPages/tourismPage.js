@@ -13,103 +13,31 @@ const tourismPage = () => {
         Иверская гора, оз. Рица, дача Сталина, Ковалы, Имерский храм, и т.д.</p>
     </div>
     <div class="row">
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%AC_%D0%90_edaqwm.png"
-        alt=""
-      />
+      <div class="col-lg-3 col-md-4 col-6 mb-3">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%AC_%D0%90_edaqwm.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_2_dwgfei.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_1_nvgioy.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_4_sgdrnx.png" alt="">
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-3">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_4_ahiewo.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_5_t4xsj8.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_6_fctazw.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%A4_7_xzphg8.png" alt="">
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-3">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_3_x7d5xq.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_3_vzwug7.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_2_i5ow4w.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_1_sywatv.png" alt="">
+      </div>
+      <div class="col-lg-3 col-md-4 col-6 mb-3">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_5_tetw9w.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%A8_%D0%92_%D0%90_%D0%9C_%D0%90_2_em8xyf.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%A8_%D0%92_%D0%90_%D0%9C_%D0%90_6_h3dkba.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%A4_8_goapzh.png" alt="">
+      </div>
     </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_2_dwgfei.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_1_nvgioy.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_4_sgdrnx.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_4_ahiewo.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_5_t4xsj8.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_6_fctazw.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%A4_7_xzphg8.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126991/102273/%D0%A4_3_x7d5xq.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_3_vzwug7.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_2_i5ow4w.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_1_sywatv.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%AA_%D0%93_%D0%95_%D0%9F_5_tetw9w.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126993/102273/%D0%A8_%D0%92_%D0%90_%D0%9C_%D0%90_2_em8xyf.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%A8_%D0%92_%D0%90_%D0%9C_%D0%90_6_h3dkba.png"
-        alt=""
-      />
-    </div>
-    <div class="col-lg-3 col-md-4 col-6">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612126992/102273/%D0%A4_8_goapzh.png"
-        alt=""
-      />
-    </div>
-  </div>
       </section>
   `;
 };
