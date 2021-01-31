@@ -14,7 +14,7 @@ import partnersData from '../../utils/partnersData.js';
 import waterPage from './waterPage.js'
 import coffeePage from './coffeePage.js'
 import cosmeticsPage from './cosmeticsPage.js';
-
+import medColting from './medColting.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -82,6 +82,10 @@ export default (function () {
 
     if (document.querySelector('.information-information-6756')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', cosmeticsPage());
+    }
+
+    if (document.querySelector('.information-information-6759')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', medColting());
     }
 
   }
