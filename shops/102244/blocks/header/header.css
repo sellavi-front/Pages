@@ -17,6 +17,13 @@ body.theme_11 .wrapper .header {
   padding: 2% 0;
 
 }
+
+body.theme_11 .wrapper .header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
 /*
 body.theme_11.common-home .wrapper .header {
   background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
