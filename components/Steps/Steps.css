@@ -1,3 +1,7 @@
+.steps {
+  margin-bottom: 80px;
+}
+
 .steps__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(311px, 347px));
@@ -36,5 +40,9 @@
 @media (max-width: 768px) {
   .step {
     margin-right: 0;
+  }
+
+  .steps {
+    margin-bottom: 40px;
   }
 }
