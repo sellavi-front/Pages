@@ -3,3 +3,8 @@
 @import './components/fixes.css';
 @import './components/components.css';
 @import './blocks/index.css';
+
+
+.container, .col-md-12 {
+  padding: 0 !important;
+}
