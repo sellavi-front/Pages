@@ -11,11 +11,11 @@
 @import '../../../modules/BigBanner/BigBanner.css';
 
 /* @import '../../../components/PictureCategories/PictureCategories.css'; */
-@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../../components/HeaderTypeThree/HeaderTypeThree.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import './footer/footer.css';
-/* @import './header/header.css'; */
+@import './header/header.css';
 @import './products/products.css';
 @import './banner/banner.css';
 @import './photo-grid/photo-grid.css';
