@@ -129,5 +129,9 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
     margin-top: 5%;
   }
+
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
+    display: none;
+  }
 }
 
