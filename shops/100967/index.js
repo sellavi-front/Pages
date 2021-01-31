@@ -187,7 +187,7 @@ if (document.querySelector('.wrapper')) {
   });
 }
 
-if (location.href.includes('/register')) {
+if (document.querySelector('.account-register')) {
   document.querySelectorAll("#account > div > div").forEach(sel => {
     sel.classList.remove('col-sm-10')
   })
