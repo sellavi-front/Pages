@@ -757,10 +757,11 @@ export default function medicalFood() {
             старения.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/zerno_celoe_1_bdty2i.png"
           alt=""
-        />
+        /> </div>
       </div>
       <div class="w-100">
         <p>
@@ -789,11 +790,11 @@ export default function medicalFood() {
             старения.
           </p>
         </div>
-
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/zerno_izmel_1_sgidnj.png"
           alt=""
-        />
+        /> </div>
       </div>
       <div class="w-100">
         <p>
@@ -829,10 +830,12 @@ export default function medicalFood() {
             потенцию и замедляет процесс старения.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/image_78_y0cdb0.png"
           alt=""
         />
+        </div>
       </div>
       <div class="w-100">
         <p>
@@ -865,10 +868,11 @@ export default function medicalFood() {
             изнурительных тренировок и липосакции.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/hlopiya_2zlaka_1_eil72q.png"
           alt=""
-        />
+        /> </div>
       </div>
       <div class="w-100">
         <p>
@@ -905,10 +909,11 @@ export default function medicalFood() {
             холецистита, желтухи, туберкулеза, гипертонии, авитаминоза.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121383/102273/hlopiya_brusnika_1_lpdrg8.png"
           alt=""
-        />
+        /></div>
       </div>
       <div class="w-100">
         <p>
@@ -944,10 +949,11 @@ export default function medicalFood() {
             адаптации.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121383/102273/3_55_qw4kej.png"
           alt=""
-        />
+        /> </div>
       </div>
       <div class="w-100">
         <p>
@@ -982,10 +988,11 @@ export default function medicalFood() {
             почек, гастритах, авитаминозах.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/4_493_guorfg.png"
           alt=""
-        />
+        /> </div>
       </div>
       <div class="w-100">
         <p>
@@ -1022,10 +1029,11 @@ export default function medicalFood() {
             антитоксическим действием, повышает гемоглобин.
           </p>
         </div>
-        <img class="col-sm-4"
+        <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121383/102273/2_235893_klyizq.png"
           alt=""
-        />
+        /> </div>
       </div>
       <div class="w-100">
         <p>
@@ -1060,11 +1068,11 @@ export default function medicalFood() {
             регенерирующим эффектом.
           </p>
         </div>
-
-        <img class="col-sm-4"
+            <div class="col-sm-4">
+        <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/5_1562138_iajhrc.png"
           alt=""
-        />
+        /> </div>
       </div>
     </div>
     <div class="w-100">
