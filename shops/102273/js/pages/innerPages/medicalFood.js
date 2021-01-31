@@ -1175,14 +1175,14 @@ export default function medicalFood() {
 
   <div class="sect">
     <h3><b>5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</b></h3>
-    <div>
+    <div class="mb-5">
       <img
         class="mx-auto"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612123952/102273/detox-boxes_1_psdtsl.png"
         alt=""
       />
     </div>
-    <div>
+    <div class="mb-5">
       <p>
         <b>ЛЕОВИТ нутрио</b> – одна из ведущих компаний по производству лечебного и
         профилактического питания.
@@ -1203,7 +1203,7 @@ export default function medicalFood() {
         ассортименте компании такие бренды как “Худеем за неделю”, VitaPRO.
       </p>
     </div>
-    <div>
+    <div class="mb-5">
       <p>
         <b>КАК РАБОТАЮТ СПЕЦИАЛИЗИРОВАННЫЕ ПРОДУКТЫ ЛИНЕЙКИ ДЕТОКС?</b>
       </p>
@@ -1231,7 +1231,7 @@ export default function medicalFood() {
         ксенобиотиков.<br />
       </p>
     </div>
-    <div>
+    <div class="mb-5">
       <h4><b>ЭФФЕКТИВНОСТЬ ДЕТОКСИКАЦИОННЫХ ПРОДУКТОВ ДОКАЗАНА КЛИНИЧЕСКИ</b></h4>
       <h4>
         <b
@@ -1287,7 +1287,7 @@ export default function medicalFood() {
         />
       </div>
     </div>
-    <div class="w-100">
+    <div class="mb-5 w-100">
       <div class="mb-5">
         <p>
           <b>2. Программа питания и продукты для снижения веса «Худеем за неделю»</b>
@@ -1320,7 +1320,7 @@ export default function medicalFood() {
         />
       </div>
     </div>
-    <div class="w-100">
+    <div class="mb-5 w-100">
       <div class="mb-5">
         <p>
           <b>3. Продукты для полезного перекуса</b>
@@ -1351,7 +1351,7 @@ export default function medicalFood() {
         />
       </div>
     </div>
-    <div class="w-100">
+    <div class="mb-5 w-100">
       <div class="mb-5">
         <p><b>4. Продукты для укрепления здоровья</b></p>
         <p>
