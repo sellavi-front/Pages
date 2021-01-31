@@ -34,6 +34,7 @@ if (document.querySelector('.wrapper')) {
     <rect y="7" width="23" height="1" fill="black"/>
     <rect y="14" width="23" height="1" fill="black"/>
   </svg>
+  <span>Меню</span>
   `,
     );
 
