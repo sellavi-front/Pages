@@ -17,6 +17,7 @@ import cosmeticsPage from './cosmeticsPage.js';
 import medColting from './medColting.js'
 import urbanEconomy from './urbanEconomy.js';
 import plantPage from './plantPage.js'
+import medicalFood from './medicalFood.js';
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -96,6 +97,11 @@ export default (function () {
 
     if (document.querySelector('.information-information-6761')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', plantPage());
+    }
+
+    medicalFood
+    if (document.querySelector('.information-information-6760')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', medicalFood());
     }
   }
 })();

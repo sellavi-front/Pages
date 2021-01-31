@@ -63,6 +63,12 @@ body.information-information-6761 .content-area .page-section.titles > div {
   no-repeat !important;
 }
 
+
+body.information-information-6760 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612104366/102273/Group_7423495_bf6pwu.png')
+  no-repeat !important;
+}
+
 body.product-category .content-area .page-section.titles {
   height: 460px;
   background-position: right;
