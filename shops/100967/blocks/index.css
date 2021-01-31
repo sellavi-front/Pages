@@ -40,7 +40,8 @@ body strong {
 
 body p,
 body a,
-body span {
+body span,
+body li {
   font-size: 16px !important;
 }
 
