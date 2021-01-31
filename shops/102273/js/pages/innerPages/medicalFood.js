@@ -347,73 +347,73 @@ export default function medicalFood() {
         притязательных гурманов.
       </p>
       <div class="d-flex flex-wrap justify-content-center">
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105640/102273/Marmelad-chernaya-smorodina-1_1_g2qrot.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105640/102273/Marmelad-klubnika-2_1_opun2j.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105640/102273/Marmelad-klukva-1_2_zeesji.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105640/102273/marmelad-dynya-persik-mango-1_1_b77tyn.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/marmelad-vishnya-sliva-grusha-1_1_ch1ias.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/Marmelad-yabloko-klubnika-chernika-1_1_qpta8h.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/marmelad-tomat-morkov-perez-1_1_rivqfl.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/Marmelad-oblepixa-klukva-smorodina-1_1_le6jj4.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/marmelad-tykva-morkov-selderey-1_1_g91a0p.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/Marmelad-Oblepicha-1_1_tenqp7.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/Marmelad-vishnya-1_1_ortksc.png"
             alt=""
           />
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-3">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612105641/102273/Marmelad-ryabina-chernika-smorodina-1_1_xxtioh.png"
             alt=""
