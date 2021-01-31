@@ -15,8 +15,17 @@ body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
-
 }
+
+.sf-menu li:hover>ul {
+  color: black !important;
+}
+
+body.ltr .sf-menu ul {
+  left: 0 !important;
+  right: auto !important;
+}
+
 /*
 body.theme_11.common-home .wrapper .header {
   background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
