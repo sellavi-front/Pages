@@ -17,6 +17,10 @@ body.theme_11 .wrapper .header {
   padding: 2% 0;
 }
 
+.sf-menu li:hover>ul {
+  display: none !important;
+}
+
 .sf-menu li:hover>ul li a{
   color: black !important;
 }
