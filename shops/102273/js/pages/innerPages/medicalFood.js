@@ -746,7 +746,7 @@ export default function medicalFood() {
   </div>
   <div class="sect">
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>1. Зерно пшеницы пророщенное целое.</b></h4>
           <p>
@@ -779,7 +779,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>2. Зерно пшеницы пророщенное измельченное.</b></h4>
           <p>
@@ -818,7 +818,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>3. Хлопья из пророщенного зерна пшеницы.</b></h4>
           <p>
@@ -853,7 +853,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>4. Хлопья</b></h4>
           <p>
@@ -890,7 +890,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>5. Хлопья из пророщенного зерна пшеницы с брусникой.</b></h4>
           <p>
@@ -931,7 +931,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>6. Хлопья из пророщенного зерна пшеницы с черникой.</b></h4>
           <p>
@@ -971,7 +971,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>7. Хлопья из пророщенного зерна пшеницы с лесной земляникой.</b></h4>
           <p>
@@ -1010,7 +1010,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>8. Хлопья из пророщенного зерна пшеницы с малиной.</b></h4>
           <p>
@@ -1051,7 +1051,7 @@ export default function medicalFood() {
       </div>
     </div>
     <div class="w-100">
-      <div>
+      <div class="row">
         <div class="col-sm-8">
           <h4><b>9. Шиповник сушеный вакуумной сушки</b></h4>
           <p>
