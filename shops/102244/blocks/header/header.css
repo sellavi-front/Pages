@@ -24,6 +24,23 @@ body.theme_11 .wrapper .header {
   z-index: 100;
 }
 
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  max-width: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper span {
+  color: black !important;
+  font-size: 18px !important;
+  margin-left: 20px;
+}
+
 /*
 body.theme_11.common-home .wrapper .header {
   background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
