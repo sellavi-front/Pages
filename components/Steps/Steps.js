@@ -29,7 +29,7 @@ export default class Steps extends BaseComponent {
   getTemplate() {
     return `
       <div class="steps">
-        <h3> class="steps__title"${this.data.title}</h3>
+        <h3> class="steps__title">${this.data.title}</h3>
         <div class="steps__container">
           ${this.getData()}
         </div>
