@@ -747,7 +747,7 @@ export default function medicalFood() {
   <div class="sect">
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>1. Зерно пшеницы пророщенное целое.</b></h4>
           <p>
             Введение пророщенного зерна пшеницы в рацион питания, стимулирует обмен веществ и
@@ -757,7 +757,7 @@ export default function medicalFood() {
             старения.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/zerno_celoe_1_bdty2i.png"
           alt=""
         />
@@ -779,7 +779,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>2. Зерно пшеницы пророщенное измельченное.</b></h4>
           <p>
             Введение пророщенного зерна пшеницы в рацион питания, стимулирует обмен веществ и
@@ -790,7 +790,7 @@ export default function medicalFood() {
           </p>
         </div>
 
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/zerno_izmel_1_sgidnj.png"
           alt=""
         />
@@ -818,7 +818,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>3. Хлопья из пророщенного зерна пшеницы.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до
@@ -829,7 +829,7 @@ export default function medicalFood() {
             потенцию и замедляет процесс старения.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/image_78_y0cdb0.png"
           alt=""
         />
@@ -851,7 +851,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>4. Хлопья</b></h4>
           <p>
             В хлопьях из пророщенного зерна пшеницы и гречневых хлопьях в большом количестве
@@ -865,7 +865,7 @@ export default function medicalFood() {
             изнурительных тренировок и липосакции.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/hlopiya_2zlaka_1_eil72q.png"
           alt=""
         />
@@ -887,7 +887,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>5. Хлопья из пророщенного зерна пшеницы с брусникой.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до
@@ -905,7 +905,7 @@ export default function medicalFood() {
             холецистита, желтухи, туберкулеза, гипертонии, авитаминоза.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121383/102273/hlopiya_brusnika_1_lpdrg8.png"
           alt=""
         />
@@ -927,7 +927,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>6. Хлопья из пророщенного зерна пшеницы с черникой.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до
@@ -944,7 +944,7 @@ export default function medicalFood() {
             адаптации.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121383/102273/3_55_qw4kej.png"
           alt=""
         />
@@ -966,7 +966,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>7. Хлопья из пророщенного зерна пшеницы с лесной земляникой.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до
@@ -982,7 +982,7 @@ export default function medicalFood() {
             почек, гастритах, авитаминозах.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/4_493_guorfg.png"
           alt=""
         />
@@ -1004,7 +1004,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>8. Хлопья из пророщенного зерна пшеницы с малиной.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до
@@ -1022,7 +1022,7 @@ export default function medicalFood() {
             антитоксическим действием, повышает гемоглобин.
           </p>
         </div>
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121383/102273/2_235893_klyizq.png"
           alt=""
         />
@@ -1044,7 +1044,7 @@ export default function medicalFood() {
     </div>
     <div class="w-100">
       <div>
-        <div>
+        <div class="col-sm-8">
           <h4><b>9. Шиповник сушеный вакуумной сушки</b></h4>
           <p>
             Шиповник вакуумной сушки. Экологически чистый продукт. Содержит много витаминов и
@@ -1061,7 +1061,7 @@ export default function medicalFood() {
           </p>
         </div>
 
-        <img
+        <img class="col-sm-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612121384/102273/5_1562138_iajhrc.png"
           alt=""
         />
