@@ -13,6 +13,7 @@ import desinfectedFrames from './desinfectedFrames.js'
 import partnersData from '../../utils/partnersData.js';
 import waterPage from './waterPage.js'
 import coffeePage from './coffeePage.js'
+import cosmeticsPage from './cosmeticsPage.js';
 
 
 export default (function () {
@@ -77,6 +78,10 @@ export default (function () {
 
     if (document.querySelector('.information-information-6755')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', coffeePage());
+    }
+
+    if (document.querySelector('.information-information-6756')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', cosmeticsPage());
     }
 
   }
