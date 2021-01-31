@@ -1,4 +1,4 @@
-export default deliveryPage = () => {
+const deliveryPage = () => {
   return `
   <section class="delivery">
   <div class="w-100 mb-5">
@@ -140,3 +140,5 @@ export default deliveryPage = () => {
 </section>
   `
 }
+
+export default deliveryPage;
