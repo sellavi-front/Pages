@@ -188,7 +188,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.account-register')) {
-  document.querySelectorAll("#account > div > div").forEach(sel => {
+  document.querySelectorAll("form > fieldset > div > div").forEach(sel => {
     sel.classList.remove('col-sm-10')
   })
 }
