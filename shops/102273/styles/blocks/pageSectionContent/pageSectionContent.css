@@ -64,6 +64,9 @@
 body p {
   margin-bottom: 10px !important;
 }
+.mb-20px {
+  margin-bottom: 20px !important;
+}
 
 .sect .col {
   display: -webkit-box;
