@@ -68,6 +68,9 @@ body p {
   margin-bottom: 20px !important;
 }
 
+.photo-flex img {
+  margin: .6rem;
+}
 
 .sect .col {
   display: -webkit-box;
