@@ -19,6 +19,7 @@ import urbanEconomy from './urbanEconomy.js';
 import plantPage from './plantPage.js'
 import medicalFood from './medicalFood.js';
 import tourismPage from './tourismPage.js'
+import medTech from './medTech.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -106,6 +107,10 @@ export default (function () {
 
     if (document.querySelector('.information-information-6763')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', tourismPage());
+    }
+
+    if (document.querySelector('.information-information-6758')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', medTech());
     }
   }
 })();
