@@ -72,6 +72,11 @@ body p {
   margin: .6rem;
 }
 
+.sect img.m-2 {
+  width: 165px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .sect .col {
   display: -webkit-box;
   display: -ms-flexbox;
