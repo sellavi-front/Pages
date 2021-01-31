@@ -67,6 +67,10 @@ body.theme_11.common-home .wrapper .header {
   margin: 0 auto 0 21% !important;
 } */
 
+header > div.header-wrapper > div > nav > ul > li.flexy.has_children {
+  display: none !important;
+}
+
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: auto !important;
   left: 0 !important;
