@@ -99,14 +99,14 @@ if (document.querySelector('.wrapper')) {
   //   );
   // }, 500);
 
-  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
-    document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
-      const nav = document.querySelector('.navigation');
-      nav.classList.add('nav-closed');
-      nav.classList.remove('nav-opened');
-      document.querySelector('body').classList.remove('overflow-hidden');
-    });
-  });
+  // document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+  //   document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+  //     const nav = document.querySelector('.navigation');
+  //     nav.classList.add('nav-closed');
+  //     nav.classList.remove('nav-opened');
+  //     document.querySelector('body').classList.remove('overflow-hidden');
+  //   });
+  // });
 
 }
 
