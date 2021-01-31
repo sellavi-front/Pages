@@ -36,6 +36,11 @@ body span,
 body b,
 body strong {
   font-family: 'Open Sans', sans-serif !important;
+}
+
+body p,
+body a,
+body span {
   font-size: 16px !important;
 }
 
