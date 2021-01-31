@@ -47,7 +47,7 @@ export default function plantPage() {
     </div>
   </div>
   <div class="sect">
-    <h4><b>Услуги</b></h4>
+    <h4 class="mb-2"><b>Услуги</b></h4>
     <div class="d-flex flex-wrap">
       <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095137/102273/Ekonom_1_jhnspx.png" alt="">
@@ -55,7 +55,7 @@ export default function plantPage() {
       </div>
       <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095138/102273/landshaftny-j-dizajn-1_1_tbvpys.png" alt="">
-        <p class="text-center">Проектирование</b></p>
+        <p class="text-center"><b>Проектирование</b></p>
       </div>
       <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095138/102273/unnamed_1_2_w6bkrf.png" alt="">
@@ -68,7 +68,7 @@ export default function plantPage() {
     </div>
   </div>
   <div class="sect">
-    <h5>Фото территории питомника и выполненных работ:</h5>
+    <h4 class="mb-2"><b>Фото территории питомника и выполненных работ:</b></h4>
     <div class="d-flex flex-wrap jusctify-content-center">
       <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612095359/102273/image_77_x55qxl.png" alt="" class="m-2">
       <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612095359/102273/image_76_o6zj5s.png" alt="" class="m-2">
