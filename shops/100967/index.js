@@ -187,6 +187,11 @@ if (document.querySelector('.wrapper')) {
   });
 }
 
+if (location.href.includes('/register')) {
+  document.querySelectorAll("#account > div > div").forEach(sel => {
+    sel.classList.remove('col-sm-10')
+  })
+}
 if (document.querySelector('.common-home')) {
   // const pageSection = document.querySelector('.page-section');
 
