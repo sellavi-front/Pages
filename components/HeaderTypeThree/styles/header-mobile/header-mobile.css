@@ -28,6 +28,7 @@ body.sidenav-enabled .mobile_side_nav {
   top: auto !important;
   left: 0 !important;
   position: relative !important;
+
 }
 
 body.ltr .header .header-wrapper .mobile-navigation-wrapper {
