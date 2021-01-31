@@ -15,7 +15,7 @@ import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithT
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 import Steps from '../../components/Steps/Steps.js';
-
+import deliveryPage from './deliveryPage.js'
 import cartWhite from './assets/svg/bag-white.js';
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
@@ -470,4 +470,7 @@ if (location.href.includes('/test')) {
   };
 
   new Steps(props, dataSteps).setTemplate();
+
+  mainContainer.insertAdjacentHTML('beforeend', deliveryPage());
+
 }
