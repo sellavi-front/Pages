@@ -13,4 +13,8 @@ if (document.querySelector('.wrapper')) {
       .getAttribute('src')
       .replace(/\/c_fit,g_center,h_176,q_100,w_430\/c_pad,h_176,w_430\/v1611822634/gi, ''),
   );
+
+  const sellaviLogo = document.querySelector("#sellavi_logo");
+  document.querySelector("#home > div > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', sellaviLogo.outerHTML)
+  sellaviLogo.remove()
 }
