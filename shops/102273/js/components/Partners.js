@@ -26,7 +26,7 @@ export default class medSocProg extends BaseComponent {
       <section class="main-partner">
         <div class="w-100">
           <img src="${this.data.main.src}">
-          <h3 class="partners__title"><b>this.data.main</b></h3>
+          <h3 class="partners__title"><b>${this.data.main.title}</b></h3>
           <p class="partners__ph">
               ${this.data.main.text}
           </p>
