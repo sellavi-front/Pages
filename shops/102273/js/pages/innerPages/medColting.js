@@ -13,24 +13,24 @@ export default function charityPage() {
   <div class="sect w-100">
     <h4 class="text-center"><b>Ассортимент продукции:</b></h4>
     <div class="d-flex flex-wrap justify-content-between">
-      <div class="col-md-4 text-center mb-20px">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/6aca80c6953523f27d1718698e562972_1_rmxqf4.png" alt="">
+      <div class="col-md-4 text-center mb-50px">
+        <img class=="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/6aca80c6953523f27d1718698e562972_1_rmxqf4.png" alt="">
         <p><b>МЕДИЦИНСКИЕ ХАЛАТЫ</b></p>
       </div>
-      <div class="col-md-4 text-center mb-20px">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/4b53325bc001372323030ffb69270062_1_rurfw5.png" alt="">
+      <div class="col-md-4 text-center mb-50px">
+        <img class=="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/4b53325bc001372323030ffb69270062_1_rurfw5.png" alt="">
         <p><b>МЕДИЦИНСКИЙ КОСТЮМ ЖЕНСКИЙ</b></p>
       </div>
-      <div class="col-md-4 text-center mb-20px">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/4f3683532f94aaa6791c109860262546_1_w1dw0m.png" alt="">
+      <div class="col-md-4 text-center mb-50px">
+        <img class=="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/4f3683532f94aaa6791c109860262546_1_w1dw0m.png" alt="">
         <p><b>МУЖСКАЯ МЕДИЦИНСКАЯ ОДЕЖДА</b></p>
       </div>
-      <div class="col-md-4 text-center mb-20px">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/be5a90911cad5b8733568d9016bf49a8_1_thlhex.png" alt="">
+      <div class="col-md-4 text-center mb-50px">
+        <img class=="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/be5a90911cad5b8733568d9016bf49a8_1_thlhex.png" alt="">
         <p><b>МЕДИЦИНСКИЕ БРЮКИ</b></p>
       </div>
-      <div class="col-md-4 text-center mb-20px">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/01011ecb61cb9a3438f33ff760ebbfa7_1_gxrbbx.png" alt="">
+      <div class="col-md-4 text-center mb-50px">
+        <img class=="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/01011ecb61cb9a3438f33ff760ebbfa7_1_gxrbbx.png" alt="">
         <p><b>МЕДИЦИНСКИЕ БЛУЗЫ</b></p>
       </div>
     </div>
