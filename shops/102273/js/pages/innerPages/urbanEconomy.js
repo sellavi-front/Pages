@@ -11,6 +11,17 @@ export default function medSocProg() {
         отметки 40 000 000 человек. Имеет 249 действующих федеральных и локальных заказчиков.
       </p>
     </div>
+    <div>
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_truda2_308x265_b85_1_ow9eim.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_krput_308x265_b85_1_weptac.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_mayorch_308x265_b85_1_nefei3.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/prew_jukova_308x265_b85_1_fyo1ip.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/pre2_308x265_b85_1_aiuitl.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/bryansk3_308x265_b85_1_ubkfpd.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/arbat2_308x265_b85_1_nkxawi.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/ibis1_308x265_b85_1_b2te7e.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/matrosova1_308x265_b85_1_z8vzjj.png" alt="">
+        </div>
   </div>
   <div class="sect w-100 mb-7">
     <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_3_ng75ib.png" alt="" />
