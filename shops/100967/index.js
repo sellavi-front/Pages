@@ -1,5 +1,6 @@
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
