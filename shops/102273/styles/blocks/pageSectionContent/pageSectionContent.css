@@ -112,6 +112,10 @@ body p {
   margin: 30px auto;
 }
 
+body.information-information .information img {
+  max-width: auto !important;
+}
+
 .page-section__contacts > .row {
   -ms-flex-pack: distribute;
       justify-content: space-around;
