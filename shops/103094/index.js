@@ -6,10 +6,12 @@ import './blocks/header/header.js'
 import './blocks/banner/banner.js'
 import resetSizeBanner from "./blocks/banner/banner.js";
 
+
+
+
 if(document.querySelector(".common-home")) {
   resetSizeBanner()
-  if(window.screen.width < 480) {
-    document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
+  document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
       <div class="container-fluid cat_block">
         <div class="categories_block">
             <div class="item">
@@ -26,6 +28,8 @@ if(document.querySelector(".common-home")) {
         </div>
       </div>
     `)
+  if(window.screen.width < 480) {
+
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
     <img class="second_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612190016/sellavi/103094/Component_2_1_tyluzl.jpg" alt="desktop"/>
   `)
