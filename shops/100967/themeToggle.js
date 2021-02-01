@@ -8,3 +8,5 @@ const themeToggle = () => {
     </li>
   `
 }
+
+export default themeToggle;
