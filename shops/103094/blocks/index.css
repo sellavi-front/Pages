@@ -38,3 +38,9 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 }
 
 /* End */
+
+/* First element in menu */
+#home > div > header > div.header-wrapper > div > nav > ul > li.flexy.no_children > a {
+  display: none;
+}
+/* End */
