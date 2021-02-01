@@ -30,3 +30,11 @@ label,
 .input-payment-firstname {
   font-family: 'Inter', sans-serif !important;
 }
+
+/* Footer */
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: #000;
+}
+
+/* End */
