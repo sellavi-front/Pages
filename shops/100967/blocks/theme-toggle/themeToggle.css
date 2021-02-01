@@ -61,7 +61,9 @@
 
 .theme-checkbox:checked ~ .knobs {
   -webkit-animation: toggle 0.3s ease-in-out;
-          animation: toggle 0.3s ease-in-out;
+  animation: toggle 0.3s ease-in-out;
+  left: auto;
+  right: 4px;
 }
 
 .knobs {
@@ -72,5 +74,4 @@
   position: absolute;
   left: 4px;
   z-index: 2;
-
 }
