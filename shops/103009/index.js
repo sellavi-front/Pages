@@ -88,4 +88,5 @@ if (location.href.includes('pay-delivery')) {
 
 if (document.querySelector('.header-header')) {
   document.querySelector('.navigation_black_screen').remove();
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove()
 }
