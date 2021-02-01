@@ -23,6 +23,7 @@
   border-radius: 100px;
   background: lightgray;
   width: 100%;
+  position: absolute;
 }
 
 .theme-checkbox {
