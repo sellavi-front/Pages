@@ -10,7 +10,6 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 
 document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove();
-document.querySelector('#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > li.flexy.no_children > a').innerText = 'Статьи'
 // if (document.querySelector('.header-wrapper')) {
 //   document.querySelector('#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > li.flexy.no_children > a').innerHTML = 'Статьи';
 // }
@@ -93,3 +92,4 @@ if (location.href.includes('pay-delivery')) {
 //   document.querySelector('#home > div > footer > div.footer-widgets > div.container > div > div.soc-icons > div > div').insertAdjacentHTML('beforebegin', '<div class="title-socIcon">Мы в соцсетях</div>');
 // }   
 
+document.querySelector('#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > li.flexy.no_children > a').innerText = 'Статьи'
