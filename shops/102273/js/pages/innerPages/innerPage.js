@@ -21,7 +21,7 @@ import medicalFood from './medicalFood.js';
 import tourismPage from './tourismPage.js'
 import medTech from './medTech.js'
 import medService from './medService.js'
-import disinfectantsPages from './disinfectantsPages.js'
+import disinfectantsPage from './disinfectantsPage.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -120,7 +120,7 @@ export default (function () {
     }
 
     if (document.querySelector('.information-information-6753')) {
-      document.querySelector('.icon-category').insertAdjacentHTML('afterend', disinfectantsPages());
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', disinfectantsPage());
     }
   }
 })();
