@@ -4,7 +4,8 @@
   }
 
   to {
-    left: 42px;
+    left: auto;
+    right: 4px;
   }
 }
 
