@@ -94,3 +94,7 @@ if (location.href.includes('pay-delivery')) {
 // if (document.querySelector('.footer-widgets')) {
 //   document.querySelector('#home > div > footer > div.footer-widgets > div.container > div > div.soc-icons > div > div').insertAdjacentHTML('beforebegin', '<div class="title-socIcon">Мы в соцсетях</div>');
 // }   
+
+if (document.querySelector('.header-wrapper')) {
+  document.querySelector('header > div.header-wrapper > div.container > ul > li.flexy.no_children > a').innerHTML = 'Статьи';
+}
