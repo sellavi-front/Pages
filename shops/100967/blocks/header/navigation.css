@@ -62,6 +62,7 @@
 
 .sf-menu .megamenu ul li>a {
     padding: 0 10px;
+    width: 100%;
 }
 
 .sf-menu li:hover>a {
