@@ -98,3 +98,8 @@ if (location.href.includes('pay-delivery')) {
 if (document.querySelector('.header-wrapper')) {
   document.querySelector('header > div.header-wrapper > div.container > ul > li.flexy.no_children > a').innerHTML = 'Статьи';
 }
+
+if (document.querySelector('.module-blog')) {
+  document.querySelector('.wrapper.wrapper-closed > div > section.page-section.breadcrumbs.d-none.d-lg-block > div > ul > li:nth-child(2) > a').innerHTML = 'Статьи';
+  document.querySelector('.wrapper.wrapper-closed > div > section.page-section.titles > div > div > h1').innerHTML = 'Статьи';
+}
