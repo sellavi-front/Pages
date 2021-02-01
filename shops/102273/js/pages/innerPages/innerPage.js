@@ -112,5 +112,9 @@ export default (function () {
     if (document.querySelector('.information-information-6758')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', medTech());
     }
+
+    if (document.querySelector('.information-information-6757')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', medService());
+    }
   }
 })();
