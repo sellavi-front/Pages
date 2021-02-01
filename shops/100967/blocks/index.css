@@ -282,6 +282,13 @@ body button span {
   font-size: 18px;
 }
 
+.page-section.reg {
+  background: url(https://res.cloudinary.com/depgheppz/image/upload/v1612190801/Frame_41_1_pdvofd.png) no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 275px;
+}
+
 .reg-text h1 {
   font-weight: bold;
   color: white;
