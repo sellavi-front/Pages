@@ -10,6 +10,23 @@ if(document.querySelector(".common-home")) {
   resetSizeBanner()
   if(window.screen.width < 480) {
     document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
+      <div class="container-fluid cat_block">
+        <div class="categories_block">
+            <div class="item">
+                <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191257/sellavi/103094/Component_3_pmy4eg.jpg" alt="category" />
+            </div>
+
+            <div class="item">
+                <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191263/sellavi/103094/Component_4_lp4j5s.jpg" alt="category" />
+            </div>
+
+            <div class="item">
+                <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191370/sellavi/103094/Component_5_bxcmpa.jpg" alt="category" />
+            </div>
+        </div>
+      </div>
+    `)
+    document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
     <img class="second_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612190016/sellavi/103094/Component_2_1_tyluzl.jpg" alt="desktop"/>
   `)
   } else {
