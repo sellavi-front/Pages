@@ -30,3 +30,13 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 .thumbnail.thumbnail-banner .caption-inner {
     border: 0px;
 }
+
+.sf-menu ul li {
+    padding: 0px !important;   
+}
+
+.sf-menu .flexy.has_children ul li > a {
+    height: 50px !important;
+    display: flex !important;
+    align-items: center !important;
+}
