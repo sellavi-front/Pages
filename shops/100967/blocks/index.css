@@ -282,6 +282,24 @@ body button span {
   font-size: 18px;
 }
 
+.reg-text h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.reg-text {
+  height: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+          text-align: center;
+}
+
 .wrapper .header .header-wrapper .header-search.opened #search_results>a .img {
   margin-right: 4rem;
 }
