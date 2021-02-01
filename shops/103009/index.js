@@ -9,9 +9,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 
-if (document.querySelector('.header-header')) {
-  document.querySelector('.navigation_black_screen').remove();
-}
+document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove()
 
 if (document.querySelector('.product-product')) {
   document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div:nth-child(2) > div.table_holder > table > tbody > tr > td.title').innerHTML = 'Артикул'
