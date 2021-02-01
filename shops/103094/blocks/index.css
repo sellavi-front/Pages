@@ -86,3 +86,12 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 .item img {
   width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+  .categories_block {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+  }
+}
