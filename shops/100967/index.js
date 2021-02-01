@@ -476,7 +476,7 @@ if (location.href.includes('/pay-delivery')) {
   document.querySelector('.page-section.titles').insertAdjacentHTML(
     'beforebegin',
     `
-  <section class="page-section">
+  <section class="page-section reg">
     <div class="reg-text">
         <h1>Регистрация на сайте</h1>
         <p>
