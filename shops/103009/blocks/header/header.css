@@ -55,3 +55,12 @@ body .content-area .page-section.error-page h3 {
         padding-bottom: 10px ;
     }
 }
+
+body.theme_11 .wrapper .header .header-wrapper .header-search button {
+    line-height: 50px;
+    top: 0;
+    padding: 0;
+    left: 29px;
+    max-width: 25px;
+    width: 100%;
+}
