@@ -14,15 +14,15 @@ if(document.querySelector(".common-home")) {
   document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
       <div class="container-fluid cat_block">
         <div class="categories_block">
-            <div class="item">
+            <div class="cat_item">
                 <a href="https://store103094.sellavi.com/care-products/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191257/sellavi/103094/Component_3_pmy4eg.jpg" alt="category" /></a>
             </div>
 
-            <div class="item">
+            <div class="cat_item">
                 <a href="https://store103094.sellavi.com/multisticks/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191263/sellavi/103094/Component_4_lp4j5s.jpg" alt="category" /></a>
             </div>
 
-            <div class="item">
+            <div class="cat_item">
                 <a href="https://store103094.sellavi.com/consumables/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191370/sellavi/103094/Component_5_bxcmpa.jpg" alt="category" /></a>
             </div>
         </div>
