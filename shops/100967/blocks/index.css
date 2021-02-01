@@ -263,7 +263,7 @@ body.common-home > div > div.content-area > section > div.container > h2 {
 .owl-carousel .owl-item .item img {
   -o-object-fit: cover !important;
   object-fit: cover !important;
-  height: 560px !important;
+  height: 400px !important;
 }
 
 body h1,
