@@ -22,6 +22,7 @@
 @import './side-categories/side-categories.css';
 @import './header/custom__text.css';
 @import './delivery/delivery.css';
+@import '../../../components/DarkMode/DarkMode.css';
 /* @import './container.css'; */
 
 body h1,
