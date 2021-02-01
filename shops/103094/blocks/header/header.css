@@ -12,7 +12,6 @@
 @import '../../../../components/HeaderTypeThree/styles/logo/logo.css';
 
 @import '../../../../components/HeaderTypeThree/styles/header/icons/icons.css';
-@import '../../../../components/HeaderTypeThree/styles/header-widgets/header-widgets.css';
 @import '../../../../components/HeaderTypeThree/styles/header/catalog/catalog.css';
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
