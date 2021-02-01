@@ -307,6 +307,7 @@ body button span {
           flex-direction: column;
           text-align: center;
           max-width: 650px;
+          margin: 0 auto;
 }
 
 .wrapper .header .header-wrapper .header-search.opened #search_results>a .img {
