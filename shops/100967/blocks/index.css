@@ -282,6 +282,10 @@ body button span {
   font-size: 18px;
 }
 
+.wrapper .header .header-wrapper .header-search.opened #search_results>a .img {
+  margin-right: 4rem;
+}
+
 .product-product .product-single .buttons .btn-compare,
 .product-product .product-single .buttons .btn-wish-list {
   background-color: #0081bb;
