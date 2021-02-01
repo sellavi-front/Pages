@@ -1,3 +1,25 @@
+@-webkit-keyframes toggle {
+  from {
+    left: 4px;
+  }
+
+  to {
+    left: auto;
+    right: 4px;
+  }
+}
+
+@keyframes toggle {
+  from {
+    left: 4px;
+  }
+
+  to {
+    left: auto;
+    right: 4px;
+  }
+}
+
 .button__list_elem.theme-toggle {
   padding: 0;
   margin-right: 10px;
@@ -50,4 +72,6 @@
   position: absolute;
   left: 4px;
   z-index: 2;
+  -webkit-animation: toggle 0.3s ease-in-out;
+          animation: toggle 0.3s ease-in-out;
 }
