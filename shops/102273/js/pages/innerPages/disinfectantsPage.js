@@ -543,7 +543,7 @@ const disinfectantsPages = () => {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row flex-wrap">
           <div class="col-8">
             <h3><b>4. «HandDes All» + «Комбидез»</b></h3>
             <p>
@@ -589,7 +589,7 @@ const disinfectantsPages = () => {
             class="col-4"
           />
         </div>
-        <div class="row">
+        <div class="row flex-wrap">
           <div class="col-8">
             <p>
               <b
