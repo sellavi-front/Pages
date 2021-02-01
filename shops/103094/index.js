@@ -4,7 +4,7 @@ import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import './blocks/header/header.js'
 import './blocks/banner/banner.js'
-import resetSizeBanner from "./blocks/banner/banner";
+import resetSizeBanner from "./blocks/banner/banner.js";
 
 if(document.querySelector(".common-home")) {
   resetSizeBanner()
