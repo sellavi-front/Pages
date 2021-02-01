@@ -45,3 +45,9 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 body .content-area .page-section.error-page h3 {
     font-size: 20px;
 }
+
+@media (max-device-width: 480px) {
+    body .thumbnail .img-fluid, body .img-thumbnail {
+        height: 110px !important;
+    }
+}
