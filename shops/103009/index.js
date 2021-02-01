@@ -7,6 +7,9 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 // import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 // import socIconsData from './utils/socIconsData.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import '../../fixes/js/RemoveBLur/RemoveBlur.js';
+import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
+
 
 
 document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove();
