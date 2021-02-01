@@ -10,6 +10,8 @@ if(document.querySelector(".common-home")) {
   resetSizeBanner()
 }
 
+document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a").innerHTML = 'Каталог'
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Кучма Виктория Геннадьевна');
   req.setTemplate();
