@@ -40,3 +40,8 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     display: flex !important;
     align-items: center !important;
 }
+
+/* 404 errore */
+body .content-area .page-section.error-page h3 {
+    font-size: 20px;
+}
