@@ -8,7 +8,9 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 // import socIconsData from './utils/socIconsData.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
-
+if (document.querySelector('.product-product')) {
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > section > div > div > div:nth-child(2) > div.table_holder > table > tbody > tr > td.title').innerHTML = 'Артикул'
+}
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<div class="info-after">для прочистки любой степени сложности</div>');
