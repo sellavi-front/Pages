@@ -3,6 +3,12 @@ import {requsites} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import './blocks/header/header.js'
+import './blocks/banner/banner.js'
+import resetSizeBanner from "./blocks/banner/banner";
+
+if(document.querySelector(".common-home")) {
+  resetSizeBanner()
+}
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Кучма Виктория Геннадьевна');
@@ -25,3 +31,4 @@ if (location.href.includes('/policy')) {
   );
   req.setTemplate();
 }
+
