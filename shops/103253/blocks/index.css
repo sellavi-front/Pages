@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
 
-
+html, body,
+body span,
 body h1,
 body h2,
 body h3,
@@ -12,21 +13,19 @@ body h5,
 body h6,
 body p,
 body a,
-body span,
-body b,
-body strong,
-.price,
-.product-price,
+body ul,
+body li,
 .product-availability,
-.product-product .product-single table .title,
-.text-right,
-.input-payment-firstname,
-.input-payment-lastname,
-.input-payment-email,
-.input-payment-telephone,
-.input-payment-address-1,
-.input-payment-postcode,
-label,
-.input-payment-firstname {
-  font-family: 'Inter', sans-serif;
+.product-price,
+#button-cart,
+.title,
+.price,
+input.form-control,
+input.form-control::placeholder,
+.form_checkout,
+.order_list_section__total-lines,
+.checkout_table,
+.navbar_item a
+{
+  font-family: 'Open Sans', sans-serif !important;
 }
