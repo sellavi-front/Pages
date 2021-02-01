@@ -17,7 +17,7 @@ import BaseSender from '../../components/BaseSender/BaseSender.js';
 import Steps from '../../components/Steps/Steps.js';
 import deliveryPage from './deliveryPage.js';
 import cartWhite from './assets/svg/bag-white.js';
-// import '../../components/DarkMode/DarkMode.js'
+import '../../components/DarkMode/DarkMode.js'
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
