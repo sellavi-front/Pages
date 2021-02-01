@@ -179,3 +179,11 @@ body.theme-gray .wrapper .header .header-wrapper .header-search #search_results>
 body.dark-mode.ltr .order-summary-toggle .order-summary-toggle__icon-wrapper {
   fill: white !important;
 }
+
+body.dark-mode .header .header-wrapper  {
+  background: transparent !important;
+}
+
+body.dark-mode .header .navigation-wrapper {
+  background: transparent !important;
+}
