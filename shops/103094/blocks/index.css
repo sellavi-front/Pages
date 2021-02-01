@@ -68,3 +68,21 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 }
 
 /* end */
+
+/* Categories block */
+.categories_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+}
