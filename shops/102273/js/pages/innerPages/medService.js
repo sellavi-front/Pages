@@ -1358,6 +1358,7 @@ const medService = () => {
               class="mr-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_7423519_rgpf2h.png"
               alt=""
+              height="39"
             />
             <p class="d-flex flex-column">
               <b>Адрес</b>
@@ -1370,6 +1371,7 @@ const medService = () => {
               class="mr-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_208_mlmkxv.png"
               alt=""
+              height="39"
             />
             <p class="d-flex flex-column">
               <b>Номер телефона</b>
@@ -1382,6 +1384,7 @@ const medService = () => {
               class="mr-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
               alt=""
+              height="39"
             />
             <p class="d-flex flex-column">
               <b>Время работы</b>
@@ -1397,6 +1400,7 @@ const medService = () => {
               class="mr-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
               alt=""
+              height="39"
             />
             <p class="d-flex flex-column">
               <b>Сайты</b>
@@ -1408,6 +1412,7 @@ const medService = () => {
               class="mr-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
               alt=""
+              height="39"
             />
             <p class="d-flex flex-column">
               <b>Цены</b>
