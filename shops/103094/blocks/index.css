@@ -44,3 +44,11 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   display: none;
 }
 /* End */
+
+/* Second Banner */
+.second_banner {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/* end */
