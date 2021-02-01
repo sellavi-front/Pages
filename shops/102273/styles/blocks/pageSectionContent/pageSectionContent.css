@@ -121,6 +121,10 @@ body.information-information .information img {
       justify-content: space-around;
 }
 
+#content > div > div > section > div:nth-child(7) > div.d-flex.flex-wrap > img {
+  max-width: 41% !important;
+}
+
 @media (max-width: 768px) {
   .founder img {
     margin-bottom: 30px;
