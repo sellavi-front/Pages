@@ -1,6 +1,6 @@
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
@@ -15,7 +15,7 @@ import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithT
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 import Steps from '../../components/Steps/Steps.js';
-import deliveryPage from './deliveryPage.js'
+import deliveryPage from './deliveryPage.js';
 import cartWhite from './assets/svg/bag-white.js';
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
@@ -188,9 +188,9 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.account-register')) {
-  document.querySelectorAll("form > fieldset > div > div").forEach(sel => {
-    sel.classList.remove('col-sm-10')
-  })
+  document.querySelectorAll('form > fieldset > div > div').forEach((sel) => {
+    sel.classList.remove('col-sm-10');
+  });
 }
 if (document.querySelector('.common-home')) {
   // const pageSection = document.querySelector('.page-section');
@@ -473,6 +473,18 @@ if (location.href.includes('/pay-delivery')) {
 
   mainContainer.insertAdjacentHTML('beforeend', deliveryPage());
 
+  document.querySelector('.page-section.titles').insertAdjacentHTML(
+    'beforebegin',
+    `
+  <section class="page-section">
+    <div class="reg-text">
+        <h1>Регистрация на сайте</h1>
+        <p>
+          Мы ценим Ваше время, поэтому предлагаем максимально просто вступить в Клуб Miru - зарегистрироваться на сайте mirulens.ru для удобного и быстрого заказа Ваших линз!
+        </p>
+    </div>
+  </section>`,
+  );
 }
 
 /*
