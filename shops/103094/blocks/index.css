@@ -99,3 +99,67 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
     width: 100%;
   }
 }
+
+/* Contacts */
+.contacts-title>span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contacts-title {
+  margin-top: 10%;
+}
+
+.otherInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.number,
+.email,
+.address {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-and-number,
+.title-and-email,
+.title-and-address {
+  margin-left: 15px;
+}
+
+.number-title>span,
+.email-title>span,
+.address-title>span {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.real-number>span,
+.real-email>span,
+.real-address>span {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+
+@media screen and (max-width: 768px) {
+  .otherInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .number,
+  .email,
+  .address {
+    margin: 10px;
+  }
+
+}
+
+
+/* end */

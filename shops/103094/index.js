@@ -5,12 +5,15 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import './blocks/header/header.js'
 import './blocks/banner/banner.js'
 import resetSizeBanner from "./blocks/banner/banner.js";
+import renderContactsInCustomSection from "./blocks/custom-section/contacts/contacts.js";
 
 
 
 
 if(document.querySelector(".common-home")) {
   resetSizeBanner()
+  renderContactsInCustomSection()
+
   document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
       <div class="container-fluid cat_block">
         <div class="categories_block">
