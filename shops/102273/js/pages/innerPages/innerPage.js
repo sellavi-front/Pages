@@ -20,6 +20,7 @@ import plantPage from './plantPage.js'
 import medicalFood from './medicalFood.js';
 import tourismPage from './tourismPage.js'
 import medTech from './medTech.js'
+import medService from './medService.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
