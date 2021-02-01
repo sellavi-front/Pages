@@ -1524,12 +1524,7 @@ const medService = () => {
             alt=""
           />
         </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_9_jfck3h.png"
-            alt=""
-          />
-        </div>
+
       </div>
     </div>
     <div class="sect">
