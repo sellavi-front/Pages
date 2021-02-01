@@ -25,6 +25,7 @@ import cartWhite from './assets/svg/bag-white.js';
 import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
 import { l1, l2 } from './assets/svg/l1.js';
+import themeToggle from './themeToggle.js'
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
@@ -186,6 +187,7 @@ if (document.querySelector('.wrapper')) {
       el.textContent = tr.slice(2);
     }
   });
+
 }
 
 if (document.querySelector('.account-register')) {
@@ -488,6 +490,9 @@ if (location.href.includes('/pay-delivery')) {
   );
 }
 
+if (location.href.includes('/test')) {
+  document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
+}
 /*
 Доставка курьером
 

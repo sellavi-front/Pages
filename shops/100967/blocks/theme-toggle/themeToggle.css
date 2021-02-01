@@ -1,0 +1,38 @@
+.button__list_elem.theme-toggle {
+  padding: 0;
+  margin-right: 10px;
+}
+
+.button__toggle {
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 80px;
+}
+
+.theme-checkbox {
+  height: 25px;
+  border-radius: 100px;
+  background: lightgray;
+  left: 0;
+  width: 100%;
+  top: 0;
+  margin: 0;
+}
+
+.layer {
+  height: 19px;
+  width: 35px;
+  border-radius: 100px;
+  background: white;
+  position: absolute;
+  left: 4px;
+}
