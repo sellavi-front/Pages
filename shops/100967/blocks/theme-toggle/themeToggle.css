@@ -58,8 +58,8 @@
 }
 
 .theme-checkbox:checked ~ .knobs {
-  right: 4px;
-  left: auto;
+  -webkit-animation: toggle 0.3s ease-in-out;
+          animation: toggle 0.3s ease-in-out;
 }
 
 .knobs {
@@ -70,6 +70,5 @@
   position: absolute;
   left: 4px;
   z-index: 2;
-  -webkit-animation: toggle 0.3s ease-in-out;
-          animation: toggle 0.3s ease-in-out;
+
 }
