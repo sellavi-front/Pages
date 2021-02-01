@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
@@ -28,5 +28,5 @@ body strong,
 .input-payment-postcode,
 label,
 .input-payment-firstname {
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Inter', sans-serif;
 }
