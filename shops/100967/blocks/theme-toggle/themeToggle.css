@@ -49,4 +49,5 @@
   background: white;
   position: absolute;
   left: 4px;
+  z-index: 2;
 }
