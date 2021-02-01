@@ -28,6 +28,11 @@
   margin: 0 !important;
 }
 
+.theme-checkbox:checked ~ .layer {
+  right: 4px;
+  left: auto;
+}
+
 .layer {
   height: 19px;
   width: 35px;
