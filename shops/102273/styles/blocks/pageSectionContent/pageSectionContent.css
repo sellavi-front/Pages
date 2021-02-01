@@ -108,6 +108,10 @@ body p {
           border: 1px solid black;
 }
 
+.page-section__contacts {
+  margin: 30px auto;
+}
+
 .page-section__contacts > .row {
   -ms-flex-pack: distribute;
       justify-content: space-around;
