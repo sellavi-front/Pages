@@ -1,7 +1,7 @@
 
 let renderContactsInCustomSection = () => {
   if (document.querySelector('.common-home')) {
-    document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', `
+    document.querySelector('.custom_banner').insertAdjacentHTML('afterend', `
   <div class="contactsSection">
     <div class="container">
         <div class="contacts-title">
