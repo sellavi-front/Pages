@@ -33,6 +33,11 @@
   font-weight: 300 !important;
 }
 
+body.dark-mode #cart img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .header-cart:first-child {
   display: none;
 }
