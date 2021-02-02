@@ -490,7 +490,7 @@ if (location.href.includes('/pay-delivery')) {
   );
 }
 
-if (location.href.origin) {
+if (location.origin) {
     document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
     setDarkTheme();
 }
