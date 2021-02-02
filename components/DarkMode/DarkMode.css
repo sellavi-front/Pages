@@ -139,7 +139,8 @@ body.dark-mode.ltr
   body.dark-mode.ltr .contact-info .media-body,
   body.dark-mode.ltr .select2-container--default .select2-search--dropdown input,
   body.dark-mode.ltr .dot-loader,
-  body.dark-mode .table{
+  body.dark-mode .table,
+  body.dark-mode .thumbnail .price_actions .add_to_cart button {
   color: white !important;
 }
 
