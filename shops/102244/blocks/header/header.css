@@ -138,3 +138,8 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   }
 }
 
+@media (max-width: 475px) {
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    width: 100vw;
+  }
+}
