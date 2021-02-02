@@ -16,6 +16,7 @@ const _hasTheme = (btn) => {
     !document.querySelector('body').classList.contains('dark-mode')
   ) {
     _setTheme(btn);
+    console.log(btn);
     btn.checked = true;
   } else {
     _removeTheme();
