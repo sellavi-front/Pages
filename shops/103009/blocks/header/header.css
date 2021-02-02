@@ -60,7 +60,7 @@ body .content-area .page-section.error-page h3 {
     }
 
     body.bottom-nav-enabled nav.mobile_bottom_nav.nav-opened {
-        z-index: 998;
+        z-index: 1000;
     }
 
     nav.mobile_bottom_nav.nav-opened > ul > li.home_link {
