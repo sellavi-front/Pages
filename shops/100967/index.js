@@ -17,7 +17,7 @@ import BaseSender from '../../components/BaseSender/BaseSender.js';
 import Steps from '../../components/Steps/Steps.js';
 import deliveryPage from './deliveryPage.js';
 import cartWhite from './assets/svg/bag-white.js';
-import setDarkTheme from '../../components/DarkMode/DarkMode.js'
+import setDarkTheme from '../../components/DarkMode/DarkMode.js';
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
@@ -25,7 +25,7 @@ import setDarkTheme from '../../components/DarkMode/DarkMode.js'
 import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
 import { l1, l2 } from './assets/svg/l1.js';
-import themeToggle from './themeToggle.js'
+import themeToggle from './themeToggle.js';
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
@@ -185,7 +185,6 @@ if (document.querySelector('.wrapper')) {
             el.textContent = tr.slice(2);
         }
     });
-
 }
 
 if (document.querySelector('.account-register')) {
@@ -415,8 +414,10 @@ if (document.querySelector('.product-product')) {
     );
 
     const titleSect = document.querySelector('#home > div > section > div > h2 > span');
-    titleSect.insertAdjacentHTML('afterend', l1);
-    titleSect.insertAdjacentHTML('beforebegin', l2);
+    if (titleSect) {
+        titleSect.insertAdjacentHTML('afterend', l1);
+        titleSect.insertAdjacentHTML('beforebegin', l2);
+    }
     // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
     //   el.insertAdjacentHTML(
     //     'beforebegin',
@@ -489,7 +490,9 @@ if (location.href.includes('/pay-delivery')) {
 }
 
 if (location.origin) {
-    document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
+    document
+        .querySelector('.button__list > li:first-child')
+        .insertAdjacentHTML('afterend', themeToggle());
     setDarkTheme();
 }
 /*
