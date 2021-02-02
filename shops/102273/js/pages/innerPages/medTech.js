@@ -2,6 +2,8 @@ const  medTech = () => {
   return `
   <section class="page-section__content">
   <div class="sect">
+    <h1 class="mb-3"> 1. Мед оборудование для УВТ </h1>
+
     <h3 class="page-section__title">
       Аппараты для ударно-волновой терапии, компании GZ LONGEST - LGT-2500S и LGT-2510A, для
       лечения различных патологий опорно-двигательного аппарата, а также аппарат для
