@@ -37,17 +37,17 @@ const textInHeader = 'Бесплатная доставка по России';
 const footerText = 'Имеются противопоказания. Проконсультируйтесь со специалистом';
 
 
-if (!location.href.includes('/checkout')) {
-    document
-        .querySelector('.button__list > li:first-child')
-        .insertAdjacentHTML('afterend', themeToggle());
-    setDarkTheme();
-} else {
-    setDarkTheme();
-    document.querySelectorAll("body.dark-mode > div.content-area > section > div.flexwrap.checkout_form input").forEach(i => {
-        i.removeAttribute('placeholder')
-    })
-}
+// if (!location.href.includes('/checkout')) {
+//     document
+//         .querySelector('.button__list > li:first-child')
+//         .insertAdjacentHTML('afterend', themeToggle());
+//     setDarkTheme();
+// } else {
+//     setDarkTheme();
+//     document.querySelectorAll("body.dark-mode > div.content-area > section > div.flexwrap.checkout_form input").forEach(i => {
+//         i.removeAttribute('placeholder')
+//     })
+// }
 
 if (document.querySelector('.wrapper')) {
     const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
