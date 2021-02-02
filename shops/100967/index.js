@@ -43,8 +43,10 @@ if (!location.href.includes('/checkout')) {
         .insertAdjacentHTML('afterend', themeToggle());
     setDarkTheme();
 } else {
-
     setDarkTheme();
+    document.querySelectorAll("body.dark-mode > div.content-area > section > div.flexwrap.checkout_form input").forEach(i => {
+        i.removeAttribute('placeholder')
+    })
 }
 
 if (document.querySelector('.wrapper')) {
@@ -397,9 +399,7 @@ if (location.href.includes('/checkout')) {
 `,
         );
 
-    document.querySelectorAll("body.dark-mode > div.content-area > section > div.flexwrap.checkout_form input").forEach(i => {
-        i.removeAttribute('placeholder')
-    })
+
 }
 
 if (document.querySelector('.product-item')) {
