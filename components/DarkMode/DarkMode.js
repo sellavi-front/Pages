@@ -18,7 +18,8 @@ const _hasTheme = (btn) => {
     _setTheme(btn);
     console.log(btn);
     btn.checked = true;
-  } else {
+  } else if (localStorage.getItem('theme') === 'dark' &&
+  document.querySelector('body').classList.contains('dark-mode')){
     _removeTheme();
   }
 };
