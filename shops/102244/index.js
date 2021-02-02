@@ -5,6 +5,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import '../../fixes/js/Alert/Alert.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 
 if (document.querySelector('.common-home')) {
