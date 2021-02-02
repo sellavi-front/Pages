@@ -20,6 +20,8 @@ const _hasTheme = () => {
   }
 };
 
-themeBtn.addEventListener('click', () => _hasTheme());
+const setDarkTheme = () => {
+  themeBtn.addEventListener('click', () => _hasTheme());
+}
 
 export default setDarkTheme;
