@@ -1,19 +1,21 @@
-const darkMode = () => {
-  const themeBtn = document.querySelector('header .theme-checkbox');
-
-  if (!themeBtn.checked) {
-    console.log('Тема не применена');
+const _hasDarkTheme = () => {
+  if (!localStorage.getItem('theme')) {
+    localStorage.setItem('theme', 'dark');
+    localStorage.setItem('theme-checkbox', 'checked');
+    body.classList.add('theme-dark');
+  } else {
+    themeBtn.checked = true;
+    localStorage.removeItem('theme');
+    body.classList.remove('theme-dark');
   }
+};
 
-  themeBtn.addEventListener('click', () => {
-    if (!localStorage.getItem('theme')) {
-      localStorage.setItem('theme', 'dark');
-      localStorage.setItem('theme-checkbox', 'checked');
-    } else {
-      themeBtn.checked = true;
-      localStorage.removeItem('theme');
-    }
-  });
-}
+const setDarkTheme = () => {
+  const themeBtn = document.querySelector('header .theme-checkbox');
+  const body = document.querySelector('body');
 
-export default darkMode;
+  _hasDarkTheme()
+  themeBtn.addEventListener('click', () => _hasDarkTheme());
+};
+
+export default setDarkTheme;
