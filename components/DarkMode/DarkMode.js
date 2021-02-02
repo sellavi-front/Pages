@@ -21,7 +21,7 @@ const _hasTheme = () => {
 };
 
 const setDarkTheme = () => {
-  themeBtn.addEventListener('click', () => _hasTheme());
+  themeBtn.addEventListener('input', () => _hasTheme());
 }
 
 export default setDarkTheme;
