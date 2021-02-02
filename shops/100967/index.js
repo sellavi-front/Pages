@@ -71,6 +71,8 @@ if (document.querySelector('.wrapper')) {
     // document.querySelector('.header-wrapper > .container').classList.add('container-fluid');
     // document.querySelector('.header-wrapper > .container').classList.remove('container');
 
+    document.querySelector("#home > div.wrapper.wrapper-closed > header > div.navigation-wrapper > div > nav > ul > li:nth-child(3) > a").removeAttribute('href');
+    document.querySelector("#home > div.wrapper.wrapper-closed > header > div.navigation-wrapper > div > nav > ul > li:nth-child(2) > a").removeAttribute('href');
     // Icons in header cont
     const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
     const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
