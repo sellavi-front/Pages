@@ -9,11 +9,9 @@ import renderContactsInCustomSection from "./blocks/custom-section/contacts/cont
 
 
 document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").addEventListener('click', () => {
-  document.querySelector("#home > nav.navigation.mobile_side_nav.opened.nav-opened > div.mobile-navigation-close").addEventListener('click', () => {
-    document.querySelector(".mobile_side_nav").classList.remove("nav-opened")
-    document.querySelector(".mobile_side_nav").classList.add("nav-closed")
-    document.querySelector("body").classList.remove("overflow-hidden")
-  })
+  document.querySelector(".mobile_side_nav").classList.remove("nav-opened")
+  document.querySelector(".mobile_side_nav").classList.add("nav-closed")
+  document.querySelector("body").classList.remove("overflow-hidden")
 })
 
 document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a").innerHTML = `<a href="">Каталог</a>`
