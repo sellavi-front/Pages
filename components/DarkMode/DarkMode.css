@@ -138,7 +138,8 @@ body.dark-mode.ltr
   body.dark-mode.ltr .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name,
   body.dark-mode.ltr .contact-info .media-body,
   body.dark-mode.ltr .select2-container--default .select2-search--dropdown input,
-  body.dark-mode.ltr .dot-loader {
+  body.dark-mode.ltr .dot-loader,
+  body.dark-mode .table{
   color: white !important;
 }
 
