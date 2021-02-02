@@ -18,7 +18,9 @@ body.dark-mode.ltr .select2-container--default .select2-search--dropdown .select
 body.dark-mode.ltr .details-box>ul,
 body.dark-mode.ltr .select2-dropdown,
 body.dark-mode.ltr.checkout-checkout .order-summary-toggle,
-body.dark-mode .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+body.dark-mode .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart,
+body.dark-mode .sf-menu li.megamenu>ul li ul li,
+body.dark-mode .sf-menu li.megamenu>ul li.megaline {
   background: black !important;
 }
 
