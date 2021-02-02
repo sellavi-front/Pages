@@ -403,7 +403,7 @@ if (document.querySelector('.product-product')) {
     btnCart.insertAdjacentHTML('afterbegin', cartWhite);
 
     const colProdcut = document.querySelector(
-        '#home > div > div.content-area > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+        '#home > div > div.content-area > section > div > div.row.product-single.product-item > div:nth-child(2)',
     );
     colProdcut.insertAdjacentHTML(
         'beforeend',
