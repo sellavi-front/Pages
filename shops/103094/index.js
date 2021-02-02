@@ -15,7 +15,7 @@ if(document.querySelector(".common-home")) {
   renderContactsInCustomSection()
 
   document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
-      <div class="container-fluid cat_block">
+      <div class="container cat_block">
         <div class="categories_block">
             <div class="cat_item">
                 <a href="https://store103094.sellavi.com/care-products/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254485/sellavi/103094/Frame_316_pdrniy.jpg" alt="category" /></a>
@@ -34,11 +34,11 @@ if(document.querySelector(".common-home")) {
   if(window.screen.width < 480) {
 
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
-    <img class="second_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612190016/sellavi/103094/Component_2_1_tyluzl.jpg" alt="desktop"/>
+    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612190016/sellavi/103094/Component_2_1_tyluzl.jpg" alt="desktop"/>
   `)
   } else {
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
-    <img class="second_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254580/sellavi/103094/Group_279_zaupkq.jpg" alt="desktop"/>
+    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254580/sellavi/103094/Group_279_zaupkq.jpg" alt="desktop"/>
   `)
   }
 
