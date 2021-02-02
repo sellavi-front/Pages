@@ -23,7 +23,7 @@ const _hasChecked = (btn) => {
     if (
         localStorage.getItem('theme') === 'dark' &&
         !document.querySelector('body').classList.contains('dark-mode') &&
-        !location.href.includes('checkout')
+        !location.href.includes('/checkout')
     ) {
         _setTheme(btn);
         btn.checked = true;
@@ -39,7 +39,9 @@ const _hasChecked = (btn) => {
 const setDarkTheme = () => {
     const themeBtn = document.querySelector('.button__list_elem .theme-checkbox');
     _hasChecked(themeBtn);
-    themeBtn.addEventListener('input', () => _hasTheme(themeBtn));
+    if (!location.href.includes('/checkout')) {
+        themeBtn.addEventListener('input', () => _hasTheme(themeBtn));
+    }
 };
 
 export default setDarkTheme;
