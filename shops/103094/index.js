@@ -9,7 +9,7 @@ import renderContactsInCustomSection from "./blocks/custom-section/contacts/cont
 
 
 
-
+document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a").innerHTML = `<a href="">Каталог</a>`
 if(document.querySelector(".common-home")) {
   resetSizeBanner()
   renderContactsInCustomSection()
