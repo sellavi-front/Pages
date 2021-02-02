@@ -6,7 +6,7 @@ const darkMode = () => {
   }
 
   themeBtn.addEventListener('click', () => {
-    if (localStorage.getItem('theme') !== 'dark' && localStorage.getItem('theme')) {
+    if (!localStorage.getItem('theme')) {
       localStorage.setItem('theme', 'dark');
       localStorage.setItem('theme-checkbox', 'checked');
     } else {
