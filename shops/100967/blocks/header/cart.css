@@ -33,7 +33,8 @@
   font-weight: 300 !important;
 }
 
-body.dark-mode #cart img {
+body.dark-mode #cart img,
+body.dark-mode .thumbnail .price_actions .add_to_cart button {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
