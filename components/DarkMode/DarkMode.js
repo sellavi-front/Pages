@@ -1,27 +1,27 @@
-const themeBtn = document.querySelector('.button__list_elem .theme-checkbox');
-const body = document.querySelector('body');
+
 
 const _removeTheme = () => {
   localStorage.removeItem('theme');
-  body.classList.remove('dark-mode');
+  document.querySelector('body').classList.remove('dark-mode');
 };
 
 const _setTheme = () => {
   localStorage.setItem('theme', 'dark');
-  body.classList.add('dark-mode');
+  document.querySelector('body').classList.add('dark-mode');
 };
 
-const _hasTheme = () => {
-  if (!themeBtn.checked && localStorage.getItem('theme') === 'dark') {
+const _hasTheme = (btn) => {
+  if (!btn.checked && localStorage.getItem('theme') === 'dark') {
     _setTheme();
-    themeBtn.checked = true;
+    btn.checked = true;
   } else {
     _removeTheme()
   }
 };
 
 const setDarkTheme = () => {
-  themeBtn.addEventListener('input', () => _hasTheme());
+  const themeBtn = document.querySelector('.button__list_elem .theme-checkbox');
+  themeBtn.addEventListener('input', () => _hasTheme(themeBtn));
 }
 
 export default setDarkTheme;
