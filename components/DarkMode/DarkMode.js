@@ -30,7 +30,7 @@ const _hasChecked = (btn) => {
     } else if (
         localStorage.getItem('theme') === 'dark' &&
         !document.querySelector('body').classList.contains('dark-mode') &&
-        location.href.includes('checkout')
+        location.href.includes('/checkout')
     ) {
         _setTheme(btn);
     }
