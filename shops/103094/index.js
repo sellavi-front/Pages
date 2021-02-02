@@ -18,15 +18,15 @@ if(document.querySelector(".common-home")) {
       <div class="container-fluid cat_block">
         <div class="categories_block">
             <div class="cat_item">
-                <a href="https://store103094.sellavi.com/care-products/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191257/sellavi/103094/Component_3_pmy4eg.jpg" alt="category" /></a>
+                <a href="https://store103094.sellavi.com/care-products/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254485/sellavi/103094/Frame_316_pdrniy.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
-                <a href="https://store103094.sellavi.com/multisticks/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191263/sellavi/103094/Component_4_lp4j5s.jpg" alt="category" /></a>
+                <a href="https://store103094.sellavi.com/multisticks/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254485/sellavi/103094/Frame_317_gilktb.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
-                <a href="https://store103094.sellavi.com/consumables/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612191370/sellavi/103094/Component_5_bxcmpa.jpg" alt="category" /></a>
+                <a href="https://store103094.sellavi.com/consumables/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254486/sellavi/103094/Frame_318_a6vphy.jpg" alt="category" /></a>
             </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ if(document.querySelector(".common-home")) {
   `)
   } else {
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
-    <img class="second_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612190016/sellavi/103094/Group_279_xeh3jr.jpg" alt="desktop"/>
+    <img class="second_banner" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254580/sellavi/103094/Group_279_zaupkq.jpg" alt="desktop"/>
   `)
   }
 
