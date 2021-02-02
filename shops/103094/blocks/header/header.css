@@ -14,9 +14,6 @@
 @import '../../../../components/HeaderTypeThree/styles/header/catalog/catalog.css';
 
 
-.header {
-  position: absolute !important;
-}
 
 .wrapper .header .header-wrapper .header-search input {
   border: none !important;
