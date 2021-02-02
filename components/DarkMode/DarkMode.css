@@ -1,3 +1,5 @@
+@import './btnToggle/btnToggle.css';
+
 body.dark-mode.ltr,
 body.dark-mode.ltr header,
 body.dark-mode.ltr .footer .footer-meta,
@@ -190,3 +192,5 @@ body.dark-mode .header .header-wrapper  {
 body.dark-mode .header .navigation-wrapper {
   background: transparent !important;
 }
+
+
