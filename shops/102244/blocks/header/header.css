@@ -147,6 +147,6 @@ body.theme_11 .wrapper .header,
 
 @media (max-width: 475px) {
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
-    width: 100vw;
+    width: 100vw !important;
   }
 }
