@@ -6,7 +6,6 @@ const _removeTheme = () => {
 const _setTheme = (btn) => {
   localStorage.setItem('theme', 'dark');
   document.querySelector('body').classList.add('dark-mode');
-  btn.checked = true;
 };
 
 const _hasTheme = (btn) => {
