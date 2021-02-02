@@ -40,6 +40,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   color: #000;
 }
 
+.widget-title {
+  text-transform: capitalize !important;
+}
+
 /* End */
 
 /* First element in menu */
