@@ -26,11 +26,12 @@ import aboutData from './utils/aboutData.js';
 // import historyData from './utils/historyData.js';
 import { l1, l2 } from './assets/svg/l1.js';
 import themeToggle from './themeToggle.js'
+import bagBlack from './assets/svg/bag-black.js';
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 const icons = {
   cart:
-    '<img src="https://res.cloudinary.com/depgheppz/image/upload/v1611136009/Vector_opwga3.svg" alt="cart">',
+    bagBlack,
   like:
     '<img src="https://res.cloudinary.com/gz-company/image/upload/v1605863437/Miru/assets/icon_di3am3.svg">',
 };
