@@ -17,7 +17,7 @@ import BaseSender from '../../components/BaseSender/BaseSender.js';
 import Steps from '../../components/Steps/Steps.js';
 import deliveryPage from './deliveryPage.js';
 import cartWhite from './assets/svg/bag-white.js';
-import '../../components/DarkMode/DarkMode.js'
+import darkMode from '../../components/DarkMode/DarkMode.js'
 // import bootstrapClasses from './utils/bootstrapClasses.js';
 // import advantages from './utils/advantages.js';
 // import dataBannerContent from './utils/dataBannerContent.js';
@@ -492,6 +492,7 @@ if (location.href.includes('/pay-delivery')) {
 
 if (location.href.includes('/test')) {
   document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
+  darkMode();
 }
 /*
 Доставка курьером
