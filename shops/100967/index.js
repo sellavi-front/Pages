@@ -353,7 +353,7 @@ if (document.querySelector('.product-product')) {
 
     document
         .querySelector(
-            '#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a',
+            '#home > div > div > section > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a',
         )
         .text.substr(0, 2);
 
