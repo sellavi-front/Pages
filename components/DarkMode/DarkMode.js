@@ -11,7 +11,7 @@ const _setTheme = () => {
 };
 
 const _hasTheme = (btn) => {
-  if (!localStorage.getItem('theme') === 'dark') {
+  if (!localStorage.getItem('theme')) {
     console.log(123);
     _setTheme();
     btn.checked = true;
