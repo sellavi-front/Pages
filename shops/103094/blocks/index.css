@@ -50,6 +50,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 
 /* Second Banner */
 .second_banner {
+  display: flex;
   width: 100%;
   margin-top: 2%;
   margin-bottom: 5%;
