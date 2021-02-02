@@ -69,10 +69,16 @@
   color: black !important;
 }
 
+body.dark-mode .sf-menu li:hover>a {
+  color: white;
+}
+
 body.dark-mode .sf-menu li.megamenu>ul li ul li,
 body.dark-mode .sf-menu li.megamenu>ul li.megaline {
   background: black;
 }
+
+
 
 .sf-menu li.megamenu ul {
     margin: 48px 0 0;
