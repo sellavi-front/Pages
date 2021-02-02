@@ -37,7 +37,9 @@ const textInHeader = 'Бесплатная доставка по России';
 const footerText = 'Имеются противопоказания. Проконсультируйтесь со специалистом';
 
 
-if (location.origin) {
+if (!location.href.includes('/checkout')) {
+    setDarkTheme();
+} else {
     document
         .querySelector('.button__list > li:first-child')
         .insertAdjacentHTML('afterend', themeToggle());
