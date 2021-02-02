@@ -491,7 +491,9 @@ if (location.href.includes('/pay-delivery')) {
 }
 
 if (location.href.includes('/test')) {
-  new Promise(document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle()))
+  new Promise((res, rej) => {
+    document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
+  })
     .then(setDarkTheme());
 }
 /*
