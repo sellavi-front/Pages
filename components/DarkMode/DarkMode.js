@@ -13,7 +13,7 @@ const _hasTheme = (btn) => {
   if (!localStorage.getItem('theme')) {
     _setTheme(btn);
   } else if (
-    localStorage.getItem('theme') &&
+    localStorage.getItem('theme') === 'dark' &&
     !document.querySelector('body').classList.contains('dark-mode')
   ) {
     _setTheme(btn);
