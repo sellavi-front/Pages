@@ -7,6 +7,10 @@ body.theme_11.ltr .wrapper .homefeatured_category>div>div>div:nth-of-type(odd) {
   border: none !important;
 }
 
+body .md-style-active label.placeholder {
+  font-size: 7px !important;
+}
+
 body.theme_11
   .wrapper
   .homefeatured_category
