@@ -491,8 +491,8 @@ if (location.href.includes('/pay-delivery')) {
 }
 
 if (location.href.includes('/test')) {
-  document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
-  setDarkTheme();
+  document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle())
+  .then(setDarkTheme());
 }
 /*
 Доставка курьером
