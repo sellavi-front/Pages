@@ -103,3 +103,7 @@ if (document.querySelector('.module-blog')) {
   document.querySelector('.wrapper.wrapper-closed > div > section.page-section.breadcrumbs.d-none.d-lg-block > div > ul > li:nth-child(2) > a').innerHTML = 'Статьи';
   document.querySelector('.wrapper.wrapper-closed > div > section.page-section.titles > div > div > h1').innerHTML = 'Статьи';
 }
+
+if (document.querySelector('.information-information-6988')) {
+  document.querySelector('.information-information-6988 div.wrapper.wrapper-closed > div > section.page-section.breadcrumbs.d-none.d-lg-block > div > ul > li:nth-child(2) > a').innerText = 'Статьи';
+}
