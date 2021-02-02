@@ -368,10 +368,10 @@ if (document.querySelector('.product-product')) {
 }
 
 if (location.href.includes('/checkout')) {
-    const textDelivery = document.querySelector(
-        '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label',
-    );
-    textDelivery.textContent = 'Оплата курьеру при получении';
+    // const textDelivery = document.querySelector(
+    //     '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label',
+    // );
+    // textDelivery.textContent = 'Оплата курьеру при получении';
 
     document
         .querySelector(
@@ -385,6 +385,10 @@ if (location.href.includes('/checkout')) {
 </div>
 `,
         );
+
+    document.querySelectorAll("body.dark-mode > div.content-area > section > div.flexwrap.checkout_form input").forEach(i => {
+        i.removeAttribute('placeholder')
+    })
 }
 
 if (document.querySelector('.product-item')) {
