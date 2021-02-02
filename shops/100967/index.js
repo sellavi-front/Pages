@@ -494,7 +494,7 @@ if (location.href.includes('/test')) {
   new Promise((res, rej) => {
     document.querySelector('.button__list > li:first-child').insertAdjacentHTML('afterend', themeToggle());
   })
-    .then(setDarkTheme());
+    .then(() => setDarkTheme());
 }
 /*
 Доставка курьером
