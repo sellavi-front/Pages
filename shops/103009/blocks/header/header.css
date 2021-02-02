@@ -48,7 +48,7 @@ body .content-area .page-section.error-page h3 {
 
 @media (max-device-width: 480px) {
     body .thumbnail .img-fluid, body .img-thumbnail {
-        height: 110px !important;
+        height: 150px !important;
     }
 
     body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
