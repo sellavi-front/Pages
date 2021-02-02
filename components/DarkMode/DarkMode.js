@@ -5,7 +5,7 @@ const _removeTheme = () => {
   document.querySelector('body').classList.remove('dark-mode');
 };
 
-const _setTheme = () => {
+const _setTheme = btn => {
   localStorage.setItem('theme', 'dark');
   document.querySelector('body').classList.add('dark-mode');
   btn.checked = true;
@@ -13,9 +13,9 @@ const _setTheme = () => {
 
 const _hasTheme = (btn) => {
   if (!localStorage.getItem('theme')) {
-    _setTheme();
+    _setTheme(btn);
   } else if (localStorage.getItem('theme') && !btn.checked) {
-    _setTheme();
+    _setTheme(btn);
   } else {
     _removeTheme()
   }
