@@ -134,6 +134,7 @@ body.theme_11 .wrapper .header,
     right: 0;
     width: 100%;
     max-width: 145px;
+    z-index: 99999 !important;
   }
 
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
