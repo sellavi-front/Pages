@@ -25,7 +25,7 @@ const _hasTheme = (btn) => {
 
 const setDarkTheme = () => {
   const themeBtn = document.querySelector('.button__list_elem .theme-checkbox');
-  _hasTheme();
+  _hasTheme(themeBtn);
   themeBtn.addEventListener('input', () => _hasTheme(themeBtn));
 };
 
