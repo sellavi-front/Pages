@@ -13,20 +13,25 @@ const _hasTheme = (btn) => {
     _setTheme(btn);
   } else if (
     localStorage.getItem('theme') === 'dark' &&
+    document.querySelector('body').classList.contains('dark-mode')
+  ) {
+    _removeTheme();
+  }
+};
+
+const _hasChecked = (btn) => {
+  if (
+    localStorage.getItem('theme') === 'dark' &&
     !document.querySelector('body').classList.contains('dark-mode')
   ) {
     _setTheme(btn);
-    console.log(btn);
     btn.checked = true;
-  } else if (localStorage.getItem('theme') === 'dark' &&
-  document.querySelector('body').classList.contains('dark-mode')){
-    _removeTheme();
   }
 };
 
 const setDarkTheme = () => {
   const themeBtn = document.querySelector('.button__list_elem .theme-checkbox');
-  _hasTheme(themeBtn);
+  _hasChecked(themeBtn);
   themeBtn.addEventListener('input', () => _hasTheme(themeBtn));
 };
 
