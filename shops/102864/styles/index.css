@@ -25,3 +25,8 @@ body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu
 body.theme_11 .wrapper .latest-section h2.section-title span {
     color: black;
 }
+
+body.bottom-nav-enabled div.mobile-bottom-nav>ul>li.mobile-bottom-tab>a.mobile-bottom-link {
+    border: none !important;
+    padding: 25px 0 !important;
+}
