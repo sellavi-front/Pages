@@ -11,14 +11,15 @@ const _setTheme = () => {
   body.classList.add('dark-mode');
 };
 
-const _hasItem = () => {
+const _hasTheme = () => {
   if (!themeBtn.checked && localStorage.getItem('theme') === 'dark') {
     _setTheme();
-    themeBtn.chcked = true;
-  } else if (!localStorage.getItem('theme') === 'dark') {
+    themeBtn.checked = true;
+  } else {
+    _removeTheme()
   }
 };
 
-themeBtn.addEventListener('click', () => _hasDarkTheme());
+themeBtn.addEventListener('click', () => _hasTheme());
 
 export default setDarkTheme;
