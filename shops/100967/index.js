@@ -36,6 +36,14 @@ const icons = {
 const textInHeader = 'Бесплатная доставка по России';
 const footerText = 'Имеются противопоказания. Проконсультируйтесь со специалистом';
 
+
+if (location.origin) {
+    document
+        .querySelector('.button__list > li:first-child')
+        .insertAdjacentHTML('afterend', themeToggle());
+    setDarkTheme();
+}
+
 if (document.querySelector('.wrapper')) {
     const navWrapperCon = document.querySelector('.navigation-wrapper>.container');
     const megalineLi = document.querySelectorAll('.megaline>div>ul>li');
@@ -493,12 +501,6 @@ if (location.href.includes('/pay-delivery')) {
     );
 }
 
-if (location.origin) {
-    document
-        .querySelector('.button__list > li:first-child')
-        .insertAdjacentHTML('afterend', themeToggle());
-    setDarkTheme();
-}
 /*
 Доставка курьером
 
