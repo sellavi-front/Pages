@@ -1,3 +1,6 @@
+const themeBtn = document.querySelector('header .theme-checkbox');
+const body = document.querySelector('body');
+
 const _hasDarkTheme = () => {
   if (!localStorage.getItem('theme')) {
     localStorage.setItem('theme', 'dark');
@@ -11,9 +14,6 @@ const _hasDarkTheme = () => {
 };
 
 const setDarkTheme = () => {
-  const themeBtn = document.querySelector('header .theme-checkbox');
-  const body = document.querySelector('body');
-
   _hasDarkTheme()
   themeBtn.addEventListener('click', () => _hasDarkTheme());
 };
