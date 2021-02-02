@@ -38,11 +38,12 @@ const footerText = 'Имеются противопоказания. Проко�
 
 
 if (!location.href.includes('/checkout')) {
-    setDarkTheme();
-} else {
     document
         .querySelector('.button__list > li:first-child')
         .insertAdjacentHTML('afterend', themeToggle());
+    setDarkTheme();
+} else {
+
     setDarkTheme();
 }
 
