@@ -73,6 +73,11 @@ body .content-area .page-section.error-page h3 {
     .mobile_two_columns .products .thumbnail .caption {
         max-height: max-content;
     }
+
+    .wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 {
+        display: flex;
+        align-items: flex-start;
+    }
 }
 
 body.theme_11 .wrapper .header .header-wrapper .header-search button {
