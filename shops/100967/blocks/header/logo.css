@@ -1,17 +1,17 @@
 .logo {
-  margin: 0 !important;
+    margin: 0 !important;
 }
 
-body.dark-mode header .logo img {
-  -webkit-filter: invert(1);
-          filter: invert(1);
+body.dark-mode .logo img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 @media (max-width: 991px) {
-  .logo {
-    margin: 0 auto;
-  }
-  .logo img {
-    max-width: 155px !important;
-  }
+    .logo {
+        margin: 0 auto;
+    }
+    .logo img {
+        max-width: 155px !important;
+    }
 }
