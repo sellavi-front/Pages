@@ -146,6 +146,12 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   font-weight: 900;
 }
 
+.address-img img,
+.number-img img,
+.email-img img {
+  width: 50px;
+}
+
 
 @media screen and (max-width: 768px) {
   .otherInfo {
