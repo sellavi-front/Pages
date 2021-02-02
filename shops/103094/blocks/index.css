@@ -109,6 +109,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   .cat_item img {
     width: 100%;
   }
+
+  #home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a {
+    display: none;
+  }
 }
 
 /* Contacts */
