@@ -10,7 +10,7 @@ let renderContactsInCustomSection = () => {
         <div class="otherInfo">
         <div class="address">
               <div class="address-img">
-                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1611234408/sellavi/102783/Component_2_mhzrn6.png" alt="">
+                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612250310/sellavi/103094/Component_6_knbges.jpg" alt="">
               </div>
               <div class="title-and-address">
                 <div class="address-title">
@@ -24,7 +24,7 @@ let renderContactsInCustomSection = () => {
 
             <div class="number">
               <div class="number-img">
-                  <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610451452/Group_208_ydygyb.png" alt="">
+                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612250329/sellavi/103094/Group_208_d3kw1v.jpg" alt="">
               </div>
               <div class="title-and-number">
                 <div class="number-title">
@@ -38,7 +38,7 @@ let renderContactsInCustomSection = () => {
 
             <div class="email">
               <div class="email-img">
-                  <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1610451450/Group_209_ye2yi4.png" alt="">
+                  <img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612250343/sellavi/103094/Group_209_te1eh1.jpg" alt="">
               </div>
               <div class="title-and-email">
                 <div class="email-title">
