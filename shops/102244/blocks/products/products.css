@@ -65,7 +65,7 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 }
 
 @media (max-width: 495px) {
-  body.theme_11.ltr.common-home .wrapper .header .header-wrapper .logo img {
-    width: 100px !important;
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
+    width: 130px !important;
   }
 }
