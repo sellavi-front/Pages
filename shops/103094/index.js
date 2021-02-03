@@ -37,7 +37,7 @@ if(document.querySelector(".common-home")) {
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350685/sellavi/103094/Frame_320_znutxc.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
