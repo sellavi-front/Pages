@@ -36,7 +36,7 @@ if(document.querySelector(".common-home")) {
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multigialuron/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254486/sellavi/103094/Frame_318_a6vphy.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multigialuron/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
