@@ -4,6 +4,9 @@ import renderContactsInCustomSection from './components/contacts.js';
 if (pages.main) {
   // renderContactsInCustomSection();
 
+  localStorage.setItem('email', document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(2) > a").textContent)
+  localStorage.setItem('tel', document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(3) > a").textContent)
+
   document.querySelector('.custom_section').insertAdjacentHTML(
     'beforeend',
     `<div class="container">
@@ -27,21 +30,21 @@ if (pages.main) {
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_7423519_svefer.png">
             <p class="d-flex flex-column ml-4">
               <b class="">Адрес</b>
-              <span>Адрес Адрес Адрес</span>
+              <span></span>
             </p>
           </div>
           <div class="d-flex">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_208_t0zswf.png">
             <p class="d-flex flex-column ml-4">
-              <b class="">Адрес</b>
-              <span>Адрес Адрес Адрес</span>
+              <b class="">Телефон</b>
+              <span>${localStorage.getItem('tel')}</span>
             </p>
           </div>
           <div class="d-flex">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_209_xe0c8z.png">
             <p class="d-flex flex-column ml-4">
-              <b class="">Адрес</b>
-              <span>Адрес Адрес Адрес</span>
+              <b class="">E-mail</b>
+              <span>${localStorage.getItem('email')}</span>
             </p>
           </div>
       </div>
