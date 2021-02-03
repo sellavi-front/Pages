@@ -35,8 +35,5 @@ body.ltr.ru .wrapper .latest-section h2.section-title {
 }
 
 #content > div > div > div.col-12.col-lg-8 > div > div {
-    border-top: 0px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border: 0px
 }
