@@ -83,3 +83,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search button {
 .header-cart.sticky .fa-shopping-cart.far{
     color: black !important;
 }
+
+body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_menu {
+    height: 100% !important;
+}
