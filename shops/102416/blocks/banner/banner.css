@@ -42,9 +42,13 @@ body .main-slider .caption-content .caption-text {
 }
 
 #banner0 > div > div > div > div > div > div > div > div > div > p > a {
-    border: 1px solid white !important;
+    border: 1px solid rgb(0, 0, 0) !important;
     background: transparent;
     padding: 10px 50px 10px 50px;
+}
+
+#banner0 .btn.btn-theme {
+    color: black !important;
 }
 
 .main-slider .caption-content {
