@@ -42,6 +42,8 @@ body.bottom-nav-enabled nav.mobile_bottom_nav {
   height: calc(100% - 108px);
 }
 
-body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-  margin: 0 auto !important;
+@media (max-width: 991px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 auto !important;
+  }
 }
