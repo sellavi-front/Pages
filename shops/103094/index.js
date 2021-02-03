@@ -2,6 +2,7 @@ import Requisites from '../../modules/Requisites/Requisites.js'
 import {requsites} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 import './blocks/header/header.js'
 import './blocks/banner/banner.js'
 import resetSizeBanner from "./blocks/banner/banner.js";
