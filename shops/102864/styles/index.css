@@ -110,6 +110,10 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
   min-width: 17em !important;
 }
 
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
+  font-weight: 600;
+}
+
 #home > div.wrapper.wrapper-closed > div.content-area > section.page-section.subcategories_top {
   display: none !important;
 }
