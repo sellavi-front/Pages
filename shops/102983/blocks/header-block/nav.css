@@ -29,3 +29,7 @@ body.ltr .wrapper .header .header-wrapper .logo {
 .sf-menu .flexy.has_children > ul {
     left: 0%;
 }
+
+body.ltr.ru .wrapper .latest-section h2.section-title {
+    text-align: center !important;
+}
