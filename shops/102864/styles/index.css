@@ -105,6 +105,10 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
   min-width: 17em !important;
 }
 
+#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.subcategories_top {
+  display: none !important;
+}
+
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto !important;
