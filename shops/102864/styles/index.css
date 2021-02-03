@@ -42,12 +42,59 @@ body.bottom-nav-enabled nav.mobile_bottom_nav {
   height: calc(100% - 108px);
 }
 
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li:hover {
-  background: rgba(0,0,0,.06) !important;
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul
+  > li:hover {
+  background: rgba(0, 0, 0, 0.06) !important;
 }
 
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li>a:hover, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li>a:hover {
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul
+  > li
+  > a:hover,
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']:hover
+  > ul
+  > li
+  > a:hover {
   background: transparent !important;
+}
+
+body.ru.ltr
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul
+  li {
+  padding: 10px 5px !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+}
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li>a, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li>a {
+  text-align: left !important;
 }
 
 @media (max-width: 991px) {
