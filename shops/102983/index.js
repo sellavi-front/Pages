@@ -75,3 +75,7 @@ if (document.querySelector('.common-home')) {
 if (document.querySelector('.footer')) {
   document.querySelector('#home > div > footer > div.footer-widgets > div.container > div').insertAdjacentHTML('beforebegin', '<hr>');
 }
+
+if (document.querySelector('.header-wrapper')) {
+  document.querySelector('.nav.sf-menu').insertAdjacentHTML('beforeend', '<li><a href="https://colorexnn.ru/contact/">Обратная связь</a></li><li><a href="https://colorexnn.ru/pay-delivery/">Оплата и доставка</a></li><li><a href="https://colorexnn.ru/about/">О нас</a></li>')
+}
