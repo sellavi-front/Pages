@@ -15,11 +15,11 @@ import addEventListener from "./utils/addEventListener.js"
   document.querySelector(".mobile_side_nav").classList.add("nav-closed")
   document.querySelector("body").classList.remove("overflow-hidden")
 })*/
-addEventListener(document, 'DOMContentLoaded', function() {
-  addEventListener(document.querySelector('body'), 'change', function() {
-    document.querySelector('body').classList.remove('overflow-hidden')
-  })
+
+$('body').on('change', () => {
+  document.querySelector('body').classList.remove('overflow-hidden')
 })
+
 
 document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4").innerHTML = 'О нас'
 
