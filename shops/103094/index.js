@@ -48,11 +48,11 @@ if(document.querySelector(".common-home")) {
   if(window.screen.width < 480) {
 
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
-    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612190016/sellavi/103094/Component_2_1_tyluzl.jpg" alt="desktop"/>
+    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350960/sellavi/103094/Component_2_fancet.png" alt="desktop"/>
   `)
   } else {
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
-    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254580/sellavi/103094/Group_279_zaupkq.jpg" alt="desktop"/>
+    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350906/sellavi/103094/Group_279_plncpg.png" alt="desktop"/>
   `)
   }
 
