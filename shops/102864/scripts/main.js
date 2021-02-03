@@ -25,21 +25,21 @@ if (pages.main) {
       <div class="d-flex flex-wrap justify-content-between">
           <div class="d-flex">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_7423519_svefer.png">
-            <p class="d-flex flex-column mr-4">
+            <p class="d-flex flex-column ml-4">
               <b class="">Адрес</b>
               <span>Адрес Адрес Адрес</span>
             </p>
           </div>
           <div class="d-flex">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_208_t0zswf.png">
-            <p class="d-flex flex-column mr-4">
+            <p class="d-flex flex-column ml-4">
               <b class="">Адрес</b>
               <span>Адрес Адрес Адрес</span>
             </p>
           </div>
           <div class="d-flex">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_209_xe0c8z.png">
-            <p class="d-flex flex-column mr-4">
+            <p class="d-flex flex-column ml-4">
               <b class="">Адрес</b>
               <span>Адрес Адрес Адрес</span>
             </p>
