@@ -71,3 +71,7 @@ body.ltr.ru .wrapper .latest-section h2.section-title {
 body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
     color: white !important;
 }
+
+.sf-menu.nav>li>a {
+    font-size: 15px !important;
+}
