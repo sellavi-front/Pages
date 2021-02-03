@@ -33,8 +33,8 @@ if(pages.home) {
     advantages.render()
     if (document.querySelector('.product-item')) {
       const productItems = document.querySelectorAll('.product-item');
-      const deleteSelectors = new DeleteClasses(productItems);
-      deleteSelectors.findAndDelete();
+      // const deleteSelectors = new DeleteClasses(productItems);
+      // deleteSelectors.findAndDelete();
     }
   } else {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
