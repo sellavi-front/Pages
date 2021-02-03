@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     padding: 20px;
     border-radius: 10px !important;
 }
@@ -23,10 +24,14 @@
 }
 
 #banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: none;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
+}
+
+body .main-slider .caption-content .caption-text {
+    margin-top: 10px !important;
 }
 
 #banner0 > div > div > div > div > div > div > div > div > div > div {
