@@ -77,5 +77,5 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons .
 }
 
 body.theme_11 .wrapper .header .header-wrapper .header-search button {
-    max-width: 26px;
+    max-width: 26px !important;
 }
