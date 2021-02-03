@@ -1,5 +1,5 @@
 import pages from '../utils/contants/conditions.js';
-import renderContactsInCustomSection from './components/contacts.js';
+// import renderContactsInCustomSection from './components/contacts.js';
 import SocialIcons from '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 
 localStorage.setItem('insta', document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul > li > a") ? document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul > li > a").getAttribute('href') : '')
