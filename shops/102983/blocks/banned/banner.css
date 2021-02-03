@@ -3,7 +3,7 @@
 }
 
 #banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
-    text-align: left !important;
+    text-align: left;
     display: flex;
     font-size: 30px;
     line-height: 50px;
