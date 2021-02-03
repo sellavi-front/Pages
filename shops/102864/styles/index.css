@@ -15,18 +15,29 @@ body a,
 body span,
 body b,
 body strong {
-    font-family: 'Comfortaa', cursive;
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Comfortaa', cursive;
+  font-weight: normal;
+  font-style: normal;
 }
 
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy>a,
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]>a,
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']
+  > a,
 body.theme_11 .wrapper .latest-section h2.section-title span {
-    color: black;
+  color: black;
 }
 
-body.bottom-nav-enabled div.mobile-bottom-nav>ul>li.mobile-bottom-tab>a.mobile-bottom-link {
-    border: none !important;
-    padding: 25px 0 !important;
+body.bottom-nav-enabled div.mobile-bottom-nav > ul > li.mobile-bottom-tab > a.mobile-bottom-link {
+  border: none !important;
+  padding: 25px 0 !important;
+}
+
+body.bottom-nav-enabled nav.mobile_bottom_nav {
+  height: calc(100% - 108px);
 }
