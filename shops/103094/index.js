@@ -16,9 +16,9 @@ import addClassNameListener from "./utils/addEventListener.js"
   document.querySelector("body").classList.remove("overflow-hidden")
 })*/
 
-/*addClassNameListener("body", () => {
+addClassNameListener("body", () => {
   document.querySelector('body').classList.remove('overflow-hidden')
-})*/
+})
 
 document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4").innerHTML = 'О нас'
 
