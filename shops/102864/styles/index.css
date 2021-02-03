@@ -101,7 +101,7 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
   padding-bottom: 0;
 }
 
-.flexy.has_children .sf-menu ul {
+.nav.sf-menu .sf-menu ul {
   min-width: 17em !important;
 }
 
