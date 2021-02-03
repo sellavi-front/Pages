@@ -73,10 +73,13 @@
         margin-bottom: 20px;
     }
     
-    #home > div > div > div.custom_section > div > div > div > div:nth-child(1) > ul > li {
-        font-size: 13px;
-    }
     
+        #home > div > div > div.custom_section > div > div > div > div:nth-child(1) > ul > li {
+            font-size: 13px;
+        }
+    
+    
+
     #home > div > div > div.custom_section.container > div.preCatTitle > div > div > div:nth-child(3) {
         height: 300px;
     }
@@ -136,4 +139,28 @@
 
 body#home .homefeatured_category .row {
     flex-wrap: wrap !important;
+}
+
+@media (max-device-width: 360px) {
+    #home > div > div > div.custom_section > div > div > div > div:nth-child(1) > ul > li {
+        font-size: 13px;
+    }
+}
+
+@media (min-device-width: 361px) and (max-device-width: 480px) {
+    #home > div > div > div.custom_section > div > div > div > div:nth-child(1) > ul > li {
+        font-size: 15px;
+    }
+}
+
+@media (max-device-width: 360px) {
+    #home > div > div > div.custom_section > div > div > div > div:nth-child(3) > ul > li {
+        font-size: 13px;
+    }
+}
+
+@media (min-device-width: 361px) and (max-device-width: 480px) {
+    #home > div > div > div.custom_section > div > div > div > div:nth-child(3) > ul > li {
+        font-size: 15px;
+    }
 }
