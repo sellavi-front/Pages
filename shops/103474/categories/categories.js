@@ -37,11 +37,11 @@ const categories = {
   },
   cakes: {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Group_7423495_yggpod.png',
-    link: 'http://koshergurme.ru/index.php?route=product/category&path=5348'
+    link: '#'
   },
   other: {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363467/103474/Frame_39_ff00mt.png',
-    link: 'https://koshergurme.ru/index.php?route=product/category&path=5889'
+    link: '#'
   },
   logo: {
     img: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1610113673/sellavi/101263/%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%B2_%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F%D1%85_kl6aaw.svg'
