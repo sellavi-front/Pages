@@ -47,3 +47,9 @@ body.bottom-nav-enabled nav.mobile_bottom_nav {
     margin: 0 auto !important;
   }
 }
+
+@media (max-width: 375px) {
+  body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    padding: 10px 0 !important;
+  }
+}
