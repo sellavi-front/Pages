@@ -36,13 +36,7 @@ if (pages.main) {
   document.querySelector('.custom_section > .container').insertAdjacentHTML(
     'beforeend', `
       <div class="d-flex flex-wrap justify-content-center mt-5">
-       <!-- <div class="d-flex">
-            <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_7423519_svefer.png">
-            <p class="d-flex flex-column ml-4">
-              <b class="">Адрес</b>
-              <span></span>
-            </p>
-          </div> -->
+
           <div class="d-flex ml-5">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_208_t0zswf.png">
             <p class="d-flex flex-column ml-4">
