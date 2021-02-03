@@ -25,3 +25,7 @@ body.ltr .wrapper .header .header-wrapper .logo {
 .sf-menu .flexy.has_children ul li > a {
     padding: 10px;
 }
+
+.sf-menu .flexy.has_children > ul {
+    left: 0%;
+}
