@@ -9,3 +9,7 @@ header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
 .header_login {
     display: none !important;
 }
+
+body.ltr .wrapper .header .header-wrapper .logo {
+    z-index: 1 !important;
+}
