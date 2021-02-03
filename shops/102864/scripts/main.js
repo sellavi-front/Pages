@@ -20,3 +20,7 @@ if (pages.main) {
 
 }
 
+if (location.origin) {
+  document.querySelector("#home > nav.mobile_bottom_nav.nav-opened > ul > li.home_link.flexy").classList.add('flexy')
+}
+
