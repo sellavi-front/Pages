@@ -9,6 +9,7 @@ import renderContactsInCustomSection from "./blocks/custom-section/contacts/cont
 
 
 document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").addEventListener('click', () => {
+  console.log("Clicked burger")
   document.querySelector(".mobile_side_nav").classList.remove("nav-opened")
   document.querySelector(".mobile_side_nav").classList.add("nav-closed")
   document.querySelector("body").classList.remove("overflow-hidden")
