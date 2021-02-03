@@ -2,10 +2,11 @@ import pages from '../utils/contants/conditions.js';
 import renderContactsInCustomSection from './components/contacts.js';
 
 if (pages.main) {
-
   // renderContactsInCustomSection();
 
-  document.querySelector('.custom_section').insertAdjacentHTML('beforeend', `<div class="container">
+  document.querySelector('.custom_section').insertAdjacentHTML(
+    'beforeend',
+    `<div class="container">
     <div class="d-flex justify-content-between flex-wrap align-items-center">
       <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611932692/102273/Frame_2_m4fgs8.png" style="max-width: 600px; width: 100%;">
       <div style="max-width: 500px; width: 100%;">
@@ -16,11 +17,16 @@ if (pages.main) {
       </div>
       </div>
     </div>
-  `);
-
+  `,
+  );
 }
 
 if (location.origin) {
-  document.querySelector("#home > nav.mobile_bottom_nav.nav-opened > ul > li.home_link.flexy").classList.add('flexy')
+  document
+    .querySelector('#home > div.mobile-bottom-nav > ul > li.categories.mobile-bottom-tab > a')
+    .addEventListener('click', () => {
+      document
+        .querySelector('#home > nav.mobile_bottom_nav.nav-opened > ul > li.home_link.flexy')
+        .classList.add('flexy');
+    });
 }
-
