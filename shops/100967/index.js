@@ -388,6 +388,10 @@ if (location.href.includes('/checkout')) {
     // );
     // textDelivery.textContent = 'Оплата курьеру при получении';
 
+    document.querySelectorAll("body > div.content-area > section > div.flexwrap.checkout_form > div h2").forEach(h2 => {
+      h2.textContent = h2.textContent.replace(/Шаг \w:/gi, '')
+    })
+
     document
         .querySelector(
             '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
