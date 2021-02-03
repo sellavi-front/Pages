@@ -88,3 +88,8 @@ if (location.href.includes('pay-delivery')) {
   );
   req.setTemplate();
 }
+
+
+if (location.origin) {
+  document.querySelector('body').classList.add('dark-mode')
+}
