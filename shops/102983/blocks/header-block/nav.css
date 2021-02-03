@@ -37,3 +37,29 @@ body.ltr.ru .wrapper .latest-section h2.section-title {
 #content > div > div > div.col-12.col-lg-8 > div > div {
     border: 0px
 }
+
+@media (max-device-width: 480px) {
+    .main-slider .caption-content {
+        display: block !important;
+        height: 100%;
+        margin-top: 40px !important;
+    }
+    
+    #banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 22px;
+        text-align: center !important;
+    }
+    
+    #banner0 > div > div > div > div > div > div > div > div > div > p {
+        display: flex;
+        justify-content: center
+    }
+    
+    #banner0 > div > div > div > div > div > div > div > div > div > p > a {
+        font-size: 10px;
+        padding: 10px 20px 10px 20px 
+    }
+}
