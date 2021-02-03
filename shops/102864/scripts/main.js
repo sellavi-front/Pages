@@ -22,7 +22,7 @@ if (pages.main) {
 
   document.querySelector('.custom_section > .container').insertAdjacentHTML(
     'beforeend', `
-      <div class="d-flex flex-wrap justify-content-between">
+      <div class="d-flex flex-wrap justify-content-between mt-5">
           <div class="d-flex">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_7423519_svefer.png">
             <p class="d-flex flex-column ml-4">
