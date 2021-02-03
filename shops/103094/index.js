@@ -17,6 +17,7 @@ import addEventListener from "./utils/addEventListener.js"
 })*/
 
 $('body').on('change', () => {
+  console.log('changed')
   document.querySelector('body').classList.remove('overflow-hidden')
 })
 
