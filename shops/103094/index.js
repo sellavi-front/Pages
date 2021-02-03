@@ -22,16 +22,25 @@ if(document.querySelector(".common-home")) {
   document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
       <div class="container cat_block">
         <div class="categories_block">
+
             <div class="cat_item">
-                <a href="https://store103094.sellavi.com/care-products/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254485/sellavi/103094/Frame_316_pdrniy.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multiblade/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350624/sellavi/103094/Frame_316_1_skvz21.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
-                <a href="https://store103094.sellavi.com/multisticks/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254485/sellavi/103094/Frame_317_gilktb.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multicream-1/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350640/sellavi/103094/Frame_317_1_nmqnvi.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
-                <a href="https://store103094.sellavi.com/consumables/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254486/sellavi/103094/Frame_318_a6vphy.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multidez/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350658/sellavi/103094/Frame_318_1_k2fd4i.jpg" alt="category" /></a>
+            </div>
+
+            <div class="cat_item">
+                <a href="https://multimanic.ru/multigialuron/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612254486/sellavi/103094/Frame_318_a6vphy.jpg" alt="category" /></a>
+            </div>
+
+            <div class="cat_item">
+                <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
             </div>
         </div>
       </div>
