@@ -5,6 +5,10 @@ body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item 
   font-size: 12px !important;
 }
 
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  background:  #fc444d !important;
+}
+
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   width: 100%;
   border: 1px solid #fc444d;
