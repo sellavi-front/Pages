@@ -5,6 +5,11 @@
   -o-box-shadow: none !important;
   box-shadow: none !important;
 }
+
+#banner0 > div > div > div > div > picture > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*
 .bannerImg {
   display: flex;
