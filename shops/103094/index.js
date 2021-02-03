@@ -17,7 +17,7 @@ import addClassNameListener from "./utils/addEventListener.js"
 })*/
 
 addClassNameListener("body", () => {
-  console.log('test')
+  document.querySelector('body').classList.remove('overflow-hidden')
 })
   //document.querySelector('body').classList.remove('overflow-hidden')
 
