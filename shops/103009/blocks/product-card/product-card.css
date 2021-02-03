@@ -233,8 +233,8 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
     }
 
     body .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
-        height: 130px !important;
-        width: 140px !important;
+        height: 150px !important;
+        width: 160px !important;
     }
 
     body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
