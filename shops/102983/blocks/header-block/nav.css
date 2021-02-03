@@ -13,3 +13,15 @@ header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
 body.ltr .wrapper .header .header-wrapper .logo {
     z-index: 1 !important;
 }
+
+.sf-menu .flexy.has_children ul {
+    margin: 0px !important;
+}
+
+.sf-menu li:hover>a {
+    color: black !important;
+}
+
+.sf-menu .flexy.has_children ul li > a {
+    padding: 10px;
+}
