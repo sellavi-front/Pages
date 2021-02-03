@@ -102,11 +102,6 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
   padding-bottom: 0;
 }
 
-.footer-widgets .row {
-  padding: 30px 0 0;
-  border-top: 2px solid;
-}
-
 .sf-menu .flexy.has_children > ul {
   min-width: 17em !important;
 }
@@ -123,6 +118,8 @@ footer .footer-widgets .row {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
           justify-content: start !important;
+          padding: 30px 0 0;
+  border-top: 2px solid;
 }
 
 @media (max-width: 991px) {
