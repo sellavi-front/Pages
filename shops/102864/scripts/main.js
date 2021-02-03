@@ -26,7 +26,7 @@ if (location.origin) {
     .querySelector('#home > div.mobile-bottom-nav > ul > li.categories.mobile-bottom-tab > a')
     .addEventListener('click', () => {
       document
-        .querySelector('#home > nav.mobile_bottom_nav.nav-opened > ul > li.home_link.flexy')
+        .querySelector('#home > nav.mobile_bottom_nav.nav-opened > ul > li.home_link')
         .classList.add('flexy');
     });
 }
