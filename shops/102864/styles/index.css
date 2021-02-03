@@ -109,6 +109,12 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
   display: none !important;
 }
 
+.footer-widgets .row {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: start !important;
+}
+
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto !important;
