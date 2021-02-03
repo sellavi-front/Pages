@@ -33,15 +33,15 @@ if(document.querySelector(".common-home")) {
         <div class="categories_block">
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multiblade/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350624/sellavi/103094/Frame_316_1_skvz21.jpg" alt="category" /></a>
-            </div>
-
-            <div class="cat_item">
-                <a href="https://multimanic.ru/multicream-1/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350640/sellavi/103094/Frame_317_1_nmqnvi.jpg" alt="category" /></a>
-            </div>
-
-            <div class="cat_item">
                 <a href="https://multimanic.ru/multidez/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350658/sellavi/103094/Frame_318_1_k2fd4i.jpg" alt="category" /></a>
+            </div>
+
+            <div class="cat_item">
+                <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
+            </div>
+
+            <div class="cat_item">
+                <a href="https://multimanic.ru/multiblade/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350624/sellavi/103094/Frame_316_1_skvz21.jpg" alt="category" /></a>
             </div>
 
             <div class="cat_item">
@@ -49,8 +49,9 @@ if(document.querySelector(".common-home")) {
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multicream-1/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350640/sellavi/103094/Frame_317_1_nmqnvi.jpg" alt="category" /></a>
             </div>
+
         </div>
       </div>
     `)
