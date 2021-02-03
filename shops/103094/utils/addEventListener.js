@@ -1,8 +1,14 @@
-let addEventHandler = (elem, eventType, handler) => {
-  if (elem.addEventListener)
-    elem.addEventListener (eventType, handler, false);
-  else if (elem.attachEvent)
-    elem.attachEvent ('on' + eventType, handler);
+let addClassNameListener = (element, callback) => {
+  let elem = document.querySelector(element);
+  let lastClassName = elem.className;
+  window.setInterval( function() {
+    let className = elem.className;
+    if (className !== lastClassName) {
+      callback();
+      lastClassName = className;
+    }
+  },10);
 }
 
-export default addEventHandler
+
+export default addClassNameListener

@@ -6,7 +6,7 @@ import './blocks/header/header.js'
 import './blocks/banner/banner.js'
 import resetSizeBanner from "./blocks/banner/banner.js";
 import renderContactsInCustomSection from "./blocks/custom-section/contacts/contacts.js";
-import addEventListener from "./utils/addEventListener.js"
+import addClassNameListener from "./utils/addEventListener.js"
 
 
 /*document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").addEventListener('click', () => {
@@ -16,11 +16,10 @@ import addEventListener from "./utils/addEventListener.js"
   document.querySelector("body").classList.remove("overflow-hidden")
 })*/
 
-$('body').on('change', () => {
-  console.log('changed')
-  document.querySelector('body').classList.remove('overflow-hidden')
+addClassNameListener("body", () => {
+  console.log('test')
 })
-
+  document.querySelector('body').classList.remove('overflow-hidden')
 
 document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4").innerHTML = 'О нас'
 
