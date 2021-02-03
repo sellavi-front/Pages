@@ -6,13 +6,19 @@ import './blocks/header/header.js'
 import './blocks/banner/banner.js'
 import resetSizeBanner from "./blocks/banner/banner.js";
 import renderContactsInCustomSection from "./blocks/custom-section/contacts/contacts.js";
+import addEventListener from "./utils/addEventListener.js"
 
 
-document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").addEventListener('click', () => {
+/*document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a").addEventListener('click', () => {
   console.log("Clicked burger")
-  document.querySelector(".mobile_side_nav").classList.remove("nav-opened")
+
   document.querySelector(".mobile_side_nav").classList.add("nav-closed")
   document.querySelector("body").classList.remove("overflow-hidden")
+})*/
+addEventListener(document, 'DOMContentLoaded', function() {
+  addEventListener(document.querySelector('body'), 'change', function() {
+    document.querySelector('body').classList.remove('overflow-hidden')
+  })
 })
 
 document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4").innerHTML = 'О нас'
