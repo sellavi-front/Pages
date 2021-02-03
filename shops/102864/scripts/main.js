@@ -37,7 +37,7 @@ if (pages.main) {
     'beforeend', `
       <div class="d-flex flex-wrap justify-content-center mt-5">
 
-          <div class="d-flex ml-5">
+          <div class="d-flex mr-5">
             <img style="width: 40px; height: 40px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1612356741/Group_208_t0zswf.png">
             <p class="d-flex flex-column ml-4">
               <b class="">Телефон</b>
