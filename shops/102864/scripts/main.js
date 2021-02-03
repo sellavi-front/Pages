@@ -67,4 +67,5 @@ if (location.origin) {
 
 if (document.querySelector('footer')) {
   new SocialIcons(document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div"), 'beforeend', defaultData).render()
+  document.querySelector('footer .soc-icons').insertAdjacentHTML('afterbegin', '<h4>Мы в Instagram</h4>')
 }
