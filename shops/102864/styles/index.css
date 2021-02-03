@@ -4,6 +4,7 @@
 @import './pay-delivery/pay-delivery.css';
 @import './banner/banner.css';
 @import './product/card.css';
+
 body h1,
 body h2,
 body h3,
@@ -118,7 +119,7 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   display: none !important;
 }
 
-.footer-widgets .row {
+footer .footer-widgets .row {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
           justify-content: start !important;
