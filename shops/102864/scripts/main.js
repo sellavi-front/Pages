@@ -1,5 +1,15 @@
 import pages from '../utils/contants/conditions.js';
 import renderContactsInCustomSection from './components/contacts.js';
+import SocialIcons from '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
+
+localStorage.setItem('insta', document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul > li > a") ? document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul > li > a").getAttribute('href') : '')
+
+const defaultData = [
+  {
+    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-instagram_1_rw7nv3.svg',
+    link: localStorage.getItem('insta'),
+  },
+];
 
 if (pages.main) {
   // renderContactsInCustomSection();
@@ -59,4 +69,14 @@ if (location.origin) {
         .querySelector('#home > nav.mobile_bottom_nav.nav-opened > ul > li.home_link')
         .classList.add('flexy');
     });
+}
+
+if (document.querySelector('footer')) {
+
+
+  document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', `
+    <div class="col-md-3">
+      ${new SocialIcons()}
+    </div>
+  `)
 }
