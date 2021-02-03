@@ -72,11 +72,5 @@ if (location.origin) {
 }
 
 if (document.querySelector('footer')) {
-
-
-  document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', `
-    <div class="col-md-3">
-      ${new SocialIcons()}
-    </div>
-  `)
+  new SocialIcons(document.querySelector("#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div"), 'beforeend', defaultData).render()
 }
