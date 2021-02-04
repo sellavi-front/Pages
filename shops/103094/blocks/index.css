@@ -55,6 +55,11 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   color: #333 !important;
 }
 
+body.theme-gray.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a:hover {
+  background-color: #cfcfcf;
+  color: #fff;
+}
+
 
 @media screen and (max-width: 480px) {
   .page-header h1 {
@@ -69,6 +74,8 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   .common-home .header {
     position: absolute;
   }
+
+
 }
 
 /* end */
