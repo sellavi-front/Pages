@@ -17,13 +17,8 @@ import addClassNameListener from "./utils/addEventListener.js"
   document.querySelector("body").classList.remove("overflow-hidden")
 })*/
 // Catalog remove
-if(document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a")) {
-  document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a").remove()
-}
+document.querySelector(".sf-menu>li:nth-child(2)").remove()
 
-if(document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a > a")) {
-  document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a > a").remove()
-}
 
 
 addClassNameListener("body", () => {
