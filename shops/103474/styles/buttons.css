@@ -90,7 +90,8 @@ body.theme-green-2.theme_11.product-product .product-single.product-item .button
   border-radius: 5px !important;
 }
 
-body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list,
+body.theme-red-2.theme_11.product-product .product-single.product-item .buttons .quantity {
   border: 1px solid #333 !important;
 }
 
@@ -98,6 +99,9 @@ body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item 
   background-color: transparent !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
+  color: black !important;
+}
 
 @media only screen and (max-width: 400px) {
   body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
