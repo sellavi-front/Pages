@@ -57,6 +57,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
 @media screen and (max-width: 480px) {
   .page-header h1 {
     font-size: 21px !important;
+    font-weight: 900;
   }
 }
 
