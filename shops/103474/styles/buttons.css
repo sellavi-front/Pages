@@ -6,7 +6,11 @@ body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item 
 }
 
 body.ltr .header .header-wrapper .mobile-navigation-wrapper {
-  background:  #fc444d !important;
+  background:  transparent !important;
+}
+
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
+  color: black !important;
 }
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
@@ -19,7 +23,7 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 }
 
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
-  background: #fc444d !important;
+  background: transparent !important;
 }
 
 body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block {
