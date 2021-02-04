@@ -203,10 +203,10 @@ export default function desinfectedFrames() {
             </div>
 
             <div class="gridd">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0029_lizikz.png" alt="" style="margin-right: 20px;">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200601-WA0016_seylqa.png" alt="" style="margin-right: 20px;">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0028_v3pbpg.png" alt="" style="margin-right: 20px;">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200724-WA0001_ba566b.png" alt="" >
+            <img class="col-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0029_lizikz.png" alt="" style="margin-right: 20px;">
+            <img class="col-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200601-WA0016_seylqa.png" alt="" style="margin-right: 20px;">
+            <img class="col-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200528-WA0028_v3pbpg.png" alt="" style="margin-right: 20px;">
+            <img class="col-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1611912379/102273/IMG-20200724-WA0001_ba566b.png" alt="" >
             </div>
             <div style="margin: 0 0 40px 0">
               <h5>Медико-санитарное назначение:</h5>
