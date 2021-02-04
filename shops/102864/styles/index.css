@@ -137,10 +137,7 @@ footer .footer-widgets .row {
   border-top: 2px solid;
 }
 
- .footer-widgets .row .col-md-3:nth-child(4) {
-  padding-top: 20px;
-  border-top: 1px solid #c4c4c4 !important;
-}
+
 
 body.theme_11.checkout-cart .wrapper .header .header-wrapper .header-search {
   display: block !important;
@@ -153,6 +150,13 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-widgets .row .col-md-3:nth-child(4) {
+    padding-top: 20px;
+    border-top: 1px solid #c4c4c4 !important;
   }
 }
 
