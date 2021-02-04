@@ -25,4 +25,5 @@
 .id_link {
   color: #35867B;
   font-size: 22px;
+  text-decoration: underline !important;
 }
