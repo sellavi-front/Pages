@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
+
+
 body.ltr.ru .wrapper .latest-section h2.section-title {
     text-align: center !important;
     margin-top: 50px !important;
@@ -28,7 +31,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     background: #E0ECFF !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
 
 #home > div.wrapper.wrapper-closed > div.content-area > section > div > h2 > span {
     font-family: 'Roboto Slab', serif;
