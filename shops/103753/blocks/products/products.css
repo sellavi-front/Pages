@@ -100,3 +100,51 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     display: flex !important;
     justify-content: center !important;
 }
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
+
+
+.content-area > div.custom_section > div {
+    text-align: center !important;
+    margin-top: 50px !important;
+}
+
+.content-area > div.custom_section > div > span:nth-child(1) {
+    font-size: 30px !important;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div {
+    margin-top: 10px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div {
+    max-width: fit-content !important
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(3) {
+    padding-left: 0px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div {
+    align-self: center !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(1) {
+    padding-left: 20px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(7) > div > div > div {
+    margin-top: 30px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(7) > div > div > div > div {
+  font-weight: 600 !important;
+}
