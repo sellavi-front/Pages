@@ -60,6 +60,10 @@ body.theme_11
   background: rgba(0, 0, 0, 0.06) !important;
 }
 
+body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
+  bottom: 82px !important;
+}
+
 body.theme_11.bottom-nav-enabled nav.mobile_bottom_nav>ul.mobile_side_nav_menu li.bottom-nav-search #mobile_search_results>a {
   height: -webkit-fit-content !important;
   height: -moz-fit-content !important;
@@ -136,6 +140,14 @@ footer .footer-widgets .row {
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 461px) {
+  #home > div.wrapper.wrapper-closed > div.content-area > div.custom_section > div > div.d-flex.flex-wrap.justify-content-center.mt-5 {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
 }
 
