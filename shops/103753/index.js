@@ -43,7 +43,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
         </div>
         <div class="col">
-        Только качественные материалы
+        765
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
         </div>
         <div class="col">
-        Вы можете заказать свой собственный дизайн
+        984
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
         </div>
         <div class="col">
-        У нас есть гарантия
+        763
         </div>
       </div>
     </div>
@@ -109,17 +109,17 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612445098/Frame_vbx8ci.png">
       <div class="row">
         <div class="col">
-          436
+        Полностью собственное производство
         </div>
       </div>
-    </div>
+    </div> 
     
     
     <div class="col">
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612445098/Frame_1_l0jgl3.png">
       <div class="row">
         <div class="col">
-          436
+        Только качественные материалы
         </div>
       </div>
     </div>
@@ -128,7 +128,7 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612445100/Frame_2_bg7kab.png">
       <div class="row">
         <div class="col">
-          436
+        Вы можете заказать свой собственный дизайн
         </div>
       </div>
     </div>
@@ -137,7 +137,7 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612445101/Frame_3_ykm90w.png">
       <div class="row">
         <div class="col">
-          436
+        У нас есть гарантия
         </div>
       </div>
     </div>
