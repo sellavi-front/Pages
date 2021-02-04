@@ -1,5 +1,13 @@
 @media (max-device-width: 480px) {
 
+    .information-information-6592 #content > div > div.col-md-12 {
+        display: none;
+    }
+    
+    .information-information-6592 #content > div {
+        margin-top: 0px !important;
+    }
+
     body#home .mobile_side_nav .sidenav_search {
         display: block !important; 
     }
