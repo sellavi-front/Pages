@@ -13,9 +13,9 @@ export default function medicalFood() {
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
       </li>
-      <li class="mb-3"><a href="${ul}#4" class="id_link">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
+      <li class="mb-3"><a href="${url}#4" class="id_link">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
       <li>
-        <a href="${ul}#5" class="id_link"
+        <a href="${url}#5" class="id_link"
           >5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</a
         >
       </li>
