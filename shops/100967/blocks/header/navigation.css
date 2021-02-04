@@ -124,7 +124,6 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
 }
 
 .sf-menu > li.megamenu > ul > li.megaline > div > div > span > a {
-  text-transform: uppercase;
   font-weight: bold;
   color: #8F8F8F;
 }
