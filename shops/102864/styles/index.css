@@ -137,6 +137,11 @@ footer .footer-widgets .row {
   border-top: 2px solid;
 }
 
+ .footer-widgets .row .col-md-3:nth-child(4) {
+  padding-top: 20px;
+  border-top: 1px solid #c4c4c4 !important;
+}
+
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto !important;
