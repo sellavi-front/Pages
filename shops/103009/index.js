@@ -11,9 +11,10 @@ import '../../fixes/js/RemoveBLur/RemoveBlur.js';
 import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
 
 
-
-document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove();
-// if (document.querySelector('.header-wrapper')) {
+if (!location.pathname.includes('checkout')) {
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove();
+}
+  // if (document.querySelector('.header-wrapper')) {
 //   document.querySelector('#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > li.flexy.no_children > a').innerHTML = 'Статьи';
 // }
 
