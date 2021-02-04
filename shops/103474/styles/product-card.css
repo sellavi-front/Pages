@@ -80,3 +80,8 @@ body .section-title {
   font-weight: 400;
   font-family: 'Ubuntu', sans-serif !important;
 }
+
+.product-single .product_slide {
+  width: 40%;
+  margin: 0 auto;
+}
