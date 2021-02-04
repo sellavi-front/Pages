@@ -5,17 +5,17 @@ export default function medicalFood() {
   <section class="page-section__content">
   <div class="sect">
     <ol>
-      <li><a href="${url}#1">1. Мармелад</a></li>
-      <li><a href="${url}#2">2. Приглашение в программу</a></li>
-      <li>
-        <a href="${url}#3"
+      <li class="mb-3"><a href="${url}#1" class="id_link">1. Мармелад</a></li>
+      <li class="mb-3"><a href="${url}#2" class="id_link">2. Приглашение в программу</a></li>
+      <li class="mb-3">
+        <a href="${url}#3" class="id_link"
           >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
       </li>
-      <li><a href="${ul}#4">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
+      <li class="mb-3"><a href="${ul}#4" class="id_link">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
       <li>
-        <a href="${ul}#5"
+        <a href="${ul}#5" class="id_link"
           >5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</a
         >
       </li>
