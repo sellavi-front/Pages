@@ -13,9 +13,9 @@ export default function medicalFood() {
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
       </li>
-      <li><a href="#name">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
+      <li><a href="${ul}#4">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
       <li>
-        <a href="five"
+        <a href="${ul}#5"
           >5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</a
         >
       </li>
@@ -552,7 +552,7 @@ export default function medicalFood() {
     </div>
   </div>
   <div class="sect">
-    <h3 name="name">
+    <h3 name="4">
       <b>4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</b>
     </h3>
     <h4>
@@ -901,7 +901,7 @@ export default function medicalFood() {
     </div>
     <div class="mb-5 w-100">
       <div class="row">
-        <div class="col-sm-8" name="five">
+        <div class="col-sm-8" name="5">
           <h4><b>5. Хлопья из пророщенного зерна пшеницы с брусникой.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до
