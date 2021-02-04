@@ -28,3 +28,15 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     background: #E0ECFF !important;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
+
+#home > div.wrapper.wrapper-closed > div.content-area > section > div > h2 > span {
+    font-family: 'Roboto Slab', serif;
+    text-transform: lowercase;
+    font-size: 30px;
+}
+
+#home > div.wrapper.wrapper-closed > div.content-area > section > div > h2 > span:first-letter {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
