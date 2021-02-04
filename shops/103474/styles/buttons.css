@@ -3,6 +3,10 @@ body.theme-red-2 {
   --color-theme: 252,68,77;
 }
 
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  text-align: left !important;
+}
+
 body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   color: #000 !important;
   background-color: transparent !important;
