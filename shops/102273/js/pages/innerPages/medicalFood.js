@@ -5,10 +5,10 @@ export default function medicalFood() {
   <section class="page-section__content">
   <div class="sect">
     <ol>
-      <li><a href="${url}#1">1. Мармелад</a></li>
+      <li><a href="${location.href}#1">1. Мармелад</a></li>
       <li><a href="${url}#2">2. Приглашение в программу</a></li>
       <li>
-        <a href="${url}#3"
+        <a href="${location.href}#3"
           >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
