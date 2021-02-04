@@ -217,6 +217,10 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
         min-height: 50px !important;
     }
 
+    .wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.caption.text-center > h4 {
+        display: flex;
+        align-self: flex-start !important;
+    }
 
 }
 
