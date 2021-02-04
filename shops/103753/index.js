@@ -200,3 +200,7 @@ if (document.querySelector('.wrapper')) {
   const socIcons = document.querySelector('.soc-icons');
   socIcons.classList.add('col-md-3');
 }
+
+if (document.querySelector('.checkout-checkout')) {
+  document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.seller-comments.form-group > label').innerHTML = 'Добавить комментарий';
+}
