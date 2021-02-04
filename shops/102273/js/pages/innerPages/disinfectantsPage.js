@@ -295,7 +295,7 @@ const disinfectantsPages = () => {
         >
       </p>
     </div>
-    <div class="mt-4 mb-4">
+    <div class="mt-4 mb-4 d-flex flex-column">
         <a href="" class="button_link mb-2">Инструкция по применению</a>
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
