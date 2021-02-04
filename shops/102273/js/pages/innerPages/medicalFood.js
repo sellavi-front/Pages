@@ -5,15 +5,15 @@ export default function medicalFood() {
   <section class="page-section__content">
   <div class="sect">
     <ol>
-      <li><a href="${ur}#1">1. Мармелад</a></li>
-      <li><a href="${ur}#2">2. Приглашение в программу</a></li>
+      <li><a href="${url}#1">1. Мармелад</a></li>
+      <li><a href="${url}#2">2. Приглашение в программу</a></li>
       <li>
-        <a href="${ur}#3"
+        <a href="${url}#3"
           >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
       </li>
-      <li><a href="${ur}#4">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
+      <li><a href="#name">4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</a></li>
       <li>
         <a href="#"
           >5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</a
@@ -550,7 +550,7 @@ export default function medicalFood() {
     </div>
   </div>
   <div class="sect">
-    <h3 id="4">
+    <h3 name="name">
       <b>4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</b>
     </h3>
     <h4>
