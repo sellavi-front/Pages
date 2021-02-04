@@ -2,3 +2,33 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 10px !important;
     margin-left: 250px !important;
 }
+
+.sf-menu.nav>li:nth-child(1) > a {
+    border-bottom: 0px !important;
+    border-bottom: 2px solid #E1B97B !important;
+}
+
+.sf-menu.nav>li>a {
+    font-weight: 400;
+}
+
+.sf-menu.nav>li:nth-child(1) > a {
+    border-bottom: 0px !important;
+    border-bottom: 2px solid #E1B97B !important;
+}
+
+.sf-menu.nav>li>a {
+    font-weight: 400;
+}
+
+.header_login {
+    display: none !important;
+}
+
+.header-cart.sticky {
+    padding: 0px !important;
+}
+
+#search > div.search_field > input {
+    border-bottom: 0px !important;
+}
