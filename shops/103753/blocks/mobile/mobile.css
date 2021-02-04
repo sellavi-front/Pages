@@ -45,4 +45,16 @@
     body.sidenav-enabled.ltr .mobile_side_nav ul a {
         direction: rtl !important;
     }
+
+    .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
+        color: black !important;
+        font-weight: 400;
+        text-transform: lowercase;
+    }
+    
+    .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a:first-letter{
+        color: black !important;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
 }
