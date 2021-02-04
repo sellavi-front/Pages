@@ -33,3 +33,9 @@
           flex: 0 0 25%;
   max-width: 25% !important;
 }
+
+.sect > .row > .col:first-child {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
