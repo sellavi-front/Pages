@@ -148,3 +148,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .content-area > div.custom_section > div:nth-child(7) > div > div > div > div {
   font-weight: 600 !important;
 }
+
+.content-area > div.custom_section > div:nth-child(7) > div > div > img {
+    height: 210px;
+}
