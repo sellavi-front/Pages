@@ -28,7 +28,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
         </div>
         <div class="col">
-        Полностью собственное производство
+        855
         </div>
       </div>
     </div>
