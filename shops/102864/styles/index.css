@@ -41,7 +41,11 @@ body.bottom-nav-enabled div.mobile-bottom-nav > ul > li.mobile-bottom-tab > a.mo
 }
 
 body.bottom-nav-enabled nav.mobile_bottom_nav {
-  height: calc(100% - 108px);
+  height: calc(100% - 84px);
+}
+
+body.bottom-nav-enabled nav.mobile_bottom_nav .mobile_side_nav_menu li .arrow {
+  display: block !important;
 }
 
 body.theme_11
@@ -54,6 +58,12 @@ body.theme_11
   > ul
   > li:hover {
   background: rgba(0, 0, 0, 0.06) !important;
+}
+
+body.theme_11.bottom-nav-enabled nav.mobile_bottom_nav>ul.mobile_side_nav_menu li.bottom-nav-search #mobile_search_results>a {
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
 }
 
 body.theme_11
