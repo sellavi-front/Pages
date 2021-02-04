@@ -8,6 +8,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   color: #8C8989 ;
 }
 
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  font-weight: 500 !important;
+}
+
 body.theme-gray .social-icons li a:hover {
   background: transparent !important;
 }
