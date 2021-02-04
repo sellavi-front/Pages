@@ -1,4 +1,8 @@
 
+body.theme-red-2 {
+  --color-theme: 252,68,77;
+}
+
 body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
   color: #000 !important;
   background-color: transparent !important;
@@ -24,6 +28,11 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
   background: transparent !important;
+}
+
+body .btn.btn-theme.btn-theme-transparent:hover {
+  background: #fc444d;
+  border-color: #fc444d;
 }
 
 body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block {
