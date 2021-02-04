@@ -508,7 +508,7 @@ export default function medicalFood() {
       <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - первая неделя</a>
     </div>
   </div>
-  <div class="sect" id="3">
+  <div class="sect" name="3">
     <h3>
       <b
         >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
