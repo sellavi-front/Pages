@@ -545,6 +545,11 @@ const disinfectantsPages = () => {
         защиты по СанПиН 2.2.8.48-03.
       </p>
     </div>
+    <div class="mt-4 mb-4 d-flex flex-column">
+      <a href="" class="button_link mb-2">Инструкция по применению</a>
+      <a href="" class="button_link mb-2">Отзыв</a>
+      <a href="" class="button_link mb-2">Благодарственное письмо</a>
+    </div>
   </div>
   <div class="sect">
     <div class="row flex-wrap">

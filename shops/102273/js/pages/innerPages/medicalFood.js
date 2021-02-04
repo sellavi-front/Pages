@@ -6,7 +6,7 @@ export default function medicalFood() {
       <li><a href="#">1. Мармелад</a></li>
       <li><a href="#">2. Приглашение в программу</a></li>
       <li>
-        <a href="#"
+        <a href="3"
           >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
@@ -501,8 +501,14 @@ export default function medicalFood() {
         class="w-100"
       />
     </div>
+    <div class="mt-4 mb-4 d-flex flex-column">
+      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 350 - первая неделя</a>
+      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 350 - вторая неделя</a>
+      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - вторая неделя</a>
+      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - первая неделя</a>
+    </div>
   </div>
-  <div class="sect">
+  <div class="sect" id="3">
     <h3>
       <b
         >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
