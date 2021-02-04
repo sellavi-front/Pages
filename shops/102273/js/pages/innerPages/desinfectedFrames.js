@@ -563,9 +563,9 @@ export default function desinfectedFrames() {
 Умные кабины-тоннели — как средство для массовой дезинфекции и защиты от вирусов.
           </p>
           <div class="d-flex flex-wrap">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611921972/102273/e81fb78e-42e2-44fa-be2c-0d16e93aba3c_njna3a.png" alt="" style="margin-right: 15px;">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611921972/102273/d1a0e609-3f25-487f-bf20-243d8fec8d4d_satiga.png" alt="" style="margin-right: 15px;">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611921972/102273/c9723740-c7b0-4f37-8ac5-695fc1626839_lhf1wb.png" alt="" >
+            <img class="col-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1611921972/102273/e81fb78e-42e2-44fa-be2c-0d16e93aba3c_njna3a.png" alt="" style="margin-right: 15px;">
+            <img class="col-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1611921972/102273/d1a0e609-3f25-487f-bf20-243d8fec8d4d_satiga.png" alt="" style="margin-right: 15px;">
+            <img class="col-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1611921972/102273/c9723740-c7b0-4f37-8ac5-695fc1626839_lhf1wb.png" alt="" >
           </div>
           </div>
           <div>
