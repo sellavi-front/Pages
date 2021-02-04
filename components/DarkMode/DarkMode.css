@@ -17,12 +17,12 @@ body.dark-mode.ltr .wrapper .header .header-wrapper .header-search.opened #searc
 body.dark-mode.ltr.sidenav-enabled .mobile_side_nav,
 body.dark-mode.ltr .select2-container--open .select2-dropdown--above,
 body.dark-mode.ltr .select2-container--default .select2-search--dropdown .select2-search__field,
-body.dark-mode.ltr .details-box>ul,
+body.dark-mode.ltr .details-box > ul,
 body.dark-mode.ltr .select2-dropdown,
 body.dark-mode.ltr.checkout-checkout .order-summary-toggle,
 body.dark-mode .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart,
-body.dark-mode .sf-menu li.megamenu>ul li ul li,
-body.dark-mode .sf-menu li.megamenu>ul li.megaline {
+body.dark-mode .sf-menu li.megamenu > ul li ul li,
+body.dark-mode .sf-menu li.megamenu > ul li.megaline {
   background: black !important;
 }
 
@@ -130,17 +130,43 @@ body.dark-mode.ltr
   .product_tr
   .single-price
   > div,
-  body.dark-mode.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
-  body.dark-mode.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
-  body.dark-mode.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field,
-  body.dark-mode.ltr .cart_block .text-right,
-  body.dark-mode.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
-  body.dark-mode.ltr .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name,
-  body.dark-mode.ltr .contact-info .media-body,
-  body.dark-mode.ltr .select2-container--default .select2-search--dropdown input,
-  body.dark-mode.ltr .dot-loader,
-  body.dark-mode .table,
-  body.dark-mode .thumbnail .price_actions .add_to_cart button {
+body.dark-mode.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity
+  i,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity
+  input.quantity_field,
+body.dark-mode.ltr .cart_block .text-right,
+body.dark-mode.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
+body.dark-mode.ltr
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  #search_results
+  > a
+  .item_data
+  .name,
+body.dark-mode.ltr .contact-info .media-body,
+body.dark-mode.ltr .select2-container--default .select2-search--dropdown input,
+body.dark-mode.ltr .dot-loader,
+body.dark-mode .table,
+body.dark-mode .thumbnail .price_actions .add_to_cart button {
   color: white !important;
 }
 
@@ -165,8 +191,24 @@ body.dark-mode.ltr.checkout-cart
 body.dark-mode.ltr.account-login .create-account .button_holder .btn.btn-block,
 body.dark-mode.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
 body.dark-mode.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
-body.dark-mode.ltr .wrapper .header .header-wrapper .header-search #search_results>.results_text>a,
-body.dark-mode .thumbnail .price_actions .add_to_cart button {
+body.dark-mode.ltr
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  #search_results
+  > .results_text
+  > a,
+body.dark-mode .thumbnail .price_actions .add_to_cart button,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button {
   border-color: white !important;
 }
 
@@ -174,12 +216,13 @@ body.dark-mode.ltr .radio.customized input[type='radio']:checked ~ .check:before
   background: white !important;
 }
 
-body.dark-mode.ltr .checkout-progress-bar .step-name, body .checkout-progress-bar .step-number,
+body.dark-mode.ltr .checkout-progress-bar .step-name,
+body .checkout-progress-bar .step-number,
 body.ltr .alert-success a {
   color: #000 !important;
 }
 
-body.theme-gray .wrapper .header .header-wrapper .header-search #search_results>.results_text {
+body.theme-gray .wrapper .header .header-wrapper .header-search #search_results > .results_text {
   border: 1px solid white !important;
 }
 
@@ -187,12 +230,10 @@ body.dark-mode.ltr .order-summary-toggle .order-summary-toggle__icon-wrapper {
   fill: white !important;
 }
 
-body.dark-mode .header .header-wrapper  {
+body.dark-mode .header .header-wrapper {
   background: transparent !important;
 }
 
 body.dark-mode .header .navigation-wrapper {
   background: transparent !important;
 }
-
-
