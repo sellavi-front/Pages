@@ -91,7 +91,7 @@ if (document.querySelector('.common-home')) {
 <div class="container">
 <br>
 <div>
-  <span>Наш инстаграм</span>
+  <span>Наши преимущества</span>
   <br>
   <span>Получите эстетическое удовольствие</span>
 </div>
@@ -116,28 +116,28 @@ if (document.querySelector('.common-home')) {
     <div class="col">
       <div class="row">
         <div class="col">
-          589
+        Полностью собственное производство
         </div>
       </div>
     </div>
     <div class="col">
       <div class="row">
         <div class="col">
-          954
+        Только качественные материалы
         </div>
       </div>
     </div>
     <div class="col">
       <div class="row">
         <div class="col">
-          639
+        Вы можете заказать свой собственный дизайн
         </div>
       </div>
     </div>
     <div class="col">
       <div class="row">
         <div class="col">
-          436
+        У нас есть гарантия
         </div>
       </div>
     </div>
