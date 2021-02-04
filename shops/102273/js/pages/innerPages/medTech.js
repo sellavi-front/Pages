@@ -1297,14 +1297,14 @@ const medTech = () => {
         электропунктурного вегетативного резонансного теста (ВРТ).
       </h4>
       <div class="row">
-        <div class="col-6 mb-5">
+        <div class="col-6 mb-5 d-flex flex-column justify-content-around align-items-center">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612275397/d18e41_403fd0f5c85f4984a81c07758608fc1e_mv2_1_q5ky9t.png"
             alt=""
           />
           <p class="text-cetnter"><b>Модуль КМДТ-ВРТ (диагностика и терапия)</b></p>
         </div>
-        <div class="col-6 mb-5">
+        <div class="col-6 mb-5 d-flex flex-column justify-content-around align-items-center">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612275397/3_6_1_gm5vxi.png"
             alt=""
@@ -1318,14 +1318,14 @@ const medTech = () => {
             >
           </p>
         </div>
-        <div class="col-6 mb-5">
+        <div class="col-6 mb-5d-flex flex-column justify-content-around align-items-center">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612275397/unnamed_3_3_nga7j6.png"
             alt=""
           />
           <p class="text-cetnter"><b>модуль КМДТ-БРТ (с базовым набором возможностей)</b></p>
         </div>
-        <div class="col-6 mb-5">
+        <div class="col-6 mb-5 d-flex flex-column justify-content-around align-items-center">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612275397/gal_kuplyu_kmdtbn_10460160_1_jyruxa.png"
             alt=""
@@ -1334,7 +1334,7 @@ const medTech = () => {
             <b>модуль КМДТ-БН (со специализированным набором возможностей)</b>
           </p>
         </div>
-        <div class="col-6 mb-5">
+        <div class="col-6 mb-5 d-flex flex-column justify-content-around align-items-center">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612275397/unnamed_4_2_kqp6p3.png"
             alt=""
@@ -1348,7 +1348,7 @@ const medTech = () => {
             >
           </p>
         </div>
-        <div class="col-6 mb-5">
+        <div class="col-6 mb-5 d-flex flex-column justify-content-around align-items-center">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612275397/soft__1_1_owc8rn.png"
             alt=""
