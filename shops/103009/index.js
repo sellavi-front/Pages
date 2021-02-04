@@ -40,11 +40,13 @@ if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее';
 }
 
-if (document.querySelector('.logo')) {
-  const oldNavBar = document.querySelector('.nav.sf-menu');
-  const newNavBar = oldNavBar.cloneNode(true);
-  document.querySelector('.logo').insertAdjacentHTML('afterend', newNavBar.outerHTML);
-  oldNavBar.remove()
+if (!location.pathname.includes('checkout')) {
+  if (document.querySelector('.logo')) {
+    const oldNavBar = document.querySelector('.nav.sf-menu');
+    const newNavBar = oldNavBar.cloneNode(true);
+    document.querySelector('.logo').insertAdjacentHTML('afterend', newNavBar.outerHTML);
+    oldNavBar.remove()
+  }
 }
 
 if (document.querySelector('.header-wrapper')) {
