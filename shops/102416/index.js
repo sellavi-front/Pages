@@ -38,9 +38,9 @@ if (document.querySelector('.header-wrapper')) {
   navToHeader();
 }
 
-if (document.querySelector('.main-slider.content_center')) {
-  displaySecondInfo();
-}
+// if (document.querySelector('.main-slider.content_center')) {
+//   displaySecondInfo();
+// }
 
 if (document.querySelector('.common-home')) {
   const latestSection = document.querySelector('.page-section.latest-section > .container');
