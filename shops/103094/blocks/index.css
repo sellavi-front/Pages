@@ -38,6 +38,12 @@ label,
   font-weight: 500;
 }
 
+/* Header */
+.header_widgets {
+  z-index: 999 !important;
+}
+/* end */
+
 /* Footer */
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a, body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
