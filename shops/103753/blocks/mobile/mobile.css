@@ -1,0 +1,24 @@
+@media (max-device-width: 480px) {
+    body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+        margin-left: 0px !important;
+        margin: auto !important;
+    }
+
+    .nav.sf-menu {
+        display: none;
+    }
+
+    header > div.header-wrapper > div.container > div.header_widgets > div.header_wishlist {
+        display: none;
+    }
+
+    .header-cart.sticky {
+        align-self: center !important;
+    }
+
+    body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+        left: 0px !important;
+        top: 0px !important;
+    }
+    
+}
