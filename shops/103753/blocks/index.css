@@ -25,3 +25,8 @@ body strong {
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
 }
+
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('../font/11051.ttf') format('ttf');
+}
