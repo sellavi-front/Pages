@@ -5,6 +5,8 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
+import socIconsData from './utils/socIconsData.js';
 
 if (document.querySelector('.common-home')) {
   let some = `
@@ -187,4 +189,16 @@ if (location.href.includes('pay-delivery')) {
     dataContact,
   );
   req.setTemplate();
+}
+
+if (document.querySelector('.wrapper')) {
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
+
+  new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
 }
