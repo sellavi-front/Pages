@@ -91,7 +91,8 @@ body.theme-green-2.theme_11.product-product .product-single.product-item .button
 }
 
 body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list,
-body.theme-red-2.theme_11.product-product .product-single.product-item .buttons .quantity {
+body.theme-red-2.theme_11.product-product .product-single.product-item .buttons .quantity,
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
   border: 1px solid #333 !important;
 }
 
