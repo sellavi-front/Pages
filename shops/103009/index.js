@@ -107,3 +107,7 @@ if (document.querySelector('.module-blog')) {
 if (document.querySelector('.information-information-6988')) {
   document.querySelector('.information-information-6988 div.wrapper.wrapper-closed > div > section.page-section.breadcrumbs.d-none.d-lg-block > div > ul > li:nth-child(2) > a').innerText = 'Статьи';
 }
+
+if (document.querySelector('.checkout-checkout')) {
+  document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.seller-comments.form-group > label').innerHTML = 'Добавить комментарий';
+}
