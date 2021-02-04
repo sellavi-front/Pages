@@ -1,0 +1,30 @@
+body.ltr.ru .wrapper .latest-section h2.section-title {
+    text-align: center !important;
+    margin-top: 50px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div.media > a {
+    border-radius: 30px
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: center !important;
+    font-weight: 600;
+}
+
+.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div.caption.text-center > h4 > a {
+    font-weight: 400;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+    margin-top: 0px !important;
+}
+
+.thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+    border-radius: 8px !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
+    background: #E0ECFF !important;
+}
+
