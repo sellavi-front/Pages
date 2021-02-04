@@ -54,10 +54,12 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   margin-bottom: 8px;
   color: #333 !important;
 }
-
-.page-header h1 {
-  font-size: 21px !important;
+@media screen and (max-width: 480px) {
+  .page-header h1 {
+    font-size: 21px !important;
+  }
 }
+
 /* end */
 
 /* Footer */
