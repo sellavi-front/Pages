@@ -67,7 +67,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   }
 
   .common-home .header {
-    position: absolute !important;
+    position: absolute;
   }
 }
 
