@@ -63,7 +63,7 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results>a 
   }
 
   #content>div:nth-child(1) {
-    padding: 4%;
+    padding: 25px;
   }
 }
 
