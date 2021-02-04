@@ -813,13 +813,14 @@ export default function cosmeticsPage() {
               эффект
             </p>
           </div>
-        </div>
-        <div class="col">
+          <div class="col">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007893304_1_sasfyw.png"
             alt=""
           />
         </div>
+        </div>
+
       </div>
       <div class="sect">
         <div class="row">
