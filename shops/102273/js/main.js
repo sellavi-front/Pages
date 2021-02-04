@@ -18,3 +18,7 @@ if (document.querySelector('.wrapper')) {
   document.querySelector("#home > div > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', sellaviLogo.outerHTML)
   sellaviLogo.remove()
 }
+
+if (location.href.includes('/blog')) {
+  document.querySelector("#home > div > div.content-area > section.page-section.titles").remove()
+}
