@@ -5,7 +5,7 @@ import "../../../fixes/fixes.js"
 import pages from "./pages/pages.js"
 import Advantages from "../blocks/advantages.js"
 import Functions from "./functions/functions.js"
-import CustomSection from "../blocks/custom-section.js"
+// import CustomSection from "../blocks/custom-section.js"
 
 
 if(pages.home) {
