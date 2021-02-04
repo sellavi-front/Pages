@@ -3,6 +3,17 @@ body .content-delivery {
   margin-bottom: 80px;
 }
 
+body .content-delivery:last-child {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+body .content-delivery:last-child .delivery__right {
+  max-width: 100% !important;
+}
+
 @media(max-width: 768px) {
  body .content-delivery {
     -webkit-box-orient: vertical;
@@ -44,7 +55,7 @@ body .delivery__right-title {
 }
 }
 
-.delivery__right-small {
+delivery__right-small {
  color: rgb(112, 112, 112);
  font-size: 18px;
  line-height: 26px;
