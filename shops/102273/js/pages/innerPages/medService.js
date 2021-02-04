@@ -1,3 +1,5 @@
+let url = location.origin + location.pathname.slice(0, -1);
+
 const medService = () => {
   return `
   <section class="page-section__content">
