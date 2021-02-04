@@ -57,4 +57,18 @@
         font-weight: 400;
         text-transform: uppercase;
     }
+
+    .content-area > section > div > div > div.col-12.col-lg-6.bx-slider-wrapper.bx-on > div.bx-wrapper > div.bx-viewport {
+        height: 450px !important;
+    }
+    
+    body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+        left: -5px !important;
+        width: 310px !important;
+    }
+    
+    .footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
+        padding-left: 0px !important;
+        padding-top: 20px !important;
+    }
 }
