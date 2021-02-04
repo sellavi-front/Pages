@@ -406,7 +406,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
   color: #000 !important;
 }
 .common-home .header {
-  position: relative !important;
+  position: absolute !important;
 }
 
 body.theme_11 .wrapper .header {
