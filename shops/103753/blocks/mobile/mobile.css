@@ -41,4 +41,8 @@
     .content-area > div.custom_section > div > div > div {
         margin-bottom: 20px !important;
     }
+
+    body.sidenav-enabled.ltr .mobile_side_nav ul a {
+        direction: rtl !important;
+    }
 }
