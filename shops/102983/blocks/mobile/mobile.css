@@ -1,4 +1,9 @@
 @media (max-device-width: 480px) {
+
+    body#home .mobile_side_nav .sidenav_search {
+        display: block !important;
+    }
+
     body.theme_11.ltr .wrapper .header .header-wrapper .logo {
         margin: 0px !important;
     }
