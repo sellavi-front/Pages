@@ -1,3 +1,5 @@
+const url = location.href + location.pathname.slice(0, -1);
+
 export default function medicalFood() {
   return `
   <section class="page-section__content">
@@ -6,7 +8,7 @@ export default function medicalFood() {
       <li><a href="#">1. Мармелад</a></li>
       <li><a href="#">2. Приглашение в программу</a></li>
       <li>
-        <a href="${location.href.slice(0, -1)}#3"
+        <a href="${url}#3"
           >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
@@ -1381,5 +1383,5 @@ export default function medicalFood() {
     </div>
   </div>
 </section>
-  `
-};
+  `;
+}
