@@ -247,7 +247,6 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 }
 
 
-
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
 .header_widgets a {
   color: #000 !important;
@@ -402,6 +401,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 .header_widgets a {
   color: #000 !important;
 }
+
 .common-home .header {
   position: relative;
 }
