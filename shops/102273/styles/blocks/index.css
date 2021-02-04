@@ -10,3 +10,14 @@
 @import './programs/programs.css';
 @import './pageSectionContent/pageSectionContent.css';
 @import './charity/charity.css';
+
+.button_link {
+  background: #455C6B;
+  width: 100%;
+  max-width: 1140px;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center !important;
+  padding: 22px 0;
+}

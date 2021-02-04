@@ -295,6 +295,10 @@ const disinfectantsPages = () => {
         >
       </p>
     </div>
+    <div class="mt-4 mb-4">
+        <a href="" class="button_link mb-2">Инструкция по применению</a>
+        <a href="" class="button_link mb-2">Протокол испытаний</a>
+    </div>
   </div>
   <div class="sect">
     <h3><b>3. Универсальное дезинфицирующее средство «Серебряная пуля»</b></h3>
