@@ -2,6 +2,27 @@ const disinfectantsPages = () => {
   return `
   <section class="page-section__content">
   <div class="sect">
+    <ol>
+      <li class="mb-2">
+        <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
+      </li>
+      <li class="mb-2">
+        <a href="${url}#2" class="id_link">2. Аргитос</a>
+        </li>
+      <li class="mb-2">
+        <a href="${url}#3" class="id_link"
+          >3. Универсальное дезинфицирующее средство «Серебряная пуля»</a
+        >
+      </li>
+      <li class="mb-2">
+        <a href="${url}#4" class="id_link"
+          >4. «HandDes All» + «Комбидез»</a
+        >
+      </li>
+
+    </ol>
+  </div>
+  <div class="sect" name="1">
     <h4>
       <b>1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</b>
     </h4>
@@ -153,7 +174,7 @@ const disinfectantsPages = () => {
       />
     </div>
   </div>
-  <div class="sect">
+  <div class="sect" name="2">
     <h3><b>2. «ARGITOS ® ДЕЗ»</b></h3>
     <div class="row flex-wrap">
       <div class="col-8">
@@ -300,7 +321,7 @@ const disinfectantsPages = () => {
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
   </div>
-  <div class="sect">
+  <div class="sect" name="3">
     <h3><b>3. Универсальное дезинфицирующее средство «Серебряная пуля»</b></h3>
     <div class="row">
       <div class="col-8">
@@ -553,7 +574,7 @@ const disinfectantsPages = () => {
   </div>
   <div class="sect">
     <div class="row flex-wrap">
-      <div class="col-8">
+      <div class="col-8" name="4">
         <h3><b>4. «HandDes All» + «Комбидез»</b></h3>
         <p>
           <b
