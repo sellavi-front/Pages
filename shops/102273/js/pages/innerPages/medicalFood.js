@@ -1,4 +1,4 @@
-const url = location.href + location.pathname.slice(0, -1);
+let url = location.href + location.pathname.slice(0, -1);
 
 export default function medicalFood() {
   return `
