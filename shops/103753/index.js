@@ -7,13 +7,14 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
-  let some = `<div>
+  let some = `
+<div class="container">
+<div>
   <span>Наш инстаграм</span>
   <br>
   <span>Получите эстетическое удовольствие</span>
 </div>
 <br>
-<div class="container">
   <div class="row">
     <div class="col">
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444278/122393926_3332871193463703_632430044848993105_n_ix1ys7.png">
@@ -85,6 +86,9 @@ if (document.querySelector('.common-home')) {
   </div>
 </div>
 
+
+
+<div class="container">
 <br>
 <div>
   <span>Наш инстаграм</span>
@@ -93,7 +97,6 @@ if (document.querySelector('.common-home')) {
 </div>
 <br>
 
-<div class="container">
   <div class="row">
     <div class="col">
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612445098/Frame_vbx8ci.png">
