@@ -1,14 +1,14 @@
-let url = location.href + location.pathname.slice(0, -1);
+let url = location.origin + location.pathname.slice(0, -1);
 
 export default function medicalFood() {
   return `
   <section class="page-section__content">
   <div class="sect">
     <ol>
-      <li><a href="${location.href}#1">1. Мармелад</a></li>
+      <li><a href="${url}#1">1. Мармелад</a></li>
       <li><a href="${url}#2">2. Приглашение в программу</a></li>
       <li>
-        <a href="${location.href}#3"
+        <a href="${url}#3"
           >3. ПРОДУКТЫ ДЛЯ ЛЕЧЕБНО-ДИЕТИЧЕСКОГО ПИТАНИЯ ИЗ ЭКОЛОГИЧЕСКИ ЧИСТОГО МОРСКОГО
           РАСТИТЕЛЬНОГО СЫРЬЯ</a
         >
