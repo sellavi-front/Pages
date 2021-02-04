@@ -72,7 +72,7 @@ body.theme-green-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu
   height: 42px !important;
   width: 45px !important;
   color: #2d2d2d;
-  border: 1px solid #333;
+  border: none !important;
   background-color: hsla(0,0%,100%,.8);
   padding: 0 0 0 1px !important;
   font-size: 14px;
