@@ -129,7 +129,7 @@ if (document.querySelector('.product-product')) {
               innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
               const priceToNum = +sumPrice[1].replace(/\s/i, '');
               const productPrice = document.querySelector('.product-price');
-              productPrice.textContent = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '') + priceToNum;
+              productPrice.textContent = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '') + priceToNum + ' ₽';
             }, 500)
 
             //productPrice.textContent =
