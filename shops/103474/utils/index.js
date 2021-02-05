@@ -24,8 +24,10 @@ if(pages.home) {
     }
   } else {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
-  }let customSection = new CustomSection()
-  customSection.render()
+  }
+
+  // let customSection = new CustomSection()
+  // customSection.render()
 
 
   /* Catalog */
