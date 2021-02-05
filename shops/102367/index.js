@@ -100,14 +100,15 @@ setTimeout(() => {
     setTimeout(() => {
       const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
        selects.forEach(sel => {
-        const cut = sel.textContent.replace(/\s+/gi, '');
-        if (cut.length >= 15) {
-          console.log(cut.length);
-          console.log(cut);
-          let cutNum = cut.length === 18 ? -13 : -12;
-          let sell = cut.slice(0, cutNum);
-          sel.textContent = sell;
-        }
+        const cut = sel.textContent.match(/\(([\d\. ]+)/gi);
+        console.log(cut);
+        // if (cut.length >= 15) {
+        //   console.log(cut.length);
+        //   console.log(cut);
+        //   let cutNum = cut.length === 18 ? -13 : -12;
+        //   let sell = cut.slice(0, cutNum);
+        //   sel.textContent = sell;
+        // }
       })
      }, 500);
   })
