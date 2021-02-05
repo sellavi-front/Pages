@@ -120,7 +120,7 @@ if (document.querySelector('.product-product')) {
 
         document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
           el.addEventListener('click', (e) => {
-            const innerText = buttonSelect.querySelector('.filter-option-inner-inner');
+            const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
             const regex = /\(([\d\. ]+)/i;
             innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
             console.log(innerText.textContent);
