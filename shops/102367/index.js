@@ -126,7 +126,7 @@ if (document.querySelector('.product-product')) {
               const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
               console.log(innerText.textContent);
               const sumPrice = innerText.textContent.match(regex);
-              innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
+              innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
               console.log(sumPrice);
 
               const priceToNum = sumPrice.replace(/\s/i, '');
