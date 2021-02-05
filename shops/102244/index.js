@@ -5,6 +5,8 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import '../../fixes/js/Alert/Alert.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+
 
 if (document.querySelector('.common-home')) {
   new BigBanner(
@@ -33,19 +35,20 @@ if (document.querySelector('.wrapper')) {
     <rect y="7" width="23" height="1" fill="black"/>
     <rect y="14" width="23" height="1" fill="black"/>
   </svg>
+  <span>Меню</span>
   `,
     );
 
-  setTimeout(() => {
-    document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
-      'afterend',
-      `
-        <div class="mobile-navigation-close">
-          <i class="fal fa-times"></i>
-        </div>
-      `,
-    );
-  }, 500);
+  // setTimeout(() => {
+  //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
+  //     'afterend',
+  //     `
+  //       <div class="mobile-navigation-close">
+  //         <i class="fal fa-times"></i>
+  //       </div>
+  //     `,
+  //   );
+  // }, 500);
 
   document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
     document.querySelector('.mobile-navigation-close').addEventListener('click', () => {

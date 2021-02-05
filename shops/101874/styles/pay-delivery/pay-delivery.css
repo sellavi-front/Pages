@@ -32,6 +32,10 @@ body .delivery__content {
  width: 100%;
 }
 
+body .delivery__content cite {
+  color: black !important;
+}
+
 body .delivery__right-title {
  font-size: 60px;
  line-height: 60px;

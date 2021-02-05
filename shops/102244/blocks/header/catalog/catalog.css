@@ -26,17 +26,12 @@
 
   body.sidenav-enabled .mobile_side_nav>ul {
     background: white;
-    max-width: 1140px;
     width: 100%;
     overflow: visible !important;
     height: -webkit-fit-content !important;
     height: -moz-fit-content !important;
     height: fit-content !important;
     margin: 0 auto;
-  }
-
-  body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: rtl !important;
   }
 
   body.sidenav-enabled .mobile_side_nav .flexy>.arrow {

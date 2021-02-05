@@ -6,16 +6,13 @@ body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .hea
 }
 
 body.common-home .menu-toggle svg {
-  stroke: white !important;
+  stroke: black !important;
 }
 
 .logo img {
   max-height: 88px !important;
 }
 
-
-@media (max-width: 495px) {
-  .logo img {
-    max-height: 68px !important;
-  }
+body.ltr .wrapper .header .header-wrapper .header-search button {
+  color: black !important;
 }

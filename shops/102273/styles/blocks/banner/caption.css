@@ -3,6 +3,11 @@
   text-align: left !important;
 }
 
+.main-slider > .owl-carousel > div > div > div > div > div > div {
+  height: 100%;
+  margin-left: 5%;
+}
+
 @media (max-width: 575px) {
   .main-slider .caption-content {
     margin-top: 70px !important;

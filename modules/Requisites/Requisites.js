@@ -13,7 +13,7 @@
 
 // <div class="requsitess"></div> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
 
-import termsOfUse from './docs/termsOfuse.js';
+import termsOfUse from './docs/termuse.js';
 import policy from './docs/policy.js';
 import payDelivery from './docs/pay-delivery/pay-delivery.js'
 
@@ -36,7 +36,7 @@ export default class Requisites {
 
   setItemtemplate(content) {
     return `
-      <p class="requsites__elem">
+      <p class="requsites__elem mb-2">
         ${content[0]}: <span>${content[1]}</span>
       </p>`;
   }
@@ -65,7 +65,7 @@ export default class Requisites {
         this.target,
         `
         <div class="requsites__data">
-          <h4 class="requsites__title">Реквизиты продавца</h4>
+          <h6 class="requsites__title">Реквизиты продавца</h6>
           ${this.setData().join('')}
         </div>`,
       );

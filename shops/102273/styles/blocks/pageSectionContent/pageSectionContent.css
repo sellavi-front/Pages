@@ -1,0 +1,146 @@
+.page-section__content {
+  margin-bottom: 60px;
+}
+
+.page-section__title {
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.page-section__content_ph {
+  margin-bottom: 50px;
+}
+
+.page-section__content_ph_b {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.page-section__ul li:before {
+  color: #da423e;
+  content: '•';
+}
+
+.page-section__ul {
+  padding-left: 20px;
+}
+
+.page-section__ul li {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.page-section__table {
+  margin-bottom: 45px;
+}
+
+.gridd {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(205px, 360px));
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  grid-gap: 15px;
+}
+
+.page-section__ol > li {
+  margin-top: 60px;
+}
+
+.mb-50px {
+  margin-bottom: 50px;
+}
+
+.founder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 48%);
+}
+
+.sect {
+  margin-bottom: 50px;
+}
+
+body p {
+  margin-bottom: 10px !important;
+}
+.mb-20px {
+  margin-bottom: 20px !important;
+}
+
+.photo-flex img {
+  margin: .6rem;
+}
+
+.sect img.m-2 {
+  width: 165px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sect .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.page-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  max-width: 570px;
+  width: 100%;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          border: 1px solid black;
+}
+
+.page-section__contacts {
+  margin: 30px auto;
+}
+
+body.information-information .information img {
+  max-width: auto !important;
+}
+
+.page-section__contacts > .row {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#content > div > div > section > div:nth-child(7) > div.d-flex.flex-wrap > img {
+  max-width: 41% !important;
+}
+
+@media (max-width: 768px) {
+  .founder img {
+    margin-bottom: 30px;
+  }
+
+  .founder {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 495px) {
+  body.information-information .content-area .page-section.titles .container .page-header h1 {
+    font-size: 24px;
+  }
+  .page-section__title {
+    font-size: 18px;
+  }
+}

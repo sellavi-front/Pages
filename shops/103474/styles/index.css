@@ -3,7 +3,7 @@
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import './header.css';
 @import './footer.css';
-/* @import './banner.css'; */
+@import './banner.css';
 @import './buttons.css';
 @import './product-card.css';
 @import './custom-section.css';
@@ -148,7 +148,7 @@ body.ltr .float-left {
 
 body.theme_11 .wrapper .page-section .products.grid .product-item {
   margin: 0!important;
-  padding: 5px 10px 15px 5px !important;
+  padding: 5px 15px 15px !important;
   border-right: 1px solid rgba(223,227,232,.71);
   border-bottom: 1px solid rgba(223,227,232,.71);
 }
@@ -213,6 +213,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 body.checkout-checkout .payment>#button-payment~a {
     line-height: 42px;
     margin-left: 10px;
+}
+
+body.theme_11 .wrapper .page-section .products.grid {
+  justify-self: flex-start !important;
 }
 
 @media (min-width: 320px) and (max-width: 413px) {

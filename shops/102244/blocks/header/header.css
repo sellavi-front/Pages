@@ -1,7 +1,7 @@
 @import './sf-menu/sf-menu.css';
 @import './icons/icons.css';
 @import './header-widgets/header-widgets.css';
-@import './catalog/catalog.css';
+/* @import './catalog/catalog.css'; */
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
 .header_widgets a {
@@ -17,6 +17,30 @@ body.theme_11 .wrapper .header {
   padding: 2% 0;
 
 }
+
+body.theme_11 .wrapper .header {
+  /* position: absolute;
+  width: 100%; */
+  z-index: 100;
+}
+
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  max-width: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper span {
+  color: black !important;
+  font-size: 18px !important;
+  margin-left: 20px;
+}
+
 /*
 body.theme_11.common-home .wrapper .header {
   background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
@@ -43,12 +67,20 @@ body.theme_11.common-home .wrapper .header {
   margin: 0 auto 0 21% !important;
 } */
 
+header > div.header-wrapper > div > nav > ul > li.flexy.has_children {
+  display: none !important;
+}
+
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   right: auto !important;
   left: 0 !important;
   top: 0 !important;
-  width: 100% !important;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
   padding-top: 100px !important;
+  z-index: 100 !important;
+
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
@@ -62,10 +94,17 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          z-index: 99999;
 }
 
 .navigation {
   z-index: 999;
+}
+
+body.theme_11 .wrapper .header,
+.header .header-wrapper,
+.header .header-wrapper > .container-fluid {
+  height: 80px;
 }
 
 @media (max-width: 1199px) {
@@ -95,10 +134,20 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     right: 0;
     width: 100%;
     max-width: 145px;
+    z-index: 99999 !important;
   }
 
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
     margin-top: 5%;
   }
+
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
+    display: none;
+  }
 }
 
+@media (max-width: 475px) {
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    width: 100vw !important;
+  }
+}

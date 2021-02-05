@@ -5,11 +5,9 @@ export default class VideoBanner {
     this.obj = obj;
     this.container = container;
     this.target = target;
-    console.log(this.obj);
   }
 
   setBanner() {
-    console.log(this.obj);
     return this.obj.map(item => {
       return `
         <video preload="yes" width='100%' height='100%' src="${item.src}" autoplay muted="muted" loop playsinline
@@ -23,7 +21,6 @@ export default class VideoBanner {
 }
 
   setCaption() {
-    console.log(this.obj);
     return this.obj.map((item) => {
       return `
       <div class="banner-caption">
