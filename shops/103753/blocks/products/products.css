@@ -103,7 +103,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 
 
 
-
+.content-area > div.custom_section > div> span:nth-child(3) {
+    font-size: 18px;
+}
 
 
 
