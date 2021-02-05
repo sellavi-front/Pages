@@ -222,6 +222,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
         display: none;
     }
 
+    .thumbnail .media-link {
+        border-radius: 30px;
+    }
+
     #home > div:nth-child(2) {
         display: none;
     }
