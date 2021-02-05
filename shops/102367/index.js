@@ -100,8 +100,8 @@ setTimeout(() => {
     setTimeout(() => {
       const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
        selects.forEach(sel => {
-        const cut = sel.textContent.match(/\(([\d\. ]+)/gi);
-        console.log(cut.slice(0,1));
+        const cut = sel.textContent.match(/\(([\d\. ]+)\)/gi);
+        console.log(cut);
         // if (cut.length >= 15) {
         //   console.log(cut.length);
         //   console.log(cut);
