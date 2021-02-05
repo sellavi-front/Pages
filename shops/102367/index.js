@@ -109,10 +109,8 @@ if (document.querySelector('.product-product')) {
             sel.textContent = sel.textContent.replace(regex, '')
 
             if (cut) {
-              return cut[1];
+              return +cut[1];
             }
-
-            return cut;
 
             // if (cut.length >= 15) {
             //   console.log(cut.length);
