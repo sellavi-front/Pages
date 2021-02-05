@@ -114,6 +114,8 @@ setTimeout(() => {
         //   sel.textContent = sell;
         // }
       })
+
+      console.log(cuts);
      }, 500);
   })
 }, 1500)
