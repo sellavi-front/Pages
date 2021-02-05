@@ -156,6 +156,10 @@ if (document.querySelector('.wrapper')) {
         .insertAdjacentHTML('afterbegin', brg.outerHTML);
     brg.remove();
 
+
+    document.querySelectorAll('.sf-menu li.megamenu > ul li.megaline div').forEach(el => {
+      el.classList.add('col-2')
+    })
     // setTimeout(() => {
     //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
     //     'afterend',
