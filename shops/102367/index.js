@@ -120,14 +120,15 @@ if (document.querySelector('.product-product')) {
 
         document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
           el.addEventListener('click', (e) => {
+            const regex = /\(([\d\. ]+)/i;
+
             setTimeout(() => {
               const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
               console.log(innerText.textContent);
+              const sumPrice = innerText.textContent.match(regex);
+              innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
 
             }, 500)
-            const regex = /\(([\d\. ]+)/i;
-            innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
-            const sumPrice = innerText.textContent.match(regex);
             console.log(sumPrice);
             const priceToNum = sumPrice.replace(/\s/i, '');
             const productPrice = document.querySelector('.product-price');
