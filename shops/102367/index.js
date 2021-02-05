@@ -111,6 +111,7 @@ if (document.querySelector('.product-product')) {
           const regex = /\(([\d\. ]+)/i;
           const cut = sel.textContent.match(regex);
 
+          console.log('CUT', cut);
           sel.textContent = sel.textContent.replace(regexRepalce, '');
 
           if (cut) {
