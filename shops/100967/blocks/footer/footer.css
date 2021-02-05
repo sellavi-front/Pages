@@ -63,12 +63,18 @@
   .sender {
     width: 100% !important;
   }
-
 }
 
 
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
+  }
+
+  .sender__title {
+    font-size: 22px;
+    width: 100%;
+    line-height: 1.5;
+    margin: 20px 0;
   }
 }
