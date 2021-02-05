@@ -102,7 +102,7 @@ setTimeout(() => {
         const cut = sel.textContent.match(/\(([\d\. ]+)/i);
 
         if (cut) {
-          console.log('input -> ', cut);
+          console.log('input -> ', cut.input.trim());
           console.log('price -> ', cut[1])
         }
 
