@@ -123,9 +123,10 @@ if (document.querySelector('.product-product')) {
             const innerText = buttonSelect.querySelector('.filter-option-inner-inner');
             const regex = /\(([\d\. ]+)/i;
             innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
+            console.log(innerText.textContent);
             const sumPrice = innerText.textContent.match(regex);
             console.log(sumPrice);
-            const priceToNum = +sumPrice.replace(/\s/i, '');
+            const priceToNum = sumPrice.replace(/\s/i, '');
             const productPrice = document.querySelector('.product-price');
             console.log(+productPrice.textContent.replace(/\s|₽/i, ''));
             //productPrice.textContent =
