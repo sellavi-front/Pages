@@ -123,7 +123,7 @@ if (document.querySelector('.product-product')) {
             const innerText = buttonSelect.querySelector('.filter-option-inner-inner');
             const regex = /\(([\d\. ]+)/i;
             innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
-            const sumPrice = innerText.match(regex);
+            const sumPrice = innerText.textContent.match(regex);
             const priceToNum = +sumPrice[1].replace(/\s/i, '');
             const productPrice = document.querySelector('.product-price');
             console.log(+productPrice.textContent.replace(/\s|₽/i, ''));
