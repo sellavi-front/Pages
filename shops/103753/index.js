@@ -209,7 +209,7 @@ if (document.querySelector('.checkout-checkout')) {
 if (document.querySelector('#collapse-7117')) {
   let x = document.querySelectorAll('#collapse-7117 > ul > li > a');
   for (let i = 0; i < x.length; i++) {
-    let c = x[i].innerHTML.replace('- ', '');
+    let c = x[i].innerHTML.replace('-', '');
     x[i].innerHTML = c; 
  }
 }
