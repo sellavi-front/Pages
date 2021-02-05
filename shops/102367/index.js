@@ -118,20 +118,18 @@ if (document.querySelector('.product-product')) {
           }
         });
 
-        document
-          .querySelectorAll('.inner.show .dropdown-menu .dropdown-item')
-          .addEventListener('click', (e) => {
+        document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
+          el.addEventListener('click', (e) => {
             const innerText = buttonSelect.querySelector('.filter-option-inner-inner').textContent;
             const regex = /\(([\d\. ]+)/i;
             innerText = innerText.replace(/\(([\d\. ]+)₽\+\)/i);
             const sumPrice = innerText.match(regex);
-            const priceToNum = +sumPrice[1].replace(/\s/i, '')
+            const priceToNum = +sumPrice[1].replace(/\s/i, '');
             const productPrice = document.querySelector('.product-price');
-            console.log(+productPrice.textContent.replace(/\s|₽/i, ''))
-//productPrice.textContent =
-
-
+            console.log(+productPrice.textContent.replace(/\s|₽/i, ''));
+            //productPrice.textContent =
           });
+        });
         console.log(cuts);
       }, 500);
     });
