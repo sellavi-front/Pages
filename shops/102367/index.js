@@ -94,11 +94,6 @@ if (document.querySelector('.product-product')) {
   //     const observer = new MutationObserver(callback);
   //     observer.observe(target, config);
 
-  const removePriceFromTextAndSum = (el) => {
-    const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
-    const regex = /\(([\d\. ]+)/i;
-    const cut = el.textContent.match(regex);
-  };
   setTimeout(() => {
     const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
     buttonSelect.addEventListener('click', () => {
@@ -106,12 +101,11 @@ if (document.querySelector('.product-product')) {
         const selects = document.querySelectorAll(
           '.inner.show .dropdown-menu .dropdown-item .text',
         );
-        const cuts = Array.from(selects).map((sel) => {
+        Array.from(selects).map((sel) => {
           const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
           const regex = /\(([\d\. ]+)/i;
           const cut = sel.textContent.match(regex);
 
-          console.log('CUT', cut);
           sel.textContent = sel.textContent.replace(regexRepalce, '');
 
           if (cut) {
@@ -122,7 +116,6 @@ if (document.querySelector('.product-product')) {
         document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
           el.addEventListener('click', (e) => {
             const regex = /\(([\d\. ]+)/i;
-
             setTimeout(() => {
               const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
               const sumPrice = innerText.textContent.match(regex);
@@ -132,11 +125,8 @@ if (document.querySelector('.product-product')) {
                const totalSum = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '') + priceToNum;
                productPrice.textContent = totalSum.toString() + ' ₽';
             }, 500)
-
-            //productPrice.textContent =
           });
         });
-        console.log(cuts);
       }, 500);
     });
   }, 1500);
