@@ -4,8 +4,10 @@
 }
 
 .sender-basic form input {
-  max-width: 290px;
+  /* max-width: 290px; */
   width: 100%;
+  margin-bottom: 35px;
+  margin-right: 0;
 }
 
 .sender-basic__title {
@@ -17,18 +19,20 @@
 }
 
 .sender-basic .form-grp__container {
-  display: grid;
-  grid-template-areas:
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* grid-template-areas:
     'a b c'
     'f f d';
   grid-column-gap: 15px;
-  grid-row-gap: 20px;
+  grid-row-gap: 20px; */
 }
 
 .sender-basic form button {
   background: #3ebab1 !important;
   grid-area: d;
-  width: 290px;
+  width: 100%;
 }
 
 .sender__basic .form__input[name='userName'] {

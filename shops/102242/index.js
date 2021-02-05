@@ -160,7 +160,7 @@ if (document.querySelector('.product-product')) {
   document.querySelector('.share_page_wrapper').remove();
 
   const lastSection = document.querySelector(
-    'body > div > div.content-area > section.page-section.overflow-hidden',
+    'body > div > div.content-area > section.page-section',
   );
 
   const sender = new FormBasic(lastSection, 'beforeend', senderData);

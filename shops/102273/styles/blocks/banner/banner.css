@@ -1,2 +1,15 @@
 @import './banner-button.css';
 @import './caption.css';
+
+.main-slider .img-bg .img-fluid {
+  height: 460px !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: right;
+  object-position: right;
+}
+
+.owl-wrapper-outer {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}

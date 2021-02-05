@@ -25,7 +25,7 @@ body.ru.ltr
   .caption
   .caption-wrapper
   .caption-inner {
-  width: 60%;
+  width: 47%;
   border: none !important;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
@@ -60,6 +60,14 @@ body.ru.ltr
   color: black !important;
 }
 
+body.theme_11.common-home .wrapper .homefeatured_category>div>div>div:nth-child(1)>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span,
+body.theme_11.common-home .wrapper .homefeatured_category>div>div>div:nth-child(1)>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner .btn {
+  color: white !important;
+  border-color: white !important;
+}
+
+
+/*
 body.ru.ltr
   .wrapper
   .homefeatured_category
@@ -74,7 +82,7 @@ body.ru.ltr
   .caption-inner {
   -webkit-filter: invert(1);
   filter: invert(1);
-}
+} */
 
 @media only screen and (max-width: 992px) {
   body.ltr.common-home

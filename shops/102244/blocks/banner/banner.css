@@ -26,7 +26,28 @@
 @media (max-width: 768px) {
   .banner__image {
     background-position-x: 86% !important;
-    -webkit-filter: opacity(0.7);
-            filter: opacity(0.7);
+  }
+}
+
+@media (max-width: 495px) {
+  .banner__image {
+    background: url(https://res.cloudinary.com/depgheppz/image/upload/v1612246715/Group_7423501_1_f0kerf.png)
+      no-repeat !important;
+    background-size: cover !important;
+  }
+  .banner__caption {
+    height: 200px !important;
+    top: 70px !important;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding-left: 20px;
+  }
+  .banner__caption h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .banner__caption a {
+    font-size: 25px;
   }
 }

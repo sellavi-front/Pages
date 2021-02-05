@@ -1,11 +1,18 @@
 .navigation .nav.sf-menu {
-  justify-content: flex-start !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
 }
 
 body.common-home header.header .sf-menu.nav>li>a {
-  color: white !important;
+  color: black !important;
 }
 
 header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
   border-top: 2px solid white;
+}
+
+
+body.sidenav-enabled .mobile_side_nav > ul a {
+  text-align: start !important;
 }

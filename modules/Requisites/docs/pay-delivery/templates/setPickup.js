@@ -1,5 +1,4 @@
 export const setPickup = (obj) => {
-  console.log('obj',obj);
   return `
   <div class="d-flex content-delivery">
     <section class="delivery__right">

@@ -7,3 +7,7 @@
 .page-header > p {
   font-size: 16px;
 }
+
+header + .content-area {
+  padding-top: 50px;
+}

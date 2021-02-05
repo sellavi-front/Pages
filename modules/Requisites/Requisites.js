@@ -13,7 +13,7 @@
 
 // <div class="requsitess"></div> "Это необходимо вставить в код при создании страницы Пользовательского соглашение"
 
-import termsOfUse from './docs/termsOfuse.js';
+import termsOfUse from './docs/termuse.js';
 import policy from './docs/policy.js';
 import payDelivery from './docs/pay-delivery/pay-delivery.js'
 

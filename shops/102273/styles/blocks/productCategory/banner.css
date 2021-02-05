@@ -1,0 +1,156 @@
+/* products-service */
+
+body.product-category-6976 .content-area .page-section.titles {
+  background: url('https://cdn.sellavi.com/image/upload/v1608906652/ru/clients/102273/1b95f4297c67f6af7681d1385099e3011c30e1ab.webp')
+    no-repeat;
+}
+
+/* med-soc-programm */
+
+body.product-category-5988 .content-area .page-section.titles {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835176/102273/Group_7423514_ql9vmw.png')
+    no-repeat;
+}
+
+/* charity */
+
+body.product-category-6975 .content-area .page-section.titles {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835428/102273/Group_7423514_1_duojxs.png')
+    no-repeat;
+}
+
+/* cooperate */
+
+body.product-category-5981 .content-area .page-section.titles {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611835659/102273/Group_7423514_2_bncwjs.png')
+    no-repeat;
+}
+
+body.information-information-6752 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611907244/102273/Group_7423515_3_qx4dyz.png')
+  no-repeat !important;
+}
+
+body.information-information-6754 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611924223/102273/Group_7423517_2_xx985b.png')
+  no-repeat !important;
+}
+
+
+body.information-information-6755 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611928889/102273/Group_7423523_sp7t2g.png')
+  no-repeat !important;
+}
+
+
+body.information-information-6756 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612084473/102273/Group_7423524_v86xbq.png')
+  no-repeat !important;
+}
+
+body.information-information-6759 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612090820/102273/Group_7423494_cyky3j.png')
+  no-repeat !important;
+}
+
+body.information-information-6762 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612090820/102273/Group_7423497_qqfh47.png')
+  no-repeat !important;
+}
+
+body.information-information-6761 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612094864/102273/Group_7423496_r0xrto.png')
+  no-repeat !important;
+}
+
+
+body.information-information-6760 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612104366/102273/Group_7423495_bf6pwu.png')
+  no-repeat !important;
+}
+
+body.information-information-6763 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612126363/102273/Group_7423498_gepk2f.png')
+  no-repeat !important;
+}
+
+body.information-information-6758 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612128777/102273/Group_7423493_asrmh8.png')
+  no-repeat !important;
+}
+
+body.information-information-6753 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612129209/102273/Group_7423488_rhypxq.png')
+  no-repeat !important;
+}
+
+body.information-information-6757 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612164118/102273/Group_7423511_3_spw6lm.png')
+  no-repeat !important;
+}
+
+body.product-category .content-area .page-section.titles {
+  height: 460px;
+  background-position: right;
+  background-size: cover;
+  border: none !important;
+}
+
+body.information-information .content-area .page-section.titles {
+  border: none !important;
+  background: 0;
+}
+
+body.information-information .content-area .page-section.titles > div {
+  height: 400px;
+}
+
+body.product-category .content-area .page-section.titles .container {
+  max-width: 100% !important;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.information-information .content-area .page-section.titles .container .page-header {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.information-information .content-area .page-section.titles .container .page-header h1 {
+  color: white !important;
+  width: 100%;
+  text-align: center !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
+}
+
+body.product-category .content-area .page-section.titles .container .page-header {
+  margin-left: 5%;
+  max-width: 480px;
+}
+
+body.product-category .content-area .page-section.titles .container .page-header__descp {
+  font-size: 18px;
+  text-align: left;
+}
+
+body.product-category .content-area .page-section.titles .container h1 {
+  text-align: left;
+  font-size: 38px;
+  font-weight: bold;
+
+}

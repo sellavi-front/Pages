@@ -62,11 +62,23 @@
 
 .sf-menu .megamenu ul li>a {
     padding: 0 10px;
+    width: 100%;
 }
 
 .sf-menu li:hover>a {
   color: black !important;
 }
+
+body.dark-mode .sf-menu li:hover>a {
+  color: white;
+}
+
+body.dark-mode .sf-menu li.megamenu>ul li ul li,
+body.dark-mode .sf-menu li.megamenu>ul li.megaline {
+  background: black;
+}
+
+
 
 .sf-menu li.megamenu ul {
     margin: 48px 0 0;
@@ -112,7 +124,6 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
 }
 
 .sf-menu > li.megamenu > ul > li.megaline > div > div > span > a {
-  text-transform: uppercase;
   font-weight: bold;
   color: #8F8F8F;
 }

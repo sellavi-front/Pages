@@ -1,5 +1,4 @@
 export const setDelivery = (obj) => {
-  console.log('del', obj);
   return `
   <div class="d-flex content-delivery">
     <section class="delivery__right">

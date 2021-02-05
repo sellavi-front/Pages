@@ -1,0 +1,33 @@
+.partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 540px));
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.partner {
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.partners__title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.partner img {
+  margin-bottom: 20px;
+}

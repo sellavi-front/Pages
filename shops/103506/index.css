@@ -1,4 +1,6 @@
 @import '../../modules/Requisites/Requisites.css';
+@import "./blocks/banner/banner.css";
+@import "./blocks/header/header.css";
 
 /* Pay Delivery */
 body .content-delivery {
@@ -36,7 +38,7 @@ body .delivery__right-title {
   }
 }
 
-delivery__right-small {
+.delivery__right-small {
   color: rgb(112, 112, 112);
   font-size: 18px;
   line-height: 26px;
