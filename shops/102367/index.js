@@ -78,48 +78,53 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-//     let target = document.querySelector("#product > div:nth-child(2)");
-// console.log(target);
-//     const config = {
-//       childList: true,
-//     };
-//     const callback = function (mutationsList, observer) {
-//       for (let mutation of mutationsList) {
-//         console.log(mutation);
-//         if (mutation.type === 'childList') {
-//           console.log(document.querySelectorAll("#bs-select-1 > ul > li"))
-//         }
-//       }
-//     };
-//     const observer = new MutationObserver(callback);
-//     observer.observe(target, config);
+  //     let target = document.querySelector("#product > div:nth-child(2)");
+  // console.log(target);
+  //     const config = {
+  //       childList: true,
+  //     };
+  //     const callback = function (mutationsList, observer) {
+  //       for (let mutation of mutationsList) {
+  //         console.log(mutation);
+  //         if (mutation.type === 'childList') {
+  //           console.log(document.querySelectorAll("#bs-select-1 > ul > li"))
+  //         }
+  //       }
+  //     };
+  //     const observer = new MutationObserver(callback);
+  //     observer.observe(target, config);
 
-setTimeout(() => {
-  document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-    setTimeout(() => {
-      const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
-       const cuts = Array.from(selects).map(sel => {
-        const cut = sel.textContent.match(/\(([\d\. ]+)/i);
+  setTimeout(() => {
+    document
+      .querySelector('#product > div:nth-child(2) > div > button')
+      .addEventListener('click', () => {
+        setTimeout(() => {
+          const selects = document.querySelectorAll(
+            '.inner.show .dropdown-menu .dropdown-item .text',
+          );
+          const cuts = Array.from(selects).map((sel) => {
+            const regex = /\(([\d\. ]+)/i;
 
-        if (cut) {
-          console.log('input -> ', cut.input.trim());
-          console.log('price -> ', Math.round(cut[1]))
-        }
+            const cut = sel.textContent.match(regex);
+            sel.textContent = sel.textContent.replace(regex, '')
 
-        return cut
+            if (cut) {
+              return cut[1];
+            }
 
-        // if (cut.length >= 15) {
-        //   console.log(cut.length);
-        //   console.log(cut);
-        //   let cutNum = cut.length === 18 ? -13 : -12;
-        //   let sell = cut.slice(0, cutNum);
-        //   sel.textContent = sell;
-        // }
-      })
+            return cut;
 
-      console.log(cuts);
-     }, 500);
-  })
-}, 1500)
+            // if (cut.length >= 15) {
+            //   console.log(cut.length);
+            //   console.log(cut);
+            //   let cutNum = cut.length === 18 ? -13 : -12;
+            //   let sell = cut.slice(0, cutNum);
+            //   sel.textContent = sell;
+            // }
+          });
 
+          console.log(cuts);
+        }, 500);
+      });
+  }, 1500);
 }
