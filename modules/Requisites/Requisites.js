@@ -36,7 +36,7 @@ export default class Requisites {
 
   setItemtemplate(content) {
     return `
-      <p class="requsites__elem">
+      <p class="requsites__elem mb-2">
         ${content[0]}: <span>${content[1]}</span>
       </p>`;
   }
@@ -54,7 +54,7 @@ export default class Requisites {
           <i class="float-right fa fa-info"></i>
           <div class="media-body requsites__data">
             <div class="requsites__list">
-              <strong>Реквизиты продавца</strong>
+              <h6>Реквизиты продавца</h6>
               ${this.setData().join('')}
             </div>
           </div>
