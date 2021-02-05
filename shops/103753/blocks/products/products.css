@@ -157,3 +157,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .content-area > div.custom_section > div:nth-child(7) > div > div > img {
     height: 210px;
 }
+
+@media (max-device-width: 480px) {
+    body .thumbnail .img-fluid, body .img-thumbnail {
+        height: 259px;
+    }
+}
