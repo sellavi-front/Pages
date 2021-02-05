@@ -101,7 +101,7 @@ setTimeout(() => {
        const cuts = Array.from(selects).map(sel => {
         const cut = sel.textContent.match(/\(([\d\. ]+)/i);
 
-        console.log('input -> ', cut.input.trim());
+        console.log('input -> ', cut);
         console.log('price -> ', cut[1])
         // if (cut.length >= 15) {
         //   console.log(cut.length);
@@ -111,7 +111,6 @@ setTimeout(() => {
         //   sel.textContent = sell;
         // }
       })
-      console.log(cuts);
      }, 500);
   })
 }, 1500)
