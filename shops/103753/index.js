@@ -205,10 +205,11 @@ if (document.querySelector('.checkout-checkout')) {
   document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.seller-comments.form-group > label').innerHTML = 'Добавить комментарий';
 }
 
+//Скрипт для удаления пробелов в строках от мобильной менюхи
 if (document.querySelector('#collapse-7117')) {
   let x = document.querySelectorAll('#collapse-7117 > ul > li > a');
   for (let i = 0; i < x.length; i++) {
-    let c = x[i].innerHTML.replace('-', '');
+    let c = x[i].innerHTML.replace('- ', '');
     x[i].innerHTML = c; 
  }
 }
