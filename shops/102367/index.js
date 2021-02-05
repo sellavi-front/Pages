@@ -106,6 +106,8 @@ setTimeout(() => {
           console.log('price -> ', Math.round(cut[1]))
         }
 
+        return cut
+
         // if (cut.length >= 15) {
         //   console.log(cut.length);
         //   console.log(cut);
