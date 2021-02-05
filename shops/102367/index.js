@@ -95,13 +95,12 @@ if (document.querySelector('.product-product')) {
 //     observer.observe(target, config);
 
 setTimeout(() => {
-  console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
     setTimeout(() => {
       const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
        selects.forEach(sel => {
         const cut = sel.textContent.match(/\(([\d\. ]+)/gi);
-        console.log(typeof cut);
+        return cut
         // if (cut.length >= 15) {
         //   console.log(cut.length);
         //   console.log(cut);
@@ -110,6 +109,7 @@ setTimeout(() => {
         //   sel.textContent = sell;
         // }
       })
+      console.log(selects);
      }, 500);
   })
 }, 1500)
