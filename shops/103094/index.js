@@ -63,7 +63,7 @@ if(document.querySelector(".common-home")) {
   if(window.screen.width < 480) {
 
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
-    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612513511/sellavi/103094/Group_286_woxm3n.jpg" alt="desktop"/>
+    <img class="second_banner container" src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612513742/sellavi/103094/Group_286_1_hqpgt7.jpg" alt="desktop"/>
   `)
   } else {
     document.querySelector(".cat_block").insertAdjacentHTML("afterend", `
