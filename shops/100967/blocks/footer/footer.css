@@ -69,6 +69,7 @@
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   .sender__title {
@@ -76,5 +77,14 @@
     width: 100%;
     line-height: 1.5;
     margin: 20px 0;
+  }
+
+  .sender__form {
+    height: 55px !important;    
+  }
+
+  .phh p {
+    text-align: left;
+    font-size: 18px;
   }
 }
