@@ -33,3 +33,6 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     border-bottom: 0px !important;
 }
 
+.sf-menu .flexy.has_children > ul > .megaline {
+    padding: 50px 20%;
+}
