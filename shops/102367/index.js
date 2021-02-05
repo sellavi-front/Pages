@@ -98,7 +98,7 @@ setTimeout(() => {
   document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
     setTimeout(() => {
       const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
-       selects.forEach(sel => {
+       const cuts = selects.map(sel => {
         const cut = sel.textContent.match(/\(([\d\. ]+)/i);
         return cut
         // if (cut.length >= 15) {
@@ -109,7 +109,7 @@ setTimeout(() => {
         //   sel.textContent = sell;
         // }
       })
-      console.log(selects);
+      console.log(cuts);
      }, 500);
   })
 }, 1500)
