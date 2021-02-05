@@ -54,7 +54,7 @@ export default class Requisites {
           <i class="float-right fa fa-info"></i>
           <div class="media-body requsites__data">
             <div class="requsites__list">
-              <h6>Реквизиты продавца</h6>
+              <strong>Реквизиты продавца</strong>
               ${this.setData().join('')}
             </div>
           </div>
@@ -65,7 +65,7 @@ export default class Requisites {
         this.target,
         `
         <div class="requsites__data">
-          <h4 class="requsites__title">Реквизиты продавца</h4>
+          <h6 class="requsites__title">Реквизиты продавца</h6>
           ${this.setData().join('')}
         </div>`,
       );
