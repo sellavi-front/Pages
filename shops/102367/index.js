@@ -128,10 +128,12 @@ if (document.querySelector('.product-product')) {
               const sumPrice = innerText.textContent.match(regex);
               innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
               console.log(sumPrice);
+
+              const priceToNum = sumPrice.replace(/\s/i, '');
+              const productPrice = document.querySelector('.product-price');
+              console.log(+productPrice.textContent.replace(/\s|₽/i, ''));
             }, 500)
-            const priceToNum = sumPrice.replace(/\s/i, '');
-            const productPrice = document.querySelector('.product-price');
-            console.log(+productPrice.textContent.replace(/\s|₽/i, ''));
+
             //productPrice.textContent =
           });
         });
