@@ -120,9 +120,9 @@ if (document.querySelector('.product-product')) {
 
         document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
           el.addEventListener('click', (e) => {
-            const innerText = buttonSelect.querySelector('.filter-option-inner-inner').textContent;
+            const innerText = buttonSelect.querySelector('.filter-option-inner-inner');
             const regex = /\(([\d\. ]+)/i;
-            innerText = innerText.replace(/\(([\d\. ]+)₽\+\)/i);
+            innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i);
             const sumPrice = innerText.match(regex);
             const priceToNum = +sumPrice[1].replace(/\s/i, '');
             const productPrice = document.querySelector('.product-price');
