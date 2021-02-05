@@ -101,8 +101,11 @@ setTimeout(() => {
        const cuts = Array.from(selects).map(sel => {
         const cut = sel.textContent.match(/\(([\d\. ]+)/i);
 
-        console.log('input -> ', cut);
-        console.log('price -> ', cut[1])
+        if (cut) {
+          console.log('input -> ', cut);
+          console.log('price -> ', cut[1])
+        }
+
         // if (cut.length >= 15) {
         //   console.log(cut.length);
         //   console.log(cut);
