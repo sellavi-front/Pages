@@ -34,7 +34,7 @@ body .delivery__right-title {
 }
 }
 
-delivery__right-small {
+.delivery__right-small {
  color: rgb(112, 112, 112);
  font-size: 18px;
  line-height: 26px;
