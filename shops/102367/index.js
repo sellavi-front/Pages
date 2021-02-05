@@ -103,10 +103,11 @@ if (document.querySelector('.product-product')) {
             '.inner.show .dropdown-menu .dropdown-item .text',
           );
           const cuts = Array.from(selects).map((sel) => {
-            const regexRepalce = /\(([\d\. ]+)₽+)\)/i;
+            const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
             const regex = /\(([\d\. ]+)/i;
 
             const cut = sel.textContent.match(regex);
+
             sel.textContent = sel.textContent.replace(regexRepalce, '')
 
             if (cut) {
