@@ -27,6 +27,13 @@ body strong,
 .input-payment-address-1,
 .input-payment-postcode,
 label,
-.input-payment-firstname {
+.input-payment-firstname,
+body.sidenav-enabled .mobile_side_nav>ul a{
   font-family: 'Inter', sans-serif !important;
 }
+
+/* Delete border-bottom on menu */
+body.sidenav-enabled .mobile_side_nav>ul a {
+  border-bottom: 0 !important;
+}
+/* End */
