@@ -157,7 +157,7 @@ if (document.querySelector('.wrapper')) {
     brg.remove();
 
 
-    document.querySelectorAll('.sf-menu li.megamenu > ul li.megaline div').forEach(el => {
+    document.querySelectorAll('.sf-menu li.megamenu > ul li.megaline > div').forEach(el => {
       el.classList.add('col-2')
     })
     // setTimeout(() => {
