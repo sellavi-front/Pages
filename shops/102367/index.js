@@ -94,37 +94,46 @@ if (document.querySelector('.product-product')) {
   //     const observer = new MutationObserver(callback);
   //     observer.observe(target, config);
 
+  const removePriceFromTextAndSum = (el) => {
+    const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+    const regex = /\(([\d\. ]+)/i;
+    const cut = el.textContent.match(regex);
+  };
   setTimeout(() => {
-    document
-      .querySelector('#product > div:nth-child(2) > div > button')
-      .addEventListener('click', () => {
-        setTimeout(() => {
-          const selects = document.querySelectorAll(
-            '.inner.show .dropdown-menu .dropdown-item .text',
-          );
-          const cuts = Array.from(selects).map((sel) => {
-            const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+    const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
+    buttonSelect.addEventListener('click', () => {
+      setTimeout(() => {
+        const selects = document.querySelectorAll(
+          '.inner.show .dropdown-menu .dropdown-item .text',
+        );
+        const cuts = Array.from(selects).map((sel) => {
+          const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+          const regex = /\(([\d\. ]+)/i;
+          const cut = sel.textContent.match(regex);
+
+          sel.textContent = sel.textContent.replace(regexRepalce, '');
+
+          if (cut) {
+            return +cut[1].replace(/\s/i, '');
+          }
+        });
+
+        document
+          .querySelectorAll('.inner.show .dropdown-menu .dropdown-item')
+          .addEventListener('click', (e) => {
+            const innerText = buttonSelect.querySelector('.filter-option-inner-inner').textContent;
             const regex = /\(([\d\. ]+)/i;
+            innerText = innerText.replace(/\(([\d\. ]+)₽\+\)/i);
+            const sumPrice = innerText.match(regex);
+            const priceToNum = +sumPrice[1].replace(/\s/i, '')
+            const productPrice = document.querySelector('.product-price');
+            console.log(+productPrice.textContent.replace(/\s|₽/i, ''))
+//productPrice.textContent =
 
-            const cut = sel.textContent.match(regex);
 
-            sel.textContent = sel.textContent.replace(regexRepalce, '')
-
-            if (cut) {
-              return +cut[1].replace(/\s/i, '');
-            }
-
-            // if (cut.length >= 15) {
-            //   console.log(cut.length);
-            //   console.log(cut);
-            //   let cutNum = cut.length === 18 ? -13 : -12;
-            //   let sell = cut.slice(0, cutNum);
-            //   sel.textContent = sell;
-            // }
           });
-
-          console.log(cuts);
-        }, 500);
-      });
+        console.log(cuts);
+      }, 500);
+    });
   }, 1500);
 }
