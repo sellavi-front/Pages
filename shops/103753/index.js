@@ -208,8 +208,20 @@ if (document.querySelector('.checkout-checkout')) {
 //Скрипт для удаления пробелов в строках от мобильной менюхи
 if (document.querySelector('#collapse-7117')) {
   let x = document.querySelectorAll('#collapse-7117 > ul > li > a');
+
+  // x.map((index, item) => {
+  //   let c = item[index]
+  // })
+
   for (let i = 0; i < x.length; i++) {
     let c = x[i].innerHTML.replace('-', '');
     x[i].innerHTML = c;
  }
+}
+
+if (document.querySelector('.common-home')) {
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612528588/18716257_1_zpl8vr.png"></div>');
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612528588/455_5_qxtd9t.png"></div>');
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612528588/455_2_wgwrju.png"></div>');
+  document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612528588/455_3_f62gqq.png"></div>');
 }

@@ -163,3 +163,74 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
         height: 259px;
     }
 }
+
+.common-home > div {
+    position: absolute;
+}
+
+#home > div:nth-child(4) {
+    top: 600px;
+    left: -160px;
+}
+
+#home > div:nth-child(4) > img {
+    position: relative;
+    width: 450px;
+}
+
+
+#home > div:nth-child(3) {
+    top: 600px;
+    display: flex;
+    right: -200px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#home > div:nth-child(3) > img {
+    position: relative;
+    width: 350px;
+
+}
+
+
+#home > div:nth-child(2) {
+    top: 1300px;
+    left: -150px;
+}
+
+#home > div:nth-child(2) > img {
+    position: relative;
+    width: 400px;
+}
+
+#home > div:nth-child(1) {
+    top: 1300px;
+    right: -150px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#home > div:nth-child(1) > img {
+    position: relative;
+    width: 350px;
+}
+
+@media (max-device-width: 480px) {
+    #home > div:nth-child(1) {
+        display: none;
+    }
+
+    #home > div:nth-child(2) {
+        display: none;
+    }
+
+    #home > div:nth-child(3) {
+        display: none;
+    }
+
+    #home > div:nth-child(4) {
+        display: none;
+    }
+}
