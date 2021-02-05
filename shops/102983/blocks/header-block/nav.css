@@ -87,3 +87,8 @@ body.theme_11 .wrapper .header .header-wrapper .header-search button {
 body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_menu {
     height: 100% !important;
 }
+
+.sf-menu ul li {
+    background: #fff;
+    width: 200px;
+}
