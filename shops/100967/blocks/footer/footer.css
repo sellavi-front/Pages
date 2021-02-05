@@ -1,7 +1,11 @@
 .footer {
   background-color: #1E1E1E !important;
-  margin-top: 0px;
+  margin-top: 80px;
   border: none !important;
+}
+
+.grid-photo {
+  margin-bottom: 0 !important;
 }
 
 .footer-widgets > .container {
