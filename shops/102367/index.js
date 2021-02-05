@@ -127,12 +127,9 @@ if (document.querySelector('.product-product')) {
               const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
               const sumPrice = innerText.textContent.match(regex);
               innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
-              console.log(sumPrice);
-
               const priceToNum = +sumPrice[1].replace(/\s/i, '');
-              console.log(priceToNum);
               const productPrice = document.querySelector('.product-price');
-              console.log(+productPrice.textContent.replace(/\s|₽/i, ''));
+              productPrice.textContent = +roductPrice.textContent.slice(0, -2).replace(/\s+/i, '') + priceToNum;
             }, 500)
 
             //productPrice.textContent =
