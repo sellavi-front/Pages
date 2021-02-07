@@ -30,3 +30,7 @@ label,
 .input-payment-firstname {
   font-family: 'Inter', sans-serif !important;
 }
+
+body.theme_11 .wrapper .top-bar {
+  background-color: #b8a279 !important;
+}

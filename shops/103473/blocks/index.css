@@ -37,3 +37,7 @@ body.sidenav-enabled .mobile_side_nav>ul a {
   border-bottom: 0 !important;
 }
 /* End */
+
+body.theme_11 .wrapper .top-bar {
+  background-color: #000000;
+}
