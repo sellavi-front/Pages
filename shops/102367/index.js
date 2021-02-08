@@ -126,10 +126,10 @@ if (document.querySelector('.product-product')) {
 
 
               if (price1 < priceToNum) {
-                const totalSum = price + priceToNum;
+                const totalSum = price1 + priceToNum;
                 productPrice.textContent = totalSum.toString() + ' ₽';
               } else if (price1 > priceToNum) {
-                const totalSum = price - priceToNum;
+                const totalSum = price1 - priceToNum;
                 productPrice.textContent = totalSum.toString() + ' ₽';
               }
 
