@@ -211,6 +211,10 @@ body.theme-red-2.theme_11.product-product .product-single.product-item .buttons 
   border-color: #d80018 !important;
 }
 
+body.theme_11.product-product .product-single.product-item #tab-description, body.theme_11.product-product .product-single.product-item #tab-description~.table_holder {
+  border: none !important
+}
+
 
 .price_actions .buttons__container {
   -webkit-box-pack: justify !important;
