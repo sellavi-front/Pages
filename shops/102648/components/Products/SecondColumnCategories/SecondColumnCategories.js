@@ -23,6 +23,10 @@ window.onload= () => {
     const productItems = document.querySelectorAll('.product-item');
     const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
     deleteSelectors.findAndDelete();
+    let newProductItems = document.querySelectorAll('.product-item')
+    newProductItems.map(item => {
+      item.classList.add('col-4')
+    })
 
     // 2. Copy product container ...
     let oldProductContainer = document.querySelector("#home > div > div.content-area > section > div.container")
