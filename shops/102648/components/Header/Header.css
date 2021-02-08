@@ -2,7 +2,7 @@
 @import './Cart.css';
 @import './Mobile.css';
 @import './SearchInput.css';
-@import './../CatalogBtn/CatalogBtn.css';
+/*@import './../CatalogBtn/CatalogBtn.css';*/
 
 .header-wrapper > div {
   display: flex;
