@@ -28,7 +28,7 @@
   margin-top: 10px;
 }
 
-.main-page-categories>li:first-child {
+#home > div > div.content-area > section > div > div > div.col-4 > div > ul > li:nth-child(1) {
   display: none;
 }
 
