@@ -18,6 +18,7 @@ window.onload= () => {
     let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
     let newCatalog = oldCatalog.cloneNode(true)
     console.log('New catalog: ', newCatalog)
+
     // [Getting product container ...]
     // 1. Delete all necessary classes from product items ...
     const productItems = document.querySelectorAll('.product-item');
@@ -38,7 +39,7 @@ window.onload= () => {
 
     // 3. Creating new structure ...
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
-      <div class="container">
+      <div class="container-fluid">
         <div class='row'>
             <div class="col-4">
               <div class="categories__menu">
