@@ -25,4 +25,11 @@
     cursor: pointer !important;
   }
 
+  .mobile_side_nav_menu > li:hover {
+    color: red;
+    font-weight: bold;
+    transition: font-weight 0.5s ease-in-out;
+    padding: 5%;
+  }
+
 }
