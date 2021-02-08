@@ -4,6 +4,7 @@ export const renderCatalogBtn = () => {
   let newCatalog = oldCatalog.cloneNode(true)
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
+
   let headerCatalog = document.querySelector(".header-catalog")
   let headerCatalogLink = document.querySelector(".header-catalog a")
   headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)

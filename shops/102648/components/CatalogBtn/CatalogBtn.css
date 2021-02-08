@@ -56,6 +56,7 @@
     overflow: visible !important;
     height: fit-content !important;
     margin: 0 auto;
+    transition: fit-content 0.3s ease-in-out;
   }
 
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
