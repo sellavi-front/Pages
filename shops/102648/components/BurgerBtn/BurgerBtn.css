@@ -6,6 +6,11 @@
     top: 30%;
   }
 
+  .header .header-wrapper .mobile-navigation-wrapper a {
+    font-size: 23px;
+    color: red;
+  }
+
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
     direction: rtl !important;
   }
