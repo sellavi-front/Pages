@@ -89,7 +89,7 @@ body.theme-gray.theme_11 .wrapper .header .navigation-wrapper {
   background: transparent !important;
 }
 
-.cart-wrapper .dropdown {
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
   color: #000 !important;
 }
 
