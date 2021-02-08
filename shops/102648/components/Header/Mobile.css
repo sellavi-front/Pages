@@ -92,12 +92,13 @@ body.sidenav-enabled.ltr .flexy>.arrow {
 }
 
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
+  border: none !important;
+  text-align: end;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  text-transform: uppercase;
-  color: #8F8F8F;
+  text-transform: capitalize;
 }
 
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .panel-collapse > ul > li > a:after {
