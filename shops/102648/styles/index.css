@@ -1,5 +1,10 @@
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
+
+@import './../components/Header/ResetStylesHeader.css';
+@import './../components/Header/Wrapper.css';
+@import './../components/Header/HeaderIcon.css';
 @import './../components/Header/Header.css';
+@import './../components/Header/HeaderWidgets.css';
 @import './../components/Header/Logo.css';
 @import './../components/Footer/Footer.css';
