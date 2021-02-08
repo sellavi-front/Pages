@@ -149,6 +149,23 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #fff !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  border: unset;
+  background-color: transparent;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  max-height: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff !important;
 }
 
 .thumbnail .caption-title {
