@@ -83,3 +83,15 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .thumbnail .add_to_wishlist button {
     border-radius: 8px !important;
 }
+
+.information-information-6593 #content > div > div > p:nth-child(1) {
+    display: none;
+}
+
+.information-information-6593 #content > div > div > p:nth-child(2) {
+    display: none;
+}
+
+.information-information-6593 #content > div > div > p:nth-child(3) {
+    display: none;
+}
