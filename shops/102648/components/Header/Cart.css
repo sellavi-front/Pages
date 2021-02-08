@@ -58,3 +58,9 @@ body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .header .header-cart {
+    top: 28px !important;
+  }
+}
+
