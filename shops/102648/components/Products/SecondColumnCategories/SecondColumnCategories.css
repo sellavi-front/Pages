@@ -73,6 +73,15 @@ body .content-area .page-section {
   display: none !important;
 }
 
+.panel-collapse > ul > li > a {
+  display: flex;
+  flex-direction: row;
+  direction: ltr !important;
+  position: relative;
+  left: 35%;
+  bottom: 5px;
+}
+
 @media screen and (max-width: 480px) {
   .categories__menu {
     display: none !important;
