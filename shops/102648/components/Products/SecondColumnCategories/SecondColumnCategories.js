@@ -24,5 +24,4 @@ window.onload= () => {
       </div>
     `)
   }
-
 }
