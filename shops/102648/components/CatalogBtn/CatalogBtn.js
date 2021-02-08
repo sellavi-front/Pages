@@ -1,4 +1,4 @@
-export const renderCatalogBtn = () => {
+window.onload = () => {
   let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
   oldCatalog.classList.add("header-catalog")
   let newCatalog = oldCatalog.cloneNode(true)
