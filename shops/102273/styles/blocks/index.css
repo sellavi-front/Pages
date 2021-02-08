@@ -39,3 +39,10 @@
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
+body .col-md-6 {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 50% !important;
+          flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
