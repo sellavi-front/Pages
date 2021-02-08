@@ -64,7 +64,7 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
 
 .buttons__container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: row-reverse;
   align-items: center;
   width: 100%;
