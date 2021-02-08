@@ -157,6 +157,10 @@
   .catalog-title {
     display: none !important;
   }
+
+  .header_wishlist {
+    display: none !important;
+  }
 }
 
 @media (max-width: 991px) {
