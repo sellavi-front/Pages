@@ -11,15 +11,15 @@ window.onload= () => {
 
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
       <div class='row'>
-        <div class="col">
-            <div class="container">
-                <div class="categories__menu">
-                    <h1>Categories</h1>
-                </div>
+        <div class="container">
+            <div class="col">
+              <div class="categories__menu">
+                  <h1>Categories</h1>
+              </div>
             </div>
-        </div>
-        <div class="col">
-            ${ layoutProductContainer }
+            <div class="col">
+              ${ layoutProductContainer }
+            </div>
         </div>
       </div>
     `)
