@@ -16,6 +16,7 @@ window.onload= () => {
 
     // Getting categories ...
     let mainPageCategories = document.querySelector('.sf-menu')
+    let newMainPageCategories = mainPageCategories.classList.remove('sf-menu').add('main-page-categories')
 
 
     // [Getting product container ...]
@@ -43,7 +44,7 @@ window.onload= () => {
             <div class="col-4">
               <div class="categories__menu">
                   <div class="section-title mb-4 mt-4">Категории</div>
-                  ${ mainPageCategories.outerHTML }
+                  ${ newMainPageCategories.outerHTML }
               </div>
             </div>
             <div class="col-8">
