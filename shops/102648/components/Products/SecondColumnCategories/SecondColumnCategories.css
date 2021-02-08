@@ -82,3 +82,9 @@ body .section-title {
   margin: 18px 0 !important;
 }
 
+body .content-area .page-section {
+  position: relative;
+  padding: 0;
+  margin-top: 25px;
+}
+
