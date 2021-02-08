@@ -18,7 +18,7 @@ window.onload= () => {
     let sfMenu = document.querySelector('.sf-menu')
     let newMainPageCategories = sfMenu.cloneNode(true)
     newMainPageCategories.classList.remove('sf-menu')
-    newMainPageCategories.classList.add('sf-menu')
+    newMainPageCategories.classList.add('sf-menu', 'categories-block')
     sfMenu.remove()
 
     // [Getting product container ...]
