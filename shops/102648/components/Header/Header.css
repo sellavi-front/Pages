@@ -89,6 +89,10 @@ body.theme-gray.theme_11 .wrapper .header .navigation-wrapper {
   background: transparent !important;
 }
 
+.cart-wrapper .dropdown {
+  color: #000 !important;
+}
+
 @media (max-width: 1200px) {
   .sf-menu .megamenu > ul > .megaline {
     padding-left: 2% !important;
