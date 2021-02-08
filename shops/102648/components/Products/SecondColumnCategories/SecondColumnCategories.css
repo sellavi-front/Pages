@@ -1,4 +1,4 @@
-.main-page-categories {
+/*.main-page-categories {
   display: flex;
   flex-direction: column;
 }
@@ -18,7 +18,7 @@
 
 .main-page-categories>li>a>.arrow {
   margin: 5px;
-}
+}*/
 
 body.theme_11 .wrapper .latest-section h2.section-title {
   margin: 0 !important;
