@@ -1,0 +1,1 @@
+document.querySelector("#banner0 > div > div > div > div > picture > source").replace(/if_w_lte_1900,c_pad,h_460,w_1900\/if_w_gte_3000,c_fill,h_460,w_1900\/c_crop,h_460,w_1900\/u_ru:clients:102648:b2bc5e4ff042ef46ee7daaf1d0e6600bde74cded,c_scale,o_70,e_blur:2000,h_460,w_1900/gi, '');
