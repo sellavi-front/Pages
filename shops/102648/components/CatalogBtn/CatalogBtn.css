@@ -46,6 +46,7 @@
     width: 100vw;
     height: 100vh;
     background: transparent;
+    transition: all .5s ease-in-out !important;
   }
 
 
