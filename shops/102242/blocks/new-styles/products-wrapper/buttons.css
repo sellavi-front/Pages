@@ -24,6 +24,7 @@ body.ltr.ru
 
 body.ltr.ru > div > div.content-area > section.page-section.latest-section > div > div > div:nth-child(1) > div > div.price_actions.d-flex.justify-content-between > div.add_to_cart > div {
   margin-top: 15px;
+  padding: 2px;
 }
 
 body.ltr.ru
