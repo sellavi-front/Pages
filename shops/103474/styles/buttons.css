@@ -79,7 +79,8 @@ body.theme_11
   cursor: pointer;
 }
 
-body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
+.add_to_wishlist button:hover {
   background: transparent !important;
 }
 
