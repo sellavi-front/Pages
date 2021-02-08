@@ -54,6 +54,10 @@ body.theme_11 .wrapper .latest-section h2.section-title span {
   display: none !important;
 }
 
+#home > div > div.content-area > section > div > div > div.col-4 > div > ul > li > ul {
+  display: none !important;
+}
+
 
 /*
 #home > div > div.content-area > section > div > div > div.col-4 > div > div,
