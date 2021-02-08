@@ -1,7 +1,7 @@
 export default function desinfectedFrames() {
   return `
   <section class="page-section__content ">
-  <h3 class="text-center">
+  <h3 class="text-center mb-4 mt-4">
   <b
     >Эффективная система профилактической дезинфекции для борьбы со всеми известными вирусами,
     включая Covid-19.</b
@@ -21,7 +21,7 @@ export default function desinfectedFrames() {
   >
 </h5>
 
-<div class="mb-3">
+<div class="mb-3 mt-4">
   <p>
     В связи с угрозой распространения новой коронавирусной инфекции COVID-19, остро актуален
     вопрос обеспечения санитарно-эпидемиологической безопасности работников предприятий и
@@ -39,42 +39,42 @@ export default function desinfectedFrames() {
   <p><b>Места использования дезинфицирующего оборудования:</b></p>
   <div class="row">
     <div class="col-4">
-      <img
+      <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_111_fdgiqm.png"
         alt=""
       />
       <p>Аэропорты</p>
     </div>
     <div class="col-4">
-      <img
+      <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_112_dvpaxu.png"
         alt=""
       />
       <p>Вокзалы</p>
     </div>
     <div class="col-4">
-      <img
+      <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_113_jvjslz.png"
         alt=""
       />
       <p>Торговые центры</p>
     </div>
     <div class="col-4">
-      <img
+      <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_114_vm1kte.png"
         alt=""
       />
       <p>Предприятия</p>
     </div>
     <div class="col-4">
-      <img
+      <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_116_xh0gen.png"
         alt=""
       />
       <p>Учебные заведения</p>
     </div>
     <div class="col-4">
-      <img
+      <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_115_ybqmxq.png"
         alt=""
       />
@@ -82,7 +82,7 @@ export default function desinfectedFrames() {
     </div>
   </div>
 </div>
-<div class="mb-3">
+<div class="mb-3 mt-5">
   <h4>
     <b>Класс – «ЛЮКС»</b>
   </h4>
