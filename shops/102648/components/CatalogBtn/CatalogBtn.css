@@ -153,6 +153,10 @@
     height: unset !important;
     transition: height 0.3s ease-in-out !important;
   }
+
+  .catalog-title {
+    display: none !important;
+  }
 }
 
 @media (max-width: 991px) {
