@@ -22,7 +22,7 @@ class Categories  {
     return `
     <div class="container">
       <h3 class="categories-title">Категории</h3>
-      <div class="categories__container">
+      <div class="row">
         ${this.setTemplate()}
       </div>
     </div>
