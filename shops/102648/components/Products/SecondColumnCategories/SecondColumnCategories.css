@@ -18,27 +18,8 @@
   border: 0 !important;
 }
 
-
-.main-page-categories {
-  display: flex;
-  flex-direction: column;
-}
-
-.main-page-categories>li {
-  margin-top: 10px;
-}
-
 #home > div > div.content-area > section > div > div > div.col-4 > div > ul > li:nth-child(1) {
   display: none;
-}
-
-.main-page-categories>li>a {
-  display: flex;
-  flex-direction: row;
-}
-
-.main-page-categories>li>a>.arrow {
-  margin: 5px;
 }
 
 body.theme_11 .wrapper .latest-section h2.section-title span {
