@@ -1,7 +1,7 @@
 import categories from "./categories.js"
 
 class Categories  {
-  constructor() {
+  constructor(props) {
       this.props = props;
   }
 
