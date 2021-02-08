@@ -2,7 +2,7 @@ import pages from "../../../config/conditions.js"
 
 window.onload= () => {
   if(pages.main) {
-
+    console.log('[Making New Columns..]')
     let oldProductContainer = document.querySelector("#home > div > div.content-area > section > div.container")
     let newProductContainer = oldProductContainer.cloneNode(true)
 
