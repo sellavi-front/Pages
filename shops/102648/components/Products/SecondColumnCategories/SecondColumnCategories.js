@@ -45,7 +45,7 @@ window.onload= () => {
         <div class='row'>
             <div class="col-4">
               <div class="categories__menu">
-                  <div class="section-title mb-4 mt-4"><span>Категории</span></div>
+                  <div class="section-title mb-4 mt-4">Категории</div>
                   ${ newMainPageCategories.outerHTML }
               </div>
             </div>
