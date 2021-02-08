@@ -3,7 +3,7 @@ import pages from './config/conditions.js'
 import './utils/accuring/accuring.js'
 import './components/Header/Header.js'
 import './components/CatalogBtn/CatalogBtn.js'
-import { renderCatalogBtn } from "./components/CatalogBtn/CatalogBtn";
+import { renderCatalogBtn } from "./components/CatalogBtn/CatalogBtn.js";
 
 renderCatalogBtn()
 
