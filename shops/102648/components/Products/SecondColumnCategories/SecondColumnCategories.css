@@ -20,6 +20,20 @@
   margin: 5px;
 }
 
+body.theme_11 .wrapper .latest-section h2.section-title {
+  margin: 0 !important;
+}
+
+body.theme_11 .wrapper .latest-section h2.section-title span {
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  line-height: 1.33 !important;
+  text-align: center !important;
+  color: #000 !important;
+  margin: auto !important;
+}
+
+
 /*
 #home > div > div.content-area > section > div > div > div.col-4 > div > div,
 body.theme_11 .wrapper .latest-section h2.section-title span {
