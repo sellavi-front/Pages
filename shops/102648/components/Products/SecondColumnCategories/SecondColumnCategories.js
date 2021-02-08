@@ -14,7 +14,6 @@ window.onload= () => {
   if(pages.main) {
     console.log('[Making New Columns..]')
     if(window.screen.width > 480) {
-
       // Getting categories ...
       let sfMenu = document.querySelector('.sf-menu')
       let newMainPageCategories = sfMenu.cloneNode(true)
