@@ -12,6 +12,11 @@ body.theme-red-2.theme_11
   .add_to_cart
   > button {
   text-align: left !important;
+  display: block !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  display: none !important;
 }
 
 body.theme-green-2.theme_11
