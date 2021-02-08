@@ -17,7 +17,7 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .ca
 }
 
 body.theme_11 .wrapper .latest-section h2.section-title > i {
-  color: #fc444d;
+  color: #fc444d !important;
 }
 
 body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {

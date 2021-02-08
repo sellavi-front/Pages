@@ -63,10 +63,14 @@ body.theme_11
   .add_to_cart
   > button {
   width: 100%;
-  padding: 14px 30px;
+  padding: 14px 5px;
   -webkit-transition: unset;
   -o-transition: unset;
   transition: unset;
+}
+
+.add_to_wishlist .far.fa-heart {
+  font-size: 18px !important;
 }
 
 body.theme-red-2.theme_11
