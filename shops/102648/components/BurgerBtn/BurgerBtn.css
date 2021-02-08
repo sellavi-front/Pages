@@ -26,9 +26,12 @@
     width: 100% !important;
   }
 
+  .mobile_side_nav_menu {
+    padding: 5% !important;
+  }
+
   .mobile_side_nav_menu > li {
     cursor: pointer !important;
-    padding: 5%;
   }
 
   .mobile_side_nav_menu > li > a:hover {
