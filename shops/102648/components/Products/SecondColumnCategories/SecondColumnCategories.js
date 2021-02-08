@@ -39,7 +39,7 @@ window.onload= () => {
 
     // 3. Creating new structure ...
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
-      <div class="container-fluid">
+      <div class="container">
         <div class='row'>
             <div class="col-4">
               <div class="categories__menu">
