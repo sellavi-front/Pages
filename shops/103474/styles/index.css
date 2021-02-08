@@ -292,6 +292,10 @@ body.theme_11 .wrapper .page-section .products.grid {
     margin-left: auto;
   }
 
+  .custom_section {
+    margin-top: 50px !important;
+  }
+
   .categories__container {
     display: -webkit-box;
     display: -ms-flexbox;
