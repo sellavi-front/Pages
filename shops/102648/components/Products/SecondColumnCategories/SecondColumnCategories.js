@@ -19,8 +19,7 @@ window.onload= () => {
     let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
     let newCatalog = oldCatalog.cloneNode(true)
 
-    // Getting product container ...
-
+    // [Getting product container ...]
     // 1. Delete all necessary classes from product items ...
     const productItems = document.querySelectorAll('.product-item');
     const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
@@ -28,8 +27,6 @@ window.onload= () => {
 
     // 1.1 Creating new grid classes in product items ...
     let newProductItems = document.querySelectorAll('.product-item')
-
-
     Array.from(newProductItems).map(item => {
       item.classList.add('col-4')
     })
@@ -44,13 +41,13 @@ window.onload= () => {
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
       <div class="container">
         <div class='row'>
-            <div class="col">
+            <div class="col-4">
               <div class="categories__menu">
                   <div class="section-title mb-4 mt-4">Категории</div>
                   ${ newCatalog.outerHTML }
               </div>
             </div>
-            <div class="col">
+            <div class="col-8">
               ${ layoutProductContainer }
             </div>
         </div>
