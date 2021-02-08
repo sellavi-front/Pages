@@ -6,3 +6,12 @@
 .main-page-categories>li {
   margin-top: 10px;
 }
+
+.main-page-categories>li>a {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-categories>li>a>.arrow {
+  margin: 5px;
+}
