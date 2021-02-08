@@ -1,6 +1,7 @@
 import "../../../components/HeaderTypeTwo/HeaderTypeTwo.js"
 import "../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 import "../../../fixes/fixes.js"
+import '../../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 // import Banner from "../blocks/banner.js"
 import pages from "./pages/pages.js"
 import Advantages from "../blocks/advantages.js"
@@ -71,10 +72,10 @@ if(location.href.includes('/index.php?route=account/register')) {
 }
 
 if (location.href.includes('/checkout')) {
-  $('.form_checkout').ready(function () {
-    $('.checkbox>label').html('Согласен (-а) с условиями <b>ПУБЛИЧНОЙ ОФЕРТЫ</b>');
-    document.querySelector(".checkbox").insertAdjacentHTML("afterend", '<div class="read_doc"><a href="/term-of-use/">Ознакомиться с публичной офертой</a></div>')
-  })
+  // $('.form_checkout').ready(function () {
+  //   $('.checkbox>label').html('Согласен (-а) с условиями <b>ПУБЛИЧНОЙ ОФЕРТЫ</b>');
+  //   document.querySelector(".checkbox").insertAdjacentHTML("afterend", '<div class="read_doc"><a href="/term-of-use/">Ознакомиться с публичной офертой</a></div>')
+  // })
 
   let newElement = document.createElement('form')
   newElement.classList.add("form_checkout")
