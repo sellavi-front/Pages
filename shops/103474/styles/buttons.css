@@ -73,6 +73,11 @@ body.theme_11
   font-size: 18px !important;
 }
 
+.add_to_wishlist button:hover .far.fa-heart {
+  font-weight: bold !important;
+  color: #FD4453 !important;
+}
+
 body.theme-red-2.theme_11
   .wrapper
   .page-section
