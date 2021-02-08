@@ -65,20 +65,21 @@ body.theme_11 .wrapper .latest-section h2.section-title span {
 }
 
 .categories-block {
-  background: #DDDDDD;
-  padding: 5%;
-  border-radius: 5px;
+  background: #DDDDDD !important;
+  padding: 5% !important;
+  border-radius: 5px !important;
   font-weight: 100 !important;
 }
 
-
-/*
-#home > div > div.content-area > section > div > div > div.col-4 > div > div,
-body.theme_11 .wrapper .latest-section h2.section-title span {
-  font-size: 24px !important;
-  font-weight: 900 !important;
-  line-height: 1.33 !important;
-  text-align: center !important;
-  color: #000 !important;
-  margin: auto !important;
-}*/
+body .section-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #232323;
+  overflow: hidden;
+  margin: 18px 0 !important;
+}
