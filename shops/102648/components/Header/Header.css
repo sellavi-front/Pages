@@ -1,6 +1,7 @@
 @import './Logo.css';
 @import './Cart.css';
 @import './Mobile.css';
+@import './SearchInput.css';
 
 .header .navigation-wrapper {
   background: white !important;
