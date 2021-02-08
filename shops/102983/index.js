@@ -22,7 +22,7 @@ if (document.querySelector('.header-wrapper')) {
 }
 
 if (location.href.includes('contact')) {
-  document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(1) > div > strong').insertAdjacentHTML('afterend', '<div>Нижегородская область, г.Кстово, ул.Шохина, 2а ;</div>');
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(1) > div > strong').insertAdjacentHTML('afterend', '<div>Нижегородская область, г.Кстово, ул.Шохина, 2а, 607661;</div>');
 }
 
 if (location.href.includes('term-of-use')) {
