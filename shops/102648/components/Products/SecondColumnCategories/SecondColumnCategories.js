@@ -12,13 +12,12 @@ const bootstrapClasses = [
 
 window.onload= () => {
   if(pages.main) {
-
     console.log('[Making New Columns..]')
 
     // Getting categories ...
     let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
     let newCatalog = oldCatalog.cloneNode(true)
-
+    console.log('New catalog: ', newCatalog)
     // [Getting product container ...]
     // 1. Delete all necessary classes from product items ...
     const productItems = document.querySelectorAll('.product-item');
