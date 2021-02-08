@@ -77,7 +77,6 @@ body.ltr .thumbnail .add_to_wishlist button {
 
 body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
   border: 1px solid #a68e7d !important;
-  height: 100% !important;
   border-radius: 5px;
 }
 
