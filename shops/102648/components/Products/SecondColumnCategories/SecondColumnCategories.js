@@ -36,7 +36,7 @@ window.onload= () => {
         <div class='row'>
             <div class="col">
               <div class="categories__menu">
-                  <h1>Categories</h1>
+                  <div class="section-title mb-4 mt-4">Категории</div>
                   ${ newCatalog.outerHTML }
               </div>
             </div>
