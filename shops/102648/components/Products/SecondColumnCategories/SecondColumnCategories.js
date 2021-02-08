@@ -5,7 +5,8 @@ window.onload= () => {
 
     let oldProductContainer = document.querySelector("#home > div > div.content-area > section > div.container")
     let newProductContainer = oldProductContainer.cloneNode(true)
-    let layoutProductContainer = newProductContainer.outerHTML()
+
+    let layoutProductContainer = newProductContainer.outerHTML
     oldProductContainer.remove()
 
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
