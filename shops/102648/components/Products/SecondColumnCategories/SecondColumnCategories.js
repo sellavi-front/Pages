@@ -23,6 +23,8 @@ window.onload= () => {
     const productItems = document.querySelectorAll('.product-item');
     const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
     deleteSelectors.findAndDelete();
+
+    // 1.1 Creating new grid classes in product items ...
     let newProductItems = document.querySelectorAll('.product-item')
     newProductItems.map(item => {
       item.classList.add('col-4')
