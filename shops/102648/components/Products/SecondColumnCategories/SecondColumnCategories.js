@@ -15,8 +15,8 @@ window.onload= () => {
     console.log('[Making New Columns..]')
 
     // Getting categories ...
-    let mainPageCategories = document.querySelector('.sf-menu')
-    let newMainPageCategories = mainPageCategories.classList.remove('sf-menu').add('main-page-categories')
+    let sfMenu = document.querySelector('.sf-menu')
+    let newMainPageCategories = sfMenu.classList.remove('sf-menu').add('main-page-categories')
 
 
     // [Getting product container ...]
