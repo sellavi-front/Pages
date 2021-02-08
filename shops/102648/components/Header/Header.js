@@ -2,6 +2,17 @@ import CreateAddContainer from '../../../../modules/CreateAddContainer/CreateAdd
 import DeleteClasses from '../../../../modules/DeleteClasses/DeleteClasses.js';
 import { collapseShow } from '../../../../components/HeaderTypeTwo/scripts/collapseShow.js';
 
+const selectors = ['col-md-6', 'mt-4'];
+
+if (document.querySelector('.common-home')) {
+  const categorie = document.querySelectorAll("body > div.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category > div > div > div");
+
+  const forDelete = new DeleteClasses(categorie, selectors);
+  forDelete.findAndDelete();
+}
+
+
+
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
