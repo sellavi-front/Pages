@@ -76,6 +76,11 @@ body.theme_11
 .add_to_wishlist button:hover .far.fa-heart {
   font-weight: bold !important;
   color: #FD4453 !important;
+  cursor: pointer;
+}
+
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background: transparent !important;
 }
 
 body.theme-red-2.theme_11
