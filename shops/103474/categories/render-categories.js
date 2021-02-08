@@ -15,7 +15,7 @@ class Categories  {
             </a>
           </div>
         `
-      })
+      }).join('')
   }
 
   render() {
