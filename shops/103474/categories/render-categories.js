@@ -8,7 +8,7 @@ class Categories  {
   setTemplate() {
       return this.props.map(el => {
         return `
-          <div class="categories__item">
+          <div class="col-3">
             <a href="${el.link}">
               <img src="${el.img}" alt="category">
               <p>${el.text}</p>
