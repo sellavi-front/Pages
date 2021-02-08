@@ -5,4 +5,24 @@
     display: flex !important;
     top: 30%;
   }
+
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: rtl !important;
+  }
+
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    left: auto !important;
+    right: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-left: 1px solid #e5e5e5;
+    top: 100px;
+    height: fit-content !important;
+    width: 100% !important;
+  }
+
+  .mobile_side_nav_menu > li {
+    cursor: pointer !important;
+  }
+
 }
