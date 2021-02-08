@@ -202,11 +202,11 @@ export default function desinfectedFrames() {
 
   <div class="mt-3 mb-3">
     <p><b>Установка системы «ЭкоШлюз» в Covid госпитале:</b></p>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_122_expids.png"
-          alt=""
+          class="w-100"
         />
       </div>
       <div class="col-md-3">
@@ -235,7 +235,7 @@ export default function desinfectedFrames() {
     </div>
   </div>
 
-  <div class="mb-3">
+  <div class="mb-3 mt-5">
     <h4>
       <b>Класс «ПРЕМИУМ» </b>
     </h4>
@@ -251,32 +251,32 @@ export default function desinfectedFrames() {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-4_dyqyfj.png"
         alt=""
-        class="col-4"
+         class="col-4 mb-4"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-2_wygjeg.png"
         alt=""
-        class="col-4"
+        class="col-4 mb-4"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-8_iwm7q9.png"
         alt=""
-        class="col-4"
+        class="col-4 mb-4"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-1_yorzf2.png"
         alt=""
-        class="col-4"
+        class="col-4 mb-4"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-5_kihln5.png"
         alt=""
-        class="col-4"
+        class="col-4 mb-4"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1611911791/102273/dlpost2005-3_jepbfy.png"
         alt=""
-        class="col-4"
+        class="col-4 mb-4"
       />
     </div>
 
