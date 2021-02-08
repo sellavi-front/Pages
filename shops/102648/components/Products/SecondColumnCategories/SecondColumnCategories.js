@@ -13,34 +13,34 @@ const bootstrapClasses = [
 window.onload= () => {
   if(pages.main) {
     console.log('[Making New Columns..]')
-
-    // Getting categories ...
-    let sfMenu = document.querySelector('.sf-menu')
-    let newMainPageCategories = sfMenu.cloneNode(true)
-    newMainPageCategories.classList.remove('sf-menu')
-    newMainPageCategories.classList.add('sf-menu', 'categories-block')
-    sfMenu.remove()
-
-    // [Getting product container ...]
-    // 1. Delete all necessary classes from product items ...
-    const productItems = document.querySelectorAll('.product-item');
-    const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
-    deleteSelectors.findAndDelete();
-
-    // 1.1 Creating new grid classes in product items ...
-    let newProductItems = document.querySelectorAll('.product-item')
-    Array.from(newProductItems).map(item => {
-      item.classList.add('col-4')
-    })
-
-    // 2. Copy product container ...
-    let oldProductContainer = document.querySelector("#home > div > div.content-area > section > div.container")
-    let newProductContainer = oldProductContainer.cloneNode(true)
-    let layoutProductContainer = newProductContainer.outerHTML
-    oldProductContainer.remove()
-
-    // 3. Creating new structure ...
     if(window.screen.width > 480) {
+
+      // Getting categories ...
+      let sfMenu = document.querySelector('.sf-menu')
+      let newMainPageCategories = sfMenu.cloneNode(true)
+      newMainPageCategories.classList.remove('sf-menu')
+      newMainPageCategories.classList.add('sf-menu', 'categories-block')
+      sfMenu.remove()
+
+      // [Getting product container ...]
+      // 1. Delete all necessary classes from product items ...
+      const productItems = document.querySelectorAll('.product-item');
+      const deleteSelectors = new DeleteClasses(productItems, bootstrapClasses);
+      deleteSelectors.findAndDelete();
+
+      // 1.1 Creating new grid classes in product items ...
+      let newProductItems = document.querySelectorAll('.product-item')
+      Array.from(newProductItems).map(item => {
+        item.classList.add('col-4')
+      })
+
+      // 2. Copy product container ...
+      let oldProductContainer = document.querySelector("#home > div > div.content-area > section > div.container")
+      let newProductContainer = oldProductContainer.cloneNode(true)
+      let layoutProductContainer = newProductContainer.outerHTML
+      oldProductContainer.remove()
+
+      // 3. Creating new structure ...
       document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
       <div class="container">
         <div class='row'>
