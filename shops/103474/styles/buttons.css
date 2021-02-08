@@ -79,6 +79,10 @@ body.theme_11
   cursor: pointer;
 }
 
+.add_to_wishlist button:hover {
+  color: #FD4453 !important;
+}
+
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
 .add_to_wishlist button:hover {
   background: transparent !important;
@@ -105,10 +109,7 @@ body.theme-red-2.theme_11
   background: transparent !important;
 }
 
-body .btn.btn-theme.btn-theme-transparent:hover {
-  background: #fc444d;
-  border-color: #fc444d;
-}
+
 
 body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block {
   background-color: #fff;
