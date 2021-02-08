@@ -1,17 +1,17 @@
 const categories = [
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_19_umfjsx.png',
-    link: '#',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7002',
     text: 'Кофе и чай',
   },
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_50_bdvd2i.png',
-    link: '#',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7130',
     text: 'Мясная продукция',
   },
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_51_tyiyam.png',
-    link: '#',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7137',
     text: 'Хумусы и салаты',
   },
   {
@@ -26,7 +26,7 @@ const categories = [
   },
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_49_aadszq.png',
-    link: '#',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7140',
     text: 'Выпечка',
   },
  {
