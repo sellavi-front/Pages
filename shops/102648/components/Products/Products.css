@@ -96,16 +96,21 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
   padding: 0 !important;
 }
 
-.thumbnail .add_to_cart .quantity,
-body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
-.thumbnail .add_to_wishlist button {
+.thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
   border-radius: 0px !important;
-  background: transparent !important;
+  background: #d80018 !important;
   height: 100%;
-  border: 1px solid rgb(0, 0, 0) !important;
-  color: black !important;
+  border: 1px solid #d80018!important;
+  color: #fff !important;
   font-weight: 100;
 }
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 2px solid #d80018 !important;
+  border-radius: 4px !important;
+}
+
 
 .thumbnail .price_actions .add_to_cart {
   max-width: 276px !important;
