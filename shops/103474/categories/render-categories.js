@@ -1,6 +1,6 @@
 import categories from "./categories.js"
 
-export default class Categories  {
+class Categories  {
   constructor() {
       this.props = props;
   }
