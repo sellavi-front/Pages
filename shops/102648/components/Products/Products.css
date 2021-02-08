@@ -104,6 +104,7 @@ body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .prod
   color: #fff !important;
   font-weight: 100;
 }
+
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
   background-color: #fff !important;
   color: #000 !important;
