@@ -156,3 +156,9 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a {
     top: 30px !important;
   }
 }
+
+@media (max-width: 400px) {
+  .header_widgets > div {
+    display: none !important;
+  }
+}
