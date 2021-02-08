@@ -26,7 +26,6 @@ import tableData from './utils/tableData.js';
 import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
 import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js'
 
-import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
 
 if (document.querySelector('.common-home')) {
   const sctmSection = document.querySelector('.custom_section');
