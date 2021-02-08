@@ -10,7 +10,7 @@ class Categories  {
         return `
           <div class="col-3">
             <a href="${el.link}">
-              <img src="${el.img}" alt="category">
+              <img src="${el.img}" alt="category" class="mb-3">
               <p>${el.text}</p>
             </a>
           </div>
