@@ -12,7 +12,9 @@ const bootstrapClasses = [
 
 window.onload= () => {
   if(pages.main) {
+
     console.log('[Making New Columns..]')
+
     // Getting categories ...
     let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
     let newCatalog = oldCatalog.cloneNode(true)
@@ -26,7 +28,9 @@ window.onload= () => {
 
     // 1.1 Creating new grid classes in product items ...
     let newProductItems = document.querySelectorAll('.product-item')
-    newProductItems.map(item => {
+
+
+    Array.from(newProductItems).map(item => {
       item.classList.add('col-4')
     })
 
@@ -51,7 +55,6 @@ window.onload= () => {
             </div>
         </div>
       </div>
-
     `)
   }
 }
