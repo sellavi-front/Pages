@@ -7,6 +7,10 @@
   margin-top: 10px;
 }
 
+.main-page-categories>li:first-child {
+  display: none;
+}
+
 .main-page-categories>li>a {
   display: flex;
   flex-direction: column;
