@@ -501,8 +501,8 @@ export default function desinfectedFrames() {
     </div>
   </div>
 </div>
-<div class="mb-5">
-  <a href="#" class="button_link">Скачать Меню - комплекс 350 - первая неделя</a>
+<div class="mb-5 w-100">
+  <a href="#" class="button_link">Каталог дезинфицирующих рамок</a>
 </div>
     </section>
   `;
