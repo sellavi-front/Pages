@@ -84,7 +84,8 @@ body.theme_11
   cursor: pointer;
 }
 
-.add_to_wishlist button:hover {
+.add_to_wishlist button:hover,
+body .add_to_wishlist .btn.btn-theme.btn-theme-transparent:hover i {
   color: #FD4453 !important;
 }
 
