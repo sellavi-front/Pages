@@ -8,7 +8,6 @@ window.onload= () => {
     let newCatalog = oldCatalog.cloneNode(true)
 
     // Getting product container ...
-    document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
     let oldProductContainer = document.querySelector("#home > div > div.content-area > section > div.container")
     let newProductContainer = oldProductContainer.cloneNode(true)
     let layoutProductContainer = newProductContainer.outerHTML
