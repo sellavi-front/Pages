@@ -12,6 +12,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   .catalog-title {
     display: none;
   }
+
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    background: transparent !important;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
