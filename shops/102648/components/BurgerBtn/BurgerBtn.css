@@ -1,0 +1,8 @@
+@media screen and (min-width: 900px) {
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    left: 15px;
+    right: auto;
+    display: flex !important;
+    top: 30%;
+  }
+}

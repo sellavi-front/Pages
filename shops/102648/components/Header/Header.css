@@ -2,6 +2,7 @@
 @import './Cart.css';
 @import './Mobile.css';
 @import './SearchInput.css';
+@import './../BurgerBtn/BurgerBtn.css';
 /*@import './../CatalogBtn/CatalogBtn.css';*/
 
 .header-wrapper > div {
