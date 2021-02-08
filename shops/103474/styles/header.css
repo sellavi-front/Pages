@@ -8,15 +8,19 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   line-height: 40px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 991px) {
   .catalog-title {
     display: none;
   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     left: auto !important;
     right: 0 !important;
-    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
     border: none !important;
     border-left: 1px solid #e5e5e5;
     top: 100px;
@@ -24,11 +28,15 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   }
 
   body.sidenav-enabled .mobile_side_nav .flexy>.arrow i {
-    transform: rotate(180deg) !important;
+    -webkit-transform: rotate(180deg) !important;
+        -ms-transform: rotate(180deg) !important;
+            transform: rotate(180deg) !important;
   }
 
   body.sidenav-enabled .mobile_side_nav .flexy>.arrow i {
-    transform: rotate(270deg) !important;
+    -webkit-transform: rotate(270deg) !important;
+        -ms-transform: rotate(270deg) !important;
+            transform: rotate(270deg) !important;
   }
 
   .panel-collapse {
