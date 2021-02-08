@@ -11,35 +11,11 @@ const bootstrapClasses = [
 ];
 
 window.onload= () => {
-
-  // Making a catalog burger ...
-
-  let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
-  oldCatalog.classList.add("header-catalog")
-  let newCatalog = oldCatalog.cloneNode(true)
-  document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
-
-
-  let headerCatalogLink = document.querySelector(".header-catalog a")
-  headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
-  const listt = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
-
-  listt.forEach((el) => {
-    const tr = el.textContent;
-
-    if(tr.includes(' - ')) {
-      el.textContent = tr.slice(2);
-    }
-  });
-
-
   if(pages.main) {
     console.log('[Making New Columns..]')
 
     // Getting categories ...
-    /*let oldCategories = document.querySelector(".mobile-navigation-wrapper")
-    let newCategories = oldCategories.cloneNode(true)
-    console.log('New catalog: ', newCategories)*/
+
 
     // [Getting product container ...]
     // 1. Delete all necessary classes from product items ...
@@ -61,12 +37,12 @@ window.onload= () => {
 
     // 3. Creating new structure ...
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
-      <div class="container">
+      <div class="container-fluid">
         <div class='row'>
             <div class="col-4">
               <div class="categories__menu">
                   <div class="section-title mb-4 mt-4">Категории</div>
-                  ${ newCatalog.outerHTML }
+
               </div>
             </div>
             <div class="col-8">
@@ -76,5 +52,4 @@ window.onload= () => {
       </div>
     `)
   }
-  oldCatalog.remove()
 }
