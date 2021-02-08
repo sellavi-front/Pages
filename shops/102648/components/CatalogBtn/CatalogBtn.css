@@ -59,6 +59,10 @@
     transition: fit-content 0.3s ease-in-out;
   }
 
+  body.sidenav-enabled .mobile_side_nav>ul>li {
+    cursor: pointer !important;
+  }
+
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     left: auto !important;
     right: 0 !important;
