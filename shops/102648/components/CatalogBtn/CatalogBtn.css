@@ -95,6 +95,10 @@
     transition: all .5s linear;
   }
 
+  body.sidenav-enabled.ltr .flexy>.arrow.clicked i {
+    transform: rotate(0);
+  }
+
   body.sidenav-enabled .mobile_side_nav > ul a {
     border: none;
     text-align: end;
@@ -129,6 +133,21 @@
     top: -40px;
     width: 100%;
     max-width: 800px;
+  }
+
+  body.sidenav-enabled.ltr .flexy {
+    position: relative;
+    height: 50px !important;
+    transition: height 0.3s ease-in-out !important;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  body.sidenav-enabled.ltr .flexy {
+    position: relative;
+    height: unset !important;
+    transition: height 0.3s ease-in-out !important;
   }
 }
 
