@@ -11,3 +11,12 @@
 @import './../components/Products/Products.css';
 
 @import './../components/Footer/Footer.css';
+
+
+body .content-area .page-section.error-page h3 {
+  margin: 0 0 15px;
+  color: #ea0000;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+}
