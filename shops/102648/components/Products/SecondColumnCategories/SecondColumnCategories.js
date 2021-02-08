@@ -15,6 +15,7 @@ window.onload= () => {
     console.log('[Making New Columns..]')
 
     // Getting categories ...
+    let mainPageCategories = document.querySelector('.sf-menu')
 
 
     // [Getting product container ...]
@@ -42,7 +43,7 @@ window.onload= () => {
             <div class="col-4">
               <div class="categories__menu">
                   <div class="section-title mb-4 mt-4">Категории</div>
-
+                  ${ mainPageCategories.outerHTML }
               </div>
             </div>
             <div class="col-8">
