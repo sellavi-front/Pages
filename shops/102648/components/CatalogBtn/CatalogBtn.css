@@ -38,9 +38,9 @@
     color: #fff !important;
   }
 
-  .nav.sf-menu {
+  /*.nav.sf-menu {
     display: none !important;
-  }
+  }*/
 
   body.sidenav-enabled .mobile_side_nav {
     width: 100vw;
