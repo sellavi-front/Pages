@@ -1,6 +1,6 @@
 body.ltr.ru .footer,
 body.theme_11 .wrapper footer.footer .footer-widgets {
-  background: transparent;
+  background: transparent !important;
 }
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title,
