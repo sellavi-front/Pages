@@ -138,8 +138,9 @@
 
   body.sidenav-enabled.ltr .flexy {
     position: relative;
-    height: 50px !important;
+    height: auto;
     transition: height 0.3s ease-in-out !important;
+    margin: 0 !important;
   }
 
   .link {
