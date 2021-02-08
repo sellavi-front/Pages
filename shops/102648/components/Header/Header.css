@@ -1,4 +1,5 @@
 @import './Logo.css';
+@import './Cart.css';
 
 .header .navigation-wrapper {
   background: white !important;
