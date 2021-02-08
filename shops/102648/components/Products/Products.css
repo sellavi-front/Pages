@@ -35,13 +35,13 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 }
 
 body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
-  padding-right: 0 !important;
+  padding-right: 30px !important;
 }
 
 @media (max-width: 1199px) {
-  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+  /*body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
     padding-right: 30px;
-  }
+  }*/
 
   body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(3n) {
     padding-left: 0 !important;
