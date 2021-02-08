@@ -10,8 +10,8 @@ window.onload= () => {
     oldProductContainer.remove()
 
     document.querySelector('.page-section').insertAdjacentHTML("afterbegin", `
-      <div class='row'>
-        <div class="container">
+      <div class="container">
+        <div class='row'>
             <div class="col">
               <div class="categories__menu">
                   <h1>Categories</h1>
@@ -22,6 +22,7 @@ window.onload= () => {
             </div>
         </div>
       </div>
+
     `)
   }
 }
