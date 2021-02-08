@@ -58,6 +58,12 @@ body.theme_11 .wrapper .latest-section h2.section-title span {
   display: none !important;
 }
 
+#home > div > div.content-area > section > div > div > div.col-4 > div > ul > li {
+  position: relative;
+  height: 40px !important;
+  transition: height 0.3s ease-in-out !important;
+}
+
 
 /*
 #home > div > div.content-area > section > div > div > div.col-4 > div > div,
