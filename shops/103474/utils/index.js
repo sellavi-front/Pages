@@ -6,6 +6,7 @@ import '../../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 import pages from "./pages/pages.js"
 import Advantages from "../blocks/advantages.js"
 import Functions from "./functions/functions.js"
+import renderCategories from "../categories/render-categories.js";
 // import CustomSection from "../blocks/custom-section.js"
 
 
@@ -29,6 +30,8 @@ if(pages.home) {
 
   // let customSection = new CustomSection()
   // customSection.render()
+
+  renderCategories()
 
 
   /* Catalog */
