@@ -1,0 +1,8 @@
+.main-page-categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-categories>li {
+  margin-top: 10px;
+}
