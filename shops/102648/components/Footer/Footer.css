@@ -1,3 +1,5 @@
+@import './ResetStylesFooter.css';
+
 body.ltr.ru .footer,
 body.theme_11 .wrapper footer.footer .footer-widgets {
   background: transparent !important;
@@ -31,6 +33,11 @@ body.theme_11 .wrapper footer.footer .footer-widgets .row {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .bs-menu-toggle>a.bs-menu-link {
+  box-shadow: 0 0 10px 0 hsl(0deg 0% 100% / 32%);
+  color: #000;
 }
 
 @media (max-width: 991px) {
