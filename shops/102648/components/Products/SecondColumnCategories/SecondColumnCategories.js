@@ -15,9 +15,9 @@ window.onload= () => {
     console.log('[Making New Columns..]')
 
     // Getting categories ...
-    let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
-    let newCatalog = oldCatalog.cloneNode(true)
-    console.log('New catalog: ', newCatalog)
+    let oldCategories = document.querySelector(".mobile-navigation-wrapper")
+    let newCategories = oldCategories.cloneNode(true)
+    console.log('New catalog: ', newCategories)
 
     // [Getting product container ...]
     // 1. Delete all necessary classes from product items ...
@@ -44,7 +44,7 @@ window.onload= () => {
             <div class="col-4">
               <div class="categories__menu">
                   <div class="section-title mb-4 mt-4">Категории</div>
-                  ${ newCatalog.outerHTML }
+                  ${ newCategories.outerHTML }
               </div>
             </div>
             <div class="col-8">
