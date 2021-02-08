@@ -74,7 +74,7 @@ body.theme_11
   transition: unset;
 }
 
-.add_to_wishlist .far.fa-heart {
+.add_to_wishlist i {
   font-size: 18px !important;
 }
 
