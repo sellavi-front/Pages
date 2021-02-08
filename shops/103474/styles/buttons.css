@@ -207,6 +207,11 @@ body.theme_11
   border: 1px solid #333 !important;
 }
 
+body.theme-red-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  border-color: #d80018 !important;
+}
+
+
 .price_actions .buttons__container {
   -webkit-box-pack: justify !important;
   -ms-flex-pack: justify !important;
