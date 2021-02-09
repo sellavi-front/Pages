@@ -1,26 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 @import '../../modules/Requisites/Requisites.css';
-@import "./blocks/banner/banner.css";
-@import "./blocks/header/header.css";
 
 @import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import "../../fixes/js/FooterCopy/FooterCopy.css";
-
-@import '../../components/HeaderTypeTwo/styles/search/search.css';
-@import '../../components/HeaderTypeTwo/styles/header-mobile/header-mobile.css';
-@import '../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
-@import '../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
-@import '../../components/HeaderTypeTwo/styles/header-login/header-login.css';
-@import '../../components/HeaderTypeTwo/styles/burger/burger.css';
-
-@import '../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 @import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
-
-@import '../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
-@import '../../templates/TemplateTypeTwo/styles/footer/footer.css';
-@import '../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 
 
 body h1,
