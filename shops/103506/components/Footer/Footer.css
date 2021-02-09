@@ -1,4 +1,5 @@
 @import './ResetStylesFooter.css';
+@import './FooterCopy.css';
 
 body.ltr.ru .footer,
 .wrapper footer.footer .footer-widgets {
