@@ -99,7 +99,7 @@ if (document.querySelector('.common-home')) {
 <div>
   <span>Наши преимущества</span>
   <br>
-  <span>Получите эстетическое удовольствие</span>
+  <span></span>
 </div>
 <br>
 
