@@ -71,7 +71,7 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   display: block !important;
 }
 
-.mobile_side_nav_menu > li > .panel-collapse.clicked > ul > li > .panel-collapse {
+.mobile_side_nav_menu > li > .panel-collapse.collapse.show > ul > li > .panel-collapse {
   display: block !important;
 }
 
