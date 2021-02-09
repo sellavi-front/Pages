@@ -143,4 +143,12 @@ body.information-information .information img {
   .page-section__title {
     font-size: 18px;
   }
+
+  .sect h3 {
+    font-size: 18px;
+  }
+
+  .sect h4 {
+    font-size: 16px !important;
+  }
 }
