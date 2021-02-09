@@ -6,8 +6,6 @@
 @import './components/Products/Products.css';
 @import './components/Footer/Footer.css';
 
-@import "../../fixes/js/FooterCopy/FooterCopy.css";
-
 body h1,
 body h2,
 body h3,
