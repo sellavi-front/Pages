@@ -71,9 +71,9 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   display: block !important;
 }
 
-/* .mobile_side_nav_menu > li > .panel-collapse > ul > li > .arrow {
-  display: ;
-} */
+.mobile_side_nav_menu > li > .panel-collapse > ul > li > .panel-collapse {
+  display: block !important;
+}
 
 .mobile_side_nav_menu > .flexy > .panel-collapse > ul {
   margin-bottom: 30px;
