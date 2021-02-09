@@ -36,3 +36,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 .sf-menu .flexy.has_children > ul > .megaline {
     padding: 50px 20%;
 }
+
+header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamenu.active > a {
+    border-bottom: 0px !important;
+}
