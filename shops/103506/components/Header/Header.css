@@ -14,3 +14,9 @@ body.theme-red-2 .header .navigation-wrapper {
   background-color: #f5f6f7;
   border-top: 0 !important;
 }
+
+body.theme_7.common-home header.header .header-wrapper {
+  background-color: transparent !important;
+  transition: background-color .5s ease-in-out;
+  z-index: 999;
+}
