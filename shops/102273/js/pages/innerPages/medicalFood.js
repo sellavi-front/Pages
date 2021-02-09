@@ -183,31 +183,31 @@ export default function medicalFood() {
         легко можно назвать диетическим продуктом.
       </p>
     </div>
-    <div class="mb-5 d-flex justify-content-center flex-wrap">
+    <div class="mb-5 row">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-007_1_vfpspa.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-008_1_ctvpeb.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-008-1_1_ajvks0.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-009_1_utaawc.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-006_1_omdgut.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
     </div>
 
