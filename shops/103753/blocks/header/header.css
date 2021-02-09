@@ -41,7 +41,7 @@ header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamen
     border-bottom: 0px !important;
 }
 
-section.page-section.subcategories_top > div > div > div:nth-child(2) > div > div > a {
+section.page-section.subcategories_top > div > div > div > div > div > a {
     display: flex !important;
     align-items: center !important;
 }
