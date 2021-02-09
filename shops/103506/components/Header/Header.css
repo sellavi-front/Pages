@@ -1,21 +1,21 @@
 @import './Menu/Menu.css';
 
-body.theme_7 .wrapper header.header {
+.wrapper header.header {
   z-index: 999;
   width: 100%;
   position: absolute !important;
 }
 
-body.theme-red-2 .header {
+.header {
   border-bottom: 0 !important;
 }
 
-body.theme-red-2 .header .navigation-wrapper {
+.header .navigation-wrapper {
   background-color: #f5f6f7;
   border-top: 0 !important;
 }
 
-body.theme_7.common-home header.header .header-wrapper {
+.common-home header.header .header-wrapper {
   background-color: transparent !important;
   transition: background-color .5s ease-in-out;
   z-index: 999;
