@@ -78,6 +78,8 @@ body .section-title {
   align-self: center;
   margin: 0 0 15px !important;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* h2.section-title > span::after {
