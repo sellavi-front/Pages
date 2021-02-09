@@ -19,7 +19,7 @@ body {
   border-top: 0 !important;
 }
 
-.common-home header.header .header-wrapper {
+body.common-home.ltr header.header .header-wrapper {
   background-color: transparent !important;
   transition: background-color .5s ease-in-out;
   z-index: 999;
