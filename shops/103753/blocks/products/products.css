@@ -270,3 +270,8 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
     color: black !important;
 }
+
+#search > div.search_field {
+    position: relative ;
+    right: 50px !important;
+}
