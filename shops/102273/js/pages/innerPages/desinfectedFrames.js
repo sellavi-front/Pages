@@ -457,7 +457,7 @@ export default function desinfectedFrames() {
     </div>
   </div>
   <div class="row mb-3">
-    <div class="w-100">
+    <div class="col">
       <p><b>в) Барьер дезинфекционный арочный «АКВААВТО» </b></p>
       <p>
         4-х сторонний 5000 х 4500, 17 форсунок. <br />
@@ -477,7 +477,7 @@ export default function desinfectedFrames() {
     </div>
   </div>
   <div class="row mb-3">
-    <div class="w-100">
+    <div class="col">
       <p>
         <b
           >Дополнительное оборудование (по согласованию с заказчиком комплектуется
