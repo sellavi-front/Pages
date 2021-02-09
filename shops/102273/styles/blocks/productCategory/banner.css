@@ -28,65 +28,62 @@ body.product-category-5981 .content-area .page-section.titles {
 
 body.information-information-6752 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612770649/Frame_312_qfnqsz.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6754 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611924223/102273/Group_7423517_2_xx985b.png')
-  no-repeat !important;
+    no-repeat !important;
 }
-
 
 body.information-information-6755 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1611928889/102273/Group_7423523_sp7t2g.png')
-  no-repeat !important;
+    no-repeat !important;
 }
-
 
 body.information-information-6756 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612084473/102273/Group_7423524_v86xbq.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6759 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612090820/102273/Group_7423494_cyky3j.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6762 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612090820/102273/Group_7423497_qqfh47.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6761 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612094864/102273/Group_7423496_r0xrto.png')
-  no-repeat !important;
+    no-repeat !important;
 }
-
 
 body.information-information-6760 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612104366/102273/Group_7423495_bf6pwu.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6763 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612126363/102273/Group_7423498_gepk2f.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6758 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612128777/102273/Group_7423493_asrmh8.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6753 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612129209/102273/Group_7423488_rhypxq.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.information-information-6757 .content-area .page-section.titles > div {
   background: url('https://res.cloudinary.com/depgheppz/image/upload/v1612164118/102273/Group_7423511_3_spw6lm.png')
-  no-repeat !important;
+    no-repeat !important;
 }
 
 body.product-category .content-area .page-section.titles {
@@ -130,12 +127,12 @@ body.information-information .content-area .page-section.titles .container .page
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-              -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                      justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 body.product-category .content-area .page-section.titles .container .page-header {
@@ -152,5 +149,11 @@ body.product-category .content-area .page-section.titles .container h1 {
   text-align: left;
   font-size: 38px;
   font-weight: bold;
+}
 
+@media (max-width: 991px) {
+  body.product-category .content-area .page-section.titles .container .page-header__descp,
+  body.product-category .content-area .page-section.titles .container h1 {
+    color: white;
+  }
 }
