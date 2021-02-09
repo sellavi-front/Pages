@@ -104,9 +104,15 @@ body.theme-gray .header .navigation-wrapper {
   color: #333 !important;
 }
 
+#content > .container-fluid > .category_content_wrapper > .sidebar > .side-categories > .widget-content > ul > li > ul > li > a:hover,
+#content > .container-fluid > .category_content_wrapper > .sidebar > .side-categories > .widget-content > ul > li > a:hover {
+  color: #000;
+}
+
+/*
 body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colored, body.theme-gray a:hover {
   color: #fff;
-}
+}*/
 
 .no_scrolled_item:hover {
   color: #fff;
