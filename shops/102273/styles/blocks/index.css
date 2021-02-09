@@ -53,3 +53,7 @@ body .col-4 {
           flex: 0 0 33.33333%;
   max-width: 33.33333% !important;
 } 
+
+#sellavi_logo {
+  margin: 20px auto 0;
+}
