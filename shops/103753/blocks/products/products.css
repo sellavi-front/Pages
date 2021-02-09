@@ -276,7 +276,9 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
     right: 50px !important;
 }
 
-
+#bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+    display: flex;
+}
     
 
 .wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(1) > img {
