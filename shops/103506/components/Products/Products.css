@@ -4,3 +4,7 @@
 body .section-title {
   display: none !important;
 }
+
+body.ltr .thumbnail .caption-title {
+  text-align: center !important;
+}
