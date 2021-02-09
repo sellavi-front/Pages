@@ -2,13 +2,9 @@
 
 @import '../../modules/Requisites/Requisites.css';
 @import './components/Products/Products.css';
-
-@import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import './components/Footer/Footer.css';
 
 @import "../../fixes/js/FooterCopy/FooterCopy.css";
-@import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
-
 
 body h1,
 body h2,
