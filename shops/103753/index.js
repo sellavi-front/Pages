@@ -22,10 +22,10 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444278/122393926_3332871193463703_632430044848993105_n_ix1ys7.png">
       <div class="row">
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444424/WhatsApp_Image_2021-02-01_at_09.59_4_kd2uz4.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
         </div>
         <div class="col">
         855
@@ -37,10 +37,10 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444279/118702000_168735104783993_414454167277788697_n_qzwtwx.png">
       <div class="row">
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444424/WhatsApp_Image_2021-02-01_at_09.59_4_kd2uz4.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
         </div>
         <div class="col">
         765
@@ -51,10 +51,10 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444282/121780675_973066553157551_397272728753173198_n_ngqdtq.png">
       <div class="row">
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444424/WhatsApp_Image_2021-02-01_at_09.59_4_kd2uz4.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
         </div>
         <div class="col">
         984
@@ -65,10 +65,10 @@ if (document.querySelector('.common-home')) {
       <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444284/126316814_398284391223565_2871809762958162410_n_mhfatv.png">
       <div class="row">
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444424/WhatsApp_Image_2021-02-01_at_09.59_4_kd2uz4.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612444428/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_1_panaus.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
         </div>
         <div class="col">
         763
