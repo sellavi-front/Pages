@@ -25,7 +25,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880723/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_2_yhzkce.png">
         </div>
         <div class="col">
         855
@@ -40,7 +40,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880723/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_2_yhzkce.png">
         </div>
         <div class="col">
         765
@@ -54,7 +54,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880723/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_2_yhzkce.png">
         </div>
         <div class="col">
         984
@@ -68,7 +68,7 @@ if (document.querySelector('.common-home')) {
           <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880459/WhatsApp_Image_2021-02-01_at_09.59_4_1_ecg0pf.png">
         </div>
         <div class="col">
-          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880460/Vector_q4yfrq.png">
+          <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612880723/icons8-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_2_yhzkce.png">
         </div>
         <div class="col">
         763
