@@ -262,3 +262,7 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
 body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
     height: 452px !important;
 }
+
+#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) {
+    display: none !important;
+}
