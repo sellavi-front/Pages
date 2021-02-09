@@ -79,4 +79,8 @@
     body#home .mobile_side_nav .sidenav_search {
         display: block !important;
     }
+
+    .common-home .wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(3) > div > div > div {
+        padding: 0 15%;
+    }
 }
