@@ -123,10 +123,10 @@ body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.bt
   color: #000 !important;
 }
 
-.facebook_container {
+/* .facebook_container {
   bottom: 7% !important;
   top: auto !important;
-}
+} */
 
 body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block:hover {
   background-color: #fff;
