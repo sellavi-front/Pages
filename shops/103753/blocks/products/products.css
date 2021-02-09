@@ -272,6 +272,6 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 }
 
 #search > div.search_field {
-    position: relative ;
+    position: relative !important;
     right: 50px !important;
 }
