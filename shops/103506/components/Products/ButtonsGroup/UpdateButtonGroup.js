@@ -1,0 +1,2 @@
+let btns = document.querySelectorAll(".content-area>.page-section>.container>.products>.product-item>.thumbnail>.price_actions")
+btns.forEach(btn => { btn.classList.remove('d-flex', 'justify-content-between') })
