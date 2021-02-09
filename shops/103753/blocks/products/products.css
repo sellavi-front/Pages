@@ -254,3 +254,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 #bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i {
     padding-right: 5px
 }
+
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+    height: 451px !important;
+}
