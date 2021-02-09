@@ -858,3 +858,7 @@ body.bottom-nav-enabled div.mobile-bottom-nav>ul {
 body.bottom-nav-enabled div.mobile-bottom-nav>ul>li.mobile-bottom-tab>a.mobile-bottom-link.active {
   border-bottom: 2px solid #fff !important;
 }
+
+.navbar_item:hover {
+  color: #c9c9c9 !important;
+}
