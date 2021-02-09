@@ -1,5 +1,5 @@
-@import './../../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
-@import './../../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import './ButtonsGroup/ButtonContainerProduct.css';
+@import './ButtonsGroup/ButtonBorders.css';
 
 body .section-title {
   display: none !important;
