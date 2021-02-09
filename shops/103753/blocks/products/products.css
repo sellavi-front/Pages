@@ -233,3 +233,24 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
         display: none;
     }
 }
+
+body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+    padding-right: 30px !important;
+}
+
+body.theme_11 .featured-products-carousel .bx-wrapper {
+    max-height: 465px !important;
+}
+
+#bx_product_featured > div {
+    width: 278px !important;
+    padding-left: 30px !important
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    display: flex;
+}
+
+#bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i {
+    padding-right: 5px
+}
