@@ -1,0 +1,5 @@
+@media (max-width: 375px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 20% 0 auto !important;
+  }
+}

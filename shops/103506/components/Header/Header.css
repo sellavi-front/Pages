@@ -1,5 +1,13 @@
 @import './Menu/Menu.css';
 
+.header {
+  border: none !important;
+}
+
+.header .header-wrapper {
+  background: transparent;
+}
+
 .wrapper header.header {
   z-index: 999;
   width: 100%;
@@ -20,3 +28,4 @@ body.common-home.ltr header.header .header-wrapper {
   transition: background-color .5s ease-in-out;
   z-index: 999;
 }
+
