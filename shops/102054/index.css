@@ -816,3 +816,11 @@ body.ltr .float-left {
     max-width: 50%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .mobile_two_columns .products .thumbnail .caption .caption-title {
+    text-align: center !important;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+}
