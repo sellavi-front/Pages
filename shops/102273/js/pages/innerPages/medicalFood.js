@@ -144,29 +144,29 @@ export default function medicalFood() {
       На производстве сливаются воедино традиционный ручной труд и инновации. И только так
       появляется возможность подавать нежный фруктовый десерт к столу в каждом доме.
     </p>
-    <div class="mb-5 d-flex flex-wrap justify-content-center">
+    <div class="mb-5 row">
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 m-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-002_1_d7udt7.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 m-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-001_1_1_qxmlue.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 m-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-004_1_qzqnlf.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 m-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104832/102273/olara-003_1_iwyeum.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 m-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104832/102273/olara-005_1_rxnphs.png"
         alt=""
       />
