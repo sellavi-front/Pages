@@ -5,6 +5,13 @@ body.ltr.ru .footer,
   background: transparent !important;
 }
 
+body .footer .footer-meta {
+  padding: 30px 0;
+  background-color: transparent !important;
+  border-top: 1px solid #a1b1bc;
+  position: relative;
+}
+
 .wrapper footer.footer .footer-widgets .widget .widget-title,
 .wrapper footer.footer .footer-widgets .widget ul li {
   margin-bottom: 5px !important;

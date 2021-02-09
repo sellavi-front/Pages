@@ -21,7 +21,7 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .footer_content_text > p {
