@@ -1,3 +1,8 @@
+body.product-category .content-area .page-section.titles,
+body.information-information .content-area .page-section.titles {
+  background-position: center !important;
+}
+
 /* products-service */
 
 body.product-category-6976 .content-area .page-section.titles {
