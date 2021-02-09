@@ -54,16 +54,6 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   min-height: inherit !important;
   font-size: 16px;
 }
-/*
-.section-title span,
-.title {
-  font-weight: 600 !important;
-  font-size: 36px !important;
-  line-height: 43px !important;
-  text-align: left !important;
-  text-align: left;
-  text-transform: none;
-} */
 
 body .section-title {
   text-align: left !important;
@@ -81,14 +71,6 @@ body .section-title {
   display: flex;
   justify-content: center;
 }
-
-/* h2.section-title > span::after {
-  content: ' ';
-  display: flex;
-  height: 5px;
-  background: linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
-  width: 100%;
-} */
 
 
 @media (max-width: 495px) {
