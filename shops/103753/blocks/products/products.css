@@ -288,3 +288,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 .wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(2) > img {
     width: 30px;
 }
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > div > div > a > img {
+    width: 30px !important;
+}
