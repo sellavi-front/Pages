@@ -258,3 +258,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
     height: 451px !important;
 }
+
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+    height: 452px !important;
+}
