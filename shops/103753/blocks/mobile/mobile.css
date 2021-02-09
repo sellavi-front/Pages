@@ -95,4 +95,12 @@
     .bx-wrapper {
         margin: 0 auto 60px !important;
     }
+
+    .mobile_side_nav_menu .arrow {
+        display: block !important;
+    }
+    
+    body.sidenav-enabled.ltr .flexy>.arrow {
+        left: 0 !important;
+    }
 }
