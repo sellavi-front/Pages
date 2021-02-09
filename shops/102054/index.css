@@ -135,9 +135,10 @@ body.theme-gray .top-bar ul a:hover .fa, body.theme-gray .top-bar ul a span.colo
 }
 
 video {
-  height: auto;
   vertical-align: middle;
   width: 100%;
+  object-fit: cover;
+  height: 100vh;
 }
 
 .video__banner__text__content {
@@ -702,7 +703,7 @@ body.ltr .float-left {
 
   .video__banner__text__content {
     position: absolute;
-    bottom: 2rem;
+    bottom: 8rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
