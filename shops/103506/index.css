@@ -4,7 +4,8 @@
 @import './components/Products/Products.css';
 
 @import '../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
-@import '../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+@import './components/Footer/Footer.css';
+
 @import "../../fixes/js/FooterCopy/FooterCopy.css";
 @import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
