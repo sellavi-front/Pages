@@ -233,6 +233,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
         display: none;
     }
 
+    #bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+        display: block;
+    }
+    
     
 }
 
