@@ -17,7 +17,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   border: 1px solid rgb(0, 0, 0) !important;
   color: black !important;
   font-weight: 100;
-  width: 100%;
 }
 
 .thumbnail .price_actions .add_to_cart {
@@ -98,5 +97,11 @@ body .section-title {
   .thumbnail .add_to_wishlist button  {
     display: block !important;
     width: 42px !important;
+  }
+
+  .thumbnail .add_to_cart .quantity,
+  body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button,
+  .thumbnail .add_to_wishlist button {
+    width: 100%;
   }
 }
