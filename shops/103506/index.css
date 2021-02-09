@@ -32,3 +32,7 @@ label,
 .input-payment-firstname {
   font-family: 'Montserrat', sans-serif !important;
 }
+
+body {
+  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
+}

@@ -1,9 +1,5 @@
 @import './Menu/Menu.css';
 
-body {
-  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
-}
-
 .wrapper header.header {
   z-index: 999;
   width: 100%;
