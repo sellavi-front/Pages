@@ -104,7 +104,7 @@ body.sidenav-enabled.ltr .flexy>.arrow {
   content: "\f054" !important;
 }
 
-body.sidenav-enabled.ltr .wrapper-opened {
+body.sidenav-enabled.ltr .wrapper-opened.fixed {
   display: block !important;
 }
 
