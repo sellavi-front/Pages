@@ -217,6 +217,20 @@ if (document.querySelector('#collapse-7117')) {
     let c = x[i].innerHTML.replace('-', '');
     x[i].innerHTML = c;
  }
+
+ //Скрипт для удаления пробелов в строках от мобильной менюхи
+if (document.querySelector('#collapse-7050')) {
+  let x = document.querySelectorAll('#collapse-7050 > ul > li > a');
+
+  // x.map((index, item) => {
+  //   let c = item[index]
+  // })
+
+  for (let i = 0; i < x.length; i++) {
+    let c = x[i].innerHTML.replace('-', '');
+    x[i].innerHTML = c;
+ }
+}
 }
 
 if (document.querySelector('.common-home')) {
