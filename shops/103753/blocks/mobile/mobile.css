@@ -83,4 +83,16 @@
     .common-home .wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(3) > div > div > div {
         padding: 0 15%;
     }
+
+    body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+        height: initial !important;
+    }
+    
+    body.theme_11 .featured-products-carousel .bx-wrapper {
+        max-height: inherit !important;
+    }
+    
+    .bx-wrapper {
+        margin: 0 auto 60px !important;
+    }
 }
