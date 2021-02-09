@@ -825,3 +825,32 @@ body.ltr .float-left {
     font-size: 14px;
   }
 }
+
+body.bottom-nav-enabled div.mobile-bottom-nav>ul>li.mobile-bottom-tab>a.mobile-bottom-link i {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  color: #fff !important;
+}
+
+body.bottom-nav-enabled div.mobile-bottom-nav>ul>li.mobile-bottom-tab>a.mobile-bottom-link {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: 8px 0;
+  text-indent: 0;
+  font-size: 12px;
+  flex-grow: 2;
+  margin: 0 8px;
+  color: #fff !important;
+}
+
+body.bottom-nav-enabled div.mobile-bottom-nav>ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: black !important;
+}
