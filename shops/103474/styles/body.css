@@ -20,6 +20,10 @@ body.theme_11 .wrapper .latest-section h2.section-title > i {
   color: #fc444d !important;
 }
 
+body .content-area .page-section {
+  margin: 15px 0 0;
+}
+
 body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
   background: transparent !important;
   border-color: #333 !important;
