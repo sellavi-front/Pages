@@ -168,13 +168,13 @@ export default function desinfectedFrames() {
     минимуму риск повреждения электрическим током.
   </p>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612772893/102273/shapka-gotovaja-2_1_1_xeczyj.png"
         alt=""
       />
     </div>
-    <div class="col-md-6">
+    <div class="col">
       <p>
         В комплекте с системой «ЭкоШлюз» идет экологичное безопасное дезинфицирующее средство
         «ПОЛИСЕПТ» ®, в состав которого входит – очищенная вода 99%, полигексаметиленгуанидин
@@ -203,7 +203,7 @@ export default function desinfectedFrames() {
   <div class="mt-3 mb-3">
     <p><b>Установка системы «ЭкоШлюз» в Covid госпитале:</b></p>
     <div class="row mb-5">
-      <div class="col-md-6">
+      <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_122_expids.png"
           class="w-100"
@@ -226,11 +226,11 @@ export default function desinfectedFrames() {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612773182/102273/image_126_vb5hwl.png"
         alt=""
-        class="col-md-6"
+        class="col"
       /><img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612773182/102273/image_125_xrs7q8.png"
         alt=""
-        class="col-md-6"
+        class="col"
       />
     </div>
   </div>
@@ -405,7 +405,7 @@ export default function desinfectedFrames() {
   <h3><b>Класс – «МИНИ»</b></h3>
   <p>Федеральный округ Центральный. Регион производства – Москва</p>
   <div class="row mb-3">
-    <div class="col-md-6">
+    <div class="col">
       <p><b>а) Рамка для дезинфекции персонала АТР </b></p>
       <p>
         Напряжение 220 В <br />
@@ -425,7 +425,7 @@ export default function desinfectedFrames() {
         Запаса разведенного раствора 80 литров достаточно для дезинфекции примерно 2600 человек
       </p>
     </div>
-    <div class="col-md-6">
+    <div class="col">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612775414/102273/image_127_oktosm.png"
         alt=""
@@ -433,7 +433,7 @@ export default function desinfectedFrames() {
     </div>
   </div>
   <div class="row mb-3">
-    <div class="col-md-6">
+    <div class="col">
       <p><b>б) Автоматизированная система дезинфекции для рук и ног </b></p>
       <p>
         Выполнено из стеклопластика большая ударопрочность <br />
@@ -449,7 +449,7 @@ export default function desinfectedFrames() {
         Размеры в упаковке: 100 x 60 x 20 см<br />
       </p>
     </div>
-    <div class="col-md-6">
+    <div class="col">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612775414/102273/image_129_p7wvps.png"
         alt=""
