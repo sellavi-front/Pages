@@ -103,4 +103,8 @@
     body.sidenav-enabled.ltr .flexy>.arrow {
         left: 0 !important;
     }
+
+    .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .panel-collapse > ul > li > a:after {
+        display: none; 
+    }
 }
