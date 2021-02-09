@@ -191,13 +191,13 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     left: -200px;
 }
 
-#home > div:nth-child(4) {
+/* #home > div:nth-child(4) {
     position: absolute;
     top: 600px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 #home > div:nth-child(4) > img {
     width: 500px;
