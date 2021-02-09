@@ -226,11 +226,11 @@ export default function desinfectedFrames() {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612773182/102273/image_126_vb5hwl.png"
         alt=""
-        class="col"
+        class="col col-md-6"
       /><img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612773182/102273/image_125_xrs7q8.png"
         alt=""
-        class="col"
+        class="col col-md-6"
       />
     </div>
   </div>
