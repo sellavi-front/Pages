@@ -12,7 +12,7 @@
 @import './charity/charity.css';
 
 .button_link {
-  background: #455C6B;
+  background: #455c6b;
   width: 100%;
   max-width: 1140px;
   color: white !important;
@@ -23,37 +23,63 @@
 }
 
 .id_link {
-  color: #35867B;
+  color: #35867b;
   font-size: 22px;
   text-decoration: underline !important;
 }
 .col-3 {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
   max-width: 25% !important;
 }
 
 .sect > .row > .col:first-child {
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 body .col-md-6 {
   -webkit-box-flex: 0 !important;
-      -ms-flex: 0 0 50% !important;
-          flex: 0 0 50% !important;
+  -ms-flex: 0 0 50% !important;
+  flex: 0 0 50% !important;
   max-width: 50% !important;
 }
 
 body .col-4 {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 33.33333%;
-          flex: 0 0 33.33333%;
+  -ms-flex: 0 0 33.33333%;
+  flex: 0 0 33.33333%;
   max-width: 33.33333% !important;
-} 
+}
 
 #sellavi_logo {
   margin: 20px auto 0;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 33.33333% !important;
+    flex: 0 0 33.33333% !important;
+    max-width: 33.33333% !important;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
 }
