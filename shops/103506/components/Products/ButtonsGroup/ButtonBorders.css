@@ -129,6 +129,7 @@ body .section-title {
 body.ltr .btn-theme {
   background-color: var(--defaultBtn);
   border-color: transparent !important;
+  color: var(--colored) !important;
 }
 
 .product-product .product-single .buttons .btn-cart:hover {
@@ -159,6 +160,19 @@ body.ltr .btn-theme {
   color: var(--colored) !important;
 }
 
+
+body .btn.btn-theme-default {
+  background: var(--defaultBtn) !important;
+  border-color: 0 !important;
+  color: var(--colored) !important;
+  border-width: 0 !important;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
 
 @media (max-width: 495px) {
   .thumbnail .price_actions .add_to_cart {
