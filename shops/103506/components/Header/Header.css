@@ -4,9 +4,14 @@
   border: none !important;
 }
 
-/*body .wrapper header.header .header-wrapper {
-  background: transparent !important;
-}*/
+body .wrapper header.header .header-wrapper {
+  background-color: transparent !important;
+}
+
+body .wrapper header.header .header-wrapper .colored {
+  background-color: #efdfc5 !important;
+}
+
 
 .wrapper header.header {
   z-index: 999;
