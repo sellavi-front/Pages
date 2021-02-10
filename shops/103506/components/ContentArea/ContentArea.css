@@ -5,7 +5,7 @@
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (max-width: 480px) {
   body .content-area .page-section {
     position: relative;
     padding-top: 25% !important;
