@@ -26,12 +26,12 @@
 
 @media screen and (min-width: 411px) {
   body.ltr .wrapper header.header .logo {
-    margin: 0 0 0 85px !important;
+    margin: 0 0 0 84px !important;
   }
 }
 
 @media screen and (min-width: 414px) {
   body.ltr .wrapper header.header .logo {
-    margin: 0 0 0 80px !important;
+    margin: 0 0 0 85px !important;
   }
 }

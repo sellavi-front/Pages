@@ -37,3 +37,13 @@ label,
 body {
   background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
 }
+
+@media screen and (min-width: 320px) {
+  .logo {
+    display: none;
+  }
+
+  body.theme_7 .wrapper header.header .header-wrapper .mobile-navigation-wrapper {
+    top: 45px !important;
+  }
+}
