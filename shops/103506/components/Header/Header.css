@@ -8,10 +8,10 @@ body .wrapper header.header .header-wrapper {
   background-color: transparent !important;
 }
 
+/* Header color  on !home pages */
 body .wrapper header.header .header-wrapper.colored {
-  background-color: #efdfc5 !important;
+  background-color: #dac5a3 !important;
 }
-
 
 .wrapper header.header {
   z-index: 999;
