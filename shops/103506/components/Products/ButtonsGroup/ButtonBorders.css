@@ -29,7 +29,8 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 }
 
 .product-product .product-single .buttons .quantity .btn:hover {
-  color: var(--colored);
+  color: var(--colored) !important;
+  background: var(--btnHover) !important;
 }
 
 .thumbnail .price_actions .add_to_cart {
