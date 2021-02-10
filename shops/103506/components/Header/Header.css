@@ -10,7 +10,7 @@ body .wrapper header.header .header-wrapper {
 
 /* Header color  on !home pages */
 body .wrapper header.header .header-wrapper.colored {
-  background-color: #dac5a3 !important;
+  background-color: #d9c5a4 !important;
 }
 
 .wrapper header.header {
@@ -34,3 +34,6 @@ body.common-home.ltr header.header .header-wrapper {
   z-index: 999;
 }
 
+#search > div.search_field > input::placeholder {
+  color: white !important;
+}

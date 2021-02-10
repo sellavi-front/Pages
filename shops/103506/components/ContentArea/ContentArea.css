@@ -1,4 +1,9 @@
 @media screen and (min-width: 991px) {
+  body.product-product .content-area .page-section {
+    position: relative;
+    padding-top: 10% !important;
+  }
+
   body .content-area .page-section {
     position: relative;
     padding-top: 5% !important;
