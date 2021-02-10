@@ -23,9 +23,12 @@ body.ltr .cart-wrapper {
 .header-cart .cart-wrapper #cart {
   background: 0;
   padding: 0;
-  color: #fff !important;
+  color: var(--defaultColor) !important;
   position: relative;
   top: 4px !important;
+}
+.header-cart .cart-wrapper #cart.colored{
+  color: var(--colored) !important;
 }
 
 .header-cart .cart-wrapper #cart i {
