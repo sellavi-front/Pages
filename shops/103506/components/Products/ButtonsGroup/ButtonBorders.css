@@ -118,8 +118,8 @@ body .section-title {
   margin-left: 5px;
   max-width: 100%;
   background-color: var(--defaultBtn) !important;
-  border-color: 0 !important;
-  border-width: 3px;
+  border-color: transparent !important;
+  border-width: 0 !important;
   color: var(--colored) !important;
   height: 60px;
   width: 270px;
