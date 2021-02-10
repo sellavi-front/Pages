@@ -1,6 +1,6 @@
 //import './../../../../components/HeaderTypeTwo/HeaderTypeTwo.js'
 
-const headerWidgets = document.querySelector(".header-wrapper>div").insertAdjacentHTML("beforeend", "<div class='header_widgets'></div>")
+document.querySelector(".header-wrapper>div").insertAdjacentHTML("beforeend", "<div class='header_widgets'></div>")
 const headerContainer = document.querySelector('.header-wrapper>div');
 const cartI = document.querySelector('body .header-cart i');
 const wishList = `
