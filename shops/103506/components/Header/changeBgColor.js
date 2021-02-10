@@ -1,10 +1,18 @@
 import Paths from "../../path/paths.js"
 
-const headerWrapper = document.querySelector(".header-wrapper")
-const burger = document.querySelector(".mobile-navigation-wrapper")
+const headerWidgets = [
+  document.querySelector(".header-wrapper"),
+  document.querySelector(".mobile-navigation-wrapper"),
+  document.querySelector("#cart"),
+  document.querySelector("#wishlist"),
+  document.querySelector("#login"),
+  document.querySelector(".header .header-search button"),
+  document.querySelector("#search > div.search_field > input")
+]
+
 if ( !Paths.home ) {
-  console.log(1)
-  headerWrapper.classList.add('colored')
-  burger.classList.add('colored')
+  headerWidgets.forEach(item => {
+    item.classList.add('colored')
+  })
 }
 
