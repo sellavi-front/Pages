@@ -2,7 +2,7 @@
 @import "./Search/Search.css";
 @import "./MobileVersion.css";*/
 
-.wrapper .header .header-wrapper .header_widgets .header-cart,
+/*.wrapper .header .header-wrapper .header_widgets .header-cart,
 .wrapper .header .header-wrapper .header_widgets .header_login>a {
   background: none !important;
   min-width: 24px !important;
@@ -61,4 +61,4 @@ body
   .wrapper .header .header-wrapper .header_widgets {
     position: absolute !important;
   }
-}
+}*/

@@ -34,7 +34,7 @@ body.ltr .cart-wrapper {
   padding: 0;
   color: #fff !important;
   position: relative;
-  top: 2px !important;
+  top: 4px !important;
 }
 
 .header-cart .cart-wrapper #cart i {
@@ -46,6 +46,31 @@ body.ltr .cart-wrapper {
 
 #login, #wishlist {
   font-size: 21px !important;
-  top: 30px !important;
+  top: 28px !important;
   margin-left: 15px !important;
+}
+
+body.ltr .wrapper header.header .header-search input {
+  background-color: transparent !important;
+}
+
+.form-control {
+  height: 40px;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: #fff !important;
+  border-bottom: 2px solid #fff !important;
+}
+
+.header .header-search button {
+  position: absolute;
+  left: 3px;
+  top: 4px;
+  cursor: pointer;
+  background-color: hsla(0,0%,100%,0);
+  border: none;
+  padding: 2px 8px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff !important;
 }
