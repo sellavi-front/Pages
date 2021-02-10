@@ -450,51 +450,51 @@ const disinfectantsPages = () => {
         - Никакой опасности при передозировке
       </p>
     </div>
-    <div class="d-flex flex-wrap">
+    <div class="row">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184794/102273/4_3_sbb3pt.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/sert2_2_kc6iml.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/Group_7423519_fdvkee.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/Group_7423519_fdvkee.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/190220_4457_tktxzq.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/sert4_j8rcc4.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/190220_318_rmoirg.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/copy_2_laexg7.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/1_1_dxnnsp.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
     </div>
   </div>
