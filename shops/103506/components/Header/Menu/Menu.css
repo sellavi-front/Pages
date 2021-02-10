@@ -9,3 +9,8 @@
   justify-content: flex-end !important;
 }
 
+#login, #wishlist {
+  font-size: 18px !important;
+  top: 30px !important;
+  margin-left: 15px !important;
+}
