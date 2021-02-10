@@ -99,6 +99,14 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
   }
 }
 */
+
+body.ltr > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
+  height: 40px;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: #000 !important;
+  border-bottom: 2px solid #fff !important;
+}
 .wrapper .header .header-wrapper .header-search.opened #search_results>a .item_data {
   padding: 0 5px 0 10px !important;
 }
