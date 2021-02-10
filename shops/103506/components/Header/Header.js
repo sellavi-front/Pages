@@ -1,6 +1,9 @@
 //import './../../../../components/HeaderTypeTwo/HeaderTypeTwo.js'
 
-const headerContainer = document.querySelector('.common-home > div > header > div.header-wrapper > div.container-fluid');
+const headerContainer = document.querySelector('.common-home > div > header > div.header-wrapper > div.container-fluid')
+const cartI = document.querySelector('body .header-cart i')
+cartI.classList.add('far');
+cartI.classList.remove('fal');
 const wishList = `
     <a
       id="wishlist"
