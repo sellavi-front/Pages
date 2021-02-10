@@ -64,7 +64,7 @@ body.ltr .wrapper header.header .header-search input {
 
 .header .header-search button {
   position: absolute;
-  left: px;
+  left: 3px;
   top: 6px;
   cursor: pointer;
   background-color: hsla(0,0%,100%,0);
