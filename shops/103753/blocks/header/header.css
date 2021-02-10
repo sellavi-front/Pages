@@ -58,3 +58,8 @@ section.page-section.subcategories_top > div > div > div > div > div > a {
 body.ltr .wrapper .header .header-wrapper .logo {
     z-index: 2 !important;
 }
+
+.sf-menu .flexy.has_children ul {
+    margin: 0 0;
+    padding-top: 50px;
+}
