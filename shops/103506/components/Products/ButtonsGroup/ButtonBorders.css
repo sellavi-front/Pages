@@ -1,3 +1,5 @@
+@import './../../../style/style.css';
+
 .thumbnail .add_to_wishlist {
   position: initial !important;
   height: 100%;
@@ -10,19 +12,19 @@
 
 .thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
   border-radius: 5px !important;
-  background: #E3B788 !important;
+  background: var(--defaultBtn);
   height: 100%;
-  border: 0!important;
-  color: black !important;
+  border: 0 !important;
+  color: var(--colored) !important;
   font-weight: 100;
 }
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
   border-radius: 5px !important;
-  background: #E7A45D !important;
+  background: var(--btnHover);
   height: 100%;
   border: 0;
-  color: black !important;
+  color: var(--colored) !important;
   font-weight: 100;
 }
 
@@ -40,7 +42,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 
 
 body .btn.btn-theme.btn-theme-transparent:hover i {
-  color: rgb(0, 0, 0) !important;
+  color: var(--colored) !important;
 }
 
 body  .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
@@ -77,6 +79,19 @@ body .section-title {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.product-product .product-single .buttons .quantity .btn {
+  float: right;
+  background-color: var(--defaultBtn);
+  color: var(--colored);
+  padding: 0;
+  max-height: 60px;
+}
+
+product-product .product-single .buttons .quantity .btn:hover {
+  background-color: var(--btnHover);
+  color: var(--colored);
 }
 
 
