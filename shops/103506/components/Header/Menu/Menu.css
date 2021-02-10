@@ -18,4 +18,8 @@
     justify-content: center;
     right: 15px !important;
   }
+
+  #login, #wishlist {
+    display: none;
+  }
 }
