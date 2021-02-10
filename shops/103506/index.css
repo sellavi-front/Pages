@@ -34,11 +34,13 @@ label,
   font-family: 'Montserrat', sans-serif !important;
 }
 
+/* CUSTOM STYLES FOR SHOP */
+
 body {
   background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 376px) {
   .logo {
     display: none;
   }
@@ -47,3 +49,5 @@ body {
     top: 45px !important;
   }
 }
+
+/* END */
