@@ -41,7 +41,7 @@ body.ltr .cart-wrapper {
 #login, #wishlist {
   font-size: 21px !important;
   top: 28px !important;
-  margin-left: 15px !important;
+  margin: 0 8px !important;
   color: var(--defaultColor) !important;
 }
 
