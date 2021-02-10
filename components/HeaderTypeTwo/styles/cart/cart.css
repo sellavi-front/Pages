@@ -54,3 +54,9 @@ body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
   }
 }
 
+@media (max-width: 495px) {
+  body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+    left: -50px !important;
+  }
+}
+
