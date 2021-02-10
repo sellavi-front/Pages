@@ -1,8 +1,6 @@
 //import './../../../../components/HeaderTypeTwo/HeaderTypeTwo.js'
 
-document.querySelector(".header-wrapper>div").insertAdjacentHTML("beforeend", "<div class='header_widgets'></div>")
-const headerContainer = document.querySelector('.header-wrapper>div');
-const cartI = document.querySelector('body .header-cart i');
+const headerContainer = document.querySelector('.common-home > div > header > div.header-wrapper > div.container-fluid');
 const wishList = `
     <a
       id="wishlist"
@@ -16,7 +14,7 @@ const wishList = `
 
 headerContainer.insertAdjacentHTML(
   'beforeend',
-  `<div class="header_widgets">${wishList}${cartI.outerHTML}</div>`,
+  `<div class="header_widgets">${wishList}</div>`,
 );
 /*
 cart.remove();*/
