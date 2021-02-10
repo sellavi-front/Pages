@@ -27,7 +27,12 @@ body.ltr .wrapper header.header .header-search input {
   border-radius: 0 !important;
   border: 0 !important;
   color: var(--defaultColor);
-  border-bottom: 2px solid #fff !important;
+  border-bottom: 2px solid var(--defaultColor);
+}
+
+#search > div.search_field > input.colored {
+  color: var(--defaultColor);
+  border-bottom: 2px solid var(--colored);
 }
 
 .header .header-search button {
