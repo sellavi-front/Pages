@@ -49,7 +49,7 @@ const medTech = () => {
       </li>
     </ol>
   </div>
-  <div class="sect" name="1">
+  <div class="sect" id="1">
     <h1 class="mb-3"> 1. Мед оборудование для УВТ </h1>
 
     <h3>
@@ -298,7 +298,7 @@ const medTech = () => {
         </div>
       </div>
     </div>
-    <div class="sect mt-4" name="2">
+    <div class="sect mt-4" id="2">
       <h3><b>2. Мед оборудование для эстетической косметологии </b></h3>
       <h4><b>Платформа lnMode - прорыв эстетической косметологии Инновационное Решение</b></h4>
       <p>
@@ -1084,7 +1084,7 @@ const medTech = () => {
       </div>
     </div>
     <div class="sect">
-    <h2 class="mb-3" name="3">
+    <h2 class="mb-3" id="3">
       3. Мед оборудование для эффективного лечения синдрома обструктивного апноэ сна
     </h2>
 
@@ -1217,7 +1217,7 @@ const medTech = () => {
     </div>
   </div>
 
-  <div class="sect" name="4">
+  <div class="sect" id="4">
     <h2 class="mb-3">
       4. Медицинская Диагностика и Терапия по биологически активным точкам и биологически активным
       зонам «КМДТ»
@@ -1366,7 +1366,7 @@ const medTech = () => {
     </div>
   </div>
 
-  <div class="sect" name="5">
+  <div class="sect" id="5">
     <h2 class="mb-3">5. Производство медицинских изделий</h2>
 
     <h3>завод по производству медицинских изделий</h3>
@@ -1435,7 +1435,7 @@ const medTech = () => {
     </div>
   </div>
 
-  <div class="sect" name="6">
+  <div class="sect" id="6">
     <h3>6. SmoothEye</h3>
 
     <img
@@ -1444,7 +1444,7 @@ const medTech = () => {
     />
   </div>
 
-  <div class="sect" name="7">
+  <div class="sect" id="7">
     <h3>7. SmoothLips</h3>
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612275695/6_8710066_f9b8yt.png"
@@ -1452,7 +1452,7 @@ const medTech = () => {
     />
   </div>
 
-  <div class="sect" name="8">
+  <div class="sect" id="8">
     <h3>8. Endermologie</h3>
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612276238/Group_7423522_sdrsm2.png"
@@ -1472,7 +1472,7 @@ const medTech = () => {
     />
   </div>
 
-  <div class="sect" name="9">
+  <div class="sect" id="9">
     <h3>9. Видеоэндоскопическая система SonoScape HD-500</h3>
     <p>
       Пандемия Covid-19 ещё раз подчеркнула значение и крайнюю важность соблюдения мер
@@ -1755,7 +1755,7 @@ const medTech = () => {
     </div>
   </div>
 
-  <div class="sect" name="10">
+  <div class="sect" id="10">
     <h3>10. Противовирусная антимикробная пленка из меди</h3>
     <p>
       Компании «YOOSUNG TRANS GLOBAL», наш постоянный партнер и эксклюзивный производитель -
