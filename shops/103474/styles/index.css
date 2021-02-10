@@ -315,6 +315,10 @@ body.theme_11 .wrapper .page-section .products.grid {
     margin-top: 50px !important;
   }
 
+  body.checkout-checkout > div.content-area > section > div.flexwrap.checkout_form > div.register_block > form.form_checkout > div.checkbox.customized.clearfix > label > a {
+    text-decoration: underline !important;    
+  }
+
   .categories__container {
     display: -webkit-box;
     display: -ms-flexbox;
