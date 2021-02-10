@@ -133,7 +133,7 @@ body.ltr .btn.btn-theme {
 }
 
 body.ltr .btn.btn-theme:hover {
-  background-color: var(--defaultBtn) !important;
+  background-color: var(--btnHover) !important;
   border-color: transparent !important;
   color: var(--colored) !important;
 }
