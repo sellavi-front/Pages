@@ -34,9 +34,9 @@ let login = `
 
 let widgetsBlock = `<div class='widgets_block'>
     ${newHeaderSearch.outerHTML}
-    ${newHeaderCart.outerHTML}
     ${wishList}
     ${login}
+    ${newHeaderCart.outerHTML}
 </div>`
 
 headerContainer.insertAdjacentHTML("beforeend", widgetsBlock)
