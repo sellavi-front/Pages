@@ -9,3 +9,13 @@
   justify-content: flex-end !important;
 }
 
+@media screen and (max-width: 992px) {
+  body.theme_7 .wrapper header.header .header-wrapper .cart-wrapper .cart_drop_down {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: auto !important;
+    justify-content: center;
+    right: 15px !important;
+  }
+}
