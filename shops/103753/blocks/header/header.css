@@ -35,6 +35,15 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 
 .sf-menu .flexy.has_children > ul > .megaline {
     padding: 50px 20%;
+    top: 10px;
+}
+
+.sf-menu li:hover>a {
+    color: #000 !important;
+}
+
+body.theme-blue-2 .sf-menu li.megamenu ul a:hover {
+    color: #8f8f8f !important;
 }
 
 header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamenu.active > a {
