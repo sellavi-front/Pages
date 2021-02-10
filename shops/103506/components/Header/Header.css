@@ -1,3 +1,5 @@
+@import './../../style/style.css';
+
 @import './Menu/Menu.css';
 
 .header {
@@ -5,12 +7,12 @@
 }
 
 body .wrapper header.header .header-wrapper {
-  background-color: transparent !important;
+  background-color: var(--defaultHeaderColor);
 }
 
 /* Header color  on !home pages */
 body .wrapper header.header .header-wrapper.colored {
-  background-color: #d9c5a4 !important;
+  background-color: var(--headerColored);
 }
 
 .wrapper header.header {
@@ -24,7 +26,7 @@ body .wrapper header.header .header-wrapper.colored {
 }
 
 .header .navigation-wrapper {
-  background-color: #f5f6f7;
+  background-color: var(--defaultColor);
   border-top: 0 !important;
 }
 
@@ -35,5 +37,5 @@ body.common-home.ltr header.header .header-wrapper {
 }
 
 #search > div.search_field > input::placeholder {
-  color: white !important;
+  color: var(--defaultColor);
 }
