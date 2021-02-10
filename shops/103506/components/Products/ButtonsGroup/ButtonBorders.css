@@ -127,7 +127,13 @@ body .section-title {
 }
 
 body.ltr .btn-theme {
-  background-color: var(--defaultBtn);
+  background-color: var(--defaultBtn) !important;
+  border-color: transparent !important;
+  color: var(--colored) !important;
+}
+
+body.ltr .btn.btn-theme:hover {
+  background-color: var(--defaultBtn) !important;
   border-color: transparent !important;
   color: var(--colored) !important;
 }
@@ -173,6 +179,7 @@ body .btn.btn-theme-default {
   text-transform: uppercase;
   transition: all .2s ease-in-out;
 }
+
 
 @media (max-width: 495px) {
   .thumbnail .price_actions .add_to_cart {
