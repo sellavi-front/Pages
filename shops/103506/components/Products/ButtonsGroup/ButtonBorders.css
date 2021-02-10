@@ -126,7 +126,7 @@ body .section-title {
   border-radius: 0;
 }
 
-body.ltr .btn-theme {
+body.ltr .btn.btn-theme {
   background-color: var(--defaultBtn) !important;
   border-color: transparent !important;
   color: var(--colored) !important;
