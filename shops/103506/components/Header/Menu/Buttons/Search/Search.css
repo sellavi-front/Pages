@@ -32,7 +32,7 @@ body.ltr .wrapper header.header .header-search input {
 
 #search > div.search_field > input.colored {
   color: var(--defaultColor);
-  border-bottom: 2px solid var(--colored);
+  border-bottom: 2px solid var(--colored) !important;
 }
 
 .header .header-search button {
