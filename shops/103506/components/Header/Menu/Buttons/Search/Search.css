@@ -5,7 +5,7 @@ body.ltr > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_se
   border-radius: 0 !important;
   border: 0 !important;
   color: var(--colored);
-  border-bottom: 2px solid var(--colored);
+  border-bottom: 2px solid var(--colored) !important;
 }
 .wrapper .header .header-wrapper .header-search.opened #search_results>a .item_data {
   padding: 0 5px 0 10px !important;
