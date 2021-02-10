@@ -2,6 +2,7 @@
   /* Header */
   --defaultColor: #fff !important;
   --colored: #000 !important;
-  --headerColored: #000 !important;
+  --defaultHeaderColor: transparent !important;
+  --headerColored: hsla(0,0%,100%,.58) !important;
   --placeholderColor: #fff !important;
 }

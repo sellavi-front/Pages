@@ -17,7 +17,7 @@
   font-weight: 100;
 }
 
-.body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
   border-radius: 5px !important;
   background: #E7A45D !important;
   height: 100%;
