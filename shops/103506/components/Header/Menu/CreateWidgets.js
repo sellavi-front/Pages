@@ -22,13 +22,13 @@ let wishList = `
     </a>
 `;
 
-/*let widgetsBlock = `<div class='widgets_block'>
+let widgetsBlock = `<div class='widgets_block'>
     ${newHeaderSearch.outerHTML}
     ${newHeaderCart.outerHTML}
     ${wishList}
 </div>`
 
-headerContainer.insertAdjacentHTML("beforeend", widgetsBlock)*/
+headerContainer.insertAdjacentHTML("beforeend", widgetsBlock)
 oldHeaderSearch.remove()
 oldHeaderCart.remove()
 
