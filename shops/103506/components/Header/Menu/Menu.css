@@ -37,8 +37,15 @@ body.ltr .cart-wrapper {
   top: 2px !important;
 }
 
+.header-cart .cart-wrapper #cart i {
+  font-size: 21px;
+  line-height: 11px;
+  padding: 5px 0;
+  margin: 9px 0 9px 7px;
+}
+
 #login, #wishlist {
-  font-size: 18px !important;
+  font-size: 21px !important;
   top: 30px !important;
   margin-left: 15px !important;
 }
