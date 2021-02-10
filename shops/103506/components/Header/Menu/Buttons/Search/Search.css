@@ -4,8 +4,8 @@ body.ltr > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_se
   height: 40px;
   border-radius: 0 !important;
   border: 0 !important;
-  color: #000 !important;
-  border-bottom: 2px solid #000!important;
+  color: var(--colored);
+  border-bottom: 2px solid var(--colored);
 }
 .wrapper .header .header-wrapper .header-search.opened #search_results>a .item_data {
   padding: 0 5px 0 10px !important;
@@ -26,7 +26,7 @@ body.ltr .wrapper header.header .header-search input {
   height: 40px;
   border-radius: 0 !important;
   border: 0 !important;
-  color: #fff !important;
+  color: var(--defaultColor);
   border-bottom: 2px solid #fff !important;
 }
 
@@ -35,12 +35,16 @@ body.ltr .wrapper header.header .header-search input {
   left: 3px;
   top: 6px;
   cursor: pointer;
-  background-color: hsla(0,0%,100%,0);
+  background-color: transparent;
   border: none;
   padding: 2px 8px;
   line-height: 30px;
   font-size: 18px !important;
-  color: #fff !important;
+  color: var(--defaultColor);
+}
+
+.header .header-search button.colored {
+  color: var(--colored);
 }
 
 #search > div.search_field > input::placeholder {
