@@ -135,7 +135,7 @@ export default function desinfectedFrames() {
     alt=""
   />
   <div class="row">
-    <div class="col-3">
+    <div class="col col-md-3">
       <p>
         Базовая комплектация:<br />
         ⦁ Шлюз выполненный из стали AISI304<br />
@@ -143,7 +143,7 @@ export default function desinfectedFrames() {
         ⦁ Штора ПВХ (2мм)<br />
       </p>
     </div>
-    <div class="col-3">
+    <div class="col col-md-3">
       <p>
         Полная комплектация:<br />
         ⦁ Шлюз выполненный из стали AISI304 <br />
