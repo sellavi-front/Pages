@@ -64,13 +64,13 @@ body.ltr .wrapper header.header .header-search input {
 
 .header .header-search button {
   position: absolute;
-  left: 3px;
-  top: 4px;
+  left: px;
+  top: 6px;
   cursor: pointer;
   background-color: hsla(0,0%,100%,0);
   border: none;
   padding: 2px 8px;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 18px !important;
   color: #fff !important;
 }
