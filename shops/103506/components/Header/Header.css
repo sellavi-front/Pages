@@ -4,9 +4,9 @@
   border: none !important;
 }
 
-body .wrapper header.header .header-wrapper {
+/*body .wrapper header.header .header-wrapper {
   background: transparent !important;
-}
+}*/
 
 .wrapper header.header {
   z-index: 999;

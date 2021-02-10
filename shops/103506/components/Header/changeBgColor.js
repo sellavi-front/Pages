@@ -7,5 +7,5 @@ import Paths from "../../path/paths.js"
     console.log(1)
     headerWrapper.classList.add('colored').style.background = `#efdfc5`
     /*document.querySelector(".header-wrapper.colored").style.background = `#efdfc5`*/
-  }
+  } else headerWrapper.style.background = `transparent`
 
