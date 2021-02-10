@@ -19,7 +19,7 @@ let wishList = `
       href="https://${location.host}/index.php?route=login"
       role="link"
     >
-      <i class="far fa-heart text-white"></i>
+      <i class="far fa-heart"></i>
     </a>
 `;
 
@@ -30,7 +30,7 @@ let login = `
       href="https://${location.host}/login/"
       role="link"
     >
-      <i class="fas fa-user text-white"></i>
+      <i class="fas fa-user"></i>
     </a>
 `;
 
