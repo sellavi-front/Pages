@@ -138,6 +138,12 @@ body.ltr .btn.btn-theme:hover {
   color: var(--colored) !important;
 }
 
+body .btn.btn-theme-default:active, body .btn.btn-theme-default:focus, body .btn.btn-theme-default:hover {
+  background: var(--btnHover) !important;
+  border-color: transparent !important;
+  color: var(--colored) !important;
+}
+
 .product-product .product-single .buttons .btn-cart:hover {
   background-color: var(--btnHover) !important;
   color: var(--colored) !important;
