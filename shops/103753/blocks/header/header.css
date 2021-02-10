@@ -67,10 +67,4 @@ body.ltr .wrapper .header .header-wrapper .logo {
 .header-wrapper .mobile_side_nav_menu {
     display: flex;
     margin-left: 25px;
-    justify-content: center !important;
-}
-
-#search > div.search_field > input {
-    border: 2px solid #b8a279 !important;
-    border-radius: 20px !important;
 }
