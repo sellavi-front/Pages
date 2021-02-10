@@ -8,3 +8,7 @@ body.ltr > div > header > div.header-wrapper.colored > div.mobile-navigation-wra
   font-size: 23px;
   color: var(--defaultColor);
 }
+
+.header .header-wrapper .mobile-navigation-wrapper.colored a {
+  color: var(--colored);
+}
