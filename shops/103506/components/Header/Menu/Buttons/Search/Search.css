@@ -40,7 +40,7 @@ body.ltr .wrapper header.header .header-search input {
   left: 3px;
   top: 6px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: hsla(0, 0%, 100%, 0);
   border: none;
   padding: 2px 8px;
   line-height: 30px;
