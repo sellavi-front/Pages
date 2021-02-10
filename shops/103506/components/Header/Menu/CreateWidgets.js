@@ -1,6 +1,5 @@
 
-
-let headerContainer = document.querySelector("body.ltr > div > header > div.header-wrapper > div.container-fluid")
+let headerContainer = document.querySelector("body.ltr > div > header > div.header-wrapper > div.container-fluid > div.logo")
 
 // Getting old elements
 let oldHeaderCart = document.querySelector(".header-cart")
