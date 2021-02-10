@@ -1,4 +1,4 @@
-let widgetsBlock = `<div class='widgets_block'></div>`
+
 
 let headerContainer = document.querySelector("body.ltr > div > header > div.header-wrapper > div.container-fluid")
 
@@ -23,7 +23,14 @@ let wishList = `
     </a>
 `;
 
+let widgetsBlock = `<div class='widgets_block'>
+    ${wishList}
+    ${newHeaderSearch.outerHTML}
+    ${newHeaderCart.outerHTML}
+</div>`
+
 headerContainer.insertAdjacentHTML("beforeend", widgetsBlock)
+
 
 
 
