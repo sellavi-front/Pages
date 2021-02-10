@@ -55,3 +55,7 @@ body.ltr .wrapper header.header .header-search input {
 #search > div.search_field > input::placeholder {
   color: var(--defaultColor) !important;
 }
+
+#search > div.search_field > input.colored::placeholder {
+  color: var(--colored) !important;
+}
