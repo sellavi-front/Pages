@@ -126,6 +126,11 @@ body .section-title {
   border-radius: 0;
 }
 
+body.ltr .btn-theme {
+  background-color: var(--defaultBtn);
+  border-color: transparent !important;
+}
+
 .product-product .product-single .buttons .btn-cart:hover {
   background-color: var(--btnHover) !important;
   color: var(--colored) !important;
