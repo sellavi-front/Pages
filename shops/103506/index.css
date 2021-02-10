@@ -1,53 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
 @import '../../modules/Requisites/Requisites.css';
-
+@import './custom-styles/custom-styles.css';
 @import './components/Header/Header.css';
 @import './components/ContentArea/ContentArea.css';
 @import './components/Products/Products.css';
 @import './components/Footer/Footer.css';
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6,
-body p,
-body a,
-body span,
-body b,
-body strong,
-.price,
-.product-price,
-.product-availability,
-.product-product .product-single table .title,
-.text-right,
-.input-payment-firstname,
-.input-payment-lastname,
-.input-payment-email,
-.input-payment-telephone,
-.input-payment-address-1,
-.input-payment-postcode,
-label,
-.input-payment-firstname {
-  font-family: 'Montserrat', sans-serif !important;
-}
-
-/* CUSTOM STYLES FOR SHOP */
-
-body {
-  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
-}
-
-@media screen and (min-width: 320px) and (max-width: 374px) {
-  .logo {
-    display: none;
-  }
-
-  body.theme_7 .wrapper header.header .header-wrapper .mobile-navigation-wrapper {
-    top: 45px !important;
-  }
-}
-
-/* END */
