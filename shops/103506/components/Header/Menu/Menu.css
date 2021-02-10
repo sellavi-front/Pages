@@ -1,3 +1,11 @@
 @import './Burger/Burger.css';
 @import './Buttons/Buttons.css';
 @import './Logo/Logo.css';
+
+.widgets_block {
+  display: flex !important;
+  width: 100% !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+}
+
