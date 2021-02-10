@@ -8,7 +8,7 @@ body .wrapper header.header .header-wrapper {
   background-color: transparent !important;
 }
 
-body .wrapper header.header .header-wrapper .colored {
+body .wrapper header.header .header-wrapper.colored {
   background-color: #efdfc5 !important;
 }
 
