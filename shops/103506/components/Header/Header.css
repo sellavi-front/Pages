@@ -36,6 +36,3 @@ body.common-home.ltr header.header .header-wrapper {
   z-index: 999;
 }
 
-#search > div.search_field > input::placeholder {
-  color: var(--defaultColor);
-}

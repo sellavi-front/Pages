@@ -1,3 +1,5 @@
+@import './../../../../../style/style.css';
+
 body.ltr > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
   height: 40px;
   border-radius: 0 !important;
@@ -39,4 +41,8 @@ body.ltr .wrapper header.header .header-search input {
   line-height: 30px;
   font-size: 18px !important;
   color: #fff !important;
+}
+
+#search > div.search_field > input::placeholder {
+  color: var(--defaultColor);
 }
