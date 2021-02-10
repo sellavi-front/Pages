@@ -35,3 +35,9 @@
     margin: 0 0 0 85px !important;
   }
 }
+
+@media screen and (min-width: 900px) {
+  body.ltr .wrapper header.header .logo {
+    margin: 0 0 0 150px !important;
+  }
+}
