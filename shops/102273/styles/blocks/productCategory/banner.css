@@ -162,3 +162,9 @@ body.product-category .content-area .page-section.titles .container h1 {
     color: white;
   }
 }
+
+@media (max-width: 495px) {
+  body.product-category .content-area .page-section.titles .container h1 {
+    font-size: 28px;
+  }
+}

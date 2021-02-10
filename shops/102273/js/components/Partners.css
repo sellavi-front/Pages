@@ -7,7 +7,7 @@
 }
 
 .partner {
-  height: 280px;
+  min-height: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,4 +30,6 @@
 
 .partner img {
   margin-bottom: 20px;
+  max-width: 300px;
+  width: 100%;
 }
