@@ -1,4 +1,6 @@
 document.querySelector("body.ltr > div > header > div.header-wrapper > div.container-fluid").classList.add("d-flex")
+document.querySelector("#cart > span").classList.remove("d-lg-none")
+document.querySelector("#cart > span").classList.add("d-lg")
 let headerContainer = document.querySelector("body.ltr > div > header > div.header-wrapper > div.container-fluid.d-flex")
 
 // Getting old elements
