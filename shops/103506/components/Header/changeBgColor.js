@@ -6,6 +6,6 @@ import Paths from "../../path/paths.js"
   if ( !Paths.home ) {
     console.log(1)
     headerWrapper.classList.add('colored')
-    document.querySelector(".header-wrapper.colored").style.background = `#efdfc5 !important`
-  } else headerWrapper.style.background = `transparent !important`
+    document.querySelector(".header-wrapper.colored").style.backgroundColor = `#efdfc5 !important`
+  } else headerWrapper.style.backgroundColor = `transparent !important`
 
