@@ -1,5 +1,5 @@
-body.product-category .content-area .page-section.titles,
-body.information-information .content-area .page-section.titles {
+body.product-category .content-area .page-section.titles > div,
+body.information-information .content-area .page-section.titles > div {
   background-position: center !important;
 }
 
