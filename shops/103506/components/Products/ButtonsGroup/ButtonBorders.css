@@ -142,6 +142,18 @@ body.ltr .btn-theme {
   color: #000;
 }
 
+.product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list {
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60px;
+  height: 60px;
+  border: 0 !important;
+  background-color: var(--defaultBtn) !important;
+  color: var(--colored) !important;
+  border-radius: 0;
+}
+
 
 @media (max-width: 495px) {
   .thumbnail .price_actions .add_to_cart {
