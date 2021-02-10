@@ -14,13 +14,6 @@
   font-size: 23px;
 }
 
-/*.cart-wrapper .dropdown {
-  padding: 8% 0 !important;
-}*/
-
-.common-home .header-cart .cart-wrapper #cart {
-  padding-left: 10px !important;
-}
 
 .header-cart .cart-wrapper .cart-qty-circle {
   line-height: 20px !important;
