@@ -26,8 +26,8 @@ body.ltr .wrapper header.header .header-search input {
   height: 40px;
   border-radius: 0 !important;
   border: 0 !important;
-  color: var(--defaultColor);
-  border-bottom: 2px solid var(--defaultColor);
+  color: var(--defaultColor) !important;
+  border-bottom: 2px solid var(--defaultColor) !important;
 }
 
 #search > div.search_field > input.colored {
@@ -45,13 +45,13 @@ body.ltr .wrapper header.header .header-search input {
   padding: 2px 8px;
   line-height: 30px;
   font-size: 18px !important;
-  color: var(--defaultColor);
+  color: var(--defaultColor) !important;
 }
 
 .header .header-search button.colored {
-  color: var(--colored);
+  color: var(--colored) !important;
 }
 
 #search > div.search_field > input::placeholder {
-  color: var(--defaultColor);
+  color: var(--defaultColor) !important;
 }
