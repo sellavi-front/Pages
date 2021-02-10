@@ -8,9 +8,9 @@
           align-items: center;
 }
 
-.header_widgets div {
+/* .header_widgets div {
   padding: 0 !important;
-}
+} */
 
 @media (max-width: 991px) {
   body.ltr .wrapper .header .header-wrapper .header_widgets {
