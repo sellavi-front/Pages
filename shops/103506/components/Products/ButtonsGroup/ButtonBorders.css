@@ -136,6 +136,12 @@ body.ltr .btn-theme {
   color: var(--colored) !important;
 }
 
+.product-product .product-single .buttons .quantity .qty:focus {
+  background: #fff;
+  border: 0 !important;
+  color: #000;
+}
+
 
 @media (max-width: 495px) {
   .thumbnail .price_actions .add_to_cart {
