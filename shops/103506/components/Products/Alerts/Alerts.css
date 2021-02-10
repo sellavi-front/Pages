@@ -1,0 +1,23 @@
+.alert {
+  border-radius: 0;
+  padding: 25px 20px 12px 35px !important;
+}
+
+.alert-success {
+  color: #666;
+  background-color: #f3ffef;
+  border-color: #e9e9e9;
+  text-align: right;
+  z-index: 999 !important;
+  height: 80px !important;
+}
+
+body.ltr .alert button.close {
+  position: absolute;
+  right: 20px;
+  left: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  top: -5px !important;
+}
