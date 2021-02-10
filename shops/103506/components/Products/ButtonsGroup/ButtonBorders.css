@@ -28,6 +28,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   font-weight: 100;
 }
 
+.product-product .product-single .buttons .quantity .btn:hover {
+  color: var(--colored);
+}
+
 .thumbnail .price_actions .add_to_cart {
   max-width: 276px !important;
   width: 100%;
