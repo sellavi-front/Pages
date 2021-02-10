@@ -154,6 +154,11 @@ body.ltr .btn-theme {
   border-radius: 0;
 }
 
+.product-product .product-single .buttons .btn-compare:hover, .product-product .product-single .buttons .btn-wish-list:hover {
+  background-color: var(--btnHover) !important;
+  color: var(--colored) !important;
+}
+
 
 @media (max-width: 495px) {
   .thumbnail .price_actions .add_to_cart {
