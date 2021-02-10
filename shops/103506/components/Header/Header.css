@@ -4,7 +4,7 @@
   border: none !important;
 }
 
-.header .header-wrapper {
+body .wrapper header.header .header-wrapper {
   background: transparent;
 }
 
