@@ -52,18 +52,18 @@ if (document.querySelector('.wrapper')) {
       .querySelector('.header_widgets')
       .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
 
-    const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
+    //const headerLoginIco = document.querySelectorAll('.header_login>.d-none.d-sm-block.d-lg-none');
 
-    headerLoginIco[0].classList.forEach((selector) => selectors.push(selector));
+    //headerLoginIco[0].classList.forEach((selector) => selectors.push(selector));
 
-    const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
-    deleteSelectors.findAndDelete();
+    //const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
+    //deleteSelectors.findAndDelete();
   } else {
     headerContainer.insertAdjacentHTML(
       'beforeend',
-      `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`,
+      `<div class="header_widgets">${wishList}${cartI.outerHTML}</div>`,
     );
-    cart.remove();
+    cartI.remove();
   }
 }
 
