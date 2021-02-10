@@ -54,7 +54,7 @@ body.ltr .wrapper header.header .header-search input {
   background-color: transparent !important;
 }
 
-.form-control {
+#search > div.search_field > input {
   height: 40px;
   border-radius: 0 !important;
   border: 0 !important;
