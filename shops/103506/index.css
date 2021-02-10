@@ -5,6 +5,7 @@
 @import './components/Header/Header.css';
 @import './components/Products/Products.css';
 @import './components/Footer/Footer.css';
+@import './components/ContentArea/ContentArea.css';
 
 body h1,
 body h2,

@@ -1,0 +1,16 @@
+@media screen and (min-width: 991px) {
+  body .content-area .page-section {
+    position: relative;
+    padding-top: 10% !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  body .content-area .page-section {
+    position: relative;
+    padding-top: 25% !important;
+  }
+}
+
+
+
