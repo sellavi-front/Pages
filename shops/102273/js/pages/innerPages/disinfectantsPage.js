@@ -179,7 +179,7 @@ const disinfectantsPages = () => {
   <div class="sect" name="2">
     <h3><b>2. «ARGITOS ® ДЕЗ»</b></h3>
     <div class="row flex-wrap">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           <b
             >Органическое дезинфицирующее средство нового поколения на основе наносеребра с
@@ -214,7 +214,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612183952/102273/image_84_r0f1fk.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
@@ -326,7 +326,7 @@ const disinfectantsPages = () => {
   <div class="sect" name="3">
     <h3><b>3. Универсальное дезинфицирующее средство «Серебряная пуля»</b></h3>
     <div class="row">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           Транспорт. Медицина, Производство, Городское хозяйство, Сельское хозяйство,
           Животноводство, Рыбное хозяйство, Молочная промышленность, Кондицианирование и
@@ -368,7 +368,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184240/102273/conservy_1_hg53vz.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
@@ -576,7 +576,7 @@ const disinfectantsPages = () => {
   </div>
   <div class="sect">
     <div class="row flex-wrap">
-      <div class="col-8" name="4">
+      <div class=" col col-md-8" name="4">
         <h3><b>4. «HandDes All» + «Комбидез»</b></h3>
         <p>
           <b
@@ -618,11 +618,11 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612185643/102273/5e60fe9918088552e6aa9b82_1_my695q.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="row flex-wrap">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           <b
             >2. Комбидез (Combides) Финляндия Группа по действующему веществу средства
@@ -650,7 +650,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612185644/102273/combides-5l-1-1-300x300_1_lbvdk3.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="row">
