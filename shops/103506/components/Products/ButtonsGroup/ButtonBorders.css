@@ -21,7 +21,7 @@
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
   border-radius: 5px !important;
-  background: var(--btnHover);
+  background: var(--btnHover) !important;
   height: 100%;
   border: 0;
   color: var(--colored) !important;
@@ -87,15 +87,15 @@ body .section-title {
 
 .product-product .product-single .buttons .quantity .btn {
   float: right;
-  background-color: var(--defaultBtn);
-  color: var(--colored);
+  background-color: var(--defaultBtn) !important;
+  color: var(--colored) !important;
   padding: 0;
   max-height: 60px;
 }
 
 product-product .product-single .buttons .quantity .btn:hover {
-  background-color: var(--btnHover);
-  color: var(--colored);
+  background-color: var(--btnHover) !important;
+  color: var(--colored) !important;
 }
 
 
