@@ -1,4 +1,10 @@
+@import './../../../../style/style.css';
+
+body.ltr > div > header > div.header-wrapper.colored > div.mobile-navigation-wrapper.sticky.colored {
+  color: var(--colored);
+}
+
 .header .header-wrapper .mobile-navigation-wrapper a {
   font-size: 23px;
-  color: #fff !important;
+  color: var(--defaultColor);
 }
