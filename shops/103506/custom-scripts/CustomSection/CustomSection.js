@@ -6,8 +6,6 @@ let mobileDesc = `<div class='container d-flex'><img class='m-description' src='
 let desktopFeatures = `<div class='container d-flex'><img class='d-features' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612963748/sellavi/103506/Group_273_r7kyiz.png' alt='cacao'/></div>`
 let mobileFeatures = `<div class='container d-flex'><img class='m-features' src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612963673/sellavi/103506/Component_4_o4a0xn.png' alt='cacao'/></div>`
 
-
-
 if( screen.width > 480 ) {
   customSection.insertAdjacentHTML("afterbegin", desktopDesc)
   customSection.insertAdjacentHTML("beforeend", desktopFeatures)
