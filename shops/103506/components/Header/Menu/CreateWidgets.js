@@ -24,12 +24,14 @@ let wishList = `
 `;
 
 let widgetsBlock = `<div class='widgets_block'>
-    ${wishList}
     ${newHeaderSearch.outerHTML}
     ${newHeaderCart.outerHTML}
+    ${wishList}
 </div>`
 
 headerContainer.insertAdjacentHTML("beforeend", widgetsBlock)
+oldHeaderSearch.remove()
+oldHeaderCart.remove()
 
 
 
