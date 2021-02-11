@@ -44,17 +44,7 @@ if(pages.home) {
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
   let headerCatalog = document.querySelector(".header-catalog")
-  let headerCatalogLink = document.querySelector(".header-catalog a")
-  headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
-  const listt = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
 
-  listt.forEach((el) => {
-    const tr = el.textContent;
-
-    if(tr.includes(' - ')) {
-      el.textContent = tr.slice(2);
-    }
-  });
 
   const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
   const sourceCat = document.querySelectorAll(".common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source")
@@ -107,5 +97,17 @@ if (document.querySelector('footer > .footer-widgets')) {
     </div>
   `)
   new SocIconsTypeOne(document.querySelector('.widget-categories-soc-icons'), 'beforeend', socIcons).render();
+
+  let headerCatalogLink = document.querySelector(".header-catalog a")
+  headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
+  const listt = document.querySelectorAll('.flexy .panel-collapse > ul > li > a');
+
+  listt.forEach((el) => {
+    const tr = el.textContent;
+
+    if(tr.includes(' - ')) {
+      el.textContent = tr.slice(2);
+    }
+  });
 }
 
