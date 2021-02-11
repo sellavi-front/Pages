@@ -103,7 +103,7 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
   background: transparent !important;
 }
 
-body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent:focus {
+body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
   color: white !important;
 }
 
