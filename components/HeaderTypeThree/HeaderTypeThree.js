@@ -81,8 +81,8 @@ if (document.querySelector('.wrapper')) {
       `<div class="header_widgets">${searchScreen}${search.outerHTML}${wishList}${cartI.outerHTML}</div>`,
     );
     cart.remove();
-    search.remove();
-    searchScreen.remove();
+    // search.remove();
+    // searchScreen.remove();
 
   }
 
