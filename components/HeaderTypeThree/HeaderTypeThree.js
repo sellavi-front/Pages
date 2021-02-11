@@ -74,9 +74,9 @@ if (document.querySelector('.wrapper')) {
   } else {
     headerContainer.insertAdjacentHTML(
       'beforeend',
-      `<div class="header_widgets">${wishList}${cart.outerHTML}</div>`,
+      `<div class="header_widgets">${wishList}${cartI.outerHTML}</div>`,
     );
-    cart.remove();
+    cartI.remove();
   }
 
 
