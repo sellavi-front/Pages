@@ -22,6 +22,10 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
   margin-bottom: 15px !important;
 }
 
+.product-price svg {
+  width: 20px !important;
+}
+
 .thumbnail .price {
   color: #000 !important;
 }
