@@ -86,6 +86,7 @@ if (document.querySelector('.wrapper')) {
     cart.remove();
     search.remove();
     searchScreen.remove();
+    cart.querySelector('span').remove()
   }
 
   Array.from(
