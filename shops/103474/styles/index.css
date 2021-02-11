@@ -161,7 +161,7 @@ body .section-title.section-title-lg {
 
 body .content-area .page-section.error-page h3 {
   margin: 0 0 15px;
-  color: #ea0000;
+  color: var(--color-theme);
   font-size: 32px;
   line-height: 35px;
   font-weight: 900;
@@ -169,13 +169,13 @@ body .content-area .page-section.error-page h3 {
 
 body.theme-red-2.theme_11 .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .cart-header,
 body.theme-red-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
-  background: #fd4453 !important;
+  background: var(--color-theme) !important;
 }
 
 body.theme-red-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a,
 body.theme-red-2.theme_11.account-login .create-account .button_holder .btn.btn-block,
-body.theme-red-2 .top-bar ul a:hover .fa, body.theme-red-2 .top-bar ul a span.colored, body.theme-red-2 a:hover {
-  color: #fd4453 !important;
+body.theme-red-2 .top-bar ul a:hover .fa, body.theme-red-2 .top-bar ul a span.colored, body.theme-red-2 a:hover:not(.btn) {
+  color: var(--color-theme) !important;
 }
 
 
@@ -183,7 +183,7 @@ body.theme-red-2 .top-bar ul a:hover .fa, body.theme-red-2 .top-bar ul a span.co
 body.theme-red-2.theme_11 .btn.btn-theme:not(.btn-wish-list),
 body.theme-red-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a,
 body.theme-red-2.theme_11.account-login .create-account .button_holder .btn.btn-block {
-  border-color: #fd4453 !important;
+  border-color: var(--color-theme) !important;
 }
 
 body .content-area .page-section.error-page h2 {
@@ -317,7 +317,7 @@ body.theme_11 .wrapper .page-section .products.grid {
   }
 
   body.checkout-checkout > div.content-area > section > div.flexwrap.checkout_form > div.register_block > form.form_checkout > div.checkbox.customized.clearfix > label > a {
-    text-decoration: underline !important;    
+    text-decoration: underline !important;
   }
 
   .categories__container {
