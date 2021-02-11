@@ -72,11 +72,12 @@ if (document.querySelector('.wrapper')) {
     const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
     deleteSelectors.findAndDelete();
   } else {
+    const cart = document.querySelector('.header-cart')
     headerContainer.insertAdjacentHTML(
       'beforeend',
       `<div class="header_widgets">${wishList}${cartI.outerHTML}</div>`,
     );
-    cartI.remove();
+    cart.remove();
   }
 
 
