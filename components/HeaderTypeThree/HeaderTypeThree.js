@@ -72,7 +72,7 @@ if (document.querySelector('.wrapper')) {
   } else {
     const cart = document.querySelector('.header-cart');
     const search = document.querySelector('.header-search');
-    // const searchScreen = document.querySelector('.search_black_screen')
+    const searchScreen = document.querySelector('.search_black_screen')
 
     headerContainer.insertAdjacentHTML(
       'beforeend',
