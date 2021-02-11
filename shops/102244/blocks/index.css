@@ -17,7 +17,7 @@
 @import './pay-delivery/pay-delivery.css';
 @import './footer/footer.css';
 @import './header/header.css';
-/* @import './products/products.css'; */
+@import './products/products.css';
 @import './banner/banner.css';
 @import './photo-grid/photo-grid.css';
 /* @import './gallery/quote.css'; */
@@ -49,9 +49,4 @@ body.theme-gray.theme_7.account-login .create-account .button_holder .btn.btn-bl
 body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
   right: 0 !important;
   left: auto !important;
-}
-
-
-body.theme_11 .wrapper .page-section .products.grid .product-item {
-  border: none !important;
 }
