@@ -5,7 +5,7 @@ import './components/Header/Header.js'
 import './components/Products/Products.js'
 import './components/Footer/LogoSellavi.js'
 
-
+import '../../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
 import '../../fixes/js/RemoveBlur/RemoveBlur.js'
