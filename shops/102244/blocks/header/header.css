@@ -4,19 +4,18 @@
 /* @import './catalog/catalog.css'; */
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
-.header_widgets a {
+.header_widgets a,
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header_login > a {
   color: white !important;
 }
 .common-home .header {
   position: absolute !important;
 }
 
-
 body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
-
 }
 
 body.theme_11 .wrapper .header {
@@ -25,15 +24,14 @@ body.theme_11 .wrapper .header {
   z-index: 100;
 }
 
-
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   max-width: initial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
@@ -50,7 +48,7 @@ body.theme_11.common-home .wrapper .header {
 } */
 
 .wrapper .header .header-wrapper .header_widgets {
-  top: 4px !important
+  top: 4px !important;
 }
 
 .mobile-navigation-close {
@@ -81,7 +79,6 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   width: fit-content !important;
   padding-top: 100px !important;
   z-index: 100 !important;
-
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
@@ -93,9 +90,9 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   max-width: 100%;
   z-index: 1 !important;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          z-index: 99999;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 99999;
 }
 
 .navigation {
