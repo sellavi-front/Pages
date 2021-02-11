@@ -40,6 +40,12 @@ body.theme_11 .wrapper footer.footer .footer-widgets .bs-menu-toggle>a.bs-menu-l
   color: #000;
 }
 
+#sellavi_logo > img {
+  height: 50%;
+  width: 100%;
+  margin-top: 10px !important;
+}
+
 @media (max-width: 991px) {
   body.theme_11 .wrapper footer.footer .footer-widgets .row {
     -webkit-box-pack: justify !important;
