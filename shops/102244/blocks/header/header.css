@@ -32,9 +32,11 @@ body.theme_11 .wrapper .header {
   -ms-flex-align: center;
   align-items: center;
 }
+body.common-home .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
+  color: white !important;
+}
 
 .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
-  color: white !important;
   font-size: 18px !important;
   margin-left: 20px;
 }
@@ -108,26 +110,55 @@ body.theme-gray .wrapper .header .header-wrapper .header-search .search_field in
   border-bottom: 1px solid white !important;
 }
 
-body.theme-gray .wrapper .header .header-wrapper .header-search .search_field input.form-control::-webkit-input-placeholder {
+body.theme-gray
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  .search_field
+  input.form-control::-webkit-input-placeholder {
   color: white !important;
 }
 
-body.theme-gray .wrapper .header .header-wrapper .header-search .search_field input.form-control::-moz-placeholder {
+body.theme-gray
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  .search_field
+  input.form-control::-moz-placeholder {
   color: white !important;
 }
 
-body.theme-gray .wrapper .header .header-wrapper .header-search .search_field input.form-control:-ms-input-placeholder {
+body.theme-gray
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  .search_field
+  input.form-control:-ms-input-placeholder {
   color: white !important;
 }
 
-body.theme-gray .wrapper .header .header-wrapper .header-search .search_field input.form-control::-ms-input-placeholder {
+body.theme-gray
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  .search_field
+  input.form-control::-ms-input-placeholder {
   color: white !important;
 }
 
-body.theme-gray .wrapper .header .header-wrapper .header-search .search_field input.form-control::placeholder {
+body.theme-gray
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  .search_field
+  input.form-control::placeholder {
   color: white !important;
 }
-
 
 @media (max-width: 1199px) {
   /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
