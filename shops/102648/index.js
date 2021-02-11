@@ -1,5 +1,5 @@
 import '../../fixes/js/FooterCopy/FooterCopy.js';
-import '../../../fixes/js/ChangeAgreement/ChangeAgreement.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 import './utils/accuring/accuring.js'
 import './components/Header/Header.js'
 /*import './components/CatalogBtn/CatalogBtn.js'*/
