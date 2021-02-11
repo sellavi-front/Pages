@@ -9,6 +9,10 @@ body.common-home .menu-toggle svg {
   stroke: black !important;
 }
 
+body.common-home .wrapper-opened .menu-toggle svg {
+  stroke: black !important;
+}
+
 .logo img {
   max-height: 88px !important;
 }
