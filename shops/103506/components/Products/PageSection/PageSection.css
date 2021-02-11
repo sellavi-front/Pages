@@ -1,5 +1,9 @@
 @import './../../../style/style.css';
 
+body .content-area .page-section.breadcrumbs .breadcrumb>li:first-child:after {
+  color: #000 !important;
+}
+
 @media screen and (min-width: 991px) {
   body .content-area .page-section.titles {
     text-align: center;
