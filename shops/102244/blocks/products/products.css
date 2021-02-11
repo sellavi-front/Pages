@@ -21,7 +21,9 @@ body .content-area .page-section.titles {
 }
 
 body .register_block .form_checkout h2 {
-  text-align: left !important;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .product-product .product-single .buttons .btn-cart,
