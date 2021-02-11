@@ -16,6 +16,10 @@ body .content-area .page-section.titles {
   font-weight: bold;
 }
 
+body.ltr .page-section.homefeatured_category {
+  margin-top: 80px;
+}
+
 body.ltr .page-section h2 {
   text-align: center;
   display: -webkit-box;
