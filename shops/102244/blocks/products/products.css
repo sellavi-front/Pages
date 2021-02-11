@@ -63,7 +63,7 @@ body.ltr .page-section h2:not(.block-title) {
   align-items: center;
 }
 
-body.ltr .page-section h2 span {
+body.ltr .page-section h2:not(.block-title) span {
   margin: 0 20px;
 }
 
