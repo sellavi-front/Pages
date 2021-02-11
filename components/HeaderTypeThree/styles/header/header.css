@@ -3,7 +3,7 @@
 @import './header-widgets/header-widgets.css';
 /* @import './catalog/catalog.css'; */
 
-body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
+body .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
 .header_widgets a {
   color: black !important;
 }
@@ -11,7 +11,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
   position: absolute !important;
 }
 
-body.theme_11 .wrapper .header {
+body .wrapper .header {
   width: 100% !important;
   z-index: 1111;
   padding: 2% 0;
@@ -31,7 +31,7 @@ body.ltr .sf-menu ul {
 }
 
 /*
-body.theme_11.common-home .wrapper .header {
+body.common-home .wrapper .header {
   background: -o-linear-gradient(top, rgba(0,0,0,.5), transparent);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.5)), to(transparent));
   background: linear-gradient(180deg, rgba(0,0,0,.5), transparent);
@@ -52,7 +52,7 @@ body.theme_11.common-home .wrapper .header {
   font-size: 23px;
 }
 
-/* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+/* body.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 auto 0 21% !important;
 } */
 
@@ -64,7 +64,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   padding-top: 100px !important;
 }
 
-body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+body.ltr .wrapper .header .header-wrapper .logo {
   position: absolute;
   right: 0;
   left: 0;
@@ -83,7 +83,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 }
 
 @media (max-width: 1199px) {
-  /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  /* body.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
   } */
 
@@ -97,13 +97,13 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     display: inline;
   }
 
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  body.ltr .wrapper .header .header-wrapper .logo {
     margin: auto !important;
   }
 }
 
 @media (max-width: 591px) {
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+  body.ltr .wrapper .header .header-wrapper .logo {
     position: absolute;
     left: 0;
     right: 0;
@@ -111,7 +111,7 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     max-width: 145px;
   }
 
-  body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
+  body.ltr .wrapper .header .header-wrapper .logo img {
     margin-top: 5%;
   }
 }
