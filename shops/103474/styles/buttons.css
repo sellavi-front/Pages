@@ -13,7 +13,8 @@ body.theme-red-2 {
   > button {
   display: block !important; */
 
-  body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+  body.theme-red-2.theme_11.product-product.ltr .product-single.product-item .buttons .quantity {
   border: 2px solid var(--color-theme) !important;
   border-radius: 10px !important;
 }
