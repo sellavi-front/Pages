@@ -26,7 +26,7 @@
 
 @media (max-width: 768px) {
   .banner__image {
-    background-position-x: 86% !important;
+    background-position-x: center !important;
   }
 }
 
