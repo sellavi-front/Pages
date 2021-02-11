@@ -111,7 +111,7 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
 }
 
 
-body.theme-red-2.theme_11
+body.ltr.theme_11
   .wrapper
   .page-section
   .products.grid
@@ -120,7 +120,7 @@ body.theme-red-2.theme_11
   .price_actions
   .add_to_cart
   > button,
-body.theme-red-2.theme_11
+body.ltr.theme_11
   .wrapper
   .page-section
   .products.grid
@@ -129,7 +129,7 @@ body.theme-red-2.theme_11
   .price_actions
   .more_details_btn_wrapper
   > button {
-  background: var(--color-theme) !important;
+  background: rgba(var(--color-theme),.8)!important;
 }
 
 
