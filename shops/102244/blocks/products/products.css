@@ -20,7 +20,7 @@ body .content-area .page-section.titles {
   font-weight: bold;
 }
 
-.form_checkout h2 {
+body .register_block .form_checkout h2 {
   text-align: left !important;
 }
 
