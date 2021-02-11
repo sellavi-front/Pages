@@ -5,6 +5,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-top: 0 !important;
 }
 
+.product-product .content-area {
+  margin-top: 50px;
+}
+
 body .content-area .page-section.titles {
   border: none !important;
   background: transparent !important;
