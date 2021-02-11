@@ -12,6 +12,8 @@
   width: 100% !important;
 }
 
+
+
 @media screen and (min-width: 320px) {
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 38px !important;
@@ -22,17 +24,29 @@
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 65px !important;
   }
+
+  body.ltr .wrapper header.header .logo.edited {
+    margin: 0 0 0 130px !important;
+  }
 }
 
 @media screen and (min-width: 411px) {
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 84px !important;
   }
+
+  body.ltr .wrapper header.header .logo.edited {
+    margin: 0 0 0 150px !important;
+  }
 }
 
 @media screen and (min-width: 414px) {
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 85px !important;
+  }
+
+  body.ltr .wrapper header.header .logo.edited {
+    margin: 0 0 0 150px !important;
   }
 }
 
