@@ -67,8 +67,8 @@ body.ltr .page-section h2 span {
   margin: 0 20px;
 }
 
-body.ltr section.page-section. > div > h2:after,
-body.ltr section.page-section. > div > h2:before {
+body.ltr section.page-section > div > h2:after,
+body.ltr section.page-section > div > h2:before {
   content: '';
   height: 1px;
   width: 100px;
