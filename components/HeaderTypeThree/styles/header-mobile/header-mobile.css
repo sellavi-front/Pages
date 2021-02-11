@@ -19,6 +19,10 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
 }
+
+body.common-home div.wrapper-opened .header .header-wrapper .mobile-navigation-wrapper a {
+  color: #000 !important;
+}
 /*
 body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;

@@ -104,6 +104,10 @@ body.theme_11 .wrapper .header,
   height: 100px;
 }
 
+body.common-home div.wrapper-opened .header .header-wrapper .mobile-navigation-wrapper a {
+  color: #000 !important;
+}
+
 @media (max-width: 1199px) {
   /* body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
