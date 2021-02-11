@@ -31,7 +31,7 @@ if (document.querySelector('.common-home')) {
   const map = new ContactsWithMap(customSection, 'beforeend', contactData);
   map.render();
 
-  document.querySelector('.homefeatured_category').insertAdjacentHTML("afterbegin", '<h2>Категории</h2>')
+
 
 }
 // if (document.querySelector('.wrapper') && !location.href.includes('checkout')) {
