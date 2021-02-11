@@ -6,12 +6,19 @@ import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import '../../fixes/js/Alert/Alert.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import contactData from './utils/contactData.js';
 
 if (document.querySelector('.common-home')) {
+
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
   new BigBanner(
     'https://res.cloudinary.com/depgheppz/image/upload/v1611061769/Group_7423499_j54tte.png',
   {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
+
+    new ContactsWithMap(customSection, 'beforeend', contactData)
 
 }
 
