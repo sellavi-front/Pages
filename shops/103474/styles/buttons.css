@@ -73,6 +73,13 @@ body.theme-red-2 .social-icons li a:hover i {
 .social-icons {
   display: none !important;
 }
+
+body.ltr.ru .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
 /*
 body.theme-red-2.theme_11
   .wrapper

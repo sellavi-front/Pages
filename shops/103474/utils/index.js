@@ -43,7 +43,6 @@ if(pages.home) {
   let newCatalog = oldCatalog.cloneNode(true)
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
-  let headerCatalog = document.querySelector(".header-catalog")
 
 
   const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
@@ -97,6 +96,7 @@ if (document.querySelector('footer > .footer-widgets')) {
     </div>
   `)
   new SocIconsTypeOne(document.querySelector('.widget-categories-soc-icons'), 'beforeend', socIcons).render();
+  let headerCatalog = document.querySelector(".header-catalog")
 
   let headerCatalogLink = document.querySelector(".header-catalog a")
   headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
