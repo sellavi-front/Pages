@@ -50,3 +50,8 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
   right: 0 !important;
   left: auto !important;
 }
+
+
+body.theme_11 .wrapper .page-section .products.grid .product-item {
+  border: none !important;
+}
