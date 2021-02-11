@@ -50,7 +50,7 @@ body.ltr .page-section.homefeatured_category {
   margin-top: 80px;
 }
 
-body.ltr .page-section h2 {
+body.ltr .page-section h2:not(.block-title) {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
