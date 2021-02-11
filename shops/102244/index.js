@@ -15,9 +15,9 @@ if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
   customSection.classList.add('container');
 
-  // new BigBanner(
-  //   'https://res.cloudinary.com/depgheppz/image/upload/v1611061769/Group_7423499_j54tte.png',
-  // {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
+  new BigBanner(
+    'https://res.cloudinary.com/depgheppz/image/upload/v1613045739/beef-strip-loin-steak-black-background-space-text-marble-beef_1_xsak4k.png',
+  {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
 
     new ContactsWithMap(customSection, 'beforeend', contactData).render()
 
