@@ -19,7 +19,11 @@ body .content-area .page-section.titles {
   font-size: 22px;
   font-weight: bold;
 }
-
+.product-product .product-single .buttons .btn-cart,
+.product-product .product-single .buttons .btn-compare,
+.product-product .product-single .buttons .btn-wish-list {
+  border-radius: 10px !important;
+}
 body.ltr .page-section.homefeatured_category {
   margin-top: 80px;
 }
