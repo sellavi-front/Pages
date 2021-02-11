@@ -40,7 +40,8 @@ if (document.querySelector('.wrapper')) {
   cartI.classList.add('far');
   cartI.classList.remove('fal');
 
-  headerLoginText.remove();
+
+  headerLoginText ? headerLoginText.remove() : null;
 
   // Add underline to nav elem for open page
   navigationElements.forEach((elem) => {
