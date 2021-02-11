@@ -117,9 +117,10 @@ body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
   opacity: .8;
 }
 
-body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button:hover,
 .add_to_wishlist button:hover {
   opacity: .8 !important;
+  background: var(--color-theme) !important;;
 }
 
 body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
