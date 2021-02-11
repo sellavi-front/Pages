@@ -7,6 +7,8 @@ import pages from "./pages/pages.js"
 import Advantages from "../blocks/advantages.js"
 import Functions from "./functions/functions.js"
 import renderCategories from "../categories/render-categories.js";
+import SocIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js"
+import socIcons from "./socIcons.js"
 // import CustomSection from "../blocks/custom-section.js"
 
 
@@ -94,5 +96,16 @@ const logoSellavi = document.querySelector("#sellavi_logo > img");
 
 if (logoSellavi) {
   logoSellavi.setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1612986109/Frame_4_l3scow.png');
+}
+
+if (document.querySelector('footer > .footer-widgets')) {
+  document.querySelector('footer>.footer-widgets > div > div').insertAdjacentHTML('beforeend', `
+    <div class="col-md-3">
+      <div class="widget widget-categories widget-categories-soc-icons">
+        <h4 class="widget-title">Мы в соц сетях</h4>
+      </div>
+    </div>
+  `)
+  new SocIconsTypeOne(document.querySelector('.widget-categories-soc-icons'), 'beforeend', socIcons).render();
 }
 
