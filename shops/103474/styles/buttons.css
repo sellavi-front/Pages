@@ -113,7 +113,7 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent:hover i {
 }
 
 body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
-  color: rgba(var(--color-theme),.8) !important;
+  color: var(--color-theme) !important;
 }
 
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
@@ -144,7 +144,7 @@ body.ltr.theme_11
   .price_actions
   .more_details_btn_wrapper
   > button {
-  background: rgba(var(--color-theme),.8)!important;
+  background: var(--color-theme) !important;
 }
 
 
