@@ -41,7 +41,8 @@ body.theme-green-2.theme_11
   font-size: 12px !important;
 }
 
-body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+body.ltr .header .header-wrapper .mobile-navigation-wrapper,
+.add_to_wishlist button {
   background: var(--color-theme) !important;
 }
 /*
@@ -101,6 +102,11 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
 .add_to_wishlist button:hover {
   background: transparent !important;
 }
+
+body .btn.btn-theme.btn-theme-transparent, body .btn.btn-theme.btn-theme-transparent:active, body .btn.btn-theme.btn-theme-transparent:focus {
+  color: white !important;
+}
+
 
 body.theme-red-2.theme_11
   .wrapper
