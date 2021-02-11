@@ -10,7 +10,6 @@ import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js
 import contactData from './utils/contactData.js';
 
 if (document.querySelector('.common-home')) {
-
   const customSection = document.querySelector('.custom_section');
   customSection.classList.add('container');
 
