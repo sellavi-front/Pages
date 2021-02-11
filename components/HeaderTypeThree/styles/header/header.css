@@ -16,6 +16,10 @@ body .wrapper .header {
   z-index: 1111;
 }
 
+.wrapper.wrapper-opened .header .header-wrapper .mobile-navigation-wrapper span {
+  color: black !important;
+}
+
 .sf-menu li:hover>ul {
   display: none !important;
 }
