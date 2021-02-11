@@ -111,6 +111,10 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent:hover i {
   color: white !important;
 }
 
+body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
+  color: rgba(var(--color-theme),.8) !important;
+}
+
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
 .add_to_wishlist button:hover {
   opacity: .8 !important;
