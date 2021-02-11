@@ -11,6 +11,10 @@ body .media-links .row {
       flex-wrap: nowrap !important;
 }
 
+.cart-items .item-title a {
+  color: black !important;
+}
+
 body .media-links .btn.btn-theme-default, body .media-links .btn.btn-theme {
   font-size: 11px !important;
 }
