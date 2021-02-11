@@ -77,7 +77,7 @@ body.ltr .wrapper .header .header-wrapper .logo {
           align-items: center;
 }
 
-body.ltr header.header .header-wrapper {
+body.ltr.common-home header.header .header-wrapper {
   background: transparent !important;
 }
 
