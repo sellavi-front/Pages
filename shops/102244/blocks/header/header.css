@@ -36,6 +36,15 @@ body.common-home .wrapper .header .header-wrapper .mobile-navigation-wrapper spa
   color: white !important;
 }
 
+body.common-home.ru.ltr
+  .wrapper.wrapper-opened
+  .header
+  .header-wrapper
+  .mobile-navigation-wrapper
+  span {
+  color: black !important;
+}
+
 .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
   font-size: 18px !important;
   margin-left: 20px;
