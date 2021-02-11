@@ -1,6 +1,6 @@
 import Paths from "../../path/paths.js"
 
-if( !Paths.main ) {
+if( !(location.pathname === '/') ) {
   document.querySelector("body .content-area .page-section").classList.add('page-section-edited')
 }
 
