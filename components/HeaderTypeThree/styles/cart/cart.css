@@ -8,8 +8,20 @@
   min-width: 24px !important;
 }
 
+body .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper {
+  border: none !important;
+}
+
 .wrapper .header .header-wrapper .header_widgets .header-cart {
   top: 0 !important;
+}
+
+.cart-norm-qty.d-none.d-lg-inline-block {
+  display: none !important;   
+}
+
+body.sidenav-enabled header.header nav.navigation {
+  display: block !important;
 }
 
 .common-home .header-cart .cart-wrapper #cart {
