@@ -28,6 +28,7 @@ body.ltr .alert button.close {
   margin-bottom: 0 !important;
   border: 1px solid transparent;
   border-radius: .25rem;
+  z-index: 999 !important;
 }
 
 body .content-area .page-section.error-page h3 {
