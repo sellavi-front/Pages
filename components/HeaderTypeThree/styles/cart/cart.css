@@ -16,6 +16,10 @@ body .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper
   top: 0 !important;
 }
 
+body.theme_7 .wrapper .header .header-wrapper .header_widgets .header-cart {
+  margin: 0 !important;
+}
+
 .cart-norm-qty.d-none.d-lg-inline-block {
   display: none !important;   
 }
