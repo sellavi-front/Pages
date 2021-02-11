@@ -1,9 +1,13 @@
 const socIcons = [
 
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606488610/ThaiCosmetic/icons8-instagram_1_jkeeqq.png',
-    link: 'https://www.instagram.com/thai_rai_kms/',
+    src: 'https://res.cloudinary.com/depgheppz/image/upload/v1613051505/icons8-instagram_1_wysuzg.png',
+    link: 'https://www.instagram.com/kosherbrodsky/',
   },
+  {
+    src: 'https://res.cloudinary.com/depgheppz/image/upload/v1613051505/icons8-facebook-f_1_xqg5q1.png',
+    link: 'https://www.facebook.com/kosher.brodsky'
+  }
 
 ];
 
