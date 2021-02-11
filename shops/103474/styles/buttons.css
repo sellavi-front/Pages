@@ -2,7 +2,7 @@ body.theme-red-2 {
   --color-theme: rgb(252, 68, 77);
 }
 
-body.theme-red-2.theme_11
+/* body.theme-red-2.theme_11
   .wrapper
   .page-section
   .products.grid
@@ -11,12 +11,14 @@ body.theme-red-2.theme_11
   .price_actions
   .add_to_cart
   > button {
-  /* text-align: center !important; */
-  display: block !important;
-}
+  display: block !important; */
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
-  display: none !important;
+  border-color: var(--color-theme) !important;
+}
+
+body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.minus, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.plus, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  color: var(--color-theme) !important;
 }
 
 .product-product .product-single .buttons {
