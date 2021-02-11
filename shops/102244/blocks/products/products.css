@@ -21,7 +21,8 @@ body .content-area .page-section.titles {
 }
 .product-product .product-single .buttons .btn-cart,
 .product-product .product-single .buttons .btn-compare,
-.product-product .product-single .buttons .btn-wish-list {
+.product-product .product-single .buttons .btn-wish-list,
+.product-product .product-single .buttons .quantity {
   border-radius: 10px !important;
 }
 body.ltr .page-section.homefeatured_category {
