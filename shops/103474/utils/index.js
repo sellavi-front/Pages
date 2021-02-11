@@ -28,6 +28,8 @@ if(pages.home) {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
   }
 
+  document.querySelector('.homefeatured_category').insertAdjacentHTML("afterbegin", '<h2>Категории</h2>')
+
   // let customSection = new CustomSection()
   // customSection.render()
 
