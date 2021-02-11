@@ -107,4 +107,10 @@
     .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > .panel-collapse > ul > li > a:after {
         display: none; 
     }
+
+    body.bottom-nav-enabled nav.mobile_bottom_nav.nav-opened {
+        z-index: 9998 !important;
+    }
+    
+    
 }
