@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 
 .banner__caption {
   height: 100% !important;
@@ -16,7 +16,7 @@
 .banner__caption a {
   color: #fff;
   font-size: 62px;
-  font-family: Pacifico;
+  font-family: 'Playfair Display', serif;
 }
 
 .banner__caption a {
