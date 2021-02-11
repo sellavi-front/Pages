@@ -89,7 +89,7 @@ body.theme_11
 
 .add_to_wishlist button:hover .far.fa-heart {
   font-weight: bold !important;
-  color: var(--color-theme) !important;
+  color: white !important;
   cursor: pointer;
 }
 
@@ -100,7 +100,7 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent:hover i {
 
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
 .add_to_wishlist button:hover {
-  background: transparent !important;
+  opacity: .8 !important;
 }
 
 body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
