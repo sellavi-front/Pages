@@ -20,7 +20,7 @@ if (document.querySelector('.common-home')) {
   {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
 
     new ContactsWithMap(customSection, 'beforeend', contactData).render()
-    document.querySelector('.homefeatured_category > .container').insertAdjacentHTML("afterbegin", '<h2>Категории</h2>')
+    document.querySelector('.homefeatured_category > .container').insertAdjacentHTML("afterbegin", '<h2><span>Категории</span></h2>')
 }
 
 if (document.querySelector('.wrapper')) {
