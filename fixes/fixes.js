@@ -4,4 +4,4 @@ import TranslateAboutUs from './js/TranslateAboutUs/TranslateAboutUs.js';
 import FooterCopy from './js/FooterCopy/FooterCopy.js';
 // import HideLoading from './HideLoading/HideLoading.js';
 
-export { ChangeAgreement, ChangeErrorMessage, TranslateAboutUs, FooterCopy };
+export { ChangeAgreement,  TranslateAboutUs, FooterCopy };
