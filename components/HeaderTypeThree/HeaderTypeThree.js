@@ -74,14 +74,14 @@ if (document.querySelector('.wrapper')) {
   } else {
     const cart = document.querySelector('.header-cart');
     const search = document.querySelector('.header-search');
-    const searchScreen = document.querySelector('.search_black_screen')
+    // const searchScreen = document.querySelector('.search_black_screen')
 
     headerContainer.insertAdjacentHTML(
       'beforeend',
-      `<div class="header_widgets">${searchScreen}${search.outerHTML}${wishList}${cartI.outerHTML}</div>`,
+      `<div class="header_widgets">${search.outerHTML}${wishList}${cartI.outerHTML}</div>`,
     );
     cart.remove();
-    // search.remove();
+    search.remove();
     // searchScreen.remove();
 
   }
