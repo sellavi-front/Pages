@@ -1,6 +1,7 @@
 @import './ButtonsGroup/ButtonContainerProduct.css';
 @import './ButtonsGroup/ButtonBorders.css';
 @import './Alerts/Alerts.css';
+@import './PageSection/PageSection.css';
 
 body .section-title {
   display: none !important;
