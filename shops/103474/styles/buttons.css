@@ -114,6 +114,7 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent:hover i {
 
 body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
   color: var(--color-theme) !important;
+  opacity: .8;
 }
 
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover,
