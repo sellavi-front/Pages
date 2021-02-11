@@ -26,6 +26,10 @@ body .register_block .form_checkout h2 {
           align-items: flex-start;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  padding: 0 !important;
+}
+
 .product-product .product-single .buttons .btn-cart,
 .product-product .product-single .buttons .btn-compare,
 .product-product .product-single .buttons .btn-wish-list,
