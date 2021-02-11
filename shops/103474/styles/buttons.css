@@ -19,7 +19,8 @@ body.theme-red-2 {
   border-radius: 10px !important;
 }
 
-body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.minus, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.plus, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.minus, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.plus, body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field,
+body.theme-red-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list i  {
   color: var(--color-theme) !important;
 }
 
