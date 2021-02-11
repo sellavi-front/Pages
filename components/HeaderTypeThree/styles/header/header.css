@@ -76,7 +76,8 @@ body.ltr .wrapper .header .header-wrapper .logo {
       -ms-flex-align: center;
           align-items: center;
 }
-body.ltr header.header .header-wrapper{
+
+body.ltr header.header .header-wrapper {
   background: transparent !important;
 }
 
