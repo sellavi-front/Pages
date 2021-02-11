@@ -1,3 +1,7 @@
+/* .common-home .wrapper .header .header-wrapper .header_widgets .header_login>a,
+.common-home .header-cart .cart-wrapper #cart {
+  color: black !important;
+} */
 
 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
