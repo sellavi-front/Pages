@@ -72,12 +72,18 @@ if (document.querySelector('.wrapper')) {
     const deleteSelectors = new DeleteClasses(headerLoginIco, selectors);
     deleteSelectors.findAndDelete();
   } else {
-    const cart = document.querySelector('.header-cart')
+    const cart = document.querySelector('.header-cart');
+    const search = document.querySelector('.header-search');
+    const searchScreen = document.querySelector('.search_black_screen')
+
     headerContainer.insertAdjacentHTML(
       'beforeend',
-      `<div class="header_widgets">${wishList}${cartI.outerHTML}</div>`,
+      `<div class="header_widgets">${searchScreen.outerHTML}${search.outerHTML}${wishList}${cartI.outerHTML}</div>`,
     );
     cart.remove();
+    search.remove();
+    searchScreen.remove();
+
   }
 
 
