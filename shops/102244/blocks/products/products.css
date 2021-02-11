@@ -32,7 +32,7 @@ body.checkout-cart .product_row {
   border: none !important;
 }
 
-body .btn.btn-theme.btn-theme-transparent:hover i {
+body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
   color: white !important;
 }
 
@@ -75,6 +75,7 @@ body.ltr section.page-section > div > h2:before {
   background: #c4c4c4;
   margin: 7px 0 0;
 }
+
 
 body.theme-gray .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
 .thumbnail .add_to_wishlist button,
