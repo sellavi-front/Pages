@@ -78,7 +78,7 @@ if (document.querySelector('.wrapper')) {
 
     headerContainer.insertAdjacentHTML(
       'beforeend',
-      `<div class="header_widgets">${searchScreen.outerHTML}${search.outerHTML}${wishList}${cartI.outerHTML}</div>`,
+      `<div class="header_widgets">${searchScreen}${search.outerHTML}${wishList}${cartI.outerHTML}</div>`,
     );
     cart.remove();
     search.remove();
