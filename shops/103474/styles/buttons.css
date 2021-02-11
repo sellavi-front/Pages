@@ -19,6 +19,14 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   display: none !important;
 }
 
+.product-product .product-single .buttons {
+  margin-bottom: 10px !important;
+}
+
+body.theme_11 div.mobile-bottom-nav>ul>li.mobile-bottom-tab.cart .mobile-bottom-link i .cart-qty-circle {
+  z-index: 99999 !important;
+}
+
 body.theme-green-2.theme_11
   .wrapper
   .page-section
