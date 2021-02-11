@@ -81,11 +81,11 @@ if (document.querySelector('.wrapper')) {
 
     const headerWid = document.querySelector('.header_widgets');
     headerWid.insertAdjacentHTML('afterbegin', `${searchScreen}${search.outerHTML}`);
-    headerWid.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>${cart}`);
+    headerWid.insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>${cart.outerHTML}`);
 
     cart.remove();
     search.remove();
-    // searchScreen.remove();
+    searchScreen.remove();
   }
 
   Array.from(
