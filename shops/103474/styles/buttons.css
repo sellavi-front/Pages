@@ -61,8 +61,13 @@ body.theme-green-2.theme_11
 }
 
 body.ltr .header .header-wrapper .mobile-navigation-wrapper,
-.add_to_wishlist button {
+.add_to_wishlist buttonб
+body.theme-red-2 .social-icons li a:hover {
   background: var(--color-theme) !important;
+}
+
+body.theme-red-2 .social-icons li a:hover i {
+  color: white !important;
 }
 /*
 body.theme-red-2.theme_11
