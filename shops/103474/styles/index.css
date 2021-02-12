@@ -268,7 +268,9 @@ body.checkout-checkout .payment>#button-payment~a {
 }
 
 body.theme_11 .wrapper .page-section .products.grid {
-  justify-self: flex-start !important;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
 }
 
 @media (min-width: 320px) and (max-width: 413px) {
