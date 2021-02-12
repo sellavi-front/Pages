@@ -156,7 +156,7 @@ export default function waterPage() {
             <li>- Усиливает выведение токсинов из организма</li>
             <li>- Способствует лучшему усвоению пищи</li>
           </ul>
-          <div class="d-flex mt-5 mb-5">
+          <div class="row mt-5 mb-5">
             <img
               class="mt-4 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613130347/102273/unnamed_txj2xx.jpg"
