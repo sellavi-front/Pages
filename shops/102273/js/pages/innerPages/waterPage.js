@@ -355,7 +355,7 @@ export default function waterPage() {
 
       <div class="mb-50px">
         <p>
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613130863/102273/image2_vjedkt.png" class="m-5">
+          <img style="float:left;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613130863/102273/image2_vjedkt.png" class="m-5">
           <b>
             Питьевой баланс важен для хорошего самочувствия!
             <br />
