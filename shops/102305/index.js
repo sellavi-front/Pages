@@ -1,5 +1,5 @@
 import "../../fixes/js/RemoveBlur/RemoveBlur.js"
-import './utils/icons.js'
+import icons from './utils/icons.js'
 import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 import "./../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
 //import "../../fixes/fixes.js"
