@@ -11,17 +11,6 @@ const disinfectantsPages = () => {
       <li class="mb-2">
         <a href="${url}#2" class="id_link">2. Аргитос</a>
         </li>
-      <li class="mb-2">
-        <a href="${url}#3" class="id_link"
-          >3. Универсальное дезинфицирующее средство «Серебряная пуля»</a
-        >
-      </li>
-      <li class="mb-2">
-        <a href="${url}#4" class="id_link"
-          >4. «HandDes All» + «Комбидез»</a
-        >
-      </li>
-
     </ol>
   </div>
   <div class="sect" id="1">
@@ -323,8 +312,6 @@ const disinfectantsPages = () => {
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
   </div>
-
-
 </section>
   `;
 }
