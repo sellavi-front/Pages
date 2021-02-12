@@ -128,6 +128,10 @@ body.theme-green-2.theme_11
   font-size: 12px !important;
 }
 
+body a > p {
+  color: black !;
+}
+
 body.ltr .header .header-wrapper .mobile-navigation-wrapper,
 .add_to_wishlist button,
 body.theme-red-2 .social-icons li a:hover {
