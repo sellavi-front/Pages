@@ -96,7 +96,6 @@ if (document.querySelector('footer > .footer-widgets')) {
     </div>
   `)
   new SocIconsTypeOne(document.querySelector('.widget-categories-soc-icons'), 'beforeend', socIcons).render();
-  let headerCatalog = document.querySelector(".header-catalog")
 
   let headerCatalogLink = document.querySelector(".mobile-navigation-wrapper a.menu-toggle")
   headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
