@@ -26,7 +26,7 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
-const translateAbout = new TranslateAboutUs();
+// const translateAbout = new TranslateAboutUs();
 
 
 /* ******* MAIN PAGE ******** */
@@ -58,7 +58,7 @@ if (document.querySelector('body').classList.contains('product-product')) {
   const price = document.querySelector('.product-price');
   const buttonAddCart = document.querySelector('#button-cart');
 
-  const changeError = new ChangeErrorMessage();
+  // const changeError = new ChangeErrorMessage();
 
   const deleteClasses = new DeleteClasses(productItem, bootstrapClasses);
 
