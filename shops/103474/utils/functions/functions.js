@@ -14,13 +14,14 @@ export default class ChangeIconInProductCard {
     let addToWishList = Array.from(document.querySelectorAll('.add_to_wishlist i.fa-heart'));
 
     addToCart.concat(addToWishList).forEach((ico) => {
-      while (ico.classList.length > 0) {
-        ico.classList.remove(ico.classList.item(0));
-      }
+
       if (ico.classList.contains('fa-shopping-cart')) {
         ico.insertAdjacentHTML('afterbegin', this.icons.cart);
       } else if (ico.classList.contains('fa-heart')) {
         ico.insertAdjacentHTML('afterbegin', this.icons.like);
+      }
+      while (ico.classList.length > 0) {
+        ico.classList.remove(ico.classList.item(0));
       }
     });
   }
