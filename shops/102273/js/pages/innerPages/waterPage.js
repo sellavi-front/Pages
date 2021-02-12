@@ -49,7 +49,7 @@ export default function waterPage() {
             align-items: center;
         ">
           <img
-            style="margin-right: 15px; object-fit: cover;"
+            style="margin-right: 15px; object-fit: cover; height: 100%"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
             alt=""
           />
