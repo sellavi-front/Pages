@@ -13,7 +13,7 @@ export default class ChangeIconInProductCard {
     let addToCart = document.querySelectorAll('.add_to_cart i');
     let addToWishList = document.querySelectorAll('.add_to_wishlist i');
 
-    Object.assign(addToCart, addToWishList).forEach((ico) => {
+    addToCart.concat(addToWishList).forEach((ico) => {
       while (ico.classList.length > 0) {
         ico.classList.remove(ico.classList.item(0));
       }
