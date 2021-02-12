@@ -37,7 +37,7 @@ export default function desinfectedFrames() {
 
 <div class="mb-3">
   <p><b>Места использования дезинфицирующего оборудования:</b></p>
-  <div class="row">
+  <div class="row places">
     <div class="col-4">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_111_fdgiqm.png"
@@ -205,20 +205,26 @@ export default function desinfectedFrames() {
     <div class="row mb-5">
       <div class="col">
         <img
+
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_122_expids.png"
-          class="w-100"
+          class="w-100 h-100"
+          styles="object-fit: cover;"
         />
       </div>
       <div class="col-md-3">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_123_hxa1w1.png"
           alt=""
+          class="h-100"
+          styles="object-fit: cover;"
         />
       </div>
       <div class="col-md-3">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_124_aliwx2.png"
           alt=""
+          class="h-100"
+          styles="object-fit: cover;"
         />
       </div>
     </div>
