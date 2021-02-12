@@ -95,7 +95,10 @@ body .section-title span:after {
   margin-top: 2% !important;
 }
 
-
+body.theme-black.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme-black.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  background-color: transparent !important;
+  color: #000 !important;
+}
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
     bottom: 69px;
