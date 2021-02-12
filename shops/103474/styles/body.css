@@ -10,14 +10,7 @@ body .section-title {
   overflow: hidden;
 }
 
-body.theme_11
-  .wrapper
-  .page-section
-  .products.grid
-  .product-item
-  .thumbnail
-  .caption
-  h4.caption-title {
+body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
   line-height: 20px;
   min-height: unset;
   text-align: center !important;
