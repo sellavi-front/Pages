@@ -156,15 +156,22 @@ export default function waterPage() {
             <li>- Усиливает выведение токсинов из организма</li>
             <li>- Способствует лучшему усвоению пищи</li>
           </ul>
+          <div class="d-flex">
+            <img
+              class="mt-4 mb-4"
+              src="https://res.cloudinary.com/depgheppz/image/upload/v1613130347/102273/unnamed_txj2xx.jpg"
+              alt=""
+            />
+            <img
+              src="https://res.cloudinary.com/depgheppz/image/upload/v1611925356/102273/Group_7423515_4_plfodd.png"
+              alt=""
+            />
+          </div>
           <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611925356/102273/Group_7423515_4_plfodd.png"
-            alt=""
-          />
-          <img
-            class="mt-4 mb-4"
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611925355/102273/Group_7423520_tarbad.png"
-            alt=""
-          />
+              class="mt-4 mb-4"
+              src="https://res.cloudinary.com/depgheppz/image/upload/v1611925355/102273/Group_7423520_tarbad.png"
+              alt=""
+            />
           <p>МИНЕРАЛЬНАЯ ПРИРОДНАЯ ВОДА «АБАГО» - стоимость с брендом (Логотипом) компании</p>
         </div>
         <div>
