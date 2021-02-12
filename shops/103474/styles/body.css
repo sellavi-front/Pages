@@ -31,7 +31,7 @@ body.theme_11 .wrapper .latest-section h2.section-title > i {
   padding: 0 !important;
 }
 
-.soc-icons__item {
+.soc-icons__item:not(:last-child) {
   margin-right: 20px;
 }
 
