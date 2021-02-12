@@ -138,6 +138,7 @@ export default function waterPage() {
           </p>
         </div>
         <img
+          class="mt-4 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611925224/102273/Group_7423519_hlehif.png"
           alt=""
         />
