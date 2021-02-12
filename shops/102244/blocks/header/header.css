@@ -23,6 +23,13 @@ body.theme_11 .wrapper .header {
   z-index: 100;
 }
 
+body.theme_11 .wrapper.wrapper-opened .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
+body.theme_11 .wrapper.wrapper-opened .header_widgets a,
+body.theme_11.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .header_login > a {
+  color: black !important;
+}
+
+
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   max-width: initial;
   display: -webkit-box;
