@@ -34,17 +34,18 @@
 
   .banner__caption {
     height: 200px !important;
-    top: 70px !important;
+    top: 161px !important;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
     padding-left: 20px;
   }
   .banner__caption h1 {
-    font-size: 28px;
+    font-size: 37px;
     margin-bottom: 30px;
   }
   .banner__caption a {
-    font-size: 25px;
+    font-size: 37px;
+    margin: 0 auto;
   }
 }

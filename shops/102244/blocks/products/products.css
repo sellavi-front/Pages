@@ -181,9 +181,14 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 @media (max-width: 495px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
     width: 180px !important;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 
   .thumbnail .add_to_wishlist button {
     width: 72px !important;
+  }
+  body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+    display: none !important;
   }
 }
