@@ -347,10 +347,11 @@ export default function waterPage() {
         <p >
 
         </p>
-       <!-- <img
+        <img
+          class="mt-4 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611924433/102273/50f080b6e27e37ad980830a244d430dd_1_qvf7rn.png"
           alt=""
-        /> -->
+        />
       </div>
 
       <div class="mb-50px">
