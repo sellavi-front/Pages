@@ -96,10 +96,16 @@
 }*/
 
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
-  color: #333 !important;
+  color: #000 !important;
   background-color: transparent !important;
   border: 1px solid !important;
 }
+
+body.theme-black.theme_11.product-product .product-single.product-item .buttons #button-booking, body.theme-black.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
 
 body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
   color: #000 !important;
