@@ -143,8 +143,8 @@
 }
 
 @media (max-width: 991px) {
-  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
-    left: auto;
+  body.ltr.ru .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    left: auto !important;
     right: 15px;
     z-index: 999;
     background: transparent !important;
