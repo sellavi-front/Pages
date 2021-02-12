@@ -9,6 +9,7 @@ import Functions from "./functions/functions.js"
 import renderCategories from "../categories/render-categories.js";
 import SocIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js"
 import socIcons from "./socIcons.js"
+import icons from '../utils/icons/icons.js'
 // import CustomSection from "../blocks/custom-section.js"
 
 
@@ -59,6 +60,19 @@ if(pages.home) {
     let replacedSrc2 = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
     cat.setAttribute('src', replacedSrc2);
   })
+}
+
+if (pages.all) {
+  const headerIcons = {
+    cart: document.querySelector('body .header_widgets .header-cart i'),
+    like: document.querySelector('body .header_widgets .header_wishlist i')
+  }
+
+  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
+  headerIcons.like.classList.remove('far', 'fa-heart')
+  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
+
 }
 
 if(location.href.includes('/index.php?route=account/register')) {
