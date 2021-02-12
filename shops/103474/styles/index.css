@@ -322,6 +322,12 @@ body.theme_11 .wrapper .page-section .products.grid {
     margin-top: 20px !important;
   }
 
+  .soc-icons__container {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+
   body.theme_11 .wrapper .latest-section h2.section-title {
     margin: 25px 0 5px 0 !important;
   }
