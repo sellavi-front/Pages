@@ -47,7 +47,7 @@
   left: 2px !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
   border: 1px solid;
   border-radius: 5px;
-  padding: 8px;
+  padding: 7px;
 
 }
 
@@ -106,6 +106,9 @@ body.theme-black.theme_11.product-product .product-single.product-item .buttons 
   color: #000 !important;
 }
 
+body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button:hover {
+  background-color: #d9d9d9 !important;
+}
 
 body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
   color: #000 !important;
