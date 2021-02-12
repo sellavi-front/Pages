@@ -18,6 +18,7 @@
 @import './../../../components/HeaderWithCatalog/HeaderWithCatalog.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import './../categories/categories.css';
+@import './icons.css';
 
 
 body h1,

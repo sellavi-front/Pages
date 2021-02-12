@@ -10,6 +10,7 @@ import renderCategories from "../categories/render-categories.js";
 import SocIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js"
 import socIcons from "./socIcons.js"
 import icons from '../utils/icons/icons.js'
+import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
 // import CustomSection from "../blocks/custom-section.js"
 
 
@@ -60,6 +61,8 @@ if(pages.home) {
     let replacedSrc2 = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
     cat.setAttribute('src', replacedSrc2);
   })
+
+
 }
 
 if (pages.all) {
