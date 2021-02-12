@@ -87,7 +87,7 @@ body.theme-red-2.theme_11.checkout-cart
   .qty_column
   .quantity {
   border: 2px solid var(--color-theme) !important;
-  border-radius: 10px !important;
+  border-radius: 5px !important;
 }
 
 
