@@ -519,7 +519,6 @@ export default function desinfectedFrames() {
     </div>
   </div>
 </div>
-
     </section>
   `;
 }
