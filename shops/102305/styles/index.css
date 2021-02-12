@@ -59,6 +59,13 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 576px) {
+  body.theme_11 .wrapper .page-section .products.grid {
+    padding-bottom: 25px;
+  }
+}
+
+
 .price_actions .buttons__container {
   height: 48px !important;
 }
