@@ -14,16 +14,8 @@ export default class ChangeIconInProductCard {
   callBack(mutationsList, observer) {
     for (let mutation of mutationsList) {
       if (mutation.type === 'childList') {
-        target.querySelectorAll('.product-item img').forEach((prod) => {
-          if (prod.getAttribute('src').includes('e_blur:2000')) {
-            prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
-          }
-        });
-
         let addToCart = document.querySelectorAll('.add_to_cart i');
         let addToWishList = document.querySelectorAll('.add_to_wishlist i');
-
-
 
         Object.assign(addToCart, addToWishList).forEach(ico => {
           while (ico.classList.length > 0) {
