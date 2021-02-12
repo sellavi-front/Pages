@@ -56,7 +56,7 @@ body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
   font-size: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .logo img {
     max-width: 200px !important;
   }
