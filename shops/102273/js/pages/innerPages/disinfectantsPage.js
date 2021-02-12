@@ -323,7 +323,16 @@ const disinfectantsPages = () => {
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
   </div>
-  <div class="sect" id="3">
+
+
+</section>
+  `;
+}
+
+export default disinfectantsPages;
+
+/*
+<div class="sect" id="3">
     <h3><b>3. Универсальное дезинфицирующее средство «Серебряная пуля»</b></h3>
     <div class="row">
       <div class=" col col-md-8">
@@ -574,7 +583,7 @@ const disinfectantsPages = () => {
       <a href="" class="button_link mb-2">Благодарственное письмо</a>
     </div>
   </div>
-  <div class="sect">
+<div class="sect">
     <div class="row flex-wrap">
       <div class=" col col-md-8" id="4">
         <h3><b>4. «HandDes All» + «Комбидез»</b></h3>
@@ -665,8 +674,4 @@ const disinfectantsPages = () => {
       />
     </div>
   </div>
-</section>
-  `;
-}
-
-export default disinfectantsPages;
+*/
