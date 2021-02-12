@@ -11,6 +11,7 @@ import SocIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsT
 import socIcons from "./socIcons.js"
 import icons from '../utils/icons/icons.js'
 import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
+import ChangeIconInProductCard from './functions/functions.js'
 // import CustomSection from "../blocks/custom-section.js"
 
 
@@ -62,6 +63,7 @@ if(pages.home) {
     cat.setAttribute('src', replacedSrc2);
   })
 
+  new ChangeIconInProductCard().change()
 
 }
 
