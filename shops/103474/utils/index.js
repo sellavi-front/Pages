@@ -12,6 +12,7 @@ import socIcons from "./socIcons.js"
 import icons from '../utils/icons/icons.js'
 import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
 import ChangeIconInProductCard from './functions/functions.js'
+import SocIconsTypeOneV2 from "../../../components/SocialIconsTypeOne/SocialIconsTypeOneV2.js"
 // import CustomSection from "../blocks/custom-section.js"
 
 
@@ -116,7 +117,7 @@ if (document.querySelector('footer > .footer-widgets')) {
       </div>
     </div>
   `)
-  new SocIconsTypeOne(document.querySelector('.widget-categories-soc-icons'), 'beforeend', socIcons).render();
+  // new SocIconsTypeOneV2(document.querySelector('.widget-categories-soc-icons'), 'beforeend', [icons.social.insta, ]).render();
 
   let headerCatalogLink = document.querySelector(".mobile-navigation-wrapper a.menu-toggle")
   headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)

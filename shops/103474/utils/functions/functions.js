@@ -10,8 +10,8 @@ export default class ChangeIconInProductCard {
   }
 
   changeIcons() {
-    let addToCart = document.querySelectorAll('.add_to_cart i');
-    let addToWishList = document.querySelectorAll('.add_to_wishlist i');
+    let addToCart = Array.from(document.querySelectorAll('.add_to_cart i.fa-shopping-cart'));
+    let addToWishList = Array.from(document.querySelectorAll('.add_to_wishlist i.fa-heart'));
 
     addToCart.concat(addToWishList).forEach((ico) => {
       while (ico.classList.length > 0) {
