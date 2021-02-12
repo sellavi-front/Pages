@@ -15,7 +15,6 @@ export default class medSocProg extends BaseComponent {
           <p class="partners__ph">
               ${elem.text}
           </p>
-          <a href="${elem.link}">ссылка</a>
         </div>
       `
     }).join('')
