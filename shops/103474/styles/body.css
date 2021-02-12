@@ -45,6 +45,11 @@ body .content-area .page-section {
   margin: 15px 0 0;
 }
 
+body .categories-title {
+  font-size: 22px !important;
+  font-weight: 700;
+}
+
 body .custom_section {
   margin-top: 80px !important;
 }

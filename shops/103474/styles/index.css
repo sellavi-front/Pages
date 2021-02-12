@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
@@ -16,6 +18,36 @@
 @import './../../../components/HeaderWithCatalog/HeaderWithCatalog.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import './../categories/categories.css';
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 16px; */
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span {
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body.account-login .alert-danger {
   margin-bottom: 10px;

@@ -21,7 +21,7 @@ class Categories  {
   render() {
     return `
     <div class="container">
-      <h3 class="categories-title">Категории</h3>
+      <h3 class="categories-title">Основные категории</h3>
       <div class="row">
         ${this.setTemplate()}
       </div>
