@@ -386,7 +386,7 @@ export default function waterPage() {
         <p class="mt-4 mb-2"><b>Cколько жидкости нужно в день человеку? В среднем на каждый килограмм веса необходимо пить
         30 мл воды.</b></p>
         <img
-          class="mt-5 mb-5"
+          class="mt-2 mb-5"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611924537/102273/Group_7423518_kz3trh.png"
           alt=""
         />  </div>
