@@ -117,7 +117,7 @@ if (document.querySelector('footer > .footer-widgets')) {
       </div>
     </div>
   `)
-  // new SocIconsTypeOneV2(document.querySelector('.widget-categories-soc-icons'), 'beforeend', [icons.social.insta, ]).render();
+  new SocIconsTypeOneV2(document.querySelector('.widget-categories-soc-icons'), 'beforeend', socIcons).render();
 
   let headerCatalogLink = document.querySelector(".mobile-navigation-wrapper a.menu-toggle")
   headerCatalogLink.insertAdjacentHTML("beforeend", `<span class="catalog-title">Каталог</span>`)
