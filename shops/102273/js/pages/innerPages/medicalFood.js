@@ -505,11 +505,11 @@ export default function medicalFood() {
         class="w-100"
       />
     </div>
-    <div class="mt-4 mb-4 d-flex flex-column">
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 350 - первая неделя</a>
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 350 - вторая неделя</a>
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - вторая неделя</a>
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - первая неделя</a>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Скачать Меню - комплекс 350 - первая неделя</a>
+      <a href="#" class="button_link ">Скачать Меню - комплекс 350 - вторая неделя</a>
+      <a href="#" class="button_link ">Скачать Меню - комплекс 495 - вторая неделя</a>
+      <a href="#" class="button_link ">Скачать Меню - комплекс 495 - первая неделя</a>
     </div>
   </div>
   <div class="sect" id="3">

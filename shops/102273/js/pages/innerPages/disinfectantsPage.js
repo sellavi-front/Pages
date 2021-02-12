@@ -9,13 +9,13 @@ const disinfectantsPages = () => {
         <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#2" class="id_link">2. ДеФлок</a>
+        <a href="${url}#3" class="id_link">3. ДеФлок</a>
         </li>
       <li class="mb-2">
-        <a href="${url}#3" class="id_link">3. S-pro</a>
+        <a href="${url}#4" class="id_link">4. S-pro</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#4" class="id_link">4. S-pro</a>
+        <a href="${url}#5" class="id_link">5. S-pro</a>
       </li>
     </ol>
   </div>
@@ -181,10 +181,8 @@ const disinfectantsPages = () => {
         Реагент ДеФлок®  (дезинфицирующее средство «ДеФлок», ТУ 9392-001-16866919-2013)</b></br></br>
         Реагент для очистки и обеззараживания воды в системах хозяйственно-питьевого водоснабжения, горячего водоснабжения, технического водоснабжения предприятий, оборотных вод в системах охлаждения оборудования, сточных вод, воды плавательных бассейнов и аквапарков, а также для предотвращения биообрастания.
       </p>
-      <div class="mb-5 w-100 d-flex">
+      <div class="mb-5 w-100 row">
         <a href="#" class="button_link">Документация</a>
-      </div>
-      <div class="mb-5 w-100 d-flex">
         <a href="#" class="button_link">Презентация средства "ДеФлок"</a>
       </div>
     </div>
@@ -209,10 +207,8 @@ const disinfectantsPages = () => {
         После прохождения дезинфекции в санитарно-пропускных пунктах и дезинфекционных тоннелях средство «S-Pro» сохраняет свои противомикробные средства до 8 часов.
       </p>
 
-      <div class="mb-5 w-100 d-flex">
+      <div class="mb-5 w-100 row">
         <a href="#" class="button_link">Документация на русском языке</a>
-      </div>
-      <div class="mb-5 w-100 d-flex">
         <a href="#" class="button_link">Документация на иностранных языках)</a>
       </div>
     </div>
@@ -360,7 +356,7 @@ const disinfectantsPages = () => {
         >
       </p>
     </div>
-    <div class="mt-4 mb-4 d-flex flex-column">
+    <div class="mt-4 mb-4 row">
         <a href="" class="button_link mb-2">Инструкция по применению</a>
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
