@@ -8,6 +8,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
           align-items: center;
 }
 
+.ico-cart, .ico-heart {
+  width: 21px;
+}
+
 .header .header-search .form-control {
   width: 160px !important;
   height: 40px;
