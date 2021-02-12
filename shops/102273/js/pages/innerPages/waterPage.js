@@ -355,13 +355,14 @@ export default function waterPage() {
       </div>
 
       <div class="mb-50px">
+      <h6 class="mb-4">
+      Питьевой баланс важен для хорошего самочувствия!
+      <br />
+      Вода важна для здоровья!
+        </h6>
         <p>
           <img style="float:left;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613130863/102273/image2_vjedkt.png" class="m-5">
-          <b>
-            Питьевой баланс важен для хорошего самочувствия!
-            <br />
-            Вода важна для здоровья!
-          </b>
+
           <br />
 
 
