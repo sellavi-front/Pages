@@ -89,6 +89,18 @@ export default function desinfectedFrames() {
   <p>
     Федеральный округ Приволжский. Регион производства – Кировская область Система «Эко-Шлюз»
   </p>
+  <div class="mb-5 w-100 d-flex">
+    <a href="#" class="button_link">Эко-Шлюз. Документация</a>
+  </div>
+  <div class="mb-5 w-100 d-flex">
+    <a href="#" class="button_link">Эко-Шлюз. Презентации</a>
+  </div>
+  <div class="mb-5 w-100 d-flex">
+    <a href="#" class="button_link">Эко-Шлюз. Документация и презентации на иностранных языках</a>
+  </div>
+  <div class="mb-5 w-100 d-flex">
+    <a href="#" class="button_link">Эко-Шлюз. Фото и видео</a>
+  </div>
   <div class="row mb-3">
     <div class="col-4">
       <img
@@ -507,9 +519,7 @@ export default function desinfectedFrames() {
     </div>
   </div>
 </div>
-<div class="mb-5 w-100 d-flex">
-  <a href="#" class="button_link">Каталог дезинфицирующих рамок</a>
-</div>
+
     </section>
   `;
 }
