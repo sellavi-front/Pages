@@ -61,11 +61,6 @@ body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
   font-size: 10px;
 }
 
-@media (max-width: 768px) {
-  .logo img {
-    max-width: 200px !important;
-  }
-}
 body.theme-green-2.theme_11
   .header-cart
   .cart_drop_down.dropdown
