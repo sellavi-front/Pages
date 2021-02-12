@@ -361,7 +361,7 @@ export default function waterPage() {
       Вода важна для здоровья!
         </h6>
         <p>
-          <img style="float:left;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613130863/102273/image2_vjedkt.png" class="m-5">
+          <img style="float:left;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613130863/102273/image2_vjedkt.png" class="mr-4 mb-4">
 
           <br />
 
