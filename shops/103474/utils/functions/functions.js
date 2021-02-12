@@ -1,14 +1,12 @@
 import pages from "./../../utils/pages/pages.js"
 
 export default class ChangeIconInProductCard {
-
-  target = document.querySelector('body div.products');
-  config = {
-    childList: true,
-  };
-
   constructor(icons) {
     this.icons = icons;
+    this.target = document.querySelector('body div.products');
+    this.config = {
+    childList: true,
+  };
   }
 
   callBack(mutationsList, observer) {
@@ -32,6 +30,6 @@ export default class ChangeIconInProductCard {
   }
 
   change() {
-    new MutationObserver(this.callBack).observe(target, config);
+    new MutationObserver(this.callBack).observe(this.target, this.config);
   }
 }
