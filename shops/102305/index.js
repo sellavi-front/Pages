@@ -30,7 +30,7 @@ if (document.querySelector(".wrapper")) {
   }
 
   headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
-  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cartBlack)
   headerIcons.like.classList.remove('far', 'fa-heart')
   headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
 
@@ -40,7 +40,7 @@ if (document.querySelector('.product-item')) {
   document.querySelectorAll('.product-item .add_to_cart button').forEach((btn) => {
     btn.querySelector('i').remove();
     btn.textContent = 'В корзину';
-    btn.insertAdjacentHTML('afterbegin', icons.cart);
+    btn.insertAdjacentHTML('afterbegin', icons.cartWhite);
   });
 }
 
@@ -48,7 +48,7 @@ if (document.querySelector('.product-product')) {
   const btnCart = document.querySelector('#button-cart');
   btnCart.querySelector('i').remove();
   btnCart.textContent = 'В корзину';
-  btnCart.insertAdjacentHTML('afterbegin', icons.cart);
+  btnCart.insertAdjacentHTML('afterbegin', icons.cartWhite);
 }
 
 if (document.querySelector('.common-home')) {
