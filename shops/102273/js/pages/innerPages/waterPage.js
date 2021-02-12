@@ -161,6 +161,7 @@ export default function waterPage() {
               class="mt-4 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613130347/102273/unnamed_txj2xx.jpg"
               alt=""
+              style="height: 275px"
             />
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611925356/102273/Group_7423515_4_plfodd.png"
