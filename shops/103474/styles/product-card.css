@@ -20,6 +20,12 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
   position: static !important;
   margin-top: 10px !important;
   margin-bottom: 15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .product-price svg {
