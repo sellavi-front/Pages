@@ -44,7 +44,7 @@
 
 .thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
   position: relative;
-  left: 2px !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
+  left: 3px !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
   border: 1px solid;
   border-radius: 5px;
   padding: 7px;
