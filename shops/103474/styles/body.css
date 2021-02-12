@@ -20,7 +20,7 @@ body.theme_11
   h4.caption-title {
   line-height: 20px;
   min-height: unset;
-  text-align: right !important;
+  text-align: center !important;
 }
 
 body.theme_11 .wrapper .latest-section h2.section-title > i {
