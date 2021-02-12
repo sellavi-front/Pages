@@ -4,7 +4,7 @@ import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import LikeInCard from '../../modules/LikeInCard/LikeInCard.js';
 
 /* ========== FIXED BUGS ========== */
-import { ChangeAgreement, ChangeErrorMessage, TranslateAboutUs } from '../../fixes/fixes.js';
+// import { ChangeAgreement, ChangeErrorMessage, TranslateAboutUs } from '../../fixes/fixes.js';
 
 /* ========== CONSTANTS ========== */
 import content from './content/content.js';
