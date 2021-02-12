@@ -23,6 +23,19 @@ fixes.updateClasses()
 
 footer.addIcons()
 
+if (document.querySelector(".wrapper")) {
+  const headerIcons = {
+    cart: document.querySelector('body .header_widgets .header-cart i'),
+    like: document.querySelector('body .header_widgets .header_wishlist i')
+  }
+
+  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
+  headerIcons.like.classList.remove('far', 'fa-heart')
+  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
+
+}
+
 if (document.querySelector('.common-home')) {
   //const customSection = document.querySelector('.custom_section')
   //customSection.classList.add('container')
