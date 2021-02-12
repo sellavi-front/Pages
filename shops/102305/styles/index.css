@@ -121,6 +121,20 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
   background-color: transparent !important;
 }
 
+.product-product .product-single .buttons .btn-cart {
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+  max-width: 100%;
+  background-color: #232323;
+  border-color: #232323;
+  border-width: 2px;
+  color: #fff;
+  height: 60px;
+  width: 270px;
+  border-radius: 0;
+}
+
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
   background-color: #c9c9c9 !important;
   border-radius: 5px !important;
