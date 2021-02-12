@@ -64,9 +64,9 @@ if(pages.home) {
     cat.setAttribute('src', replacedSrc2);
   })
 
-  const changeIcon = new ChangeIconInProductCard(icons)
-  changeIcon.changeIcons();
-  changeIcon.change();
+  // const changeIcon = new ChangeIconInProductCard(icons)
+  // changeIcon.changeIcons();
+  // changeIcon.change();
 
 }
 
