@@ -13,6 +13,12 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
   background-color: transparent !important;
 }
 
+body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
+  color: #000 !important;
+  background-color: transparent !important;
+  border: 1px solid !important;
+}
+
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
   width: 100%;
   text-align: right;
