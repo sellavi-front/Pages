@@ -2,7 +2,7 @@ export default function waterPage() {
   return `
   <section class="page-section__content">
   <div class="mb-50px">
-        <h3 class="text-center mb-5"><b>Экологически чистая бутилированная питьевая вода с Вашим брендом.</b></h3>
+        <h3 class="text-center mb-4"><b>Экологически чистая бутилированная питьевая вода с Вашим брендом.</b></h3>
         <p>
           С целью продвижения имиджа и вашей компании, а также популяризации проектов и других
           социально значимых и общественных мероприятий, предлагаем форму сотрудничества по
@@ -26,12 +26,13 @@ export default function waterPage() {
           натриево- магниево-кальциевой, что идеально для каждодневного применения, а также для
           восстановления организма после физических нагрузок или нервного напряжения.
         </p>
-        <p>
+
+      </div>
+      <div class="mb-50px">
+        <p class="text-center">
           В мае 2019 г. состоялась конференция “Water Движение”, где собрались все самые главные
           производители питьевых вод в нашей стране.
         </p>
-      </div>
-      <div class="mb-50px">
         <p class="text-center">
           <b
             >Ледниковая вода “АБАГО” завоевала золотую медаль в слепой дегустации “ВОДА ГОДА
@@ -47,11 +48,11 @@ export default function waterPage() {
         align-items: center;
     ">
           <img
-            style="margin-right: 15px"
+            style="margin-right: 15px; height: 100%; object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
             alt=""
           /><img
-            style="margin-right: 15px"
+            style="margin-right: 15px; height: 100%; object-fit: cover; "
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
             alt=""
           />
@@ -417,5 +418,5 @@ export default function waterPage() {
       </div>
 
     </section>
-  `
+  `;
 }
