@@ -39,7 +39,7 @@ export default function waterPage() {
             2019”.</b
           >
         </p>
-        <p class="text-center"><b>Где рождается наша вода...</b></p>
+        <p class="text-center mb-4"><b>Где рождается наша вода...</b></p>
 
         <div class="mb-50px"
           style="
