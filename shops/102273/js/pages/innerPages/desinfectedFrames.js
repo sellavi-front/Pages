@@ -36,7 +36,7 @@ export default function desinfectedFrames() {
 </div>
 
 <div class="mb-3">
-  <p class="text-center"><b>Места использования дезинфицирующего оборудования:</b></p>
+  <h5 class="text-center mt-5 mb-4"><b>Места использования дезинфицирующего оборудования:</b></h5>
   <div class="row places">
     <div class="col-4">
       <img class="mb-3"
