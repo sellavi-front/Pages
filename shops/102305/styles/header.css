@@ -63,6 +63,12 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .header_wishlist {
+    display: none !important;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper .cart_drop_down {
     display: flex;
