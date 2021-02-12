@@ -41,18 +41,20 @@ export default function waterPage() {
         </p>
         <p class="text-center"><b>Где рождается наша вода...</b></p>
 
-        <div class="mb-50px" style="
-        display: grid !important;
-        grid-template-columns: repeat(auto-fit, 48%);
-        justify-content: space-between;
-        align-items: center;
-    ">
+        <div class="mb-50px"
+          style="
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, 48%);
+            justify-content: space-between;
+            align-items: center;
+        ">
           <img
-            style="margin-right: 15px; height: 100%; object-fit: cover;"
+            style="margin-right: 15px; object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
             alt=""
-          /><img
-            style="margin-right: 15px; height: 100%; object-fit: cover; "
+          />
+          <img
+            style="margin-right: 15px; object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
             alt=""
           />
