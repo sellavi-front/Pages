@@ -156,7 +156,7 @@ export default function waterPage() {
             <li>- Усиливает выведение токсинов из организма</li>
             <li>- Способствует лучшему усвоению пищи</li>
           </ul>
-          <div class="d-flex">
+          <div class="d-flex mt-5 mb-5">
             <img
               class="mt-4 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613130347/102273/unnamed_txj2xx.jpg"
@@ -331,7 +331,8 @@ export default function waterPage() {
           </p>
         </div>
       </div>
-      <div class="text-center" class="mb-50px">
+      <div class="text-center" class="mb-50px mt-5">
+        <h3 class="text-center mb-4"><b>Экологически чистая бутилированная питьевая вода с Вашим брендом.</b></h3>
         <p >
           Поставки минеральной воды лечебных и лечебно-столовых свойств из Чехии и других стран
           восточной Европы в Россию. В ассортименте пять видов лечебных минеральных вод премиум-
@@ -350,10 +351,10 @@ export default function waterPage() {
             Вода важна для здоровья!
           </b>
         </p>
-        <img
+       <!-- <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611924433/102273/50f080b6e27e37ad980830a244d430dd_1_qvf7rn.png"
           alt=""
-        />
+        /> -->
       </div>
 
       <div class="mb-50px">
