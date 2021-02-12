@@ -13,7 +13,7 @@ export default class ChangeIconInProductCard {
     let addToCart = Array.from(document.querySelectorAll('.add_to_cart i.fa-shopping-cart'));
     let addToWishList = Array.from(document.querySelectorAll('.add_to_wishlist i.fa-heart'));
 
-    console.log(icons);
+    console.log(this.icons);
     addToCart.concat(addToWishList).forEach((ico) => {
 
       if (ico.classList.contains('fa-shopping-cart')) {
