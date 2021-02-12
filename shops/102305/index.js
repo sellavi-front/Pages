@@ -36,6 +36,21 @@ if (document.querySelector(".wrapper")) {
 
 }
 
+if (document.querySelector('.product-item')) {
+  document.querySelectorAll('.product-item .add_to_cart button').forEach((btn) => {
+    btn.querySelector('i').remove();
+    btn.textContent = 'В корзину';
+    btn.insertAdjacentHTML('afterbegin', icons.cart);
+  });
+}
+
+if (document.querySelector('.product-product')) {
+  const btnCart = document.querySelector('#button-cart');
+  btnCart.querySelector('i').remove();
+  btnCart.textContent = 'В корзину';
+  btnCart.insertAdjacentHTML('afterbegin', icons.cart);
+}
+
 if (document.querySelector('.common-home')) {
   //const customSection = document.querySelector('.custom_section')
   //customSection.classList.add('container')
