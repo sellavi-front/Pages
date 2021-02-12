@@ -57,6 +57,12 @@ body.theme_11 .wrapper .latest-section h2.section-title {
   margin: 35px 0 10px 10px!important;
 }
 
+.advantages__elem {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
 .hits {
   margin-left: 5px;
 }
