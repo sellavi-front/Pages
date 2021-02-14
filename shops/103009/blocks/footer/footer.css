@@ -116,3 +116,41 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
 #home > div.wrapper.wrapper-closed > div > div.custom_section > div {
     display: none;
 }
+
+@media (min-device-width:480px) and (max-device-width: 900px) {
+    #home > div.wrapper.wrapper-closed > div > div.info-info {
+        display: none;
+    }
+
+    body.theme_11 .wrapper .homefeatured_category>div>div>div {
+        width: 349px !important;
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+        margin-top: 60px !important;
+    }
+
+    .wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul {
+        display: none;
+    }
+
+    #banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+        width: 20px;
+        font-size: 20px;
+    }
+
+    #banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > div {
+        font-size: 12px !important;
+    }
+
+    #banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > div {
+        font-size: 12px !important;
+    }
+
+    #banner0 > div > div > div > div > div > div > div > div > div > p > a {
+        padding: 10px 60px;
+        margin-top: 5px;
+    }
+}
