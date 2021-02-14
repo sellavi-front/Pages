@@ -190,7 +190,14 @@ if (document.querySelector('.product-product')) {
 if (location.href.includes('/checkout')) {
   document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'Перевод на Сбербанк'
 }
+if (document.querySelector('.products')) {
+  const productCards = document.querySelectorAll('.products.grid > .product-item')
 
+  productCards.forEach(card => {
+    card.classList.remove('col-xl-4', 'col-lg-4')
+    card.classList.add('col-xl-3', 'col-lg-3')
+  })
+}
 // if (location.href.includes('term-of-use')) {
 //   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
