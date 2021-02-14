@@ -26,7 +26,7 @@ body.theme-red-2 .footer .footer-widgets .col-md-3:last-child .widget-title {
   }
 }
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
   body.theme-red-2 .footer .footer-widgets .col-md-3:last-child .widget-title {
     text-align: left !important;
   }
