@@ -25,6 +25,8 @@ if(pages.home) {
   btnInSlider.textContent = '';
   btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.bag} Начать покупки`)
 
+  btnInSlider.insertAdjacentHTML('beforebegin', `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`)
+
   if(window.screen.width >= 575) {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
     let advantages = new Advantages()
