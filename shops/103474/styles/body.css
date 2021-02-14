@@ -65,7 +65,7 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
   }
 }
 
-@media (max-width: 495px) {
+@media (max-width: 575px) {
   body .main-slider.content_left .caption-content h3 {
     font-size: 22px !important;
   }
