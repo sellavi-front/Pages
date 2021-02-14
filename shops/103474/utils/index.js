@@ -23,7 +23,7 @@ if(pages.home) {
   customBanner.render()*/
   const btnInSlider = document.querySelector('body.common-home .main-slider .caption .caption-text a ');
   btnInSlider.textContent = '';
-  btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.bag} Начать покупки`)
+  btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.bag} Начать покупать`)
 
   btnInSlider.insertAdjacentHTML('beforebegin', `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`)
 
@@ -76,6 +76,10 @@ if (pages.all) {
     like: document.querySelector('body .header_widgets .header_wishlist i')
   }
 
+  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
+  headerIcons.like.classList.remove('far', 'fa-heart')
+  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
   /* Catalog */
   let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
   oldCatalog.classList.add("header-catalog")
@@ -84,10 +88,7 @@ if (pages.all) {
   oldCatalog.remove()
 
 
-  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
-  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
-  headerIcons.like.classList.remove('far', 'fa-heart')
-  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
+
 
 }
 

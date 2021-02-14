@@ -63,6 +63,17 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
   body .main-slider.content_left .caption-content h3 {
     font-size: 22px !important;
   }
+
+  body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content .caption-text span {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  body.common-home .main-slider .div-cell {
+    vertical-align: baseline !important;
+    padding-top: 40px ;
+  }
+
 }
 
 body.ltr.ru .page-section.titles h1 {
