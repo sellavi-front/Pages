@@ -90,4 +90,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     body .thumbnail .img-fluid {
         height: 186px !important;
     }
+
+    #home > div.wrapper.wrapper-closed > div > div.custom_section > div {
+        display: none;
+    }
 }
