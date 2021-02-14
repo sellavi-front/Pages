@@ -15,11 +15,17 @@ body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a {
   background: white !important;
 }
 
-body .main-slider.content_left .caption-content h3 {
+body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content h3 {
   color: black !important;
   font-weight: bold;
   text-transform: none !important;
-  font-size: 22px !important;
+  font-size: 47px !important;
+}
+
+@media (max-width: 495px) {
+  body .main-slider.content_left .caption-content h3 {
+    font-size: 22px !important;
+  }
 }
 
 body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
