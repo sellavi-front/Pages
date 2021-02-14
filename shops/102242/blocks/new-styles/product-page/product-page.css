@@ -62,7 +62,7 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
 .product-item .thumbnail .media img {
   -o-object-fit: cover !important;
      object-fit: cover !important;
-     max-height: 360px !important;
+     height: 360px !important;
 }
 
 .main-slider ~ .page-section {
