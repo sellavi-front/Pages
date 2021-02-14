@@ -12,6 +12,10 @@
   display: flex;
 }
 
+body .footer .footer-widgets .widget-title {
+  padding-bottom: 0 !important;
+}
+
 @media(min-width: 991px) {
   #sellavi_logo {
     width: 111px !important;
