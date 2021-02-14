@@ -30,15 +30,6 @@ import tableTemplate from '../../components/PopupWithTable/template/tableTemplat
 
 if (document.querySelector('.common-home')) {
 
-  const headerIcons = {
-    cart: document.querySelector('body .header_widgets .header-cart i'),
-    like: document.querySelector('body .header_widgets .header_wishlist i')
-  }
-
-  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
-  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
-  headerIcons.like.classList.remove('far', 'fa-heart')
-  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
 
   const sctmSection = document.querySelector('.custom_section');
   const logo = document.querySelector('.logo img');
@@ -93,9 +84,16 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
-  const cartt = document.querySelector('#cart > i');
-  cartt.classList.add('far');
-  cartt.classList.remove('fal');
+
+  const headerIcons = {
+    cart: document.querySelector('body .header_widgets .header-cart i'),
+    like: document.querySelector('body .header_widgets .header_wishlist i')
+  }
+
+  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
+  headerIcons.like.classList.remove('far', 'fa-heart')
+  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
 
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
@@ -190,6 +188,7 @@ if (document.querySelector('.product-product')) {
 if (location.href.includes('/checkout')) {
   document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'Перевод на Сбербанк'
 }
+
 if (document.querySelector('.products')) {
   const productCards = document.querySelectorAll('.products.grid > .product-item')
 
