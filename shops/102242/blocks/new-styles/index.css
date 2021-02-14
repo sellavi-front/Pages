@@ -140,6 +140,11 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: -4px auto 0 20% !important;
 }
 
+body .btn.btn-theme.btn-theme-transparent {
+  color: #887568 !important;
+}
+
+
 @media (max-width: 1224px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: -4px auto 0 8% !important;
