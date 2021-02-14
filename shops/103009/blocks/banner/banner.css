@@ -54,3 +54,11 @@
     border: 0px !important;
     border-radius: 4px !important;
 }
+
+#banner0 > div > div > div > div > div > div {
+    max-width: 1300px;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    padding: 20px 80px;
+}
