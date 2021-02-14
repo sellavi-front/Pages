@@ -291,3 +291,19 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 .wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span:first-letter {
     text-transform: uppercase !important;
 }
+
+body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black;
+}
+
+body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid black !important;   
+}
+
+.common-home .btn.btn-theme.btn-theme-transparent:hover {
+    background-color: black;
+}
