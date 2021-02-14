@@ -59,6 +59,12 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
 }
 
 
+@media (max-width: 991px) {
+  body.ltr .mobile-navigation-wrapper .menu-toggle {
+    color: var(--color-theme) !important;
+  }
+}
+
 @media (max-width: 495px) {
   body .main-slider.content_left .caption-content h3 {
     font-size: 22px !important;
@@ -71,10 +77,10 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
 
   body.common-home .main-slider .div-cell {
     vertical-align: baseline !important;
-    padding-top: 40px ;
+    padding-top: 40px;
   }
-
 }
+
 
 body.ltr.ru .page-section.titles h1 {
   font-family: 'Muller';
