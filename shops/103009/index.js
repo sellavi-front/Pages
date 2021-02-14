@@ -131,3 +131,9 @@ if (document.querySelector('.information-information-6988')) {
 if (document.querySelector('.checkout-checkout')) {
   document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.seller-comments.form-group > label').innerHTML = 'Добавить комментарий';
 }
+
+if (document.querySelector('.common-home')) {
+  if (screen.width < 480) {
+    document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', '<div class="container"><div class="mobSecondBanner"></div></div>')
+  }
+}
