@@ -65,6 +65,10 @@ body.ltr.ru.product-product .product-single.product-item #tab-description ~ .tab
      max-height: 360px !important;
 }
 
+body.common-home .page-section.homefeatured_category {
+  padding: 0 !important;
+}
+
 body.ltr.ru.product-product .product-single.product-item .buttons .quantity,
 body.ltr.ru.product-product .product-single.product-item #tab-description ~ .table_holder,
 body.ltr.ru .share_page_wrapper,
