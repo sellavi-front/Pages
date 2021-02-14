@@ -15,7 +15,7 @@
 @import '../../../../components/PopupWithTable/styles/table/table.css';
 
 @import '../../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
-@import '../../../../templates/TemplateTypeTwo/styles/products/products.css';
+/* @import '../../../../templates/TemplateTypeTwo/styles/products/products.css'; */
 @import '../../../../templates/TemplateTypeTwo/styles/products/price-actions.css';
 @import '../../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
 @import '../../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
