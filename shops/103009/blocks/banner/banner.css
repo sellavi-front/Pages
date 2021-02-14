@@ -91,3 +91,13 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
 body.ltr .wrapper .header .header-wrapper .logo {
     z-index: 2 !important;
 }
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:first-letter {
+    text-transform: uppercase;
+}
