@@ -5,6 +5,7 @@
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
 // import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import icons from './utils/icons/icons.js'
 
 import '../../components/PictureCategories/PictureCategories.js';
 
@@ -28,6 +29,17 @@ import tableTemplate from '../../components/PopupWithTable/template/tableTemplat
 
 
 if (document.querySelector('.common-home')) {
+
+  const headerIcons = {
+    cart: document.querySelector('body .header_widgets .header-cart i'),
+    like: document.querySelector('body .header_widgets .header_wishlist i')
+  }
+
+  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
+  headerIcons.like.classList.remove('far', 'fa-heart')
+  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
+
   const sctmSection = document.querySelector('.custom_section');
   const logo = document.querySelector('.logo img');
 
