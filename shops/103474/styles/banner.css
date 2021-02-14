@@ -10,6 +10,14 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+body .main-slider.content_left .caption-content h3.caption-subtitle {
+  font-weight: bold;
+  text-transform: none !important;
+  text-shadow: none !important;
+  color: black !important;
+}
+
 /*
 .bannerImg {
   display: flex;
