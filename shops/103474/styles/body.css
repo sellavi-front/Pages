@@ -66,6 +66,10 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
 }
 
 @media (max-width: 575px) {
+  .main-slider .caption-content {
+    display: block !important;
+  }
+
   body .main-slider.content_left .caption-content h3 {
     font-size: 22px !important;
   }
