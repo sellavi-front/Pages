@@ -21,6 +21,9 @@ if(pages.home) {
   banner.updateImgCategories()
   let customBanner = new CustomBanner()
   customBanner.render()*/
+
+  document.querySelector('body.common-home .main-slider .caption .caption-text a ').insertAdjacentHTML('afterbegin', icons.other.bag)
+
   if(window.screen.width >= 575) {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
     let advantages = new Advantages()
