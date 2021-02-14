@@ -16,7 +16,7 @@ body .footer .footer-widgets .widget-title {
   padding-bottom: 0 !important;
 }
 
-body.theme-red-2 .footer .footer-widgets .widget-title {
+body.theme-red-2 .footer .footer-widgets .col-md-3:last-child .widget-title {
   text-align: right !important;
 }
 
@@ -24,4 +24,11 @@ body.theme-red-2 .footer .footer-widgets .widget-title {
   #sellavi_logo {
     width: 111px !important;
   }
+}
+
+@media(min-width: 768px) {
+  body.theme-red-2 .footer .footer-widgets .col-md-3:last-child .widget-title {
+    text-align: left !important;
+  }
+
 }
