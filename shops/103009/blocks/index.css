@@ -16,7 +16,7 @@
 
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 
 body h1,
 body h2,
@@ -29,10 +29,7 @@ body a,
 body span,
 body b,
 body strong {
-  font-weight: 700;
-  font-style: normal;
-  font-family: 'Montserrat', sans-serif !important;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 span.total_title.position-relative {
