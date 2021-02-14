@@ -146,6 +146,9 @@ const wishList = `
       headerIcons.like.classList.remove('far', 'fa-heart')
       headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
 
+      document.querySelectorAll('.page-section.homefeatured_category > div > div > div').forEach(div => {
+        div.classList.add('col-lg-4', 'col-sm-6', 'col-12')
+      })
 
 }
 
