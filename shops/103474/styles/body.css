@@ -13,6 +13,8 @@ body .section-title {
 body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a {
   color: var(--color-theme) !important;
   background: white !important;
+  width: 200px !important;
+  padding: 10px !important;
 }
 
 body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content h3 span {
@@ -20,7 +22,13 @@ body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content
   font-weight: 700;
   font-family: "Muller";
   text-transform: none !important;
-  font-size: 47px !important;
+  font-size: 37px !important;
+}
+
+body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content .caption_text span {
+  font-size: 20px;
+  margin-bottom: 35px;
+
 }
 
 @media (max-width: 495px) {
