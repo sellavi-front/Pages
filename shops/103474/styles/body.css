@@ -10,7 +10,7 @@ body .section-title {
   overflow: hidden;
 }
 
-body.common-home .main-slider .caption .caption-text {
+body.common-home .main-slider .caption .caption-text a {
   color: var(--color-theme) !important;
   background: white !important;
 }
