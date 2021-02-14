@@ -237,6 +237,10 @@ body .content-area .page-section.error-page h2 {
   color: #232323;
 }
 
+body.checkout-cart .accordion .dot {
+  display: block !important;
+}
+
 .accordion .dot {
   display: none !important;
 }
