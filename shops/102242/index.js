@@ -199,8 +199,8 @@ if (document.querySelector('.products')) {
 
   productCards.forEach(card => {
 
-    card.classList.remove('col-xl-4', 'col-lg-4', 'col-sm-6')
-    card.classList.add('col-xl-3', 'col-lg-3', 'col-sm-6')
+    card.classList.remove('col-xl-4', 'col-lg-4' )
+    card.classList.add('col-xl-3', 'col-lg-3')
 
     const like = card.querySelector('.add_to_wishlist')
     card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
