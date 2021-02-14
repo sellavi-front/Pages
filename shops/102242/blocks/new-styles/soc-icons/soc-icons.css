@@ -4,13 +4,19 @@ body .footer .footer-widgets .widget-title.soc-icons__title {
 
 body .footer .footer-widgets .soc-icons__container {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 70%;
 }
 
-.ico-cart, .ico-heart {
+.ico-cart,
+.ico-heart {
   width: 21px;
+}
+
+.ico-heart svg path,
+.ico-cart svg path {
+  fill: white !important;
 }
 
 .header_wishlist > a {
@@ -21,8 +27,8 @@ body .footer .footer-widgets .soc-icons__container {
   body .footer .footer-widgets .soc-icons.col-md-3 {
     max-width: 100% !important;
     -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 100% !important;
-            flex: 0 0 100% !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
   }
 
   body .footer .footer-widgets .soc-icons.col-md-3 .container {
