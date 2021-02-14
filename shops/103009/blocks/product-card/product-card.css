@@ -299,8 +299,6 @@ body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .
 }
 
 body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
-    background-color: black !important;
-    color: white !important;
     border: 1px solid black !important;   
 }
 
