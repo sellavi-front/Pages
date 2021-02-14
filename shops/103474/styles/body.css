@@ -5,9 +5,9 @@ body .section-title {
   font-weight: 900;
   line-height: 20px;
   text-transform: uppercase;
-  text-align: left;
   color: #232323;
   overflow: hidden;
+  text-align: left;
 }
 
 body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a {
@@ -15,6 +15,28 @@ body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a {
   background: white !important;
   width: 200px !important;
   padding: 10px !important;
+}
+
+
+body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a:hover {
+background: var(--color-theme) !important;
+color: white !important;
+}
+
+body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a:hover svg,
+body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a:hover svg path {
+  stroke: white;
+  fill: white;
+}
+
+body .main-slider .caption-content .caption-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content h3 span {
@@ -25,7 +47,7 @@ body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content
   font-size: 37px !important;
 }
 
-body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content .caption_text span {
+body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content .caption-text span {
   font-size: 20px;
   margin-bottom: 35px;
 
@@ -141,3 +163,4 @@ body.theme_11
   font-size: 12px;
   font-weight: 700;
 }
+

@@ -47,12 +47,6 @@ if(pages.home) {
   renderCategories()
 
 
-  /* Catalog */
-  let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
-  oldCatalog.classList.add("header-catalog")
-  let newCatalog = oldCatalog.cloneNode(true)
-  document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
-  oldCatalog.remove()
 
 
   const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
@@ -81,6 +75,14 @@ if (pages.all) {
     cart: document.querySelector('body .header_widgets .header-cart i'),
     like: document.querySelector('body .header_widgets .header_wishlist i')
   }
+
+  /* Catalog */
+  let oldCatalog = document.querySelector(".mobile-navigation-wrapper")
+  oldCatalog.classList.add("header-catalog")
+  let newCatalog = oldCatalog.cloneNode(true)
+  document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
+  oldCatalog.remove()
+
 
   headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
   headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
