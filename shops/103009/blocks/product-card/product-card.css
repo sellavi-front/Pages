@@ -272,14 +272,14 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 }
 
 .price_actions.d-flex.justify-content-between .add_to_cart .btn.btn-theme.btn-theme-transparent.btn-icon {
-    height: 60px;
+    height: 53px;
 }
 
 
 
 .price_actions.d-flex.justify-content-between .add_to_wishlist {
     width: 65px !important;
-    height: 60px;
+    height: 53px;
 }
 
 .wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
