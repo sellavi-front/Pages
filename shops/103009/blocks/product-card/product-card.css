@@ -302,6 +302,10 @@ body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .
     border: 1px solid black !important;   
 }
 
+body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+    background-color: #ececec !important;
+}
+
 .common-home .btn.btn-theme.btn-theme-transparent:hover {
-    background-color: black;
+    background-color: #ececec !important;
 }
