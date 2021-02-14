@@ -47,6 +47,10 @@ body span {
   font-style: normal;
 }
 
+body.common-home .main-slider .caption .container {
+  max-width: 1542px !important;
+}
+
 
 body.account-login .alert-danger {
   margin-bottom: 10px;
