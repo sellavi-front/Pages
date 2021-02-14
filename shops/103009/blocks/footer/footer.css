@@ -94,4 +94,19 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     #home > div.wrapper.wrapper-closed > div > div.custom_section > div {
         display: none;
     }
+
+    .mobile_two_columns .products .thumbnail .caption {
+        max-height: 55px !important;
+        min-height: 42px !important;
+    }
+    
+    .wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.caption.text-center > h4 > a {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+    }
+    
+    .wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div:nth-child(11) > div > div.price_actions.d-flex.justify-content-between > div.price {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
 }
