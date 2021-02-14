@@ -101,3 +101,27 @@ body.ltr .wrapper .header .header-wrapper .logo {
 #banner0 > div > div > div > div > div > div > div > div > div > p > a:first-letter {
     text-transform: uppercase;
 }
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:first-letter {
+    text-transform: uppercase;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > div {
+    text-transform: lowercase;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > div {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > div {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
