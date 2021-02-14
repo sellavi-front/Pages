@@ -62,7 +62,3 @@
 #banner0 > div > div > div > div > div > div > div > div > div > p > a {
     padding: 20px 80px;
 }
-
-#home > div.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > ul > li:nth-child(3) > a {
-    display:none;
-}
