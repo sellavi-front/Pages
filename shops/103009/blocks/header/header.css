@@ -88,3 +88,11 @@ body.theme_11 .wrapper .header .header-wrapper .header-search button {
     max-width: 25px;
     width: 100%;
 }
+
+.ico-cart, .ico-heart {
+    width: 21px;
+  }
+  
+  .header_wishlist > a {
+    font-size: 21px;
+  }
