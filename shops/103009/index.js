@@ -13,6 +13,7 @@ import icons from './utils/icons.js';
 
 if (document.querySelector('.header-wrapper')) {
   document.querySelector('.fa-heart').innerHTML = icons.like;
+  document.querySelector('.fa-shopping-cart.far').innerHTML = icons.cart;
 }
 
 if (!location.pathname.includes('checkout')) {
