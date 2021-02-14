@@ -16,6 +16,11 @@ if (document.querySelector('.header-wrapper')) {
   document.querySelector('.fa-shopping-cart.far').innerHTML = icons.cart;
 }
 
+if (document.querySelector('.price_actions.d-flex.justify-content-between')) {
+  document.querySelector('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i').innerHTML = icons.cart;
+  document.querySelector('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i').innerHTML = icons.like;
+}
+
 if (!location.pathname.includes('checkout')) {
   document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove();
 }
