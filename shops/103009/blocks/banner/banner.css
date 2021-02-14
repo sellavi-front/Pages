@@ -9,7 +9,7 @@
     text-shadow: none;
     color: black;
     display: block;
-    width: 599px;
+    width: 700px;
     text-transform: lowercase;
 }
 
@@ -56,9 +56,14 @@
 }
 
 #banner0 > div > div > div > div > div > div {
-    max-width: 1300px;
+    max-width: 1561px;
 }
 
 #banner0 > div > div > div > div > div > div > div > div > div > p > a {
     padding: 20px 80px;
+}
+
+.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > li > a {
+    font-weight: 500;
+    font-size: 18px;
 }
