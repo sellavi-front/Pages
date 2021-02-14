@@ -193,11 +193,20 @@ if (location.href.includes('/checkout')) {
 
 if (document.querySelector('.products')) {
   const productCards = document.querySelectorAll('.products.grid > .product-item')
+  const iconsWishList = document.querySelectorAll('.products.grid > .product-item .add_to_wishlist');
+  const priceCont = document.querySelectorAll('.products.grid > .product-item .price');
+
 
   productCards.forEach(card => {
+
     card.classList.remove('col-xl-4', 'col-lg-4', 'col-sm-6')
-    card.classList.add('col-xl-3', 'col-lg-3', 'col-sm-4')
+    card.classList.add('col-xl-3', 'col-lg-3', 'col-sm-6')
+
+    const like = card.querySelector('.add_to_wishlist')
+    card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
+    like.remove()
   })
+
 }
 // if (location.href.includes('term-of-use')) {
 //   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
