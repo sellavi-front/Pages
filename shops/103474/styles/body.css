@@ -10,6 +10,18 @@ body .section-title {
   overflow: hidden;
 }
 
+body.common-home .main-slider .caption .caption-text {
+  color: var(--color-theme) !important;
+  background: white !important;
+}
+
+body .main-slider.content_left .caption-content h3 {
+  color: black !important;
+  font-weight: bold;
+  text-transform: none !important;
+  font-size: 22px !important;
+}
+
 body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
   line-height: 20px;
   min-height: unset;
