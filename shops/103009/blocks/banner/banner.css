@@ -67,3 +67,7 @@
     font-weight: 500;
     font-size: 18px;
 }
+
+.header_widgets .header_wishlist .fa-heart:before, .header_widgets .header-cart.sticky .fa-shopping-cart:before {
+    display: none;
+}
