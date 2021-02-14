@@ -58,10 +58,16 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
   opacity: .8;
 }
 
+
 @media (max-width: 495px) {
   body .main-slider.content_left .caption-content h3 {
     font-size: 22px !important;
   }
+}
+
+body.ltr.ru .page-section.titles h1 {
+  font-family: 'Muller';
+  font-weight: bold;
 }
 
 body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
