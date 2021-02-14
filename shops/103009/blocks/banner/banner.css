@@ -71,3 +71,23 @@
 .header_widgets .header_wishlist .fa-heart:before, .header_widgets .header-cart.sticky .fa-shopping-cart:before {
     display: none;
 }
+
+.header_widgets .header_wishlist {
+    margin-right: 0px ;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search button {
+    right: 2px !important;
+}
+
+.header-wrapper #search.header-search {
+    padding-right: 0px !important;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
+    z-index: -1;
+}
+
+body.ltr .wrapper .header .header-wrapper .logo {
+    z-index: 2 !important;
+}
