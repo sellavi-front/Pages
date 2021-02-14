@@ -11,6 +11,9 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
 import icons from './utils/icons.js';
 
+if (document.querySelector('.header-wrapper')) {
+  document.querySelector('.fa-heart').innerHTML = icons.like;
+}
 
 if (!location.pathname.includes('checkout')) {
   document.querySelector('#home > div.wrapper.wrapper-closed > div.navigation_black_screen').remove();
