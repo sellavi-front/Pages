@@ -281,3 +281,13 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
     width: 65px !important;
     height: 60px;
 }
+
+.wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
+    font-size: 14px !important;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span:first-letter {
+    text-transform: uppercase !important;
+}
