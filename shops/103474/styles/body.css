@@ -58,6 +58,11 @@ body.ltr .mobile-navigation-wrapper .menu-toggle {
   opacity: .8;
 }
 
+body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
+  color: white !important;
+  opacity: .8;
+}
+
 
 @media (max-width: 991px) {
   body.ltr .mobile-navigation-wrapper .menu-toggle {
