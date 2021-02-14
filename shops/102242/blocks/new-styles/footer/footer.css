@@ -4,3 +4,8 @@
 body.ltr.ru .wrapper footer.footer, body.ltr.ru .wrapper footer.footer .footer-widgets {
   margin-top: 30px !important;
 }
+
+body .footer .footer-meta .copyright img {
+  -webkit-filter: sepia(1) !important;
+          filter: sepia(1) !important;
+}
