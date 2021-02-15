@@ -103,7 +103,7 @@ body .img-thumbnail {
   -o-object-fit: cover;
   object-fit: cover;
 }
-/* 
+/*
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-left: 0 !important;
 } */
@@ -137,7 +137,7 @@ body.theme-gray.theme_11
 body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   color: white !important;
 }
-/* 
+/*
 @media (max-width: 1199px) {
   body.ru.ltr:not(.mobile_two_columns)
     .wrapper
@@ -178,6 +178,10 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   } */
 }
 
+.price_actions .buttons__container {
+  height: 35px !important;
+}
+
 @media (max-width: 495px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
     width: 180px !important;
@@ -188,7 +192,7 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   .thumbnail .add_to_wishlist button {
     width: 72px !important;
   }
-  
+
   body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
     display: none !important;
   }
