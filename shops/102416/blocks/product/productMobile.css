@@ -60,6 +60,19 @@
     .featured-products-carousel.products.grid > div {
         max-width: 267px;
     }
+
+    body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+        display: inline;
+        font-size: 10px 
+    }
+    
+    .wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div:nth-child(1) > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
+        font-size: 10px; 
+    }
+    
+    .price_actions .buttons__container {
+        height: 36px !important;
+    }
 }
 
 
