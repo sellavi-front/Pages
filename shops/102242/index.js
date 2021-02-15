@@ -202,7 +202,7 @@ if (document.querySelector('.product-item')) {
       card.classList.remove('col-xl-4', 'col-lg-4')
       card.classList.add('col-xl-3', 'col-lg-3')
     }
-
+console.log(card);
     const like = card.querySelector('.add_to_wishlist')
     card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
     like.remove()
