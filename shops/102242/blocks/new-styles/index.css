@@ -136,7 +136,8 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   color: #887568 !important;
 }
 
-body.theme_11 .featured-products-carousel .bx-wrapper {
+body.theme_11 .featured-products-carousel .bx-wrapper,
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
   max-height: 100% !important;
 }
 
