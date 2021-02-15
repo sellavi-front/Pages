@@ -1,3 +1,4 @@
+import pages from '../pages/pages.js'
 
 (function () {
   const icon = `
