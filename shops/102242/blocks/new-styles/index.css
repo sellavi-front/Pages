@@ -136,6 +136,10 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   color: #887568 !important;
 }
 
+body.theme_11 .featured-products-carousel .bx-wrapper {
+  max-height: 100% !important;
+}
+
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: -4px auto 0 20% !important;
 }
