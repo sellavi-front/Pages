@@ -20,6 +20,10 @@ body .footer .footer-widgets .soc-icons__container {
   fill: #8f8476 !important;
 }
 
+.header_login i.far.fa-user {
+  font-size: 21px !important;
+}
+
 body.common-home .ico-heart path,
 body.common-home .ico-cart path {
   fill: white !important;
