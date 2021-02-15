@@ -136,11 +136,11 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   color: #887568 !important;
 }
 
-body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i {
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login > a i {
   font-size: 21px !important;
 }
 
-.product-product .product-sing {
+.product-product .product-single #bx-pager .bx-pager-link {
   margin: 0 1px !important;
 }
 
@@ -156,6 +156,23 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
   height: 100% !important;
 }
 
+.product-product .product-single .product-thumbnails {
+  max-height: 180px !important;
+}
+
+.product-product .product-single .product-thumbnails>div,
+.product-product .product-single .product-thumbnails>div>a {
+  max-height: inherit;
+}
+
+.product-product .product-single .product-thumbnails a img {
+  max-height: inherit;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
 .product-single .bx-slider-wrapper .bx-wrapper .bx-viewport {
   height: auto !important;
 }
@@ -166,7 +183,6 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
 body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
   color: #887568 !important;
 }
-
 
 @media (max-width: 1224px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
