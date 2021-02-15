@@ -55,3 +55,7 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   margin-bottom: 15px !important;
 }
+
+body.theme_11 .wrapper .latest-section h2.section-title span {
+  margin: 0 20px !important;
+}
