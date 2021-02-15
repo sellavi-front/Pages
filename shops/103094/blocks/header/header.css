@@ -24,6 +24,18 @@ body.common-home .menu-toggle svg {
   stroke: white !important;
 }
 
+@media screen and (min-width: 768px) {
+  .logo img {
+    max-height: 50px !important;
+  }
+
+  .cat_item {
+    display: flex;
+    width: auto;
+    padding: 15px;
+  }
+}
+
 .logo img {
   max-height: 120px !important;
 }
