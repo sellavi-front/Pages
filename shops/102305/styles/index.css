@@ -356,9 +356,9 @@ body.theme_11 .wrapper .latest-section h2.section-title {
     display: inherit !important;
   }
 
-  #home > div > div.content-area > section.page-section.latest-section > div:nth-child(1) {
+  /*#home > div > div.content-area > section.page-section.latest-section > div:nth-child(1) {
     display: none;
-  }
+  }*/
 
   .footer-widgets>.container>.footer__row>.col-md-3 {
     border-top: 1px solid #C4C4C4 !important;
