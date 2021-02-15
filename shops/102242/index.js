@@ -194,16 +194,14 @@ if (location.href.includes('/checkout')) {
   document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'Перевод на Сбербанк'
 }
 
-if (document.querySelector('.products')) {
+if (document.querySelector('.product-item')) {
   const productCards = document.querySelectorAll('.products.grid > .product-item')
-  const iconsWishList = document.querySelectorAll('.products.grid > .product-item .add_to_wishlist');
-  const priceCont = document.querySelectorAll('.products.grid > .product-item .price');
-
 
   productCards.forEach(card => {
-
-    card.classList.remove('col-xl-4', 'col-lg-4' )
-    card.classList.add('col-xl-3', 'col-lg-3')
+    if (card.classList.contains('col-xl-4')) {
+      card.classList.remove('col-xl-4', 'col-lg-4')
+      card.classList.add('col-xl-3', 'col-lg-3')
+    }
 
     const like = card.querySelector('.add_to_wishlist')
     card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
