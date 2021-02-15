@@ -88,3 +88,7 @@ body .main-slider .caption-content .caption-text {
     width: 229px !important;
     padding-left: 45px !important;
 }
+
+.product-product .buttons.d-flex.flex-wrap .btn.btn-theme.btn-theme-transparent.btn-wish-list {
+    border-radius: 0px !important;
+}
