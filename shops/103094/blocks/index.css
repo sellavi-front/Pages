@@ -133,6 +133,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
   flex-wrap: wrap;
 }
 
+
+
 .cat_item {
   display: flex;
   width: 33.3%;
@@ -141,6 +143,15 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 
 .cat_item img {
   width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .cat_item {
+    display: flex;
+    width: auto !important;
+    padding: 15px;
+  }
 }
 
 @media screen and (max-width: 480px) {
