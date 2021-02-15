@@ -164,6 +164,12 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login > a
   }
 }
 
+@media (max-width: 495px) {
+  .product-single .bx-slider-wrapper .bx-wrapper .bx-viewport {
+    height: 455px !important;
+  }
+}
+
 body.theme_11 .featured-products-carousel .bx-wrapper,
 body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
   max-height: 100% !important;
