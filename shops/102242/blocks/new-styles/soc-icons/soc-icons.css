@@ -14,6 +14,12 @@ body .footer .footer-widgets .soc-icons__container {
   width: 21px;
 }
 
+
+.ico-cart path,
+.ico-heart path {
+  fill: #8f8476 !important;
+}
+
 body.common-home .ico-heart path,
 body.common-home .ico-cart path {
   fill: white !important;
