@@ -57,3 +57,17 @@ body .main-slider .caption-content .caption-text {
     text-align: right;
 }
  
+
+@media (min-device-width: 480px) and (max-device-width: 900px) {
+    #home > div:nth-child(2) {
+        display: none;
+    }
+
+    #home > div:nth-child(3) {
+        display: none;
+    }
+
+    #home > div:nth-child(4) {
+        display: none;
+    }
+}
