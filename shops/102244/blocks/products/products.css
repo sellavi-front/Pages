@@ -179,11 +179,11 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 }
 
 .price_actions .buttons__container {
-  height: 35px !important;
+  height: 50px !important;
 }
 
 .thumbnail .add_to_wishlist button {
-  width: 52 !important;
+  width: 60px !important;
 }
 
 @media (max-width: 495px) {
