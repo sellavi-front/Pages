@@ -105,3 +105,14 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   -ms-flex-direction: row !important;
   flex-direction: row !important;
 }
+
+@media screen and (min-width: 768px) {
+  .categories__block>div {
+    width: 100% !important;
+  }
+
+  .widget :last-child {
+    margin-bottom: 0;
+    font-size: 10px !important;
+  }
+}
