@@ -84,3 +84,7 @@ body .main-slider .caption-content .caption-text {
     max-width: 100% !important;
 }
 
+#bx_product_featured > div {
+    width: 229px !important;
+    padding-left: 45px !important;
+}
