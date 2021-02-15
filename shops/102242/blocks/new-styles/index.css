@@ -136,9 +136,14 @@ body .btn.btn-theme.btn-theme-transparent:hover i {
   color: #887568 !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i {
+  font-size: 21px !important;
+}
+
 body.theme_11 .featured-products-carousel .bx-wrapper,
 body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
   max-height: 100% !important;
+  height: 100%;
 }
 
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
