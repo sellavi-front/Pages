@@ -125,3 +125,9 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
     font-size: 10px !important;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+    margin-top: 320px !important;
+  }
+}
