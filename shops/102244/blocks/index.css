@@ -52,3 +52,6 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
 }
 
 
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
+  margin-bottom: 15px !important;
+}
