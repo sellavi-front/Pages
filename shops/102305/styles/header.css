@@ -63,7 +63,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 767px) {
   .header_wishlist {
     display: none !important;
   }
