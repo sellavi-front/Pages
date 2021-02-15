@@ -93,6 +93,14 @@ body.ltr.ru .shop-sorting {
   margin-top: 30px !important;
 }
 
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list:hover {
+  background-color: #d0a995 !important;
+}
+
+body.ltr.ru.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
+  color: white !important;
+}
+
 @media (max-width: 495px) {
   .product-single > div > #product {
     margin: 0 !important;
