@@ -16,6 +16,11 @@ body .footer .footer-widgets .widget-title {
   padding-bottom: 0 !important;
 } */
 
+.soc-icons__container {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
 
 @media(min-width: 991px) {
   #sellavi_logo {
