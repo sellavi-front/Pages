@@ -211,7 +211,7 @@ if (document.querySelector('.product-item')) {
 }
 
 if (document.querySelector('.product-product')) {
-  document.querySelectorAll('#bx-pager.row.product-thumbnails col-12').forEach(col => {
+  document.querySelectorAll('#bx-pager.row.product-thumbnails col-2').forEach(col => {
     col.classList.add('col')
     col.classList.remove('col-2', 'col-md-3')
   })
