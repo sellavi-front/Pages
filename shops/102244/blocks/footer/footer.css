@@ -17,3 +17,7 @@ body.ltr.ru .footer {
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
   color: #00000090 !important
 }
+
+body .footer .footer-widgets {
+  padding-top: 0 !important;
+}
