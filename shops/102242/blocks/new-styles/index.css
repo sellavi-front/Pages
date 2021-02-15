@@ -173,6 +173,7 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
 .product-product .product-single .product-thumbnails {
   max-height: 180px !important;
   margin: 0 6px !important;
+  overflow: hidden;
 }
 
 .product-product .product-single .product-thumbnails > div,
@@ -189,8 +190,10 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
 }
 
 .product-single .bx-slider-wrapper .bx-wrapper .bx-viewport {
-  height: auto !important;
+  height: 782px !important;
+  overflow: hidden !important;
 }
+
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: -4px auto 0 20% !important;
 }
