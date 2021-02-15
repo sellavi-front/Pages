@@ -57,6 +57,10 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
 
 body.theme_11 .wrapper .latest-section h2.section-title span {
   margin: 0 20px !important;
+}
+
+body.ltr .page-section h2:not(.block-title) span,
+body.theme_11 .wrapper .latest-section h2.section-title span {
   font-family: 'Playfair Display', serif;
 }
 
