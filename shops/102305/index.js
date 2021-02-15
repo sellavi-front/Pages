@@ -23,6 +23,10 @@ fixes.updateClasses()
 
 footer.addIcons()
 
+if (document.querySelector(".common-home")) {
+  document.querySelector(".homefeatured_category").insertAdjacentHTML("afterend", `<img src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1613390702/sellavi/102305/Component_1_1_da26cx.png' alt='features' />`)
+}
+
 if (document.querySelector(".wrapper")) {
   const headerIcons = {
     cart: document.querySelector('body .header_widgets .header-cart i'),
