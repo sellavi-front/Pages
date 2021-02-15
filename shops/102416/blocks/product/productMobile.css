@@ -57,6 +57,14 @@
 }
 
 @media (max-device-width: 480px) {
+    .featured-products-carousel.products.grid > div {
+        max-width: 267px;
+    }
+}
+
+
+
+@media (max-device-width: 480px) {
     .header-wrapper {
         display: flex !important;
     }
