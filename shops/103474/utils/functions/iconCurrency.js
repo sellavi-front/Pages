@@ -1,4 +1,3 @@
-import icons from "../icons/icons";
 
 (function () {
   const icon = `
