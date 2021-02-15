@@ -107,7 +107,16 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 }
 
 @media screen and (min-width: 768px) {
-  .categories__block>div {
+
+  .common-home .content-area>.page-section>.container>.row>div:nth-child(1) {
+    width: 100% !important;
+  }
+
+  .common-home .content-area>.page-section>.container>.row>div:nth-child(2) {
+    width: 100% !important;
+  }
+
+  .common-home .content-area>.page-section>.container>.row>div:nth-child(3) {
     width: 100% !important;
   }
 
