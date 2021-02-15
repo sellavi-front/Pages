@@ -88,7 +88,7 @@ import pages from '../pages/pages.js'
     const callback = function (mutationsList, observer) {
       for (let mutation of mutationsList) {
         if (mutation.type === 'childList') {
-          changeIcon(document.querySelector('.product-price .price'), icon);
+          changeIcon(document.querySelectorAll('.thumbnail .price'), icon);
         }
       }
     };
