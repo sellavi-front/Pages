@@ -144,8 +144,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i
   margin: 0 1px !important;
 }
 
-.product-product .product-single .product-thumbnails {
-  height: 100px;
+@media (max-width: 768px) {
+  .product-product .product-single .product-thumbnails {
+    height: 100px;
+  }
 }
 
 body.theme_11 .featured-products-carousel .bx-wrapper,
