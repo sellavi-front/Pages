@@ -70,4 +70,8 @@ body .main-slider .caption-content .caption-text {
     #home > div:nth-child(4) {
         display: none;
     }
+
+    .common-home .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
+        top: 25px !important;
+    }
 }
