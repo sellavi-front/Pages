@@ -68,3 +68,7 @@ body.ltr .wrapper .header .header-wrapper .logo {
     display: flex;
     margin-left: 25px;
 } */
+
+.wrapper.wrapper-closed > div.content-area > div.main-slider.content_center > div.custom_banner > div > video {
+    width: 100%;
+}
