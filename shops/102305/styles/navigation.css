@@ -9,3 +9,10 @@
 .sf-menu .flexy.has_children ul {
   margin: 0 !important;
 }
+
+.sf-menu .flexy.has_children > ul li ul li {
+  display: flex !important;
+  color: black !important;
+  align-items: flex-end;
+  margin-bottom: 0 !important;
+}
