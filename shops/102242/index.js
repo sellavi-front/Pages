@@ -207,8 +207,8 @@ if (document.querySelector('.product-item')) {
     card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
     like.remove()
   })
-
 }
+
 // if (location.href.includes('term-of-use')) {
 //   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 
