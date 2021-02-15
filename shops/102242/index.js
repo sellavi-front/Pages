@@ -210,6 +210,13 @@ if (document.querySelector('.product-item')) {
   })
 }
 
+if (document.querySelector('.product-product')) {
+  document.querySelectorAll('#bx-pager.row.product-thumbnails col-12').forEach(col => {
+    col.classList.add('col')
+    col.classList.remove('col-2', 'col-md-3')
+  })
+}
+
 // if (location.href.includes('term-of-use')) {
 //   const req = new Requisites(requsites, 'beforeend', 'ИП Харламова Зоя Николаевна');
 

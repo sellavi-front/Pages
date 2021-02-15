@@ -140,12 +140,23 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i
   font-size: 21px !important;
 }
 
+.product-product .product-sing {
+  margin: 0 1px !important;
+}
+
+.product-product .product-single .product-thumbnails {
+  height: 100px;
+}
+
 body.theme_11 .featured-products-carousel .bx-wrapper,
 body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
   max-height: 100% !important;
   height: 100%;
 }
 
+.product-single .bx-slider-wrapper .bx-wrapper .bx-viewport {
+  height: auto !important;
+}
 body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   margin: -4px auto 0 20% !important;
 }
