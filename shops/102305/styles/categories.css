@@ -128,6 +128,6 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
 
 @media screen and (min-width: 1024px) {
   body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
-    margin-top: 320px !important;
+    margin-top: 360px !important;
   }
 }
