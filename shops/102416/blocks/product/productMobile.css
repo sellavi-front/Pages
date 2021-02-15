@@ -51,9 +51,9 @@
 }
 
 @media (max-width: 768px) {
-    body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    /* body.ru.ltr .wrapper .page-section .products.grid .product-item {
         padding: 10px !important;
-    }
+    } */
 }
 
 @media (max-device-width: 480px) {
