@@ -168,6 +168,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login > a
   .product-single .bx-slider-wrapper .bx-wrapper .bx-viewport {
     height: 455px !important;
   }
+
+  .product-product .product-single .product-thumbnails {
+    margin: 0 !important;
+  }
 }
 
 body.theme_11 .featured-products-carousel .bx-wrapper,
