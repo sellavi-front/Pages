@@ -42,7 +42,7 @@
 }
 
 .common-home .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
-    top: 0px !important;
+    top: 0px;
 }
 
 i.fas.fa-bars {
