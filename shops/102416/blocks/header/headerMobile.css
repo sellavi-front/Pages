@@ -120,4 +120,8 @@ h3.caption-subtitle {
         left: 0px !important;
         top: 0px !important;
     }
+
+    #bx_product_featured > div {
+        width: 242px !important;
+    }
 }

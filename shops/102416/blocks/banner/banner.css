@@ -74,4 +74,13 @@ body .main-slider .caption-content .caption-text {
     .common-home .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky {
         top: 25px !important;
     }
+    #bx_product_featured > div {
+        width: 230px !important;
+    }
 }
+
+
+.featured-products-carousel.products.grid > div {
+    max-width: 100% !important;
+}
+
