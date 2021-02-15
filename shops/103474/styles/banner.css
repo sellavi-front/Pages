@@ -9,6 +9,7 @@
 #banner0 > div > div > div > div > picture > img {
   -o-object-fit: cover;
      object-fit: cover;
+     height: 420px;
 }
 
 body .main-slider.content_left .caption-content h3.caption-subtitle {
@@ -16,6 +17,12 @@ body .main-slider.content_left .caption-content h3.caption-subtitle {
   text-transform: none !important;
   text-shadow: none !important;
   color: black !important;
+}
+
+@media (max-width: 575px) {
+  #banner0 > div > div > div > div > picture > img {
+    height: 600px ;
+  }
 }
 
 /*

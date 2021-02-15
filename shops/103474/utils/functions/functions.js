@@ -39,3 +39,5 @@ export default class ChangeIconInProductCard {
     new MutationObserver(this.callBack).observe(this.target, this.config);
   }
 }
+
+

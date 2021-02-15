@@ -1,3 +1,5 @@
+import icons from "../icons/icons";
+
 (function () {
   const icon = `
 <svg
@@ -77,4 +79,20 @@
       }, 500);
     });
   });
+
+  if (pages.product) {
+    let target = document.querySelector('body div.products');
+    const config = {
+      childList: true,
+    };
+    const callback = function (mutationsList, observer) {
+      for (let mutation of mutationsList) {
+        if (mutation.type === 'childList') {
+          changeIcon(document.querySelector('.product-price .price'), icon);
+        }
+      }
+    };
+    const observer = new MutationObserver(callback);
+    observer.observe(target, config);
+  }
 })();
