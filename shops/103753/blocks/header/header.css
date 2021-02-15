@@ -72,3 +72,8 @@ body.ltr .wrapper .header .header-wrapper .logo {
 .wrapper.wrapper-closed > div.content-area > div.main-slider.content_center > div.custom_banner > div > video {
     width: 100%;
 }
+
+.custom_banner {
+    position: relative;
+    z-index: 999;
+}
