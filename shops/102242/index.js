@@ -195,7 +195,7 @@ if (location.href.includes('/checkout')) {
 }
 
 if (document.querySelector('.product-item')) {
-  const productCards = document.querySelectorAll('.products.grid > .product-item')
+  const productCards = document.querySelectorAll('body .product-item')
 
   productCards.forEach(card => {
     if (card.classList.contains('col-xl-4')) {
