@@ -172,6 +172,7 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
 
 .product-product .product-single .product-thumbnails {
   max-height: 180px !important;
+  margin: 0 6px !important;
 }
 
 .product-product .product-single .product-thumbnails > div,
