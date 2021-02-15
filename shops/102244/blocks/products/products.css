@@ -182,6 +182,10 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   height: 35px !important;
 }
 
+.thumbnail .add_to_wishlist button {
+  width: 52 !important;
+}
+
 @media (max-width: 495px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
     width: 180px !important;
