@@ -58,7 +58,7 @@ body .main-slider .caption-content .caption-text {
 }
  
 
-@media (min-device-width: 480px) and (max-device-width: 900px) {
+@media (min-device-width: 480px) and (max-device-width: 1024px) {
     #home > div:nth-child(2) {
         display: none;
     }
