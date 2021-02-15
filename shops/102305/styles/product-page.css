@@ -18,6 +18,17 @@ body.theme-gray.theme_11.product-product .product-single.product-item .buttons #
   flex: inherit;
 }
 
+body .btn.dropdown-toggle {
+  box-shadow: none;
+  height: 40px;
+  border-radius: 0 !important;
+  border: 2px solid #000 !important;
+  color: #000 !important;
+  background: #fff;
+}
+
+
+
 body.theme_11.product-product .product-single.product-item .buttons #button-cart {
   max-height: 48px;
   max-width: 250px;
