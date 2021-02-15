@@ -224,11 +224,7 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
   }
 }
 
-/* body .dropdown-menu.dropdown-menu-right.show .col-12 {
-  padding: 0 15px !important;
-} */
-
-info-card__bottom > a {
+.info-card__bottom > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
