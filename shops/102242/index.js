@@ -195,7 +195,7 @@ if (location.href.includes('/checkout')) {
 }
 
 if (document.querySelector('.product-item')) {
-  const productCards = document.querySelectorAll('body .product-item')
+  const productCards = document.querySelectorAll('body .content-area ~ .page-section .product-item')
 
   productCards.forEach(card => {
     if (card.classList.contains('col-xl-4')) {
@@ -203,7 +203,7 @@ if (document.querySelector('.product-item')) {
       card.classList.add('col-xl-3', 'col-lg-3')
     }
     const like = card.querySelector('.add_to_wishlist')
-console.log(like);
+    console.log(like);
 
     card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
     like.remove()
