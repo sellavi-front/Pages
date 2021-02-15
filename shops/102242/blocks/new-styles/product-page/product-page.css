@@ -92,3 +92,9 @@ body.ltr.ru .shop-sorting {
 .product-single > div > #product {
   margin-top: 30px !important;
 }
+
+@media (max-width: 495px) {
+  .product-single > div > #product {
+    margin: 0 !important;
+  }
+}
