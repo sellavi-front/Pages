@@ -11,7 +11,6 @@
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
-@import '../../../templates/TemplateTypeTwo/styles/logo/logo.css';
 @import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 
 @import './../styles/categories.css';
@@ -308,7 +307,7 @@ body.theme_11 .wrapper .latest-section h2.section-title {
 
 @media (max-width: 768px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
-    margin: auto;
+    margin: auto !important;
   }
 }
 
