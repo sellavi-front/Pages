@@ -121,7 +121,7 @@ body.ru.ltr .checkout-progress-bar .step-number.active,
 
 body.theme_11 .wrapper .page-section .products.grid .product-item {
   border: none !important;
-  padding: 30px 0 0 !important;
+  padding:  0 0 30px !important;
 }
 
 body.ltr .thumbnail .add_to_wishlist {
