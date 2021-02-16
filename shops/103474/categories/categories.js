@@ -1,6 +1,6 @@
 const categories = [
   {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_19_umfjsx.png',
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1613490169/Frame_49_2_rxujjr.png',
     link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7002',
     text: 'Кофе и чай',
   },
