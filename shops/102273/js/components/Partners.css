@@ -23,6 +23,12 @@
   justify-content: center;
 }
 
+.partner_img {
+  height: 70px;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
 .partners__title {
   font-size: 22px;
   font-weight: bold;
