@@ -95,3 +95,33 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .information-information-6593 #content > div > div > p:nth-child(3) {
     display: none;
 } 
+
+@media (min-device-width: 480px) {
+    .product-product section > div > div > div.col-12.col-lg-6.single_image.bx-slider-wrapper.bx-off > div.item.only_thumb.no_images {
+        height: 480px !important;
+    }
+
+    .product-product .zoomHolder {
+        width: 60%;
+    /*     margin: 0 10%; */
+    }
+
+    #pz_zoomer_no_slide > img {
+        height: 300px !important;
+        object-fit: contain
+    }
+
+    .product-product div#tab-description {
+        padding-top: 20px;
+        margin-top: 20px;
+        border-top: 2px solid #cccccc;
+    }
+
+    .product-product .wrapper.wrapper-closed div.content-area {
+        padding-bottom: 0px;
+    }
+
+    .product-product > div > div > section > div > div {
+        padding-bottom: 0px !important;
+    }
+}
