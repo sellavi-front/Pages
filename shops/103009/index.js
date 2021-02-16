@@ -16,12 +16,18 @@ if (document.querySelector('.header-wrapper')) {
   document.querySelector('.fa-shopping-cart.far').innerHTML = icons.cart;
 }
 
-// if (document.querySelector('.price_actions.d-flex.justify-content-between')) {
-//   // document.querySelector('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i').innerHTML = icons.cart;
-//   // document.querySelector('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i').innerHTML = icons.like;
+if (document.querySelector('.price_actions.d-flex.justify-content-between')) {
+  document.querySelector('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i').innerHTML = icons.cart;
+  document.querySelector('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i').innerHTML = icons.like;
   
-  
-// }
+  let arrayOfCarts = document.querySelectorAll('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i');
+          let arrayOfHearts = document.querySelectorAll('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i');
+
+          for (let i = 0; i < arrayOfCarts.length; i++) {
+            arrayOfCarts[i].innerHTML = icons.cart;
+            arrayOfHearts[i].innerHTML = icons.like; 
+          }
+}
 
 
   if (
