@@ -54,10 +54,10 @@ body.common-home.theme-red-2.theme_11
   font-size: 20px;
   margin-bottom: 35px;
 }
-
+/*
 body.ltr .wrapper-closed .mobile-navigation-wrapper .menu-toggle {
   color: white !important;
-}
+} */
 
 body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
   color: white !important;
