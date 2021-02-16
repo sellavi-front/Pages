@@ -13,6 +13,11 @@ body.information-information b,
 body.product-category b {
   font-family: 'Times New Roman', Times, serif;
   text-rendering: optimizeLegibility;
-  letter-spacing: .35px;
+  letter-spacing: .3px;
   /* font-size: 16px; */
+}
+
+body.product-category p,
+body.information-information p {
+  font-size: 14px !important;
 }
