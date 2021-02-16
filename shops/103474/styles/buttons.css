@@ -2,7 +2,7 @@ body.theme-red-2 {
   --color-theme: rgb(252, 68, 77);
 }
 
-.header .header-wrapper .mobile-navigation-wrapper a,
+
 body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
 body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.minus,
 body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.plus,
@@ -444,6 +444,12 @@ body.theme_11
   .cart-wrapper
   #wishlist {
   color: black !important;
+}
+
+@media (max-width: 992px) {
+  .header .header-wrapper .mobile-navigation-wrapper a {
+    color: var(--color-theme) !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
