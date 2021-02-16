@@ -199,7 +199,7 @@ const removeWishlist = (arr) => {
   });
 };
 
-if (document.querySelector('.commone-home') || document.querySelector('.product-category')) {
+if (document.querySelector('.common-home') || document.querySelector('.product-category')) {
   const productCards = document.querySelectorAll('.row.products.grid .product-item');
   removeWishlist(productCards);
 
