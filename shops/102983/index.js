@@ -79,3 +79,10 @@ if (document.querySelector('.footer')) {
 if (document.querySelector('.header-wrapper')) {
   document.querySelector('.nav.sf-menu').insertAdjacentHTML('beforeend', '<li><a href="https://colorexnn.ru/contact/">Обратная связь</a></li><li><a href="https://colorexnn.ru/pay-delivery/">Оплата и доставка</a></li><li><a href="https://colorexnn.ru/about/">О нас</a></li>')
 }
+
+if (document.querySelector('.product-product')) {
+  let oldDescr = document.querySelector('.tab-pane.active')
+  let newDesc = oldDescr.cloneNode(true)
+  document.querySelector('#home > div > section > div').insertAdjacentHTML('afterbegin', newDesc.outerHTML)
+  oldDescr.remove()
+}
