@@ -15,8 +15,7 @@ export default class medSocProg extends BaseComponent {
           <p class="partners__ph">
               ${elem.text}
           </p>
-        </div>
-      `
+        </div>`
     }).join('')
   }
 
