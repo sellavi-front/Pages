@@ -4,3 +4,13 @@
 @import './components/components.css';
 @import './blocks/index.css';
 
+
+body.product-category p,
+body.information-information p,
+body.information-information span,
+body.product-category span,
+body.information-information b,
+body.product-category b {
+  font-family: 'Times New Roman', Times, serif;
+  /* font-size: 16px; */
+}
