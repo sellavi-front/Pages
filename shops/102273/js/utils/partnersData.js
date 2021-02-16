@@ -161,7 +161,7 @@ const partnersData = {
     },
     {
       src:
-        'https://res.cloudinary.com/depgheppz/image/upload/v1611845435/102273/partners/logo_675_1_ustbxw.png',
+        'https://res.cloudinary.com/depgheppz/image/upload/v1613118349/102273/partners/unnamed_2_myhdqw.jpg',
       title: 'Партнер – компания ООО «Аквафлот»',
       text:
         'Участие в социальных, медико–социальных и благотворительных Программах, Производство экологически чистой воды с СТМ (собственной торговой маркой) заказчика.',
