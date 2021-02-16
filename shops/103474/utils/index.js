@@ -12,14 +12,10 @@ import socIcons from "./socIcons.js"
 import icons from '../utils/icons/icons.js'
 import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
 import ChangeIconInProductCard from './functions/functions.js'
-// import CustomSection from "../blocks/custom-section.js"
 
 
 if(pages.home) {
-  /*let banner = new Banner()
-  banner.updateImgCategories()
-  let customBanner = new CustomBanner()
-  customBanner.render()*/
+
   const btnInSlider = document.querySelector('body.common-home .main-slider .caption .caption-text a ');
   btnInSlider.textContent = '';
   btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.bag} Начать покупать`)
@@ -32,22 +28,12 @@ if(pages.home) {
     advantages.render()
     if (document.querySelector('.product-item')) {
       const productItems = document.querySelectorAll('.product-item');
-      // const deleteSelectors = new DeleteClasses(productItems);
-      // deleteSelectors.findAndDelete();
+
     }
   } else {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
   }
-
-
-  // let customSection = new CustomSection()
-  // customSection.render()
-
   renderCategories()
-
-
-
-
   const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
   const sourceCat = document.querySelectorAll(".common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source")
 
@@ -62,10 +48,6 @@ if(pages.home) {
     let replacedSrc2 = src.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
     cat.setAttribute('src', replacedSrc2);
   })
-
-  // const changeIcon = new ChangeIconInProductCard(icons)
-  // changeIcon.changeIcons();
-  // changeIcon.change();
 
 }
 
@@ -85,10 +67,6 @@ if (pages.all) {
   let newCatalog = oldCatalog.cloneNode(true)
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
-
-
-
-
 }
 
 if(location.href.includes('/index.php?route=account/register')) {
@@ -97,19 +75,12 @@ if(location.href.includes('/index.php?route=account/register')) {
 }
 
 if (location.href.includes('/checkout')) {
-  // $('.form_checkout').ready(function () {
-  //   $('.checkbox>label').html('Согласен (-а) с условиями <b>ПУБЛИЧНОЙ ОФЕРТЫ</b>');
-  //   document.querySelector(".checkbox").insertAdjacentHTML("afterend", '<div class="read_doc"><a href="/term-of-use/">Ознакомиться с публичной офертой</a></div>')
-  // })
-
   let newElement = document.createElement('form')
   newElement.classList.add("form_checkout")
   let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
   newElement.innerHTML = oldElement.innerHTML
   oldElement.parentNode.replaceChild(newElement, oldElement)
-
 }
-
 
 const logoSellavi = document.querySelector("#sellavi_logo > img");
 
