@@ -5,7 +5,7 @@
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
 // import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import icons from './utils/icons/icons.js'
+import icons from './utils/icons/icons.js';
 
 import '../../components/PictureCategories/PictureCategories.js';
 
@@ -25,12 +25,9 @@ import senderData from './utils/senderData.js';
 import socIconsData from './utils/socIconsData.js';
 import tableData from './utils/tableData.js';
 import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
-import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js'
-
+import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js';
 
 if (document.querySelector('.common-home')) {
-
-
   const sctmSection = document.querySelector('.custom_section');
   const logo = document.querySelector('.logo img');
 
@@ -84,8 +81,6 @@ if (document.querySelector('.common-home')) {
 }
 
 if (document.querySelector('.wrapper')) {
-
-
   // Login Ico
   const headerLoginText = document.querySelector('.header_login>a');
   headerLoginText.remove();
@@ -121,8 +116,7 @@ if (document.querySelector('.wrapper')) {
 
   document.querySelector('.bs-menu-toggle').remove();
 
-
-const wishList = `
+  const wishList = `
   <a
     id="wishlist"
     class="position-relative"
@@ -133,23 +127,24 @@ const wishList = `
   </a>`;
 
   document
-      .querySelector('.header_widgets')
-      .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
+    .querySelector('.header_widgets')
+    .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
 
-      const headerIcons = {
-        cart: document.querySelector('body .header_widgets .header-cart i'),
-        like: document.querySelector('body .header_widgets .header_wishlist i')
-      }
+  const headerIcons = {
+    cart: document.querySelector('body .header_widgets .header-cart i'),
+    like: document.querySelector('body .header_widgets .header_wishlist i'),
+  };
 
-      headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
-      headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart)
-      headerIcons.like.classList.remove('far', 'fa-heart')
-      headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
+  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart);
+  headerIcons.like.classList.remove('far', 'fa-heart');
+  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like);
 
-      document.querySelectorAll('.page-section.homefeatured_category > div > div > div').forEach(div => {
-        div.classList.add('col-lg-4', 'col-sm-6', 'col-12')
-      })
-
+  document
+    .querySelectorAll('.page-section.homefeatured_category > div > div > div')
+    .forEach((div) => {
+      div.classList.add('col-lg-4', 'col-sm-6', 'col-12');
+    });
 }
 
 // if (document.querySelector('.product-item')) {
@@ -191,30 +186,39 @@ if (document.querySelector('.product-product')) {
 }
 
 if (location.href.includes('/checkout')) {
-  document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'Перевод на Сбербанк'
+  document.querySelector(
+    '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label',
+  ).textContent = 'Перевод на Сбербанк';
 }
 
-if (document.querySelector('.product-item')) {
-  const productCards = document.querySelectorAll('body .content-area ~ .page-section .product-item')
+const removeWishlist = (arr) => {
+  arr.forEach((card) => {
+    const like = card.querySelector('.add_to_wishlist');
+    card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML);
+    like.remove();
+  });
+};
 
-  productCards.forEach(card => {
-    if (card.classList.contains('col-xl-4')) {
-      card.classList.remove('col-xl-4', 'col-lg-4')
-      card.classList.add('col-xl-3', 'col-lg-3')
-    }
-    const like = card.querySelector('.add_to_wishlist')
-    console.log(like);
+if (document.querySelector('.commone-home') || document.querySelector('.product-category')) {
+  const productCards = document.querySelectorAll('.row.products.grid .product-item');
+  removeWishlist(productCards);
 
-    card.querySelector('.price').insertAdjacentHTML('beforeend', like.outerHTML)
-    like.remove()
-  })
+  productCards.forEach((card) => {
+    card.classList.remove('col-xl-4', 'col-lg-4');
+    card.classList.add('col-xl-3', 'col-lg-3');
+  });
 }
 
 if (document.querySelector('.product-product')) {
-  document.querySelectorAll('#bx-pager.row.product-thumbnails .col-2').forEach(col => {
-    col.classList.add('col')
-    col.classList.remove('col-2', 'col-md-3')
-  })
+  const productCards = document.querySelectorAll(
+    'body .content-area ~ .page-section .product-item',
+  );
+  removeWishlist(productCards);
+
+  document.querySelectorAll('#bx-pager.row.product-thumbnails .col-2').forEach((col) => {
+    col.classList.add('col');
+    col.classList.remove('col-2', 'col-md-3');
+  });
 }
 
 // if (location.href.includes('term-of-use')) {
