@@ -20,4 +20,5 @@ body.product-category b {
 body.product-category p,
 body.information-information p {
   font-size: 14px !important;
+  margin-bottom: 30px !important;
 }

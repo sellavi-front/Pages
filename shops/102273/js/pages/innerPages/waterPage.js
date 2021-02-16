@@ -38,7 +38,7 @@ export default function waterPage() {
             2019”. <br>
             Где рождается наша вода...</b></p>
 
-        <div class="mb-50px"
+        <div class="mb-50px mt-4"
           style="
             display: grid !important;
             grid-template-columns: repeat(auto-fit, 48%);
@@ -86,7 +86,7 @@ export default function waterPage() {
             для обеззараживания питьевой воды ее обрабатывают озоном.
           </p>
         </div>
-        <div>
+        <div class="mt-5">
           <h3 class="text-center mb-4"><b>Компания "АкваСфера". Производство.</b></h3>
           <p>
             «Аквасфера» – это завод, осуществляющий добычу, производство и розлив
