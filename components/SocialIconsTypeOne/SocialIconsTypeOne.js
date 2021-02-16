@@ -42,7 +42,7 @@ export default class SocIconsTypeOne {
     return this.data.map(
       (item) => `
         <div class="soc-icons__item">
-          <a href="${item.link}">
+          <a href="${item.link}" target="_blank">
             <img class="soc-icons__item_icon" src="${item.src}">
           </a>
         </div>
