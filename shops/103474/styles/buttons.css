@@ -90,6 +90,10 @@ body.theme-red-2.theme_11.checkout-cart
   border-radius: 5px !important;
 }
 
+body.theme-red-2.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  border-radius: 5px !important;
+}
+
 body.theme-red-2 .social-icons li a {
   border-radius: 5px;
   border: 1px solid var(--color-theme) !important;
