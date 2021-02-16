@@ -6,7 +6,7 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 // import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 // import socIconsData from './utils/socIconsData.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
 import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import icons from './utils/icons.js';
 
