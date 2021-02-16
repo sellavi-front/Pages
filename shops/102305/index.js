@@ -36,6 +36,7 @@ if (document.querySelector(".wrapper")) {
 
 }
 
+/*
 if (document.querySelector('.product-item')) {
   document.querySelectorAll('.product-item .add_to_cart button').forEach((btn) => {
     btn.querySelector('i').remove();
@@ -43,6 +44,7 @@ if (document.querySelector('.product-item')) {
     btn.insertAdjacentHTML('afterbegin', icons.cartWhite);
   });
 }
+*/
 
 /*if (document.querySelector('.product-product')) {
   const btnCart = document.querySelector('#button-cart');
