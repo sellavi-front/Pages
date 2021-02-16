@@ -397,3 +397,12 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 .wrapper.wrapper-closed > div > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
     text-transform: none !important;
 }
+
+
+body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i {
+    color: black !important;
+}
+
+body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+    color: black !important;
+}
