@@ -5,7 +5,7 @@
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeErrorEessage/ChangeErrorMessage.js';
 // import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import icons from './utils/icons/icons.js';
+// import icons from './utils/icons/icons.js';
 
 import '../../components/PictureCategories/PictureCategories.js';
 
