@@ -162,7 +162,15 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login > a
   object-fit: cover !important;
 }
 
-body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+body.ltr.ru
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity {
   margin-top: 15px !important;
 }
 
@@ -177,6 +185,9 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
     height: 455px !important;
   }
 
+  .main-slider ~ .page-section {
+    margin-top: 10px;
+  }
   .product-product .product-single .product-thumbnails {
     margin: 0 !important;
   }
