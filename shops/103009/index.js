@@ -1,3 +1,6 @@
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
+import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
+import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import Requisites from '../../modules/Requisites/Requisites.js';
 import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
@@ -6,8 +9,6 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 // import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 // import socIconsData from './utils/socIconsData.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
-import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import icons from './utils/icons.js';
 
 if (document.querySelector('.header-wrapper')) {
