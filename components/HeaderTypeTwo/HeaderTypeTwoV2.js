@@ -45,7 +45,6 @@ if (document.querySelector('.wrapper')) {
     newCont.render();
 
     headerWidgets.remove();
-    collapseShow(links);
     document
       .querySelector('.header_widgets')
       .insertAdjacentHTML('afterbegin', `<div class="header_wishlist">${wishList}</div>`);
