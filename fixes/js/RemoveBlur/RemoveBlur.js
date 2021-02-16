@@ -14,12 +14,6 @@ window.onload = () => {
             if (prod.getAttribute('src').includes('e_blur:2000')) {
               prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
             }
-            if (document.querySelector('.product-product')) {
-              const btnCart = document.querySelector('#button-cart');
-              btnCart.querySelector('i').remove();
-              btnCart.textContent = 'В корзину';
-              btnCart.insertAdjacentHTML('afterbegin', icons.cartWhite);
-            }
           });
           let btns = new ButtonContainerInProductCard()
           btns.render()

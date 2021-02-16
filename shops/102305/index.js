@@ -44,12 +44,12 @@ if (document.querySelector('.product-item')) {
   });
 }
 
-if (document.querySelector('.product-product')) {
+/*if (document.querySelector('.product-product')) {
   const btnCart = document.querySelector('#button-cart');
   btnCart.querySelector('i').remove();
   btnCart.textContent = 'В корзину';
   btnCart.insertAdjacentHTML('afterbegin', icons.cartWhite);
-}
+}*/
 
 if (document.querySelector('.common-home')) {
   //const customSection = document.querySelector('.custom_section')
