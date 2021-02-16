@@ -34,7 +34,7 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
 
 /* reset container size for .navigation-wrapper*/
 
-body.theme_11 .wrapper .header .navigation-wrapper>div.container {
+body .wrapper .header .navigation-wrapper>div.container {
   max-width: 1140px !important;
 }
 

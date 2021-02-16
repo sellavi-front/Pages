@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 540px));
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .partner {
-  height: 280px;
+  min-height: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,9 +19,15 @@
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.partner_img {
+  height: 70px;
+  -o-object-fit: contain !important;
+  object-fit: contain !important;
 }
 
 .partners__title {
@@ -30,4 +37,5 @@
 
 .partner img {
   margin-bottom: 20px;
+  max-width: 300px;
 }

@@ -6,13 +6,21 @@ import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import '../../fixes/js/Alert/Alert.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-
+import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import contactData from './utils/contactData.js';
 
 if (document.querySelector('.common-home')) {
+  document.querySelector('header .logo img').setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1613045173/Group_4_r5wxrk.png')
+
+  const customSection = document.querySelector('.custom_section');
+  customSection.classList.add('container');
+
   new BigBanner(
-    'https://res.cloudinary.com/depgheppz/image/upload/v1611061769/Group_7423499_j54tte.png',
+    'https://res.cloudinary.com/depgheppz/image/upload/v1613045739/beef-strip-loin-steak-black-background-space-text-marble-beef_1_xsak4k.png',
   {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
 
+    new ContactsWithMap(customSection, 'beforeend', contactData).render()
+    document.querySelector('.homefeatured_category > .container').insertAdjacentHTML("afterbegin", '<h2><span>Категории</span></h2>')
 }
 
 if (document.querySelector('.wrapper')) {
@@ -58,4 +66,11 @@ if (document.querySelector('.wrapper')) {
       document.querySelector('body').classList.remove('overflow-hidden');
     });
   });
+}
+
+if (location.href.includes('/checkout')) {
+  document.querySelectorAll('.register_block h2').forEach((h2,i) => {
+    h2.textContent = h2.textContent.replace(/\d/gi, '');
+    h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i + 1}`);
+  })
 }

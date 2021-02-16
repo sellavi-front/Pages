@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 
 .banner__caption {
   height: 100% !important;
@@ -12,10 +12,11 @@
   margin-bottom: 70px !important;
 }
 
-.banner__caption h1 {
-  color: #000;
+.banner__caption h1,
+.banner__caption a {
+  color: #fff;
   font-size: 62px;
-  font-family: Pacifico;
+  font-family: 'Playfair Display', serif;
 }
 
 .banner__caption a {
@@ -25,29 +26,26 @@
 
 @media (max-width: 768px) {
   .banner__image {
-    background-position-x: 86% !important;
+    background-position-x: center !important;
   }
 }
 
 @media (max-width: 495px) {
-  .banner__image {
-    background: url(https://res.cloudinary.com/depgheppz/image/upload/v1612246715/Group_7423501_1_f0kerf.png)
-      no-repeat !important;
-    background-size: cover !important;
-  }
+
   .banner__caption {
     height: 200px !important;
-    top: 70px !important;
+    top: 161px !important;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
     padding-left: 20px;
   }
   .banner__caption h1 {
-    font-size: 28px;
+    font-size: 37px;
     margin-bottom: 30px;
   }
   .banner__caption a {
-    font-size: 25px;
+    font-size: 37px;
+    margin: 0 auto;
   }
 }

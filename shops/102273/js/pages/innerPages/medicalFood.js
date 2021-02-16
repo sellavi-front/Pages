@@ -144,29 +144,29 @@ export default function medicalFood() {
       На производстве сливаются воедино традиционный ручной труд и инновации. И только так
       появляется возможность подавать нежный фруктовый десерт к столу в каждом доме.
     </p>
-    <div class="mb-5 d-flex flex-wrap justify-content-center">
+    <div class="mb-5 row">
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-002_1_d7udt7.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-001_1_1_qxmlue.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-004_1_qzqnlf.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104832/102273/olara-003_1_iwyeum.png"
         alt=""
       />
       <img
-        class="col-sm-6 m-2"
+        class="col col-md-4 col-sm-6 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104832/102273/olara-005_1_rxnphs.png"
         alt=""
       />
@@ -183,31 +183,31 @@ export default function medicalFood() {
         легко можно назвать диетическим продуктом.
       </p>
     </div>
-    <div class="mb-5 d-flex justify-content-center flex-wrap">
+    <div class="mb-5 row">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-007_1_vfpspa.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-008_1_ctvpeb.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-008-1_1_ajvks0.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-009_1_utaawc.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-006_1_omdgut.png"
         alt=""
-        class="col-md-3 m-3"
+        class="col col-sm-6 col-md-4 mb-3"
       />
     </div>
 
@@ -505,11 +505,11 @@ export default function medicalFood() {
         class="w-100"
       />
     </div>
-    <div class="mt-4 mb-4 d-flex flex-column">
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 350 - первая неделя</a>
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 350 - вторая неделя</a>
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - вторая неделя</a>
-      <a href="#" class="button_link mb-2">Скачать Меню - комплекс 495 - первая неделя</a>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Скачать Меню - комплекс 350 - первая неделя</a>
+      <a href="#" class="button_link ">Скачать Меню - комплекс 350 - вторая неделя</a>
+      <a href="#" class="button_link ">Скачать Меню - комплекс 495 - вторая неделя</a>
+      <a href="#" class="button_link ">Скачать Меню - комплекс 495 - первая неделя</a>
     </div>
   </div>
   <div class="sect" id="3">
@@ -552,7 +552,7 @@ export default function medicalFood() {
     </div>
   </div>
   <div class="sect">
-    <h3 name="4">
+    <h3 id="4">
       <b>4. ПРОДУКТЫ ИЗ ПРОРОЩЕННОГО ЗЕРНА</b>
     </h3>
     <h4>
@@ -901,7 +901,7 @@ export default function medicalFood() {
     </div>
     <div class="mb-5 w-100">
       <div class="row">
-        <div class="col-sm-8" name="5">
+        <div class="col-sm-8" id="4">
           <h4><b>5. Хлопья из пророщенного зерна пшеницы с брусникой.</b></h4>
           <p>
             Для изготовления хлопьев используется особая элитная пшеница, пророщенная до

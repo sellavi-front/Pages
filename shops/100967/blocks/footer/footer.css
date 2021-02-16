@@ -4,6 +4,10 @@
   border: none !important;
 }
 
+.grid-photo {
+  margin-bottom: 0 !important;
+}
+
 .footer-widgets > .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,6 +25,7 @@
 
 .footer-meta {
   background: transparent !important;
+  border-color: #a1b1b73d;
 }
 
 .phh p {
@@ -63,12 +68,28 @@
   .sender {
     width: 100% !important;
   }
-
 }
 
 
 @media (max-width: 460px) {
   .footer-widgets {
     padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .sender__title {
+    font-size: 22px;
+    width: 100%;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+
+  .sender__form {
+    height: 55px !important;    
+  }
+
+  .phh p {
+    text-align: left;
+    font-size: 18px;
   }
 }

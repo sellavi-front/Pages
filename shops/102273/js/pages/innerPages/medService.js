@@ -20,7 +20,7 @@ const medService = () => {
     </ol>
   </div>
 
-  <h3 name="1"><b>1. ЛЕЧЕНИЕ В СОЛЬ-ИЛЕЦКИХ ОЗЕРАХ ПОКАЗАНИЯ, ПРОТИВОПОКАЗАНИЯ</b></h3>
+  <h3 id="1"><b>1. ЛЕЧЕНИЕ В СОЛЬ-ИЛЕЦКИХ ОЗЕРАХ ПОКАЗАНИЯ, ПРОТИВОПОКАЗАНИЯ</b></h3>
   <div class="sect">
     <p>
       Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
@@ -1064,42 +1064,42 @@ const medService = () => {
       <h4><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
       <div class="d-flex flex-wrap">
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/7_7_lhyedu.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_1_1_ajpo22.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/8_98_qkke0x.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/3_1_1_ioxg7b.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_pfwgtq.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_fs0uud.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/9_4_divgal.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-md-1 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/10_6196_hc3j2i.png"
           alt=""
         />
@@ -1351,7 +1351,7 @@ const medService = () => {
       </p>
       <p><b>Цена договорная</b></p>
     </div>
-    <div class="sect" name="2">
+    <div class="sect" id="2">
       <h3><b>2. ООО «Эстелайн»- стоматология и косметология </b></h3>
       <p>
         Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
@@ -1536,7 +1536,7 @@ const medService = () => {
 
       </div>
     </div>
-    <div class="sect" name="3">
+    <div class="sect" id="3">
       <h4><b>3. Современные Инновационные Медицинские Технологии</b></h4>
       <p>
         <b

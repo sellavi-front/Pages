@@ -25,7 +25,7 @@ if (document.querySelector('.price_actions.d-flex.justify-content-between')) {
 
   for (let i = 0; i < arrayOfCarts.length; i++) {
     arrayOfCarts[i].innerHTML = icons.cart;
-    arrayOfHearts[i].innerHTML = icons.like;
+    arrayOfHearts[i].innerHTML = icons.like; 
 }
 }
 

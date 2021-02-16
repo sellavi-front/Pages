@@ -9,22 +9,17 @@ const disinfectantsPages = () => {
         <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#2" class="id_link">2. Аргитос</a>
+        <a href="${url}#3" class="id_link">3. ДеФлок</a>
         </li>
       <li class="mb-2">
-        <a href="${url}#3" class="id_link"
-          >3. Универсальное дезинфицирующее средство «Серебряная пуля»</a
-        >
+        <a href="${url}#4" class="id_link">4. S-pro</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#4" class="id_link"
-          >4. «HandDes All» + «Комбидез»</a
-        >
+        <a href="${url}#5" class="id_link">5. S-pro</a>
       </li>
-
     </ol>
   </div>
-  <div class="sect" name="1">
+  <div class="sect" id="1">
     <h4>
       <b>1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</b>
     </h4>
@@ -176,10 +171,53 @@ const disinfectantsPages = () => {
       />
     </div>
   </div>
-  <div class="sect" name="2">
-    <h3><b>2. «ARGITOS ® ДЕЗ»</b></h3>
+
+
+
+  <div class="sect" id="2">
+    <h3><b>2. Реагент ДеФлок® (дезинфицирующее средство «ДеФлок»)</b></h3>
     <div class="row flex-wrap">
-      <div class="col-8">
+      <p><b>
+        Реагент ДеФлок®  (дезинфицирующее средство «ДеФлок», ТУ 9392-001-16866919-2013)</b></br></br>
+        Реагент для очистки и обеззараживания воды в системах хозяйственно-питьевого водоснабжения, горячего водоснабжения, технического водоснабжения предприятий, оборотных вод в системах охлаждения оборудования, сточных вод, воды плавательных бассейнов и аквапарков, а также для предотвращения биообрастания.
+      </p>
+      <div class="mb-5 w-100 row">
+        <a href="#" class="button_link">Документация</a>
+        <a href="#" class="button_link">Презентация средства "ДеФлок"</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="sect" id="3">
+    <h3><b>3. Обеззараживание средством «S-Pro»</b></h3>
+    <div class="row flex-wrap">
+      <p>
+        Обеззараживание средством «S-Pro» в санитарных пропускных пунктах и дезинфекционных тоннелях производится методом мелкодесперсного распыления. Для этого могут применятся компрессоры, аэрозольные баллоны и генераторы тумана.
+      </p>
+      <p>
+        При обеззараживании в санитарно-пропускных пунктах и дезинфекционных тоннелях необходимо строго соблюдать рабочий температурный режим (от +3 до +50).
+      </p>
+      <p>
+        Средство «S-Pro» относится к 4 классу опасности, не раздражает слизистую оболочку глаз, дыхательные пути, кожный покров. Щадяще относится ко всем видам поверхностей: металл, стекло, ткань, кожа, мех, резина и т д.
+      </p>
+      <p>
+        После обработки в санитарно-пропускных пунктах и дезинфекционных тоннелях, средство не требует смывания, не оставляет следов на одежде.
+      </p>
+      <p>
+        После прохождения дезинфекции в санитарно-пропускных пунктах и дезинфекционных тоннелях средство «S-Pro» сохраняет свои противомикробные средства до 8 часов.
+      </p>
+
+      <div class="mb-5 w-100 row">
+        <a href="#" class="button_link">Документация на русском языке</a>
+        <a href="#" class="button_link">Документация на иностранных языках)</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="sect" id="4">
+    <h3><b>4. «ARGITOS ® ДЕЗ»</b></h3>
+    <div class="row flex-wrap">
+      <div class=" col col-md-8">
         <p>
           <b
             >Органическое дезинфицирующее средство нового поколения на основе наносеребра с
@@ -214,7 +252,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612183952/102273/image_84_r0f1fk.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
@@ -318,15 +356,22 @@ const disinfectantsPages = () => {
         >
       </p>
     </div>
-    <div class="mt-4 mb-4 d-flex flex-column">
+    <div class="mt-4 mb-4 row">
         <a href="" class="button_link mb-2">Инструкция по применению</a>
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
   </div>
-  <div class="sect" name="3">
+</section>
+  `;
+}
+
+export default disinfectantsPages;
+
+/*
+<div class="sect" id="3">
     <h3><b>3. Универсальное дезинфицирующее средство «Серебряная пуля»</b></h3>
     <div class="row">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           Транспорт. Медицина, Производство, Городское хозяйство, Сельское хозяйство,
           Животноводство, Рыбное хозяйство, Молочная промышленность, Кондицианирование и
@@ -368,7 +413,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184240/102273/conservy_1_hg53vz.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
@@ -450,51 +495,51 @@ const disinfectantsPages = () => {
         - Никакой опасности при передозировке
       </p>
     </div>
-    <div class="d-flex flex-wrap">
+    <div class="row">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184794/102273/4_3_sbb3pt.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/sert2_2_kc6iml.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/Group_7423519_fdvkee.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/Group_7423519_fdvkee.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/190220_4457_tktxzq.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/sert4_j8rcc4.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/190220_318_rmoirg.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/copy_2_laexg7.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/1_1_dxnnsp.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
     </div>
   </div>
@@ -574,9 +619,9 @@ const disinfectantsPages = () => {
       <a href="" class="button_link mb-2">Благодарственное письмо</a>
     </div>
   </div>
-  <div class="sect">
+<div class="sect">
     <div class="row flex-wrap">
-      <div class="col-8" name="4">
+      <div class=" col col-md-8" id="4">
         <h3><b>4. «HandDes All» + «Комбидез»</b></h3>
         <p>
           <b
@@ -618,11 +663,11 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612185643/102273/5e60fe9918088552e6aa9b82_1_my695q.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="row flex-wrap">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           <b
             >2. Комбидез (Combides) Финляндия Группа по действующему веществу средства
@@ -650,7 +695,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612185644/102273/combides-5l-1-1-300x300_1_lbvdk3.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="row">
@@ -665,8 +710,4 @@ const disinfectantsPages = () => {
       />
     </div>
   </div>
-</section>
-  `;
-}
-
-export default disinfectantsPages;
+*/

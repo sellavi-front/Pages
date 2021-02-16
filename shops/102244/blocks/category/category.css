@@ -97,7 +97,7 @@ body.theme_11
 }
 
 .thumbnail.thumbnail-banner .caption-title span {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3) !important;
 }
 
 @media (max-width: 495px) {

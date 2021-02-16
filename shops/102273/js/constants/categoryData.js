@@ -2,7 +2,7 @@ const categoryData = {
   title: 'Категории',
   content: [
     {
-      text: 'Дезинфекцирующие рамки',
+      text: 'Дезинфицирующие рамки',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-metal-detector_1_zyvpx8.svg',
       link: '/disinfecting-frames',
     },
@@ -17,7 +17,7 @@ const categoryData = {
       link: '/health-food',
     },
     {
-      text: 'Дезинфекцирующие средства',
+      text: 'Дезинфицирующие средства',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-hand-wash_mm16oq.svg',
       link: '/disinfectants',
     },

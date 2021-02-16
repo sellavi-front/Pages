@@ -8,6 +8,6 @@
 }
 
 .wrapper .header .header-wrapper .header_widgets {
-  width: 150px !important;
   left: auto !important;
+  z-index: 3;
 }

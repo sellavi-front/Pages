@@ -7,7 +7,17 @@ body.ltr.ru .footer {
 
 .footer-widgets .row {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 0 auto;
+  border-top: 1px solid;
+  padding-top: 40px;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  color: #00000090 !important
+}
+
+body .footer .footer-widgets {
+  padding-top: 0 !important;
 }

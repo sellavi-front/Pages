@@ -78,39 +78,52 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-//     let target = document.querySelector("#product > div:nth-child(2)");
-// console.log(target);
-//     const config = {
-//       childList: true,
-//     };
-//     const callback = function (mutationsList, observer) {
-//       for (let mutation of mutationsList) {
-//         console.log(mutation);
-//         if (mutation.type === 'childList') {
-//           console.log(document.querySelectorAll("#bs-select-1 > ul > li"))
-//         }
-//       }
-//     };
-//     const observer = new MutationObserver(callback);
-//     observer.observe(target, config);
+  setTimeout(() => {
+    const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
+    const startPrice = +document.querySelector('.product-price').textContent.slice(0, -2).replace(/\s+/i, '');
 
-setTimeout(() => {
-  console.log(document.querySelector("#product > div:nth-child(2) > div > button"));
-  document.querySelector("#product > div:nth-child(2) > div > button").addEventListener('click', () => {
-    setTimeout(() => {
-      const selects = document.querySelectorAll(".inner.show .dropdown-menu .dropdown-item .text");
-       selects.forEach(sel => {
-        const cut = sel.textContent.replace(/\s+/gi, '');
-        if (cut.length >= 15) {
-          console.log(cut.length);
-          console.log(cut);
-          let cutNum = cut.length === 18 ? -13 : -12;
-          let sell = cut.slice(0, cutNum);
-          sel.textContent = sell;
-        }
-      })
-     }, 500);
-  })
-}, 1500)
+    buttonSelect.addEventListener('click', () => {
+      setTimeout(() => {
+        const selects = document.querySelectorAll(
+          '.inner.show .dropdown-menu .dropdown-item .text',
+        );
+        Array.from(selects).map((sel) => {
+          const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+          const regex = /\(([\d\. ]+)/i;
+          const cut = sel.textContent.match(regex);
 
+          sel.textContent = sel.textContent.replace(regexRepalce, '');
+
+          if (cut) {
+            return +cut[1].replace(/\s/i, '');
+          }
+        });
+
+        document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
+          el.addEventListener('click', (e) => {
+            const regex = /\(([\d\. ]+)/i;
+            setTimeout(() => {
+              const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
+              const sumPrice = innerText.textContent.match(regex);
+              innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
+              const priceToNum = +sumPrice[1].replace(/\s/i, '');
+              const productPrice = document.querySelector('.product-price');
+              let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
+
+              if (price1 === startPrice) {
+                price1 = price1 + priceToNum;
+                productPrice.textContent = price1.toString() + ' ₽';
+              } else if (startPrice < priceToNum) {
+                startPrice = startPrice + priceToNum;
+                productPrice.textContent = startPrice.toString() + ' ₽';
+              } else if (startPrice > priceToNum) {
+                const totalSum = startPrice - priceToNum;
+                productPrice.textContent = totalSum.toString() + ' ₽';
+              }
+            }, 500)
+          });
+        });
+      }, 100);
+    });
+  }, 1500);
 }

@@ -1,49 +1,64 @@
-const categories = {
-  water: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363467/103474/Frame_19_nryqdm.png',
-    link: '#'
+const categories = [
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_19_umfjsx.png',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7002',
+    text: 'Кофе и чай',
   },
-  fish: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Group_7423498_rdoxrb.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_50_bdvd2i.png',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7130',
+    text: 'Мясная продукция',
   },
-  bakery: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Frame_51_bswfly.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_51_tyiyam.png',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7137',
+    text: 'Хумусы и салаты',
   },
-  chocolate: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Group_7423499_sijdbl.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_52_z3t2eg.png',
+    link: '#',
+    text: 'Замороженная продукция',
   },
-  waffles: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363467/103474/Frame_38_snoemi.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_38_mcotzo.png',
+    link: '#',
+    text: 'Снеки и сухие завтраки',
   },
-  season: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363467/103474/Frame_49_l0kmsq.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_49_aadszq.png',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7140',
+    text: 'Выпечка',
   },
-  snacks: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Frame_53_cskqbx.png',
-    link: '#'
+ {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_53_yozxol.png',
+    link: '#',
+    text: 'Сладости',
   },
-  humus: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Group_7423494_gby9tr.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_56_tfxnce.png',
+    link: '#',
+    text: 'Молочная продукция',
   },
-  halva: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363467/103474/cook-with-eggs-rustic-kitchen_1_vsbt3d.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_42_pobk7l.png',
+    link: '#',
+    text: 'Все для выпечки',
   },
-  cakes: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363468/103474/Group_7423495_yggpod.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_49_1_md8fwy.png',
+    link: '#',
+    text: 'Бакалея',
   },
-  other: {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612363467/103474/Frame_39_ff00mt.png',
-    link: '#'
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_44_cntv1n.png',
+    link: '#',
+    text: 'Детское питание',
   },
-
-}
+  {
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_45_kqos0d.png',
+    link: '#',
+    text: 'Другое',
+  },
+]
 
 export default categories
