@@ -213,7 +213,7 @@ const partnersData = {
     {
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1613118349/102273/partners/2387237_rk1pwg.png',
       title: 'Партнер – компания «ALUMSTROY». ',
-      text: 'Партнер – компания «ALUMSTROY». ',
+      text: 'Участие в социальных программах и программах развития городского хозяйства.  Производство стройматериалов и строительство масштабных объектов.',
       link: '#',
     },
     {
