@@ -116,7 +116,7 @@ if (document.querySelector('.product-product')) {
                 const totalSum = price1 - priceToNum;
                 productPrice.textContent = totalSum.toString() + ' ₽';
               }
-            }, 100)
+            }, 300)
           });
         });
       }, 100);
