@@ -78,22 +78,6 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  //     let target = document.querySelector("#product > div:nth-child(2)");
-  // console.log(target);
-  //     const config = {
-  //       childList: true,
-  //     };
-  //     const callback = function (mutationsList, observer) {
-  //       for (let mutation of mutationsList) {
-  //         console.log(mutation);
-  //         if (mutation.type === 'childList') {
-  //           console.log(document.querySelectorAll("#bs-select-1 > ul > li"))
-  //         }
-  //       }
-  //     };
-  //     const observer = new MutationObserver(callback);
-  //     observer.observe(target, config);
-
   setTimeout(() => {
     const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
     buttonSelect.addEventListener('click', () => {
@@ -135,7 +119,7 @@ if (document.querySelector('.product-product')) {
             }, 500)
           });
         });
-      }, 500);
+      }, 100);
     });
   }, 1500);
 }
