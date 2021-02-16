@@ -290,28 +290,7 @@ export default function waterPage() {
         </div>
       </div>
 
-      <div style="
-      display: grid !important;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 330px));
-      justify-content: space-between;
-  ">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1611925997/102273/unnamed_1_goayd7.png"
-          alt=""
-        />
-        <div class="mb-50px">
-          <h6><b>Основные показатели химического состава питьевой воды «ДАРЗАХ» </b></h6>
-          <p>Кальций, мг/л: …………………………… 25-50</p>
-          <p>Магний, мг/л: ………………………………. 5-20</p>
-          <p>Фториды, мг/л: ………………………… 0,6-1,2</p>
-          <p>Бикарбонаты, мг/л: ………………… 100-200</p>
-          <p>Калий, мг/л: .………………………………… 2-20</p>
-          <p>Иодиды, мкг/л: …………………………… 40-60</p>
-          <p>Общая мнерализация, мл/л: ….. 200-300</p>
-          <p>Общая жёсткость, ммоль/л: ..….. 1,5-3,0</p>
-        </div>
 
-      </div>
       <div class="text-center" class="mb-50px mt-5">
         <h3 class="text-center mb-4"><b>Минеральные воды Чехии.</b></h3>
         <p>
