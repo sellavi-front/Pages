@@ -84,6 +84,16 @@ body.theme-red-2.theme_11
     height: auto !important;
   } */
 
+
+body.ltr.ru .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  left: 15px !important;
+  right: auto !important;
+  top: 30px !important;
+}
+
   body.sidenav-enabled .mobile_side_nav .flexy > .arrow i {
     -webkit-transform: rotate(180deg) !important;
     -ms-transform: rotate(180deg) !important;

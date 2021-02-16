@@ -146,14 +146,6 @@ body.theme-red-2 .social-icons li a:hover i {
   display: none !important;
 }
 
-body.ltr.ru .wrapper .header .header-wrapper .mobile-navigation-wrapper {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  left: 15px !important;
-  right: auto !important;
-  top: 30px !important;
-}
 
 body.theme_11
   .header-cart
