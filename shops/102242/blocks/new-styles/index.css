@@ -248,6 +248,14 @@ body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
     margin: 0 auto !important;
   }
 
+  .product-single .bx-slider-wrapper .bx-wrapper .bx-viewport {
+    height: 440px !important;
+  }
+
+  body.product-product .sender-basic  {
+    margin-top: 0 !important;
+  }
+
   body.common-home .page-section.homefeatured_category {
     margin-top: 10px !important;
   }
