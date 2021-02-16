@@ -339,7 +339,6 @@ body.theme_11 .wrapper .page-section .products.grid {
     -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
             transform: rotate(180deg);
-    margin-left: -35px !important;
   }
 
   .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
