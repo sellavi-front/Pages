@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 540px));
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .partner {
@@ -26,7 +27,7 @@
 .partner_img {
   height: 70px;
   -o-object-fit: contain !important;
-     object-fit: contain !important;
+  object-fit: contain !important;
 }
 
 .partners__title {
