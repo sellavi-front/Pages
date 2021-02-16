@@ -23,6 +23,10 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
     display: none;
   }
 
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 0 0 15% !important;
+  }
+
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     background: #fff !important;
   }
