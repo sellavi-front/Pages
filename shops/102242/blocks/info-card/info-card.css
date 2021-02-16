@@ -49,3 +49,9 @@
     flex-wrap: wrap !important;
   }
 }
+
+@media (max-width: 495px) {
+  body.common-home .info-card {
+    padding-bottom: 0 !important;
+  }
+}
