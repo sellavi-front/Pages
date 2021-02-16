@@ -8,6 +8,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 // import socIconsData from './utils/socIconsData.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 // import '../../fixes/js/RemoveBLur/RemoveBlur.js';
+import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
 import icons from './utils/icons.js';
 
