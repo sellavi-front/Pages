@@ -10,7 +10,7 @@ import renderCategories from "../categories/render-categories.js";
 import SocIconsTypeOne from "../../../components/SocialIconsTypeOne/SocialIconsTypeOne.js"
 import socIcons from "./socIcons.js"
 import icons from '../utils/icons/icons.js'
-
+import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
 import ChangeIconInProductCard from './functions/functions.js'
 
 
@@ -67,6 +67,11 @@ if (pages.all) {
   let newCatalog = oldCatalog.cloneNode(true)
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
+}
+
+if(location.href.includes('/index.php?route=account/register')) {
+  document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.remove("btn-primary")
+  document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
 }
 
 if (location.href.includes('/checkout')) {
