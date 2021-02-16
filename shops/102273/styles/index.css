@@ -4,3 +4,17 @@
 @import './components/components.css';
 @import './blocks/index.css';
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Times New Roman', Times, serif;
+  /* font-size: 16px; */
+}
