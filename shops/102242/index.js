@@ -135,10 +135,10 @@ if (document.querySelector('.wrapper')) {
     like: document.querySelector('body .header_widgets .header_wishlist i'),
   };
 
-  headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
-  headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart);
-  headerIcons.like.classList.remove('far', 'fa-heart');
-  headerIcons.like.insertAdjacentHTML('afterbegin', icons.like);
+  // headerIcons.cart.classList.remove('fa-shopping-cart', 'far');
+  // headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cart);
+  // headerIcons.like.classList.remove('far', 'fa-heart');
+  // headerIcons.like.insertAdjacentHTML('afterbegin', icons.like);
 
   document
     .querySelectorAll('.page-section.homefeatured_category > div > div > div')
