@@ -15,8 +15,7 @@
 
 import termsOfUse from './docs/termuse.js';
 import policy from './docs/policy.js';
-import payDelivery from './docs/pay-delivery/pay-delivery.js'
-
+import payDelivery from './docs/pay-delivery/pay-delivery.js';
 
 export default class Requisites {
   constructor(
@@ -43,7 +42,10 @@ export default class Requisites {
 
   setData() {
     const arr = Object.entries(this.obj);
-    return Array.prototype.slice.call(arr).map((item) => this.setItemtemplate(item));
+    for (let i = 0; i < arr.length; i++) {
+      return this.setItemtemplate(arr[i]);
+    }
+    // return Array.prototype.slice.call(arr).map((item) => this.setItemtemplate(item));
   }
 
   setTemplate() {
