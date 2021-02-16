@@ -406,3 +406,7 @@ body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity
 body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
     color: black !important;
 }
+
+body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+    border: 1px solid black !important;
+}
