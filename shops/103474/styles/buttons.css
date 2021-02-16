@@ -142,6 +142,10 @@ body.theme-red-2 .social-icons li a:hover i {
   color: white !important;
 }
 
+body.theme-red-2.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button {
+  color: white !important;
+}
+
 .social-icons {
   display: none !important;
 }
