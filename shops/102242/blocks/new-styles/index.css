@@ -158,6 +158,10 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login > a
   object-fit: cover !important;
 }
 
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  margin-top: 15px !important;
+}
+
 @media (max-width: 768px) {
   .product-product .product-single .product-thumbnails {
     height: 100px;
