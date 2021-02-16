@@ -33,7 +33,7 @@ body.theme-red-2.theme_11.checkout-cart
   .qty_column
   .quantity
   > input,
-  body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
+body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
 body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.minus,
 body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.plus,
 body.theme-red-2
@@ -63,8 +63,8 @@ body.theme-red-2.theme_11.checkout-cart
   .qty_column
   .quantity
   > input,
-  body.theme-red-2 .social-icons li a,
-  body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
+body.theme-red-2 .social-icons li a,
+body.product-product .btn.btn-theme.btn-theme-transparent:hover i {
   color: var(--color-theme) !important;
 }
 
@@ -89,7 +89,6 @@ body.theme-red-2.theme_11.checkout-cart
   border: 2px solid var(--color-theme) !important;
   border-radius: 5px !important;
 }
-
 
 body.theme-red-2 .social-icons li a {
   border-radius: 5px;
@@ -154,6 +153,27 @@ body.ltr.ru .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   left: 15px !important;
   right: auto !important;
   top: 30px !important;
+}
+
+body.theme_11
+  .header-cart
+  .cart_drop_down.dropdown
+  .dropdown-menu
+  .cart-items
+  .cart-items-inner
+  .cart-content
+  .vouchers
+  .media.buttons
+  .media-body
+  .media-links
+  .button-wrapper {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 100% !important;
+  flex: 0 0 100% !important;
+  margin-top: 10px;
+}
+.header-cart .buttons .cart-button a {
+  color: var(--color-theme) !important;
 }
 
 body.theme_11

@@ -18,6 +18,11 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
   line-height: 40px;
 }
 
+body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+  right: 0 !important;
+  left: auto !important;
+}
+
 @media (max-width: 991px) {
   .catalog-title {
     display: none;
