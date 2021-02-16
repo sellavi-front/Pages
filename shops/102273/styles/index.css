@@ -12,5 +12,7 @@ body.product-category span,
 body.information-information b,
 body.product-category b {
   font-family: 'Times New Roman', Times, serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .35px;
   /* font-size: 16px; */
 }
