@@ -12,7 +12,6 @@ import socIcons from "./socIcons.js"
 import icons from '../utils/icons/icons.js'
 // import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
 import ChangeIconInProductCard from './functions/functions.js'
-import SocIconsTypeOneV2 from "../../../components/SocialIconsTypeOne/SocialIconsTypeOneV2.js"
 // import CustomSection from "../blocks/custom-section.js"
 
 
