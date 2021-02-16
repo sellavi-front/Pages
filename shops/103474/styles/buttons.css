@@ -469,4 +469,18 @@ body.theme_11
     > i {
     display: inline-block;
   }
+
+  .thumbnail .add_to_wishlist button {
+    display: block !important;
+    height: 30px !important;
+    width: 30px;
+  }
+
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart > button {
+    padding: 8px 5px !important;
+  }
+
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+    height: 28px !important;
+  }
 }
