@@ -483,4 +483,9 @@ body.theme_11
   body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
     height: 28px !important;
   }
+
+  .mobile_two_columns .products .thumbnail .caption {
+    max-height: 15px;
+    min-height: 15px;
+  }
 }
