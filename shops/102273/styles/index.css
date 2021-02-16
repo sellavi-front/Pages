@@ -5,9 +5,20 @@
 @import './blocks/index.css';
 
 
-body p,
-body span,
-body b {
+body.product-category p,
+body.information-information p,
+body.information-information span,
+body.product-category span,
+body.information-information b,
+body.product-category b {
   font-family: 'Times New Roman', Times, serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .3px;
   /* font-size: 16px; */
+}
+
+body.product-category p,
+body.information-information p {
+  font-size: 14px !important;
+  margin-bottom: 30px !important;
 }
