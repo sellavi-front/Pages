@@ -6,6 +6,10 @@
   color: #fff !important;
 }
 
+.header_wishlist {
+  margin-bottom: 5px !important;
+}
+
 /*
 .header_wishlist > a {
   font-size: 21px;
