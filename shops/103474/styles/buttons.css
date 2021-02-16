@@ -492,4 +492,7 @@ body.theme_11
   body.ltr.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart > button {
     font-size: 12px !important;
   }
+  .thumbnail.no-padding.no-border {
+    padding: 10px 5px !important;
+  }
 }
