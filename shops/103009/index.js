@@ -23,7 +23,7 @@ if (document.querySelector('.header-wrapper')) {
   
 // }
 
-window.onload = () => {
+
   if (
     document.querySelector('body.product-category') ||
     document.querySelector('body.common-home .products')
@@ -48,7 +48,7 @@ window.onload = () => {
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
   }
-};
+
 
 
 
