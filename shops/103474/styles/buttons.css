@@ -170,7 +170,7 @@ body.theme_11
   -webkit-box-flex: 0 !important;
   -ms-flex: 0 0 100% !important;
   flex: 0 0 100% !important;
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 body.theme-red-2.theme_11
   .header-cart
