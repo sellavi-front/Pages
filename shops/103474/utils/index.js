@@ -70,8 +70,8 @@ if (pages.all) {
 }
 
 if(location.href.includes('/index.php?route=account/register')) {
-  document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.remove("btn-primary")
-  document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
+  document.querySelector("#content > form > fieldset:nth-child(6) > div > div.col-sm-12 > div > div > input").classList.remove("btn-primary")
+  document.querySelector("#content > form > fieldset:nth-child(6) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
 }
 
 if (location.href.includes('/checkout')) {
