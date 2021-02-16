@@ -290,7 +290,6 @@ body.theme_11 .wrapper .navigation_black_screen.active {
   background-color: rgba(0,0,0,.4);
   left: 0;
 }
-
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
   color: #000 !important;
   font-size: 21px !important;

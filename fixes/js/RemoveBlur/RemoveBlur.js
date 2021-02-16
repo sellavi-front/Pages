@@ -1,4 +1,5 @@
 import ButtonContainerInProductCard from "../ButtonContainerInProductCard/ButtonContainerInProductCard.js"
+import icons from "../../../shops/102305/utils/icons";
 
 window.onload = () => {
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
@@ -12,6 +13,12 @@ window.onload = () => {
           target.querySelectorAll('.product-item img').forEach((prod) => {
             if (prod.getAttribute('src').includes('e_blur:2000')) {
               prod.setAttribute('src', prod.getAttribute('src').replace(/e_blur:2000/gi, ''));
+            }
+            if (document.querySelector('.product-product')) {
+              const btnCart = document.querySelector('#button-cart');
+              btnCart.querySelector('i').remove();
+              btnCart.textContent = 'В корзину';
+              btnCart.insertAdjacentHTML('afterbegin', icons.cartWhite);
             }
           });
           let btns = new ButtonContainerInProductCard()
