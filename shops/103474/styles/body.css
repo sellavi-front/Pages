@@ -17,10 +17,9 @@ body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a {
   padding: 10px !important;
 }
 
-
 body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a:hover {
-background: var(--color-theme) !important;
-color: white !important;
+  background: var(--color-theme) !important;
+  color: white !important;
 }
 
 body.common-home.theme-red-2.theme_11 .main-slider .caption .caption-text a:hover svg,
@@ -35,29 +34,35 @@ body .main-slider .caption-content .caption-text {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content h3 span {
   color: black !important;
   font-weight: 700;
-  font-family: "Muller";
+  font-family: 'Muller';
   text-transform: none !important;
   font-size: 37px !important;
 }
 
-body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content .caption-text span {
+body.common-home.theme-red-2.theme_11
+  .main-slider.content_left
+  .caption-content
+  .caption-text
+  span {
   font-size: 20px;
   margin-bottom: 35px;
-
 }
 
-body.ltr .wrapper-closed .mobile-navigation-wrapper .menu-toggle:hover {
+body.ltr .wrapper-closed .mobile-navigation-wrapper .menu-toggle {
   color: white !important;
-  opacity: .8;
 }
 
+body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
+  color: white !important;
+  opacity: 0.8;
+}
 
 @media (max-width: 991px) {
   body.ltr .mobile-navigation-wrapper .menu-toggle {
@@ -74,7 +79,11 @@ body.ltr .wrapper-closed .mobile-navigation-wrapper .menu-toggle:hover {
     font-size: 22px !important;
   }
 
-  body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content .caption-text span {
+  body.common-home.theme-red-2.theme_11
+    .main-slider.content_left
+    .caption-content
+    .caption-text
+    span {
     font-size: 16px;
     margin-bottom: 35px;
   }
@@ -85,13 +94,19 @@ body.ltr .wrapper-closed .mobile-navigation-wrapper .menu-toggle:hover {
   }
 }
 
-
 body.ltr.ru .page-section.titles h1 {
   font-family: 'Muller';
   font-weight: bold;
 }
 
-body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+body.theme_11.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .caption
+  h4.caption-title {
   line-height: 20px;
   min-height: unset;
   text-align: center !important;
@@ -108,7 +123,6 @@ body.theme_11 .wrapper .latest-section h2.section-title > i {
 .soc-icons__item:not(:last-child) {
   margin-right: 20px;
 }
-
 
 body .content-area .page-section {
   margin: 15px 0 0;
@@ -190,4 +204,3 @@ body.theme_11
   font-size: 12px;
   font-weight: 700;
 }
-
