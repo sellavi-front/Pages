@@ -117,6 +117,10 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
   background-color: #d9d9d9 !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .header_widgets {
+  font-size: 21px !important;
+}
+
 body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .more_details_btn_wrapper>button {
   color: #000 !important;
   background-color: transparent !important;
@@ -270,9 +274,9 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
   font-size: 21px !important;
 }
 
-body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i {
+/*body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i {
   font-size: 21px !important;
-}
+}*/
 
 .header_wishlist > a {
   font-size: 21px !important;
