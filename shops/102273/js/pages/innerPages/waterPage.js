@@ -1,7 +1,7 @@
 export default function waterPage() {
   return `
   <section class="page-section__content">
-  <div class="mb-50px">
+    <div class="mb-50px">
         <h3 class="text-center mb-4"><b>Экологически чистая бутилированная питьевая вода с Вашим брендом.</b></h3>
         <p>
           С целью продвижения имиджа и вашей компании, а также популяризации проектов и других
@@ -32,14 +32,11 @@ export default function waterPage() {
         <p class="text-center">
           В мае 2019 г. состоялась конференция “Water Движение”, где собрались все самые главные
           производители питьевых вод в нашей стране.
-        </p>
-        <p class="text-center">
+          <br>
           <b
             >Ледниковая вода “АБАГО” завоевала золотую медаль в слепой дегустации “ВОДА ГОДА
-            2019”.</b
-          >
-        </p>
-        <p class="text-center mb-4"><b>Где рождается наша вода...</b></p>
+            2019”. <br>
+            Где рождается наша вода...</b></p>
 
         <div class="mb-50px"
           style="
