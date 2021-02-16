@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import '../../../vendor/fonts/Muller/index.css';
 
-@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import '../../../components/HeaderTypeTwo/styles/cart/cart.css';
+@import '../../../components/HeaderTypeTwo/styles/sf-menu/sf-menu.css';
+@import '../../../components/HeaderTypeTwo/styles/search/search.css';
+@import '../../../components/HeaderTypeTwo/styles/header-mobile/header-mobile.css';
+@import '../../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css';
+@import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
+@import '../../../components/HeaderTypeTwo/styles/header-login/header-login.css';
+@import '../../../components/HeaderTypeTwo/styles/logo/logo.css';
+@import '../../../components/HeaderTypeTwo/styles/burger/burger.css';
+
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 @import './../../../components/HeaderWithCatalog/HeaderWithCatalog.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
