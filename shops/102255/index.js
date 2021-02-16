@@ -12,7 +12,6 @@ import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard
 import '../../fixes/js/RemoveBLur/RemoveBlur.js';
 
 document.querySelector('.header-cart.sticky').insertAdjacentHTML('beforebegin', '<div class="button__list_elem"><a id="wishlist" class="position-relative" href="https://store102255.sellavi.com/login/" role="link"><i class="far fa-heart"></i></a></div>');
-<<<<<<< HEAD
 // if (document.querySelector('.common-home')) {
   
 //   document.querySelector('.caption-subtitle .position-relative').insertAdjacentHTML('afterend', '<span class="second-title-text"></span>')
@@ -26,22 +25,6 @@ document.querySelector('.header-cart.sticky').insertAdjacentHTML('beforebegin', 
 //   document.querySelector('.caption-subtitle .second-title-text2').insertAdjacentHTML('afterend', '<div class="button-in-banner2">Подробнее</div>')
 //   document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span.position-relative').insertAdjacentHTML('afterend', '<span>Продажа средств от насекомых</span><br>');
 // }
-=======
-
-if (document.querySelector('.common-home')) {
-
-  document.querySelector('.caption-subtitle .position-relative').insertAdjacentHTML('afterend', '<span class="second-title-text"></span>')
-  document.querySelector('.caption-subtitle .second-title-text').insertAdjacentHTML('afterend', '<div class="button-in-banner">Подробнее</div>')
-  document.querySelector('#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > span.position-relative').insertAdjacentHTML('afterend', '<span>Продажа средств от насекомых</span><br>');
-}
-
-if (document.querySelector('.common-home')) {
-
-  document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span').insertAdjacentHTML('afterend', '<span class="second-title-text2"></span>')
-  document.querySelector('.caption-subtitle .second-title-text2').insertAdjacentHTML('afterend', '<div class="button-in-banner2">Подробнее</div>')
-  document.querySelector('#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > span.position-relative').insertAdjacentHTML('afterend', '<span>Продажа средств от насекомых</span><br>');
-}
->>>>>>> 3967c4cdf5a62e62000ab59d4c4a80873bac7df2
 
 if (document.querySelector('.common-home')) {
   const customSection = document.querySelector('.custom_section');
