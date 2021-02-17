@@ -16,7 +16,7 @@ if (document.querySelector('.common-home')) {
   customSection.classList.add('container');
 
   new BigBanner(
-    'https://res.cloudinary.com/depgheppz/image/upload/v1613045739/beef-strip-loin-steak-black-background-space-text-marble-beef_1_xsak4k.png',
+    'https://res.cloudinary.com/depgheppz/image/upload/v1613561501/beef-strip-loin-steak-black-background-space-text-marble-beef_1_1_sxblpi.png',
   {title: 'Доставка готовой еды', link: 'tel:79806425606', linkContent: '+7 980 642 56 06'}).render();
 
     new ContactsWithMap(customSection, 'beforeend', contactData).render()

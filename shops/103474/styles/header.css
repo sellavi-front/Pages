@@ -30,7 +30,6 @@ body .arrow {
 
 body.sidenav-enabled.ltr .wrapper-opened {
   left: 50% !important;
-  right: auto;
 }
 
 body.sidenav-enabled .mobile_side_nav {
