@@ -20,8 +20,21 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
   color: #fff !important;
 }
 
+body .arrow {
+  display: block !important;
+}
+
 .nav.sf-menu {
   display: none !important;
+}
+
+body.sidenav-enabled.ltr .wrapper-opened {
+  left: 50%;
+  right: auto;
+}
+
+body.sidenav-enabled .mobile_side_nav {
+  width: 50% !important;
 }
 
 .catalog-title {
