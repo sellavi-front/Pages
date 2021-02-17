@@ -207,7 +207,7 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 495px) {
   body.theme_11
     .wrapper
     .page-section
