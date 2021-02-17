@@ -59,10 +59,7 @@ body.ltr .wrapper-closed .mobile-navigation-wrapper .menu-toggle {
   color: white !important;
 } */
 
-body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
-  color: white !important;
-  opacity: 0.8;
-}
+
 
 @media (max-width: 991px) {
   body.ltr .mobile-navigation-wrapper .menu-toggle {
