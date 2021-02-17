@@ -77,7 +77,7 @@ export default function waterPage() {
             Кавказского хребта.
           </p>
           <p>
-            <img style="float: left; width: 200px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613551179/image13_pebq90.png">
+            <img style="float: left; width: 120px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613551179/image13_pebq90.png">
             На производство чистой питьевой воды идет талая ледниковая вода, прошедшая пятикратную
             очистку по особой технологии. Специалисты очищают ее от механических включений в системе
             последовательной очистки через 3 фильтра – засыпные (песочный и угольный), картриджный,
