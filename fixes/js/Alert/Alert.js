@@ -9,7 +9,7 @@ export default (() => {
           const alert = document.querySelector('.alert');
           banner.insertAdjacentHTML('afterend', alert.outerHTML);
           alert.remove();
-        }, 800);
+        }, 900);
       });
     });
   }
