@@ -246,3 +246,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 
 
 /* end */
+
+/* sf menu */
+body.sidenav-enabled.ltr .mobile_side_nav ul a {
+  direction: rtl !important;
+}
+
+/* end */
