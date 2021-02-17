@@ -67,6 +67,9 @@ body.common-home .main-slider .caption .container {
   max-width: 1542px !important;
 }
 
+.homefeatured_category {
+  display: none !important;
+}
 
 body.account-login .alert-danger {
   margin-bottom: 10px;
