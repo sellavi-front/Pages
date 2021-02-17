@@ -320,6 +320,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
   body.ltr .thumbnail .price_actions .add_to_cart {
     padding-right: 5px !important;
+    margin: 0 !important;
   }
 
   .thumbnail.no-padding.no-border {
