@@ -102,8 +102,6 @@ body.ru.ltr
   text-transform: none !important;
 }
 
-
-
 @media (max-width: 495px) {
   body .md-style-active label.placeholder {
     font-size: 7px !important;
