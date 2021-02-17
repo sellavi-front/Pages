@@ -209,10 +209,12 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
 
 @media only screen and (max-width: 576px) {
-
-
   body.ltr .page-section h2:not(.caption-title) span {
     margin: 0 20px 0 0 !important;
+  }
+
+  body.ltr section.page-section > div > h2:after, body.ltr section.page-section > div > h2:before {
+    display: none !important;
   }
 
   body.theme_11 .wrapper .content-area .page-section .products.grid {
