@@ -5,6 +5,7 @@ import './components/Header/Header.js'
 /*import './components/CatalogBtn/CatalogBtn.js'*/
 import './components/Products/Products.js'
 import './components/Footer/LogoSellavi.js'
+import './components/Menu/Menu.js'
 
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js'
 import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
