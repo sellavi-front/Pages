@@ -531,16 +531,6 @@ body.theme_11
     display: block !important;
   }
 
-  body.ltr.theme_11
-    .wrapper
-    .page-section
-    .products.grid
-    .product-item
-    .thumbnail
-    .price_actions
-    .add_to_cart
-    > button
-    i,
   body.theme_11.ltr
     .wrapper
     .page-section
@@ -560,5 +550,10 @@ body.theme_11
   .thumbnail.no-padding.no-border {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+  }
+
+  body > div > div.content-area > section > div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
