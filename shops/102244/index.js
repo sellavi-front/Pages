@@ -7,6 +7,11 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
+import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
+import '../../fixes/js/Alert/Alert.js';
+
 
 if (document.querySelector('.common-home')) {
   document.querySelector('header .logo img').setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1613045173/Group_4_r5wxrk.png')
