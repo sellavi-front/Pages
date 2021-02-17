@@ -9,7 +9,8 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   margin-top: 50px;
 }
 
-body.ltr .page-section h2:not(.caption-title) span, body.ru.ltr .wrapper .latest-section h2.section-title span {
+body.ltr .page-section h2:not(.caption-title) span,
+body.ru.ltr .wrapper .latest-section h2.section-title span {
   color: black !important;
 }
 
@@ -160,7 +161,6 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   }
 } */
 
-
 .price_actions .buttons__container {
   height: 50px !important;
 }
@@ -170,12 +170,12 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
 }
 
 .product-product .product-single .buttons {
@@ -184,8 +184,8 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
 .mobile_two_columns .products .thumbnail .caption {
   -webkit-box-pack: start !important;
-      -ms-flex-pack: start !important;
-          justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
 }
 
 @media (max-width: 495px) {
@@ -202,18 +202,15 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header_login {
     display: none !important;
   }
-
-
-
 }
-
 
 @media only screen and (max-width: 576px) {
   body.ltr .page-section h2:not(.caption-title) span {
     margin: 0 20px 0 0 !important;
   }
 
-  body.ltr section.page-section > div > h2:after, body.ltr section.page-section > div > h2:before {
+  body.ltr section.page-section > div > h2:after,
+  body.ltr section.page-section > div > h2:before {
     display: none !important;
   }
 
@@ -317,7 +314,15 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     box-shadow: none !important;
   }
 
-  body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  body.ru.ltr
+    .wrapper
+    .page-section
+    .products.grid
+    .product-item
+    .thumbnail
+    .price_actions
+    .add_to_cart
+    > button {
     font-size: 10px !important;
   }
 
@@ -344,7 +349,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
   body.ltr.common-home .page-section h2:not(.caption-title) {
     -webkit-box-pack: start !important;
-        -ms-flex-pack: start !important;
-            justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
   }
 }
