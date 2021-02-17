@@ -82,7 +82,7 @@ body.ltr section.page-section > div > h2:before {
   margin: 7px 0 0;
 }
 
-body.theme-gray .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+body.ru.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
 .thumbnail .add_to_wishlist button,
 body.ru.ltr
   .wrapper
@@ -116,7 +116,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-right: 0 !important;
 } */
 
-body.theme-gray.ru.ltr
+body.ru.ltr.ru.ltr
   .wrapper
   .page-section
   .products.grid
@@ -125,7 +125,7 @@ body.theme-gray.ru.ltr
   .price_actions
   .add_to_cart
   > button:hover,
-body.theme-gray.ru.ltr
+body.ru.ltr.ru.ltr
   .wrapper
   .page-section
   .products.grid
@@ -134,7 +134,7 @@ body.theme-gray.ru.ltr
   .price_actions
   .more_details_btn_wrapper
   > button:hover,
-body.theme-gray.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
+body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   color: white !important;
 }
 /*
@@ -298,7 +298,7 @@ body.theme-gray.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     box-shadow: none !important;
   }
 
-  body.theme-red-2.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
     font-size: 10px !important;
   }
 
