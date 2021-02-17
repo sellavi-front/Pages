@@ -552,6 +552,10 @@ body.theme_11
     box-shadow: none !important;
   }
 
+  body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    font-size: 10px !important;
+  }
+
   body > div > div.content-area > section > div {
     padding-left: 0 !important;
     padding-right: 0 !important;

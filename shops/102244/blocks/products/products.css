@@ -192,7 +192,7 @@ body.theme-gray.theme_11 .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
 @media (max-width: 495px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo img {
-    width: 180px !important;
+    width: 80px !important;
     -o-object-fit: contain;
     object-fit: contain;
   }
