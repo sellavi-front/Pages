@@ -318,13 +318,13 @@ body.theme-blue-2.theme_11 .wrapper .page-section .products.grid .product-item .
     background-color: #ececec !important;
 }
 
-body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .fa-shopping-cart:before {
+/* body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .fa-shopping-cart:before {
     display: none;
 }
 
 .price_actions.d-flex.justify-content-between .add_to_wishlist .fa-heart:before {
     display: none;
-}
+} */
 
 
 
