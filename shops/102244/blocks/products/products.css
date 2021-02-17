@@ -279,6 +279,15 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     height: 28px !important;
   }
 
+  .thumbnail.no-padding.no-border .media  {
+    min-height: 0 !important;
+    max-height: 150px !important;
+  }
+
+  body .thumbnail .img-fluid, body .img-thumbnail {
+    margin-top: -30px;
+  }
+
   body.ltr.ru.ltr
     .wrapper
     .page-section
