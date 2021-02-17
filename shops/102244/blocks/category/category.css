@@ -99,7 +99,10 @@ body.ru.ltr
 
 .thumbnail.thumbnail-banner .caption-title span {
   background: rgba(0, 0, 0, 0.3) !important;
+  text-transform: none !important;
 }
+
+
 
 @media (max-width: 495px) {
   body .md-style-active label.placeholder {
