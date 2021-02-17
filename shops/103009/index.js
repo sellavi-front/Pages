@@ -1,6 +1,6 @@
 import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
+// import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
 import Requisites from '../../modules/Requisites/Requisites.js';
 import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
