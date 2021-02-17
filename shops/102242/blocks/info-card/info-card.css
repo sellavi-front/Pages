@@ -43,11 +43,16 @@
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .info-card__container {
     -ms-flex-wrap: wrap !important;
     flex-wrap: wrap !important;
   }
+  .info-card__item {
+    max-width: 415px !important;
+    width: 50% !important;
+    margin-right: 30px;
+}
 }
 
 @media (max-width: 495px) {
