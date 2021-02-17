@@ -1,4 +1,4 @@
-export default (function() {
+// export default (function() {
   if (document.querySelector('.common-home')) {
     const btns = document.querySelectorAll('.add_to_wishlist > button');
     const banner = document.querySelector('.main-slider');
@@ -13,4 +13,4 @@ export default (function() {
       });
     });
   }
-})();
+// })();
