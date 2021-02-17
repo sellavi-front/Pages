@@ -207,7 +207,13 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 }
 
 
-@media only screen and (max-width: 495px) {
+@media only screen and (max-width: 576px) {
+
+  body.theme_11 .wrapper .page-section .products.grid {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
   body.ru.ltr
     .wrapper
     .page-section
