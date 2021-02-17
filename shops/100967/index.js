@@ -17,6 +17,7 @@ import setDarkTheme from '../../components/DarkMode/DarkMode.js';
 import aboutData from './utils/aboutData.js';
 import { l1, l2 } from './assets/svg/l1.js';
 import themeToggle from './themeToggle.js';
+import './utils/accuring/accuring.js'
 
 const icons = {
   cart:
@@ -520,94 +521,94 @@ console.log(123);
           }
       }); */
 
-    const ORG_NAME = 'ИП Карасин Павел Александрович';
-    const ORG_ADRRESS = '109469 г. Москва ул. Братиславская д.34 к.2 кв.247';
-    const MAIL_ADDRESS = '109469 г. Москва ул. Братиславская д.34 к.2 кв.247';
-    const REG_ADDRESS = '109469 г. Москва ул. Братиславская д.34 к.2 кв.247';
-    const INN = '772324304278';
-    const OGRN = '320774600344164';
-    const BANKNAME = 'АО "Альфа-банк"';
-    const ACCOUT_NUMBER = '40802810001630000002';
-    const CORR_NUMBER = '30101810200000000593';
-    const BIK = '044525593';
+  //   const ORG_NAME = 'ИП Карасин Павел Александрович';
+  //   const ORG_ADRRESS = '109469 г. Москва ул. Братиславская д.34 к.2 кв.247';
+  //   const MAIL_ADDRESS = '109469 г. Москва ул. Братиславская д.34 к.2 кв.247';
+  //   const REG_ADDRESS = '109469 г. Москва ул. Братиславская д.34 к.2 кв.247';
+  //   const INN = '772324304278';
+  //   const OGRN = '320774600344164';
+  //   const BANKNAME = 'АО "Альфа-банк"';
+  //   const ACCOUT_NUMBER = '40802810001630000002';
+  //   const CORR_NUMBER = '30101810200000000593';
+  //   const BIK = '044525593';
 
-    if (location.href.includes('terms-of-use')) {
-      const root = document.querySelector('.requsitess');
-      let requsitesData = document.createElement('div');
-      requsitesData.classList.add('.requsites-data');
-      requsitesData.id = 'requisites';
-      if (root) {
-        root.append(requsitesData);
-        let Requisites = new Vue({
-          el: '#requisites',
-          data: {
-            requisites: [
-              ORG_NAME,
-              ORG_ADRRESS,
-              INN,
-              OGRN,
-              BANKNAME,
-              ACCOUT_NUMBER,
-              CORR_NUMBER,
-              BIK,
-            ],
-          },
-          template: `
-          <div class="requsites__data">
-              <h4 class="requsites__title">Реквизиты продавца</h4>
-              <p class="requsites__elem">ИП: <span>${ORG_NAME}</span></p>
-              <p class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></p>
-              <p class="requsites__elem">Инн: <span>${INN}</span></p>
-              <p class="requsites__elem">ОГРН: <span>${OGRN}</span></p>
-              <p class="requsites__elem">Банк: <span>${BANKNAME}</span></p>
-              <p class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></p>
-              <p class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></p>
-              <p class="requsites__elem">БИК: <span>${BIK}</span></p>
+  //   if (location.href.includes('terms-of-use')) {
+  //     const root = document.querySelector('.requsitess');
+  //     let requsitesData = document.createElement('div');
+  //     requsitesData.classList.add('.requsites-data');
+  //     requsitesData.id = 'requisites';
+  //     if (root) {
+  //       root.append(requsitesData);
+  //       let Requisites = new Vue({
+  //         el: '#requisites',
+  //         data: {
+  //           requisites: [
+  //             ORG_NAME,
+  //             ORG_ADRRESS,
+  //             INN,
+  //             OGRN,
+  //             BANKNAME,
+  //             ACCOUT_NUMBER,
+  //             CORR_NUMBER,
+  //             BIK,
+  //           ],
+  //         },
+  //         template: `
+  //         <div class="requsites__data">
+  //             <h4 class="requsites__title">Реквизиты продавца</h4>
+  //             <p class="requsites__elem">ИП: <span>${ORG_NAME}</span></p>
+  //             <p class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></p>
+  //             <p class="requsites__elem">Инн: <span>${INN}</span></p>
+  //             <p class="requsites__elem">ОГРН: <span>${OGRN}</span></p>
+  //             <p class="requsites__elem">Банк: <span>${BANKNAME}</span></p>
+  //             <p class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></p>
+  //             <p class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></p>
+  //             <p class="requsites__elem">БИК: <span>${BIK}</span></p>
 
-          </div>`,
-        });
-      } else console.log('No element with id:list');
-    }
+  //         </div>`,
+  //       });
+  //     } else console.log('No element with id:list');
+  //   }
 
-    if (location.href.includes('contact')) {
-      const root = document.querySelector('.contact-info');
-      const list = document.createElement('div');
-      list.id = 'requisites';
-      if (root) {
-        root.append(list);
-        let Requisites = new Vue({
-          el: '#requisites',
-          data: {
-            requisites: [
-              ORG_NAME,
-              ORG_ADRRESS,
-              INN,
-              OGRN,
-              BANKNAME,
-              ACCOUT_NUMBER,
-              CORR_NUMBER,
-              BIK,
-            ],
-          },
-          template: `
-      <ul class="requisite">
-          <li class="requisite__title">
-  Реквизиты
-          </li>
+  //   if (location.href.includes('contact')) {
+  //     const root = document.querySelector('.contact-info');
+  //     const list = document.createElement('div');
+  //     list.id = 'requisites';
+  //     if (root) {
+  //       root.append(list);
+  //       let Requisites = new Vue({
+  //         el: '#requisites',
+  //         data: {
+  //           requisites: [
+  //             ORG_NAME,
+  //             ORG_ADRRESS,
+  //             INN,
+  //             OGRN,
+  //             BANKNAME,
+  //             ACCOUT_NUMBER,
+  //             CORR_NUMBER,
+  //             BIK,
+  //           ],
+  //         },
+  //         template: `
+  //     <ul class="requisite">
+  //         <li class="requisite__title">
+  // Реквизиты
+  //         </li>
 
-           <li class="requsites__elem">ИП: <span>${ORG_NAME}</span></li>
-              <li class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></li>
-              <li class="requsites__elem">Инн: <span>${INN}</span></li>
-              <li class="requsites__elem">ОГРН: <span>${OGRN}</span></li>
-              <li class="requsites__elem">Банк: <span>${BANKNAME}</span></li>
-              <li class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></li>
-              <li class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></li>
-              <li class="requsites__elem">БИК: <span>${BIK}</span></li>
-      </ul>
-  `,
-        });
-      } else console.log('No element with id:list');
-    }
+  //          <li class="requsites__elem">ИП: <span>${ORG_NAME}</span></li>
+  //             <li class="requsites__elem">Юр.адрес: <span>${ORG_ADRRESS}</span></li>
+  //             <li class="requsites__elem">Инн: <span>${INN}</span></li>
+  //             <li class="requsites__elem">ОГРН: <span>${OGRN}</span></li>
+  //             <li class="requsites__elem">Банк: <span>${BANKNAME}</span></li>
+  //             <li class="requsites__elem">Р/С: <span>${ACCOUT_NUMBER}</span></li>
+  //             <li class="requsites__elem">К/С: <span>${CORR_NUMBER}</span></li>
+  //             <li class="requsites__elem">БИК: <span>${BIK}</span></li>
+  //     </ul>
+  // `,
+  //       });
+  //     } else console.log('No element with id:list');
+  //   }
 
     if (location.href.includes('/checkout')) {
       document
@@ -674,12 +675,6 @@ $(document).ready(function () {
 
   let textTrans = 'About us ';
   let textRus = 'Контакты';
-  let textAboutParent = $(
-    '#home > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1)',
-  );
-  let textAbout = $(
-    'footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a:nth-child(2)',
-  );
 
   if (widTitle.html() == textTrans || widCat.html() == textTrans) {
     widTitle.text(textRus);
@@ -728,8 +723,6 @@ $(function () {
       let aLinks = document.querySelectorAll(
         '#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul > .flexy > a',
       );
-      let collapsedArea = document.querySelector('.panel-collapse');
-      let flexyLi = document.querySelectorAll('.flexy');
 
       let ul = document.querySelector(
         '#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul',
