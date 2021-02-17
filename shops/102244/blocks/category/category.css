@@ -53,6 +53,7 @@ body.ru.ltr
   justify-content: center !important;
   color: white;
   font-weight: bold;
+  width: 90%;
 }
 
 body.ru.ltr
@@ -68,7 +69,7 @@ body.ru.ltr
   .caption-wrapper
   .caption-inner
   h2.caption-title {
-  margin-bottom: 30px !important;
+  margin-bottom: 12% !important;
 }
 
 body.ru.ltr
