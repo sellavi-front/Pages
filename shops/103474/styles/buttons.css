@@ -489,7 +489,7 @@ body.theme_11
     min-height: 15px;
   }
 
-  body.ltr.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart > button {
+  body.ltr.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart > button span {
     font-size: 12px !important;
   }
   .thumbnail.no-padding.no-border {
