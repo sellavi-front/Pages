@@ -8,6 +8,11 @@ body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-
 body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header_login > a {
   color: white !important;
 }
+
+.cart-items .cart-items-inner .buttons-wrapper a {
+  color: black !important;
+}
+
 .common-home .header {
   position: absolute !important;
 }
