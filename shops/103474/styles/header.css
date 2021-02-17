@@ -19,6 +19,11 @@
 
   }
 
+  body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
+    color: white !important;
+    opacity: 0.8;
+  }
+
   .header .header-wrapper .mobile-navigation-wrapper a {
     font-size: 15px !important;
     color: #fff !important;
