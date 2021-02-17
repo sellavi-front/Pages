@@ -556,4 +556,8 @@ body.theme_11
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+  .thumbnail.no-padding.no-border {
+    padding: 10px 5px !important;
+  }
 }
