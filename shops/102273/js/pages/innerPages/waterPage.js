@@ -39,7 +39,7 @@ export default function waterPage() {
             </b></p>
 
         <div class="mb-50px mt-4 ">
-          <p class="mb-2"><b>Где рождается наша вода...</b></p>
+          <p class="mb-2"><b><i>Где рождается наша вода...</i></b></p>
           <div class="row">
           <img
             style="margin-right: 15px; object-fit: cover; height: 100%"
