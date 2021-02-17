@@ -484,10 +484,7 @@ body.theme_11
     height: 28px !important;
   }
 
-  .mobile_two_columns .products .thumbnail .caption {
-    max-height: 15px;
-    min-height: 15px;
-  }
+
 
   body.ltr.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart > button span {
     font-size: 12px !important;
