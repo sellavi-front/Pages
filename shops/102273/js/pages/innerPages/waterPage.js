@@ -101,6 +101,17 @@ export default function waterPage() {
             выполняются в автоматическом или полуавтоматическом режиме и при строгом контроле
             каждого производственного этапа.
           </p>
+          <div class="row">
+            <div className="col-12 col-lg-4 col-md-6">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg">
+            </div>
+            <div className="col-12 col-lg-4 col-md-6">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_3_xcwq9f.jpg">
+            </div>
+            <div className="col-12 col-lg-4 col-md-6">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/image9_n5tl92.jpg">
+            </div>
+          </div>
           <p>
             Розлив питьевой минеральной столовой воды выполняется в разных объемах (5, 10, 17 и 19
             литров), для чего используется уникальное автоматическое оборудование.  проверяет весь
