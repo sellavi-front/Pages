@@ -21,3 +21,11 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
 body .footer .footer-widgets {
   padding-top: 0 !important;
 }
+
+@media (max-width: 768px) {
+  .footer-widgets .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    border-top: 0 !important;
+  }
+}
