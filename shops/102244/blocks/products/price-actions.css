@@ -15,4 +15,8 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
   body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     font-size: 14px !important;
   }
+
+  body.ltr section.page-section > div > h2:before {
+    display: none !important;
+  }
 }
