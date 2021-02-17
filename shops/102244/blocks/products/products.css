@@ -86,6 +86,10 @@ body.ltr section.page-section > div > h2:before {
   background: #c4c4c4;
   margin: 7px 0 0;
 }
+.mobile_two_columns .products .thumbnail .caption {
+  max-height: 95px !important;
+  min-height: 95px !important;
+}
 
 body.ru.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
 .thumbnail .add_to_wishlist button,
