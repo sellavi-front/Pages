@@ -11,49 +11,49 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import icons from './utils/icons.js';
 
-if (document.querySelector('.header-wrapper')) {
-  document.querySelector('.fa-heart').innerHTML = icons.like;
-  document.querySelector('.fa-shopping-cart.far').innerHTML = icons.cart;
-}
+// if (document.querySelector('.header-wrapper')) {
+//   document.querySelector('.fa-heart').innerHTML = icons.like;
+//   document.querySelector('.fa-shopping-cart.far').innerHTML = icons.cart;
+// }
 
-if (document.querySelector('.price_actions.d-flex.justify-content-between')) {
-  document.querySelector('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i').innerHTML = icons.cart;
-  document.querySelector('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i').innerHTML = icons.like;
+// if (document.querySelector('.price_actions.d-flex.justify-content-between')) {
+//   document.querySelector('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i').innerHTML = icons.cart;
+//   document.querySelector('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i').innerHTML = icons.like;
   
-  let arrayOfCarts = document.querySelectorAll('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i');
-          let arrayOfHearts = document.querySelectorAll('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i');
+//   let arrayOfCarts = document.querySelectorAll('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i');
+//           let arrayOfHearts = document.querySelectorAll('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i');
 
-          for (let i = 0; i < arrayOfCarts.length; i++) {
-            arrayOfCarts[i].innerHTML = icons.cart;
-            arrayOfHearts[i].innerHTML = icons.like; 
-          }
-}
+//           for (let i = 0; i < arrayOfCarts.length; i++) {
+//             arrayOfCarts[i].innerHTML = icons.cart;
+//             arrayOfHearts[i].innerHTML = icons.like; 
+//           }
+// }
 
 
-  if (
-    document.querySelector('body.product-category') ||
-    document.querySelector('body.common-home .products')
-  ) {
-    let target = document.querySelector('body div.products');
-    const config = {
-      childList: true,
-    };
-    const callback = function (mutationsList, observer) {
-      for (let mutation of mutationsList) {
-        if (mutation.type === 'childList') {
-          let arrayOfCarts = document.querySelectorAll('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i');
-          let arrayOfHearts = document.querySelectorAll('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i');
+  // if (
+  //   document.querySelector('body.product-category') ||
+  //   document.querySelector('body.common-home .products')
+  // ) {
+  //   let target = document.querySelector('body div.products');
+  //   const config = {
+  //     childList: true,
+  //   };
+  //   const callback = function (mutationsList, observer) {
+  //     for (let mutation of mutationsList) {
+  //       if (mutation.type === 'childList') {
+  //         let arrayOfCarts = document.querySelectorAll('.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i');
+  //         let arrayOfHearts = document.querySelectorAll('.price_actions.d-flex.justify-content-between .add_to_wishlist > button > i');
 
-          for (let i = 0; i < arrayOfCarts.length; i++) {
-            arrayOfCarts[i].innerHTML = icons.cart;
-            arrayOfHearts[i].innerHTML = icons.like; 
-          }
-        }
-      }
-    };
-    const observer = new MutationObserver(callback);
-    observer.observe(target, config);
-  }
+  //         for (let i = 0; i < arrayOfCarts.length; i++) {
+  //           arrayOfCarts[i].innerHTML = icons.cart;
+  //           arrayOfHearts[i].innerHTML = icons.like; 
+  //         }
+  //       }
+  //     }
+  //   };
+  //   const observer = new MutationObserver(callback);
+  //   observer.observe(target, config);
+  // }
 
 
 
