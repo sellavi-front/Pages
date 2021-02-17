@@ -1,13 +1,12 @@
 import './utils/aqquring.js'
+import contactData from './utils/contactData.js';
 
+import './utils/fixes.js'
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
-import '../../components/PictureCategories/PictureCategories.js';
-import '../../fixes/js/Alert/Alert.js';
-import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+// import '../../components/PictureCategories/PictureCategories.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
-import contactData from './utils/contactData.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('header .logo img').setAttribute('src', 'https://res.cloudinary.com/depgheppz/image/upload/v1613045173/Group_4_r5wxrk.png')
