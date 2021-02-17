@@ -567,4 +567,8 @@ body.theme_11
   .thumbnail.no-padding.no-border {
     padding: 10px 5px !important;
   }
+
+  .add_to_wishlist i {
+    font-size: 11px !important;
+  }
 }
