@@ -16,17 +16,17 @@
     max-width: 100px !important;
     margin: 6px 0 0;
     background: var(--color-theme);
+
   }
 
-
-
+  .header .header-wrapper .mobile-navigation-wrapper a {
+    font-size: 15px !important;
+    color: #fff !important;
+  }
 
 }
 
-.header .header-wrapper .mobile-navigation-wrapper a {
-  font-size: 15px !important;
-  color: #fff !important;
-}
+
 
 
 body .arrow {
@@ -84,6 +84,7 @@ body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
 
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     background: #fff !important;
+    z-index: 9999;
   }
 
   body.ltr .wrapper .header .header-wrapper .header_widgets {
