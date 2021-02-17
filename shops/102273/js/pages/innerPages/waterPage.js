@@ -38,8 +38,9 @@ export default function waterPage() {
             2019”. <br>
             </b></p>
 
-        <div class="mb-50px mt-4 row">
-          <p class="mb-2 w-100"><b>Где рождается наша вода...</b></p>
+        <div class="mb-50px mt-4 ">
+          <p class="mb-2"><b>Где рождается наша вода...</b></p>
+          <div class="row">
           <img
             style="margin-right: 15px; object-fit: cover; height: 100%"
             style="col-md-6 col-12"
@@ -50,6 +51,7 @@ export default function waterPage() {
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
             style="col-md-6 col-12"
           />
+          </div>
         </div>
         <div>
           <h6 class="text-center"><b>Природная питьевая вода первой категории «Абаго»</b></h6>
