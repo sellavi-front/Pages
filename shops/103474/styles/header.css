@@ -128,6 +128,11 @@ body.theme-red-2.theme_11
   color: white !important;
 }
 
+body.theme-red-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a:hover {
+  color: white !important;
+  border-radius: 5px;
+}
+
 body.theme_11
   .wrapper
   .header
