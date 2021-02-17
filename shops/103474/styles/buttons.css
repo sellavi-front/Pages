@@ -207,6 +207,8 @@ body.theme-red-2.theme_11
   .button-wrapper.cart-button
   a:hover {
   background: var(--color-theme) !important;
+  color: white !important;
+  border-radius: 5px !important;
 }
 
 body.theme_11
