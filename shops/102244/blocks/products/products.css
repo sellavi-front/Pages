@@ -237,6 +237,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     .add_to_cart
     > button {
     padding: 8px 5px !important;
+    height: auto !important;
   }
 
   body.ru.ltr
