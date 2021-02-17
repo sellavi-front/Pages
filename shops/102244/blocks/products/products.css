@@ -9,6 +9,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   margin-top: 50px;
 }
 
+body.ltr .page-section h2 span, body.ru.ltr .wrapper .latest-section h2.section-title span {
+  color: black !important;
+}
+
 body .content-area .page-section.titles {
   border: none !important;
   background: transparent !important;
