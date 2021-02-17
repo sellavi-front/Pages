@@ -19,9 +19,11 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
   body.ltr section.page-section > div > h2:before {
     display: none !important;
   }
+  body.ru.ltr .wrapper .latest-section h2.section-title span {
+    margin: 0 20px 0 0!important;
+  }
 
   body.ltr.common-home .page-section h2 {
     justify-self: flex-start !important;
-    margin: 0 20px 0 0!important;
   }
 }
