@@ -178,6 +178,13 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   align-items: center !important;
 }
 
+.thumbnail .media-link {
+  margin: 0 !important;
+  width: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
 .product-product .product-single .buttons {
   width: 300px !important;
 }
