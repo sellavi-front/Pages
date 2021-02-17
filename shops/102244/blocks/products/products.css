@@ -73,7 +73,7 @@ body.ltr.common-home .page-section h2 {
   align-items: center;
 }
 
-body.ltr .page-section h2:not(.block-title) span {
+body.ltr .page-section h2:not(.caption-title) span {
   margin: 0 20px;
 }
 
