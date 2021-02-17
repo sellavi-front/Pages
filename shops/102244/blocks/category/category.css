@@ -52,8 +52,9 @@ body.ru.ltr
   -ms-flex-pack: center !important;
   justify-content: center !important;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   width: 90%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body.ru.ltr
