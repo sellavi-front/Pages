@@ -38,23 +38,17 @@ export default function waterPage() {
             2019”. <br>
             </b></p>
 
-        <div class="mb-50px mt-4"
-          style="
-            display: grid !important;
-            grid-template-columns: repeat(auto-fit, 48%);
-            justify-content: space-between;
-            align-items: center;
-        ">
-          <p class="mb-2"><b>Где рождается наша вода...</b></p>
+        <div class="mb-50px mt-4 row">
+          <p class="mb-2 w-100"><b>Где рождается наша вода...</b></p>
           <img
             style="margin-right: 15px; object-fit: cover; height: 100%"
+            style="col-md-6 col-12"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
-            alt=""
           />
           <img
             style="margin-right: 15px; object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
-            alt=""
+            style="col-md-6 col-12"
           />
         </div>
         <div>
