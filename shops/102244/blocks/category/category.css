@@ -94,6 +94,6 @@ body.theme_11.ltr .wrapper .homefeatured_category>div>div>div:nth-of-type(2n) {
 
 @media (max-width: 495px) {
   body .md-style-active label.placeholder {
-    font-size: 7px !important;
+    font-size: 11px !important;
   }
 }
