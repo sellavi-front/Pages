@@ -57,6 +57,10 @@ body.ru.ltr
   font-family: 'Montserrat', sans-serif;
 }
 
+body.ru.ltr .wrapper .homefeatured_category > div > div > div {
+  margin: 0 45px 0 0;
+}
+
 body.ru.ltr
   .wrapper
   .homefeatured_category
@@ -99,7 +103,7 @@ body.ru.ltr
 }
 
 .thumbnail.thumbnail-banner .caption-title span {
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
   text-transform: none !important;
 }
 
