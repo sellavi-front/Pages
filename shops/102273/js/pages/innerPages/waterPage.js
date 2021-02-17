@@ -216,7 +216,7 @@ export default function waterPage() {
             увеличится всего на 1 рубль за бутылку.
           </p>
           <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611925541/102273/Group_7423516_2_wps790.png"
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1613550651/image14_mivt61.jpg"
             alt=""
           />
         </div>
