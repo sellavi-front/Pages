@@ -214,6 +214,10 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     margin: 0 !important;
   }
 
+  body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    padding: 0 !important;
+  }
+
   body.ru.ltr
     .wrapper
     .page-section
