@@ -58,7 +58,7 @@ export default function waterPage() {
           />
         </div>
         <div>
-          <h6><b>Природная питьевая вода первой категории «Абаго»</b></h6>
+          <h6 class="text-center"><b>Природная питьевая вода первой категории «Абаго»</b></h6>
           <p>
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613482633/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-16_%D0%B2_16.36.16_jova4q.png" style="float: left; width: 130px;">
             Ледниковая питьевая вода «Абаго» добывается в Юго-Западной части Республики Адыгея в
@@ -81,6 +81,7 @@ export default function waterPage() {
             Кавказского хребта.
           </p>
           <p>
+            <img style="float: left; width: 200px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613551179/image13_pebq90.png">
             На производство чистой питьевой воды идет талая ледниковая вода, прошедшая пятикратную
             очистку по особой технологии. Специалисты очищают ее от механических включений в системе
             последовательной очистки через 3 фильтра – засыпные (песочный и угольный), картриджный,
