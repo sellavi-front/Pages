@@ -160,27 +160,6 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   }
 } */
 
-@media (max-width: 768px) {
-  /* body.ru.ltr:not(.mobile_two_columns)
-    .wrapper
-    .page-section
-    .products.grid
-    .product-item:nth-child(4n) {
-    padding-right: 30px !important;
-  }
-
-  body.ru.ltr:not(.mobile_two_columns)
-    .wrapper
-    .page-section
-    .products.grid
-    .product-item:nth-child(3n) {
-    padding-left: 30px !important;
-  } */
-
-  /* body.ru.ltr .wrapper .page-section .products.grid .product-item {
-    padding: 30px !important;
-  } */
-}
 
 .price_actions .buttons__container {
   height: 50px !important;
@@ -223,6 +202,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header_login {
     display: none !important;
   }
+
 
 
 }
@@ -353,5 +333,11 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   }
   body.ltr .page-section.homefeatured_category {
     margin-top: 30px;
+  }
+
+  body.ltr.common-home .page-section h2:not(.caption-title) {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
 }
