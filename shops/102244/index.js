@@ -1,7 +1,6 @@
 import './utils/aqquring.js';
 import contactData from './utils/contactData.js';
 
-import './utils/fixes.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
@@ -10,7 +9,6 @@ import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import '../../fixes/js/Alert/Alert.js';
 
 if (document.querySelector('.common-home')) {
   document

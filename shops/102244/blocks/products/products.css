@@ -201,7 +201,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
 @media (max-width: 495px) {
   body.ru.ltr.ltr .wrapper .header .header-wrapper .logo img {
-    width: 80px !important;
+    width: 130px !important;
     -o-object-fit: contain;
     object-fit: contain;
   }
