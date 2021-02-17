@@ -219,6 +219,8 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   body.ru.ltr .wrapper .header .header-wrapper .header_widgets .header_login {
     display: none !important;
   }
+
+
 }
 
 
@@ -344,5 +346,8 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 
   .add_to_wishlist i {
     font-size: 11px !important;
+  }
+  body.ltr .page-section.homefeatured_category {
+    margin-top: 30px;
   }
 }
