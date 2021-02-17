@@ -48,4 +48,8 @@
     font-size: 37px;
     margin: 0 auto;
   }
+
+  .banner__image {
+    background: url(https://res.cloudinary.com/depgheppz/image/upload/v1613569530/beef-strip-loin-steak-black-background-space-text-marble-beef_1_3_1_trlrrh.png) !important;
+  }
 }
