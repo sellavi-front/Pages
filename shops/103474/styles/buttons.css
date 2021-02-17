@@ -557,6 +557,10 @@ body.theme_11
     padding-right: 0 !important;
   }
 
+  body.ltr .thumbnail .price_actions .add_to_cart {
+    padding-right: 5px !important;
+  }
+
   .thumbnail.no-padding.no-border {
     padding: 10px 5px !important;
   }
