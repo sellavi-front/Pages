@@ -15,7 +15,10 @@
     width: 100% !important;
     max-width: 100px !important;
     margin: 6px 0 0;
+    background: var(--color-theme);
   }
+
+
 
 
 }

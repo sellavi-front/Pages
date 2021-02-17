@@ -134,7 +134,6 @@ body a > p {
   color: black;
 }
 
-body.ltr .header .header-wrapper .mobile-navigation-wrapper,
 .add_to_wishlist button,
 body.theme-red-2 .social-icons li a:hover,
 body.account-register > form > fieldset:nth-child(6) > div > div.col-sm-12 > div > div > input {
