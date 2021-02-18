@@ -5,9 +5,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-top: 0 !important;
 }
 
-.product-product .content-area {
-  margin-top: 50px;
-}
+
 
 body.ltr .page-section h2:not(.caption-title) span,
 body.ru.ltr .wrapper .latest-section h2.section-title span {
@@ -242,6 +240,10 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 @media (min-width: 577px) {
   .product-product .product-single .buttons {
     width: 300px !important;
+  }
+
+  .product-product .content-area {
+    margin-top: 50px;
   }
 }
 
