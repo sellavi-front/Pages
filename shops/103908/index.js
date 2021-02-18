@@ -5,6 +5,12 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 
+
+if (document.querySelector(".header-wrapper")) {
+  document.querySelector(".header-wrapper").classList.add("container")
+}
+
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Горелова Мария Сергеевна');
 
