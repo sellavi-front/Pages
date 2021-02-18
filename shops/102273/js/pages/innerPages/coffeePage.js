@@ -2,26 +2,11 @@ export default function coffeePage() {
   return `
   <section class="page-section__content">
       <div class="text-center mb-50px">
+        <h3 class="text-center">Coffee Ray </h3>
+        <h3 class="text-center">Эксклюзивное кофе 100 % арабика</h3>
         <p>Букет изысканного кофе в Вашей чашке, созданный нами с любовью к Вам.</p>
-        <p>
-          Ах, чашка кофе поутру!<br />
-          Ну, разве кто-нибудь не знает,<br />
-          Как люба сонному нутру<br />
-          Она, горячая, бывает?<br />
-          Что может так растормошить,<br />
-          Так мило день подать грядущий,<br />
-          Заставив бодро заспешить<br />
-          Хлеб зарабатывать насущный?
-        </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%); align-items: center; justify-content: space-between;">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"
-            alt=""
-          /><img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929030/102273/51295939_2172207686427280_1900919127543906304_o_fzep9z.png"
-            alt=""
-          />
-        </div>
+        <img class="w-100" src="https://res.cloudinary.com/depgheppz/image/upload/v1613660700/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-18_%D0%B2_18.04.45_dnqlya.png">
+
       </div>
       <div class="mb-50px">
         <div>
@@ -282,3 +267,16 @@ export default function coffeePage() {
     </section>
   `;
 }
+
+
+/*
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%); align-items: center; justify-content: space-between;">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"
+            alt=""
+          /><img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929030/102273/51295939_2172207686427280_1900919127543906304_o_fzep9z.png"
+            alt=""
+          />
+        </div>
+*/
