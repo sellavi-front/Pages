@@ -75,3 +75,7 @@ body.ru.ltr .wrapper .latest-section h2.section-title span {
 body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding: 20px !important;
 }
+
+body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
+  color: white !important;
+}
