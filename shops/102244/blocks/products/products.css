@@ -128,7 +128,15 @@ body.ru.ltr
   .media-body
   .media-links
   .button-wrapper.cart-button
-  a:hover {
+  a:hover,
+body.theme-gray.theme_11.checkout-cart
+  .content-area
+  .page-section
+  .checkout_cart_inner
+  .cart_product
+  .product_row
+  .qty_column
+  .quantity {
   border-radius: 5px !important;
 }
 

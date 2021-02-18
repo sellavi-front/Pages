@@ -45,6 +45,10 @@ body.ru.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .hea
   color: black !important;
 }
 
+.wrapper .header .header-wrapper .header_widgets {
+  position: absolute !important;
+}
+
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   max-width: initial;
   display: -webkit-box;
