@@ -7,7 +7,7 @@ const categoryData = {
       link: '/disinfecting-frames',
     },
     {
-      text: 'Косметика',
+      text: 'Лечебная косметика',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-makeup_orwxyw.svg',
       link: '/cosmetics',
     },
