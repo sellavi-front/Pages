@@ -18,6 +18,7 @@ body.ru.ltr
   .media-link
   .img-bg
   img {
+  -o-object-fit: cover;
   padding: 0 !important;
 }
 
@@ -57,7 +58,6 @@ body.ru.ltr
   font-family: 'Montserrat', sans-serif;
 }
 
-
 body.ru.ltr
   .wrapper
   .homefeatured_category
@@ -88,12 +88,29 @@ body.ru.ltr
   text-transform: none !important;
 }
 
-body.theme_11.ltr .wrapper .homefeatured_category>div>div>div:nth-of-type(2n) {
+body.theme_11.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(2n) {
   border: none !important;
 }
 
 @media (max-width: 495px) {
   body .md-style-active label.placeholder {
     font-size: 11px !important;
+  }
+
+  body.ru.ltr
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div
+    > .thumbnail
+    .media
+    .media-link
+    .img-bg
+    img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 !important;
+    height: 155px;
   }
 }
