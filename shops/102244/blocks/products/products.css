@@ -65,7 +65,8 @@ body.ltr.common-home .page-section h2 {
   margin-bottom: 35px !important;
 }
 
-.thumbnail .caption-title {
+.thumbnail .caption-title,
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
   overflow: visible !important;
 }
 
