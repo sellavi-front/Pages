@@ -45,6 +45,14 @@ body.ru.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .hea
   color: black !important;
 }
 
+body.ltr .wrapper .header .header-wrapper .header-search button {
+  top: 6px !important;
+}
+
+.wrapper .header .header-wrapper .header-search {
+  margin: 0 126px 0 auto !important;
+}
+
 .wrapper .header .header-wrapper .header_widgets {
   position: absolute !important;
 }
