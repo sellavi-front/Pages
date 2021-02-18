@@ -1,15 +1,12 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 // import { collapseShow } from './scripts/collapseShow.js';
-
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
 const navigationElements = document.querySelectorAll('.navigation .sf-menu li > a');
 const navigate = document.querySelector('.navigation-wrapper .navigation');
 const mobNavWrap = document.querySelector('.mobile-navigation-wrapper');
-
-const links = document.querySelectorAll('.mobile_side_nav_menu>.flexy>a');
 
 const wishList = `
     <a
@@ -88,14 +85,6 @@ if (document.querySelector('.wrapper')) {
     // searchScreen.remove();
     cart.querySelector('span').remove()
   }
-
-  Array.from(
-    document.querySelector('body > div > header > div.header-wrapper > div > nav > ul').children,
-  ).forEach((li, i) => {
-    if (i > 2) {
-      li.remove();
-    }
-  });
 
   // setTimeout(() => {
   //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
