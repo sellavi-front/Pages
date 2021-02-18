@@ -15,7 +15,7 @@ const requsites = {
 const dataContact = {
   adress: 'Москва, улица Большая Остроумовская, 12',
   phone: '89032127975',
-  city: 'г. Москва',
+  city: 'г. Москве',
   timeWork: `Пн-Пт 9:00 - 18:00`,
 }
 
