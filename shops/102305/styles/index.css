@@ -282,6 +282,10 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
   font-size: 21px !important;
 }
 
+#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
+  text-decoration: underline !important;
+}
+
 body.ltr > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > ul {
   margin: 30px 0 0 -5px !important;
 }
