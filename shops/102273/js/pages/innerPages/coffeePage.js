@@ -260,7 +260,9 @@ export default function coffeePage() {
             alt=""
           />
         </div>
-        <img class="w-60" style="margin: 0 auto;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613661849/102273/image8_tpjejp.jpg">
+        <div class="w-100">
+          <img class="w-60" style="margin: 0 auto;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613661849/102273/image8_tpjejp.jpg">
+        </div>
       </div>
     </section>
   `;
