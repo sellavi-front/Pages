@@ -5,8 +5,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   padding-top: 0 !important;
 }
 
-
-
 body.ltr .page-section h2:not(.caption-title) span,
 body.ru.ltr .wrapper .latest-section h2.section-title span {
   color: black !important;
@@ -246,7 +244,24 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     margin-top: 50px;
   }
 }
-
+body.theme_11.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .caption
+  h4.caption-title,
+body.theme_11.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .price {
+  text-align: center !important;
+}
 
 @media (max-width: 495px) {
   body.ru.ltr.ltr .wrapper .header .header-wrapper .logo img {
@@ -254,9 +269,6 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     -o-object-fit: contain;
     object-fit: contain;
   }
-
-
-
 
   .thumbnail .add_to_wishlist button {
     width: 72px !important;
