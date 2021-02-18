@@ -76,3 +76,17 @@ body.theme_7 .wrapper header.header .cart-wrapper {
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
     top: 50px;
 }
+
+
+
+.header-cart .cart-wrapper #cart i {
+    font-size: 25px;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist > a > i {
+    font-size: 25px;
+}
+
+.header .header-search button i {
+    font-size: 25px;
+}
