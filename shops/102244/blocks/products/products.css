@@ -51,6 +51,10 @@ body.ru.ltr
   padding: 0 !important;
 }
 
+body.checkout-checkout .agree-checkbox {
+  text-decoration: underline !important;
+}
+
 /* .product-product .product-single .buttons .btn-cart,
 .product-product .product-single .buttons .btn-compare,
 .product-product .product-single .buttons .btn-wish-list,
