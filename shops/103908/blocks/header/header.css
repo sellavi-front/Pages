@@ -38,3 +38,7 @@ body.theme_7 .wrapper header.header .cart-wrapper {
     border: none;
     background: transparent;
 }
+
+.header-wrapper .fas.fa-bars {
+    color: #fff;
+}
