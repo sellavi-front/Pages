@@ -26,7 +26,7 @@ const disinfectantsPages = () => {
 
     <p>
       <img
-        class="float-left mr-3 mb-3"
+        class="float-right mr-3 mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612182752/102273/shapka-gotovaja-2_1_k7f3ej.png"
         alt=""
         style="width: 200px; height: auto;"
