@@ -34,9 +34,9 @@
   .banner__caption {
     height: 200px !important;
     top: 100px !important;
-    -webkit-box-align: baseline;
+    /* -webkit-box-align: baseline;
     -ms-flex-align: baseline;
-    align-items: baseline;
+    align-items: baseline; */
     padding-left: 20px;
   }
   .banner__caption h1 {
