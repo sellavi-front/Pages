@@ -84,8 +84,9 @@ body.ru.ltr
 }
 
 .thumbnail.thumbnail-banner .caption-title span {
-  background: rgba(0, 0, 0, 0.6) !important;
+  /* background: rgba(0, 0, 0, 0.6) !important; */
   text-transform: none !important;
+  color: black !important;
 }
 
 body.theme_11.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(2n) {
