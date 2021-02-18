@@ -229,11 +229,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   object-fit: cover !important;
 }
 
-.mobile_two_columns .products .thumbnail .caption {
-  -webkit-box-pack: start !important;
-  -ms-flex-pack: start !important;
-  justify-content: flex-start !important;
-}
+
 
 @media (min-width: 577px) {
   .product-product .product-single .buttons {
