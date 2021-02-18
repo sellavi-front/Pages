@@ -186,6 +186,7 @@ body.theme_11
   flex: 0 0 100% !important;
   margin-top: 10px !important;
 }
+
 body.theme-red-2.theme_11.ru.ltr
   .wrapper
   .header-cart
@@ -214,6 +215,7 @@ body.theme-red-2.theme_11
   .media.buttons
   .media-body
   .media-links
+  .row.w-100
   .button-wrapper.cart-button
   a:hover {
   background: var(--color-theme) !important;
