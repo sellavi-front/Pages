@@ -71,7 +71,7 @@ export default function waterPage() {
         <div>
           <h6><b>Технология производства чистой питьевой воды</b></h6>
           <p>
-            <img style="float: left; width: 120px;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613551179/image13_pebq90.png">
+            <img style="float: left; width: 120px; margin-right: 20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1613551179/image13_pebq90.png">
             Производство питьевой воды начинается с ее добычи. Компания «Аква Сфера» осуществляет ее
             в предгорных районах Адыгейской республики с источников, залегающих под землей. Они
             обладают ледниковым питанием: вода поступает за счет таяния ледников Большого
@@ -96,13 +96,13 @@ export default function waterPage() {
             каждого производственного этапа.
           </p>
           <div class="row">
-            <div className="col-12 col-lg-4 col-md-6">
+            <div class="col-12 col-lg-4 col-md-6">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg">
             </div>
-            <div className="col-12 col-lg-4 col-md-6">
+            <div class="col-12 col-lg-4 col-md-6">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_3_xcwq9f.jpg">
             </div>
-            <div className="col-12 col-lg-4 col-md-6">
+            <div class="col-12 col-lg-4 col-md-6">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/image9_n5tl92.jpg">
             </div>
           </div>
