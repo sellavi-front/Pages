@@ -214,6 +214,7 @@ body.theme-red-2.theme_11
 body.theme-red-2 a:hover:not(.btn) svg path,
 body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart:hover i svg path {
   stroke: var(--color-theme) !important;
+  fill: var(--color-theme) !important;
 }
 
 body.theme_11

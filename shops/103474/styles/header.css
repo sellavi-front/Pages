@@ -1,4 +1,3 @@
-
 @media (min-width: 992px) {
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     position: absolute;
@@ -16,7 +15,6 @@
     max-width: 100px !important;
     margin: 6px 0 0;
     background: var(--color-theme);
-
   }
 
   body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
@@ -28,11 +26,7 @@
     font-size: 15px !important;
     color: #fff !important;
   }
-
 }
-
-
-
 
 body .arrow {
   display: block !important;
@@ -127,7 +121,6 @@ body.theme-red-2.theme_11
   a:hover {
   color: white !important;
 }
-
 
 body.theme_11
   .wrapper
