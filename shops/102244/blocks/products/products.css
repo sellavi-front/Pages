@@ -59,6 +59,7 @@ body.ru.ltr
 } */
 body.ltr .page-section.homefeatured_category {
   margin-top: 50px;
+  display: none !important;
 }
 
 body.ltr.common-home .page-section h2 {
