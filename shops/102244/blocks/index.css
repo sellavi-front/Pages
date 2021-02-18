@@ -86,5 +86,5 @@ body .arrow {
 
 
 body > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
