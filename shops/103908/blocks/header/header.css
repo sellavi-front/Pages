@@ -1,3 +1,40 @@
 .common-home header {
     position: absolute;
 }
+
+body.theme_7.common-home header.header .header-wrapper {
+    background-color: #ff000000 !important;
+}
+
+body.theme-gray .header {
+    border: none;
+}
+
+.header .navigation-wrapper {
+    border-top: none !important;
+}
+
+body.ltr.theme_7 .wrapper header.header .logo {
+    margin: 0 auto;
+}
+
+header.header .header-search {
+    width: 200px;
+}
+
+body.theme_7 .wrapper header.header .header-search input {
+    background: #ff000000;
+}
+
+header.header .form-control {
+    border: 0px;
+}
+
+.cart-norm-qty.d-none.d-lg-inline-block {
+    display: none !important;
+}
+
+body.theme_7 .wrapper header.header .cart-wrapper {
+    border: none;
+    background: transparent;
+}
