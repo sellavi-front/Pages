@@ -52,12 +52,11 @@ const disinfectantsPages = () => {
   </div>
   <div class="sect">
     <p>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_hkkhyt.gif" class="mb-3 mr-3 w-20" style="float: right;;>
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_hkkhyt.gif" class="mb-3 mr-3 w-20" style="float: right;">
       <b
         >Инструкция по проведению инфекционных мероприятий для профилактики заболеваний,
         вызываемых коронавирусами</b
       >
-
       С целью профилактики и борьбы с инфекциями, вызванными коронавирусами, проводят
       профилактическую и очаговую (текущую, заключительную) дезинфекцию. Для проведения
       дезинфекции применяют дезинфицирующие средства, зарегистрированные в установленном
