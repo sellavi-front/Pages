@@ -6,7 +6,7 @@ const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
 const navigationElements = document.querySelectorAll('.navigation .sf-menu li > a');
 const navigate = document.querySelector('.navigation-wrapper .navigation');
-const mobNavWrap = document.querySelector('.mobile-navigation-wrapper');
+// const mobNavWrap = document.querySelector('.mobile-navigation-wrapper');
 
 const wishList = `
     <a
@@ -23,9 +23,9 @@ if (document.querySelector('.wrapper')) {
   headerContainer.insertAdjacentHTML('afterbegin', navigate.outerHTML);
   navigate.remove();
 
-  const navList = document.querySelector('header .sf-menu');
-  navList.insertAdjacentHTML('afterbegin', `<li>${mobNavWrap.outerHTML}</li>`);
-  mobNavWrap.remove();
+  // const navList = document.querySelector('header .sf-menu');
+  // navList.insertAdjacentHTML('afterbegin', `<li>${mobNavWrap.outerHTML}</li>`);
+  // mobNavWrap.remove();
 
   const selectors = [];
   const cartI = document.querySelector('body .header-cart i');
