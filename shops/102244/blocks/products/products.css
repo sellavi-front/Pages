@@ -247,12 +247,16 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   }
 }
 
+
 @media (max-width: 495px) {
   body.ru.ltr.ltr .wrapper .header .header-wrapper .logo img {
     width: 130px !important;
     -o-object-fit: contain;
     object-fit: contain;
   }
+
+
+
 
   .thumbnail .add_to_wishlist button {
     width: 72px !important;
@@ -266,6 +270,15 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
 @media only screen and (max-width: 576px) {
   body.ltr .page-section h2:not(.caption-title) span {
     margin: 0 20px 0 0 !important;
+  }
+
+  body.ltr .checkbox.customized label {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .product-product .product-single .buttons {
+    z-index: 88;
   }
 
   body.ltr section.page-section > div > h2:after,
