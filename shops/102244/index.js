@@ -4,7 +4,7 @@ import contactData from './utils/contactData.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
-import '../../components/HeaderTypeThree/HeaderTypeThree.js';
+// import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 
