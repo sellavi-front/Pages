@@ -62,7 +62,7 @@ if (document.querySelector('.common-home')) {
   //let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div"), adv)
   //advantages.render()
 
-  if(screen.width > 480) {
+  if(screen.width >= 993) {
     document.querySelector(".homefeatured_category").insertAdjacentHTML("afterend", `<div class='container'><img class='ft-img' style="width: 100%" src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1613390702/sellavi/102305/Component_1_1_da26cx.png' alt='features' /></div>`)
   }
 }
