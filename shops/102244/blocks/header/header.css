@@ -57,6 +57,10 @@ body.ltr .wrapper .header .header-wrapper .header-search button {
   position: absolute !important;
 }
 
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button {
+  color: #fff !important
+}
+
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   max-width: initial;
   display: -webkit-box;
