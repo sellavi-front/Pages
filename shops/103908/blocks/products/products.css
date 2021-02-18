@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
+
+
+body.ltr.ru .wrapper .latest-section h2.section-title {
+    text-align: center !important;
+    margin-top: 50px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div.media > a {
+    border-radius: 30px
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: center !important;
+    font-weight: 600;
+}
+
+.wrapper.wrapper-closed > div.content-area > section > div > div > div > div > div.caption.text-center > h4 > a {
+    font-weight: 400;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+    margin-top: 0px !important;
+}
+
+.thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+    border-radius: 8px !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
+    background: #E0ECFF !important;
+}
+
+
+.wrapper.wrapper-closed > div.content-area > section > div > h2 > span {
+    font-family: 'Roboto Slab', serif;
+    text-transform: lowercase;
+    font-size: 30px;
+}
+
+.wrapper.wrapper-closed > div.content-area > section > div > h2 > span:first-letter {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(1) {
+    text-align: center !important;
+    margin-top: 50px !important; 
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) {
+    font-weight: 600 !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(4) > div > div > div {
+    padding-top: 10px !important;
+    max-width: fit-content !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(4) > div > div > div {
+    align-self: center !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(4) > div > div > div:nth-child(2) {
+    padding-left: 0px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(1) > div:nth-child(4) > div > div > div:nth-child(3) {
+    padding-left: 0px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > span:nth-child(1) {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(5) > div {
+    text-align: center !important;
+    margin-top: 30px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(5) > div > div > div {
+    font-weight: 600 !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(4) > div {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+.content-area > div.custom_section > div> span:nth-child(3) {
+    font-size: 18px;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(2) {
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
+
+
+.content-area > div.custom_section > div {
+    text-align: center !important;
+    margin-top: 50px !important;
+}
+
+.content-area > div.custom_section > div > span:nth-child(1) {
+    font-size: 30px !important;
+    font-family: 'Roboto Slab', serif !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div {
+    margin-top: 10px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div {
+    max-width: fit-content !important
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(3) {
+    padding-left: 0px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div {
+    align-self: center !important;
+}
+
+.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(1) {
+    padding-left: 20px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(7) > div > div > div {
+    margin-top: 30px !important;
+}
+
+.content-area > div.custom_section > div:nth-child(7) > div > div > div > div {
+  font-weight: 600 !important;
+}
+
+.content-area > div.custom_section > div:nth-child(7) > div > div > img {
+    height: 210px;
+}
+
+@media (max-device-width: 480px) {
+    body .thumbnail .img-fluid, body .img-thumbnail {
+        height: 259px;
+    }
+}
+
+
+
+.common-home#home > div:nth-child(2) {
+    position: absolute;
+    top: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.common-home#home > div:nth-child(2) > img {
+    width: 400px;
+    position: relative;
+    right: -200px;
+}
+
+.common-home#home > div:nth-child(3) {
+    position: absolute;
+    top: 1200px;
+}
+
+.common-home#home > div:nth-child(3) > img {
+    width: 500px;
+    position: relative;
+    left: -200px;
+}
+
+.common-home#home > div:nth-child(4) {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.common-home#home > div:nth-child(4) > img {
+    width: 500px;
+    position: relative;
+    right: -240px;
+}
+
+.common-home#home > div:nth-child(5) {
+    position: absolute;
+    top: 500px;
+}
+
+.common-home#home > div:nth-child(5) > img {
+    width: 600px;
+    position: relative;
+    left: -290px;
+}
+
+@media (max-device-width: 480px) {
+    .common-home#home > div:nth-child(2) {
+        display: none;
+    }
+
+    .common-home#home > div:nth-child(3) {
+        display: none;
+    }
+
+    .common-home#home > div:nth-child(4) {
+        display: none;
+    }
+
+    .common-home#home > div:nth-child(5) {
+        display: none;
+    }
+
+    #bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+        display: block;
+    }
+    
+    
+}
+
+body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+    padding-right: 30px !important;
+}
+
+body.theme_11 .featured-products-carousel .bx-wrapper {
+    max-height: 465px !important;
+}
+
+#bx_product_featured > div {
+    width: 278px !important;
+    padding-left: 30px !important
+}
+
+
+
+#bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > i {
+    padding-right: 5px
+}
+
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+    height: 451px !important;
+}
+
+body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
+    height: 452px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) {
+    margin-top: 20px;
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
+    color: black !important;
+}
+
+#search > div.search_field {
+    position: relative !important;
+    right: 50px !important;
+}
+
+#bx_product_featured > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+    display: flex;
+}
+    
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(1) > img {
+    width: 40px;
+}
+
+.wrapper.wrapper-closed > div.content-area > div.custom_section > div:nth-child(3) > div > div > div > div:nth-child(2) > img {
+    width: 30px;
+}
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > div > div > a > img {
+    width: 30px !important;
+}
