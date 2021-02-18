@@ -115,6 +115,10 @@ body.ru.ltr
   border-radius: 5px !important;
 } */
 
+body .btn.btn-theme.btn-theme-transparent:hover i:before {
+  content: "\f004" !important;
+}
+
 body .thumbnail .img-fluid,
 body .img-thumbnail {
   width: 100% !important;
