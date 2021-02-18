@@ -1,13 +1,24 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
-import {requsites, dataContact } from './utils/requsites.js'
+import {
+  requsites,
+  dataContact
+} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 
 
+
 if (document.querySelector(".header-wrapper")) {
   document.querySelector(".header-wrapper").classList.add("container")
+
+  //wish button header
+  document.querySelector("#home > div > header > div.header-wrapper.container > div.container-fluid > div.header-cart.sticky").insertAdjacentHTML("afterbegin", `<div class="header_wishlist">
+    <a id="wishlist" class="position-relative" href="https://colorexnn.ru/index.php?route=account/wishlist" role="link">
+      <i class="far fa-heart"></i>
+    </a>
+</div>`)
 }
 
 
