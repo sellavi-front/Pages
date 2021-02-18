@@ -292,7 +292,6 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   }
 
   .thumbnail .add_to_wishlist button {
-    display: block !important;
     height: 30px !important;
     width: 30px !important;
   }
@@ -344,6 +343,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     > button
     span {
     font-size: 12px !important;
+    text-transform: none !important;
   }
 
   body.ltr.ru.ltr
