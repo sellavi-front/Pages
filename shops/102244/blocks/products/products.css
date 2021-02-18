@@ -284,6 +284,10 @@ body.theme_11.ltr
     margin: 0 20px 0 0 !important;
   }
 
+  .mobile_two_columns .products .thumbnail .caption {
+    max-height: initial !important;
+  }
+
   body .content-area .page-section.titles {
     min-height: auto !important;
     padding: 10px 0;
