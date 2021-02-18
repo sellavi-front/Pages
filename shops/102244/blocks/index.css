@@ -79,3 +79,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: white !important;
 }
+
+body .arrow {
+  display: block !important;
+}
