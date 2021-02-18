@@ -66,7 +66,8 @@ body.ltr.common-home .page-section h2 {
 }
 
 .thumbnail .caption-title,
-.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+.product-item .thumbnail .caption,
+.product-layout .thumbnail .caption {
   overflow: visible !important;
 }
 
@@ -100,7 +101,7 @@ body.ltr section.page-section > div > h2:before {
   min-height: 95px !important;
 } */
 
-body.ru.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+/* body.ru.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
 .thumbnail .add_to_wishlist button,
 body.ru.ltr
   .wrapper
@@ -112,7 +113,7 @@ body.ru.ltr
   .add_to_cart
   > button {
   border-radius: 5px !important;
-}
+} */
 
 body .thumbnail .img-fluid,
 body .img-thumbnail {
@@ -195,7 +196,7 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
   margin: 0 !important;
   width: 100% !important;
   -o-object-fit: cover !important;
-     object-fit: cover !important;
+  object-fit: cover !important;
 }
 
 .product-product .product-single .buttons {
@@ -288,12 +289,13 @@ body.ru.ltr.ru.ltr .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     height: 28px !important;
   }
 
-  .thumbnail.no-padding.no-border .media  {
+  .thumbnail.no-padding.no-border .media {
     min-height: 0 !important;
     max-height: 150px !important;
   }
 
-  body .thumbnail .img-fluid, body .img-thumbnail {
+  body .thumbnail .img-fluid,
+  body .img-thumbnail {
     margin-top: -30px;
   }
 
