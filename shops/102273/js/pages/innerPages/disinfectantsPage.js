@@ -9,13 +9,16 @@ const disinfectantsPages = () => {
         <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
       </li>
       <li class="mb-2">
+        <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® </a>
+      </li>
+      <li class="mb-2">
         <a href="${url}#3" class="id_link">3. ДеФлок</a>
         </li>
       <li class="mb-2">
         <a href="${url}#4" class="id_link">4. S-pro</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#5" class="id_link">5. S-pro</a>
+        <a href="${url}#5" class="id_link">5. Аргитос</a>
       </li>
     </ol>
   </div>
