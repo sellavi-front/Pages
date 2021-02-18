@@ -42,3 +42,7 @@ body.theme_7 .wrapper header.header .cart-wrapper {
 .header-wrapper .fas.fa-bars {
     color: #fff;
 }
+
+.header-wrapper.container > div.container-fluid > div.logo {
+    margin-top: 20px !important;
+}
