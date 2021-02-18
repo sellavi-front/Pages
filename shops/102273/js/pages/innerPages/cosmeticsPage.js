@@ -1,6 +1,8 @@
 export default function cosmeticsPage() {
   return `
   <section class="page-section__content">
+  <h3 class="text-center"> Производство лечебной косметики и БАД серия «Алтай» <br> (Отечественный производитель)</h3>
+
   <div class="sect">
     <p>
       Серия лечебно-профилактических кремов и гелей «Алтай» объединяет в себе преимущества
@@ -11,28 +13,22 @@ export default function cosmeticsPage() {
     <p>
       • Средства из серии «Алтай» не содержат консервантов и ароматизаторов, они не вызывают
       аллергии и прочих побочных эффектов, воздействуя на организм исключительно благотворно.
-    </p>
-    <p>
+    </br>
       • Клиническая апробация проведена в центральных медицинских учреждениях МО РФ и ведущих
       санаториях Кавминвод.
-    </p>
-    <p>
+      </br>
       • Средства из серии «Алтай» отлично зарекомендовали себя при заболеваниях опорно-
       двигательного аппарата, травмах, хронической венозной недостаточности, ожогах,
       аллергических проявлениях на коже, в т. ч. псориазе.
-    </p>
-    <p>
+      </br>
       • За практический вклад в укрепление здоровья нации продукция серии «Алтай» награждена
       золотыми медалями Российской и Европейской академий естественных наук.
-    </p>
-    <p>
+      </br>
       • В рамках программы «Покупайте Российское» продукция награждена медалью «Золотой Сирин».
-    </p>
-    <p>
+      </br>
       • Вся продукция выпускается на современном высокопроизводительном фармацевтическом
       оборудовании, помещения соответствуют требованиям GMP.
-    </p>
-    <p>
+      </br>
       • Вся продукция сертифицирована, для поставок и реализации нашей лечебной косметики не
       требуются лицензии и специальные разрешительные документы.
     </p>
@@ -73,7 +69,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/113761728_w700_h500_gel-altaj-lyuks_1_e8fsxp.png"
-          alt=""
+          class="w-50"
         />
       </div>
     </div>
@@ -151,7 +147,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/113761729_w700_h500_krem-altaj-sport-75_1_mw4ost.png"
-          alt=""
+          class="w-50"
         />
       </div>
     </div>
@@ -216,7 +212,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/orig_1_frqfsl.png"
-          alt=""
+          class="w-50"
         />
       </div>
     </div>
@@ -265,7 +261,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/9hq_1_fsvtm7.png"
-          alt=""
+          class="w-50"
         />
       </div>
     </div>
@@ -304,7 +300,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/images_1_drgnbz.png"
-          alt=""
+          class="w-50"
         />
       </div>
     </div>
@@ -357,7 +353,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/6008710065_1_pbtrc5.png"
-          alt=""
+          class="w-50"
         />
       </div>
     </div>
@@ -391,7 +387,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="col">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/10006195-1_1_t2roc6.png" alt="">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/10006195-1_1_t2roc6.png" class="w-50">
       </div>
       <div class="w-100">
         <p>
@@ -448,7 +444,7 @@ export default function cosmeticsPage() {
 
       </div>
       <div class="col">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/f797ce83f04eb5018e316fbd96689da2_1_o0qs6n.png" alt="">
+        <img class="w-50" src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/f797ce83f04eb5018e316fbd96689da2_1_o0qs6n.png" class="w-50">
       </div>
       <div class="w-100">
         <p>Кроме того, масло семян лимонника обладает противовоспалительными свойствами, нормализует процессы
@@ -500,7 +496,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/a51242973d399533b63bd86e020fe112-big_1_wyigzg.png"
-              alt=""
+              class="w-50"
             />
           </div>
           <div class="w-100">
@@ -582,7 +578,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/altay_fitosirop_artromiks_na_osnove_ekstraktov_shipovnika_kaliny_bosvelii_a_takzhe_glyukozamina_gidrokhlorida_i_kollagena_993007_1_1_hvximn.png"
-              alt=""
+              class="w-50"
             />
           </div>
         </div>
@@ -612,7 +608,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/unnamed_2_l6eujt.png"
-              alt=""
+              class="w-50"
             />
           </div>
           <div class="w-100">
@@ -694,7 +690,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007118061_1_jplqbl.png"
-              alt=""
+              class="w-50"
             />
           </div>
         </div>
@@ -734,7 +730,7 @@ export default function cosmeticsPage() {
             </p>
           </div>
           <div class="col">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007958616_1_giu0ts.png" alt="">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007958616_1_giu0ts.png" class="w-50">
           </div>
         </div>
       </div>
@@ -816,7 +812,7 @@ export default function cosmeticsPage() {
           <div class="col">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007893304_1_sasfyw.png"
-            alt=""
+            class="w-50"
           />
         </div>
         </div>
@@ -842,7 +838,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007118063_1_rxpzbp.png"
-              alt=""
+              class="w-50"
             />
           </div>
         </div>
@@ -874,7 +870,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007118065_1_kzkyl9.png"
-              alt=""
+              class="w-50"
             />
           </div>
         </div>
