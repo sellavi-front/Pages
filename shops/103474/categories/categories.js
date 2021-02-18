@@ -30,7 +30,7 @@ const categories = [
     text: 'Выпечка',
   },
  {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_53_yozxol.png',
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1613638706/Frame_53_1_bea7sr.png',
     link: '#',
     text: 'Сладости',
   },
@@ -50,7 +50,7 @@ const categories = [
     text: 'Бакалея',
   },
   {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_44_cntv1n.png',
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1613638706/Frame_44_1_yszjsq.png',
     link: '#',
     text: 'Детское питание',
   },
