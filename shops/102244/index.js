@@ -3,9 +3,11 @@ import contactData from './utils/contactData.js';
 
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+
 import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
+
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
@@ -83,14 +85,14 @@ if (document.querySelector('.wrapper')) {
   //   );
   // }, 500);
 
-  document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
-    document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
-      const nav = document.querySelector('.navigation');
-      nav.classList.add('nav-closed');
-      nav.classList.remove('nav-opened');
-      document.querySelector('body').classList.remove('overflow-hidden');
-    });
-  });
+  // document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
+  //   document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
+  //     const nav = document.querySelector('.navigation');
+  //     nav.classList.add('nav-closed');
+  //     nav.classList.remove('nav-opened');
+  //     document.querySelector('body').classList.remove('overflow-hidden');
+  //   });
+  // });
 }
 
 if (location.href.includes('/checkout')) {
