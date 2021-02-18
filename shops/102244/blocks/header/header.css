@@ -32,12 +32,18 @@ body.ru.ltr .wrapper .header {
   z-index: 100;
 }
 
-body.ru.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
+body.ru.ltr
+  .wrapper.wrapper-opened
+  .header
+  .header-wrapper
+  .header_widgets
+  .header-cart
+  .cart-wrapper
+  #cart,
 body.ru.ltr .wrapper.wrapper-opened .header_widgets a,
 body.ru.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .header_login > a {
   color: black !important;
 }
-
 
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   max-width: initial;
@@ -47,6 +53,7 @@ body.ru.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .hea
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  display: block !important;
 }
 body.common-home .wrapper .header .header-wrapper .mobile-navigation-wrapper span {
   color: white !important;
