@@ -1,4 +1,42 @@
 @import '../../../components/PictureCategories/PictureCategories.css';
+@import url("https://use.typekit.net/flv6idu.css");
+
+
+body a,
+body p,
+body span,
+body small,
+body,
+html,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+.cart-content,
+.container,
+.section-title,
+.add_to_cart,
+.price,
+.caption,
+.widget-title,
+.media-heading,
+.item-title,
+.summary,
+.item-price,
+.button-wrapper,
+.checkout-button,
+.register_block,
+.checkout_title,
+.form_checkout
+{
+  font-family: myriad-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 
 .re {
   bottom: 0;

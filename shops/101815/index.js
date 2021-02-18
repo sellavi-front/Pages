@@ -2,6 +2,7 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import {requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'Название организации');
@@ -27,6 +28,8 @@ if (location.href.includes('policy')) {
   req.setTemplate();
 }
 
+
+/*
 if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
     requsites,
@@ -36,4 +39,4 @@ if (location.href.includes('pay-delivery')) {
     dataContact,
   );
   req.setTemplate();
-}
+}*/

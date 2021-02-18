@@ -1,0 +1,221 @@
+@import './SecondColumnCategories/SecondColumnCategories.css';
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  position: static !important;
+  margin-top: 10px !important;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: left !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
+  border: none !important;
+}
+
+body .content-area .page-section.titles {
+  border: none !important;
+  background: transparent !important;
+}
+
+.page-header h1 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+body .thumbnail .img-fluid, body .img-thumbnail {
+  width: 100% !important;
+  min-width: 100% !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
+  padding-left: 0 !important;
+}
+
+body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+  padding-right: 30px !important;
+}
+
+@media (max-width: 1199px) {
+  /*body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+    padding-right: 30px;
+  }*/
+
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(3n) {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(4n) {
+    padding-right: 30px !important;
+  }
+
+  body.ru.ltr:not(.mobile_two_columns) .wrapper .page-section .products.grid .product-item:nth-child(3n) {
+    padding-left: 30px !important;
+  }
+
+  body.ru.ltr .wrapper .page-section .products.grid .product-item {
+    padding: 30px !important;
+  }
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+}
+
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: relative;
+  left: 0 !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
+
+}
+
+.thumbnail .price {
+  align-self: center;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.price_actions .buttons__container {
+  height: 48px !important;
+}
+
+.thumbnail .add_to_wishlist {
+  position: initial !important;
+  height: 100%;
+}
+
+.thumbnail .add_to_wishlist button {
+  width: 72px;
+  padding: 0 !important;
+}
+
+.thumbnail .add_to_cart .quantity, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+  border-radius: 4px !important;
+  background: #d80018 !important;
+  height: 100%;
+  border: 1px solid #d80018!important;
+  color: #fff !important;
+  font-weight: 100;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  width: 100%;
+  border: 0;
+  padding: 14px 6px !important;
+  transition: unset;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 2px solid #d80018 !important;
+  border-radius: 4px !important;
+}
+
+
+.thumbnail .price_actions .add_to_cart {
+  max-width: 276px !important;
+  width: 100%;
+  height: 100% !important;
+  margin-right: 10px;
+  background: transparent !important;
+}
+
+.thumbnail .price_actions .add_to_cart button {
+  padding: 5% 25%;
+}
+
+
+body .btn.btn-theme.btn-theme-transparent:hover i {
+  color: rgb(0, 0, 0) !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  border: unset;
+  background-color: transparent;
+  padding: 0 !important;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  max-height: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff !important;
+}
+
+.thumbnail .caption-title {
+  min-height: inherit !important;
+  font-size: 16px;
+}
+/*
+.section-title span,
+.title {
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  line-height: 43px !important;
+  text-align: left !important;
+  text-align: left;
+  text-transform: none;
+} */
+
+body .section-title {
+  text-align: center !important;
+}
+
+.thumbnail .price {
+  font-size: 22px !important;
+}
+
+.thumbnail .price {
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0 0 15px !important;
+  width: 100%;
+}
+
+/* h2.section-title > span::after {
+  content: ' ';
+  display: flex;
+  height: 5px;
+  background: linear-gradient(90.02deg, #90744c 0%, #d7bca1 99.99%);
+  width: 100%;
+} */
+
+
+@media (max-width: 495px) {
+  .thumbnail .price_actions .add_to_cart {
+    max-width: 276px !important;
+  }
+
+  .thumbnail .add_to_wishlist button  {
+    display: block !important;
+    width: 42px !important;
+  }
+}

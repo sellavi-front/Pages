@@ -1,3 +1,36 @@
-@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong,
+.price,
+.product-price,
+.product-availability,
+.product-product .product-single table .title,
+.text-right,
+.input-payment-firstname,
+.input-payment-lastname,
+.input-payment-email,
+.input-payment-telephone,
+.input-payment-address-1,
+.input-payment-postcode,
+label,
+.input-payment-firstname {
+  font-family: 'Inter', sans-serif !important;
+}
+
+body.theme_11 .wrapper .top-bar {
+  background-color: #b8a279 !important;
+}

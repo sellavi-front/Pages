@@ -1,0 +1,61 @@
+@import './../../../../../style/style.css';
+
+body.ltr > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
+  height: 40px;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: var(--colored);
+  border-bottom: 2px solid var(--colored) !important;
+}
+.wrapper .header .header-wrapper .header-search.opened #search_results>a .item_data {
+  padding: 0 5px 0 10px !important;
+}
+
+.header .header-search {
+  position: absolute;
+  top: 23px;
+  width: 100%;
+  max-width: 200px !important;
+}
+
+body.ltr .wrapper header.header .header-search input {
+  background-color: transparent !important;
+}
+
+#search > div.search_field > input {
+  height: 40px;
+  border-radius: 0 !important;
+  border: 0 !important;
+  color: var(--defaultColor) !important;
+  border-bottom: 2px solid var(--defaultColor) !important;
+}
+
+#search > div.search_field > input.colored {
+  color: var(--defaultColor);
+  border-bottom: 2px solid var(--colored) !important;
+}
+
+.header .header-search button {
+  position: absolute;
+  left: 3px;
+  top: 6px;
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0);
+  border: none;
+  padding: 2px 8px;
+  line-height: 30px;
+  font-size: 18px !important;
+  color: var(--defaultColor) !important;
+}
+
+.header .header-search button.colored {
+  color: var(--colored) !important;
+}
+
+#search > div.search_field > input::placeholder {
+  color: var(--defaultColor) !important;
+}
+
+#search > div.search_field > input.colored::placeholder {
+  color: var(--colored) !important;
+}

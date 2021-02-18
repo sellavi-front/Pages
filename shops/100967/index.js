@@ -8,7 +8,22 @@ import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+import RatingWithImgText from "../../components/RatingWithImgText/RatingWithImgText.js";
+=======
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+=======
+// import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
+<<<<<<< HEAD
+>>>>>>> a40d97689d2246beee13469403d31bfdbe1706c9
+=======
+>>>>>>> 10f10b8e5452e71d1b9c54dabeb85bb6c495d459
+>>>>>>> 70e19ce0bac23bb43e78a1990b614bf3ae6c4507
+=======
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
+>>>>>>> 88605669a8d1e2d1b5a95e72cd12272f4bab00e2
 import BaseSender from '../../components/BaseSender/BaseSender.js';
 import Steps from '../../components/Steps/Steps.js';
 import deliveryPage from './deliveryPage.js';

@@ -1,0 +1,48 @@
+@import './../../../style/style.css';
+
+body .content-area .page-section.breadcrumbs .breadcrumb>li:first-child:after {
+  color: #000 !important;
+}
+
+@media screen and (min-width: 991px) {
+  body .content-area .page-section.titles {
+    text-align: center;
+    min-height: 80px;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  body .content-area .page-section.breadcrumbs {
+    background-color: transparent;
+    padding-top: 10% !important;
+    padding-bottom: 0;
+    z-index: 1;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body .content-area .page-section.titles {
+    text-align: center;
+    min-height: 80px;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+}

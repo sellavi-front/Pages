@@ -58,4 +58,4 @@ window.onload = () => {
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
   }
-};
+}

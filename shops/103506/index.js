@@ -1,11 +1,7 @@
 import "./docs/requisites.js"
-import "../../components/HeaderTypeThree/HeaderTypeThree.js"
-import "../../components/HeaderTypeThree/scripts/collapseShow.js"
-import "../../components/HeaderTypeThree/scripts/removeSelectors.js"
-import Paths from "./path/paths.js"
+import './components/Banner/UpdateBannerLinkImg.js'
+import './components/Header/Header.js'
+import './components/Products/Products.js'
+import './components/Footer/Footer.js'
 
-
-
-if(Paths.home) {
-
-}
+import './custom-scripts/custom-scripts.js'
