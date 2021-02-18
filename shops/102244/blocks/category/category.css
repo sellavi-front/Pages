@@ -22,6 +22,10 @@ body.ru.ltr
   padding: 0 !important;
 }
 
+body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+  display: block;
+}
+
 body.ru.ltr
   .wrapper
   .homefeatured_category
