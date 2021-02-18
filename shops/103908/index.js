@@ -6,7 +6,6 @@ import {
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 
