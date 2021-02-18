@@ -23,6 +23,33 @@ if (document.querySelector(".header-wrapper")) {
 </div>`)
 }
 
+//Description block
+if (document.querySelector(".common-home")) {
+  document.querySelector('#home > div.wrapper.wrapper-closed > div > section').insertAdjacentHTML('afterbegin', `<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613662311/20201017_101826_1_nbttwm.png">
+        </div>
+        <div class="col">
+            <div class="row desc-title">Здравствуйте, меня зовут Наталья!</div>
+            <div class="row desc-main">Я создаю волшебные, полезные украшения из натуральных камней! Более десяти лет я работаю с камнями, с их энергиями, настраиваю украшения для исполнения Ваших желаний!️
+Нам всегда хочется чувствовать помощь, чувствовать, что мы не одни. И в этом случае помогают минералы. А правильно подобранные камни именно для Вас, для Вашей энергетики. Это огромная помощь в исполнении Ваших желаний.
+Для подбора камней, украшений использую несколько техник, это для того, что бы более точно и быстро Вы достигли желаемого.</div>
+            <div class="row four-system">Я применяю четыре системы:</div>
+            <div class="row systems-one">
+                <div class="col">- Психоматрица</div>
+                <div class="col">- Китайскую метафизику</div>
+            </div>
+            <div class="row systems-two">
+                <div class="col">- Натальная карта</div>
+                <div class="col">- Просмотр ваших полей</div>
+            </div>
+            <div class="row desc-footer">При индивидуальном подборе браслета, колье, серёжек Ваши желания и мечты исполнятся значительно быстрее и в большем объёме.</div>
+        </div>
+    </div>
+</div>`)
+}
+
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Горелова Мария Сергеевна');
