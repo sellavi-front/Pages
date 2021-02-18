@@ -23,12 +23,13 @@ const disinfectantsPages = () => {
     <h4>
       <b>1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</b>
     </h4>
-    <img
-      class="mb-4 mt-4"
-      src="https://res.cloudinary.com/depgheppz/image/upload/v1612182752/102273/shapka-gotovaja-2_1_k7f3ej.png"
-      alt=""
-    />
+
     <p>
+      <img
+        class="mb-4 mt-4 float-left"
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612182752/102273/shapka-gotovaja-2_1_k7f3ej.png"
+        alt=""
+      />
       <b> Дезинфицирующие средства</b> от коронавируса для санитарной обработки помещений.
       Состав дезсредсва Полисепт – очищенная вода 99%, полигексаметиленгуанидин (ПГМГ) — 1%.
     </p>
