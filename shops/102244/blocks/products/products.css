@@ -65,6 +65,10 @@ body.ltr.common-home .page-section h2 {
   margin-bottom: 35px !important;
 }
 
+.thumbnail .caption-title {
+  overflow: visible !important;
+}
+
 body.ltr.common-home .page-section h2 {
   text-align: center;
   display: -webkit-box;
