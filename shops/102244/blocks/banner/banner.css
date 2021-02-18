@@ -42,6 +42,7 @@
   .banner__caption h1 {
     font-size: 31px;
     margin-bottom: 10px;
+    width: 70%;
   }
   .banner__caption a {
     font-size: 22px;
