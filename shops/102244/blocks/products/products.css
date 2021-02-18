@@ -101,7 +101,7 @@ body.ltr section.page-section > div > h2:before {
   min-height: 95px !important;
 } */
 
-/* body.ru.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+body.ru.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
 .thumbnail .add_to_wishlist button,
 body.ru.ltr
   .wrapper
@@ -111,12 +111,16 @@ body.ru.ltr
   .thumbnail
   .price_actions
   .add_to_cart
-  > button {
+  > button,
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .btn-wish-list,
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons .quantity,
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-booking,
+body.theme-gray.theme_11.product-product .product-single.product-item .buttons #button-cart {
   border-radius: 5px !important;
-} */
+}
 
 body .btn.btn-theme.btn-theme-transparent:hover i:before {
-  content: "\f004" !important;
+  content: '\f004' !important;
 }
 
 body .thumbnail .img-fluid,
