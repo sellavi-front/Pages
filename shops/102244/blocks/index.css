@@ -83,3 +83,8 @@ body.common-home .wrapper-closed .header .header-wrapper .mobile-navigation-wrap
 body .arrow {
   display: block !important;
 }
+
+
+body > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
+  text-decoration: underline;
+}
