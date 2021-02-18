@@ -268,7 +268,7 @@ body.theme_11 .featured-products-carousel .bx-wrapper .bx-viewport {
 }
 
 .wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) {
-    display: none !important;
+    margin-top: 20px;
 }
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart {
