@@ -168,12 +168,6 @@ body.theme_11
     transform: rotate(180deg) !important;
   }
 
-  body.sidenav-enabled .mobile_side_nav .flexy > .arrow i {
-    -webkit-transform: rotate(270deg) !important;
-    -ms-transform: rotate(270deg) !important;
-    transform: rotate(270deg) !important;
-  }
-
   .panel-collapse {
     left: 0 !important;
   }
