@@ -55,24 +55,24 @@ if (document.querySelector('.wrapper')) {
     .querySelector('#home > div > header > div.header-wrapper > div')
     .classList.remove('container');
 
-  document.querySelector(
-    '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
-  ).textContent = '';
-  document
-    .querySelector(
-      '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
-    )
-    .insertAdjacentHTML(
-      'beforeend',
-      `
-  <svg width="23" height="21" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="23" height="1" fill="black"/>
-    <rect y="7" width="23" height="1" fill="black"/>
-    <rect y="14" width="23" height="1" fill="black"/>
-  </svg>
-  <span>Меню</span>
-  `,
-    );
+  // document.querySelector(
+  //   '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
+  // ).textContent = '';
+  // document
+  //   .querySelector(
+  //     '#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(1) > div > a',
+  //   )
+  //   .insertAdjacentHTML(
+  //     'beforeend',
+  //     `
+  // <svg width="23" height="21" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  //   <rect width="23" height="1" fill="black"/>
+  //   <rect y="7" width="23" height="1" fill="black"/>
+  //   <rect y="14" width="23" height="1" fill="black"/>
+  // </svg>
+  // <span>Меню</span>
+  // `,
+  //   );
 
   // setTimeout(() => {
   //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
