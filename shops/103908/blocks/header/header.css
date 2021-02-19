@@ -542,9 +542,7 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     justify-content: flex-start !important;
 }
 
-.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_wishlist {
-    height: 40px !important;
-}
+
 
 #content > div > div.row.products.grid > div > div > div.caption.text-center > h4 > a {
     font-size: 12px;
