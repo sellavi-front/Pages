@@ -153,21 +153,19 @@ export default function urbanEconomy() {
           </p>
         </div>
         <div class="photo-flex d-flex justify-content-center flex-wrap">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_34_lzr5ku.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_35_ctws9c.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_37_cfasfd.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_38_idua1z.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_39_fmeaul.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_36_qo2i93.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_42_j67qfv.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_46_uxgikd.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_43_ms8dfb.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_45_qbszuv.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_49_pnoayi.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_48_lukcwu.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_44_vu570l.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_47_jale0p.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_50_yaubuy.png" alt="">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_34_lzr5ku.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_35_ctws9c.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_37_cfasfd.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_38_idua1z.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_39_fmeaul.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_36_qo2i93.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_42_j67qfv.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_46_uxgikd.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_45_qbszuv.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_49_pnoayi.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_48_lukcwu.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_44_vu570l.png" class="col-md-3 col-12">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_47_jale0p.png" class="col-md-3 col-12">
         </div>
       </div>
     </section>
