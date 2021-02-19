@@ -190,12 +190,12 @@ export default function urbanEconomy() {
               прочности, легкости и удобству может использоваться для выполнения регулярных работ на
               дворовых территориях, тротуарах, участках дорог и территориях государственных
               муниципальных учреждений.
-              <img
-                src="https://res.cloudinary.com/depgheppz/image/upload/v1613736658/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.10.44_ic3qe8.png"
-                style="margin: 0 auto"
-              />
-            </p>
 
+            </p>
+            <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1613736658/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.10.44_ic3qe8.png"
+            style="margin: 0 auto 30px"
+          />
             <p>
               <b>Описание материала ковша снеговой лопаты «Арктика» </b> <br />
               Поликарбонат марки Carbomix 10 UV, используемый для производства снеговой лопаты,
@@ -224,7 +224,7 @@ export default function urbanEconomy() {
             <p><b>Защитные очки из поликарбоната - «Профессионал» </b></p>
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613736910/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.15.01_qwx4yv.png"
-              style="margin: 0 auto"
+              style="margin: 0 auto 30px"
             />
             <p>
               <b>Особенности поликарбонатных очков:</b><br />
