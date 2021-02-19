@@ -1106,14 +1106,14 @@ export default function medicalFood() {
     <h4><b>Количество основных витаминов и микроэлементов в пророщенной пшенице</b></h4>
     <div class="row">
     <img
-      class="col-sm6"
+      class="col-sm-6"
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612123316/102273/image_80_jti453.png"
       alt=""
     />
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612123319/102273/image_81_ipwtj6.png"
       alt=""
-      class="col-sm6"
+      class="col-sm-6"
     />
     </div>
     <img
@@ -1268,7 +1268,7 @@ export default function medicalFood() {
   </div>
   <div class="sect">
     <h4><b>Ассортимент ародукции:</b></h4>
-    <div class="w-100">
+    <div class="w-100 mb-5">
       <div class="mb-5">
         <p>
           <b>1. Для мамы и малыша</b> - каждая мама старается выбирать только безопасные и
