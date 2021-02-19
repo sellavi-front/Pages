@@ -521,11 +521,11 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 
   .price_actions.d-flex.justify-content-between>div.buttons__container>div.add_to_cart>button {
     display: flex !important;
-    flex-direction: row
+    flex-direction: row !important;
   }
 }
 
-#search>button {
+#search>button { 
   z-index: 0;
   position: absolute;
 }
