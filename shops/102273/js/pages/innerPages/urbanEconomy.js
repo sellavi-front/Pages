@@ -396,24 +396,21 @@ export default function urbanEconomy() {
             передаваемых площадей и подтверждается после получения данных по объекту.
           </p>
           <div class="row">
-            <div class="col-md-4 col-12">
               <img
                 src="https://res.cloudinary.com/depgheppz/image/upload/v1613738148/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.35.30_bkcc4z.png"
                 alt=""
+                class="col-md-4 col-12"
               />
-            </div>
-            <div class="col-md-4 col-12">
               <img
+                class="col-md-4 col-12"
                 src="https://res.cloudinary.com/depgheppz/image/upload/v1613738139/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.35.23_oamuz3.png"
                 alt=""
               />
-            </div>
-            <div class="col-md-4 col-12">
               <img
+                class="col-md-4 col-12"
                 src="https://res.cloudinary.com/depgheppz/image/upload/v1613738139/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.35.27_nf7jch.png"
                 alt=""
               />
-            </div>
           </div>
           <p>
             <b
