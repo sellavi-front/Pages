@@ -1,6 +1,9 @@
 export default function plantPage() {
   return `
   <section class="page-section__content">
+  <h2 class="mb-3">Производство лечебной косметики и БАД серия «Алтай»<br>
+  (Отечественный производитель)
+  </h2>
   <div class="sect w-100 mb-7">
     <p>
       Питомник был заложен в 2011 году. Своей целью специалисты поставили выращивание редких
