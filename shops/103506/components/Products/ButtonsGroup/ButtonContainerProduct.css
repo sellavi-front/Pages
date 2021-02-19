@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+@media screen and (max-width: 414px) {
+  .buttons__container {
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
 .thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
   position: relative;
   left: 0 !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
