@@ -1104,14 +1104,18 @@ export default function medicalFood() {
   </div>
   <div class="sect">
     <h4><b>Количество основных витаминов и микроэлементов в пророщенной пшенице</b></h4>
+    <div class="row">
     <img
+      class="col-sm6"
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612123316/102273/image_80_jti453.png"
       alt=""
     />
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612123319/102273/image_81_ipwtj6.png"
       alt=""
+      class="col-sm6"
     />
+    </div>
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612123316/102273/image_82_zygiau.png"
       alt=""
