@@ -128,8 +128,8 @@ body .section-title {
 
 body.ltr .btn.btn-theme {
   background-color: var(--defaultBtn) !important;
-  border-color: transparent !important;
   color: var(--colored) !important;
+  border: 1px solid !important;
 }
 
 body.ltr .btn.btn-theme:hover {
