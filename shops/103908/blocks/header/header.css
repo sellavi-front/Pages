@@ -197,7 +197,21 @@ header.header .form-control {
 
 
 
+body.theme_7 .wrapper header.header {
+    background: black;
+}
 
+body.theme_7 .wrapper header.header .header-wrapper {
+    background: black;
+}
+
+.common-home .wrapper header.header {
+    background: transparent !important;
+}
+
+.common-home .wrapper header.header .header-wrapper {
+    background: transparent !important;
+}
 
 
 
