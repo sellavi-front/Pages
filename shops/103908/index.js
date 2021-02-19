@@ -54,35 +54,35 @@ document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div
 <div class="container"><span> Категории </span></div>  
 
     <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_4_3_veqqad.png"></a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D1%81%D0%B5%D1%80%D1%8C%D0%B3%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_5_3_bzhesh.png"></a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%BA%D0%BE%D0%BB%D1%8C%D0%B5/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_6_2_deqcxi.png"></a>
         </div>
     </div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724623/Group_7423524_q1hsbd.png"></a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/%D0%B0%D0%BD%D0%BA%D0%BB%D0%B5%D1%82%D1%8B-%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B3%D1%83/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423525_zcmhwg.png"></a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%B0/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423526_vkn0fd.png"></a>
         </div>
     </div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B5%D0%BB%D0%BE%D0%BA%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423527_z4lsvi.png"></a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%BE%D1%88%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423528_inh6xw.png"></a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6">
             <a href="https://brasletnata.ru/%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423529_ktsnbo.png"></a>
         </div>
     </div>
