@@ -51,7 +51,7 @@ if (document.querySelector(".common-home")) {
 </div>`)
 
 document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container">
-<div class="container"><span> Новинки </span></div>  
+<div class="container"><span> Категории </span></div>  
 
     <div class="row">
         <div class="col-4">
