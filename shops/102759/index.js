@@ -58,7 +58,7 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Скотарева Наталия Анатольевна');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Ткаченко Александр Сергеевич');
 
   req.setTemplate();
 }
@@ -66,7 +66,7 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Скотарева Наталия Анатольевна', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Ткаченко Александр Сергеевич', media);
   req.setTemplate();
 }
 
@@ -74,7 +74,7 @@ if (location.href.includes('policy')) {
   const req = new Requisites(
     requsites,
     'afterend',
-    'ИП Скотарева Наталия Анатольевна',
+    'ИП Ткаченко Александр Сергеевич',
     document.querySelector('#content > div > div'),
   );
   req.setTemplate();
@@ -84,7 +84,7 @@ if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
     requsites,
     'afterend',
-    'ИП Скотарева Наталия Анатольевна',
+    'ИП Ткаченко Александр Сергеевич',
     document.querySelector('#content > div > div'),
     dataContact,
   );
