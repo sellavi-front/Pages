@@ -30,3 +30,7 @@ body.ltr .thumbnail .caption-title {
 .thumbnail .price_actions .add_to_cart {
     margin-right: 24px;
 }
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(2) > h2 {
+    text-align: center !important;
+}
