@@ -479,4 +479,8 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     left: 3px;
     justify-content: center;
 }
+
+.main-slider .caption-content {
+    display: block;
+}
 }
