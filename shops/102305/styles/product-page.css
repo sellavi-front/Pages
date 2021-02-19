@@ -166,7 +166,7 @@ body.theme-black.theme_11.product-product .product-single.product-item .buttons 
     width: 100%;
     display: flex;
     justify-content: center;
-    top: -140px;
+    top: -140px !important;
     z-index: 1;
   }
 }
