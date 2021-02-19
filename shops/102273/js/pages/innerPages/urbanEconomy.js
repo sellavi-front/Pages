@@ -169,6 +169,44 @@ export default function urbanEconomy() {
         </div>
       </div>
       <div class="sect w-100 mb-7">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_3_ng75ib.png" alt="" />
+        <h4><b>Группа компаний «Креатива»</b></h4>
+        <div class="mb-5">
+          <p>
+          Группа компаний «Креатива» - это российский
+          производитель светодиодной продукции
+          различной модификации для внутренней и
+          наружной рекламы.
+          <br><br>
+          Собственное производство — позволяет
+          инженерам компании реализовать проекты любой
+          сложности. Менеджеры компании справедливо
+          оценят технические и финансовые составляющие
+          проекта и помогут Вам определиться с выбором
+          оборудования, которое будет отвечать всем
+          эксплуатационным требованиям.
+          <br><br>
+          Мы имеем более 8 лет опыта изготовления и
+          монтажа светодиодного оборудования, более 3500
+          реализованных проектов на территории России и
+          зарубежья. На всю нашу продукцию действует
+          гарантийное и постгарантийное обслуживание.
+          <br><br>
+          На сегодняшний день светодиодные экраны —
+          наиболее эффективный и популярный вид наружной
+          рекламы и интерьерной рекламы, который активно
+          используется для раскрутки брендов, продвижения
+          торговых марок, а также увеличения продаж
+          различныхуслуги товаров.
+          </p>
+        </div>
+        <div class="row">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-17_%D0%B2_15.26.59_wyuysi.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/maxresdefault_2_x43myz.jpg" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/maxresdefault_i9qbve.jpg" alt="">
+        </div>
+      </div>
+      <div class="sect w-100 mb-7">
       <div class="mb-5">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/imgpsh_fullsize-1-e1527760781607_1_by9hyl.png"
