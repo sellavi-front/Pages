@@ -141,27 +141,27 @@ export default function medicalFood() {
     </p>
     <div class="mb-5 row">
       <img
-        class="col col-md-4 col-sm-6 mb-2"
+        class="col-sm-2 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-002_1_d7udt7.png"
         alt=""
       />
       <img
-        class="col col-md-4 col-sm-6 mb-2"
+        class="col-sm-2 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-001_1_1_qxmlue.png"
         alt=""
       />
       <img
-        class="col col-md-4 col-sm-6 mb-2"
+        class="col-sm-2 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104831/102273/olara-004_1_qzqnlf.png"
         alt=""
       />
       <img
-        class="col col-md-4 col-sm-6 mb-2"
+        class="col-sm-2 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104832/102273/olara-003_1_iwyeum.png"
         alt=""
       />
       <img
-        class="col col-md-4 col-sm-6 mb-2"
+        class="col-sm-2 mb-2"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612104832/102273/olara-005_1_rxnphs.png"
         alt=""
       />
@@ -182,27 +182,27 @@ export default function medicalFood() {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-007_1_vfpspa.png"
         alt=""
-        class="col col-sm-6 col-md-4 mb-3"
+        class="col col-sm-2 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-008_1_ctvpeb.png"
         alt=""
-        class="col col-sm-6 col-md-4 mb-3"
+        class="col col-sm-2 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-008-1_1_ajvks0.png"
         alt=""
-        class="col col-sm-6 col-md-4 mb-3"
+        class="col col-sm-2 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-009_1_utaawc.png"
         alt=""
-        class="col col-sm-6 col-md-4 mb-3"
+        class="col col-sm-2 mb-3"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612105030/102273/olara-006_1_omdgut.png"
         alt=""
-        class="col col-sm-6 col-md-4 mb-3"
+        class="col col-sm-2 mb-3"
       />
     </div>
 
@@ -1163,6 +1163,7 @@ export default function medicalFood() {
   <div class="sect">
     <h4><b>Прайс лист продуктов из пророщенного зерна и ягод</b></h4>
     <img
+      class="col-12"
       src="https://res.cloudinary.com/depgheppz/image/upload/v1613740404/102273/Group_7423522_2_mbc2j3.png"
       alt=""
     />
@@ -1170,9 +1171,9 @@ export default function medicalFood() {
 
   <div class="sect">
     <h3><b>5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</b></h3>
-    <div class="mb-5">
+    <div class="mb-5 row">
       <img
-        class="mx-auto"
+        class="mx-auto col-md-4"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612123952/102273/detox-boxes_1_psdtsl.png"
         alt=""
       />
