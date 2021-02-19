@@ -6,6 +6,110 @@ body.theme_7.common-home header.header .header-wrapper {
     background-color: #ff000000 !important;
 }
 
+.common-home .header {
+    border: none !important;
+}
+
+.common-home .header .navigation-wrapper {
+    border-top: none !important;
+}
+
+.common-home .wrapper header.header .logo {
+    margin: 0 auto !important;
+}
+
+.common-home header.header .header-search {
+    width: 200px !important;
+}
+
+.common-home .wrapper header.header .header-search input {
+    background: #ff000000 !important;
+}
+
+.common-home header.header .form-control {
+    border: 0px !important;
+}
+
+.common-home .cart-norm-qty.d-none.d-lg-inline-block {
+    display: none !important !important;
+}
+
+.common-home .wrapper header.header .cart-wrapper {
+    border: none !important;
+    background: transparent !important;
+}
+
+.common-home .header-wrapper .fas.fa-bars {
+    color: #fff;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.logo {
+    margin-top: 20px !important;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.header-cart.sticky {
+    display: flex;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist {
+    display: flex;
+    align-items: center;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist > a > i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.cart-wrapper {
+    margin-left: 5px;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down > a > i {
+    color: #fff;
+}
+
+.common-home .header .header-search button i {
+    color: #fff;
+}
+
+.common-home .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 50px;
+}
+
+
+
+.common-home .header-cart .cart-wrapper #cart i {
+    font-size: 25px;
+}
+
+.common-home .header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist > a > i {
+    font-size: 25px;
+}
+
+.common-home .header .header-search button i {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .common-home header {
+    position: absolute;
+}
+
+body.theme_7.common-home header.header .header-wrapper {
+    background-color: #ff000000 !important;
+}
+
 .common-home body.theme-gray .header {
     border: none;
 }
@@ -89,4 +193,4 @@ body.theme_7.common-home header.header .header-wrapper {
 
 .common-home .header .header-search button i {
     font-size: 25px;
-}
+} */
