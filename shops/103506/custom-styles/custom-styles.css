@@ -1,4 +1,5 @@
 @import './CustomSection/CustomSection.css';
+@import './ProductCard/ProductCard.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body h1,
@@ -29,7 +30,7 @@ label,
 }
 
 body {
-  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
+  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) repeat-y center/100%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
