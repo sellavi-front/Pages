@@ -43,3 +43,10 @@ body.information-information p {
           flex: 0 0 16.66667%;
   max-width: 16.66667% !important;
 }
+
+.col-sm-4 {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 33.33333% !important;
+          flex: 0 0 33.33333% !important;
+  max-width: 33.33333% !important;
+}
