@@ -283,10 +283,11 @@ export default function urbanEconomy() {
           </li>
         </ol>
       </div>
+      <div class="mb-5 w-100 row">
+        <a href="#" class="button_link">Презентация "Снеговая лопата"</a>
+      </div>
     </div>
-    <div class="mb-5 w-100 row">
-      <a href="#" class="button_link">Презентация "Снеговая лопата"</a>
-    </div>
+
     </section>
   `;
 }
