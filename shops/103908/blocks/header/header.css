@@ -100,6 +100,109 @@ body.theme_7.common-home header.header .header-wrapper {
 
 
 
+body.theme_7.common-home header.header .header-wrapper {
+    background-color: #ff000000 !important;
+}
+
+.header {
+    border: none !important;
+}
+
+.header .navigation-wrapper {
+    border-top: none !important;
+}
+
+.wrapper header.header .logo {
+    margin: 0 auto !important;
+}
+
+.header-search {
+    width: 200px !important;
+}
+
+.wrapper header.header .header-search input {
+    background: #ff000000 !important;
+}
+
+header.header .form-control {
+    border: 0px !important;
+}
+
+.cart-norm-qty.d-none.d-lg-inline-block {
+    display: none !important;
+}
+
+.wrapper header.header .cart-wrapper {
+    border: none !important;
+    background: transparent !important;
+}
+
+.header-wrapper .fas.fa-bars {
+    color: #fff;
+}
+
+.header-wrapper.container > div.container-fluid > div.logo {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky {
+    display: flex;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist > a > i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.cart-wrapper {
+    margin-left: 5px;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down > a > i {
+    color: #fff;
+}
+
+.header .header-search button i {
+    color: #fff;
+}
+
+.wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 50px;
+}
+
+
+
+.header-cart .cart-wrapper #cart i {
+    font-size: 25px;
+}
+
+.header-wrapper.container > div.container-fluid > div.header-cart.sticky > div.header_wishlist > a > i {
+    font-size: 25px;
+}
+
+.header .header-search button i {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* .common-home header {
