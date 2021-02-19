@@ -484,3 +484,13 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     display: block;
 }
 }
+
+#search > button {
+    z-index: 0;
+    position: absolute;
+}
+
+#search > div.search_field {
+    z-index: 1;
+    position: relative;
+}
