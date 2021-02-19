@@ -223,6 +223,8 @@ const tourismPage = () => {
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_8_h0h7qp.jpg"
           alt=""
           class="col-sm-4 col-12"
+          style="height: 260px;
+          object-fit: cover;"
         />
       </div>
     </div>
