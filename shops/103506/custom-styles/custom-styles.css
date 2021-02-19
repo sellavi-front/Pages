@@ -33,6 +33,26 @@ body {
   background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) repeat-y center/100%;
 }
 
+.header-cart .cart-wrapper .cart-qty-circle {
+  position: absolute;
+  top: -18px;
+  right: -5px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #D3865E !important;
+  color: #fff !important;
+  font-size: .6em;
+  border: 1px solid #000;
+}
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .logo {
     display: none;
