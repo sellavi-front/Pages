@@ -224,7 +224,10 @@ body.theme_7 .wrapper header.header .header-wrapper {
     font-weight: 600;
 }
 
-
+.common-home .wrapper.wrapper-closed > div > div.custom_section > div > div.container {
+    margin-top: 20px;
+    margin-bottom: 15px
+}
 
 
 /* .common-home header {
