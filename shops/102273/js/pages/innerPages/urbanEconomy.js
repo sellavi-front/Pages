@@ -86,20 +86,21 @@ export default function urbanEconomy() {
             <h5><b>Преимущества:</b></h5>
             <p>
               - сроки изготовления минимальны (от 7 до 15 дней);<br />
-              - предоставляются скидки, проводятся акции; <br />- цена продукции ниже, чем у
-              конкурентов, чему способствуют большие объёмы продаж; <br />- можно купить изделия
-              любых типоразмеров; <br />- товар сертифицирован, на него предоставляется 20-летняя
-              гарантия;<br />
+              - предоставляются скидки, проводятся акции; <br />
+              - цена продукции ниже, чем у
+              конкурентов, чему способствуют большие объёмы продаж; <br />
+              - можно купить изделия любых типоразмеров; <br />
+              - товар сертифицирован, на него предоставляется 20-летняя гарантия;<br />
               - отгрузка решётчатого настила осуществляется круглосуточно и даже в выходные дни
             </p>
           </div>
-          <div class="row">
-            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/kombikormovannyj-ceh-3_1_gny5ql.png" alt="">
-            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/03_1_tljopi.png" alt="">
-            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/4_51_cgacps.png" alt="">
-            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/2-3_1_vpghhw.png" alt="">
-            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/01_12_ibwxxw.png" alt="">
-            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/02_1_ichenc.png" alt="">
+          <div class="row photo-flex">
+            <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/kombikormovannyj-ceh-3_1_gny5ql.png" alt="">
+            <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/03_1_tljopi.png" alt="">
+            <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/4_51_cgacps.png" alt="">
+            <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/2-3_1_vpghhw.png" alt="">
+            <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/01_12_ibwxxw.png" alt="">
+            <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/02_1_ichenc.png" alt="">
           </div>
 
           <p>
@@ -127,11 +128,11 @@ export default function urbanEconomy() {
             Минобороны, Р/ЖД, Сколково, ARTPLAY, Северсталь, НЛМК, РОСНАНО.
           </p>
         </div>
-        <div class="row mb-5">
-          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_52_rqusdr.png" alt="">
-          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_55_vdermk.png" alt="">
-          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_53_bqrypn.png" alt="">
-          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_54_fr2p2e.png" alt="">
+        <div class="photo-flex row mb-5">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_52_rqusdr.png" alt="">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_55_vdermk.png" alt="">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_53_bqrypn.png" alt="">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_54_fr2p2e.png" alt="">
         </div>
 
         <div>
@@ -152,19 +153,19 @@ export default function urbanEconomy() {
             (Англия)
           </p>
         </div>
-        <div class="photo-flex d-flex justify-content-center flex-wrap">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_34_lzr5ku.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_35_ctws9c.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_37_cfasfd.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_38_idua1z.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_36_qo2i93.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_42_j67qfv.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_46_uxgikd.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_45_qbszuv.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_49_pnoayi.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_48_lukcwu.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_44_vu570l.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_47_jale0p.png" class="col-md-3 col-12">
+        <div class="photo-flex row">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_34_lzr5ku.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_35_ctws9c.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_37_cfasfd.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_38_idua1z.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_36_qo2i93.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_42_j67qfv.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_46_uxgikd.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_45_qbszuv.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_49_pnoayi.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_48_lukcwu.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_44_vu570l.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_47_jale0p.png" class="col-md-3 col-12 mb-4">
         </div>
       </div>
     </section>

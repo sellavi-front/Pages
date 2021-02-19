@@ -29,3 +29,8 @@ body.information-information p {
           flex: 0 0 25% !important;
   max-width: 25% !important;
 }
+
+.photo-flex img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
