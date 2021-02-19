@@ -630,3 +630,8 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 .footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > div {
   display: flex !important;
 }
+
+
+#home > div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(4) {
+  display: none;
+}
