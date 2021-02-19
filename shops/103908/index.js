@@ -27,7 +27,6 @@ if (document.querySelector(".header-wrapper")) {
 if (document.querySelector(".common-home")) {
 
   document.querySelector('#home > div.wrapper.wrapper-closed > div > section').insertAdjacentHTML('afterbegin', `<div class="container">
-  <div class="container"><span> Новинки </span></div>  
   <div class="row">
         <div class="col-5">
             <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613662311/20201017_101826_1_nbttwm.png">
@@ -52,6 +51,8 @@ if (document.querySelector(".common-home")) {
 </div>`)
 
 document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container">
+<div class="container"><span> Новинки </span></div>  
+
     <div class="row">
         <div class="col-4">
             <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_4_3_veqqad.png"></a>
