@@ -1197,7 +1197,7 @@ const medService = () => {
   </div>
 
   <div class="sect">
-      <h4><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
+      <h4 class="mb-4"><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
       <div class="d-flex flex-wrap">
         <img
           class="col-sm-2 mb-4"
