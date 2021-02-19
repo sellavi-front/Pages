@@ -205,6 +205,9 @@ export default function urbanEconomy() {
           <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/maxresdefault_2_x43myz.jpg" alt="">
           <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/maxresdefault_i9qbve.jpg" alt="">
         </div>
+        <div class="mb-5 w-100 row">
+        <a href="#" class="button_link">Презентация "CREATIVA"</a>
+      </div>
       </div>
       <div class="sect w-100 mb-7">
       <div class="mb-5">
