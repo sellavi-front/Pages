@@ -25,6 +25,8 @@ if (document.querySelector(".header-wrapper")) {
 
 //Description block
 if (document.querySelector(".common-home")) {
+  document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container"><span> Новинки </span></div>`)
+
   document.querySelector('#home > div.wrapper.wrapper-closed > div > section').insertAdjacentHTML('afterbegin', `<div class="container">
     <div class="row">
         <div class="col-5">
