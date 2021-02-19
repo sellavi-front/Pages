@@ -519,10 +519,7 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   }
 
 
-  .price_actions.d-flex.justify-content-between>div.buttons__container>div.add_to_cart>button {
-    display: flex !important;
-    flex-direction: row !important;
-  }
+  
 }
 
 #search>button { 
@@ -598,4 +595,12 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   display: block !important;
   width: 100%;
   align-items: center !important;
+}
+
+
+@media (max-device-width: 480px) {
+    .price_actions.d-flex.justify-content-between>div.buttons__container>div.add_to_cart>button {
+        display: flex !important;
+        flex-direction: row !important;
+      }
 }
