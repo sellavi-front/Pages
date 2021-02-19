@@ -168,6 +168,71 @@ export default function urbanEconomy() {
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_47_jale0p.png" class="col-md-3 col-12 mb-4">
         </div>
       </div>
+      <div class="sect w-100 mb-7">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/2235892_1_qxngbp.png" alt="" />
+        <div class="mb-5">
+          <h4>
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/imgpsh_fullsize-1-e1527760781607_1_by9hyl.png" style="float:left;">
+            <b>Продукция из полимерных и композиционныхматериалов</b>
+          </h4>
+          <p>
+          Лидер в разработке и производстве полимерных композиционных материалов на основе поликарбонатов
+          других полимеров в России, в рамках сопутствующего производства изготавливает из сырья собственного
+          производства следующую продукцию:
+          </p>
+          <p>
+          1. Лопата снеговая «Арктика» – снегоуборочная лопата высочайшего класса незаменима при
+          осуществлении снегоуборочных работ, благодаря своей долговечности, прочности, легкости и удобству
+          может использоваться для выполнения регулярных работ на дворовых территориях, тротуарах, участках
+          дорог и территориях государственных муниципальных учреждений.
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613736658/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.10.44_ic3qe8.png" style="margin: 0 auto"/>
+          </p>
+
+          <p>
+            <b>Описание материала ковша снеговой лопаты «Арктика» </b> <br>
+              Поликарбонат марки Carbomix 10 UV, используемый для производства снеговой лопаты, характеризуется повышенными прочностными характеристиками на растяжение, изгиб, удар и сохраняет эти свойства в широком температурном интервале, а что особенно важно, при отрицательных температурах до минус 60С°.Carbomix 10 UV — обладает высокой устойчивостью к абразивному износу, ультрафиолетовому излучению, реагентам, воде и соляному раствору. Изделия из этого материала, обладают лёгкостью, прочностью и великолепным внешним видом, материал оптически прозрачен и может быть окрашен в самые разнообразные цвета.
+          </p>
+        </div>
+        <div class="photo-flex row mb-5">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_52_rqusdr.png" alt="">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_55_vdermk.png" alt="">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_53_bqrypn.png" alt="">
+          <img class="col-md-3 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_54_fr2p2e.png" alt="">
+        </div>
+
+        <div>
+          <h5><b>Технические характеристики сырья</b></h5>
+          <p>
+            <b>Металл</b> - Холоднокатаная горячеоцинкованная тонколистовая сталь с различными
+            видами полимерных покрытий толщиной 0,5-0,7 мм, как российского, так и европейского
+            производства.
+          </p>
+          <p>
+            <b> Минеральная вата</b> - Rockwool, IZOVAT, Технониколь, Изомин, плотностью 110 кг/м 3
+            -140 кг/м 3
+          </p>
+          <p><b>Пенополистерол</b> (ПСБ-С-35)</p>
+          <p>
+            <b>Клей Двухкомпонентный полиуретановый</b> - Двукомпанентный синтетический клей
+            производства Bayer (Германия), Apollo Adhesives (Англия), Leeson Polyurethanes Ltd.
+            (Англия)
+          </p>
+        </div>
+        <div class="photo-flex row">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_34_lzr5ku.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_35_ctws9c.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_37_cfasfd.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_38_idua1z.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_36_qo2i93.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_42_j67qfv.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_46_uxgikd.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_45_qbszuv.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_49_pnoayi.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094416/102273/image_48_lukcwu.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_44_vu570l.png" class="col-md-3 col-12 mb-4">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_47_jale0p.png" class="col-md-3 col-12 mb-4">
+        </div>
+      </div>
     </section>
   `;
 }
