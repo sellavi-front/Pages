@@ -214,13 +214,12 @@ body.theme_7 .wrapper header.header .header-wrapper {
 }
 
 
-
-#home > div.wrapper.wrapper-closed > div > div.custom_section > div > div.container {
+.common-home .wrapper.wrapper-closed > div > div.custom_section > div > div.container {
     display: flex;
     justify-content: center;
 }
 
-#home > div.wrapper.wrapper-closed > div > div.custom_section > div > div.container > span {
+.common-home .wrapper.wrapper-closed > div > div.custom_section > div > div.container > span {
     font-size: 30px;
     font-weight: 600;
 }
