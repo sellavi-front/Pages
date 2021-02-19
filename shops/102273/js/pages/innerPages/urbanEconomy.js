@@ -182,7 +182,7 @@ export default function urbanEconomy() {
           поликарбонатов других полимеров в России, в рамках сопутствующего производства
           изготавливает из сырья собственного производства следующую продукцию:
         </p>
-        <ol style="list-style-type: decimal;">
+        <ol>
           <li>
             <p>
               <b>1. Лопата снеговая «Арктика»</b> – снегоуборочная лопата высочайшего класса
@@ -245,7 +245,7 @@ export default function urbanEconomy() {
           </li>
           <li>
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613737096/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.16.34_g79l4e.png" style="margin: 0 auto;">
-            <p><b>Пластмассовые стаканы и посуда </b></p>
+            <p><b>3. Пластмассовые стаканы и посуда </b></p>
             <p><b>Посуда из поликарбоната «CARBOMIX FC» обладает следующими свойствами: </b></p>
             <ul style="list-style-type: disc;">
               <li>
