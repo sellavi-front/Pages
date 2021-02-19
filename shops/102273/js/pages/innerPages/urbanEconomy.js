@@ -93,13 +93,13 @@ export default function urbanEconomy() {
               - отгрузка решётчатого настила осуществляется круглосуточно и даже в выходные дни
             </p>
           </div>
-          <div class="photo-flex d-flex justify-content-center flex-wrap">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/kombikormovannyj-ceh-3_1_gny5ql.png" alt="">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/03_1_tljopi.png" alt="">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/4_51_cgacps.png" alt="">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/2-3_1_vpghhw.png" alt="">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/01_12_ibwxxw.png" alt="">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/02_1_ichenc.png" alt="">
+          <div class="row">
+            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/kombikormovannyj-ceh-3_1_gny5ql.png" alt="">
+            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/03_1_tljopi.png" alt="">
+            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/4_51_cgacps.png" alt="">
+            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/2-3_1_vpghhw.png" alt="">
+            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/01_12_ibwxxw.png" alt="">
+            <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094291/102273/02_1_ichenc.png" alt="">
           </div>
 
           <p>
@@ -157,7 +157,6 @@ export default function urbanEconomy() {
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_35_ctws9c.png" class="col-md-3 col-12">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_37_cfasfd.png" class="col-md-3 col-12">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_38_idua1z.png" class="col-md-3 col-12">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_39_fmeaul.png" class="col-md-3 col-12">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_36_qo2i93.png" class="col-md-3 col-12">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_42_j67qfv.png" class="col-md-3 col-12">
           <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094415/102273/image_46_uxgikd.png" class="col-md-3 col-12">
