@@ -45,6 +45,9 @@ export default function charityPage() {
         <p><b>МЕДИЦИНСКИЕ БЛУЗЫ</b></p>
       </div>
     </div>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Прайс-лист</a>
+    </div>
   </div>
     </section>
     `;
