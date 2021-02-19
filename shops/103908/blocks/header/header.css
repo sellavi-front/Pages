@@ -513,13 +513,19 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   .price_actions.d-flex.justify-content-between>div.buttons__container>div.add_to_cart>button>span {
     font-size: 10px !important;
   }
-  
-  #home > div > div > section > div:nth-child(2) > div > div > div > div.price_actions.d-flex.justify-content-between > div.price {
+
+  #home>div>div>section>div:nth-child(2)>div>div>div>div.price_actions.d-flex.justify-content-between>div.price {
     text-align: left !important
-}
+  }
+
+
+  .price_actions.d-flex.justify-content-between>div.buttons__container>div.add_to_cart>button {
+    display: flex !important;
+    flex-direction: row
+  }
 }
 
-#search>button { 
+#search>button {
   z-index: 0;
   position: absolute;
 }
@@ -588,8 +594,8 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   text-align: left;
 }
 
-.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
-    display: block !important;
-    width: 100%;
-    align-items: center !important;
+.price_actions.d-flex.justify-content-between>div.buttons__container>div.add_to_cart>button {
+  display: block !important;
+  width: 100%;
+  align-items: center !important;
 }
