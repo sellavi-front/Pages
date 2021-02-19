@@ -1271,12 +1271,14 @@ export default function medicalFood() {
           полноценного развития вещества.
         </p>
       </div>
-      <div>
+      <div class="row">
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124305/102273/9d2952cce34e86baeb2788b341af25d9_1_masutt.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124305/102273/5c1863c718038723845578d670c8c5d3_1_es15oq.png"
           alt=""
         />
@@ -1288,28 +1290,34 @@ export default function medicalFood() {
           <b>2. Программа питания и продукты для снижения веса «Худеем за неделю»</b>
         </p>
       </div>
-      <div>
+      <div class="row">
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124316/102273/2bb2b093f8bbdc11bce6ce90538cba6b_1_wlhqxn.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124316/102273/33f1e23f11204dc2eb6dad323ad621d5_1_ptru18.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124316/102273/f93893e3566677ee3dcbbdb35204243d_1_tnvnqf.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124315/102273/1ea3ca2491b7774f5ac3efec65687824_1_evtqem.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124316/102273/f4553363d53b5697bd0e71b8eba9a6b7_1_ktieor.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124316/102273/7e32a741eeb7fe6f26f1a6ee918b3d15_1_jvty1p.png"
           alt=""
         />
@@ -1327,20 +1335,24 @@ export default function medicalFood() {
           «быстрый», вкусный и здоровый перекус на все случаи жизни.
         </p>
       </div>
-      <div>
+      <div class="row">
         <img
+          class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124327/102273/5b998d3dbf846e0992ebbc840662911c_1_uuoup1.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124327/102273/3f98c0b8e857ebc183514b10ac230eae_1_vzluvk.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124327/102273/d61e5d308163f018d23575b43aaa7fe2_1_fypdpk.png"
           alt=""
         />
         <img
+        class="col-md-2"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612124327/102273/1a9f86d08d4d49d8de04d641ecc35a76_1_wyypeo.png"
           alt=""
         />
@@ -1361,11 +1373,11 @@ export default function medicalFood() {
           – композиция из трав, магния и калия для сердца и сосудов.
         </p>
       </div>
-      <div>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/1e2425c518c081ebcd32c97a1777d28a_1_ieyyeu.png" alt="">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/4c6444c7b67cffe0813d874f790bb802_1_x8jqr8.png" alt="">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/bfc3bdf7a54e14353ea913c2b8092e90_1_zep5uy.png" alt="">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/c81f8f445848ca2d89707d3b02346468_1_zchpx7.png" alt="">
+      <div class="row">
+        <img class="col-md-2" src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/1e2425c518c081ebcd32c97a1777d28a_1_ieyyeu.png" alt="">
+        <img class="col-md-2" src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/4c6444c7b67cffe0813d874f790bb802_1_x8jqr8.png" alt="">
+        <img class="col-md-2" src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/bfc3bdf7a54e14353ea913c2b8092e90_1_zep5uy.png" alt="">
+        <img class="col-md-2" src="https://res.cloudinary.com/depgheppz/image/upload/v1612124340/102273/c81f8f445848ca2d89707d3b02346468_1_zchpx7.png" alt="">
       </div>
     </div>
   </div>
