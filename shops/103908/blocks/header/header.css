@@ -483,6 +483,11 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
 .main-slider .caption-content {
     display: block;
 }
+
+.wrapper header.header .header-wrapper .cart-wrapper .cart_drop_down {
+    position: inherit !important;
+    
+}
 }
 
 #search > button {
@@ -494,3 +499,4 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     z-index: 1;
     position: relative;
 }
+
