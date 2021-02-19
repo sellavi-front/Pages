@@ -439,9 +439,9 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
         font-size: 12px !important;
     }
 
-    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center {
+    /* .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center {
         margin-top: 30px !important;
-    }
+    } */
 
     .common-home  .mobile_two_columns .products .thumbnail .caption {
         justify-content: flex-start !important;
@@ -496,6 +496,17 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
     height: 65% !important;
 }
+
+
+.mobile_two_columns .products .thumbnail .caption .caption-title {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper.wrapper-closed > div > section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.price {
+    text-align: left !important;
+}
+
 }
 
 #search > button {
