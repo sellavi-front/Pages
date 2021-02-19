@@ -25,10 +25,10 @@ if (document.querySelector(".header-wrapper")) {
 
 //Description block
 if (document.querySelector(".common-home")) {
-  document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container"><span> Новинки </span></div>`)
 
   document.querySelector('#home > div.wrapper.wrapper-closed > div > section').insertAdjacentHTML('afterbegin', `<div class="container">
-    <div class="row">
+  <div class="container"><span> Новинки </span></div>  
+  <div class="row">
         <div class="col-5">
             <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613662311/20201017_101826_1_nbttwm.png">
         </div>
