@@ -1,5 +1,6 @@
 .common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) {
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 .common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col {
@@ -39,4 +40,18 @@
     font-weight: 400;
     color: #949494;
     margin-top: 20px;
+}
+
+/* After desc block */
+
+.common-home > div.wrapper.wrapper-closed > div > section > div:nth-child(2) > h2 {
+    margin-top: 60px !important;;
+}
+
+body .section-title span:before {
+    width: 100px;
+}
+
+body .section-title span:after {
+    width: 100px;
 }
