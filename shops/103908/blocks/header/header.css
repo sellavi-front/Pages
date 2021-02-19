@@ -554,7 +554,8 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 
 .price_actions.d-flex.justify-content-between>div.buttons__container {
   display: flex;
-  flex-direction: row-reverse
+  flex-direction: row-reverse;
+  height: 50px;
 }
 
 .price_actions .add_to_cart button {
