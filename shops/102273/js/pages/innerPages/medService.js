@@ -22,7 +22,9 @@ const medService = () => {
 
   <div class="sect" id="1">
   <h3><b>1. ООО «Эстелайн»- стоматология и косметология </b></h3>
-  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613727205/b-0-RtkIOQknjkzwi2PNbSX2JbnlJZCq2aoAA2SuTPxXnh08HKQKfQGYHah06JIIccIG4oN0xTsYO3l6OCDVByC87LOA_-nwPBbm7dH9olg_1_um4m3x.jpg" class="w-100">
+  <div>
+    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613727205/b-0-RtkIOQknjkzwi2PNbSX2JbnlJZCq2aoAA2SuTPxXnh08HKQKfQGYHah06JIIccIG4oN0xTsYO3l6OCDVByC87LOA_-nwPBbm7dH9olg_1_um4m3x.jpg" class="w-100 h-50">
+  </div>
   <p>
     Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
     53 га. Минеральные (соленые) озера являются уникальным по своему составу, температурному
