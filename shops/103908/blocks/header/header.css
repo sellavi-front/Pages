@@ -494,7 +494,7 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
 }
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
-    height: 65%;
+    height: 65% !important;
 }
 }
 
