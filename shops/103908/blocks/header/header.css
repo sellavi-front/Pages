@@ -610,3 +610,17 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 .product-product .product-single .buttons .btn-compare:hover, .product-product .product-single .buttons .btn-wish-list:hover i {
     color: white !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+.product-product > div > div > section > div > div > div:nth-child(2) > div.share_page_wrapper {
+    display: none  !important;
+}
