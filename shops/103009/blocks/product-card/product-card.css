@@ -414,6 +414,7 @@ body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity
 
 body#home .homefeatured_category .row {
     flex-wrap: wrap !important;
+    justify-content: flex-start !important;
 }
 
 body.theme_11 .wrapper .homefeatured_category>div>div>div {
