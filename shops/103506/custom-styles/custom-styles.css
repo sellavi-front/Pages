@@ -42,3 +42,9 @@ body {
     top: 45px !important;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .logo {
+    display: none;
+  }
+}
