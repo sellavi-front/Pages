@@ -1,9 +1,8 @@
-@media (min-width: 991px) {
-  .product-item .thumbnail .media img {
-    min-height: 252px;
-    max-width: 252px;
-    max-height: 252px;
-    border-radius: 25px;
-    box-shadow: 0 0 2px #999;
-  }
+
+.product-item .thumbnail .media img {
+  min-height: 252px;
+  max-width: 252px;
+  max-height: 252px;
+  border-radius: 25px;
+  box-shadow: 0 0 2px #999;
 }
