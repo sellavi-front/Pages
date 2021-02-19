@@ -11,7 +11,18 @@ export default function charityPage() {
     <p>По заявке, выпуск одежды с брендом компании, фамилией медицинского сотрудника и другими аксессуарами.</p>
   </div>
   <div class="sect w-100">
-    <h4 class="text-center mb-50px"><b>Ассортимент продукции:</b></h4>
+    <h4 class="mb-50px"><b>Ассортимент продукции:</b></h4>
+    <ol style="list-style-type: decimal; margin-bottom: 30px;">
+    <li>МЕДИЦИНСКИЕ ХАЛАТЫ
+    </li>
+    <li>МЕДИЦИНСКИЙ КОСТЮМ ЖЕНСКИЙ
+    </li>
+    <li>МУЖСКАЯ МЕДИЦИНСКАЯ ОДЕЖДА
+    </li>
+    <li>МЕДИЦИНСКИЕ БРЮКИ
+   </li>
+    <li> МЕДИЦИНСКИЕ БЛУЗЫ </li>
+    </ol>
     <div class="d-flex flex-wrap justify-content-start">
       <div class="col-md-4 text-center mb-50px">
         <img class="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/6aca80c6953523f27d1718698e562972_1_rmxqf4.png" alt="">
