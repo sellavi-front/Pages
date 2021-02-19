@@ -1081,7 +1081,7 @@ const medTech = () => {
         недостаточности.
       </p>
       <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612264502/image_85_v68ycs.png"
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1613744263/102273/image8_j4bo8m.png"
         alt=""
       />
 
