@@ -170,11 +170,11 @@ export default function urbanEconomy() {
       </div>
       <div class="sect w-100 mb-7">
       <div class="mb-5">
+        <img
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/imgpsh_fullsize-1-e1527760781607_1_by9hyl.png"
+        />
         <h4>
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/imgpsh_fullsize-1-e1527760781607_1_by9hyl.png"
-            style="float: left"
-          />
+
           <b>Продукция из полимерных и композиционныхматериалов</b>
         </h4>
         <p>
