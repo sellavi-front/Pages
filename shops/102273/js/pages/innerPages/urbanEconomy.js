@@ -45,13 +45,13 @@ export default function urbanEconomy() {
             аэропорты и ЖД, уличная реклама, ситуационные центры, спортивные комплексы.
           </p>
         </div>
-        <div class="photo-flex d-flex justify-content-center flex-wrap">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/XXL_1_bvgpuu.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/img-2527_1036x728_219_1_p3oww3.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/gopr7518_1036x728_219_1_ge7fy8.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/delta1hdlt_1036x728_219_1_mzcie6.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/dsc06776_1036x728_219_1_idsnnv.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/img-0602_1036x728_219_1_bcyyxh.png" alt="">
+        <div class="row">
+          <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/XXL_1_bvgpuu.png" alt="">
+          <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/img-2527_1036x728_219_1_p3oww3.png" alt="">
+          <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/gopr7518_1036x728_219_1_ge7fy8.png" alt="">
+          <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/delta1hdlt_1036x728_219_1_mzcie6.png" alt="">
+          <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/dsc06776_1036x728_219_1_idsnnv.png" alt="">
+          <img class="col-md-4 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094183/102273/img-0602_1036x728_219_1_bcyyxh.png" alt="">
         </div>
       </div>
       <div class="sect w-100 mb-7">
