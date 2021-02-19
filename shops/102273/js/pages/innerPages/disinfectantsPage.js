@@ -154,6 +154,9 @@ const disinfectantsPages = () => {
         <a href="#" class="button_link">Презентация средства "ДеФлок"</a>
       </div>
     </div>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Скачать презентацию</a>
+    </div>
   </div>
 
   <div class="sect" id="3">
@@ -179,6 +182,9 @@ const disinfectantsPages = () => {
         <a href="#" class="button_link">Документация на русском языке</a>
         <a href="#" class="button_link">Документация на иностранных языках)</a>
       </div>
+    </div>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Скачать презентацию</a>
     </div>
   </div>
 
