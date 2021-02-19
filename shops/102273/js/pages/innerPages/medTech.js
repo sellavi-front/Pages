@@ -1195,7 +1195,7 @@ const medTech = () => {
       зонам «КМДТ»
     </h2>
 
-    <h3>
+    <h3 class="text-center">
       ДИАГНОСТИЧЕСКИЕ МОДУЛИ КОМПЛЕКСА «КМДТ» МОДУЛИ ВЕГЕТАТИВНОГО РЕЗОНАНСНОГО ТЕСТИРОВАНИЯ
     </h3>
 
@@ -1403,7 +1403,7 @@ const medTech = () => {
   </div>
 
   <div class="sect" id="6">
-    <h3>6. SmoothEye</h3>
+    <h3 class="text-center">6. SmoothEye</h3>
 
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612275694/5_1562139_gprmh4.png"
@@ -1420,7 +1420,7 @@ const medTech = () => {
   </div>
 
   <div class="sect" id="8">
-    <h3>8. Endermologie</h3>
+    <h3 class="text-center">8. Endermologie</h3>
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612276238/Group_7423522_sdrsm2.png"
       alt=""
