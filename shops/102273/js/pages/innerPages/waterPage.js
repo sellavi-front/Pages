@@ -290,6 +290,9 @@ export default function waterPage() {
             alt=""
           />
         </div>
+        <div class="mt-4 mb-4 row">
+          <a href="#" class="button_link ">Скачать презентацию</a>
+        </div>
       </div>
 
 
