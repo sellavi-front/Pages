@@ -424,3 +424,22 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div {
     background: transparent;
     margin-top: 60px !important;
 }
+
+@media (max-device-width: 480px) {
+    body#home .homefeatured_category .row {
+        justify-content: center !important;
+    }
+
+    #home > div.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div > div > div > a > picture {
+        display: flex;
+        justify-content: center;
+    }
+
+    #home > div.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div {
+        margin-bottom: 20px !important;
+    }
+
+    .thumbnail.thumbnail-banner .media-link {
+        height: 187px !important;
+    }
+}
