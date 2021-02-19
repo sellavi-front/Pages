@@ -374,3 +374,90 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
 .footer .footer-widgets {
     background: #fff !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-device-width: 480px) {
+    .common-home .wrapper.wrapper-closed > div > div.custom_section > div > div > div {
+        width: 50% !important;
+        padding: 0px !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > div.custom_section > div > div > div > a > img {
+        width: 100% !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col-5 > img {
+        width: 100%;
+    }
+
+    .common-home .wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4 {
+        margin-top: 20px !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > h4 {
+        margin-top: 20px !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart {
+        display: block !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
+        font-size: 10px !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    .common-home  .price_actions .add_to_cart button {
+        padding: 5% 20% !important;
+    }
+
+    .common-home  .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button, .thumbnail .add_to_wishlist button {
+        height: 65% !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center > h4 {
+        text-align: left !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center > h4 > a {
+        font-size: 12px !important;
+    }
+
+    .common-home  .wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center {
+        margin-top: 30px !important;
+    }
+
+    .common-home  .mobile_two_columns .products .thumbnail .caption {
+        justify-content: flex-start !important;
+    }
+
+    .common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col-12 > img {
+        width: 100% !important;
+    }
+
+    .common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col {
+        margin-left: 0px;
+    }
+
+    .common-home .wrapper.wrapper-closed > div > section > div > div > div.col > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
