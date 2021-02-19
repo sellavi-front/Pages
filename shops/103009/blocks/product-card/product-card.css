@@ -410,3 +410,17 @@ body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity
 body.theme-blue-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
     border: 1px solid black !important;
 }
+
+
+body#home .homefeatured_category .row {
+    flex-wrap: wrap !important;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    width: 257px !important;
+}
+
+.thumbnail.thumbnail-banner .caption-title span {
+    background: transparent;
+    margin-top: 60px !important;
+}
