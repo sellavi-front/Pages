@@ -228,6 +228,7 @@ const tourismPage = () => {
           object-fit: cover;"
         />
       </div>
+      <video src="https://res.cloudinary.com/depgheppz/video/upload/v1613749862/102273/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_Adel_%D0%B2_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%90%D1%84%D0%BE%D0%BD%D0%B0_sbncbg.mp4"></video>
     </div>
       </section>
   `;
