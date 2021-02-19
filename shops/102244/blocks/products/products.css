@@ -141,7 +141,7 @@ body.theme-gray.theme_11.checkout-cart
   border-radius: 5px !important;
 }
 
-body .btn.btn-theme.btn-theme-transparent:hover i:before {
+body .add_to_wishlist .btn.btn-theme.btn-theme-transparent:hover i:before {
   content: '\f004' !important;
 }
 
