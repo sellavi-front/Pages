@@ -1,18 +1,14 @@
 const socIconsData = [
   {
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612881580/instagram-brands_khnu1f.svg',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742762/icons8-instagram_1_viacgm.png',
     link: 'https://instagram.com/brasletnata.ru?igshid=1kn7dehn4xipy',
   },
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-whatsapp_1_kh2mdl.svg',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742760/icons8-%D1%82%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-app_1_1_q0l01r.png',
     link: 'https://wa.me/79175751641',
   },
   {
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742283/icons8-viber_1_wtdjs4.png',
-    link: 'https://api.whatsapp.com/send?phone=79175751641',
-  },
-  {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1608216460/102367/icons8-telegram-app_1_aawuoi.svg',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742760/icons8-%D1%82%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-app_1_1_q0l01r.png',
     link: 'https://t.me/79175751641',
   },
 ];
