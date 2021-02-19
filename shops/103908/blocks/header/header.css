@@ -583,3 +583,9 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   font-weight: 700;
   text-align: left;
 }
+
+.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+    display: block !important;
+    width: 100%;
+    align-items: center !important;
+}
