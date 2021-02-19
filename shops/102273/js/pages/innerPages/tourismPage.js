@@ -7,7 +7,7 @@ const tourismPage = () => {
         ПРОГРАММЕ СЕМЕЙНОГО ОТДЫХА С ДЕТЬМИ
       </b>
     </h2>
-    <div style="color: red">
+    <div style="color: red; text-align: center;">
       <h6><b>АКЦИЯ!</b></h6>
       <p>
         <b>
