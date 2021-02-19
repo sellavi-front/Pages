@@ -28,7 +28,7 @@ if (document.querySelector(".common-home")) {
 
   document.querySelector('#home > div.wrapper.wrapper-closed > div > section').insertAdjacentHTML('afterbegin', `<div class="container">
   <div class="row">
-        <div class="col-12">
+        <div class="col">
             <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613662311/20201017_101826_1_nbttwm.png">
         </div>
         <div class="col">
