@@ -500,3 +500,65 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     position: relative;
 }
 
+
+
+
+
+
+
+
+
+
+.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart {
+    display: block !important;
+}
+
+.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
+    font-size: 10px !important;
+}
+
+.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.price_actions.d-flex.justify-content-between > div.buttons__container {
+    display: flex;
+    flex-direction: row-reverse
+}
+
+ .price_actions .add_to_cart button {
+    padding: 5% 20% !important;
+}
+
+
+ .wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center > h4 {
+    text-align: left !important;
+}
+
+
+
+ .mobile_two_columns .products .thumbnail .caption {
+    justify-content: flex-start !important;
+}
+
+.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_wishlist {
+    height: 40px !important;
+}
+
+#content > div > div.row.products.grid > div > div > div.caption.text-center > h4 > a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#content > div > div.row.products.grid > div > div > div.caption.text-center > h4 {
+    display: flex;
+    align-items: center;
+}
+
+
+#content > div > div.row.products.grid > div > div > div.price_actions.d-flex.justify-content-between > div.price {
+    font-size: 12px !important;
+    font-weight: 700;
+    text-align: left;
+}
