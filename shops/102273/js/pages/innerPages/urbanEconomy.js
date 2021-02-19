@@ -182,7 +182,7 @@ export default function urbanEconomy() {
           поликарбонатов других полимеров в России, в рамках сопутствующего производства
           изготавливает из сырья собственного производства следующую продукцию:
         </p>
-        <ol>
+        <ol style="list-style: numeric;">
           <li>
             <p>
               <b>1. Лопата снеговая «Арктика»</b> – снегоуборочная лопата высочайшего класса
@@ -221,7 +221,7 @@ export default function urbanEconomy() {
             </p>
           </li>
           <li>
-            <p><b>Защитные очки из поликарбоната - «Профессионал» </b></p>
+            <h6><b>Защитные очки из поликарбоната - «Профессионал» </b></h6>
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613736910/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.15.01_qwx4yv.png"
               style="margin: 0 auto 30px"
