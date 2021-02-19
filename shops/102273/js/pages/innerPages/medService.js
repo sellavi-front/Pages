@@ -22,8 +22,8 @@ const medService = () => {
 
   <div class="sect" id="1">
   <h3><b>1. ООО «Эстелайн»- стоматология и косметология </b></h3>
-  <div>
-    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613727205/b-0-RtkIOQknjkzwi2PNbSX2JbnlJZCq2aoAA2SuTPxXnh08HKQKfQGYHah06JIIccIG4oN0xTsYO3l6OCDVByC87LOA_-nwPBbm7dH9olg_1_um4m3x.jpg" class="w-100 h-50">
+  <div class="mb-5" style="height: 400px">
+    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613727205/b-0-RtkIOQknjkzwi2PNbSX2JbnlJZCq2aoAA2SuTPxXnh08HKQKfQGYHah06JIIccIG4oN0xTsYO3l6OCDVByC87LOA_-nwPBbm7dH9olg_1_um4m3x.jpg" class="w-100 h-100">
   </div>
   <p>
     Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
@@ -34,7 +34,7 @@ const medService = () => {
   </p>
   <div class="page-section__contacts">
     <div class="row">
-      <div class="d-flex col-sm-3">
+      <div class="d-flex col-sm-4">
         <img
           class="mr-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_7423519_rgpf2h.png"
@@ -47,7 +47,7 @@ const medService = () => {
           824.  4 минуты пешком от м Октябрьская
         </p>
       </div>
-      <div class="d-flex col-sm-3">
+      <div class="d-flex col-sm-4">
         <img
           class="mr-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_208_mlmkxv.png"
@@ -60,7 +60,7 @@ const medService = () => {
           8 (934) 000 09 33.
         </p>
       </div>
-      <div class="d-flex col-sm-3">
+      <div class="d-flex col-sm-4">
         <img
           class="mr-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
@@ -76,7 +76,7 @@ const medService = () => {
       </div>
     </div>
     <div class="row">
-      <div class="d-flex col-sm-3">
+      <div class="d-flex col-sm-4">
         <img
           class="mr-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
@@ -88,7 +88,7 @@ const medService = () => {
           <a href="www.esteline.ru/services/somatology">www.esteline.ru/services/somatology</a>
         </p>
       </div>
-      <div class="d-flex col-sm-3">
+      <div class="d-flex col-sm-4">
         <img
           class="mr-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"

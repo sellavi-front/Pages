@@ -29,7 +29,7 @@
 .row.places > div > img {
   height: 80%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .page-section__ul li {
@@ -75,13 +75,13 @@ body p {
 }
 
 .photo-flex img {
-  margin: .6rem;
+  margin: 0.6rem;
 }
 
 .sect img.m-2 {
   width: 165px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .sect .col {
   display: -webkit-box;
@@ -106,12 +106,12 @@ body p {
   -webkit-box-align: center;
   max-width: 570px;
   width: 100%;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-          border: 1px solid black;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .page-section__contacts {
@@ -123,8 +123,9 @@ body.information-information .information img {
 }
 
 .page-section__contacts > .row {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 #content > div > div > section > div:nth-child(7) > div.d-flex.flex-wrap > img {
