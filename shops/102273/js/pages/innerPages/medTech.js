@@ -310,8 +310,12 @@ const medTech = () => {
         проникают в глубокие слои эпидермиса, оказывают щадящее воздействия на клетки кожи, не
         повреждая ее поверхность. </p>
 
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613745489/102273/image13_fcp96x.jpg" class="w-50" style="margin: 0 auto;">
-
+        <div style="
+    margin: 0 auto;
+    width: 50%;
+">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613745489/102273/image13_fcp96x.jpg"  style="margin: 0 auto;">
+</div>
 
 
       <p class="mt-3 mb-3">
