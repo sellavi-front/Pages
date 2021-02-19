@@ -31,7 +31,7 @@ body.theme_7.common-home header.header .header-wrapper {
 }
 
 .common-home .cart-norm-qty.d-none.d-lg-inline-block {
-    display: none !important !important;
+    display: none !important;
 }
 
 .common-home .wrapper header.header .cart-wrapper {
