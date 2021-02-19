@@ -200,7 +200,7 @@ export default function urbanEconomy() {
           различныхуслуги товаров.
           </p>
         </div>
-        <div class="row">
+        <div class="row photo-flex">
           <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-17_%D0%B2_15.26.59_wyuysi.png" alt="">
           <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/maxresdefault_2_x43myz.jpg" alt="">
           <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1613734936/102273/maxresdefault_i9qbve.jpg" alt="">
