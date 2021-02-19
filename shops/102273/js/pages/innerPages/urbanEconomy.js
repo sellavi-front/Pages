@@ -127,11 +127,11 @@ export default function urbanEconomy() {
             Минобороны, Р/ЖД, Сколково, ARTPLAY, Северсталь, НЛМК, РОСНАНО.
           </p>
         </div>
-        <div class="photo-flex d-flex justify-content-center flex-wrap">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_52_rqusdr.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_55_vdermk.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_53_bqrypn.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_54_fr2p2e.png" alt="">
+        <div class="row mb-5">
+          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_52_rqusdr.png" alt="">
+          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_55_vdermk.png" alt="">
+          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_53_bqrypn.png" alt="">
+          <img class="col-md-3 col-12" src="https://res.cloudinary.com/depgheppz/image/upload/v1612094357/102273/image_54_fr2p2e.png" alt="">
         </div>
 
         <div>
