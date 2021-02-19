@@ -11,16 +11,16 @@ export default function urbanEconomy() {
             отметки 40 000 000 человек. Имеет 249 действующих федеральных и локальных заказчиков.
           </p>
         </div>
-        <div class="d-flex flex-wrap justify-content-center photo-flex">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_truda2_308x265_b85_1_ow9eim.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_krput_308x265_b85_1_weptac.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_mayorch_308x265_b85_1_nefei3.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/prew_jukova_308x265_b85_1_fyo1ip.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/pre2_308x265_b85_1_aiuitl.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/bryansk3_308x265_b85_1_ubkfpd.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/arbat2_308x265_b85_1_nkxawi.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/ibis1_308x265_b85_1_b2te7e.png" alt="">
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/matrosova1_308x265_b85_1_z8vzjj.png" alt="">
+        <div class="row photo-flex">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_truda2_308x265_b85_1_ow9eim.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_krput_308x265_b85_1_weptac.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093716/102273/prew_mayorch_308x265_b85_1_nefei3.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/prew_jukova_308x265_b85_1_fyo1ip.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/pre2_308x265_b85_1_aiuitl.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/bryansk3_308x265_b85_1_ubkfpd.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/arbat2_308x265_b85_1_nkxawi.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/ibis1_308x265_b85_1_b2te7e.png" alt="">
+          <img class="col-md-4 col-12 mb-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1612093715/102273/matrosova1_308x265_b85_1_z8vzjj.png" alt="">
         </div>
       </div>
       <div class="sect w-100 mb-7">
