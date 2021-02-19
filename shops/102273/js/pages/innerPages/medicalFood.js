@@ -1267,7 +1267,7 @@ export default function medicalFood() {
     </div>
   </div>
   <div class="sect">
-    <h4><b>Ассортимент ародукции:</b></h4>
+    <h4><b>Ассортимент продукции:</b></h4>
     <div class="w-100 mb-5">
       <div class="mb-5">
         <p>
