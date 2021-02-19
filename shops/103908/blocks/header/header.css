@@ -229,6 +229,12 @@ body.theme_7 .wrapper header.header .header-wrapper {
     margin-bottom: 15px
 }
 
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(2) > h2 > span {
+    font-size: 30px;
+    text-transform: none;
+    font-weight: 600;
+}
+
 
 /* .common-home header {
     position: absolute;
