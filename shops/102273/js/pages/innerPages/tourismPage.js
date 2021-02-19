@@ -50,7 +50,7 @@ const tourismPage = () => {
       </p>
     </div>
     <div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_21_h2auzr.jpg"
           alt=""
@@ -68,7 +68,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_19_vqkpkh.jpg"
           alt=""
@@ -84,7 +84,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_18_kuotgb.jpg"
           alt=""
@@ -98,7 +98,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_17_jg66dt.jpg"
           alt=""
@@ -112,7 +112,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_16_l7bbpj.jpg"
           alt=""
@@ -127,7 +127,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_15_tmgiju.jpg"
           alt=""
@@ -145,7 +145,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_14_f0ums0.jpg"
           alt=""
@@ -160,7 +160,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_13_nvkn3e.jpg"
           alt=""
@@ -176,7 +176,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_12_vw379m.jpg"
           alt=""
@@ -195,7 +195,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_11_lexgyi.jpg"
           alt=""
@@ -210,7 +210,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-items-center">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_9_bf5dr9.jpg"
           alt=""
