@@ -452,13 +452,13 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     }
 
     .common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
 
     .common-home .wrapper.wrapper-closed > div > section > div > div > div.col > div {
         padding-left: 15px;
         padding-right: 15px;
-    }
+    } 
 
 
     
