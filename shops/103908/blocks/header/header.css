@@ -328,3 +328,49 @@ body.theme_7.common-home header.header .header-wrapper {
 .common-home .header .header-search button i {
     font-size: 25px;
 } */
+
+
+footer {
+    border-top: 0px !important;
+}
+
+footer > div.footer-widgets > div.container {
+    border-top: 2px solid #878787;
+    padding-top: 30px
+}
+
+footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    margin-bottom: 0px !important;
+}
+
+.footer .footer-widgets .widget-title:before {
+    display: none !important;
+}
+
+.footer-widgets .widget-categories ul li a:before {
+    display: none !important;
+}
+
+.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div > div > div > ul > li > a {
+    padding-left: 0px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #878787;
+}
+
+.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div > div > ul > li > a {
+    padding-left: 0px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #878787;
+}
+
+.widget-categories ul li+li {
+    border-top: 0px;
+}
+
+.footer .footer-widgets {
+    background: #fff !important;
+}
