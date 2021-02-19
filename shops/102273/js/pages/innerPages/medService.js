@@ -1200,42 +1200,42 @@ const medService = () => {
       <h4><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
       <div class="d-flex flex-wrap">
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/7_7_lhyedu.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_1_1_ajpo22.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/8_98_qkke0x.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/3_1_1_ioxg7b.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_pfwgtq.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_fs0uud.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/9_4_divgal.png"
           alt=""
         />
         <img
-          class="col-md-1 col"
+          class="col-sm-2 col"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/10_6196_hc3j2i.png"
           alt=""
         />
