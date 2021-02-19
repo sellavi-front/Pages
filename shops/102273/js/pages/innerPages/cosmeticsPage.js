@@ -197,7 +197,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/orig_1_frqfsl.png"
-          class="w-50"
+          class="h-50"
         />
       </div>
     </div>
@@ -278,7 +278,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/images_1_drgnbz.png"
-          class="w-50"
+          class="h-50"
         />
       </div>
     </div>
@@ -329,7 +329,7 @@ export default function cosmeticsPage() {
       <div class="col">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/6008710065_1_pbtrc5.png"
-          class="w-50"
+          class="h-50"
         />
       </div>
     </div>
@@ -467,7 +467,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/a51242973d399533b63bd86e020fe112-big_1_wyigzg.png"
-              class="w-50"
+              class="h-50"
             />
           </div>
           <div class="w-100">
@@ -652,7 +652,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007118061_1_jplqbl.png"
-              class="w-50"
+              class="h-50"
             />
           </div>
         </div>
@@ -692,7 +692,7 @@ export default function cosmeticsPage() {
             </p>
           </div>
           <div class="col">
-            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007958616_1_giu0ts.png" class="w-50">
+            <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007958616_1_giu0ts.png" class="h-50">
           </div>
         </div>
       </div>
@@ -769,7 +769,7 @@ export default function cosmeticsPage() {
           <div class="col">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007893304_1_sasfyw.png"
-            class="w-50"
+            class="h-50"
           />
         </div>
         </div>
@@ -794,7 +794,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007118063_1_rxpzbp.png"
-              class="w-50"
+              class="h-50"
             />
           </div>
         </div>
@@ -823,7 +823,7 @@ export default function cosmeticsPage() {
           <div class="col">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007118065_1_kzkyl9.png"
-              class="w-50"
+              class="h-50"
             />
           </div>
         </div>
