@@ -617,6 +617,32 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
         display: flex;
         justify-content: center;
     }
+
+    footer > div.footer-widgets > div.container > div > div > div > div > ul > li > a {
+      padding-left: 0px !important;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      color: #878787;
+  }
+  
+  footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > h4 {
+      margin-top: 30px;
+  }
+  
+  footer > div.footer-widgets > div.container > div > div > div > ul > li > a {
+      padding-left: 0px !important;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      color: #878787;
+  }
+  
+  footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > h4 {
+      margin-top: 30px;
+  }
+  
+  footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > h4 {
+      margin-top: 30px;
+  }
 }
 
 
