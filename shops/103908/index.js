@@ -188,6 +188,9 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
+if (document.querySelector('.checkout-checkout')) {
+    document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.checkout_title > h2').innerHTML = 'Шаг 1: Данные плательщика'
+}
 
 if (location.href.includes('policy')) {
   const req = new Requisites(
