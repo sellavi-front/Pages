@@ -64,7 +64,7 @@ body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
 }
 
 @media (min-width: 992px) {
-  .d-lg-none {
+  .cart-qty-circle {
     display: block !important;
   }
 }
