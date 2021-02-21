@@ -92,3 +92,11 @@ body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_
     background: #fff;
     width: 200px;
 }
+
+
+@media (max-device-width: 480px) {
+    .mobile_two_columns .products .thumbnail .caption {
+        max-height: 80px;
+        min-height: 45px;
+    }
+}
