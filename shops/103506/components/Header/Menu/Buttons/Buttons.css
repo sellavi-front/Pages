@@ -1,4 +1,5 @@
 @import "./Search/Search.css";
+@import "Cart/Cart.css";
 
 body.ltr .wrapper header.header .cart-wrapper {
   background-color: transparent !important;
