@@ -218,7 +218,7 @@ if (document.querySelector(".footer-widgets")) {
     document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").innerHTML = "О мастере"
 }
 
-if (document.querySelector(".about")) {
+if (document.querySelector(".information-information-6862")) {
     document.querySelector("#content > div > div").insertAdjacentHTML("beforebegin", `<div class="col-md-4"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613662311/20201017_101826_1_nbttwm.png"></div>`)
     document.querySelector("#content > div > div.col-md-12").classList = "col-md-8"
 }
