@@ -647,18 +647,20 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   display: none;
 }
 
-@media (min-device-width: 480px) {
 
-  .common-home > div > div > div.custom_section > div > div:nth-child(2) > div:nth-child(1) {
-    flex: 0 0 33.33333%;
-    max-width: 33.1% !important;
-}
+@media (min-width: 992px) {
+  .common-home > div > div > div.custom_section > div > div:nth-child(3) > div {
+      flex: 0 0 33.33333%;
+      max-width: 33.1% !important;
+  }
 
-.common-home > div > div > div.custom_section > div > div:nth-child(2) > div {
-    top: 15px
-}
+  .common-home > div > div > div.custom_section > div > div:nth-child(2) > div {
+      flex: 0 0 33.33333%;
+      max-width: 33.1% !important;
+  }
 
-.common-home > div > div > div.custom_section > div > div:nth-child(3) > div {
-    top: 10px
-}
+  .common-home > div > div > div.custom_section > div > div:nth-child(4) > div {
+      flex: 0 0 33.33333%;
+      max-width: 33.1% !important;
+  }
 }
