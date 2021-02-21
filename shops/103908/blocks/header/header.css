@@ -436,6 +436,8 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
     height: 65% !important;
   }
 
+  
+
   .common-home .wrapper.wrapper-closed>div>section>div>div>div>div>div.caption.text-center>h4 {
     text-align: left !important;
   }
@@ -688,4 +690,9 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 
 .alert.alert-success {
   z-index: 999;
+}
+
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
+  padding: 0px;
 }
