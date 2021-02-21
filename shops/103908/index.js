@@ -212,3 +212,8 @@ if (location.href.includes('pay-delivery')) {
   );
   req.setTemplate();
 }
+
+
+if (document.querySelector(".footer-widgets")) {
+    document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").innerHTML = "О мастере"
+}
