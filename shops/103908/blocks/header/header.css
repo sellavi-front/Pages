@@ -24,6 +24,8 @@ body.theme_7.common-home header.header .header-wrapper {
 
 .common-home .wrapper header.header .header-search input {
   background: #ff000000 !important;
+  border-bottom: 2px solid #fff !important;
+    border-radius: 0px;
 }
 
 .common-home header.header .form-control {
@@ -527,7 +529,6 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 }
 
 #search>div.search_field {
-  z-index: 1;
   position: relative;
 }
 
