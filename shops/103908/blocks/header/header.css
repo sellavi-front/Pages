@@ -684,3 +684,8 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
   background-color: black;
   padding-top: 30px;
 }
+
+
+.alert.alert-success {
+  z-index: 999;
+}
