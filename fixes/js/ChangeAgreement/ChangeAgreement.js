@@ -7,7 +7,7 @@ export default class ChangeAgreement {
     this.checkbox.textContent = '';
     this.checkbox.insertAdjacentHTML(
       'beforeend',
-      `Согласен (-а) с условиями <a href="/term-of-use/" style="text-decoration: none !important;"><b>Публичной оферты</b></a>`,
+      `Согласен (-а) с условиями <a href="/term-of-use/" class="agree-checkbox"><b>Публичной оферты</b></a>`,
     );
   }
 }

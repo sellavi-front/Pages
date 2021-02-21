@@ -17,6 +17,12 @@ body.theme_11 .wrapper .header {
   padding: 2% 0;
 }
 
+body.common-home.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
+  color: white !important;
+}
+
+
+
 body.theme_11.common-home .wrapper .header {
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), transparent);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent));

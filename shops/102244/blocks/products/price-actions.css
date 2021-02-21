@@ -1,9 +1,31 @@
 body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   position: static !important;
-  margin-top: 10px !important;
+  margin-top: 35px !important;
 }
 
-body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
-body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
-  text-align: center !important;
+@media only screen and (max-width: 576px) {
+  body.ltr.ru
+    .wrapper
+    .page-section
+    .products.grid
+    .product-item
+    .thumbnail
+    .caption
+    h4.caption-title,
+  body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    font-size: 14px !important;
+  }
+
+  body.ltr section.page-section > div > h2:before {
+    display: none !important;
+  }
+
+  body.ru.ltr .wrapper .page-section.latest-section h2.section-title span {
+    margin: 0 20px 0 0!important;
+    text-align: left !important;
+  }
+
+  body.ltr.common-home .page-section h2 {
+    justify-self: flex-start !important;
+  }
 }

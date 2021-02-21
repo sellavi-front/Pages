@@ -1,0 +1,23 @@
+.buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+}
+
+.thumbnail .add_to_wishlist, .thumbnail .remove_from_wishlist {
+  position: relative;
+  left: 0 !important; right: 0 !important; bottom: 0 !important; top: 0 !important;
+
+}
+
+.thumbnail .price {
+  align-self: center;
+  margin: 0 !important;
+  width: 100%;
+}
+
+.price_actions .buttons__container {
+  height: 48px !important;
+}

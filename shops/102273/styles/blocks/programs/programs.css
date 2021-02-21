@@ -1,0 +1,12 @@
+.page-section__programm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 295px);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-row-gap: 15px;
+}
+
+.page-section__programm > li > img {
+  margin-bottom: 10px;
+}

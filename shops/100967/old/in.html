@@ -381,7 +381,6 @@ if (!location.href == 'https://firstsight.ru/checkout/') {
               let x = event.target.closest('li')
               let y = x.querySelector('.panel-collapse')
               let z = x.querySelector('.arrow')
-              console.log(y)
               z.classList.toggle('clicked')
               y.classList.toggle('show')
           })
@@ -389,10 +388,7 @@ if (!location.href == 'https://firstsight.ru/checkout/') {
       /* Color cart number */
       let number = document.querySelector(".cart-qty-circle").textContent.trim()
       $(".cart-qty-circle").bind("DOMSubtreeModified",function(){
-          console.log(typeof number)
-          console.log(number)
           if(number !== '0') {
-              console.log(number)
               document.querySelector(".cart-qty-circle").style.backgroundColor = 'red'
           } else document.querySelector(".cart-qty-circle").style.backgroundColor = 'white'
       });

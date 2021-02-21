@@ -12,3 +12,10 @@ body.common-home .menu-toggle svg {
 .logo img {
   max-height: 88px !important;
 }
+
+
+@media (max-width: 495px) {
+  .logo img {
+    max-height: 68px !important;
+  }
+}

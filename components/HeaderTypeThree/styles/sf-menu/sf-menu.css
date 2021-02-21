@@ -6,7 +6,8 @@
   margin: 5px 14px;
 }
 
-.sf-menu.nav>li>a {
+.sf-menu.nav>li>a,
+.sf-menu.nav>li>div>a {
   font-size: 18px !important;
   margin: 0 !important;
   padding: 5px 0 !important;
@@ -27,9 +28,13 @@ body.ltr .wrapper .header .navigation-wrapper .navigation .nav.sf-menu>li:hover>
   display: none !important;
 }
 
+.navigation_black_screen {
+  display: none;
+}
+
 /* reset container size for .navigation-wrapper*/
 
-body.theme_11 .wrapper .header .navigation-wrapper>div.container {
+body .wrapper .header .navigation-wrapper>div.container {
   max-width: 1140px !important;
 }
 

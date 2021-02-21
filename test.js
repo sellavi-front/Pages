@@ -1,62 +1,97 @@
-// const arr = [
-//   "путин",
-//   "Джобс",
-//   "путин",
-//   "путин",
-//   "путин",
-//   "обама",
-//   "обама",
-//   "обама",
-//   "обама",
-//   "обама",
-//   "бенджамин",
-//   "бенджамин",
-//   "бенджамин",
-//   "новость",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-//   "хаски",
-// ];
+const fs = require('fs');
+const {google} = require('googleapis');
+const readline = require('readline');
 
-// const sorted = [];
+let cities = null;
 
-// const re = arr.reduce(function (acc, el) {
-//   acc[el] = (acc[el] || 0) + 1;
-//   return acc;
-// }, {});
+fs.readFile('russian-city.json', (err, content) => {
+  const data = JSON.parse(content);
 
-// const copy = Object.entries(re);
-// const nw = [];
+  cities = data.map(city => city.name);
+})
 
-// let prop = [];
-// let newArr = [];
+console.log(cities);
 
-// console.log('re', Object.assign(re));
-// Object.entries(re).map((el, i, arr) => {
-//   prop.push(arr[i][1]);
-// });
-// prop.sort();
 
-// copy.forEach((el, i, arr) => {
-//   console.log('propi', Object.assign(arr));
-//     if (arr[i][1] > prop[i]) {
-//       newArr.push(arr[i]);
-//     }
-// });
-// console.log(Object.assign(copy));
-// console.log('arr', newArr);
+const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
 
-// console.log(re);
+const TOKEN_PATH = 'token.json';
 
-  const date = new Date()
-  const newdate = new Date(date.valueOf() + ((24 * 60 * 60 * 1000) * -7)); // желаемая дата
-  const iso = newdate.toISOString().substr(0,10);
-  const now = date.toISOString().substr(0,10)
-console.log(now);
+// Load client secrets from a local file.
+fs.readFile('credentials.json', (err, content) => {
+  if (err) return console.log('Error loading client secret file:', err);
+  // Authorize a client with credentials, then call the Google Sheets API.
+  authorize(JSON.parse(content), listMajors);
+});
 
+function authorize(credentials, callback) {
+  const {client_secret, client_id, redirect_uris} = credentials.installed;
+  const oAuth2Client = new google.auth.OAuth2(
+      client_id, client_secret, redirect_uris[0]);
+
+  // Check if we have previously stored a token.
+  fs.readFile(TOKEN_PATH, (err, token) => {
+    if (err) return getNewToken(oAuth2Client, callback);
+    oAuth2Client.setCredentials(JSON.parse(token));
+    callback(oAuth2Client);
+  });
+}
+
+function getNewToken(oAuth2Client, callback) {
+  const authUrl = oAuth2Client.generateAuthUrl({
+    access_type: 'offline',
+    scope: SCOPES,
+  });
+  console.log('Authorize this app by visiting this url:', authUrl);
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+  rl.question('Enter the code from that page here: ', (code) => {
+    rl.close();
+    oAuth2Client.getToken(code, (err, token) => {
+      if (err) return console.error('Error while trying to retrieve access token', err);
+      oAuth2Client.setCredentials(token);
+      // Store the token to disk for later program executions
+      fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
+        if (err) return console.error(err);
+        console.log('Token stored to', TOKEN_PATH);
+      });
+      callback(oAuth2Client);
+    });
+  });
+}
+
+function listMajors(auth) {
+  const sheets = google.sheets({version: 'v4', auth});
+  const request = {
+    spreadsheetId: '1TQ3aPIg_-vo4UEYrEqMMZu0HbffKChs2tIJi2Opvuyg',  // TODO: Update placeholder value.
+    range: 'Sheet1!A1',
+    valueInputOption: '',  // TODO: Update placeholder value.
+
+    // How the input data should be inserted.
+    insertDataOption: '',  // TODO: Update placeholder value.
+
+    resource: {
+      cities
+    },
+
+    auth: authClient,
+  };
+  sheets.spreadsheets.values.append({
+
+
+  }, (err, res) => {
+    if (err) return console.log('The API returned an error: ' + err);
+    const rows = res.data.values;
+    if (rows.length) {
+      console.log('Name, Major:');
+      // Print columns A and E, which correspond to indices 0 and 4.
+      rows.map((row) => {
+        console.log(`${row[0]}, ${row[4]}`);
+      });
+    } else {
+      console.log('No data found.');
+    }
+  });
+}

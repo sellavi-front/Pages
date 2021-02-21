@@ -21,8 +21,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: #000;
 }
 
@@ -34,45 +34,62 @@
 }
 
 .sf-menu .megamenu > ul {
-  border-top: 2px solid black;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   margin: 50px 5% 0;
   left: 5%;
 }
 
 .sf-menu .megamenu > ul > .megaline {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center !important;
+  -ms-flex-pack: center;
+  justify-content: center !important;
 }
 
 .block-title span:after {
   display: none;
 }
 
-.sf-menu .megamenu>ul .megaline div .block-title {
-    margin: 0 !important;
+.sf-menu .megamenu > ul .megaline div .block-title {
+  margin: 0 !important;
 }
 
-.sf-menu li.megamenu>ul li.megaline div {
-     margin: 0 !important;
-     max-width: 200px;
+.sf-menu li.megamenu > ul li.megaline div {
+  margin: 0 !important;
+  max-width: 200px;
 }
 
-.sf-menu .megamenu ul li>a {
-    padding: 0 10px;
+.sf-menu .megamenu ul li > a {
+  padding: 0 10px;
+  width: 100%;
 }
 
-.sf-menu li:hover>a {
+.sf-menu li:hover > a {
   color: black !important;
 }
 
-.sf-menu li.megamenu ul {
-    margin: 48px 0 0;
+body.dark-mode .sf-menu li:hover > a {
+  color: white;
 }
-.sf-menu li.megamenu>ul > li > div > ul {
+
+body.dark-mode .sf-menu li.megamenu > ul li ul li,
+body.dark-mode .sf-menu li.megamenu > ul li.megaline {
+  background: black;
+}
+
+.sf-menu li.megamenu ul {
+  margin: 48px 0 0;
+}
+.sf-menu li.megamenu > ul > li > div > ul {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 header .button__list {
@@ -83,28 +100,34 @@ body.theme-red-2 .header .navigation-wrapper {
   margin-top: 15px;
 }
 
-.sf-menu .megamenu>ul li ul li {
-     display: -webkit-box !important;
-     display: -ms-flexbox !important;
-     display: flex !important;
-     color: black !important;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    margin-bottom: 30px;
+.sf-menu .megamenu > ul li ul li {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  color: black !important;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  margin-bottom: 30px;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
 }
 
 .arrow {
-    display: none;
+  display: none;
 }
 
 body > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between !important;
+  -ms-flex-pack: justify;
+  justify-content: space-between !important;
 }
 
-.sf-menu li li.active, .sf-menu li li.sfHover, .sf-menu li li.sfHover>a, .sf-menu li li:hover {
+.sf-menu li li.active,
+.sf-menu li li.sfHover,
+.sf-menu li li.sfHover > a,
+.sf-menu li li:hover {
   background: white !important;
 }
 body.theme-black .sf-menu li.megamenu ul a:hover {
@@ -112,13 +135,14 @@ body.theme-black .sf-menu li.megamenu ul a:hover {
 }
 
 .sf-menu > li.megamenu > ul > li.megaline > div > div > span > a {
-  text-transform: uppercase;
   font-weight: bold;
-  color: #8F8F8F;
+  color: #8f8f8f;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .megamenu > ul > .megaline > div > div > span > a:hover {
-  color: #8F8F8F;
+  color: #8f8f8f;
 }
 
 body.ltr .header .header-wrapper .mobile-navigation-wrapper {
@@ -126,14 +150,15 @@ body.ltr .header .header-wrapper .mobile-navigation-wrapper {
 }
 
 @media (max-width: 1200px) {
-      .sf-menu .megamenu > ul > .megaline {
-             padding-left: 2% !important;
-             padding-right: 2% !important;
-      }
+  .sf-menu .megamenu > ul > .megaline {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
 }
 
 @media (max-width: 991px) {
-  .header .header-search, .header-wrapper .navigation > .nav > li.flexy,
+  .header .header-search,
+  .header-wrapper .navigation > .nav > li.flexy,
   .header_widgets .header_login,
   .header .header-wrapper .header-search,
   .button__list_elem #wishlist,

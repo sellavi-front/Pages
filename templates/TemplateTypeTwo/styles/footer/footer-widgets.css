@@ -4,6 +4,10 @@ body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
   margin-bottom: 5px !important;
 }
 
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  font-weight: 100;
+}
+
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   color: black !important;
@@ -11,21 +15,25 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
 
 .footer-widgets .row {
   -ms-flex-wrap: nowrap !important;
-      flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
   width: 100% !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
 }
 
 @media (max-width: 991px) {
   .footer-widgets .row {
     -webkit-box-pack: justify !important;
-        -ms-flex-pack: justify !important;
-            justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
     -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .footer-widgets .row {
     margin: 0 !important;
   }

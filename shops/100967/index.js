@@ -1,28 +1,23 @@
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
+import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
-import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 
-// import AdvantagesTypeOne from '../../components/AdvantagesTypeOne/AdvantagesTypeOne.js';
-// import ContentBannerTypeOne from '../../components/ContentBannerTypeOne/ContentBannerTypeOne.js';
-// import InfoCardTypeOne from '../../components/InfoCardTypeOne/InfoCardTypeOne.js';
 import ImgNearText from '../../components/ImgNearText/ImgNearText.js';
-// import HistoryLine from '../../components/HistoryLine/HistoryLine.js';
 import GridPhotoWithText from '../../components/GridPhotoWithText/GridPhotoWithText.js';
 import RatingWithImgText from '../../components/RatingWithImgText/RatingWithImgText.js';
 import BaseSender from '../../components/BaseSender/BaseSender.js';
+import Steps from '../../components/Steps/Steps.js';
+import deliveryPage from './deliveryPage.js';
 import cartWhite from './assets/svg/bag-white.js';
-// import bootstrapClasses from './utils/bootstrapClasses.js';
-// import advantages from './utils/advantages.js';
-// import dataBannerContent from './utils/dataBannerContent.js';
-// import salesData from './utils/salesData.js';
+import setDarkTheme from '../../components/DarkMode/DarkMode.js';
 import aboutData from './utils/aboutData.js';
-// import historyData from './utils/historyData.js';
-import {l1, l2} from './assets/svg/l1.js'
-// import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import { l1, l2 } from './assets/svg/l1.js';
+import themeToggle from './themeToggle.js';
+import './utils/accuring/accuring.js'
 
 const icons = {
   cart:
@@ -53,9 +48,16 @@ if (document.querySelector('.wrapper')) {
   logoIco.remove();
   logo.insertAdjacentHTML('afterbegin', icons.cart);
 
-  // document.querySelector('.header-wrapper > .container').classList.add('container-fluid');
-  // document.querySelector('.header-wrapper > .container').classList.remove('container');
-
+  document
+    .querySelector(
+      '#home > div.wrapper.wrapper-closed > header > div.navigation-wrapper > div > nav > ul > li:nth-child(3) > a',
+    )
+    .removeAttribute('href');
+  document
+    .querySelector(
+      '#home > div.wrapper.wrapper-closed > header > div.navigation-wrapper > div > nav > ul > li:nth-child(2) > a',
+    )
+    .removeAttribute('href');
   // Icons in header cont
   const headerWrapper = document.querySelector('.header-wrapper>div:first-child');
   const hideCart = document.querySelector('.header-wrapper>div>.header-cart');
@@ -88,9 +90,7 @@ if (document.querySelector('.wrapper')) {
 
   // FOOTER
   baseSender.render();
-  // socialIconsTypeOne.render();
   buttonsInHeader.setTemplate();
-  // delSelectorsProductItem.findAndDelete();
 
   // hideCart.remove();
   navWrapperCon.classList.remove('container');
@@ -139,140 +139,37 @@ if (document.querySelector('.wrapper')) {
     .insertAdjacentHTML('afterbegin', brg.outerHTML);
   brg.remove();
 
-  // setTimeout(() => {
-  //   document.querySelector('.prevent_touch_banner.d-none').insertAdjacentHTML(
-  //     'afterend',
-  //     `
-  //       <div class="mobile-navigation-close">
-  //         <i class="fal fa-times"></i>
-  //       </div>
-  //     `,
-  //   );
-  // }, 500);
-
-  // document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
-  //   document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
-  //     const nav = document.querySelector('.navigation');
-  //     const brg = document.querySelector('.mobile-navigation-wrapper');
-  //     const wrapper = document.querySelector("#home > div");
-  //     wrapper.classList.add('wrapper-closed')
-  //     wrapper.classList.remove('wrapper-opened')
-  //     wrapper.classList.remove('fixed')
-  //     nav.classList.add('nav-closed');
-  //     nav.classList.remove('nav-opened');
-  //     nav.classList.remove('opened');
-  //     brg.querySelector('i').classList.add('fa-bars')
-  //     brg.querySelector('i').classList.remove('fa-times')
-
-  //     document.querySelector('body').classList.remove('overflow-hidden');
-  //   });
-  // });
+  document.querySelectorAll('.sf-menu li.megamenu > ul li.megaline > div').forEach((el) => {
+    el.classList.add('col-2');
+  });
 
   const footerDocs = document.querySelector(
     'footer > div.footer-widgets > div > div.row > div:nth-child(2) > div > ul',
   );
   const phh = document.querySelector('.phh');
   phh.insertAdjacentHTML('beforebegin', `<div class="docs">${footerDocs.outerHTML}</div>`);
+
+  document.querySelectorAll('.panel-collapse > ul > li > a').forEach((el) => {
+    const tr = el.textContent;
+
+    if (tr.includes(' - ')) {
+      el.textContent = tr.slice(2);
+    }
+  });
 }
 
+if (document.querySelector('.account-register')) {
+  document.querySelectorAll('form > fieldset > div > div').forEach((sel) => {
+    sel.classList.remove('col-sm-10');
+  });
+}
 if (document.querySelector('.common-home')) {
-  // const pageSection = document.querySelector('.page-section');
-
-  // const product = document.querySelectorAll('.product-item');
-
-  // let twoWeek = document.createElement('div');
-  // let oneMonth = document.createElement('div');
-  // let row1 = document.createElement('div');
-  // let row2 = document.createElement('div');
-  // let titleWeek = document.createElement('h2');
-  // let titleWeekSpan = document.createElement('span');
-  // let titleMonth = document.createElement('h2');
-  // let titleMonthSpan = document.createElement('span');
-
-  // twoWeek.classList.add('container', 'twoWeek');
-  // oneMonth.classList.add('container', 'oneMonth');
-  // row1.classList.add('row', 'products', 'grid');
-  // row2.classList.add('row', 'products', 'grid');
-  // titleWeek.classList.add('section-title', 'mb-4', 'mt-4');
-  // titleMonth.classList.add('section-title', 'mb-4', 'mt-4');
-
-  // pageSection.append(twoWeek);
-  // pageSection.append(oneMonth);
-
-  // titleWeekSpan.textContent = 'Двухнедельные линзы';
-  // titleMonthSpan.textContent = 'Линзы месячного ношения';
-
-  // const monthCont = document.querySelector('.oneMonth');
-  // const weekCont = document.querySelector('.twoWeek');
-
-  // monthCont.append(row1);
-  // weekCont.append(row2);
-
-  // weekCont.prepend(titleWeek);
-  // monthCont.prepend(titleMonth);
-  // titleWeek.append(titleWeekSpan);
-  // titleMonth.append(titleMonthSpan);
-
-  // const monthRow = document.querySelector('.oneMonth>.products');
-  // const weekRow = document.querySelector('.twoWeek>.products');
-  // const monthArr = ['688', '687', '4441', '977'];
-  // const weekArr = ['668', '4426'];
-
-  // product.forEach(function (i) {
-  //   const attr = i.getAttribute('data-product_id');
-
-  //   if (attr === '688' || attr === '687' || attr === '4441' || attr === '977') {
-  //     monthRow.append(i);
-  //   }
-  //   if (attr === '668' || attr === '4426') {
-  //     weekRow.append(i);
-  //   }
-  // });
-  // const advantagesTypeOne = new AdvantagesTypeOne(
-  //   document.querySelector('.page-section'),
-  //   advantages,
-  // );
-  // const contentBanner = new ContentBannerTypeOne(
-  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
-  //   'beforeEnd',
-  //   dataBannerContent,
-  // );
-  // const infoCardTypeOne = new InfoCardTypeOne(
-  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
-  //   'beforeEnd',
-  //   salesData,
-  // );
-
-  // const imgNearText = new ImgNearText(
-  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
-  //   'beforeEnd',
-  //   aboutData,
-  // );
-
-  // const historyLine = new HistoryLine(
-  //   document.querySelector('body>.wrapper>.content-area>.page-section'),
-  //   'beforeEnd',
-  //   historyData,
-  // );
   const gridPhotoWithText = new GridPhotoWithText(
     document.querySelector('body>.wrapper>.content-area>.page-section'),
     'beforeEnd',
   );
 
-  // advantagesTypeOne.render();
-  // contentBanner.render();
-  // infoCardTypeOne.render();
-  // imgNearText.render();
-  // historyLine.render();
   gridPhotoWithText.render();
-
-  // const bannerContentItemImg = document.querySelector('.banner-content__item');
-
-  // // Коробка которая вылезает за баннер
-  // bannerContentItemImg.insertAdjacentHTML(
-  //   'afterbegin',
-  //   `<img class="img-1" src="https://res.cloudinary.com/gz-company/image/upload/v1606223895/Miru/Group_88_1_lfzmtk.png">`,
-  // );
 }
 
 if (document.querySelector('.product-product')) {
@@ -289,8 +186,6 @@ if (document.querySelector('.product-product')) {
   const ratingArr = [rating, reviews];
   const titleCont = [title, productAvailability];
 
-  // const social = document.querySelector('.share_page_wrapper');
-
   const onDelete = [
     model,
     description,
@@ -298,7 +193,6 @@ if (document.querySelector('.product-product')) {
     rating,
     reviews,
     productRating,
-    // social,
     title,
     productAvailability,
   ];
@@ -330,12 +224,12 @@ if (document.querySelector('.product-product')) {
 
   deleteEl.remove();
   document
-    .querySelector('body > div > div > section:nth-child(1) .product-single > div:nth-child(2)')
+    .querySelector('body > div > div > section .product-single > div:nth-child(2)')
     .childNodes[3].remove();
 
   document
     .querySelector(
-      '#home > div > div > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a',
+      '#home > div > div > section > div > div.row.product-single.product-item > div:nth-child(2) > div.price-cont > div.rating-cont > a',
     )
     .text.substr(0, 2);
 
@@ -345,14 +239,30 @@ if (document.querySelector('.product-product')) {
       '#review > div.comments > div > div > p.comment-meta',
     );
     commentMeta.insertAdjacentHTML('beforeend', date.outerHTML);
+
+    document.querySelector('#form-review > div.comments-form > h2').textContent = 'Оставить отзыв';
   }
 }
 
 if (location.href.includes('/checkout')) {
-  const textDelivery = document.querySelector(
-    '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div:nth-child(3) > div > div > label',
-  );
-  textDelivery.textContent = 'Оплата курьеру при получении';
+  document
+    .querySelectorAll('body > div.content-area > section > div.flexwrap.checkout_form > div h2')
+    .forEach((h2) => {
+      h2.textContent = h2.textContent.replace(/Шаг \w:/gi, '');
+    });
+
+  document
+    .querySelector(
+      '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
+    )
+    .insertAdjacentHTML(
+      'beforeend',
+      `
+<div class="warranty">
+  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
+</div>
+`,
+    );
 }
 
 if (document.querySelector('.product-item')) {
@@ -370,7 +280,7 @@ if (document.querySelector('.product-product')) {
   btnCart.insertAdjacentHTML('afterbegin', cartWhite);
 
   const colProdcut = document.querySelector(
-    '#home > div > div.content-area > section:nth-child(1) > div > div.row.product-single.product-item > div:nth-child(2)',
+    '#home > div > div.content-area > section > div > div.row.product-single.product-item > div:nth-child(2)',
   );
   colProdcut.insertAdjacentHTML(
     'beforeend',
@@ -381,53 +291,303 @@ if (document.querySelector('.product-product')) {
   `,
   );
 
-  const titleSect = document.querySelector("#home > div > section > div > h2 > span");
-  titleSect.insertAdjacentHTML('afterend', l1)
-  titleSect.insertAdjacentHTML('beforebegin', l2)
-  // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
-  //   el.insertAdjacentHTML(
-  //     'beforebegin',
-  //     `<div class="tab-content__content">
-  // ${el.previousSibling.outerHTML} ${el.outerHTML}
-  // </div>`,
-  //   );
-  //   el.previousSibling.previousSibling.remove();
-  //   el.remove();
-  // });
-
-  // document.querySelectorAll('#tab-description > span > ul').forEach((el) => {
-  //   el.insertAdjacentHTML(
-  //     'beforebegin',
-  //     `<div class="tab-content__content">
-  // ${el.previousSibling.outerHTML} ${el.outerHTML}
-  // </div>`,
-  //   );
-  //   el.previousSibling.remove();
-  //   el.remove();
-  // });
-
-  // const content = document.querySelector('.tab-content__content');
-  // const contents = document.querySelectorAll('.tab-content__content');
-  // content.insertAdjacentHTML('beforebegin', `<div class="tab-content__container"></div>`);
-
-  // const container = document.querySelector('.tab-content__container');
-  // contents.forEach((el) => {
-  //   container.insertAdjacentHTML('beforeend', el.outerHTML);
-  //   el.remove();
-  // });
+  const titleSect = document.querySelector('#home > div > section > div > h2 > span');
+  if (titleSect) {
+    titleSect.insertAdjacentHTML('afterend', l1);
+    titleSect.insertAdjacentHTML('beforebegin', l2);
+  }
 }
 
-if (location.href.includes('/checkout')) {
-  document
-    .querySelector(
-      '#home > div.content-area > section > div.flexwrap.checkout_form > div.cart_block',
-    )
-    .insertAdjacentHTML(
-      'beforeend',
-      `
-  <div class="warranty">
-    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1611321319/Group_264_1_qlpx7e.png">
-  </div>
-`,
+if (location.href.includes('/pay-delivery')) {
+  const mainContainer = document.querySelector('#content > div > div');
+
+  const props = {
+    container: mainContainer,
+    target: 'beforeend',
+  };
+
+  const dataSteps = {
+    title: 'Клуб Miru позволит вам:',
+    content: [
+      'Скорректировать контактные данные и адрес доставки;',
+      'Посмотреть историю покупок;',
+      'Проконсультироваться с врачом-офтальмологом;',
+      'Получить напоминание пополнить Ваш запас линз, с нами вы всегда будете видеть!',
+      'Записаться на бесплатный прием к офтальмологу.',
+      'Получать подарки, бонусы, скидки и многое другое!',
+    ],
+  };
+
+  new Steps(props, dataSteps).setTemplate();
+
+  mainContainer.insertAdjacentHTML('beforeend', deliveryPage());
+
+  document.querySelector('.page-section.titles').insertAdjacentHTML(
+    'beforebegin',
+    `
+  <section class="page-section reg">
+    <div class="reg-text">
+        <h1>Регистрация на сайте</h1>
+        <p>
+          Мы ценим Ваше время, поэтому предлагаем максимально просто вступить в Клуб Miru - зарегистрироваться на сайте mirulens.ru для удобного и быстрого заказа Ваших линз!
+        </p>
+    </div>
+  </section>`,
+  );
+}
+
+window.onload = () => {
+  setTimeout(function () {
+    const buttons = document.querySelectorAll(
+      '#product > div.form-group.col-sm-6.required.option-group > div > button',
     );
-}
+    if (buttons.length) {
+      for (let index = 1; index <= buttons.length; index += 1) {
+        buttons[index - 1].addEventListener('click', () => {
+          const options = document.querySelectorAll('.dropdown-item');
+          const mainLinkParts = location.href.split('/');
+          const linkParts = mainLinkParts[mainLinkParts.length - 2].split('-');
+          for (let option of options) {
+            const title = option.firstElementChild.textContent;
+            const type = title.replace('.', '').replace('-', 'minus').trim();
+            linkParts[index] = type;
+            if (option.firstElementChild.textContent === ' --- Выберите --- ') {
+              option.href = `/${linkParts.slice(0, index).join('-')}/`;
+            } else {
+              option.href = `/${linkParts.join('-')}/`;
+            }
+            option.addEventListener('click', (e) => {
+              e.stopPropagation();
+            });
+          }
+        });
+      }
+    }
+  }, 1500);
+
+  setTimeout(function () {
+    const buttons = document.querySelectorAll(
+      '#product > div.form-group.col-sm-6.required.option-group > div > button',
+    );
+    if (buttons.length) {
+      const mainLinkParts = location.href.split('/');
+      const linkParts = mainLinkParts[mainLinkParts.length - 2].split('-');
+      for (let index = 1; index <= buttons.length && index <= linkParts.length; index += 1) {
+        const modification = linkParts[index].replace('minus', '-');
+
+        buttons[index - 1].click();
+
+        const options = document.querySelectorAll('.dropdown-item');
+        for (let option of options) {
+          const optionName = option.firstElementChild.textContent
+            .toLowerCase()
+            .trim()
+            .replace('.', '');
+          if (optionName === modification) {
+            option.click();
+          }
+        }
+
+        document
+          .querySelector(
+            'body> div.wrapper.wrapper-closed > div.content-area > section:nth-child(1) > div > div > div:nth-child(2)',
+          )
+          .click();
+      }
+    }
+  }, 1000);
+
+  setTimeout(function () {
+    const selector = document.querySelector('.selectpicker-wrapper');
+    if (!selector) {
+      const button = document.querySelector(
+        'body> div.wrapper.wrapper-closed > div.content-area > section:nth-child(1) > div > div > div:nth-child(2) > div.buttons.d-flex.flex-wrap',
+      );
+      /*if (button) {
+              button.remove();
+          } */
+    }
+  }, 900);
+
+  if (
+    location.href.includes('?utm_source=google') ||
+    location.href.includes('/?utm_source=vk') ||
+    location.href.includes('/?utm_source=direct.yandex.ru') ||
+    location.href.includes('/?utm_source=facebook')
+  ) {
+    const mediaBody = document.querySelector(
+      'div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > div',
+    );
+
+    mediaBody.classList.remove('media-body');
+    mediaBody.classList.add('ya-phone');
+  }
+
+  /*  if (!location.href.includes('?utm_source=google') || !location.href.includes('/?utm_source=vk') || !location.href.includes('/?utm_source=direct.yandex.ru') || !location.href.includes('/?utm_source=facebook')){
+      let wiCat = document.querySelector("div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1)");
+      const neCat = wiCat.querySelector('.ya-phone');
+
+      neCat.insertAdjacentHTML('afterbegin', '+74993988966');
+      neCat.setAttribute('href', 'tel:74993988966');
+  }*/
+
+  if (location.href.includes('/contact')) {
+    const mediaBody = document.querySelector(
+      'div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > div',
+    );
+    let widdCat = document.querySelector(
+      '#home > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1)',
+    );
+
+    const newCat = widdCat.querySelector('.ya-phone');
+
+    // newCat.insertAdjacentHTML('afterbegin', '+74993988966');
+    mediaBody.insertAdjacentHTML(
+      'beforeend',
+      `<a class="ya-phone" href="tel:74993980693"> +7 (499) 398-89-66</a>`,
+    );
+  }
+
+  const headCont = document.querySelector(
+    '#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container',
+  );
+
+
+//   if (document.querySelector('.common-home')) {
+
+//     if (location.href.includes('/checkout')) {
+//       document
+//         .querySelector(
+//           '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > label',
+//         )
+//         .addEventListener('click', function () {
+//           document.querySelector('#agree-checkbox').checked = true;
+//         });
+//       let radioCustm = document.querySelectorAll('.shipping-method>.customized');
+
+//       radioCustm[2].insertAdjacentHTML(
+//         'beforeEnd',
+//         `
+// <p class="delivery__description">Выберите удобный пункт выдачи заказов по ссылке <a href="https://www.dpd.ru/dpd/chooser.do2" target="_blank">https://www.dpd.ru/dpd/chooser.do2</a> и в поле "адрес" скопируйте адрес этого пункта выдачи заказов. Заказы, оформленные до 16:00 будут отправлены на следующий рабочий день. Заказы, оформленные после 16:00 будут отправлены через один рабочий день.  После отправки вам придёт СМС с кодом отслеживания и дата получения заказа в пункте выдачи.
+// <span>
+// <img src="https://res.cloudinary.com/gz-company/image/upload/v1601977874/WhatsApp_Image_2020-10-06_at_11.23.20_wn1zye.jpg" alt="">
+// </span>
+// </p>
+// `,
+//       );
+//     }
+//   }
+};
+
+$(document).ready(function () {
+  if (location.href === `${location.origin}/checkout/`) {
+    $('.checkout-checkout').ready(function () {
+      let checkboxLable = $('.checkbox>label');
+      checkboxLable.html(
+        'Согласен(-а) с <a href="/terms-return/" " style="text-decoration: none !important; "><b>Условиями </b></a>',
+      );
+    });
+  }
+
+  $('.product-product').ready(function () {
+    $('#button-cart').on('click', function () {
+      const alerts = document.querySelectorAll('.text-danger');
+      for (let alert of alerts) {
+        const alertParent = alert.parentElement;
+        const nameBlock = alertParent.firstElementChild;
+        const name = nameBlock.textContent.toLowerCase();
+        alert.innerHTML = `Поле ${name} обязательно!`;
+      }
+    });
+  });
+
+  $('.price_actions').removeClass('justify-content-between');
+  $('.price_actions').addClass('flex-column justify-content-center');
+  let widget = $('.footer-widgets>.container>.row>.col-md-3:first>.widget');
+  let widTitle = widget.find('.widget-title');
+  let widCat = $(
+    'div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1)',
+  );
+
+  let textTrans = 'About us ';
+  let textRus = 'Контакты';
+
+  if (widTitle.html() == textTrans || widCat.html() == textTrans) {
+    widTitle.text(textRus);
+    widCat.prepend(`<a class="ya-phone"> </a>`);
+
+    $(
+      'footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a:nth-child(2)',
+    ).remove();
+  }
+});
+
+$(document).ready(function () {
+  $(
+    '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label',
+  ).html('a');
+});
+
+$(document).ready(function () {
+  $(
+    '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label',
+  ).html(
+    `<label>Я ПРОЧИТАЛ <a href="${location.origin}/terms-return/" target="_blank">УСЛОВИЯ</a> И СОГЛАСЕН С УСЛОВИЯМИ</label>`,
+  );
+});
+
+$(function () {
+  setTimeout(() => {
+    const soldOutList = document.querySelectorAll(
+      '#product>.selectpicker-wrapper:nth-child(1) > div > div > .custom-control-label',
+    );
+    soldOutList.forEach((item) => {
+      let el = item;
+      if (el.innerHTML.length > 6) {
+        let newEl = item.textContent.slice(0, 6);
+        el.textContent = newEl;
+        el.classList.add('sold__out');
+      }
+    });
+  }, 1000);
+  if (!location.href == `${location.origin}/checkout/`) {
+    let burger = document.querySelector(
+      '#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky',
+    );
+
+    burger.addEventListener('click', () => {
+      let aLinks = document.querySelectorAll(
+        '#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul > .flexy > a',
+      );
+
+      let ul = document.querySelector(
+        '#home > nav.navigation.mobile_side_nav.opened.nav-opened > ul',
+      );
+
+      /* Delete href */
+      aLinks.forEach((a) => {
+        a.removeAttribute('href');
+      });
+
+      /* Added a click event with opening area with li elements */
+      ul.addEventListener('click', (event) => {
+        let x = event.target.closest('li');
+        let y = x.querySelector('.panel-collapse');
+        let z = x.querySelector('.arrow');
+        console.log(y);
+        z.classList.toggle('clicked');
+        y.classList.toggle('show');
+      });
+    });
+    /* Color cart number */
+    let number = document.querySelector('.cart-qty-circle').textContent.trim();
+    $('.cart-qty-circle').bind('DOMSubtreeModified', function () {
+      console.log(typeof number);
+      console.log(number);
+      if (number !== '0') {
+        console.log(number);
+        document.querySelector('.cart-qty-circle').style.backgroundColor = 'red';
+      } else document.querySelector('.cart-qty-circle').style.backgroundColor = 'white';
+    });
+  }
+});

@@ -1,40 +1,44 @@
-body.dark-mode.theme_11.ltr,
-body.dark-mode.theme_11.ltr header,
-body.dark-mode.theme_11.ltr .footer .footer-meta,
-body.dark-mode.theme_11.ltr .owl-carousel,
-body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
-body.dark-mode.theme_11.ltr .form-control,
-body.dark-mode.theme_11.ltr .form-control:focus,
-body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-body.dark-mode.theme_11.ltr .information-title,
-body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
-body.dark-mode.theme_11.ltr .select2-container--default .select2-selection--single,
-body.dark-mode.theme_11.ltr.checkout-checkout .content-area .page-section,
-body.dark-mode.theme_11.ltr .content-area .page-section.breadcrumbs,
-body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search.opened #search_results,
-body.dark-mode.theme_11.ltr.sidenav-enabled .mobile_side_nav,
-body.dark-mode.theme_11.ltr .select2-container--open .select2-dropdown--above,
-body.dark-mode.theme_11.ltr .select2-container--default .select2-search--dropdown .select2-search__field,
-body.dark-mode.theme_11.ltr .details-box>ul,
-body.dark-mode.theme_11.ltr .select2-dropdown,
-body.dark-mode.theme_11.ltr.checkout-checkout .order-summary-toggle,
-body.dark-mode.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+@import './btnToggle/btnToggle.css';
+
+body.dark-mode.ltr,
+body.dark-mode.ltr header,
+body.dark-mode.ltr .footer .footer-meta,
+body.dark-mode.ltr .owl-carousel,
+body.dark-mode.ltr .cart-items .cart-items-inner,
+body.dark-mode.ltr .form-control,
+body.dark-mode.ltr .form-control:focus,
+body.dark-mode.ltr.account-login .create-account .button_holder .btn.btn-block,
+body.dark-mode.ltr .information-title,
+body.dark-mode.ltr .widget.account-details .widget-title,
+body.dark-mode.ltr .select2-container--default .select2-selection--single,
+body.dark-mode.ltr.checkout-checkout .content-area .page-section,
+body.dark-mode.ltr .content-area .page-section.breadcrumbs,
+body.dark-mode.ltr .wrapper .header .header-wrapper .header-search.opened #search_results,
+body.dark-mode.ltr.sidenav-enabled .mobile_side_nav,
+body.dark-mode.ltr .select2-container--open .select2-dropdown--above,
+body.dark-mode.ltr .select2-container--default .select2-search--dropdown .select2-search__field,
+body.dark-mode.ltr .details-box > ul,
+body.dark-mode.ltr .select2-dropdown,
+body.dark-mode.ltr.checkout-checkout .order-summary-toggle,
+body.dark-mode .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart,
+body.dark-mode .sf-menu li.megamenu > ul li ul li,
+body.dark-mode .sf-menu li.megamenu > ul li.megaline {
   background: black !important;
 }
 
-body.dark-mode.theme_11.ltr .form-control::-webkit-input-placeholder {
+body.dark-mode.ltr .form-control::-webkit-input-placeholder {
   color: white !important;
 }
 
-body.dark-mode.theme_11.ltr .form-control::-moz-placeholder {
+body.dark-mode.ltr .form-control::-moz-placeholder {
   color: white !important;
 }
 
-body.dark-mode.theme_11.ltr .form-control:-ms-input-placeholder {
+body.dark-mode.ltr .form-control:-ms-input-placeholder {
   color: white !important;
 }
 
-body.dark-mode.theme_11.ltr .form-control::-ms-input-placeholder {
+body.dark-mode.ltr .form-control::-ms-input-placeholder {
   color: white !important;
 }
 
@@ -75,17 +79,17 @@ body.dark-mode.ltr
   .header-cart
   .cart-wrapper
   #cart,
-body.dark-mode.theme_11 .wrapper .header .header-wrapper .header-search button,
-body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
-body.dark-mode.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title,
-body.dark-mode.theme_11.product-product .product-single .product-availability,
-body.dark-mode.theme_11.product-product .product-single .product-price,
-body.dark-mode.theme_11.ltr.product-product .product-single #tab-description h3,
-body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons #button-cart,
-body.dark-mode.theme_11.ltr.product-product .tab-pane p,
-body.dark-mode.theme_11.ltr .btn.dropdown-toggle,
-body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons .btn-wish-list i,
-body.dark-mode.theme_11.ltr.checkout-cart
+body.dark-mode .wrapper .header .header-wrapper .header-search button,
+body.dark-mode .wrapper footer.footer .footer-widgets .widget-categories ul li a,
+body.dark-mode .wrapper footer.footer .footer-widgets .widget .widget-title,
+body.dark-mode.product-product .product-single .product-availability,
+body.dark-mode.product-product .product-single .product-price,
+body.dark-mode.ltr.product-product .product-single #tab-description h3,
+body.dark-mode.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.dark-mode.ltr.product-product .tab-pane p,
+body.dark-mode.ltr .btn.dropdown-toggle,
+body.dark-mode.ltr.product-product .product-single.product-item .buttons .btn-wish-list i,
+body.dark-mode.ltr.checkout-cart
   .content-area
   .page-section
   .checkout_cart_inner
@@ -94,7 +98,7 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity
   > i,
-body.dark-mode.theme_11.ltr.checkout-cart
+body.dark-mode.ltr.checkout-cart
   .content-area
   .page-section
   .checkout_cart_inner
@@ -103,14 +107,14 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .qty_column
   .quantity
   > input,
-body.dark-mode.theme_11.ltr .form-control::placeholder,
-body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-body.dark-mode.theme_11.ltr .form-login .forgot-password,
-body.dark-mode.theme_11.ltr .cart-items .cart-items-inner,
-body.dark-mode.theme_11.ltr .information-title,
-body.dark-mode.theme_11.ltr .widget.account-details .widget-title,
-body.dark-mode.theme_11.ltr .block-title.alt,
-body.dark-mode.theme_11.ltr
+body.dark-mode.ltr .form-control::placeholder,
+body.dark-mode.ltr.account-login .create-account .button_holder .btn.btn-block,
+body.dark-mode.ltr .form-login .forgot-password,
+body.dark-mode.ltr .cart-items .cart-items-inner,
+body.dark-mode.ltr .information-title,
+body.dark-mode.ltr .widget.account-details .widget-title,
+body.dark-mode.ltr .block-title.alt,
+body.dark-mode.ltr
   .checkout_form
   #cart_table
   .order_list_section
@@ -118,7 +122,7 @@ body.dark-mode.theme_11.ltr
   .product_tr
   .single-price
   > a,
-body.dark-mode.theme_11.ltr
+body.dark-mode.ltr
   .checkout_form
   #cart_table
   .order_list_section
@@ -126,28 +130,57 @@ body.dark-mode.theme_11.ltr
   .product_tr
   .single-price
   > div,
-  body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
-  body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
-  body.dark-mode.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field,
-  body.dark-mode.theme_11.ltr .cart_block .text-right,
-  body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
-  body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search #search_results>a .item_data .name,
-  body.dark-mode.theme_11.ltr .contact-info .media-body,
-  body.dark-mode.theme_11.ltr .select2-container--default .select2-search--dropdown input {
+body.dark-mode.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity
+  i,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  .buttons_added.quantity
+  input.quantity_field,
+body.dark-mode.ltr .cart_block .text-right,
+body.dark-mode.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
+body.dark-mode.ltr
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  #search_results
+  > a
+  .item_data
+  .name,
+body.dark-mode.ltr .contact-info .media-body,
+body.dark-mode.ltr .select2-container--default .select2-search--dropdown input,
+body.dark-mode.ltr .dot-loader,
+body.dark-mode .table,
+body.dark-mode .thumbnail .price_actions .add_to_cart button {
   color: white !important;
 }
 
-body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search input.form-control,
-body.dark-mode.theme_11.ltr .btn.dropdown-toggle,
-body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons #button-cart,
-body.dark-mode.theme_11.ltr.product-product .product-single.product-item .buttons .btn-wish-list,
-body.dark-mode.theme_11.ltr.product-product
+body.dark-mode.ltr .wrapper .header .header-wrapper .header-search input.form-control,
+body.dark-mode.ltr .btn.dropdown-toggle,
+body.dark-mode.ltr.product-product .product-single.product-item .buttons #button-cart,
+body.dark-mode.ltr.product-product .product-single.product-item .buttons .btn-wish-list,
+body.dark-mode.ltr.product-product
   .product-single
   .bootstrap-select
   > .dropdown-menu
   .bs-searchbox
   .form-control,
-body.dark-mode.theme_11.ltr.checkout-cart
+body.dark-mode.ltr.checkout-cart
   .content-area
   .page-section
   .checkout_cart_inner
@@ -155,26 +188,52 @@ body.dark-mode.theme_11.ltr.checkout-cart
   .product_row
   .qty_column
   .quantity,
-body.dark-mode.theme_11.ltr.account-login .create-account .button_holder .btn.btn-block,
-body.dark-mode.theme_11.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
-body.dark-mode.theme_11.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
-body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search #search_results>.results_text>a {
+body.dark-mode.ltr.account-login .create-account .button_holder .btn.btn-block,
+body.dark-mode.ltr .thumbnail .price_actions .add_to_cart .buttons_added.quantity,
+body.dark-mode.ltr.common-home .main-slider .caption-content .caption-text .btn-theme,
+body.dark-mode.ltr
+  .wrapper
+  .header
+  .header-wrapper
+  .header-search
+  #search_results
+  > .results_text
+  > a,
+body.dark-mode .thumbnail .price_actions .add_to_cart button,
+body.dark-mode.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button {
   border-color: white !important;
 }
 
-body.dark-mode.theme_11.ltr .radio.customized input[type='radio']:checked ~ .check:before {
+body.dark-mode.ltr .radio.customized input[type='radio']:checked ~ .check:before {
   background: white !important;
 }
 
-body.dark-mode.theme_11.ltr .checkout-progress-bar .step-name, body.theme_11 .checkout-progress-bar .step-number,
+body.dark-mode.ltr .checkout-progress-bar .step-name,
+body .checkout-progress-bar .step-number,
 body.ltr .alert-success a {
   color: #000 !important;
 }
 
-body.dark-mode.theme_11.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+body.theme-gray .wrapper .header .header-wrapper .header-search #search_results > .results_text {
   border: 1px solid white !important;
 }
 
-body.dark-mode.theme_11.ltr .order-summary-toggle .order-summary-toggle__icon-wrapper {
+body.dark-mode.ltr .order-summary-toggle .order-summary-toggle__icon-wrapper {
   fill: white !important;
+}
+
+body.dark-mode .header .header-wrapper {
+  background: transparent !important;
+}
+
+body.dark-mode .header .navigation-wrapper {
+  background: transparent !important;
 }

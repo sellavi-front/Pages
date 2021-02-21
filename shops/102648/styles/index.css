@@ -1,0 +1,26 @@
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import './pay-delivery/pay-delivery.css';
+
+@import './../components/Header/ResetStylesHeader.css';
+@import './../components/Header/Wrapper.css';
+@import './../components/Header/HeaderIcon.css';
+@import './../components/Header/Header.css';
+@import './../components/Header/HeaderWidgets.css';
+@import './../components/Header/Logo.css';
+
+@import './../components/Products/Products.css';
+
+@import './../components/Footer/Footer.css';
+
+
+body .content-area .page-section.error-page h3 {
+  margin: 0 0 15px;
+  color: #ea0000;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+body.ltr > div > footer > div.footer-widgets > div.container > div > div:nth-child(3) {
+  display: none !important;
+}

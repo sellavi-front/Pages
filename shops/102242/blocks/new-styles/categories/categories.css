@@ -16,7 +16,7 @@ body.ru.ltr .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media
 
 @media (max-width: 495px) {
   .thumbnail-banner .media-link .img-bg {
-    height: 150px !important;
+    /* height: 150px !important; */
   }
 
   body.ru.ltr .wrapper .homefeatured_category>div>div>div {

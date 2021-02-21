@@ -1,0 +1,13 @@
+.delivery__text {
+  padding-top: 3rem;
+  border-left: 1px solid darkgray;
+  padding-left: 3rem;
+}
+
+.delivery > div {
+  margin-bottom: 50px !important;
+}
+
+.delivery > div > img {
+  margin-bottom: 0;
+}

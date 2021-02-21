@@ -1,0 +1,16 @@
+.ico-cart, .ico-heart, .ico-cart-white {
+  width: 21px;
+}
+
+.ico-cart-white {
+  color: #fff !important;
+}
+
+.header_wishlist {
+  margin-bottom: 5px !important;
+}
+
+/*
+.header_wishlist > a {
+  font-size: 21px;
+}*/

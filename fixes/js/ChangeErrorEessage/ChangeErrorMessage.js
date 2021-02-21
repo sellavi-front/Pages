@@ -4,7 +4,6 @@ export default class ChangeErrorMessage {
   }
 
   setMessage(alerts) {
-    console.log(alerts);
     alerts.forEach((alert) => {
       const nameBlock = alert.parentElement.firstElementChild;
       alert.innerHTML = `Поле ${nameBlock.textContent.toLowerCase()} обязательно!`;
@@ -12,7 +11,6 @@ export default class ChangeErrorMessage {
   }
 
   change() {
-    console.log(this.btn);
     this.btn.addEventListener('click', () => {
       const alerts = document.querySelectorAll('.text-danger');
       this.setMessage(alerts);

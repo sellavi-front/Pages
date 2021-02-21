@@ -1,0 +1,42 @@
+.owl-wrapper-outer {
+  border: 4px solid #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#banner0 > div > div > div > div > picture > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+     height: 420px;
+}
+
+body .main-slider.content_left .caption-content h3.caption-subtitle {
+  font-weight: bold;
+  text-transform: none !important;
+  text-shadow: none !important;
+  color: black !important;
+}
+
+@media (max-width: 575px) {
+  #banner0 > div > div > div > div > picture > img {
+    height: 600px ;
+  }
+}
+
+/*
+.bannerImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+  .logo img {
+    max-width: 120px;
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+} */

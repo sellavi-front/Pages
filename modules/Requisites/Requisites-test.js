@@ -73,7 +73,6 @@ export default class Requisites {
     } else if (location.href.includes('policy')) {
       this.container.insertAdjacentHTML(this.target, policy);
     } else if (location.href.includes('pay-delivery')) {
-      console.log('opt ', setTemplate(this.options));
       this.container.insertAdjacentHTML(this.target, setTemplate(this.options));
     }
   }

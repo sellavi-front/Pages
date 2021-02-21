@@ -13,7 +13,8 @@
 .banner-content__item_bg {
   left: 55%;
   right: auto;
-  max-width: 32vw !important;
+  max-width: 400px !important;
+  width: 100% !important;
   margin-top: -25px;
   border: 15px solid white;
   height: auto !important;
