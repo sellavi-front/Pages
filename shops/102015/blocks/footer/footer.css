@@ -1,0 +1,19 @@
+#home > div > footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-size: 18px !important;
+}
+
+.wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 14px !important
+}
+
+.soc-icons {
+    width: inherit;
+}
+
+#home > div > div > div.custom_section.container > div > ul > li > p.contact__list-text > a {
+    color: red !important;
+}
+
+footer .soc-icons {
+    max-width: 169px !important;
+}

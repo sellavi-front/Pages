@@ -74,7 +74,7 @@
 
     body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
         border: 1px solid black !important;
-        color: white !important;
+        /* color: white !important; */
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         font-weight: 400;
@@ -260,7 +260,7 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     
     a.btn.btn-theme.btn-call-checkout.w-100 {
         font-size: 10px !important;
-        color: black !important;
+        /* color: black !important; */
     }
 
     .buttons.d-flex.flex-wrap.fixed_mobile_button #button-cart {
@@ -272,9 +272,14 @@ body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-b
     }
 }
 
-header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a {
-    color: black !important;
+.payment.clearfix #button-payment {
+    border: 2px solid black !important;
+    color: black;
 }
+
+/* header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div.media.buttons > div > div > div > div.col-12.button-wrapper.checkout-button > a {
+    color: black !important;
+} */
 
 #search_results > a > div.add_to_cart > button > span {
     color: black !important;
@@ -298,4 +303,15 @@ header > div.header-wrapper > div.container > div.header_widgets > div.header-ca
 
 #search_results > a > div.add_to_cart > button:hover span{
     color: white !important;
+}
+
+@media (max-device-width: 480px) {
+    .payment.clearfix {
+        display: flex;
+        flex-direction: column
+    }
+}
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+    padding-right: 0px !important;
 }

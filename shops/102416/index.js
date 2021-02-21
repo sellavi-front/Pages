@@ -38,9 +38,9 @@ if (document.querySelector('.header-wrapper')) {
   navToHeader();
 }
 
-if (document.querySelector('.main-slider.content_center')) {
-  displaySecondInfo();
-}
+// if (document.querySelector('.main-slider.content_center')) {
+//   displaySecondInfo();
+// }
 
 if (document.querySelector('.common-home')) {
   const latestSection = document.querySelector('.page-section.latest-section > .container');
@@ -116,4 +116,3 @@ if (location.href.includes('policy')) {
 //   const req = new Requisites(requsites, 'afterend', 'ИП Орлова Елена Геннадьевна', document.querySelector("#content > div > div"), options);
 //   req.setTemplate();
 // }
-  
