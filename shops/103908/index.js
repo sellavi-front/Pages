@@ -83,7 +83,7 @@ if (document.querySelector(".common-home")) {
             </div>
             <div class="row systems-two">
                 <div class="col">- Натальная карта</div>
-                <div class="col">- Просмотр ваших полей</div>
+                <div class="col">- Просмотр Ваших полей</div>
             </div>
             <div class="row desc-footer"><i>При индивидуальном подборе браслета, колье, серёжек Ваши желания и мечты исполнятся значительно быстрее и в большем объёме.</i></div>
         </div>
