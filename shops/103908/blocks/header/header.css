@@ -678,3 +678,9 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 .product-category .main-slider.sub.col-md-12.p-0.mb-3 {
   display: none;
 }
+
+
+.checkout-checkout .logo {
+  background-color: black;
+  padding-top: 30px;
+}
