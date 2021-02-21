@@ -49,6 +49,8 @@ body.theme_7.common-home header.header .header-wrapper {
   margin-top: 20px !important;
 }
 
+
+
 .common-home .header-wrapper.container>div.container-fluid>div.header-cart.sticky {
   display: flex;
 }
@@ -604,6 +606,15 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
         display: flex !important;
         flex-direction: row !important;
       }
+
+      .common-home > div > div > section > div:nth-child(1) > div > div.col > div.row {
+        text-align: center;
+    }
+    
+    .common-home > div > div > section > div:nth-child(1) > div > div.col > div.row.four-system {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
