@@ -99,4 +99,8 @@ body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_
         max-height: 80px;
         min-height: 45px;
     }
+
+    footer > div.footer-widgets > div.container > hr {
+        display: none
+    }
 }
