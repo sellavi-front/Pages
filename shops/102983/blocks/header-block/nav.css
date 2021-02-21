@@ -101,11 +101,11 @@ body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_
     }
 
     .wrapper .page-section .products.grid .product-item .thumbnail .caption {
-        display: flex;
-        align-items: flex-start;
+        display: flex !important;
+        align-items: flex-start !important;
     }
 
     footer > div.footer-widgets > div.container > hr {
-        display: none
+        display: none !important;
     }
 }
