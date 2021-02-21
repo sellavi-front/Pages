@@ -722,3 +722,9 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
   padding: 0px;
 }
+
+
+
+header > div.header-wrapper.container > div.mobile-navigation-wrapper.sticky > a > i {
+  color: #fff;
+}
