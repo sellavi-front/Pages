@@ -107,11 +107,7 @@ body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_
         display: none !important;
     }
 
-    .content-area > section > div.logo_mobile_checkout > a > figure {
-        background: black;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+    
 }
 
 header > div.header-wrapper > div.container {

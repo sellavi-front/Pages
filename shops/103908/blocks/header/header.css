@@ -609,6 +609,13 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
         flex-direction: row !important;
       }
 
+
+      .content-area > section > div.logo_mobile_checkout > a > figure {
+        background: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
       .common-home > div > div > section > div:nth-child(1) > div > div.col > div.row {
         text-align: center;
     }
@@ -700,6 +707,8 @@ footer>div.footer-widgets>div.container>div>div>div>h4 {
 .common-home > div > div > div.custom_section > div > div:nth-child(3) > div {
     top: 10px
 }
+
+
 }
 
 
