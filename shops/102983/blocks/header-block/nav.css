@@ -1,6 +1,4 @@
-header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
-    display: none;
-}
+
 
 #search > div.search_field > input {
     border-bottom: 0px !important;
@@ -108,4 +106,8 @@ body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_
     footer > div.footer-widgets > div.container > hr {
         display: none !important;
     }
+}
+
+header > div.header-wrapper > div.container {
+    max-width: 1160px !important
 }
