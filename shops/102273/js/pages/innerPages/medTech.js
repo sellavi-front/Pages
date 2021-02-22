@@ -928,7 +928,7 @@ const medTech = () => {
 
     <div class="mb-3 row">
       <div >
-        <h6 > <b> Аппарат «Body Tite» </b></h6>
+        <h6 class="text-center"> <b> Аппарат «Body Tite» </b></h6>
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-100">
         <p class="text-center">
 
