@@ -515,7 +515,7 @@ const medTech = () => {
           возможна комбинация технологий и насадок в курсе или в одной процедуре.</b
         >
       </p>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613995882/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.10.49_na2kwg.png" class="w-100">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613995882/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.10.49_na2kwg.png" class="w-50">
     </div>
 
     <div class="mb-3 row">
@@ -814,7 +814,7 @@ const medTech = () => {
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div class="">
         <p>
           <b> Аппарат «Plasma BT» </b>В основе принципа действия системы PlasmaBT лежит метод
           ионизации газов в воздухе, в результате чего образуется плазма, которая создает
@@ -935,7 +935,7 @@ const medTech = () => {
     <div class="mb-3 row">
       <div >
         <h6 > <b> Аппарат «Body Tite» </b></h6>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-50">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-100">
         <p class="text-center">
 
           <br />
