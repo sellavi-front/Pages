@@ -134,7 +134,7 @@ body.ltr .btn.btn-theme {
 
 body.ltr .btn.btn-theme:hover {
   background-color: var(--btnHover) !important;
-  border-color: transparent !important;
+  border-color: var(--colored) !important;
   color: var(--colored) !important;
 }
 
