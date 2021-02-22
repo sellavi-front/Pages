@@ -21,6 +21,7 @@
 @import './footer/footer.css';
 @import './product-page/product-page.css';
 @import './cart-wrapper/cart-wrapper.css';
+@import './table/table.css';
 
 body h1,
 body h2,
