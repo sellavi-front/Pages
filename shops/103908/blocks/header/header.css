@@ -737,3 +737,25 @@ footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div
 header > div.header-wrapper.container > div.mobile-navigation-wrapper.sticky > a > i {
   color: #fff;
 }
+
+@media (max-device-width: 480px) {
+  .common-home > div > div.content-area > div.custom_section > div > div:nth-child(3) {
+    position: relative;
+    top: -3px;
+  }
+
+  .common-home > div > div.content-area > div.custom_section > div > div:nth-child(4) {
+      position: relative;
+      top: -6px;
+  }
+
+  .common-home > div > div.content-area > div.custom_section > div > div:nth-child(5) {
+      position: relative;
+      top: -7px;
+  }
+
+  .common-home > div > div.content-area > div.custom_section > div > div:nth-child(6) {
+      position: relative;
+      top: -8px;
+  }
+}
