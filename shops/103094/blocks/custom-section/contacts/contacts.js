@@ -17,7 +17,7 @@ let renderContactsInCustomSection = () => {
                       <span>Адрес</span>
                 </div>
                 <div class="real-address">
-                  <span><a href="https://shorturl.at/inqsL" target="_blank">Московская область г. Чехов ул. Судовая 3</a></span>
+                  <span><a href="https://shorturl.at/inqsL" target="_blank" style="font-weight: 700">Московская область г. Чехов ул. Судовая 3</a></span>
                 </div>
               </div>
             </div>
