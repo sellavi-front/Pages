@@ -1831,38 +1831,28 @@ const medTech = () => {
 <div class="sect" id="8">
   <h3 class="text-center">8. SmoothEye</h3>
 
-  <img
-    src="https://res.cloudinary.com/depgheppz/image/upload/v1612275694/5_1562139_gprmh4.png"
-    alt=""
-  />
+  <div class="mt-4 mb-4 row">
+    <a href="" class="button_link mb-2">Буклет</a>
+    <a href="" class="button_link mb-2">Краткое описание компании</a>
+    <a href="" class="button_link mb-2">Фото</a>
+  </div>
 </div>
 
 <div class="sect" id="9">
   <h3 class="text-center">9. SmoothLips</h3>
-  <img
-    src="https://res.cloudinary.com/depgheppz/image/upload/v1612275695/6_8710066_f9b8yt.png"
-    alt=""
-  />
+  <div class="mt-4 mb-4 row">
+    <a href="" class="button_link mb-2">Буклет</a>
+    <a href="" class="button_link mb-2">Краткое описание компании</a>
+    <a href="" class="button_link mb-2">Фото</a>
+  </div>
 </div>
 
 <div class="sect" id="10">
   <h3 class="text-center">10. Endermologie</h3>
-  <img
-    src="https://res.cloudinary.com/depgheppz/image/upload/v1612276238/Group_7423522_sdrsm2.png"
-    alt=""
-  />
-  <img
-    src="https://res.cloudinary.com/depgheppz/image/upload/v1612276239/Group_7423523_fe4z3z.png"
-    alt=""
-  />
-  <img
-    src="https://res.cloudinary.com/depgheppz/image/upload/v1612276239/Group_7423524_s45eel.png"
-    alt=""
-  />
-  <img
-    src="https://res.cloudinary.com/depgheppz/image/upload/v1612275692/9-1_wxtrxg.png"
-    alt=""
-  />
+  <div class="mt-4 mb-4 row">
+    <a href="" class="button_link mb-2">Презентация</a>
+    <a href="" class="button_link mb-2">Краткое описание компании</a>
+  </div>
 </div>
 </section>
   `
