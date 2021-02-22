@@ -41,3 +41,18 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
 #search_results .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
     color: white !important;
 }
+
+
+.product-category > div > div > section.page-section.subcategories_top > div > div > div {
+    width: 300px !important;
+  }
+  
+  .product-category > div > div > section.page-section.subcategories_top > div > div > div > div > div > a > div.caption {
+    height: 80px !important
+  }
+  
+  .product-category > div > div > section.page-section.subcategories_top > div > div > div > div > div > a {
+    align-items: center !important
+  } 
+  
+  
