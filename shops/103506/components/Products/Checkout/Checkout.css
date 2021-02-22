@@ -1,0 +1,6 @@
+@media screen and (max-width: 968px) {
+  body .md-style-active label.placeholder:active {
+    display: none;
+  }
+}
+
