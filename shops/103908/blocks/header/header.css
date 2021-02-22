@@ -762,4 +762,42 @@ header > div.header-wrapper.container > div.mobile-navigation-wrapper.sticky > a
   .common-home > div > div.content-area > section > div > div > div.col > div.row > div {
     font-size: 15px;
   }
+
+  .information-information-6862 #content > div > div.col-md-8 > div.row.desc-title {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div.row.desc-main {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div.row.four-system {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div.row.systems-one {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div.row.systems-two {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div:nth-child(6) {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div.row.systems-one > div {
+    font-size: 15px;
+}
+
+.information-information-6862 #content > div > div.col-md-8 > div.row.systems-two > div {
+    font-size: 15px;
+}
 }
