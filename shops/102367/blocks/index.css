@@ -48,7 +48,3 @@ body.ru.ltr .checkout-progress-bar .step-number.active,
 .checkout_form #cart_table .product-thumbnail__quantity {
   color: white !important;
 }
-
-.popup {
-  overflow-y: scroll !important;
-}
