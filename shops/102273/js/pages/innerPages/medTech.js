@@ -1069,7 +1069,7 @@ const medTech = () => {
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div class="">
         <p>
           <b> Аппарат LPG массажа Cellu M6 Alliance</b>
           <br />
@@ -1112,16 +1112,11 @@ const medTech = () => {
           актуальных для пластической хирургии и травматологии.
         </p>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264501/8937202354a77d1351d1cde1c7473928_1_sgp3ti.png"
-          alt=""
-        />
-      </div>
+
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div class="">
         <p>
           <b> Futura Pro</b>
           <br />
@@ -1175,12 +1170,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264501/_______1_1_vnvgcg.png"
-          alt=""
-        />
-      </div>
+
     </div>
   </div>
 </div>
