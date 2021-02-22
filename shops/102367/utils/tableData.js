@@ -9,6 +9,30 @@ const dataDefault = {
     },
     {
       selector: 'table-sizes__row_item',
+      text: ['0-1 мес.', '50', '41-43', '41-43', '41-43'],
+    },
+    {
+      selector: 'table-sizes__row_item',
+      text: ['3 мес.', '62', '45-47', '45-47', '45-47'],
+    },
+    {
+      selector: 'table-sizes__row_item',
+      text: ['6 мес.', '68', '46-48', '47-49', '47-49'],
+    },
+    {
+      selector: 'table-sizes__row_item',
+      text: ['9 мес.', '74', '49-51', '47-49', '49-51'],
+    },
+    {
+      selector: 'table-sizes__row_item',
+      text: ['12 мес.', '80', '53-55', '48-50', '51-53'],
+    },
+    {
+      selector: 'table-sizes__row_item',
+      text: [' 18 мес.', '86', '52-54', '49-51', '52-54'],
+    },
+    {
+      selector: 'table-sizes__row_item',
       text: ['2 года', '92', '53-55', '50-50', '54-56'],
     },
     {
