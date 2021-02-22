@@ -204,6 +204,9 @@ export default function desinfectedFrames() {
         возможностей «ЭкоШлюз», уже приняты и выполняются.
       </p>
     </div>
+    <div class="mb-5 w-100 row">
+      <a href="#" class="button_link">"Полисепт" прайс-лист</a>
+    </div>
   </div>
 
   <div class="mt-3 mb-3">
