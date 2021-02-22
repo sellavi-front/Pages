@@ -254,4 +254,7 @@ body.ru.ltr
   .wrapper .header .header-wrapper .mobile-navigation-wrapper {
     top: 35px !important;
   }
+  .product-product .product-single .mobile_wishlist {
+    display: none !important;
+  }
 }
