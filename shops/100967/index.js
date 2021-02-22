@@ -423,14 +423,6 @@ window.onload = () => {
     mediaBody.classList.add('ya-phone');
   }
 
-  /*  if (!location.href.includes('?utm_source=google') || !location.href.includes('/?utm_source=vk') || !location.href.includes('/?utm_source=direct.yandex.ru') || !location.href.includes('/?utm_source=facebook')){
-      let wiCat = document.querySelector("div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1)");
-      const neCat = wiCat.querySelector('.ya-phone');
-
-      neCat.insertAdjacentHTML('afterbegin', '+74993988966');
-      neCat.setAttribute('href', 'tel:74993988966');
-  }*/
-
   if (location.href.includes('/contact')) {
     const mediaBody = document.querySelector(
       'div.wrapper.wrapper-closed > div > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > div',
@@ -441,7 +433,6 @@ window.onload = () => {
 
     const newCat = widdCat.querySelector('.ya-phone');
 
-    // newCat.insertAdjacentHTML('afterbegin', '+74993988966');
     mediaBody.insertAdjacentHTML(
       'beforeend',
       `<a class="ya-phone" href="tel:74993980693"> +7 (499) 398-89-66</a>`,
@@ -452,31 +443,6 @@ window.onload = () => {
     '#home > div.wrapper.wrapper-closed > header > div.header-wrapper > div.container',
   );
 
-
-//   if (document.querySelector('.common-home')) {
-
-//     if (location.href.includes('/checkout')) {
-//       document
-//         .querySelector(
-//           '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > label',
-//         )
-//         .addEventListener('click', function () {
-//           document.querySelector('#agree-checkbox').checked = true;
-//         });
-//       let radioCustm = document.querySelectorAll('.shipping-method>.customized');
-
-//       radioCustm[2].insertAdjacentHTML(
-//         'beforeEnd',
-//         `
-// <p class="delivery__description">Выберите удобный пункт выдачи заказов по ссылке <a href="https://www.dpd.ru/dpd/chooser.do2" target="_blank">https://www.dpd.ru/dpd/chooser.do2</a> и в поле "адрес" скопируйте адрес этого пункта выдачи заказов. Заказы, оформленные до 16:00 будут отправлены на следующий рабочий день. Заказы, оформленные после 16:00 будут отправлены через один рабочий день.  После отправки вам придёт СМС с кодом отслеживания и дата получения заказа в пункте выдачи.
-// <span>
-// <img src="https://res.cloudinary.com/gz-company/image/upload/v1601977874/WhatsApp_Image_2020-10-06_at_11.23.20_wn1zye.jpg" alt="">
-// </span>
-// </p>
-// `,
-//       );
-//     }
-//   }
 };
 
 $(document).ready(function () {
