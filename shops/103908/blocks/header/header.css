@@ -758,4 +758,8 @@ header > div.header-wrapper.container > div.mobile-navigation-wrapper.sticky > a
       position: relative;
       top: -8px;
   }
+
+  .common-home > div > div.content-area > section > div > div > div.col > div.row > div {
+    font-size: 15px;
+  }
 }
