@@ -544,16 +544,11 @@ const medTech = () => {
         </div>
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613995882/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.11.04_we2bk6.png " class="w-100">
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264502/lumecca_1_jkaceq.png"
-          alt=""
-        />
-      </div>
+
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div >
         <p>
           <b> Diolaze и DiolazeXL</b> – революция в лазерной эпиляции. является «золотым
           стандартом» лазерной эпиляции, комбинация длин волн лазеров 7558101064 Нм,
@@ -575,13 +570,9 @@ const medTech = () => {
             — Высокий ресурс насадки. Первый год работы компания дает не ограниченный ресурс.
           </p>
         </div>
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.33_jk9vi2.png" class="w-100">
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264501/diolaze-1_1_br6n9j.png"
-          alt=""
-        />
-      </div>
+
     </div>
 
     <div class="mb-3 row">
@@ -611,17 +602,12 @@ const medTech = () => {
             — Высокий ресурс насадки. Первый год работы компания дает не ограниченный ресурс.
           </p>
         </div>
-      </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264500/bodyfx-1_1_n0kbsm.png"
-          alt=""
-        />
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-100">
       </div>
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div class="">
         <p>
           <b> Fractora </b> – игольчатый радиочастотный лифтинг – сочетание минимальной и
           глубокой абляции, коагуляции и субнекротического нагрева всей дермы с различными
@@ -672,12 +658,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264500/bodyfx-1_1_n0kbsm.png"
-          alt=""
-        />
-      </div>
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-100">
     </div>
     <div class="mb-3 row">
       <div class="col-8">
@@ -723,12 +704,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264500/11225_312-1-v6_1_r3pi76.png"
-          alt=""
-        />
-      </div>
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996065/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.55_qqzotq.png" class="w-100">
     </div>
 
     <div class="mb-3 row">
@@ -775,12 +751,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264501/firm-plus-1_1_sphglo.png"
-          alt=""
-        />
-      </div>
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996065/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.14.03_sv6lyi.png" class="w-100">
     </div>
 
     <div class="mb-3 row">
@@ -808,12 +779,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264501/FormaV_HP_withlogo_2_qnpsjj.png"
-          alt=""
-        />
-      </div>
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996459/102273/unnamed_22_a8fnpl.jpg" class="w-100">
     </div>
 
     <div class="mb-3 row">
@@ -893,6 +859,8 @@ const medTech = () => {
             в области омоложения и обновления кожи.
           </p>
 
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.10_sdubhd.png" class="w-100">
+
           <p>
             <b>Эффект:</b> лифтинг лица и тела, стимуляция синтеза коллагена и эластина,
             ремоделирование кожи, повышение плотности дермы, стерилизация. <br /><br />
@@ -942,7 +910,7 @@ const medTech = () => {
             акне, рубцы, дряблая кожа на лице, а также для выполнения блефаропластики и
             лифтинга бровей.
           </p>
-
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.23_nnpppz.png" class="w-100">
           <p>
             <b> Эффект:</b> коррекция рубцов (в том числе постакне), растяжек, безоперационная
             подтяжка век, устранение морщин и мешков под глазами, удаление пигментных пятен,
@@ -966,9 +934,11 @@ const medTech = () => {
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
-        <p>
-          <b> Аппарат «Body Tite» </b>
+      <div >
+        <h6 > <b> Аппарат «Body Tite» </b></h6>
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-100">
+        <p class="text-center">
+
           <br />
           Body Tite – новое слово в коррекции фигуры! Данная технология позволяет решать 3
           проблемы одновременно: эффективно и бережно устраняет жировые отложения, борется с
@@ -981,7 +951,8 @@ const medTech = () => {
           фракционного радиочастотного лифтинга Fractora. Наименьшее вмешательство в организм
           и отсутствие разрезов и шрамов!
         </p>
-
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997262/102273/unnamed_25_u7xpf1.jpg" class="w-100">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/image32_lablnj.jpg" class="w-100">
         <p>
           Технология RFAL™ (радиочастотная липосакция), внедренная в приборе BodyTite, была
           разработана специально с учетом клинических наработок и выявленных за годы
@@ -994,7 +965,7 @@ const medTech = () => {
           — Подтяжка груди.
         </p>
       </div>
-      <div class="col-4">
+      <div >
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612264500/bodytite-900x900_2_bwlsvj.png"
           alt=""
@@ -1043,6 +1014,8 @@ const medTech = () => {
           иссечению излишков кожи. В данном случае, в проведении этой операции отпадала всякая
           необходимость.
         </p>
+
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997252/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.32.48_hmlngn.png" class="w-100">
         <p>
           Сначала в Европе и Америке, а затем и у нас, в России, было решено применить
           методику для подтяжки груди. Западные коллеги используют радиочастотную подтяжку
@@ -1099,12 +1072,6 @@ const medTech = () => {
             для работы по телу, объединяющая в себе роллер и крыло.
           </p>
         </div>
-      </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264500/bodytite-900x900_2_bwlsvj.png"
-          alt=""
-        />
       </div>
     </div>
 
