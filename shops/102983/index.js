@@ -4,7 +4,10 @@ import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+
+import '../../fixes/js/RemoveBLur/RemoveBlur.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 import contactData from './utils/contactData.js';
 
