@@ -11,9 +11,12 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import FormBasic from '../../components/FormBasic/FormBasic.js';
 import SocIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js';
 import ColorChoise from '../../components/ColorChoise/ColorChoise.js';
+import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
+import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js';
 
 import senderData from './utils/senderData.js';
 import socialIcons from './utils/social-icons.js';
+import tableData from './utils/tableData.js';
 
 if (document.querySelector('.common-home')) {
   // reset cut image in categories
@@ -126,4 +129,6 @@ if (document.querySelector('.product-product')) {
       }, 100);
     });
   }, 1500);
+
+  new PopupWithTable(tableData, product, tableTemplate).render();
 }
