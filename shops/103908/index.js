@@ -135,34 +135,34 @@ if (document.querySelector(".common-home")) {
 
     <div class="row">
     <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_4_3_veqqad.png"></a>
+        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982785/Group_7423521_1_kvjrjw.png"></a>
     </div>
     <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D1%81%D0%B5%D1%80%D1%8C%D0%B3%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_5_3_bzhesh.png"></a>
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%BA%D0%BE%D0%BB%D1%8C%D0%B5/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Component_6_2_deqcxi.png"></a>
-    </div>
-    <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724623/Group_7423524_q1hsbd.png"></a>
+        <a href="https://brasletnata.ru/%D1%81%D0%B5%D1%80%D1%8C%D0%B3%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982750/Group_7423522_bncemm.png"></a>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/%D0%B0%D0%BD%D0%BA%D0%BB%D0%B5%D1%82%D1%8B-%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B3%D1%83/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423525_zcmhwg.png"></a>
+        <a href="https://brasletnata.ru/%D0%BA%D0%BE%D0%BB%D1%8C%D0%B5/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982719/Group_7423523_lhygac.png"></a>
     </div>
     <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%B0/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423526_vkn0fd.png"></a>
+        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982638/Group_7423524_1_xasley.png"></a>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B5%D0%BB%D0%BE%D0%BA%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423527_z4lsvi.png"></a>
+        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B/%D0%B0%D0%BD%D0%BA%D0%BB%D0%B5%D1%82%D1%8B-%D0%B1%D1%80%D0%B0%D1%81%D0%BB%D0%B5%D1%82%D1%8B-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B3%D1%83/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982414/Group_7423525_1_lgzmro.png"></a>
     </div>
     <div class="col-sm-6">
-        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%BE%D1%88%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613724622/Group_7423528_inh6xw.png"></a>
+        <a href="https://brasletnata.ru/%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%B0/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982413/Group_7423526_1_wirmff.png"></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%B5%D0%BB%D0%BE%D0%BA%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982333/Group_7423527_1_dq86ys.png"></a>
+    </div>
+    <div class="col-sm-6">
+        <a href="https://brasletnata.ru/%D0%B1%D1%80%D0%BE%D1%88%D0%B8/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613982335/Group_7423528_1_zf41lj.png"></a>
     </div>
 </div>
 <div class="row">
