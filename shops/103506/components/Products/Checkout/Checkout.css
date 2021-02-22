@@ -1,4 +1,4 @@
-@media screen and (max-width: 968px) {
+
   body .md-style-active label.placeholder:active {
     display: none !important;
   }
@@ -11,5 +11,5 @@
     font-size: 14px;
     color: #232323;
   }
-}
+
 
