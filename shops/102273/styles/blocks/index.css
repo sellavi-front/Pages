@@ -55,6 +55,27 @@ body .col-4 {
   max-width: 33.33333% !important;
 }
 
+footer
+  > div.footer-widgets
+  > div.container
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > ul
+  > li:nth-child(2),
+footer
+  > div.footer-widgets
+  > div.container
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > ul
+  > li:nth-child(3) {
+  display: none !important;
+}
+
 #sellavi_logo {
   margin: 20px auto 0;
 }
