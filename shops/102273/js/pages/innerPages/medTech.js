@@ -569,7 +569,7 @@ const medTech = () => {
             — Высокий ресурс насадки. Первый год работы компания дает не ограниченный ресурс.
           </p>
         </div>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.33_jk9vi2.png" class="w-100">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.33_jk9vi2.png" class="w-50">
       </div>
 
     </div>
@@ -601,7 +601,7 @@ const medTech = () => {
             — Высокий ресурс насадки. Первый год работы компания дает не ограниченный ресурс.
           </p>
         </div>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-100">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-50">
       </div>
     </div>
 
@@ -657,7 +657,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-100">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-50">
     </div>
     <div class="mb-3 row">
       <div class="col-8">
@@ -703,7 +703,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996065/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.55_qqzotq.png" class="w-100">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996065/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.55_qqzotq.png" class="w-50">
     </div>
 
     <div class="mb-3 row">
@@ -750,7 +750,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996065/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.14.03_sv6lyi.png" class="w-100">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996065/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.14.03_sv6lyi.png" class="w-50">
     </div>
 
     <div class="mb-3 row">
@@ -778,7 +778,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996459/102273/unnamed_22_a8fnpl.jpg" class="w-100">
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996459/102273/unnamed_22_a8fnpl.jpg" class="w-50">
     </div>
 
     <div class="mb-3 row">
@@ -858,7 +858,7 @@ const medTech = () => {
             в области омоложения и обновления кожи.
           </p>
 
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.10_sdubhd.png" class="w-100">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.10_sdubhd.png" class="w-50">
 
           <p>
             <b>Эффект:</b> лифтинг лица и тела, стимуляция синтеза коллагена и эластина,
@@ -909,7 +909,7 @@ const medTech = () => {
             акне, рубцы, дряблая кожа на лице, а также для выполнения блефаропластики и
             лифтинга бровей.
           </p>
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.23_nnpppz.png" class="w-100">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.23_nnpppz.png" class="w-50">
           <p>
             <b> Эффект:</b> коррекция рубцов (в том числе постакне), растяжек, безоперационная
             подтяжка век, устранение морщин и мешков под глазами, удаление пигментных пятен,
@@ -935,7 +935,7 @@ const medTech = () => {
     <div class="mb-3 row">
       <div >
         <h6 > <b> Аппарат «Body Tite» </b></h6>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-100">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-50">
         <p class="text-center">
 
           <br />
@@ -1014,7 +1014,7 @@ const medTech = () => {
           необходимость.
         </p>
 
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997252/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.32.48_hmlngn.png" class="w-100">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997252/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.32.48_hmlngn.png" class="w-50">
         <p>
           Сначала в Европе и Америке, а затем и у нас, в России, было решено применить
           методику для подтяжки груди. Западные коллеги используют радиочастотную подтяжку
