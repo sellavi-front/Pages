@@ -2,7 +2,6 @@
 @import './ButtonsGroup/ButtonBorders.css';
 @import './Alerts/Alerts.css';
 @import './PageSection/PageSection.css';
-@import './Checkout/Checkout.css';
 
 body .section-title {
   display: none !important;
