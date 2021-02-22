@@ -443,7 +443,7 @@ const medTech = () => {
     — Lumecca SR 515/580;<br />
     — Fractora (игольчатые насадки);<br />
     — BodyFX (TiteFX)<br />
-    - Fractora FORMA &amp; PLU
+    — Fractora FORMA &amp; PLU
   </p>
 
   <img
