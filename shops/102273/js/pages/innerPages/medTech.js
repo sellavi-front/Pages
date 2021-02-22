@@ -924,12 +924,6 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264503/ponteira-plasmabt-shower_1_uqafma.png"
-          alt=""
-        />
-      </div>
     </div>
 
     <div class="mb-3 row">
