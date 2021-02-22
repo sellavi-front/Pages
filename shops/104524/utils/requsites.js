@@ -16,7 +16,7 @@ const dataContact = {
   adress: '',
   phone: '+79260854471',
   city: '',
-  timeWork: `Пн-Пт 07.00 - 24.00`,
+  timeWork: `Пн-Пт 07.00 - 20.00`,
 }
 
 export {
