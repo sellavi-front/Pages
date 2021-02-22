@@ -782,7 +782,7 @@ const medTech = () => {
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div >
         <p>
           <b> VLaze  </b> лазерная насадка (1064 нм) предназначена для лечения нарушений
           венозного и сосудистого кровообращения нижних конечностей, а также других сосудистых
@@ -805,12 +805,7 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <div class="col-4">
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1612264501/FormaV_HP_withlogo_2_qnpsjj.png"
-          alt=""
-        />
-      </div>
+
     </div>
 
     <div class="mb-3 row">
@@ -967,7 +962,7 @@ const medTech = () => {
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div >
         <p>
           <b> Радиочастотная подтяжка груди Breast Tite</b>
           <br />
@@ -1070,8 +1065,10 @@ const medTech = () => {
 
     <div class="mb-3 row">
       <div class="">
-        <p>
+        <h6>
           <b> Аппарат LPG массажа Cellu M6 Alliance</b>
+          </h6>
+          <p>
           <br />
           Аппарат 10-го поколения ALLIANCE– первый CELLU M6® со встроенным искусственным
           интеллектом. Впервые в истории конструкция манипулы с двумя моторизованными
@@ -1370,22 +1367,22 @@ const medTech = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612263969/images-1512051418_1_mxfivi.png"
         alt=""
-        class="col-3"
+        class="col-md-3 col-sm-6"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612263969/images-1512051406_1_mfbgio.png"
         alt=""
-        class="col-3"
+        class="col-md-3 col-sm-6"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612263969/images-1511987626_1_onscil.png"
         alt=""
-        class="col-3"
+        class="col-md-3 col-sm-6"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612263969/images-1512051377_1_iznup3.png"
         alt=""
-        class="col-3"
+        class="col-md-3 col-sm-6"
       />
     </div>
   </div>
