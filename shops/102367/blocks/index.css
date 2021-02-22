@@ -7,6 +7,8 @@
 @import '../../../components/ColorChoise/ColorChoise.css';
 @import '../../../components/FormBasic/FormBasic.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import '../../../components/PopupWithTable/styles/popup.css';
+@import '../../../components/PopupWithTable/styles/table/table.css';
 
 @import './sf-menu/sf-menu.css';
 @import './sub-categories/sub-categories.css';
