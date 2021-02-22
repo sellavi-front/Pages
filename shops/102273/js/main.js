@@ -16,7 +16,9 @@ if (document.querySelector('.wrapper')) {
 
   const sellaviLogo = document.querySelector("#sellavi_logo");
   document.querySelector("#home > div > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', `<div class="col-md-3">${sellaviLogo.outerHTML}</div>`)
-  sellaviLogo.remove()
+  sellaviLogo.remove();
+
+  document.querySelector('body .footer .footer-widgets .row > div:nth-child(1) .widget-title').textContent = 'Обращение по вопросам';
 }
 
 if (location.href.includes('/blog')) {
