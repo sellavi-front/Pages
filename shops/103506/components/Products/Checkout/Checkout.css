@@ -1,11 +1,6 @@
-
-  body .md-style-active label.placeholder:active {
-    display: none !important;
-  }
-
-  body.checkout-checkout .form-control, body.checkout-checkout .form-control:focus {
-    font-weight: 200;
-    font-size: 14px!important;
-    padding-top: 15% !important;
-  }
+body.checkout-checkout .form-control, body.checkout-checkout .form-control:focus {
+  font-weight: 200;
+  font-size: 14px!important;
+  padding-top: 15% !important;
+}
 
