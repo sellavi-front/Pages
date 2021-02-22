@@ -195,6 +195,10 @@ body.ru.ltr
   color: white !important;
 }
 
+body.sidenav-enabled.ltr .wrapper-opened {
+  width: calc(35% - 55px) !important;
+}
+
 @media (max-width: 1199px) {
   /* body.ru.ltr.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 auto 0 10% !important;
@@ -260,3 +264,4 @@ body.ru.ltr .wrapper.wrapper-opened .header .header-wrapper .header_widgets .hea
   color: black !important;
 }
 }
+
