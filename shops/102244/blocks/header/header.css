@@ -246,8 +246,12 @@ body.ru.ltr
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 495px) {
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     width: 100vw !important;
+  }
+
+  .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    top: 35px !important;
   }
 }
