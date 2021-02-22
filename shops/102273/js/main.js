@@ -16,7 +16,6 @@ if (document.querySelector('.wrapper')) {
 
   const sellaviLogo = document.querySelector("#sellavi_logo");
   document.querySelector("#home > div > footer > div.footer-widgets > div.container > div").append(`<div class="col-md-3">${sellaviLogo.outerHTML}</div>`)
-  sellaviLogo.remove()
 }
 
 if (location.href.includes('/blog')) {
