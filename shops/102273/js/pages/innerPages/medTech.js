@@ -519,7 +519,7 @@ const medTech = () => {
     </div>
 
     <div class="mb-3 row">
-      <div class="col-8">
+      <div >
         <p>
           <b>Lumecca</b>  – инновационная IPL технология для омоложения кожи, выравнивания
           цвета кожи, удаления сосудистых паталогий, пигментных пятен, улучшение текстуры
@@ -544,7 +544,6 @@ const medTech = () => {
         </div>
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613995882/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.11.04_we2bk6.png " class="w-100">
       </div>
-
     </div>
 
     <div class="mb-3 row">
