@@ -96,7 +96,7 @@ if (document.querySelector('.product-product')) {
         const cut = sel.textContent.match(regex);
 
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-        console.log('ELEMENT', el.textContent);
+        console.log('ELEMENT', sel.textContent);
 
         if (cut) {
           return +cut[1].replace(/\s/i, '');
