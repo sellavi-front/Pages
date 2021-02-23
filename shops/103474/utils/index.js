@@ -96,6 +96,8 @@ if (location.href.includes('/checkout')) {
       document.querySelector("#input-payment-city").insertAdjacentHTML('beforeend', `<option value="49694102">Москва</option>`)
       document.querySelector("#select2-input-payment-city-container").setAttribute('title', 'Москва')
       document.querySelector("#select2-input-payment-city-container").textContent = 'Москва'
+      cities.querySelector('.city_id').setAttribute('type', 'text');
+      cities.querySelector('.city_name').setAttribute('type', 'text');
       cities.querySelector('.city_id').setAttribute('value', '49694102');
       cities.querySelector('.city_name').setAttribute('value', 'Москва');
     } else {
