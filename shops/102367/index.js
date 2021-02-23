@@ -143,3 +143,7 @@ if (document.querySelector('.product-product')) {
     console.log(document.querySelector('#product > div:nth-child(2) > div > button'));
   };
 })();
+
+window.onload = () => {
+  console.log(document.querySelector('#product > div:nth-child(2) > div > button'));
+};
