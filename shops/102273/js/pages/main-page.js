@@ -38,7 +38,7 @@ export default (function() {
     const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), AdvantagesData, 'afterend');
 
     advantages.render();
-    document.querySelector('.advantages').insertAdjacentHTML('beforebegin', `<h5>Наши товары направлены на проведение:</h5>`)
+    document.querySelector('.advantages').insertAdjacentHTML('beforebegin', `<h5 class="mb-4"><b>Наши товары направлены на проведение:</b></h5>`)
     document.querySelector('.main-slider > .owl-carousel > div > div > div > div > div > div').classList.remove('container')
   }
 })();
