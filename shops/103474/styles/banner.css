@@ -6,8 +6,14 @@
   box-shadow: none !important;
 }
 
-body.information-information-3669 .content-area .page-section.titles {
-  display: none;
+
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price ins {
+  font-size: 20px !important;
+  color: red !important;
+}
+
+body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price del {
+  font-size: 14px !important;
 }
 
 #banner0 > div > div > div > div > picture > img {
