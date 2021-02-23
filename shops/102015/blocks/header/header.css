@@ -72,3 +72,17 @@ header > div.header-wrapper > div.container > ul > li:nth-child(8) {
 .sf-menu ul {
     right: 70% !important;
 }
+
+.sf-menu li.megamenu>ul li ul {
+    position: inherit;
+}
+
+header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamenu > ul > li > div:nth-child(5) > ul {
+    margin-top: 0;
+}
+
+header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamenu > ul > li > div:nth-child(5) > ul > li > a {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 8px
+}
