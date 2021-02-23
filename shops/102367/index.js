@@ -83,6 +83,8 @@ if (document.querySelector('.product-product')) {
 
   window.onload = () => {
     const regex = /\(([\d\. ]+)/gi;
+    const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+
     const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
     const startPrice = +document
       .querySelector('.product-price')
@@ -92,8 +94,7 @@ if (document.querySelector('.product-product')) {
     buttonSelect.addEventListener('click', () => {
       const selects = document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item .text');
       Array.from(selects).map((sel) => {
-        const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
-        const cut = sel.textContent.match(regex);
+        const cut = sel.textContent.match(regexRepalce);
         sel.textContent = sel.textContent.replace(regexRepalce, '');
         if (cut) {
           console.log('PRICE', cut);
