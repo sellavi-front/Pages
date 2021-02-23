@@ -170,7 +170,9 @@ export default function waterPage() {
             />
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611925356/102273/Group_7423515_4_plfodd.png"
-              alt=""
+              style="max-width: 617px;
+              object-fit: contain;
+              width: 100%;"
             />
           </div>
           <img
