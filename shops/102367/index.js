@@ -138,6 +138,6 @@ if (document.querySelector('.product-product')) {
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
 
-(function () {
+window.onload = () => {
   console.log(document.querySelector('#product > div:nth-child(2) > div > button'));
-})();
+};
