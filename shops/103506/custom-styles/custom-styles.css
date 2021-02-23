@@ -29,16 +29,18 @@ label,
   font-family: 'Montserrat', sans-serif !important;
 }
 
+body:not(.checkout-checkout) {
+  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) repeat-y center/cover fixed;
+}
+
 @media (max-width: 576px) {
   body:not(.checkout-checkout) {
-    background: url(https://res.cloudinary.com/rostislavsellavi/image/upload/v1613860537/Group_276_ctwwht.jpg);
+    background: url(https://res.cloudinary.com/rostislavsellavi/image/upload/v1613860537/Group_276_ctwwht.jpg) !important;
     background-size: contain;
   }
 }
 
-body:not(.checkout-checkout) {
-  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) repeat-y center/cover fixed;
-}
+
 
 .header-cart .cart-wrapper .cart-qty-circle {
   position: absolute;
