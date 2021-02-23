@@ -89,23 +89,18 @@ if (location.href.includes('/checkout')) {
 
 
 
-  window.onload = () => {
-    const cities = document.querySelector("#payment-address-new > div:nth-child(7) > div.form-group.required.col-md-6.ajax-city-active.md-style-active");
 
-    if (cities) {
-      document.querySelector("#input-payment-city").insertAdjacentHTML('beforeend', `<option value="49694102">Москва</option>`)
-      document.querySelector("#select2-input-payment-city-container").setAttribute('title', 'Москва')
-      document.querySelector("#select2-input-payment-city-container").textContent = 'Москва'
-      cities.querySelector('.city_id').setAttribute('type', 'text');
-      cities.querySelector('.city_name').setAttribute('type', 'text');
-      cities.querySelector('.city_id').setAttribute('value', '49694102');
-      cities.querySelector('.city_name').setAttribute('value', 'Москва');
-    } else {
-      console.error(`Cities is not defined`);
-    }
-  }
+
 }
 
+jQuery(function() {
+  if (document.querySelector(".checkout-checkout")) {
+      $("#input-payment-cityId").attr("value", "49694102");
+      $("#input-payment-cityId + input").attr("value", "Москва");
+      $("#select2-input-payment-city-container").attr("title", "Москва");
+  }
+
+});
 
 const logoSellavi = document.querySelector("#sellavi_logo > img");
 
