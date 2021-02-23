@@ -89,12 +89,6 @@ if (location.href.includes('/index.php?route=account/register')) {
 
 // }
 
-// jQuery(function() {
-//   if (document.querySelector(".checkout-checkout")) {
-//       $("#input-payment-cityId").attr("value", "49694102");
-//       $("#input-payment-cityId + input").attr("value", "Москва");
-//       $("#select2-input-payment-city-container").attr("title", "Москва");
-//   }
 
 // });
 
@@ -127,3 +121,12 @@ if (document.querySelector('footer > .footer-widgets')) {
   });
 }
 
+
+
+jQuery(function () {
+  if (document.querySelector(".checkout-checkout")) {
+    $("#input-payment-cityId").attr("value", "49694102");
+    $("#input-payment-cityId + input").attr("value", "Москва");
+    $("#select2-input-payment-city-container").attr("title", "Москва");
+  }
+});
