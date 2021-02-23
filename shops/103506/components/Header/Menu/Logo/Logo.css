@@ -44,10 +44,6 @@
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 85px !important;
   }
-
-  body.ltr .wrapper header.header .logo.logo-edited {
-    margin: 2px 0 0 70px !important;
-  }
 }
 
 @media screen and (min-width: 900px) {
