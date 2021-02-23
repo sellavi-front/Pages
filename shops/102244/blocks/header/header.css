@@ -196,7 +196,7 @@ body.ru.ltr
 }
 
 body.sidenav-enabled.ltr .wrapper-opened {
-  width: calc(35% - 55px) !important;
+  left: calc(35% - 55px) !important;
 }
 
 @media (max-width: 1199px) {

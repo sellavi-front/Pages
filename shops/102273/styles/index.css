@@ -52,3 +52,10 @@ body.information-information p {
 table .row {
   margin: 0 !important;
 }
+
+table .col-md-3 {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 25% !important;
+          flex: 0 0 25% !important;
+  max-width: 25% !important;
+}
