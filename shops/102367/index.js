@@ -81,7 +81,7 @@ if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
 
-  (() => {
+
     window.onload = () => {
       const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
       const startPrice = +document
@@ -133,7 +133,5 @@ if (document.querySelector('.product-product')) {
         });
       });
     };
-  })();
-
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
