@@ -113,7 +113,7 @@ if (document.querySelector('.product-product')) {
             childList: true,
           };
 
-          const priceToNum = e.target.getAttribute('data-price')
+          const priceToNum = +e.target.getAttribute('data-price')
           const productPrice = document.querySelector('.product-price');
           let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
 
