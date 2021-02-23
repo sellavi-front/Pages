@@ -98,14 +98,10 @@ if (document.querySelector('.product-product')) {
         sel.textContent = sel.textContent.replace(regexRepalce, '');
         if (cut) {
           const concatPrice = +cut[1].trim().slice(0, -3).replace(/\s/gi, '');
-          sel.setAttribute('data-price', concatPrice);
-          // return +cut[1].replace(/\s/i, '');
+          sel.setAttribute('data-price', concatPrice); // записываем значение доп стоимости
         }
-      });
 
-      document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
-        // el.setAttribute('data-price', )
-        el.addEventListener('click', (e) => {
+        sel.addEventListener('click', (e) => {
 
           // setTimeout(() => {
           let target = document.querySelector(
@@ -145,6 +141,11 @@ if (document.querySelector('.product-product')) {
 
 
         });
+      });
+
+      document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
+        // el.setAttribute('data-price', )
+
       });
     });
   };
