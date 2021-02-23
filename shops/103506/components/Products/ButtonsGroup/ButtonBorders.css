@@ -175,9 +175,9 @@ body .btn.btn-theme-default:active, body .btn.btn-theme-default:focus, body .btn
 
 body .btn.btn-theme-default {
   background: var(--defaultBtn) !important;
-  border-color: 0 !important;
+  border-color: var(--colored) !important;
   color: var(--colored) !important;
-  border-width: 0 !important;
+  border-width: 1px !important;
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;
