@@ -132,3 +132,7 @@ if (document.querySelector('.product-product')) {
 
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
+
+(function(){
+  console.log(document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item'));
+})()
