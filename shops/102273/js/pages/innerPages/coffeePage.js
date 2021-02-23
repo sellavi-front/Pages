@@ -143,7 +143,7 @@ export default function coffeePage() {
       <div class="mb-50px">
         <h3 class="text-center" style="margin-bottom: 30px;"><b>Ассортимент Кофе Ray R.R</b></h3>
         <div
-          class="row"
+          class="row justify-content-center"
 
         >
           <div class="d-flex flex-column col-4">
