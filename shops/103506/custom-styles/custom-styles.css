@@ -63,7 +63,7 @@ body:not(.checkout-checkout) {
 }
 
 @media screen and (min-width: 320px) and (max-width: 414px) {
-  .logo:not(.common-home) {
+  .common-home .logo {
     display: none;
   }
 
