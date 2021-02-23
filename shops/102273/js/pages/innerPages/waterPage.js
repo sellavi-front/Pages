@@ -43,13 +43,13 @@ export default function waterPage() {
           <div class="row">
           <img
             style="margin-right: 15px; object-fit: cover; height: 100%"
-            style="col-md-6 col-12"
+            class="col-md-6 col-12"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
           />
           <img
             style="margin-right: 15px; object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
-            style="col-md-6 col-12"
+            class="col-md-6 col-12"
           />
           </div>
         </div>
