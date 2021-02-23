@@ -49,3 +49,7 @@ body.ru.ltr .checkout-progress-bar .step-number.active,
 .checkout_form #cart_table .product-thumbnail__quantity {
   color: white !important;
 }
+
+body.sidenav-enabled .mobile_side_nav > ul a {
+  text-align: left !important;
+}
