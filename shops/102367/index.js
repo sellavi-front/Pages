@@ -109,6 +109,7 @@ if (document.querySelector('.product-product')) {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
           );
+          console.log();
           const sumPrice = target.textContent.match(regex);
           const config = {
             childList: true,
@@ -120,8 +121,6 @@ if (document.querySelector('.product-product')) {
               }
             }
           };
-          const observer = new MutationObserver(callback);
-          observer.observe(target, config);
 
           console.log(sumPrice);
           const priceToNum = +sumPrice[1].replace(/\s/i, '');
@@ -139,6 +138,8 @@ if (document.querySelector('.product-product')) {
             productPrice.textContent = totalSum.toString() + ' ₽';
           }
           // }, 500);
+          const observer = new MutationObserver(callback);
+          observer.observe(target, config);
 
 
         });
