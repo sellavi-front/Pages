@@ -109,17 +109,9 @@ if (document.querySelector('.product-product')) {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
           );
-          console.log();
           const sumPrice = target.textContent.match(regex);
           const config = {
             childList: true,
-          };
-          const callback = function (mutationsList, observer) {
-            for (let mutation of mutationsList) {
-              if (mutation.type === 'childList') {
-                target.textContent = target.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
-              }
-            }
           };
 
           console.log(sumPrice);
@@ -138,6 +130,14 @@ if (document.querySelector('.product-product')) {
             productPrice.textContent = totalSum.toString() + ' ₽';
           }
           // }, 500);
+
+          const callback = function (mutationsList, observer) {
+            for (let mutation of mutationsList) {
+              if (mutation.type === 'childList') {
+                target.textContent = target.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
+              }
+            }
+          };
           const observer = new MutationObserver(callback);
           observer.observe(target, config);
 
