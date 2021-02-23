@@ -102,7 +102,7 @@ if (document.querySelector('.product-product')) {
         }
 
         sel.addEventListener('click', (e) => {
-          console.log(e.target.textContent);
+          console.log(e.target.getAttribute('data-price'));
           // setTimeout(() => {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
