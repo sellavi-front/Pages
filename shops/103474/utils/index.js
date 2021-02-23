@@ -87,6 +87,15 @@ if (location.href.includes('/checkout')) {
   newElement.innerHTML = oldElement.innerHTML
   oldElement.parentNode.replaceChild(newElement, oldElement)
 
+
+  const cities = document.querySelector("#payment-address-new > div:nth-child(7) > div.form-group.required.col-md-6.ajax-city-active.md-style-active");
+
+  if (citites) {
+    cities.querySelector('.city_id').setAttribute('value', '49694102');
+    cities.querySelector('.city_name').setAttribute('value', 'Москва');
+  } else {
+    console.error(`Cities is not defined`);
+  }
 }
 
 
