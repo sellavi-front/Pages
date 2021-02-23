@@ -25,7 +25,7 @@ export default class medSocProg extends BaseComponent {
         ${this.data.main.map(prtn => {
           return `
           <div class="w-100">
-            <img src="${prtn.main.src}">
+          ${prtn.main.src ? `<img src="${prtn.main.src}">` : ''}
             <h3 class="partners__title"><b>${prtn.main.title}</b></h3>
             <p class="partners__ph">
               ${prtn.main.text}
