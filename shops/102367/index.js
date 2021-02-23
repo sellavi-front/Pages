@@ -94,9 +94,9 @@ if (document.querySelector('.product-product')) {
         const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
         const regex = /\(([\d\. ]+)/i;
         const cut = sel.textContent.match(regex);
+        console.log('ELEMENT', sel.textContent);
 
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-        console.log('ELEMENT', sel.textContent);
 
         if (cut) {
           return +cut[1].replace(/\s/i, '');
