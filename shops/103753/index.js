@@ -240,13 +240,13 @@ if (document.querySelector('.common-home')) {
   document.querySelector('body').insertAdjacentHTML('afterbegin', '<div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612528588/455_3_f62gqq.png"></div>');
 }
 
-window.onload = () => {
-  if (document.querySelector('.custom_banner')) {
-    document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', `
-  <div class="container">
-      <video width="1100" autoplay loop muted>
-          <source src="https://res.cloudinary.com/richelle/video/upload/v1613390750/VID-20210214-WA0004_kxxz4g.mp4">Sorry, your browser doesn't support embedded videos.
-      </video> 
-  </div>`);
-  } 
-} 
+// window.onload = () => {
+//   if (document.querySelector('.custom_banner')) {
+//     document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', `
+//   <div class="container">
+//       <video width="1100" autoplay loop muted>
+//           <source src="https://res.cloudinary.com/richelle/video/upload/v1613390750/VID-20210214-WA0004_kxxz4g.mp4">Sorry, your browser doesn't support embedded videos.
+//       </video> 
+//   </div>`);
+//   } 
+// } 
