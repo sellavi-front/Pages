@@ -175,12 +175,12 @@ export default function waterPage() {
               width: 100%;"
             />
           </div>
+          <h5 class="text-center"><b>МИНЕРАЛЬНАЯ ПРИРОДНАЯ ВОДА «АБАГО» - стоимость с брендом (Логотипом) компании</b></h5>
           <img
               class="mt-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611925355/102273/Group_7423520_tarbad.png"
               alt=""
             />
-          <p>МИНЕРАЛЬНАЯ ПРИРОДНАЯ ВОДА «АБАГО» - стоимость с брендом (Логотипом) компании</p>
         </div>
         <div>
           <h6><b>Преимущества компании</b></h6>
