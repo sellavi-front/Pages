@@ -50,3 +50,13 @@ header > div.header-wrapper > div.container > ul > li:nth-child(8) {
 .wrapper .page-section .products.grid {
     justify-content: center !important
 }
+
+@media (min-device-width: 480px) {
+    .footer-widgets > div {
+        justify-content: center;
+    }
+
+    footer > div.footer-widgets > div.container > div {
+        flex-wrap: nowrap;
+    }
+}
