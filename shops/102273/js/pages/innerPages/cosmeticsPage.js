@@ -35,7 +35,7 @@ export default function cosmeticsPage() {
   </div>
 
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div class="">
           <h4><b>Гель для тела «АЛТАЙ-ПЛЮС»</b></h4>
@@ -98,7 +98,7 @@ export default function cosmeticsPage() {
   </div>
 
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div class="">
           <h4><b>Крем массажный «АЛТАЙ-СПОРТ»</b></h4>
@@ -143,7 +143,7 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div>
           <h4><b>Гель для тела «КЛАД АЛТАЯ»</b></h4>
@@ -203,7 +203,7 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div class="">
           <h4>
@@ -245,7 +245,7 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <h4><b>Гель после загара «AFTER SUN»</b></h4>
         <p><b>Охлаждающий и восстанавливающий гель после загара</b></p>
@@ -285,7 +285,7 @@ export default function cosmeticsPage() {
   </div>
 
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div class="">
           <h4><b>Термальная вода «Паратунка»</b></h4>
@@ -335,7 +335,7 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div>
           <h4><b>Крем-ревиталайзинг «Алтай»</b></h4>
@@ -392,7 +392,7 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
+    <div class="row m-0">
       <div class="col p-0">
         <div>
           <h4><b>Масло лимонника китайского</b></h4>
@@ -434,7 +434,7 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>БАД «Альфанорм»</b></h4>
             <p>
@@ -489,7 +489,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>Фитосироп «АРТРОМИКС»</b></h4>
             <p>
@@ -546,7 +546,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>Коллагеновый эликсир с витаминами “Клад Алтая”</b></h4>
             <p>
@@ -610,7 +610,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>Крем для рук «Алтай» восстанавливающий и питательный.</b></h4>
             <p>
@@ -658,7 +658,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>Крем для рук «Алтай» увлажняющий.</b></h4>
             <p>
@@ -697,7 +697,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="w-100">
             <div>
               <h4><b>Липиды «АЛТАЙ» - 100% натуральный продукт</b></h4>
@@ -739,7 +739,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>УВЛАЖНЯЮЩАЯ ФОРМУЛА</b></h4>
             <p>
@@ -776,7 +776,7 @@ export default function cosmeticsPage() {
 
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>ВОССТАНАВЛИВАЮЩАЯ ФОРМУЛА</b></h4>
             <p><b>Для основного ухода за кожей тела и для массажа</b>
@@ -801,7 +801,7 @@ export default function cosmeticsPage() {
       </div>
 
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="col p-0">
             <h4><b>АНТИЦЕЛЮЛИТНАЯ ФОРМУЛА</b></h4>
             <p><b>Для основного ухода за кожей тела и для массажа </b>
