@@ -93,6 +93,7 @@ if (location.href.includes('/checkout')) {
     const cities = document.querySelector("#payment-address-new > div:nth-child(7) > div.form-group.required.col-md-6.ajax-city-active.md-style-active");
 
     if (cities) {
+      document.querySelector("#input-payment-city").insertAdjacentHTML('beforeend', `<option value="49694102">Москва</option>`)
       document.querySelector("#select2-input-payment-city-container").setAttribute('title', 'Москва')
       document.querySelector("#select2-input-payment-city-container").textContent = 'Москва'
       cities.querySelector('.city_id').setAttribute('value', '49694102');
