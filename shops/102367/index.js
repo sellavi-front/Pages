@@ -98,7 +98,7 @@ if (document.querySelector('.product-product')) {
         sel.textContent = sel.textContent.replace(regexRepalce, '');
         if (cut) {
           const a = cut[1].trim().slice(0, -3);
-          console.log('PRICE', a.replace(/\s/gi, ''));
+          console.log('PRICE', +a.replace(/\s/gi, ''));
           // return +cut[1].replace(/\s/i, '');
         }
       });
