@@ -96,14 +96,14 @@ export default function waterPage() {
             каждого производственного этапа.
           </p>
           <div class="row">
-            <div class="col-12 col-lg-4 col-md-6">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg">
+            <div class="col-12 col-md-4">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg" style="height: 100%; object-fit: cover;">
             </div>
-            <div class="col-12 col-lg-4 col-md-6">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_3_xcwq9f.jpg">
+            <div class="col-12 col-md-4">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_3_xcwq9f.jpg" style="height: 100%; object-fit: cover;">
             </div>
-            <div class="col-12 col-lg-4 col-md-6">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/image9_n5tl92.jpg">
+            <div class="col-12 col-md-4">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/image9_n5tl92.jpg" style="height: 100%; object-fit: cover;">
             </div>
           </div>
           <p>
