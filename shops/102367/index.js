@@ -82,7 +82,7 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   window.onload = () => {
-    const regex = /\(([\d\. ]+)/i;
+    const regex = /\(([\d\. ]+)/gi;
     const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
     const startPrice = +document
       .querySelector('.product-price')
@@ -97,7 +97,7 @@ if (document.querySelector('.product-product')) {
         console.log('ELEMENT', sel.textContent);
         let priceCont = sel.textContent.match(regex)
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-        console.log('PRICE', Array.from(priceCont));
+        console.log('PRICE', priceCont);
         if (cut) {
           return +cut[1].replace(/\s/i, '');
         }
