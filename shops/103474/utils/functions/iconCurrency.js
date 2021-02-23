@@ -32,7 +32,8 @@ import pages from '../pages/pages.js'
 
   const changeIcon = (list, icon) => {
     list.forEach((price) => {
-      if (!price.closest('div').querySelector('svg')) {
+      if (!price.closest('div').querySelector('svg') && !price.querySelector('ins')) {
+
         price.textContent = price.textContent.trim().slice(0, -1);
         price.insertAdjacentHTML('beforeend', icon);
       }
