@@ -134,5 +134,5 @@ if (document.querySelector('.product-product')) {
 }
 
 jQuery(function() {
-  console.log(document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item'));
+  console.log(document.querySelector('#product > div:nth-child(2) > div > button'););
  })
