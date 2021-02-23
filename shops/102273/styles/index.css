@@ -22,6 +22,10 @@ body.information-information p {
   margin-bottom: 30px !important;
 }
 
+#home > div > div.content-area > div:nth-child(2) {
+  margin-top: 40px;
+}
+
 .col-md-3:not(.footer .col-md-3) {
   -webkit-box-flex: 0 !important;
   -ms-flex: 0 0 25% !important;
