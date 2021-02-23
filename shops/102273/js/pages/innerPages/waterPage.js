@@ -301,7 +301,7 @@ export default function waterPage() {
       <div class="text-center" class="mb-50px mt-5">
         <h3 class="text-center mb-4"><b>Минеральные воды Чехии.</b></h3>
         <p>
-          <img style="float: left" src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/logo_6_1_eykiny.png" width="70px">
+          <img style="float: left" src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/logo_6_1_eykiny.png" width="120px">
           Поставки минеральной воды лечебных и лечебно-столовых свойств из Чехии и других стран
           восточной Европы в Россию. В ассортименте пять видов лечебных минеральных вод премиум-
           сегмента: Билинска Киселка, Зайечицкая горька, Рудольфов Прамен, Винцентка и Пролом вода.
@@ -316,7 +316,7 @@ export default function waterPage() {
 
         </p>
         <img
-          class="mt-4 mb-4"
+          class="mt-4 mb-4 w-50"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611924433/102273/50f080b6e27e37ad980830a244d430dd_1_qvf7rn.png"
           alt=""
         />
