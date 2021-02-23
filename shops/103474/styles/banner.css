@@ -6,6 +6,10 @@
   box-shadow: none !important;
 }
 
+body.information-information-3669 .content-area .page-section.titles {
+  display: none;
+}
+
 #banner0 > div > div > div > div > picture > img {
   -o-object-fit: cover;
      object-fit: cover;
