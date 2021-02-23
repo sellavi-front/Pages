@@ -123,6 +123,7 @@ if (document.querySelector('.product-product')) {
           observer.observe(target, config);
 
           const sumPrice = target.textContent.match(regex);
+          console.log(sumPrice);
           const priceToNum = +sumPrice[1].replace(/\s/i, '');
           const productPrice = document.querySelector('.product-price');
           let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
