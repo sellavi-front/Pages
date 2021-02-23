@@ -22,13 +22,17 @@ export default class medSocProg extends BaseComponent {
   getTemplate() {
     return `
       <section class="main-partner">
-        <div class="w-100">
-          <img src="${this.data.main.src}">
-          <h3 class="partners__title"><b>${this.data.main.title}</b></h3>
-          <p class="partners__ph">
-              ${this.data.main.text}
-          </p>
-        <div>
+        ${this.data.main.map(prtn => {
+          return `
+          <div class="w-100">
+            <img src="${prtn.main.src}">
+            <h3 class="partners__title"><b>${prtn.main.title}</b></h3>
+            <p class="partners__ph">
+              ${prtn.main.text}
+            </p>
+          <div>
+          `
+        })}
       </section>
       <section class="partners">
         ${this.getData()}
