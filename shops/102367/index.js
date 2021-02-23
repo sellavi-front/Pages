@@ -122,7 +122,7 @@ if (document.querySelector('.product-product')) {
           const observer = new MutationObserver(callback);
           observer.observe(target, config);
 
-          const sumPrice = innerText.textContent.match(regex);
+          const sumPrice = target.textContent.match(regex);
           const priceToNum = +sumPrice[1].replace(/\s/i, '');
           const productPrice = document.querySelector('.product-price');
           let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
