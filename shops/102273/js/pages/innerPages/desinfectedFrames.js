@@ -135,7 +135,7 @@ export default function desinfectedFrames() {
 </div>
 
 <div class="mb-3">
-  <p>Особенности установки «ЭкоШлюз»</p>
+  <h5 class="text-center"><b>Особенности установки «ЭкоШлюз»</b></h5>
   <img
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772649/102273/image_121_jprbds.png"
     alt=""
@@ -210,7 +210,7 @@ export default function desinfectedFrames() {
   </div>
 
   <div class="mt-3 mb-3">
-    <p><b>Установка системы «ЭкоШлюз» в Covid госпитале:</b></p>
+  <h5 class="text-center"><b>Установка системы «ЭкоШлюз» в Covid госпитале:</b></h6>
     <div class="row mb-5">
       <div class="col">
         <img
