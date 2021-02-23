@@ -141,7 +141,7 @@ export default function desinfectedFrames() {
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772649/102273/image_121_jprbds.png"
     alt=""
   />
-  <div class="row">
+  <div class="row" style="margin-top: 50px; justify-content: center;">
     <div class="col col-md-3">
       <p>
         Базовая комплектация:<br />
