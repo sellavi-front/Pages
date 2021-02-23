@@ -93,12 +93,11 @@ if (document.querySelector('.product-product')) {
       const selects = document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item .text');
       Array.from(selects).map((sel) => {
         const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
-        const regex = /\(([\d\. ]+)/i;
         const cut = sel.textContent.match(regex);
         console.log('ELEMENT', sel.textContent);
-        const priceCont = sel.textContent.match(regex)
+        let priceCont = sel.textContent.match(regex)
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-        console.log('PRICE', priceCont);
+        console.log('PRICE', priceCont[0]);
         if (cut) {
           return +cut[1].replace(/\s/i, '');
         }
