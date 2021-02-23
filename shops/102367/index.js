@@ -103,6 +103,8 @@ if (document.querySelector('.product-product')) {
       });
 
       document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
+        console.log('ELEMENT', el.textContent);
+        // el.setAttribute('data-price', )
         el.addEventListener('click', (e) => {
           const regex = /\(([\d\. ]+)/i;
           // setTimeout(() => {
