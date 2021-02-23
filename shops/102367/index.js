@@ -82,6 +82,7 @@ if (document.querySelector('.product-product')) {
   colorChoise.render();
 
   window.onload = () => {
+    const regex = /\(([\d\. ]+)/i;
     const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
     const startPrice = +document
       .querySelector('.product-price')
@@ -95,9 +96,9 @@ if (document.querySelector('.product-product')) {
         const regex = /\(([\d\. ]+)/i;
         const cut = sel.textContent.match(regex);
         console.log('ELEMENT', sel.textContent);
-
+        const priceCont = sel.textContent.match(regex)
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-
+        console.log(priceCont);
         if (cut) {
           return +cut[1].replace(/\s/i, '');
         }
@@ -106,19 +107,17 @@ if (document.querySelector('.product-product')) {
       document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
         // el.setAttribute('data-price', )
         el.addEventListener('click', (e) => {
-          const regex = /\(([\d\. ]+)/i;
+
           // setTimeout(() => {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
           );
 
-          console.log(e.target);
           const sumPrice = target.textContent.match(regex);
           const config = {
             childList: true,
           };
 
-          console.log(sumPrice);
           const priceToNum = +sumPrice[1].replace(/\s/i, '');
           const productPrice = document.querySelector('.product-price');
           let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
