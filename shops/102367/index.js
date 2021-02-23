@@ -133,6 +133,6 @@ if (document.querySelector('.product-product')) {
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
 
-(function(){
+jQuery(function() {
   console.log(document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item'));
-})()
+ })
