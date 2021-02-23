@@ -109,6 +109,7 @@ if (document.querySelector('.product-product')) {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
           );
+          const sumPrice = target.textContent.match(regex);
           const config = {
             childList: true,
           };
@@ -122,7 +123,6 @@ if (document.querySelector('.product-product')) {
           const observer = new MutationObserver(callback);
           observer.observe(target, config);
 
-          const sumPrice = target.textContent.match(regex);
           console.log(sumPrice);
           const priceToNum = +sumPrice[1].replace(/\s/i, '');
           const productPrice = document.querySelector('.product-price');
