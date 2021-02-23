@@ -28,7 +28,6 @@ export default class medSocProg extends BaseComponent {
           <p class="partners__ph">
               ${this.data.main.text}
           </p>
-          <a href="${this.data.main.link}">ссылка</a>
         <div>
       </section>
       <section class="partners">
