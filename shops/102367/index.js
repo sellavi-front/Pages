@@ -83,7 +83,10 @@ if (document.querySelector('.product-product')) {
 
   setTimeout(() => {
     const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
-    const startPrice = +document.querySelector('.product-price').textContent.slice(0, -2).replace(/\s+/i, '');
+    const startPrice = +document
+      .querySelector('.product-price')
+      .textContent.slice(0, -2)
+      .replace(/\s+/i, '');
 
     buttonSelect.addEventListener('click', () => {
       setTimeout(() => {
@@ -106,7 +109,9 @@ if (document.querySelector('.product-product')) {
           el.addEventListener('click', (e) => {
             const regex = /\(([\d\. ]+)/i;
             setTimeout(() => {
-              const innerText = document.querySelector('#product > div:nth-child(2) > div > button .filter-option-inner-inner');
+              const innerText = document.querySelector(
+                '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
+              );
               const sumPrice = innerText.textContent.match(regex);
               innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
               const priceToNum = +sumPrice[1].replace(/\s/i, '');
@@ -123,7 +128,7 @@ if (document.querySelector('.product-product')) {
                 const totalSum = startPrice - priceToNum;
                 productPrice.textContent = totalSum.toString() + ' ₽';
               }
-            }, 500)
+            }, 500);
           });
         });
       }, 100);
@@ -133,6 +138,6 @@ if (document.querySelector('.product-product')) {
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
 
-jQuery(function() {
+(function () {
   console.log(document.querySelector('#product > div:nth-child(2) > div > button'));
- })
+})();
