@@ -93,7 +93,6 @@ if (document.querySelector('.product-product')) {
         console.log(document.querySelectorAll(
           '.inner.show .dropdown-menu .dropdown-item .text',
         ));
-        setTimeout(() => {
           const selects = document.querySelectorAll(
             '.inner.show .dropdown-menu .dropdown-item .text',
           );
@@ -135,7 +134,6 @@ if (document.querySelector('.product-product')) {
               }, 500);
             });
           });
-        }, 100);
       });
     };
   })();
