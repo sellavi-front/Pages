@@ -47,7 +47,7 @@ const categoryData = {
       link: '/urban-economy',
     },
     {
-      text: 'Кофе',
+      text: 'Кофе из Ливана (100% Арабика)',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-coffee-beans_dhgj4d.svg',
       link: '/coffee',
     },
