@@ -119,13 +119,14 @@ if (document.querySelector('.product-product')) {
 
           if (price1 === startPrice) {
             price1 = price1 + priceToNum;
+            console.log('Product price', typeof price1);
             productPrice.textContent = price1.toString() + ' ₽';
           } else if (startPrice < priceToNum) {
             price1 = startPrice + priceToNum;
             productPrice.textContent = startPrice.toString() + ' ₽';
           } else if (startPrice > priceToNum) {
             price1 = startPrice - priceToNum;
-            productPrice.textContent = totalSum.toString() + ' ₽';
+            productPrice.textContent = startPrice.toString() + ' ₽';
           }
           // }, 500);
 
