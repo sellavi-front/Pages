@@ -98,7 +98,7 @@ if (document.querySelector('.product-product')) {
         console.log('ELEMENT', sel.textContent);
         const priceCont = sel.textContent.match(regex)
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-        console.log(priceCont);
+        console.log(+priceCont[1].slice(0, -2));
         if (cut) {
           return +cut[1].replace(/\s/i, '');
         }
