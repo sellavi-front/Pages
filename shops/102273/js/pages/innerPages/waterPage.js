@@ -95,7 +95,7 @@ export default function waterPage() {
             выполняются в автоматическом или полуавтоматическом режиме и при строгом контроле
             каждого производственного этапа.
           </p>
-          <div class="row">
+          <div class="row mb-5">
             <div class="col-12 col-md-4">
               <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg" style="height: 100%; object-fit: cover;">
             </div>
