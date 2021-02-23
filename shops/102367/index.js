@@ -102,7 +102,7 @@ if (document.querySelector('.product-product')) {
         }
 
         sel.addEventListener('click', (e) => {
-          console.log(e.target.getAttribute('data-price'));
+          console.log();
           // setTimeout(() => {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
@@ -113,7 +113,7 @@ if (document.querySelector('.product-product')) {
             childList: true,
           };
 
-          const priceToNum = +sumPrice[1].replace(/\s/i, '');
+          const priceToNum = e.target.getAttribute('data-price')
           const productPrice = document.querySelector('.product-price');
           let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
 
