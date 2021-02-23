@@ -10,3 +10,7 @@ body .section-title {
 body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
+
+.checkout-cart small {
+  text-align: center;
+}
