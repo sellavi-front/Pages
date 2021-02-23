@@ -106,26 +106,40 @@ if (document.querySelector('.product-product')) {
         el.addEventListener('click', (e) => {
           const regex = /\(([\d\. ]+)/i;
           // setTimeout(() => {
-            const innerText = document.querySelector(
-              '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
-            );
-            const sumPrice = innerText.textContent.match(regex);
-            innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
-            const priceToNum = +sumPrice[1].replace(/\s/i, '');
-            const productPrice = document.querySelector('.product-price');
-            let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
-
-            if (price1 === startPrice) {
-              price1 = price1 + priceToNum;
-              productPrice.textContent = price1.toString() + ' ₽';
-            } else if (startPrice < priceToNum) {
-              startPrice = startPrice + priceToNum;
-              productPrice.textContent = startPrice.toString() + ' ₽';
-            } else if (startPrice > priceToNum) {
-              const totalSum = startPrice - priceToNum;
-              productPrice.textContent = totalSum.toString() + ' ₽';
+          let target = document.querySelector(
+            '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
+          );
+          const config = {
+            childList: true,
+          };
+          const callback = function (mutationsList, observer) {
+            for (let mutation of mutationsList) {
+              if (mutation.type === 'childList') {
+                target.textContent = target.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
+              }
             }
+          };
+          const observer = new MutationObserver(callback);
+          observer.observe(target, config);
+
+          const sumPrice = innerText.textContent.match(regex);
+          const priceToNum = +sumPrice[1].replace(/\s/i, '');
+          const productPrice = document.querySelector('.product-price');
+          let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
+
+          if (price1 === startPrice) {
+            price1 = price1 + priceToNum;
+            productPrice.textContent = price1.toString() + ' ₽';
+          } else if (startPrice < priceToNum) {
+            startPrice = startPrice + priceToNum;
+            productPrice.textContent = startPrice.toString() + ' ₽';
+          } else if (startPrice > priceToNum) {
+            const totalSum = startPrice - priceToNum;
+            productPrice.textContent = totalSum.toString() + ' ₽';
+          }
           // }, 500);
+
+
         });
       });
     });
