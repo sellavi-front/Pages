@@ -79,19 +79,15 @@ if (location.href.includes('/index.php?route=account/register')) {
   document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
 }
 
-if (location.href.includes('/checkout')) {
+// if (location.href.includes('/checkout')) {
 
-  let newElement = document.createElement('form')
-  newElement.classList.add("form_checkout")
-  let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
-  newElement.innerHTML = oldElement.innerHTML
-  oldElement.parentNode.replaceChild(newElement, oldElement)
+//   let newElement = document.createElement('form')
+//   newElement.classList.add("form_checkout")
+//   let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
+//   newElement.innerHTML = oldElement.innerHTML
+//   oldElement.parentNode.replaceChild(newElement, oldElement)
 
-
-
-
-
-}
+// }
 
 // jQuery(function() {
 //   if (document.querySelector(".checkout-checkout")) {
