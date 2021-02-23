@@ -88,9 +88,10 @@ if (location.href.includes('/checkout')) {
   oldElement.parentNode.replaceChild(newElement, oldElement)
 
 
-  const cities = document.querySelector("#payment-address-new > div:nth-child(7) > div.form-group.required.col-md-6.ajax-city-active.md-style-active");
 
   window.onload = () => {
+    const cities = document.querySelector("#payment-address-new > div:nth-child(7) > div.form-group.required.col-md-6.ajax-city-active.md-style-active");
+
     if (cities) {
       cities.querySelector('.city_id').setAttribute('value', '49694102');
       cities.querySelector('.city_name').setAttribute('value', 'Москва');
