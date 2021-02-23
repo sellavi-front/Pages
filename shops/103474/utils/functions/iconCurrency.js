@@ -40,7 +40,9 @@ import pages from '../pages/pages.js'
         const del = price.querySelector('del');
 
         ins.textContent = ins.textContent.trim().slice(0, -1);
+        ins.insertAdjacentHTML('beforeend', icon);
         del.textContent = del.textContent.trim().slice(0, -1);
+        del.insertAdjacentHTML('beforeend', icon);
       }
     });
   };
