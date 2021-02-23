@@ -66,8 +66,4 @@ body:not(.checkout-checkout) {
   .common-home .logo {
     display: none;
   }
-
-  body.theme_7 .wrapper header.header .header-wrapper .mobile-navigation-wrapper {
-    top: 45px !important;
-  }
 }
