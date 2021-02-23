@@ -126,7 +126,7 @@ if (document.querySelector('footer > .footer-widgets')) {
 jQuery(function () {
   if (document.querySelector(".checkout-checkout")) {
     $("#input-payment-cityId").attr("value", "49694102");
-    $("#input-payment-cityId + input").attr("value", "Москва");
+    $("#input-payment-cityId + input").attr("value", "---");
     $("#select2-input-payment-city-container").attr("title", "Москва");
   }
 });
