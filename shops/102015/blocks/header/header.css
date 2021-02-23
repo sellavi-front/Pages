@@ -60,3 +60,15 @@ header > div.header-wrapper > div.container > ul > li:nth-child(8) {
         flex-wrap: nowrap;
     }
 }
+
+.sf-menu li.megamenu>ul li.megaline {
+    flex-direction: column
+}
+
+.block-title span:after {
+    display: none;
+}
+
+.sf-menu ul {
+    right: 70% !important;
+}
