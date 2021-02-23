@@ -118,8 +118,10 @@ if (document.querySelector('.product-product')) {
           let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
 
           if (price1 === startPrice) {
-            price1 = price1 + priceToNum;
             console.log('Product price', typeof price1);
+            console.log('Product price to num', typeof priceToNum);
+
+            price1 = price1 + priceToNum;
             productPrice.textContent = price1.toString() + ' ₽';
           } else if (startPrice < priceToNum) {
             price1 = startPrice + priceToNum;
