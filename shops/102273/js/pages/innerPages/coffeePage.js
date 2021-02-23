@@ -146,7 +146,7 @@ export default function coffeePage() {
           style="
             display: grid;
             grid-template-columns: repeat(auto-fit, 300px);
-            justify-content: space-between;
+            justify-content: center;
             grid-gap: 30px;
           "
         >
@@ -260,7 +260,7 @@ export default function coffeePage() {
             alt=""
           />
         </div>
-        <div class="w-100">
+        <div class="w-100 row mt-4">
           <img class="w-40" style="margin: 0 auto;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613661849/102273/image8_tpjejp.jpg">
         </div>
       </div>
