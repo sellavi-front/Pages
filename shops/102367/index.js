@@ -94,12 +94,10 @@ if (document.querySelector('.product-product')) {
       Array.from(selects).map((sel) => {
         const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
         const cut = sel.textContent.match(regex);
-        console.log('ELEMENT', sel.textContent);
-        let priceCont = sel.textContent.match(regex)
         sel.textContent = sel.textContent.replace(regexRepalce, '');
-        console.log('PRICE', priceCont);
         if (cut) {
-          return +cut[1].replace(/\s/i, '');
+          console.log('PRICE', cut);
+          // return +cut[1].replace(/\s/i, '');
         }
       });
 
