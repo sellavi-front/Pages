@@ -14,3 +14,14 @@ body.ltr .thumbnail .caption-title {
 .checkout-cart small {
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  #home > div > div > section.page-section.titles {
+    padding-top: 5% !important;
+  }
+
+  #content {
+    padding-top: 5% !important;
+    text-align: center;
+  }
+}
