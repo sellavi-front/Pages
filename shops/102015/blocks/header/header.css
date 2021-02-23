@@ -29,3 +29,20 @@ header > div.header-wrapper > div.container > ul > a {
 .sf-menu.nav>li>a, a {
     font-weight: 500 !important
 }
+
+
+header > div.header-wrapper > div.container > ul > li:nth-child(5) {
+    display: none;
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(6) {
+    display: none
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(7) {
+    display: none;
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(8) {
+    display: none;
+}
