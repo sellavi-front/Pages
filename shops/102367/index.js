@@ -90,50 +90,47 @@ if (document.querySelector('.product-product')) {
         .replace(/\s+/i, '');
 
       buttonSelect.addEventListener('click', () => {
-        console.log(document.querySelectorAll(
+        const selects = document.querySelectorAll(
           '.inner.show .dropdown-menu .dropdown-item .text',
-        ));
-          const selects = document.querySelectorAll(
-            '.inner.show .dropdown-menu .dropdown-item .text',
-          );
-          Array.from(selects).map((sel) => {
-            const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+        );
+        Array.from(selects).map((sel) => {
+          const regexRepalce = /\(([\d\. ]+)₽\+\)/i;
+          const regex = /\(([\d\. ]+)/i;
+          const cut = sel.textContent.match(regex);
+
+          sel.textContent = sel.textContent.replace(regexRepalce, '');
+
+          if (cut) {
+            return +cut[1].replace(/\s/i, '');
+          }
+        });
+
+        document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
+          el.addEventListener('click', (e) => {
             const regex = /\(([\d\. ]+)/i;
-            const cut = sel.textContent.match(regex);
+            setTimeout(() => {
+              const innerText = document.querySelector(
+                '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
+              );
+              const sumPrice = innerText.textContent.match(regex);
+              innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
+              const priceToNum = +sumPrice[1].replace(/\s/i, '');
+              const productPrice = document.querySelector('.product-price');
+              let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
 
-            sel.textContent = sel.textContent.replace(regexRepalce, '');
-
-            if (cut) {
-              return +cut[1].replace(/\s/i, '');
-            }
+              if (price1 === startPrice) {
+                price1 = price1 + priceToNum;
+                productPrice.textContent = price1.toString() + ' ₽';
+              } else if (startPrice < priceToNum) {
+                startPrice = startPrice + priceToNum;
+                productPrice.textContent = startPrice.toString() + ' ₽';
+              } else if (startPrice > priceToNum) {
+                const totalSum = startPrice - priceToNum;
+                productPrice.textContent = totalSum.toString() + ' ₽';
+              }
+            }, 500);
           });
-
-          document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
-            el.addEventListener('click', (e) => {
-              const regex = /\(([\d\. ]+)/i;
-              setTimeout(() => {
-                const innerText = document.querySelector(
-                  '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
-                );
-                const sumPrice = innerText.textContent.match(regex);
-                innerText.textContent = innerText.textContent.replace(/\(([\d\. ]+)₽\+\)/i, '');
-                const priceToNum = +sumPrice[1].replace(/\s/i, '');
-                const productPrice = document.querySelector('.product-price');
-                let price1 = +productPrice.textContent.slice(0, -2).replace(/\s+/i, '');
-
-                if (price1 === startPrice) {
-                  price1 = price1 + priceToNum;
-                  productPrice.textContent = price1.toString() + ' ₽';
-                } else if (startPrice < priceToNum) {
-                  startPrice = startPrice + priceToNum;
-                  productPrice.textContent = startPrice.toString() + ' ₽';
-                } else if (startPrice > priceToNum) {
-                  const totalSum = startPrice - priceToNum;
-                  productPrice.textContent = totalSum.toString() + ' ₽';
-                }
-              }, 500);
-            });
-          });
+        });
       });
     };
   })();
