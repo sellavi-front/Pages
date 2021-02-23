@@ -109,6 +109,8 @@ if (document.querySelector('.product-product')) {
           let target = document.querySelector(
             '#product > div:nth-child(2) > div > button .filter-option-inner-inner',
           );
+
+          console.log(e.target);
           const sumPrice = target.textContent.match(regex);
           const config = {
             childList: true,
