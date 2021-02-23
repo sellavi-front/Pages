@@ -138,6 +138,6 @@ if (document.querySelector('.product-product')) {
   new PopupWithTable(tableData, product, tableTemplate).render();
 }
 
-window.onload = () => {
+document.addEventListener('DOMContentLoaded', () => {
   console.log(document.querySelector('#product > div:nth-child(2) > div > button'));
-};
+});
