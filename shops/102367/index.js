@@ -96,6 +96,7 @@ if (document.querySelector('.product-product')) {
         const cut = sel.textContent.match(regex);
 
         sel.textContent = sel.textContent.replace(regexRepalce, '');
+        console.log('ELEMENT', el.textContent);
 
         if (cut) {
           return +cut[1].replace(/\s/i, '');
@@ -103,7 +104,6 @@ if (document.querySelector('.product-product')) {
       });
 
       document.querySelectorAll('.inner.show .dropdown-menu .dropdown-item').forEach((el) => {
-        console.log('ELEMENT', el.textContent);
         // el.setAttribute('data-price', )
         el.addEventListener('click', (e) => {
           const regex = /\(([\d\. ]+)/i;
