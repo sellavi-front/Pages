@@ -121,10 +121,10 @@ if (document.querySelector('.product-product')) {
             price1 = price1 + priceToNum;
             productPrice.textContent = price1.toString() + ' ₽';
           } else if (startPrice < priceToNum) {
-            startPrice = startPrice + priceToNum;
+            price1 = startPrice + priceToNum;
             productPrice.textContent = startPrice.toString() + ' ₽';
           } else if (startPrice > priceToNum) {
-            const totalSum = startPrice - priceToNum;
+            price1 = startPrice - priceToNum;
             productPrice.textContent = totalSum.toString() + ' ₽';
           }
           // }, 500);
