@@ -829,7 +829,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="w-100 text-center">
-        <p style="font-size: 24px; text-transform: uppercase;">
+        <p style="font-size: 24px !important; text-transform: uppercase;">
           <b
             >Цены договорные<br />
             Прайс лист по запросу.</b
