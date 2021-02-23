@@ -80,6 +80,7 @@ if (document.querySelector('.wrapper')) {
 if (document.querySelector('.product-product')) {
   const colorChoise = new ColorChoise();
   colorChoise.render();
+
   (() => {
     window.onload = () => {
       const buttonSelect = document.querySelector('#product > div:nth-child(2) > div > button');
@@ -89,6 +90,9 @@ if (document.querySelector('.product-product')) {
         .replace(/\s+/i, '');
 
       buttonSelect.addEventListener('click', () => {
+        console.log(document.querySelectorAll(
+          '.inner.show .dropdown-menu .dropdown-item .text',
+        ));
         setTimeout(() => {
           const selects = document.querySelectorAll(
             '.inner.show .dropdown-menu .dropdown-item .text',
