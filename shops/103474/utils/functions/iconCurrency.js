@@ -88,7 +88,6 @@ $(document).ready(() => {
   if (pages.all) {
     console.log(document.querySelector(".header-cart .dropdown-menu .cart-content"));
     if (document.querySelector(".header-cart .dropdown-menu .cart-content")) {
-      const icons =
       changeIcon(document.querySelectorAll(".header-cart .dropdown-menu .cart-content .item-price"), icon);
     }
   }
