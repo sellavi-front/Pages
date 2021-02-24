@@ -116,6 +116,12 @@ body.theme_11
   z-index: 99999 !important;
 }
 
+body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
+  bottom: 0;
+  left: auto !important;
+  right: 10px !important;
+}
+
 body.theme-green-2.theme_11
   .wrapper
   .page-section
