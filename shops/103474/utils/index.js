@@ -1,5 +1,5 @@
 import '../../../components/HeaderTypeTwo/HeaderTypeTwoV2.js';
-import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+// import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 import '../../../fixes/fixes.js';
 import '../../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 // import Banner from "../blocks/banner.js"
