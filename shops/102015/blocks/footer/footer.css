@@ -21,3 +21,16 @@ footer .soc-icons {
 footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > ul > li:nth-child(1) > a {
     width: 130px;
 }
+
+.product-product .product-single.product-item .buttons #button-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.product-product .product-single.product-item .buttons #button-cart > i {
+    color: #fff !important
+}
+
+.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
+    color: #fff !important
+}
