@@ -90,6 +90,7 @@ if (pages.all) {
 
   const headerWrapper = document.querySelector('#home > div > header > div.header-wrapper');
   window.addEventListener('scroll', function () {
+    console.log(pageYOffset);
     if (pageYOffset === 20) {
       headerWrapper.classList.add('position-fixed')
     } else if (pageYOffset < 20 && headerWrapper.classList.contains('position-fixed')) {
