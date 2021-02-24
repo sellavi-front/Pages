@@ -59,6 +59,9 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   -ms-flex-align: center;
   align-items: center;
 }
+#content > .buttons > div.float-right {
+  float: none !important;
+}
 
 body.ltr .wrapper .header .header-wrapper .header-search button i {
   font-size: 21px !important;
