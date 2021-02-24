@@ -16,14 +16,14 @@ import SocIconsTypeOneV2 from "../../../components/SocialIconsTypeOne/SocialIcon
 // import CustomSection from "../blocks/custom-section.js"
 
 
-if(pages.home) {
+if (pages.home) {
   const btnInSlider = document.querySelector('body.common-home .main-slider .caption .caption-text a ');
   btnInSlider.textContent = '';
 
   btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.bag} Начать покупать`)
   btnInSlider.insertAdjacentHTML('beforebegin', `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`)
 
-  if(window.screen.width >= 575) {
+  if (window.screen.width >= 575) {
     document.querySelector("#home > div > div.content-area > section > div > h2 > span").insertAdjacentHTML("afterend", `<i class="fa fa-fire hits"></i>`)
     let advantages = new Advantages()
     advantages.render()
@@ -41,7 +41,7 @@ if(pages.home) {
   const imgCat = document.querySelectorAll(".page-section.homefeatured_category > div > div > div > div > div > a > picture > img");
   const sourceCat = document.querySelectorAll(".common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source")
 
-  sourceCat.forEach( source => {
+  sourceCat.forEach(source => {
     const srcset = source.getAttribute('srcset');
     let replacedSrc1 = srcset.replace(/\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi, '');
     source.setAttribute('srcset', replacedSrc1);
@@ -74,21 +74,23 @@ if (pages.all) {
 
 }
 
-if(location.href.includes('/index.php?route=account/register')) {
+if (location.href.includes('/index.php?route=account/register')) {
   document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.remove("btn-primary")
   document.querySelector("#content > form > fieldset:nth-child(5) > div > div.col-sm-12 > div > div > input").classList.add("btn-success")
 }
 
-if (location.href.includes('/checkout')) {
+// if (location.href.includes('/checkout')) {
 
-  let newElement = document.createElement('form')
-  newElement.classList.add("form_checkout")
-  let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
-  newElement.innerHTML = oldElement.innerHTML
-  oldElement.parentNode.replaceChild(newElement, oldElement)
+//   let newElement = document.createElement('form')
+//   newElement.classList.add("form_checkout")
+//   let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
+//   newElement.innerHTML = oldElement.innerHTML
+//   oldElement.parentNode.replaceChild(newElement, oldElement)
 
-}
+// }
 
+
+// });
 
 const logoSellavi = document.querySelector("#sellavi_logo > img");
 
@@ -113,9 +115,18 @@ if (document.querySelector('footer > .footer-widgets')) {
   listt.forEach((el) => {
     const tr = el.textContent;
 
-    if(tr.includes(' - ')) {
+    if (tr.includes(' - ')) {
       el.textContent = tr.slice(2);
     }
   });
 }
 
+
+
+jQuery(function () {
+  if (document.querySelector(".checkout-checkout")) {
+    $("#input-payment-cityId").attr("value", "49694102");
+    $("#input-payment-cityId + input").attr("value", "---");
+    $("#select2-input-payment-city-container").attr("title", "Москва");
+  }
+});
