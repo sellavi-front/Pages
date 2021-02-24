@@ -443,12 +443,17 @@ body.theme_11 .wrapper .page-section .products.grid {
     line-height: 25px;
   }
 
-  body .arrow {
+  .wrapper-opened .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky.header-catalog {
+    right: 15px !important;
+    left: auto !important;
+  }
+
+  /* body .arrow {
     display: block !important;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
-  }
+  } */
 
   .mobile_side_nav_menu > .flexy > .panel-collapse > ul > .flexy > a {
     font-style: normal;
