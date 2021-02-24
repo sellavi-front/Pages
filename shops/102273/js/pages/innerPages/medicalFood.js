@@ -1116,11 +1116,7 @@ export default function medicalFood() {
       class="col-sm-6"
     />
     </div>
-    <img
-      src="https://res.cloudinary.com/depgheppz/image/upload/v1612123316/102273/image_82_zygiau.png"
-      alt=""
-      class="mb-5"
-    />
+
     <p>
       <b>Вопрос:</b> - Можно ли комбинировать в зависимости от блюда?
       <b>
