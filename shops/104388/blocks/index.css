@@ -2,9 +2,13 @@
 
 @import './pay-delivery/pay-delivery.css';
 
-.information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
-  display: none;
+
+
+.information-information-8773 #content > div > div:nth-child(2) {
+  display: none !important
 }
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
