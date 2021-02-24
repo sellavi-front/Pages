@@ -15,6 +15,15 @@ body.product-category b {
   letter-spacing: 0.3px;
   /* font-size: 16px; */
 }
+body.information-information .sect ul,
+body.product-category .sect ul,
+body.information-information .sect ol,
+body.product-category .sect ol {
+  font-family: 'Times New Roman', Times, serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.3px;
+  /* font-size: 16px; */
+}
 
 body.product-category p,
 body.information-information p {
