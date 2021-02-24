@@ -55,3 +55,10 @@
     margin: 2px 0 0 70px !important;
   }
 }
+
+.checkout_form .logo {
+  margin: 0 auto !important;
+  padding-bottom: 20px;
+  display: flex !important;
+  justify-content: center !important;
+}
