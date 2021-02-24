@@ -14,5 +14,5 @@ if ( !Paths.home ) {
   headerWidgets.forEach(item => {
     item.classList.add('colored')
   })
-}
+} else console.log(`Error: can't add a 'colored' class`)
 
