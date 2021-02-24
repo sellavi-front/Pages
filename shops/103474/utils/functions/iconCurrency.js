@@ -85,6 +85,7 @@ const icon = '&#8372;';
       console.log(document.querySelector('.header-cart .dropdown-menu .cart-content'));
       if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
         let target = document.querySelector('.header-cart .dropdown-menu .cart-content .row.products_row col-12');
+        console.log('Target', target);
         const config = {
           childList: true,
         };
