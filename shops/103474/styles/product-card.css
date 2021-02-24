@@ -106,5 +106,6 @@ body .section-title {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+            margin-top: 20px;
   }
 }
