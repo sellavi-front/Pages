@@ -222,6 +222,10 @@ div.content-area
   font-weight: bold;
 }
 
+#content > div > div > div.col-12.col-lg-8 > div > div > div > div > div.product-price.col.d-none.d-md-flex.col-sm {
+  display: none !important;
+}
+
 body.theme_11
   .wrapper
   .subcategories_top
