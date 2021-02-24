@@ -51,4 +51,8 @@ footer > div.footer-widgets > div.container > div > div.soc-icons > div > div {
         display: flex;
         flex-direction: column
     }
+
+    .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+        position: relative !important;
+    }
 }
