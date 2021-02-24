@@ -84,8 +84,9 @@ const icon = '&#8372;';
     if (pages.all) {
       if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
         let target = document.querySelector(
-          '#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div > div.row.vouchers > div > div:nth-child(2) > p',
+          'header > div.header-wrapper div.header-cart.sticky > div > div.dropdown.cart_drop_down > div > div > div > div > div > div.row.vouchers > div > div:nth-child(2) > p',
         );
+
         const config = {
           childList: true,
         };
