@@ -84,7 +84,7 @@ const icon = '&#8372;';
     if (pages.all) {
       console.log(document.querySelector('.header-cart .dropdown-menu .cart-content'));
       if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
-        let target = document.querySelector('.header-cart .dropdown-menu .cart-content');
+        let target = document.querySelector('.header-cart .dropdown-menu .cart-content .row.products_row col-12');
         const config = {
           childList: true,
         };
