@@ -219,7 +219,7 @@ div.content-area
   > div
   > h2
   > span {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 
