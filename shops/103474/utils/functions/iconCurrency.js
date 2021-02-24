@@ -86,6 +86,7 @@ const icon = '&#8372;';
         let target = document.querySelector('.header-cart .dropdown-menu .cart-content .row.products_row .col-12');
         const config = {
           childList: true,
+          subtree: true
         };
 
         const callback = function (mutationsList, observer) {
@@ -99,10 +100,6 @@ const icon = '&#8372;';
         };
         const observer = new MutationObserver(callback);
         observer.observe(target, config);
-        // changeIcon(
-        //   document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
-        //   icon,
-        // );
       }
     }
   });
