@@ -22,6 +22,10 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
      height: 420px;
 }
 
+body .main-slider .owl-item:nth-child(2) .caption-content {
+  margin: 0 auto 0 0 !important;
+}
+
 body .main-slider .caption-content h3.caption-subtitle span {
   text-transform: none !important;
   text-shadow: none !important;
