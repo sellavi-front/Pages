@@ -205,6 +205,10 @@ body.theme_11
   font-weight: 400;
 }
 
+div.content-area > section.page-section.subcategories_top > div > div > div > div > div > a > div.caption > div > div > h2 > span {
+  font-weight: bold;
+}
+
 body.theme_11
   .wrapper
   .subcategories_top
