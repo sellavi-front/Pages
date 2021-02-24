@@ -1,6 +1,11 @@
 export default function charityPage() {
   return `
     <section class="page-section__content">
+    <h2 class="text-center">
+      <b
+        >МЕДИЦИНСКАЯ СПЕЦОДЕЖДА
+      </b>
+    </h2>
     <div class="sect w-100">
     <p>
       Профессиональная медицинская спецодежда в наличии и пошив корпоративным заказчикам
