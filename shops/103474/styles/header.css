@@ -44,7 +44,7 @@ body .arrow {
 body.sidenav-enabled.ltr .wrapper-opened {
   /* left: 50% !important; */
   position: static !important ;
-  left: calc(50% - 55px) !important;
+  left: calc(40% - 55px) !important;
 }
 
 .catalog-title {
