@@ -251,12 +251,6 @@ body.ltr .float-left {
   left: 0 !important;
 }
 
-body.theme_11 .wrapper .page-section .products.grid .product-item {
-  margin: 0 !important;
-  padding: 5px 15px 15px !important;
-  border-right: 1px solid rgba(223, 227, 232, 0.71);
-  border-bottom: 1px solid rgba(223, 227, 232, 0.71);
-}
 
 body .section-title.section-title-lg {
   font-size: 24px;
@@ -436,7 +430,7 @@ body.theme_11 .wrapper .page-section .products.grid {
 @media (min-width: 320px) and (max-width: 768px) {
   body.theme_11 .wrapper .page-section .products.grid .product-item {
     padding: 0 !important;
-    margin-top: 20px !important;
+    /* margin-top: 20px !important; */
   }
 
   .soc-icons__container {
