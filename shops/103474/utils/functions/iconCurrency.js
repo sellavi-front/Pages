@@ -87,7 +87,9 @@ const icon = '&#8372;';
         const config = {
           childList: true,
         };
+
         const callback = function (mutationsList, observer) {
+          console.log('terget', target);
           for (let mutation of mutationsList) {
             if (mutation.type === 'childList') {
               console.log(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'));
