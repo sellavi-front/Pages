@@ -10,7 +10,7 @@ const headerWidgets = [
   document.querySelector("#search > div.search_field > input")
 ]
 
-if ( !Paths.home ) {
+if ( !Paths.home || Paths.checkout) {
   headerWidgets.forEach(item => {
     item.classList.add('colored')
   })
