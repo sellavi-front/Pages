@@ -585,7 +585,7 @@ footer
   width: 20px;
 }
 
-body.theme_11.checkout-cart
+/* body.theme_11.checkout-cart
   .content-area
   .page-section
   .checkout_cart_inner
@@ -605,7 +605,7 @@ body.theme_11.checkout-cart
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-}
+} */
 
 body.theme_11.checkout-cart
   .content-area
