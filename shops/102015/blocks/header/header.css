@@ -90,3 +90,25 @@ header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamen
 .sf-menu li.megamenu ul {
     margin-top: 30px;
 }
+
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(4) {
+    display: none;
+}
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(5) {
+    display: none;
+}
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(6) {
+    display: none;
+}
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(7) {
+    display: none;
+}
+
+#collapse-6957 > ul > li.flexy > a {
+    color: black !important;
+    text-transform: none
+}
