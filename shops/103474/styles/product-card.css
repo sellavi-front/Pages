@@ -40,13 +40,9 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .pric
   color: #000 !important;
 }
 
-
 body.ltr .thumbnail .price_actions .add_to_cart {
   padding: 0 10px 0 0 !important;
 }
-
-
-
 
 body.theme_11 .wrapper .latest-section h2.section-title span {
   font-size: 24px;
@@ -102,15 +98,22 @@ body .section-title {
     border: 1px solid transparent;
     border-radius: 5px;
   }
+
+  body.theme_11 .wrapper .page-section .products.grid .product-item {
+    margin: 0 !important;
+    padding: 5px 15px 15px !important;
+    border-right: 1px solid rgba(223, 227, 232, 0.71);
+    border-bottom: 1px solid rgba(223, 227, 232, 0.71);
+  }
 }
 
 @media (max-width: 495px) {
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-            margin-top: 20px;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    margin-top: 20px;
   }
   body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
     margin-bottom: 20px !important;
