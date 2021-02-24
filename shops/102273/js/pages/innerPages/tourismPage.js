@@ -74,7 +74,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-4">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Новоафонская пещера</b></p>
           <p>
             Одна из крупнейших пещер в Абхазии, расположена на территории города Новый Афон, по
@@ -90,7 +90,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-4">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Анакопийская крепость</b></p>
           <p>
             Оборонительное сооружение, расположенное в городе Новый Афон на Анакопийской горе,
@@ -104,7 +104,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-4">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Великая Абхазская Келасурская стена </b></p>
           <p>
             Руинированное оборонительное сооружение, которое протянулось от реки Келасур по ущельям
@@ -118,7 +118,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-4">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Илорский храм</b></p>
           <p>
             Христианский храм в селе Илор в Абхазии, образец грузинской архитектуры XI века.
@@ -133,7 +133,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-4">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>ОзероРица</b></p>
           <p>
             Горное озеро ледниково-тектонического происхождения на Западном Кавказе, в Абхазии, в
@@ -151,7 +151,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-4">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Гегский водопад</b></p>
           <p>
             Христианский храм в селе Илор в Абхазии, образец грузинской архитектуры XI века.
