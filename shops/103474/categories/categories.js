@@ -44,11 +44,11 @@ const categories = [
     link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7002',
     text: 'Кофе, чай и какао',
   },
-  {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_42_pobk7l.png',
-    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7774',
-    text: 'Все для выпечки',
-  },
+  // {
+  //   img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_42_pobk7l.png',
+  //   link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7774',
+  //   text: 'Все для выпечки',
+  // },
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_49_1_md8fwy.png',
     link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7633',
