@@ -72,6 +72,10 @@ if (pages.all) {
   document.querySelector(".logo").insertAdjacentHTML("afterend", newCatalog.outerHTML)
   oldCatalog.remove()
 
+  const headerWrapper = document.querySelector("#home > div > header > div.header-wrapper");
+  window.addEventListener('scroll', function() {
+    console.log( pageYOffset + 'px');
+  });
 }
 
 if (location.href.includes('/index.php?route=account/register')) {
