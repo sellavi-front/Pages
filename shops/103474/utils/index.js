@@ -16,12 +16,12 @@ import SocIconsTypeOneV2 from '../../../components/SocialIconsTypeOne/SocialIcon
 // import CustomSection from "../blocks/custom-section.js"
 
 if (pages.home) {
-  const btnInSlider = document.querySelector(
+  const btnInSlider = document.querySelectorALl(
     'body.common-home .main-slider .caption .caption-text a ',
   );
   btnInSlider.textContent = '';
 
-  btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`);
+  btnInSlider.forEach(btn => btn.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`));
   document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614173411/Frame_1_bvthce.svg">`)
   // btnInSlider.insertAdjacentHTML(
   //   'beforebegin',
