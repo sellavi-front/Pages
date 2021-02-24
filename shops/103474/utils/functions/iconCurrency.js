@@ -91,7 +91,7 @@ const icon = '&#8372;';
         };
 
         const callback = function (mutationsList, observer) {
-          console.log('terget', target);
+          console.log('target', target);
           for (let mutation of mutationsList) {
             if (mutation.type === 'childList') {
               console.log(
