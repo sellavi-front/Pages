@@ -16,7 +16,7 @@ import SocIconsTypeOneV2 from '../../../components/SocialIconsTypeOne/SocialIcon
 // import CustomSection from "../blocks/custom-section.js"
 
 if (pages.home) {
-  const btnInSlider = document.querySelectorALl(
+  const btnInSlider = document.querySelectorAll(
     'body.common-home .main-slider .caption .caption-text a ',
   );
 
