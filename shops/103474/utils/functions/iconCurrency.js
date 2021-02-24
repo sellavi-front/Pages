@@ -63,7 +63,7 @@ import pages from '../pages/pages.js'
     });
   });
 
-  if (pages.product) {
+  if (pages.productCategory) {
     let target = document.querySelector('body div.products');
     const config = {
       childList: true,
