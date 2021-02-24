@@ -26,6 +26,11 @@
     font-size: 15px !important;
     color: #fff !important;
   }
+
+body.sidenav-enabled .mobile_side_nav {
+  width: 50% !important;
+}
+
 }
 
 body .arrow {
@@ -38,10 +43,6 @@ body .arrow {
 
 body.sidenav-enabled.ltr .wrapper-opened {
   left: 50% !important;
-}
-
-body.sidenav-enabled .mobile_side_nav {
-  width: 50% !important;
 }
 
 .catalog-title {
