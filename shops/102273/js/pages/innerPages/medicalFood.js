@@ -1117,7 +1117,7 @@ export default function medicalFood() {
     />
     </div>
 
-    <p>
+    <p class="mt-5">
       <b>Вопрос:</b> - Можно ли комбинировать в зависимости от блюда?
       <b>
         <br />
