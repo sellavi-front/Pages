@@ -88,16 +88,16 @@ if (pages.all) {
   document.querySelector('.logo').insertAdjacentHTML('afterend', newCatalog.outerHTML);
   oldCatalog.remove();
 
-  const headerWrapper = document.querySelector('#home > div > header > div.header-wrapper');
-  window.addEventListener('scroll', function () {
-    console.log(pageYOffset);
-    const scrl;
-    if (pageYOffset >= 10 && pageYOffset === srcl) {
-      headerWrapper.classList.add('position-fixed')
-    } else if (pageYOffset < 20 && headerWrapper.classList.contains('position-fixed')) {
-        headerWrapper.classList.remove('position-fixed')
-    }
-  });
+  // const headerWrapper = document.querySelector('#home > div > header > div.header-wrapper');
+  // window.addEventListener('scroll', function () {
+  //   console.log(pageYOffset);
+  //   let scrl;
+  //   if (pageYOffset >= 10 && pageYOffset === srcl) {
+  //     headerWrapper.classList.add('position-fixed')
+  //   } else if (pageYOffset < 20 && headerWrapper.classList.contains('position-fixed')) {
+  //       headerWrapper.classList.remove('position-fixed')
+  //   }
+  // });
 }
 
 if (location.href.includes('/index.php?route=account/register')) {
