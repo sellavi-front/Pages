@@ -19,9 +19,12 @@ if (pages.home) {
   const btnInSlider = document.querySelectorALl(
     'body.common-home .main-slider .caption .caption-text a ',
   );
-  btnInSlider.textContent = '';
 
-  btnInSlider.forEach(btn => btn.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`));
+
+  btnInSlider.forEach(btn => {
+    btn.textContent = '';
+    btn.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`)
+  });
   document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614173411/Frame_1_bvthce.svg">`)
   // btnInSlider.insertAdjacentHTML(
   //   'beforebegin',
