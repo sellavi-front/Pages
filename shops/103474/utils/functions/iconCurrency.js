@@ -1,9 +1,7 @@
-import pages from '../pages/pages.js'
+import pages from '../pages/pages.js';
 const icon = '&#8372;';
 
 (function () {
-
-
   const changeIcon = (list, icon) => {
     list.forEach((price) => {
       if (!price.closest('div').querySelector('svg') && !price.querySelector('ins')) {
@@ -57,13 +55,14 @@ const icon = '&#8372;';
             document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
             icon,
           );
-          changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
+          changeIcon(
+            document.querySelectorAll('.checkout_table .text-right.total_table__sum'),
+            icon,
+          );
         }, 500);
       });
     });
   }
-
-
 
   if (pages.productCategory) {
     let target = document.querySelector('body div.products');
@@ -80,15 +79,29 @@ const icon = '&#8372;';
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
   }
-
-
 })();
 
 $(document).ready(() => {
   if (pages.all) {
-    console.log(document.querySelector(".header-cart .dropdown-menu .cart-content"));
-    if (document.querySelector(".header-cart .dropdown-menu .cart-content")) {
-      changeIcon(document.querySelectorAll(".header-cart .dropdown-menu .cart-content .item-price"), icon);
+    console.log(document.querySelector('.header-cart .dropdown-menu .cart-content'));
+    if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
+      let target = document.querySelector('.header-cart .dropdown-menu .cart-content');
+      const config = {
+        childList: true,
+      };
+      const callback = function (mutationsList, observer) {
+        for (let mutation of mutationsList) {
+          if (mutation.type === 'childList') {
+            changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
+          }
+        }
+      };
+      const observer = new MutationObserver(callback);
+      observer.observe(target, config);
+      changeIcon(
+        document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+        icon,
+      );
     }
   }
-})
+});
