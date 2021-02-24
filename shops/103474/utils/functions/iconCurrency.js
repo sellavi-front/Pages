@@ -83,22 +83,33 @@ const icon = '&#8372;';
   $(document).ready(() => {
     if (pages.all) {
       if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
-        let target = document.querySelector('.header-cart .dropdown-menu .cart-content .row.products_row .col-12');
+        let target = document.querySelector(
+          '.header-cart .dropdown-menu .cart-content .row.products_row .col-12',
+        );
         const config = {
           childList: true,
-          subtree: true
+          subtree: true,
         };
 
         const callback = function (mutationsList, observer) {
           console.log('terget', target);
           for (let mutation of mutationsList) {
             if (mutation.type === 'childList') {
-              console.log(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'));
-              changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
-            }
-            if (mutation.type === 'subtree') {
-              console.log(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'));
-              changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
+              console.log(
+                document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+              );
+              changeIcon(
+                document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+                icon,
+              );
+            } else if (mutation.type === 'subtree') {
+              console.log(
+                document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+              );
+              changeIcon(
+                document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+                icon,
+              );
             }
           }
         };
@@ -108,5 +119,3 @@ const icon = '&#8372;';
     }
   });
 })();
-
-
