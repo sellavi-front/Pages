@@ -35,10 +35,7 @@ footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > ul 
     color: #fff !important
 }
 
-footer > div.footer-widgets > div.container > div {
-    display: flex;
-    flex-direction: column
-}
+
 
 footer > div.footer-widgets > div.container > div > div.soc-icons {
     margin-left: 8px;
@@ -46,4 +43,12 @@ footer > div.footer-widgets > div.container > div > div.soc-icons {
 
 footer > div.footer-widgets > div.container > div > div.soc-icons > div > div {
     margin-left: 10px;
+}
+
+
+@media (max-device-width: 480px) {
+    footer > div.footer-widgets > div.container > div {
+        display: flex;
+        flex-direction: column
+    }
 }
