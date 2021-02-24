@@ -100,7 +100,7 @@ body.theme_11 .advantages__elem {
   > div
   > div
   > label {
-    text-transform: none !important;
+  text-transform: none !important;
 }
 
 /* Search */
@@ -543,17 +543,8 @@ footer
   display: flex;
 }
 
-.product-price {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.product-price:not(.product-price.special-price) {
+  margin: 0 !important;
 }
 
 .product-price svg {
