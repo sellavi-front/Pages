@@ -545,6 +545,7 @@ footer
 
 .product-price:not(.product-price.special-price) {
   margin: 0 !important;
+  color: var(--color-theme);
 }
 
 .product-price svg {
