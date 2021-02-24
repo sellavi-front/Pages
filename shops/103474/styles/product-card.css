@@ -108,4 +108,7 @@ body .section-title {
             flex-direction: column !important;
             margin-top: 20px;
   }
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+    margin-bottom: 20px !important;
+  }
 }
