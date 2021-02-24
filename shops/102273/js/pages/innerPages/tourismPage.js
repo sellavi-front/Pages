@@ -49,14 +49,14 @@ const tourismPage = () => {
         >
       </p>
     </div>
-    <div>
+    <div class="places">
       <div class="row align-items-center mb-5">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1613747940/102273/unnamed_21_h2auzr.jpg"
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-8">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Иверская гора (Вид с Иверской горы, в центре Храм Святого Пантелеймона.)</b></p>
           <p>
             Гора в Абхазии в Новом Афоне. Высота горы составляет 344 м. На вершине горы находятся
@@ -166,7 +166,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-8">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Абхазская православная церковь</b></p>
           <p>
             Православная церковь с неурегулированным самопровозглашённым автономным статусом в
@@ -182,7 +182,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-8">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Сухум</b></p>
           <p>
             Крупнейший в Абхазии город. Столица, город республиканского значения частично признанной
@@ -201,7 +201,7 @@ const tourismPage = () => {
           alt=""
           class="col-sm-4"
         />
-        <div class="col-sm-8">
+        <div class="col-sm-8" style="height: 232px">
           <p><b>Сухумский обезьяний питомник</b></p>
           <p>
             Является базой Научно-исследовательского института экспериментальной патологии и терапии
