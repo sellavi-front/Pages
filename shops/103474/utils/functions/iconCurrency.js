@@ -1,7 +1,8 @@
 import pages from '../pages/pages.js'
+const icon = '&#8372;';
 
 (function () {
-  const icon = '&#8372;';
+
 
   const changeIcon = (list, icon) => {
     list.forEach((price) => {
@@ -48,20 +49,21 @@ import pages from '../pages/pages.js'
         icon,
       );
     }, 500);
+    document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach((el) => {
+      el.addEventListener('click', () => {
+        setTimeout(() => {
+          changeIcon(document.querySelectorAll('.single-price > div'), icon);
+          changeIcon(
+            document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
+            icon,
+          );
+          changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
+        }, 500);
+      });
+    });
   }
 
-  document.querySelectorAll('.shipping-method.panel-options > .radio > label').forEach((el) => {
-    el.addEventListener('click', () => {
-      setTimeout(() => {
-        changeIcon(document.querySelectorAll('.single-price > div'), icon);
-        changeIcon(
-          document.querySelectorAll('.order_list_section__total-lines > div > .text-right'),
-          icon,
-        );
-        changeIcon(document.querySelectorAll('.checkout_table .text-right.total_table__sum'), icon);
-      }, 500);
-    });
-  });
+
 
   if (pages.productCategory) {
     let target = document.querySelector('body div.products');
@@ -86,8 +88,8 @@ $(document).ready(() => {
   if (pages.all) {
     console.log(document.querySelector(".header-cart .dropdown-menu .cart-content"));
     if (document.querySelector(".header-cart .dropdown-menu .cart-content")) {
-      const icons = document.querySelectorAll(".header-cart .dropdown-menu .cart-content .item-price");
-      console.log( icons);
+      const icons =
+      changeIcon(document.querySelectorAll(".header-cart .dropdown-menu .cart-content .item-price"), icon);
     }
   }
 })
