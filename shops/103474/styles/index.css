@@ -443,7 +443,7 @@ body.theme_11 .wrapper .page-section .products.grid {
   .wrapper-opened .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky.header-catalog  {
     background: transparent !important;
   }
-  .wrapper-opened .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky.header-catalog {
+  body.ltr.ru .wrapper-opened .mobile-navigation-wrapper.d-lg-none.d-xl-none.sticky.header-catalog {
     right: 15px !important;
     left: auto !important;
   }
