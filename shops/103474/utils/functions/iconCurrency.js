@@ -79,29 +79,31 @@ const icon = '&#8372;';
     const observer = new MutationObserver(callback);
     observer.observe(target, config);
   }
+
+  $(document).ready(() => {
+    if (pages.all) {
+      console.log(document.querySelector('.header-cart .dropdown-menu .cart-content'));
+      if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
+        let target = document.querySelector('.header-cart .dropdown-menu .cart-content');
+        const config = {
+          childList: true,
+        };
+        const callback = function (mutationsList, observer) {
+          for (let mutation of mutationsList) {
+            if (mutation.type === 'childList') {
+              changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
+            }
+          }
+        };
+        const observer = new MutationObserver(callback);
+        observer.observe(target, config);
+        changeIcon(
+          document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+          icon,
+        );
+      }
+    }
+  });
 })();
 
-$(document).ready(() => {
-  if (pages.all) {
-    console.log(document.querySelector('.header-cart .dropdown-menu .cart-content'));
-    if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
-      let target = document.querySelector('.header-cart .dropdown-menu .cart-content');
-      const config = {
-        childList: true,
-      };
-      const callback = function (mutationsList, observer) {
-        for (let mutation of mutationsList) {
-          if (mutation.type === 'childList') {
-            changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
-          }
-        }
-      };
-      const observer = new MutationObserver(callback);
-      observer.observe(target, config);
-      changeIcon(
-        document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
-        icon,
-      );
-    }
-  }
-});
+
