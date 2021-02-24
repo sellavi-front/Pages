@@ -17,3 +17,7 @@
 footer .soc-icons {
     max-width: 169px !important;
 }
+
+footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > ul > li:nth-child(1) > a {
+    width: 130px;
+}
