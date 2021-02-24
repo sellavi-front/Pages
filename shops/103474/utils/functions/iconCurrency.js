@@ -80,6 +80,7 @@ import pages from '../pages/pages.js'
   }
 
   if (pages.all) {
+    console.log(document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div"));
     if (document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div")) {
       const icons = document.querySelectorAll("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div > div.dropdown.cart_drop_down.show > div > div > div > div > div .item-price");
       console.log( icons);
