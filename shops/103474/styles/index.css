@@ -398,11 +398,11 @@ body.theme_11 .wrapper .page-section .products.grid {
     cursor: pointer;
     margin-top: 90px !important;
   }
-
+/*
   body label.placeholder {
     position: relative;
     padding: 10px !important;
-  }
+  } */
 
   body.ltr .checkbox.customized label,
   body.ltr .radio.customized label {
