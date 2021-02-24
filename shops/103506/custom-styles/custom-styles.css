@@ -71,3 +71,8 @@ body:not(.checkout-checkout) {
     top: 45px !important;
   }
 }
+
+#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.logo.logo-edited > a > figure > img {
+  max-width: 100px !important;
+  max-height: fit-content !important;
+}
