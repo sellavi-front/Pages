@@ -96,6 +96,10 @@ const icon = '&#8372;';
               console.log(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'));
               changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
             }
+            if (mutation.type === 'subtree') {
+              console.log(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'));
+              changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
+            }
           }
         };
         const observer = new MutationObserver(callback);
