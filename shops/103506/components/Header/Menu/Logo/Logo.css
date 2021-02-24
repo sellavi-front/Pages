@@ -50,4 +50,8 @@
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 5px !important;
   }
+
+  body.ltr .wrapper header.header .logo.logo-edited {
+    margin: 2px 0 0 70px !important;
+  }
 }
