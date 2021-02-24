@@ -79,6 +79,13 @@ body p {
      object-fit: cover;
 }
 
+.page-section__programm > li > p::before{
+  content: '\25CF';
+  width: 5px;
+  color: red;
+  height: 5px;
+}
+
 .sect img.m-2 {
   width: 165px;
   -o-object-fit: cover;
