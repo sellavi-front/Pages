@@ -22,10 +22,10 @@ if (pages.home) {
   btnInSlider.textContent = '';
 
   btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.bag} Начать покупать`);
-  btnInSlider.insertAdjacentHTML(
-    'beforebegin',
-    `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`,
-  );
+  // btnInSlider.insertAdjacentHTML(
+  //   'beforebegin',
+  //   `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`,
+  // );
 
   if (window.screen.width >= 575) {
     document

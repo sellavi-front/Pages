@@ -22,7 +22,7 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
      height: 420px;
 }
 
-body .main-slider.content_left .caption-content h3.caption-subtitle {
+body .main-slider .caption-content h3.caption-subtitle span {
   font-weight: bold;
   text-transform: none !important;
   text-shadow: none !important;
