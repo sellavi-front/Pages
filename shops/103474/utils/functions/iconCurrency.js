@@ -82,16 +82,15 @@ const icon = '&#8372;';
 
   $(document).ready(() => {
     if (pages.all) {
-      console.log(document.querySelector('.header-cart .dropdown-menu .cart-content'));
       if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
         let target = document.querySelector('.header-cart .dropdown-menu .cart-content .row.products_row .col-12');
-        console.log('Target', target);
         const config = {
           childList: true,
         };
         const callback = function (mutationsList, observer) {
           for (let mutation of mutationsList) {
             if (mutation.type === 'childList') {
+              console.log(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'));
               changeIcon(document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'), icon);
             }
           }
