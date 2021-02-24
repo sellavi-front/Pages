@@ -205,7 +205,23 @@ body.theme_11
   font-weight: 400;
 }
 
-div.content-area > section.page-section.subcategories_top > div > div > div > div > div > a > div.caption > div > div > h2 > span {
+body.sidenav-enabled.ltr .wrapper-opened {
+  left: calc(30% - 55px);
+}
+
+div.content-area
+  > section.page-section.subcategories_top
+  > div
+  > div
+  > div
+  > div
+  > div
+  > a
+  > div.caption
+  > div
+  > div
+  > h2
+  > span {
   font-weight: bold;
 }
 
