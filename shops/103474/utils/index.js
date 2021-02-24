@@ -22,7 +22,7 @@ if (pages.home) {
   btnInSlider.textContent = '';
 
   btnInSlider.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`);
-  document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img src="https://res.cloudinary.com/depgheppz/image/upload/v1614173411/Frame_1_bvthce.svg">`)
+  document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614173411/Frame_1_bvthce.svg">`)
   // btnInSlider.insertAdjacentHTML(
   //   'beforebegin',
   //   `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`,
