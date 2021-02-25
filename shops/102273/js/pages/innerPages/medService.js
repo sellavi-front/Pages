@@ -3080,7 +3080,7 @@ const medService = () => {
       <div class="sect">
         <h3><b>Дары природы Горного Алтая </b></h3>
         <div class="row">
-          <h6 class="w-100">Бадан лист</h6>
+          <h6 class="w-100"><b>Бадан лист</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_36_w4ktrv.jpg"
@@ -3090,7 +3090,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Диарея</li>
                 <li>Фурункулез</li>
                 <li>Суставной ревматизм</li>
@@ -3102,7 +3102,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Повышенная свертываемость крови
                 </li>
                 <li>Сердечные заболевания
@@ -3115,8 +3115,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Боровая матка
-          </h6>
+          <h6 class="w-100"><b>Боровая матка
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272735/102273/image2_xaf2pu.jpg"
@@ -3126,7 +3126,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Мочеполовая система
                 </li>
                 <li>Недержание мочи
@@ -3152,7 +3152,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Детям до 14
                 </li>
                 <li>Аллергия
@@ -3166,8 +3166,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Болиголов
-          </h6>
+          <h6 class="w-100"><b>Болиголов
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272435/102273/unnamed_35_pwsxj8.jpg"
@@ -3177,7 +3177,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Доброкачественные и злокачественные опухоли</li>
                 <li>Венерические заболевания</li>
                 <li>Язва</li>
@@ -3195,7 +3195,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Беременность</li>
                 <li>Период лактации</li>
                 <li>Аллергия</li>
@@ -3212,7 +3212,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Брусника лист</h6>
+          <h6 class="w-100"><b>Брусника лист</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_34_pzlzqb.jpg"
@@ -3222,7 +3222,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Противовоспалительное</li>
                 <li>Противомикробное</li>
                 <li>Желчегонное</li>
@@ -3234,7 +3234,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Беременность</li>
                 <li>Период грудного вскармливания
                 </li>
@@ -3250,7 +3250,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Гриб Рейши Алтайский</h6>
+          <h6 class="w-100"><b>Гриб Рейши Алтайский</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272439/102273/unnamed_33_mtkqmf.jpg"
@@ -3260,7 +3260,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>противовоспалительное</li>
                 <li>при артритах, артрозах
                 </li>
@@ -3275,7 +3275,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>беременным и кормящим матерям</li>
                 <li>людям с патологиями свертываемости крови</li>
               </ul>
@@ -3285,7 +3285,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Дягиль</h6>
+          <h6 class="w-100"><b>Дягиль</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272438/102273/unnamed_32_tlzcvp.jpg"
@@ -3295,7 +3295,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>острая и хроническая невралгия</li>
                 <li>ревматизм</li>
                 <li>подагра</li>
@@ -3315,7 +3315,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>язва желудка
                 </li>
                 <li>сахарный диабет</li>
@@ -3326,7 +3326,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Лапчатка белая</h6>
+          <h6 class="w-100"><b>Лапчатка белая</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_21_nlpff9.jpg"
@@ -3336,7 +3336,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>щитовидная железа</li>
                 <li>ангина</li>
                 <li>антибактериальное</li>
@@ -3351,7 +3351,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>повышенной частоте сердечных сокращений;</li>
                 <li>нарушениях ритма сердца;</li>
                 <li>индивидуальной непереносимости растения;</li>
@@ -3363,8 +3363,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Липа цвет
-          </h6>
+          <h6 class="w-100"><b>Липа цвет
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_30_sebosc.jpg"
@@ -3374,7 +3374,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Ангина</li>
                 <li>Ларингит</li>
                 <li>острые и хронические бронхиты;</li>
@@ -3396,7 +3396,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>индивидуальная непереносимость</li>
               </ul>
             </div>
@@ -3405,7 +3405,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Омела белая</h6>
+          <h6 class="w-100"><b>Омела белая</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_29_fecifa.jpg"
@@ -3415,7 +3415,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>гипертония</li>
                 <li>лечение истерии</li>
                 <li>нарушение сердечной деятельности</li>
@@ -3434,7 +3434,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>беременность</li>
                 <li>лактация</li>
                 <li>ашемия сердца</li>
@@ -3446,7 +3446,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Софора</h6>
+          <h6 class="w-100"><b>Софора</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272438/102273/unnamed_28_lubfbp.jpg"
@@ -3456,7 +3456,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Онкологические заболевания</li>
                 <li>Сердечно-сосудистые заболевания </li>
                 <li>Мозговые кровоизлияния или кровоизлияния в сетчатку глаза.</li>
@@ -3476,7 +3476,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>гипотонии</li>
                 <li>индивидуальной непереносимости, в том числе, при наличии аллергии на бобовые; </li>
                 <li>цистите</li>
@@ -3489,8 +3489,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Сабельник болотный
-          </h6>
+          <h6 class="w-100"><b>Сабельник болотный
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272438/102273/unnamed_27_f95ng8.jpg"
@@ -3500,7 +3500,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>болезни крови</li>
                 <li>тромбофлебит</li>
                 <li>сердечно-сосудистые заболевания</li>
@@ -3523,7 +3523,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>гипотония</li>
                 <li>брадикардия</li>
                 <li>гиперчувствительность</li>
@@ -3534,7 +3534,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Мох Пармелия</h6>
+          <h6 class="w-100"><b>Мох Пармелия</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_26_htaddh.jpg"
@@ -3544,7 +3544,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>заболевания дыхательных путей: бронхиальная астма, туберкулез легких;</li>
                 <li>язвенная болезни желудка и двенадцатиперстной кишки;</li>
                 <li>сахарный диабет;</li>
@@ -3557,7 +3557,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>индивидуальная непереносимость;</li>
                 <li>беременность и период лактации</li>
               </ul>
@@ -3567,7 +3567,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Кора Осины</h6>
+          <h6 class="w-100"><b>Кора Осины</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_25_rneekd.jpg"
@@ -3577,7 +3577,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>кровеостанавливающее</li>
                 <li>противовоспалительное</li>
                 <li>противокашлевое</li>
@@ -3599,7 +3599,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>аллергические реакции на средства, в состав которых входит кора осины;</li>
                 <li>хронические запоры, непроходимость кишечника;</li>
                 <li>острые инфекционные заболевания кишечника;</li>
@@ -3615,7 +3615,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Аконит</h6>
+          <h6 class="w-100"><b>Аконит</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_24_ztaanz.jpg"
@@ -3625,7 +3625,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Злокачественные новообразования любой этиологии(рака желудка, легких,щитовидной железы, рак мозга);</li>
                 <li>Подагра</li>
                 <li>Артрит</li>
@@ -3644,7 +3644,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Гиперчувствительность</li>
                 <li>Гипотония</li>
                 <li>Беременность,  кормление грудью.</li>
@@ -3655,8 +3655,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Аир корень
-          </h6>
+          <h6 class="w-100"><b>Аир корень
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272439/102273/unnamed_23_jl9j0x.jpg"
@@ -3666,7 +3666,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>ПРИ простуде</li>
                 <li>Гриппе</li>
                 <li>Водянке</li>
@@ -3693,7 +3693,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Период беременности</li>
                 <li>Кровотечение из носовых проходов</li>
                 <li>Язва желудка, имеющая острую форму.</li>
@@ -3709,7 +3709,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Золотой корень</h6>
+          <h6 class="w-100"><b>Золотой корень</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272439/102273/unnamed_22_qpe38z.jpg"
@@ -3719,7 +3719,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Улучшает обмен в мозге</li>
                 <li>Неврозы</li>
                 <li>Гипотонии</li>
@@ -3746,7 +3746,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Гипертония</li>
                 <li>Беременность</li>
                 <li>Период кормления грудью</li>
@@ -3760,8 +3760,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Красный корень
-          </h6>
+          <h6 class="w-100"><b>Красный корень
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_21_nlpff9.jpg"
@@ -3771,7 +3771,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Отхаркивающее</li>
                 <li>Легочные заболевания</li>
                 <li>Туберкулез</li>
@@ -3791,7 +3791,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Беременность и лактация</li>
                 <li>Повышенная нервная возбудимость</li>
                 <li>Гипертония</li>
@@ -3802,8 +3802,8 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Красная щетка
-          </h6>
+          <h6 class="w-100"><b>Красная щетка
+          </b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272438/102273/unnamed_20_ysmskl.jpg"
@@ -3813,7 +3813,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>атеросклероз</li>
                 <li>высокое внутричерепное давление</li>
                 <li>анемия</li>
@@ -3856,7 +3856,7 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>индивидуальной непереносимости компонентов лекарства;</li>
                 <li>имеющихся аллергических реакциях;</li>
                 <li>актуальных менструальных кровотечениях;</li>
@@ -3872,7 +3872,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100">Агарикус гриб</h6>
+          <h6 class="w-100"><b>Агарикус гриб</b></h6>
           <div class="col-md-4 col-12">
             <img               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_19_axhz46.jpg"
             alt="" />
@@ -3880,7 +3880,7 @@ const medService = () => {
           <div class="col-md-8 col-12">
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Показания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>Слабительное и кровоостанавливающее</li>
                 <li>Снотворное и успокаивающее
                 </li>
@@ -3898,15 +3898,13 @@ const medService = () => {
             </div>
             <div class="">
               <p style="margin: 0 0 10px !important"><b>Противопоказания:</b></p>
-              <ul style="list-style: disc">
+              <ul style="list-style: disc; padding-left: 18px !important;">
                 <li>при беременности и лактации.</li>
                 <li>детям и пожилым людям</li>
               </ul>
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
     </section>
