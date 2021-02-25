@@ -3080,7 +3080,7 @@ const medService = () => {
       <div class="sect">
         <h3><b>Дары природы Горного Алтая </b></h3>
         <div class="row">
-          <h6 class="w-100"><b>Бадан лист</b></h6>
+          <h6 class="w-100 text-center"><b>Бадан лист</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_36_w4ktrv.jpg"
@@ -3115,7 +3115,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Боровая матка
+          <h6 class="w-100 text-center"><b>Боровая матка
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3166,7 +3166,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Болиголов
+          <h6 class="w-100 text-center"><b>Болиголов
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3212,7 +3212,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Брусника лист</b></h6>
+          <h6 class="w-100 text-center"><b>Брусника лист</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_34_pzlzqb.jpg"
@@ -3250,7 +3250,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Гриб Рейши Алтайский</b></h6>
+          <h6 class="w-100 text-center"><b>Гриб Рейши Алтайский</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272439/102273/unnamed_33_mtkqmf.jpg"
@@ -3285,7 +3285,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Дягиль</b></h6>
+          <h6 class="w-100 text-center"><b>Дягиль</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272438/102273/unnamed_32_tlzcvp.jpg"
@@ -3326,7 +3326,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Лапчатка белая</b></h6>
+          <h6 class="w-100 text-center"><b>Лапчатка белая</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_21_nlpff9.jpg"
@@ -3363,7 +3363,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Липа цвет
+          <h6 class="w-100 text-center"><b>Липа цвет
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3405,7 +3405,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Омела белая</b></h6>
+          <h6 class="w-100 text-center"><b>Омела белая</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272436/102273/unnamed_29_fecifa.jpg"
@@ -3446,7 +3446,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Софора</b></h6>
+          <h6 class="w-100 text-center"><b>Софора</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272438/102273/unnamed_28_lubfbp.jpg"
@@ -3489,7 +3489,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Сабельник болотный
+          <h6 class="w-100 text-center"><b>Сабельник болотный
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3534,7 +3534,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Мох Пармелия</b></h6>
+          <h6 class="w-100 text-center"><b>Мох Пармелия</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_26_htaddh.jpg"
@@ -3567,7 +3567,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Кора Осины</b></h6>
+          <h6 class="w-100 text-center"><b>Кора Осины</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_25_rneekd.jpg"
@@ -3615,7 +3615,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Аконит</b></h6>
+          <h6 class="w-100 text-center"><b>Аконит</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_24_ztaanz.jpg"
@@ -3655,7 +3655,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Аир корень
+          <h6 class="w-100 text-center"><b>Аир корень
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3709,7 +3709,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Золотой корень</b></h6>
+          <h6 class="w-100 text-center"><b>Золотой корень</b></h6>
           <div class="col-md-4 col-12">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272439/102273/unnamed_22_qpe38z.jpg"
@@ -3760,7 +3760,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Красный корень
+          <h6 class="w-100 text-center"><b>Красный корень
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3802,7 +3802,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Красная щетка
+          <h6 class="w-100 text-center"><b>Красная щетка
           </b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3872,7 +3872,7 @@ const medService = () => {
 
 
         <div class="row">
-          <h6 class="w-100"><b>Агарикус гриб</b></h6>
+          <h6 class="w-100 text-center"><b>Агарикус гриб</b></h6>
           <div class="col-md-4 col-12">
             <img               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_19_axhz46.jpg"
             alt="" />
