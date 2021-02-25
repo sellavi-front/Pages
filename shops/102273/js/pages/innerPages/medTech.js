@@ -903,7 +903,7 @@ const medTech = () => {
             акне, рубцы, дряблая кожа на лице, а также для выполнения блефаропластики и
             лифтинга бровей.
           </p>
-          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.23_nnpppz.png" class="w-50">
+          <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997062/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.24.23_nnpppz.png" class="w-50 mb-4">
           <p>
             <b> Эффект:</b> коррекция рубцов (в том числе постакне), растяжек, безоперационная
             подтяжка век, устранение морщин и мешков под глазами, удаление пигментных пятен,
@@ -938,7 +938,7 @@ const medTech = () => {
           и отсутствие разрезов и шрамов!
         </p>
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997262/102273/unnamed_25_u7xpf1.jpg" class="w-100">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/image32_lablnj.jpg" class="w-100">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/image32_lablnj.jpg" class="w-100 mb-5">
         <p>
           Технология RFAL™ (радиочастотная липосакция), внедренная в приборе BodyTite, была
           разработана специально с учетом клинических наработок и выявленных за годы
@@ -999,7 +999,7 @@ const medTech = () => {
           необходимость.
         </p>
 
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997252/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.32.48_hmlngn.png" class="w-50">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997252/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.32.48_hmlngn.png" class="w-50 mb-5">
         <p>
           Сначала в Европе и Америке, а затем и у нас, в России, было решено применить
           методику для подтяжки груди. Западные коллеги используют радиочастотную подтяжку
@@ -1181,7 +1181,7 @@ const medTech = () => {
   <div class="mb-3">
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612264503/prisma_20a-s-uvlazhnitelem_1_1_dsznwi.png"
-      alt=""
+      class="mb-5"
     />
     <p>
       Данная «линейка» оборудования включает в себя ряд модификаций, каждая из которых
@@ -1193,7 +1193,7 @@ const medTech = () => {
     </p>
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1613744263/102273/image8_j4bo8m.png"
-      alt=""
+      class="mb-4"
     />
 
     <p class="mb-3">
@@ -1258,7 +1258,7 @@ const medTech = () => {
   </div>
 
   <div class="mb-3 row">
-    <div class="col-8">
+    <div class="">
       <h5><b>PRISMA LAb - В Помощь Врачу</b></h5>
       <p>
         Аппарат для клинического использования. Включает в себя все перечисленные выше модели
@@ -1267,13 +1267,11 @@ const medTech = () => {
         вентиляции. <br />
         • Для выявления необходимого типа дыхательного оборудования, которое будет
         рекомендовано пациенту для длительного использования.
-      </p>
-    </div>
-    <div class="col-4">
-      <img
+        <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612264502/image_87_o5jsln.png"
-        alt=""
+        class="float-right"
       />
+      </p>
     </div>
   </div>
 
