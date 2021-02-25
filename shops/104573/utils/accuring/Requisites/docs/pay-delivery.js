@@ -28,7 +28,7 @@ const payDelivery = (obj) => {
       style="margin-right: 20px"
     />
     <img src="https://www.drupal.org/files/project-images/dostavista-logo.png" height="50" />
-    <img src="https://tadviser.ru/images/1/1d/%D0%A1%D0%94%D0%AD%D0%9A.png"  height="50" />
+    <img src="https://tadviser.ru/images/1/1d/%D0%A1%D0%94%D0%AD%D0%9A.png"  height="50" style="margin-top: 15px"/>
   </section>
   <section class="delivery__content">
     <p class="delivery__content-title">
