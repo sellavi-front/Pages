@@ -264,16 +264,18 @@ const medService = () => {
               </p>
             </div>
             <div class="">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/unnamed_d5ktoi.jpg" class="float-right" />
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/image3_lvto6r.jpg" class="float-left" />
+              <div>
               <p claas="mb-1">Услуги по Восточной медицины в комплексе:</p>
-              <ul>
+              <ul class="mr-4">
                 <li>- точечный массаж</li>
                 <li>- вакуум терапия – постановка банок</li>
                 <li>- иглорефлексотерапия – иглоукалывание</li>
                 <li>- очищение организма изнутри фито препаратами</li>
                 <li>- игольчатый аппликатор</li>
-              </ul>
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/unnamed_d5ktoi.jpg" class="float-right" />
+                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/image3_lvto6r.jpg" class="float-left" />
+                </ul>
+              </div
             </div>
           </div>
         </div>
