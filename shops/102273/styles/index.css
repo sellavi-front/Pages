@@ -73,6 +73,7 @@ table .col-md-3 {
   max-width: 25% !important;
 }
 
-body.ltr ol, body.ltr ul {
+body.ltr ol, body.ltr ul:not(.widget-categories ul) {
   padding-left: 10px !important;
 }
+
