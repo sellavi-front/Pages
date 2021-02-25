@@ -177,6 +177,10 @@ body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   margin-left: 25px;
 }
 
+#home > nav.navigation.mobile_side_nav.opened.nav-opened > div.mobile-navigation-close > i {
+  display: none !important;
+}
+
 /*
 body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
