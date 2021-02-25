@@ -40,7 +40,8 @@ label,
 
 /* Header */
 .header_widgets {
-  z-index: 999 !important;
+  z-index: 9999 !important;
+  position: relative !important;
 }
 
 body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
