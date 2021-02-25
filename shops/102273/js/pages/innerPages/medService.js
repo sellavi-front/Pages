@@ -166,7 +166,7 @@ const medService = () => {
           <div class="row">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614242791/102273/image1_gsvpeh.png"
-              class="float-left"
+              class="float-left mr-4"
             />
             <div>
               <h6 style="color: green; font-weight: bold">КОЗДОБА АНДРЕЙ СЕМЕНОВИЧ</h6>
