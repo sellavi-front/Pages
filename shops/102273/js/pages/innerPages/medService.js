@@ -3079,7 +3079,7 @@ const medService = () => {
       <div >
       <div class="sect">
         <h3><b>Дары природы Горного Алтая </b></h3>
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Бадан лист</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3114,7 +3114,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Боровая матка
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3165,7 +3165,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Болиголов
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3211,7 +3211,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Брусника лист</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3249,7 +3249,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Гриб Рейши Алтайский</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3284,7 +3284,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Дягиль</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3325,7 +3325,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Лапчатка белая</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3362,7 +3362,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Липа цвет
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3404,7 +3404,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Омела белая</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3445,7 +3445,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Софора</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3488,7 +3488,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Сабельник болотный
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3533,7 +3533,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Мох Пармелия</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3566,7 +3566,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Кора Осины</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3614,7 +3614,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Аконит</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3654,7 +3654,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Аир корень
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3708,7 +3708,7 @@ const medService = () => {
 
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Золотой корень</b></h6>
           <div class="col-md-4 col-12">
             <img
@@ -3759,7 +3759,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Красный корень
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3801,7 +3801,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Красная щетка
           </b></h6>
           <div class="col-md-4 col-12">
@@ -3871,7 +3871,7 @@ const medService = () => {
         </div>
 
 
-        <div class="row">
+        <div class="row mb-5">
           <h6 class="w-100 text-center"><b>Агарикус гриб</b></h6>
           <div class="col-md-4 col-12">
             <img               src="https://res.cloudinary.com/depgheppz/image/upload/v1614272437/102273/unnamed_19_axhz46.jpg"
