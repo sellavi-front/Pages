@@ -3907,7 +3907,7 @@ const medService = () => {
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_44_xshrue.jpg"
@@ -3925,7 +3925,7 @@ const medService = () => {
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_43_pueaus.jpg"
@@ -3943,7 +3943,7 @@ const medService = () => {
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_42_s1x1t1.jpg"
@@ -3962,7 +3962,7 @@ const medService = () => {
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281940/102273/unnamed_41_bta3qb.jpg"
@@ -3985,7 +3985,7 @@ const medService = () => {
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_40_npivvi.jpg"
@@ -4005,7 +4005,7 @@ const medService = () => {
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_39_pfrxzl.jpg"
@@ -4026,9 +4026,10 @@ const medService = () => {
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
+          class="w-100"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_38_mlsetu.jpg"
           alt=""
         />
@@ -4045,7 +4046,7 @@ const medService = () => {
       </div>
     </div>
 
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-6 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614281939/102273/unnamed_37_ucg5nf.jpg"
@@ -4084,7 +4085,6 @@ const medService = () => {
         При бесплодии, нарывах, миозитах и радикулите.
       </p>
     </div>
-
     </div>
     </section>
   `
