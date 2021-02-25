@@ -77,7 +77,7 @@ body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results 
   width: inherit !important;
 }
 
-body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+body.common-home .wrapper .header .header-wrapper .header-search .search_field input.form-control {
   color: white !important;
   padding-right: 50px !important;
 }

@@ -49,3 +49,6 @@ body.sidenav-enabled .mobile_side_nav>ul > li:not(.home_link) >a {
 .page-header h1 {
   font-size: 26px !important;
 }
+body.sidenav-enabled .mobile_side_nav>ul a {
+  border: none !important;
+}

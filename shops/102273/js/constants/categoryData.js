@@ -2,12 +2,12 @@ const categoryData = {
   title: 'Категории',
   content: [
     {
-      text: 'Дезинфекцирующие рамки',
+      text: 'Дезинфицирующие рамки',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-metal-detector_1_zyvpx8.svg',
       link: '/disinfecting-frames',
     },
     {
-      text: 'Косметика',
+      text: 'Лечебная косметика',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832444/102273/icons8-makeup_orwxyw.svg',
       link: '/cosmetics',
     },
@@ -17,7 +17,7 @@ const categoryData = {
       link: '/health-food',
     },
     {
-      text: 'Дезинфекцирующие средства',
+      text: 'Дезинфицирующие средства',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-hand-wash_mm16oq.svg',
       link: '/disinfectants',
     },
@@ -47,7 +47,7 @@ const categoryData = {
       link: '/urban-economy',
     },
     {
-      text: 'Кофе',
+      text: 'Кофе из Ливана (100% Арабика)',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-coffee-beans_dhgj4d.svg',
       link: '/coffee',
     },

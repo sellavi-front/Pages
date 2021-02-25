@@ -7,5 +7,36 @@
 
 .footer_content_container {
   height: 15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+}
+/*
+body .footer .footer-widgets .widget-title {
+  padding-bottom: 0 !important;
+} */
+
+.soc-icons__container {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+@media (min-width: 991px) {
+  #sellavi_logo {
+    width: 111px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body.theme-red-2 .footer .footer-widgets .col-md-3:last-child .widget-title {
+    text-align: left !important;
+  }
+
+  .footer-widgets .row .col-md-3:nth-child(2),
+  .footer-widgets .row .col-md-3:nth-child(3),
+  .footer-widgets .row .col-md-3:nth-child(4) {
+    border-top: 1px solid #C4C4C4 !important;
+    padding-top: 20px !important;
+  }
 }

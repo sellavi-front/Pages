@@ -60,12 +60,36 @@ body.ru.ltr
   color: black !important;
 }
 
-body.theme_11.common-home .wrapper .homefeatured_category>div>div>div:nth-child(1)>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span,
-body.theme_11.common-home .wrapper .homefeatured_category>div>div>div:nth-child(1)>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner .btn {
+body.theme_11.common-home
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div:nth-child(1)
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  h2.caption-title
+  span,
+body.theme_11.common-home
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div:nth-child(1)
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  .btn {
   color: white !important;
   border-color: white !important;
 }
-
 
 /*
 body.ru.ltr
@@ -174,6 +198,50 @@ body.ru.ltr
     text-align: left !important;
   }
 
+  body.theme_11.common-home
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div:nth-child(1)
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    h2.caption-title
+    span,
+  body.theme_11.common-home
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div:nth-child(1)
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    .btn,
+  body.common-home
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div:nth-child(1)
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    span.btn {
+    color: black !important;
+    border-color: black !important;
+  }
+
   body.theme_11
     .wrapper
     .homefeatured_category
@@ -203,7 +271,7 @@ body.ru.ltr
     .caption
     .caption-wrapper
     .caption-inner {
-      -webkit-filter: none !important;
-              filter: none !important;
+    -webkit-filter: none !important;
+    filter: none !important;
   }
 }

@@ -1,13 +1,13 @@
-body.theme_11 .wrapper .homefeatured_category > div > div > div {
+body.ru.ltr .wrapper .homefeatured_category > div > div > div {
   max-width: 250px !important;
 }
 
-body.theme_11 .wrapper .homefeatured_category > div > div > div > .thumbnail,
-body.theme_11.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(odd) {
+body.ru.ltr .wrapper .homefeatured_category > div > div > div > .thumbnail,
+body.ru.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(odd) {
   border: none !important;
 }
 
-body.theme_11
+body.ru.ltr
   .wrapper
   .homefeatured_category
   > div
@@ -18,10 +18,11 @@ body.theme_11
   .media-link
   .img-bg
   img {
+  -o-object-fit: cover;
   padding: 0 !important;
 }
 
-body.theme_11
+body.ru.ltr
   .wrapper
   .homefeatured_category
   > div
@@ -34,7 +35,7 @@ body.theme_11
   position: absolute !important;
 }
 
-body.theme_11
+body.ru.ltr
   .wrapper
   .homefeatured_category
   > div
@@ -52,26 +53,12 @@ body.theme_11
   -ms-flex-pack: center !important;
   justify-content: center !important;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
 }
 
-body.theme_11
-  .wrapper
-  .homefeatured_category
-  > div
-  > div
-  > div
-  > .thumbnail
-  .media
-  .media-link
-  .caption
-  .caption-wrapper
-  .caption-inner
-  h2.caption-title {
-  margin-bottom: 30px !important;
-}
-
-body.theme_11
+body.ru.ltr
   .wrapper
   .homefeatured_category
   > div
@@ -97,11 +84,34 @@ body.theme_11
 }
 
 .thumbnail.thumbnail-banner .caption-title span {
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.6) !important; */
+  text-transform: none !important;
+  color: black !important;
+}
+
+body.theme_11.ltr .wrapper .homefeatured_category > div > div > div:nth-of-type(2n) {
+  border: none !important;
 }
 
 @media (max-width: 495px) {
   body .md-style-active label.placeholder {
-    font-size: 7px !important;
+    font-size: 11px !important;
+  }
+
+  body.ru.ltr
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div
+    > .thumbnail
+    .media
+    .media-link
+    .img-bg
+    img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0 !important;
+    height: 155px;
   }
 }

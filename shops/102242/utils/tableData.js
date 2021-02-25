@@ -1,4 +1,4 @@
-const dataDefault = {
+const tableData = {
   title: 'Таблица размеров',
   subtitle: 'Общая таблица размеров показывает нашу стандартную размерную линейку.',
   table: [
@@ -38,4 +38,4 @@ const dataDefault = {
   },
 };
 
-export default dataDefault;
+export default tableData;

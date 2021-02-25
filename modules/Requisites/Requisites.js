@@ -43,7 +43,7 @@ export default class Requisites {
 
   setData() {
     const arr = Object.entries(this.obj);
-    return arr.map((item) => this.setItemtemplate(item));
+    return Array.prototype.slice.call(arr).map((item) => this.setItemtemplate(item));
   }
 
   setTemplate() {

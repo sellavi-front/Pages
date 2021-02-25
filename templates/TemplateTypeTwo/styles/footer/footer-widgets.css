@@ -33,7 +33,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .footer-widgets .row {
     margin: 0 !important;
   }

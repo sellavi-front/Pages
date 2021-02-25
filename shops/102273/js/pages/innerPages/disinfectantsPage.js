@@ -9,58 +9,56 @@ const disinfectantsPages = () => {
         <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#2" class="id_link">2. Аргитос</a>
+        <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® </a>
+      </li>
+      <li class="mb-2">
+        <a href="${url}#3" class="id_link">3. ДеФлок</a>
         </li>
       <li class="mb-2">
-        <a href="${url}#3" class="id_link"
-          >3. Универсальное дезинфицирующее средство «Серебряная пуля»</a
-        >
+        <a href="${url}#4" class="id_link">4. S-pro</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#4" class="id_link"
-          >4. «HandDes All» + «Комбидез»</a
-        >
+        <a href="${url}#5" class="id_link">5. Аргитос</a>
       </li>
-
     </ol>
   </div>
-  <div class="sect" name="1">
+
+
+  <div class="sect" id="1">
     <h4>
       <b>1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</b>
     </h4>
-    <img
-      class="mb-4 mt-4"
-      src="https://res.cloudinary.com/depgheppz/image/upload/v1612182752/102273/shapka-gotovaja-2_1_k7f3ej.png"
-      alt=""
-    />
+
     <p>
-      <b> Дезинфицирующие средства</b> от коронавируса для санитарной обработки помещений.
+      <img
+        class="float-right mr-3 mb-3"
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612182752/102273/shapka-gotovaja-2_1_k7f3ej.png"
+        alt=""
+        style="width: 200px; height: auto;"
+      />
+      <b> Дезинфицирующие средства от коронавируса для санитарной обработки помещений.</b>
       Состав дезсредсва Полисепт – очищенная вода 99%, полигексаметиленгуанидин (ПГМГ) — 1%.
-    </p>
-    <p>
-      <b> Полигексаметиленгуанидин (ПГМГ)</b> внесен Роспотребнадзором в список средств,
-      рекомендованных для профилактики с коронавирусом и защиты от него. Поражает вирусы, в том
+
+      <b> Полигексаметиленгуанидин (ПГМГ)внесен Роспотребнадзором в список средств,
+      рекомендованных для профилактики с коронавирусом и защиты от него.</b>  Поражает вирусы, в том
       числе коронавирус Covid-2019, бактерии, грибки. Не содержит хлора. Не имеет запаха.
       Безвреден для человека и животных.
     </p>
-    <p><b>Полисепт предназначен для дезинфекции:</b></p>
-    <p>- поверхностей зданий и сооружений</p>
-    <p>- помещений, в том числе детских, медицинских, лечебно-профилактических учреждений</p>
-    <p>
+    <p><b>Полисепт предназначен для дезинфекции:</b><br>
+      - поверхностей зданий и сооружений<br>
+      - помещений, в том числе детских, медицинских, лечебно-профилактических учреждений<br>
       - предприятий общественного питания, торговых, спортивных центров, общественного
-      транспорта
+      транспорта<br>
+      - предметов интерьера, подвергающихся интенсивному загрязнению, оборудования, посуды<br>
+      - систем вентиляции и кондиционирования
     </p>
-    <p>- предметов интерьера, подвергающихся интенсивному загрязнению, оборудования, посуды</p>
-    <p>- систем вентиляции и кондиционирования</p>
   </div>
   <div class="sect">
     <p>
+      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_hkkhyt.gif" class="mb-3 mr-3 w-20" style="float: right;">
       <b
-        >Инструкция по проведению инфекционных мероприятий для профилактики заболеваний,
-        вызываемых коронавирусами</b
-      >
-    </p>
-    <p>
+        >Инструкция по проведению инфекционных мероприятий для профилактики заболеваний, вызываемых коронавирусами
+      </b>
       С целью профилактики и борьбы с инфекциями, вызванными коронавирусами, проводят
       профилактическую и очаговую (текущую, заключительную) дезинфекцию. Для проведения
       дезинфекции применяют дезинфицирующие средства, зарегистрированные в установленном
@@ -90,24 +88,22 @@ const disinfectantsPages = () => {
       непосредственного контакта с инфицированным человеком, а также через пищевые продукты,
       поверхности и предметы, контаминированные вирусом. Известно, что при комнатной температуре
       SARS-CoV-2 способен сохранять жизнеспособность на различных объектах окружающей среды
-      в течение 3 суток.
+      <span style="text-decoration: underline; color: green;">в течение 3 суток.</span>
     </p>
-    <p>
-      Полный пакет документов Согласовано Роспотребнадзор от 1000 литров - от 35 руб. за 1 литр
-      БЕСПЛАТНАЯ ДОСТАВКА Цена рекомендованного для работы 0.2% раствора ПГМГ – 5,28 рублей за 1
-      литр «ПОЛИСЕПТ» ® - концентрат дезинфицирующего средства на основе ПГМГ Состав: очищенная
-      вода, полигексаметиленгуанидин (ПГМГ) -1,0%
-    </p>
-    <p>
-      <b>Рекомендации </b>- Полисепт рекомендован к использованию в инструкции РОСПОТРЕБНАДЗОРА
-      07/77-020-32 по проведению мероприятий для профилактики … в концентрации в рабочем
-      растворе не менее 0.294%. Раствор Полисепт 1% для надежности в несколько раз превосходит
-      рекомендованное соотношение.
+
+    <p class="row">
+      <span style="margin-right: 30px;">Полный пакет документов</span> <span style="color: red;">Согласовано Роспотребнадзор</span> <br>
+      <span style="margin-right: 30px;">от 1000 литров -  от 35 руб. за 1 литр</span> <span>БЕСПЛАТНАЯ ДОСТАВКА</span> <br>
+      Цена рекомендованного для работы 0.2% раствора ПГМГ – <span style="color: red;">5,28 рублей за 1 литр</span> <br>
+      <b>«ПОЛИСЕПТ» ®</b> - концентрат дезинфицирующего средства на основе ПГМГ</br>
+      <b>Состав:</b> очищенная вода, полигексаметиленгуанидин (ПГМГ) -1,0%</br>
+
+      <b>Рекомендации - Полисепт рекомендован к использованию в инструкции РОСПОТРЕБНАДЗОРА 07/77-020-32</b> по проведению мероприятий для профилактики … в концентрации в рабочем растворе не менее 0.294%. Раствор Полисепт 1% для надежности в несколько раз превосходит рекомендованное соотношение.
     </p>
     <p>
       <b> Длительное действие</b> - «ПОЛИСЕПТ» ® - полимерный материал, растворимый в воде при
-      высыхании образует на поверхности плёнку, которая продолжает работать от нескольких дней
-      до полугода.
+      высыхании образует на поверхности плёнку, которая <b>продолжает работать от нескольких дней
+      до полугода.</b>
     </p>
     <p>
       Относится к малоопасным веществам. Не имеет ингаляционной токсичности. Кожно-резорбитивные
@@ -121,10 +117,14 @@ const disinfectantsPages = () => {
       <b>Превосходит аналоги</b> - По своим дезинфицирующим свойствам Полисепт значительно
       превосходит имеющиеся в мире аналоги и запрещен к вывозу из РФ во время пандемии.
     </p>
+    <div class="w-50 mx-auto">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_5_sgsxfg.jpg">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_6_pbolhd.jpg">
+    </div>
   </div>
   <div class="sect">
     <h4><b>ПАКЕТ ДОКУМЕНТОВ НА ДЕЗИНФЕКЦИОННЫЕ СРЕДСТВА</b></h4>
-    <p>
+    <p style="font-style: italic;"><b>
       1. ЕВРАЗЕС - Свидетельство о гос. Регистрации<br />
       2. Декларация о соответствии<br />
       3. Сертификат соответствия<br />
@@ -138,48 +138,60 @@ const disinfectantsPages = () => {
       9. Роспотребнадзор - ИНСТРУКЦИЯ по проведению дезинфекционных мероприятий для профилактики
       заболеваний, вызываемых коронавнрусами<br />
       10. Информационное письмо - компания применяет упрощенную систему налогообложения и не
-      является плательщиком НДС
+      является плательщиком НДС</b>
     </p>
   </div>
-  <div class="sect">
-    <h3><b>Сертификаты</b></h3>
-    <div class="row">
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612183284/102273/%D1%81%D0%B2%D0%B8%D0%B4_%D0%B3%D1%80_%D0%BF%D0%BE%D0%BB%D0%B8%D1%81%D0%B5%D0%BF%D1%82_usslxa.png"
-        alt=""
-        class="col-md-3"
-      />
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612183283/102273/%D0%B4%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D0%B8%D1%81%D0%B5%D0%BF%D1%82_psanvw.png"
-        alt=""
-        class="col-md-3"
-      />
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612183283/102273/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%BD%D0%B0_%D0%BF%D0%BE%D0%BB%D0%B8%D1%81%D0%B5%D0%BF%D1%82_dtbza8.png"
-        alt=""
-        class="col-md-3"
-      />
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612183282/102273/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_tzov1u.png"
-        alt=""
-        class="col-md-3"
-      />
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612183283/102273/%D0%9F%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82_%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-2017-Combination-01_agago9.png"
-        alt=""
-        class="col-md-3"
-      />
-      <img
-        src="https://res.cloudinary.com/depgheppz/image/upload/v1612183282/102273/%D0%92%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F%D0%BC_%D0%B4%D0%BB%D1%8F_%D0%B3%D0%B0%D0%B8_jml6n4.png"
-        alt=""
-        class="col-md-3"
-      />
+
+  <div class="sect" id="2">
+    <h3><b>2. Реагент ДеФлок® (дезинфицирующее средство «ДеФлок»)</b></h3>
+    <div class="row flex-wrap">
+      <p><b>
+        Реагент ДеФлок®  (дезинфицирующее средство «ДеФлок», ТУ 9392-001-16866919-2013)</b></br></br>
+        Реагент для очистки и обеззараживания воды в системах хозяйственно-питьевого водоснабжения, горячего водоснабжения, технического водоснабжения предприятий, оборотных вод в системах охлаждения оборудования, сточных вод, воды плавательных бассейнов и аквапарков, а также для предотвращения биообрастания.
+      </p>
+      <div class="mb-5 w-100 row">
+        <a href="#" class="button_link">Документация</a>
+        <a href="#" class="button_link">Презентация средства "ДеФлок"</a>
+      </div>
+    </div>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Скачать презентацию</a>
     </div>
   </div>
-  <div class="sect" name="2">
-    <h3><b>2. «ARGITOS ® ДЕЗ»</b></h3>
+
+  <div class="sect" id="3">
+    <h3><b>3. Обеззараживание средством «S-Pro»</b></h3>
     <div class="row flex-wrap">
-      <div class="col-8">
+      <p>
+        Обеззараживание средством «S-Pro» в санитарных пропускных пунктах и дезинфекционных тоннелях производится методом мелкодесперсного распыления. Для этого могут применятся компрессоры, аэрозольные баллоны и генераторы тумана.
+      </p>
+      <p>
+        При обеззараживании в санитарно-пропускных пунктах и дезинфекционных тоннелях необходимо строго соблюдать рабочий температурный режим (от +3 до +50).
+      </p>
+      <p>
+        Средство «S-Pro» относится к 4 классу опасности, не раздражает слизистую оболочку глаз, дыхательные пути, кожный покров. Щадяще относится ко всем видам поверхностей: металл, стекло, ткань, кожа, мех, резина и т д.
+      </p>
+      <p>
+        После обработки в санитарно-пропускных пунктах и дезинфекционных тоннелях, средство не требует смывания, не оставляет следов на одежде.
+      </p>
+      <p>
+        После прохождения дезинфекции в санитарно-пропускных пунктах и дезинфекционных тоннелях средство «S-Pro» сохраняет свои противомикробные средства до 8 часов.
+      </p>
+
+      <div class="mb-5 w-100 row">
+        <a href="#" class="button_link">Документация на русском языке</a>
+        <a href="#" class="button_link">Документация на иностранных языках)</a>
+      </div>
+    </div>
+    <div class="mt-4 mb-4 row">
+      <a href="#" class="button_link ">Скачать презентацию</a>
+    </div>
+  </div>
+
+  <div class="sect" id="4">
+    <h3><b>4. «ARGITOS ® ДЕЗ»</b></h3>
+    <div class="row flex-wrap">
+      <div class=" col col-md-8">
         <p>
           <b
             >Органическое дезинфицирующее средство нового поколения на основе наносеребра с
@@ -214,7 +226,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612183952/102273/image_84_r0f1fk.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
@@ -318,15 +330,23 @@ const disinfectantsPages = () => {
         >
       </p>
     </div>
-    <div class="mt-4 mb-4 d-flex flex-column">
+    <div class="mt-4 mb-4 row">
         <a href="" class="button_link mb-2">Инструкция по применению</a>
         <a href="" class="button_link mb-2">Протокол испытаний</a>
     </div>
   </div>
-  <div class="sect" name="3">
+</section>
+  `;
+};
+
+
+export default disinfectantsPages;
+
+/*
+<div class="sect" id="3">
     <h3><b>3. Универсальное дезинфицирующее средство «Серебряная пуля»</b></h3>
     <div class="row">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           Транспорт. Медицина, Производство, Городское хозяйство, Сельское хозяйство,
           Животноводство, Рыбное хозяйство, Молочная промышленность, Кондицианирование и
@@ -368,7 +388,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184240/102273/conservy_1_hg53vz.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
@@ -450,51 +470,51 @@ const disinfectantsPages = () => {
         - Никакой опасности при передозировке
       </p>
     </div>
-    <div class="d-flex flex-wrap">
+    <div class="row">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184794/102273/4_3_sbb3pt.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/sert2_2_kc6iml.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/Group_7423519_fdvkee.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/Group_7423519_fdvkee.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/190220_4457_tktxzq.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184793/102273/sert4_j8rcc4.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/190220_318_rmoirg.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/copy_2_laexg7.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612184792/102273/1_1_dxnnsp.png"
         alt=""
-        class="col-5"
+        class="col-md-6 col"
       />
     </div>
   </div>
@@ -574,9 +594,9 @@ const disinfectantsPages = () => {
       <a href="" class="button_link mb-2">Благодарственное письмо</a>
     </div>
   </div>
-  <div class="sect">
+<div class="sect">
     <div class="row flex-wrap">
-      <div class="col-8" name="4">
+      <div class=" col col-md-8" id="4">
         <h3><b>4. «HandDes All» + «Комбидез»</b></h3>
         <p>
           <b
@@ -618,11 +638,11 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612185643/102273/5e60fe9918088552e6aa9b82_1_my695q.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="row flex-wrap">
-      <div class="col-8">
+      <div class=" col col-md-8">
         <p>
           <b
             >2. Комбидез (Combides) Финляндия Группа по действующему веществу средства
@@ -650,7 +670,7 @@ const disinfectantsPages = () => {
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612185644/102273/combides-5l-1-1-300x300_1_lbvdk3.png"
         alt=""
-        class="col-4"
+        class=" col col-md-4"
       />
     </div>
     <div class="row">
@@ -665,8 +685,4 @@ const disinfectantsPages = () => {
       />
     </div>
   </div>
-</section>
-  `;
-}
-
-export default disinfectantsPages;
+*/

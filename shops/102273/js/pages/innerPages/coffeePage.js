@@ -2,90 +2,73 @@ export default function coffeePage() {
   return `
   <section class="page-section__content">
       <div class="text-center mb-50px">
+        <h3 class="text-center">Coffee Ray </h3>
+        <h3 class="text-center">Эксклюзивное кофе 100 % арабика</h3>
         <p>Букет изысканного кофе в Вашей чашке, созданный нами с любовью к Вам.</p>
-        <p>
-          Ах, чашка кофе поутру!<br />
-          Ну, разве кто-нибудь не знает,<br />
-          Как люба сонному нутру<br />
-          Она, горячая, бывает?<br />
-          Что может так растормошить,<br />
-          Так мило день подать грядущий,<br />
-          Заставив бодро заспешить<br />
-          Хлеб зарабатывать насущный?
-        </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%); align-items: center; justify-content: space-between;">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"
-            alt=""
-          /><img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929030/102273/51295939_2172207686427280_1900919127543906304_o_fzep9z.png"
-            alt=""
-          />
-        </div>
+        <img class="w-100" src="https://res.cloudinary.com/depgheppz/image/upload/v1613660700/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-18_%D0%B2_18.04.45_dnqlya.png">
+
       </div>
       <div class="mb-50px">
         <div>
-          <p><b>ВЫРАЩЕНО В БРАЗИЛИИ</b></p>
-          <p>
+          <p><b>ВЫРАЩЕНО В БРАЗИЛИИ</b></br>
+
             Вот уже на протяжении 150 лет абсолютным мировым лидером среди производителей и
             экспортеров кофе является Бразилия. В Бразилии знают все об арабике, и этот, залог
             успеха вы почувствуете на своих губах, когда будете наслаждаться вкусом Coffee Ray.
           </p>
         </div>
         <div>
-          <p><b>НОВЫЙ ОПЫТ</b></p>
-          <p>
+          <p><b>НОВЫЙ ОПЫТ</b></br>
+
             Обжарка зерен — это один из самых важных этапов в производстве кофе. В Ливане на
             заводе Coffee Ray обжаркой кофейных зерен занимается поистине уникальный человек,
             посвятивший этому процессу 45 лет своей жизни.
           </p>
         </div>
         <div>
-          <p><b>БЕЗУПРЕЧНОЕ КАЧЕСТВО</b></p>
-          <p>
+          <p><b>БЕЗУПРЕЧНОЕ КАЧЕСТВО</b></br>
+
             Обжарка зерен — это один из самых важных этапов в производстве кофе. В Ливане на
             заводе Coffee Ray обжаркой кофейных зерен занимается поистине уникальный человек,
             посвятивший этому процессу 45 лет своей жизни.
           </p>
         </div>
         <div>
-          <p><b>СДЕЛАНО В ЛИВАНЕ</b></p>
-          <p>
+          <p><b>СДЕЛАНО В ЛИВАНЕ</b></br>
+
             <b> Coffee Ray </b>— натуральный кофе из 100% арабики, сделанный по уникальной
             технологии обжарки, с тонким и неповторимым вкусом!
           </p>
         </div>
         <div>
-          <p><b>МИССИЯ</b></p>
-          <p>
+          <p><b>МИССИЯ</b></br>
+
             Мы видим своей основной миссией создание настоящей кофейной культуры в России. Пускай
             истинные почитатели, и ценители кофе узнают настоящий вкус знаменитого кофе. Coffee
             Ray всегда поможет Вам создать прекрасное настроение в любое время.
           </p>
         </div>
         <div>
-          <p><b>ВНИМАНИЕ К ДЕТАЛЯМ</b></p>
-          <p>
+          <p><b>ВНИМАНИЕ К ДЕТАЛЯМ</b></br>
+
             Щепетильное отношение к каждой детали: от выращивания до обжарки. Мы гарантируем, что Вы
             почувствуете каждую нотку, создающую неповторимый вкус и аромат Coffee Ray.
           </p>
         </div>
         <div>
-          <p><b>ТРАНСПОРТИРОВКА В БОЧКАХ</b></p>
-          <p>
+          <p><b>ТРАНСПОРТИРОВКА В БОЧКАХ</b></br>
+
             Основным способом транспортировки кофе являются простые холщовые мешки. Но этот способ
             не идеален и часто кофе подвергается воздействию влаги и посторонних запахов. Это два
             самых главных врага для любого кофе. Мы используем только дубовые бочки.
-          </p>
-          <p>
+          <br>
             Данный вид фасовки использовался с древних времен при доставке кофе из южных стран в
             Европу и Азию. Таким бочкам не страшен грибок, ветер, солнце, вода. В Ливан кофейные
             зерна доставляются в идеальном состоянии.
           </p>
         </div>
         <div>
-          <p><b>ИСКУССТВО ОБЖАРКИ</b></p>
-          <p>
+          <p><b>ИСКУССТВО ОБЖАРКИ</b></br>
             Обжарка кофейных зерен это сакральный процесс. Именно от этого навыка зависит, какого
             качества кофе окажется в Вашей чашке. Решения, которые принимаются на этапе обжарки,
             необратимы для кофейных зерен. Поэтому обжарка — это ключевое звено в цепочке
@@ -101,8 +84,8 @@ export default function coffeePage() {
           </p>
         </div>
         <div>
-          <p><b>ИНТЕРЕСНЫЙ ФАКТ</b></p>
-          <p>
+          <p><b>ИНТЕРЕСНЫЙ ФАКТ</b></br>
+
             Кофе возведено в арабском мире в настоящий культ. Ливанец способен выпить в день
             несколько десятков чашек крепкого, ароматного и горячего кофе. Бейрут считается в
             мировой истории кофе особым местом. Первая в мире кофейня появилась именно в Бейруте. В
@@ -160,14 +143,10 @@ export default function coffeePage() {
       <div class="mb-50px">
         <h3 class="text-center" style="margin-bottom: 30px;"><b>Ассортимент Кофе Ray R.R</b></h3>
         <div
-          style="
-            display: grid;
-            grid-template-columns: repeat(auto-fit, 300px);
-            justify-content: space-between;
-            grid-gap: 30px;
-          "
+          class="row justify-content-center"
+
         >
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray1-e1510322042521_hdaetw.png"
               alt=""
@@ -182,7 +161,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray3_t4yvbz.png"
               alt=""
@@ -198,7 +177,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray4_dlxdbc.png"
               alt=""
@@ -214,7 +193,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
@@ -231,7 +210,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column mb-50px">
+          <div class="d-flex flex-column mb-50px col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
@@ -251,8 +230,7 @@ export default function coffeePage() {
       </div>
 
       <div>
-        <p><b>Кофе Ray R.R </b></p>
-        <p>
+        <p><b>Кофе Ray R.R </b>
           – натуральный ливанский кофе, отмеченный знаком качества Specialty. Высококачественная
           арабика, используемая для приготовления напитка, выращивается в бразильском штате Парана
           на высокогорных плантациях. Отобранные зерна фасуют в дубовые бочки и в таком виде
@@ -278,7 +256,28 @@ export default function coffeePage() {
             alt=""
           />
         </div>
+        <div class="w-100 row mt-4">
+          <img class="w-40" style="margin: 0 auto;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613661849/102273/image8_tpjejp.jpg">
+        </div>
       </div>
     </section>
   `;
 }
+
+
+/* style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 300px);
+            justify-content: center;
+            grid-gap: 30px;
+          "
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%); align-items: center; justify-content: space-between;">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"
+            alt=""
+          /><img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1611929030/102273/51295939_2172207686427280_1900919127543906304_o_fzep9z.png"
+            alt=""
+          />
+        </div>
+*/

@@ -14,7 +14,7 @@
 
 .page-section__content_ph_b {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .page-section__ul li:before {
@@ -24,6 +24,12 @@
 
 .page-section__ul {
   padding-left: 20px;
+}
+
+.row.places > div > img {
+  height: 80%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .page-section__ul li {
@@ -69,13 +75,21 @@ body p {
 }
 
 .photo-flex img {
-  margin: .6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page-section__programm > li > p::before{
+  content: '\25CF';
+  width: 5px;
+  color: red;
+  height: 5px;
 }
 
 .sect img.m-2 {
   width: 165px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .sect .col {
   display: -webkit-box;
@@ -100,12 +114,12 @@ body p {
   -webkit-box-align: center;
   max-width: 570px;
   width: 100%;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-          border: 1px solid black;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .page-section__contacts {
@@ -117,8 +131,9 @@ body.information-information .information img {
 }
 
 .page-section__contacts > .row {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
 }
 
 #content > div > div > section > div:nth-child(7) > div.d-flex.flex-wrap > img {
@@ -142,5 +157,13 @@ body.information-information .information img {
   }
   .page-section__title {
     font-size: 18px;
+  }
+
+  .sect h3 {
+    font-size: 18px;
+  }
+
+  .sect h4 {
+    font-size: 16px !important;
   }
 }

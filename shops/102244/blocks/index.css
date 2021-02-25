@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Playfair+Display:wght@500;600;700;800&display=swap');
 
 @import '../../../fixes/fixes.css';
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
@@ -11,7 +11,8 @@
 @import '../../../modules/BigBanner/BigBanner.css';
 
 /* @import '../../../components/PictureCategories/PictureCategories.css'; */
-@import '../../../components/HeaderTypeThree/styles/HeaderTypeThree.css';
+@import '../../../components/HeaderTypeThree/styles/HeaderTypeThreeV2.css';
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import './footer/footer.css';
@@ -34,18 +35,56 @@ body p,
 body a,
 body span,
 body b {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body.sidenav-enabled.ltr .wrapper-opened {
   position: static;
 }
 
-body.theme-gray.theme_11.account-login .create-account .button_holder .btn.btn-block:hover {
+body.ru.ltr.account-login .create-account .button_holder .btn.btn-block:hover {
   color: white !important;
 }
 
 body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
   right: 0 !important;
   left: auto !important;
+}
+
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
+  margin-bottom: 15px !important;
+}
+
+body.ru.ltr .wrapper .latest-section h2.section-title span {
+  margin: 0 20px !important;
+  color: black !important;
+}
+
+body.ltr .page-section h2:not(.block-title) span,
+body.ru.ltr .wrapper .latest-section h2.section-title span {
+  font-family: 'Playfair Display', serif;
+}
+
+.footer-widgets .row {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
+  padding: 20px !important;
+}
+
+body.common-home .wrapper-closed .header .header-wrapper .mobile-navigation-wrapper a {
+  color: white !important;
+}
+
+body .arrow {
+  display: block !important;
+}
+
+
+body > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
+  text-decoration: underline !important;
 }

@@ -21,7 +21,7 @@
   z-index: 10;
   overflow: hidden;
   background-position: center !important;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   background-size: cover !important;
   -webkit-transform: translate(0);
       -ms-transform: translate(0);

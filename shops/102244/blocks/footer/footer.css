@@ -7,7 +7,25 @@ body.ltr.ru .footer {
 
 .footer-widgets .row {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 0 auto;
+  border-top: 1px solid;
+  padding-top: 40px;
+}
+
+body.ru.ltr .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  color: #00000090 !important
+}
+
+body .footer .footer-widgets {
+  padding-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .footer-widgets .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    border-top: 0 !important;
+  }
 }

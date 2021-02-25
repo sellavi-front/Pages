@@ -6,12 +6,12 @@ const medService = () => {
 
   <div class="sect">
     <ol>
-      <li class="mb-2">
-        <a href="${url}#1" class="id_link">1. Лечение природными компонентами</a>
-      </li>
-      <li class="mb-2">
-        <a href="${url}#2" class="id_link">2. ООО «Эстелайн»- стоматология и косметология </a>
+    <li class="mb-2">
+        <a href="${url}#1" class="id_link">1. ООО «Эстелайн»- стоматология и косметология </a>
         </li>
+      <li class="mb-2">
+        <a href="${url}#2" class="id_link">2. Лечение природными компонентами</a>
+      </li>
       <li class="mb-2">
         <a href="${url}#3" class="id_link"
           >3. Современные Инновационные Медицинские Технологии</a
@@ -20,7 +20,143 @@ const medService = () => {
     </ol>
   </div>
 
-  <h3 name="1"><b>1. ЛЕЧЕНИЕ В СОЛЬ-ИЛЕЦКИХ ОЗЕРАХ ПОКАЗАНИЯ, ПРОТИВОПОКАЗАНИЯ</b></h3>
+  <div class="sect" id="1">
+  <h3><b>1. ООО «Эстелайн»- стоматология и косметология </b></h3>
+  <div class="mb-5" style="height: 400px">
+    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613727205/b-0-RtkIOQknjkzwi2PNbSX2JbnlJZCq2aoAA2SuTPxXnh08HKQKfQGYHah06JIIccIG4oN0xTsYO3l6OCDVByC87LOA_-nwPBbm7dH9olg_1_um4m3x.jpg" class="w-100 h-100">
+  </div>
+  <p>
+    Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
+    53 га. Минеральные (соленые) озера являются уникальным по своему составу, температурному
+    режиму и лечебному свойству. Легенды гласят, что озера обладают мощной лечебной энергетикой,
+    очищая людей от негативной энергии и даруя им выздоровление, очищая организм. Имея огромную
+    биоэнергетику по лечебным качествам, считаются священными.
+  </p>
+  <div class="page-section__contacts">
+    <div class="row">
+      <div class="d-flex col-sm-4">
+        <img
+          class="mr-4"
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_7423519_rgpf2h.png"
+          alt=""
+          height="39"
+        />
+        <p class="d-flex flex-column">
+          <b>Адрес</b>
+          117049, г. Москва, Ленинский проспект, д.1/2, корп.1, главный вход, 8-ой этаж, офис
+          824.  4 минуты пешком от м Октябрьская
+        </p>
+      </div>
+      <div class="d-flex col-sm-4">
+        <img
+          class="mr-4"
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_208_mlmkxv.png"
+          alt=""
+          height="39"
+        />
+        <p class="d-flex flex-column">
+          <b>Номер телефона</b>
+          +7 495 959 9376, <br />
+          8 (934) 000 09 33.
+        </p>
+      </div>
+      <div class="d-flex col-sm-4">
+        <img
+          class="mr-4"
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
+          alt=""
+          height="39"
+        />
+        <p class="d-flex flex-column">
+          <b>Время работы</b>
+          пн.-пт.: 09:00 - 20:00, <br />
+          сб.: 09:00 - 15:00, <br />
+          вс.: выходной
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-flex col-sm-4">
+        <img
+          class="mr-4"
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
+          alt=""
+          height="39"
+        />
+        <p class="d-flex flex-column">
+          <b>Сайты</b>
+          <a href="www.esteline.ru/services/somatology">www.esteline.ru/services/somatology</a>
+        </p>
+      </div>
+      <div class="d-flex col-sm-4">
+        <img
+          class="mr-4"
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
+          alt=""
+          height="39"
+        />
+        <p class="d-flex flex-column">
+          <b>Цены</b>
+          <a href="www.esteline.ru/pricelist">www.esteline.ru/pricelist</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sect">
+  <h4 class="text-center"><b>Предоставляемые услуги</b></h4>
+  <div class="row justify-content-center mt-4 mb-4">
+    <div class="col-lg-3">
+      <p>
+        - Отбеливание зубов<br />
+        - Протезирование зубов<br />
+        - Профессиональная гигиена<br />
+        - Пародонтология<br />
+      </p>
+    </div>
+    <div class="col-lg-3">
+      <p>
+        - Пломбирование<br />
+        - Лечение зубов<br />
+        - Лечение десен<br />
+        - Удаление зубов
+      </p>
+    </div>
+    <div class="col-lg-3">
+      <p>
+        - Рентгенография зубов<br />
+        - Терапия<br />
+        - Реставрация зубов<br />
+        - Лечение кариеса
+      </p>
+    </div>
+  </div>
+</div>
+<div class="sect">
+  <h4><b>О клинике</b></h4>
+  <p>
+    Зубная боль, не дающая покоя, болезненные, кровоточащие десны, необходимость в
+    протезировании или в отбеливании зубов – с любой из этих проблем сталкивался практически
+    каждый человек. Но, к сожалению, далеко не все врачи, специализирующиеся в области услуг
+    стоматологии, обладают достаточным объемом знаний и профессиональных навыков для того, чтобы
+    безболезненно, безопасно и надежно оказать помощь своему пациенту. И достаточно один раз
+    попасть в руки такого врача, чтобы на всю жизнь проникнуться страхом перед стоматологическим
+    креслом. А ведь это ведет к ухудшению состояния полости рта – без услуг стоматологии еще
+    никому не удавалось обойтись. Поэтому очень важно найти клинику, предоставляющую услуги
+    стоматологии на высоком профессиональном уровне.
+  </p>
+  <p>
+    Штат нашего медицинского центра «Эстелайн» включает в себя врачей высшей категории, имеющих
+    большой опыт работы, постоянно повышающих свою квалификацию. Для оказания максимально
+    качественных услуг стоматологии наши врачи проходили стажировку не только в лучших
+    стоматологических клиниках России, но и в немецких медицинских центрах. Их квалификация
+    подтверждена наличием сертификатов, выданных авторитетными учреждениями.
+  </p>
+  <p>Способы оплаты Наличный</p>
+</div>
+
+
+  <h3 id="2"><b>2. ЛЕЧЕНИЕ В СОЛЬ-ИЛЕЦКИХ ОЗЕРАХ ПОКАЗАНИЯ, ПРОТИВОПОКАЗАНИЯ</b></h3>
   <div class="sect">
     <p>
       Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
@@ -1061,45 +1197,45 @@ const medService = () => {
   </div>
 
   <div class="sect">
-      <h4><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
+      <h4 class="mb-4"><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
       <div class="d-flex flex-wrap">
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/7_7_lhyedu.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_1_1_ajpo22.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/8_98_qkke0x.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/3_1_1_ioxg7b.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_pfwgtq.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_fs0uud.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/9_4_divgal.png"
           alt=""
         />
         <img
-          class="col-1"
+          class="col-sm-2 mb-4"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/10_6196_hc3j2i.png"
           alt=""
         />
@@ -1351,192 +1487,7 @@ const medService = () => {
       </p>
       <p><b>Цена договорная</b></p>
     </div>
-    <div class="sect" name="2">
-      <h3><b>2. ООО «Эстелайн»- стоматология и косметология </b></h3>
-      <p>
-        Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на площади
-        53 га. Минеральные (соленые) озера являются уникальным по своему составу, температурному
-        режиму и лечебному свойству. Легенды гласят, что озера обладают мощной лечебной энергетикой,
-        очищая людей от негативной энергии и даруя им выздоровление, очищая организм. Имея огромную
-        биоэнергетику по лечебным качествам, считаются священными.
-      </p>
-      <div class="page-section__contacts">
-        <div class="row">
-          <div class="d-flex col-sm-3">
-            <img
-              class="mr-4"
-              src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_7423519_rgpf2h.png"
-              alt=""
-              height="39"
-            />
-            <p class="d-flex flex-column">
-              <b>Адрес</b>
-              117049, г. Москва, Ленинский проспект, д.1/2, корп.1, главный вход, 8-ой этаж, офис
-              824.  4 минуты пешком от м Октябрьская
-            </p>
-          </div>
-          <div class="d-flex col-sm-3">
-            <img
-              class="mr-4"
-              src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_208_mlmkxv.png"
-              alt=""
-              height="39"
-            />
-            <p class="d-flex flex-column">
-              <b>Номер телефона</b>
-              +7 495 959 9376, <br />
-              8 (934) 000 09 33.
-            </p>
-          </div>
-          <div class="d-flex col-sm-3">
-            <img
-              class="mr-4"
-              src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
-              alt=""
-              height="39"
-            />
-            <p class="d-flex flex-column">
-              <b>Время работы</b>
-              пн.-пт.: 09:00 - 20:00, <br />
-              сб.: 09:00 - 15:00, <br />
-              вс.: выходной
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="d-flex col-sm-3">
-            <img
-              class="mr-4"
-              src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
-              alt=""
-              height="39"
-            />
-            <p class="d-flex flex-column">
-              <b>Сайты</b>
-              <a href="www.esteline.ru/services/somatology">www.esteline.ru/services/somatology</a>
-            </p>
-          </div>
-          <div class="d-flex col-sm-3">
-            <img
-              class="mr-4"
-              src="https://res.cloudinary.com/depgheppz/image/upload/v1612172688/102273/Group_209_nixnw4.png"
-              alt=""
-              height="39"
-            />
-            <p class="d-flex flex-column">
-              <b>Цены</b>
-              <a href="www.esteline.ru/pricelist">www.esteline.ru/pricelist</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="sect">
-      <h4 class="text-center"><b>Предоставляемые услуги</b></h4>
-      <div class="row justify-content-center mt-4 mb-4">
-        <div class="col-lg-3">
-          <p>
-            - Отбеливание зубов<br />
-            - Протезирование зубов<br />
-            - Профессиональная гигиена<br />
-            - Пародонтология<br />
-          </p>
-        </div>
-        <div class="col-lg-3">
-          <p>
-            - Пломбирование<br />
-            - Лечение зубов<br />
-            - Лечение десен<br />
-            - Удаление зубов
-          </p>
-        </div>
-        <div class="col-lg-3">
-          <p>
-            - Рентгенография зубов<br />
-            - Терапия<br />
-            - Реставрация зубов<br />
-            - Лечение кариеса
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="sect">
-      <h4><b>О клинике</b></h4>
-      <p>
-        Зубная боль, не дающая покоя, болезненные, кровоточащие десны, необходимость в
-        протезировании или в отбеливании зубов – с любой из этих проблем сталкивался практически
-        каждый человек. Но, к сожалению, далеко не все врачи, специализирующиеся в области услуг
-        стоматологии, обладают достаточным объемом знаний и профессиональных навыков для того, чтобы
-        безболезненно, безопасно и надежно оказать помощь своему пациенту. И достаточно один раз
-        попасть в руки такого врача, чтобы на всю жизнь проникнуться страхом перед стоматологическим
-        креслом. А ведь это ведет к ухудшению состояния полости рта – без услуг стоматологии еще
-        никому не удавалось обойтись. Поэтому очень важно найти клинику, предоставляющую услуги
-        стоматологии на высоком профессиональном уровне.
-      </p>
-      <p>
-        Штат нашего медицинского центра «Эстелайн» включает в себя врачей высшей категории, имеющих
-        большой опыт работы, постоянно повышающих свою квалификацию. Для оказания максимально
-        качественных услуг стоматологии наши врачи проходили стажировку не только в лучших
-        стоматологических клиниках России, но и в немецких медицинских центрах. Их квалификация
-        подтверждена наличием сертификатов, выданных авторитетными учреждениями.
-      </p>
-      <p>Способы оплаты Наличный</p>
-    </div>
-    <div class="sect">
-      <h4><b>Дипломы специалистов</b></h4>
-      <div class="d-flex flex-wrap">
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173675/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_14_qdtw19.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173675/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_15_ksiq1g.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_11_imingc.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_10_xzxbwl.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_10_xzxbwl.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_12_niqt6e.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_13_zug1vn.png"
-            alt=""
-          />
-        </div>
-        <div class="col-md-3">
-          <img
-            src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_8_wdmm58.png"
-            alt=""
-          />
-        </div>
-
-      </div>
-    </div>
-    <div class="sect" name="3">
+    <div class="sect" id="3">
       <h4><b>3. Современные Инновационные Медицинские Технологии</b></h4>
       <p>
         <b
@@ -1792,3 +1743,62 @@ const medService = () => {
 }
 
 export default medService;
+
+
+/*
+
+<div class="sect">
+  <h4><b>Дипломы специалистов</b></h4>
+  <div class="d-flex flex-wrap">
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173675/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_14_qdtw19.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173675/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_15_ksiq1g.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_11_imingc.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_10_xzxbwl.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_10_xzxbwl.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_12_niqt6e.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_13_zug1vn.png"
+        alt=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://res.cloudinary.com/depgheppz/image/upload/v1612173674/102273/%D0%AE_%D0%92_%D0%91_%D0%90_%D0%90_8_wdmm58.png"
+        alt=""
+      />
+    </div>
+
+  </div>
+</div>
+*/
