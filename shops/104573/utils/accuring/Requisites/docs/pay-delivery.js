@@ -32,7 +32,7 @@ const payDelivery = (obj) => {
   </section>
   <section class="delivery__content">
     <p class="delivery__content-title">
-      Мы осуществляем доставку по России в партнерстве с компанией DPD, Dostavista и CDEK
+      Мы осуществляем доставку по России в партнерстве с компанией DPD, Dostavista и CDK
     </p>
     <p class="delivery__content-label">
       В случае затруднений наш сотрудник по телефону ${obj.phone} поможет вам рассчитать
@@ -43,7 +43,7 @@ const payDelivery = (obj) => {
       стоит дороже.
     </p>
     <p class="delivery__content-label">
-      Доставка по России компанией DPD, Dostavista и CDEK, осуществляется на условиях 100% предоплаты за
+      Доставка по России компанией DPD, Dostavista и СДЭК, осуществляется на условиях 100% предоплаты за
       товар и доставку. Доставка по схеме «Наложенный платеж» (оплата при получении) не
       осуществляется.
     </p>
