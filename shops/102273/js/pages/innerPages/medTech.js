@@ -1307,7 +1307,7 @@ const medTech = () => {
 </div>
 
 <div class="sect" id="5">
-  <h1 class="mb-3">5. Мед оборудование для УВТ</h1>
+  <h2 class="mb-3 text-center">5. Мед оборудование для УВТ</h2>
 
   <h3 class="text-center">
     Аппараты для ударно-волновой терапии, компании GZ LONGEST - LGT-2500S и LGT-2510A, для
