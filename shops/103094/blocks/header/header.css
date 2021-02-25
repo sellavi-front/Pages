@@ -750,6 +750,7 @@ body.theme_11 .wrapper .navigation_black_screen.active {
     width: 100% !important;
     padding-top: 108px !important;
     transition: all 250ms ease-in-out !important;
+    height: fit-content;
   }
 
   .mobile-navigation-close {
