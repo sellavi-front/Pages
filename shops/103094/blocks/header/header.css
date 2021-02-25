@@ -749,7 +749,6 @@ body.theme_11 .wrapper .navigation_black_screen.active {
     top: 7% !important;
     width: 100% !important;
     padding-top: 108px !important;
-    background: transparent !important;
     transition: all 250ms ease-in-out !important;
   }
 
