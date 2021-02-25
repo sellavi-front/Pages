@@ -263,7 +263,7 @@ const medService = () => {
                 только свое здоровье, я помогу улучшить КАЧЕСТВО ВАШЕЙ ЖИЗНИ.
               </p>
             </div>
-            <div class="row">
+            <div class="row justify-content-center w-100">
               <div>
                 <p claas="mb-1">Услуги по Восточной медицины в комплексе:</p>
                 <ul class="mr-4">
