@@ -1537,13 +1537,13 @@ const medService = () => {
           <img class="mt-4" src="https://res.cloudinary.com/depgheppz/image/upload/v1614264360/102273/2020_%D0%A1%D0%BE%D0%BB%D1%8C_%D0%98%D0%BB%D0%B5%D1%86%D0%BA_2_nqjjf6.jpg" >
         </div>
         <div class="row">
-      <h4>
+      <h4 class="text-center">
         <b>ЧУДЕСНИЦА ГОЛУБАЯ ГЛИНА-КАОЛИНИТ.</b>
       </h4>
-      <div class="w-100 mb-5">
+      <div class="w-100 mb-5 row">
         <img
           class="mx-auto"
-          style="width: 70%"
+          style="width: 70%; margin: 0 auto;"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_1_ssci3c.jpg"
         />
       </div>
@@ -1595,10 +1595,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для лица </b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_2_i2juzc.jpg"
           />
         </div>
@@ -1795,10 +1795,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для рук </b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264899/102273/unnamed_5_woezv2.jpg"
           />
         </div>
@@ -1813,10 +1813,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для рук </b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_ybgp8f.png"
           />
         </div>
@@ -1839,7 +1839,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>ОБЕРТЫВАНИЕ</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="float-right"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_6_czq2ua.jpg"
@@ -1878,10 +1878,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_7_ffrcsh.jpg"
           />
         </div>
@@ -1930,10 +1930,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_8_cmpsqi.jpg"
           />
         </div>
@@ -1968,10 +1968,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264899/102273/unnamed_9_h7oxyi.jpg"
           />
         </div>
@@ -2026,10 +2026,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_10_jrqamk.jpg"
           />
         </div>
@@ -2070,10 +2070,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_11_fjufhu.jpg"
           />
         </div>
@@ -2123,10 +2123,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_11_fjufhu.jpg"
           />
         </div>
@@ -2202,10 +2202,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>ПРИГОТОВЛЕНИЕ ГОЛУБОЙ ГЛИНЫ</b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_13_zjrumv.jpg"
           />
         </div>
@@ -2377,7 +2377,7 @@ const medService = () => {
           восстановить свое здоровье. После глиняных процедур организм человека очищается и получает
           жизненную силу, а сам человек испытывает приятные ощущения и улучшение самочувствия.
         </p>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <p class="text-center">
             <b
               ><i
@@ -2414,10 +2414,10 @@ const medService = () => {
         <p class="text-center">
           <b>Приготовление глиняного раствора из голубой глины для растирания: </b>
         </p>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_16_p2kaal.jpg"
           />
         </div>
@@ -2436,10 +2436,10 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Компрессы </b></h5>
-        <div class="w-100 mb-5">
+        <div class="w-100 mb-5 row">
           <img
             class="mx-auto"
-            style="width: 70%"
+            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_17_hg48lf.jpg"
           />
         </div>
