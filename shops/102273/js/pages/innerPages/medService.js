@@ -110,8 +110,8 @@ const medService = () => {
           </div>
         </div>
         <div class="sect">
-          <h4 class="text-center"><b>Предоставляемые услуги</b></h4>
-          <div class="row justify-content-center mt-4 mb-4">
+          <h4 class=""><b>Предоставляемые услуги</b></h4>
+          <div class="row mt-4 mb-4">
             <div class="col-lg-3">
               <p>
                 - Отбеливание зубов<br />
