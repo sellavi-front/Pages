@@ -170,6 +170,13 @@ body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: #000 !important;
   margin-left: 25px !important;
 }
+
+.header .header-wrapper .mobile-navigation-wrapper a {
+  font-size: 23px;
+  color: #000;
+  margin-left: 25px;
+}
+
 /*
 body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
