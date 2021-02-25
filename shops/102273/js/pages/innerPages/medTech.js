@@ -70,7 +70,7 @@ const medTech = () => {
     диагностики
   </p>
   <div class="mt-4 mb-4">
-    <p><b>Видеогастроскопы позволяют:</b></p>
+    <p class="mb-1"><b>Видеогастроскопы позволяют:</b></p>
     <ul>
       <li>- детально исследовать слизистые желудка, пищевода и 12-перстной кишки;</li>
       <li>
@@ -601,7 +601,7 @@ const medTech = () => {
             — Высокий ресурс насадки. Первый год работы компания дает не ограниченный ресурс.
           </p>
         </div>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-50">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996066/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-22_%D0%B2_15.13.41_ekci3u.png" class="w-100">
       </div>
     </div>
 
@@ -778,7 +778,6 @@ const medTech = () => {
           </p>
         </div>
       </div>
-      <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613996459/102273/unnamed_22_a8fnpl.jpg" class="w-50">
     </div>
 
     <div class="mb-3 row">
@@ -924,7 +923,6 @@ const medTech = () => {
     <div class="mb-3 row">
       <div >
         <h6 class="text-center"> <b> Аппарат «Body Tite» </b></h6>
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613997263/102273/unnamed_24_ieaz92.jpg" class="w-100">
         <p class="text-center">
 
           <br />
@@ -951,13 +949,11 @@ const medTech = () => {
           — Липосакция подбородка.<br />
           — Fase лифтинг.<br />
           — Подтяжка груди.
-        </p>
-      </div>
-      <div >
-        <img
+          <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612264500/bodytite-900x900_2_bwlsvj.png"
-          alt=""
+          class="float-right"
         />
+        </p>
       </div>
     </div>
 
