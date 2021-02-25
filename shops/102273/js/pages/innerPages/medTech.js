@@ -1708,7 +1708,7 @@ const medTech = () => {
 <div class="sect" id="7">
   <h2 class="mb-3 text-center">7. Производство медицинских изделий</h2>
 
-  <h3 class="text-center">завод по производству медицинских изделий</h3>
+  <h3 class="text-center">Завод по производству медицинских изделий</h3>
   <i class="text-center"
     >(Шприцы, услуги по газовой стерилизации оксидом этилена, Лабораторные услуги)</i
   >
@@ -1716,7 +1716,7 @@ const medTech = () => {
   <div class="mb-4">
     <img
       src="https://res.cloudinary.com/depgheppz/image/upload/v1612275691/image_97_tyypkr.png"
-      alt=""
+      class="mt-4 mb-4"
     />
 
     <p class="mb-3">
