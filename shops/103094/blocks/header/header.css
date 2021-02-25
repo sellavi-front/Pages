@@ -1,6 +1,5 @@
 /*@import "../../../../components/HeaderTypeThree/styles/HeaderTypeThree.css"; */
 
-@import '../../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
 @import '../../../../components/HeaderTypeThree/styles/cart/cart.css';
 @import '../../../../components/HeaderTypeThree/styles/sf-menu/sf-menu.css';
@@ -12,6 +11,183 @@
 
 @import '../../../../components/HeaderTypeThree/styles/header/catalog/catalog.css';
 
+/*@import './navigation-wrapper/navigation-wrapper.css';*/
+.navigation-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+
+.navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy > a,
+.wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home'] > a {
+  border-right: none !important;
+  border-left: none !important;
+}
+
+body .arrow {
+  display: none !important;
+}
+
+body.ru.ltr
+.wrapper
+.header
+.navigation-wrapper
+nav.navigation
+ul.nav.sf-menu
+> li.flexy:hover
+> ul,
+body.ru.ltr
+.wrapper
+.header
+.navigation-wrapper
+nav.navigation
+ul.nav.sf-menu
+> li.flexy:hover
+> ul
+div,
+body.ru.ltr
+.wrapper
+.header
+.navigation-wrapper
+nav.navigation
+ul.nav.sf-menu
+> li.flexy:hover
+> ul
+li {
+  background: white !important;
+  padding: 5px 5px !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover,
+body.theme_11
+.wrapper
+.header
+.navigation-wrapper
+nav.navigation
+ul.nav.sf-menu
+> li[data-nav-part='home']:hover {
+  position: relative  !important;
+}
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li>a, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li>a {
+  text-align: center !important;
+}
+
+body.theme_11
+.wrapper
+.header
+.navigation-wrapper
+nav.navigation
+ul.nav.sf-menu
+> li.flexy:hover
+> ul,
+body.theme_11
+.wrapper
+.header
+.navigation-wrapper
+nav.navigation
+ul.nav.sf-menu
+> li[data-nav-part='home']:hover
+> ul {
+  width: fit-content !important;
+  /* left: -100% !important; */
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/*@import './header-widgets/header-ico.css';*/
+.wrapper .header .header-wrapper .header_widgets .header-cart,
+.wrapper .header .header-wrapper .header_widgets .header_login>a {
+  background: none !important;
+  min-width: 24px !important;
+  height: auto;
+}
+
+.wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+  margin: 0;
+  font-size: 23px;
+}
+
+.cart-wrapper .dropdown {
+  padding: 8% 0 !important;
+}
+
+.common-home .header-cart .cart-wrapper #cart {
+  padding-left: 10px !important;
+}
+
+.header-cart .cart-wrapper .cart-qty-circle {
+  line-height: 20px !important;
+}
+
+.wrapper .header .header-wrapper .header_widgets .header_login {
+  padding: 0 !important;
+}
+/*
+#cart > span {
+  display: none !important;
+} */
+
+/*@import './header/header.css';*/
+.header-wrapper > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*@import './header-widgets/header-widgets.css';*/
+.wrapper .header .header-wrapper .header_widgets {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
+
+body
+> div
+> header
+> div.header-wrapper
+> div.container-fluid
+> div.header_widgets
+> div.header_login
+> a.d-none.d-lg-block {
+  display: none !important;
+}
+
+body
+> div
+> header
+> div.header-wrapper
+> div.container-fluid
+> div.header_widgets
+> div.header_login
+> a.d-none.d-sm-block.d-lg-none {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .wrapper .header .header-wrapper .header_widgets {
+    position: relative !important;
+  }
+}
+
+/* END */
+
+
+
+.header {
+  border: none !important;
+}
+
+.header .header-wrapper {
+  background: transparent;
+}
 
 body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .header-search button,
 body.theme-gray.theme_11:not(.common-home) .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
