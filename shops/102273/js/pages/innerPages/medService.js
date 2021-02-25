@@ -263,19 +263,22 @@ const medService = () => {
                 только свое здоровье, я помогу улучшить КАЧЕСТВО ВАШЕЙ ЖИЗНИ.
               </p>
             </div>
-            <div class="">
+            <div class="row">
               <div>
-              <p claas="mb-1">Услуги по Восточной медицины в комплексе:</p>
-              <ul class="mr-4">
-                <li>- точечный массаж</li>
-                <li>- вакуум терапия – постановка банок</li>
-                <li>- иглорефлексотерапия – иглоукалывание</li>
-                <li>- очищение организма изнутри фито препаратами</li>
-                <li>- игольчатый аппликатор</li>
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/unnamed_d5ktoi.jpg" class="float-right" />
-                  <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/image3_lvto6r.jpg" class="float-left" />
+                <p claas="mb-1">Услуги по Восточной медицины в комплексе:</p>
+                <ul class="mr-4">
+                  <li>- точечный массаж</li>
+                  <li>- вакуум терапия – постановка банок</li>
+                  <li>- иглорефлексотерапия – иглоукалывание</li>
+                  <li>- очищение организма изнутри фито препаратами</li>
+                  <li>- игольчатый аппликатор</li>
+
                 </ul>
-              </div
+              </div>
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/unnamed_d5ktoi.jpg" class="float-right" />
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614244018/102273/image3_lvto6r.jpg" class="float-left"
+                style="height: 384px;"
+              />
             </div>
           </div>
         </div>
