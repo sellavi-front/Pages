@@ -210,7 +210,7 @@ const tourismPage = () => {
           </p>
         </div>
       </div>
-      <div class="row align-items-center mb-5 mb-5">
+      <div class="align-items-center mb-5 mb-5">
         <h3 class="text-center w-100"><b>Ботанический сад академии наук Абхазии</b></h3>
         <div class="row">
           <img
