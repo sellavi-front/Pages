@@ -297,7 +297,7 @@ const medService = () => {
           </p>
 
           <p>
-            <b> Внимание!</b> <br /><br />
+            <b> Внимание!</b> <br />
             На область сердца и вблизи его грязь не накладывается. Продолжительность пребывания на
             озерах, нужно выделить следующие курсы лечения: оздоровительный краткий курс от 1 до 7
             дней, лечебно-оздоровительный - средний курс 2 недели лечебный полный курс 24-25 дней.
@@ -1307,45 +1307,45 @@ const medService = () => {
         </div>
 
         <div class="sect row">
-          <h4 class="mb-4"><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
+          <h4 class="mb-4"><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. СОЛЯНАЯ ЛАМПА.</b></h4>
           <div class="d-flex flex-wrap">
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/7_7_lhyedu.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_1_1_ajpo22.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/8_98_qkke0x.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/3_1_1_ioxg7b.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_pfwgtq.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/4_2_1_fs0uud.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/9_4_divgal.png"
               alt=""
             />
             <img
-              class="col-sm-2 mb-4"
+              class="col-sm-3 mb-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612171551/102273/10_6196_hc3j2i.png"
               alt=""
             />
