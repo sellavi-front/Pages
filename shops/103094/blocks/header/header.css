@@ -168,6 +168,7 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
 
 body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: #000 !important;
+  margin-left: 25% !important;
 }
 /*
 body.sidenav-enabled .mobile_side_nav {
