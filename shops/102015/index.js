@@ -7,6 +7,8 @@ import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js
 import contactData from './utils/contactData.js'
 import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
 import socIconsData from './utils/socIconsData.js';
+import '../../fixes/js/FooterCopy/FooterCopy.js';
+
 
 if (document.querySelector('.wrapper')) {
   const footerContainer = document.querySelector('.footer-widgets>div>div');

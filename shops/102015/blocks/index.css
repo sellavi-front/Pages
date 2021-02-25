@@ -17,6 +17,8 @@
 @import './footer/footer.css';
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
 @import './mobile/mobile.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
 
 body h1,
 body h2,
