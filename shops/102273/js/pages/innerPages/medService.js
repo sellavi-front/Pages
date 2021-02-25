@@ -3,7 +3,7 @@ let url = location.origin + location.pathname.slice(0, -1);
 const medService = () => {
   return `
   <section class="page-section__content">
-      <div class="sect">
+      <div class="sect row">
         <ol>
           <li class="mb-2">
             <a href="${url}#1" class="id_link">1. ООО «Эстелайн»- стоматология и косметология </a>
@@ -20,7 +20,7 @@ const medService = () => {
       </div>
 
       <div id="1">
-        <div class="sect">
+        <div class="sect row">
           <h3><b>1. ООО «Эстелайн»- стоматология и косметология </b></h3>
           <div class="mb-5" style="height: 400px">
             <img
@@ -82,7 +82,7 @@ const medService = () => {
 
           </div>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4 class=""><b>Предоставляемые услуги</b></h4>
           <div class="row mt-4 mb-4">
             <div class="col-lg-3">
@@ -111,7 +111,7 @@ const medService = () => {
             </div>
           </div>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>О клинике</b></h4>
           <p>
             Зубная боль, не дающая покоя, болезненные, кровоточащие десны, необходимость в
@@ -134,12 +134,12 @@ const medService = () => {
           <p>Способы оплаты Наличный</p>
         </div>
 
-        <div class="sect">
+        <div class="sect row">
           <h3 class="text-center"><b>Урология </b></h3>
-          <div class="row">
+          <div class="">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1614242791/102273/image1_gsvpeh.png"
-              class="float-left mr-4"
+              class="float-right mr-4"
             />
             <div>
               <h6 style="color: green; font-weight: bold">КОЗДОБА АНДРЕЙ СЕМЕНОВИЧ</h6>
@@ -261,7 +261,7 @@ const medService = () => {
         <h3 class="text-center">
           <b>2. ЛЕЧЕНИЕ В СОЛЬ-ИЛЕЦКИХ ОЗЕРАХ ПОКАЗАНИЯ, ПРОТИВОПОКАЗАНИЯ</b>
         </h3>
-        <div class="sect">
+        <div class="sect row">
           <p>
             Уникальные озера находятся на высоте 120 метров над уровнем моря, располагаются на
             площади 53 га. Минеральные (соленые) озера являются уникальным по своему составу,
@@ -353,7 +353,7 @@ const medService = () => {
             работоспособность, психоэмоциональное состояние. Жизнь сама явила этот способ.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4>
             <b>СОЛЯНАЯ КОМНАТА И СТАРОСЛАВЯНСКИЙ МАССАЖ находятся на территории Соль-Илецк </b>
           </h4>
@@ -364,7 +364,7 @@ const medService = () => {
             alt=""
           />
         </div>
-        <div class="sect">
+        <div class="sect row">
           <p>
             <b>СОЛЯНАЯ ЛАМПА.</b> Используется при заболеваниях органов дыхания, аллергии, нервной и
             эндокринной систем, укрепляет иммунитет, улучшают обмен веществ в организме,
@@ -399,7 +399,7 @@ const medService = () => {
             межклеточный обмен веществ и восстановление всех функций организма.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h5><b>Виды соли для ванн:</b></h5>
           <p class="mb-4">
             • «Противоинфекционная» с эфирным маслом мяты, снимает воспаления, повышает иммунитет,
@@ -438,7 +438,7 @@ const medService = () => {
             противовоспалительным и обезболивающим действием.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4>
             <b
               >ГОЛУБАЯ ГЛИНА (ЧУДЕСНИЦА) ЕДИНСТВЕННАЯ В ПРИРОДЕ, КОТОРАЯ УБИВАЕТ ПРОСТЕЙШИЕ МИКРОБЫ
@@ -501,7 +501,7 @@ const medService = () => {
             псориаза.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>Травы и корни Горного Алтая</b></h4>
           <p>
             <b>АГАРИКУС ГРИБ (ЛИСТВЕННИЧНАЯ ГУБКА)</b> Слабительное, кровоостанавливающее,
@@ -1006,7 +1006,7 @@ const medService = () => {
             >
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>КВАСЦЫ ЛЕЧЕБНЫЕ ДЛЯ ВАНН</b></h4>
           <p>
             <b
@@ -1101,7 +1101,7 @@ const medService = () => {
           </p>
         </div>
 
-        <div class="sect">
+        <div class="sect row">
           <h4><b>НАТУРАЛЬНАЯ КОСМЕТИКА С АЛТАЙСКИМ МУМИЕ</b></h4>
 
           <p>
@@ -1126,7 +1126,7 @@ const medService = () => {
             веществ, регенерирует волосяные луковицы, способствует укреплению и росту волос.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>МЫЛО ЛЕЧЕБНОЕ СЕРИЯ «ТРАВЫ»</b></h4>
           <p>
             <b>ЛЕЧЕБНОЕ МЫЛО С СМОРОДИНОЙ</b>
@@ -1217,7 +1217,7 @@ const medService = () => {
             антибактериальное, смягчает и увлажняет кожу.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>МЫЛО ЛЕЧЕБНОЕ СЕРИЯ «МИНЕРАЛЫ»:</b></h4>
           <p>
             <b>МЫЛО С ГОЛУБОЙ ГЛИНЫ</b>
@@ -1281,7 +1281,7 @@ const medService = () => {
             поднимает настроение и придает сил.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>МЫЛО ЛЕЧЕБНОЕ СЕРИЯ «МИНЕРАЛЫ»:</b></h4>
           <p>
             <b>МЫЛО С МУМИЕ</b>
@@ -1304,7 +1304,7 @@ const medService = () => {
           </p>
         </div>
 
-        <div class="sect">
+        <div class="sect row">
           <h4 class="mb-4"><b>ЛЕЧЕНИЕ ПРИРОДНЫМИ КОМПОНЕНТАМИ. Соляная лампа.</b></h4>
           <div class="d-flex flex-wrap">
             <img
@@ -1349,7 +1349,7 @@ const medService = () => {
             />
           </div>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <p>
             <b> СОЛЯНАЯ ЛАМПА.</b> Используется при заболеваниях органов дыхания, аллергии, нервной
             и эндокринной систем, укрепляет иммунитет, улучшают обмен веществ в организме,
@@ -1410,7 +1410,7 @@ const medService = () => {
           </p>
           <p><b>Соляной лампой можно прогревать различные части тела.</b></p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>Соляная грелка-лампа</b></h4>
           <p>
             На Руси издавна говорилось: «Печка греет, печка кормит, печка лечит». И вправду, если
@@ -1430,7 +1430,7 @@ const medService = () => {
             способствует росту и оздоровлению живых клеток.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>АРОМАТЕРАПИЯ</b></h4>
           <p>
             Самым простым древнейшим ингалятором, с помощью которого получали лечения, был нагретый
@@ -1439,7 +1439,7 @@ const medService = () => {
           </p>
         </div>
 
-        <div class="sect">
+        <div class="sect row">
           <h4><b>СОЛЯНАЯ ГРЕЛКА-ЛАМПА « БЕЛОЕ ЗОЛОТО»</b></h4>
           <p>
             Уникальный продукт изготовлен из каменной соли (соль + глина), соль это минерал который
@@ -1500,7 +1500,7 @@ const medService = () => {
             межклеточный обмен веществ и восстановление всех функций организма.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>Виды соли для ванн:</b></h4>
           <p>
             • «Противоинфекционная» с эфирным маслом мяты, снимает воспаления, повышает иммунитет,
@@ -1542,7 +1542,7 @@ const medService = () => {
             другими заболеваниями, полоскания горла и носа.
           </p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4>
             <b
               >ГОЛУБАЯ ГЛИНА (ЧУДЕСНИЦА) ЕДИНСТВЕННАЯ В ПРИРОДЕ, КОТОРАЯ УБИВАЕТ ПРОСТЕЙШИЕ МИКРОБЫ
@@ -1601,7 +1601,7 @@ const medService = () => {
         </div>
       </div>
       <div id="3">
-        <div class="sect">
+        <div class="sect row">
           <h4 class="text-center"><b>3. Современные Инновационные Медицинские Технологии</b></h4>
           <p>
             <b
@@ -1739,7 +1739,7 @@ const medService = () => {
             </p>
           </div>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>Преимущества пресса:</b></h4>
           <p>
             - Компактность Пресса, позволяет размещать его как совместно с Установкой УОМО-01/150
@@ -1758,7 +1758,7 @@ const medService = () => {
           </p>
           <p>- Пресс для медицинских отходов соответствует требованиям СанПиН 2.1.7.2790-10.</p>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4><b>Комплект поставки:</b></h4>
           <div class="mt-3 mb-3">
             1. Установка УОМО-01/150-«О-ЦНТ» в комплекте:<br />
@@ -1776,7 +1776,7 @@ const medService = () => {
             - 5 литров - 20% сенсибилизирующего раствора (20% раствор мыла или моющего средства).
           </div>
         </div>
-        <div class="sect">
+        <div class="sect row">
           <h4>
             <b
               >Новые дезинфицирующие средства с моющим эффектом: «Ультрадез-АКТИВ», «Биолок»,
@@ -1868,7 +1868,7 @@ export default medService;
 
 /*
 
-<div class="sect">
+<div class="sect row">
   <h4><b>Дипломы специалистов</b></h4>
   <div class="d-flex flex-wrap">
     <div class="col-md-3">
