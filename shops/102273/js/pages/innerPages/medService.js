@@ -1843,7 +1843,7 @@ const medService = () => {
         <h5 class="text-center"><b>ОБЕРТЫВАНИЕ</b></h5>
         <div class="w-100 mb-5 row">
           <img
-            class="float-right"
+            class="float-right mr-5"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_6_czq2ua.jpg"
           />
           <p>
