@@ -564,7 +564,17 @@ body.theme_11 .wrapper .navigation_black_screen.active {
 
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     background: white !important;
-    width: 80vw !important;
+    border-bottom: 2px solid #feb1c4 !important;
+  }
+
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    right: auto !important;
+    left: 20%;
+    top: 7% !important;
+    width: 100% !important;
+    padding-top: 108px !important;
+    background: transparent !important;
+    transition: all 250ms ease-in-out !important;
   }
 
   .mobile-navigation-close {
