@@ -212,21 +212,23 @@ const tourismPage = () => {
       </div>
       <div class="row align-items-center mb-5 mb-5">
         <h3 class="text-center w-100"><b>Ботанический сад академии наук Абхазии</b></h3>
-        <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_9_bf5dr9.jpg"
-          alt=""
-          class="col-sm-4 col-12"
-        /><img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_11_lexgyi.jpg"
-          alt=""
-          class="col-sm-4 col-12"
-        /><img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_8_h0h7qp.jpg"
-          alt=""
-          class="col-sm-4 col-12"
-          style="height: 260px;
-          object-fit: cover;"
-        />
+        <div class="row">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_9_bf5dr9.jpg"
+            alt=""
+            class="col-sm-4 col-12"
+          /><img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_11_lexgyi.jpg"
+            alt=""
+            class="col-sm-4 col-12"
+          /> <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1613747941/102273/unnamed_8_h0h7qp.jpg"
+            alt=""
+            class="col-sm-4 col-12"
+            style="height: 260px;
+            object-fit: cover;"
+          />
+        </div>
       </div>
       <video controls src="https://res.cloudinary.com/depgheppz/video/upload/v1613749862/102273/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_Adel_%D0%B2_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%90%D1%84%D0%BE%D0%BD%D0%B0_sbncbg.mp4"></video>
     </div>
