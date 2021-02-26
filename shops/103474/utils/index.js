@@ -176,7 +176,7 @@ jQuery(function () {
   }
 });
 
-jQuery(() => {
+// jQuery(() => {
   if (document.querySelector('.wrapper')) {
     const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper");
     console.log(target);
@@ -205,4 +205,4 @@ jQuery(() => {
     // Позже можно остановить наблюдение
     observer.disconnect();
   }
-})
+// })
