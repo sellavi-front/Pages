@@ -194,7 +194,7 @@ body
 .wrapper .header .header-wrapper .mobile-navigation-wrapper {
   position: absolute;
   right: 15px;
-  top: -60px;
+  top: 0;
   max-width: 21px;
 }
 
