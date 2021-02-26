@@ -113,6 +113,7 @@ ul.nav.sf-menu
 
 .cart-wrapper .dropdown {
   padding: 8% 0 !important;
+  bottom: 10px;
 }
 
 
@@ -133,8 +134,9 @@ ul.nav.sf-menu
 
 .header_wishlist,
 .header_login {
-  /*margin-top: 22%;*/
-  display: none !important;
+  position: relative;
+  padding: 0 5px 0 10px;
+  top: 20px;
 }
 
 /*@import './header-widgets/header-widgets.css';*/
