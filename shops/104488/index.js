@@ -6,12 +6,12 @@ import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
-// if (document.querySelector('.header-wrapper')) {
-//   const oldNav = document.querySelector('.nav.sf-menu');
-//   const newNav = oldNav.cloneNode(true);
-//   document.querySelector('.logo').insertAdjacentHTML('beforebegin', newNav.outerHTML);
-//   oldNav.remove();
-// }
+if (document.querySelector('.header-wrapper')) {
+  const oldNav = document.querySelector('.nav.sf-menu');
+  const newNav = oldNav.cloneNode(true);
+  document.querySelector('.logo').insertAdjacentHTML('beforebegin', newNav.outerHTML);
+  oldNav.remove();
+}
 
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Горелова Мария Сергеевна');
