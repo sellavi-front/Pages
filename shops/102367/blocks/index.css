@@ -64,6 +64,10 @@ body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .capt
   text-align: center !important;
 }
 
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li>a {
+  border: none !important;
+}
+
 @media only screen and (max-width: 991px) {
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     left: 15px !important;
