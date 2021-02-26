@@ -152,9 +152,8 @@ const disinfectantsPages = () => {
         Реагент для очистки и обеззараживания воды в системах хозяйственно-питьевого водоснабжения, горячего водоснабжения, технического водоснабжения предприятий, оборотных вод в системах охлаждения оборудования, сточных вод, воды плавательных бассейнов и аквапарков, а также для предотвращения биообрастания.
       </p>
       <div class="mb-5 w-100 row">
-        <a href="#" class="button_link">Документация</a>
-        <a href="#" class="button_link">Презентация средства "ДеФлок"</a>
-        <a href="#" class="button_link ">Скачать презентацию</a>
+        <a href="https://disk.yandex.ru/d/OYAihcmOSFI8Jw?w=1" class="button_link">Документация</a>
+        <a href="https://disk.yandex.ru/i/tJxvIA77v8XPUQ" class="button_link">Презентация средства "ДеФлок"</a>
       </div>
     </div>
   </div>
@@ -179,9 +178,9 @@ const disinfectantsPages = () => {
       </p>
 
       <div class="mb-5 w-100 row">
-        <a href="#" class="button_link">Документация на русском языке</a>
-        <a href="#" class="button_link">Документация на иностранных языках)</a>
-        <a href="#" class="button_link ">Скачать презентацию</a>
+        <a href="https://disk.yandex.ru/i/C75RX55mmOMLCw" class="button_link">Документация на русском языке</a>
+        <a href="https://disk.yandex.ru/d/L2XxSAUufP00rw?w=1" class="button_link">Документация на иностранных языках)</a>
+        <a href="https://disk.yandex.ru/i/RUmZx6CQOrg7wg" class="button_link ">Скачать презентацию</a>
       </div>
     </div>
   </div>
