@@ -178,7 +178,7 @@ jQuery(function () {
 
 jQuery(() => {
   if (document.querySelector('.wrapper')) {
-    const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .cart-content");
+    const target = document.querySelector("header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .cart-content");
 
     // Конфигурация observer (за какими изменениями наблюдать)
     const config = {
