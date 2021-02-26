@@ -411,7 +411,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .car
 body.theme_11 .wrapper .header {
   width: 100% !important;
   z-index: 1111;
-  padding: 2% 0;
+  padding: 2% 0 1% 0;
 }
 
 .common-home .wrapper .header .header-wrapper .header_widgets .header_login>a,
