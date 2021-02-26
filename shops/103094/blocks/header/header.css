@@ -755,7 +755,7 @@ IPHONES
   }
 
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: rtl !important;
+    direction: ltr !important;
   }
 }
 
