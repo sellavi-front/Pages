@@ -31,13 +31,13 @@ if (document.querySelector('.wrapper')) {
 
   const navList = document.querySelector('header .sf-menu');
   navList.insertAdjacentHTML('afterbegin', `<li>${mobNavWrap.outerHTML}</li>`);
-  //mobNavWrap.remove();
+  mobNavWrap.remove();
 
   const selectors = [];
   const cartI = document.querySelector('body .header-cart i');
 
   headerContainer.classList.add('container');
-  //headerContainer.classList.remove('container-fluid');
+  headerContainer.classList.remove('container-fluid');
 
   cartI.classList.add('far');
   cartI.classList.remove('fal');
@@ -60,7 +60,7 @@ if (document.querySelector('.wrapper')) {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
 
-    //headerWidgets.remove();
+    headerWidgets.remove();
     // collapseShow(links);
     document
       .querySelector('.header_widgets')
