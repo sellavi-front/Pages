@@ -64,6 +64,12 @@ body.checkout-checkout label:not(.placeholder) {
   text-decoration: underline !important;
 }
 
+.contact-info .media-body {
+  line-height: 22px;
+  font-weight: 700;
+}
+
+
 /* Header */
 .header_widgets {
   z-index: 9999 !important;
