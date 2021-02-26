@@ -53,3 +53,14 @@ body.ru.ltr .checkout-progress-bar .step-number.active,
 body.sidenav-enabled .mobile_side_nav > ul a {
   text-align: left !important;
 }
+
+@media only screen and (max-width: 991px) {
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    left: 15px !important;
+    right: auto !important;
+  }
+
+  body.ltr .wrapper .header .header-wrapper .header_widgets {
+    justify-content: flex-end !important;
+  }
+}

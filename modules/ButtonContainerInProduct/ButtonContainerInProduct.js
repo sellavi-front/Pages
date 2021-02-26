@@ -19,7 +19,7 @@ export default class ButtonContainerInProduct {
   }
 }
 
-  const price = document.querySelectorAll('.product-item .price');
+const price = document.querySelectorAll('.product-item .price');
 const addToCart = document.querySelectorAll('.add_to_cart');
 
 if (document.querySelectorAll('.add_to_wishlist').length === 0) {
