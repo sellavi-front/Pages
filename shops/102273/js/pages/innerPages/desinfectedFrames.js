@@ -141,7 +141,7 @@ export default function desinfectedFrames() {
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772649/102273/image_121_jprbds.png"
     alt=""
   />
-  <div class="row" style="margin-top: 50px; justify-content: center;">
+  <div class="row" style="margin-top: 50px; justify-content: flex-start;">
     <div class="col col-md-3">
       <p>
         Базовая комплектация:<br />
@@ -251,6 +251,41 @@ export default function desinfectedFrames() {
     </div>
   </div>
 
+  <div class="mb-3 mt-5">
+      <h4 class="text-center">
+        <b>Класс «СТАНДАРТ» </b>
+      </h4>
+      <h6 class="text-center">Федеральный округ Центральный. Регион производства – Ржев</h6>
+      <div class="row mb-5">
+        <h6 class="text-center w-100 mb-5">
+          <b>Федеральный округ Центральный. Регион производства – Ржев </b>
+        </h6>
+        <div class="col-md-3">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_48_nrlond.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_47_ys6nmf.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_46_bsk3vt.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3">
+          <img
+            src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_45_l8l6gn.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
   <div class="mb-3 mt-5">
     <h4>
       <b>Класс «ПРЕМИУМ» </b>
