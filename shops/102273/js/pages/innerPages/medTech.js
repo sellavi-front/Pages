@@ -1844,7 +1844,7 @@ const medTech = () => {
   <h6 class="text-center"><b>НИКОГДА НЕ РАСПЛАЧИВАЙСЯ ЗДОРОВЬЕМ ЗА КРАСОТУ!</b></h6>
   <h6 class="text-center">ТРЕБУЙ ДЛЯ СЕБЯ САМОГО ЛУЧШЕГО!</h6>
   <div class="mt-4 mb-4 row">
-    <a href="https://disk.yandex.ru/i/D398nK9qxOFjaw" class="button_link mb-2">Презентация</a>
+    <a href="https://docviewer.yandex.ru/view/294148221/?*=NY8M5Y96tXOYWfRC4bG4hmu2sCp7InVybCI6InlhLWRpc2stcHVibGljOi8vUG10ODRBN1JESHdrY3ljZGZzUXZjMnF1ZEc2K0pWZ3RlTlU3ZGdYeFNzVWZCWitDeHlFVDdqQldFN2loMFVnSXEvSjZicG1SeU9Kb25UM1ZvWG5EYWc9PSIsInRpdGxlIjoiOS4g0LHRg9C60LvQtdGCINCw0LvRjNGP0L3RgS5wZGYiLCJub2lmcmFtZSI6ZmFsc2UsInVpZCI6IjI5NDE0ODIyMSIsInRzIjoxNjE0MzQ2ODAzMDQyLCJ5dSI6IjY2NTUzMjU4MDE1Nzk3MjI3NTgifQ%3D%3D" class="button_link mb-2">Презентация</a>
   </div>
 </div>
 </section>
