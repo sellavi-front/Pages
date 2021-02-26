@@ -883,3 +883,7 @@ IPADS
     padding: 6% 0;
   }
 }
+
+#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.logo > a > figure > img {
+  max-height: 110px !important;
+}
