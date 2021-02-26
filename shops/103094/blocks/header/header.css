@@ -809,7 +809,7 @@ IPADS
   }
 }
 
-@media only screen and (max-width: 1024px) {
+/*@media only screen and (max-width: 1024px) {
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     right: auto !important;
     left: 20%;
@@ -831,7 +831,7 @@ IPADS
     background: transparent !important;
     transition: all 250ms ease-in-out !important;
   }
-}
+}*/
 
 
 
