@@ -1816,7 +1816,6 @@ const medTech = () => {
   </div>
   <div class="mt-4 mb-4 row">
     <a href="https://res.cloudinary.com/depgheppz/image/upload/v1614344476/102273/6._SmoothEyeFotona-02_ubioyy.jpg" class="button_link mb-2">Буклет</a>
-    <a href="" class="button_link mb-2">Фото</a>
   </div>
 </div>
 
