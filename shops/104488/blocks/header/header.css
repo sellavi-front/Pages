@@ -1,29 +1,32 @@
-.header .header-wrapper>.container {
-    position: absolute;
-}
 
-.header .header-wrapper .mobile-navigation-wrapper {
-    z-index: 9;
-}
+@media (max-device-width: 480px) {
+    .header .header-wrapper>.container {
+        position: absolute;
+    }
 
-header > div.header-wrapper > div.container > div.header_widgets {
-    z-index: 9;
-}
+    .header .header-wrapper .mobile-navigation-wrapper {
+        z-index: 9;
+    }
 
-header > div.header-wrapper > div.container > div.header_widgets > div.header_wishlist {
-    display: none;
-}
+    header > div.header-wrapper > div.container > div.header_widgets {
+        z-index: 9;
+    }
+
+    header > div.header-wrapper > div.container > div.header_widgets > div.header_wishlist {
+        display: none;
+    }
 
 
-body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
-    top: 0px !important;
-    left: -1px !important;
-}
+    body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+        top: 0px !important;
+        left: -1px !important;
+    }
 
-body#home .mobile_side_nav .sidenav_search {
-    display: block !important;
-}
+    body#home .mobile_side_nav .sidenav_search {
+        display: block !important;
+    }
 
-body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: rtl
+    body.sidenav-enabled.ltr .mobile_side_nav ul a {
+        direction: rtl
+    }
 }
