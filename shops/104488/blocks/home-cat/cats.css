@@ -1,0 +1,11 @@
+.thumbnail-banner .media-link .img-bg {
+    height: 589px !important;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div > a > div {
+    display: none;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div {
+    width: 375px !important;
+}
