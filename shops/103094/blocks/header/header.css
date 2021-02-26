@@ -131,6 +131,11 @@ ul.nav.sf-menu
   align-items: center;
 }
 
+.header_wishlist,
+.header_login {
+  /*margin-top: 22%;*/
+  display: none !important;
+}
 
 /*@import './header-widgets/header-widgets.css';*/
 .wrapper .header .header-wrapper .header_widgets {
