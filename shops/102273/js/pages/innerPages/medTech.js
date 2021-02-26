@@ -1815,18 +1815,24 @@ const medTech = () => {
     <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614344163/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-16_%D0%B2_17.59.50_g1rbsh.png" class="w-100">
   </div>
   <div class="mt-4 mb-4 row">
-    <a href="" class="button_link mb-2">Буклет</a>
-
+    <a href="https://res.cloudinary.com/depgheppz/image/upload/v1614344476/102273/6._SmoothEyeFotona-02_ubioyy.jpg" class="button_link mb-2">Буклет</a>
     <a href="" class="button_link mb-2">Фото</a>
   </div>
 </div>
 
 <div class="sect" id="9">
   <h3 class="text-center">9. SmoothLips</h3>
+  <div>
+    <h6 class="text-center">Что такое SmoothEye?</h6>
+    <p>
+      Smoothlips — инновационная запатентованная
+      технология проведения лазерной реконструкции
+      тканей носогубного треугольника и восстановления естественного объема губ.
+    </p>
+    <img src="https://res.cloudinary.com/depgheppz/image/upload/v1614346505/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-16_%D0%B2_17.56.36_dr5m1y.png" class="w-100">
+  </div>
   <div class="mt-4 mb-4 row">
-    <a href="" class="button_link mb-2">Буклет</a>
-    <a href="" class="button_link mb-2">Краткое описание компании</a>
-    <a href="" class="button_link mb-2">Фото</a>
+    <a href="https://res.cloudinary.com/depgheppz/image/upload/v1614346585/102273/5._smoothlips-02_ehprtd.jpg" class="button_link mb-2">Буклет</a>
   </div>
 </div>
 
