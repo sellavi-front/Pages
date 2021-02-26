@@ -835,15 +835,6 @@ IPADS
   }
 }
 
-
-
-@media only screen and (max-width: 2500px) {
-  body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: rtl !important;
-  }
-}
-
-
 /* END */
 
 @media (max-width: 991px) {
