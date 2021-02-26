@@ -326,8 +326,9 @@ const disinfectantsPages = () => {
       </p>
     </div>
     <div class="mt-4 mb-4 row">
-        <a href="" class="button_link mb-2">Инструкция по применению</a>
-        <a href="" class="button_link mb-2">Протокол испытаний</a>
+        <a href="https://disk.yandex.ru/i/wXUmSZYxFhah6A" class="button_link mb-2">Инструкция по применению</a>
+        <a href="https://disk.yandex.ru/d/s_4UMq37l-eQJQ?w=1" class="button_link mb-2">Протокол испытаний</a>
+        <a href="https://disk.yandex.ru/d/GpJLfmb6j5Pa6A?w=1" class="button_link mb-2">Документация</a>
     </div>
   </div>
 </section>
