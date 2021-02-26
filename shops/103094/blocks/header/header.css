@@ -124,10 +124,6 @@ ul.nav.sf-menu
   line-height: 20px !important;
 }
 
-.wrapper .header .header-wrapper .header_widgets .header_login {
-  padding: 0 !important;
-}
-
 .header-wrapper > div {
   display: flex;
   flex-direction: row;
