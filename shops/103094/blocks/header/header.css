@@ -376,6 +376,11 @@ body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   bottom: 10px !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+  display: inline-block;
+  padding: 0 5px 0 10px !important;
+}
+
 .header .header-wrapper .mobile-navigation-wrapper a {
   font-size: 23px;
   color: #000;
