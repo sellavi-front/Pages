@@ -1,9 +1,14 @@
-@import '../../../fixes/fixes.css';
-@import './pay-delivery/pay-delivery.css';
-@import '../../../templates/TemplateTypeTwo/styles/withoutCat.css';
-@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
+@import './pay-delivery/pay-delivery.css';
+
+@import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
+
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body h1,
 body h2,
@@ -16,9 +21,9 @@ body a,
 body span,
 body b,
 body strong {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
+  font-family: 'Open Sans', sans-serif;
 }
-/* 
-dfd */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
