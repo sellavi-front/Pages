@@ -16,6 +16,7 @@ import addClassNameListener from "./utils/addEventListener.js"
   document.querySelector(".mobile_side_nav").classList.add("nav-closed")
   document.querySelector("body").classList.remove("overflow-hidden")
 })*/
+
 // Catalog remove
 document.querySelector(".sf-menu>li:nth-child(2)").remove()
 
