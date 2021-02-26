@@ -13,6 +13,10 @@ if (document.querySelector('.header-wrapper')) {
   oldNav.remove();
 }
 
+if (document.querySelector('.common-home')) {
+  document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category > div > div').insertAdjacentHTML('beforebegin', '<div class="container"><span>Категории</span></div>')
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Горелова Мария Сергеевна');
 
