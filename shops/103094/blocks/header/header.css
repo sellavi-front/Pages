@@ -185,9 +185,9 @@ body
 /* SF-MENU */
 @media (max-width: 768px) {
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
-    left: 15px;
+    left: 5px;
     right: auto;
-    position: relative;
+    /*position: relative;*/
     z-index: 999;
   }
 }
