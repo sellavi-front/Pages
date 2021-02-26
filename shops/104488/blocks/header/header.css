@@ -30,3 +30,27 @@
         direction: rtl
     }
 }
+
+header > div.header-wrapper > div.container {
+    display: flex;
+}
+
+header > div.header-wrapper > div.container > ul {
+    order: 2
+}
+
+header > div.header-wrapper > div.container > div.logo {
+    order: 1;
+}
+
+.header-search  {
+    order: 3
+}
+
+header > div.header-wrapper > div.container > div.header_widgets {
+    order: 4
+}
+
+header > div.header-wrapper > div.container > div.header_widgets > div.header_login {
+    display: none !important;
+}
