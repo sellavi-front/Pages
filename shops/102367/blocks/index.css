@@ -54,6 +54,11 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   text-align: left !important;
 }
 
+
+.navigation_black_screen {
+  display: none !important;
+}
+
 @media only screen and (max-width: 991px) {
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     left: 15px !important;
@@ -88,5 +93,6 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     text-align: center !important;
   }
+
 
 }
