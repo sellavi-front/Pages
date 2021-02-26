@@ -733,6 +733,61 @@ body.theme_11 .wrapper .navigation_black_screen.active {
   }
 }
 
+/* MAIN MENU ON MOBILE */
+
+/*
+IPHONES
+ */
+
+@media only screen and (max-width: 414px) {
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    right: auto !important;
+    left: 20%;
+    top: 15% !important;
+    width: 100% !important;
+    padding-top: 0 !important;
+    transition: all 250ms ease-in-out !important;
+    height: fit-content;
+  }
+
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: ltr !important;
+  }
+}
+
+
+/*
+IPADS
+ */
+
+@media only screen and (min-width: 768px) {
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    right: auto !important;
+    left: 20%;
+    top: 7% !important;
+    width: 100% !important;
+    padding-top: 0 !important;
+    transition: all 250ms ease-in-out !important;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+    right: auto !important;
+    left: 20%;
+    top: 0 !important;
+    width: 100% !important;
+    padding-top: 8% !important;
+    background: transparent !important;
+    transition: all 250ms ease-in-out !important;
+  }
+}
+
+
+
+/* END */
+
 @media (max-width: 991px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: auto !important;
@@ -741,16 +796,6 @@ body.theme_11 .wrapper .navigation_black_screen.active {
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     background: white !important;
     border-bottom: 2px solid #feb1c4 !important;
-  }
-
-  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
-    right: auto !important;
-    left: 20%;
-    top: 7% !important;
-    width: 100% !important;
-    padding-top: 108px !important;
-    transition: all 250ms ease-in-out !important;
-    height: fit-content;
   }
 
   .mobile-navigation-close {
