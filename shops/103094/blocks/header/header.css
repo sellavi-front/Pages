@@ -755,7 +755,7 @@ IPHONES
   }
 
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: ltr !important;
+    direction: rtl !important;
   }
 }
 
@@ -772,7 +772,7 @@ IPHONES
   }
 
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: ltr !important;
+    direction: rtl !important;
   }
 }
 
@@ -788,7 +788,7 @@ IPHONES
   }
 
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: ltr !important;
+    direction: rtl !important;
   }
 }
 
