@@ -373,7 +373,7 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
 body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: #000 !important;
   margin-left: 0!important;
-  bottom: 10px;
+  bottom: 10px !important;
 }
 
 .header .header-wrapper .mobile-navigation-wrapper a {
