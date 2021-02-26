@@ -45,6 +45,25 @@ body label.placeholder {
   font-weight: 700 !important;
 }
 
+.panel-options .panel-title .collapsed {
+  font-weight: 700 !important;
+}
+
+body.checkout-checkout .radio.customized input[type=radio]:checked~label {
+  font-weight: 700;
+  color: #000 !important;
+}
+
+body.checkout-checkout label:not(.placeholder) {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 700 !important;
+}
+
+#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
+  text-decoration: underline !important;
+}
+
 /* Header */
 .header_widgets {
   z-index: 9999 !important;
