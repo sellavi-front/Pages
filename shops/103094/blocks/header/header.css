@@ -414,6 +414,13 @@ span.d-none.d-lg-inline-block {
   display: none !important;
 }
 
+body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper {
+  flex: 0 0 50%;
+  padding: 0 5px;
+  margin-top: 0!important;
+  width: 30%;
+}
+
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
 .header_widgets a {
   color: #000 !important;
