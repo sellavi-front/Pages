@@ -27,7 +27,7 @@ addClassNameListener("body", () => {
 
 document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4").innerHTML = 'О нас'
 
-document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a").innerHTML = `<a href="">Каталог</a>`
+//document.querySelector("#home > div > header > div.header-wrapper > div > nav > ul > li:nth-child(2) > a").innerHTML = `<a href="">Каталог</a>`
 if(document.querySelector(".common-home")) {
   resetSizeBanner()
   renderContactsInCustomSection()
