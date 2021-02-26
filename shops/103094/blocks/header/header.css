@@ -410,6 +410,9 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   }
 }
 
+span.d-none.d-lg-inline-block {
+  display: none !important;
+}
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
 .header_widgets a {
