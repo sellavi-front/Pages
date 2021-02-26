@@ -80,4 +80,8 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   body.sidenav-enabled .mobile_side_nav .flexy>.arrow.clicked {
     background: #fff1ea !important;
   }
+
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 23% 0 auto !important;
+  }
 }
