@@ -260,25 +260,25 @@ export default function desinfectedFrames() {
         <h6 class="text-center w-100 mb-5">
           <b>Федеральный округ Центральный. Регион производства – Ржев </b>
         </h6>
-        <div class="col-md-3">
+        <div class="col-md-3" style="height: 320px; overflow: hidden;">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_48_nrlond.jpg"
             alt=""
           />
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" style="height: 320px; overflow: hidden;">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_47_ys6nmf.jpg"
             alt=""
           />
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" style="height: 320px; overflow: hidden;">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_46_bsk3vt.jpg"
             alt=""
           />
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" style="height: 320px; overflow: hidden;">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614347924/102273/unnamed_45_l8l6gn.jpg"
             alt=""
