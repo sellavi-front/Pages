@@ -63,4 +63,8 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   body.ltr .wrapper .header .header-wrapper .header_widgets {
     justify-content: flex-end !important;
   }
+
+  body.sidenav-enabled .mobile_side_nav {
+    width: 100% !important;
+  }
 }
