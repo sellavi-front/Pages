@@ -797,7 +797,7 @@ IPHONES
 IPADS
  */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px){
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     right: auto !important;
     left: 20%;
@@ -807,32 +807,41 @@ IPADS
     transition: all 250ms ease-in-out !important;
     height: fit-content;
   }
-}
 
-/*@media only screen and (max-width: 1024px) {
-  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
-    right: auto !important;
-    left: 20%;
-    top: 0 !important;
-    width: 100% !important;
-    padding-top: 8% !important;
-    background: transparent !important;
-    transition: all 250ms ease-in-out !important;
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: ltr !important;
   }
 }
 
-@media only screen and (width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1144px) {
   body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     right: auto !important;
     left: 20%;
-    top: 0 !important;
+    top: 13% !important;
     width: 100% !important;
-    padding-top: 7% !important;
-    background: transparent !important;
+    padding-top: 0 !important;
     transition: all 250ms ease-in-out !important;
+    height: fit-content;
   }
-}*/
 
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: ltr !important;
+  }
+}
+
+@media only screen and (min-width: 1145px) and (max-width: 1145px) {
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: ltr !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 2500px) {
+  body.sidenav-enabled.ltr .mobile_side_nav ul a {
+    direction: ltr !important;
+  }
+}
 
 
 /* END */
