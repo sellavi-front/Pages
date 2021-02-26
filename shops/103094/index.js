@@ -3,7 +3,7 @@ import {requsites} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js'
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js'
-import './blocks/header/header.js'
+//import './blocks/header/header.js'
 import './blocks/banner/banner.js'
 import resetSizeBanner from "./blocks/banner/banner.js";
 import renderContactsInCustomSection from "./blocks/custom-section/contacts/contacts.js";
