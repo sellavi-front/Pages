@@ -825,13 +825,13 @@ IPADS
   }
 
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: ltr !important;
+    direction: rtl !important;
   }
 }
 
 @media only screen and (min-width: 1145px) and (max-width: 1145px) {
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: ltr !important;
+    direction: rtl !important;
   }
 }
 
@@ -839,7 +839,7 @@ IPADS
 
 @media only screen and (max-width: 2500px) {
   body.sidenav-enabled.ltr .mobile_side_nav ul a {
-    direction: ltr !important;
+    direction: rtl !important;
   }
 }
 
