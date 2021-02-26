@@ -76,4 +76,8 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   body.sidenav-enabled .mobile_side_nav .flexy>.arrow i {
     font-size: 16px !important;
   }
+
+  body.sidenav-enabled .mobile_side_nav .flexy>.arrow.clicked {
+    background: #fff1ea !important;
+  }
 }
