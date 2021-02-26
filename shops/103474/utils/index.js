@@ -179,7 +179,7 @@ jQuery(function () {
 jQuery(() => {
   if (document.querySelector('.wrapper')) {
     const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper");
-
+    console.log(target);
     // Конфигурация observer (за какими изменениями наблюдать)
     const config = {
       childList: true,
