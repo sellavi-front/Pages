@@ -198,9 +198,9 @@ body
 }
 
 /* CART */
-/*body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
-  padding: 0 50px;
-}*/
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
+  padding: 0 45px;
+}
 body.theme_11.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
   right: 0;
   left: auto;
