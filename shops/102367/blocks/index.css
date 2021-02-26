@@ -59,6 +59,11 @@ body.sidenav-enabled .mobile_side_nav > ul a {
   display: none !important;
 }
 
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: center !important;
+}
+
 @media only screen and (max-width: 991px) {
   body.ltr .header .header-wrapper .mobile-navigation-wrapper {
     left: 15px !important;
@@ -90,9 +95,6 @@ body.sidenav-enabled .mobile_side_nav > ul a {
     margin: 0 23% 0 auto !important;
   }
 
-  body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
-    text-align: center !important;
-  }
 
 
 }
