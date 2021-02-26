@@ -179,9 +179,9 @@ jQuery(function () {
 jQuery(() => {
   if (document.querySelector('.wrapper')) {
     if (document.querySelector('.price_actions .add_to_cart')) {
-      document.querySelectorAll('.price_actions .add_to_cart') {
+      document.querySelectorAll('.price_actions .add_to_cart')
 
-      }
+
     }
     const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .dropdown-menu");
     console.log(target);
