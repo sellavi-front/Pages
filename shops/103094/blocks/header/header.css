@@ -446,7 +446,12 @@ body.sidenav-enabled .mobile_side_nav>ul>.flexy>.collapse {
 
 
 @media only screen and (min-width: 1024px) {
-  .mobile-navigation-wrapper {
+  .mobile-navigation-wrapper>a{
     display: none !important;
   }
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper .cart-qty-circle {
+  right: 0;
+  left: auto;
 }
