@@ -5,7 +5,6 @@ import CreateAddContainer from '../../../../modules/CreateAddContainer/CreateAdd
 import DeleteClasses from '../../../../modules/DeleteClasses/DeleteClasses.js';
 // import { collapseShow } from './scripts/collapseShow.js';
 
-/*
 const headerWidgets = document.querySelector('.header_widgets');
 const headerContainer = document.querySelector('.header-wrapper>div');
 const headerLoginText = document.querySelector('.header_login>.d-none.d-lg-block');
@@ -111,7 +110,6 @@ if (document.querySelector('.wrapper')) {
        `,
      );
    }, 500);
-*/
 
   /*document.querySelector('.mobile-navigation-wrapper').addEventListener('click', (e) => {
     document.querySelector('.mobile-navigation-close').addEventListener('click', () => {
