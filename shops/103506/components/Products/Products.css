@@ -10,3 +10,18 @@ body .section-title {
 body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
+
+.checkout-cart small {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  #home > div > div > section.page-section.titles {
+    padding-top: 5% !important;
+  }
+
+  #content {
+    padding-top: 5% !important;
+    text-align: center;
+  }
+}

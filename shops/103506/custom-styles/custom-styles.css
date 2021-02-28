@@ -1,4 +1,5 @@
 @import './CustomSection/CustomSection.css';
+@import './ProductCard/ProductCard.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body h1,
@@ -28,16 +29,50 @@ label,
   font-family: 'Montserrat', sans-serif !important;
 }
 
-body {
-  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) no-repeat center/cover;
+body:not(.checkout-checkout) {
+  background: url(https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612867804/sellavi/103506/Component_1_4_fcybcq.jpg) repeat-y center/cover fixed;
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
-  .logo {
+@media (max-width: 576px) {
+  body:not(.checkout-checkout) {
+    background: url(https://res.cloudinary.com/rostislavsellavi/image/upload/v1613860537/Group_276_ctwwht.jpg) !important;
+    background-size: contain;
+  }
+}
+
+
+
+.header-cart .cart-wrapper .cart-qty-circle {
+  position: absolute;
+  top: -18px;
+  right: -5px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+  width: 1.8em;
+  height: 1.8em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: #D3865E !important;
+  color: #fff !important;
+  font-size: .6em;
+  border: 1px solid #000;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .common-home .logo {
     display: none;
   }
 
-  body.theme_7 .wrapper header.header .header-wrapper .mobile-navigation-wrapper {
+  .common-home>.wrapper>header.header>.header-wrapper>.mobile-navigation-wrapper {
     top: 45px !important;
   }
+}
+
+#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.logo.logo-edited > a > figure > img {
+  max-width: 100px !important;
+  max-height: fit-content !important;
 }

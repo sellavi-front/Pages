@@ -1,0 +1,17 @@
+@media (min-width: 991px) {
+  .product-item .thumbnail .media img {
+    min-height: 255px;
+    max-width: 255px;
+    max-height: 255px;
+    object-fit: scale-down;
+
+  }
+  body.ltr #content .products.list .product-item .thumbnail .media {
+    width: fit-content;
+  }
+}
+
+.thumbnail .media {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 2px rgb(0 0 0 / 15%);
+}

@@ -115,9 +115,9 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
 }
 
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover, .thumbnail .add_to_wishlist button:hover {
-  background-color: #fff !important;
-  color: #000 !important;
-  border: 2px solid #d80018 !important;
+  background-color: #FA5B60 !important;
+  color: #fff !important;
+  border: 2px solid #FA5B60 !important;
   border-radius: 4px !important;
 }
 
@@ -136,7 +136,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 
 
 body .btn.btn-theme.btn-theme-transparent:hover i {
-  color: rgb(0, 0, 0) !important;
+  color: #fff !important;
 }
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {

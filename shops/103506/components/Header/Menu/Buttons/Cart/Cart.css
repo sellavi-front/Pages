@@ -1,3 +1,4 @@
+/*
 body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
   border: none !important;
 }
@@ -62,4 +63,12 @@ body.ltr.ru .header-cart .cart-wrapper .cart-qty-circle {
     top: 28px !important;
   }
 }
+*/
+
+@media (min-width: 992px) {
+  .cart-qty-circle {
+    display: block !important;
+  }
+}
+
 

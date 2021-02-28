@@ -17,12 +17,13 @@
 @import './../styles/header.css';
 @import './../styles/navigation.css';
 @import './../styles/footer.css';
-/*@import './../styles/product-page.css';*/
+@import './../styles/product-page.css';
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 /*@import './../../../components/ContactsWithMap/ContactsWithMap.css';*/
 @import './../../../fixes/fixes.css';
 
 @import './../styles/fonts.css';
+@import './../styles/checkout.css';
 /*@import './../styles/content-area.css';*/
 
 .buttons__container {
@@ -280,6 +281,10 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
 
 .header_wishlist > a {
   font-size: 21px !important;
+}
+
+#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
+  text-decoration: underline !important;
 }
 
 body.ltr > div > header > div.navigation-wrapper > div > nav > ul > li.flexy.has_children.megamenu > ul {
