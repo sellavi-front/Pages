@@ -11,7 +11,12 @@
 }
 
 @media (max-width: 495px) {
+
+  body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets {
+    margin-right: 15px !important;
+  }
+
   body.theme-black.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
-    margin-left: 15px !important;
+    margin-left: 10px !important;
   }
 }
