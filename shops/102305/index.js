@@ -72,4 +72,8 @@ if(document.querySelector(".product-product")) {
   product.errorMessage()
 }
 
+if (document.querySelector('.checkout-checkout')) {
+  document.querySelector("#payment-address-new > div:nth-child(3) > div > label").textContent = 'Адрес – регион, населенный пункт, улица, дом, квартира';
+}
+
 
