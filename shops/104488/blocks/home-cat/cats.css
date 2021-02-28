@@ -192,3 +192,12 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
     margin-bottom: 40px;
 }
 
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+    display: block;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    display: flex;
+    justify-content: center;
+}
