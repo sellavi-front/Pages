@@ -33,3 +33,21 @@ section.page-section.homefeatured_category > div > div > div > div > div {
     font-size: 40px;
     font-family: 'Lobster', cursive;
 }
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 {
+    text-align: center !important;
+    margin-top: 90px !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    border-radius: 6px !important;
+}
+
+.thumbnail .add_to_wishlist button {
+    border-radius: 6px !important;
+}
