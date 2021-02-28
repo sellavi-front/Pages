@@ -135,6 +135,10 @@ body.theme-black.theme_11.product-product .product-single.product-item .buttons 
   }
 } */
 
+body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  border-radius: 4px !important;
+  border: 1px solid !important;
+}
 
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
