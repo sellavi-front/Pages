@@ -55,3 +55,77 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
     background: #cacaca6e !important;
 }
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.time-img > img {
+    width: 60px ;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.time-img {
+    margin-right: 40px
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time {
+    display: flex;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.phone-img > img {
+    width: 60px ;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.phone-img {
+    margin-right: 40px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones {
+    display: flex;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.email-img > img {
+    width: 60px ;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.email-img {
+    margin-right: 40px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email {
+    display: flex;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 2px solid #8CB1DD;
+    border-bottom: 2px solid #8CB1DD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.title-and-time > div.time-title > span {
+    font-weight: 400;   
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.title-and-time > div.time-title {
+    margin-bottom: 20px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.title-and-phone > div.phone-title > span {
+    font-weight: 400;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.title-and-phone > div.phone-title {
+    margin-bottom: 20px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.title-and-email > div.email-title > span {
+    font-weight: 400;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.title-and-email > div.email-title {
+    margin-bottom: 20px;
+}
