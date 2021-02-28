@@ -3,3 +3,9 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@media only screen and (max-width: 991px) {
+  body .footer .footer-widgets .widget-title {
+    margin-bottom: 0 !important;
+  }
+}
