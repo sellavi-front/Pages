@@ -1,6 +1,5 @@
 import "../../fixes/js/RemoveBlur/RemoveBlur.js"
 import icons from './utils/icons.js'
-import './../../templates/TemplateTypeTwo/TemplateTypeTwo.js'
 
 import '../../components/HeaderTypeTwo/HeaderTypeTwoV2.js'
 import '../../components/PictureCategories/PictureCategories.js'
