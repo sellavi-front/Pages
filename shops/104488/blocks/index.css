@@ -6,7 +6,7 @@
 @import '../blocks/home-cat/cats.css';
 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
 
 body h1,
 body h2,
@@ -19,9 +19,6 @@ body a,
 body span,
 body b,
 body strong {
-  font-weight: 700;
-  font-style: normal;
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
