@@ -209,6 +209,6 @@ jQuery(() => {
     observer.observe(target, config);
 
     // Позже можно остановить наблюдение
-    observer.disconnect();
+
   }
 })
