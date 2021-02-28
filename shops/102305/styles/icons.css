@@ -7,10 +7,11 @@
 }
 
 .header_wishlist {
-  margin-bottom: 5px !important;
+  margin: 0 20px 5px !important;
 }
 
-/*
-.header_wishlist > a {
-  font-size: 21px;
-}*/
+@media (max-width: 495px) {
+  body.theme-black.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
+    margin-left: 15px !important;
+  }
+}
