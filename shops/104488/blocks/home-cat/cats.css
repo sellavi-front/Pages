@@ -201,3 +201,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     display: flex;
     justify-content: center;
 }
+
+header > div.header-wrapper > div.container > div.logo {
+    visibility: hidden
+}
