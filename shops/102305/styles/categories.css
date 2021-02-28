@@ -35,6 +35,10 @@ body .div-cell, body .div-table {
   background-color: transparent;
 }
 
+body.theme_11 .subcategories_top {
+  display: block !important;
+}
+
 .thumbnail.thumbnail-banner .caption-sub-title, .thumbnail.thumbnail-banner .caption-title {
   text-align: center;
   text-transform: unset;
