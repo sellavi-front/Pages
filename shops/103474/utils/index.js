@@ -187,11 +187,12 @@ jQuery(() => {
     console.log(target);
     // Конфигурация observer (за какими изменениями наблюдать)
     const config = {
-      childList: true,
+      attributes: true,
     };
 
     // Функция обратного вызова при срабатывании мутации
     const callback = function (mutationsList, observer) {
+      console.log(mutationsList);
       for (let mutation of mutationsList) {
         if (mutation.type === 'childList') {
           console.log('A child node has been added or removed.');
