@@ -62,7 +62,8 @@ body.theme_11.checkout-checkout .logo>a img {
 }
 
 @media only screen and (max-width: 495px) {
-  body.theme_11 .wrapper .homefeatured_category>div>div>div {
+  body.theme_11 .wrapper .homefeatured_category>div>div>div,
+  body.theme_11 .wrapper .homefeatured_category>div>div>div:last-child {
     margin: 0 auto 60px !important;
   }
 }
