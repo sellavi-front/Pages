@@ -55,11 +55,6 @@ body.theme_11.checkout-checkout .logo>a img {
   padding: 0 !important;
 }
 
-.product-item .thumbnail .media img {
-  height: 150px !important;
-  object-fit: cover !important;
-}
-
 @media only screen and (max-width: 978px) {
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
     margin: 0 2% 60px 0 !important;
