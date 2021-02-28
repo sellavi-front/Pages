@@ -63,7 +63,6 @@
   top: 0 !important;
   border: 1px solid;
   border-radius: 5px;
-  padding: 3px;
 }
 
 .thumbnail .price {
@@ -231,6 +230,10 @@ body.theme-gray.theme_11
   > button:hover {
   background-color: #c9c9c9 !important;
   border-radius: 5px !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  border: 1px solid !important;
 }
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
@@ -686,7 +689,6 @@ body.theme_11 .wrapper .latest-section h2.section-title {
     min-height: 100px;
   }
   .product-item .thumbnail .media img {
-
     object-fit: cover !important;
   }
 
