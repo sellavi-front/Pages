@@ -1,6 +1,6 @@
 
 @media (max-device-width: 480px) {
-    .header .header-wrapper>.container {
+    .common-home .header .header-wrapper>.container {
         position: absolute;
     }
 

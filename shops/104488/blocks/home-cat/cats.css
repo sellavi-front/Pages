@@ -217,3 +217,9 @@ header > div.header-wrapper > div.container > div.logo {
         left: 0px !important;
     }
 }
+
+@media (max-device-width: 480px) {
+    body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+        left: 0px;
+    }
+}
