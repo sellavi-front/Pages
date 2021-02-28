@@ -27,3 +27,8 @@ body.ltr .checkbox.customized label {
   }
 }
 
+@media only screen and (max-width: 495px) {
+  #input-payment-address-1 {
+    height: 65px !important;
+  }
+}
