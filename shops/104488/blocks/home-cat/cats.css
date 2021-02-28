@@ -175,6 +175,20 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     color: #bbbbbb !important;
 }
 
-#home > div > footer > div.footer-widgets > div.container > div > div > div > h4 {
+footer > div.footer-widgets > div.container > div > div > div > h4 {
     margin-bottom: 40px !important;
 }
+
+
+#home > div > div.content-area > div.contactsSection > div > div > div {
+    flex-direction: column
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.time {
+    margin-bottom: 40px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.phones {
+    margin-bottom: 40px;
+}
+
