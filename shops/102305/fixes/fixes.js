@@ -33,7 +33,9 @@ export default class Fixes {
       document.querySelector(".content-area>.page-section>.container>.row").classList.add("product__block")
     }
 
-    document.querySelector(".footer>.footer-widgets>.container>.row").classList.add("footer__row")
+    if (document.querySelector('.wrapper')) {
+      document.querySelector(".footer>.footer-widgets>.container>.row").classList.add("footer__row")
+    }
   }
 
   insertTitleToCategories() {
