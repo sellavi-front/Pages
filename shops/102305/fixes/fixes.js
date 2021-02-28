@@ -8,10 +8,10 @@ export default class Fixes {
     if (document.querySelector('.common-home')) {
       document.querySelector(".main-slider ").remove()
     } else if (document.querySelector('.wrapper')) {
-    document.querySelector(".sf-menu>li[data-nav-part='home']").remove()
-    document.querySelector(".sf-menu>li[data-nav-part='5764']").remove()
-    document.querySelector(".sf-menu>li[data-nav-part='5763']").remove()
-    document.querySelector(".sf-menu>li[data-nav-part='5762']").remove()
+      document.querySelector(".sf-menu>li[data-nav-part='home']").remove()
+      document.querySelector(".sf-menu>li[data-nav-part='5764']").remove()
+      document.querySelector(".sf-menu>li[data-nav-part='5763']").remove()
+      document.querySelector(".sf-menu>li[data-nav-part='5762']").remove()
     }
   }
 
@@ -29,7 +29,7 @@ export default class Fixes {
       document.querySelector(".content-area>.page-section>.container>.row").classList.add("categories__block")
     }
 
-    if(document.querySelector('.product-product')) {
+    if (document.querySelector('.product-product')) {
       document.querySelector(".content-area>.page-section>.container>.row").classList.add("product__block")
     }
 
