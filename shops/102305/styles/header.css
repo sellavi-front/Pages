@@ -61,6 +61,12 @@ body.theme_11.checkout-checkout .logo>a img {
   }
 }
 
+@media only screen and (max-width: 495px) {
+  body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    margin: 0 0 60px !important;
+  }
+}
+
 
 @media (max-width: 375px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
