@@ -22,5 +22,5 @@ body.sidenav-enabled .mobile_side_nav .flexy>.arrow {
 }
 
 body.sidenav-enabled .mobile_side_nav {
-  position: relative !important;
+  position: absolute !important;
 }
