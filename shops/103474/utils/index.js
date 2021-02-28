@@ -187,7 +187,7 @@ jQuery(() => {
     console.log(target);
     // Конфигурация observer (за какими изменениями наблюдать)
     const config = {
-      attributes: true,
+      childList: true,
     };
 
     // Функция обратного вызова при срабатывании мутации
