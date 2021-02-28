@@ -2,7 +2,7 @@
 
 @import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
-@import '../../../components/HeaderTypeTwo/styles/cart/cart.css';
+/* @import '../../../components/HeaderTypeTwo/styles/cart/cart.css'; */
 @import '../../../components/HeaderTypeTwo/styles/sf-menu/sf-menu.css';
 @import '../../../components/HeaderTypeTwo/styles/search/search.css';
 /* @import '../../../components/HeaderTypeTwo/styles/header-widgets/header-widgets.css'; */
@@ -22,17 +22,19 @@
 @import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
 @import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
 
-@import './../styles/categories.css';
-@import './../styles/header.css';
-@import './../styles/navigation.css';
-@import './../styles/footer.css';
-@import './../styles/product-page.css';
+@import './categories.css';
+@import './header.css';
+@import './navigation.css';
+@import './footer.css';
+@import './product-page.css';
+@import './cart.css';
+
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 /*@import './../../../components/ContactsWithMap/ContactsWithMap.css';*/
 @import './../../../fixes/fixes.css';
 
-@import './../styles/fonts.css';
-@import './../styles/checkout.css';
+@import './fonts.css';
+@import './checkout.css';
 /*@import './../styles/content-area.css';*/
 
 .buttons__container {
