@@ -176,16 +176,13 @@ jQuery(function () {
   }
 });
 
-jQuery(() => {
+jQuery(function () {
   if (document.querySelector('.wrapper')) {
-    if (document.querySelector('.price_actions .add_to_cart')) {
-      document.querySelectorAll('.price_actions .add_to_cart')
-
-
-    }
+    // if (document.querySelector('.price_actions .add_to_cart')) {
+    //   document.querySelectorAll('.price_actions .add_to_cart')
+    // }
     const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .dropdown-menu .cart-content");
     console.log(target);
-    // Конфигурация observer (за какими изменениями наблюдать)
     const config = {
       childList: true,
     };
