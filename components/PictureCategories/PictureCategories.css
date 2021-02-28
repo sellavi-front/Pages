@@ -42,7 +42,7 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
      object-fit: cover !important;
 }
 
-.thumbnail.thumbnail-banner .media-link {
+.homefeatured_category .thumbnail.thumbnail-banner .media-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
