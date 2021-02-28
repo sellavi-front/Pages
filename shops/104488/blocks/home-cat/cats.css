@@ -223,3 +223,9 @@ header > div.header-wrapper > div.container > div.logo {
         left: 0px;
     }
 }
+
+@media (max-device-width: 480px) {
+    header > div.header-wrapper > div.container > ul {
+    display: none;
+}
+}
