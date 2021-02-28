@@ -10,6 +10,11 @@ body.ltr .checkbox.customized label {
   margin-bottom: 20px !important;
 }
 
+.wrapper div.content-area > section > div > div > div > div.details-wrap > div:nth-child(4) > ul > li:nth-child(2),
+#column-right > div > ul > li:nth-child(6) {
+  display: none !important;
+}
+
 @media screen and (max-width: 968px) {
   body.checkout-checkout .form-control, body.checkout-checkout .form-control:focus {
     font-weight: 200;
