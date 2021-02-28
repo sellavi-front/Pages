@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 .thumbnail-banner .media-link .img-bg {
     height: 589px !important;
 }
@@ -8,4 +11,15 @@ section.page-section.homefeatured_category > div > div > div > div > div > a > d
 
 section.page-section.homefeatured_category > div > div > div > div > div {
     width: 375px !important;
+}
+
+
+#home > div > div.content-area > section.page-section.homefeatured_category > div > div.container {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
 }
