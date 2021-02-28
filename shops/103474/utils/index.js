@@ -183,7 +183,7 @@ jQuery(() => {
 
 
     }
-    const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .dropdown-menu");
+    const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .dropdown-menu .cart-content");
     console.log(target);
     // Конфигурация observer (за какими изменениями наблюдать)
     const config = {
