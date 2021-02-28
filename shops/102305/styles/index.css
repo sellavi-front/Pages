@@ -63,6 +63,7 @@
   top: 0 !important;
   border: 1px solid;
   border-radius: 5px;
+  padding: 3px;
 }
 
 .thumbnail .price {
@@ -234,6 +235,7 @@ body.theme-gray.theme_11
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
   border: 1px solid !important;
+  border-radius: 4px !important;
 }
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
