@@ -33,7 +33,6 @@ if (document.querySelector(".wrapper")) {
   headerIcons.cart.insertAdjacentHTML('afterbegin', icons.cartBlack)
   headerIcons.like.classList.remove('far', 'fa-heart')
   headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
-
 }
 
 /*
