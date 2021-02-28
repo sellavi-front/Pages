@@ -175,37 +175,3 @@ jQuery(function () {
     $('#select2-input-payment-city-container').attr('title', 'Москва');
   }
 });
-
-jQuery(function () {
-  if (document.querySelector('.wrapper')) {
-    // if (document.querySelector('.price_actions .add_to_cart')) {
-    //   document.querySelectorAll('.price_actions .add_to_cart')
-    // }
-    const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .dropdown-menu");
-    console.log(target);
-    const config = {
-      attributeFilter: ['class'],
-    };
-
-    // Функция обратного вызова при срабатывании мутации
-    const callback = function (mutationsList, observer) {
-      console.log(mutationsList);
-      for (let mutation of mutationsList) {
-        if (mutation.type === 'childList') {
-          console.log('A child node has been added or removed.');
-        } else if (mutation.type === 'attributes') {
-          console.log('The ' + mutation.attributeName + ' attribute was modified.');
-        }
-      }
-    };
-
-    // Создаем экземпляр наблюдателя с указанной функцией обратного вызова
-    const observer = new MutationObserver(callback);
-
-    // Начинаем наблюдение за настроенными изменениями целевого элемента
-    observer.observe(target, config);
-
-    // Позже можно остановить наблюдение
-
-  }
-})

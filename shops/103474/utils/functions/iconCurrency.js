@@ -80,6 +80,41 @@ const icon = '&#8372;';
     observer.observe(target, config);
   }
 
+  jQuery(function () {
+    if (document.querySelector('.wrapper')) {
+      // if (document.querySelector('.price_actions .add_to_cart')) {
+      //   document.querySelectorAll('.price_actions .add_to_cart')
+      // }
+      const target = document.querySelector("#home > div > header > div.header-wrapper > div > div.header_widgets > div.header-cart.sticky > div.cart-wrapper > div.dropdown.cart_drop_down .dropdown-menu");
+      console.log(target);
+      const config = {
+        attributeFilter: ['class'],
+      };
+
+      // Функция обратного вызова при срабатывании мутации
+      const callback = function (mutationsList, observer) {
+        console.log(mutationsList);
+        for (let mutation of mutationsList) {
+          if (mutation.type === 'attributes') {
+            changeIcon(
+              document.querySelectorAll('.header-cart .dropdown-menu .cart-content .item-price'),
+              icon,
+            );
+          }
+        }
+      };
+
+      // Создаем экземпляр наблюдателя с указанной функцией обратного вызова
+      const observer = new MutationObserver(callback);
+
+      // Начинаем наблюдение за настроенными изменениями целевого элемента
+      observer.observe(target, config);
+
+      // Позже можно остановить наблюдение
+
+    }
+  })
+
   // $(document).ready(() => {
   //   if (pages.all) {
   //     if (document.querySelector('.header-cart .dropdown-menu .cart-content')) {
