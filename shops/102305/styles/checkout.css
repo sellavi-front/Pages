@@ -15,6 +15,10 @@ body.ltr .checkbox.customized label {
   display: none !important;
 }
 
+body.checkout-checkout div:not(.checkout_title) > h2 {
+  margin-top: 25px;
+}
+
 @media screen and (max-width: 968px) {
   body.checkout-checkout .form-control, body.checkout-checkout .form-control:focus {
     font-weight: 200;
