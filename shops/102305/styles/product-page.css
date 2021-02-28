@@ -140,6 +140,12 @@ body.theme-black.theme_11 .wrapper .page-section .products.grid .product-item .t
   border: 1px solid !important;
 }
 
+@media only screen and (max-width: 991px) {
+  .dotstyle.dotstyle-fillup {
+    top: -45px !important;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   body.bottom-nav-enabled.theme_11.product-product .product-single.product-item .buttons.fixed_mobile_button {
     bottom: 69px;
