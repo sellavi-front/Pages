@@ -21,6 +21,11 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   background: rgba(0, 0, 0, 0.2);
 }
 
+body.product-category .wrapper > div.content-area > section.page-section.subcategories_top > div > div > div.media_holder {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
   text-align: center !important;
   height: 50px !important;
