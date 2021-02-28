@@ -51,3 +51,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .thumbnail .add_to_wishlist button {
     border-radius: 6px !important;
 }
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+    background: #cacaca6e !important;
+}

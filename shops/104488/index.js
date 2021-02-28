@@ -11,7 +11,7 @@ if (document.querySelector('.common-home')) {
   document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', `<div class="contactsSection">
   <div class="container">
     <div class="contacts-flex">
-      <div class="contacts-title"><span>Контакты</span></div>
+
       <div class="otherInfo">
         <div class="time">
           <div class="time-img"><img
