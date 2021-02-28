@@ -20,3 +20,7 @@
 body.sidenav-enabled .mobile_side_nav .flexy>.arrow {
   display: block !important;
 }
+
+body.sidenav-enabled .mobile_side_nav {
+  position: relative !important;
+}
