@@ -28,7 +28,11 @@ body.ltr .checkbox.customized label {
 }
 
 @media only screen and (max-width: 495px) {
+  #payment-address-new > div:nth-child(3) > div > label {
+      line-height: 1.5;
+  }
+
   #input-payment-address-1 {
-    height: 65px !important;
+    height: fit-content !important;
   }
 }
