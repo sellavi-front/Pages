@@ -59,6 +59,10 @@ body.theme_11.checkout-checkout .logo>a img {
   body.theme_11 .wrapper .homefeatured_category>div>div>div {
     margin: 0 2% 60px 0 !important;
   }
+
+  body .add_to_wishlist .hide_on_mobile {
+    display: block !important;
+  }
 }
 
 @media only screen and (max-width: 495px) {
@@ -66,6 +70,8 @@ body.theme_11.checkout-checkout .logo>a img {
   body.theme_11 .wrapper .homefeatured_category>div>div>div:last-child {
     margin: 0 auto 60px !important;
   }
+
+
 }
 
 
