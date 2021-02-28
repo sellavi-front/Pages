@@ -129,3 +129,52 @@ body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .th
 #home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.title-and-email > div.email-title {
     margin-bottom: 20px;
 }
+
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.time > div.title-and-time > div.time-title > span {
+    font-weight: 500 !important
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.time > div.title-and-time > div.real-time > span {
+    font-weight: 600
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.phones > div.title-and-phone > div.phone-title > span {
+    font-weight: 500 !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.phones > div.title-and-phone > div.real-phone > span {
+    font-weight: 600 !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.email > div.title-and-email > div.email-title > span {
+    font-weight: 500 !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.email > div.title-and-email > div.real-email > span {
+    font-weight: 600 !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
+    text-transform: none !important;
+    font-weight: 500;
+}
+
+footer > div.footer-widgets > div.container > div {
+    justify-content: left;
+}
+
+footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: #bbbbbb !important;
+}
+
+#home > div > footer > div.footer-widgets > div.container > div > div > div > h4 {
+    margin-bottom: 40px !important;
+}
