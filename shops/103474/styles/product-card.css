@@ -93,7 +93,7 @@ body .section-title {
   .thumbnail.no-padding.no-border {
     -webkit-box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
-    padding: 10px 15px !important;
+    padding: 13px 15px !important;
     border: 0;
     border-radius: 11.7564px;
   }

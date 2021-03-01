@@ -262,9 +262,9 @@ body.theme_11
 }
 
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
-  width: 90%;
-  padding: 0;
-  margin: 0 auto;
+  width: 80% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
 }
 
 .add_to_wishlist i {
