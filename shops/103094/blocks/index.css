@@ -186,7 +186,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
 
   .cat_item {
     display: flex;
-    width: auto !important;
+    width: 300px !important;
     padding: 15px;
   }
 }

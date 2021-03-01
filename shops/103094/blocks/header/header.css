@@ -557,7 +557,7 @@ img {
 .cat-name {
   text-align: center;
   padding-top: 30px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -585,8 +585,17 @@ a {
 }
 
 .cat_item {
-  width: 300px;
+  width: 300px !important;
   height: 143px;
   border-radius: 20px;
   background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614599384/Rectangle_453_fani5n.png);
+}
+
+.common-home > div > div.content-area > div > div.container.cat_block > div > div > a {
+  width: 100%;
+}
+
+.common-home > div > div.content-area > div > div.container.cat_block > div > div {
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
