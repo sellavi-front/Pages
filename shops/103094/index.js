@@ -135,6 +135,9 @@ if (document.querySelector('.product-product')) {
 }
 
 
+if (document.querySelector('.common-home')) {
+  document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее'
+}
 
 
 

@@ -610,6 +610,8 @@ a {
   background: transparent !important;
   border: 1px solid black;
   color: black;
+  padding-left: 50px;
+  padding-right: 50px;
   font-weight: 400;
   border-radius: 0;
   font-size: 10px;
