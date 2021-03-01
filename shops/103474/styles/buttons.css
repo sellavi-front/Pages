@@ -117,7 +117,7 @@ body.theme_11
 }
 
 body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
-  bottom: 0;
+  top: 15px;
   left: auto !important;
   right: 10px !important;
 }
