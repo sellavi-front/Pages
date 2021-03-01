@@ -18,8 +18,9 @@ import addClassNameListener from "./utils/addEventListener.js"
 })*/
 
 // Catalog remove
-document.querySelector(".sf-menu>li:nth-child(2)").remove()
-
+if (document.querySelector('.sf-menu')) {
+  document.querySelector(".sf-menu>li:nth-child(2)").remove()
+}
 
 
 addClassNameListener("body", () => {
