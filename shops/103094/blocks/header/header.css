@@ -651,3 +651,9 @@ a {
     padding: 0px;
     margin-top: 10px;
 }
+
+header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  border-bottom: 0px !important
+}
