@@ -54,7 +54,7 @@ if (document.querySelector('.wrapper')) {
 
   changesText.forEach(el => {
     console.log(el.textContent);
-    if (el && el.textContent.trim().toLowerCase === 'блог') {
+    if (el && el.textContent.trim().toLowerCase() === 'блог') {
       el.textContent = 'Новости'
     }
   })
