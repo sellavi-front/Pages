@@ -254,7 +254,7 @@ body.theme_11
   .price_actions
   .add_to_cart
   > button {
-  width: 100%;
+  width: 90%;
   padding: 14px 5px;
   -webkit-transition: unset;
   -o-transition: unset;
