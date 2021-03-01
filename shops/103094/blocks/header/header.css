@@ -494,3 +494,27 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
   right: 0;
   left: auto;
 }
+
+
+
+
+
+/* Change logo position */
+
+@media (min-device-width: 1024px) {
+  .header-wrapper #search {
+      margin: 0px;
+  }
+
+  header > div.header-wrapper > div > div.logo {
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important
+  }
+
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+      margin: auto;
+      position: relative;
+      left: 180px;
+  }
+}
