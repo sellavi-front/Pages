@@ -1,6 +1,6 @@
 export default class FooterCopy {
   constructor() {
-    this.container = document.querySelector('.footer_content_text');
+    this.container = document.querySelector('.footer .row.copyright_row');
   }
   setTemplae() {
     return `
@@ -11,20 +11,21 @@ export default class FooterCopy {
       <img src="https://cdn.sellavi.com/image/upload/v1598535170/ru/clients/101099/33de6d709eff8493e926d0a6d842bb6bcaacfe22.png">
       <img src="https://cdn.sellavi.com/image/upload/v1598535311/ru/clients/101099/f439ceb06e20a4025ea77b4ef1c5e3973514dc25.png">
     </div>
-
-    <div class="">
-      <div class="copyright">
-        <a href="http://ru.sellavi.com/" rel="nofollow" target="_blank" id="sellavi_logo" role="link">
-          <img data-src="https://ru.sellavi.com/assets/images/logo.svg" alt="" class="img-fluid" src="https://ru.sellavi.com/assets/images/logo.svg">
-        </a>
-      </div>
-    </div>`;
+    `;
   }
 
   render() {
     this.container.insertAdjacentHTML('afterbegin', this.setTemplae());
   }
 }
+
+/*<div class="">
+      <div class="copyright">
+        <a href="http://ru.sellavi.com/" rel="nofollow" target="_blank" id="sellavi_logo" role="link">
+          <img data-src="https://ru.sellavi.com/assets/images/logo.svg" alt="" class="img-fluid" src="https://ru.sellavi.com/assets/images/logo.svg">
+        </a>
+      </div>
+    </div> */
 
 if (!location.href.includes('checkout')) {
   const footer = new FooterCopy();
