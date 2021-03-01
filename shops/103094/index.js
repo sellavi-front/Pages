@@ -92,3 +92,6 @@ if (location.href.includes('/policy')) {
   req.setTemplate();
 }
 
+if (document.querySelector('.product-product')) {
+  document.querySelector('.btn.btn-theme.btn-cart.btn-icon-left.d-none').classList = 'btn btn-theme btn-cart btn-icon-left';
+}
