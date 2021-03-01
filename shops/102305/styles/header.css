@@ -47,9 +47,16 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search
 
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   height: fit-content !important;
+
 }
 
+
 body .header_content_wrapper:not(.d-none) .header_content_container a {
+  color: lightgray !important;
+}
+
+
+body .header_content_wrapper:not(.d-none) .header_content_container a:hover {
   color: white !important;
 }
 
