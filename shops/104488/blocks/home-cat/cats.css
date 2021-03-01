@@ -231,3 +231,8 @@ header > div.header-wrapper > div.container > div.logo {
     display: none;
 }
 }
+
+
+.information-information-9026 #content > div > div:nth-child(2) {
+    display: none !important;
+}
