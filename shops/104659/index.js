@@ -53,6 +53,7 @@ if (document.querySelector('.wrapper')) {
   const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("#undefined-sticky-wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a") ]
 
   changesText.forEach(el => {
+    console.log(el.textContent.trim().toLowerCase);
     if (el && el.textContent.trim().toLowerCase === 'блог') {
       el.textContent = 'Новости'
     }
