@@ -11,7 +11,6 @@
 }
 
 body.ltr .footer .copyright_row {
-  flex-direction: row !important;
   align-items: center;
 }
 .footer_content_container img {
