@@ -140,7 +140,7 @@ body a > p {
   color: black;
 }
 
-.add_to_wishlist button,
+/* .add_to_wishlist button, */
 body.theme-red-2 .social-icons li a:hover,
 body.account-register > form > fieldset:nth-child(6) > div > div.col-sm-12 > div > div > input {
   background: var(--color-theme) !important;
@@ -302,10 +302,10 @@ body.theme-red-2.theme_11
   opacity: 0.8 !important;
   background: var(--color-theme) !important;
 }
-
+/*
 body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
   color: white !important;
-}
+} */
 
 body.ltr.theme_11
   .wrapper
