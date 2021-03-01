@@ -746,3 +746,8 @@ body.ltr .wrapper .header .header-wrapper .logo {
 #column-right > .account-details  > ul > li:nth-child(7) {
   display: none !important;
 }
+
+#home > div > div.content-area > section > div > div > div > div.details-wrap > div:nth-child(5),
+#home > div > div.content-area > section > div > div > div > div.details-wrap > div:nth-child(5) + .details-box {
+  display: none !important;
+}
