@@ -742,3 +742,7 @@ body.ltr .wrapper .header .header-wrapper .logo {
   margin: 0 15% 0 auto;
   z-index: 9999 !important;
 }
+
+#column-right > .account-details  > ul > li:nth-child(7) {
+
+}
