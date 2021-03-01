@@ -580,8 +580,9 @@ a {
 }
 
 .cat-a:hover {
-  font-weight: 800;
-  transition: 0.4s;
+  background: #ab838354;
+    color: #fff;
+    transition: 0.4s;
 }
 
 .cat_item {
