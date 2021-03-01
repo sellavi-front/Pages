@@ -50,7 +50,7 @@ if (location.href.includes('pay-delivery')) {
 }
 
 if (document.querySelector('.wrapper')) {
-  const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a") ]
+  const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a"), document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1") ]
 
   changesText.forEach(el => {
     console.log(el.textContent);
