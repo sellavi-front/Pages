@@ -550,9 +550,9 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
 
-img {
+/* img {
   width: 300px;
-}
+} */
 
 .cat-name {
   text-align: center;
