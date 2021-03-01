@@ -49,6 +49,10 @@ body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
   height: fit-content !important;
 }
 
+body .header_content_wrapper:not(.d-none) .header_content_container a {
+  color: white !important;
+}
+
 body.theme_11.checkout-checkout .logo>a img {
   max-height: 100%;
   max-width: 250px;
