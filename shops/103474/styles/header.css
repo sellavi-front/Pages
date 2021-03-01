@@ -26,9 +26,7 @@
     direction: ltr !important;
   }
 
-  body .header_content a {
-    color: white !important;
-  }
+
 
   .header .header-wrapper .mobile-navigation-wrapper a {
     font-size: 15px !important;
@@ -39,6 +37,10 @@ body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
 }
 
+}
+
+body .header_content a {
+  color: white !important;
 }
 
 body .arrow {
