@@ -233,9 +233,7 @@ body.theme-gray.theme_11
   border-radius: 5px !important;
 }
 
-body .content-area .page-section.breadcrumb {
-  display: block !important;
-}
+
 
 #content > div > div:nth-child(2) > ul > li:nth-child(1),
 #content > div > div:nth-child(2) > ul > li:nth-child(6),
@@ -730,6 +728,10 @@ body.theme_11 .wrapper .latest-section h2.section-title {
   .advantages {
     margin-top: 15px !important;
   }
+}
+
+body .content-area .page-section.breadcrumb {
+  display: block !important;
 }
 
 .advantages {
