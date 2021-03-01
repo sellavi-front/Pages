@@ -61,5 +61,6 @@ if (document.querySelector('.wrapper')) {
 }
 
 if (document.querySelector('.module-blog')) {
+  document.querySelector('title').textContent.replace(/Блог/gi, 'Новости')
   document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1").textContent = 'Новости'
 }
