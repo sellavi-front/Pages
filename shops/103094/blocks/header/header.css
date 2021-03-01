@@ -624,3 +624,8 @@ a {
 #banner0 > div > div > div > div > div > div > div > div > div > p > a:first-letter {
   text-transform: uppercase;;
 }
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:hover {
+  color: #fff;
+  background: #ab838354 !important;
+}
