@@ -1,0 +1,10 @@
+body.theme_11 .wrapper .header .header-wrapper .header-search {
+    border: 1px solid black;
+    border-radius: 30px;
+    max-width: 100% !important;
+    width: 30%;
+}
+
+header > div.header-wrapper > div.container > div.header_widgets > div.header_login {
+    display: none !important;
+}
