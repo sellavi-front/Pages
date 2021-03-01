@@ -53,14 +53,14 @@ document.addEventListener('DOMContentLoaded', () => {
   if (document.querySelector('.wrapper')) {
     const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a"), document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1") ]
 
-    changesText.forEach(el => {
-
-      if (el && el.textContent.trim().toLowerCase() === 'блог') {
-        el.textContent = 'Новости'
+    for (let i; i <= changesText.length; i++) {
+      if (changesText[i] && changesText[i].textContent.trim().toLowerCase() === 'блог') {
+        changesText[i].textContent = 'Новости'
       } else {
-        return
+        i++
       }
-    })
+    }
+
   }
 })
 
