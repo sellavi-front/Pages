@@ -254,11 +254,17 @@ body.theme_11
   .price_actions
   .add_to_cart
   > button {
-  width: 90%;
+  width: 100%;
   padding: 14px 5px;
   -webkit-transition: unset;
   -o-transition: unset;
   transition: unset;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .add_to_wishlist i {

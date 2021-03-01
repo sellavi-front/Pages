@@ -82,9 +82,9 @@ body .section-title {
   object-fit: contain;
 }
 @media (min-width: 991px) {
-  body.ltr .thumbnail .price_actions .add_to_cart {
+  /* body.ltr .thumbnail .price_actions .add_to_cart {
     padding: 0 10px 0 0 !important;
-  }
+  } */
 
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     position: static !important;
