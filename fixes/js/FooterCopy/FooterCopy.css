@@ -41,11 +41,11 @@ body.ltr .footer .copyright_row {
 .footer_content_text > p {
   display: none !important;
 } */
-
+/*
 #sellavi_logo {
   width: 70px !important;
-}
-
+} */
+/*
 #home
   > div.wrapper.wrapper-closed
   > footer
@@ -57,7 +57,7 @@ body.ltr .footer .copyright_row {
   > ul
   > li:nth-child(7) {
   display: none !important;
-}
+} */
 
 @media (max-width: 450px) {
   #sellavi_logo {
