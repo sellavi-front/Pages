@@ -640,3 +640,11 @@ a {
       width: 100px;
   }
 }
+
+@media (min-device-width: 1024px) {
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+      margin: auto;
+      position: relative;
+      left: 0px;
+  }
+  }
