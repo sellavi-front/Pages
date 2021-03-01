@@ -51,16 +51,14 @@ if (location.href.includes('pay-delivery')) {
 
 document.addEventListener('DOMContentLoaded', () => {
   if (document.querySelector('.wrapper')) {
-    const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a")]
-    for (let i; i <= changesText.length; i++) {
-      if (changesText[i] && changesText[i].textContent.trim().toLowerCase() === 'блог') {
-        changesText[i].textContent = 'Новости'
-      }
-    }
-  }
+    const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a"), document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1") ]
 
-  if (document.querySelector('.module-blog')) {
-    document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1").textContent = 'Новости'
+    changesText.forEach(el => {
+
+      if (el && el.textContent.trim().toLowerCase() === 'блог') {
+        el.textContent = 'Новости'
+      }
+    })
   }
 })
 
