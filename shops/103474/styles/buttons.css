@@ -371,7 +371,7 @@ body.theme-green-2.theme_11
 
 .thumbnail .add_to_wishlist button,
 .thumbnail .remove_from_wishlist button {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   height: 42px !important;
   width: 45px !important;
   color: #2d2d2d;
