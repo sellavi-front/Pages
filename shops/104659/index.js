@@ -60,3 +60,6 @@ if (document.querySelector('.wrapper')) {
   })
 }
 
+if (document.querySelector('.module-blog')) {
+  document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1").textContent = 'Новости'
+}
