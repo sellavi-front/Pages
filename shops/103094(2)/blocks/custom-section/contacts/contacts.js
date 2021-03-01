@@ -17,7 +17,7 @@ let renderContactsInCustomSection = () => {
                       <span>Адрес</span>
                 </div>
                 <div class="real-address">
-                  <span><a href="https://yandex.ru/maps/10761/chehov/house/sadovaya_ulitsa_3/Z04YcgBmSkAAQFtvfX11c3lgYQ==/?ll=37.476357%2C55.142535&z=17.56" target="_blank" style="font-weight: 700">Московская область г. Чехов ул. Судовая 3</a></span>
+                  <span>Московская область г. Чехов ул. Судовая 3</span>
                 </div>
               </div>
             </div>
@@ -31,7 +31,7 @@ let renderContactsInCustomSection = () => {
                     <span>Номер телефона</span>
                 </div>
                 <div class="real-number">
-                  <span><a href="tel:+79064246888">+7(906)424-68-88</a></span>
+                  <span>8 906 424 68 88</span>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ let renderContactsInCustomSection = () => {
                       <span>Почтовый адрес</span>
                 </div>
                 <div class="real-email">
-                  <span><a href="mailto:multimanic@mail.ru">multimanic@mail.ru</a></span>
+                  <span>multimanic@mail.ru</span>
                 </div>
               </div>
             </div>

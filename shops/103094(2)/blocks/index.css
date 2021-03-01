@@ -33,47 +33,14 @@ body strong,
 label,
 .input-payment-firstname,
 .button,
-.btn,
-label,
-label.placeholder,
-.placeholder{
+.btn{
   font-family: myriad-pro, sans-serif !important;
-  font-weight: 700;
+  font-weight: 500;
 }
-
-body label.placeholder {
-  font-weight: 700 !important;
-}
-
-.panel-options .panel-title .collapsed {
-  font-weight: 700 !important;
-}
-
-body.checkout-checkout .radio.customized input[type=radio]:checked~label {
-  font-weight: 700;
-  color: #000 !important;
-}
-
-body.checkout-checkout label:not(.placeholder) {
-  font-size: 14px;
-  margin: 0;
-  font-weight: 700 !important;
-}
-
-#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.checkbox.customized.clearfix > label > a {
-  text-decoration: underline !important;
-}
-
-.contact-info .media-body {
-  line-height: 22px;
-  font-weight: 700;
-}
-
 
 /* Header */
 .header_widgets {
-  z-index: 9999 !important;
-  position: relative !important;
+  z-index: 999 !important;
 }
 
 body.theme-gray.theme_11 .btn.btn-theme:not(.btn-wish-list) {
@@ -121,10 +88,6 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 
 .widget-title {
   text-transform: capitalize !important;
-}
-
-body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
-  font-weight: 700 !important;
 }
 
 /* End */
@@ -281,5 +244,12 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
 
 }
 
+
+/* end */
+
+/* sf menu */
+body.sidenav-enabled.ltr .mobile_side_nav ul a {
+  direction: rtl !important;
+}
 
 /* end */
