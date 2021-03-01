@@ -648,3 +648,9 @@ a {
       left: 0px;
   }
   }
+
+
+  body.theme_11.checkout-checkout .logo>a img {
+    padding: 0;
+    margin-top: 10px;
+}
