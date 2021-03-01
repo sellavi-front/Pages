@@ -744,5 +744,5 @@ body.ltr .wrapper .header .header-wrapper .logo {
 }
 
 #column-right > .account-details  > ul > li:nth-child(7) {
-
+  display: none !important;
 }
