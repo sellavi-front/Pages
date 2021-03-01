@@ -4,7 +4,7 @@ export default class FooterCopy {
   }
   setTemplae() {
     return `
-    <div class="footer_content_container">
+    <div class="footer_content_container col-sm-6">
       <img src="https://cdn.sellavi.com/image/upload/v1596529397/ru/clients/100811/d41bae9c4d0f9d8bf39ff7fb1e287bbab44baffb.png">
       <img src="https://cdn.sellavi.com/image/upload/v1598535073/ru/clients/101099/ebd33cc3432dd0babcceb05c8a9a987378a8ee12.png">
       <img src="https://cdn.sellavi.com/image/upload/v1598535458/ru/clients/101099/da7e01c5a1ed2198f2a4ddd0bc132e32a037454b.png">
