@@ -664,3 +664,9 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
       width: 400px;
   }   
 }
+
+@media (max-device-width: 480px) {
+  #home > div > div.content-area > div > div.container.cat_block > div > div {
+      margin-right: 0px;
+  }
+}
