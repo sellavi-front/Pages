@@ -25,7 +25,7 @@ if (location.href.includes('contact')) {
 }
 
 if (document.querySelector('.checkout-checkout')) {
-    document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.checkout_title > h2').innerHTML = 'Шаг 1: Данные плательщика'
+  document.querySelector('#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.checkout_title > h2').innerHTML = 'Шаг 1: Данные плательщика'
 }
 
 if (location.href.includes('policy')) {
@@ -49,16 +49,14 @@ if (location.href.includes('pay-delivery')) {
   req.setTemplate();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  if (document.querySelector('.wrapper')) {
-    const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a")]
+if (document.querySelector('.wrapper')) {
+  const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a")]
 
-    changesText.forEach(el => {
+  changesText.forEach(el => {
 
-      if (el && el.textContent.trim().toLowerCase() === 'блог') {
-        el.textContent = 'Новости'
-      }
-    })
-  }
-})
+    if (el && el.textContent.trim().toLowerCase() === 'блог') {
+      el.textContent = 'Новости'
+    }
+  })
+}
 
