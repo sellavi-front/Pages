@@ -54,13 +54,13 @@ footer .soc-icons {
         flex-direction: column
     }
 
-    .footer-widgets .container .row div:nth-child(3) {
+    /* .footer-widgets .container .row div:nth-child(3) {
         display: none;
     }
 
     .footer-widgets > div.container > div > div:nth-child(2) {
         display: none;
-    }
+    } */
 
     .footer-meta .container {
         padding-top: 40px;
@@ -103,4 +103,12 @@ div#search .add_to_cart .btn.btn-theme.btn-theme-transparent.btn-icon {
     font-size: 18px;
     color: #A1A1A1 !important;
     font-weight: 400
+}
+
+.footer .footer-widgets .widget .widget-title {
+    font-size: 18px !important;
+}
+
+.wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 16px !important;
 }

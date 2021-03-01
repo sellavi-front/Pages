@@ -1,5 +1,4 @@
 import ButtonContainerInProductCard from "../ButtonContainerInProductCard/ButtonContainerInProductCard.js"
-import icons from "../../../shops/102305/utils/icons.js";
 
 window.onload = () => {
   if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {

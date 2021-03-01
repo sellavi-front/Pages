@@ -9,3 +9,30 @@
 @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
 
 @import '../blocks/header/header.css';
+
+@import './platform-cat/container.css';
+@import './header/search.css';
+@import './product/product.css';
+@import '../../../components/ContactsWithMap/ContactsWithMap.css';
+@import './footer/footer.css';
+@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
+@import './mobile/mobile.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif !important;
+
+}

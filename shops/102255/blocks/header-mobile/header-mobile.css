@@ -3,7 +3,7 @@ body.sidenav-enabled.ltr .wrapper-opened {
 }
 
 body#home .mobile_side_nav .sidenav_search {
-  display: none !important;
+  display: block !important;
 }
 
 body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
@@ -17,9 +17,9 @@ body.sidenav-enabled .mobile_side_nav {
   width: 50% !important;
 }
 
-body.sidenav-enabled .mobile_side_nav>ul {
+/* body.sidenav-enabled .mobile_side_nav>ul {
   height: 800px !important;
-}
+} */
 
 body.sidenav-enabled .mobile_side_nav>ul {
 
@@ -45,7 +45,7 @@ body.sidenav-enabled.ltr .wrapper-opened {
 }
 
 body.sidenav-enabled.ltr .mobile_side_nav .mobile_side_nav_menu {
-  top: 85px;
+  /* top: 85px; */
   position: relative;
   background: white !important;
 }
@@ -106,10 +106,10 @@ body.sidenav-enabled.ltr .flexy > .arrow {
 }
 
 @media (max-width: 768px) {
-  body.sidenav-enabled .prevent_touch_banner,
+  /* body.sidenav-enabled .prevent_touch_banner,
   .mobile_side_nav > .mobile_side_nav_menu {
     height: 70vh !important;
-  }
+  } */
 
   body.sidenav-enabled .prevent_touch_banner {
     width: 80vw !important;
@@ -119,9 +119,9 @@ body.sidenav-enabled.ltr .flexy > .arrow {
     width: 80% !important;
   }
 
-  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+  /* body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
     top: 80px !important;
-  }
+  } */
 
   body.sidenav-enabled.ltr nav.navigation.nav-opened.mobile_side_nav {
     background: white !important;
@@ -158,10 +158,27 @@ body.sidenav-enabled.ltr .flexy > .arrow {
     }
 
     .dropdown.cart_drop_down {
-        display: none !important;
+        display: block !important;
     }
 
     .logo {
         left: 0 !important;
     }
+
+    .contact-with-map {
+      margin-bottom: 0px !important;
+  }
+  
+  .footer .footer-widgets .widget .widget-title {
+      margin-bottom: 10px !important
+  }
+
+  body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_menu {
+    height: 80vh !important;
+  }
 }
+
+body.sidenav-enabled .prevent_touch_banner, .mobile_side_nav > .mobile_side_nav_menu {
+  height: 100% !important;
+}
+

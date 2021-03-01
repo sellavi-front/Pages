@@ -81,3 +81,57 @@ body.ltr .widget-categories ul li a {
     position: relative;
     z-index: 999;
 }
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category {
+    display: block !important;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div {
+    max-width: 244px;
+}
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 {
+    position: relative !important;
+    top: 130px !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.caption.text-center > h4 {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.price_actions.d-flex.justify-content-between > div.price {
+    text-align: center !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div > div.row.products.grid > div > div > div.caption.text-center > h4 > a {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    border-radius: 8px !important;
+}
+
+body .btn.btn-theme.btn-theme-transparent {
+    border-radius: 8px !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #878787 !important;
+}
+
+.wrapper.wrapper-closed > div.content-area > section.page-section.homefeatured_category > div > div {
+    display: flex;
+    justify-content: space-around
+}

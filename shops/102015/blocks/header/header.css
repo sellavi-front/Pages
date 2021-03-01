@@ -1,3 +1,114 @@
 .header-wrapper > .container {
     max-width: 1400px !important; 
 }
+
+.sf-menu li:hover>a {
+    color: black !important;
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(1) {
+    display: none;
+}
+
+.sf-menu>li>ul {
+    width: inherit !important;
+    z-index: 999 !important;
+}
+
+header > div.header-wrapper > div.container > ul > a {
+    font-size: 18px !important;
+    display: flex;
+    align-items: center;
+}
+
+#home > div > header > div.header-wrapper > div.container > ul > a:nth-child(4) {
+    margin-left: 15px;
+    font-size: 18px !important;
+}
+
+.sf-menu.nav>li>a, a {
+    font-weight: 500 !important
+}
+
+
+header > div.header-wrapper > div.container > ul > li:nth-child(5) {
+    display: none;
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(6) {
+    display: none
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(7) {
+    display: none;
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(8) {
+    display: none;
+}
+
+.wrapper .page-section .products.grid {
+    justify-content: center !important
+}
+
+@media (min-device-width: 480px) {
+    .footer-widgets > div {
+        justify-content: center;
+    }
+
+    footer > div.footer-widgets > div.container > div {
+        flex-wrap: nowrap;
+    }
+}
+
+.sf-menu li.megamenu>ul li.megaline {
+    flex-direction: column
+}
+
+.block-title span:after {
+    display: none;
+}
+
+.sf-menu ul {
+    right: 70% !important;
+}
+
+.sf-menu li.megamenu>ul li ul {
+    position: inherit;
+}
+
+header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamenu > ul > li > div:nth-child(5) > ul {
+    margin-top: 0;
+}
+
+header > div.header-wrapper > div.container > ul > li.flexy.has_children.megamenu > ul > li > div:nth-child(5) > ul > li > a {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 8px
+}
+
+.sf-menu li.megamenu ul {
+    margin-top: 30px;
+}
+
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(4) {
+    display: none;
+}
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(5) {
+    display: none;
+}
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(6) {
+    display: none;
+}
+
+.navigation.mobile_side_nav.opened.nav-opened > ul > li:nth-child(7) {
+    display: none;
+}
+
+#collapse-6957 > ul > li.flexy > a {
+    color: black !important;
+    text-transform: none
+}

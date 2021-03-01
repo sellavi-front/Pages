@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.thumbnail-banner .media-link .img-bg {
+    height: 589px !important;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div > a > div {
+    display: none;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div {
+    width: 375px !important;
+}
+
+
+#home > div > div.content-area > section.page-section.homefeatured_category > div > div.container {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+#home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 {
+    text-align: center !important;
+    margin-top: 90px !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 {
+    text-align: center !important;
+    margin-top: 90px !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    border-radius: 6px !important;
+}
+
+.thumbnail .add_to_wishlist button {
+    border-radius: 6px !important;
+}
+
+body.theme-gray.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+    background: #cacaca6e !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.time-img > img {
+    width: 60px ;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.time-img {
+    margin-right: 40px
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time {
+    display: flex;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.phone-img > img {
+    width: 60px ;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.phone-img {
+    margin-right: 40px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones {
+    display: flex;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.email-img > img {
+    width: 60px ;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.email-img {
+    margin-right: 40px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email {
+    display: flex;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 2px solid #8CB1DD;
+    border-bottom: 2px solid #8CB1DD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.title-and-time > div.time-title > span {
+    font-weight: 400;   
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.time > div.title-and-time > div.time-title {
+    margin-bottom: 20px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.title-and-phone > div.phone-title > span {
+    font-weight: 400;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.phones > div.title-and-phone > div.phone-title {
+    margin-bottom: 20px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.title-and-email > div.email-title > span {
+    font-weight: 400;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div.email > div.title-and-email > div.email-title {
+    margin-bottom: 20px;
+}
+
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.time > div.title-and-time > div.time-title > span {
+    font-weight: 500 !important
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.time > div.title-and-time > div.real-time > span {
+    font-weight: 600
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.phones > div.title-and-phone > div.phone-title > span {
+    font-weight: 500 !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.phones > div.title-and-phone > div.real-phone > span {
+    font-weight: 600 !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.email > div.title-and-email > div.email-title > span {
+    font-weight: 500 !important;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.email > div.title-and-email > div.real-email > span {
+    font-weight: 600 !important;
+}
+
+#home > div > div.content-area > section.page-section.latest-section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container > div.add_to_cart > button > span {
+    text-transform: none !important;
+    font-weight: 500;
+}
+
+footer > div.footer-widgets > div.container > div {
+    justify-content: left;
+}
+
+footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: #bbbbbb !important;
+}
+
+footer > div.footer-widgets > div.container > div > div > div > h4 {
+    margin-bottom: 40px !important;
+}
+
+
+#home > div > div.content-area > div.contactsSection > div > div > div {
+    flex-direction: column
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.time {
+    margin-bottom: 40px;
+}
+
+#home > div > div.content-area > div.contactsSection > div > div > div > div.phones {
+    margin-bottom: 40px;
+}
+
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+    display: block;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    display: flex;
+    justify-content: center;
+}
+
+header > div.header-wrapper > div.container > div.logo {
+    visibility: hidden
+}
+
+@media (max-device-width: 480px) {
+    section.page-section.homefeatured_category > div > div > div > div > div {
+        width: 100% !important;
+    }
+}
+
+@media (max-device-width: 480px) {
+    body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+        left: 0px !important;
+    }
+}
+
+@media (max-device-width: 480px) {
+    body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+        left: 0px;
+    }
+}
+
+@media (max-device-width: 480px) {
+    header > div.header-wrapper > div.container > ul {
+    display: none;
+}
+}

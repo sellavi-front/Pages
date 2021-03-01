@@ -1,0 +1,115 @@
+#home > div > footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-size: 18px !important;
+}
+
+.wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-size: 14px !important
+}
+
+.soc-icons {
+    width: inherit;
+}
+
+#home > div > div > div.custom_section.container > div > ul > li > p.contact__list-text > a {
+    color: red !important;
+}
+
+footer .soc-icons {
+    max-width: 169px !important;
+}
+
+footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > ul > li:nth-child(1) > a {
+    width: 130px;
+}
+
+.product-product .product-single.product-item .buttons #button-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.product-product .product-single.product-item .buttons #button-cart > i {
+    color: #fff !important
+}
+
+.product-product .product-single.product-item .buttons .btn-wish-list:hover i {
+    color: #fff !important
+}
+
+
+
+footer > div.footer-widgets > div.container > div > div.soc-icons {
+    margin-left: 8px;
+}
+
+footer > div.footer-widgets > div.container > div > div.soc-icons > div > div {
+    margin-left: 10px;
+}
+
+
+@media (max-device-width: 480px) {
+    footer > div.footer-widgets > div.container > div {
+        display: flex;
+        flex-direction: column
+    }
+
+    .header .header-wrapper .header_widgets .header-cart .desktop-added-to-cart {
+        position: relative !important;
+    }
+
+
+    footer > div.footer-meta > div > div.row.footer_content_wrapper > div {
+        padding: 0px;
+        position: relative;
+    
+    }
+    
+    footer > div.footer-meta > div {
+        padding-left: 10px;
+    }
+    
+    footer {
+        padding: 0px !important;
+    }
+    
+    footer > div.footer-widgets > div.container {
+        padding: 0px;
+    }
+    
+    footer > div.footer-widgets > div.container > div > div:nth-child(1) {
+        border-top: 1px solid #bdbdbd;
+        margin: 0px;
+        margin-bottom: 10px !important;
+        padding-left: 30px;
+        padding-top: 20px
+    }
+    
+    footer > div.footer-widgets > div.container > div > div:nth-child(2) {
+        border-top: 1px solid #bdbdbd;
+        margin: 0px;
+        margin-bottom: 10px !important;
+        padding-left: 30px;
+        padding-top: 20px
+    }
+    
+    footer > div.footer-widgets > div.container > div > div:nth-child(3) {
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+        margin: 0px;
+        margin-bottom: 20px !important;
+        padding-left: 30px;
+        padding-top: 20px
+    }
+    
+    footer > div.footer-widgets > div.container > div > div.soc-icons {
+        padding: 0px;
+        padding-left: 20px;
+    }
+    
+    footer > div.footer-widgets > div.container > div > div.soc-icons > div > h4 {
+        text-align: left;
+    }
+    
+    footer > div.footer-widgets > div.container > div {
+        margin-right: 0px;
+    }
+}

@@ -6,3 +6,93 @@ header > div.header-wrapper > div.container {
     border: 0px !important;
 }
 
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart, body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #wishlist {
+    color: black;
+}
+
+.header-search {
+    padding-right: 50px !important;
+}
+
+.header .header-search {
+    max-width: 288px !important;
+}
+
+#home > div > div.content-area > section > div > div > div.col-lg-6.register_wrapper > form > div > div.col-md-6.button_holder > a {
+    border: 2px solid black !important;
+}
+
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption {
+    position: relative;
+    top: -50px;
+}
+
+.thumbnail.thumbnail-banner .caption-inner {
+    border: 0px;
+}
+
+.sf-menu ul li {
+    padding: 0px !important;   
+}
+
+.sf-menu .flexy.has_children ul li > a {
+    height: 50px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* 404 errore */
+body .content-area .page-section.error-page h3 {
+    font-size: 20px;
+}
+
+@media (max-device-width: 480px) {
+    body .thumbnail .img-fluid, body .img-thumbnail {
+        height: 150px !important;
+    }
+
+    body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title span {
+        padding-bottom: 10px ;
+    }
+
+    body.theme_11 div.mobile-bottom-nav>ul>li.mobile-bottom-tab.cart .mobile-bottom-link i .cart-qty-circle {
+        z-index: 999 !important;
+    }
+
+    body.bottom-nav-enabled nav.mobile_bottom_nav.nav-opened {
+        z-index: 1000;
+    }
+
+    nav.mobile_bottom_nav.nav-opened > ul > li.home_link {
+        font-size: 18px;
+        padding-left: 50px;
+        line-height: 64px; 
+        border-bottom: 1px solid #dfe3e8;
+    }
+
+    .mobile_two_columns .products .thumbnail .caption {
+        max-height: max-content;
+    }
+
+    .wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header-search button {
+    line-height: 50px;
+    top: 0;
+    padding: 0;
+    left: 29px;
+    max-width: 25px;
+    width: 100%;
+}
+
+.ico-cart, .ico-heart {
+    width: 21px;
+  }
+  
+  .header_wishlist > a {
+    font-size: 21px;
+  }

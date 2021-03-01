@@ -1,0 +1,57 @@
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col {
+    margin-left: 40px;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col > div.row.desc-title {
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col > div.row.desc-main {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;   
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col > div.row.four-system {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col > div.row.systems-one {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col > div.row.systems-two {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(1) > div > div.col > div.row.desc-footer {
+    font-size: 18px;
+    font-weight: 400;
+    color: #949494;
+    margin-top: 20px;
+}
+
+/* After desc block */
+
+.common-home > div.wrapper.wrapper-closed > div > section > div:nth-child(2) > h2 {
+    margin-top: 60px !important;;
+}
+
+body .section-title span:before {
+    width: 100px;
+}
+
+body .section-title span:after {
+    width: 100px;
+}

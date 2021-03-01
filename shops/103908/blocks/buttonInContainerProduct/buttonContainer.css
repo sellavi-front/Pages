@@ -1,0 +1,36 @@
+.price_actions.d-flex.justify-content-between {
+    flex-direction: column !important;
+}
+
+.wrapper.wrapper-closed > div > section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.buttons__container {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    height: 50px !important;
+}
+
+body.ltr .thumbnail .caption-title {
+    text-align: center !important;
+}
+
+.wrapper.wrapper-closed > div > section > div > div > div > div > div.caption.text-center > h4 > a {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.wrapper.wrapper-closed > div > section > div > div > div > div > div.price_actions.d-flex.justify-content-between > div.price {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+    margin-bottom: 0px !important;
+}
+
+.thumbnail .price_actions .add_to_cart {
+    margin-right: 24px !important;
+}
+
+.common-home .wrapper.wrapper-closed > div > section > div:nth-child(2) > h2 {
+    text-align: center !important;
+} 

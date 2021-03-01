@@ -1,6 +1,4 @@
-.product-product .navigation-wrapper {
-    margin-bottom: 100px;
-}
+
 
 .product-availability {
     margin-top: 10px;
@@ -77,4 +75,33 @@ button#button-cart {
 
 body .content-area .page-section.titles {
     padding-top: 0px
+}
+
+.checkout-cart #content > div > div > div:nth-child(1) {
+    display: block !important;
+}
+
+.information-information #content > div > div > div:nth-child(1) {
+    display: none !important;
+}
+
+body.theme-gray .thumbnail .price_actions .add_to_cart button:hover, body.theme-gray .thumbnail .price ins {
+    color: white;
+    background: #909090 !important;
+    border-radius: 0px;
+}
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile:hover {
+    background: #909090;
+    border-radius: 0px;
+}
+
+button.btn.btn-theme.btn-theme-transparent.btn-wish-list.hide_on_mobile {
+    padding: 0px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.information-information-5005.information-information #content > div > div > div:nth-child(1) {
+    display: block !important;
 }

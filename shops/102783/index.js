@@ -26,7 +26,15 @@ document.querySelector("body").insertAdjacentHTML("afterbegin", `
 
 
 if (location.href.includes('term-of-use')) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  const req = new Requisites(requsites, 'beforeend', 'ИП "Корсаков Эдуард Владимирович"');
+=======
   const req = new Requisites(requsites, 'beforeend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ');
+>>>>>>> main/main
+=======
+  const req = new Requisites(requsites, 'beforeend', 'ИП "Корсаков Эдуард Владимирович"');
+>>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
 
   req.setTemplate();
 }
@@ -34,7 +42,15 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+  const req = new Requisites(requsites, 'afterend', 'ИП "Корсаков Эдуард Владимирович"', media);
+=======
   const req = new Requisites(requsites, 'afterend', 'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ', media);
+>>>>>>> main/main
+=======
+  const req = new Requisites(requsites, 'afterend', 'ИП "Корсаков Эдуард Владимирович"', media);
+>>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
   req.setTemplate();
 }
 
@@ -42,10 +58,23 @@ if (location.href.includes('contact')) {
 
 if (location.href.includes('policy')) {
   const req = new Requisites(
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
+    requsites,
+    'afterend',
+    'ИП "Корсаков Эдуард Владимирович"',
+    document.querySelector('#content > div > div'),
+<<<<<<< HEAD
+=======
       requsites,
       'afterend',
       'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ',
       document.querySelector('#content > div > div'),
+>>>>>>> main/main
+=======
+>>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
   );
   req.setTemplate();
 }
@@ -53,11 +82,25 @@ if (location.href.includes('policy')) {
 
 if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
+    requsites,
+    'afterend',
+    'ИП "Корсаков Эдуард Владимирович"',
+    document.querySelector('#content > div > div'),
+    dataContact,
+<<<<<<< HEAD
+=======
       requsites,
       'afterend',
       'ИП КОРСАКОВ ЭДУАРД ВЛАДИМИРОВИЧ',
       document.querySelector('#content > div > div'),
       dataContact,
+>>>>>>> main/main
+=======
+>>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
   );
   req.setTemplate();
 }

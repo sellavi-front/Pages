@@ -35,3 +35,7 @@ h2.section-title.mb-4.mt-4 {
     margin-top: 90px !important;
     display: flex;
 }
+
+#content > div > div > div:nth-child(1) {
+    display: none !important
+}

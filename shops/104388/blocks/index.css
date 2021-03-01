@@ -1,0 +1,35 @@
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+
+@import './pay-delivery/pay-delivery.css';
+
+
+
+.information-information-8773 #content > div > div:nth-child(2) {
+  display: none !important
+}
+
+.information-contact > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(1) {
+  display: none;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');

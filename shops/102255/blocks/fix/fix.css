@@ -33,5 +33,5 @@ div#search {
 }
 
 #cart > span.cart-qty-circle.desktop.d-none.d-lg-block {
-    display: none !important;
+    display: block !important;
 }

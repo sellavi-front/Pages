@@ -9,7 +9,7 @@
     text-shadow: none;
     color: black;
     display: block;
-    width: 599px;
+    width: 700px;
     text-transform: lowercase;
 }
 
@@ -23,4 +23,110 @@
     border: 2px solid black;
     padding: 20px 50px;
     margin-top: 20px;
+}
+
+#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > div {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+    margin-top: 20px;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > div {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: black;
+    text-shadow: none;
+    margin-top: 20px;
+}
+
+.sf-menu.nav>li>a {
+    border-bottom: 0px !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    border: 2px solid black !important;
+}
+
+.common-home .btn.btn-theme.btn-theme-transparent:hover {
+    background-color: #ababab;
+    border: 0px !important;
+    border-radius: 4px !important;
+}
+
+#banner0 > div > div > div > div > div > div {
+    max-width: 1561px;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    padding: 20px 80px;
+}
+
+.wrapper.wrapper-closed > header > div.header-wrapper > div.container > ul > li > a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* .header_widgets .header_wishlist .fa-heart:before, .header_widgets .header-cart.sticky .fa-shopping-cart:before {
+    display: none;
+} */
+
+.header_widgets .header_wishlist {
+    margin-right: 0px ;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search button {
+    right: 2px !important;
+}
+
+.header-wrapper #search.header-search {
+    padding-right: 0px !important;
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header-search button {
+    z-index: -1;
+}
+
+body.ltr .wrapper .header .header-wrapper .logo {
+    z-index: 2 !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:first-letter {
+    text-transform: uppercase;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:first-letter {
+    text-transform: uppercase;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > div {
+    text-transform: lowercase;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > h3 > div {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+#banner0 > div > div > div:nth-child(1) > div > div > div > div > div > div > h3 > div {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+#home > div.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span {
+    font-size: 16px !important;
+    font-weight: 600 !important;
 }

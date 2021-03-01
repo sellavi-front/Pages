@@ -1,0 +1,24 @@
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import './pay-delivery/pay-delivery.css';
+@import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
+@import '../blocks/header/header.css';
+@import '../blocks/home-cat/cats.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+    font-family: 'Montserrat', sans-serif;
+}
+

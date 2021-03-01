@@ -1,0 +1,58 @@
+.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4:first-letter {
+    text-transform: uppercase !important;
+}
+
+.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-weight: 700 !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    color: #A9A9A9 !important;
+    font-weight: 400;
+}
+
+.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > h4 {
+    font-weight: 700 !important;
+    color: black;
+    text-transform: lowercase;
+}
+
+.wrapper.wrapper-closed > footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > h4:first-letter {
+    font-weight: 700 !important;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+/* /////////////// */
+
+footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > h4:first-letter {
+    text-transform: uppercase !important;
+}
+
+footer > div.footer-widgets > div.container > div > div > div > h4 {
+    font-weight: 700 !important;
+}
+
+footer.footer .footer-widgets .widget-categories ul li a {
+    color: #A9A9A9 !important;
+    font-weight: 400;
+}
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > h4 {
+    font-weight: 700 !important;
+    color: black;
+    text-transform: lowercase;
+}
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > h4:first-letter {
+    font-weight: 700 !important;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > ul {
+    display: none;
+}

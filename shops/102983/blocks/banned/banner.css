@@ -1,0 +1,58 @@
+#banner0 > div > div > div > div > div > div > div > div {
+    float: left !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > h3 > span {
+    text-align: left;
+    display: flex;
+    font-size: 30px;
+    line-height: 50px;
+    text-shadow: none;
+    color: #2b2b2b;
+   
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p {
+    display: flex !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    background: transparent;
+    color: black;
+    border: 1px solid black !important;
+    padding: 20px 80px 20px 80px;
+    border-radius: 0px;
+}
+
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.form-control {
+    padding-right: 0px !important;
+}
+
+#search_results .btn.btn-theme.btn-theme-transparent.btn-icon {
+    max-width: 100% !important;
+    color: white !important;
+}
+
+#search_results .btn.btn-theme.btn-theme-transparent.btn-icon:hover i {
+    color: white !important;
+}
+
+
+.product-category > div > div > section.page-section.subcategories_top > div > div > div {
+    width: 300px !important;
+  }
+  
+  .product-category > div > div > section.page-section.subcategories_top > div > div > div > div > div > a > div.caption {
+    height: 80px !important
+  }
+  
+  .product-category > div > div > section.page-section.subcategories_top > div > div > div > div > div > a {
+    align-items: center !important
+  } 
+  
+  

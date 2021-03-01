@@ -1,0 +1,25 @@
+.footer-widgets .row {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title {
+    font-weight: 700;
+    margin-bottom: 30px !important;
+}
+
+body.ltr.ru .wrapper footer.footer .footer-widgets .widget .widget-title::first-letter {
+    text-transform: uppercase;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    font-weight: 600;
+    color: #a5a5a5 !important;
+}
+
+footer > div.footer-widgets > div.container > hr {
+    height: 8px;
+    background: rgb(58,127,193);
+    background: linear-gradient(90deg, rgba(58,127,193,1) 0%, rgba(249,199,4,1) 100%);
+}
