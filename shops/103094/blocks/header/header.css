@@ -515,6 +515,15 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
       margin: auto;
       position: relative;
-      left: 180px;
+      left: 282px;
   }
+
+  header > div.header-wrapper > div > div.header_widgets > div.header_wishlist {
+    top: 25px;
+
+}
+
+.header_widgets #wishlist > i {
+    font-size: 24px;
+}
 }
