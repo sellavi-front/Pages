@@ -640,3 +640,9 @@ a {
       width: 100px;
   }
 } 
+
+@media (min-device-width: 1024px) {
+  .checkout-cart .wrapper .header .header-wrapper .logo {
+      left: 0px !important;
+  }
+  }
