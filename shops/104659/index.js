@@ -51,16 +51,16 @@ if (location.href.includes('pay-delivery')) {
 
 document.addEventListener('DOMContentLoaded', () => {
   if (document.querySelector('.wrapper')) {
-    const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a"), document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1") ]
-
+    const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a")]
     for (let i; i <= changesText.length; i++) {
       if (changesText[i] && changesText[i].textContent.trim().toLowerCase() === 'блог') {
         changesText[i].textContent = 'Новости'
-      } else {
-        i++
       }
     }
+  }
 
+  if (document.querySelector('.module-blog')) {
+    document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1").textContent = 'Новости'
   }
 })
 
