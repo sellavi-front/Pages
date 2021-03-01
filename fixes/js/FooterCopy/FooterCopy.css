@@ -10,9 +10,6 @@
   display: flex;
 }
 
-body.ltr .footer .copyright_row {
-  align-items: center;
-}
 .footer_content_container img {
   margin: 0 3px;
 }
