@@ -568,7 +568,7 @@ a {
 
 .cat-a {
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -580,9 +580,10 @@ a {
 }
 
 .cat-a:hover {
-  background: #ab838354;
-    color: #fff;
-    transition: 0.4s;
+  color: black;
+  background: transparent;
+  transition: 0.4s;
+  border-bottom: 2px solid black;
 }
 
 .cat_item {
