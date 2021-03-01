@@ -15,7 +15,7 @@ export default class FooterCopy {
   }
 
   render() {
-    this.container.insertAdjacentHTML('afterbegin', this.setTemplae());
+    this.container.insertAdjacentHTML('beforeend', this.setTemplae());
   }
 }
 
