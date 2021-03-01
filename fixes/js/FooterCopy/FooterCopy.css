@@ -9,6 +9,10 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+body.ltr .footer .copyright_row {
+  flex-direction: row !important;
+}
 /*
 .footer_content_text::after {
   display: none !important;
