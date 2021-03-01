@@ -629,3 +629,14 @@ a {
   color: #fff;
   background: #ab838354 !important;
 }
+
+@media (min-device-width: 480px) {
+  #home > div > div.content-area > div > div.contactsSection > div > div.otherInfo {
+      flex-direction: row
+  }
+
+
+  #home > div > div.content-area > div > div.contactsSection > div > div.otherInfo > div.address > div {
+      width: 100px;
+  }
+}
