@@ -57,6 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (el && el.textContent.trim().toLowerCase() === 'блог') {
         el.textContent = 'Новости'
+      } else {
+        return
       }
     })
   }
