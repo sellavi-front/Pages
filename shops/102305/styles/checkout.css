@@ -1,10 +1,10 @@
 body label.placeholder {
   text-transform: none !important;
 }
-
+/*
 body.ltr .checkbox.customized label {
   line-height: 1.7;
-}
+} */
 
 .form_checkout .checkbox.customized {
   margin-bottom: 20px !important;
