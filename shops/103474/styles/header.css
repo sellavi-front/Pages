@@ -26,6 +26,10 @@
     direction: ltr !important;
   }
 
+  body .header_content a {
+    color: white !important;
+  }
+
   .header .header-wrapper .mobile-navigation-wrapper a {
     font-size: 15px !important;
     color: #fff !important;
