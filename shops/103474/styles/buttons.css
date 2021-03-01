@@ -262,7 +262,7 @@ body.theme_11
 }
 
 .add_to_wishlist i {
-  font-size: 18px !important;
+  font-size: 22px !important;
 }
 
 .add_to_wishlist button:hover .far.fa-heart {
@@ -376,7 +376,7 @@ body.theme-green-2.theme_11
   width: 45px !important;
   color: #2d2d2d;
   border: none !important;
-  background-color: hsla(0, 0%, 100%, 0.8);
+  background-color: #EBEBEB;
   padding: 0 0 0 1px !important;
   font-size: 14px;
 }
