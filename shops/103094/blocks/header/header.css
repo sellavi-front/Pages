@@ -527,3 +527,66 @@ body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart 
     font-size: 24px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+
+img {
+  width: 300px;
+}
+
+.cat-name {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.cat-a {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.cat-a:hover {
+  font-weight: 800;
+  transition: 0.4s;
+}
+
+.cat_item {
+  width: 300px;
+  height: 143px;
+  border-radius: 20px;
+  background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614599384/Rectangle_453_fani5n.png);
+}
