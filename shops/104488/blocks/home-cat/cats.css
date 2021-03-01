@@ -180,8 +180,10 @@ footer > div.footer-widgets > div.container > div > div > div > h4 {
 }
 
 
-#home > div > div.content-area > div.contactsSection > div > div > div {
-    flex-direction: column
+@media (max-device-width: 480px) {
+    #home > div > div.content-area > div.contactsSection > div > div > div {
+        flex-direction: column
+    }
 }
 
 #home > div > div.content-area > div.contactsSection > div > div > div > div.time {
