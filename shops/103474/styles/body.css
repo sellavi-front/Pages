@@ -42,6 +42,10 @@ body .main-slider .caption-content .caption-text {
           margin-top: 40px;
 }
 
+body.sidenav-enabled.ltr .wrapper-opened {
+  left: auto !important;
+}
+
 body.common-home.theme-red-2.theme_11 .main-slider.content_left .caption-content h3 span {
   color: black !important;
   font-weight: 700;
