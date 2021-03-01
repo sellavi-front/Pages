@@ -238,6 +238,10 @@ body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .pr
   border-radius: 4px !important;
 }
 
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(3) > div > ul > li:nth-child(3) {
+  display: none !important;
+}
+
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a,
 body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   color: #333 !important;
