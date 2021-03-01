@@ -3,6 +3,14 @@ body .content-delivery {
   margin-bottom: 80px;
 }
 
+body .content-delivery:last-child {
+  flex-direction: column !important;
+}
+
+body .content-delivery:last-child .delivery__right {
+  max-width: 100% !important;
+}
+
 @media(max-width: 768px) {
  body .content-delivery {
     flex-flow: column;

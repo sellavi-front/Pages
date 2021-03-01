@@ -1,7 +1,7 @@
 const socIconsData = [
   {
-    src: 'https://res.cloudinary.com/gz-company/image/upload/v1606295327/Miru/assets/icons/icons8-whatsapp_1_kh2mdl.svg',
-    link: 'https://wa.me/79251552557',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1612881580/instagram-brands_khnu1f.svg',
+    link: 'https://www.instagram.com/many_artbox/',
   },
 ];
 

@@ -1,24 +1,20 @@
-@import '../../../fixes/fixes.css';
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 
 @import './pay-delivery/pay-delivery.css';
 
-@import '../../../templates/TemplateTypeOne/style/index.css';
+@import '../../../templates/TemplateTypeTwo/styles/index-withoutbanner.css';
 
-@import './banner/banner.css';
+@import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 
-@import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css';
+@import './header/header.css';
 
-@import '../blocks/header/header.css';
+@import './products/products.css';
 
-@import './platform-cat/container.css';
-@import './header/search.css';
-@import './product/product.css';
-@import '../../../components/ContactsWithMap/ContactsWithMap.css';
 @import './footer/footer.css';
-@import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
-@import './mobile/mobile.css';
-@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 
+@import './mobile/mobile.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body h1,
 body h2,
@@ -33,6 +29,7 @@ body b,
 body strong {
   font-weight: 700;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif !important;
-
+  font-family: 'Open Sans', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
