@@ -16,6 +16,10 @@ if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div > section.page-section.homefeatured_category').insertAdjacentHTML('beforebegin', '<div class="preCatTitle"><div class="container"><div class="row"><div class="col-sm">Категории</div></div></div></div>');
 }
 
+if (document.querySelector('.alert.alert-info')) {
+  document.querySelector("#home > div > div > div").childNodes[2].textContent = 'Пожалуйста, обратите внимание, чтобы добавить этот продукт в корзину, сначала заполните варианты продукта.';
+}
+
 if (document.querySelector('.header-wrapper')) {
   const oldNav = document.querySelector('.navigation .nav.sf-menu');
   const newNav = oldNav.cloneNode(true);
