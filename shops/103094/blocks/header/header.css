@@ -657,3 +657,10 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
   text-transform: uppercase;
   border-bottom: 0px !important
 }
+
+
+@media (min-device-width: 1024px) {
+  #home > div > div.content-area > div > div.contactsSection > div > div.otherInfo > div.address > div.title-and-address {
+      width: 400px;
+  }   
+}
