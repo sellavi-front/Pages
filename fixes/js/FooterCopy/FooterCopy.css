@@ -13,6 +13,7 @@
 .footer_content_container img {
   margin: 0 3px;
   object-fit: scale-down;
+  width: 30px;
 }
 /*
 .footer_content_text::after {
