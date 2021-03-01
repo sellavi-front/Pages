@@ -4,7 +4,7 @@ import icons from './utils/icons.js'
 import '../../components/HeaderTypeTwo/HeaderTypeTwoV2.js'
 import '../../components/PictureCategories/PictureCategories.js'
 import "../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js"
-import "../../fixes/js/ChangeAgreement/ChangeAgreement.js"
+// import "../../fixes/js/ChangeAgreement/ChangeAgreement.js"
 //import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from "./fixes/fixes.js"
 import AdvantagesTypeTwo from "../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.js"
