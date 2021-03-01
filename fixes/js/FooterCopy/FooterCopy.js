@@ -15,6 +15,7 @@ export default class FooterCopy {
   }
 
   render() {
+    this.container.querySelector('.copyright img').setAttribute('src', 'https://ru.sellavi.com/assets/images/logo.svg');
     this.container.insertAdjacentHTML('beforeend', this.setTemplae());
   }
 }
