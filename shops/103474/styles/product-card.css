@@ -81,6 +81,11 @@ body .section-title {
   -o-object-fit: contain;
   object-fit: contain;
 }
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+  margin: 0 !important;
+}
+
 @media (min-width: 991px) {
   /* body.ltr .thumbnail .price_actions .add_to_cart {
     padding: 0 10px 0 0 !important;
@@ -88,7 +93,7 @@ body .section-title {
 
   body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
     position: static !important;
-    margin-top: 10px !important;
+    margin-top: 0 !important;
   }
   .thumbnail.no-padding.no-border {
     -webkit-box-shadow: 0px 4.70256px 17.6346px rgba(0, 0, 0, 0.15);
