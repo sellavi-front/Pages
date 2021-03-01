@@ -49,13 +49,16 @@ if (location.href.includes('pay-delivery')) {
   req.setTemplate();
 }
 
-if (document.querySelector('.wrapper')) {
-  const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a"), document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1") ]
+document.addEventListener('DOMContentLoaded', () => {
+  if (document.querySelector('.wrapper')) {
+    const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a"), document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1") ]
 
-  changesText.forEach(el => {
-    console.log(el.textContent);
-    if (el && el.textContent.trim().toLowerCase() === 'блог') {
-      el.textContent = 'Новости'
-    }
-  })
-}
+    changesText.forEach(el => {
+      console.log(el.textContent);
+      if (el && el.textContent.trim().toLowerCase() === 'блог') {
+        el.textContent = 'Новости'
+      }
+    })
+  }
+})
+
