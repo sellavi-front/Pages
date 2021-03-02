@@ -29,9 +29,9 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
-if (document.readyState == 'interactive' || document.readyState == 'loading') {
-  document.querySelector('html').style.opacity = '0';
-}
+// if (document.readyState == 'interactive' || document.readyState == 'loading') {
+//   document.querySelector('html').style.opacity = '0';
+// }
 // window.onload = () => {
 //   document.querySelector('html').style.opacity = '1';
 // };
