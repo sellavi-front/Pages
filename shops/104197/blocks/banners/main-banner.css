@@ -16,5 +16,6 @@ body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-ou
 
 #home > div > div.content-area > div.container {
     display: flex !important;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-top: 20px;
 }
