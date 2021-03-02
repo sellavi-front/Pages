@@ -6,5 +6,5 @@ import buttonListInHeader from './buttonListInHeader.js'
 export {
   changeTitleBlogToNews,
   BtnWishListToBtnAddToCart,
-  buttonListInHeader
+  // buttonListInHeader
 }
