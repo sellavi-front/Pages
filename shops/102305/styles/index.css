@@ -431,6 +431,11 @@ body.ltr .wrapper .header .header-wrapper .header-search button i {
   font-size: 21px !important;
 }
 
+.advantages__elem {
+  margin: 0 !important;
+  align-items: center !important;
+}
+
 /*body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login>a i {
   font-size: 21px !important;
 }*/
