@@ -582,8 +582,6 @@ a {
 .cat-a:hover {
   color: black;
   background: transparent;
-  transition: 0.1s ease;
-  border-bottom: 2px solid black;
 }
 
 .cat_item {
@@ -670,4 +668,40 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
   #home > div > div.content-area > div > div.container.cat_block > div > div {
       margin-right: 0px;
   }
+}
+
+
+.cat-a {
+  display: inline-block;
+  color: #000000;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.cat-a:after {
+  display: block;
+  content: "";
+  background-color: #000000;
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  top: 30px;
+  position: absolute;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.cat-a:hover:after, .cat-a:focus:after {
+  width: 100%;
+}
+
+#home > div > div.content-area > div > div.container.cat_block > div > div > a {
+  display: flex;
+  flex-direction: column
 }
