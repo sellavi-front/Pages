@@ -4,8 +4,11 @@
 @import './pay-delivery/pay-delivery.css';
 @import './product-card/product-card.css';
 
-.information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
-  display: none;
+
+:root {
+  --color-theme: #121E1A;
+  --btn-border-radius: 4px;
+  --btn-color-content: white;
 }
 
 body h1,
@@ -22,4 +25,8 @@ body strong {
   font-weight: 700;
   font-style: normal;
   font-family: 'Golos', sans-serif;
+}
+
+.information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
+  display: none;
 }

@@ -1,16 +1,18 @@
-body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
-  border: 1px solid black;
-  border-radius: 4px;
+body.ltr .thumbnail .add_to_wishlist,
+body.ltr .thumbnail .remove_from_wishlist {
+  border-radius: var(--btn-border-radius);
   position: relative;
   bottom: 0 !important;
   left: 0 !important;
   width: 52px;
 }
 
-.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
-  background: 0 !important;
+.thumbnail .add_to_wishlist button,
+.thumbnail .remove_from_wishlist button {
+  background: var(--color-theme) !important;
   padding: 0 !important;
   width: 100% !important;
   height: 100% !important;
   border-radius: 100% !important;
+  color: var(--btn-color-content);
 }
