@@ -10,9 +10,9 @@ if (pages.all) {
   changeTitleBlogToNews();
 }
 
-if (document.querySelector('.product-item.product-layout')) {
-  btnWishListToBtnAddToCart();
-}
+// if (document.querySelector('.product-item.product-layout')) {
+//   btnWishListToBtnAddToCart();
+// }
 
 if (pages.main) {
   cutSrcImg();
