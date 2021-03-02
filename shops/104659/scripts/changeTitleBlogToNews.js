@@ -1,7 +1,10 @@
 import pages from "../config/conditions.js";
 
 const changeTitleBlogToNews = (() => {
-  const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a")]
+  const changesText = [
+    document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"),
+    document.querySelector("#home > div > header > div > div.container-fluid > nav > ul > li.flexy.no_children > a")
+  ]
 
   changesText.forEach(el => {
     if (el && el.textContent.trim().toLowerCase() === 'блог') {
