@@ -261,7 +261,7 @@ body.common-home .menu-toggle svg {
 }
 
 .logo img {
-  max-height: 50px !important;
+  max-height: inherit !important;
 }
 
 
