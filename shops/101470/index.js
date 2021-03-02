@@ -14,7 +14,6 @@ import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 import requsites from './utils/requsites.js';
 
 
-
 const bootstrapClasses = [
   'col-lg-4',
   'col-xl-3',
