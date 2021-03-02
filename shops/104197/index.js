@@ -8,9 +8,9 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div > div > picture > source').remove();
-  document.querySelector('#banner0 > div').insertAdjacentHTML('afterend', '<div><div></div><div></div></div>')
-  let x = document.querySelector('#banner0 > div.owl-wrapper-outer > div > div > div > picture > img').getAttribute('src')
-  document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', `<img src="${x}">`)
+  // document.querySelector('#banner0 > div').insertAdjacentHTML('afterend', '<div><div></div><div></div></div>')
+  // let x = document.querySelector('#banner0 > div.owl-wrapper-outer > div > div > div > picture > img').getAttribute('src')
+  // document.querySelector('.custom_banner').insertAdjacentHTML('afterbegin', `<img src="${x}">`)
 }
 
 if (location.href.includes('term-of-use')) {
