@@ -1,6 +1,9 @@
 // import '../../fixes/fixes.js';
 
-//import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
+import "../../fixes/js/RemoveBlur/RemoveBlur.js"
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
@@ -8,13 +11,8 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
-
-import "../../fixes/js/RemoveBlur/RemoveBlur.js"
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-
 import requsites from './utils/requsites.js';
 
-import '../../components/HeaderTypeOne/HeaderTypeOne.js';
 
 
 const bootstrapClasses = [
@@ -176,7 +174,6 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.product-item')) {
   const productItem = document.querySelectorAll('.product-item');
-
   const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
 
   deleteClassesProd.findAndDelete();
@@ -189,7 +186,6 @@ if (document.querySelector('.product-item')) {
     for (let mutation of mutationsList) {
       if (mutation.type === 'childList') {
         const productItems= document.querySelectorAll('.product-item');
-
         const deleteClassesProd = new DeleteClasses(productItems, bootstrapClasses);
 
         deleteClassesProd.findAndDelete();
