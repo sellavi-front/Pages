@@ -9,8 +9,8 @@ import '../../components/PictureCategories/PictureCategories.js'
 //import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from "./fixes/fixes.js"
 import AdvantagesTypeTwo from "../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.js"
-import {adv} from "./utils/utils.js"
-import {contactData} from "./utils/utils.js"
+import { adv } from "./utils/utils.js"
+import { contactData } from "./utils/utils.js"
 import Footer from "./blocks/footer.js"
 import ProductPage from "./blocks/product-page.js"
 
@@ -76,7 +76,7 @@ if (document.querySelector('.common-home')) {
   // }
 }
 
-if(document.querySelector(".product-product")) {
+if (document.querySelector(".product-product")) {
   let product = new ProductPage()
   product.renderColor()
   product.errorMessage()
@@ -87,7 +87,7 @@ if (document.querySelector('.checkout-checkout')) {
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
+setTimeout(() => {
   let target = document.querySelector('.search_results');
   console.log(target);
   const config = {
@@ -106,5 +106,4 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const observer = new MutationObserver(callback);
   observer.observe(target, config);
-
-})
+}, 800)
