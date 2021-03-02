@@ -1,0 +1,19 @@
+#banner0 {
+    display: flex !important;
+}
+
+#banner0 > div:nth-child(2) > div {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+#banner0 > div:nth-child(2) > div:nth-child(1) {
+    background: url('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_9_s1dwb6.png') !important;
+    background-size: cover !important;
+}
+
+#banner0 > div:nth-child(2) > div:nth-child(2) {
+    background: url('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_10_iasvrg.png') !important;
+    background-size: cover !important;
+}

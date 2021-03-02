@@ -8,6 +8,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#banner0 > div > div > div > div > picture > source').remove();
+  document.querySelector('#banner0 > div').insertAdjacentHTML('afterend', '<div><div></div><div></div></div>')
 }
 
 if (location.href.includes('term-of-use')) {
