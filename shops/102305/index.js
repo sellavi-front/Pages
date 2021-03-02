@@ -87,8 +87,8 @@ if (document.querySelector('.checkout-checkout')) {
 }
 
 
-setTimeout(() => {
-  let target = document.querySelector('.search_results');
+// setTimeout(() => {
+  let target = document.querySelector('#search_results');
   console.log(target);
   const config = {
     childList: true,
@@ -106,4 +106,4 @@ setTimeout(() => {
   };
   const observer = new MutationObserver(callback);
   observer.observe(target, config);
-}, 800)
+// }, 800)
