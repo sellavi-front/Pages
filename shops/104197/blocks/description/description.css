@@ -1,0 +1,7 @@
+.common-home > div > div.content-area > div.custom_section > div > img {
+    width: 100%
+}
+
+.common-home > div > div.content-area > div.custom_section > div {
+    margin-top: 100px;
+}
