@@ -1,0 +1,10 @@
+footer > div.footer-widgets > div.container > div {
+    border-top: 1px solid black;
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer > div.footer-widgets > div.container > div > div {
+    padding: 0px;
+}
