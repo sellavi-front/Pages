@@ -7,7 +7,7 @@ const buttonListInHeader = (() => {
 
   const buttonsInHeader = new ButtonListInHeader(headerWrapper);
 
-  buttonsInHeader.setTempate();
+  buttonsInHeader.setTemplate();
   hideCart.remove();
 })()
 
