@@ -13,3 +13,7 @@ header > div.header-wrapper > div.container > div.header_widgets > div.header_lo
 .wrapper .header .header-wrapper .header-search input {
     border-bottom: 0px !important;
 }
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control {
+    padding-left: 20px !important;
+}
