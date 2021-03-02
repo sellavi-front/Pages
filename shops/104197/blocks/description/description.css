@@ -5,3 +5,8 @@
 .common-home > div > div.content-area > div.custom_section > div {
     margin-top: 100px;
 }
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div {
+    font-size: 30px;
+    font-weight: 600;
+}
