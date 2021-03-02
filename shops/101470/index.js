@@ -9,7 +9,7 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 
-import './'
+import "../../fixes/js/RemoveBlur/RemoveBlur.js"
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 import requsites from './utils/requsites.js';
