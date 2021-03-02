@@ -19,3 +19,13 @@ body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-ou
     justify-content: space-between;
     margin-top: 20px;
 }
+
+#home > div > div.content-area > section > div > h2 {
+    margin-top: 50px !important;
+}
+
+#home > div > div.content-area > section > div > h2 > span {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
