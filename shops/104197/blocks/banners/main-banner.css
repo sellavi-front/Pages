@@ -3,5 +3,9 @@ body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
 }
 
 body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-outer, body .main-slider .owl-carousel .owl-wrapper, body .main-slider .owl-carousel .owl-item, body .main-slider .owl-carousel .owl-item .item, body .main-slider .owl-carousel .owl-item .item .img-bg, body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
-    width: 780px;
+    width: inherit;
+}
+
+#banner0 > div.owl-wrapper-outer > div {
+    width: inherit !important;
 }
