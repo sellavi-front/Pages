@@ -13,3 +13,7 @@ if (pages.all) {
     BtnWishListToBtnAddToCart();
   }
 }
+
+if (pages.main) {
+  cutSrcImg();
+}
