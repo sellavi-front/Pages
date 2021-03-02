@@ -1,6 +1,6 @@
 import pages from "../config/conditions.js";
 
-const changeTitleBlogToNews = () => {
+const changeTitleBlogToNews = (() => {
   const changesText = [document.querySelector("#home > nav.navigation.mobile_side_nav > ul > li.flexy > a"), document.querySelector("body .wrapper > header > div.navigation-wrapper > div > nav > ul > li.flexy.no_children > a")]
 
   changesText.forEach(el => {
@@ -10,9 +10,10 @@ const changeTitleBlogToNews = () => {
   })
 
   if (pages.blog) {
-    document.querySelector('title').textContent = document.querySelector('title').textContent.replace(/Блог/gi, 'Новости')
+    const title = document.querySelector('title');
+    title.textContent = title.textContent.replace(/Блог/gi, 'Новости')
     document.querySelector("#home > div > div.content-area > section.page-section.titles > div > div > h1").textContent = 'Новости'
   }
-}
+})();
 
 export default changeTitleBlogToNews;
