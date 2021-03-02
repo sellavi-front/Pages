@@ -4,7 +4,7 @@ import './utils/accuring/accuring.js'
 import '../../components/HeaderTypeOne/HeaderTypeOne.js';
 
 import pages from './config/conditions.js'
-import './scripts/main.js';
+import {changeTitleBlogToNews, btnWishListToBtnAddToCart, cutSrcImg, changeTextCategoryBtn, changeTextBannerBtn} from './scripts/main.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
