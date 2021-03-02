@@ -41,11 +41,11 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     border-radius: 8px !important;
 }
 
-#home > div > div.content-area > section > div > div > a > img {
+.common-home > div > div.content-area > section > div > div > a > img {
     width: 21%;
     object-fit: contain;
 }
 
-#home > div > div.content-area > section > div > div > a {
+.common-home > div > div.content-area > section > div > div > a {
     display: contents;
 }
