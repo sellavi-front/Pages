@@ -3,7 +3,8 @@ body.ltr .thumbnail .remove_from_wishlist {
   position: relative;
   bottom: 0 !important;
   left: 0 !important;
-  width: 52px;
+  width: 60px;
+  margin-left: 10px;
 }
 
 .thumbnail .add_to_wishlist button,
