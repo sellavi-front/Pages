@@ -48,7 +48,7 @@ if (document.querySelector(".wrapper")) {
       if (mutation.type === 'childList') {
         const btnSearchText = document.querySelector("#search_results > div > a > span");
         const num = btnSearchText.textContent.match(/\d/gi);
-
+        console.log(num);
         btnSearchText.textContent = `Смотреть все (${num}) результаты`
 
       }
