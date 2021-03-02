@@ -38,8 +38,6 @@ if (document.querySelector(".wrapper")) {
   headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
 
 
-
-
   let target = document.querySelector('#search_results');
   console.log(target);
   const config = {
@@ -87,8 +85,8 @@ if (document.querySelector('.common-home')) {
   // const map = new ContactsWithMap(customSection, 'beforeend', contactData)
   // map.render()
 
-  // let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper .homefeatured_category"), 'afterend')
-  // advantages.render()
+  let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper .homefeatured_category"), 'afterend')
+  advantages.render()
 
   // if(screen.width >= 993) {
   //   document.querySelector(".homefeatured_category").insertAdjacentHTML("afterend", `<div class='container'><img class='ft-img' style="width: 100%" src='https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1613390702/sellavi/102305/Component_1_1_da26cx.png' alt='features' /></div>`)
