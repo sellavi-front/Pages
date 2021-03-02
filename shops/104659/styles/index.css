@@ -6,7 +6,7 @@
 
 
 :root {
-  --color-theme: #121E1A;
+  --color-custom-theme: #121E1A !important;
   --btn-border-radius: 4px;
   --btn-color-content: white;
 }

@@ -9,7 +9,7 @@ body.ltr .thumbnail .remove_from_wishlist {
 
 .thumbnail .add_to_wishlist button,
 .thumbnail .remove_from_wishlist button {
-  background: var(--color-theme) !important;
+  background: var(--color-custom-theme) !important;
   padding: 0 !important;
   width: 100% !important;
   height: 100% !important;
