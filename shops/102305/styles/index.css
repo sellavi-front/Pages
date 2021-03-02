@@ -756,3 +756,9 @@ body.ltr .wrapper .header .header-wrapper .logo {
 #home > div > div.content-area > section > div > div > div > div.details-wrap > div:nth-child(5) + .details-box {
   display: none !important;
 }
+
+@media (max-width: 991px) {
+  .advantages {
+    display: none !important;
+  }
+}
