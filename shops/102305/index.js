@@ -39,12 +39,12 @@ if (document.querySelector(".wrapper")) {
 
 
 
-  let target = document.querySelector('.header_search');
+  let target = document.querySelector('.search_results');
+  console.log(target);
   const config = {
     childList: true,
   };
   const callback = function (mutationsList, observer) {
-    console.log(target);
     for (let mutation of mutationsList) {
       if (mutation.type === 'childList') {
         const btnSearchText = document.querySelector("#search_results > div > a > span");
