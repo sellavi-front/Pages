@@ -55,10 +55,10 @@ if (document.querySelector('.product-item')) {
 }*/
 
 if (document.querySelector('.common-home')) {
-  const customSection = document.querySelector('.custom_section')
-  customSection.classList.add('container')
-  const map = new ContactsWithMap(customSection, 'beforeend', contactData)
-  map.render()
+  // const customSection = document.querySelector('.custom_section')
+  // // customSection.classList.add('container')
+  // const map = new ContactsWithMap(customSection, 'beforeend', contactData)
+  // map.render()
 
   let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper.wrapper-closed > div.content-area > section.page-section.latest-section > div"), adv)
   advantages.render()
