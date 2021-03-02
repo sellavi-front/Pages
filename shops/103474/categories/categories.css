@@ -29,6 +29,10 @@
     max-width: 25%;
   }
 
+  body.theme_11 .wrapper .subcategories_top>div>div {
+    justify-content: space-around !important;
+  }
+
   body.theme_11 .wrapper .subcategories_top > div > div,
   body.theme_11
     .wrapper
