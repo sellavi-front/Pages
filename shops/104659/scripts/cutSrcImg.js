@@ -12,6 +12,6 @@ const cutSrcImg = (() => {
 
     cat.setAttribute('src', replacedSrc);
   });
-})()
+})
 
 export default cutSrcImg;
