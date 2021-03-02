@@ -13,6 +13,9 @@ if (document.querySelector('.common-home')) {
   document.querySelector('.common-home .custom_section').insertAdjacentHTML('afterbegin', '<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614690008/Group_7423542_wshy7m.png"></div>')
   document.querySelector('.common-home .custom_section').insertAdjacentHTML('beforeend', '<div class="container"><div>Доставка интим товаров в Москве</div></div>')
   document.querySelector('.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div').insertAdjacentHTML('afterend', '<div><div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614694320/Component_1_22_bmwbbg.png"><a href="https://store104197.sellavi.com/pay-delivery/">Подробнее</a></div><div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614694320/Component_2_12_yqyt7g.png"><a href="https://store104197.sellavi.com/pay-delivery/">Подробнее</a></div><div><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614694321/Component_3_8_iogb8m.png"><a href="https://store104197.sellavi.com/pay-delivery/">Подробнее</a></div></div>')
+  if (screen.width < 480) {
+    document.querySelector('#home > div > div.content-area > div.container > img').setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614698296/Frame_13_1_qjwjjw.png')
+  }
 }
 
 if (location.href.includes('term-of-use')) {
