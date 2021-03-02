@@ -17,3 +17,19 @@
     background: url('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_10_iasvrg.png') !important;
     background-size: cover !important;
 }
+
+
+#home > div > div.content-area > div.container > div > div {
+    height: 240px;
+    width: 250px;
+}
+
+#home > div > div.content-area > div.container > div > div:nth-child(1) {
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_9_s1dwb6.png);
+    background-size: cover;
+}
+
+#home > div > div.content-area > div.container > div > div:nth-child(2) {
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_10_iasvrg.png);
+    background-size: cover;
+}

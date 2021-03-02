@@ -9,3 +9,12 @@ body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-ou
 #banner0 > div.owl-wrapper-outer > div {
     width: inherit !important;
 }
+
+#home > div > div.content-area > div.container > img {
+    width: 75%;
+}
+
+#home > div > div.content-area > div.container {
+    display: flex !important;
+    justify-content: space-between
+}
