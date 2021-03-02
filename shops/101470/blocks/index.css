@@ -3,17 +3,8 @@
 @import './banner/banner.css';
 @import './section-title/section-title.css';
 
-@import './other/bs-menu-toggle.css';
-@import './other/contacts.css';
-@import './other/auth-title.css';
-@import './other/section-title.css';
-@import './other/side-categories.css';
-@import './products/products.css';
-@import './other/pay-delivery.css';
 @import '../../../components/css-components/ColoredCategories/ColoredCategories.css';
-
 @import '../../../modules/BigBanner/BigBanner.css';
-/*@import '../../../fixes/FooterCopy/FooterCopy.css';*/
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 @import '../../../modules/ButtonListInHeader/style.css';
 @import '../../../components//HorizontTitleDecription/HorizontTitleDecription.css';
@@ -23,6 +14,17 @@
 @import './header/logo.css';
 @import './header/header.css';
 @import './product-page/product-page.css';
+@import './other/bs-menu-toggle.css';
+@import './other/contacts.css';
+@import './other/auth-title.css';
+@import './other/section-title.css';
+@import './other/side-categories.css';
+@import './products/products.css';
+@import './other/pay-delivery.css';
+
+html {
+  opacity: 1 !important;
+}
 
 
 body h1,

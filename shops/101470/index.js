@@ -30,8 +30,6 @@ const bootstrapClasses = [
 ];
 
 
-html.style.opacity = '1';
-
 if (document.querySelector('.wrapper')) {
 
   document.querySelector('head').insertAdjacentHTML('afterbegin', `</script>
