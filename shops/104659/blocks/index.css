@@ -9,6 +9,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+.bg-black {
+  background: rgb(0 0 0) !important;
+}
+
 body h1,
 body h2,
 body h3,

@@ -8,3 +8,6 @@ if (pages.all) {
   changeTitleBlogToNews();
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.header-wrapper').classList.add('bg-black');
+})
