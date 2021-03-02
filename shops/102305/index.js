@@ -38,7 +38,8 @@ if (document.querySelector(".wrapper")) {
   headerIcons.like.insertAdjacentHTML('afterbegin', icons.like)
 
 
-  let target = document.querySelector('.search_results');
+
+  let target = document.querySelector('.header_search');
   const config = {
     childList: true,
   };
@@ -55,7 +56,10 @@ if (document.querySelector(".wrapper")) {
   };
   const observer = new MutationObserver(callback);
   observer.observe(target, config);
+
 }
+
+
 
 /*
 if (document.querySelector('.product-item')) {
