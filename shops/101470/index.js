@@ -189,6 +189,7 @@ if (document.querySelector('.product-item')) {
     for (let mutation of mutationsList) {
       if (mutation.type === 'childList') {
         const productItems= document.querySelectorAll('.product-item');
+
         const deleteClassesProd = new DeleteClasses(productItems, bootstrapClasses);
 
         deleteClassesProd.findAndDelete();
