@@ -14,3 +14,35 @@
 .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div {
     margin-bottom: 50px;
 }
+
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div > img {
+    width: 100%;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div > a {
+    text-align: center;
+    position: relative;
+    bottom: 65px;
+    font-size: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 30px;
+    border-radius: 10px;
+    background: #E95052;
+    color: #fff;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div > a:hover {
+    background: #c33b3c;
+}
