@@ -1,0 +1,7 @@
+body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
+    object-fit: contain;
+}
+
+body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-outer, body .main-slider .owl-carousel .owl-wrapper, body .main-slider .owl-carousel .owl-item, body .main-slider .owl-carousel .owl-item .item, body .main-slider .owl-carousel .owl-item .item .img-bg, body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
+    width: 780px;
+}
