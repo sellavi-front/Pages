@@ -3,7 +3,8 @@ const BtnWishListToBtnAddToCart = (() => {
 
   cards.forEach(card => {
     const wishList = card.querySelector('.add_to_wishlist');
-    card.querySelector('.add_to_cart').insertAdjacentHTML('beforebegin', card.querySelector('.add_to_wishlist').outerHTML)
+    card.querySelector('.add_to_cart').insertAdjacentHTML('beforebegin', wishList.outerHTML)
+    wishList.remove();
   })
 })();
 
