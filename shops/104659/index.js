@@ -11,7 +11,7 @@ if (pages.all) {
 }
 
 if (document.querySelector('.product-item.product-layout')) {
-  BtnWishListToBtnAddToCart();
+  btnWishListToBtnAddToCart();
 }
 
 if (pages.main) {

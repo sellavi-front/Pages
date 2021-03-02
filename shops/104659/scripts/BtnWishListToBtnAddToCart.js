@@ -1,4 +1,4 @@
-const BtnWishListToBtnAddToCart = (() => {
+const btnWishListToBtnAddToCart = (() => {
 
   const addBtn = (arr) => {
     arr.forEach(card => {
