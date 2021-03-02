@@ -32,9 +32,9 @@ const bootstrapClasses = [
 if (document.readyState == 'interactive' || document.readyState == 'loading') {
   document.querySelector('html').style.opacity = '0';
 }
-window.onload = () => {
-  document.querySelector('html').style.opacity = '1';
-};
+// window.onload = () => {
+//   document.querySelector('html').style.opacity = '1';
+// };
 
 if (document.querySelector('.wrapper')) {
 
