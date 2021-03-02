@@ -181,6 +181,9 @@ body.theme_11
 /* .media_holder {
   margin: 15px;
 } */
+body.theme_11 .subcategories_top {
+  display: block !important;
+}
 
 body.theme_11
   .wrapper
