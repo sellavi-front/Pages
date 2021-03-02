@@ -7,7 +7,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
-    
+  document.querySelector('#home > div > div.content-area > div.main-slider.content_center').remove()
 }
 
 if (location.href.includes('term-of-use')) {
