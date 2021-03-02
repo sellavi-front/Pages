@@ -8,12 +8,13 @@ import { changeTitleBlogToNews } from './scripts/main.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
+}
 
-  if (document.querySelector('.product-item.product-layout')) {
-    BtnWishListToBtnAddToCart();
-  }
+if (document.querySelector('.product-item.product-layout')) {
+  BtnWishListToBtnAddToCart();
 }
 
 if (pages.main) {
   cutSrcImg();
+  changeTextCategoryBtn();
 }
