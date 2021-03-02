@@ -40,3 +40,12 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
     border-radius: 8px !important;
 }
+
+#home > div > div.content-area > section > div > div > a > img {
+    width: 21%;
+    object-fit: contain;
+}
+
+#home > div > div.content-area > section > div > div > a {
+    display: contents;
+}

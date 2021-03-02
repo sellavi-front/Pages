@@ -9,6 +9,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div.content-area > div.main-slider.content_center').remove()
   document.querySelector('#home > div > div.content-area').insertAdjacentHTML('afterbegin', `<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614677976/Frame_7_bpoulv.png"><div><div></div><div></div></div></div>`)
+  document.querySelector('#home > div > div.content-area > section > div > div > div:nth-child(3)').insertAdjacentHTML('afterend', '<a href="https://store104197.sellavi.com/%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B0/"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614688997/Frame_11_yfrjss.png"></a>')
 }
 
 if (location.href.includes('term-of-use')) {
