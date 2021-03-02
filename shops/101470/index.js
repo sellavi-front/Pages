@@ -9,6 +9,7 @@ import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHea
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
 
+import './'
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 import requsites from './utils/requsites.js';
@@ -98,9 +99,9 @@ if (document.querySelector('.wrapper')) {
   const termUse = document.querySelectorAll('.footer_content_wrapper >ul>li>a');
 
   termUse.forEach(el => {
-       if(el.textContent.toLowerCase() === 'условия обслуживания') {
-            el.closest('li').remove();
-       }
+    if (el.textContent.toLowerCase() === 'условия обслуживания') {
+      el.closest('li').remove();
+    }
   })
 
   const oldNode = document.querySelector('footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3)');
@@ -137,7 +138,7 @@ if (document.querySelector('.wrapper')) {
   listt.forEach((el) => {
     const tr = el.textContent;
 
-    if(tr.includes(' - ')) {
+    if (tr.includes(' - ')) {
       el.textContent = tr.slice(2);
     }
   });
@@ -179,6 +180,23 @@ if (document.querySelector('.product-item')) {
   const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
 
   deleteClassesProd.findAndDelete();
+
+  let target = document.querySelector('body div.products');
+  const config = {
+    childList: true,
+  };
+  const callback = function (mutationsList, observer) {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'childList') {
+        const productItems= document.querySelectorAll('.product-item');
+        const deleteClassesProd = new DeleteClasses(productItems, bootstrapClasses);
+
+        deleteClassesProd.findAndDelete();
+      }
+    }
+  };
+  const observer = new MutationObserver(callback);
+  observer.observe(target, config);
 }
 
 // if (document.querySelector('.product-product')) {
@@ -206,7 +224,7 @@ if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://
 }
 
 if (location.href.includes('/checkout')) {
-  document.querySelectorAll('.register_block h2').forEach((h2,i) => {
+  document.querySelectorAll('.register_block h2').forEach((h2, i) => {
     h2.textContent = h2.textContent.replace(/\d/gi, '');
     h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i + 1}`);
   })
