@@ -4,7 +4,7 @@ import './utils/accuring/accuring.js'
 import '../../components/HeaderTypeOne/HeaderTypeOne.js';
 
 import pages from './config/conditions.js'
-import {changeTitleBlogToNews, cutSrcImg, changeTextCategoryBtn, changeTextBannerBtn} from './scripts/main.js';
+import {changeTitleBlogToNews, cutSrcImg, changeTextCategoryBtn} from './scripts/main.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
@@ -17,5 +17,4 @@ if (pages.all) {
 if (pages.main) {
   cutSrcImg();
   changeTextCategoryBtn();
-  changeTextBannerBtn();
 }
