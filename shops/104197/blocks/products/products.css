@@ -27,3 +27,12 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     text-transform: none;
     margin-left: 6px;
 }
+
+.wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+    line-height: 20px !important;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+    max-height: 60px;
+    min-height: 60px ;
+}
