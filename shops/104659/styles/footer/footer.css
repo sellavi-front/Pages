@@ -9,6 +9,15 @@
   padding-top: 20px !important;
 }
 
+body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
+  color: black i !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  color: lightgray !important;
+}
+
+
 @media only screen and (max-width: 991px) {
   body .footer .footer-widgets .widget-title {
     margin-bottom: 0 !important;
