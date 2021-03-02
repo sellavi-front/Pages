@@ -26,4 +26,4 @@ const btnWishListToBtnAddToCart = (() => {
   observer.observe(target, config);
 })();
 
-export default BtnWishListToBtnAddToCart;
+export default btnWishListToBtnAddToCart;
