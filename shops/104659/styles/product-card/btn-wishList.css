@@ -1,6 +1,5 @@
 body.ltr .thumbnail .add_to_wishlist,
 body.ltr .thumbnail .remove_from_wishlist {
-  border-radius: var(--btn-border-radius);
   position: relative;
   bottom: 0 !important;
   left: 0 !important;
@@ -13,6 +12,6 @@ body.ltr .thumbnail .remove_from_wishlist {
   padding: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  border-radius: 100% !important;
-  color: var(--btn-color-content);
+  border-radius: var(--btn-border-radius) !important;
+  color: var(--btn-color-content) !important;
 }
