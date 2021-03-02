@@ -6,4 +6,8 @@ import { changeTitleBlogToNews } from './scripts/main.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
+
+  if (document.querySelector('.product-item')) {
+    BtnWishListToBtnAddToCart();
+  }
 }
