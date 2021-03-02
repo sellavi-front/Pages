@@ -582,7 +582,7 @@ a {
 .cat-a:hover {
   color: black;
   background: transparent;
-  transition: 0.4s;
+  transition: 0.1s ease;
   border-bottom: 2px solid black;
 }
 
