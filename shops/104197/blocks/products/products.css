@@ -1,0 +1,29 @@
+.row.products.grid .media .add_to_wishlist {
+    position: absolute !important;
+}
+
+.row.products.grid .media .add_to_wishlist button {
+    height: 36px;
+    width: 36px;
+    border-radius: 20px !important;
+    background: #ebebeb !important;
+    border: 0px !important;
+}
+
+.row.products.grid .media .add_to_wishlist {
+    display: flex;
+    align-items: flex-end;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: center !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    font-size: 18px !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button span{
+    text-transform: none;
+    margin-left: 6px;
+}
