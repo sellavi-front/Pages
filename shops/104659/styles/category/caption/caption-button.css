@@ -18,11 +18,11 @@ body.ru
   width: 150px !important;
 }
 
-
+/*
 body.common-home .wrapper .homefeatured_category > div > div > div:nth-child(1) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
   border-color: white !important;
   color: white !important;
-}
+} */
 
 @media (max-width: 992px) {
   body.ltr
