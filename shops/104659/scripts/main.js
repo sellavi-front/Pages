@@ -1,5 +1,5 @@
-import changeTitleBlog from './changeTitleBlog.js'
+import changeTitleBlogToNews from './changeTitleBlogToNews.js'
 
 export {
-  changeTitleBlog,
+  changeTitleBlogToNews,
 }
