@@ -10,3 +10,7 @@
     font-size: 30px;
     font-weight: 600;
 }
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div {
+    margin-bottom: 50px;
+}
