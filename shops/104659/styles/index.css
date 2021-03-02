@@ -33,3 +33,7 @@ body strong {
 .information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
   display: none;
 }
+
+body.theme_11 .wrapper .header .header-wrapper:not(.mobile_search_active) .container-fluid {
+  height: 100px !important;
+}
