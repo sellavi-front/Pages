@@ -44,7 +44,7 @@ export default class Fixes {
       document.querySelectorAll(".content-area>.page-section>.container>.row>div>.thumbnail>.media>.media-link>.caption>.caption-wrapper>.caption-inner>.caption-title").forEach(card => {
         card.insertAdjacentHTML("afterend",
         `<div class="category__card">
-          <a href="${card.closest('.media-link').getAttribute('src')}" class="more__category">Смотреть</a>
+          <a href="${card.closest('.media-link').getAttribute('href')}" class="more__category">Смотреть</a>
         </div>`)
       })
 
