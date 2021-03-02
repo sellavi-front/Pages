@@ -7,6 +7,7 @@
 @import './pay-delivery/pay-delivery.css';
 @import './product-card/product-card.css';
 @import './footer/footer.css';
+@import './category/category.css';
 @import './logo/logo.css';
 
 :root {
