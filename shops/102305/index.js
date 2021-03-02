@@ -85,7 +85,7 @@ if (document.querySelector('.common-home')) {
   // const map = new ContactsWithMap(customSection, 'beforeend', contactData)
   // map.render()
 
-  let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper .homefeatured_category"), 'afterend')
+  let advantages = new AdvantagesTypeTwo(document.querySelector("#home > div.wrapper .homefeatured_category"), adv, 'afterend')
   advantages.render()
 
   // if(screen.width >= 993) {
