@@ -2,12 +2,11 @@ import './utils/fixes.js'
 import './utils/accuring/accuring.js'
 
 import pages from './config/conditions.js'
-import {changeTitleBlogToNews} from './scripts/main.js';
+import { changeTitleBlogToNews } from './scripts/main.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('.header-wrapper').classList.add('bg-black');
-})
+
+document.querySelector('.header-wrapper').classList.add('bg-black');

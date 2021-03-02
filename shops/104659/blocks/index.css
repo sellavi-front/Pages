@@ -1,13 +1,11 @@
-@import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+@import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
 
 .information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
   display: none;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 .bg-black {
   background: rgb(0 0 0) !important;
@@ -29,4 +27,4 @@ body strong {
   font-family: 'Open Sans', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap'); */
