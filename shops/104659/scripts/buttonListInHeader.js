@@ -1,4 +1,4 @@
-import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js'
+import ButtonListInHeader from '../../../modules/ButtonListInHeader/ButtonListInHeader.js'
 
 
 const buttonListInHeader = (() => {
