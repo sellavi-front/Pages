@@ -1,0 +1,22 @@
+body
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+body
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .more_details_btn_wrapper
+  > button {
+  background: 0 !important;
+  color: black !important;
+  border: 1px solid;
+}
