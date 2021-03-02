@@ -39,27 +39,7 @@ if (document.querySelector(".wrapper")) {
 
 
 
-  document.addEventListener('DOMContentLoaded', () => {
-    let target = document.querySelector('.search_results');
-    console.log(target);
-    const config = {
-      childList: true,
-    };
-    const callback = function (mutationsList, observer) {
-      for (let mutation of mutationsList) {
-        if (mutation.type === 'childList') {
-          const btnSearchText = document.querySelector("#search_results > div > a > span");
-          const num = btnSearchText.textContent.match(/\d/gi);
 
-          btnSearchText.textContent = `Смотреть все (${num}) результаты`
-
-        }
-      }
-    };
-    const observer = new MutationObserver(callback);
-    observer.observe(target, config);
-
-  })
 
 }
 
@@ -107,3 +87,24 @@ if (document.querySelector('.checkout-checkout')) {
 }
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  let target = document.querySelector('.search_results');
+  console.log(target);
+  const config = {
+    childList: true,
+  };
+  const callback = function (mutationsList, observer) {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'childList') {
+        const btnSearchText = document.querySelector("#search_results > div > a > span");
+        const num = btnSearchText.textContent.match(/\d/gi);
+
+        btnSearchText.textContent = `Смотреть все (${num}) результаты`
+
+      }
+    }
+  };
+  const observer = new MutationObserver(callback);
+  observer.observe(target, config);
+
+})
