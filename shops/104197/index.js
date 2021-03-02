@@ -8,6 +8,7 @@ import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div.content-area > div.main-slider.content_center').remove()
+  document.querySelector('#home > div > div.content-area').insertAdjacentHTML('afterbegin', `<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614677976/Frame_7_bpoulv.png"><div><div></div><div></div></div></div>`)
 }
 
 if (location.href.includes('term-of-use')) {
