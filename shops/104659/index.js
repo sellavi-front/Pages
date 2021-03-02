@@ -17,4 +17,5 @@ if (document.querySelector('.product-item.product-layout')) {
 if (pages.main) {
   cutSrcImg();
   changeTextCategoryBtn();
+  changeTextBannerBtn();
 }
