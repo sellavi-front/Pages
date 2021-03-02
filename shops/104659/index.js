@@ -7,6 +7,3 @@ import { changeTitleBlogToNews } from './scripts/main.js';
 if (pages.all) {
   changeTitleBlogToNews();
 }
-
-
-document.querySelector('.header-wrapper').classList.add('bg-black');

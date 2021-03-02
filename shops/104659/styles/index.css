@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import '../../../vendor/fonts/Golos/golos.css';
 
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
 
 .information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
   display: none;
-}
-
-.bg-black {
-  background: rgb(0 0 0) !important;
 }
 
 body h1,
@@ -24,7 +20,5 @@ body b,
 body strong {
   font-weight: 700;
   font-style: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Golos', sans-serif;
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600;800&display=swap'); */
