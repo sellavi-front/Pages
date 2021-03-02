@@ -38,7 +38,7 @@ if(document.querySelector(".common-home")) {
         <div class="categories_block">
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multidez/">
+                <a href="https://multimanic.ru/multiblade/">
                   <div class="cat-name">
                     MULTIBLADE
                   </div>
@@ -49,7 +49,7 @@ if(document.querySelector(".common-home")) {
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multinailstick/">
+                <a href="https://multimanic.ru/multicream-1/">
                   <div class="cat-name">
                     MULTICREAM
                   </div>
@@ -60,7 +60,7 @@ if(document.querySelector(".common-home")) {
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multiblade/">
+                <a href="https://multimanic.ru/multidez/">
                   <div class="cat-name">
                     MULTIDEZ
                   </div>
@@ -82,7 +82,7 @@ if(document.querySelector(".common-home")) {
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multicream-1/">
+                <a href="https://multimanic.ru/multinailstick/">
                   <div class="cat-name">
                     MULTINAILSTICK
                   </div>
