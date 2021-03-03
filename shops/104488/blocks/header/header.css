@@ -96,3 +96,7 @@ footer.footer .footer-widgets .widget-categories ul li:hover a {
     border-radius: 8px;
     font-size: 22px
 }
+
+footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(5) {
+    display: none;
+}
