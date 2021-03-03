@@ -5,4 +5,5 @@ body .main-slider .caption-content .caption-subtitle {
           text-transform: none !important;
           color: white !important;
           font-weight: normal !important;
+          margin: 40px auto;
 }
