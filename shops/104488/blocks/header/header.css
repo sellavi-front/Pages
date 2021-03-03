@@ -145,3 +145,7 @@ footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul 
 .common-home > div > div.content-area > div.contactsSection > div > div > div > div {
     margin-bottom: 0px !important;
 } 
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > div > div > a > img {
+    width: 30px;
+}
