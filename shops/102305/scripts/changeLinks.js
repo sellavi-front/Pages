@@ -58,7 +58,7 @@ const changeLinks = (() => {
     ) {
 
       a.closest('li').querySelectorAll('.panel-collapse > ul > li > a').forEach((link) => {
-        if (link.textContent.trim().toLocaleLowerCase() === check) link.setAttribute('href', href)
+        if (link.textContent.trim().toLocaleLowerCase() === 'сумки') link.setAttribute('href', href)
       });
 
       if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
