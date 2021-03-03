@@ -15,6 +15,7 @@ if (document.querySelector('.product-item.product-layout')) {
 
 console.log(pages);
 if (pages.main) {
+  console.log('you are man in main');
   cutSrcImg();
   changeTextCategoryBtn();
 }
