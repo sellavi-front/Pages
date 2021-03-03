@@ -100,3 +100,44 @@ footer.footer .footer-widgets .widget-categories ul li:hover a {
 footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(5) {
     display: none;
 }
+
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:after {
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background: black;
+    margin: 17px 40px;
+}
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:before {
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background: black;
+    margin: 17px 40px;
+}
+
+.common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span:before {
+    content: " ";
+    background: black;
+    padding: 1px 62px;
+    font-size: 1px;
+    position: relative;
+    top: -12px;
+    margin-right: 50px;
+}
+
+.common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span:after {
+    content: " ";
+    background: black;
+    padding: 1px 62px;
+    font-size: 1px;
+    position: relative;
+    top: -12px;
+    margin-left: 50px;
+}
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    color: black;
+}
