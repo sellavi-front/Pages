@@ -8,7 +8,7 @@ body.wide.ltr
   .thumbnail
   .price_actions
   .add_to_cart
-  > button,
+  > button:hover,
 body.wide.ltr
   .wrapper
   .page-section
@@ -18,13 +18,12 @@ body.wide.ltr
   .price_actions
   .more_details_btn_wrapper
   > button:hover {
-  background: rgba( 23, 43, 37, 1.00 );
-  -webkit-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20.0px );
-  -webkit-backdrop-filter: blur( 20.0px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  -webkit-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  transition: all .4s ease;
+  background: rgba(23, 43, 37, 1) i !important;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-transition: all 0.4s ease !important;
+  -o-transition: all 0.4s ease !important;
+  transition: all 0.4s ease !important;
 }
