@@ -1,12 +1,11 @@
-const btnWishListToBtnAddToCart = (() => {
-
+const btnWishListToBtnAddToCart = () => {
   const addBtn = (arr) => {
-    arr.forEach(card => {
+    arr.forEach((card) => {
       const wishList = card.querySelector('.add_to_wishlist');
-      card.querySelector('.add_to_cart').insertAdjacentHTML('afterend', wishList.outerHTML)
+      card.querySelector('.add_to_cart').insertAdjacentHTML('afterend', wishList.outerHTML);
       wishList.remove();
-    })
-  }
+    });
+  };
   const cards = document.querySelectorAll('.products.grid .product-item');
   let target = document.querySelector('body div.products');
   const config = {
@@ -21,9 +20,8 @@ const btnWishListToBtnAddToCart = (() => {
   };
   const observer = new MutationObserver(callback);
 
-
-  addBtn(cards)
+  addBtn(cards);
   observer.observe(target, config);
-})();
+};
 
 export default btnWishListToBtnAddToCart;
