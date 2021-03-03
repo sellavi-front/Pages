@@ -1,4 +1,4 @@
-const cutSrcImg = (() => {
+const cutSrcImg = () => {
   const imgCat = document.querySelectorAll(
     '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
   );
@@ -12,6 +12,6 @@ const cutSrcImg = (() => {
 
     cat.setAttribute('src', replacedSrc);
   });
-})
+};
 
 export default cutSrcImg;
