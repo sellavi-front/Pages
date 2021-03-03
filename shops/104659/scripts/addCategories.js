@@ -1,5 +1,5 @@
 const isHiddenBtn = () => {
-  return document.querySelector(".homefeatured_category > div > div > div:nth-child(1) > div > div > a > div > div > div > span").classList
+  return Array.from(document.querySelector(".homefeatured_category > div > div > div:nth-child(1) > div > div > a > div > div > div > span").classList)
 }
 
 const setData = (data) => {
