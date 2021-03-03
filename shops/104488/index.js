@@ -65,6 +65,7 @@ if (document.querySelector('.information-contact')) {
                     89064424953                  </div>
                 </div>`)
                 document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > i').classList = 'float-right fa fa-clock'
+                document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > div > strong').innerHTML = 'Часы работы'
 }
 
 if (location.href.includes('term-of-use')) {
