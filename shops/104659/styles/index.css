@@ -18,6 +18,7 @@
 @import './category/category.css';
 @import './logo/logo.css';
 @import './header/header.css';
+@import './titles/titles.css';
 
 :root {
   --color-custom-theme: #121E1A !important;
