@@ -5,10 +5,15 @@ import changeTextCategoryBtn from './changeTextCategoryBtn.js'
 // import changeTextBannerBtn from './changeTextBannerBtn.js'
 
 
-export {
-  changeTitleBlogToNews,
-  // btnWishListToBtnAddToCart,
-  cutSrcImg,
-  changeTextCategoryBtn,
-  // changeTextBannerBtn
+if (pages.all) {
+  changeTitleBlogToNews();
+}
+
+// if (document.querySelector('.product-item.product-layout')) {
+//   btnWishListToBtnAddToCart();
+// }
+
+if (pages.main) {
+  cutSrcImg();
+  changeTextCategoryBtn();
 }

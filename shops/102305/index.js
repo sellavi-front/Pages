@@ -101,4 +101,5 @@ if (document.querySelector(".product-product")) {
 
 if (document.querySelector('.checkout-checkout')) {
   document.querySelector("#payment-address-new > div:nth-child(3) > div > label").textContent = 'Полный адрес (требуется)';
+  document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label").textContent = 'ONLINE';
 }
