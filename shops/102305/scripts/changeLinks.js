@@ -56,7 +56,7 @@ console.log(mobLinks);
       a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
       a.textContent.trim().toLocaleLowerCase() === 'женщинам'
     ) {
-
+      console.log(a.closest('li').querySelectorAll('.panel-collapse > ul > li > a'));
       a.closest('li').querySelectorAll('.panel-collapse > ul > li > a').forEach((link) => {
         if (link.textContent.trim().toLocaleLowerCase() === 'сумки') link.setAttribute('href', href)
       });
