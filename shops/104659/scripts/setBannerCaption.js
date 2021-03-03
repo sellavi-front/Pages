@@ -5,9 +5,11 @@ const link = document
   .getAttribute('href');
 
   const setBannerCaption = (img) => {
-  document
-    .querySelector('#banner0 > div > div > div:nth-child(2) > div.item > div > div > div > div')
-    .insertAdjacentHTML(
+    const cont = document
+    .querySelector('#banner0 > div > div > div:nth-child(2) > div.item > div > div > div > div');
+    cont.textContent = '';
+
+    cont.insertAdjacentHTML(
       'beforeend',
       `
   <div class="caption-content">
