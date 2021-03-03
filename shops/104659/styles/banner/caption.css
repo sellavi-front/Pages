@@ -9,16 +9,20 @@
   line-height: 1.3;
 }
 
-#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+#banner0 > div > div > div> div > div > div > div > div > div > p > a {
   background: #0000;
   border-radius: 50px;
   border-color: #fff;
   width: 229px;
 }
 
+
+
 .caption-text a.btn.btn-theme:hover {
-  background: rgba(248, 255, 253, 0.3);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(2.5px);
-  -webkit-backdrop-filter: blur(2.5px);
+  background: rgba( 248, 255, 253, 0.30 );
+-webkit-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 10px;
+border: 2px solid rgba( 255, 255, 255, 0.18 );
 }
