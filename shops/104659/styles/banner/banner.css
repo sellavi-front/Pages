@@ -4,6 +4,6 @@
   display: block !important;
 }
 
-.main-slider .caption-content {
+.main-slider .caption-content  img{
   display: none;
 }
