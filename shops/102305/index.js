@@ -69,7 +69,7 @@ if (document.querySelector('.wrapper')) {
       ) {
         console.log('sib', a.nextElementSibling);
         if (a.nextElementSibling) {
-          console.log(a.nextElementSibling.querySelector('li > a'));
+          console.log(a.nextElementSibling.querySelector('a'));
         }
       }
     });
