@@ -59,4 +59,10 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
     align-items: center !important
   } 
   
-  
+  .sf-menu ul li {
+    width: 250px;
+}
+
+.sf-menu .flexy.has_children ul li > a {
+    padding: 20px 40px
+}
