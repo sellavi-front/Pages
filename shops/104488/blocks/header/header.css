@@ -71,3 +71,18 @@ header > div.header-wrapper > div.container > ul > li:hover > a {
 footer.footer .footer-widgets .widget-categories ul li:hover a {
     border-bottom: 2px solid red;
 }
+
+
+#banner0 > div > div > div > div > div > div > div > div > div > p {
+    margin-top: 250px;
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    text-transform: none;
+    background: rgb(231,212,146);
+    background: linear-gradient(90deg, rgba(231,212,146,1) 0%, rgba(140,177,221,1) 100%);
+    color: black;
+    padding: 30px 60px;
+    border-radius: 8px;
+    font-size: 22px
+}
