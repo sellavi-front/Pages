@@ -55,7 +55,7 @@ if (document.querySelector('.wrapper')) {
     'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
   );
   let linkBag;
-  let bagLinks;
+  let shoesLink;
   let manShoes;
   let womanShoes;
   let kidShoes;
@@ -63,12 +63,17 @@ if (document.querySelector('.wrapper')) {
   links.forEach((a) => {
     if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
       linkBag = a.getAttribute('href');
-      bagLinks = a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a');
+    }
+  });
+
+  links.forEach((a) => {
+    if (a.textContent.trim().toLocaleLowerCase() === 'обувь') {
+      shoesLink = a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a');
       console.log('bag', a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a'));
     }
   });
 
-  bagLinks.forEach((a) => {
+  shoesLink.forEach((a) => {
     if (a.textContent.trim().toLocaleLowerCase() === 'подростковая')kidShoes = a.getAttribute('href');
     if (a.textContent.trim().toLocaleLowerCase() === 'мужская') manShoes = a.getAttribute('href');
     if (a.textContent.trim().toLocaleLowerCase() === 'женская') womanShoes = a.getAttribute('href');
