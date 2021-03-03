@@ -18,6 +18,14 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
   font-weight: 300;
 }
 
+#home footer .footer-widgets {
+  padding-top: 0;
+}
+
+#home footer .footer-widgets .container {
+  border-top: 1px solid;
+}
+
 
 @media only screen and (max-width: 991px) {
   body .footer .footer-widgets .widget-title {
