@@ -56,6 +56,7 @@ if (document.querySelector(".wrapper")) {
   observer.observe(target, config);
 
   const links = [document.querySelector(".navigation-wrapper > div > nav > ul > li:nth-child(4) > ul > li > a"), document.querySelector(".navigation-wrapper > div > nav > li:nth-child(5) > li > ul > li > a"), ]
+  console.log(document.querySelectorAll("#home > div > header > div.navigation-wrapper > div > nav.sf-menu > ul > li > a"));
   document.querySelectorAll("#home > div > header > div.navigation-wrapper > div > nav.sf-menu > ul > li > a").forEach(a => {
     console.log('A', a);
     if(a.textContent.trim().toLocaleLowerCase() === 'детям' || a.textContent.trim().toLocaleLowerCase() === 'мужчинам' || a.textContent.trim().toLocaleLowerCase() === 'женщинам') {
