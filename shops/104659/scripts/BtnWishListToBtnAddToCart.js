@@ -6,7 +6,7 @@ const btnWishListToBtnAddToCart = () => {
       wishList.remove()
     });
   };
-  const cards = document.querySelectorAll('.products.grid .product-item');
+  let cards = document.querySelectorAll('.products.grid .product-item');
   let target = document.querySelector('body div.products');
   const config = {
     childList: true,
@@ -14,7 +14,7 @@ const btnWishListToBtnAddToCart = () => {
   const callback = function (mutationsList, observer) {
     for (let mutation of mutationsList) {
       if (mutation.type === 'childList') {
-        addBtn(cards);
+        addBtn(document.querySelectorAll('.products.grid .product-item'));
       }
     }
   };
