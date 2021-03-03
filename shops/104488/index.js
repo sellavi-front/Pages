@@ -62,7 +62,7 @@ if (document.querySelector('.information-contact')) {
                   <i class="float-right fa fa-phone"></i>
                   <div class="media-body">
                     <strong>Часы работы:</strong><br><soan>
-                    89064424953                  </span></div>
+                    с 9.00 до 21.00                  </span></div>
                 </div>`)
                 document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > i').classList = 'float-right fa fa-clock'
                 document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > div > strong').innerHTML = 'Часы работы'
