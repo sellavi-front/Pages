@@ -1,7 +1,7 @@
 @import './caption/caption.css';
 
 body.ru.ltr .wrapper .homefeatured_category {
-  margin-bottom: 90px;
+  margin: 90px 0;
 }
 
 body.ru.ltr
