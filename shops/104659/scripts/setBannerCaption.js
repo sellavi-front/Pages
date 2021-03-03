@@ -18,7 +18,7 @@ const link = document
       Магазин натуральной косметики. Фитопрепараты и витаминные комплексы с доставкой по всей России.
     </h3>
     <p class="caption-text">
-      <a class="btn btn-theme" href="${link}" role="link">Подробнее</a>
+      <a class="btn btn-theme" href="${link}" role="link">Каталог</a>
     </p>
   </div>
   `,
