@@ -55,17 +55,13 @@ if (document.querySelector('.wrapper')) {
     'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
   );
   let linkBag;
-  // links.forEach((a) => {
-  //   if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
-  //     linkBag = a.getAttribute('src');
-  //   }
-  // });
-
   links.forEach((a) => {
     if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
       linkBag = a.getAttribute('href');
     }
+  });
 
+  links.forEach((a) => {
     if (
       a.textContent.trim().toLocaleLowerCase() === 'детям' ||
       a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
