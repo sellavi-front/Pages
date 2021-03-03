@@ -94,7 +94,7 @@ if (document.querySelector('.wrapper')) {
       if (a.textContent.trim().toLocaleLowerCase() === 'детям') {
         a.nextElementSibling.querySelectorAll('a').forEach((link) => {
           if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
-            link.setAttribute('href', linkBag);
+            link.setAttribute('href', kidShoes);
           }
         });
       }
