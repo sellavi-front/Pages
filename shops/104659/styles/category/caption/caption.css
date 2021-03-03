@@ -64,6 +64,20 @@ body.ru .wrapper .homefeatured_category > div > div > div:nth-child(3) > .thumbn
   color: white!important;
   border-color: white !important;
 }
+
+body.ru .wrapper .homefeatured_category > div > div > div:nth-child(3) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    padding-bottom: 16px !important;
+}
+
 /*
 body.theme_11.common-home
   .wrapper
