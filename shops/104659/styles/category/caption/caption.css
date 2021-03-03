@@ -1,6 +1,7 @@
 @import './caption-button.css';
 
-body.ru.ltr
+@media (min-width: 992px) {
+  body.ru.ltr
   .wrapper
   .homefeatured_category
   > div
@@ -172,6 +173,8 @@ body.ru.ltr
   -webkit-filter: invert(1);
   filter: invert(1);
 } */
+}
+
 
 @media only screen and (max-width: 992px) {
   body.ltr.common-home
