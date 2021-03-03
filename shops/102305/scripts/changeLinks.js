@@ -49,7 +49,7 @@ const changeLinks = (() => {
       if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
     }
   });
-
+console.log(mobLinks);
   mobLinks.forEach((a) => {
     if (
       a.textContent.trim().toLocaleLowerCase() === 'детям' ||
