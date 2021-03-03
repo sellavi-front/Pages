@@ -55,10 +55,22 @@ if (document.querySelector('.wrapper')) {
     'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
   );
   let linkBag;
+  let bagLinks;
+  let manShoes;
+  let womanShoes;
+  let kidShoes;
+
   links.forEach((a) => {
     if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
       linkBag = a.getAttribute('href');
+      bagLinks = a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a');
     }
+  });
+
+  bagLinks.forEach((a) => {
+    if (a.textContent.trim().toLocaleLowerCase() === 'подростковая')kidShoes = a.getAttribute('href');
+    if (a.textContent.trim().toLocaleLowerCase() === 'мужская') manShoes = a.getAttribute('href');
+    if (a.textContent.trim().toLocaleLowerCase() === 'женская') womanShoes = a.getAttribute('href');
   });
 
   links.forEach((a) => {
@@ -72,6 +84,28 @@ if (document.querySelector('.wrapper')) {
           link.setAttribute('href', linkBag);
         }
       });
+
+      if (a.textContent.trim().toLocaleLowerCase() === 'детям') {
+        a.nextElementSibling.querySelectorAll('a').forEach((link) => {
+          if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
+            link.setAttribute('href', linkBag);
+          }
+        });
+      }
+      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') {
+        a.nextElementSibling.querySelectorAll('a').forEach((link) => {
+          if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
+            link.setAttribute('href', manShoes);
+          }
+        });
+      }
+      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') {
+        a.nextElementSibling.querySelectorAll('a').forEach((link) => {
+          if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
+            link.setAttribute('href', womanShoes);
+          }
+        });
+      }
     }
   });
 }
