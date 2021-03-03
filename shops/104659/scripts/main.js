@@ -1,9 +1,9 @@
-import changeTitleBlogToNews from './changeTitleBlogToNews.js'
+import changeTitleBlogToNews from './changeTitleBlogToNews.js';
 // import btnWishListToBtnAddToCart from './btnWishListToBtnAddToCart.js'
-import cutSrcImg from './cutSrcImg.js'
-import changeTextCategoryBtn from './changeTextCategoryBtn.js'
+import cutSrcImg from './cutSrcImg.js';
+import changeTextCategoryBtn from './changeTextCategoryBtn.js';
 // import changeTextBannerBtn from './changeTextBannerBtn.js'
-
+import pages from '../config/conditions.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
