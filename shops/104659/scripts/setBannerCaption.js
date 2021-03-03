@@ -1,8 +1,7 @@
-
 const setBannerCaption = (img) => {
   const link = document
-  .querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a')
-  .getAttribute('href');
+    .querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a')
+    .getAttribute('href');
 
   const cont = document.querySelector(
     '#banner0 > div > div > div > div.item > div > div > div > div',
