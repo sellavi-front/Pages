@@ -51,24 +51,28 @@ if (document.querySelector('.wrapper')) {
   const observer = new MutationObserver(callback);
   observer.observe(target, config);
 
-  const links = [
-    document.querySelector('.navigation-wrapper > div > nav > ul > li:nth-child(4) > ul > li > a'),
-    document.querySelector('.navigation-wrapper > div > nav > li:nth-child(5) > li > ul > li > a'),
-  ];
-  console.log(
-    document.querySelectorAll('header > div.navigation-wrapper > div  .nav.sf-menu > li > a'),
+  const links = document.querySelectorAll(
+    'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
   );
-  document
-    .querySelectorAll('header > div.navigation-wrapper > div .nav.sf-menu > li > a')
-    .forEach((a) => {
-      if (
-        a.textContent.trim().toLocaleLowerCase() === 'детям' ||
-        a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
-        a.textContent.trim().toLocaleLowerCase() === 'женщинам'
-      ) {
-          console.log(a.nextElementSibling.querySelector('a'));
-      }
-    });
+  let linkBag;
+
+  links.forEach((a) => {
+    if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
+      linkBag = a.getAttribute('src');
+    }
+
+    if (
+      a.textContent.trim().toLocaleLowerCase() === 'детям' ||
+      a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
+      a.textContent.trim().toLocaleLowerCase() === 'женщинам'
+    ) {
+      a.nextElementSibling.querySelectorAll('a').forEach((link) => {
+        if (link.textContent.trim().toLocaleLowerCase() === 'сумки') {
+          link.setAttribute('src', linkBag);
+        }
+      });
+    }
+  });
 }
 
 /*
