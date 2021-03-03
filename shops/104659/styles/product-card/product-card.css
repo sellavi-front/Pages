@@ -6,3 +6,9 @@
 .product-item.product-layout {
   border: none !important;
 }
+
+@media (max-width: 576px) {
+  body .product-item .hide_on_mobile {
+    display: block !important;
+  }
+}
