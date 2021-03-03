@@ -13,6 +13,7 @@ if (document.querySelector('.product-item.product-layout')) {
   btnWishListToBtnAddToCart();
 }
 
+console.log(pages);
 if (pages.main) {
   cutSrcImg();
   changeTextCategoryBtn();
