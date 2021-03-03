@@ -67,9 +67,9 @@ if (document.querySelector('.wrapper')) {
         a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
         a.textContent.trim().toLocaleLowerCase() === 'женщинам'
       ) {
-        console.log('sib', a.nextSibling);
-        if (a.nextSibling) {
-          console.log(a.nextSibling);
+        console.log('sib', a.nextElementSibling);
+        if (a.nextElementSibling) {
+          console.log(a.nextElementSibling.querySelector('li > a'));
         }
       }
     });
