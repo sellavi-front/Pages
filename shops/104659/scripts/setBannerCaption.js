@@ -1,12 +1,12 @@
 const link = document
   .querySelector(
-    '#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > p > a',
+    '#banner0 > div > div > div > div > div > div > div > div > div > p > a',
   )
   .getAttribute('href');
 
   const setBannerCaption = (img) => {
     const cont = document
-    .querySelector('#banner0 > div > div > div:nth-child(2) > div.item > div > div > div > div');
+    .querySelector('#banner0 > div > div > div > div.item > div > div > div > div');
     cont.textContent = '';
 
     cont.insertAdjacentHTML(
