@@ -1,2 +1,7 @@
 @import '../../../fixes/fixes.css';
 @import './pay-delivery/pay-delivery.css';
+
+div.d-flex:nth-child(2) > section:nth-child(2) > p:nth-child(2),
+.delivery__right-small {
+  display: none !important;
+}
