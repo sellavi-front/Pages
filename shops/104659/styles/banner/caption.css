@@ -1,9 +1,15 @@
-body .main-slider .caption-content .caption-subtitle {
+#banner0 > div > div > div:nth-child(2) .caption-content .caption-subtitle {
   -webkit-box-shadow: none !important;
-          text-shadow: none !important;
-          font-size: 27px !important;
-          text-transform: none !important;
-          color: white !important;
-          font-weight: normal !important;
-          margin: 40px auto;
+  text-shadow: none !important;
+  font-size: 27px !important;
+  text-transform: none !important;
+  color: white !important;
+  font-weight: normal !important;
+  margin: 40px auto;
+}
+
+#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > p > a {
+  background: #0000;
+  border-radius: 50px;
+  border-color: #fff;
 }
