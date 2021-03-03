@@ -4,10 +4,12 @@ const link = document
   )
   .getAttribute('href');
 
-const setBannerCaption = (img) => {
-  document.querySelector('#banner0 > div > div > div:nth-child(2)').insertAdjacentHTML(
-    'beforeend',
-    `
+  const setBannerCaption = (img) => {
+  document
+    .querySelector('#banner0 > div > div > div:nth-child(2) > div.item > div > div > div > div')
+    .insertAdjacentHTML(
+      'beforeend',
+      `
   <div class="caption-content">
     <img src="${img}" alt="logo">
     <h3 class="caption-subtitle text-center">
@@ -18,7 +20,7 @@ const setBannerCaption = (img) => {
     </p>
   </div>
   `,
-  );
+    );
 };
 
 export default setBannerCaption;
