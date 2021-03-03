@@ -59,6 +59,11 @@ body.ru.ltr
   background: transparent !important;
   color: black !important;
 }
+
+body.ru .wrapper .homefeatured_category > div > div > div:not(:nth-child(3)) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
+  color: white!important;
+  border-color: white !important;
+}
 /*
 body.theme_11.common-home
   .wrapper
