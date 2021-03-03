@@ -54,3 +54,16 @@ header > div.header-wrapper > div.container > div.header_widgets {
 header > div.header-wrapper > div.container > div.header_widgets > div.header_login {
     display: none !important;
 }
+
+header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
+    border-bottom-color: transparent !important;
+}
+
+header > div.header-wrapper > div.container > ul > li:nth-child(1):hover > a {
+    border-bottom-color: red !important;
+}
+
+header > div.header-wrapper > div.container > ul > li:hover > a {
+    color: #bfbfbf;
+    border-bottom: 2px solid red;
+}

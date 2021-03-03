@@ -61,7 +61,7 @@ if (document.querySelector('.information-contact')) {
   document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2)').insertAdjacentHTML('beforebegin', `<div class="media">
                   <i class="float-right fa fa-phone"></i>
                   <div class="media-body">
-                    <strong>Телефон:</strong><br><soan>
+                    <strong>Часы работы:</strong><br><soan>
                     89064424953                  </span></div>
                 </div>`)
                 document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > i').classList = 'float-right fa fa-clock'
