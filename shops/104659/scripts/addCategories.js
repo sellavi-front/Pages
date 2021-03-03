@@ -39,7 +39,7 @@ const setData = (data) => {
 const addCategories = (data) => {
   document
     .querySelector('.homefeatured_category > div > div')
-    .insertAdjacentHTML('afterbegin', setData(data).join(''));
+    .insertAdjacentHTML('beforeend', setData(data).join(''));
 };
 
 export default addCategories;
