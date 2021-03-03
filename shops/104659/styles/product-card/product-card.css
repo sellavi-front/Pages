@@ -11,4 +11,12 @@
   body .product-item .hide_on_mobile {
     display: block !important;
   }
+
+  body.theme_11.mobile_two_columns .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    top: -100px !important;
+  }
+
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+    margin-bottom: 23px !important;
+  }
 }
