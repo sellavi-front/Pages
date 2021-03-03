@@ -149,3 +149,12 @@ footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul 
 footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > div > div > a > img {
     width: 30px;
 }
+
+#search_results > a > div.add_to_cart > button {
+    background: #fff;
+    border: 2px solid black !important;
+}
+
+#search_results > a > div.add_to_cart > button:hover {
+    background: #b0b0b0 !important;
+}
