@@ -122,7 +122,7 @@ footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul 
     content: " ";
     background: black;
     padding: 1px 62px;
-    font-size: 1px;
+    font-size: 0px;
     position: relative;
     top: -12px;
     margin-right: 50px;
@@ -132,7 +132,7 @@ footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul 
     content: " ";
     background: black;
     padding: 1px 62px;
-    font-size: 1px;
+    font-size: 0px;
     position: relative;
     top: -12px;
     margin-left: 50px;
