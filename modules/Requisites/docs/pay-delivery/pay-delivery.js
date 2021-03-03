@@ -58,7 +58,7 @@ const payDelivery = (obj) => {
   <section class="delivery__right">
 <h2 class="pay__title">Способы оплаты заказа</h2>
 <h4>
-  <span class="title-circle">•<span> Наличный рассчет: </span></span>
+  <span class="title-circle">•<span> Банковской картой: </span></span>
 </h4>
 <p class="label-default">
   Для оплаты (ввода реквизитов Вашей карты) Вы будете перенаправлены на платёжный шлюз ПАО СБЕРБАНК.
@@ -68,7 +68,7 @@ const payDelivery = (obj) => {
   J-Secure для проведения платежа также может потребоваться ввод специального пароля
 </p>
 <h4>
-  <span class="title-circle">•<span>&nbsp;Банковской картой: </span></span>
+  <span class="title-circle">•<span>&nbsp;Наличный рассчет: </span></span>
 </h4>
 <p class="label-default">
   — При получении заказа в согласованном по телефону с сотрудником нашей компании месте выдачи
