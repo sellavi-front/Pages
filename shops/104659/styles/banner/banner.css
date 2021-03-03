@@ -3,3 +3,7 @@
 .main-slider .caption-content {
   display: block !important;
 }
+
+.main-slider .caption-content {
+  display: none;
+}
