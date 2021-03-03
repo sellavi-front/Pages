@@ -1,6 +1,6 @@
 const link = document
   .querySelector(
-    '#banner0 > div > div > div.owl-item.owl-fade-out > div > div > div > div > div > div > p > a',
+    '#banner0 > div > div > div:nth-child(2) > div > div > div > div > div > div > p > a',
   )
   .getAttribute('href');
 
