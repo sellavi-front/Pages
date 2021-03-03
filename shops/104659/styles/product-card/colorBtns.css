@@ -1,0 +1,28 @@
+body.ltr .thumbnail .add_to_wishlist button:hover,
+body.ltr .thumbnail .remove_from_wishlist button:hover,
+body.wide.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+body.wide.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .more_details_btn_wrapper
+  > button:hover {
+  background: rgba( 23, 43, 37, 1.00 );
+  -webkit-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20.0px );
+  -webkit-backdrop-filter: blur( 20.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

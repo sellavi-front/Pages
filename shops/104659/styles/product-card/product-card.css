@@ -1,6 +1,7 @@
 @import './priceActions.css';
 @import './btn-wishList.css';
 @import './add_to_cart.css';
+@import './colorBtns.css';
 
 .product-item.product-layout {
   border: none !important;
