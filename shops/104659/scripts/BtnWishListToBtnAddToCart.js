@@ -3,7 +3,7 @@ const btnWishListToBtnAddToCart = () => {
     arr.forEach((card) => {
       const wishList = card.querySelector('.add_to_wishlist');
       card.querySelector('.add_to_cart').insertAdjacentHTML('afterend', wishList.outerHTML);
-      wishList.remove();
+      wishList.remove()
     });
   };
   const cards = document.querySelectorAll('.products.grid .product-item');
