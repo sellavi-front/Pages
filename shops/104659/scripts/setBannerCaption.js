@@ -1,17 +1,17 @@
-const link = document
-  .querySelector(
-    '#banner0 > div > div > div > div > div > div > div > div > div > p > a',
-  )
+
+const setBannerCaption = (img) => {
+  const link = document
+  .querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a')
   .getAttribute('href');
 
-  const setBannerCaption = (img) => {
-    const cont = document
-    .querySelector('#banner0 > div > div > div > div.item > div > div > div > div');
-    cont.textContent = '';
+  const cont = document.querySelector(
+    '#banner0 > div > div > div > div.item > div > div > div > div',
+  );
+  cont.textContent = '';
 
-    cont.insertAdjacentHTML(
-      'beforeend',
-      `
+  cont.insertAdjacentHTML(
+    'beforeend',
+    `
   <div class="caption-content">
     <img src="${img}" alt="logo">
     <h3 class="caption-subtitle text-center">
@@ -22,7 +22,7 @@ const link = document
     </p>
   </div>
   `,
-    );
+  );
 };
 
 export default setBannerCaption;

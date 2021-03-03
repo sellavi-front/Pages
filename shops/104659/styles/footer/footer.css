@@ -35,6 +35,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     margin-bottom: 0 !important;
   }
 
+  footer.footer .widget {
+    padding: 0 40px !important;
+  }
+
   #home > div > footer > div.footer-widgets > div.container > div > div:not(:nth-child(1)) {
     margin-top: 30px !important;
     padding-top: 20px;
