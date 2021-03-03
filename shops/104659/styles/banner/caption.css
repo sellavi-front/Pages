@@ -4,4 +4,5 @@ body .main-slider .caption-content .caption-subtitle {
           font-size: 27px !important;
           text-transform: none !important;
           color: white !important;
+          font-weight: normal !important;
 }
