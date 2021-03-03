@@ -64,7 +64,7 @@ if (document.querySelector('.information-contact')) {
                     <strong>Телефон:</strong><br>
                     89064424953                  </div>
                 </div>`)
-  
+                document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > i').classList = 'float-right fa fa-clock'
 }
 
 if (location.href.includes('term-of-use')) {
