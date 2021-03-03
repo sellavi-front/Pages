@@ -9,6 +9,8 @@
   padding-top: 20px !important;
 }
 
+
+
 body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title,
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
   color: black !important;
@@ -24,6 +26,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
 
 #home footer .footer-widgets .container {
   border-top: 1px solid;
+  padding-top: 45px;
 }
 
 
