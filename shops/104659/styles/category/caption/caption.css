@@ -125,54 +125,6 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   padding: 0;
 }
 
-/*
-body.theme_11.common-home
-  .wrapper
-  .homefeatured_category
-  > div
-  > div
-  > div:nth-child(1)
-  > .thumbnail
-  .media
-  .media-link
-  .caption
-  .caption-wrapper
-  .caption-inner
-  h2.caption-title
-  span,
-body.theme_11.common-home
-  .wrapper
-  .homefeatured_category
-  > div
-  > div
-  > div:nth-child(1)
-  > .thumbnail
-  .media
-  .media-link
-  .caption
-  .caption-wrapper
-  .caption-inner
-  .btn {
-  color: white !important;
-  border-color: white !important;
-} */
-
-/*
-body.ru.ltr
-  .wrapper
-  .homefeatured_category
-  > div
-  > div
-  > div:nth-of-type(2)
-  > .thumbnail
-  .media
-  .media-link
-  .caption
-  .caption-wrapper
-  .caption-inner {
-  -webkit-filter: invert(1);
-  filter: invert(1);
-} */
 }
 
 
