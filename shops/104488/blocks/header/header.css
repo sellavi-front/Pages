@@ -67,3 +67,7 @@ header > div.header-wrapper > div.container > ul > li:hover > a {
     color: #bfbfbf;
     border-bottom: 2px solid red;
 }
+
+footer.footer .footer-widgets .widget-categories ul li:hover a {
+    border-bottom: 2px solid red;
+}
