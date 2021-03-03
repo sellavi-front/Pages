@@ -3,7 +3,7 @@ const addTitleForCategory = (text) => {
     .querySelector('.homefeatured_category > div')
     .insertAdjacentHTML(
       'afterbegin',
-      `<h2 class="section-title mb-4 mt-4"><span> ${text} </span></h2>`,
+      `<h2 class="section-title mb-4 mt-4">${text}</h2>`,
     );
 };
 
