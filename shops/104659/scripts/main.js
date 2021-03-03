@@ -18,7 +18,7 @@ if (document.querySelector('.product-item.product-layout')) {
 }
 
 if (pages.main) {
-  setBannerCaption();
+  setBannerCaption('https://res.cloudinary.com/depgheppz/image/upload/v1614779607/Group_7423535_fvlseb.svg');
   addTitleForCategory('Каталог')
   cutSrcImg();
   changeTextCategoryBtn();

@@ -1,9 +1,9 @@
 const link = document.querySelector("#banner0 > div > div > div.owl-item.owl-fade-out > div > div > div > div > div > div > p > a").getAttribute('href')
 
-const setBannerCaption = () => {
+const setBannerCaption = (img) => {
   return `
   <div class="caption-content">
-    <img src="" alt="logo">
+    <img src="${img}" alt="logo">
     <h3 class="caption-subtitle text-center">
       Магазин натуральной косметики. Фитопрепараты и витаминные комплексы с доставкой по всей России.
     </h3>
