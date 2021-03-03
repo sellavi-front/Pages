@@ -60,7 +60,7 @@ body.ru.ltr
   color: black !important;
 }
 
-body.ru .wrapper .homefeatured_category > div > div > div:not(:nth-child(3)) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
+body.ru .wrapper .homefeatured_category > div > div > div:nth-child(3) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
   color: white!important;
   border-color: white !important;
 }
