@@ -9,3 +9,11 @@
     display: none;
   }
 }
+
+@media (min-width: 576px) {
+  .main-slider picture img {
+    height: 460px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
