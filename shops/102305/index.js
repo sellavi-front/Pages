@@ -51,6 +51,13 @@ if (document.querySelector('.wrapper')) {
   const observer = new MutationObserver(callback);
   observer.observe(target, config);
 
+  const findSetLink = (arr, href, check) => {
+    arr.nextElementSibling.querySelectorAll('a').forEach((link) => {
+      if (link.textContent.trim().toLocaleLowerCase() === check) {
+        link.setAttribute('href', href);
+      }
+    });
+  }
   const links = document.querySelectorAll(
     'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
   );
@@ -85,33 +92,12 @@ if (document.querySelector('.wrapper')) {
       a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
       a.textContent.trim().toLocaleLowerCase() === 'женщинам'
     ) {
-      a.nextElementSibling.querySelectorAll('a').forEach((link) => {
-        if (link.textContent.trim().toLocaleLowerCase() === 'сумки') {
-          link.setAttribute('href', linkBag);
-        }
-      });
 
-      if (a.textContent.trim().toLocaleLowerCase() === 'детям') {
-        a.nextElementSibling.querySelectorAll('a').forEach((link) => {
-          if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
-            link.setAttribute('href', kidShoes);
-          }
-        });
-      }
-      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') {
-        a.nextElementSibling.querySelectorAll('a').forEach((link) => {
-          if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
-            link.setAttribute('href', manShoes);
-          }
-        });
-      }
-      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') {
-        a.nextElementSibling.querySelectorAll('a').forEach((link) => {
-          if (link.textContent.trim().toLocaleLowerCase() === 'обувь') {
-            link.setAttribute('href', womanShoes);
-          }
-        });
-      }
+      findSetLink(a, linkBag, 'сумки')
+
+      if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(a, manShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
     }
   });
 }
