@@ -64,6 +64,7 @@ if (document.querySelector('.wrapper')) {
     if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
       linkBag = a.getAttribute('href');
       bagLinks = a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a');
+      console.log('bag', a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a'));
     }
   });
 
