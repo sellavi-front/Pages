@@ -1,6 +1,7 @@
 .tabs-wrapper.content-tabs {
   background: white;
-  box-shadow: 1px 4px 25px -21px black;
+  -webkit-box-shadow: 1px 4px 25px -21px black;
+          box-shadow: 1px 4px 25px -21px black;
   padding: 5%;
 }
 

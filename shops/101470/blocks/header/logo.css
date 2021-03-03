@@ -12,7 +12,8 @@
     }
 
     #home > div > header > div.header-wrapper > div.container-fluid > div.logo > a > img {
-      object-fit: cover;
+      -o-object-fit: cover;
+         object-fit: cover;
     }
 
     #home > div > header > div.header-wrapper > div.container-fluid > div > a > img {
