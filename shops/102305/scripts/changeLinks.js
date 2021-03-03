@@ -58,7 +58,7 @@ console.log(mobLinks);
     ) {
       console.log(a.closest('li').querySelectorAll('.panel-collapse > ul > li > a'));
       a.closest('li').querySelectorAll('.panel-collapse > ul > li > a').forEach((link) => {
-        if (link.textContent.trim().toLocaleLowerCase() === 'сумки') link.setAttribute('href', href)
+        if (link.textContent.trim().toLocaleLowerCase() === 'сумки') link.setAttribute('href', linkBag)
       });
 
       if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
