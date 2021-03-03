@@ -4,6 +4,8 @@
   display: block !important;
 }
 
-.main-slider .caption-content  img{
-  display: none;
+@media (max-width: 991px) {
+  .main-slider .caption-content img {
+    display: none;
+  }
 }
