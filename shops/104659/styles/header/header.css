@@ -1,5 +1,9 @@
 @import './header-ico.css';
 
+.sf-menu.nav>li>a {
+  font-weight: normal !important;
+}
+
 @media (max-width: 991px) {
   .navigation {
     display: none !important;
