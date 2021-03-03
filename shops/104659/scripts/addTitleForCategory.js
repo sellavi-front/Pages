@@ -7,4 +7,4 @@ const addTitleForCategory = (text) => {
     );
 };
 
-export default changeTextBannerBtn;
+export default addTitleForCategory;
