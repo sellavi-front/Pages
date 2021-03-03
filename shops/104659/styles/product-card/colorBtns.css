@@ -25,4 +25,7 @@ body.wide.ltr
   -webkit-backdrop-filter: blur( 20.0px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  -webkit-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
 }
