@@ -86,3 +86,13 @@ footer.footer .footer-widgets .widget-categories ul li:hover a {
     border-radius: 8px;
     font-size: 22px
 }
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:hover {
+    text-transform: none;
+    background: rgb(169 155 107);
+    background: linear-gradient(90deg, rgb(165 151 105) 0%, rgb(96 122 152) 100%);
+    color: white;
+    padding: 30px 60px;
+    border-radius: 8px;
+    font-size: 22px
+}
