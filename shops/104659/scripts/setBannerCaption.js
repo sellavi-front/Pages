@@ -1,7 +1,7 @@
 const link = document.querySelector("#banner0 > div > div > div.owl-item.owl-fade-out > div > div > div > div > div > div > p > a").getAttribute('href')
 
 const setBannerCaption = (img) => {
-  return `
+  document.querySelector("#banner0 > div > div > div:nth-child(2)").insertAdjacentHTML('beforeend', `
   <div class="caption-content">
     <img src="${img}" alt="logo">
     <h3 class="caption-subtitle text-center">
@@ -11,7 +11,7 @@ const setBannerCaption = (img) => {
       <a class="btn btn-theme" href="${link}" role="link">Подробнее</a>
     </p>
   </div>
-  `
+  `);
 };
 
 export default setBannerCaption;
