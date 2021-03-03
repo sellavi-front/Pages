@@ -1,18 +1,15 @@
 import '../../fixes/js/RemoveBlur/RemoveBlur.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-
-import icons from './utils/icons.js';
-
 import '../../components/HeaderTypeTwo/HeaderTypeTwoV2.js';
 import '../../components/PictureCategories/PictureCategories.js';
-// import "../../fixes/js/ChangeAgreement/ChangeAgreement.js"
-//import ContactsWithMap from "../../components/ContactsWithMap/ContactsWithMap.js"
 import Fixes from './fixes/fixes.js';
 import AdvantagesTypeTwo from '../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.js';
 import { adv } from './utils/utils.js';
 import { contactData } from './utils/utils.js';
 import Footer from './blocks/footer.js';
 import ProductPage from './blocks/product-page.js';
+import icons from './utils/icons.js';
+import changeLinks from './scripts/changeLinks.js';
 
 let fixes = new Fixes();
 let footer = new Footer();
@@ -51,55 +48,7 @@ if (document.querySelector('.wrapper')) {
   const observer = new MutationObserver(callback);
   observer.observe(target, config);
 
-  const findSetLink = (arr, href, check) => {
-    arr.nextElementSibling.querySelectorAll('a').forEach((link) => {
-      if (link.textContent.trim().toLocaleLowerCase() === check) {
-        link.setAttribute('href', href);
-      }
-    });
-  }
-  const links = document.querySelectorAll(
-    'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
-  );
-  let linkBag;
-  let shoesLinks;
-  let manShoes;
-  let womanShoes;
-  let kidShoes;
-
-  links.forEach((a) => {
-    if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
-      linkBag = a.getAttribute('href');
-    }
-  });
-
-  links.forEach((a) => {
-    if (a.textContent.trim().toLocaleLowerCase() === 'обувь') {
-      shoesLinks = a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a');
-      console.log('bag', a.nextElementSibling.querySelectorAll('.megaline .block-title.h4 a'));
-    }
-  });
-
-  shoesLinks.forEach((a) => {
-    if (a.textContent.trim().toLocaleLowerCase() === 'подростковая')kidShoes = a.getAttribute('href');
-    if (a.textContent.trim().toLocaleLowerCase() === 'мужская') manShoes = a.getAttribute('href');
-    if (a.textContent.trim().toLocaleLowerCase() === 'женская') womanShoes = a.getAttribute('href');
-  });
-
-  links.forEach((a) => {
-    if (
-      a.textContent.trim().toLocaleLowerCase() === 'детям' ||
-      a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
-      a.textContent.trim().toLocaleLowerCase() === 'женщинам'
-    ) {
-
-      findSetLink(a, linkBag, 'сумки')
-
-      if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
-      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(a, manShoes, 'обувь')
-      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
-    }
-  });
+  changeLinks();
 }
 
 /*
