@@ -55,6 +55,7 @@ if (document.querySelector('.header-wrapper')) {
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category > div > div').insertAdjacentHTML('beforebegin', '<div class="container"><span>Категории</span></div>')
+  document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Начать покупать'
 }
 
 if (document.querySelector('.information-contact')) {
