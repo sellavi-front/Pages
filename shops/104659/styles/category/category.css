@@ -1,5 +1,9 @@
 @import './caption/caption.css';
 
+body.ru.ltr .wrapper .homefeatured_category {
+  margin-bottom: 90px;
+}
+
 body.ru.ltr
   .wrapper
   .homefeatured_category
