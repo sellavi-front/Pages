@@ -107,8 +107,7 @@ body.ru
   .media-link
   .caption
   .caption-wrapper
-  .caption-inner
-  span.btn {
+  .caption-inner {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
