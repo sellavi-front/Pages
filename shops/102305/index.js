@@ -55,10 +55,15 @@ if (document.querySelector('.wrapper')) {
     'header > div.navigation-wrapper > div .nav.sf-menu > li > a',
   );
   let linkBag;
+  // links.forEach((a) => {
+  //   if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
+  //     linkBag = a.getAttribute('src');
+  //   }
+  // });
 
   links.forEach((a) => {
     if (a.textContent.trim().toLocaleLowerCase() === 'сумки') {
-      linkBag = a.getAttribute('src');
+      linkBag = a.getAttribute('href');
     }
 
     if (
@@ -68,7 +73,7 @@ if (document.querySelector('.wrapper')) {
     ) {
       a.nextElementSibling.querySelectorAll('a').forEach((link) => {
         if (link.textContent.trim().toLocaleLowerCase() === 'сумки') {
-          link.setAttribute('src', linkBag);
+          link.setAttribute('href', linkBag);
         }
       });
     }
