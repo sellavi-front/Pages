@@ -1,5 +1,8 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
-import {requsites, dataContact } from './utils/requsites.js'
+import {
+  requsites,
+  dataContact
+} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
@@ -7,7 +10,7 @@ import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
 
 if (document.querySelector('.common-home')) {
-  
+
   document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', `<div class="contactsSection">
   <div class="container">
     <div class="contacts-flex">
@@ -54,6 +57,16 @@ if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category > div > div').insertAdjacentHTML('beforebegin', '<div class="container"><span>Категории</span></div>')
 }
 
+if (document.querySelector('.information-contact')) {
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2)').insertAdjacentHTML('beforebegin', `<div class="media">
+                  <i class="float-right fa fa-phone"></i>
+                  <div class="media-body">
+                    <strong>Телефон:</strong><br>
+                    89064424953                  </div>
+                </div>`)
+  
+}
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Горелова Мария Сергеевна');
 
@@ -88,6 +101,3 @@ if (location.href.includes('pay-delivery')) {
   );
   req.setTemplate();
 }
-
-
-
