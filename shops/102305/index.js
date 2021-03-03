@@ -59,18 +59,14 @@ if (document.querySelector('.wrapper')) {
     document.querySelectorAll('header > div.navigation-wrapper > div  .nav.sf-menu > li > a'),
   );
   document
-    .querySelectorAll('header > div.navigation-wrapper > div  .nav.sf-menu > li > a')
+    .querySelectorAll('header > div.navigation-wrapper > div .nav.sf-menu > li > a')
     .forEach((a) => {
-      console.log('A', a);
       if (
         a.textContent.trim().toLocaleLowerCase() === 'детям' ||
         a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
         a.textContent.trim().toLocaleLowerCase() === 'женщинам'
       ) {
-        console.log('sib', a.nextElementSibling);
-        if (a.nextElementSibling) {
           console.log(a.nextElementSibling.querySelector('a'));
-        }
       }
     });
 }
