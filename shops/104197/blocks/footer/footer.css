@@ -30,4 +30,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div {
         margin: 0px;
     }
+
+    .information-information-8193 > div > div.content-area > section.page-section.color.information {
+        padding: 0 15px;
+    }
 }
