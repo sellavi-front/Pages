@@ -177,3 +177,7 @@ section.page-section.homefeatured_category > div > div > div > div > div:hover {
 section.page-section.homefeatured_category > div > div > div > div > div {
     transition: 0.6s;
 }
+
+nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
+    direction: ltr;
+}
