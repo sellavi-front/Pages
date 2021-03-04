@@ -131,7 +131,7 @@ body.theme-green-2.theme_11
   .price_actions
   .add_to_cart
   > button {
-  color: #000 !important;
+  /* color: #000 !important; */
   background-color: transparent !important;
   font-size: 12px !important;
 }
