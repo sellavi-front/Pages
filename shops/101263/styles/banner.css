@@ -37,7 +37,7 @@ body .main-slider .owl-item:nth-child(2) .caption-content {
 body .main-slider .caption-content h3.caption-subtitle span {
   text-transform: none !important;
   text-shadow: none !important;
-  color: var(--color-theme) !important;
+  color: #000 !important;
   font-weight: 700 !important;
 }
 
