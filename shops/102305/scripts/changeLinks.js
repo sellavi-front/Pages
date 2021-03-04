@@ -31,7 +31,7 @@ const changeLinks = (() => {
   });
 
   shoesLinks.forEach((a) => {
-    if (a.textContent.trim().toLocaleLowerCase() === 'подростковая')kidShoes = a.getAttribute('href');
+    if (a.textContent.trim().toLocaleLowerCase() === 'подростковая') kidShoes = a.getAttribute('href');
     if (a.textContent.trim().toLocaleLowerCase() === 'мужская') manShoes = a.getAttribute('href');
     if (a.textContent.trim().toLocaleLowerCase() === 'женская') womanShoes = a.getAttribute('href');
   });
@@ -71,7 +71,19 @@ const changeLinks = (() => {
     const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
 
       findSetLink(Array.from(categoriLinks), linkBag, 'сумки')
-      findSetLink(Array.from(categoriLinks), shoesLinks, 'обувь')
+      findSetLink(Array.from(categoriLinks), womanShoes, 'обувь')
+  }
+  if (document.querySelector('.product-category-5762 .subcategories_top')) {
+    const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
+
+      findSetLink(Array.from(categoriLinks), linkBag, 'сумки')
+      findSetLink(Array.from(categoriLinks), kidShoes, 'обувь')
+  }
+  if (document.querySelector('.product-category-5764 .subcategories_top')) {
+    const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
+
+      findSetLink(Array.from(categoriLinks), linkBag, 'сумки')
+      findSetLink(Array.from(categoriLinks), manShoes, 'обувь')
   }
 })
 
