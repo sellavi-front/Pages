@@ -1,34 +1,174 @@
+@media (min-width: 992px) {
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    position: absolute;
+    left: 25%;
+    right: auto;
+    padding: 5px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100% !important;
+    max-width: 100px !important;
+    margin: 6px 0 0;
+    background: var(--color-theme);
+  }
+
+  body.ltr .mobile-navigation-wrapper .menu-toggle:hover {
+    color: white !important;
+    opacity: 0.8;
+  }
+
+  body#home .mobile_side_nav .sidenav_search input {
+    direction: ltr !important;
+  }
+
+
+
+  .header .header-wrapper .mobile-navigation-wrapper a {
+    font-size: 15px !important;
+    color: #fff !important;
+  }
+
+body.sidenav-enabled .mobile_side_nav {
+  width: 50% !important;
+}
+
+}
+
+body .header_content a {
+  color: white !important;
+}
+
+body .arrow {
+  display: block !important;
+}
+
+.nav.sf-menu {
+  display: none !important;
+}
+
+body.sidenav-enabled.ltr .wrapper-opened {
+  /* left: 50% !important; */
+  position: static !important ;
+  left: calc(40% - 55px) !important;
+}
+
+.catalog-title {
+  margin-left: 5px;
+}
+
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#content > .buttons > div.float-right {
+  float: none !important;
+}
+
+body.ltr .wrapper .header .header-wrapper .header-search button i {
+  font-size: 21px !important;
 }
 
 .header .header-search .form-control {
-  width: 160px !important;
   height: 40px;
   line-height: 40px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+body.ltr .header-cart .cart_drop_down.dropdown .dropdown-menu {
+  right: 0 !important;
+  left: auto !important;
+}
+
+@media (max-width: 991px) {
   .catalog-title {
     display: none;
   }
 
-  body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
-    left: auto !important;
-    right: 0 !important;
-    box-shadow: none !important;
-    border: none !important;
-    border-left: 1px solid #e5e5e5;
-    top: 100px;
-    height: auto !important;
+  body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+    margin: 0 0 0 15% !important;
   }
 
-  body.sidenav-enabled .mobile_side_nav .flexy>.arrow i {
-    transform: rotate(180deg) !important;
+  body.ltr .header .header-wrapper .mobile-navigation-wrapper {
+    background: #fff !important;
+    z-index: 9999;
   }
 
-  body.sidenav-enabled .mobile_side_nav .flexy>.arrow i {
-    transform: rotate(270deg) !important;
+  body.ltr .wrapper .header .header-wrapper .header_widgets {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+  }
+}
+
+body.theme-red-2.theme_11
+  .header-cart
+  .cart_drop_down.dropdown
+  .dropdown-menu
+  .cart-items
+  .cart-items-inner
+  .cart-content
+  .vouchers
+  .media.buttons
+  .media-body
+  .media-links
+  .button-wrapper.cart-button
+  a:hover,
+body.theme-red-2.theme_11
+  .header-cart
+  .cart_drop_down.dropdown
+  .dropdown-menu
+  .cart-items
+  .cart-items-inner
+  .cart-content
+  .vouchers
+  .media.buttons
+  .media-body
+  .media-links
+  .button-wrapper.checkout-button
+  a:hover {
+  color: white !important;
+}
+
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li.flexy:hover
+  > ul
+  > li
+  > a,
+body.theme_11
+  .wrapper
+  .header
+  .navigation-wrapper
+  nav.navigation
+  ul.nav.sf-menu
+  > li[data-nav-part='home']:hover
+  > ul
+  > li
+  > a {
+  text-align: left !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body.ltr.ru .wrapper .header .header-wrapper .mobile-navigation-wrapper {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    left: 15px !important;
+    right: auto !important;
+    top: 30px !important;
   }
 
   .panel-collapse {
@@ -37,6 +177,7 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
 
   body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart {
     padding: 0 !important;
-    margin-top: 28px !important;
+    /* margin-top: 28px !important; */
   }
+
 }
