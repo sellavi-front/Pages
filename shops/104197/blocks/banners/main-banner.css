@@ -40,8 +40,8 @@ body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-ou
         width: 100% !important;
     }
 
-    .common-home > div > header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky {
-        display: flex;
+    header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky {
+        display: flex !important;
         margin: 0px;
     }
 }
