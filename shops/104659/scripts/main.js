@@ -8,6 +8,7 @@ import pages from '../config/conditions.js';
 import addCategories from './addCategories.js';
 import dataCategories from '../utils/dataCategories.js';
 import setBannerCaption from './setBannerCaption.js';
+import setTextCategories from './setTextCategories.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
@@ -23,4 +24,5 @@ if (pages.main) {
   cutSrcImg();
   changeTextCategoryBtn();
   addCategories(dataCategories);
+  setTextCategories();
 }

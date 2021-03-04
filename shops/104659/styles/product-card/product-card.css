@@ -7,7 +7,7 @@
   border: none !important;
 }
 
-body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   top: -40px !important;
 
 }
