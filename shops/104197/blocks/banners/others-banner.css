@@ -37,3 +37,12 @@
 header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
     border-bottom: 0px !important;
 }
+
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.common-home > div > div.content-area {
+    padding-bottom: 0px;
+}
