@@ -61,14 +61,14 @@ header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
 
 /* header > div.header-wrapper > div.container > ul > li:nth-child(1):hover > a {
     border-bottom-color: red !important;
-}
+} */
 
 header > div.header-wrapper > div.container > ul > li:hover > a {
     color: #bfbfbf;
-    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid red; */
 }
 
-footer.footer .footer-widgets .widget-categories ul li:hover a {
+/* footer.footer .footer-widgets .widget-categories ul li:hover a {
     border-bottom: 2px solid red;
 } */
 
