@@ -26,7 +26,7 @@ const setData = (data) => {
                 <p>
                   ${item.text}
                 </p>
-                <span class="${isHiddenBtn().join(' ')}">Подробнее</span>
+                <span class="${isHiddenBtn().join(' ')}">${item.textBtn}</span>
               </div>
             </div>
           </div>

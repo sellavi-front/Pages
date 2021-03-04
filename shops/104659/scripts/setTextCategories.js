@@ -14,6 +14,9 @@ const setTextCategories = (text) => {
       Залог красоты и здоровья вашей кожи.
       </p>`,
     );
+
+    document.querySelector("#home > div > div.content-area > section.page-section.homefeatured_category > div > div > div:nth-child(2) > div > div > a > div > div > div > .btn.btn-theme").textContent = 'Каталог'
+    document.querySelector("#home > div > div.content-area > section.page-section.homefeatured_category > div > div > div:nth-child(1) > div > div > a > div > div > div > .btn.btn-theme").textContent = 'Каталог'
 };
 
 export default setTextCategories;
