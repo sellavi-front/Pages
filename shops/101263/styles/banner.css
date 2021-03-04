@@ -12,6 +12,9 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
   color: red !important;
 }
 
+.cpation-text .btn.btn-theme path {
+  fill: var(--color-theme);
+}
 
 #banner0 .caption-content img {
   width: 90%;
@@ -46,19 +49,3 @@ body .main-slider .caption-content h3.caption-subtitle span {
     font-size: 32px !important;
   }
 }
-
-/*
-.bannerImg {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-@media (max-width: 375px) and (min-width: 320px) {
-  .logo img {
-    max-width: 120px;
-    margin-top: 10px;
-    margin-left: 0 !important;
-  }
-} */
