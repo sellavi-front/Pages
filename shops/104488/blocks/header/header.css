@@ -87,7 +87,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a:
     background: #fff;
     color: black;
     padding: 20px 40px;
-    border: 1px solid black;
+    border: 1px solid black !important;
     border-radius: 8px;
     font-size: 17px
 }
