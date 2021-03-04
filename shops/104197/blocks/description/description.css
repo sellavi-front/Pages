@@ -66,4 +66,8 @@
         height: 141px !important;
         width: 100% !important;
     }
+
+    .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+        flex-direction: column
+    }
 }
