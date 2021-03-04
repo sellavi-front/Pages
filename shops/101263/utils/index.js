@@ -26,10 +26,6 @@ if (pages.home) {
     btn.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`)
   });
   document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614861123/Group_7423585_ezrqbu.png">`)
-  // btnInSlider.insertAdjacentHTML(
-  //   'beforebegin',
-  //   `<span>Мясо, выпечка, консервы, сладости и многое другое прямиком из Израиля.</span>`,
-  // );
 
   if (window.screen.width >= 575) {
     document
@@ -42,9 +38,6 @@ if (pages.home) {
       .querySelector('#home > div > div.content-area > section > div > h2 > span')
       .insertAdjacentHTML('afterend', `<i class="fa fa-fire hits"></i>`);
   }
-
-  // let customSection = new CustomSection()
-  // customSection.render()
 
   renderCategories();
 
@@ -92,16 +85,6 @@ if (pages.all) {
   document.querySelector('.logo').insertAdjacentHTML('afterend', newCatalog.outerHTML);
   oldCatalog.remove();
 
-  // const headerWrapper = document.querySelector('#home > div > header > div.header-wrapper');
-  // window.addEventListener('scroll', function () {
-  //   console.log(pageYOffset);
-  //   let scrl;
-  //   if (pageYOffset >= 10 && pageYOffset === srcl) {
-  //     headerWrapper.classList.add('position-fixed')
-  //   } else if (pageYOffset < 20 && headerWrapper.classList.contains('position-fixed')) {
-  //       headerWrapper.classList.remove('position-fixed')
-  //   }
-  // });
 }
 
 if (location.href.includes('/index.php?route=account/register')) {
@@ -116,18 +99,6 @@ if (location.href.includes('/index.php?route=account/register')) {
     )
     .classList.add('btn-success');
 }
-
-// if (location.href.includes('/checkout')) {
-
-//   let newElement = document.createElement('form')
-//   newElement.classList.add("form_checkout")
-//   let oldElement = document.querySelector("#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout")
-//   newElement.innerHTML = oldElement.innerHTML
-//   oldElement.parentNode.replaceChild(newElement, oldElement)
-
-// }
-
-// });
 
 const logoSellavi = document.querySelector('#sellavi_logo > img');
 

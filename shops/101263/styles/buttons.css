@@ -1,5 +1,5 @@
 body.theme-red-2 {
-  --color-theme: rgb(252, 68, 77);
+  --color-theme: #83C452;
 }
 
 body.theme-red-2 .thumbnail .price_actions .add_to_cart .buttons_added.quantity i,
