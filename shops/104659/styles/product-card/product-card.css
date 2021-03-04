@@ -25,6 +25,11 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
   font-weight: normal;
 }
 
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  min-height: 55px;
+  max-height: 55px;
+}
+
 @media (max-width: 576px) {
   body .product-item .hide_on_mobile {
     display: block !important;
