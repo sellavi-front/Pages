@@ -229,3 +229,7 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         margin-left: 10px;
     }
 }
+
+.header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
+    color: #000;
+}
