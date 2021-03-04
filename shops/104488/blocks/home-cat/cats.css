@@ -275,3 +275,15 @@ header > div.header-wrapper > div.container > div.logo > a > img {
 .common-home > div > div.content-area > div.contactsSection > div > div > div > div > div > div > span {
     text-transform: uppercase;
 }
+
+.common-home > div > div.content-area > div.contactsSection > div > div > div > div.time > div.title-and-time > div.real-time > span {
+    text-transform: none;
+}
+
+.common-home > div > div.content-area > div.contactsSection > div > div > div > div.phones > div.title-and-phone > div.real-phone > span {
+    text-transform: none;
+}
+
+.common-home > div > div.content-area > div.contactsSection > div > div > div > div.email > div.title-and-email > div.real-email > span {
+    text-transform: none;
+}
