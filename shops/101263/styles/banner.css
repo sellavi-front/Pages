@@ -38,7 +38,7 @@ body .main-slider .caption-content h3.caption-subtitle span {
   text-transform: none !important;
   text-shadow: none !important;
   color: var(--color-theme) !important;
-  font-weight: bold !important;
+  font-weight: 700 !important;
 }
 
 body.theme-green-2 .main-slider .caption-subtitle {
