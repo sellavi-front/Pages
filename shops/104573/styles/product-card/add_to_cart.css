@@ -1,0 +1,21 @@
+body.wide.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .add_to_cart
+  > button,
+body.wide.ltr
+  .wrapper
+  .page-section
+  .products.grid
+  .product-item
+  .thumbnail
+  .price_actions
+  .more_details_btn_wrapper
+  > button {
+  background: var(--color-custom-theme) !important;
+  border-radius: var(--btn-border-radius);
+}

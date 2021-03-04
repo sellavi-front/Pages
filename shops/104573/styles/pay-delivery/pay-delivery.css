@@ -4,10 +4,7 @@ body .content-delivery {
 }
 
 body .content-delivery:last-child {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-      -ms-flex-direction: column !important;
-          flex-direction: column !important;
+  flex-direction: column !important;
 }
 
 body .content-delivery:last-child .delivery__right {
@@ -16,10 +13,7 @@ body .content-delivery:last-child .delivery__right {
 
 @media(max-width: 768px) {
  body .content-delivery {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    flex-flow: column;
  }
 }
 
@@ -30,16 +24,9 @@ body .delivery__right {
 }
 
 body .delivery__content {
- display: -webkit-box;
- display: -ms-flexbox;
  display: flex;
- -webkit-box-pack: justify;
-     -ms-flex-pack: justify;
-         justify-content: space-between;
- -webkit-box-orient: vertical;
- -webkit-box-direction: normal;
-     -ms-flex-direction: column;
-         flex-direction: column;
+ justify-content: space-between;
+ flex-direction: column;
  width: 100%;
 }
 
@@ -55,7 +42,7 @@ body .delivery__right-title {
 }
 }
 
-.delivery__right-small {
+delivery__right-small {
  color: rgb(112, 112, 112);
  font-size: 18px;
  line-height: 26px;
@@ -83,11 +70,7 @@ body .delivery__content-label {
 
 
 .faq__content--images {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: baseline;
   display: flex;
  margin: 32px auto;
  overflow: auto;
@@ -95,8 +78,7 @@ body .delivery__content-label {
 
 @media (max-width: 768px) {
  .faq__content--images {
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+      flex-wrap: wrap;
  }
 }
 

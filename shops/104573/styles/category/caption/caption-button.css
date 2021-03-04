@@ -1,0 +1,55 @@
+body.ru
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  span.btn {
+  background: transparent !important;
+  text-transform: none !important;
+  border-radius: 0 !important;
+  color: black !important;
+  width: 150px !important;
+}
+
+/*
+body.common-home .wrapper .homefeatured_category > div > div > div:nth-child(1) > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
+  border-color: white !important;
+  color: white !important;
+} */
+
+@media (max-width: 992px) {
+  body.ltr
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    span.btn {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 400 !important;
+    border-width: 1px !important;
+    height: 45px;
+  }
+}

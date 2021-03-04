@@ -1,38 +1,39 @@
-import RequisitesEntity from './Requisites/Requisites.js'
-import { req, about } from './requsites.js'
+import Requisites from '../../../../modules/Requisites/Requisites.js';
+import {requsites, dataContact} from '../requsites.js'
 
-const orgName = Object.values(req)[0]
+const orgName = Object.values(requsites)[0]
 
 if (location.href.includes('term-of-use')) {
-  const r = new RequisitesEntity(req, 'beforeend', orgName)
-  r.setTemplate()
+  const req = new Requisites(requsites, 'beforeend', orgName);
+
+  req.setTemplate();
 }
 
 if (location.href.includes('contact')) {
-  const media = document.querySelector('.contact-info > .media-list > .media:last-child')
+  const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const r = new RequisitesEntity(req, 'afterend', orgName, media)
-  r.setTemplate()
+  const req = new Requisites(requsites, 'afterend', orgName, media);
+  req.setTemplate();
 }
 
 
 if (location.href.includes('policy')) {
-  const r = new RequisitesEntity(
-    req,
+  const req = new Requisites(
+    requsites,
     'afterend',
     orgName,
     document.querySelector('#content > div > div'),
-  )
-  r.setTemplate()
+  );
+  req.setTemplate();
 }
 
 if (location.href.includes('pay-delivery')) {
-  const r = new RequisitesEntity(
-    req,
+  const req = new Requisites(
+    requsites,
     'afterend',
     orgName,
     document.querySelector('#content > div > div'),
-    about,
-  )
-  r.setTemplate()
+    dataContact,
+  );
+  req.setTemplate();
 }
