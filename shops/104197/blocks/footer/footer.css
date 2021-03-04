@@ -38,4 +38,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     #home > div > div.content-area > section.page-section.color.information {
         padding: 0 15px;
     }
+
+    .information-sitemap .page-section.with-sidebar {
+        padding: 0 15px !important;
+    }
 }
