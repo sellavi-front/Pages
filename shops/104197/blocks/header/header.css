@@ -25,3 +25,8 @@ body.theme_11 .wrapper .header .header-wrapper .header-search input.form-control
 body.ltr .wrapper .header .header-wrapper .header-search button {
     top: 0px !important;
 }
+
+body.ltr .wrapper .header .header-wrapper .header-search.opened #search_results {
+    max-width: 500px !important;
+    width: 500px !important;
+}
