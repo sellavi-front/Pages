@@ -173,7 +173,6 @@ export default function aerosolsPage() {
               alt=""
             />
           </div>
-          />
           <div class="col-md-7 col-12">
             <p>
               <b>20 пакетиков по 2 г порошка «ОКСИ» с экстрактом шиповника</b><br />
