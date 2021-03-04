@@ -12,6 +12,11 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
   color: red !important;
 }
 
+
+#banner0 .caption-content {
+  width: 90%;
+  margin: 0 auto;
+}
 body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price del {
   font-size: 14px !important;
 }
@@ -19,7 +24,7 @@ body.theme-red-2.theme_11 .wrapper .page-section .products.grid .product-item .t
 #banner0 > div > div > div > div > picture > img {
   -o-object-fit: cover;
      object-fit: cover;
-     height: 420px;
+     height: 520px;
 }
 
 body .main-slider .owl-item:nth-child(2) .caption-content {
