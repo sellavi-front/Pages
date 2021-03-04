@@ -16,8 +16,8 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
   margin: 20px 0 30px !important;
 }
 
-body .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
-body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   text-align: center !important;
 }
 
