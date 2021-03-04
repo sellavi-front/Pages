@@ -250,6 +250,10 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         top: -7px;
         margin-left: 10px;
     }
+
+    .common-home > div > footer > div.footer-widgets > div.container {
+        padding: 0px;
+    }
 }
 
 .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
