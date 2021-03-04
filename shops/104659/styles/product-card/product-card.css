@@ -7,6 +7,20 @@
   border: none !important;
 }
 
+body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  top: -40px !important;
+
+}
+
+body .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: center !important;
+}
+
+.caption-title a {
+  font-weight: normal;
+}
+
 @media (max-width: 576px) {
   body .product-item .hide_on_mobile {
     display: block !important;
