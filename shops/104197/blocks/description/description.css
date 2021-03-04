@@ -84,4 +84,17 @@
     body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
         display: block;
     }
+
+    .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(1) {
+        text-align: center;
+        font-size: 24px
+    }
+
+    body#home .mobile_side_nav .sidenav_search {
+        display: block !important;
+    }
+    
+    .common-home > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
+        direction: ltr
+    }
 }
