@@ -5,9 +5,9 @@
 }
 
 @media (max-width: 991px) {
-  /* .navigation {
+  header .navigation {
     display: none !important;
-  } */
+  }
 
   body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets {
     padding-right: 15px !important;
