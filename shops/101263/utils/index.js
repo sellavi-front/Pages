@@ -23,7 +23,7 @@ if (pages.home) {
 
   btnInSlider.forEach(btn => {
     btn.textContent = '';
-    btn.insertAdjacentHTML('afterbegin', `${icons.other.starDavid} Начать покупать`)
+    btn.insertAdjacentHTML('afterbegin', `Начать покупать`)
   });
   document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614861123/Group_7423585_ezrqbu.png">`)
 
