@@ -75,14 +75,14 @@ export default function aerosolsPage() {
         <h6 class="text-center w-100">
           <b>«AIR-AKTIVE» кислородный баллончик. 17 литров. </b>
         </h6>
-        <div clss="col-6">
+        <div clss="col-md-5 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614845487/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-03-04_%D0%B2_10.59.16_hjd0p0.png"
 
         />
         </div>
 
-        <div class="col-md-8 col-12">
+        <div class="col-md-7 col-12">
           <p>
             <b>
               Кислородный баллончик "Аэр-Актив" - кислородная смесь газов высшей очистки.
