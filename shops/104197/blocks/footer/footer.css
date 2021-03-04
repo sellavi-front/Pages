@@ -34,4 +34,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     .information-information-8193 > div > div.content-area > section.page-section.color.information {
         padding: 0 15px;
     }
+
+    #home > div > div.content-area > section.page-section.color.information {
+        padding: 0 15px;
+    }
 }
