@@ -23,6 +23,9 @@ const setData = (data) => {
             <div class="caption-wrapper div-table">
               <div class="caption-inner div-cell">
                 <h2 class="caption-title"><span>${item.title}</span></h2>
+                <p>
+                  ${item.text}
+                </p>
                 <span class="${isHiddenBtn().join(' ')}">Подробнее</span>
               </div>
             </div>
