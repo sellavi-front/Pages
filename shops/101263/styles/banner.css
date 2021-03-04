@@ -40,6 +40,10 @@ body .main-slider .caption-content h3.caption-subtitle span {
   color: var(--color-theme) !important;
 }
 
+body.theme-green-2 .main-slider .caption-subtitle {
+  color: #000 !important;
+}
+
 @media (max-width: 575px) {
   #banner0 > div > div > div > div > picture > img {
     height: 600px ;
