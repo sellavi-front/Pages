@@ -44,4 +44,8 @@ body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-ou
         display: flex !important;
         margin: 0px;
     }
+
+    .checkout-checkout > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.seller-comments.form-group.md-style-active > label {
+        font-size: 10px;
+    }
 }
