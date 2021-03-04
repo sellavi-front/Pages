@@ -77,6 +77,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a:
 } */
 
 
+
 #banner0 > div > div > div > div > div > div > div > div > div > p {
     margin-top: 250px;
 }
@@ -166,4 +167,13 @@ footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div
 
 body.ltr .wrapper .header .header-wrapper .header-search input.form-control {
     padding-right: 0px !important;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div:hover {
+    background: #ffffff4d;
+    transition: 0.6s;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div {
+    transition: 0.6s;
 }
