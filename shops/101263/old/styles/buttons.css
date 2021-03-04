@@ -1,0 +1,91 @@
+body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  color: #000 !important;
+  background-color: transparent !important;
+  font-size: 12px !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+  width: 100%;
+  border: 1px solid #333;
+  padding: 14px 30px;
+  transition: unset;
+}
+
+body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block {
+  background-color: #fff;
+  border-color: #000;
+  color: #000 !important;
+}
+
+body.theme-green-2.theme_11.account-login .create-account .button_holder .btn.btn-block:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: #fff !important;
+  border-color: #333 !important;
+  color: #000 !important;
+  font-size: 10px;
+}
+
+body.theme-green-2.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper.cart-button a:hover {
+  background-color: #fff !important;
+  color: #333 !important;
+  border-radius: 3px !important;
+}
+
+.thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+  border-radius: 5px;
+  height: 42px !important;
+  width: 45px !important;
+  color: #2d2d2d;
+  border: 1px solid #333;
+  background-color: hsla(0,0%,100%,.8);
+  padding: 0 0 0 1px !important;
+  font-size: 14px;
+}
+
+body.theme-green-2.theme_11.product-product .product-single.product-item .buttons #button-cart {
+  background-color: transparent !important;
+  color: #000 !important;
+  font-size: 12px;
+}
+
+body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+  background: transparent !important;
+  border-color: #333 !important;
+}
+
+body.theme-green-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  border-color: #333 !important;
+  color: transparent !important;
+}
+
+.product-product .product-single .buttons .btn-compare, .product-product .product-single .buttons .btn-wish-list {
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #6bc137;
+  background-color: transparent !important;
+  color: #232323;
+  border-radius: 5px !important;
+}
+
+body.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
+  border: 1px solid #333 !important;
+}
+
+body.theme-green-2.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button:hover {
+  background-color: transparent !important;
+}
+
+
+@media only screen and (max-width: 400px) {
+  body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+    display: inline-block;
+  }
+}
+

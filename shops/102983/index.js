@@ -1,5 +1,5 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
-import {requsites, dataContact } from './utils/requsites.js'
+import { requsites, dataContact } from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
@@ -31,7 +31,7 @@ if (document.querySelector('.header-wrapper')) {
 if (location.href.includes('contact')) {
   document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(1) > div > strong').insertAdjacentHTML('afterend', '<div>Нижегородская область, г.Кстово, ул.Шохина, 2а, 607661;</div>');
 }
- 
+
 if (location.href.includes('term-of-use')) {
   const req = new Requisites(requsites, 'beforeend', 'ИП Давыдов Олег Борисович');
 
@@ -45,6 +45,9 @@ if (location.href.includes('contact')) {
   req.setTemplate();
 }
 
+if (document.querySelector('.alert.alert-info')) {
+  document.querySelector("#home > div > div > div").childNodes[2].textContent = 'Пожалуйста, обратите внимание, чтобы добавить этот продукт в корзину, сначала заполните варианты продукта.';
+}
 
 if (location.href.includes('policy')) {
   const req = new Requisites(

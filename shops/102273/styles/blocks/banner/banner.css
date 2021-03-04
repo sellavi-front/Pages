@@ -9,6 +9,11 @@
   object-position: right;
 }
 
+
+body.information-information-3669 .content-area .page-section.titles {
+  display: none;
+}
+
 .owl-wrapper-outer {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;

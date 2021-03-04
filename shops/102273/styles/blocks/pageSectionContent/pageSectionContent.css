@@ -14,7 +14,7 @@
 
 .page-section__content_ph_b {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 .page-section__ul li:before {
@@ -77,6 +77,13 @@ body p {
 .photo-flex img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.page-section__programm > li > p::before{
+  content: '\25CF';
+  width: 5px;
+  color: red;
+  height: 5px;
 }
 
 .sect img.m-2 {

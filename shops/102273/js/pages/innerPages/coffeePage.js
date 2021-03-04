@@ -143,14 +143,10 @@ export default function coffeePage() {
       <div class="mb-50px">
         <h3 class="text-center" style="margin-bottom: 30px;"><b>Ассортимент Кофе Ray R.R</b></h3>
         <div
-          style="
-            display: grid;
-            grid-template-columns: repeat(auto-fit, 300px);
-            justify-content: space-between;
-            grid-gap: 30px;
-          "
+          class="row justify-content-center"
+
         >
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray1-e1510322042521_hdaetw.png"
               alt=""
@@ -165,7 +161,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929576/102273/ray3_t4yvbz.png"
               alt=""
@@ -181,7 +177,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray4_dlxdbc.png"
               alt=""
@@ -197,7 +193,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
@@ -214,7 +210,7 @@ export default function coffeePage() {
               </p>
             </div>
           </div>
-          <div class="d-flex flex-column mb-50px">
+          <div class="d-flex flex-column mb-50px col-4">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611929577/102273/ray5_uhcluq.png"
               alt=""
@@ -260,7 +256,7 @@ export default function coffeePage() {
             alt=""
           />
         </div>
-        <div class="w-100">
+        <div class="w-100 row mt-4">
           <img class="w-40" style="margin: 0 auto;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613661849/102273/image8_tpjejp.jpg">
         </div>
       </div>
@@ -269,7 +265,12 @@ export default function coffeePage() {
 }
 
 
-/*
+/* style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 300px);
+            justify-content: center;
+            grid-gap: 30px;
+          "
         <div style="display: grid; grid-template-columns: repeat(auto-fit, 49%); align-items: center; justify-content: space-between;">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611929031/102273/51562137_2172209263093789_3600202120499822592_o_qmefhv.png"

@@ -9,7 +9,7 @@ const disinfectantsPages = () => {
         <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® </a>
+        <a href="${url}#2" class="id_link">2. «ПОЛИСЕПТ ДЕЗ» ® </a>
       </li>
       <li class="mb-2">
         <a href="${url}#3" class="id_link">3. ДеФлок</a>
@@ -91,9 +91,11 @@ const disinfectantsPages = () => {
       <span style="text-decoration: underline; color: green;">в течение 3 суток.</span>
     </p>
 
-    <p class="row">
-      <span style="margin-right: 30px;">Полный пакет документов</span> <span style="color: red;">Согласовано Роспотребнадзор</span> <br>
-      <span style="margin-right: 30px;">от 1000 литров -  от 35 руб. за 1 литр</span> <span>БЕСПЛАТНАЯ ДОСТАВКА</span> <br>
+    <p>
+      <span style="margin-right: 30px;">Полный пакет документов</span> <br>
+      <span style="color: red;">Согласовано Роспотребнадзор</span> <br>
+      <span style="margin-right: 30px;">от 1000 литров -  от 35 руб. за 1 литр</span> <br>
+      <span>БЕСПЛАТНАЯ ДОСТАВКА</span> <br>
       Цена рекомендованного для работы 0.2% раствора ПГМГ – <span style="color: red;">5,28 рублей за 1 литр</span> <br>
       <b>«ПОЛИСЕПТ» ®</b> - концентрат дезинфицирующего средства на основе ПГМГ</br>
       <b>Состав:</b> очищенная вода, полигексаметиленгуанидин (ПГМГ) -1,0%</br>
@@ -117,9 +119,9 @@ const disinfectantsPages = () => {
       <b>Превосходит аналоги</b> - По своим дезинфицирующим свойствам Полисепт значительно
       превосходит имеющиеся в мире аналоги и запрещен к вывозу из РФ во время пандемии.
     </p>
-    <div class="w-50 mx-auto">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_5_sgsxfg.jpg">
-        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_6_pbolhd.jpg">
+    <div class="w-50 row">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_5_sgsxfg.jpg" class="col-md-6">
+        <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613657584/102273/unnamed_6_pbolhd.jpg" class="col-md-6">
     </div>
   </div>
   <div class="sect">
@@ -144,47 +146,42 @@ const disinfectantsPages = () => {
 
   <div class="sect" id="2">
     <h3><b>2. Реагент ДеФлок® (дезинфицирующее средство «ДеФлок»)</b></h3>
-    <div class="row flex-wrap">
+    <div class="flex-wrap">
       <p><b>
         Реагент ДеФлок®  (дезинфицирующее средство «ДеФлок», ТУ 9392-001-16866919-2013)</b></br></br>
         Реагент для очистки и обеззараживания воды в системах хозяйственно-питьевого водоснабжения, горячего водоснабжения, технического водоснабжения предприятий, оборотных вод в системах охлаждения оборудования, сточных вод, воды плавательных бассейнов и аквапарков, а также для предотвращения биообрастания.
       </p>
       <div class="mb-5 w-100 row">
-        <a href="#" class="button_link">Документация</a>
-        <a href="#" class="button_link">Презентация средства "ДеФлок"</a>
+        <a href="https://disk.yandex.ru/d/OYAihcmOSFI8Jw?w=1" class="button_link">Документация</a>
+        <a href="https://disk.yandex.ru/i/tJxvIA77v8XPUQ" class="button_link">Презентация средства "ДеФлок"</a>
       </div>
-    </div>
-    <div class="mt-4 mb-4 row">
-      <a href="#" class="button_link ">Скачать презентацию</a>
     </div>
   </div>
 
   <div class="sect" id="3">
     <h3><b>3. Обеззараживание средством «S-Pro»</b></h3>
     <div class="row flex-wrap">
-      <p>
+      <p class="mb-2">
         Обеззараживание средством «S-Pro» в санитарных пропускных пунктах и дезинфекционных тоннелях производится методом мелкодесперсного распыления. Для этого могут применятся компрессоры, аэрозольные баллоны и генераторы тумана.
       </p>
-      <p>
+      <p class="mb-2">
         При обеззараживании в санитарно-пропускных пунктах и дезинфекционных тоннелях необходимо строго соблюдать рабочий температурный режим (от +3 до +50).
       </p>
-      <p>
+      <p class="mb-2">
         Средство «S-Pro» относится к 4 классу опасности, не раздражает слизистую оболочку глаз, дыхательные пути, кожный покров. Щадяще относится ко всем видам поверхностей: металл, стекло, ткань, кожа, мех, резина и т д.
       </p>
-      <p>
+      <p class="mb-2">
         После обработки в санитарно-пропускных пунктах и дезинфекционных тоннелях, средство не требует смывания, не оставляет следов на одежде.
       </p>
-      <p>
+      <p class="mb-2">
         После прохождения дезинфекции в санитарно-пропускных пунктах и дезинфекционных тоннелях средство «S-Pro» сохраняет свои противомикробные средства до 8 часов.
       </p>
 
       <div class="mb-5 w-100 row">
-        <a href="#" class="button_link">Документация на русском языке</a>
-        <a href="#" class="button_link">Документация на иностранных языках)</a>
+        <a href="https://disk.yandex.ru/i/C75RX55mmOMLCw" class="button_link">Документация на русском языке</a>
+        <a href="https://disk.yandex.ru/d/L2XxSAUufP00rw?w=1" class="button_link">Документация на иностранных языках)</a>
+        <a href="https://disk.yandex.ru/i/RUmZx6CQOrg7wg" class="button_link ">Скачать презентацию</a>
       </div>
-    </div>
-    <div class="mt-4 mb-4 row">
-      <a href="#" class="button_link ">Скачать презентацию</a>
     </div>
   </div>
 
@@ -205,8 +202,7 @@ const disinfectantsPages = () => {
           характеризуется остаточным антимикробным действием.
         </p>
         <div class="mt-4 mb-4">
-          <p><b>Назначения средства:</b></p>
-          <p>
+          <p><b>Назначения средства:</b><br>
             - для дезинфекции поверхностей в помещениях, жесткой мебели, санитарно-технического
             оборудования, белья, посуды, уборочного материала, предметов ухода за больными;
             <br />
@@ -225,13 +221,12 @@ const disinfectantsPages = () => {
       </div>
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612183952/102273/image_84_r0f1fk.png"
-        alt=""
+        style="object-fit: contain;"
         class=" col col-md-4"
       />
     </div>
     <div class="mt-4 mb-4">
-      <p><b>Состав дезинфицирующего средства:</b></p>
-      <p>
+      <p><b>Состав дезинфицирующего средства:</b> <br>
         • наносеребро (действующее вещество)<br />
         • вода деионизированная<br />
         • функциональные добавки
@@ -331,8 +326,9 @@ const disinfectantsPages = () => {
       </p>
     </div>
     <div class="mt-4 mb-4 row">
-        <a href="" class="button_link mb-2">Инструкция по применению</a>
-        <a href="" class="button_link mb-2">Протокол испытаний</a>
+        <a href="https://disk.yandex.ru/i/wXUmSZYxFhah6A" class="button_link mb-2">Инструкция по применению</a>
+        <a href="https://disk.yandex.ru/d/s_4UMq37l-eQJQ?w=1" class="button_link mb-2">Протокол испытаний</a>
+        <a href="https://disk.yandex.ru/d/GpJLfmb6j5Pa6A?w=1" class="button_link mb-2">Документация</a>
     </div>
   </div>
 </section>

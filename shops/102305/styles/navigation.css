@@ -16,3 +16,11 @@
   align-items: flex-end;
   margin-bottom: 0 !important;
 }
+
+body.sidenav-enabled .mobile_side_nav .flexy>.arrow {
+  display: block !important;
+}
+
+body.sidenav-enabled .mobile_side_nav {
+  position: absolute !important;
+}

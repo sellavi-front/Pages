@@ -14,7 +14,7 @@
   border-radius: 5px !important;
   background: var(--defaultBtn);
   height: 100%;
-  border: 0 !important;
+  border: 1px solid !important;
   color: var(--colored) !important;
   font-weight: 100;
 }
@@ -23,7 +23,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   border-radius: 5px !important;
   background: var(--btnHover) !important;
   height: 100%;
-  border: 0;
+  border: 1px solid !important;
   color: var(--colored) !important;
   font-weight: 100;
 }
@@ -92,6 +92,7 @@ body .section-title {
   color: var(--colored) !important;
   padding: 0;
   max-height: 60px;
+  border: 1px solid var(--colored);
 }
 
 .product-product .product-single .buttons .quantity .btn:hover {
@@ -108,7 +109,7 @@ body .section-title {
   color: var(--colored) !important;
   padding: 0;
   border-radius: 0;
-  border: 0;
+  border: 1px solid var(--colored);
   text-align: center;
 }
 
@@ -118,8 +119,8 @@ body .section-title {
   margin-left: 5px;
   max-width: 100%;
   background-color: var(--defaultBtn) !important;
-  border-color: transparent !important;
-  border-width: 0 !important;
+  border-color: var(--colored) !important;
+  border-width: 1px !important;
   color: var(--colored) !important;
   height: 60px;
   width: 270px;
@@ -128,13 +129,13 @@ body .section-title {
 
 body.ltr .btn.btn-theme {
   background-color: var(--defaultBtn) !important;
-  border-color: transparent !important;
   color: var(--colored) !important;
+  border: 1px solid !important;
 }
 
 body.ltr .btn.btn-theme:hover {
   background-color: var(--btnHover) !important;
-  border-color: transparent !important;
+  border-color: var(--colored) !important;
   color: var(--colored) !important;
 }
 
@@ -161,7 +162,7 @@ body .btn.btn-theme-default:active, body .btn.btn-theme-default:focus, body .btn
   margin-left: 5px;
   width: 60px;
   height: 60px;
-  border: 0 !important;
+  border: 1px solid var(--colored) !important;
   background-color: var(--defaultBtn) !important;
   color: var(--colored) !important;
   border-radius: 0;
@@ -175,9 +176,9 @@ body .btn.btn-theme-default:active, body .btn.btn-theme-default:focus, body .btn
 
 body .btn.btn-theme-default {
   background: var(--defaultBtn) !important;
-  border-color: 0 !important;
+  border-color: var(--colored) !important;
   color: var(--colored) !important;
-  border-width: 0 !important;
+  border-width: 1px !important;
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 600;

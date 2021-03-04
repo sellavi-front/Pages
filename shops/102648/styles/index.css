@@ -20,7 +20,3 @@ body .content-area .page-section.error-page h3 {
   line-height: 30px;
   font-weight: 700;
 }
-
-body.ltr > div > footer > div.footer-widgets > div.container > div > div:nth-child(3) {
-  display: none !important;
-}

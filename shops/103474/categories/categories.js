@@ -1,8 +1,8 @@
 const categories = [
   {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1613490169/Frame_49_2_rxujjr.png',
-    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7002',
-    text: 'Кофе, чай и какао',
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1614173861/Group_7423508_maietm.png',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7933',
+    text: 'Кошер для Песах',
   },
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784189/103474/Frame_50_bdvd2i.png',
@@ -40,10 +40,15 @@ const categories = [
     text: 'Молочная продукция',
   },
   {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_42_pobk7l.png',
-    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7774',
-    text: 'Все для выпечки',
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1613490169/Frame_49_2_rxujjr.png',
+    link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7002',
+    text: 'Кофе, чай и какао',
   },
+  // {
+  //   img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_42_pobk7l.png',
+  //   link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7774',
+  //   text: 'Все для выпечки',
+  // },
   {
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_49_1_md8fwy.png',
     link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7633',
@@ -55,9 +60,9 @@ const categories = [
     text: 'Детское питание и сухие завтраки',
   },
   {
-    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1612784188/103474/Frame_45_kqos0d.png',
+    img: 'https://res.cloudinary.com/depgheppz/image/upload/v1614173861/Frame_45_1_hghwfh.png',
     link: 'https://kosher-brodsky.com/index.php?route=product/category&path=7773',
-    text: 'Другое',
+    text: 'Кидуш, шаббат и праздники',
   },
 ]
 

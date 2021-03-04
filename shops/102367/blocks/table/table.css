@@ -1,0 +1,17 @@
+.popup__content {
+  height: 90vh !important;
+}
+
+.table-sizes__row_item:first-child, .table-sizes__row_item_title:first-child {
+  width: 100% !important;
+}
+
+body.ltr .product-single table td {
+  padding: 6px 10px 6px 0;
+}
+
+.table-sizes__row_item:first-child,
+.table-sizes__row_item_title {
+  color: #8F8478;
+  font-weight: bold;
+}

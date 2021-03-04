@@ -1,9 +1,10 @@
 import CreateAddContainer from '../../modules/CreateAddContainer/CreateAddContainer.js';
 
 export default class AdvantagesTypeTwo {
-  constructor(container, data) {
+  constructor(container, data, target = 'beforebegin') {
     this.container = container;
     this.data = data;
+    this.target = target;
   }
 
   setTemplate() {
@@ -31,7 +32,7 @@ export default class AdvantagesTypeTwo {
   render() {
     const createAddContainer = new CreateAddContainer(
       this.container,
-      'beforebegin',
+      this.target,
       this.setTemplate(),
     );
     createAddContainer.render();

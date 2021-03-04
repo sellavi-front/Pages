@@ -3,16 +3,18 @@ import contactData from './utils/contactData.js';
 
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
-import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
+
+
 import './header.js'
 // import '../../components/HeaderTypeThree/HeaderTypeThree.js';
 import '../../components/PictureCategories/PictureCategories.js';
 import ContactsWithMap from '../../components/ContactsWithMap/ContactsWithMap.js';
 
 import '../../fixes/js/FooterCopy/FooterCopy.js';
-import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
+import '../../fixes/js/ButtonContainerInProductCard/ButtonContainerInProductCard.js'
+import '../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js'
+import '../../fixes/js/Alert/Alert.js'
 
 if (document.querySelector('.common-home')) {
   document

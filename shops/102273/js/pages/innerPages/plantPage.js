@@ -1,7 +1,7 @@
 export default function plantPage() {
   return `
   <section class="page-section__content">
-  <h2 class="mb-3">Производство лечебной косметики и БАД серия «Алтай»<br>
+  <h2 class="mb-3 text-center">Производство лечебной косметики и БАД серия «Алтай»<br>
   (Отечественный производитель)
   </h2>
   <div class="sect w-100 mb-7">
@@ -33,7 +33,7 @@ export default function plantPage() {
     </p>
     </div>
     <div class="sect">
-      <h5><b>Партнеры питомника:</b></h5>
+      <h5 class="text-center"><b>Партнеры питомника:</b></h5>
       <p>
         <b>Россия:</b>
         Питомник Лесково, Питомник Савватевых, Тисс Руза, Питомник Ботаник, Егорьевский
@@ -51,7 +51,7 @@ export default function plantPage() {
     </div>
   </div>
   <div class="sect">
-    <h4 class="mb-2"><b>Услуги</b></h4>
+    <h4 class="mb-2 text-center"><b>Услуги</b></h4>
     <div class="d-flex flex-wrap">
       <div class="col-sm-3">
         <img class="mb-3" src="https://res.cloudinary.com/depgheppz/image/upload/v1612095137/102273/Ekonom_1_jhnspx.png" alt="">
@@ -72,7 +72,7 @@ export default function plantPage() {
     </div>
   </div>
   <div class="sect">
-    <h4 class="mb-2"><b>Фото территории питомника и выполненных работ:</b></h4>
+    <h4 class="mb-2 text-center"><b>Фото территории питомника и выполненных работ:</b></h4>
     <div class="d-flex flex-wrap jusctify-content-center">
       <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612095359/102273/image_77_x55qxl.png" alt="" class="m-2">
       <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612095359/102273/image_76_o6zj5s.png" alt="" class="m-2">

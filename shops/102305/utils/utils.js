@@ -22,11 +22,11 @@ export const adv = [
   {
     icon:
       'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Coat.svg',
-    text: 'Более 10000 товаров',
+    text: 'Более 500 товаров',
   },
   {
     icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Car.svg',
-    text: 'Бесплатная доставка от 2500р',
+    text: 'Бесплатная доставка Почтой России',
   },
   {
     icon: 'https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1608626891/sellavi/102305/Smile.svg',

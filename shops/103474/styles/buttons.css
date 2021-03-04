@@ -116,6 +116,12 @@ body.theme_11
   z-index: 99999 !important;
 }
 
+body.ltr .thumbnail .add_to_wishlist, body.ltr .thumbnail .remove_from_wishlist {
+  top: 15px;
+  left: auto !important;
+  right: 10px !important;
+}
+
 body.theme-green-2.theme_11
   .wrapper
   .page-section
@@ -134,7 +140,7 @@ body a > p {
   color: black;
 }
 
-.add_to_wishlist button,
+/* .add_to_wishlist button, */
 body.theme-red-2 .social-icons li a:hover,
 body.account-register > form > fieldset:nth-child(6) > div > div.col-sm-12 > div > div > input {
   background: var(--color-theme) !important;
@@ -255,8 +261,14 @@ body.theme_11
   transition: unset;
 }
 
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
+  width: 80% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+}
+
 .add_to_wishlist i {
-  font-size: 18px !important;
+  font-size: 22px !important;
 }
 
 .add_to_wishlist button:hover .far.fa-heart {
@@ -296,10 +308,10 @@ body.theme-red-2.theme_11
   opacity: 0.8 !important;
   background: var(--color-theme) !important;
 }
-
+/*
 body .add_to_wishlist .btn.btn-theme.btn-theme-transparent {
   color: white !important;
-}
+} */
 
 body.ltr.theme_11
   .wrapper
@@ -365,12 +377,12 @@ body.theme-green-2.theme_11
 
 .thumbnail .add_to_wishlist button,
 .thumbnail .remove_from_wishlist button {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   height: 42px !important;
   width: 45px !important;
   color: #2d2d2d;
   border: none !important;
-  background-color: hsla(0, 0%, 100%, 0.8);
+  background-color: #EBEBEB;
   padding: 0 0 0 1px !important;
   font-size: 14px;
 }

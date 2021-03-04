@@ -39,18 +39,21 @@ export default function waterPage() {
             </b></p>
 
         <div class="mb-50px mt-4 ">
-          <p class="mb-2"><b><i>Где рождается наша вода...</i></b></p>
+          <p class="mb-2" text-center><b><i>Где рождается наша вода...</i></b></p>
           <div class="row">
+          <div class="col-md-6 col-12">
           <img
-            style="margin-right: 15px; object-fit: cover; height: 100%"
-            style="col-md-6 col-12"
+            style="object-fit: cover; height: 100%"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
           />
+          </div>
+          <div class="col-md-6 col-12">
           <img
-            style="margin-right: 15px; object-fit: cover;"
+            style="object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
-            style="col-md-6 col-12"
           />
+          </div>
+
           </div>
         </div>
         <div>
@@ -95,15 +98,15 @@ export default function waterPage() {
             выполняются в автоматическом или полуавтоматическом режиме и при строгом контроле
             каждого производственного этапа.
           </p>
-          <div class="row">
-            <div class="col-12 col-lg-4 col-md-6">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg">
+          <div class="row mb-5">
+            <div class="col-12 col-md-4">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_4_b3kulg.jpg" style="height: 100%; object-fit: cover;">
             </div>
-            <div class="col-12 col-lg-4 col-md-6">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_3_xcwq9f.jpg">
+            <div class="col-12 col-md-4">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/unnamed_3_xcwq9f.jpg" style="height: 100%; object-fit: cover;">
             </div>
-            <div class="col-12 col-lg-4 col-md-6">
-              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/image9_n5tl92.jpg">
+            <div class="col-12 col-md-4">
+              <img src="https://res.cloudinary.com/depgheppz/image/upload/v1613551375/image9_n5tl92.jpg" style="height: 100%; object-fit: cover;">
             </div>
           </div>
           <p>
@@ -170,15 +173,17 @@ export default function waterPage() {
             />
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611925356/102273/Group_7423515_4_plfodd.png"
-              alt=""
+              style="max-width: 617px;
+              object-fit: contain;
+              width: 100%;"
             />
           </div>
+          <h5 class="text-center"><b>МИНЕРАЛЬНАЯ ПРИРОДНАЯ ВОДА «АБАГО» - стоимость с брендом (Логотипом) компании</b></h5>
           <img
               class="mt-4"
               src="https://res.cloudinary.com/depgheppz/image/upload/v1611925355/102273/Group_7423520_tarbad.png"
               alt=""
             />
-          <p>МИНЕРАЛЬНАЯ ПРИРОДНАЯ ВОДА «АБАГО» - стоимость с брендом (Логотипом) компании</p>
         </div>
         <div>
           <h6><b>Преимущества компании</b></h6>
@@ -299,7 +304,7 @@ export default function waterPage() {
       <div class="text-center" class="mb-50px mt-5">
         <h3 class="text-center mb-4"><b>Минеральные воды Чехии.</b></h3>
         <p>
-          <img style="float: left" src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/logo_6_1_eykiny.png" width="70px">
+          <img style="float: left" src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/logo_6_1_eykiny.png" width="120px">
           Поставки минеральной воды лечебных и лечебно-столовых свойств из Чехии и других стран
           восточной Европы в Россию. В ассортименте пять видов лечебных минеральных вод премиум-
           сегмента: Билинска Киселка, Зайечицкая горька, Рудольфов Прамен, Винцентка и Пролом вода.
@@ -314,24 +319,20 @@ export default function waterPage() {
 
         </p>
         <img
-          class="mt-4 mb-4"
+          class="mt-4 mb-4 w-50"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1611924433/102273/50f080b6e27e37ad980830a244d430dd_1_qvf7rn.png"
           alt=""
         />
       </div>
 
       <div class="mb-50px">
-      <h5 class="mb-4 mt-5"> <b>
+      <h5 class="mb-4 mt-5 text-center"> <b>
       Питьевой баланс важен для хорошего самочувствия!
       <br />
       Вода важна для здоровья!</b>
         </h5>
         <p>
           <img style="float:left;" src="https://res.cloudinary.com/depgheppz/image/upload/v1613130863/102273/image2_vjedkt.png" class="mr-4 mb-4">
-
-          <br />
-
-
           Функционирование внутренних органов похоже на отлаженный часовой механизм. Для его запуска
           необходимо наладить питьевой режим. Роль жидкости неоценима: именно она наполняет энергией
           в течение дня, заряжает силами на работу и учебу, служит питанием для физических и

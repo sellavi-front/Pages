@@ -44,14 +44,31 @@
   body.ltr .wrapper header.header .logo {
     margin: 0 0 0 85px !important;
   }
-
-  body.ltr .wrapper header.header .logo.logo-edited {
-    margin: 0 0 0 150px !important;
-  }
 }
 
 @media screen and (min-width: 900px) {
   body.ltr .wrapper header.header .logo {
-    margin: 0 0 0 150px !important;
+    margin: 0 0 0 5px !important;
   }
+
+  body.ltr .wrapper header.header .logo.logo-edited {
+    margin: 2px 0 0 70px !important;
+  }
+}
+
+.checkout_form .logo {
+  margin: 0 auto !important;
+  padding-bottom: 20px;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media (min-width: 1000px) {
+  .logo_mobile_checkout {
+    display: flex;
+  }
+}
+
+.checkout-checkout> div.content-area > section {
+  padding-top: 25px !important;
 }

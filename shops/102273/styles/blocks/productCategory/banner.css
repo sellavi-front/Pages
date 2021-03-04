@@ -153,6 +153,10 @@ body.product-category .content-area .page-section.titles .container h1 {
   font-weight: bold;
 }
 
+body.information-information-9326 .content-area .page-section.titles h1 {
+  color: black !important;
+}
+
 @media (max-width: 991px) {
   body.product-category .content-area .page-section.titles .container .page-header__descp,
   body.product-category .content-area .page-section.titles .container h1 {

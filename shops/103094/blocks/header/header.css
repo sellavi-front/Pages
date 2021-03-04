@@ -374,6 +374,7 @@ body.common-home .header .header-wrapper .mobile-navigation-wrapper a {
   color: #000 !important;
   margin-left: 0!important;
   bottom: 10px !important;
+<<<<<<< HEAD
 }
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
@@ -387,6 +388,21 @@ body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
   margin-left: 25px;
 }
 
+=======
+}
+
+body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+  display: inline-block;
+  padding: 0 5px 0 10px !important;
+}
+
+.header .header-wrapper .mobile-navigation-wrapper a {
+  font-size: 23px;
+  color: #000;
+  margin-left: 25px;
+}
+
+>>>>>>> main/main
 @media only screen and (min-width: 1024px) {
   body.theme_11.ltr .wrapper .header .header-wrapper .logo {
     margin: 0 !important;
@@ -428,12 +444,21 @@ body.theme_11.ltr .wrapper .header .header-wrapper .logo {
   body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_wishlist {
     display: none;
   }
+<<<<<<< HEAD
 }
 
 span.d-none.d-lg-inline-block {
   display: none !important;
 }
 
+=======
+}
+
+span.d-none.d-lg-inline-block {
+  display: none !important;
+}
+
+>>>>>>> main/main
 body.theme_11 .header-cart .cart_drop_down.dropdown .dropdown-menu .cart-items .cart-items-inner .cart-content .vouchers .media.buttons .media-body .media-links .button-wrapper {
   flex: 0 0 50%;
   padding: 0 5px;
@@ -483,6 +508,7 @@ body.sidenav-enabled .mobile_side_nav>ul>.flexy>.collapse {
   left: 10%;
 }
 
+<<<<<<< HEAD
 
 @media only screen and (min-width: 1024px) {
   .mobile-navigation-wrapper>a{
@@ -704,4 +730,16 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
 #home > div > div.content-area > div > div.container.cat_block > div > div > a {
   display: flex;
   flex-direction: column
+=======
+
+@media only screen and (min-width: 1024px) {
+  .mobile-navigation-wrapper>a{
+    display: none !important;
+  }
+}
+
+body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper .cart-qty-circle {
+  right: 0;
+  left: auto;
+>>>>>>> main/main
 }

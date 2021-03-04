@@ -1,6 +1,9 @@
 // import '../../fixes/fixes.js';
 
-//import ChangeAgreement from '../../fixes/ChangeAgreement/ChangeAgreement.js';
+import "../../fixes/js/RemoveBlur/RemoveBlur.js"
+import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import '../../components/HeaderTypeOne/HeaderTypeOne.js';
+
 import DeleteElements from '../../modules/DeleteElements/DeleteElements.js';
 import BigBanner from '../../modules/BigBanner/BigBanner.js';
 import DeleteClasses from '../../modules/DeleteClasses/DeleteClasses.js';
@@ -8,12 +11,7 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import ButtonListInHeader from '../../modules/ButtonListInHeader/ButtonListInHeader.js';
 import HorizontTitleDecription from '../../components/HorizontTitleDecription/HorizontTitleDecription.js';
 import ContactsSimple from '../../components/ContactsSimple/ContactsSimple.js';
-
-import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-
 import requsites from './utils/requsites.js';
-
-import '../../components/HeaderTypeOne/HeaderTypeOne.js';
 
 
 const bootstrapClasses = [
@@ -31,12 +29,6 @@ const bootstrapClasses = [
   'mb-4',
 ];
 
-if (document.readyState == 'interactive' || document.readyState == 'loading') {
-  document.querySelector('html').style.opacity = '0';
-}
-window.onload = () => {
-  document.querySelector('html').style.opacity = '1';
-};
 
 if (document.querySelector('.wrapper')) {
 
@@ -98,9 +90,9 @@ if (document.querySelector('.wrapper')) {
   const termUse = document.querySelectorAll('.footer_content_wrapper >ul>li>a');
 
   termUse.forEach(el => {
-       if(el.textContent.toLowerCase() === 'условия обслуживания') {
-            el.closest('li').remove();
-       }
+    if (el.textContent.toLowerCase() === 'условия обслуживания') {
+      el.closest('li').remove();
+    }
   })
 
   const oldNode = document.querySelector('footer > div.footer-meta > div > div.row.footer_content_wrapper > ul > li:nth-child(3)');
@@ -137,7 +129,7 @@ if (document.querySelector('.wrapper')) {
   listt.forEach((el) => {
     const tr = el.textContent;
 
-    if(tr.includes(' - ')) {
+    if (tr.includes(' - ')) {
       el.textContent = tr.slice(2);
     }
   });
@@ -175,10 +167,26 @@ if (document.querySelector('.common-home')) {
 
 if (document.querySelector('.product-item')) {
   const productItem = document.querySelectorAll('.product-item');
-
   const deleteClassesProd = new DeleteClasses(productItem, bootstrapClasses);
 
   deleteClassesProd.findAndDelete();
+
+  let target = document.querySelector('body div.products');
+  const config = {
+    childList: true,
+  };
+  const callback = function (mutationsList, observer) {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'childList') {
+        const productItems= document.querySelectorAll('.product-item');
+        const deleteClassesProd = new DeleteClasses(productItems, bootstrapClasses);
+
+        deleteClassesProd.findAndDelete();
+      }
+    }
+  };
+  const observer = new MutationObserver(callback);
+  observer.observe(target, config);
 }
 
 // if (document.querySelector('.product-product')) {
@@ -206,7 +214,7 @@ if (location.href === 'https://store101470.sellavi.com/?from_admin' && 'https://
 }
 
 if (location.href.includes('/checkout')) {
-  document.querySelectorAll('.register_block h2').forEach((h2,i) => {
+  document.querySelectorAll('.register_block h2').forEach((h2, i) => {
     h2.textContent = h2.textContent.replace(/\d/gi, '');
     h2.textContent = h2.textContent.replace(/Шаг /gi, `Шаг ${i + 1}`);
   })

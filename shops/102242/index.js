@@ -23,7 +23,7 @@ import contentBannerData from './utils/contentBannerData.js';
 import advantagesData from './utils/advantagesData.js';
 import senderData from './utils/senderData.js';
 import socIconsData from './utils/socIconsData.js';
-import tableData from './utils/tableData.js';
+import tableData from '../102367/utils/tableData.js';
 import PopupWithTable from '../../components/PopupWithTable/PopupWithTable.js';
 import tableTemplate from '../../components/PopupWithTable/template/tableTemplate.js';
 

@@ -26,7 +26,7 @@ body .footer .footer-widgets .soc-icons__container {
     margin: 25px 0 !important;
   }
 }
-
+/*
 p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,8 +34,8 @@ p {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; 
-  -ms-flex-item-align: start; 
+          flex-direction: column;
+  -ms-flex-item-align: start;
       align-self: start;
   display: grid;
-}
+} */

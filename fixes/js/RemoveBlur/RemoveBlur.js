@@ -1,7 +1,7 @@
 import ButtonContainerInProductCard from "../ButtonContainerInProductCard/ButtonContainerInProductCard.js"
 
 window.onload = () => {
-  if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products')) {
+  if (document.querySelector('body.product-category') || document.querySelector('body.common-home .products') || document.querySelector('body.product-search .products')) {
     let target = document.querySelector('body div.products');
     const config = {
       childList: true,

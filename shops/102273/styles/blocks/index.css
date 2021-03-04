@@ -55,6 +55,27 @@ body .col-4 {
   max-width: 33.33333% !important;
 }
 
+footer
+  > div.footer-widgets
+  > div.container
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > ul
+  > li:nth-child(2),
+footer
+  > div.footer-widgets
+  > div.container
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > ul
+  > li:nth-child(3) {
+  display: none !important;
+}
+
 #sellavi_logo {
   margin: 20px auto 0;
 }
@@ -65,6 +86,12 @@ body .col-4 {
     -ms-flex: 0 0 33.33333% !important;
     flex: 0 0 33.33333% !important;
     max-width: 33.33333% !important;
+  }
+  .col-md-3 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 25% !important;
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
   }
 }
 @media (min-width: 576px) {

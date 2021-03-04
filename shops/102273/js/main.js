@@ -15,8 +15,11 @@ if (document.querySelector('.wrapper')) {
   );
 
   const sellaviLogo = document.querySelector("#sellavi_logo");
-  document.querySelector("#home > div > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', sellaviLogo.outerHTML)
-  sellaviLogo.remove()
+  document.querySelector("#home > div > footer > div.footer-widgets > div.container > div").insertAdjacentHTML('beforeend', `<div class="col-md-3">${sellaviLogo.outerHTML}</div>`)
+  sellaviLogo.remove();
+
+  document.querySelector('body .footer .footer-widgets .row > div:nth-child(1) .widget-title').textContent = 'Обращение по вопросам';
+  document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").textContent = 'Контакты'
 }
 
 if (location.href.includes('/blog')) {

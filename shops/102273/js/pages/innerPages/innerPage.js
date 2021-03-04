@@ -22,6 +22,7 @@ import tourismPage from './tourismPage.js'
 import medTech from './medTech.js'
 import medService from './medService.js'
 import disinfectantsPage from './disinfectantsPage.js'
+import aerosolsPage from './aerosolsPage.js'
 
 export default (function () {
   const fWhatCategory = (cont, arr) => {
@@ -121,6 +122,10 @@ export default (function () {
 
     if (document.querySelector('.information-information-6753')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', disinfectantsPage());
+    }
+
+    if (document.querySelector('.information-information-9293')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', aerosolsPage());
     }
   }
 })();

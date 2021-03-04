@@ -6,3 +6,9 @@
 .wrapper .header .header-wrapper .header_widgets .header-cart {
   padding: 0 !important;
 }
+
+@media (max-width: 495px) {
+  .header_widgets > .header_wishlust {
+    display: none !important;
+  }
+}

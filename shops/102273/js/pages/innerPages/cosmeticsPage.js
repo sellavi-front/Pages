@@ -35,8 +35,8 @@ export default function cosmeticsPage() {
   </div>
 
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div class="">
           <h4><b>Гель для тела «АЛТАЙ-ПЛЮС»</b></h4>
           <p>
@@ -66,7 +66,7 @@ export default function cosmeticsPage() {
           </p>
         </div>
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/113761728_w700_h500_gel-altaj-lyuks_1_e8fsxp.png"
           class="w-50"
@@ -98,8 +98,8 @@ export default function cosmeticsPage() {
   </div>
 
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div class="">
           <h4><b>Крем массажный «АЛТАЙ-СПОРТ»</b></h4>
           <p>
@@ -134,7 +134,7 @@ export default function cosmeticsPage() {
           </p>
         </div>
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/113761729_w700_h500_krem-altaj-sport-75_1_mw4ost.png"
           class="w-50"
@@ -143,8 +143,8 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div>
           <h4><b>Гель для тела «КЛАД АЛТАЯ»</b></h4>
           <p>
@@ -194,7 +194,7 @@ export default function cosmeticsPage() {
           </p>
         </div>
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/orig_1_frqfsl.png"
           class="h-50"
@@ -203,8 +203,8 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div class="">
           <h4>
             <b>Бальзам-тоник для кожи головы «АЛТАЙ АУРУМ»</b>
@@ -236,7 +236,7 @@ export default function cosmeticsPage() {
         ● при гипертензии, повышенной возбудимости и метеочувствительности.</p>
         </div>
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/9hq_1_fsvtm7.png"
           class="w-50"
@@ -245,8 +245,8 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <h4><b>Гель после загара «AFTER SUN»</b></h4>
         <p><b>Охлаждающий и восстанавливающий гель после загара</b></p>
         <div>
@@ -275,7 +275,7 @@ export default function cosmeticsPage() {
       </div>
       </div>
 
-      <div class="col">
+      <div class="col p-0">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/images_1_drgnbz.png"
           class="h-50"
@@ -285,8 +285,8 @@ export default function cosmeticsPage() {
   </div>
 
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div class="">
           <h4><b>Термальная вода «Паратунка»</b></h4>
           <p>
@@ -326,7 +326,7 @@ export default function cosmeticsPage() {
             Состав: термальная вода 100%</p>
         </div>
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/6008710065_1_pbtrc5.png"
           class="h-50"
@@ -335,8 +335,8 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div>
           <h4><b>Крем-ревиталайзинг «Алтай»</b></h4>
           <p>
@@ -362,7 +362,7 @@ export default function cosmeticsPage() {
           </p>
         </div>
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612084788/102273/10006195-1_1_t2roc6.png" class="w-50">
       </div>
       <div class="w-100">
@@ -392,8 +392,8 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-    <div class="row">
-      <div class="col">
+    <div class="row m-0">
+      <div class="col p-0">
         <div>
           <h4><b>Масло лимонника китайского</b></h4>
           <p>
@@ -417,7 +417,7 @@ export default function cosmeticsPage() {
         </div>
 
       </div>
-      <div class="col">
+      <div class="col p-0">
         <img class="w-50" src="https://res.cloudinary.com/depgheppz/image/upload/v1612084789/102273/f797ce83f04eb5018e316fbd96689da2_1_o0qs6n.png" class="w-50">
       </div>
       <div class="w-100">
@@ -434,8 +434,8 @@ export default function cosmeticsPage() {
     </div>
   </div>
   <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>БАД «Альфанорм»</b></h4>
             <p>
               <b
@@ -464,7 +464,7 @@ export default function cosmeticsPage() {
               </p>
             </div>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/a51242973d399533b63bd86e020fe112-big_1_wyigzg.png"
               class="h-50"
@@ -489,8 +489,8 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>Фитосироп «АРТРОМИКС»</b></h4>
             <p>
               Проблемы суставов стремительно молодеют. В первую очередь это связано с изменением
@@ -537,7 +537,7 @@ export default function cosmeticsPage() {
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/altay_fitosirop_artromiks_na_osnove_ekstraktov_shipovnika_kaliny_bosvelii_a_takzhe_glyukozamina_gidrokhlorida_i_kollagena_993007_1_1_hvximn.png"
               class="w-50"
@@ -546,8 +546,8 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>Коллагеновый эликсир с витаминами “Клад Алтая”</b></h4>
             <p>
               Коллагеновый эликсир «Клад Алтая» − это наиболее эффективный способ восстановления
@@ -567,7 +567,7 @@ export default function cosmeticsPage() {
               >
             </p>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/unnamed_2_l6eujt.png"
               class="w-50"
@@ -610,8 +610,8 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>Крем для рук «Алтай» восстанавливающий и питательный.</b></h4>
             <p>
               <b
@@ -649,7 +649,7 @@ export default function cosmeticsPage() {
               ощущения жирности и липкости.
             </p>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007118061_1_jplqbl.png"
               class="h-50"
@@ -658,8 +658,8 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>Крем для рук «Алтай» увлажняющий.</b></h4>
             <p>
               <b
@@ -691,13 +691,13 @@ export default function cosmeticsPage() {
               после первых применений.
             </p>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612087422/102273/6007958616_1_giu0ts.png" class="h-50">
           </div>
         </div>
       </div>
       <div class="sect">
-        <div class="row">
+        <div class="row m-0">
           <div class="w-100">
             <div>
               <h4><b>Липиды «АЛТАЙ» - 100% натуральный продукт</b></h4>
@@ -739,8 +739,8 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>УВЛАЖНЯЮЩАЯ ФОРМУЛА</b></h4>
             <p>
               <b
@@ -766,7 +766,7 @@ export default function cosmeticsPage() {
               эффект
             </p>
           </div>
-          <div class="col">
+          <div class="col p-0">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007893304_1_sasfyw.png"
             class="h-50"
@@ -776,8 +776,8 @@ export default function cosmeticsPage() {
 
       </div>
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>ВОССТАНАВЛИВАЮЩАЯ ФОРМУЛА</b></h4>
             <p><b>Для основного ухода за кожей тела и для массажа</b>
             <br><b>НАТУРАЛЬНЫЕ ЛИПИДЫ КАЛЕНДУЛЫ, ШИПОВНИКА, СОИ, ЛЬНА, КУКУРУЗЫ</b>
@@ -791,7 +791,7 @@ export default function cosmeticsPage() {
               - обеспечивает активное антиоксидантное, противовоспалительное, тонизирующее действия
               <br>- глубоко питает и увлажняет кожу, выравнивает цвет и рельеф.</p>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007118063_1_rxpzbp.png"
               class="h-50"
@@ -801,8 +801,8 @@ export default function cosmeticsPage() {
       </div>
 
       <div class="sect">
-        <div class="row">
-          <div class="col">
+        <div class="row m-0">
+          <div class="col p-0">
             <h4><b>АНТИЦЕЛЮЛИТНАЯ ФОРМУЛА</b></h4>
             <p><b>Для основного ухода за кожей тела и для массажа </b>
             <br>
@@ -820,7 +820,7 @@ export default function cosmeticsPage() {
               -оказывает благотворное влияние на микроциркуляцию, выведение токсинов<br>
               - выравнивает цвет и рельеф кожи</p>
           </div>
-          <div class="col">
+          <div class="col p-0">
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1612089442/102273/6007118065_1_kzkyl9.png"
               class="h-50"
@@ -829,7 +829,7 @@ export default function cosmeticsPage() {
         </div>
       </div>
       <div class="w-100 text-center">
-        <p>
+        <p style="font-size: 24px !important; text-transform: uppercase;">
           <b
             >Цены договорные<br />
             Прайс лист по запросу.</b

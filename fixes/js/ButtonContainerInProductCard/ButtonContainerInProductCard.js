@@ -24,7 +24,7 @@ export default class ButtonContainerInProductCard {
   }
 
   render() {
-    if(document.querySelector(".common-home") || document.querySelector(".product-product") || document.querySelector(".product-category")) {
+    if(document.querySelector(".common-home") || document.querySelector(".product-product") || document.querySelector(".product-category") || document.querySelector('body.product-search .products')) {
       let priceActions = document.querySelectorAll('.price_actions');
       let addToCart = document.querySelectorAll('.add_to_cart');
       let addToWishList = document.querySelectorAll('.add_to_wishlist');

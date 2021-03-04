@@ -25,7 +25,7 @@ export default function urbanEconomy() {
       </div>
       <div class="sect w-100 mb-7">
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_3_ng75ib.png" alt="" />
-        <h4><b>Компания «ЭЙЧДИ»</b></h4>
+        <h4 class="text-center"><b>Компания «ЭЙЧДИ»</b></h4>
         <div class="mb-5">
           <p>
             Компания «ЭЙЧДИ» является одним из ведущих поставщиков и производителем светодиодной
@@ -56,7 +56,7 @@ export default function urbanEconomy() {
       </div>
       <div class="sect w-100 mb-7">
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/ae9d9ed1ab4682b29836c8b0d0464a61_200_200_fill_1_utnaho.png" alt="" />
-        <h4><b>Компания Центр-Трейд (торговая марка Reshnastil)</b></h4>
+        <h4 class="text-center"><b>Компания Центр-Трейд (торговая марка Reshnastil)</b></h4>
         <div class="mb-5">
           <p>
             Компания Центр-Трейд (торговая марка Reshnastil) является одним из крупнейших
@@ -83,7 +83,7 @@ export default function urbanEconomy() {
             конструкцию до её доставки и монтажа.
           </p>
           <div>
-            <h5><b>Преимущества:</b></h5>
+            <h5 class="text-center"><b>Преимущества:</b></h5>
             <p>
               - сроки изготовления минимальны (от 7 до 15 дней);<br />
               - предоставляются скидки, проводятся акции; <br />
@@ -114,7 +114,7 @@ export default function urbanEconomy() {
       <div class="sect w-100 mb-7">
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/2235892_1_qxngbp.png" alt="" />
         <div class="mb-5">
-          <h4><b>ООО «АЛЮМСТРОЙ»</b></h4>
+          <h class="text-center"4><b>ООО «АЛЮМСТРОЙ»</b></h4>
           <p>
             Специализация компании ALUMSTROY: <br />
             производство сэндвич-панелей и профнастила, строительства и монтаж быстровозводимых
@@ -136,7 +136,7 @@ export default function urbanEconomy() {
         </div>
 
         <div>
-          <h5><b>Технические характеристики сырья</b></h5>
+          <h5 class="text-center"><b>Технические характеристики сырья</b></h5>
           <p>
             <b>Металл</b> - Холоднокатаная горячеоцинкованная тонколистовая сталь с различными
             видами полимерных покрытий толщиной 0,5-0,7 мм, как российского, так и европейского
@@ -170,7 +170,7 @@ export default function urbanEconomy() {
       </div>
       <div class="sect w-100 mb-7">
         <img src="https://res.cloudinary.com/depgheppz/image/upload/v1612092894/102273/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_3_ng75ib.png" alt="" />
-        <h4><b>Группа компаний «Креатива»</b></h4>
+        <h4 class="text-center"><b>Группа компаний «Креатива»</b></h4>
         <div class="mb-5">
           <p>
           Группа компаний «Креатива» - это российский
@@ -214,7 +214,7 @@ export default function urbanEconomy() {
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612796842/102273/partners/imgpsh_fullsize-1-e1527760781607_1_by9hyl.png"
         />
-        <h4>
+        <h4 class="text-center">
 
           <b>Продукция из полимерных и композиционныхматериалов</b>
         </h4>
@@ -262,7 +262,7 @@ export default function urbanEconomy() {
             </p>
           </li>
           <li>
-            <h6><b>Защитные очки из поликарбоната - «Профессионал» </b></h6>
+            <h6 class="text-center"><b>Защитные очки из поликарбоната - «Профессионал» </b></h6>
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613736910/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-19_%D0%B2_15.15.01_qwx4yv.png"
               style="margin: 0 auto 30px"
@@ -331,7 +331,7 @@ export default function urbanEconomy() {
     </div>
     <div class="sect w-100 mb-7">
     <div class="mb-5">
-      <h4>
+      <h4 class="text-center">
         <b>Инновационный метод гидропосева трав при решении вопросов озеленения. </b>
       </h4>
 
@@ -360,7 +360,7 @@ export default function urbanEconomy() {
               ></b
             >
           </p>
-          <ul>
+          <ul >
             <li>-  Высокая процент прорастания семян и приживаемости травы;</li>
             <li>
               - Защита семян трав от внешних факторов: смывания осадками, выдувания ветрами и

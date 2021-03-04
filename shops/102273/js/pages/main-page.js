@@ -32,13 +32,12 @@ export default (function() {
     // rend reset cit img
 
     const btnCategory = document.querySelectorAll(".common-home > div > div.content-area > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > span");
-
     btnCategory.forEach(btn => btn.textContent = 'Подробнее');
 
     const advantages = new AdvantagesTypeOne(document.querySelector('.main-slider'), AdvantagesData, 'afterend');
 
     advantages.render();
-
+    document.querySelector('.advantages').insertAdjacentHTML('beforebegin', `<h5 class="mb-4"><b>Наши товары направлены на проведение:</b></h5>`)
     document.querySelector('.main-slider > .owl-carousel > div > div > div > div > div > div').classList.remove('container')
   }
 })();

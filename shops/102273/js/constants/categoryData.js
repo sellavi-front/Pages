@@ -47,7 +47,7 @@ const categoryData = {
       link: '/urban-economy',
     },
     {
-      text: 'Кофе',
+      text: 'Кофе из Ливана (100% Арабика)',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832400/102273/icons8-coffee-beans_dhgj4d.svg',
       link: '/coffee',
     },
@@ -61,6 +61,11 @@ const categoryData = {
       text: 'Туризм',
       src: 'https://res.cloudinary.com/depgheppz/image/upload/v1611832430/102273/icons8-airport_gtx1o0.svg',
       link: '/tourism',
+    },
+    {
+      text: 'Аэрозоли',
+      src: 'https://res.cloudinary.com/depgheppz/image/upload/v1614847581/102273/icons8-%D0%B4%D0%B5%D0%B7%D0%BE%D0%B4%D0%BE%D1%80%D0%B0%D0%BD%D1%82-%D1%81%D0%BF%D1%80%D0%B5%D0%B8%CC%86_1_a64r3r.svg',
+      link: '/aerosols',
     },
   ],
 };

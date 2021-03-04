@@ -1,7 +1,27 @@
-.alert {
-  border-radius: 0;
-  padding: 30px 20px 12px 35px !important;
+@media screen and (min-width: 775px) {
+  .alert {
+    padding: 45px 20px 12px 35px !important;
+  }
+
+  body.ltr .alert button.close {
+    right: 15px !important;
+    top: -5px !important;
+  }
 }
+
+@media screen and (max-width: 414px) {
+  .alert {
+    border-radius: 0;
+    padding: 30px 20px 12px 35px !important;
+  }
+
+  body.ltr .alert button.close {
+    right: 15px !important;
+    top: -5px !important;
+  }
+}
+
+
 
 .alert-success {
   color: #666;
