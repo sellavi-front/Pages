@@ -203,7 +203,7 @@ export default function aerosolsPage() {
         <div class="row">
           <div class="col-12 col-md-5">
             <img
-              src="https://res.cloudinary.com/depgheppz/image/upload/v1614845471/102273/unnamed_39_kyffsa.jpg"
+              src="https://res.cloudinary.com/depgheppz/image/upload/v1614845487/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-03-04_%D0%B2_10.59.46_quv3xo.png"
               style="max-height: 200px"
             />
           </div>
