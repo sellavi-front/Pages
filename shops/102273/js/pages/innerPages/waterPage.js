@@ -406,7 +406,7 @@ export default function waterPage() {
       <h6>
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614869157/102273/image2_qkxisx.jpg"
-          alt=""
+          style="max-width:200px;"
           class="float-right"
         />
         <b class="text-center"> ВОДА МИНЕРАЛЬНАЯ БИЛИНСКА КИСЕЛКА НЕЗАМЕНИМА ПРИ БОЛЕЗНЯХ ЖКТ </b>
