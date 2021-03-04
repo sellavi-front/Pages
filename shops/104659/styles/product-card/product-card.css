@@ -3,7 +3,7 @@
 @import './add_to_cart.css';
 @import './colorBtns.css';
 
-.product-item.product-layout {
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
   border: none !important;
 }
 
