@@ -44,18 +44,18 @@ if (pages.home) {
   const imgCat = document.querySelectorAll(
     '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
   );
-  const sourceCat = document.querySelectorAll(
-    '.common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source',
-  );
+  // const sourceCat = document.querySelectorAll(
+  //   '.common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source',
+  // );
 
-  sourceCat.forEach((source) => {
-    const srcset = source.getAttribute('srcset');
-    let replacedSrc1 = srcset.replace(
-      /\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi,
-      '',
-    );
-    source.setAttribute('srcset', replacedSrc1);
-  });
+  // sourceCat.forEach((source) => {
+  //   const srcset = source.getAttribute('srcset');
+  //   let replacedSrc1 = srcset.replace(
+  //     /\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi,
+  //     '',
+  //   );
+  //   source.setAttribute('srcset', replacedSrc1);
+  // });
 
   imgCat.forEach((cat) => {
     const src = cat.getAttribute('src');
