@@ -71,8 +71,6 @@ const changeLinks = (() => {
 
       findSetLink(categoriLinks, linkBag, 'сумки')
       findSetLink(categoriLinks, shoesLinks, 'обувь')
-    })
-
   }
 })
 
