@@ -69,8 +69,8 @@ const changeLinks = (() => {
   if (document.querySelector('.product-category-5763 .subcategories_top')) {
     const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
 
-      findSetLink(categoriLinks, linkBag, 'сумки')
-      findSetLink(categoriLinks, shoesLinks, 'обувь')
+      findSetLink(Array.from(categoriLinks), linkBag, 'сумки')
+      findSetLink(Array.from(categoriLinks), shoesLinks, 'обувь')
   }
 })
 
