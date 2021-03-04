@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 991px) {
-  .navigation {
+  .nav.sf-menu{
     display: none !important;
   }
 
