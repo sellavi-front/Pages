@@ -271,3 +271,7 @@ header > div.header-wrapper > div.container > div.logo > a > img {
         margin: 0 31% 0 auto !important;
     }
 }
+
+.common-home > div > div.content-area > div.contactsSection > div > div > div > div > div > div > span {
+    text-transform: uppercase;
+}
