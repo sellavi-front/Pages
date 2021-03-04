@@ -31,7 +31,7 @@ export default function aerosolsPage() {
       />
     </div>
     <div class="sect">
-      <div class="row">
+      <div class="row flex-column align-items-center mb-5">
         <h6 class="text-center w-100"><b>МЕДИЦИНСКИЙ КИСЛОРОД В АЭРОЗОЛЕ </b></h6>
         <p class="text-center w-100">
           Медицинский кислород в аэрозольной упаковке (Oxygen). Уникальная технология наполнения
@@ -40,7 +40,7 @@ export default function aerosolsPage() {
           для дыхания и приготовления кислородных коктейлей в бытовых условиях, а также для иных
           целей. Для профилактики гипоксии и продления активной жизни.
         </p>
-        <div class="col-md-8 col-12">
+        <div class="col-12">
           <p>
             «Медксенон» - Аэрозольные баллоны под торговой маркой: «Медксенон». <br />
             Анестетик и терапевтический препарат, восстанавливающий деятельность жизненно важных
@@ -64,20 +64,24 @@ export default function aerosolsPage() {
             <li>купирование боли при снятии абстинентного синдрома.</li>
           </ul>
         </div>
+        <div clss="col-6">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614845471/102273/unnamed_42_hjdwco.jpg"
-          class="col-md-4 col-12"
         />
+        </div>
       </div>
 
       <div class="row">
         <h6 class="text-center w-100">
           <b>«AIR-AKTIVE» кислородный баллончик. 17 литров. </b>
         </h6>
+        <div clss="col-6">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614845487/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-03-04_%D0%B2_10.59.16_hjd0p0.png"
-          class="col-md-4 col-12"
+
         />
+        </div>
+
         <div class="col-md-8 col-12">
           <p>
             <b>
