@@ -273,3 +273,8 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         margin-bottom: 20px !important;
     }
 }
+
+header > div.header-wrapper > div.container > div.logo {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
