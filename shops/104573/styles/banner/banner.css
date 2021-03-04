@@ -163,6 +163,6 @@
 }
 
 body.ltr ol, body.ltr ul {
-  padding-left: 5% !important;
+  /* padding-left: 5% !important; */
   padding-right: unset;
 }
