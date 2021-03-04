@@ -12,6 +12,10 @@ body .wrapper .page-section .products.grid .product-item .thumbnail .price_actio
 
 }
 
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  margin: 20px 0 30px !important;
+}
+
 body .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
 body .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
   text-align: center !important;
