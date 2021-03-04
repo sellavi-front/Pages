@@ -17,3 +17,11 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
     color: black !important;
 }
+
+@media (max-device-width: 480px) {
+    footer > div.footer-widgets > div.container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+}
