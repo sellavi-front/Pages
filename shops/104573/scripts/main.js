@@ -8,6 +8,9 @@ import pages from '../config/conditions.js';
 // import addCategories from './addCategories.js';
 // import dataCategories from '../utils/dataCategories.js';
 import setBannerCaption from './setBannerCaption.js';
+import renderBanner from "./blocks/banner/banner.js"
+
+renderBanner()
 
 if (pages.all) {
   changeTitleBlogToNews();
