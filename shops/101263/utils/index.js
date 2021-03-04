@@ -100,14 +100,6 @@ if (location.href.includes('/index.php?route=account/register')) {
     .classList.add('btn-success');
 }
 
-const logoSellavi = document.querySelector('#sellavi_logo > img');
-
-if (logoSellavi) {
-  logoSellavi.setAttribute(
-    'src',
-    'https://res.cloudinary.com/depgheppz/image/upload/v1612986109/Frame_4_l3scow.png',
-  );
-}
 
 if (document.querySelector('footer > .footer-widgets')) {
   document.querySelector('footer>.footer-widgets > div > div').insertAdjacentHTML(
