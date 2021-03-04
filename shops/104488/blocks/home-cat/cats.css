@@ -265,3 +265,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 header > div.header-wrapper > div.container > div.logo > a > img {
     height: 50px;
 }
+
+@media (max-device-width: 480px) {
+    body.theme_11.ltr .wrapper .header .header-wrapper .logo {
+        margin: 0 31% 0 auto !important;
+    }
+}
