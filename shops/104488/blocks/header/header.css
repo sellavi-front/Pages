@@ -195,6 +195,17 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         font-size: 20px !important;
     }
 
+    footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: 1px solid silver;
+        padding: 20px 15px;
+    }
+    
+    footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
+        padding: 0px;
+    }
+
     #home > div > div.content-area > section.page-section.color.information {
         padding: 0 15px;
     }
