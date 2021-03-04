@@ -259,3 +259,17 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
 .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
     color: #000;
 }
+
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div {
+        align-items: center;
+    }
+
+    .common-home > div > div.content-area > div.contactsSection > div > div > div > div.time {
+        margin-bottom: 20px !important;
+    }
+
+    .common-home > div > div.content-area > div.contactsSection > div > div > div > div.phones {
+        margin-bottom: 20px !important;
+    }
+}
