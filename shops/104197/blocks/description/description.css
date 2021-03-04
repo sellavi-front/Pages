@@ -97,4 +97,9 @@
     .common-home > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
         direction: ltr
     }
+
+    body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+        top: 0px !important;
+        left: 0px !important;
+    }
 }
