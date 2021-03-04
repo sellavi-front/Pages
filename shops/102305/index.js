@@ -99,3 +99,7 @@ if (document.querySelector('.checkout-checkout')) {
     '#home > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.payment-method > div > div > div > label',
   ).textContent = 'ONLINE';
 }
+
+if (document.querySelector('.product-category')) {
+  changeLinks();
+}

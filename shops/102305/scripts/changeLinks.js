@@ -1,7 +1,7 @@
 const changeLinks = (() => {
 
   const findSetLink = (arr, href, check) => {
-    arr.nextElementSibling.querySelectorAll('a').forEach((link) => {
+    arr.forEach((link) => {
       if (link.textContent.trim().toLocaleLowerCase() === check) link.setAttribute('href', href)
     });
   }
@@ -42,21 +42,20 @@ const changeLinks = (() => {
       a.textContent.trim().toLocaleLowerCase() === 'женщинам'
     ) {
 
-      findSetLink(a, linkBag, 'сумки')
+      findSetLink(a.nextElementSibling.querySelectorAll('a'), linkBag, 'сумки')
 
       if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
       if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(a, manShoes, 'обувь')
       if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
     }
   });
-console.log(mobLinks);
+
   mobLinks.forEach((a) => {
     if (
       a.textContent.trim().toLocaleLowerCase() === 'детям' ||
       a.textContent.trim().toLocaleLowerCase() === 'мужчинам' ||
       a.textContent.trim().toLocaleLowerCase() === 'женщинам'
     ) {
-      console.log(a.closest('li').querySelectorAll('.panel-collapse > ul > li > a'));
       a.closest('li').querySelectorAll('.panel-collapse > ul > li > a').forEach((link) => {
         if (link.textContent.trim().toLocaleLowerCase() === 'сумки') link.setAttribute('href', linkBag)
       });
@@ -66,6 +65,15 @@ console.log(mobLinks);
       if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
     }
   });
+
+  if (document.querySelector('.product-category-5763 .subcategories_top')) {
+    const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
+
+      findSetLink(categoriLinks, linkBag, 'сумки')
+      findSetLink(categoriLinks, shoesLinks, 'обувь')
+    })
+
+  }
 })
 
 export default changeLinks;
