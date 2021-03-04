@@ -17,10 +17,10 @@ if (document.querySelector('.product-item.product-layout')) {
   btnWishListToBtnAddToCart();
 }
 
-if (pages.main) {
-  setBannerCaption('https://res.cloudinary.com/depgheppz/image/upload/v1614779607/Group_7423535_fvlseb.svg');
-  // addTitleForCategory('Каталог')
-  cutSrcImg();
-  changeTextCategoryBtn();
-  // addCategories(dataCategories);
-}
+// if (pages.main) {
+//   setBannerCaption('https://res.cloudinary.com/depgheppz/image/upload/v1614779607/Group_7423535_fvlseb.svg');
+//   // addTitleForCategory('Каталог')
+//   cutSrcImg();
+//   changeTextCategoryBtn();
+//   // addCategories(dataCategories);
+// }
