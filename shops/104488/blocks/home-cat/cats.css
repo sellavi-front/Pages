@@ -261,3 +261,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
         width: 271px !important;
     }
 }
+
+header > div.header-wrapper > div.container > div.logo > a > img {
+    height: 50px;
+}
