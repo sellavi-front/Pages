@@ -45,9 +45,9 @@ const changeLinks = (() => {
 
       findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), linkBag, 'сумки')
 
-      if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
-      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(a, manShoes, 'обувь')
-      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), kidShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), manShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), womanShoes, 'обувь')
     }
   });
 
@@ -61,9 +61,9 @@ const changeLinks = (() => {
         if (link.textContent.trim().toLocaleLowerCase() === 'сумки') link.setAttribute('href', linkBag)
       });
 
-      if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
-      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(a, manShoes, 'обувь')
-      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(a, womanShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), kidShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), manShoes, 'обувь')
+      if (a.textContent.trim().toLocaleLowerCase() === 'женщинам') findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), womanShoes, 'обувь')
     }
   });
 
