@@ -122,5 +122,9 @@ export default (function () {
     if (document.querySelector('.information-information-6753')) {
       document.querySelector('.icon-category').insertAdjacentHTML('afterend', disinfectantsPage());
     }
+
+    if (document.querySelector('.information-information-9293')) {
+      document.querySelector('.icon-category').insertAdjacentHTML('afterend', disinfectantsPage());
+    }
   }
 })();
