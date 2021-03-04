@@ -17,3 +17,117 @@
        object-fit: cover;
   }
 }
+
+
+
+
+
+.banner__container {
+  display: flex;
+  width: 100%;
+  height: 857px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3456&q=80") no-repeat center/cover;
+}
+
+.banner__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner__column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-self: center;
+}
+
+.banner__column__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__item + .banner__item {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.banner__column__item h4 {
+  font-size: 40px;
+  color: #fff;
+  padding: 3rem;
+}
+
+.banner__submit__form {
+  width: 590px;
+  height: 667px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.banner__submit__form>h6  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0 0 40px;
+}
+
+.banner_submit__form__input {
+  width: 462px;
+  height: 68px;
+  background: rgba(243, 243, 243, 0.2);
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.banner_submit__form__input:not(:first-child) {
+  margin-top: 15px;
+}
+
+.banner_submit__form__input {
+  color: #fff;
+}
+
+.banner_submit__form__input::placeholder {
+  color: #fff !important;
+  font-weight: 100;
+}
+
+.banner_submit__form__input:focus {
+  outline: 0;
+}
+
+.banner_submit__form__input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.banner__submit__form>p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 428px;
+}
+
+.banner__submit__form__btn {
+  background: #BF3417;
+  border-radius: 15px;
+  color: #fff;
+  padding: 15px;
+  width: 374px;
+  border: 0;
+  font-weight: 900;
+}
