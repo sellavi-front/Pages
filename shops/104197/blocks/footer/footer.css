@@ -8,3 +8,8 @@ footer > div.footer-widgets > div.container > div {
 footer > div.footer-widgets > div.container > div > div {
     padding: 0px;
 }
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+    color: #afafaf !important;
+    font-weight: 600
+}
