@@ -195,6 +195,10 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         font-size: 20px !important;
     }
 
+    #home > div > div.content-area > section.page-section.color.information {
+        padding: 0 15px;
+    }
+
     .common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:before {
         content: " ";
         height: 2px;
