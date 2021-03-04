@@ -405,7 +405,7 @@ export default function waterPage() {
       <div class="sect">
       <h6>
         <img
-          src="https://res.cloudinary.com/depgheppz/image/upload/v1614869157/102273/image2_qkxisx.jpg"
+          src="https://res.cloudinary.com/depgheppz/image/upload/v1614869157/102273/image1_wpoo4m.jpg"
           style="max-width:200px;"
           class="float-right"
         />
