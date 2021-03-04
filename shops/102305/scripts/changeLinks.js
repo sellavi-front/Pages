@@ -1,6 +1,7 @@
 const changeLinks = (() => {
 
   const findSetLink = (arr, href, check) => {
+    console.log(arr);
     arr.forEach((link) => {
       if (link.textContent.trim().toLocaleLowerCase() === check) link.setAttribute('href', href)
     });
