@@ -204,9 +204,9 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     justify-content: center;
 }
 
-header > div.header-wrapper > div.container > div.logo {
+/* header > div.header-wrapper > div.container > div.logo {
     visibility: hidden
-}
+} */
 
 @media (max-device-width: 480px) {
     section.page-section.homefeatured_category > div > div > div > div > div {
