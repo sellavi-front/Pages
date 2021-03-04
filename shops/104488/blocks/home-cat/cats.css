@@ -236,3 +236,28 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .information-information-9026 #content > div > div:nth-child(2) {
     display: none !important;
 }
+
+
+
+@media(min-device-width: 1024px) {
+    .thumbnail-banner .media-link .img-bg {
+        height: 423px !important;
+    }
+    
+    body#home .homefeatured_category .row {
+        justify-content: center !important;
+    }
+    
+    body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .img-bg img {
+    
+        width: 273px !important;
+    }
+    
+    section.page-section.homefeatured_category > div > div > div > div > div {
+        width: 273px !important;
+    }
+    
+    body.theme_11 .wrapper .homefeatured_category>div>div>div {
+        width: 271px !important;
+    }
+}
