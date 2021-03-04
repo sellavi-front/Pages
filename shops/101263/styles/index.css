@@ -14,7 +14,6 @@
 @import '../../../components/HeaderTypeTwo/styles/header-login/header-login.css';
 @import '../../../components/HeaderTypeTwo/styles/logo/logo.css';
 @import '../../../components/HeaderTypeTwo/styles/burger/burger.css';
-
 @import './../../../components/AdvantagesTypeTwo/AdvantagesTypeTwo.css';
 /* @import './../../../components/HeaderWithCatalog/HeaderWithCatalog.css'; */
 @import '../../../components/SocialIconsTypeOne/SocialIconsTypeOne.css';
@@ -28,6 +27,7 @@
 @import './body.css';
 @import './../categories/categories.css';
 @import './icons.css';
+@import './pay-delivery.css';
 
 /* @import './../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css'; */
 
