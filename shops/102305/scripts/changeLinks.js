@@ -42,7 +42,7 @@ const changeLinks = (() => {
       a.textContent.trim().toLocaleLowerCase() === 'женщинам'
     ) {
 
-      findSetLink(a.nextElementSibling.querySelectorAll('a'), linkBag, 'сумки')
+      findSetLink(Array.from(a.nextElementSibling.querySelectorAll('a')), linkBag, 'сумки')
 
       if (a.textContent.trim().toLocaleLowerCase() === 'детям') findSetLink(a, kidShoes, 'обувь')
       if (a.textContent.trim().toLocaleLowerCase() === 'мужчинам') findSetLink(a, manShoes, 'обувь')
