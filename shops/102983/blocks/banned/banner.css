@@ -66,3 +66,22 @@ body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search input.f
 .sf-menu .flexy.has_children ul li > a {
     padding: 20px 40px
 }
+
+
+.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div:hover {
+    background: #ffffff4f;
+    transition: 0.6s;
+}
+
+.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div:hover > div > div > a > div > div > div > h2 > span{
+    color: #434343 !important;
+    transition: 0.6s;
+}
+
+.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div {
+    transition: 0.6s;
+}
+
+.wrapper.wrapper-closed > div > section.page-section.homefeatured_category > div > div > div > div > div > a > div > div > div > h2 > span{
+    transition: 0.6s;
+}
