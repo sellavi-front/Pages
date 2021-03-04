@@ -77,13 +77,13 @@ const changeLinks = (() => {
     const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
 
       findSetLink(Array.from(categoriLinks), linkBag, 'сумки')
-      findSetLink(Array.from(categoriLinks), kidShoes, 'обувь')
+      findSetLink(Array.from(categoriLinks), manShoes, 'обувь')
   }
   if (document.querySelector('.product-category-5764 .subcategories_top')) {
     const categoriLinks = document.querySelectorAll('.subcategories_top .media_holder a');
 
       findSetLink(Array.from(categoriLinks), linkBag, 'сумки')
-      findSetLink(Array.from(categoriLinks), manShoes, 'обувь')
+      findSetLink(Array.from(categoriLinks), kidShoes, 'обувь')
   }
 })
 
