@@ -183,6 +183,10 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         z-index: 999;
     }
 
+    .create-account .btn.btn-block.btn-theme.btn-theme-dark.btn-create {
+        border: 2px solid  !important;
+    }
+
     .common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span {
         font-size: 20px !important;
     }
