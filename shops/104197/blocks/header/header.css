@@ -5,9 +5,9 @@ body.theme_11 .wrapper .header .header-wrapper .header-search {
     width: 30%;
 }
 
-/* header > div.header-wrapper > div.container > div.header_widgets > div.header_login {
+header > div.header-wrapper > div.container > div.header_widgets > div.header_login {
     display: none !important;
-} */
+}
 
 
 .wrapper .header .header-wrapper .header-search input {
