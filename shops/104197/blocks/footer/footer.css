@@ -13,3 +13,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     color: #afafaf !important;
     font-weight: 600
 }
+
+.wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
+    color: black !important;
+}
