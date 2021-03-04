@@ -1,6 +1,6 @@
 const dataCategories = [
   {
-    link: '',
+    link: '/about',
     img: 'https://res.cloudinary.com/depgheppz/image/upload/v1614688075/Frame_10_zcdqbe.png',
     title: '',
   },
