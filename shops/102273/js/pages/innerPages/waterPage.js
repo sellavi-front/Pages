@@ -41,16 +41,19 @@ export default function waterPage() {
         <div class="mb-50px mt-4 ">
           <p class="mb-2"><b><i>Где рождается наша вода...</i></b></p>
           <div class="row">
+          <div class="col-md-6 col-12">
           <img
-            style="margin-right: 15px; object-fit: cover; height: 100%"
-            class="col-md-6 col-12"
+            style="object-fit: cover; height: 100%"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/11d4767c04821d671c3d408d8207a010_1_pqh3t2.png"
           />
+          </div>
+          <div class="col-md-6 col-12">
           <img
-            style="margin-right: 15px; object-fit: cover;"
+            style="object-fit: cover;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1611924848/102273/897_1_wb7ulw.png"
-            class="col-md-6 col-12"
           />
+          </div>
+
           </div>
         </div>
         <div>
