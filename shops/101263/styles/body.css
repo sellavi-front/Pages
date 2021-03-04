@@ -140,7 +140,7 @@ body .custom_section {
   margin-top: 65px !important;
 }
 
-body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
+body.theme-green-2.theme_11 .main-slider .btn.btn-theme:not(.btn-wish-list) {
   background: transparent !important;
   border-color: #333 !important;
   color: #000;
