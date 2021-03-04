@@ -25,3 +25,9 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     }
     
 }
+
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div {
+        margin: 0px;
+    }
+}
