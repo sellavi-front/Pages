@@ -206,6 +206,10 @@ nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > inpu
         padding: 0px;
     }
 
+    footer > div.footer-widgets {
+        padding-top: 20px !important;
+    }
+
     #home > div > div.content-area > section.page-section.color.information {
         padding: 0 15px;
     }
