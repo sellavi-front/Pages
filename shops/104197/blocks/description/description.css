@@ -70,4 +70,18 @@
     .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
         flex-direction: column
     }
+
+    body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
+        max-width: 100% !important;
+        margin: 0 20px
+    }
+    
+    body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+        display: flex;
+        justify-content: center
+    }
+    
+    body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+        display: block;
+    }
 }
