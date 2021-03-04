@@ -481,7 +481,11 @@ body.theme-green-2.theme_11
   .price_actions
   .add_to_cart
   > button:hover {
-  background-color: transparent !important;
+    background: rgba( 131, 196, 82, 0.75 );
+    -webkit-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
 }
 
 body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart,
