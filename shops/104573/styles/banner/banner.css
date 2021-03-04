@@ -131,3 +131,38 @@
   border: 0;
   font-weight: 900;
 }
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  width: 100%;
+}
+
+.contact__container__item {
+  display: flex;
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 2%;
+}
+
+
+.contact__container__item img + h6 {
+  margin-left: 2.5%;
+}
+
+.contact__container__item img {
+  width: 50px;
+}
+
+.contact__container__item h6{
+  font-size: 21px;
+  color: #fff;
+}
+
+body.ltr ol, body.ltr ul {
+  padding-left: 5% !important;
+  padding-right: unset;
+}
