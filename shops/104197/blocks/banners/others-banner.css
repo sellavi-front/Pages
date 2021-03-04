@@ -46,3 +46,11 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
 .common-home > div > div.content-area {
     padding-bottom: 0px;
 }
+
+header > div.navigation-wrapper > div > nav > ul > li:nth-child(5) > a {
+    color: red !important;
+}
+
+ header > div.navigation-wrapper > div > nav > ul > li:nth-child(6) > a {
+    color: red !important;
+}
