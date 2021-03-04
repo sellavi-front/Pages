@@ -14,7 +14,7 @@ if (pages.all) {
   changeTitleBlogToNews();
 }
 
-if (document.querySelector('.product-item.product-layout')) {
+if (document.querySelector('.row.products.grid')) {
   btnWishListToBtnAddToCart();
 }
 
