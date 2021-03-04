@@ -5,8 +5,8 @@ import changeTextCategoryBtn from './changeTextCategoryBtn.js';
 // import addTitleForCategory from './addTitleForCategory.js';
 // import changeTextBannerBtn from './changeTextBannerBtn.js'
 import pages from '../config/conditions.js';
-import addCategories from './addCategories.js';
-import dataCategories from '../utils/dataCategories.js';
+// import addCategories from './addCategories.js';
+// import dataCategories from '../utils/dataCategories.js';
 import setBannerCaption from './setBannerCaption.js';
 
 if (pages.all) {
@@ -22,5 +22,5 @@ if (pages.main) {
   // addTitleForCategory('Каталог')
   cutSrcImg();
   changeTextCategoryBtn();
-  addCategories(dataCategories);
+  // addCategories(dataCategories);
 }
