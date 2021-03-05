@@ -4,11 +4,11 @@ const bannerLayout = `
       <div class="banner__item">
         <div class="banner__column">
           <div class="banner__column__item">
-            <h4>Дизайнерские</h4>
-            <h1>Шторы</h1>
-            <h1>Покрывала</h1>
-            <h1>Подушки</h1>
-            <h4>Индивидуального пошива</h4>
+            <div>Дизайнерские</div>
+            <div>Шторы</div>
+            <div>Покрывала</div>
+            <div>Подушки</div>
+            <div>Индивидуального пошива</div>
           </div>
           <ul class="contact__container">
             <li class="contact__container__item">
