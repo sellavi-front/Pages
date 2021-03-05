@@ -23,8 +23,8 @@ body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-
 }
 
 body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
-  padding-top: 44px;
-  padding-bottom: 25px;
+  padding-top: 44px !important;
+  padding-bottom: 25px !important;
   margin-top: -5px;
 }
 
