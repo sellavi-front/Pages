@@ -45,4 +45,8 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   .mobile_two_columns .products .thumbnail .caption .caption-title {
     font-size: 11px !important;
   }
+
+  .product-item .spinner-grow.spinner-grow-sm {
+    display: none !important;
+  }
 }
