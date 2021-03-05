@@ -49,6 +49,10 @@ body.theme_11 .wrapper .subcategories_top>div>div>.media_holder>.thumbnail .medi
   margin: 10px auto !important;
 }
 
+.sf-menu li:hover>a {
+  color: #00000050;
+}
+
 @media (max-width: 991px) {
   header .navigation {
     display: none !important;
