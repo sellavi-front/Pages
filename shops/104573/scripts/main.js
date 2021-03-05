@@ -11,9 +11,9 @@ import setBannerCaption from './setBannerCaption.js';
 import renderBanner from "../styles/banner/banner.js"
 import renderSlider from "./addSlider.js";
 
-if (pages.main) {
-  renderBanner()
-}
+// if (pages.main) {
+//   renderBanner()
+// }
 
 if (pages.all) {
   changeTitleBlogToNews();
