@@ -2,3 +2,18 @@
     display: block;
     overflow: hidden;
 }
+
+.common-home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div > img {
+    width: 100%;
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-stage-outer > div > div {
+    padding: 30px;
+    box-shadow: 2px 2px 5px #dedede;
+}
+
