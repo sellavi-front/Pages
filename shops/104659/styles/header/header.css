@@ -17,6 +17,11 @@ body header nav .arrow {
   padding: 10px 0 !important;
 }
 
+body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy>a, body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]>a {
+  border: none !important;
+  z-index: 9999;
+}
+
 header .navigation .nav.sf-menu {
   margin: 20px auto !important;
 }
