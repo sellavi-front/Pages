@@ -119,3 +119,9 @@ body.theme_11
     padding-right: 15px !important;
   }
 }
+
+@media (max-width: 495px) {
+  body.theme_11 .wrapper .header .header-wrapper .header_widgets .header_login {
+    display: none !important;
+  }
+}
