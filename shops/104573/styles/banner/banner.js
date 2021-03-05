@@ -4,16 +4,20 @@ const bannerLayout = `
       <div class="banner__item">
         <div class="banner__column">
           <div class="banner__column__item">
-            <h4>Проектируем, оснащаем оборудованием и запускаем кулинарные пространства</h4>
+            <h4>Дизайнерские</h4>
+            <h1>Шторы</h1>
+            <h1>Покрывала</h1>
+            <h1>Подушки</h1>
+            <h4>Индивидуального пошива</h4>
           </div>
           <ul class="contact__container">
             <li class="contact__container__item">
-              <img src="https://coospir.github.io/Pages/shops/100980/media/icons8-whatsapp%201.png" />
-              <h6>+7(495) 989-98-28</h6>
+              <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614928893/Vector_4_jbygpc.png" />
+              <h6>7 905 368-83-03</h6>
             </li>
             <li class="contact__container__item">
-              <img src="https://coospir.github.io/Pages/shops/100980/media/Vector.png" />
-              <h6>Город столиц Пресненская набережная д.8 ст.1, <br>Пн-Сб: с 9:30 до 19:00</h6>
+              <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614928895/Vector_3_vik8c1.png" />
+              <h6>Саратов , ул . Мичурина,  д.182/20,  оф 17</h6>
             </li>
           </ul>
         </div>
