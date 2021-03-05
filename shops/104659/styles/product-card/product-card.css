@@ -3,8 +3,31 @@
 @import './add_to_cart.css';
 @import './colorBtns.css';
 
-.product-item.product-layout {
+body.ru.ltr .wrapper .page-section .products.grid .product-item {
   border: none !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  top: -40px !important;
+
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  margin: 20px 0 30px !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title,
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  text-align: center !important;
+}
+
+.caption-title a {
+  font-weight: normal;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+  min-height: 85px;
+  max-height: 85px;
 }
 
 @media (max-width: 576px) {

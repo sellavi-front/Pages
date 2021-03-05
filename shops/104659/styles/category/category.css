@@ -18,23 +18,104 @@ body.ru.ltr
   padding: 0 !important;
 }
 
+body.theme_11
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  h2.caption-title
+  span,
+body.theme_11
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  h2.caption-title {
+  min-height: 10px !important;
+  background: none !important;
+}
+
+body.theme_11
+  .wrapper
+  .homefeatured_category
+  > div
+  > div
+  > div
+  > .thumbnail
+  .media
+  .media-link
+  .caption
+  .caption-wrapper
+  .caption-inner
+  p {
+  text-align: left !important;
+  font-weight: normal !important;
+}
+
 body.ru.ltr .wrapper .homefeatured_category > div > div > div {
   max-width: 560px !important;
   width: 100% !important;
 }
 
 body.ltr .wrapper .homefeatured_category > div > div > div > .thumbnail,
-body.ltr .wrapper .homefeatured_category>div>div>div {
+body.ltr .wrapper .homefeatured_category > div > div > div {
   border: none !important;
+}
+
+@media only screen and (min-width: 992px) {
+  body.theme_11
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    span.btn {
+    position: absolute !important;
+    bottom: 5%;
+  }
+
+  body.theme_11
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    h2.caption-title {
+    margin-top: -30px !important;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   body.theme_11 .wrapper .homefeatured_category > div > div > div {
     -webkit-box-flex: 0 !important;
-        -ms-flex: 0 0 100% !important;
-            flex: 0 0 100% !important;
-            margin-bottom: 35px !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 35px !important;
   }
-
-  
 }

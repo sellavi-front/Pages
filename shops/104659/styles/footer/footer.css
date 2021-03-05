@@ -4,12 +4,19 @@
   display: flex;
 }
 
+.footer-widgets > .container > .row {
+  width: 100% !important;
+  padding-top: 20px !important;
+}
+
 .footer-widgets .row .col-md-3:nth-child(4) {
   border-top: 1px solid rgb(196 196 196) !important;
   padding-top: 20px !important;
 }
 
-
+body.theme-gray .footer {
+  background: white !important;
+}
 
 body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title,
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
@@ -20,11 +27,11 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
   font-weight: 300;
 }
 
-#home footer .footer-widgets {
+body.ru footer .footer-widgets {
   padding-top: 0;
 }
 
-#home footer .footer-widgets .container {
+body.ru footer .footer-widgets .container {
   border-top: 1px solid;
   padding-top: 45px;
 }
@@ -39,7 +46,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a 
     padding: 0 40px !important;
   }
 
-  #home > div > footer > div.footer-widgets > div.container > div > div:not(:nth-child(1)) {
+  body.ru > div > footer > div.footer-widgets > div.container > div > div:not(:nth-child(1)) {
     margin-top: 30px !important;
     padding-top: 20px;
     border-top: 1px solid black;

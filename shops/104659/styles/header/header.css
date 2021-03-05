@@ -1,11 +1,28 @@
 @import './header-ico.css';
+@import './header-cart.css';
 
 .sf-menu.nav>li>a {
   font-weight: normal !important;
 }
 
+body .arrow {
+  display: block !important;
+}
+
+body header nav .arrow {
+  display: none !important;
+}
+
+.header .header-wrapper {
+  padding: 10px 0 !important;
+}
+
+header .navigation .nav.sf-menu {
+  margin: 20px auto !important;
+}
+
 @media (max-width: 991px) {
-  .navigation {
+  header .navigation {
     display: none !important;
   }
 
