@@ -50,3 +50,22 @@ body.theme_11 .wrapper .header .header-wrapper:not(.mobile_search_active) .conta
   height: 100px !important;
   width: 1140px;
 }
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+  margin-bottom: 40px;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  top: -40px;
+}
+
+body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  text-align: center !important;
+}
+
+.price_actions.d-flex.justify-content-between > div.price {
+  text-align: center !important;
+  font-family: 'Montserrat' !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
