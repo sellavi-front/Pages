@@ -36,7 +36,7 @@ const header = () => {
     );
     cart.remove();
   }
-
+  console.log('aaaa');
   new NavTransferTo(headerLogo, 'afterend').transfer();
 };
 
