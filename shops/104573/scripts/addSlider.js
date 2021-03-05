@@ -9,8 +9,8 @@ const nexGSlider = () => {
         loop:true,
         margin:10,
         nav:true,
-        // autoplay: true,
-        // autoplayTimeout: 2000,
+        autoplay: true,
+        autoplayTimeout: 2000,
         responsive:{
             0:{
                 items:1
