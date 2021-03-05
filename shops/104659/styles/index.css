@@ -9,6 +9,7 @@
 @import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
 @import '../../../components/HeaderTypeTwo/styles/header-login/header-login.css';
 @import '../../../components/HeaderTypeTwo/styles/burger/burger.css';
+@import '../../../components//HeaderTypeTwo/styles/sf-menu/sf-menu.css';
 
 
 @import './pay-delivery/pay-delivery.css';
