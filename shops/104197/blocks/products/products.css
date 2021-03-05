@@ -49,7 +49,6 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 @media (max-device-width: 480px) {
     .common-home > div > div.content-area > section > div > div > a > img {
         width: 100%;
-        height: 200px;
     }
 }
  
