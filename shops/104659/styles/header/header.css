@@ -22,6 +22,17 @@ body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-
   z-index: 9999;
 }
 
+body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
+  padding-top: 44px;
+  padding-bottom: 25px;
+  margin-top: -5px;
+}
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover > ul {
+  width: 100% !important;
+  left: auto !important;
+}
+
 header .navigation .nav.sf-menu {
   margin: 20px auto !important;
 }
