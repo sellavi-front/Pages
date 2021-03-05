@@ -33,6 +33,7 @@
 .banner__item {
   display: flex;
   flex-direction: row;
+  margin-left: 153;
 }
 
 .banner__column {
