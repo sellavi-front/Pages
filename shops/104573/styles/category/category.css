@@ -38,3 +38,33 @@ body.ltr .wrapper .homefeatured_category>div>div>div {
 
   
 }
+
+
+
+#home > div > div.content-area > section > div > h2 {
+  margin-top: 60px !important;
+}
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:before {
+  content: " ";
+  height: 50px;
+  width: 111px;
+  background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614932652/Group_7423575_iltp5v.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -7px 40px;
+}
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:after {
+  content: " ";
+  height: 50px;
+  width: 100px;
+  background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614932652/Group_7423575_iltp5v.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -7px 40px;
+}
+
+#home > div > div.content-area > section > div > h2 {
+  height: 50px;
+}
