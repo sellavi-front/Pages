@@ -17,3 +17,42 @@
     box-shadow: 2px 2px 5px #dedede;
 }
 
+.common-home > div > div.content-area > div.custom_section > div > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+}
+
+
+.common-home > div > div.content-area > div.custom_section > div > div:nth-child(1) > span:before {
+    content: " ";
+    height: 41px;
+    width: 220px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614932652/Group_7423575_iltp5v.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 60px 38px;
+    padding: 0px 84px;
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div:nth-child(1) > span:after {
+    content: " ";
+    height: 41px;
+    width: 220px;
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614932652/Group_7423575_iltp5v.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 60px 38px;
+    padding: 0px 84px;
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div:nth-child(1) > span {
+    font-family: 'Cormorant Garamond';
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.common-home > div > div.content-area > section > div > h2 > span {
+    font-family: 'Cormorant Garamond';
+    color: black;
+    font-size: 36px;
+}
