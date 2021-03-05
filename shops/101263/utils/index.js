@@ -13,6 +13,7 @@ import icons from '../utils/icons/icons.js';
 // import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import ChangeIconInProductCard from './functions/functions.js';
 import SocIconsTypeOneV2 from '../../../components/SocialIconsTypeOne/SocialIconsTypeOneV2.js';
+import translateBtnInSearch from './functions/translateBtnInSearch.js';
 // import CustomSection from "../blocks/custom-section.js"
 
 if (pages.home) {
@@ -85,6 +86,7 @@ if (pages.all) {
   document.querySelector('.logo').insertAdjacentHTML('afterend', newCatalog.outerHTML);
   oldCatalog.remove();
 
+  translateBtnInSearch();
 }
 
 if (location.href.includes('/index.php?route=account/register')) {

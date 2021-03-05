@@ -22,6 +22,10 @@ body .footer .footer-widgets .widget-title {
   justify-content: flex-start !important;
 }
 
+#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(7) {
+  display: none !important;
+}
+
 @media (min-width: 991px) {
   #sellavi_logo {
     width: 111px !important;
