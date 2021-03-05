@@ -9,6 +9,7 @@ import pages from '../config/conditions.js';
 // import dataCategories from '../utils/dataCategories.js';
 import setBannerCaption from './setBannerCaption.js';
 import renderBanner from "../styles/banner/banner.js"
+import renderSlider from "./addSlider.js";
 
 renderBanner()
 
@@ -19,6 +20,8 @@ if (pages.all) {
 if (document.querySelector('.product-item.product-layout')) {
   btnWishListToBtnAddToCart();
 }
+
+renderSlider()
 
 // if (pages.main) {
 //   setBannerCaption('https://res.cloudinary.com/depgheppz/image/upload/v1614779607/Group_7423535_fvlseb.svg');
