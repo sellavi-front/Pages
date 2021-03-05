@@ -5,24 +5,47 @@ const nexGSlider = () => {
     <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614945483/118360270_156239069452181_1236850886805879660_n_1_iznhwe.png"><div>Синевская Татьяна</div><div>Саратов</div><div>Добрый вечер, спасибо большое за ваш труд, за прекрасное оформление! Радует каждый день такая красота.Желаю салона штор "Виктория" дальнейшего процветания и вдохновения!</div></div>
     </div></div>`)
 
+
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
         autoplay: true,
         autoplayTimeout: 2000,
+        responsiveClass:true,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:true
             },
             600:{
-                items:3
+                items:3,
+                nav:false
             },
             1000:{
-                items:3
+                items:3,
+                nav:true,
+                loop:false
             }
         }
     })
+
+    // $('.owl-carousel').owlCarousel({
+    //     loop:true,
+    //     margin:10,
+    //     nav:true,
+        
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         600:{
+    //             items:3
+    //         },
+    //         1000:{
+    //             items:3
+    //         }
+    //     }
+    // })
 }
 
 export default nexGSlider;
