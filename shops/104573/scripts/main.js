@@ -11,7 +11,9 @@ import setBannerCaption from './setBannerCaption.js';
 import renderBanner from "../styles/banner/banner.js"
 import renderSlider from "./addSlider.js";
 
-renderBanner()
+if (pages.main) {
+  renderBanner()
+}
 
 if (pages.all) {
   changeTitleBlogToNews();
@@ -21,7 +23,11 @@ if (document.querySelector('.product-item.product-layout')) {
   btnWishListToBtnAddToCart();
 }
 
-renderSlider()
+
+if (pages.main) {
+  renderSlider()
+}
+
 
 // if (pages.main) {
 //   setBannerCaption('https://res.cloudinary.com/depgheppz/image/upload/v1614779607/Group_7423535_fvlseb.svg');
