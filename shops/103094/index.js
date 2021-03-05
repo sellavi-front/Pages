@@ -31,27 +31,65 @@ if(document.querySelector(".common-home")) {
   renderContactsInCustomSection()
 
   document.querySelector(".custom_banner").insertAdjacentHTML("afterend", `
+      
+
+
       <div class="container cat_block">
         <div class="categories_block">
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multidez/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350658/sellavi/103094/Frame_318_1_k2fd4i.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multiblade/">
+                  <div class="cat-name">
+                    MULTIBLADE
+                  </div>
+                  <div class="cat-a">
+                    Смотреть все
+                  </div>
+                </a>
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350685/sellavi/103094/Frame_320_znutxc.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multicream-1/">
+                  <div class="cat-name">
+                    MULTICREAM
+                  </div>
+                  <div class="cat-a">
+                    Смотреть все
+                  </div>
+                </a>
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multiblade/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350624/sellavi/103094/Frame_316_1_skvz21.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multidez/">
+                  <div class="cat-name">
+                    MULTIDEZ
+                  </div>
+                  <div class="cat-a">
+                    Смотреть все
+                  </div>
+                </a>
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multigialuron/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multigialuron/">
+                  <div class="cat-name">
+                    MULTIGIALURON
+                  </div>
+                  <div class="cat-a">
+                    Смотреть все
+                  </div>
+                </a>
             </div>
 
             <div class="cat_item">
-                <a href="https://multimanic.ru/multicream-1/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350640/sellavi/103094/Frame_317_1_nmqnvi.jpg" alt="category" /></a>
+                <a href="https://multimanic.ru/multinailstick/">
+                  <div class="cat-name">
+                    MULTINAILSTICK
+                  </div>
+                  <div class="cat-a">
+                    Смотреть все
+                  </div>
+                </a>
             </div>
 
         </div>
@@ -92,3 +130,40 @@ if (location.href.includes('/policy')) {
   req.setTemplate();
 }
 
+if (document.querySelector('.product-product')) {
+  document.querySelector('.btn.btn-theme.btn-cart.btn-icon-left.d-none').classList = 'btn btn-theme btn-cart btn-icon-left';
+}
+
+
+if (document.querySelector('.common-home')) {
+  document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Подробнее'
+}
+
+
+
+
+// <div class="container cat_block">
+//         <div class="categories_block">
+
+//             <div class="cat_item">
+//                 <a href="https://multimanic.ru/multidez/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350658/sellavi/103094/Frame_318_1_k2fd4i.jpg" alt="category" /></a>
+//             </div>
+
+//             <div class="cat_item">
+//                 <a href="https://multimanic.ru/multinailstick/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350685/sellavi/103094/Frame_320_znutxc.jpg" alt="category" /></a>
+//             </div>
+
+//             <div class="cat_item">
+//                 <a href="https://multimanic.ru/multiblade/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350624/sellavi/103094/Frame_316_1_skvz21.jpg" alt="category" /></a>
+//             </div>
+
+//             <div class="cat_item">
+//                 <a href="https://multimanic.ru/multigialuron/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350674/sellavi/103094/Frame_319_ij1lbd.jpg" alt="category" /></a>
+//             </div>
+
+//             <div class="cat_item">
+//                 <a href="https://multimanic.ru/multicream-1/"><img src="https://res.cloudinary.com/sellavi-estarodubov/image/upload/v1612350640/sellavi/103094/Frame_317_1_nmqnvi.jpg" alt="category" /></a>
+//             </div>
+
+//         </div>
+//       </div>

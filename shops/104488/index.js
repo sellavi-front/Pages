@@ -1,13 +1,30 @@
 import Requisites from '../../modules/Requisites/Requisites.js';
-import {requsites, dataContact } from './utils/requsites.js'
+import {
+  requsites,
+  dataContact
+} from './utils/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
+import SocialIconsTypeOne from '../../components/SocialIconsTypeOne/SocialIconsTypeOne.js'
+import socIconsData from './utils/socIconsData.js';
+
+if (document.querySelector('.wrapper')) {
+  const footerContainer = document.querySelector('.footer-widgets>div>div');
+
+  new SocialIconsTypeOne(footerContainer, 'beforeend', socIconsData).render();
+
+  const socIconsContainer = document.querySelector('.soc-icons>.container');
+  socIconsContainer.insertAdjacentHTML('afterbegin', `<h4 class="widget-title soc-icons__title">Мы в соц.сетях</h4>`);
+
+  const socIcons = document.querySelector('.soc-icons');
+  socIcons.classList.add('col-md-3');
+}
 
 if (document.querySelector('.common-home')) {
-  
+
   document.querySelector('.page-section.latest-section').insertAdjacentHTML('afterend', `<div class="contactsSection">
   <div class="container">
     <div class="contacts-flex">
@@ -52,6 +69,18 @@ if (document.querySelector('.header-wrapper')) {
 
 if (document.querySelector('.common-home')) {
   document.querySelector('#home > div > div.content-area > section.page-section.homefeatured_category > div > div').insertAdjacentHTML('beforebegin', '<div class="container"><span>Категории</span></div>')
+  document.querySelector('#banner0 > div > div > div > div > div > div > div > div > div > p > a').innerHTML = 'Начать покупать'
+}
+
+if (document.querySelector('.information-contact')) {
+  document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2)').insertAdjacentHTML('beforebegin', `<div class="media">
+                  <i class="float-right fa fa-phone"></i>
+                  <div class="media-body">
+                    <strong>Часы работы:</strong><br><soan>
+                    с 9.00 до 21.00                  </span></div>
+                </div>`)
+                document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > i').classList = 'float-right fa fa-clock'
+                document.querySelector('#home > div.wrapper.wrapper-closed > div.content-area > div > section > div > div > div.col-md-4 > div > div > div:nth-child(2) > div > strong').innerHTML = 'Часы работы'
 }
 
 if (location.href.includes('term-of-use')) {
@@ -88,6 +117,3 @@ if (location.href.includes('pay-delivery')) {
   );
   req.setTemplate();
 }
-
-
-

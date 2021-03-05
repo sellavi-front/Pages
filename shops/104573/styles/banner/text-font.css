@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+.custom_banner > div > div:nth-child(1) > div > div > div {
+    text-transform:uppercase;
+}
+
+.custom_banner > div > div:nth-child(1) > div > div > div:nth-child(1) {
+    color: #F2DFAD;
+    font-size: 24px;
+    text-transform:uppercase;
+    letter-spacing: 30px
+}
+
+
+.custom_banner > div > div:nth-child(1) > div > div > div:nth-child(2) {
+    font-size: 118px;
+  background: -webkit-linear-gradient(#D7CDD4, #FFFFFF, #D6C9D2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 120px
+}
+
+.custom_banner > div > div:nth-child(1) > div > div > div:nth-child(3) {
+    font-size: 118px;
+  background: -webkit-linear-gradient(#D7CDD4, #FFFFFF, #D6C9D2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 120px
+}
+
+.custom_banner > div > div:nth-child(1) > div > div > div:nth-child(4) {
+    font-size: 118px;
+  background: -webkit-linear-gradient(#D7CDD4, #FFFFFF, #D6C9D2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 120px
+}
+
+
+.custom_banner > div > div:nth-child(1) > div > div > div:nth-child(5) {
+    font-size: 43px;
+  background: -webkit-linear-gradient(#D7CDD4, #FFFFFF, #D6C9D2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 120px;
+  text-transform: none
+
+}
+
+.custom_banner > div > div:nth-child(1) > div > ul > li:nth-child(1) > h6 {
+    color: #F2DFAD;
+}
+
+.custom_banner > div > div:nth-child(1) > div > ul > li:nth-child(2) > h6 {
+    color: #F2DFAD;
+}

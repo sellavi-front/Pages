@@ -1,0 +1,106 @@
+.common-home > div > div.content-area > div.custom_section > div > img {
+    width: 100%
+}
+
+.common-home > div > div.content-area > div.custom_section > div {
+    margin-top: 100px;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div {
+    margin-bottom: 50px;
+}
+
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div > img {
+    width: 100%;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div > a {
+    text-align: center;
+    position: relative;
+    bottom: 65px;
+    font-size: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 30px;
+    border-radius: 10px;
+    background: #E95052;
+    color: #fff;
+}
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div > a:hover {
+    background: #c33b3c;
+}
+
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > div.container > div > div:nth-child(1) {
+        background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614700109/Frame_14_bwskr1.png) !important;
+        background-size: contain !important;
+    }
+
+    .common-home > div > div.content-area > div.container > div > div:nth-child(2) {
+        background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614700109/Frame_15_cr0at8.png) !important;
+        background-size: contain !important;
+    }
+    
+    .common-home > div.wrapper.wrapper-closed > div.content-area > div.container > div {
+        width: 100% !important;
+    }
+
+    .common-home > div > div.content-area > div.container > div > div {
+        height: 141px !important;
+        width: 100% !important;
+    }
+
+    .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+        flex-direction: column
+    }
+
+    body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart {
+        max-width: 100% !important;
+        margin: 0 20px
+    }
+    
+    body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+        display: flex;
+        justify-content: center
+    }
+    
+    body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button>i {
+        display: block;
+    }
+
+    .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(1) {
+        text-align: center;
+        font-size: 24px
+    }
+
+    body#home .mobile_side_nav .sidenav_search {
+        display: block !important;
+    }
+    
+    .common-home > nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
+        direction: ltr
+    }
+
+    body.sidenav-enabled.ltr .navigation.nav-opened.mobile_side_nav {
+        top: 0px !important;
+        left: 0px !important;
+    }
+}
+

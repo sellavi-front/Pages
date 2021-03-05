@@ -1,0 +1,174 @@
+@import './caption.css';
+@import './text-font.css';
+
+.main-slider .caption-content {
+  display: block !important;
+}
+
+@media (max-width: 991px) {
+  .main-slider .caption-content img {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-slider picture img {
+    height: 460px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+
+
+
+
+.banner__container {
+  display: flex;
+  width: 100%;
+  height: 857px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614871762/purple-retro-living-room_1_zbxp2l.png") no-repeat center/cover;
+}
+
+.banner__item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 153px;
+}
+
+.banner__column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-self: center;
+}
+
+.banner__column__item {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.banner__item + .banner__item {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.banner__column__item h4 {
+  font-size: 40px;
+  color: #fff;
+  padding: 3rem;
+}
+
+.banner__submit__form {
+  width: 590px;
+  height: 667px;
+  background: #ffffff36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  align-items: center;
+  border-radius: 66px;
+}
+
+.banner__submit__form>h6  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0 0 40px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.banner_submit__form__input {
+  width: 462px;
+  height: 68px;
+  background: rgba(243, 243, 243, 0.2);
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.banner_submit__form__input:not(:first-child) {
+  margin-top: 15px;
+}
+
+.banner_submit__form__input {
+  color: #fff;
+}
+
+.banner_submit__form__input::placeholder {
+  color: #fff !important;
+  font-weight: 100;
+}
+
+.banner_submit__form__input:focus {
+  outline: 0;
+}
+
+.banner_submit__form__input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.banner__submit__form>p {
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  width: 428px;
+}
+
+.banner__submit__form__btn {
+  background: linear-gradient(0deg, #74616F, #A98EA2);;
+  border-radius: 15px;
+  color: #fff;
+  padding: 15px;
+  width: 374px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  width: 100%;
+}
+
+.contact__container__item {
+  display: flex;
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 2%;
+}
+
+
+.contact__container__item img + h6 {
+  margin-left: 2.5%;
+}
+
+.contact__container__item img {
+  width: 50px;
+}
+
+.contact__container__item h6{
+  font-size: 21px;
+  color: #fff;
+}
+
+body.ltr ol, body.ltr ul {
+  /* padding-left: 5% !important; */
+  padding-right: unset;
+}

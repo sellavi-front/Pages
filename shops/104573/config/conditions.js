@@ -8,6 +8,7 @@ const pages = {
   login: document.querySelector('.account-login'),
   register: document.querySelector('.account-register'),
   sitemap: document.querySelector('.information-sitemap'),
+  blog: document.querySelector('.module-blog'),
 }
 
 export default pages;

@@ -1,3 +1,71 @@
+@import '../../../vendor/fonts/Golos/golos.css';
+
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+
+@import '../../../components/HeaderTypeTwo/styles/logo/logo.css';
+@import '../../../components/HeaderTypeTwo/styles/search/search.css';
+@import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
+@import '../../../components/HeaderTypeTwo/styles/header-login/header-login.css';
+@import '../../../components/HeaderTypeTwo/styles/burger/burger.css';
+
 
 @import './pay-delivery/pay-delivery.css';
+@import './product-card/product-card.css';
+@import './footer/footer.css';
+@import './category/category.css';
+@import './logo/logo.css';
+@import './header/header.css';
+@import './titles/titles.css';
+@import './banner/banner.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800;900&display=swap');
+
+:root {
+  --color-custom-theme: linear-gradient(#A98EA2, #74616F) !important;
+  --btn-border-radius: 4px;
+  --btn-color-content: white;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body a,
+body span,
+body b,
+body strong {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
+  display: none;
+}
+
+body.theme_11 .wrapper .header .header-wrapper:not(.mobile_search_active) .container-fluid {
+  height: 100px !important;
+  width: 1140px;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+  margin-bottom: 40px;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+  top: -40px;
+}
+
+body.theme_11.ltr .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+  text-align: center !important;
+}
+
+.price_actions.d-flex.justify-content-between > div.price {
+  text-align: center !important;
+  font-family: 'Montserrat' !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}

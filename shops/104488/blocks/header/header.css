@@ -54,3 +54,227 @@ header > div.header-wrapper > div.container > div.header_widgets {
 header > div.header-wrapper > div.container > div.header_widgets > div.header_login {
     display: none !important;
 }
+
+header > div.header-wrapper > div.container > ul > li:nth-child(1) > a {
+    border-bottom-color: transparent !important;
+}
+
+/* header > div.header-wrapper > div.container > ul > li:nth-child(1):hover > a {
+    border-bottom-color: red !important;
+} */
+
+header > div.header-wrapper > div.container > ul > li:hover > a {
+    color: #bfbfbf;
+    /* border-bottom: 2px solid red; */
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a:hover {
+    color: #3d3d3d !important;
+}
+
+/* footer.footer .footer-widgets .widget-categories ul li:hover a {
+    border-bottom: 2px solid red;
+} */
+
+
+
+#banner0 > div > div > div > div > div > div > div > div > div > p {
+    margin-top: 250px;
+} 
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a {
+    text-transform: none;
+    background: #fff;
+    color: black;
+    padding: 20px 40px;
+    border: 1px solid black !important;
+    border-radius: 8px;
+    font-size: 17px
+}
+
+#banner0 > div > div > div > div > div > div > div > div > div > p > a:hover {
+    text-transform: none;
+    background: #E9F3FF;
+}
+
+footer > div.footer-widgets > div.container > div > div:nth-child(2) > div > ul > li:nth-child(5) {
+    display: none;
+}
+
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:after {
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background: black;
+    margin: 17px 40px;
+}
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:before {
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background: black;
+    margin: 17px 40px;
+}
+
+.common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span:before {
+    content: " ";
+    background: black;
+    padding: 1px 62px;
+    font-size: 0px;
+    position: relative;
+    top: -12px;
+    margin-right: 50px;
+}
+
+.common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span:after {
+    content: " ";
+    background: black;
+    padding: 1px 62px;
+    font-size: 0px;
+    position: relative;
+    top: -12px;
+    margin-left: 50px;
+}
+
+.common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+    color: black;
+}
+
+.common-home > div > div.content-area > div.contactsSection > div > div > div > div {
+    margin-bottom: 0px !important;
+} 
+
+footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div > div > div > a > img {
+    width: 30px;
+}
+
+#search_results > a > div.add_to_cart > button {
+    background: #fff;
+    border: 2px solid black !important;
+}
+
+#search_results > a > div.add_to_cart > button:hover {
+    background: #b0b0b0 !important;
+}
+
+
+body.ltr .wrapper .header .header-wrapper .header-search input.form-control {
+    padding-right: 0px !important;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div:hover {
+    background: #ffffff4d;
+    transition: 0.6s;
+}
+
+section.page-section.homefeatured_category > div > div > div > div > div {
+    transition: 0.6s;
+}
+
+nav.navigation.mobile_side_nav.opened.nav-opened > ul > li.sidenav_search > input {
+    direction: ltr;
+}
+
+
+@media (max-device-width: 480px) {
+    .alert.alert-success {
+        z-index: 999;
+    }
+
+    .create-account .btn.btn-block.btn-theme.btn-theme-dark.btn-create {
+        border: 2px solid  !important;
+    }
+
+    .common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span {
+        font-size: 20px !important;
+    }
+
+    .common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span {
+        font-size: 20px !important;
+    }
+
+    footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: 1px solid silver;
+        padding: 20px 15px;
+    }
+    
+    footer > div.footer-widgets > div.container > div > div.soc-icons.col-md-3 > div {
+        padding: 0px;
+    }
+
+    footer > div.footer-widgets {
+        padding-top: 20px !important;
+    }
+
+    #home > div > div.content-area > section.page-section.color.information {
+        padding: 0 15px;
+    }
+
+    .common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:before {
+        content: " ";
+        height: 2px;
+        width: 50px;
+        background: black;
+        margin: 2px 10px;
+    }
+
+    .common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:after {
+        content: " ";
+        height: 2px;
+        width: 50px;
+        background: black;
+        margin: 2px 10px;
+    }
+
+
+    .common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span:before {
+        content: " ";
+        background: black;
+        padding: 1px 22px;
+        font-size: 0px;
+        position: relative;
+        top: -7px;
+        margin-right: 10px;
+    }
+
+    .common-home > div > div.content-area > section.page-section.homefeatured_category > div > div.container > span:after {
+        content: " ";
+        background: black;
+        padding: 1px 22px;
+        font-size: 0px;
+        position: relative;
+        top: -7px;
+        margin-left: 10px;
+    }
+
+    .common-home > div > footer > div.footer-widgets > div.container {
+        padding: 0px;
+    }
+}
+
+.header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
+    color: #000;
+}
+
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > div.contactsSection > div > div > div.otherInfo > div {
+        align-items: center;
+    }
+
+    .common-home > div > div.content-area > div.contactsSection > div > div > div > div.time {
+        margin-bottom: 20px !important;
+    }
+
+    .common-home > div > div.content-area > div.contactsSection > div > div > div > div.phones {
+        margin-bottom: 20px !important;
+    }
+}
+
+header > div.header-wrapper > div.container > div.logo {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}

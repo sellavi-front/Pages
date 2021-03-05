@@ -1,0 +1,51 @@
+.row.products.grid .media .add_to_wishlist {
+    position: absolute !important;
+}
+
+.row.products.grid .media .add_to_wishlist button {
+    height: 36px;
+    width: 36px;
+    border-radius: 20px !important;
+    background: #ebebeb !important;
+    border: 0px !important;
+}
+
+.row.products.grid .media .add_to_wishlist {
+    display: flex;
+    align-items: flex-end;
+}
+
+body.ltr.ru .wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title, body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    text-align: center !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+    font-size: 18px !important;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button span{
+    text-transform: none;
+    margin-left: 6px;
+}
+
+.wrapper .page-section .products.grid .product-item .thumbnail .caption h4.caption-title {
+    line-height: 20px !important;
+}
+
+.product-item .thumbnail .caption, .product-layout .thumbnail .caption {
+    max-height: 60px;
+    min-height: 60px;
+}
+
+body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart>button {
+    border-radius: 8px !important;
+}
+
+.common-home > div > div.content-area > section > div > div > a > img {
+    width: 21%;
+    object-fit: contain;
+}
+
+.common-home > div > div.content-area > section > div > div > a {
+    display: contents;
+}

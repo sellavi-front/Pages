@@ -1,0 +1,45 @@
+footer > div.footer-widgets > div.container > div {
+    border-top: 1px solid black;
+    padding-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer > div.footer-widgets > div.container > div > div {
+    padding: 0px;
+}
+
+footer.footer .footer-widgets .widget-categories ul li a {
+    color: #afafaf !important;
+    font-weight: 600
+}
+
+.wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart .fa-shopping-cart.far {
+    color: black !important;
+}
+
+@media (max-device-width: 480px) {
+    footer > div.footer-widgets > div.container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+}
+
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) > div {
+        margin: 0px;
+    }
+
+    .information-information-8193 > div > div.content-area > section.page-section.color.information {
+        padding: 0 15px;
+    }
+
+    #home > div > div.content-area > section.page-section.color.information {
+        padding: 0 15px;
+    }
+
+    .information-sitemap .page-section.with-sidebar {
+        padding: 0 15px !important;
+    }
+}

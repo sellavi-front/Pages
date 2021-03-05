@@ -1,0 +1,51 @@
+body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
+    object-fit: contain;
+}
+
+body .main-slider .owl-carousel, body .main-slider .owl-carousel .owl-wrapper-outer, body .main-slider .owl-carousel .owl-wrapper, body .main-slider .owl-carousel .owl-item, body .main-slider .owl-carousel .owl-item .item, body .main-slider .owl-carousel .owl-item .item .img-bg, body .main-slider .owl-carousel .owl-item .item .img-bg .img-fluid {
+    width: inherit;
+}
+
+#banner0 > div.owl-wrapper-outer > div {
+    width: inherit !important;
+}
+
+.common-home > div > div.content-area > div.container > img {
+    width: 75% !important;
+}
+
+.common-home > div > div.content-area > div.container {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top: 20px !important;
+}
+
+.common-home > div > div.content-area > section > div > h2 {
+    margin-top: 50px !important;
+}
+
+.common-home > div > div.content-area > section > div > h2 > span {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    color: black !important;
+}
+
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > div.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .common-home > div > div.content-area > div.container > img {
+        width: 100% !important;
+    }
+
+    header > div.header-wrapper > div.container > div.header_widgets > div.header-cart.sticky {
+        display: flex !important;
+        margin: 0px;
+    }
+
+    .checkout-checkout > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.form_checkout > div.seller-comments.form-group.md-style-active > label {
+        font-size: 10px;
+    }
+}

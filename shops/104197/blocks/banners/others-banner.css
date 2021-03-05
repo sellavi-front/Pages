@@ -1,0 +1,64 @@
+#banner0 {
+    display: flex !important;
+}
+
+#banner0 > div:nth-child(2) > div {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+#banner0 > div:nth-child(2) > div:nth-child(1) {
+    background: url('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_9_s1dwb6.png') !important;
+    background-size: cover !important;
+}
+
+#banner0 > div:nth-child(2) > div:nth-child(2) {
+    background: url('https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_10_iasvrg.png') !important;
+    background-size: cover !important;
+}
+
+
+#home > div > div.content-area > div.container > div > div {
+    height: 240px;
+    width: 250px;
+}
+
+#home > div > div.content-area > div.container > div > div:nth-child(1) {
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_9_s1dwb6.png);
+    background-size: cover;
+}
+
+#home > div > div.content-area > div.container > div > div:nth-child(2) {
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_10_iasvrg.png);
+    background-size: cover;
+}
+
+header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
+    border-bottom: 0px !important;
+}
+
+
+.common-home > div > div.content-area > div.custom_section > div:nth-child(2) > div:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.common-home > div > div.content-area {
+    padding-bottom: 0px;
+}
+
+header > div.navigation-wrapper > div > nav > ul > li:nth-child(5) > a {
+    color: red !important;
+}
+
+ header > div.navigation-wrapper > div > nav > ul > li:nth-child(6) > a {
+    color: red !important;
+}
+
+.common-home > div > div.content-area > div.container {
+    padding: 0px !important;
+}
+
+body.ltr.ru .wrapper .latest-section h2.section-title {
+    text-align: center !important;
+}
