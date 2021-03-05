@@ -9,6 +9,10 @@ body .arrow {
   display: block !important;
 }
 
+body header nav .arrow {
+  display: none !important;
+}
+
 @media (max-width: 991px) {
   header .navigation {
     display: none !important;
