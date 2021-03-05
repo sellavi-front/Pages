@@ -1,6 +1,6 @@
 const nexGSlider = () => {
     document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container"><div>Отзывы</div><div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614945252/Component_1_23_wys8cb.png"></h4></div>
     <div class="item"><h4>2</h4></div>
     <div class="item"><h4>3</h4></div>
     <div class="item"><h4>4</h4></div>
