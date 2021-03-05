@@ -45,23 +45,8 @@ body.theme_11
   .caption-wrapper
   .caption-inner
   h2.caption-title {
-  min-height: 20px !important;
-}
-
-body.theme_11
-  .wrapper
-  .homefeatured_category
-  > div
-  > div
-  > div
-  > .thumbnail
-  .media
-  .media-link
-  .caption
-  .caption-wrapper
-  .caption-inner
-  h2.caption-title {
-  margin-top: -30px !important;
+  min-height: 10px !important;
+  background: none !important;
 }
 
 body.theme_11
@@ -107,6 +92,22 @@ body.ltr .wrapper .homefeatured_category > div > div > div {
     span.btn {
     position: absolute !important;
     bottom: 5%;
+  }
+
+  body.theme_11
+    .wrapper
+    .homefeatured_category
+    > div
+    > div
+    > div
+    > .thumbnail
+    .media
+    .media-link
+    .caption
+    .caption-wrapper
+    .caption-inner
+    h2.caption-title {
+    margin-top: -30px !important;
   }
 }
 
