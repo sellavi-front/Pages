@@ -23,6 +23,10 @@ body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .med
   min-height: 20px !important;
 }
 
+body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner h2.caption-title {
+  margin-top: -30px !important;
+}
+
 body.theme_11 .wrapper .homefeatured_category>div>div>div>.thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn {
   position: absolute !important;
   bottom: 5%;
