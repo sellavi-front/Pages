@@ -17,27 +17,27 @@ body header nav .arrow {
   padding: 10px 0 !important;
 }
 
-body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy>a, body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]>a {
+body.theme_11.ltr .wrapper .header  nav.navigation ul.nav.sf-menu>li.flexy>a, body.theme_11.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]>a {
   border: none !important;
   z-index: 9999;
 }
 
-body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
+body.ru.ltr .wrapper .header  nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
   padding-top: 44px !important;
   padding-bottom: 25px !important;
   margin-top: -5px;
 }
 
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover > ul {
+body.theme_11 .wrapper .header  nav.navigation ul.nav.sf-menu > li.flexy:hover > ul, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover > ul {
   width: 100% !important;
   left: auto !important;
 }
 
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li.megaline>div>ul, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li.megaline>div>ul {
+body.theme_11 .wrapper .header  nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li.megaline>div>ul, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li[data-nav-part=home]:hover>ul>li.megaline>div>ul {
   margin: 0 !important;
 }
 
-body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover {
+body.theme_11 .wrapper .header .header_widgets nav.navigation ul.nav.sf-menu > li.flexy:hover, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover {
   position: unset !important;
 }
 
