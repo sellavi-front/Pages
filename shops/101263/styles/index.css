@@ -385,7 +385,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget .widget-title {
   flex-direction: row-reverse;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: space-between !important;
 }
 
 .payment a {
@@ -609,4 +609,8 @@ body.theme_11.checkout-cart
   .product-price
   svg {
   width: 15px !important;
+}
+
+.clearfix:after {
+  display: none !important;
 }
