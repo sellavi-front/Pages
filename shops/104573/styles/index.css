@@ -48,4 +48,5 @@ body strong {
 
 body.theme_11 .wrapper .header .header-wrapper:not(.mobile_search_active) .container-fluid {
   height: 100px !important;
+  width: 1140px;
 }
