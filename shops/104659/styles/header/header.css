@@ -105,7 +105,7 @@ body.theme_11
   margin: 10px auto !important;
 }
 
-.sf-menu li:hover > a {
+.sf-menu.nav>li>a:focus, .sf-menu.nav>li>a:hover {
   color: #00000050;
 }
 
