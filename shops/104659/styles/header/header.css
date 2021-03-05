@@ -33,6 +33,10 @@ body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu
   left: auto !important;
 }
 
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover {
+  position: unset !important;
+}
+
 header .navigation .nav.sf-menu {
   margin: 20px auto !important;
 }
