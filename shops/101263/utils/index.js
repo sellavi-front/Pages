@@ -21,16 +21,20 @@ if (pages.home) {
     'body.common-home .main-slider .caption .caption-text a ',
   );
 
-
-  btnInSlider.forEach(btn => {
+  btnInSlider.forEach((btn) => {
     btn.textContent = '';
-    btn.insertAdjacentHTML('afterbegin', `Начать покупать`)
+    btn.insertAdjacentHTML('afterbegin', `Начать покупать`);
   });
-  document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614861123/Group_7423585_ezrqbu.png">`)
+  document
+    .querySelector('body.common-home .main-slider .caption .caption-content')
+    .insertAdjacentHTML(
+      'afterbegin',
+      `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614861123/Group_7423585_ezrqbu.png">`,
+    );
 
   if (window.screen.width >= 575) {
     document
-      .querySelector('#home > div > div.content-area > section > div > h2 > span')
+      .querySelector('#home > div > div.content-area > .page-section.latest-section .section-title')
       .insertAdjacentHTML('afterend', `<i class="fa fa-fire hits"></i>`);
     let advantages = new Advantages();
     advantages.render();
@@ -101,7 +105,6 @@ if (location.href.includes('/index.php?route=account/register')) {
     )
     .classList.add('btn-success');
 }
-
 
 if (document.querySelector('footer > .footer-widgets')) {
   document.querySelector('footer>.footer-widgets > div > div').insertAdjacentHTML(
