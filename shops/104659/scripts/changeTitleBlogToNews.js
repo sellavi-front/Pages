@@ -9,8 +9,8 @@ const changeTitleBlogToNews = () => {
   ];
 
   changesText.forEach((el) => {
-    if (el && el.textContent.trim().toLowerCase() === 'Оздоровительные программы') {
-      el.textContent = 'Новости';
+    if (el && el.textContent.trim().toLowerCase() === 'блог') {
+      el.textContent = 'Оздоровительные программы';
     }
   });
 
