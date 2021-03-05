@@ -9,9 +9,11 @@ import addCategories from './addCategories.js';
 import dataCategories from '../utils/dataCategories.js';
 import setBannerCaption from './setBannerCaption.js';
 import setTextCategories from './setTextCategories.js';
+import removeDefis from './removeDefis.js'
 
 if (pages.all) {
   changeTitleBlogToNews();
+  removeDefis()
 }
 
 if (document.querySelector('.row.products.grid')) {
