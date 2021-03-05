@@ -37,7 +37,7 @@ body.theme_11 .wrapper .header  nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>
   margin: 0 !important;
 }
 
-body.theme_11 .wrapper .header .header_widgets nav.navigation ul.nav.sf-menu > li.flexy:hover, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover {
+body.theme_11 .wrapper .header nav.navigation ul.nav.sf-menu > li.flexy:hover, body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li[data-nav-part='home']:hover {
   position: unset !important;
 }
 
