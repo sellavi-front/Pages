@@ -20,7 +20,7 @@ if (document.querySelector('.common-home')) {
 }
 
 if (location.href.includes('term-of-use')) {
-  const req = new Requisites(requsites, 'beforeend', 'ИП Горелова Мария Сергеевна');
+  const req = new Requisites(requsites, 'beforeend', 'ИП Хомяк Никита Владимирович');
 
   req.setTemplate();
 }
@@ -28,7 +28,7 @@ if (location.href.includes('term-of-use')) {
 if (location.href.includes('contact')) {
   const media = document.querySelector('.contact-info > .media-list > .media:last-child');
 
-  const req = new Requisites(requsites, 'afterend', 'ИП Горелова Мария Сергеевна', media);
+  const req = new Requisites(requsites, 'afterend', 'ИП Хомяк Никита Владимирович', media);
   req.setTemplate();
 }
 
@@ -37,7 +37,7 @@ if (location.href.includes('policy')) {
   const req = new Requisites(
     requsites,
     'afterend',
-    'ИП Горелова Мария Сергеевна',
+    'ИП Хомяк Никита Владимирович',
     document.querySelector('#content > div > div'),
   );
   req.setTemplate();
@@ -47,7 +47,7 @@ if (location.href.includes('pay-delivery')) {
   const req = new Requisites(
     requsites,
     'afterend',
-    'ИП Горелова Мария Сергеевна',
+    'ИП Хомяк Никита Владимирович',
     document.querySelector('#content > div > div'),
     dataContact,
   );
