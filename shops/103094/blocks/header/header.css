@@ -703,5 +703,5 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
 
 #home > div > div.content-area > div > div.container.cat_block > div > div > a {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
