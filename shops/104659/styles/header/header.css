@@ -5,6 +5,10 @@
   font-weight: normal !important;
 }
 
+body .arrow {
+  display: block !important;
+}
+
 @media (max-width: 991px) {
   header .navigation {
     display: none !important;
