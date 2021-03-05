@@ -48,7 +48,7 @@ body.ltr .wrapper .homefeatured_category>div>div>div {
 .common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:before {
   content: " ";
   height: 50px;
-  width: 111px;
+  width: 159px;
   background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614932652/Group_7423575_iltp5v.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -58,11 +58,15 @@ body.ltr .wrapper .homefeatured_category>div>div>div {
 .common-home > div > div.content-area > section.page-section.latest-section > div > h2 > span:after {
   content: " ";
   height: 50px;
-  width: 100px;
+  width: 159px;
   background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614932652/Group_7423575_iltp5v.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin: -7px 40px;
+}
+
+body.theme_11 .wrapper .latest-section h2.section-title span {
+  font-size: 36px
 }
 
 #home > div > div.content-area > section > div > h2 {
