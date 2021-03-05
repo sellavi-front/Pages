@@ -63,12 +63,13 @@
 .banner__submit__form {
   width: 590px;
   height: 667px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: #ffffff36;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  backdrop-filter: blur(5px);
   align-items: center;
-  border-radius: 5px;
+  border-radius: 66px;
 }
 
 .banner__submit__form>h6  {
@@ -76,9 +77,10 @@
   flex-wrap: wrap;
   justify-content: center;
   color: #fff;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 38px;
+  font-weight: 700;
   margin: 0 0 40px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .banner_submit__form__input {
@@ -111,26 +113,28 @@
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #000;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 15px;
   box-sizing: border-box;
 }
 
 .banner__submit__form>p {
   color: #fff;
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   width: 428px;
 }
 
 .banner__submit__form__btn {
-  background: #BF3417;
+  background: linear-gradient(0deg, #74616F, #A98EA2);;
   border-radius: 15px;
   color: #fff;
   padding: 15px;
   width: 374px;
   border: 0;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat';
 }
 
 .contact__container {
