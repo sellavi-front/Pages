@@ -1,0 +1,5 @@
+@media only screen and (max-width: 495px) {
+  body.checkout-checkout textarea.form-control {
+    padding-top: 50px !important;
+  }
+}
