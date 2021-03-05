@@ -19,6 +19,7 @@
 @import './header/header.css';
 @import './titles/titles.css';
 @import './banner/banner.css';
+@import '../styles/slider/styles.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800;900&display=swap');
 
