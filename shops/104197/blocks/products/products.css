@@ -46,6 +46,12 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     object-fit: contain;
 }
 
+@media (max-device-width: 480px) {
+    .common-home > div > div.content-area > section > div > div > a > img {
+        width: 51%;
+    }
+}
+ 
 .common-home > div > div.content-area > section > div > div > a {
     display: contents;
 }
