@@ -6,15 +6,15 @@ import changeTextCategoryBtn from './changeTextCategoryBtn.js';
 import addTitleForCategory from './addTitleForCategory.js';
 import pages from '../config/conditions.js';
 import addCategories from './addCategories.js';
-import dataCategories from '../utils/dataCategories.js';
 import setBannerCaption from './setBannerCaption.js';
 import setTextCategories from './setTextCategories.js';
-import removeDefis from './removeDefis.js';
+// import removeDefis from './removeDefis.js';
+import dataCategories from '../utils/dataCategories.js';
 
 if (pages.all) {
   header();
   changeTitleBlogToNews();
-  removeDefis();
+  // removeDefis();
 }
 
 if (document.querySelector('.row.products.grid')) {
