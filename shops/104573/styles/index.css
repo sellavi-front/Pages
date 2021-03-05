@@ -23,7 +23,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800;900&display=swap');
 
 :root {
-  --color-custom-theme: #121E1A !important;
+  --color-custom-theme: linear-gradient(#A98EA2, #74616F) !important;
   --btn-border-radius: 4px;
   --btn-color-content: white;
 }
