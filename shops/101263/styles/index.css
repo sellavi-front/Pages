@@ -147,11 +147,6 @@ body.theme_11 .wrapper .header .header-wrapper .header-search #search_results > 
   padding: 0 15px;
 }
 
-#payment-address-new
-  > div:nth-child(7)
-  > div.form-group.required.col-md-6.ajax-city-active.md-style-active {
-  display: none !important;
-}
 
 #search_results > a > div.add_to_cart > button > i {
   display: none !important;
