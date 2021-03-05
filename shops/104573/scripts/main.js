@@ -24,9 +24,9 @@ if (document.querySelector('.product-item.product-layout')) {
 }
 
 
-if (pages.main) {
-  renderSlider()
-}
+// if (pages.main) {
+//   renderSlider()
+// }
 
 
 // if (pages.main) {
