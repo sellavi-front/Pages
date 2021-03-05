@@ -13,6 +13,7 @@ import dataCategories from '../utils/dataCategories.js';
 
 if (pages.all) {
   changeTitleBlogToNews();
+  header()
   // removeDefis();
 }
 

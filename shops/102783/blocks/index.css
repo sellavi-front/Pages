@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 
 @import './pay-delivery/pay-delivery.css';
 @import './../../../fixes/js/FooterCopy/FooterCopy.css';
-<<<<<<< HEAD
-=======
->>>>>>> main/main
-=======
->>>>>>> 199e4a66a2ac23eff9af7219ce24fcfb0b8bd92a
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
 
@@ -29,7 +20,7 @@ h1, h2, h3, h4, h5, h6,
 .price, .section-title {
   font-family: 'Comfortaa', cursive !important;
 }
- 
+
 body.ltr .thumbnail .caption-title {
   text-align: center !important;
 }
@@ -104,9 +95,15 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
   height: 100%;
   top: 0;
   left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   color: green;
   background-color: #fff;
@@ -114,20 +111,41 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item {
 }
 
 .custom-preloader span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  animation: pulse 0.4s alternate infinite ease-in-out;
+  -webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+          animation: pulse 0.4s alternate infinite ease-in-out;
+}
+
+@-webkit-keyframes pulse {
+  to {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    opacity: 0.5;
+  }
 }
 
 @keyframes pulse {
   to {
-    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
     opacity: 0.5;
   }
 }
 
 .custom-preloader.hidden {
-  animation: fadeOut 1s;
-  animation-fill-mode: forwards;
+  -webkit-animation: fadeOut 1s;
+          animation: fadeOut 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 @keyframes fadeOut {
@@ -172,7 +190,10 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 }
 
 .price_actions {
-  flex-direction: column !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 .price {
@@ -291,7 +312,8 @@ body.ltr.ru .wrapper .latest-section h2.section-title {
   display: inline-block;
   padding: 8px 12px;
   background-color: #41414185 !important;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
   text-transform: initial !important;
 }
 
