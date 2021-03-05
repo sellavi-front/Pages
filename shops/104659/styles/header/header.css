@@ -17,6 +17,10 @@ body header nav .arrow {
   padding: 10px 0 !important;
 }
 
+header .navigation .nav.sf-menu {
+  margin: 20px auto !important;
+}
+
 @media (max-width: 991px) {
   header .navigation {
     display: none !important;
