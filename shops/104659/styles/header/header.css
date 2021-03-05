@@ -1,5 +1,6 @@
 @import './header-ico.css';
 @import './header-cart.css';
+@import './burger.css';
 
 .sf-menu.nav > li > a {
   font-weight: normal !important;
