@@ -16,3 +16,9 @@ body.ltr .thumbnail .remove_from_wishlist {
   border-radius: var(--btn-border-radius) !important;
   color: var(--btn-color-content) !important;
 }
+
+@media (max-width: 495px) {
+  .thumbnail .add_to_wishlist button, .thumbnail .remove_from_wishlist button {
+    width: 30px !important;
+  }
+}
