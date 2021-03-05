@@ -13,6 +13,10 @@ body header nav .arrow {
   display: none !important;
 }
 
+.header .header-wrapper {
+  padding: 10px 0 !important;
+}
+
 @media (max-width: 991px) {
   header .navigation {
     display: none !important;
