@@ -118,4 +118,8 @@ body.ltr .wrapper .homefeatured_category > div > div > div {
     flex: 0 0 100% !important;
     margin-bottom: 35px !important;
   }
+
+  body.ru.ltr .wrapper .homefeatured_category {
+    margin-bottom: 40px !important;
+  }
 }
