@@ -1,4 +1,5 @@
 @import './caption.css';
+@import './text-font.css';
 
 .main-slider .caption-content {
   display: block !important;

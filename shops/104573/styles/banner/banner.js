@@ -13,11 +13,11 @@ const bannerLayout = `
           <ul class="contact__container">
             <li class="contact__container__item">
               <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614928893/Vector_4_jbygpc.png" />
-              <h6>7 905 368-83-03</h6>
+              <h6>Тел.: 7 905 368-83-03</h6>
             </li>
             <li class="contact__container__item">
               <img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614928895/Vector_3_vik8c1.png" />
-              <h6>Саратов , ул . Мичурина,  д.182/20,  оф 17</h6>
+              <h6>Адрес: Саратов , ул . Мичурина,  д.182/20,  оф 17</h6>
             </li>
           </ul>
         </div>
