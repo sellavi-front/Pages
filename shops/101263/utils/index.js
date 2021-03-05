@@ -34,7 +34,7 @@ if (pages.home) {
 
   if (window.screen.width >= 575) {
     document
-      .querySelector('div.content-area > .page-section.latest-section .section-title span')
+      .querySelector('#home > div > div.content-area > small > section > div > h2 > span')
       .insertAdjacentHTML('afterend', `<i class="fa fa-fire hits"></i>`);
     let advantages = new Advantages();
     advantages.render();
