@@ -44,8 +44,8 @@
 .banner__column__item {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  flex-direction: column;
 }
 
 .banner__item + .banner__item {
