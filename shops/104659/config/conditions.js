@@ -9,6 +9,7 @@ const pages = {
   register: document.querySelector('.account-register'),
   sitemap: document.querySelector('.information-sitemap'),
   blog: document.querySelector('.module-blog'),
+  all: document.querySelector('.wrapper')
 }
 
 export default pages;
