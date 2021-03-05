@@ -20,6 +20,8 @@
 @import './titles/titles.css';
 @import './banner/banner.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800;900&display=swap');
+
 :root {
   --color-custom-theme: #121E1A !important;
   --btn-border-radius: 4px;
@@ -37,9 +39,7 @@ body a,
 body span,
 body b,
 body strong {
-  font-weight: 700;
-  font-style: normal;
-  font-family: 'Golos', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .information-information-8571 #content > div > div:nth-child(2) > section.delivery__content > p.delivery__content-title {
