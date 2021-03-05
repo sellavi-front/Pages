@@ -26,6 +26,11 @@ body .footer .footer-widgets .widget-title {
   display: none !important;
 }
 
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a {
+  font-weight: normal !important;
+}
+
 @media (min-width: 991px) {
   #sellavi_logo {
     width: 111px !important;
