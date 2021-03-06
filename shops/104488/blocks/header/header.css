@@ -282,3 +282,13 @@ header > div.header-wrapper > div.container > div.logo {
 .account-login .register_wrapper .create-account .btn.btn-block.btn-theme.btn-theme-dark.btn-create {
     border: 2px solid black !important;
 }
+
+@media (max-device-width: 480px) {
+    .footer-meta .row:not(.footer_content_wrapper)>div {
+        width: fit-content;
+    }
+
+    .footer-meta .row:not(.footer_content_wrapper)>div:last-of-type {
+        margin-top: 25px;
+    }
+}
