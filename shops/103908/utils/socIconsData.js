@@ -1,14 +1,14 @@
 const socIconsData = [
   {
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742762/icons8-instagram_1_viacgm.png',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615045140/Component_7_ltuibo.png',
     link: 'https://instagram.com/brasletnata.ru?igshid=1kn7dehn4xipy',
   },
   {
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742764/icons8-whatsapp_1_e1bbbz.png',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615045142/Component_8_kt57xj.png',
     link: 'https://wa.me/79175751641',
   },
   {
-    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1613742760/icons8-%D1%82%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-app_1_1_q0l01r.png',
+    src: 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615045144/Vector_xpkomv.png',
     link: 'https://t.me/79175751641',
   },
 ];
