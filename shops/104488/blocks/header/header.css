@@ -296,3 +296,7 @@ header > div.header-wrapper > div.container > div.logo {
         justify-content: center;
     }
 }
+
+.footer-widgets .social-icons {
+    display: none;
+}
