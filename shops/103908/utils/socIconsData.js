@@ -13,4 +13,4 @@ const socIconsData = [
   },
 ];
 
-export default socIconsData;
+export default socIconsData; 
