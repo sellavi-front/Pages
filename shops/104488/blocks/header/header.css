@@ -291,4 +291,8 @@ header > div.header-wrapper > div.container > div.logo {
     .footer-meta .row:not(.footer_content_wrapper)>div:last-of-type {
         margin-top: 25px;
     }
+
+    footer.footer .footer-meta .row.copyright_row {
+        justify-content: center;
+    }
 }
