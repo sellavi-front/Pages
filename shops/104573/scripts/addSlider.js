@@ -1,8 +1,8 @@
 const nexGSlider = () => {
     document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container"><div><span>Отзывы</span></div><div class="owl-carousel owl-theme">
-    <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614945483/118360270_156239069452181_1236850886805879660_n_1_iznhwe.png"><div>Синевская Татьяна</div><div>Саратов</div><div>Добрый вечер, спасибо большое за ваш труд, за прекрасное оформление! Радует каждый день такая красота.Желаю салона штор "Виктория" дальнейшего процветания и вдохновения!</div></div>
-    <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614945483/118360270_156239069452181_1236850886805879660_n_1_iznhwe.png"><div>Синевская Татьяна</div><div>Саратов</div><div>Добрый вечер, спасибо большое за ваш труд, за прекрасное оформление! Радует каждый день такая красота.Желаю салона штор "Виктория" дальнейшего процветания и вдохновения!</div></div>
-    <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614945483/118360270_156239069452181_1236850886805879660_n_1_iznhwe.png"><div>Синевская Татьяна</div><div>Саратов</div><div>Добрый вечер, спасибо большое за ваш труд, за прекрасное оформление! Радует каждый день такая красота.Желаю салона штор "Виктория" дальнейшего процветания и вдохновения!</div></div>
+    <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615109104/photo_2021-03-05_17-06-37_3_dltb29.jpg"><div>Татьяна</div><div>г. Сургут</div><div>Получили от вас наш заказ! Очень довольны. Большое вам спасибо за вашу работу! Теперь ваша красота будет и в Сургуте!!!</div></div>
+    <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615109179/photo_2021-03-05_17-06-37_de4ojy.jpg"><div>Вера</div><div>г. Южно-Сахалинск</div><div>Светлана, спасибо большое! Вы – волшебница!!! Получилось просто супер!</div></div>
+    <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615109238/photo_2021-03-05_17-06-37_2_xjgcsl.jpg"><div>Кристина</div><div>г. Новокуйбышевск</div><div>Наконец-то высылаю Вам фото нашего окна)) Еще раз огромное Вам спасибо!!! Вы большая молодец!!! Шторы супер, я не перестаю ими любоваться))</div></div>
     </div></div>`)
 
 
