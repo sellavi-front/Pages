@@ -1,4 +1,7 @@
 const nexGSlider = () => {
+
+    
+
     document.querySelector('.custom_section').insertAdjacentHTML('afterbegin', `<div class="container"><div><span>Отзывы</span></div><div class="owl-carousel owl-theme">
     <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615109104/photo_2021-03-05_17-06-37_3_dltb29.jpg"><div>Татьяна</div><div>г. Сургут</div><div>Получили от вас наш заказ! Очень довольны. Большое вам спасибо за вашу работу! Теперь ваша красота будет и в Сургуте!!!</div></div>
     <div class="item"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615109179/photo_2021-03-05_17-06-37_de4ojy.jpg"><div>Вера</div><div>г. Южно-Сахалинск</div><div>Светлана, спасибо большое! Вы – волшебница!!! Получилось просто супер!</div></div>
@@ -26,6 +29,16 @@ const nexGSlider = () => {
             }
         }
     })
+
+
+    if (document.querySelector('.common-home')) {
+        document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-prev').innerHTML = ''
+        document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-prev').insertAdjacentHTML('afterbegin', '<i class="fas fa-chevron-left"></i>')
+        document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-next').innerHTML = ''
+        document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-next').insertAdjacentHTML('afterbegin', '<i class="fas fa-chevron-right"></i>')
+      }
 }
+
+
 
 export default nexGSlider;
