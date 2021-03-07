@@ -1,5 +1,5 @@
 import changeTitleBlogToNews from './changeTitleBlogToNews.js';
-import btnWishListToBtnAddToCart from './BtnWishListToBtnAddToCart.js'
+// import btnWishListToBtnAddToCart from './BtnWishListToBtnAddToCart.js'
 import cutSrcImg from './cutSrcImg.js';
 import changeTextCategoryBtn from './changeTextCategoryBtn.js';
 import pages from '../config/conditions.js';
@@ -16,9 +16,9 @@ if (pages.all) {
   changeTitleBlogToNews();
 }
 
-if (document.querySelector('.product-item')) {
-  btnWishListToBtnAddToCart();
-}
+// if (document.querySelector('.product-item')) {
+//   btnWishListToBtnAddToCart();
+// }
 
 if (pages.main) {
   addEventListener('click', () => {
