@@ -56,3 +56,27 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
 .common-home > div > div.content-area > section > div > div > a {
     display: contents;
 }
+
+@media (max-device-width: 480px) {
+    .superSale {
+        width: 100% !important;
+    }
+}
+
+.superSale {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 333px;
+}
+
+
+
+.cardSale {
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614688997/Frame_11_yfrjss.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 191px;
+    height: 333px;
+    margin-bottom: 30px;
+}
