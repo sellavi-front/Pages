@@ -168,3 +168,12 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
     footer > div.footer-widgets > div.container > div {
         width: 100%;
     }
+
+
+    .information-information > div > div.content-area > section.page-section.titles > div > div > h1 {
+        font-size: 25px;
+    }
+    
+    .information-information > div > div.content-area {
+        padding: 0px 15px !important;
+    }
