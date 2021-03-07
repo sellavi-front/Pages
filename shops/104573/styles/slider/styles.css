@@ -77,3 +77,28 @@
     position: relative;
     left: 50px;
 }
+
+
+.owl-item {
+    height: 470px
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div > div:nth-child(2) {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond';
+    color: #421A3E;
+    font-weight: 900;
+    margin-top: 10px
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div > div:nth-child(3) {
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+}
+
+.common-home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div > div:nth-child(4) {
+    font-family: 'Cormorant Garamond';
+    color: #421A3E;
+    font-weight: 600;
+    font-size: 18px
+}
