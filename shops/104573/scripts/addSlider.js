@@ -19,9 +19,6 @@ const nexGSlider = () => {
             0:{
                 items:1
             },
-            480:{
-                items:3
-            },
             768:{
                 items:3
             }
