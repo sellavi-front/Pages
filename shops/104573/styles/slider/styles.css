@@ -148,3 +148,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
     body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
         color: black;
     }
+
+    @media (max-device-width: 480px) {
+        body.theme_11.mobile_one_column .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
+        top: -85px;
+        text-align: center;
+    }
+    }
