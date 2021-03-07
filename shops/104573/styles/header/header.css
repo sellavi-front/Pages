@@ -36,3 +36,12 @@ body.theme-gray .thumbnail .price_actions .add_to_cart .buttons_added.quantity i
 body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
   color: #9562AB !important;
 }
+
+button#submit__home_form a {
+  color: #fff !important;
+}
+
+button#submit__home_form:hover {
+  background: linear-gradient(#CA9DBE, #A56394);
+
+}
