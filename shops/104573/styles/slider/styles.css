@@ -155,3 +155,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
         text-align: center;
     }
     }
+
+    body.theme_11.mobile_one_column .wrapper .page-section .products.grid .product-item .thumbnail .caption {
+        align-items: flex-start;
+        margin-top: 39px;
+    }
