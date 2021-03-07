@@ -16,6 +16,16 @@ if (document.querySelector('.product-item')) {
   btnWishListToBtnAddToCart();
 }
 
+if (pages.main) {
+  addEventListener('click', () => {
+    
+    let clientName = document.querySelector('#home__form_submit > input:nth-child(2)').value
+    let clientPhone = document.querySelector('#home__form_submit > input:nth-child(3)').value
+    let clientEmail = document.querySelector('#home__form_submit > input:nth-child(4)').value
+    document.querySelector('.banner__submit__form__btn').innerHTML = ''
+    document.querySelector('.banner__submit__form__btn').insertAdjacentHTML('afterbegin', `<a href="https://api.whatsapp.com/send?phone=15551234567&text=${clientName}%20${clientPhone}%20${clientEmail}">Получить предложение</a>`)
+    })
+}
 
 if (pages.main) {
   renderBanner()
