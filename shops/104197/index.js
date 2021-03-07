@@ -19,7 +19,7 @@ if (document.querySelector('.common-home')) {
   } 
 }
 
-if (location.href.includes('term-of-use')) {  
+if (location.href.includes('term-of-use')) { 
   const req = new Requisites(requsites, 'beforeend', 'ИП Хомяк Никита Владимирович');
 
   req.setTemplate();
