@@ -16,7 +16,7 @@ if (document.querySelector('.common-home')) {
   if (screen.width < 480) {
     document.querySelector('#home > div > div.content-area > div.container > img').setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614961521/Frame_13_2_x9ctd6.png')
     document.querySelector('#home > div > div.content-area > div.custom_section > div:nth-child(1) > img').setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614858703/Group_7423565_jk9ol7.png')
-  }
+  } 
 }
 
 if (location.href.includes('term-of-use')) {
