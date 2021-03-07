@@ -115,3 +115,8 @@
 #home > div > div.content-area > div.custom_section > img {
     margin-top: 50px;
 }
+
+body .content-area .page-section.titles {
+    background: transparent;
+    border: 0px;
+}
