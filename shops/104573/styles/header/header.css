@@ -2,7 +2,9 @@
 @import './header-cart.css';
 
 .sf-menu.nav>li>a {
-  font-weight: normal !important;
+  font-weight: 600;
+    font-family: 'Cormorant Garamond';
+    font-size: 24px;
 }
 
 @media (max-width: 991px) {
