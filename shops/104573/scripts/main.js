@@ -11,6 +11,15 @@ if (document.querySelector('.alert.alert-info')) {
   document.querySelector("#home > div > div > div").childNodes[2].textContent = 'Обратите внимание, чтобы добавить этот продукт в корзину, сначала заполните варианты продукта.';
 }
 
+if (document.querySelector('.product-product')) {
+  let xes = document.querySelectorAll('#bs-select-1 > ul > li')
+  let fles = document.querySelector('.dropdown-menu.show')
+  for (let i in xes) {
+    xes[i].onclick = () => {
+        fles.classList.toggle('show')
+    }
+}
+}
 
 if (pages.all) {
   changeTitleBlogToNews();
