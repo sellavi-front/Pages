@@ -108,9 +108,7 @@
 }
 
 
-.owl-nav.disabled {
-    display: none;
-}
+
 
 #home > div > div.content-area > div.custom_section > img {
     margin-top: 50px;
@@ -153,6 +151,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
         body.theme_11.mobile_one_column .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
         top: -85px;
         text-align: center;
+    }
+
+    .owl-nav.disabled {
+        display: none;
     }
     }
 
