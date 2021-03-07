@@ -6,46 +6,25 @@ const nexGSlider = () => {
     </div></div>`)
 
 
+   
+
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        responsiveClass:true,
+        nav:true,
+        
         responsive:{
             0:{
-                items:1,
-                nav:true
+                items:1
             },
             600:{
-                items:3,
-                nav:false
+                items:3
             },
             1000:{
-                items:3,
-                nav:true,
-                loop:false
+                items:3
             }
         }
     })
-
-    // $('.owl-carousel').owlCarousel({
-    //     loop:true,
-    //     margin:10,
-    //     nav:true,
-        
-    //     responsive:{
-    //         0:{
-    //             items:1
-    //         },
-    //         600:{
-    //             items:3
-    //         },
-    //         1000:{
-    //             items:3
-    //         }
-    //     }
-    // })
 }
 
 export default nexGSlider;
