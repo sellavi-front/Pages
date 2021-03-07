@@ -163,3 +163,8 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
         align-items: flex-start;
         margin-top: 39px;
     }
+
+
+    footer > div.footer-widgets > div.container > div {
+        width: 100%;
+    }
