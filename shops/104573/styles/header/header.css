@@ -45,3 +45,16 @@ button#submit__home_form:hover {
   background: linear-gradient(#CA9DBE, #A56394);
 
 }
+
+
+.sf-menu li:hover {
+  background: transparent;
+}
+
+.sf-menu li:hover>a {
+  color: #dbdbdb !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a:hover {
+  color: black !important;
+}
