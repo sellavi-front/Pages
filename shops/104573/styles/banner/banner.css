@@ -424,3 +424,15 @@ header .container-fluid {
       margin-top: 20px
   }
 }
+
+@media (max-device-width: 480px) {
+  .owl-item {
+      width: 440px !important;
+      margin-left: 4px;
+      height: 500px
+  }
+
+  .owl-stage-outer {
+      height: 550px;
+  }
+}
