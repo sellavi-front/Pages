@@ -17,10 +17,12 @@ const nexGSlider = () => {
         responsiveClass:true,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav: false
             },
             768:{
-                items:3
+                items:3,
+                nav: true
             }
         }
     })
