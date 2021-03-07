@@ -5,7 +5,7 @@ import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
 import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
-
+ 
 if (document.querySelector('.common-home')) {
   document.querySelector('.common-home > div > div.content-area > div.main-slider.content_center').remove()
   document.querySelector('.common-home > div > div.content-area').insertAdjacentHTML('afterbegin', `<div class="container"><img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614961520/Frame_7_2_v9evjn.png"><div><div></div><div></div></div></div>`)
