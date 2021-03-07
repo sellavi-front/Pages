@@ -144,3 +144,7 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
         max-width: 25%;
     }
     }
+
+    body.theme_11 .wrapper .header .header-wrapper .header_widgets .header-cart .cart-wrapper #cart i {
+        color: black;
+    }
