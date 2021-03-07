@@ -394,6 +394,7 @@ header .container-fluid {
   .banner__container {
       background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615106075/Component_1_23_dyeour.png);
       height: 650px;
+      background-size: cover;
   }
 
   .banner__submit__form {
