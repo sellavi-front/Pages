@@ -102,3 +102,7 @@
     font-weight: 600;
     font-size: 18px
 }
+
+#home > div > div.content-area > div.custom_section > div > div:nth-child(1) {
+    margin-top: 50px;
+}
