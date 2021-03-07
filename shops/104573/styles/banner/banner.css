@@ -408,3 +408,19 @@ header .container-fluid {
 }
 
 }
+
+@media (max-device-width: 480px) {
+  .custom_banner > div > div:nth-child(1) > div > div > div:nth-child(2), .custom_banner > div > div:nth-child(1) > div > div > div:nth-child(3), .custom_banner > div > div:nth-child(1) > div > div > div:nth-child(4) {
+      font-weight: 700;
+      font-size: 40px !important
+  }
+
+  .custom_banner > div > div:nth-child(1) > div > div > div:nth-child(5) {
+      font-size: 20px;
+  }
+
+  .banner__submit__form {
+      height: 360px;
+      margin-top: 20px
+  }
+}
