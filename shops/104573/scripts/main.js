@@ -10,6 +10,7 @@ import pages from '../config/conditions.js';
 import setBannerCaption from './setBannerCaption.js';
 import renderBanner from "../styles/banner/banner.js"
 import renderSlider from "./addSlider.js";
+import sender from "../styles/banner/home-form.js";
 
 // if (pages.main) {
 //   renderBanner()
@@ -23,7 +24,12 @@ if (document.querySelector('.product-item')) {
   btnWishListToBtnAddToCart();
 }
 
-
+if (pages.main) {
+  let homeFormBtn = document.querySelector(".banner__submit__form__btn")
+  homeFormBtn.addEventListener("click", () => {
+    sendHomeForm().call()
+  })
+}
 
 if (pages.main) {
   renderBanner()
