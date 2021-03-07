@@ -82,3 +82,7 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
     height: 100%;
     margin-bottom: 30px;
 }
+
+.content-area > section.page-section.titles > div > div > h1 {
+    text-align: center;
+}
