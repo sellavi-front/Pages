@@ -396,5 +396,9 @@ header .container-fluid {
       height: 650px;
   }
 
+  .banner__submit__form {
+    border-radius: 10px;
+    background: #0000005c;
+}
 
 }
