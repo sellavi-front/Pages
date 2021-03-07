@@ -27,7 +27,7 @@ if (document.querySelector('.product-item')) {
 if (pages.main) {
   let homeFormBtn = document.querySelector(".banner__submit__form__btn")
   homeFormBtn.addEventListener("click", () => {
-    sendHomeForm().call()
+    sender().call()
   })
 }
 
