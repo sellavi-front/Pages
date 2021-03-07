@@ -106,3 +106,12 @@
 #home > div > div.content-area > div.custom_section > div > div:nth-child(1) {
     margin-top: 50px;
 }
+
+
+.owl-nav.disabled {
+    display: none;
+}
+
+#home > div > div.content-area > div.custom_section > img {
+    margin-top: 50px;
+}

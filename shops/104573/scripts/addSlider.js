@@ -37,6 +37,12 @@ const nexGSlider = () => {
         document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-next').innerHTML = ''
         document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-next').insertAdjacentHTML('afterbegin', '<i class="fas fa-chevron-right"></i>')
       }
+
+      if (screen.width > 480) {
+        document.querySelector('.custom_section').insertAdjacentHTML('beforeend', '<img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615110375/Frame_14_2_kn3zfu.png" style="width: 100%">')
+    } else if (screen.width < 480) {
+        document.querySelector('.custom_section').insertAdjacentHTML('beforeend', '<img src="https://res.cloudinary.com/dtqqfmyqb/image/upload/v1615110673/Group_7423592_a0jbrt.png" style="width: 100%">')
+    }
 }
 
 
