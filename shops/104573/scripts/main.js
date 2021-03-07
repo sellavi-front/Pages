@@ -21,7 +21,7 @@ if (pages.all) {
 // }
 
 if (pages.main) {
-  addEventListener('click', () => {
+  addEventListener('click', () => { 
     
     let clientName = document.querySelector('#home__form_submit > input:nth-child(2)').value
     let clientPhone = document.querySelector('#home__form_submit > input:nth-child(3)').value
