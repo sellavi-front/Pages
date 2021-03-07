@@ -58,3 +58,7 @@ button#submit__home_form:hover {
 body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a:hover {
   color: black !important;
 }
+
+.checkout-checkout > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.logo > a > figure > img {
+  max-height: none !important
+}
