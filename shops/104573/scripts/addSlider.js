@@ -14,7 +14,7 @@ const nexGSlider = () => {
             margin:10,
             nav:true,
             autoplay: true,
-            autoplayTimeout: 2000,
+            autoplayTimeout: 3000,
             responsiveClass:true,
             responsive:{
                 0:{
