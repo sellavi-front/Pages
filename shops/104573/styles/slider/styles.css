@@ -130,3 +130,10 @@ body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li  a
     font-weight: 400 !important;
     color: #b0b0b0 !important;
 }
+
+@media (min-width: 768px) {
+.col-md-3 {
+    flex: 0 0 32%;
+    max-width: 32%;
+}
+}
