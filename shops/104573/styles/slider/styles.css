@@ -55,3 +55,25 @@
     color: black;
     font-size: 36px;
 }
+
+
+.owl-stage-outer {
+    overflow: hidden;
+}
+
+.owl-nav.disabled {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 250px;
+}
+
+.owl-prev {
+    position: relative;
+    right: 50px;
+}
+
+.owl-next {
+    position: relative;
+    left: 50px;
+}
