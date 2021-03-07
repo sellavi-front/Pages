@@ -23,6 +23,12 @@ if (document.querySelector('.product-item.product-layout')) {
   btnWishListToBtnAddToCart();
 }
 
+if (pages.main) {
+  document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-prev').innerHTML = ''
+  document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-prev').insertAdjacentHTML('afterbegin', '<i class="fas fa-chevron-left"></i>')
+  document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-next').innerHTML = ''
+  document.querySelector('#home > div > div.content-area > div.custom_section > div > div.owl-carousel.owl-theme.owl-loaded.owl-drag > div.owl-nav.disabled > div.owl-next').insertAdjacentHTML('afterbegin', '<i class="fas fa-chevron-right"></i>')
+}
 
 if (pages.main) {
   renderBanner()
