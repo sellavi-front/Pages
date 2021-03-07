@@ -401,4 +401,8 @@ header .container-fluid {
     background: #0000005c;
 }
 
+.banner_submit__form__input[type=text] {
+  border-color: black !important;
+}
+
 }
