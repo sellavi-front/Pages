@@ -7,6 +7,10 @@ import setBannerCaption from './setBannerCaption.js';
 import renderBanner from "../styles/banner/banner.js"
 import renderSlider from "./addSlider.js";
 
+if (document.querySelector('.alert.alert-info')) {
+  document.querySelector("#home > div > div > div").childNodes[2].textContent = 'Обратите внимание, чтобы добавить этот продукт в корзину, сначала заполните варианты продукта.';
+}
+
 
 if (pages.all) {
   changeTitleBlogToNews();
