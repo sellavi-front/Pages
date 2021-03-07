@@ -59,6 +59,7 @@
 
 .owl-stage-outer {
     overflow: hidden;
+    height: 480px;
 }
 
 .owl-nav.disabled {
