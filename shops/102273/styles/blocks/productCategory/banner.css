@@ -178,4 +178,10 @@ body.information-information-9326 .content-area .page-section.titles h1 {
   body.product-category .content-area .page-section.titles .container h1 {
     font-size: 25px;
   }
+
+  body.product-category .content-area .page-section.titles .container .page-header {
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+}
 }
