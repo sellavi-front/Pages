@@ -140,7 +140,7 @@ export default function desinfectedFrames() {
 <div class="mb-3">
   <h5 class="text-center"><b>Особенности установки «ЭкоШлюз»</b></h5>
   <img
-    class="w-50"
+    class="col-md-8 col-12"
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772649/102273/image_121_jprbds.png"
     alt=""
   />
