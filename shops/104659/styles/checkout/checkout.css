@@ -1,5 +1,17 @@
+.checkbox.customized #agree-checkbox ~ label {
+  line-height: 1.5;
+}
+
 @media only screen and (max-width: 430px) {
   body.checkout-checkout textarea.form-control {
     padding-top: 50px !important;
   }
+
+  .order-summary-toggle~.checkout_form .cart_block .your_order #cart_table .order_list_section {
+    overflow: visible !important;
+  }
+
+
 }
+
+

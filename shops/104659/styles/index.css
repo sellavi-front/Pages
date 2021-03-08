@@ -1,15 +1,15 @@
 @import '../../../vendor/fonts/Golos/golos.css';
 
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
-/* @import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css'; */
+@import '../../../fixes/css/ResetHeaderForMarketplace/ResetHeaderForMarketplace.css';
 @import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
-/*
+
 @import '../../../components/HeaderTypeTwo/styles/logo/logo.css';
 @import '../../../components/HeaderTypeTwo/styles/search/search.css';
 @import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
 @import '../../../components/HeaderTypeTwo/styles/header-login/header-login.css';
 @import '../../../components/HeaderTypeTwo/styles/burger/burger.css';
-@import '../../../components/HeaderTypeTwo/styles/sf-menu/sf-menu.css'; */
+@import '../../../components/HeaderTypeTwo/styles/sf-menu/sf-menu.css';
 
 
 @import './pay-delivery/pay-delivery.css';
@@ -51,3 +51,4 @@ body strong {
 body.theme_11 .wrapper .header .header-wrapper:not(.mobile_search_active) .container-fluid {
   height: 100px !important;
 }
+

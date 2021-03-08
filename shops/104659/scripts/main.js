@@ -1,17 +1,19 @@
+import pages from '../config/conditions.js';
+import dataCategories from '../utils/dataCategories.js';
+
 import header from './header.js';
 import changeTitleBlogToNews from './changeTitleBlogToNews.js';
 import btnWishListToBtnAddToCart from './BtnWishListToBtnAddToCart.js';
 import cutSrcImg from './cutSrcImg.js';
 import changeTextCategoryBtn from './changeTextCategoryBtn.js';
 import addTitleForCategory from './addTitleForCategory.js';
-import pages from '../config/conditions.js';
 import addCategories from './addCategories.js';
 import setBannerCaption from './setBannerCaption.js';
 import setTextCategories from './setTextCategories.js';
 // import removeDefis from './removeDefis.js';
-import dataCategories from '../utils/dataCategories.js';
 
 if (pages.all) {
+  header()
   changeTitleBlogToNews();
   // removeDefis();
 }

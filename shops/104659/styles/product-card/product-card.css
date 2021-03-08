@@ -36,10 +36,17 @@ body.ru.ltr .wrapper .page-section .products.grid .product-item .thumbnail .pric
   }
 
   body.theme_11.mobile_two_columns .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .price {
-    top: -100px !important;
+    top: -97px !important;
   }
 
   body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .caption {
-    margin-bottom: 23px !important;
+    margin-bottom: 19px !important;
+  }
+  .mobile_two_columns .products .thumbnail .caption .caption-title {
+    font-size: 11px !important;
+  }
+
+  .product-item .spinner-grow.spinner-grow-sm {
+    display: none !important;
   }
 }

@@ -15,43 +15,43 @@
 
 
 @media screen and (min-width: 320px) {
-  body.ltr .wrapper header.header .logo {
+  body.ltr:not(.common-home) .wrapper header.header .logo {
     margin: 0 0 0 38px !important;
   }
 }
 
 @media screen and (min-width: 375px) {
-  body.ltr .wrapper header.header .logo {
+  body.ltr:not(.common-home) .wrapper header.header .logo {
     margin: 0 0 0 65px !important;
   }
 
-  body.ltr .wrapper header.header .logo.logo-edited {
+  body.ltr:not(.common-home) .wrapper header.header .logo.logo-edited {
     margin: 0 0 0 130px !important;
   }
 }
 
 @media screen and (min-width: 411px) {
-  body.ltr .wrapper header.header .logo {
+  body.ltr:not(.common-home) .wrapper header.header .logo {
     margin: 0 0 0 84px !important;
   }
 
-  body.ltr .wrapper header.header .logo.logo-edited {
+  body.ltr:not(.common-home) .wrapper header.header .logo.logo-edited {
     margin: 0 0 0 150px !important;
   }
 }
 
 @media screen and (min-width: 414px) {
-  body.ltr .wrapper header.header .logo {
+  body.ltr:not(.common-home) .wrapper header.header .logo {
     margin: 0 0 0 85px !important;
   }
 }
 
 @media screen and (min-width: 900px) {
-  body.ltr .wrapper header.header .logo {
+  body.ltr:not(.common-home) .wrapper header.header .logo {
     margin: 0 0 0 5px !important;
   }
 
-  body.ltr .wrapper header.header .logo.logo-edited {
+  body.ltr:not(.common-home) .wrapper header.header .logo.logo-edited {
     margin: 2px 0 0 70px !important;
   }
 }
@@ -59,12 +59,18 @@
 .checkout_form .logo {
   margin: 0 auto !important;
   padding-bottom: 20px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
-  justify-content: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 @media (min-width: 1000px) {
   .logo_mobile_checkout {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }

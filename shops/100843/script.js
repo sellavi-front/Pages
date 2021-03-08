@@ -55,6 +55,7 @@ if (document.querySelector('body').classList.contains('product-category')) {
 /* ******* PAGE PRODUCT ******** */
 if (document.querySelector('body').classList.contains('product-product')) {
   const btnPrice = document.querySelector('.btn-price');
+  const productItem = document.querySelectorAll('.product-item');
   const price = document.querySelector('.product-price');
   const buttonAddCart = document.querySelector('#button-cart');
 

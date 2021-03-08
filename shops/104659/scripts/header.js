@@ -27,7 +27,6 @@ const header = () => {
     const newCont = new CreateAddContainer(headerContainer, 'beforeend', headerWidgets.outerHTML);
     newCont.render();
     headerWidgets.remove();
-    collapseShow();
     headerWidgets.insertAdjacentHTML('afterbegin', wishList);
   } else {
     headerContainer.insertAdjacentHTML(
@@ -36,7 +35,6 @@ const header = () => {
     );
     cart.remove();
   }
-
   new NavTransferTo(headerLogo, 'afterend').transfer();
 };
 

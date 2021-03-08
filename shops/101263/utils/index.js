@@ -13,6 +13,7 @@ import icons from '../utils/icons/icons.js';
 // import '../../../fixes/js/RemoveBlurAndAddBtn/RemoveBlurAndAddBtn.js';
 import ChangeIconInProductCard from './functions/functions.js';
 import SocIconsTypeOneV2 from '../../../components/SocialIconsTypeOne/SocialIconsTypeOneV2.js';
+import translateBtnInSearch from './functions/translateBtnInSearch.js';
 // import CustomSection from "../blocks/custom-section.js"
 
 if (pages.home) {
@@ -20,12 +21,16 @@ if (pages.home) {
     'body.common-home .main-slider .caption .caption-text a ',
   );
 
-
-  btnInSlider.forEach(btn => {
+  btnInSlider.forEach((btn) => {
     btn.textContent = '';
-    btn.insertAdjacentHTML('afterbegin', `Начать покупать`)
+    btn.insertAdjacentHTML('afterbegin', `Начать покупать`);
   });
-  document.querySelector('body.common-home .main-slider .caption .caption-content').insertAdjacentHTML('afterbegin', `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614861123/Group_7423585_ezrqbu.png">`)
+  document
+    .querySelector('body.common-home .main-slider .caption .caption-content')
+    .insertAdjacentHTML(
+      'afterbegin',
+      `<img class="mb-5" src="https://res.cloudinary.com/depgheppz/image/upload/v1614861123/Group_7423585_ezrqbu.png">`,
+    );
 
   if (window.screen.width >= 575) {
     document
@@ -44,18 +49,18 @@ if (pages.home) {
   const imgCat = document.querySelectorAll(
     '.page-section.homefeatured_category > div > div > div > div > div > a > picture > img',
   );
-  // const sourceCat = document.querySelectorAll(
-  //   '.common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source',
-  // );
+  const sourceCat = document.querySelectorAll(
+    '.common-home>.wrapper>.content-area>.main-slider>#banner0>.owl-wrapper-outer>.owl-wrapper>.owl-item>.item>.img-bg>source',
+  );
 
-  // sourceCat.forEach((source) => {
-  //   const srcset = source.getAttribute('srcset');
-  //   let replacedSrc1 = srcset.replace(
-  //     /\/if_ar_gt_2\:1\/c_fill\,h_300\,w_300\,dpr_2\/if_else\/c_pad\,h_300\,w_300\,dpr_2\/if_end/gi,
-  //     '',
-  //   );
-  //   source.setAttribute('srcset', replacedSrc1);
-  // });
+  sourceCat.forEach((source) => {
+    const srcset = source.getAttribute('srcset');
+    let replacedSrc1 = srcset.replace(
+      /if_w_lte_1900,c_pad,h_460,w_1900\/if_w_gte_3000,c_fill,h_460,w_1900\/c_crop,h_460,w_1900\//gi,
+      '',
+    );
+    source.setAttribute('srcset', replacedSrc1);
+  });
 
   imgCat.forEach((cat) => {
     const src = cat.getAttribute('src');
@@ -85,6 +90,7 @@ if (pages.all) {
   document.querySelector('.logo').insertAdjacentHTML('afterend', newCatalog.outerHTML);
   oldCatalog.remove();
 
+  translateBtnInSearch();
 }
 
 if (location.href.includes('/index.php?route=account/register')) {
@@ -99,7 +105,6 @@ if (location.href.includes('/index.php?route=account/register')) {
     )
     .classList.add('btn-success');
 }
-
 
 if (document.querySelector('footer > .footer-widgets')) {
   document.querySelector('footer>.footer-widgets > div > div').insertAdjacentHTML(

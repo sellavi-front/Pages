@@ -392,10 +392,14 @@ body.theme-green-2.theme_11.product-product .product-single.product-item .button
   font-size: 12px;
 }
 
+
 body.theme-green-2.theme_11 .btn.btn-theme:not(.btn-wish-list) {
-  background: transparent !important;
-  border-color: #333 !important;
+  /* background: transparent !important; */
+  border-color: #7fb53c !important;
+  background: var(--color-theme) !important;
+  color: white !important;
 }
+
 
 body.theme-green-2.theme_11.product-product .product-single.product-item .buttons .btn-wish-list {
   border-color: #333 !important;
