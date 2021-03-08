@@ -1,6 +1,6 @@
 @import '../../../fixes/js/FooterCopy/FooterCopy.css';
 @import './pay-delivery/pay-delivery.css';
-@import '../../../templates/TemplateTypeTwo/styles/index.css';
+/* @import '../../../templates/TemplateTypeTwo/styles/index.css'; */
 @import '../../../modules/ButtonContainerInProduct/btn-with-border.css';
 @import './header/header.css';
 @import './banners/main-banner.css';
@@ -8,6 +8,29 @@
 @import './products/products.css';
 @import './description/description.css';
 @import './footer/footer.css';
+
+
+@import '../../../fixes/css/ResetStylesFooter/ResetStylesFooter.css';
+/* @import '../../../components/HeaderTypeTwo/HeaderTypeTwo.css'; */
+@import '../../../components/PictureCategories/PictureCategories.css';
+@import '../../../modules/ButtonContainerInProduct/ButtonContainerInProduct.css';
+@import '../../../templates/TemplateTypeTwo/styles/navigation/navigation.css';
+@import '../../../templates/TemplateTypeTwo/styles/banner/banner.css';
+@import '../../../templates/TemplateTypeTwo/styles/products/products.css';
+@import '../../../templates/TemplateTypeTwo/styles/section-title/section-title.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-widgets.css';
+@import '../../../templates/TemplateTypeTwo/styles/footer/footer-list.css';
+@import '../../../templates/TemplateTypeTwo/styles/logo/logo.css';
+@import '../../../templates/TemplateTypeTwo/styles/cart-wrapper/cart-wrapper.css';
+
+@import '../../../components/HeaderTypeTwo/styles/logo/logo.css';
+@import '../../../components/HeaderTypeTwo/styles/search/search.css';
+@import '../../../components/HeaderTypeTwo/styles/header-wishlist/header-wishlist.css';
+@import '../../../components/HeaderTypeTwo/styles/header-login/header-login.css';
+@import '../../../components/HeaderTypeTwo/styles/burger/burger.css';
+@import '../../../components/HeaderTypeTwo/styles/sf-menu/sf-menu.css';
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
