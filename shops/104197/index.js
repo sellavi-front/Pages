@@ -19,6 +19,10 @@ if (document.querySelector('.common-home')) {
   } 
 }
 
+if (document.querySelector('.information-information-8193')) {
+  document.querySelector('#content > div > div:nth-child(2) > section.delivery__right > p').innerHTML = '140 р'
+}
+
 if (location.href.includes('term-of-use')) { 
   const req = new Requisites(requsites, 'beforeend', 'ИП Хомяк Никита Владимирович');
 
