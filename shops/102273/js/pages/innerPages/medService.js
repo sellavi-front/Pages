@@ -1764,7 +1764,7 @@ const medService = () => {
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_4_q9vlbq.jpg"
             alt=""
-            class="mt-4"
+            class="mt-4 mr-5 float-left"
           />
         </p>
         <p>
