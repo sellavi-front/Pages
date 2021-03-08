@@ -25,12 +25,12 @@
 }
 
 #home > div > div.content-area > div.container > div > div:nth-child(1) {
-    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_9_s1dwb6.png);
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614961516/Frame_9_1_lfy05h.png);
     background-size: cover;
 }
 
 #home > div > div.content-area > div.container > div > div:nth-child(2) {
-    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614675561/Frame_10_iasvrg.png);
+    background: url(https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614961516/Frame_10_2_lzjirl.png);
     background-size: cover;
 }
 
@@ -47,11 +47,11 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
     padding-bottom: 0px;
 }
 
-header > div.navigation-wrapper > div > nav > ul > li:nth-child(5) > a {
+header > div.navigation-wrapper > div > nav > ul > li:nth-child(8) > a {
     color: red !important;
 }
 
- header > div.navigation-wrapper > div > nav > ul > li:nth-child(6) > a {
+ header > div.navigation-wrapper > div > nav > ul > li:nth-child(9) > a {
     color: red !important;
 }
 
@@ -61,4 +61,8 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(5) > a {
 
 body.ltr.ru .wrapper .latest-section h2.section-title {
     text-align: center !important;
+}
+
+body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy.has_children:hover > ul {
+    top: 28px !important;
 }

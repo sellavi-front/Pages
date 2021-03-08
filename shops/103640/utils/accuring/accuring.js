@@ -1,9 +1,5 @@
 import Requisites from '../../../../modules/Requisites/Requisites.js';
-<<<<<<< HEAD
 import {requsites} from './requsites.js'
-=======
-import {requsites, dataContact} from './requsites.js'
->>>>>>> 3967c4cdf5a62e62000ab59d4c4a80873bac7df2
 
 const orgName = Object.values(requsites)[0]
 

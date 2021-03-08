@@ -8,7 +8,7 @@
     color: #F2DFAD;
     font-size: 24px;
     text-transform:uppercase;
-    letter-spacing: 30px
+    letter-spacing: 23px;
 }
 
 
@@ -18,7 +18,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Cormorant Garamond', serif;
-  line-height: 120px
+  line-height: 120px;
+  font-weight: 600px;
 }
 
 .custom_banner > div > div:nth-child(1) > div > div > div:nth-child(3) {
@@ -27,7 +28,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Cormorant Garamond', serif;
-  line-height: 120px
+  line-height: 120px;
+  font-weight: 600px;
 }
 
 .custom_banner > div > div:nth-child(1) > div > div > div:nth-child(4) {
@@ -36,7 +38,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Cormorant Garamond', serif;
-  line-height: 120px
+  line-height: 120px;
+  font-weight: 600px;
 }
 
 
@@ -52,8 +55,10 @@
 
 .custom_banner > div > div:nth-child(1) > div > ul > li:nth-child(1) > h6 {
     color: #F2DFAD;
+    font-weight: 600;
 }
 
 .custom_banner > div > div:nth-child(1) > div > ul > li:nth-child(2) > h6 {
     color: #F2DFAD;
+    font-weight: 600;
 }

@@ -2,7 +2,9 @@
 @import './header-cart.css';
 
 .sf-menu.nav>li>a {
-  font-weight: normal !important;
+  font-weight: 600;
+    font-family: 'Cormorant Garamond';
+    font-size: 24px;
 }
 
 @media (max-width: 991px) {
@@ -13,4 +15,50 @@
   body.theme_11.ltr .wrapper .header .header-wrapper .header_widgets {
     padding-right: 15px !important;
   }
+}
+
+
+
+body.wide.ltr .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart > button:hover, body.ltr .thumbnail .add_to_wishlist button:hover, body.ltr .thumbnail .remove_from_wishlist button:hover {
+  background: linear-gradient(#CA9DBE, #A56394) !important;
+  box-shadow: none !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity {
+  border-color: #9562AB !important;
+}
+
+
+body.theme-gray .thumbnail .price_actions .add_to_cart .buttons_added.quantity i {
+  color: #9562AB !important;
+}
+
+body.theme_11 .wrapper .page-section .products.grid .product-item .thumbnail .price_actions .add_to_cart .buttons_added.quantity input.quantity_field {
+  color: #9562AB !important;
+}
+
+button#submit__home_form a {
+  color: #fff !important;
+}
+
+button#submit__home_form:hover {
+  background: linear-gradient(#CA9DBE, #A56394);
+
+}
+
+
+.sf-menu li:hover {
+  background: transparent;
+}
+
+.sf-menu li:hover>a {
+  color: #dbdbdb !important;
+}
+
+body.theme_11 .wrapper footer.footer .footer-widgets .widget-categories ul li a:hover {
+  color: black !important;
+}
+
+.checkout-checkout > div.content-area > section > div.flexwrap.checkout_form > div.register_block > div.logo > a > figure > img {
+  max-height: none !important
 }
