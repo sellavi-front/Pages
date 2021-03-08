@@ -1541,7 +1541,7 @@ const medService = () => {
       <h4 class="text-center">
         <b>ЧУДЕСНИЦА ГОЛУБАЯ ГЛИНА-КАОЛИНИТ.</b>
       </h4>
-      <div class="w-100 mb-5 row">
+      <div class="w-100 mb-5">
         <img
           class="mx-auto"
           style="width: 70%; margin: 0 auto;"
@@ -1596,7 +1596,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для лица </b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -1800,7 +1800,7 @@ const medService = () => {
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для рук </b></h5>
         <div class="row">
-        <div class="w-100 mb-5col-md-6 col-12">
+        <div class="w-100 mb-5 col-md-6 col-12">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -1821,13 +1821,16 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для рук </b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="row">
+
+        <div class="w-100 mb-5 col-md-6 col-12">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_ybgp8f.png"
           />
         </div>
+        <div class="w-100 mb-5 col-md-6 col-12">
         <p>
           <b>УХОД ЗА НОГАМИ</b><br />
           Ноги распарить в горячей ванне, после чего обмазать стопу глиняной массой. Сверху обернуть
@@ -1844,10 +1847,11 @@ const medService = () => {
           ванночке (или тазу). Продолжительность - 15-20 минут. размягчает ороговевшие участки кожи,
           смягчает и дезинфицирует кожу ног, снимает усталость.
         </p>
+        </div></div>
       </div>
       <div class="sect">
         <h5 class="text-center"><b>ОБЕРТЫВАНИЕ</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="float-right mr-5"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_6_czq2ua.jpg"
@@ -1886,7 +1890,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -1938,7 +1942,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -1976,7 +1980,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -2034,7 +2038,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -2078,7 +2082,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -2131,7 +2135,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -2210,7 +2214,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>ПРИГОТОВЛЕНИЕ ГОЛУБОЙ ГЛИНЫ</b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -2385,7 +2389,7 @@ const medService = () => {
           восстановить свое здоровье. После глиняных процедур организм человека очищается и получает
           жизненную силу, а сам человек испытывает приятные ощущения и улучшение самочувствия.
         </p>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <p class="text-cente w-100r">
             <b
               ><i
@@ -2422,7 +2426,7 @@ const medService = () => {
         <p class="text-center">
           <b>Приготовление глиняного раствора из голубой глины для растирания: </b>
         </p>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
@@ -2444,7 +2448,7 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Компрессы </b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="w-100 mb-5">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
