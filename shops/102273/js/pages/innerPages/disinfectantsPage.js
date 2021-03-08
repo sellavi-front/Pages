@@ -179,7 +179,7 @@ const disinfectantsPages = () => {
 
       <div class="mb-5 w-100 row">
         <a href="https://disk.yandex.ru/i/C75RX55mmOMLCw" class="button_link">Документация на русском языке</a>
-        <a href="https://disk.yandex.ru/d/L2XxSAUufP00rw?w=1" class="button_link">Документация на иностранных языках)</a>
+        <a href="https://disk.yandex.ru/d/L2XxSAUufP00rw?w=1" class="button_link">Документация на иностранных языках</a>
         <a href="https://disk.yandex.ru/i/RUmZx6CQOrg7wg" class="button_link ">Скачать презентацию</a>
       </div>
     </div>
