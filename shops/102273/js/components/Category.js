@@ -18,7 +18,6 @@ export default class Category extends BaseComponent {
           </div>
       `;
       })
-      .join('');
   }
 
   getTemplate() {
@@ -26,7 +25,7 @@ export default class Category extends BaseComponent {
     <div class="icon-category">
       ${this.data.title ? `<h3 class="icon-category__title">${this.data.title}</h3>` : ''}
       <div class="icon-category__container">
-        ${this.getData()}
+        ${this.getData().join('')}
       </div>
     </div>`;
   }
