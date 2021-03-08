@@ -1799,13 +1799,15 @@ const medService = () => {
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для рук </b></h5>
-        <div class="w-100 mb-5 row">
+        <div class="row">
+        <div class="w-100 mb-5col-md-6 col-12">
           <img
             class="mx-auto"
             style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264899/102273/unnamed_5_woezv2.jpg"
           />
         </div>
+        <div class="col-md-6 col-12">
         <p>
           <b> ЗАЩИТНЫЙ СОСТАВ ДЛЯ РУК </b> <br />
           41,5 г вазелина, 41,5 г глины, 17 г парафина.
@@ -1814,6 +1816,8 @@ const medService = () => {
           <b>ВАННА ДЛЯ РУК</b> <br />
           В глиняную воду с температурой тела опустить обе руки до локтей. Держать 10-20 минут
         </p>
+        </div>
+        </div>
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для рук </b></h5>
