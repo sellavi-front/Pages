@@ -110,6 +110,10 @@ body.theme_11
   color: #00000050 !important;
 }
 
+body#home .mobile_side_nav .sidenav_search input  {
+  direction: ltr !important;
+}
+
 @media (max-width: 991px) {
   header .navigation {
     display: none !important;
