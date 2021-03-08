@@ -113,6 +113,9 @@ body.theme_11
 body#home .mobile_side_nav .sidenav_search input  {
   direction: ltr !important;
 }
+body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search_results .add_to_cart>button, body.theme-gray.theme_11 .wrapper .header .header-wrapper .header-search #search_results .more_details_btn_wrapper>button {
+  color: white !important;
+}
 
 @media (max-width: 991px) {
   header .navigation {
