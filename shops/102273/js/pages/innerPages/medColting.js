@@ -17,7 +17,7 @@ export default function charityPage() {
   </div>
   <div class="sect w-100">
     <h4 class="mb-50px"><b>Ассортимент продукции:</b></h4>
-    <ol style="list-style-type: decimal; margin-bottom: 30px;">
+    <ol style="list-style-type: decimal; margin-bottom: 30px; margin-left: 10px;">
     <li>МЕДИЦИНСКИЕ ХАЛАТЫ
     </li>
     <li>МЕДИЦИНСКИЙ КОСТЮМ ЖЕНСКИЙ
