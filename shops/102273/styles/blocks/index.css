@@ -88,6 +88,15 @@ footer
   margin: 20px auto 0;
 }
 
+.col {
+  -ms-flex-preferred-size: 0 !important;
+      flex-basis: 0 !important;
+  -webkit-box-flex: 1 !important;
+      -ms-flex-positive: 1 !important;
+          flex-grow: 1 !important;
+  max-width: 100% !important;
+}
+
 @media (min-width: 768px) {
   .col-md-4 {
     -webkit-box-flex: 0 !important;
