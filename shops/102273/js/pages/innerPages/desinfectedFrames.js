@@ -127,7 +127,7 @@ export default function desinfectedFrames() {
     объекты различной направленности.
   </p>
 
-  <div class="w-100">
+  <div class="col-md-10 col-12">
   <img
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772444/102273/Group_7423521_2_ssby9l.png"
     alt=""
