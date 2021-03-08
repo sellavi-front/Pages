@@ -32,7 +32,7 @@ export default class medSocProg extends BaseComponent {
             </p>
           <div>
           `
-        })}
+        }).join()}
       </section>
       <section class="partners">
         ${this.getData()}
