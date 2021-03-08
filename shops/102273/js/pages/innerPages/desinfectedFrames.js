@@ -83,7 +83,7 @@ export default function desinfectedFrames() {
   </div>
 </div>
 <div class="mb-3 mt-5">
-  <h4>
+  <h4 class="text-center">
     <b>Класс – «ЛЮКС»</b>
   </h4>
   <p>
@@ -307,7 +307,7 @@ export default function desinfectedFrames() {
         <div class="row">
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614348397/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-02-26_%D0%B2_16.57.20_uipk7y.png"
-            style="width: 70% !important; margin: 0 auto"
+            style="width: 70% !important; margin: 0 auto 40px;"
           />
         </div>
       </div>
@@ -371,7 +371,7 @@ export default function desinfectedFrames() {
     </div>
     </div>
   <div class="mb-3 mt-5">
-    <h4>
+    <h4 class="text-center">
       <b>Класс «ПРЕМИУМ» </b>
     </h4>
     <p>
