@@ -402,6 +402,10 @@ export default function waterPage() {
         </div>
       </div>
 
+      <div class="mt-4 mb-4 row">
+        <a href="#" class="button_link ">Инструкция по приему воды</a>
+      </div>
+
       <div class="sect">
       <h6 style="
       height: 200px;
@@ -837,7 +841,9 @@ export default function waterPage() {
       </div>
     </div>
   </div>
-
+  <div class="mt-4 mb-4 row">
+    <a href="#" class="button_link ">Инструкция по приему воды</a>
+  </div>
 
   <div class="sect">
         <h6
