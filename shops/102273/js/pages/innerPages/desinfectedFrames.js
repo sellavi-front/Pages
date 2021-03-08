@@ -96,19 +96,19 @@ export default function desinfectedFrames() {
     <a href="https://disk.yandex.ru/d/cBPup_KNxlG4MA?w=1" class="button_link">Эко-Шлюз. Фото и видео</a>
   </div>
   <div class="row mb-3">
-    <div class="col-4">
+    <div class="col-md-4 col-12">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771956/102273/image_118_npyy7y.png"
         alt=""
       />
     </div>
-    <div class="col-4">
+    <div class="col-md-4 col-12">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771956/102273/image_120_hsydnj.png"
         alt=""
       />
     </div>
-    <div class="col-4">
+    <div class="col-md-4 col-12">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771956/102273/image_119_jetwcx.png"
         alt=""
