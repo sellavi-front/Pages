@@ -6,7 +6,7 @@ export default function aerosolsPage() {
       </h3>
 
       <div class="sect flex-column align-items-center">
-        <h6><b>О компании</b></h6>
+        <h6 class="text-center"> <b>О компании</b></h6>
         <div class="row">
           <div class="col-md-7 col-12">
             <p>
@@ -28,6 +28,7 @@ export default function aerosolsPage() {
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614845487/102273/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2021-03-04_%D0%B2_10.59.04_htnmos.png"
             class="col-md-4 col-12"
+            style="object-fit: contain;"
           />
         </div>
         <div class="sect">
@@ -214,7 +215,7 @@ export default function aerosolsPage() {
         </div>
       </div>
       <div class="sect">
-        <h6><b>Термальная вода « GIVANA»</b></h6>
+        <h6 class="text-center"> <b>Термальная вода « GIVANA»</b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -282,7 +283,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6><b>Бактерицидный спрей под ТМ «AG SEPT» </b></h6>
+        <h6 class="text-center"> <b>Бактерицидный спрей под ТМ «AG SEPT» </b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -334,7 +335,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6><b>Пищевая смазка СМС - 5</b></h6>
+        <h6 class="text-center"> <b>Пищевая смазка СМС - 5</b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -393,7 +394,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6><b>Профессиональные репелленты «ДЭТА-ПРОФ»</b></h6>
+        <h6 class="text-center"> <b>Профессиональные репелленты «ДЭТА-ПРОФ»</b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -430,7 +431,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6><b>Профессиональные акарицидные средства «БРИЗ-АНТИКЛЕЩ»</b></h6>
+        <h6 class="text-center"> <b>Профессиональные акарицидные средства «БРИЗ-АНТИКЛЕЩ»</b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -489,7 +490,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6><b> Средство репеллентное «ЗАЩИТА-ПРОФ» </b></h6>
+        <h6 class="text-center"> <b> Средство репеллентное «ЗАЩИТА-ПРОФ» </b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -524,7 +525,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6><b> «КОНТРОЛЬ-АС» с ментолом и маркером </b></h6>
+        <h6 class="text-center"> <b> «КОНТРОЛЬ-АС» с ментолом и маркером </b></h6>
         <div class="row">
           <div class="col-12 col-md-5">
             <img
@@ -614,7 +615,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6>
+        <h6 class="text-center">
           <b>
             Шумовой баллончик (индивидуальная сирена) – «КОНТРОЛЬ-АС», 25 мл – отпугиватель
             агрессивных животных (волков, собак)
@@ -659,7 +660,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6>
+        <h6 class="text-center">
           <b>
             Шумовой баллончик (индивидуальная сирена) – «КОНТРОЛЬ-АС», 25 мл – отпугиватель
             агрессивных животных (волков, собак)
@@ -705,7 +706,7 @@ export default function aerosolsPage() {
       </div>
 
       <div class="sect">
-        <h6>
+        <h6 class="text-center">
           <b>
             Шумовой баллончик (индивидуальная сирена) – «КОНТРОЛЬ-АС», 25 мл – отпугиватель
             агрессивных животных (волков, собак)
@@ -744,7 +745,7 @@ export default function aerosolsPage() {
         </p>
       </div>
       <div class="sect">
-        <h6>
+        <h6 class="text-center">
           <b>
             Шумовой баллончик (индивидуальная сирена) – «КОНТРОЛЬ-АС», 25 мл – отпугиватель
             агрессивных животных (волков, собак)

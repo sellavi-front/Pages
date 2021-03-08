@@ -1541,14 +1541,13 @@ const medService = () => {
       <h4 class="text-center">
         <b>ЧУДЕСНИЦА ГОЛУБАЯ ГЛИНА-КАОЛИНИТ.</b>
       </h4>
-      <div class="w-100 mb-5">
+      <div class="row">
+      <div class="mb-5 col-md-6 col-12">
         <img
-          class="mx-auto"
-          style="width: 70%; margin: 0 auto;"
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_1_ssci3c.jpg"
         />
       </div>
-      <div class="sect">
+      <div class="mb-5 col-md-6 col-12">
         <p>
           Голубая глина самая древняя из глин. Она содержит в себе все минеральные соли и
           микроэлементы, в которых мы нуждаемся, а именно: кремнезем, фосфат, железо, азот и др.
@@ -1571,6 +1570,7 @@ const medService = () => {
           - Она эффективна при онкологических заболеваниях и заболеваниях, вызванных радиацией.
           Известны даже случаи победы над раком третьей степени.
         </p>
+        <div>
         <p>
           Голубая глина добывается в Родопских горах в Болгарии, Курской, Ленинградской, Псковской
           областях, Алтайском крае и представляет собой кусковую и порошкообразную массу с уровнем
@@ -1593,13 +1593,14 @@ const medService = () => {
           псориаз, рожа, бородавки), облысение, рахит, артрит, артроз, ревматизм, шпоры, травмы,
           варикозное расширение вен, болезни костей, язвы и другие болезни.
         </p>
+        </div>
       </div>
       <div class="sect">
         <h5 class="text-center"><b>Голубая глина для лица </b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_2_i2juzc.jpg"
           />
         </div>
@@ -1802,8 +1803,8 @@ const medService = () => {
         <div class="row">
         <div class="w-100 mb-5 col-md-6 col-12">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264899/102273/unnamed_5_woezv2.jpg"
           />
         </div>
@@ -1825,8 +1826,8 @@ const medService = () => {
 
         <div class="w-100 mb-5 col-md-6 col-12">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_ybgp8f.png"
           />
         </div>
@@ -1892,8 +1893,8 @@ const medService = () => {
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_7_ffrcsh.jpg"
           />
         </div>
@@ -1944,8 +1945,7 @@ const medService = () => {
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_8_cmpsqi.jpg"
           />
         </div>
@@ -1982,8 +1982,6 @@ const medService = () => {
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264899/102273/unnamed_9_h7oxyi.jpg"
           />
         </div>
@@ -2040,8 +2038,8 @@ const medService = () => {
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_10_jrqamk.jpg"
           />
         </div>
@@ -2084,8 +2082,8 @@ const medService = () => {
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_11_fjufhu.jpg"
           />
         </div>
@@ -2137,8 +2135,8 @@ const medService = () => {
         <h5 class="text-center"><b>Массаж с голубой глиной</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264898/102273/unnamed_11_fjufhu.jpg"
           />
         </div>
@@ -2216,8 +2214,8 @@ const medService = () => {
         <h5 class="text-center"><b>ПРИГОТОВЛЕНИЕ ГОЛУБОЙ ГЛИНЫ</b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_13_zjrumv.jpg"
           />
         </div>
@@ -2428,8 +2426,8 @@ const medService = () => {
         </p>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_16_p2kaal.jpg"
           />
         </div>
@@ -2450,8 +2448,8 @@ const medService = () => {
         <h5 class="text-center"><b>Компрессы </b></h5>
         <div class="w-100 mb-5">
           <img
-            class="mx-auto"
-            style="width: 70%; margin: 0 auto;"
+
+
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_17_hg48lf.jpg"
           />
         </div>
@@ -2536,7 +2534,7 @@ const medService = () => {
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614264897/102273/unnamed_18_p1onvt.jpg"
             alt=""
-            class="mx-auto"
+
           />
         </div>
         <p>
