@@ -38,16 +38,3 @@ body.theme-blue-1.theme_11 .wrapper .header .header-wrapper .header-search input
 #search_results > a > div.img {
     display: flex;
 }
-
-.wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul li {
-    flex-wrap: nowrap !important;
-}
-
-.wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul li {
-    justify-content: flex-start !important;
-}
-
-body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy:hover > ul {
-    width: 400px !important;
-    overflow: scroll !important;
-} 
