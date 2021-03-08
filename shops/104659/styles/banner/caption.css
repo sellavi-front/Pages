@@ -16,6 +16,11 @@
   width: 229px;
 }
 
+body.theme-gray .main-slider .btn-theme:hover {
+  background: #000 !important;
+  color: white !important;
+}
+
 
 
 .caption-text a.btn.btn-theme:hover {
