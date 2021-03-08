@@ -18,8 +18,8 @@ if (document.querySelector('.wrapper')) {
   document.querySelector("footer > div.footer-widgets > div > div").insertAdjacentHTML('beforeend', `<div class="col-md-3">${sellaviLogo.outerHTML}</div>`)
   sellaviLogo.remove();
 
-  document.querySelector('body .footer .footer-widgets .row > div:nth-child(1) .widget-title').textContent = 'Обращение по вопросам';
-  document.querySelector("#home > div > footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").textContent = 'Контакты'
+  document.querySelector('footer .footer-widgets .row > div:nth-child(1) .widget-title').textContent = 'Обращение по вопросам';
+  document.querySelector("footer > div.footer-widgets > div.container > div > div:nth-child(1) > div > div > ul > li:nth-child(1) > a").textContent = 'Контакты'
 }
 
 if (location.href.includes('/blog')) {
