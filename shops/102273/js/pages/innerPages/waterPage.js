@@ -412,13 +412,13 @@ export default function waterPage() {
       align-items: center;
       display: flex;
       justify-content: space-between;
-  ">
+  " class="row">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614869157/102273/image1_wpoo4m.jpg"
           style="max-width:200px;"
-          class="float-right"
+          class="float-right col-12 col-md-3"
         />
-        <b class="w-100 text-center"> ВОДА МИНЕРАЛЬНАЯ БИЛИНСКА КИСЕЛКА НЕЗАМЕНИМА ПРИ БОЛЕЗНЯХ ЖКТ </b>
+        <b class="w-100 text-center col-12 col-md-9"> ВОДА МИНЕРАЛЬНАЯ БИЛИНСКА КИСЕЛКА НЕЗАМЕНИМА ПРИ БОЛЕЗНЯХ ЖКТ </b>
       </h6>
       <div>
         <img
@@ -596,15 +596,15 @@ export default function waterPage() {
 
     <div class="sect">
     <h6
-      style="height: 200px; align-items: center; display: flex; justify-content: space-between"
+      style="height: 200px; align-items: center; display: flex; justify-content: space-between" class="row"
     >
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1614870056/102273/image1_1_mlp9rg.jpg"
         style="max-width: 200px"
-        class="float-right"
+        class="float-right col-12 col-md-3"
       />
-      <b class="w-100 text-center">
-        ВОДА МИНЕРАЛЬНАЯ ВИНЦЕНТКА АКТИВАТОР ИММУННОЙ СИСТЕМЫВИНЦЕНТКА
+      <b class="w-100 text-center col-12 col-md-9">
+        ВОДА МИНЕРАЛЬНАЯ ВИНЦЕНТКА АКТИВАТОР ИММУННОЙ СИСТЕМЫ ВИНЦЕНТКА
       </b>
     </h6>
     <div>
@@ -847,14 +847,14 @@ export default function waterPage() {
 
   <div class="sect">
         <h6
-          style="height: 200px; align-items: center; display: flex; justify-content: space-between"
+          style="height: 200px; align-items: center; display: flex; justify-content: space-between" class="row"
         >
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614870993/102273/image1_2_z2uhix.jpg"
             style="max-width: 200px"
-            class="float-right"
+            class="float-right col-12 col-md-3"
           />
-          <b class="w-100 text-center">
+          <b class="w-100 text-center col-12 col-md-9">
             ВОДА МИНЕРАЛЬНАЯ ЗАЙЕЧИЦКАЯ ГОРЬКАЯ<br />
             РЕКОРДНОЕ КОЛИЧЕСТВО МАГНИЯ И МИНЕРАЛОВ
           </b>
@@ -973,14 +973,14 @@ export default function waterPage() {
 
       <div class="sect">
       <h6
-        style="height: 200px; align-items: center; display: flex; justify-content: space-between"
+        style="height: 200px; align-items: center; display: flex; justify-content: space-between" class="row"
       >
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1614871393/102273/image1_3_rr13mb.jpg"
           style="max-width: 200px"
-          class="float-right"
+          class="float-right col-12 col-md-3"
         />
-        <b class="w-100 text-center">
+        <b class="w-100 text-center col-12 col-md-9">
           ВОДА МИНЕРАЛЬНАЯ ПРОЛОМ<br />
           ЭНЕРГИЯ ВУЛКАНА
         </b>
@@ -1097,14 +1097,14 @@ export default function waterPage() {
 
     <div class="sect">
         <h6
-          style="height: 200px; align-items: center; display: flex; justify-content: space-between"
+          style="height: 200px; align-items: center; display: flex; justify-content: space-between" class="row"
         >
           <img
             src="https://res.cloudinary.com/depgheppz/image/upload/v1614872174/102273/image1_4_wcpacd.jpg"
             style="max-width: 200px"
-            class="float-right"
+            class="float-right col-12 col-md-3"
           />
-          <b class="w-100 text-center">
+          <b class="w-100 text-center col-12 col-md-3">
             ВОДА МИНЕРАЛЬНАЯ РУДОЛЬФОВ ПРАМЕН
             <br />
             ИСТОЧНИК ДВУХВАЛЕНТНОГО ЖЕЛЕЗА

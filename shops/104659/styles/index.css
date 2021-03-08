@@ -51,10 +51,3 @@ body strong {
 body.theme_11 .wrapper .header .header-wrapper:not(.mobile_search_active) .container-fluid {
   height: 100px !important;
 }
-
-.col-12 {
-  -webkit-box-flex: 0 !important;
-      -ms-flex: 0 0 100% !important;
-          flex: 0 0 100% !important;
-  max-width: 100% !important;
-}
