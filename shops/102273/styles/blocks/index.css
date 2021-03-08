@@ -76,6 +76,10 @@ footer
   display: none !important;
 }
 
+.buttons-link {
+  margin: 0 !important;
+}
+
 .page-section__ul > li {
   font-family: 'Times New Roman', Times, serif !important;
 }
