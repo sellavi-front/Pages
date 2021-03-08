@@ -54,3 +54,7 @@ body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu >
     width: 400px !important;
     overflow: scroll !important;
 } 
+
+body.theme_11 .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu>li.flexy:hover>ul>li>a {
+    text-align: left !important;
+}
