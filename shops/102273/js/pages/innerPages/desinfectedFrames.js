@@ -132,7 +132,7 @@ export default function desinfectedFrames() {
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772444/102273/Group_7423521_2_ssby9l.png"
     alt=""
     class="mt-3 mb-3"
-    style="margin: 0 auto; width: 75%;"
+    style="margin: 0 auto;"
   />
   </div>
 </div>
