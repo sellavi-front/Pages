@@ -38,42 +38,42 @@ export default function desinfectedFrames() {
 <div class="mb-3">
   <h5 class="text-center mt-5 mb-4"><b>Места использования дезинфицирующего оборудования</b></h5>
   <div class="row places">
-    <div class="col-4 mb-5">
+    <div class="col-12 col-md-4 mb-5">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_111_fdgiqm.png"
         alt=""
       />
       <p>Аэропорты</p>
     </div>
-    <div class="col-4 mb-5">
+    <div class="col-12 col-md-4 mb-5">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_112_dvpaxu.png"
         alt=""
       />
       <p>Вокзалы</p>
     </div>
-    <div class="col-4 mb-5">
+    <div class="col-12 col-md-4 mb-5">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_113_jvjslz.png"
         alt=""
       />
       <p>Торговые центры</p>
     </div>
-    <div class="col-4 mb-5">
+    <div class="col-12 col-md-4 mb-5">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_114_vm1kte.png"
         alt=""
       />
       <p>Предприятия</p>
     </div>
-    <div class="col-4 mb-5">
+    <div class="col-12 col-md-4 mb-5">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_116_xh0gen.png"
         alt=""
       />
       <p>Учебные заведения</p>
     </div>
-    <div class="col-4 mb-5">
+    <div class="col-12 col-md-4 mb-5">
       <img class="mb-3"
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612771346/102273/image_115_ybqmxq.png"
         alt=""
