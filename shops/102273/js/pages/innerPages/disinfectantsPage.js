@@ -9,7 +9,7 @@ const disinfectantsPages = () => {
         <a href="${url}#1" class="id_link">1. «ПОЛИСЕПТ» ® - дезинфицирующее средство против коронавируса от производителя</a>
       </li>
       <li class="mb-2">
-        <a href="${url}#2" class="id_link">2. «ПОЛИСЕПТ ДЕЗ» ® </a>
+        <a href="${url}#1" class="id_link">2. «ПОЛИСЕПТ ДЕЗ» ® </a>
       </li>
       <li class="mb-2">
         <a href="${url}#3" class="id_link">3. ДеФлок</a>
@@ -144,7 +144,7 @@ const disinfectantsPages = () => {
     </p>
   </div>
 
-  <div class="sect" id="2">
+  <div class="sect" id="3">
     <h3><b>2. Реагент ДеФлок® (дезинфицирующее средство «ДеФлок»)</b></h3>
     <div class="flex-wrap">
       <p><b>
@@ -158,7 +158,7 @@ const disinfectantsPages = () => {
     </div>
   </div>
 
-  <div class="sect" id="3">
+  <div class="sect" id="4">
     <h3><b>3. Обеззараживание средством «S-Pro»</b></h3>
     <div class="row flex-wrap">
       <p class="mb-2">
@@ -185,7 +185,7 @@ const disinfectantsPages = () => {
     </div>
   </div>
 
-  <div class="sect" id="4">
+  <div class="sect" id="5">
     <h3><b>4. «ARGITOS ® ДЕЗ»</b></h3>
     <div class="row flex-wrap">
       <div class=" col col-md-8">
