@@ -1841,7 +1841,7 @@ const medTech = () => {
   Уникальная неинвазивная и неагрессивная технология, основанная на абсолютно естественной и физиологичной механической стимуляции ткани. Активируя естественные природные механизмы, технология повышает клеточный метаболизм, уменьшая биологический возраст тканей и замедляя процессы старения. Endermologie позволяет одинаково эффективно избавиться от нежелательных жировых отложений и восстановить качество ослабленной увядающей кожи, бережно относясь к экологии тела.
   </p>
   <h6 class="text-center"><b>НИКОГДА НЕ РАСПЛАЧИВАЙСЯ ЗДОРОВЬЕМ ЗА КРАСОТУ!</b></h6>
-  <h6 class="text-center">ТРЕБУЙ ДЛЯ СЕБЯ САМОГО ЛУЧШЕГО!</h6>
+  <h6 class="text-center"><b>ТРЕБУЙ ДЛЯ СЕБЯ САМОГО ЛУЧШЕГО!</b></h6>
   <div class="mt-4 mb-4 row">
     <a href="https://docviewer.yandex.ru/view/294148221/?*=NY8M5Y96tXOYWfRC4bG4hmu2sCp7InVybCI6InlhLWRpc2stcHVibGljOi8vUG10ODRBN1JESHdrY3ljZGZzUXZjMnF1ZEc2K0pWZ3RlTlU3ZGdYeFNzVWZCWitDeHlFVDdqQldFN2loMFVnSXEvSjZicG1SeU9Kb25UM1ZvWG5EYWc9PSIsInRpdGxlIjoiOS4g0LHRg9C60LvQtdGCINCw0LvRjNGP0L3RgS5wZGYiLCJub2lmcmFtZSI6ZmFsc2UsInVpZCI6IjI5NDE0ODIyMSIsInRzIjoxNjE0MzQ2ODAzMDQyLCJ5dSI6IjY2NTUzMjU4MDE1Nzk3MjI3NTgifQ%3D%3D" class="button_link mb-2">Презентация</a>
   </div>
