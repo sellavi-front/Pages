@@ -92,6 +92,12 @@ body.information-information-6757 .content-area .page-section.titles > div {
     no-repeat !important;
 }
 
+body.information-information-6757 .content-area .page-section.titles > div {
+  background: url('https://res.cloudinary.com/depgheppz/image/upload/v1615191521/102273/Frame_313_p4lucj.png')
+    no-repeat !important;
+}
+
+
 body.product-category .content-area .page-section.titles {
   height: 460px;
   background-position: right;
