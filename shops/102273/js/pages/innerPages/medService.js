@@ -26,6 +26,7 @@ const medService = () => {
             <img
               src="https://res.cloudinary.com/depgheppz/image/upload/v1613727205/b-0-RtkIOQknjkzwi2PNbSX2JbnlJZCq2aoAA2SuTPxXnh08HKQKfQGYHah06JIIccIG4oN0xTsYO3l6OCDVByC87LOA_-nwPBbm7dH9olg_1_um4m3x.jpg"
               class="w-100 h-100"
+              style="object-fit: cover;"
             />
           </div>
           <p>
