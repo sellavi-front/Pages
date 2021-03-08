@@ -62,3 +62,7 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(5) > a {
 body.ltr.ru .wrapper .latest-section h2.section-title {
     text-align: center !important;
 }
+
+body.ru.ltr .wrapper .header .navigation-wrapper nav.navigation ul.nav.sf-menu > li.flexy.has_children:hover > ul {
+    top: 28px !important;
+}
