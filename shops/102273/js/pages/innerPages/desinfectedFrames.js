@@ -89,7 +89,7 @@ export default function desinfectedFrames() {
   <p>
     Федеральный округ Приволжский. Регион производства – Кировская область Система «Эко-Шлюз»
   </p>
-  <div class="mb-5 w-100 row">
+  <div class="mb-5 w-100 row buttons-link">
     <a href="https://disk.yandex.ru/d/AliRWgDUlYheXQ?w=1" class="button_link">Эко-Шлюз. Документация</a>
     <a href="https://disk.yandex.ru/d/K0LrZX0KB9ynVA?w=1" class="button_link">Эко-Шлюз. Презентации</a>
     <a href="https://disk.yandex.ru/d/uweKWBB51R5JPA?w=1" class="button_link">Эко-Шлюз. Документация и презентации на иностранных языках</a>
@@ -178,7 +178,7 @@ export default function desinfectedFrames() {
     минимуму риск повреждения электрическим током.
   </p>
   <div class="row">
-    <div class="col">
+    <div class="col col-sm-12">
       <img
         src="https://res.cloudinary.com/depgheppz/image/upload/v1612772893/102273/shapka-gotovaja-2_1_1_xeczyj.png"
         alt=""
@@ -208,7 +208,7 @@ export default function desinfectedFrames() {
         возможностей «ЭкоШлюз», уже приняты и выполняются.
       </p>
     </div>
-    <div class="mb-5 w-100 row">
+    <div class="mb-5 w-100 row buttons-link">
       <a href="#" class="button_link">"Полисепт" прайс-лист</a>
     </div>
   </div>
@@ -224,7 +224,7 @@ export default function desinfectedFrames() {
           styles="object-fit: cover;"
         />
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_123_hxa1w1.png"
           alt=""
@@ -232,7 +232,7 @@ export default function desinfectedFrames() {
           styles="object-fit: cover;"
         />
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-12">
         <img
           src="https://res.cloudinary.com/depgheppz/image/upload/v1612773049/102273/image_124_aliwx2.png"
           alt=""
