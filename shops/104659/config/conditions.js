@@ -9,6 +9,7 @@ const pages = {
   register: document.querySelector('.account-register'),
   sitemap: document.querySelector('.information-sitemap'),
   blog: document.querySelector('.module-blog'),
+  search: document.querySelector('.product-search'),
   all: document.querySelector('.wrapper')
 }
 

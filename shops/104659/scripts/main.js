@@ -12,7 +12,7 @@ import setBannerCaption from './setBannerCaption.js';
 import setTextCategories from './setTextCategories.js';
 // import removeDefis from './removeDefis.js';
 
-if (pages.all) {
+if (pages.all || pages.search) {
   header()
   changeTitleBlogToNews();
   // removeDefis();
