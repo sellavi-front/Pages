@@ -1,5 +1,5 @@
-import CreateAddContainer from '../../../modules/CreateAddContainer/CreateAddContainer.js';
-import NavTransferTo from '../../../modules/NavTransferTo/NavTransferTo.js';
+import CreateAddContainer from '../../../../modules/CreateAddContainer/CreateAddContainer.js';
+import NavTransferTo from '../../../../modules/NavTransferTo/NavTransferTo.js';
 
 const header = () => {
   const headerWidgets = document.querySelector('.header_widgets');
