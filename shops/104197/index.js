@@ -2,9 +2,8 @@ import Requisites from '../../modules/Requisites/Requisites.js';
 import {requsites, dataContact } from './utils/accuring/requsites.js'
 import '../../fixes/js/FooterCopy/FooterCopy.js';
 import '../../fixes/js/TranslateAboutUs/TranslateAboutUs.js'
+import '../../templates/TemplateTypeTwo/TemplateTypeTwo.js';
 import '../../fixes/js/ChangeAgreement/ChangeAgreement.js';
-import '../../components/PictureCategories/PictureCategories.js';
-import './utils/accuring/header.js';
 // import '../../modules/ButtonContainerInProduct/ButtonContainerInProduct.js';
  
 if (document.querySelector('.common-home')) {
