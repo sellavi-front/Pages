@@ -1168,7 +1168,7 @@ export default function medicalFood() {
     />
   </div>
 
-  <div class="sect">
+  <div class="sect" id="5">
     <h3><b>5. СПЕЦИАЛИЗИРОВАННОЕ ПРОФИЛАКТИЧЕСКОЕ ПИТАНИЕ ДЛЯ ДЕТОКСИКАЦИИ ОРГАНИЗМА</b></h3>
     <div class="mb-5 row">
       <img
