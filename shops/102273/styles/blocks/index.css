@@ -76,6 +76,10 @@ footer
   display: none !important;
 }
 
+.page-section__ul > li {
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
 #sellavi_logo {
   margin: 20px auto 0;
 }
