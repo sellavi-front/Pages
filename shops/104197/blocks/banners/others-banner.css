@@ -47,11 +47,11 @@ header > div.navigation-wrapper > div > nav > ul > li:nth-child(1) > a {
     padding-bottom: 0px;
 }
 
-header > div.navigation-wrapper > div > nav > ul > li:nth-child(5) > a {
+header > div.navigation-wrapper > div > nav > ul > li:nth-child(8) > a {
     color: red !important;
 }
 
- header > div.navigation-wrapper > div > nav > ul > li:nth-child(6) > a {
+ header > div.navigation-wrapper > div > nav > ul > li:nth-child(9) > a {
     color: red !important;
 }
 
