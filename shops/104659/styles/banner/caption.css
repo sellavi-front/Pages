@@ -16,12 +16,11 @@
   width: 229px;
 }
 
-body.theme-gray .main-slider .btn-theme:hover {
+body.theme-gray .main-slider .btn-theme:hover,
+body.ru .wrapper .homefeatured_category > div > div > div > .thumbnail .media .media-link .caption .caption-wrapper .caption-inner span.btn:hover {
   background: #000 !important;
   color: white !important;
 }
-
-
 
 .caption-text a.btn.btn-theme:hover {
   background: rgba( 248, 255, 253, 0.30 );
