@@ -46,7 +46,7 @@ export default function charityPage() {
         <p><b>МЕДИЦИНСКИЕ БРЮКИ</b></p>
       </div>
       <div class="col-md-4 text-center mb-50px">
-        <img class="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/01011ecb61cb9a3438f33ff760ebbfa7_1_gxrbbx.png" alt="">
+        <img class="mb-20px" src="https://res.cloudinary.com/depgheppz/image/upload/v1612091115/102273/01011ecb61cb9a3438f33ff760ebbfa7_1_gxrbbx.png" style="max-width: 336px;">
         <p><b>МЕДИЦИНСКИЕ БЛУЗЫ</b></p>
       </div>
     </div>
