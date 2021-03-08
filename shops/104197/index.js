@@ -18,9 +18,10 @@ if (document.querySelector('.common-home')) {
     document.querySelector('#home > div > div.content-area > div.custom_section > div:nth-child(1) > img').setAttribute('src', 'https://res.cloudinary.com/dtqqfmyqb/image/upload/v1614858703/Group_7423565_jk9ol7.png')
   } 
 }
-
+window.onload = () => {
 if (document.querySelector('.information-information')) {
   document.querySelector('#content > div > div:nth-child(2) > section.delivery__right > p').innerHTML = '140 р'
+}
 }
 
 if (location.href.includes('term-of-use')) { 
