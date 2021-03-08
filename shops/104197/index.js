@@ -19,7 +19,7 @@ if (document.querySelector('.common-home')) {
   } 
 }
 
-if (document.querySelector('.information-information-8193')) {
+if (document.querySelector('.information-information')) {
   document.querySelector('#content > div > div:nth-child(2) > section.delivery__right > p').innerHTML = '140 р'
 }
 
