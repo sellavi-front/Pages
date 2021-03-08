@@ -97,6 +97,10 @@ body.information-information-9293 .content-area .page-section.titles > div {
     no-repeat !important;
 }
 
+body.information-information-9293 .content-area .page-section.titles > div h1 {
+  color: black !important;
+}
+
 
 body.product-category .content-area .page-section.titles {
   height: 460px;
