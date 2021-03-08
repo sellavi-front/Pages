@@ -127,11 +127,14 @@ export default function desinfectedFrames() {
     объекты различной направленности.
   </p>
 
+  <div class="w-100">
   <img
     src="https://res.cloudinary.com/depgheppz/image/upload/v1612772444/102273/Group_7423521_2_ssby9l.png"
     alt=""
     class="mt-3 mb-3"
+    style="margin: 0 auto; width: 75%;"
   />
+  </div>
 </div>
 
 <div class="mb-3">
@@ -527,7 +530,7 @@ export default function desinfectedFrames() {
   </div>
 </div>
 <div class="mb-4 mt-3">
-  <h3><b>Класс – «МИНИ»</b></h3>
+  <h3 class="text-center"><b>Класс – «МИНИ»</b></h3>
   <p>Федеральный округ Центральный. Регион производства – Москва</p>
   <div class="row mb-3">
     <div class="col">
