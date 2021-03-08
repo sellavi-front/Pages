@@ -3158,7 +3158,7 @@ const medService = () => {
 
       <div>
         <div class="sect">
-          <h3><b>Дары природы Горного Алтая </b></h3>
+          <h3 class="text-center"><b>Дары природы Горного Алтая </b></h3>
           <div class="row mb-5">
             <h6 class="w-100 text-center"><b>Бадан лист</b></h6>
             <div class="col-md-4 col-12">
